@@ -1,5 +1,6 @@
 extends RefCounted
 ## Authoring only. No GameState, clocks, resources or movement services.
+const Footprint=preload("res://r3_authoring/line_footprint.gd")
 const Source=preload("res://p4/settlement_host.gd")
 const Document=preload("res://addons/strategic_map_editor/document.gd")
 const PatchEngine=preload("res://r3_authoring/patch_engine.gd")
@@ -18,6 +19,9 @@ var _input_hash: String=""
 var _water_bounds: Array=[]
 var _generated_cache: Dictionary={}
 var _safe_cache: Dictionary={}
+var _line_cache: Dictionary={}
+var _bootstrap:=true
+var _geometry_accepted: Dictionary={}
 var _validator=Document.new()
 func canonical(value: Variant)->String:return PatchEngine.canonical(value)
 func digest(value: Variant)->String:return canonical(value).sha256_text()
@@ -32,6 +36,7 @@ func _init()->void:
 		_water_bounds.append(bounds.grow(50))
 	state={"schema_version":1,"revision":0,"generator_version":GENERATOR,"region_settings":source.authoring.region_settings,"objects":{},"patches":{},"tombstones":{},"pins":{},"zone_pins":{},"zones":{},"feature_patches":{}}
 	state.objects=_assemble(state).objects
+	_bootstrap=false;_safe_cache.clear();_geometry_accepted=_geometry_signatures(state.objects)
 	error=_validate(state)
 func snapshot()->Dictionary:return state.duplicate(true)
 func rect_points(bounds: Array)->Array:
@@ -59,12 +64,13 @@ func spatial_query(bounds: Array)->Array:
 		if overlaps(rect_points(bounds),rect_points(paint_bounds(state.objects[id]))):result.append(id)
 	result.sort();return result
 func _safe(object: Dictionary)->String:
+	if _bootstrap:return _legacy_safe_uncached(object)
 	var key=str(object.position_m)
 	if _safe_cache.has(key):return _safe_cache[key]
 	var value=_safe_uncached(object)
 	if _safe_cache.size()>2048:_safe_cache.clear()
 	_safe_cache[key]=value;return value
-func _safe_uncached(object: Dictionary)->String:
+func _legacy_safe_uncached(object: Dictionary)->String:
 	var footprint=rect_points(paint_bounds(object))
 	var object_rect=Rect2(Vector2(footprint[0][0],footprint[0][1]),Vector2(100,100))
 	for slot in source.layout.slots:
@@ -78,6 +84,35 @@ func _safe_uncached(object: Dictionary)->String:
 	for p in footprint:
 		if source._distance_to_line(Vector2(p[0],p[1]),source.layout.fixed_refs.main_corridor)<40:return "main_corridor_footprint"
 	return ""
+func _band_hits(box: Rect2,points: Array,width: float,closed:=false)->bool:
+	var key=str(hash(points))+"|"+str(width)+"|"+str(closed)
+	if not _line_cache.has(key) or _line_cache[key].raw!=points:
+		if _line_cache.size()>64:_line_cache.clear()
+		_line_cache[key]={"raw":points.duplicate(true),"segments":Footprint.prepare(points,width,closed)}
+	return Footprint.intersects(box,_line_cache[key].segments,width)
+func _safe_uncached(object: Dictionary)->String:
+	var corners=rect_points(paint_bounds(object));var box=Rect2(Vector2(corners[0][0],corners[0][1]),Vector2(100,100))
+	for slot in source.layout.slots:
+		if overlaps(corners,slot.polygon_local_m):return "reserved_building_footprint"
+	for i in source._water_features.size():
+		if not box.intersects(_water_bounds[i]):continue
+		var water: Dictionary=source._water_features[i];var polygon=water.geometry=="polygon"
+		if polygon and overlaps(corners,water.points_m):return "water_footprint"
+		if _band_hits(box,water.points_m,15.0 if polygon else 45.0,polygon):return "water_buffer"
+	if _band_hits(box,source.layout.fixed_refs.main_corridor,40):return "main_corridor_footprint"
+	return ""
+func _geometry_signatures(objects: Dictionary)->Dictionary:
+	var values={}
+	for id in objects:values[id]=digest(paint_bounds(objects[id]))
+	return values
+func geometry_conflicts(objects: Variant=null)->Array:
+	var result=[];var records: Dictionary=state.objects if objects==null else objects
+	for id in records:
+		var reason=_safe(records[id])
+		if not reason.is_empty():result.append({"id":id,"reason":reason,"footprint_m":rect_points(paint_bounds(records[id])),"action":"report_only"})
+	return result
+func _new_geometry_conflicts(objects: Dictionary)->Array:
+	return geometry_conflicts(objects).filter(func(row):return _geometry_accepted.get(row.id,"")!=digest(paint_bounds(objects[row.id])))
 func _generate(region: Dictionary,settings: Dictionary)->Dictionary:
 	var key=str(region.id)+digest(settings)
 	if not _generated_cache.has(key):
@@ -96,6 +131,8 @@ func _assemble(candidate: Dictionary)->Dictionary:
 			var object: Dictionary=generated[id]
 			if candidate.tombstones.has(id) or retained.has(id):continue
 			var reason=_safe(object)
+			# Preserve an unchanged record accepted by the old geometry contract.
+			if not reason.is_empty() and candidate.objects.has(id) and digest(paint_bounds(candidate.objects[id]))==digest(paint_bounds(object)) and _legacy_safe_uncached(object).is_empty():reason=""
 			for zone in candidate.zones.values():
 				if touched(object,zone):reason="zone_"+zone.kind;break
 			if reason.is_empty():
@@ -129,7 +166,7 @@ func _validate(value: Variant)->String:
 	for id in value.objects:
 		var object: Variant=value.objects[id]
 		if not _object_issue(object,id).is_empty():return "制作对象格式或坐标无效。"
-		if not _safe(object).is_empty():return "对象完整占地侵入水域、建设地块或主通道。"
+		if not _legacy_safe_uncached(object).is_empty():return "对象完整占地侵入水域、建设地块或主通道。"
 	for field in ["pins","zone_pins"]:
 		for id in value[field]:
 			if not _object_issue(value[field][id],id).is_empty() or value.tombstones.has(id) or digest(value[field][id])!=digest(value.objects.get(id)):return "冻结记录无效或与对象不符。"
@@ -161,10 +198,12 @@ func _feature_issue(id: String,points_m: Array)->String:
 func _normal(value: Dictionary)->String:
 	var copy=value.duplicate(true);copy.erase("revision");return digest(copy)
 func _adopt(candidate: Dictionary,action: String,details: Dictionary={},history:=true)->Dictionary:
+	var geometry=_new_geometry_conflicts(candidate.objects)
+	if action not in ["undo","redo"] and not geometry.is_empty():return {"ok":false,"message":"新增或移动占地与通道/水系冲突，当前版本保持。","conflicts":geometry}
 	var issue=_validate(candidate)
 	if not issue.is_empty():return fail(issue)
 	if not _validator.validate(_v4(candidate)).is_empty():return fail("候选不能通过原v4文档校验。")
-	var before=snapshot();candidate.revision=int(state.revision)+1;state=candidate.duplicate(true);_pending.clear()
+	var before=snapshot();candidate.revision=int(state.revision)+1;state=candidate.duplicate(true);_geometry_accepted=_geometry_signatures(state.objects);_pending.clear()
 	if history:
 		undo_stack.append({"before":before,"after":snapshot()});redo_stack.clear()
 		if undo_stack.size()>100:undo_stack.pop_front()
@@ -291,7 +330,8 @@ func preview_candidate(proposal: Dictionary)->Dictionary:
 	var conflicts=_conflicts(proposal)
 	if conflicts.is_empty():
 		for id in proposal.objects:
-			if not _object_issue(proposal.objects[id],id).is_empty() or not _safe(proposal.objects[id]).is_empty():return fail("候选对象格式或完整占地无效。")
+			if not _object_issue(proposal.objects[id],id).is_empty():return fail("候选对象格式无效。")
+		if not _new_geometry_conflicts(proposal.objects).is_empty():return {"ok":false,"message":"候选完整占地无效。","conflicts":_new_geometry_conflicts(proposal.objects)}
 	return {"ok":conflicts.is_empty(),"message":"外部候选检查通过。" if conflicts.is_empty() else "候选冲突，整批未提交。","conflicts":conflicts,"candidate_objects":proposal.objects.duplicate(true)}
 func preview_conflict(kind: String)->Dictionary:
 	var proposal={"generator_version":GENERATOR,"objects":state.objects.duplicate(true),"features":[]}
@@ -380,7 +420,7 @@ func read_save(path: String)->Dictionary:
 		var result=_read_candidate(candidate)
 		if not result.ok:last_error=result.get("message",last_error);continue
 		var value: Dictionary=result.value
-		state=value.state.duplicate(true);journal=value.journal.duplicate(true);undo_stack=value.undo.duplicate(true);redo_stack=value.redo.duplicate(true);_counter=int(value.id_counter);_pending.clear()
+		state=value.state.duplicate(true);_geometry_accepted=_geometry_signatures(state.objects);journal=value.journal.duplicate(true);undo_stack=value.undo.duplicate(true);redo_stack=value.redo.duplicate(true);_counter=int(value.id_counter);_pending.clear()
 		return {"ok":true,"recovered":candidate!=path,"message":"已恢复完整备用制作版本："+candidate if candidate!=path else "已重读完整制作版本。"}
 	return fail(last_error)
 func publication()->Dictionary:
@@ -394,6 +434,8 @@ func publication()->Dictionary:
 		if state.feature_patches.has(road.id):road.points_m=state.feature_patches[road.id].points_m.duplicate(true)
 	var value={"schema_version":1,"publication_kind":"tongguan_r3_authoring","layout_version":source.layout.layout_version,"generator_version":GENERATOR,"source_input_sha256":_input_hash,"coordinate_contract":{"source_origin_m":ORIGIN.duplicate(),"unit":"meter","anchor_feature_id":"tongguan.gate.main","site_id":"tongguan"},"source_v4":export_v4(),"patch_sidecar":snapshot(),"runtime_authoring":runtime,"fixed_refs_sha256":digest(source.layout.fixed_refs),"layout_slots_sha256":digest(source.layout.slots),"logic_authority":"unchanged_native_runtime","source_asset_mapping":{"art_01":"tree_willow","art_02":"tree_grove"}};value.content_sha256=digest(value);return value
 func publish(path: String)->Dictionary:
+	var geometry=_new_geometry_conflicts(state.objects)
+	if not geometry.is_empty():return {"ok":false,"message":"未采用的新对象存在完整占地冲突，未发布。","conflicts":geometry}
 	var issue=_validate(state)
 	if not issue.is_empty():return fail(issue)
 	var value=publication();var folder=path.get_base_dir().path_join("publications/"+str(value.content_sha256).left(20))
@@ -404,4 +446,4 @@ func publish(path: String)->Dictionary:
 		else:
 			var written=_atomic_write(destination,entry[1])
 			if not written.ok:return written
-	var result=_atomic_write(path,value,2*1024*1024);result.source_map_path=ProjectSettings.globalize_path(folder.path_join("source.map.json"));return result
+	var result=_atomic_write(path,value,2*1024*1024);result.source_map_path=ProjectSettings.globalize_path(folder.path_join("source.map.json"));result.geometry_conflicts=geometry_conflicts();return result

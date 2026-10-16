@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "baseline_commit": "26a45be93e62fc56199ed42d98895926380383c5",
+  "sealed_sources_checked": 580,
+  "sealed_windows": {
+    "TongguanFinal.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanAuthoring.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanFinal.pck": "16de08788dcb662ce82c4a6abe964b2ed95ec249100cd3ccede7b0a99f4fc072",
+    "TongguanAuthoring.pck": "4b458cf6437e4db7106971d5f4a86ea963eb1be1d2c69849c049842a0fc2b500"
+  },
+  "sealed_zip_sha256": "daace306044b00077a81cdbd4b63a36dadb8f3721011c214ec5becf68c85c6d8",
+  "protected_baseline_files": 146,
+  "unchanged_sample_images": [
+    {
+      "path": "docs/screenshots/tongguan_authoring.png",
+      "sha256": "b00899170caa448be2b5c7485560ebf7df73ed77238fca2ddfa84a45bdc470a0"
+    },
+    {
+      "path": "docs/screenshots/tongguan_close.png",
+      "sha256": "3ae6bf63249712e735c08aec42cfe7a9e2c6ecc34cb904614296780a1b7fe812"
+    },
+    {
+      "path": "docs/screenshots/tongguan_geography.png",
+      "sha256": "adaf0fcc437accf9a7a7827e1dae5bdbdc7964fc8e558531d21ab4fc15146689"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/bundle/art/gate_eastwest.png",
+      "sha256": "971dbffc6bfe5c947e5f9541fb68c12d5712f23c26bfd94566c904880c7fe16d"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/bundle/art/trees.png",
+      "sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/bundle/slope.png",
+      "sha256": "bbfe8d03184c584f31132ef6702edbcebf70f575a4f2904bcda5b69deb1f3e38"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/bundle/terrain/0_0.png",
+      "sha256": "645d179939f7680ef43713d737b5fa3a363155853fd923032b2d01d71e470337"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/bundle/terrain/0_256.png",
+      "sha256": "e744eb4b1e4e5e433a6176a539d39638eeb703068ca5fe7997bf7f0bb9663926"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/bundle/terrain/256_0.png",
+      "sha256": "30d4a52c65ecda79d4b82c14d053716a06ea03af4785dde7a79926bbb07f6531"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/bundle/terrain/256_256.png",
+      "sha256": "1ad051d79ef96d3b25f3ff8f66876f249690326c05dc1b43fb5ff1a1cd270e70"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/bundle/terrain/512_0.png",
+      "sha256": "a29a9a20c394a3136e2ddf8b7a46a774d590901e12ece8aa2e5fcebfc2cbb530"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/bundle/terrain/512_256.png",
+      "sha256": "84d7790d230840a92b624525421df9ff04f5bfe6da866ada79487349a23a81d6"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/bundle/terrain_fallback.png",
+      "sha256": "f67d357996b50fe4f24ef75ffa7afce9b720e9a25f53c589f4016201bc0c3313"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/bundle/terrain_reference.png",
+      "sha256": "333f8a97e2154ab610596ce5b19ff1bb92310f2cea2ff85739a013e3474c27f8"
+    }
+  ],
+  "baseline_checkout_head": "26a45be93e62fc56199ed42d98895926380383c5",
+  "baseline_checkout_clean": true,
+  "main_workspace_exact_git_state": "not claimed; no initial full-state snapshot",
+  "errors": []
+}

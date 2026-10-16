@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "build_id": "tongguan_v01_final_20261015_03",
+  "build_id": "tongguan_v01_revfix_20261015_02",
   "component": "authoring",
   "world_id": "tongguan_final_validation_v1",
   "scenario_year": 756,
@@ -600,8 +600,8 @@
     },
     {
       "path": "export_presets.cfg",
-      "sha256": "14a562a0eade2424f24752e4f1f040052a33643c0939fbcdfae2b87113abb558",
-      "bytes": 567
+      "sha256": "73c05cc872d9718efdda85950b9e64b0ace2ac8e763fb521d10c3c626979ae07",
+      "bytes": 423
     },
     {
       "path": "final/acceptance.gd",
@@ -635,8 +635,8 @@
     },
     {
       "path": "final/ui.gd",
-      "sha256": "0aa650a1a393cf477963c1d2e81442a9c0f1537322656ba203a67c123cd2b27d",
-      "bytes": 1665
+      "sha256": "3829ecdeee5ef5ac7050c3cc060d71d2d058ad94dddbac5fc683e8e581ca4c2a",
+      "bytes": 2148
     },
     {
       "path": "p3/generated/modern_water.json",
@@ -679,6 +679,11 @@
       "bytes": 5003
     },
     {
+      "path": "r3_authoring/line_footprint.gd",
+      "sha256": "8634aa701b0575f62387ebf6f4c7154a2d8b3a295268a6868cf74574820b4c6c",
+      "bytes": 1735
+    },
+    {
       "path": "r3_authoring/main.tscn",
       "sha256": "01e10b7e1cf7c50d751ff4c46846450c980c923b5f23fa7727a406758e6b0259",
       "bytes": 171
@@ -690,8 +695,8 @@
     },
     {
       "path": "r3_authoring/resolver.gd",
-      "sha256": "249bc44a9ec12742a5d98edb9c2ddaa4d8087717dc7155f039c03eaf78425a95",
-      "bytes": 30836
+      "sha256": "a293a8a82e7c74d7b2cfcfb691d3b4979a3a01f0debfcc1f1027c6a77cadaae9",
+      "bytes": 33966
     },
     {
       "path": "r3_authoring/trees.png",
@@ -707,6 +712,11 @@
       "path": "r3_authoring/workshop.tscn",
       "sha256": "df34b88137126fa7892f51a331690c812a41d57e045fb8bc9e4a704bf7a04b3d",
       "bytes": 287
+    },
+    {
+      "path": "tests/capture_review_baseline.gd",
+      "sha256": "572fd0593bed31d0ff1794adafafb01e30eaac8db32227f65234abb8984637c2",
+      "bytes": 564
     },
     {
       "path": "tests/test_final_layout.gd",
@@ -727,6 +737,12 @@
       "path": "tests/test_r3_size_guard.gd",
       "sha256": "cbf305cbc1a663781124560751547e76db2c4131f5aa0aab6f196a1392feae19",
       "bytes": 951
+    },
+    {
+      "path": "tests/test_review_geometry.gd",
+      "sha256": "b1545b641af865aeaea410daf261054e5d4d6813f0443b9b359c0bbd25253e7a",
+      "bytes": 5689
     }
-  ]
+  ],
+  "baseline_commit": "26a45be93e62fc56199ed42d98895926380383c5"
 }

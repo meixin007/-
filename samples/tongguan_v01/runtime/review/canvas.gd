@@ -135,6 +135,7 @@ func _army_overlay()->Array:
 		draw_colored_polygon(PackedVector2Array([at+Vector2(0,-30),at+Vector2(20,-25),at+Vector2(0,-18)]),tint)
 	return [{"id":"army","priority":90,"at":at+Vector2(-55,-58),"size":Vector2(135,22),"text":"验收队 · 100人","color":Color("263f45")}]
 func _draw()->void:
+	last_tree_draws.clear()
 	if baseline_view:
 		super._draw()
 		return
@@ -169,9 +170,8 @@ func _draw()->void:
 		# Extend the visible design line to the real rear-road socket. It remains dashed.
 		_path(model.host.layout.fixed_refs.main_corridor,Color("b5996c",0.8),maxf(1.2,model.zoom*3),true)
 	if show_trees and model.lod>=2:
-		var trees: Array=model.host.authoring.generated.values()
-		trees.sort_custom(func(a: Dictionary,b: Dictionary):return float(a.position_m[1])<float(b.position_m[1]))
-		for tree in trees:_tree(tree)
+		var plan=Instances.plan(model.host.authoring.generated.values())
+		for entry in plan.entries:_tree(entry.record)
 	if model.lod>=2:_courtyards()
 	_registered_routes()
 	var site: Vector2=model.site_screen(size)

@@ -1,0 +1,11 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+REVIEW_GEOMETRY {"checks":19,"failures":["actual corridor crosses interior while all four corners exceed40m","road threshold [0, 22.4]","water endpoint inside","add refuses unsafe footprint without state change","move refuses interior crossing and keeps old object","new generated crossing is reported as skipped, not adopted","publish rejects an unadopted newly unsafe object","read-only geometry report exists"]}
+FAIL actual corridor crosses interior while all four corners exceed40m
+FAIL road threshold [0, 22.4]
+FAIL water endpoint inside
+FAIL add refuses unsafe footprint without state change
+FAIL move refuses interior crossing and keeps old object
+FAIL new generated crossing is reported as skipped, not adopted
+FAIL publish rejects an unadopted newly unsafe object
+FAIL read-only geometry report exists

@@ -21,6 +21,8 @@ func run(boot: Node)->void:
 	DirAccess.make_dir_recursive_absolute(output.get_base_dir())
 	var mode=argument("--mode=","verify");tree.create_timer(420).timeout.connect(func():printerr("R5_NATIVE_TIMEOUT");tree.quit(1))
 	if OS.get_cmdline_user_args().has("--expect-release"):check(not OS.is_debug_build(),"actual final Release template")
+	if mode=="tree_edges":
+		var edges=load("res://review/tree_edge_acceptance.gd").new();await edges.run(boot);return
 	var started=Time.get_ticks_usec();var cache=root.get_node("Session").cache
 	if mode=="verify":cache.suspended=true;cache.ready=false;cache.detail_blend=0
 	var app=new_app();await frames(5)
@@ -68,7 +70,14 @@ func verify(app)->void:
 		var diff=absi(a[i]-b[i]);sum+=diff;peak=maxi(peak,diff)
 	ready_metrics.terrain_tile_rgb_mean_8bit=sum/(a.size()*0.75);ready_metrics.terrain_tile_channel_max=peak
 	check(ready_metrics.terrain_tile_rgb_mean_8bit<0.1 and peak<=3,"tiled terrain matches continuous reference with bleed")
-	check(app.model.host.authoring.generated.size()==app.model.host.authoring.generated.keys().size() and cache.tile_textures.size()==6,"unique object ownership and six cached tiles")
+	var ownership=load("res://runtime/instance_index.gd")
+	var index=ownership.plan(app.model.host.authoring.generated.values())
+	check(index.ok and ownership.audit(index.entries).ok and cache.tile_textures.size()==6,"source records each have one derived owner; six terrain tiles")
+	app.model.focus_forest();app.refresh();await frames()
+	check(not app.canvas.last_tree_draws.is_empty() and ownership.audit(app.canvas.last_tree_draws).ok,"actual visible renderer submissions have unique IDs and correct owners")
+	check(index.memberships.values().any(func(chunks):return chunks.size()>1),"real source includes cross-chunk footprints")
+	app.model.pan_pixels(Vector2(512*app.model.zoom,0));app.refresh();await frames()
+	check(ownership.audit(app.canvas.last_tree_draws).ok,"pan across chunk boundary submits each visible object once")
 	await key(KEY_4);app.tabs.current_tab=0;await frames()
 	var cash=app.army().economy().cash;await click(app.quote_button);await click(app.build_button)
 	check(app.army().economy().cash<cash,"warehouse construction spends actual account")
@@ -148,9 +157,9 @@ func synthetic_load(app)->void:
 		while Time.get_ticks_usec()-started<3000000:
 			for canvas in displays:canvas.queue_redraw()
 			await tree.process_frame;var now=Time.get_ticks_usec();times.append((now-previous)/1000.0);previous=now
-		report.append({"display_copies":count,"frame_p95_ms":percentile(times,0.95),"frame_p99_ms":percentile(times,0.99),"frames":times.size()});boot_node.remove_child(grid);grid.queue_free();await frames(6)
+		report.append({"display_copies":count,"frame_p95_ms":percentile(times,0.95),"frame_p99_ms":percentile(times,0.99),"frames":times.size(),"execution_passed":true,"budget_passed":percentile(times,0.95)<=16.7 and percentile(times,0.99)<=25});boot_node.remove_child(grid);grid.queue_free();await frames(6)
 	check(app.army().context.state.military_forces.size()==1,"synthetic display copies do not create worlds or forces")
-	await finish_final(app,{"synthetic_display_load":report,"scope":"copies of existing display only; not additional historical nodes"})
+	await finish_final(app,{"execution_passed":true,"all_display_budgets_passed":report.all(func(row):return row.budget_passed),"synthetic_display_load":report,"scope":"copies of existing display only; not additional historical nodes"})
 func finish_final(app,metrics: Dictionary={})->void:
 	var result={"checks":checks,"failures":failures,"captures":captures};result.merge(ready_metrics);result.merge(metrics)
 	FileAccess.open(output,FileAccess.WRITE).store_string(JSON.stringify(result,"\t"));print("R5_NATIVE: "+JSON.stringify({"checks":checks,"failures":failures}))

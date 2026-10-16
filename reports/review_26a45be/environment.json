@@ -1,0 +1,15 @@
+{
+  "driver": "616.92",
+  "cpu": "AMD Ryzen 7 5700X 8-Core Processor             ",
+  "requested_viewport": [
+    1920,
+    1080
+  ],
+  "renderer": "OpenGL 3.3 Compatibility",
+  "os": "Windows 10 Pro 10.0.19045",
+  "ram_bytes": 17120399360,
+  "timezone": "America/Anchorage",
+  "vram_mib": 8188,
+  "gpu": "NVIDIA GeForce RTX 4060",
+  "godot": "4.6.1.stable.official.14d19694e"
+}

@@ -1,0 +1,13 @@
+{
+	"checks": 19,
+	"failures": [
+		"actual corridor crosses interior while all four corners exceed40m",
+		"road threshold [0, 22.4]",
+		"water endpoint inside",
+		"add refuses unsafe footprint without state change",
+		"move refuses interior crossing and keeps old object",
+		"new generated crossing is reported as skipped, not adopted",
+		"publish rejects an unadopted newly unsafe object",
+		"read-only geometry report exists"
+	]
+}

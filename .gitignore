@@ -8,3 +8,9 @@
 *.log
 .DS_Store
 samples/**/*.uid
+
+# Isolated repair build, caches, and working evidence
+review-work/
+
+# Generated original-host regression output
+samples/tongguan_v01/runtime/integration_result.json

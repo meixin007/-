@@ -174,8 +174,8 @@
     "terrain": "full footprint validated against existing constraints",
     "source": "project code",
     "content_hashes": {
-      "runtime/city_canvas.gd": "d1e30348ab8233d25fc98028629095000d8244a1ea299d4a281a2a997a5613b4",
-      "review/canvas.gd": "efea116df10ef7fc1e6dba0e8dd5ab5a60e49df223898efc5aaf6a6b1795a4b2"
+      "runtime/city_canvas.gd": "43f3798111bdd44d76043633d0405e4c265fd0a12bf027d228098e842c73905d",
+      "review/canvas.gd": "c18fa2ce5d57b517edca11fcd6a8e1c3325656207a63517f1cb0f2bc792218fd"
     },
     "formal_art": false
   }

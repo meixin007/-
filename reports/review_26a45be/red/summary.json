@@ -1,0 +1,57 @@
+{
+  "baseline": "26a45be93e62fc56199ed42d98895926380383c5",
+  "tests": [
+    {
+      "name": "test_review_geometry",
+      "exit_code": 1,
+      "checks": 19,
+      "failures": [
+        "actual corridor crosses interior while all four corners exceed40m",
+        "road threshold [0, 22.4]",
+        "water endpoint inside",
+        "add refuses unsafe footprint without state change",
+        "move refuses interior crossing and keeps old object",
+        "new generated crossing is reported as skipped, not adopted",
+        "publish rejects an unadopted newly unsafe object",
+        "read-only geometry report exists"
+      ],
+      "exposes_regression": true
+    },
+    {
+      "name": "test_review_ownership",
+      "exit_code": 1,
+      "checks": 6,
+      "failures": [
+        "duplicate raw v4 ID rejected before dictionary projection",
+        "malformed raw v4 rejected explicitly",
+        "cross-chunk submission validator exists"
+      ],
+      "exposes_regression": true
+    },
+    {
+      "name": "test_review_edges",
+      "exit_code": 1,
+      "checks": 85,
+      "failures": [
+        "tree_willow bottom penetration 2",
+        "tree_willow bottom penetration 6",
+        "tree_willow bottom penetration 20",
+        "tree_willow bottom penetration 40",
+        "tree_grove bottom penetration 20",
+        "tree_grove bottom penetration 40",
+        "synthetic_tall bottom penetration 2",
+        "synthetic_tall bottom penetration 6",
+        "synthetic_tall bottom penetration 20",
+        "synthetic_tall bottom penetration 40",
+        "synthetic_tall bottom penetration 60",
+        "synthetic_tall top penetration 2",
+        "synthetic_tall top penetration 6",
+        "synthetic_tall top penetration 20",
+        "synthetic_tall top penetration 40",
+        "synthetic_tall top penetration 60"
+      ],
+      "exposes_regression": true
+    }
+  ],
+  "fixture_note": "Native comparison disables viewport content scaling so both pixel regions are identical. Earlier stretched fixture attempts are excluded."
+}

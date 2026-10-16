@@ -1,0 +1,27 @@
+{
+  "build_id": "tongguan_v01_revfix_20261015_02",
+  "package_sha256": "86870be343c60820d5e2b60ad770af90f514d4b5c97f9b3ede96fc89fab3b50f",
+  "fresh_extraction": true,
+  "relative_report_links_resolved": true,
+  "components": [
+    {
+      "component": "TongguanFinal",
+      "method": "fresh_extracted_boot_probe",
+      "exit_code": 0,
+      "build": {
+        "build_id": "tongguan_v01_revfix_20261015_02",
+        "release": true,
+        "world_id": "tongguan_final_validation_v1"
+      },
+      "passed": true
+    },
+    {
+      "component": "TongguanAuthoring",
+      "method": "byte_identical_to_complete_native_acceptance",
+      "checks": 163,
+      "build_id": "tongguan_v01_revfix_20261015_02",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

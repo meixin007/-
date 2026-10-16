@@ -1,0 +1,4 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060
+
+REVIEW_EDGES {"checks":85,"failures":["tree_willow bottom penetration 2","tree_willow bottom penetration 6","tree_willow bottom penetration 20","tree_willow bottom penetration 40","tree_grove bottom penetration 20","tree_grove bottom penetration 40","synthetic_tall bottom penetration 2","synthetic_tall bottom penetration 6","synthetic_tall bottom penetration 20","synthetic_tall bottom penetration 40","synthetic_tall bottom penetration 60","synthetic_tall top penetration 2","synthetic_tall top penetration 6","synthetic_tall top penetration 20","synthetic_tall top penetration 40","synthetic_tall top penetration 60"]}
