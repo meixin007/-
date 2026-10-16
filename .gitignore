@@ -8,3 +8,6 @@
 *.log
 .DS_Store
 samples/**/*.uid
+
+# Isolated repair build, caches, and working evidence
+review-work/

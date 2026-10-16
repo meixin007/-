@@ -1,0 +1,516 @@
+{
+	"checks": 85,
+	"failures": [
+		"tree_willow bottom penetration 2",
+		"tree_willow bottom penetration 6",
+		"tree_willow bottom penetration 20",
+		"tree_willow bottom penetration 40",
+		"tree_grove bottom penetration 20",
+		"tree_grove bottom penetration 40",
+		"synthetic_tall bottom penetration 2",
+		"synthetic_tall bottom penetration 6",
+		"synthetic_tall bottom penetration 20",
+		"synthetic_tall bottom penetration 40",
+		"synthetic_tall bottom penetration 60",
+		"synthetic_tall top penetration 2",
+		"synthetic_tall top penetration 6",
+		"synthetic_tall top penetration 20",
+		"synthetic_tall top penetration 40",
+		"synthetic_tall top penetration 60"
+	],
+	"measurements": [
+		{
+			"asset": "tree_willow",
+			"edge": "bottom",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": false,
+					"penetration_px": 2,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": false,
+					"penetration_px": 6,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": false,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": false,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "tree_willow",
+			"edge": "top",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "tree_willow",
+			"edge": "left",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "tree_willow",
+			"edge": "right",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "tree_grove",
+			"edge": "bottom",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": false,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": false,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "tree_grove",
+			"edge": "top",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "tree_grove",
+			"edge": "left",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "tree_grove",
+			"edge": "right",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "synthetic_tall",
+			"edge": "bottom",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": false,
+					"penetration_px": 2,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": false,
+					"penetration_px": 6,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": false,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": false,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": false,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "synthetic_tall",
+			"edge": "top",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": false,
+					"penetration_px": 2,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": false,
+					"penetration_px": 6,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": false,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": false,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": false,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "synthetic_tall",
+			"edge": "left",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "synthetic_tall",
+			"edge": "right",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		}
+	],
+	"visible_beyond_old_anchor_margin": 11
+}

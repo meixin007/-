@@ -1,0 +1,8 @@
+{
+	"checks": 6,
+	"failures": [
+		"duplicate raw v4 ID rejected before dictionary projection",
+		"malformed raw v4 rejected explicitly",
+		"cross-chunk submission validator exists"
+	]
+}
