@@ -1,0 +1,16 @@
+{
+  "political_chain_provenance": {"requires_source_occurrence_id": true},
+  "transmission_rules": [
+    {"transmission_rule_id": "shuofang_grain_to_palace_relay", "fact_id": "guo_authority_promise_day_2", "from_actor_id": "guo_ziyi", "to_actor_id": "li_fuguo", "channel": "palace_relay", "omit_fields": ["withdrawal_condition"]},
+    {"transmission_rule_id": "palace_relay_to_grain_office", "fact_id": "palace_channel_precedent_fact", "from_actor_id": "li_fuguo", "to_actor_id": "grain_official_lingwu", "channel": "palace_relay"},
+    {"transmission_rule_id": "uighur_terms_to_market_report", "fact_id": "uighur_cost_legitimacy_fact", "from_actor_id": "uighur_envoy", "to_actor_id": "lingwu_merchant_refugee", "channel": "market_report"}
+  ],
+  "reaction_rules": [
+    {"rule_id": "li_fuguo_registration_demand", "fact_id": "guo_authority_promise_day_2", "actor_id": "li_fuguo", "requires_payload_fields": ["grant"], "reaction_type": "registration_demand", "major": true, "next_options": ["register_authority_order"], "player_notification": {"title": "李辅国要求登记军权", "visible_summary": "李辅国要求将郭子仪的正式军权纳入登记文书；可考虑补立军权诏令。", "deadline_days": 3}},
+    {"rule_id": "li_bi_sunset_clause_advice", "fact_id": "guo_authority_promise_day_2", "fact_id_prefix": "guo_authority_promise_day_2", "actor_id": "li_bi", "requires_payload_fields": ["grant", "withdrawal_condition"], "reaction_type": "sunset_clause_advice", "major": false, "next_options": ["write_sunset_clause"], "player_notification": {"title": "李泌请议日落条款", "visible_summary": "李泌建议为郭子仪军权增列日落条款；可考虑拟定期限条款。", "deadline_days": 3}},
+    {"rule_id": "old_court_authority_objection", "fact_id": "guo_authority_promise_day_2", "fact_id_prefix": "guo_authority_promise_day_2", "actor_id": "hardline_old_court_official", "requires_payload_fields": ["grant"], "reaction_type": "old_court_objection", "major": false, "next_options": ["submit_procedural_memorial"], "player_notification": {"title": "旧臣质疑军权先例", "visible_summary": "旧臣认为授予军权应先说明朝廷程序；可考虑递交程序奏议。", "deadline_days": 3}},
+    {"rule_id": "palace_channel_precedent_reaction", "fact_id": "palace_channel_precedent_fact", "fact_id_prefix": "palace_channel_precedent_fact", "actor_id": "li_fuguo", "requires_payload_fields": ["access_registered"], "reaction_type": "palace_channel_precedent", "major": true, "next_options": ["register_palace_channel"], "player_notification": {"title": "李辅国要求重整宫门渠道", "visible_summary": "李辅国要求把宫门渠道重新纳入登记；可考虑确认宫门文书。", "deadline_days": 3}},
+    {"rule_id": "uighur_market_protection_reaction", "fact_id": "uighur_cost_legitimacy_fact", "fact_id_prefix": "uighur_cost_legitimacy_fact", "actor_id": "lingwu_merchant_refugee", "requires_payload_fields": ["market_protection"], "reaction_type": "market_protection_support", "major": false, "next_options": ["confirm_market_relief"], "player_notification": {"title": "商民请求确认市集保护", "visible_summary": "灵武商民请求将市集保护写明；可考虑确认市集赈济。", "deadline_days": 3}},
+    {"rule_id": "uighur_cost_legitimacy_reaction", "fact_id": "uighur_cost_legitimacy_fact", "fact_id_prefix": "uighur_cost_legitimacy_fact", "actor_id": "uighur_envoy", "requires_payload_fields": ["formal_terms"], "reaction_type": "uighur_cost_warning", "major": true, "next_options": ["issue_uighur_formal_decree"], "player_notification": {"title": "回纥使者催定正式条款", "visible_summary": "回纥使者要求尽快确认正式条款；可考虑颁布回纥文书。", "deadline_days": 3}}
+  ]
+}

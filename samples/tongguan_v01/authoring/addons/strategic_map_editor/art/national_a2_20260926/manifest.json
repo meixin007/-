@@ -1,0 +1,25 @@
+{
+  "bundle_id": "national_a2_20260926",
+  "version": 1,
+  "extends": "tongguan_reference_20260925",
+  "review_status": "PENDING_USER_REVIEW",
+  "generation_tool": "builtin image_gen",
+  "actual_backend_model": "NOT_EXPOSED",
+  "transparent_background": true,
+  "assets": [
+    {
+      "file": "ferry-east.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3320fb597527b3db738b33b819e55627f9aeb418efc4336727dc52225e302304",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0dd76-6712-7540-918f-1d2fe4b5cbc6\\exec-57604105-4232-4fc6-bc9f-be2895967ef9.png"
+    },
+    {
+      "file": "ferry-west.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "cf6e13a49c3dc33d0242c61481ba4fd85753fe2b8b7ed73360c69f7e45a32a99",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0dd76-6712-7540-918f-1d2fe4b5cbc6\\exec-6c17f733-2446-4f94-b956-74f82c72893e.png"
+    }
+  ]
+}

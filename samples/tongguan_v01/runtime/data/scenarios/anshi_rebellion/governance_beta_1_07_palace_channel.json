@@ -1,0 +1,10 @@
+{
+  "case_chains": [{"case_chain_id": "palace_channel_precedent"}],
+  "memorial_templates": [
+    {"memorial_id": "palace_channel_origin", "case_chain_id": "palace_channel_precedent", "case_phase": "origin", "sender_id": "li_bi", "topic": "palace_channel", "location_id": "chang_an", "resource_keys": ["court_authority"], "deadline_days": 6, "recommended_executor_ids": ["li_bi"], "visible_facts": ["内廷传令出现双重口径"], "visible_resistance": []},
+    {"memorial_id": "palace_channel_escalation", "previous_memorial_id": "palace_channel_origin", "case_chain_id": "palace_channel_precedent", "case_phase": "escalation", "sender_id": "li_bi", "topic": "palace_channel", "location_id": "chang_an", "resource_keys": ["court_authority"], "deadline_days": 6, "recommended_executor_ids": ["li_fuguo"], "visible_facts": ["宫门登记与口谕不一致"], "visible_resistance": []},
+    {"memorial_id": "palace_channel_closure", "previous_memorial_id": "palace_channel_escalation", "case_chain_id": "palace_channel_precedent", "case_phase": "closure", "sender_id": "li_bi", "topic": "palace_channel", "location_id": "chang_an", "resource_keys": ["court_authority"], "deadline_days": 6, "recommended_executor_ids": ["li_bi"], "visible_facts": ["新规需要留下可追溯先例"], "visible_resistance": []}
+  ],
+  "topic_rules": {"palace_channel": {"required_offices": ["inner_court_office"], "action_id": "palace_channel_order", "council_rules": {}}},
+  "command_actions": {"palace_channel_order": {"factor_weights": {"ability": 1, "authority": 3, "resources": 1, "route": 1, "deadline": 1, "intel": 2, "clauses": 2, "prior_case": 2}, "report_template_family": "palace_reports", "effects": {"resource_delta": {"court_authority": 6}, "resolution_path": "registered"}, "recovery_actions": ["investigate", "reassign"]}}
+}

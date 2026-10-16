@@ -1,0 +1,22 @@
+{
+  "characters": {
+    "guo_ziyi": "郭子仪",
+    "li_bi": "李泌",
+    "li_fuguo": "李辅国",
+    "li_guangbi": "李光弼",
+    "pugu_huaien": "仆固怀恩",
+    "li_chu": "李俶",
+    "uighur_envoy": "回纥使者",
+    "hardline_old_court_official": "旧朝廷大臣",
+    "grain_official_lingwu": "灵武粮官",
+    "lingwu_merchant_refugee": "灵武商民代表",
+    "regional_jiedushi_rep": "节度使代表",
+    "eunuch_deputy_gate": "宫门副使"
+  },
+  "outcomes": {
+    "accept": "{name}表示愿意照办，相关安排仍须依朝廷既定规则核定。",
+    "refuse": "{name}说明此议暂难接受，并陈明其中的顾虑。",
+    "delay": "{name}请求暂缓处置，待条件与文书核清后再作答复。",
+    "insufficient_information": "{name}表示现有消息不足，请先补足可核验的依据。"
+  }
+}

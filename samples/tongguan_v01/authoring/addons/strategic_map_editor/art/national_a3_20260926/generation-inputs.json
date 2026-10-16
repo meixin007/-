@@ -1,0 +1,35 @@
+[
+  {
+    "id": "field_strips_a3",
+    "label": "田地 · 曲折狭长田垄",
+    "file": "field-strips.png",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0dd76-6712-7540-918f-1d2fe4b5cbc6/exec-ce1b6f7c-3669-4129-9d81-fad6b3883d2e.png",
+    "group": "ground",
+    "width": 140,
+    "anchor": [0.5, 0.5]
+  },
+  {
+    "id": "fields_a3",
+    "label": "田地 · 曲折田埂与疏行",
+    "file": "fields.png",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0dd76-6712-7540-918f-1d2fe4b5cbc6/exec-9e041bf4-a113-4d03-b0a6-cce69f25beac.png",
+    "group": "ground",
+    "width": 140,
+    "anchor": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hamlet_a3",
+    "label": "村落 · 木屋与草棚",
+    "file": "hamlet.png",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0dd76-6712-7540-918f-1d2fe4b5cbc6/exec-609ee56f-f3e7-473d-ad18-96e41a6bab26.png",
+    "group": "city",
+    "width": 46,
+    "anchor": [
+      0.5,
+      0.8
+    ]
+  }
+]

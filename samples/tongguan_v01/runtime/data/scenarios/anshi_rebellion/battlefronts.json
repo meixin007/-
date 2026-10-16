@@ -1,0 +1,189 @@
+[
+  {
+    "id": "guanzhong_front",
+    "name": "关中战局",
+    "region": "关中",
+    "commander_id": "li_bi",
+    "control": 25,
+    "supply": 30,
+    "threat": 82,
+    "momentum": "pressured",
+    "route_tag": "defend_lingwu",
+    "last_change_reason": "长安、洛阳相继陷入叛军威胁。",
+    "linked_factions": [
+      "xuanzong_old_court",
+      "rebel_command"
+    ],
+    "linked_characters": [
+      "li_bi",
+      "li_fuguo"
+    ],
+    "available_orders": [
+      "固守",
+      "进军",
+      "查问"
+    ],
+    "risk_flags": [
+      "驿路受阻",
+      "旧臣掣肘"
+    ],
+    "summary": "长安、洛阳相继受叛军威胁，朝廷只能从灵武观察关中压力。",
+    "eta_risk": "urgent",
+    "route_pressure": {
+      "defend_lingwu": 2,
+      "support_shuofang": 0,
+      "uighur_push": 0
+    },
+    "recent_change_reason": "长安、洛阳相继陷入叛军威胁。",
+    "directional_pressure": "叛军压力沿关中驿路逼近灵武号令线。"
+  },
+  {
+    "id": "shuofang_front",
+    "name": "朔方粮道",
+    "region": "朔方",
+    "commander_id": "guo_ziyi",
+    "control": 52,
+    "supply": 38,
+    "threat": 68,
+    "momentum": "pressured",
+    "route_tag": "support_shuofang",
+    "last_change_reason": "郭子仪所部缺粮，仍待行在调度。",
+    "linked_factions": [
+      "military_commanders",
+      "common_people"
+    ],
+    "linked_characters": [
+      "guo_ziyi",
+      "grain_official_lingwu"
+    ],
+    "available_orders": [
+      "调粮",
+      "任将",
+      "查问",
+      "固守"
+    ],
+    "risk_flags": [
+      "粮道告急",
+      "军心动摇"
+    ],
+    "summary": "郭子仪所部仍可支撑，但粮道一断，军心会迅速传回行在。",
+    "eta_risk": "watch",
+    "route_pressure": {
+      "defend_lingwu": 0,
+      "support_shuofang": 2,
+      "uighur_push": 0
+    },
+    "recent_change_reason": "郭子仪所部缺粮，仍待行在调度。",
+    "directional_pressure": "朔方粮道连接灵武补给与反攻动员。"
+  },
+  {
+    "id": "hedong_front",
+    "name": "河东牵制",
+    "region": "河东",
+    "commander_id": "li_guangbi",
+    "control": 45,
+    "supply": 42,
+    "threat": 61,
+    "momentum": "stable",
+    "route_tag": "support_shuofang",
+    "last_change_reason": "李光弼方向牵制叛军机动。",
+    "linked_factions": [
+      "military_commanders",
+      "rebel_command"
+    ],
+    "linked_characters": [
+      "li_guangbi",
+      "shi_siming"
+    ],
+    "available_orders": [
+      "固守",
+      "进军",
+      "调粮"
+    ],
+    "risk_flags": [
+      "侧翼受压"
+    ],
+    "summary": "李光弼方向牵制叛军机动，是灵武争取时间的侧翼。",
+    "eta_risk": "steady",
+    "route_pressure": {
+      "defend_lingwu": 0,
+      "support_shuofang": 2,
+      "uighur_push": 2
+    },
+    "recent_change_reason": "李光弼方向牵制叛军机动。",
+    "directional_pressure": "河东牵制线承接回纥外援与唐军侧翼。"
+  },
+  {
+    "id": "westward_route",
+    "name": "蜀道旧驾",
+    "region": "西行旧驾",
+    "commander_id": "chen_xuanli",
+    "control": 38,
+    "supply": 34,
+    "threat": 48,
+    "momentum": "stable",
+    "route_tag": "defend_lingwu",
+    "last_change_reason": "玄宗旧驾仍牵动禁军和旧臣名分。",
+    "linked_factions": [
+      "xuanzong_old_court",
+      "palace_household"
+    ],
+    "linked_characters": [
+      "chen_xuanli",
+      "zhang_liangdi"
+    ],
+    "available_orders": [
+      "安抚",
+      "查问",
+      "固守"
+    ],
+    "risk_flags": [
+      "名分摇摆"
+    ],
+    "summary": "玄宗旧驾西行之后仍影响禁军与旧臣名分，灵武必须处理这条政治退路。",
+    "eta_risk": "watch",
+    "route_pressure": {
+      "defend_lingwu": 2,
+      "support_shuofang": 0,
+      "uighur_push": 0
+    },
+    "recent_change_reason": "玄宗旧驾仍牵动禁军和旧臣名分。",
+    "directional_pressure": "蜀道旧驾牵动玄宗旧臣与禁军名分。"
+  },
+  {
+    "id": "rebel_hebei_front",
+    "name": "河北叛军",
+    "region": "河北",
+    "commander_id": "shi_siming",
+    "control": 20,
+    "supply": 58,
+    "threat": 76,
+    "momentum": "pressured",
+    "route_tag": "neutral",
+    "last_change_reason": "史思明等叛军将领仍保持机动。",
+    "linked_factions": [
+      "rebel_command"
+    ],
+    "linked_characters": [
+      "shi_siming"
+    ],
+    "available_orders": [
+      "牵制",
+      "密探",
+      "进军"
+    ],
+    "risk_flags": [
+      "侧翼试探",
+      "叛军机动"
+    ],
+    "summary": "史思明等叛军将领仍在河北保持机动，随时可能放大战局压力。",
+    "eta_risk": "urgent",
+    "route_pressure": {
+      "defend_lingwu": 0,
+      "support_shuofang": 0,
+      "uighur_push": 0
+    },
+    "recent_change_reason": "史思明等叛军将领仍保持机动。",
+    "directional_pressure": "河北叛军机动压力从侧翼撕扯战局。"
+  }
+]

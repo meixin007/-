@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-14",
+  "platform": "Windows",
+  "godot": "4.6.1.stable.official.14d19694e",
+  "remote_baseline": "05b8807a869a2eaa2ce0dc3b0a721add45072c76",
+  "baseline_code_comparison": {
+    "changed": 14,
+    "new": 16,
+    "same": 18
+  },
+  "checks": [
+    {
+      "name": "source_allowlist_empty_registries_preload_closure",
+      "status": "PASS"
+    },
+    {
+      "name": "headless_editor_import",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "art_import_feedback",
+      "status": "PASS",
+      "checks": 14,
+      "failures": [],
+      "exit_code": 0
+    },
+    {
+      "name": "document_edit_undo_save_reload_route_rules",
+      "status": "PASS",
+      "failures": 0,
+      "exit_code": 0
+    },
+    {
+      "name": "headless_main_scene_startup_exit",
+      "status": "PASS",
+      "exit_code": 0,
+      "quit_after_frames": 8
+    }
+  ],
+  "error_or_exit_leak_diagnostics": [],
+  "art_assets_added": 0,
+  "original_art_descriptors_added": 0,
+  "historical_input_modified": false,
+  "limitations": [
+    "No native GUI interaction validation",
+    "No Linux render validation",
+    "No art review or new gameplay integration claim"
+  ],
+  "historical_images_already_on_main": 59,
+  "historical_image_bytes": 90994197
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "beta105_day06_li_bi_night_scene",
+    "title": "李泌夜对",
+    "entry_character_id": "li_bi",
+    "entry_event_id": "beta10_day06_li_bi_night",
+    "entry_condition": "宫门传信受阻后，李泌请求以期限约束临时授权。",
+    "intro_text": "灯下的诏纸尚未干透。李泌将拟好的限权条款压在案上，李辅国则坚持军情不可因文法迟滞。",
+    "choices": [
+      {"id": "limit_emergency_authority", "label": "设定七日限权", "result_text": "临时授权被写入期限与复核条件。", "effects": [{"type":"resource_delta","target":"legitimacy","value":1}]},
+      {"id": "keep_fast_gate", "label": "维持快速宫门", "result_text": "政令得以迅速发出，但宫门先例进一步加重。", "effects": [{"type":"resource_delta","target":"court_authority","value":1}]}
+    ]
+  },
+  {
+    "id": "beta105_day13_grain_ledger_scene",
+    "title": "粮册亏空对质",
+    "entry_character_id": "grain_official_lingwu",
+    "entry_event_id": "beta10_day13_grain_theft",
+    "entry_condition": "粮册与仓储实物不符，军前补给窗口正在收窄。",
+    "intro_text": "粮官带来两本不相符的账册；郭子仪的使者在门外等候军粮回音，商民代表则请求先厘清征发责任。",
+    "choices": [
+      {"id": "audit_before_requisition", "label": "先封仓核账", "result_text": "责任链被固定，前线补给却要等待复核。", "effects": [{"type":"resource_delta","target":"public_order","value":1}]},
+      {"id": "supply_before_audit", "label": "先发军粮后追责", "result_text": "军前得到优先补给，账册责任留待后续追查。", "effects": [{"type":"resource_delta","target":"military_morale","value":1}]}
+    ]
+  }
+]

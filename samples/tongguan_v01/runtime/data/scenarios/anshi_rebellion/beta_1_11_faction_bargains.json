@@ -1,0 +1,294 @@
+{
+  "schema_version": 111,
+  "bargain_count": 6,
+  "bargains": [
+    {
+      "bargain_id": "bargain_military_command_and_merit",
+      "petitioner_id": "guo_ziyi",
+      "counterpart_id": "li_guangbi",
+      "petitioner_faction_id": "military_commanders",
+      "counterpart_faction_id": "military_commanders",
+      "topic": "军令与军功",
+      "public_dispute": "郭子仪与李光弼就朔方与河东两军节制权、粮道优先次序及战功归属产生公开争执。",
+      "public_risk": "若处置失衡，可能引发将帅不和、粮道争抢甚至前线互不策应。",
+      "triggers": [
+        {"character_id": "guo_ziyi", "action_types": ["request_clear_orders", "ask_for_grain", "request_audience"]},
+        {"character_id": "li_guangbi", "action_types": ["request_clear_orders", "demand_reward", "request_audience"]}
+      ],
+      "outcomes": {
+        "approve": {
+          "public_text": "朝廷裁定重申节制序列并优先供给前锋，将帅领命。",
+          "petitioner_relationship": 3,
+          "counterpart_relationship": -2,
+          "faction_pressures": {"military_commanders": -2},
+          "petitioner_memory": "朝廷在军令与军功之议中支持了郭子仪的节制与粮道主张",
+          "counterpart_memory": "朝廷在军令与军功之议中要求李光弼配合前锋调度"
+        },
+        "reject": {
+          "public_text": "朝廷驳回专权请托，严令各部依现行统属分头据守。",
+          "petitioner_relationship": -4,
+          "counterpart_relationship": 3,
+          "faction_pressures": {"military_commanders": 3},
+          "petitioner_memory": "朝廷驳回了郭子仪重定节制边界与粮道优先的要求",
+          "counterpart_memory": "朝廷未允许朔方军独占节制权，李光弼防务得以保全"
+        },
+        "defer": {
+          "public_text": "朝廷暂缓变动节制，着令两军先行会哨并比对前线防务。",
+          "petitioner_relationship": -1,
+          "counterpart_relationship": 1,
+          "faction_pressures": {"military_commanders": 1},
+          "petitioner_memory": "朝廷推迟处理军令与军功之争，要求先核对防区",
+          "counterpart_memory": "朝廷对军令之争暂缓定夺"
+        },
+        "expire": {
+          "public_text": "朝廷久未裁定军令边界，两军部将各自据险，号令渐生龃龉。",
+          "petitioner_relationship": -3,
+          "counterpart_relationship": -3,
+          "faction_pressures": {"military_commanders": 4},
+          "petitioner_memory": "军令之争延宕未决，加剧了将帅互不信任",
+          "counterpart_memory": "军令之争延宕未决，前线号令陷入混乱"
+        }
+      }
+    },
+    {
+      "bargain_id": "bargain_procedure_and_palace_gate",
+      "petitioner_id": "li_bi",
+      "counterpart_id": "li_fuguo",
+      "petitioner_faction_id": "suzong_court",
+      "counterpart_faction_id": "eunuch_network",
+      "topic": "程序与宫门",
+      "public_dispute": "李泌主张一切紧急军政文书必须经过公开复核，李辅国则坚持内廷传令与宫门紧急登记权。",
+      "public_risk": "公开复核可能降低决断效率，而放任宫门传令则易滋生近侍弄权与密令滥发。",
+      "triggers": [
+        {"character_id": "li_bi", "action_types": ["propose_sunset_clause", "request_audience", "request_intelligence_review"]},
+        {"character_id": "li_fuguo", "action_types": ["submit_secret_report", "lobby_registration_control", "seek_private_audience"]}
+      ],
+      "outcomes": {
+        "approve": {
+          "public_text": "朝廷下诏设立公开复核与日落条款，限制宫门私传密令。",
+          "petitioner_relationship": 3,
+          "counterpart_relationship": -4,
+          "faction_pressures": {"suzong_court": -2, "eunuch_network": 4},
+          "petitioner_memory": "朝廷采纳了李泌关于公开复核与限制内廷权力的制度设计",
+          "counterpart_memory": "朝廷严加限制宫门登记与传令权限，李辅国近侍受挫"
+        },
+        "reject": {
+          "public_text": "朝廷确认内廷战时通道与出入登记权，驳回繁琐的复核限制。",
+          "petitioner_relationship": -4,
+          "counterpart_relationship": 4,
+          "faction_pressures": {"suzong_court": 3, "eunuch_network": -3},
+          "petitioner_memory": "朝廷未予采纳李泌的程序制衡方案，放任宫门近侍掌权",
+          "counterpart_memory": "朝廷确认了李辅国宫门登记与传令通道的战时特殊地位"
+        },
+        "defer": {
+          "public_text": "朝廷下令由中书与内省先行合署核验，暂不更张现行成例。",
+          "petitioner_relationship": -1,
+          "counterpart_relationship": 1,
+          "faction_pressures": {"suzong_court": 1, "eunuch_network": 0},
+          "petitioner_memory": "朝廷推迟审议李泌的程序复核提案",
+          "counterpart_memory": "朝廷暂未削夺宫门权力，维持现状"
+        },
+        "expire": {
+          "public_text": "朝廷对中枢程序与宫门权限搁置未决，内廷与外朝文书传递互相推诿。",
+          "petitioner_relationship": -2,
+          "counterpart_relationship": -2,
+          "faction_pressures": {"suzong_court": 2, "eunuch_network": 3},
+          "petitioner_memory": "程序与宫门之争拖延不决，朝廷政令流转混乱",
+          "counterpart_memory": "程序与宫门之争拖延不决，内外相互防范"
+        }
+      }
+    },
+    {
+      "bargain_id": "bargain_alliance_and_reward_terms",
+      "petitioner_id": "pugu_huaien",
+      "counterpart_id": "uighur_envoy",
+      "petitioner_faction_id": "military_commanders",
+      "counterpart_faction_id": "uighur_envoys",
+      "topic": "联盟与赏约",
+      "public_dispute": "仆固怀恩要求明确出兵界限与军纪约束，回纥使者则坚持按期兑现重赏并索要通商市易便利。",
+      "public_risk": "重赏难填外援胃口且激起军民怨气，而限制苛严又恐致盟军顿兵不进乃至倒戈。",
+      "triggers": [
+        {"character_id": "pugu_huaien", "action_types": ["demand_reward_terms", "request_cavalry_supply", "request_audience"]},
+        {"character_id": "uighur_envoy", "action_types": ["privately_negotiate", "submit_memorial", "demand_reward_terms"]}
+      ],
+      "outcomes": {
+        "approve": {
+          "public_text": "朝廷厘定联盟赏约与出兵细则，责成仆固怀恩严督军纪与给养。",
+          "petitioner_relationship": 3,
+          "counterpart_relationship": -3,
+          "faction_pressures": {"military_commanders": -2, "uighur_envoys": 2},
+          "petitioner_memory": "朝廷接受了仆固怀恩严明联盟军纪与规范供给的主张，改善了被边缘化的盟将境遇",
+          "counterpart_memory": "朝廷设立军纪条款限制了回纥使团索要额外赏赐"
+        },
+        "reject": {
+          "public_text": "朝廷优先满足回纥使团给赏，放宽出兵与市易限制以稳住外援。",
+          "petitioner_relationship": -4,
+          "counterpart_relationship": 4,
+          "faction_pressures": {"military_commanders": 3, "uighur_envoys": -3},
+          "petitioner_memory": "朝廷屈从回纥索求，未支持仆固怀恩对联盟的规制",
+          "counterpart_memory": "朝廷答应按回纥使团条件发放厚赏并放宽市易"
+        },
+        "defer": {
+          "public_text": "朝廷先行拨付部分牛酒犒军，其余赏格留待收复前线后按功议定。",
+          "petitioner_relationship": -1,
+          "counterpart_relationship": 1,
+          "faction_pressures": {"military_commanders": 1, "uighur_envoys": 0},
+          "petitioner_memory": "朝廷推迟处理仆固怀恩的联盟陈情",
+          "counterpart_memory": "朝廷未一次全付赏赐，先行给付部分犒赏"
+        },
+        "expire": {
+          "public_text": "联盟赏约与军纪久未明定，回纥骑军沿途侵扰，将士心怀愤怨。",
+          "petitioner_relationship": -3,
+          "counterpart_relationship": -4,
+          "faction_pressures": {"military_commanders": 3, "uighur_envoys": 4},
+          "petitioner_memory": "联盟争端延误引发外军骚扰与前线军心浮动",
+          "counterpart_memory": "朝廷迟迟未兑现盟约，回纥使团渐生疑虑与怨言"
+        }
+      }
+    },
+    {
+      "bargain_id": "bargain_succession_and_palace_power",
+      "petitioner_id": "li_chu",
+      "counterpart_id": "li_fuguo",
+      "petitioner_faction_id": "suzong_court",
+      "counterpart_faction_id": "eunuch_network",
+      "topic": "继嗣与宫权",
+      "public_dispute": "广平王李俶请求确立储嗣正统与公开侍从登记，李辅国则试图保持对御前侍从和召见名录的独揽。",
+      "public_risk": "储嗣与内官倾轧易动摇朝廷根本，引发储位猜忌与内廷动荡。",
+      "triggers": [
+        {"character_id": "li_chu", "action_types": ["seek_private_advice", "request_succession_assurance", "request_audience"]},
+        {"character_id": "li_fuguo", "action_types": ["submit_secret_report", "lobby_registration_control", "seek_private_audience"]}
+      ],
+      "outcomes": {
+        "approve": {
+          "public_text": "朝廷公开褒崇广平王公忠体国，明令内侍省不得阻滞储嗣引见奏事。",
+          "petitioner_relationship": 3,
+          "counterpart_relationship": -4,
+          "faction_pressures": {"suzong_court": -2, "eunuch_network": 4},
+          "petitioner_memory": "朝廷公开护持李俶的储嗣地位与引见权力",
+          "counterpart_memory": "朝廷公开压制了李辅国干预皇子引见的企图"
+        },
+        "reject": {
+          "public_text": "朝廷降旨诸王安心本分，宫禁召见一律由内省登记奏闻。",
+          "petitioner_relationship": -4,
+          "counterpart_relationship": 4,
+          "faction_pressures": {"suzong_court": 3, "eunuch_network": -3},
+          "petitioner_memory": "朝廷对皇子李俶引见严加防范，偏信近侍宦官",
+          "counterpart_memory": "朝廷重申由李辅国掌管宫门召见与出入登记"
+        },
+        "defer": {
+          "public_text": "朝廷谕令各守职分、和睦宫禁，文书登记仍循灵武初定旧例。",
+          "petitioner_relationship": -1,
+          "counterpart_relationship": 1,
+          "faction_pressures": {"suzong_court": 1, "eunuch_network": 0},
+          "petitioner_memory": "朝廷推迟裁断继嗣安全与引见之议",
+          "counterpart_memory": "朝廷未变更内廷既有登记职权"
+        },
+        "expire": {
+          "public_text": "继嗣地位与宫门权限悬而不决，内外猜防日甚，宫禁流言四起。",
+          "petitioner_relationship": -3,
+          "counterpart_relationship": -2,
+          "faction_pressures": {"suzong_court": 2, "eunuch_network": 3},
+          "petitioner_memory": "继嗣安全之议未获决断，储位安危蒙上阴影",
+          "counterpart_memory": "宫门登记之争久拖未定，近侍地位受到猜忌"
+        }
+      }
+    },
+    {
+      "bargain_id": "bargain_grain_levy_and_market_relief",
+      "petitioner_id": "grain_official_lingwu",
+      "counterpart_id": "lingwu_merchant_refugee",
+      "petitioner_faction_id": "suzong_court",
+      "counterpart_faction_id": "merchant_refugees",
+      "topic": "调粮与粮市",
+      "public_dispute": "灵武粮草官主张按册平粜与强制征调以充军实，商民代表则请开粮市、平抑物价并放赈救民。",
+      "public_risk": "强行征调恐致商贾罢市、难民骚乱，完全放任商市则军粮恐有断炊之虞。",
+      "triggers": [
+        {"character_id": "grain_official_lingwu", "action_types": ["submit_account_report", "request_audience", "shift_audit_blame"]},
+        {"character_id": "lingwu_merchant_refugee", "action_types": ["request_grain_relief", "lobby_appointment", "request_audience"]}
+      ],
+      "outcomes": {
+        "approve": {
+          "public_text": "朝廷下诏核定仓储并开设义仓赈济商民，严禁官吏任意科配侵渔。",
+          "petitioner_relationship": -3,
+          "counterpart_relationship": 3,
+          "faction_pressures": {"suzong_court": 2, "merchant_refugees": -2},
+          "petitioner_memory": "朝廷采纳商民陈情而约束了粮官的强制征调权",
+          "counterpart_memory": "朝廷开设义仓赈济并保护了灵武粮市与商民生计"
+        },
+        "reject": {
+          "public_text": "朝廷以军务紧急为先，支持粮官统一调运封存并彻查民间囤积。",
+          "petitioner_relationship": 3,
+          "counterpart_relationship": -4,
+          "faction_pressures": {"suzong_court": -2, "merchant_refugees": 3},
+          "petitioner_memory": "朝廷保障了战时粮官优先统筹调拨与查核之权",
+          "counterpart_memory": "朝廷强行征调仓粮，商民生计与市易大受压制"
+        },
+        "defer": {
+          "public_text": "朝廷命粮官与商行会商议价，先核准常平仓数额再行定夺。",
+          "petitioner_relationship": -1,
+          "counterpart_relationship": 1,
+          "faction_pressures": {"suzong_court": 1, "merchant_refugees": 0},
+          "petitioner_memory": "朝廷指令会同商贾议定平粜章程",
+          "counterpart_memory": "朝廷暂缓强征，准许商民参与平粜议价"
+        },
+        "expire": {
+          "public_text": "调粮与开市迟迟未决，行在粮价暴涨，仓司与难民发生流血冲突。",
+          "petitioner_relationship": -3,
+          "counterpart_relationship": -3,
+          "faction_pressures": {"suzong_court": 3, "merchant_refugees": 4},
+          "petitioner_memory": "粮政拖延引发民变风波，账册亏空愈发难以弥补",
+          "counterpart_memory": "朝廷坐视粮市崩坏与难民饥困，民怨沸腾"
+        }
+      }
+    },
+    {
+      "bargain_id": "bargain_regional_broker_and_old_court",
+      "petitioner_id": "regional_jiedushi_rep",
+      "counterpart_id": "hardline_old_court_official",
+      "petitioner_faction_id": "regional_jiedushi",
+      "counterpart_faction_id": "xuanzong_old_court",
+      "topic": "地方与旧制",
+      "public_dispute": "地方节度使代表请求扩大支度兵粮自决权，玄宗旧臣强硬派则要求严格遵照两京旧典与朝廷度支法度。",
+      "public_risk": "过度分权恐酿藩镇尾大不掉，拘泥旧典则地方将领拒绝听调出战。",
+      "triggers": [
+        {"character_id": "regional_jiedushi_rep", "action_types": ["request_emergency_grain", "submit_front_report", "request_audience"]},
+        {"character_id": "hardline_old_court_official", "action_types": ["request_audience", "demand_ritual_review", "accuse_another_npc"]}
+      ],
+      "outcomes": {
+        "approve": {
+          "public_text": "朝廷特赐节度使战时便宜行事之权，允许就地留使部分财赋以足兵食。",
+          "petitioner_relationship": 3,
+          "counterpart_relationship": -4,
+          "faction_pressures": {"regional_jiedushi": -2, "xuanzong_old_court": 3},
+          "petitioner_memory": "朝廷赋予地方藩镇战时便宜行事与自筹军资之权",
+          "counterpart_memory": "朝廷坏破旧朝典章法度，纵容藩镇自专"
+        },
+        "reject": {
+          "public_text": "朝廷重申天下赋税悉归度支，地方调遣不得逾越三省典制与旧例。",
+          "petitioner_relationship": -4,
+          "counterpart_relationship": 3,
+          "faction_pressures": {"regional_jiedushi": 3, "xuanzong_old_court": -2},
+          "petitioner_memory": "朝廷严加裁抑地方藩镇，拒绝给予财赋便宜",
+          "counterpart_memory": "朝廷力保中枢正统法度，维护了旧臣所持纲纪"
+        },
+        "defer": {
+          "public_text": "朝廷允许地方先行具奏临时支用数额，待收复西京后再行统一考课。",
+          "petitioner_relationship": -1,
+          "counterpart_relationship": 1,
+          "faction_pressures": {"regional_jiedushi": 1, "xuanzong_old_court": 0},
+          "petitioner_memory": "朝廷对地方支用采取记账暂缓的折衷处置",
+          "counterpart_memory": "朝廷暂留核验余地，未全盘答应地方自专"
+        },
+        "expire": {
+          "public_text": "地方授权与旧制之争悬置，藩镇借故截留漕运，旧臣连章攻讦不止。",
+          "petitioner_relationship": -3,
+          "counterpart_relationship": -3,
+          "faction_pressures": {"regional_jiedushi": 3, "xuanzong_old_court": 3},
+          "petitioner_memory": "朝廷议事无断，地方与中枢裂痕加深",
+          "counterpart_memory": "旧典朝制未能确立，朝纲不振"
+        }
+      }
+    }
+  ]
+}

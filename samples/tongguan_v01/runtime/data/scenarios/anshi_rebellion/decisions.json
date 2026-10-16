@@ -1,0 +1,4675 @@
+[
+  {
+	"id": "send_grain",
+	"label": "调粮支援",
+	"requirements": [
+	  {
+		"resource": "grain",
+		"min": 300
+	  }
+	],
+	"costs": [
+	  {
+		"resource": "grain",
+		"value": -300
+	  }
+	],
+	"effects": [
+	  {
+		"type": "relationship_delta",
+		"target": "guo_ziyi",
+		"value": 8
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "attitude",
+		"value": 4
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": -3
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "supply",
+		"value": 12
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "threat",
+		"value": -8
+	  },
+	  {
+		"type": "battlefront_reason",
+		"target": "shuofang_front",
+		"value": "陛下调粮支援朔方，粮道压力暂缓。"
+	  },
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 2
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "military_morale",
+		"value": 5
+	  },
+	  {
+		"type": "task_create",
+		"executor_id": "guo_ziyi",
+		"source_type": "oral_order",
+		"target": "shuofang_front",
+		"duration_days": 1,
+		"risk": "supply_delay"
+	  }
+	],
+	"ai_followup": {
+	  "type": "template_report_response",
+	  "speaker": "guo_ziyi"
+	},
+	"follow_up_event": {
+	  "id": "guo_ziyi_grain_arrived_report",
+	  "type": "completion_report",
+	  "title": "郭子仪回奏粮至",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 2,
+	  "urgency": 35,
+	  "visible_summary": "郭子仪回奏：灵武粮草已至朔方，诸营军心稍定。臣请陛下继续留意后续粮道，不可使军中再有断炊之忧。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "delay_grain",
+	"label": "暂缓调粮",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "relationship_delta",
+		"target": "guo_ziyi",
+		"value": -6
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "attitude",
+		"value": -4
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 4
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "supply",
+		"value": -8
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "threat",
+		"value": 6
+	  },
+	  {
+		"type": "battlefront_reason",
+		"target": "shuofang_front",
+		"value": "朝廷暂缓调粮，朔方补给继续吃紧。"
+	  },
+	  {
+		"type": "strategy_route_delta",
+		"target": "defend_lingwu",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "investigate_grain_official",
+	"label": "查问粮草官",
+	"requirements": [
+	  {
+		"resource": "court_authority",
+		"min": 10
+	  }
+	],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -3
+	  }
+	],
+	"effects": [
+	  {
+		"type": "flag_set",
+		"target": "grain_official_investigated",
+		"value": true
+	  },
+	  {
+		"type": "relationship_delta",
+		"target": "grain_official_lingwu",
+		"value": -10
+	  }
+	]
+  },
+  {
+	"id": "trust_li_fuguo_report",
+	"label": "采信李辅国密报",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "relationship_delta",
+		"target": "li_fuguo",
+		"value": 6
+	  },
+	  {
+		"type": "relationship_delta",
+		"target": "guo_ziyi",
+		"value": -4
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "attitude",
+		"value": 5
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 3
+	  },
+	  {
+		"type": "flag_set",
+		"target": "guo_ziyi_under_suspicion",
+		"value": true
+	  }
+	]
+  },
+  {
+	"id": "summon_li_bi",
+	"label": "召李泌入对",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "relationship_delta",
+		"target": "li_bi",
+		"value": 4
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "suzong_court",
+		"field": "attitude",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "intelligence",
+		"value": 5
+	  }
+	]
+  },
+  {
+	"id": "honor_xuanzong_edict",
+	"label": "明诏尊奉上皇",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -2
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": 6
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "xuanzong_old_court",
+		"field": "attitude",
+		"value": 6
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "xuanzong_old_court",
+		"field": "pressure",
+		"value": -5
+	  },
+	  {
+		"type": "flag_set",
+		"target": "xuanzong_honored_by_edict",
+		"value": true
+	  }
+	]
+  },
+  {
+	"id": "assert_suzong_authority",
+	"label": "宣示新朝诏令独立",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "legitimacy",
+		"value": -3
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 5
+	  },
+	  {
+		"type": "relationship_delta",
+		"target": "li_bi",
+		"value": -2
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "xuanzong_old_court",
+		"field": "pressure",
+		"value": 6
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "suzong_court",
+		"field": "pressure",
+		"value": -3
+	  },
+	  {
+		"type": "flag_set",
+		"target": "suzong_authority_asserted",
+		"value": true
+	  }
+	]
+  },
+  {
+	"id": "approve_uighur_reward",
+	"label": "许以回纥重赏",
+	"requirements": [
+	  {
+		"resource": "treasury",
+		"min": 200
+	  }
+	],
+	"costs": [
+	  {
+		"resource": "treasury",
+		"value": -200
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "military_morale",
+		"value": 3
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "attitude",
+		"value": 8
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": -6
+	  },
+	  {
+		"type": "strategy_route_delta",
+		"target": "uighur_push",
+		"value": 2
+	  },
+	  {
+		"type": "flag_set",
+		"target": "uighur_reward_promised",
+		"value": true
+	  }
+	]
+  },
+  {
+	"id": "delay_uighur_terms",
+	"label": "拖延回纥赏约",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "intelligence",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": -2
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 6
+	  },
+	  {
+		"type": "strategy_route_delta",
+		"target": "defend_lingwu",
+		"value": 1
+	  },
+	  {
+		"type": "flag_set",
+		"target": "uighur_terms_delayed",
+		"value": true
+	  }
+	]
+  },
+  {
+	"id": "public_grain_reassurance",
+	"label": "公开安民发粮",
+	"requirements": [
+	  {
+		"resource": "grain",
+		"min": 100
+	  }
+	],
+	"costs": [
+	  {
+		"resource": "grain",
+		"value": -100
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "public_order",
+		"value": 6
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 2
+	  },
+	  {
+		"type": "flag_set",
+		"target": "lingwu_public_reassured",
+		"value": true
+	  }
+	]
+  },
+  {
+	"id": "suppress_rumor_patrols",
+	"label": "派近侍压制流言",
+	"requirements": [
+	  {
+		"resource": "court_authority",
+		"min": 2
+	  }
+	],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -2
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "public_order",
+		"value": 3
+	  },
+	  {
+		"type": "relationship_delta",
+		"target": "li_fuguo",
+		"value": 3
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "attitude",
+		"value": 3
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "suzong_court",
+		"field": "pressure",
+		"value": 2
+	  },
+	  {
+		"type": "flag_set",
+		"target": "lingwu_rumors_suppressed",
+		"value": true
+	  }
+	]
+  },
+  {
+	"id": "audit_grain_register",
+	"label": "核查粮册亏空",
+	"requirements": [
+	  {
+		"resource": "court_authority",
+		"min": 3
+	  }
+	],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -3
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "grain",
+		"value": 150
+	  },
+	  {
+		"type": "relationship_delta",
+		"target": "grain_official_lingwu",
+		"value": -12
+	  },
+	  {
+		"type": "flag_set",
+		"target": "grain_deficit_exposed",
+		"value": true
+	  }
+	]
+  },
+  {
+	"id": "seal_grain_warehouse",
+	"label": "封存灵武粮仓",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "grain",
+		"value": 100
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "public_order",
+		"value": -3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 2
+	  },
+	  {
+		"type": "flag_set",
+		"target": "lingwu_grain_warehouse_sealed",
+		"value": true
+	  }
+	]
+  },
+  {
+	"id": "set_military_priority",
+	"label": "第一轮以稳住前线为先",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "military_morale",
+		"value": 4
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 2
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "attitude",
+		"value": 5
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "hedong_front",
+		"field": "control",
+		"value": 5
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "guanzhong_front",
+		"field": "threat",
+		"value": -4
+	  },
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  },
+	  {
+		"type": "flag_set",
+		"target": "phase_priority",
+		"value": "military"
+	  }
+	]
+  },
+  {
+	"id": "set_legitimacy_priority",
+	"label": "第一轮以巩固正统为先",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": 5
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "xuanzong_old_court",
+		"field": "pressure",
+		"value": -4
+	  },
+	  {
+		"type": "strategy_route_delta",
+		"target": "defend_lingwu",
+		"value": 1
+	  },
+	  {
+		"type": "flag_set",
+		"target": "phase_priority",
+		"value": "legitimacy"
+	  }
+	]
+  },
+  {
+	"id": "set_grain_priority",
+	"label": "第一轮以粮道周转为先",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "grain",
+		"value": 200
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "public_order",
+		"value": -3
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "suzong_court",
+		"field": "pressure",
+		"value": -2
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "supply",
+		"value": 8
+	  },
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  },
+	  {
+		"type": "flag_set",
+		"target": "phase_priority",
+		"value": "grain"
+	  }
+	]
+  },
+  {
+	"id": "emergency_requisition_grain",
+	"label": "追调地方粮草",
+	"requirements": [
+	  {
+		"resource": "court_authority",
+		"min": 5
+	  }
+	],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -5
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "grain",
+		"value": 300
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "public_order",
+		"value": -4
+	  },
+	  {
+		"type": "flag_set",
+		"target": "emergency_grain_requisitioned",
+		"value": true
+	  }
+	],
+	"follow_up_event": {
+	  "id": "emergency_grain_requisition_report",
+	  "type": "completion_report",
+	  "title": "地方追粮入营",
+	  "source_character_id": "grain_official_lingwu",
+	  "deadline_days": 1,
+	  "urgency": 48,
+	  "visible_summary": "地方追粮入营，朔方可再撑一轮；但民户怨声也随粮车一并传入行在。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "appoint_guo_shuofang_commander",
+	"label": "加郭子仪朔方节制",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -4
+	  }
+	],
+	"effects": [
+	  {
+		"type": "relationship_delta",
+		"target": "guo_ziyi",
+		"value": 10
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "attitude",
+		"value": 6
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 5
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "control",
+		"value": 10
+	  },
+	  {
+		"type": "battlefront_reason",
+		"target": "shuofang_front",
+		"value": "郭子仪获加节制，朔方军令更整。"
+	  },
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "guo_ziyi_commander_report",
+	  "type": "completion_report",
+	  "title": "郭子仪谢恩请战",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 2,
+	  "urgency": 45,
+	  "visible_summary": "郭子仪谢恩称愿以朔方军整顿粮道，但也请行在勿令近侍掣肘军府。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "reinforce_guanzhong_relay",
+	"label": "加派关中驿骑",
+	"requirements": [
+	  {
+		"resource": "grain",
+		"min": 80
+	  }
+	],
+	"costs": [
+	  {
+		"resource": "grain",
+		"value": -80
+	  }
+	],
+	"effects": [
+	  {
+		"type": "battlefront_delta",
+		"target": "guanzhong_front",
+		"field": "threat",
+		"value": -7
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "guanzhong_front",
+		"field": "control",
+		"value": 4
+	  },
+	  {
+		"type": "battlefront_reason",
+		"target": "guanzhong_front",
+		"value": "行在加派驿骑，关中诏令传递稍稳。"
+	  },
+	  {
+		"type": "strategy_route_delta",
+		"target": "defend_lingwu",
+		"value": 1
+	  }
+	],
+	"follow_up_event": {
+	  "id": "guanzhong_relay_restored_report",
+	  "type": "completion_report",
+	  "title": "关中驿骑回报",
+	  "source_character_id": "li_bi",
+	  "deadline_days": 1,
+	  "urgency": 42,
+	  "visible_summary": "关中驿骑回报：叛军压迫仍在，但行在诏令不再完全断绝。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "negotiate_uighur_vanguard",
+	"label": "议回纥前锋先动",
+	"requirements": [
+	  {
+		"resource": "treasury",
+		"min": 120
+	  }
+	],
+	"costs": [
+	  {
+		"resource": "treasury",
+		"value": -120
+	  }
+	],
+	"effects": [
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "attitude",
+		"value": 7
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 8
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "hedong_front",
+		"field": "threat",
+		"value": -4
+	  },
+	  {
+		"type": "strategy_route_delta",
+		"target": "uighur_push",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "uighur_vanguard_price_report",
+	  "type": "completion_report",
+	  "title": "回纥前锋索价",
+	  "source_character_id": "uighur_envoy",
+	  "deadline_days": 1,
+	  "urgency": 52,
+	  "visible_summary": "回纥使者称前锋可动，但赏约、马价与战后分赐必须写成明文。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "restrain_eunuch_gatekeeping",
+	"label": "申禁近侍截留军札",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -3
+	  }
+	],
+	"effects": [
+	  {
+		"type": "relationship_delta",
+		"target": "li_fuguo",
+		"value": -6
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 8
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "attitude",
+		"value": 4
+	  },
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  }
+	],
+	"follow_up_event": {
+	  "id": "li_fuguo_gatekeeping_reaction",
+	  "type": "completion_report",
+	  "title": "李辅国请罪又辩",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 1,
+	  "urgency": 55,
+	  "visible_summary": "李辅国请罪，却暗示军府札子多有夸饰。近侍与将帅的嫌隙没有消失，只是暂时压下。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "honor_military_petition",
+	"label": "准将帅联名请功",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "legitimacy",
+		"value": -2
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "military_morale",
+		"value": 6
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": -5
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "xuanzong_old_court",
+		"field": "pressure",
+		"value": 4
+	  },
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  }
+	],
+	"follow_up_event": {
+	  "id": "military_petition_approved_report",
+	  "type": "completion_report",
+	  "title": "将帅联名谢诏",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 1,
+	  "urgency": 44,
+	  "visible_summary": "诸将联名谢诏，军心稍振；旧臣则担心新朝过度倚重军府。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "fortify_lingwu_camps",
+	"label": "修灵武营垒",
+	"requirements": [
+	  {
+		"resource": "grain",
+		"min": 100
+	  }
+	],
+	"costs": [
+	  {
+		"resource": "grain",
+		"value": -100
+	  }
+	],
+	"effects": [
+	  {
+		"type": "battlefront_delta",
+		"target": "westward_route",
+		"field": "control",
+		"value": 8
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "westward_route",
+		"field": "threat",
+		"value": -5
+	  },
+	  {
+		"type": "battlefront_reason",
+		"target": "westward_route",
+		"value": "灵武营垒加固，行在安全线暂稳。"
+	  },
+	  {
+		"type": "strategy_route_delta",
+		"target": "defend_lingwu",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "lingwu_camps_fortified_report",
+	  "type": "completion_report",
+	  "title": "灵武营垒修毕",
+	  "source_character_id": "chen_xuanli",
+	  "deadline_days": 2,
+	  "urgency": 40,
+	  "visible_summary": "营垒修毕，西行旧军愿暂听灵武调度，但前线将帅催促朝廷不可只守不攻。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "open_hebei_probe",
+	"label": "遣密探探河北叛军",
+	"requirements": [
+	  {
+		"resource": "intelligence",
+		"min": 5
+	  }
+	],
+	"costs": [
+	  {
+		"resource": "intelligence",
+		"value": -5
+	  }
+	],
+	"effects": [
+	  {
+		"type": "battlefront_delta",
+		"target": "rebel_hebei_front",
+		"field": "threat",
+		"value": -6
+	  },
+	  {
+		"type": "battlefront_reason",
+		"target": "rebel_hebei_front",
+		"value": "密探回报叛军虚实，河北侧翼压力稍明。"
+	  },
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  }
+	],
+	"follow_up_event": {
+	  "id": "hebei_probe_report",
+	  "type": "completion_report",
+	  "title": "河北密探回报",
+	  "source_character_id": "shi_siming",
+	  "deadline_days": 2,
+	  "urgency": 48,
+	  "visible_summary": "密探称河北叛军仍强，但内部疑忌渐起。此讯可供下一轮牵制使用。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "punish_grain_corruption",
+	"label": "明罚亏空粮吏",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -2
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "grain",
+		"value": 120
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "public_order",
+		"value": 3
+	  },
+	  {
+		"type": "relationship_delta",
+		"target": "grain_official_lingwu",
+		"value": -15
+	  },
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  }
+	],
+	"follow_up_event": {
+	  "id": "grain_corruption_punished_report",
+	  "type": "completion_report",
+	  "title": "粮吏伏罪",
+	  "source_character_id": "grain_official_lingwu",
+	  "deadline_days": 3,
+	  "urgency": 46,
+	  "visible_summary": "粮吏伏罪，追回一批军粮。百姓称快，但行在粮政也暴露出更多缺口。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_support_shuofang_decision_01",
+	"label": "支援朔方反攻第1道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "supply",
+		"value": 4
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_support_shuofang_decision_01_followup_report",
+	  "type": "completion_report",
+	  "title": "朔方诏令回报1",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 3,
+	  "urgency": 41,
+	  "visible_summary": "执行官回报：支援朔方反攻的第1道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_uighur_push_decision_02",
+	"label": "借回纥破局第2道诏令",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "treasury",
+		"value": -30
+	  }
+	],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "uighur_push",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "hedong_front",
+		"field": "threat",
+		"value": -3
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -40
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_uighur_push_decision_02_followup_report",
+	  "type": "completion_report",
+	  "title": "回纥诏令回报2",
+	  "source_character_id": "uighur_envoy",
+	  "deadline_days": 1,
+	  "urgency": 42,
+	  "visible_summary": "执行官回报：借回纥破局的第2道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_defend_lingwu_decision_03",
+	"label": "固守灵武正统第3道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "defend_lingwu",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "westward_route",
+		"field": "control",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_defend_lingwu_decision_03_followup_report",
+	  "type": "completion_report",
+	  "title": "灵武诏令回报3",
+	  "source_character_id": "li_bi",
+	  "deadline_days": 1,
+	  "urgency": 43,
+	  "visible_summary": "执行官回报：固守灵武正统的第3道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_support_shuofang_decision_04",
+	"label": "支援朔方反攻第4道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "supply",
+		"value": 4
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_support_shuofang_decision_04_followup_report",
+	  "type": "completion_report",
+	  "title": "朔方诏令回报4",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 3,
+	  "urgency": 44,
+	  "visible_summary": "执行官回报：支援朔方反攻的第4道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_uighur_push_decision_05",
+	"label": "借回纥破局第5道诏令",
+	"requirements": [
+	  {
+		"resource": "treasury",
+		"min": 80
+	  }
+	],
+	"costs": [
+	  {
+		"resource": "treasury",
+		"value": -30
+	  }
+	],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "uighur_push",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "hedong_front",
+		"field": "threat",
+		"value": -3
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -40
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_uighur_push_decision_05_followup_report",
+	  "type": "completion_report",
+	  "title": "回纥诏令回报5",
+	  "source_character_id": "uighur_envoy",
+	  "deadline_days": 3,
+	  "urgency": 45,
+	  "visible_summary": "执行官回报：借回纥破局的第5道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_defend_lingwu_decision_06",
+	"label": "固守灵武正统第6道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "defend_lingwu",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "westward_route",
+		"field": "control",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_defend_lingwu_decision_06_followup_report",
+	  "type": "completion_report",
+	  "title": "灵武诏令回报6",
+	  "source_character_id": "li_bi",
+	  "deadline_days": 3,
+	  "urgency": 46,
+	  "visible_summary": "执行官回报：固守灵武正统的第6道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_support_shuofang_decision_07",
+	"label": "支援朔方反攻第7道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "supply",
+		"value": 4
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_support_shuofang_decision_07_followup_report",
+	  "type": "completion_report",
+	  "title": "朔方诏令回报7",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 3,
+	  "urgency": 47,
+	  "visible_summary": "执行官回报：支援朔方反攻的第7道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_uighur_push_decision_08",
+	"label": "借回纥破局第8道诏令",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "treasury",
+		"value": -30
+	  }
+	],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "uighur_push",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "hedong_front",
+		"field": "threat",
+		"value": -3
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -40
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_uighur_push_decision_08_followup_report",
+	  "type": "completion_report",
+	  "title": "回纥诏令回报8",
+	  "source_character_id": "uighur_envoy",
+	  "deadline_days": 1,
+	  "urgency": 48,
+	  "visible_summary": "执行官回报：借回纥破局的第8道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_defend_lingwu_decision_09",
+	"label": "固守灵武正统第9道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "defend_lingwu",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "westward_route",
+		"field": "control",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_defend_lingwu_decision_09_followup_report",
+	  "type": "completion_report",
+	  "title": "灵武诏令回报9",
+	  "source_character_id": "li_bi",
+	  "deadline_days": 1,
+	  "urgency": 49,
+	  "visible_summary": "执行官回报：固守灵武正统的第9道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_support_shuofang_decision_10",
+	"label": "支援朔方反攻第10道诏令",
+	"requirements": [
+	  {
+		"resource": "grain",
+		"min": 80
+	  }
+	],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "supply",
+		"value": 4
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_support_shuofang_decision_10_followup_report",
+	  "type": "completion_report",
+	  "title": "朔方诏令回报10",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 3,
+	  "urgency": 50,
+	  "visible_summary": "执行官回报：支援朔方反攻的第10道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_uighur_push_decision_11",
+	"label": "借回纥破局第11道诏令",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "treasury",
+		"value": -30
+	  }
+	],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "uighur_push",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "hedong_front",
+		"field": "threat",
+		"value": -3
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -40
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_uighur_push_decision_11_followup_report",
+	  "type": "completion_report",
+	  "title": "回纥诏令回报11",
+	  "source_character_id": "uighur_envoy",
+	  "deadline_days": 2,
+	  "urgency": 51,
+	  "visible_summary": "执行官回报：借回纥破局的第11道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_defend_lingwu_decision_12",
+	"label": "固守灵武正统第12道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "defend_lingwu",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "westward_route",
+		"field": "control",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_defend_lingwu_decision_12_followup_report",
+	  "type": "completion_report",
+	  "title": "灵武诏令回报12",
+	  "source_character_id": "li_bi",
+	  "deadline_days": 1,
+	  "urgency": 52,
+	  "visible_summary": "执行官回报：固守灵武正统的第12道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_support_shuofang_decision_13",
+	"label": "支援朔方反攻第13道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "supply",
+		"value": 4
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_support_shuofang_decision_13_followup_report",
+	  "type": "completion_report",
+	  "title": "朔方诏令回报13",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 3,
+	  "urgency": 53,
+	  "visible_summary": "执行官回报：支援朔方反攻的第13道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_uighur_push_decision_14",
+	"label": "借回纥破局第14道诏令",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "treasury",
+		"value": -30
+	  }
+	],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "uighur_push",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "hedong_front",
+		"field": "threat",
+		"value": -3
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -40
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_uighur_push_decision_14_followup_report",
+	  "type": "completion_report",
+	  "title": "回纥诏令回报14",
+	  "source_character_id": "uighur_envoy",
+	  "deadline_days": 1,
+	  "urgency": 54,
+	  "visible_summary": "执行官回报：借回纥破局的第14道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_defend_lingwu_decision_15",
+	"label": "固守灵武正统第15道诏令",
+	"requirements": [
+	  {
+		"resource": "grain",
+		"min": 80
+	  }
+	],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "defend_lingwu",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "westward_route",
+		"field": "control",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_defend_lingwu_decision_15_followup_report",
+	  "type": "completion_report",
+	  "title": "灵武诏令回报15",
+	  "source_character_id": "li_bi",
+	  "deadline_days": 1,
+	  "urgency": 55,
+	  "visible_summary": "执行官回报：固守灵武正统的第15道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_support_shuofang_decision_16",
+	"label": "支援朔方反攻第16道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "supply",
+		"value": 4
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_support_shuofang_decision_16_followup_report",
+	  "type": "completion_report",
+	  "title": "朔方诏令回报16",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 2,
+	  "urgency": 56,
+	  "visible_summary": "执行官回报：支援朔方反攻的第16道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_uighur_push_decision_17",
+	"label": "借回纥破局第17道诏令",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "treasury",
+		"value": -30
+	  }
+	],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "uighur_push",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "hedong_front",
+		"field": "threat",
+		"value": -3
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -40
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_uighur_push_decision_17_followup_report",
+	  "type": "completion_report",
+	  "title": "回纥诏令回报17",
+	  "source_character_id": "uighur_envoy",
+	  "deadline_days": 2,
+	  "urgency": 57,
+	  "visible_summary": "执行官回报：借回纥破局的第17道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_defend_lingwu_decision_18",
+	"label": "固守灵武正统第18道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "defend_lingwu",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "westward_route",
+		"field": "control",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_defend_lingwu_decision_18_followup_report",
+	  "type": "completion_report",
+	  "title": "灵武诏令回报18",
+	  "source_character_id": "li_bi",
+	  "deadline_days": 1,
+	  "urgency": 58,
+	  "visible_summary": "执行官回报：固守灵武正统的第18道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_support_shuofang_decision_19",
+	"label": "支援朔方反攻第19道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "supply",
+		"value": 4
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_support_shuofang_decision_19_followup_report",
+	  "type": "completion_report",
+	  "title": "朔方诏令回报19",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 2,
+	  "urgency": 59,
+	  "visible_summary": "执行官回报：支援朔方反攻的第19道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_uighur_push_decision_20",
+	"label": "借回纥破局第20道诏令",
+	"requirements": [
+	  {
+		"resource": "treasury",
+		"min": 80
+	  }
+	],
+	"costs": [
+	  {
+		"resource": "treasury",
+		"value": -30
+	  }
+	],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "uighur_push",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "hedong_front",
+		"field": "threat",
+		"value": -3
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -40
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_uighur_push_decision_20_followup_report",
+	  "type": "completion_report",
+	  "title": "回纥诏令回报20",
+	  "source_character_id": "uighur_envoy",
+	  "deadline_days": 2,
+	  "urgency": 60,
+	  "visible_summary": "执行官回报：借回纥破局的第20道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_defend_lingwu_decision_21",
+	"label": "固守灵武正统第21道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "defend_lingwu",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "westward_route",
+		"field": "control",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_defend_lingwu_decision_21_followup_report",
+	  "type": "completion_report",
+	  "title": "灵武诏令回报21",
+	  "source_character_id": "li_bi",
+	  "deadline_days": 2,
+	  "urgency": 61,
+	  "visible_summary": "执行官回报：固守灵武正统的第21道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_support_shuofang_decision_22",
+	"label": "支援朔方反攻第22道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "supply",
+		"value": 4
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_support_shuofang_decision_22_followup_report",
+	  "type": "completion_report",
+	  "title": "朔方诏令回报22",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 1,
+	  "urgency": 62,
+	  "visible_summary": "执行官回报：支援朔方反攻的第22道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_uighur_push_decision_23",
+	"label": "借回纥破局第23道诏令",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "treasury",
+		"value": -30
+	  }
+	],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "uighur_push",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "hedong_front",
+		"field": "threat",
+		"value": -3
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -40
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_uighur_push_decision_23_followup_report",
+	  "type": "completion_report",
+	  "title": "回纥诏令回报23",
+	  "source_character_id": "uighur_envoy",
+	  "deadline_days": 3,
+	  "urgency": 63,
+	  "visible_summary": "执行官回报：借回纥破局的第23道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_defend_lingwu_decision_24",
+	"label": "固守灵武正统第24道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "defend_lingwu",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "westward_route",
+		"field": "control",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_defend_lingwu_decision_24_followup_report",
+	  "type": "completion_report",
+	  "title": "灵武诏令回报24",
+	  "source_character_id": "li_bi",
+	  "deadline_days": 3,
+	  "urgency": 64,
+	  "visible_summary": "执行官回报：固守灵武正统的第24道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_support_shuofang_decision_25",
+	"label": "支援朔方反攻第25道诏令",
+	"requirements": [
+	  {
+		"resource": "grain",
+		"min": 80
+	  }
+	],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "supply",
+		"value": 4
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_support_shuofang_decision_25_followup_report",
+	  "type": "completion_report",
+	  "title": "朔方诏令回报25",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 1,
+	  "urgency": 65,
+	  "visible_summary": "执行官回报：支援朔方反攻的第25道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_uighur_push_decision_26",
+	"label": "借回纥破局第26道诏令",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "treasury",
+		"value": -30
+	  }
+	],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "uighur_push",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "hedong_front",
+		"field": "threat",
+		"value": -3
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -40
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_uighur_push_decision_26_followup_report",
+	  "type": "completion_report",
+	  "title": "回纥诏令回报26",
+	  "source_character_id": "uighur_envoy",
+	  "deadline_days": 3,
+	  "urgency": 66,
+	  "visible_summary": "执行官回报：借回纥破局的第26道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_defend_lingwu_decision_27",
+	"label": "固守灵武正统第27道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "defend_lingwu",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "westward_route",
+		"field": "control",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_defend_lingwu_decision_27_followup_report",
+	  "type": "completion_report",
+	  "title": "灵武诏令回报27",
+	  "source_character_id": "li_bi",
+	  "deadline_days": 3,
+	  "urgency": 67,
+	  "visible_summary": "执行官回报：固守灵武正统的第27道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_support_shuofang_decision_28",
+	"label": "支援朔方反攻第28道诏令",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "support_shuofang",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "supply",
+		"value": 4
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_support_shuofang_decision_28_followup_report",
+	  "type": "completion_report",
+	  "title": "朔方诏令回报28",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 1,
+	  "urgency": 68,
+	  "visible_summary": "执行官回报：支援朔方反攻的第28道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_uighur_push_decision_29",
+	"label": "借回纥破局第29道诏令",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "treasury",
+		"value": -30
+	  }
+	],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "uighur_push",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "hedong_front",
+		"field": "threat",
+		"value": -3
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -40
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_uighur_push_decision_29_followup_report",
+	  "type": "completion_report",
+	  "title": "回纥诏令回报29",
+	  "source_character_id": "uighur_envoy",
+	  "deadline_days": 2,
+	  "urgency": 69,
+	  "visible_summary": "执行官回报：借回纥破局的第29道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta03_defend_lingwu_decision_30",
+	"label": "固守灵武正统第30道诏令",
+	"requirements": [
+	  {
+		"resource": "grain",
+		"min": 80
+	  }
+	],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "strategy_route_delta",
+		"target": "defend_lingwu",
+		"value": 1
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  },
+	  {
+		"type": "battlefront_delta",
+		"target": "westward_route",
+		"field": "control",
+		"value": 3
+	  },
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": 2
+	  }
+	],
+	"follow_up_event": {
+	  "id": "beta03_defend_lingwu_decision_30_followup_report",
+	  "type": "completion_report",
+	  "title": "灵武诏令回报30",
+	  "source_character_id": "li_bi",
+	  "deadline_days": 3,
+	  "urgency": 40,
+	  "visible_summary": "执行官回报：固守灵武正统的第30道诏令已经产生结果，相关代价与收益已写入行在状态。",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_01",
+	"label": "Beta06 office decree 1",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "shuofang_field_commander",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_01_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 1",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 1,
+	  "urgency": 45,
+	  "visible_summary": "Court reacts to office decree 1; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_02",
+	"label": "Beta06 office decree 2",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "inner_court_gatekeeper",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_02_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 2",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 1,
+	  "urgency": 46,
+	  "visible_summary": "Court reacts to office decree 2; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_03",
+	"label": "Beta06 office decree 3",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "grain_transport_supervisor",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_03_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 3",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 1,
+	  "urgency": 47,
+	  "visible_summary": "Court reacts to office decree 3; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_04",
+	"label": "Beta06 office decree 4",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "envoy_negotiator",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_04_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 4",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 2,
+	  "urgency": 48,
+	  "visible_summary": "Court reacts to office decree 4; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_05",
+	"label": "Beta06 office decree 5",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "shuofang_field_commander",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_05_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 5",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 2,
+	  "urgency": 49,
+	  "visible_summary": "Court reacts to office decree 5; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_06",
+	"label": "Beta06 office decree 6",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "inner_court_gatekeeper",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_06_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 6",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 1,
+	  "urgency": 50,
+	  "visible_summary": "Court reacts to office decree 6; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_07",
+	"label": "Beta06 office decree 7",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "grain_transport_supervisor",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_07_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 7",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 3,
+	  "urgency": 51,
+	  "visible_summary": "Court reacts to office decree 7; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_08",
+	"label": "Beta06 office decree 8",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "envoy_negotiator",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_08_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 8",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 2,
+	  "urgency": 52,
+	  "visible_summary": "Court reacts to office decree 8; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_09",
+	"label": "Beta06 office decree 9",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "shuofang_field_commander",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_09_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 9",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 1,
+	  "urgency": 53,
+	  "visible_summary": "Court reacts to office decree 9; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_10",
+	"label": "Beta06 office decree 10",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "inner_court_gatekeeper",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_10_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 10",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 1,
+	  "urgency": 54,
+	  "visible_summary": "Court reacts to office decree 10; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_11",
+	"label": "Beta06 office decree 11",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "grain_transport_supervisor",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_11_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 11",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 1,
+	  "urgency": 55,
+	  "visible_summary": "Court reacts to office decree 11; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_12",
+	"label": "Beta06 office decree 12",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "envoy_negotiator",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_12_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 12",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 3,
+	  "urgency": 56,
+	  "visible_summary": "Court reacts to office decree 12; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_13",
+	"label": "Beta06 office decree 13",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "shuofang_field_commander",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_13_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 13",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 1,
+	  "urgency": 57,
+	  "visible_summary": "Court reacts to office decree 13; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_14",
+	"label": "Beta06 office decree 14",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "inner_court_gatekeeper",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_14_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 14",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 2,
+	  "urgency": 58,
+	  "visible_summary": "Court reacts to office decree 14; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_15",
+	"label": "Beta06 office decree 15",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "grain_transport_supervisor",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_15_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 15",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 3,
+	  "urgency": 59,
+	  "visible_summary": "Court reacts to office decree 15; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_16",
+	"label": "Beta06 office decree 16",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "envoy_negotiator",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_16_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 16",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 2,
+	  "urgency": 60,
+	  "visible_summary": "Court reacts to office decree 16; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_17",
+	"label": "Beta06 office decree 17",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "shuofang_field_commander",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_17_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 17",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 2,
+	  "urgency": 61,
+	  "visible_summary": "Court reacts to office decree 17; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_18",
+	"label": "Beta06 office decree 18",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "inner_court_gatekeeper",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_18_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 18",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 2,
+	  "urgency": 62,
+	  "visible_summary": "Court reacts to office decree 18; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_19",
+	"label": "Beta06 office decree 19",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "grain_transport_supervisor",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_19_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 19",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 3,
+	  "urgency": 63,
+	  "visible_summary": "Court reacts to office decree 19; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_20",
+	"label": "Beta06 office decree 20",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "envoy_negotiator",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_20_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 20",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 2,
+	  "urgency": 64,
+	  "visible_summary": "Court reacts to office decree 20; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_21",
+	"label": "Beta06 office decree 21",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "shuofang_field_commander",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_21_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 21",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 1,
+	  "urgency": 65,
+	  "visible_summary": "Court reacts to office decree 21; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_22",
+	"label": "Beta06 office decree 22",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "inner_court_gatekeeper",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_22_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 22",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 2,
+	  "urgency": 66,
+	  "visible_summary": "Court reacts to office decree 22; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_23",
+	"label": "Beta06 office decree 23",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "grain_transport_supervisor",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_23_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 23",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 1,
+	  "urgency": 67,
+	  "visible_summary": "Court reacts to office decree 23; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_24",
+	"label": "Beta06 office decree 24",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "envoy_negotiator",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_24_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 24",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 3,
+	  "urgency": 68,
+	  "visible_summary": "Court reacts to office decree 24; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_25",
+	"label": "Beta06 office decree 25",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "shuofang_field_commander",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_25_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 25",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 1,
+	  "urgency": 69,
+	  "visible_summary": "Court reacts to office decree 25; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_26",
+	"label": "Beta06 office decree 26",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "inner_court_gatekeeper",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_26_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 26",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 1,
+	  "urgency": 70,
+	  "visible_summary": "Court reacts to office decree 26; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_27",
+	"label": "Beta06 office decree 27",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "grain_transport_supervisor",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_27_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 27",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 1,
+	  "urgency": 71,
+	  "visible_summary": "Court reacts to office decree 27; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_28",
+	"label": "Beta06 office decree 28",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "envoy_negotiator",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_28_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 28",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 3,
+	  "urgency": 72,
+	  "visible_summary": "Court reacts to office decree 28; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_29",
+	"label": "Beta06 office decree 29",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "shuofang_field_commander",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_29_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 29",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 1,
+	  "urgency": 73,
+	  "visible_summary": "Court reacts to office decree 29; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_30",
+	"label": "Beta06 office decree 30",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "inner_court_gatekeeper",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_30_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 30",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 3,
+	  "urgency": 74,
+	  "visible_summary": "Court reacts to office decree 30; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_31",
+	"label": "Beta06 office decree 31",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "grain_transport_supervisor",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_31_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 31",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 3,
+	  "urgency": 45,
+	  "visible_summary": "Court reacts to office decree 31; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_32",
+	"label": "Beta06 office decree 32",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "envoy_negotiator",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_32_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 32",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 2,
+	  "urgency": 46,
+	  "visible_summary": "Court reacts to office decree 32; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_33",
+	"label": "Beta06 office decree 33",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "shuofang_field_commander",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_33_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 33",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 2,
+	  "urgency": 47,
+	  "visible_summary": "Court reacts to office decree 33; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_34",
+	"label": "Beta06 office decree 34",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "inner_court_gatekeeper",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_34_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 34",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 1,
+	  "urgency": 48,
+	  "visible_summary": "Court reacts to office decree 34; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_35",
+	"label": "Beta06 office decree 35",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "grain_transport_supervisor",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_35_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 35",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 3,
+	  "urgency": 49,
+	  "visible_summary": "Court reacts to office decree 35; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_36",
+	"label": "Beta06 office decree 36",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "envoy_negotiator",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_36_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 36",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 1,
+	  "urgency": 50,
+	  "visible_summary": "Court reacts to office decree 36; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_37",
+	"label": "Beta06 office decree 37",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "shuofang_field_commander",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_37_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 37",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 1,
+	  "urgency": 51,
+	  "visible_summary": "Court reacts to office decree 37; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_38",
+	"label": "Beta06 office decree 38",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "inner_court_gatekeeper",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_38_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 38",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 2,
+	  "urgency": 52,
+	  "visible_summary": "Court reacts to office decree 38; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_39",
+	"label": "Beta06 office decree 39",
+	"requirements": [],
+	"costs": [],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "grain_transport_supervisor",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_39_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 39",
+	  "source_character_id": "guo_ziyi",
+	  "deadline_days": 3,
+	  "urgency": 53,
+	  "visible_summary": "Court reacts to office decree 39; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta06_office_decree_40",
+	"label": "Beta06 office decree 40",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  },
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 2
+	  }
+	],
+	"beta06_office_id": "envoy_negotiator",
+	"follow_up_event": {
+	  "id": "beta06_office_decree_40_report",
+	  "type": "court_reaction_report",
+	  "title": "Beta06 office decree report 40",
+	  "source_character_id": "li_fuguo",
+	  "deadline_days": 2,
+	  "urgency": 54,
+	  "visible_summary": "Court reacts to office decree 40; the office system records who gained leverage.",
+	  "available_decisions": []
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_01",
+	"label": "Beta07 intelligence action 1",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "guanzhong_false_movement_a",
+	"beta07_operation_id": "verify_guanzhong_movement",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_01_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 1",
+	  "source_character_id": "guo_ziyi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 1
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_02",
+	"label": "Beta07 intelligence action 2",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "guanzhong_false_movement_b",
+	"beta07_operation_id": "beta07_regional_operation_02",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_02_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 2",
+	  "source_character_id": "li_fuguo",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 1
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_03",
+	"label": "Beta07 intelligence action 3",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_01",
+	"beta07_operation_id": "beta07_regional_operation_03",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_03_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 3",
+	  "source_character_id": "li_bi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 1
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_04",
+	"label": "Beta07 intelligence action 4",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_02",
+	"beta07_operation_id": "beta07_regional_operation_04",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_04_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 4",
+	  "source_character_id": "hardline_old_court_official",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 3
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_05",
+	"label": "Beta07 intelligence action 5",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_03",
+	"beta07_operation_id": "beta07_regional_operation_05",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_05_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 5",
+	  "source_character_id": "guo_ziyi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 2
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_06",
+	"label": "Beta07 intelligence action 6",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_04",
+	"beta07_operation_id": "beta07_regional_operation_06",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_06_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 6",
+	  "source_character_id": "li_fuguo",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 1
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_07",
+	"label": "Beta07 intelligence action 7",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_05",
+	"beta07_operation_id": "beta07_regional_operation_07",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_07_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 7",
+	  "source_character_id": "li_bi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 3
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_08",
+	"label": "Beta07 intelligence action 8",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_06",
+	"beta07_operation_id": "beta07_regional_operation_08",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_08_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 8",
+	  "source_character_id": "hardline_old_court_official",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 2
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_09",
+	"label": "Beta07 intelligence action 9",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_07",
+	"beta07_operation_id": "beta07_regional_operation_09",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_09_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 9",
+	  "source_character_id": "guo_ziyi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 2
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_10",
+	"label": "Beta07 intelligence action 10",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_08",
+	"beta07_operation_id": "beta07_regional_operation_10",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_10_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 10",
+	  "source_character_id": "li_fuguo",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 1
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_11",
+	"label": "Beta07 intelligence action 11",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_09",
+	"beta07_operation_id": "beta07_regional_operation_11",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_11_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 11",
+	  "source_character_id": "li_bi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 2
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_12",
+	"label": "Beta07 intelligence action 12",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_10",
+	"beta07_operation_id": "beta07_regional_operation_12",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_12_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 12",
+	  "source_character_id": "hardline_old_court_official",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 1
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_13",
+	"label": "Beta07 intelligence action 13",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_11",
+	"beta07_operation_id": "verify_guanzhong_movement",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_13_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 13",
+	  "source_character_id": "guo_ziyi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 3
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_14",
+	"label": "Beta07 intelligence action 14",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_12",
+	"beta07_operation_id": "beta07_regional_operation_02",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_14_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 14",
+	  "source_character_id": "li_fuguo",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 3
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_15",
+	"label": "Beta07 intelligence action 15",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_13",
+	"beta07_operation_id": "beta07_regional_operation_03",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_15_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 15",
+	  "source_character_id": "li_bi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 2
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_16",
+	"label": "Beta07 intelligence action 16",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_14",
+	"beta07_operation_id": "beta07_regional_operation_04",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_16_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 16",
+	  "source_character_id": "hardline_old_court_official",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 3
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_17",
+	"label": "Beta07 intelligence action 17",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_15",
+	"beta07_operation_id": "beta07_regional_operation_05",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_17_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 17",
+	  "source_character_id": "guo_ziyi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 3
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_18",
+	"label": "Beta07 intelligence action 18",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_16",
+	"beta07_operation_id": "beta07_regional_operation_06",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_18_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 18",
+	  "source_character_id": "li_fuguo",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 3
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_19",
+	"label": "Beta07 intelligence action 19",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_17",
+	"beta07_operation_id": "beta07_regional_operation_07",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_19_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 19",
+	  "source_character_id": "li_bi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 2
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_20",
+	"label": "Beta07 intelligence action 20",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_18",
+	"beta07_operation_id": "beta07_regional_operation_08",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_20_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 20",
+	  "source_character_id": "hardline_old_court_official",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 1
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_21",
+	"label": "Beta07 intelligence action 21",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_19",
+	"beta07_operation_id": "beta07_regional_operation_09",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_21_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 21",
+	  "source_character_id": "guo_ziyi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 3
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_22",
+	"label": "Beta07 intelligence action 22",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_20",
+	"beta07_operation_id": "beta07_regional_operation_10",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_22_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 22",
+	  "source_character_id": "li_fuguo",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 3
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_23",
+	"label": "Beta07 intelligence action 23",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_21",
+	"beta07_operation_id": "beta07_regional_operation_11",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_23_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 23",
+	  "source_character_id": "li_bi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 3
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_24",
+	"label": "Beta07 intelligence action 24",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_22",
+	"beta07_operation_id": "beta07_regional_operation_12",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_24_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 24",
+	  "source_character_id": "hardline_old_court_official",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 1
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_25",
+	"label": "Beta07 intelligence action 25",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_23",
+	"beta07_operation_id": "verify_guanzhong_movement",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_25_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 25",
+	  "source_character_id": "guo_ziyi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 1
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_26",
+	"label": "Beta07 intelligence action 26",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_24",
+	"beta07_operation_id": "beta07_regional_operation_02",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_26_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 26",
+	  "source_character_id": "li_fuguo",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 2
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_27",
+	"label": "Beta07 intelligence action 27",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_25",
+	"beta07_operation_id": "beta07_regional_operation_03",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_27_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 27",
+	  "source_character_id": "li_bi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 1
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_28",
+	"label": "Beta07 intelligence action 28",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_26",
+	"beta07_operation_id": "beta07_regional_operation_04",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_28_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 28",
+	  "source_character_id": "hardline_old_court_official",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 3
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_29",
+	"label": "Beta07 intelligence action 29",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_27",
+	"beta07_operation_id": "beta07_regional_operation_05",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_29_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 29",
+	  "source_character_id": "guo_ziyi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 3
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_30",
+	"label": "Beta07 intelligence action 30",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_28",
+	"beta07_operation_id": "beta07_regional_operation_06",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_30_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 30",
+	  "source_character_id": "li_fuguo",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 2
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_31",
+	"label": "Beta07 intelligence action 31",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_29",
+	"beta07_operation_id": "beta07_regional_operation_07",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_31_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 31",
+	  "source_character_id": "li_bi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 2
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_32",
+	"label": "Beta07 intelligence action 32",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_30",
+	"beta07_operation_id": "beta07_regional_operation_08",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_32_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 32",
+	  "source_character_id": "hardline_old_court_official",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 2
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_33",
+	"label": "Beta07 intelligence action 33",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_31",
+	"beta07_operation_id": "beta07_regional_operation_09",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_33_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 33",
+	  "source_character_id": "guo_ziyi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 3
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_34",
+	"label": "Beta07 intelligence action 34",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": 0
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_32",
+	"beta07_operation_id": "beta07_regional_operation_10",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_34_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 34",
+	  "source_character_id": "li_fuguo",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 3
+	}
+  },
+  {
+	"id": "beta07_intelligence_action_35",
+	"label": "Beta07 intelligence action 35",
+	"requirements": [],
+	"costs": [
+	  {
+		"resource": "court_authority",
+		"value": -1
+	  }
+	],
+	"effects": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": 1
+	  }
+	],
+	"beta07_report_id": "beta07_intel_report_33",
+	"beta07_operation_id": "beta07_regional_operation_11",
+	"follow_up_event": {
+	  "id": "beta07_intelligence_action_35_report",
+	  "type": "intelligence_followup_report",
+	  "title": "Beta07 intelligence follow-up 35",
+	  "source_character_id": "li_bi",
+	  "visible_summary": "A Beta 0.7 intelligence action creates a visible report and causal record.",
+	  "available_decisions": [],
+	  "deadline_days": 3
+	}
+  }
+]

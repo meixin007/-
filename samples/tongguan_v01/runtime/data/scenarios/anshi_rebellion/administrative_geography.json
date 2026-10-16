@@ -1,0 +1,16 @@
+{
+  "source_id": "scenario:administrative_geography_756",
+  "content_basis": "当前剧本的战略地点与地图行政范围关联。朔方军镇归入关内道的区域展示；此关联不授予行政或军事权限，不改变地图几何。",
+  "regional_node_bindings": [
+    {"node_id": "shuofang_front_node", "scope_id": "region:唐:关内道"}
+  ],
+  "office_display_bindings": [
+    {"office_id":"duzhi_shi","scope_ids":["country:唐"],"source_ref":"office_catalog:duzhi_shi","basis":"原目录职责为全国军费筹措与度支调剂，列入大唐主要使职。"},
+    {"office_id":"yantie_zhuanyun_shi","scope_ids":["country:唐"],"source_ref":"office_catalog:yantie_zhuanyun_shi","basis":"原目录职责为江淮盐铁与运河转运，按跨地区财赋使职列入大唐总览，不授予全国地方管辖权。"},
+    {"office_id":"liangliao_shi","scope_ids":["country:唐"],"source_ref":"office_catalog:liangliao_shi","basis":"原目录职责为前线诸军粮料，列入大唐军需使职；实际任务辖区仍为任职记录中的粮道。"},
+    {"office_id":"hedong_jiedushi","scope_ids":["region:唐:河东道"],"source_ref":"office_catalog:hedong_jiedushi","basis":"按原目录太原、雁门职责列入河东道；空缺不视作有人在任。"},
+    {"office_id":"henan_jiedu_fushi","scope_ids":["region:唐:河南道"],"source_ref":"office_catalog:henan_jiedu_fushi","basis":"按原目录睢阳、汴水职责列入河南道；实际权力以任命为准。"},
+    {"office_id":"jiannan_jiedushi","scope_ids":["region:唐:剑南道"],"source_ref":"office_catalog:jiannan_jiedushi","basis":"按原目录蜀中后方职责列入剑南道；不据此改变地方任免与实控。"},
+    {"office_id":"xuanwei_zhaotao_shi","scope_ids":["region:唐:河南道","region:唐:河北道"],"source_ref":"office_catalog:xuanwei_zhaotao_shi","basis":"按原目录河南、河北宣慰职责分别列示，同一岗位不重复创造任职或权限。"}
+  ]
+}

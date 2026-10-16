@@ -1,0 +1,7 @@
+{
+  "description": "M3 秦岭山路最小天气场景。日期为剧本设计参数，不代表历史实测；普通霜冻不触发封山。",
+  "events": [
+    {"event_id":"qinling_rain","corridor_id":"c_fengxiang_liangzhou","condition_id":"rain","starts_day":14,"ends_day":16,"recovers_day":18},
+    {"event_id":"qinling_snow","corridor_id":"c_fengxiang_liangzhou","condition_id":"snowfall","starts_day":70,"ends_day":72,"recovers_day":74}
+  ]
+}

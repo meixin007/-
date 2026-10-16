@@ -1,0 +1,3 @@
+[
+  {"ending_id":"beta105_lingwu_regime_stabilized","title":"制衡中的复兴","summary":"行在保住了军令效率，也留下必须偿还的制度与民力成本。","chain_outcomes":[{"chain_id":"grain_authority","state":"balanced"}],"character_outcomes":[{"character_id":"li_bi","state":"guarded_cooperation"}],"evidence_refs":["beta105_day88_three_chain_collision"],"unpaid_costs":["promise_uighur_reward"]}
+]

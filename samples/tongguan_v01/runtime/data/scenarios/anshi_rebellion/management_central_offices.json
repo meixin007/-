@@ -1,0 +1,1167 @@
+{
+  "source_id": "scenario:lingwu_central_offices_756",
+  "content_basis": "本作在灵武组织官署的可玩配置。使用设计中的职名；不主张这些员额、品阶和属官辟用办法等同于历史制度。",
+  "branches": [
+    {
+      "id": "central_executive",
+      "name": "宰辅与尚书省",
+      "short_name": "宰辅与尚书省",
+      "description": "宰辅与尚书省的实际职位与任用入口"
+    },
+    {
+      "id": "six_ministries",
+      "name": "六部与属官",
+      "short_name": "六部与属官",
+      "description": "六部与属官的实际职位与任用入口"
+    },
+    {
+      "id": "censorate_remonstrance",
+      "name": "监察与谏议",
+      "short_name": "监察与谏议",
+      "description": "监察与谏议的实际职位与任用入口"
+    },
+    {
+      "id": "wartime_commission",
+      "name": "财赋与转运使职",
+      "short_name": "财赋与转运使职",
+      "description": "财赋与转运使职的实际职位与任用入口"
+    },
+    {
+      "id": "regional_command",
+      "name": "地方军政",
+      "short_name": "地方军政",
+      "description": "地方军政的实际职位与任用入口"
+    },
+    {
+      "id": "judicial_ritual",
+      "name": "寺务与司法",
+      "short_name": "寺务与司法",
+      "description": "寺务与司法的实际职位与任用入口"
+    },
+    {
+      "id": "education_works",
+      "name": "官学与营造",
+      "short_name": "官学与营造",
+      "description": "官学与营造的实际职位与任用入口"
+    },
+    {
+      "id": "inner_court",
+      "name": "内廷",
+      "short_name": "内廷",
+      "description": "内廷的实际职位与任用入口"
+    }
+  ],
+  "offices": [
+    {
+      "id": "shangshu_zuo_pushe",
+      "name": "尚书左仆射",
+      "rank": "中枢职任",
+      "branch": "central_executive",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "imperial_court",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "统筹本作吏、户、礼部政务与交办记录；各部任免权按独立配置办理。",
+      "required_stats": {
+        "governance": 80,
+        "intrigue": 75
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "shangshu_you_pushe",
+      "name": "尚书右仆射",
+      "rank": "中枢职任",
+      "branch": "central_executive",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "imperial_court",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "统筹本作兵、刑、工部政务与交办记录；不因机构层级取得全部库藏。",
+      "required_stats": {
+        "governance": 80,
+        "intrigue": 75
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "libu_shilang",
+      "name": "吏部侍郎",
+      "rank": "部门副职",
+      "branch": "six_ministries",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "libu_shangshu",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "协助吏部主官处理本部事项，任职与具体资源授权分别核验。",
+      "required_stats": {
+        "governance": 70
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "libu_langzhong",
+      "name": "吏部郎中",
+      "rank": "经办属官",
+      "branch": "six_ministries",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "libu_shilang",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "libu_shangshu"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "承办吏部具体事务；由本作该部尚书当前在任者按实际条件任用。",
+      "required_stats": {
+        "governance": 65
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "hubu_shilang",
+      "name": "户部侍郎",
+      "rank": "部门副职",
+      "branch": "six_ministries",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "hubu_shangshu",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "协助户部主官处理本部事项，任职与具体资源授权分别核验。",
+      "required_stats": {
+        "governance": 65,
+        "finance": 70
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "hubu_langzhong",
+      "name": "户部郎中",
+      "rank": "经办属官",
+      "branch": "six_ministries",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "hubu_shilang",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "hubu_shangshu"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "承办户部具体事务；由本作该部尚书当前在任者按实际条件任用。",
+      "required_stats": {
+        "governance": 60,
+        "finance": 65
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "libu_rites_shilang",
+      "name": "礼部侍郎",
+      "rank": "部门副职",
+      "branch": "six_ministries",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "libu_rites_shangshu",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "协助礼部主官处理本部事项，任职与具体资源授权分别核验。",
+      "required_stats": {
+        "governance": 65,
+        "diplomacy": 70
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "libu_rites_langzhong",
+      "name": "礼部郎中",
+      "rank": "经办属官",
+      "branch": "six_ministries",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "libu_rites_shilang",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "libu_rites_shangshu"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "承办礼部具体事务；由本作该部尚书当前在任者按实际条件任用。",
+      "required_stats": {
+        "governance": 60,
+        "diplomacy": 65
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "bingbu_shilang",
+      "name": "兵部侍郎",
+      "rank": "部门副职",
+      "branch": "six_ministries",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "bingbu_shangshu",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "协助兵部主官处理本部事项，任职与具体资源授权分别核验。",
+      "required_stats": {
+        "governance": 65,
+        "military": 70
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "bingbu_langzhong",
+      "name": "兵部郎中",
+      "rank": "经办属官",
+      "branch": "six_ministries",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "bingbu_shilang",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "bingbu_shangshu"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "承办兵部具体事务；由本作该部尚书当前在任者按实际条件任用。",
+      "required_stats": {
+        "governance": 60,
+        "military": 65
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "xingbu_shilang",
+      "name": "刑部侍郎",
+      "rank": "部门副职",
+      "branch": "six_ministries",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "xingbu_shangshu",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "协助刑部主官处理本部事项，任职与具体资源授权分别核验。",
+      "required_stats": {
+        "governance": 65,
+        "intrigue": 70
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "xingbu_langzhong",
+      "name": "刑部郎中",
+      "rank": "经办属官",
+      "branch": "six_ministries",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "xingbu_shilang",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "xingbu_shangshu"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "承办刑部具体事务；由本作该部尚书当前在任者按实际条件任用。",
+      "required_stats": {
+        "governance": 60,
+        "intrigue": 65
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "gongbu_shilang",
+      "name": "工部侍郎",
+      "rank": "部门副职",
+      "branch": "six_ministries",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "gongbu_shangshu",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "协助工部主官处理本部事项，任职与具体资源授权分别核验。",
+      "required_stats": {
+        "governance": 70
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "gongbu_langzhong",
+      "name": "工部郎中",
+      "rank": "经办属官",
+      "branch": "six_ministries",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "gongbu_shilang",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "gongbu_shangshu"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "承办工部具体事务；由本作该部尚书当前在任者按实际条件任用。",
+      "required_stats": {
+        "governance": 65
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "yushi_dafu",
+      "name": "御史大夫",
+      "rank": "监察主官",
+      "branch": "censorate_remonstrance",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "imperial_court",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "统筹监察、证据核查和问责报告；裁决及处分须走实际案件规则。",
+      "required_stats": {
+        "governance": 75,
+        "intrigue": 75
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "dali_qing",
+      "name": "大理卿",
+      "rank": "寺监主官",
+      "branch": "judicial_ritual",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "imperial_court",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "统筹审理与案件复核；任官本身不产生案件结论。",
+      "required_stats": {
+        "governance": 70,
+        "intrigue": 70
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "taichang_qing",
+      "name": "太常卿",
+      "rank": "寺监主官",
+      "branch": "judicial_ritual",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "imperial_court",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "统筹礼仪与祭祀事务及实际预算。",
+      "required_stats": {
+        "governance": 65,
+        "diplomacy": 70
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "honglu_qing",
+      "name": "鸿胪卿",
+      "rank": "寺监主官",
+      "branch": "judicial_ritual",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "imperial_court",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "办理使节接洽、礼宾与已有承诺；不得直接生成盟约。",
+      "required_stats": {
+        "governance": 65,
+        "diplomacy": 75
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "sinong_qing",
+      "name": "司农卿",
+      "rank": "寺监主官",
+      "branch": "judicial_ritual",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "imperial_court",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "统筹田粮事务，实际粮源与仓储权由原账目核验。",
+      "required_stats": {
+        "governance": 70,
+        "finance": 70
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "taifu_qing",
+      "name": "太府卿",
+      "rank": "寺监主官",
+      "branch": "judicial_ritual",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "imperial_court",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "统筹财货经办与账目核查；不因任职复制国帑。",
+      "required_stats": {
+        "governance": 65,
+        "finance": 75
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "guozi_jijiu",
+      "name": "国子祭酒",
+      "rank": "寺监主官",
+      "branch": "education_works",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "imperial_court",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "统筹官学师资与人才培养；开办、学习、考试与录取继续走实际合同。",
+      "required_stats": {
+        "governance": 65,
+        "scholarship": 80
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "jiangzuo_dajiang",
+      "name": "将作大匠",
+      "rank": "寺监主官",
+      "branch": "education_works",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "imperial_court",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "统筹公共营造，材料、工日、时节与验收继续由原工程规则判断。",
+      "required_stats": {
+        "governance": 75,
+        "finance": 65
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "shaofu_jian",
+      "name": "少府监",
+      "rank": "寺监主官",
+      "branch": "education_works",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "imperial_court",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "统筹作坊器用与制作事务，不凭职务创造物料或成品。",
+      "required_stats": {
+        "governance": 70,
+        "finance": 70
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    },
+    {
+      "id": "neishi_jian",
+      "name": "内侍监",
+      "rank": "寺监主官",
+      "branch": "inner_court",
+      "office_kind": "central",
+      "organization_id": "government_lingwu_court",
+      "parent_office_id": "imperial_court",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "source_id": "scenario:lingwu_central_offices_756",
+      "content_basis": "本作行在官署配置；职任层级、任免程序、意愿与才能阈值是玩法参数，不作唐代完整官制或历史品阶断言。机构层级不自动授予任免、库藏或跨区控制权。",
+      "is_core_cabinet": false,
+      "responsibility_text": "统筹内廷经办与传达；玩家助手绑定独立，不自动取得国帑处分权。",
+      "required_stats": {
+        "governance": 65,
+        "intrigue": 75
+      },
+      "preferred_traits": [],
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "service_offers": [
+        {
+          "character_id": "li_bi",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        },
+        {
+          "character_id": "li_fuguo",
+          "willing": true,
+          "minimum_relation": -15,
+          "source_id": "scenario:lingwu_central_offices_756:service_offer"
+        }
+      ],
+      "aliases": [],
+      "output_multipliers": {},
+      "vacant_penalties": {}
+    }
+  ],
+  "office_overrides": [
+    {
+      "office_id": "libu_shangshu",
+      "parent_office_id": "shangshu_zuo_pushe"
+    },
+    {
+      "office_id": "hubu_shangshu",
+      "parent_office_id": "shangshu_zuo_pushe"
+    },
+    {
+      "office_id": "libu_rites_shangshu",
+      "parent_office_id": "shangshu_zuo_pushe"
+    },
+    {
+      "office_id": "bingbu_shangshu",
+      "parent_office_id": "shangshu_you_pushe"
+    },
+    {
+      "office_id": "xingbu_shangshu",
+      "parent_office_id": "shangshu_you_pushe"
+    },
+    {
+      "office_id": "gongbu_shangshu",
+      "parent_office_id": "shangshu_you_pushe"
+    },
+    {
+      "office_id": "yushi_zhongcheng",
+      "parent_office_id": "yushi_dafu"
+    },
+    {
+      "office_id": "inner_court_gatekeeper",
+      "parent_office_id": "neishi_jian",
+      "branch": "inner_court"
+    }
+  ]
+}

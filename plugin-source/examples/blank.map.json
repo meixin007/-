@@ -1,0 +1,77 @@
+{
+  "schema_version": 4,
+  "document_type": "strategic_map_authoring",
+  "title": "空白画布",
+  "canvas_size": [
+    1600,
+    960
+  ],
+  "reference": {
+    "path": "",
+    "position": [
+      0,
+      0
+    ],
+    "size": [
+      1600,
+      960
+    ],
+    "rotation": 0.0,
+    "opacity": 0.35,
+    "visible": true,
+    "locked": true,
+    "above_art": true
+  },
+  "reference_tiles": [],
+  "layers": [
+    {
+      "id": "terrain",
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "water",
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "passages",
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "boundaries",
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "prefectures",
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "sites",
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "notes",
+      "visible": true,
+      "locked": false
+    }
+  ],
+  "features": [],
+  "production": {
+    "coordinate_frame": "authoring_units",
+    "source_note": "",
+    "regions": [],
+    "checks": [],
+    "calibrations": {},
+    "receipts": {},
+    "audit_reviews": {}
+  },
+  "presentation": {
+    "bundle": {},
+    "instances": []
+  }
+}

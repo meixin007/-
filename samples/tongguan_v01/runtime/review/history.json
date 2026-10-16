@@ -1,0 +1,21 @@
+{
+  "schema_version":1,"scenario_year":756,"site_id":"tongguan",
+  "historical_acceptance":"pending","anchor_status":"manual_candidate_not_surveyed",
+  "changes_campaign_node":false,
+  "coordinate_choice":{"lonlat":[110.2964,34.6028],"review_radius_m":1500,"radius_is_statistical_confidence":false,"main_campaign_lonlat":[110.23,34.55],"main_campaign_difference_m_approximately":8448},
+  "sources":[
+    {"id":"county_primary","type":"local_gazetteer_primary","title":"潼关县志 · 大事记、军事设施","url":"https://dfz.shaanxi.gov.cn/zslm/fzzlk/xbsxsxz/xbsxz/wns_16202/201405/P020240923621802600949.pdf","pages":"printed 12 (PDF 54), printed 539 (PDF 555)","verification":"downloaded PDF and visually read both rendered pages; text extraction has broken character mapping","supports":"691 riverward phase and distinction from later rebuilding; no precise 756 gate coordinate","caveat":"chronicle compresses the 755 rebellion and later fall of the pass; not used for the precise battle date"},
+    {"id":"tongjian218","type":"primary_historical_text_transcription","title":"资治通鉴卷218","url":"https://zh.wikisource.org/wiki/資治通鑑/卷218","verification":"read 756 May-June passage and Lingbao western plateau battle description","supports":"separate out-of-pass Lingbao battle from the gate itself; does not locate individual wall or ditch vertices"},
+    {"id":"copernicus","type":"modern_DSM","title":"Copernicus GLO-30 modern DSM","url":"https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM","record":"bundle/geography_metadata.json","verification":"inherited pinned source hashes and 40m numeric raster audited","supports":"modern relief shape only"},
+    {"id":"osm","type":"modern_vector","title":"OpenStreetMap reference retrieved 2026-10-14","url":"https://www.openstreetmap.org/copyright","record":"bundle/modern_water.json","supports":"modern water reference; incomplete multipolygon assembly and query extent"},
+    {"id":"manual","type":"design_choice","title":"P3/P4 accepted engineering candidate","record":"bundle/geography_recipe.json","supports":"review anchor, constraints and slots; is not historical evidence"}
+  ],
+  "claims":[
+    {"id":"phase_691","status":"historical_phase_supported_location_unresolved","source_ids":["county_primary"],"text":"756工程核查采用691迁近黄河之后的关址阶段，不套用塬上汉关或后世城形。"},
+    {"id":"battle_extent","status":"context_supported_not_local_geometry","source_ids":["tongjian218"],"text":"灵宝西原战场与关门分开，史载险道和三堑不直接变成本图坐标。"},
+    {"id":"modern_relief","status":"modern_reference_only","source_ids":["copernicus","osm"],"text":"北侧河流与南侧高地按同一投影表达，现代岸线不认定为756岸线。"},
+    {"id":"anchor","status":"manual_candidate_pending","source_ids":["manual"],"text":"候选锚点及1500米圈为工程审图选择，粗战略点未移动。"},
+    {"id":"roads","status":"manual_candidate_crossings_unresolved","source_ids":["manual","osm"],"text":"完整通道候选与现代水线有交点，标出疑点，不绘制未经授权的桥渡。"}
+  ],
+  "unresolved":["756精确关门坐标","756黄河与渭河岸线及高程","唐城防线及尺度","禁沟与现代沟谷的对应","候选通道跨沟设施","唐代渡口位置","40米DSM以下地基平整度","后世与现代改造对微地形的影响"]
+}

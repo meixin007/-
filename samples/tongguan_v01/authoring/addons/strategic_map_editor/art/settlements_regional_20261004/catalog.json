@@ -1,0 +1,448 @@
+{
+  "bundle_id": "settlements_regional_20261004",
+  "version": 1,
+  "extends": "shanxi_revision_20261001",
+  "assets": {
+    "regional26_tang_capital": {
+      "label": "唐·都城·宫坊",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tang_capital.png",
+      "rect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "width": 220,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_tang_large_administration": {
+      "label": "唐·大城·府署",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tang_large_administration.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 180,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_tang_large_market": {
+      "label": "唐·大城·商市",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tang_large_market.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 180,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_tang_large_temple": {
+      "label": "唐·大城·寺坊",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tang_large_temple.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 180,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_tang_medium_yamen": {
+      "label": "唐·中城·衙署",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tang_medium_yamen.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 140,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_tang_medium_market": {
+      "label": "唐·中城·街市",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tang_medium_market.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 140,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_tang_medium_monastery": {
+      "label": "唐·中城·寺院",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tang_medium_monastery.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 140,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_tang_medium_granary": {
+      "label": "唐·中城·仓坊",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tang_medium_granary.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 140,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_tang_fort_drill": {
+      "label": "唐·军镇·校场",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tang_fort_drill.png",
+      "rect": [
+        0,
+        0,
+        1402,
+        1122
+      ],
+      "width": 120,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_tang_fort_supply": {
+      "label": "唐·军镇·屯仓",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tang_fort_supply.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 120,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_tang_village_farm": {
+      "label": "唐·村镇·农庄",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tang_village_farm.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 80,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_tang_village_market": {
+      "label": "唐·村镇·集市",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tang_village_market.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 85,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_tang_village_post": {
+      "label": "唐·村镇·驿站",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tang_village_post.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 85,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_tang_village_craft": {
+      "label": "唐·村镇·作坊",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tang_village_craft.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 85,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_nomad_chief": {
+      "label": "北方·游牧大帐",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_nomad_chief.png",
+      "rect": [
+        0,
+        0,
+        1390,
+        1132
+      ],
+      "width": 100,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_nomad_pastoral": {
+      "label": "北方·游牧牧营",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_nomad_pastoral.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 90,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_tibet_potala": {
+      "label": "高原·布达拉宫",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tibet_potala.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 190,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_tibet_town": {
+      "label": "高原·普通城镇",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_tibet_town.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 105,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_japan_white": {
+      "label": "日本·白鹭城",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_japan_white.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 135,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_japan_black": {
+      "label": "日本·乌城",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_japan_black.png",
+      "rect": [
+        0,
+        0,
+        1385,
+        1136
+      ],
+      "width": 125,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "regional26_japan_low": {
+      "label": "日本·平城",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional26_japan_low.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 135,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "gate_anchor": [
+        0.5,
+        0.85
+      ]
+    }
+  }
+}

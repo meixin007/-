@@ -1,0 +1,41 @@
+{
+  "bundle_id": "chuanzhong_20260930",
+  "version": 1,
+  "extends": "zizhou_bank_20260930",
+  "assets": {
+    "cz_stepped_hills": {
+      "label": "川中 · 低幅阶状方山与浅谷",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "stepped-low-hills.png",
+      "rect": [
+        0,
+        0,
+        1942,
+        809
+      ],
+      "width": 210,
+      "anchor": [
+        0.5,
+        0.58
+      ]
+    },
+    "cz_incised_hills": {
+      "label": "川中 · 偏心宽肩与深切丘谷",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "incised-low-hills.png",
+      "rect": [
+        0,
+        0,
+        1915,
+        821
+      ],
+      "width": 210,
+      "anchor": [
+        0.5,
+        0.61
+      ]
+    }
+  }
+}

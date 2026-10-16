@@ -1,0 +1,776 @@
+[
+  {
+    "npc_id": "guo_ziyi",
+    "agenda_tags": [
+      "secure_shuofang",
+      "military_authority",
+      "grain_priority"
+    ],
+    "supported_routes": [
+      "shuofang_grain_route",
+      "beta07_route_02",
+      "beta07_route_10",
+      "beta07_route_11",
+      "beta07_route_12"
+    ],
+    "opposed_routes": [
+      "palace_channel_interference"
+    ],
+    "office_interests": [
+      "shuofang_field_commander",
+      "chief_military_commander"
+    ],
+    "faction_obligations": [
+      "military_commanders"
+    ],
+    "relationship_sensitivities": [
+      "empty_promises",
+      "palace_interference",
+      "formal_authority"
+    ],
+    "memory_triggers": [
+      "promise",
+      "fulfilled_promise",
+      "broken_promise",
+      "grain_delay"
+    ],
+    "red_lines": [
+      "public_humiliation",
+      "palace_channel_override"
+    ],
+    "persuasion_hooks": [
+      "formal_commander_authority",
+      "resource_allocation"
+    ],
+    "preferred_source_types": [
+      "formal_decree",
+      "private_instruction"
+    ],
+    "player_clues": [
+      "郭子仪会先问粮路是否真能兑现。",
+      "他能接受私下解释，但需要正式名分保护军令。",
+      "若宫中通道越过军府，他会把这视为不信任。"
+    ],
+    "political_object_outcomes": [
+      "promise",
+      "task",
+      "regional_operation",
+      "memory"
+    ]
+  },
+  {
+    "npc_id": "li_bi",
+    "agenda_tags": [
+      "strategic_sequence",
+      "decree_language",
+      "court_balance"
+    ],
+    "supported_routes": [
+      "lingwu_to_guanzhong_relay",
+      "beta07_route_07"
+    ],
+    "opposed_routes": [
+      "premature_guanzhong_push",
+      "open_reward_spiral"
+    ],
+    "office_interests": [
+      "grain_transport_supervisor",
+      "intelligence_coordinator"
+    ],
+    "faction_obligations": [
+      "suzong_court"
+    ],
+    "relationship_sensitivities": [
+      "rash_promise",
+      "ritual_language",
+      "balanced_authority"
+    ],
+    "memory_triggers": [
+      "advice_taken",
+      "advice_ignored",
+      "converted_decree"
+    ],
+    "red_lines": [
+      "reckless_public_promise",
+      "single_faction_capture"
+    ],
+    "persuasion_hooks": [
+      "balanced_decree",
+      "verified_intelligence"
+    ],
+    "preferred_source_types": [
+      "private_instruction",
+      "formal_decree"
+    ],
+    "player_clues": [
+      "李泌重视顺序：先稳灵武，再分配兵粮。",
+      "他能把私意写成不伤名分的诏令。"
+    ],
+    "political_object_outcomes": [
+      "decree",
+      "memory",
+      "task"
+    ]
+  },
+  {
+    "npc_id": "li_fuguo",
+    "agenda_tags": [
+      "palace_access",
+      "inner_channel_control",
+      "private_instruction"
+    ],
+    "supported_routes": [
+      "palace_channel_interference",
+      "beta07_route_04",
+      "beta07_route_16"
+    ],
+    "opposed_routes": [
+      "military_direct_access"
+    ],
+    "office_interests": [
+      "inner_court_gatekeeper",
+      "court_memorial_reviewer"
+    ],
+    "faction_obligations": [
+      "eunuch_network"
+    ],
+    "relationship_sensitivities": [
+      "public_restraint",
+      "private_promise",
+      "court_access"
+    ],
+    "memory_triggers": [
+      "private_assurance",
+      "public_humiliation",
+      "gate_override"
+    ],
+    "red_lines": [
+      "public_humiliation",
+      "military_bypass"
+    ],
+    "persuasion_hooks": [
+      "private_access_preserved",
+      "palace_security"
+    ],
+    "preferred_source_types": [
+      "private_instruction",
+      "sealed_order"
+    ],
+    "player_clues": [
+      "李辅国不怕让步，但怕让步被朝臣看见。",
+      "保留宫门通道能换取他的配合。"
+    ],
+    "political_object_outcomes": [
+      "promise",
+      "memory",
+      "rumor"
+    ]
+  },
+  {
+    "npc_id": "li_guangbi",
+    "agenda_tags": [
+      "hedong_coordination",
+      "reserve_discipline",
+      "formal_support"
+    ],
+    "supported_routes": [
+      "beta07_route_12",
+      "lingwu_to_guanzhong_relay"
+    ],
+    "opposed_routes": [
+      "unverified_relay_push"
+    ],
+    "office_interests": [
+      "chief_military_commander",
+      "shuofang_field_commander"
+    ],
+    "faction_obligations": [
+      "military_commanders"
+    ],
+    "relationship_sensitivities": [
+      "reserve_timing",
+      "formal_order",
+      "guo_coordination"
+    ],
+    "memory_triggers": [
+      "order_confirmed",
+      "reserve_spent",
+      "promise"
+    ],
+    "red_lines": [
+      "spend_reserve_blindly",
+      "ambiguous_command"
+    ],
+    "persuasion_hooks": [
+      "verified_route_timing",
+      "formal_support_terms"
+    ],
+    "preferred_source_types": [
+      "formal_decree",
+      "military_dispatch"
+    ],
+    "player_clues": [
+      "李光弼要的是准确信息和清楚军令。",
+      "他会支持郭子仪，但不愿替含糊命令背锅。"
+    ],
+    "political_object_outcomes": [
+      "task",
+      "regional_operation",
+      "memory"
+    ]
+  },
+  {
+    "npc_id": "pugu_huaien",
+    "agenda_tags": [
+      "cavalry_speed",
+      "visible_credit",
+      "frontline_reward"
+    ],
+    "supported_routes": [
+      "beta07_route_03",
+      "beta07_route_09"
+    ],
+    "opposed_routes": [
+      "paperwork_delay"
+    ],
+    "office_interests": [
+      "shuofang_field_commander",
+      "envoy_negotiator"
+    ],
+    "faction_obligations": [
+      "military_commanders"
+    ],
+    "relationship_sensitivities": [
+      "credit",
+      "clear_objective",
+      "guo_rivalry"
+    ],
+    "memory_triggers": [
+      "reward_promised",
+      "credit_denied",
+      "objective_clarified"
+    ],
+    "red_lines": [
+      "threat_before_objective",
+      "credit_erased"
+    ],
+    "persuasion_hooks": [
+      "public_reward",
+      "fast_cavalry_task"
+    ],
+    "preferred_source_types": [
+      "private_instruction",
+      "military_dispatch"
+    ],
+    "player_clues": [
+      "仆固怀恩喜欢快令，不喜欢空泛训诫。",
+      "给他清楚目标比先威胁更有效。"
+    ],
+    "political_object_outcomes": [
+      "promise",
+      "task",
+      "memory"
+    ]
+  },
+  {
+    "npc_id": "li_chu",
+    "agenda_tags": [
+      "heir_legitimacy",
+      "public_assurance",
+      "palace_balance"
+    ],
+    "supported_routes": [
+      "lingwu_to_guanzhong_relay",
+      "beta07_route_05"
+    ],
+    "opposed_routes": [
+      "palace_scandal"
+    ],
+    "office_interests": [
+      "palace_household_controller",
+      "court_memorial_reviewer"
+    ],
+    "faction_obligations": [
+      "suzong_court",
+      "palace_household"
+    ],
+    "relationship_sensitivities": [
+      "succession_confidence",
+      "li_fuguo_access",
+      "public_reassurance"
+    ],
+    "memory_triggers": [
+      "public_assurance",
+      "family_pressure",
+      "promise"
+    ],
+    "red_lines": [
+      "dynastic_humiliation",
+      "used_as_token"
+    ],
+    "persuasion_hooks": [
+      "succession_stability",
+      "public_confidence"
+    ],
+    "preferred_source_types": [
+      "formal_decree",
+      "private_instruction"
+    ],
+    "player_clues": [
+      "李俶会把承诺看成宗室稳定问题。",
+      "他谨慎，但能帮助把私下承诺变成公开安抚。"
+    ],
+    "political_object_outcomes": [
+      "decree",
+      "memory",
+      "report"
+    ]
+  },
+  {
+    "npc_id": "uighur_envoy",
+    "agenda_tags": [
+      "reward_terms",
+      "cavalry_aid",
+      "formal_bargain"
+    ],
+    "supported_routes": [
+      "beta07_route_03",
+      "beta07_route_09",
+      "beta07_route_15"
+    ],
+    "opposed_routes": [
+      "vague_reward_channel"
+    ],
+    "office_interests": [
+      "envoy_negotiator",
+      "palace_household_controller"
+    ],
+    "faction_obligations": [
+      "uighur_envoys"
+    ],
+    "relationship_sensitivities": [
+      "treasury_weakness",
+      "strong_generals",
+      "formal_terms"
+    ],
+    "memory_triggers": [
+      "reward_promised",
+      "terms_changed",
+      "aid_delivered"
+    ],
+    "red_lines": [
+      "vague_payment",
+      "dishonored_terms"
+    ],
+    "persuasion_hooks": [
+      "formal_reward_terms",
+      "shared_enemy_pressure"
+    ],
+    "preferred_source_types": [
+      "formal_decree",
+      "sealed_order"
+    ],
+    "player_clues": [
+      "回纥使者会计算每一项让步。",
+      "让郭子仪等将领背书会增加承诺可信度。"
+    ],
+    "political_object_outcomes": [
+      "promise",
+      "decree",
+      "memory"
+    ]
+  },
+  {
+    "npc_id": "hardline_old_court_official",
+    "agenda_tags": [
+      "ritual_legitimacy",
+      "xuanzong_deference",
+      "promotion_scrutiny"
+    ],
+    "supported_routes": [
+      "lingwu_to_guanzhong_relay"
+    ],
+    "opposed_routes": [
+      "emergency_military_promotion"
+    ],
+    "office_interests": [
+      "court_memorial_reviewer",
+      "palace_household_controller"
+    ],
+    "faction_obligations": [
+      "xuanzong_old_court",
+      "old_court"
+    ],
+    "relationship_sensitivities": [
+      "ritual_language",
+      "xuanzong_deference",
+      "military_promotion"
+    ],
+    "memory_triggers": [
+      "ritual_deference",
+      "bypassed_old_court",
+      "promise"
+    ],
+    "red_lines": [
+      "ignore_xuanzong_title",
+      "promote_without_paperwork"
+    ],
+    "persuasion_hooks": [
+      "ceremonial_compromise",
+      "formal_memorial"
+    ],
+    "preferred_source_types": [
+      "formal_decree",
+      "memorial"
+    ],
+    "player_clues": [
+      "旧臣强硬派要看诏令措辞。",
+      "给礼制台阶能降低阻挠，但会拖慢军务。"
+    ],
+    "political_object_outcomes": [
+      "decree",
+      "memory",
+      "rumor"
+    ]
+  },
+  {
+    "npc_id": "grain_official_lingwu",
+    "agenda_tags": [
+      "grain_accounting",
+      "self_protection",
+      "supply_delay"
+    ],
+    "supported_routes": [
+      "beta07_route_02",
+      "beta07_route_14"
+    ],
+    "opposed_routes": [
+      "public_audit"
+    ],
+    "office_interests": [
+      "grain_transport_supervisor",
+      "local_node_administrator"
+    ],
+    "faction_obligations": [
+      "suzong_court"
+    ],
+    "relationship_sensitivities": [
+      "audit_threat",
+      "merchant_complaint",
+      "guo_grain_pressure"
+    ],
+    "memory_triggers": [
+      "grain_delay",
+      "audit_promised",
+      "shortage_hidden"
+    ],
+    "red_lines": [
+      "public_accusation",
+      "immediate_audit_without_protection"
+    ],
+    "persuasion_hooks": [
+      "limited_amnesty",
+      "clear_transport_order"
+    ],
+    "preferred_source_types": [
+      "private_instruction",
+      "formal_decree"
+    ],
+    "player_clues": [
+      "粮草官害怕公开追责。",
+      "给他可执行的粮道命令，才能逼出真实账目。"
+    ],
+    "political_object_outcomes": [
+      "task",
+      "report",
+      "memory"
+    ]
+  },
+  {
+    "npc_id": "lingwu_merchant_refugee",
+    "agenda_tags": [
+      "market_order",
+      "refugee_relief",
+      "tax_relief",
+      "civil_order",
+      "market_administration"
+    ],
+    "supported_routes": [
+      "beta07_route_05",
+      "beta07_route_17"
+    ],
+    "opposed_routes": [
+      "forced_requisition"
+    ],
+    "office_interests": [
+      "local_node_administrator",
+      "grain_transport_supervisor"
+    ],
+    "faction_obligations": [
+      "merchant_refugees",
+      "common_people"
+    ],
+    "relationship_sensitivities": [
+      "grain_price",
+      "forced_labor",
+      "protection_promise",
+      "market_order"
+    ],
+    "memory_triggers": [
+      "relief_promised",
+      "tax_relief_given",
+      "grain_requisition",
+      "market_order_restored"
+    ],
+    "red_lines": [
+      "unpaid_requisition",
+      "ignore_refugees"
+    ],
+    "persuasion_hooks": [
+      "market_protection",
+      "tax_relief",
+      "civil_order_partnership"
+    ],
+    "preferred_source_types": [
+      "public_notice",
+      "formal_decree"
+    ],
+    "player_clues": [
+      "商民代表关心粮价、征发和市集秩序。",
+      "保护市场能换取民间运输与消息。",
+      "他不是官署长吏，但能代表灵武民间秩序的行政压力。"
+    ],
+    "political_object_outcomes": [
+      "promise",
+      "task",
+      "report"
+    ]
+  },
+  {
+    "npc_id": "regional_jiedushi_rep",
+    "agenda_tags": [
+      "regional_autonomy",
+      "legitimacy_bargain",
+      "command_boundary"
+    ],
+    "supported_routes": [
+      "beta07_route_06",
+      "beta07_route_13",
+      "beta07_route_18"
+    ],
+    "opposed_routes": [
+      "open_ended_central_command"
+    ],
+    "office_interests": [
+      "chief_military_commander",
+      "local_node_administrator"
+    ],
+    "faction_obligations": [
+      "regional_jiedushi"
+    ],
+    "relationship_sensitivities": [
+      "autonomy",
+      "formal_authority",
+      "resource_burden"
+    ],
+    "memory_triggers": [
+      "autonomy_respected",
+      "order_overreach",
+      "promise"
+    ],
+    "red_lines": [
+      "strip_regional_command",
+      "unfunded_order"
+    ],
+    "persuasion_hooks": [
+      "limited_mandate",
+      "shared_rebel_pressure"
+    ],
+    "preferred_source_types": [
+      "formal_decree",
+      "military_dispatch"
+    ],
+    "player_clues": [
+      "节度使代表要边界清楚的号令。",
+      "他愿意承认灵武名分，但不愿失去地方兵权。"
+    ],
+    "political_object_outcomes": [
+      "decree",
+      "memory",
+      "regional_operation"
+    ]
+  },
+  {
+    "npc_id": "eunuch_deputy_gate",
+    "agenda_tags": [
+      "gate_order",
+      "li_fuguo_loyalty",
+      "message_filtering"
+    ],
+    "supported_routes": [
+      "palace_channel_interference",
+      "beta07_route_04"
+    ],
+    "opposed_routes": [
+      "public_gate_audit"
+    ],
+    "office_interests": [
+      "inner_court_gatekeeper",
+      "court_memorial_reviewer"
+    ],
+    "faction_obligations": [
+      "eunuch_network"
+    ],
+    "relationship_sensitivities": [
+      "li_fuguo_instruction",
+      "public_blame",
+      "sealed_message"
+    ],
+    "memory_triggers": [
+      "sealed_order",
+      "gate_blamed",
+      "promise"
+    ],
+    "red_lines": [
+      "blame_gate_publicly",
+      "bypass_li_fuguo"
+    ],
+    "persuasion_hooks": [
+      "sealed_instruction",
+      "protect_gate_reputation"
+    ],
+    "preferred_source_types": [
+      "sealed_order",
+      "private_instruction"
+    ],
+    "player_clues": [
+      "宫门副使会放大李辅国的意图。",
+      "密令比公开训斥更容易让他行动。"
+    ],
+    "political_object_outcomes": [
+      "task",
+      "memory",
+      "rumor"
+    ]
+  },
+  {
+    "npc_id": "beta06_court_actor_05",
+    "equivalent_role_for": "lingwu_civil_administrator",
+    "agenda_tags": [
+      "civil_order",
+      "market_administration",
+      "refugee_registration",
+      "tax_relief_execution"
+    ],
+    "supported_routes": [
+      "beta07_route_05",
+      "beta07_route_17"
+    ],
+    "opposed_routes": [
+      "unregistered_requisition",
+      "palace_channel_interference"
+    ],
+    "office_interests": [
+      "local_node_administrator",
+      "grain_transport_supervisor"
+    ],
+    "faction_obligations": [
+      "merchant_refugees",
+      "common_people"
+    ],
+    "relationship_sensitivities": [
+      "market_order",
+      "refugee_registration",
+      "tax_relief",
+      "grain_price"
+    ],
+    "memory_triggers": [
+      "public_notice_issued",
+      "market_order_restored",
+      "refugee_roll_updated"
+    ],
+    "red_lines": [
+      "ignore_market_order",
+      "seize_refugee_grain"
+    ],
+    "persuasion_hooks": [
+      "civil_order_partnership",
+      "public_notice_authority"
+    ],
+    "preferred_source_types": [
+      "public_notice",
+      "formal_decree"
+    ],
+    "player_clues": [
+      "此人是现有角色表中的商民难民阵营占位角色，本档案明确把他用作灵武民政代理。",
+      "他关注户籍、粮价、市集秩序和减免执行，而不是宫门或军令。",
+      "若没有正式的灵武民政长吏角色，他可承接地方行政谈话入口。"
+    ],
+    "political_object_outcomes": [
+      "promise",
+      "task",
+      "report",
+      "memory"
+    ]
+  },
+  {
+    "npc_id": "eunuch_deputy_gate",
+    "agenda_tags": [
+      "secure_shuofang",
+      "military_authority",
+      "grain_priority"
+    ],
+    "supported_routes": [
+      "shuofang_grain_route",
+      "beta07_route_02",
+      "beta07_route_10",
+      "beta07_route_11",
+      "beta07_route_12"
+    ],
+    "opposed_routes": [
+      "palace_channel_interference"
+    ],
+    "office_interests": [
+      "shuofang_field_commander",
+      "chief_military_commander"
+    ],
+    "faction_obligations": [
+      "military_commanders"
+    ],
+    "relationship_sensitivities": [
+      "empty_promises",
+      "palace_interference",
+      "formal_authority"
+    ],
+    "memory_triggers": [
+      "promise",
+      "fulfilled_promise",
+      "broken_promise",
+      "grain_delay"
+    ],
+    "red_lines": [
+      "public_humiliation",
+      "palace_channel_override"
+    ],
+    "persuasion_hooks": [
+      "formal_commander_authority",
+      "resource_allocation"
+    ],
+    "preferred_source_types": [
+      "formal_decree",
+      "private_instruction"
+    ],
+    "player_clues": [
+      "郭子仪会先问粮路是否真能兑现。",
+      "他能接受私下解释，但需要正式名分保护军令。",
+      "若宫中通道越过军府，他会把这视为不信任。"
+    ],
+    "political_object_outcomes": [
+      "promise",
+      "task",
+      "regional_operation",
+      "memory"
+    ],
+    "character_id": "eunuch_deputy_gate"
+  }
+]

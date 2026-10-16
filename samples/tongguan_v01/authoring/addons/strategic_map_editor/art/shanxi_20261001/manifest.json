@@ -1,0 +1,21 @@
+{
+  "bundle_id": "shanxi_20261001",
+  "version": 1,
+  "extends": "guanzhong_feedback_20261001",
+  "review_status": "P3_TRIAL_NOT_ACCEPTED",
+  "generation_tool": "builtin image_gen",
+  "assets": [
+    {
+      "file": "loess-branch-v01.png",
+      "width": 1586,
+      "height": 992,
+      "sha256": "6d5b50474b0a4605c33633884667bc0a3171b939c6f8d430ccd1c03fbb268e18"
+    },
+    {
+      "file": "taiyue-mass-v01.png",
+      "width": 1113,
+      "height": 1413,
+      "sha256": "61a670a81a315bb478f7961192f25f0253216ef1819a873dc037d8358fb43e80"
+    }
+  ]
+}

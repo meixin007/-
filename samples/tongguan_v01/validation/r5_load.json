@@ -1,0 +1,56 @@
+{
+  "attach_max_ms": 0.01,
+  "captures": [],
+  "checks": 4,
+  "failures": [],
+  "first_view_ms": 186.866,
+  "scope": "copies of existing display only; not additional historical nodes",
+  "synthetic_display_load": [
+    {
+      "display_copies": 1,
+      "frame_p95_ms": 7.882,
+      "frame_p99_ms": 10.292,
+      "frames": 624
+    },
+    {
+      "display_copies": 4,
+      "frame_p95_ms": 18.216,
+      "frame_p99_ms": 21.037,
+      "frames": 220
+    },
+    {
+      "display_copies": 16,
+      "frame_p95_ms": 51.786,
+      "frame_p99_ms": 58.578,
+      "frames": 61
+    }
+  ],
+  "tiles_ready_ms": 2700.618,
+  "build_id": "tongguan_v01_final_20261015_03",
+  "artifacts": {
+    "TongguanAuthoring.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanAuthoring.pck": "4b458cf6437e4db7106971d5f4a86ea963eb1be1d2c69849c049842a0fc2b500",
+    "TongguanFinal.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanFinal.pck": "16de08788dcb662ce82c4a6abe964b2ed95ec249100cd3ccede7b0a99f4fc072"
+  },
+  "release_sha256": "68b01e95b4f2744b71491711f358ec9e4e56b9e425b7a85dbd816fd36a1377fc",
+  "exit_code": 0,
+  "timed_out": false,
+  "diagnostics": [],
+  "windows_process_metrics": {
+    "process_start_to_ready_upper_bound_ms": 13250.0,
+    "sampling_interval_target_ms": 50,
+    "sampled_private_peak_bytes": 419131392,
+    "sampled_gpu_dedicated_peak_bytes": 94076928,
+    "cycle_exit_samples": []
+  },
+  "budgets": {
+    "frame_p95_ms": 16.7,
+    "frame_p99_ms": 25,
+    "private_bytes": 4294967296,
+    "gpu_dedicated_bytes": 1610612736,
+    "cycle_private_growth_bytes": 16777216,
+    "scope": "current PC, final prototype, 1920x1080 GL Compatibility"
+  },
+  "passed": true
+}

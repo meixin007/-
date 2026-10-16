@@ -1,0 +1,246 @@
+{
+  "schema_version": 109,
+  "season_id": "beta109_political_season",
+  "campaign_id": "anshi_beta_1_09",
+  "start_day": 1,
+  "end_day": 30,
+  "allow_overlap_after_predicates": true,
+  "memorial_ids": [
+    "memorial_shuofang_grain_001",
+    "memorial_lingwu_ration_001",
+    "memorial_gate_review_001"
+  ],
+  "action_ids": [
+    "prioritize_grain_transport",
+    "verify_rations",
+    "review_gate_records"
+  ],
+  "report_template_families_by_topic": {
+    "military_supply": "grain_reports",
+    "fiscal_supply": "fiscal_reports",
+    "inner_court_oversight": "inner_court_reports"
+  },
+  "report_templates": {
+    "grain_reports": {
+      "receipt": {"title": "朔方粮道命令已登记", "summary": "朔方粮道命令已登记。"},
+      "progress": {"title": "朔方粮道进展", "summary": "朔方粮道事务出现进展。"},
+      "anomaly": {"title": "朔方粮道异常", "summary": "朔方粮道事务需要处理异常。"},
+      "closure": {"title": "朔方粮道结案", "summary": "朔方粮道事务已经结案。"}
+    },
+    "fiscal_reports": {
+      "receipt": {"title": "灵武仓粮命令已登记", "summary": "灵武仓粮命令已登记。"},
+      "progress": {"title": "灵武仓粮进展", "summary": "灵武仓粮事务出现进展。"},
+      "anomaly": {"title": "灵武仓粮异常", "summary": "灵武仓粮事务需要处理异常。"},
+      "closure": {"title": "灵武仓粮结案", "summary": "灵武仓粮事务已经结案。"}
+    },
+    "inner_court_reports": {
+      "receipt": {"title": "宫门传令已登记", "summary": "宫门传令命令已登记。"},
+      "progress": {"title": "宫门传令进展", "summary": "宫门传令事务出现进展。"},
+      "anomaly": {"title": "宫门传令异常", "summary": "宫门传令事务需要处理异常。"},
+      "closure": {"title": "宫门传令结案", "summary": "宫门传令事务已经结案。"}
+    }
+  },
+  "appointment_window": {
+    "start_day": 12,
+    "end_day": 20,
+    "office_id": "menxia_review",
+    "public_summary": "第十二日至第二十日可任命一名门下省审议人，任命只改变后续程序含义，不直接奖励资源。"
+  },
+  "windows": [
+    {
+      "window_id": "grain_memorial",
+      "start_day": 1,
+      "end_day": 3,
+      "memorial_id": "memorial_shuofang_grain_001",
+      "action_id": "prioritize_grain_transport",
+      "allow_overlap_after_predicates": true,
+      "public_summary": "先处理朔方粮道奏折，形成第一份可追踪的军粮判断。"
+    },
+    {
+      "window_id": "grain_progress",
+      "start_day": 4,
+      "end_day": 8,
+      "memorial_id": "memorial_shuofang_grain_001",
+      "action_id": "prioritize_grain_transport",
+      "allow_overlap_after_predicates": true,
+      "public_summary": "粮道进展、仓粮后续事务与郭子仪的催报开始互相牵动。"
+    },
+    {
+      "window_id": "ration_settlement",
+      "start_day": 9,
+      "end_day": 14,
+      "memorial_id": "memorial_lingwu_ration_001",
+      "action_id": "verify_rations",
+      "allow_overlap_after_predicates": true,
+      "public_summary": "军民配给与仓粮名册进入可复核的期限竞争。"
+    },
+    {
+      "window_id": "palace_review",
+      "start_day": 15,
+      "end_day": 21,
+      "memorial_id": "memorial_gate_review_001",
+      "action_id": "review_gate_records",
+      "allow_overlap_after_predicates": true,
+      "public_summary": "宫门传令复核与门下省任命共同决定授权边界。"
+    },
+    {
+      "window_id": "political_echoes",
+      "start_day": 22,
+      "end_day": 27,
+      "echo_ids": [
+        "beta109_echo_grain_trust",
+        "beta109_echo_ration_relationship",
+        "beta109_echo_gate_authority",
+        "beta109_echo_appointment_faction"
+      ],
+      "allow_overlap_after_predicates": true,
+      "public_summary": "人物、派系和可见行动回声从已结算事务中逐条出现。"
+    },
+    {
+      "window_id": "day30_review",
+      "start_day": 28,
+      "end_day": 30,
+      "review_id": "beta109_day30_review",
+      "allow_overlap_after_predicates": true,
+      "public_summary": "第三十日公开复盘实际资源、任命、派系压力与第三十一日入口。"
+    }
+  ],
+  "appointment_meanings": [
+    {
+      "meaning_id": "beta109_menxia_li_bi",
+      "candidate_id": "li_bi",
+      "office_id": "menxia_review",
+      "political_meaning_id": "procedural_legitimacy",
+      "public_text": "李泌入门下省：优先程序留痕、复核账册与政令合法性。",
+      "public_summary": "程序能力和合法性较强，降低后续政令风险。",
+      "source_paths": ["office_terms", "structured_memories", "chronicle_causal_references"]
+    },
+    {
+      "meaning_id": "beta109_menxia_old_court",
+      "candidate_id": "hardline_old_court_official",
+      "office_id": "menxia_review",
+      "political_meaning_id": "old_court_precedent",
+      "public_text": "旧臣强硬派入门下省：优先旧制先例与连续性，但提高军方和改革派的边界压力。",
+      "public_summary": "旧制支持较强，后续授权更强调先例与连续性。",
+      "source_paths": ["office_terms", "faction_agenda_state", "chronicle_causal_references"]
+    }
+  ],
+  "participating_core_character_ids": [
+    "guo_ziyi",
+    "li_bi",
+    "li_fuguo",
+    "grain_official_lingwu",
+    "lingwu_merchant_refugee",
+    "hardline_old_court_official"
+  ],
+  "routes": [
+    {
+      "route_id": "audit_then_transport",
+      "public_route_id": "audit_then_transport",
+      "label": "核账后转运",
+      "public_summary": "先留下账册与双签证据，再按军期转运；速度较慢，但后续问责事实更完整。",
+      "steps": [
+        {
+          "step_id": "audit_grain_transport",
+          "memorial_id": "memorial_shuofang_grain_001",
+          "action_id": "prioritize_grain_transport",
+          "clause_ids": ["verify_transport_ledger", "archive_transfer_copy"],
+          "day_window": {"start_day": 1, "end_day": 8},
+          "public_input": "核验粮道转运账册并留存中书副本。",
+          "source_paths": ["governance.memorial_templates", "governance.topic_rules.military_supply"]
+        },
+        {
+          "step_id": "audit_ration_roster",
+          "memorial_id": "memorial_lingwu_ration_001",
+          "action_id": "verify_rations",
+          "clause_ids": ["verify_ration_roster", "archive_warehouse_copy"],
+          "day_window": {"start_day": 9, "end_day": 14},
+          "public_input": "先核验军民名册与仓粮，再留下仓籍复核副本。",
+          "source_paths": ["governance.memorial_templates", "governance.topic_rules.fiscal_supply"]
+        },
+        {
+          "step_id": "dual_sign_gate_review",
+          "memorial_id": "memorial_gate_review_001",
+          "action_id": "review_gate_records",
+          "clause_ids": ["inner_outer_dual_sign"],
+          "day_window": {"start_day": 15, "end_day": 21},
+          "public_input": "以内廷与中书双签交验宫门传令。",
+          "source_paths": ["governance.memorial_templates", "governance.topic_rules.inner_court_oversight"]
+        }
+      ],
+      "outcome_variants": {
+        "normal": {"public_summary": "账册、名册与宫门副本均可追溯。", "next_action": "day30_review"},
+        "partial": {"public_summary": "部分副本留存，后续仍需补核。", "next_action": "day30_review"},
+        "failed": {"public_summary": "核验未能形成完整闭环，复盘保留缺口。", "next_action": "day30_review"},
+        "delayed": {"public_summary": "复核迟延，军期与程序留下冲突。", "next_action": "day30_review"},
+        "blocked": {"public_summary": "复核受到授权或渠道阻断，后果公开保留。", "next_action": "day30_review"},
+        "missed": {"public_summary": "错过期限，复盘显示未留下的证据。", "next_action": "day30_review"}
+      },
+      "echo_ids": [
+        "beta109_echo_grain_trust",
+        "beta109_echo_ration_relationship",
+        "beta109_echo_gate_authority",
+        "beta109_echo_appointment_faction"
+      ],
+      "appointment_meaning_ids": ["beta109_menxia_li_bi"]
+    },
+    {
+      "route_id": "frontline_urgent",
+      "public_route_id": "frontline_urgent_transport",
+      "label": "军前急运",
+      "public_summary": "先保军前时效，再补程序副本；回报更快，但粮耗与授权压力更高。",
+      "steps": [
+        {
+          "step_id": "urgent_grain_transport",
+          "memorial_id": "memorial_shuofang_grain_001",
+          "action_id": "prioritize_grain_transport",
+          "clause_ids": ["frontline_urgent_transport"],
+          "day_window": {"start_day": 1, "end_day": 8},
+          "public_input": "开启军前急运通道，先保朔方营垒。",
+          "source_paths": ["governance.memorial_templates", "governance.topic_rules.military_supply"]
+        },
+        {
+          "step_id": "separate_military_rations",
+          "memorial_id": "memorial_lingwu_ration_001",
+          "action_id": "verify_rations",
+          "clause_ids": ["separate_military_rations"],
+          "day_window": {"start_day": 9, "end_day": 14},
+          "public_input": "军粮另册急发，不与民赈混同延误。",
+          "source_paths": ["governance.memorial_templates", "governance.topic_rules.fiscal_supply"]
+        },
+        {
+          "step_id": "urgent_gate_channel",
+          "memorial_id": "memorial_gate_review_001",
+          "action_id": "review_gate_records",
+          "clause_ids": ["urgent_dispatch_channel"],
+          "day_window": {"start_day": 15, "end_day": 21},
+          "public_input": "保留军情急报通道，允许紧急传令先行。",
+          "source_paths": ["governance.memorial_templates", "governance.topic_rules.inner_court_oversight"]
+        }
+      ],
+      "outcome_variants": {
+        "normal": {"public_summary": "军前收到急运，时效优先的授权边界留档。", "next_action": "day30_review"},
+        "partial": {"public_summary": "急运完成一部分，粮耗与军方压力均被记录。", "next_action": "day30_review"},
+        "failed": {"public_summary": "急运未达预期，前线回报留下可调查事实。", "next_action": "day30_review"},
+        "delayed": {"public_summary": "急运迟延，军情通道的承诺受到质疑。", "next_action": "day30_review"},
+        "blocked": {"public_summary": "急报通道受阻，内廷授权边界成为公开问题。", "next_action": "day30_review"},
+        "missed": {"public_summary": "错过急运窗口，复盘公开时效损失。", "next_action": "day30_review"}
+      },
+      "echo_ids": [
+        "beta109_echo_grain_trust",
+        "beta109_echo_ration_relationship",
+        "beta109_echo_gate_authority",
+        "beta109_echo_appointment_faction"
+      ],
+      "appointment_meaning_ids": ["beta109_menxia_old_court"]
+    }
+  ],
+  "echo_ids": [
+    "beta109_echo_grain_trust",
+    "beta109_echo_ration_relationship",
+    "beta109_echo_gate_authority",
+    "beta109_echo_appointment_faction"
+  ],
+  "review_id": "beta109_day30_review",
+  "day_31_accountability_case_id": "beta108_case_grain_ledger_shortfall"
+}

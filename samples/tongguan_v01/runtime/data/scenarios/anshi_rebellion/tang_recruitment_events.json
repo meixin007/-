@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.3.0",
+  "recruitment_events": [
+    {
+      "id": "recruitment_du_fu",
+      "type": "scholar_refugee",
+      "character_id": "du_fu",
+      "name": "杜甫",
+      "title": "京兆名士·献《平戎策》",
+      "description": "京兆杜甫，字子美，间道自长安城潜行至凤翔行在，衣衫褴褛，捧《平戎策》跪伏阙下求见天子。",
+      "trigger_condition": {
+        "min_day": 1,
+        "max_day": 90,
+        "war_stage": "wartime_refugee"
+      },
+      "candidate_profile": {
+        "id": "du_fu",
+        "name": "杜甫",
+        "clan_id": "clan_du_jingzhao",
+        "stats": {
+          "governance": 72,
+          "finance": 60,
+          "command": 40,
+          "martial": 35,
+          "intrigue": 65,
+          "diplomacy": 78,
+          "morality": 96
+        },
+        "traits": ["righteous_upright", "renowned_scholar", "compassionate_benevolent"],
+        "recommended_office": "zuo_shiyi"
+      },
+      "audience_exam": {
+        "title": "便殿御前三问《平戎策》",
+        "rounds": [
+          {
+            "prompt": "第一问【贼军虚实】：“安贼窃据两京，贼势看似浩大，子美间道而来，观贼气象如何？”",
+            "choices": [
+              {
+                "id": "choice_dufu_1_insight",
+                "text": "【剖析根本】贼军杂合蕃汉，所过剽掠，民心不附；唯恃悍将骁骑，师老必弊。",
+                "score": 30,
+                "emperor_reply": "卿洞若观火，见识卓绝！"
+              },
+              {
+                "id": "choice_dufu_1_cautious",
+                "text": "【力主固守】贼军势盛，宜暂避锋芒，保全关陕，待四方勤王毕集再图收复。",
+                "score": 15,
+                "emperor_reply": "老成之见，稳扎稳打。"
+              },
+              {
+                "id": "choice_dufu_1_radical",
+                "text": "【急于决战】速借回纥之兵，直捣范阳老巢，贼军不战自乱。",
+                "score": 5,
+                "emperor_reply": "引狼入室，恐生后患。"
+              }
+            ]
+          },
+          {
+            "prompt": "第二问【流民生计】：“关中大乱，黎庶流离，行在粮饷日蹙，当何以安民固本？”",
+            "choices": [
+              {
+                "id": "choice_dufu_2_compassion",
+                "text": "【体恤农桑】罢苛捐，开仓赈饥，招抚流民于汉南、剑南屯田，抚伤恤死。",
+                "score": 35,
+                "emperor_reply": "仁者爱人，此真匡扶黎庶之仁言！"
+              },
+              {
+                "id": "choice_dufu_2_fiscal",
+                "text": "【强征助饷】按户籍抽丁充军，令关东豪商按资出粟，以济行在。",
+                "score": 10,
+                "emperor_reply": "虽解燃眉之急，然伤民心。"
+              }
+            ]
+          },
+          {
+            "prompt": "第三问【言路风宪】：“朝野多疑，宰辅互掣，朕欲整饬朝纲，卿何以教朕？”",
+            "choices": [
+              {
+                "id": "choice_dufu_3_remonstrance",
+                "text": "【广开言路】设立言官供奉，虚怀纳谏，绝内侍专横，则朝廷清明、将士效死。",
+                "score": 35,
+                "emperor_reply": "善！朕正需卿这般直言极谏之臣！"
+              },
+              {
+                "id": "choice_dufu_3_flattery",
+                "text": "【雷霆独断】乾纲独断，凡有异见者一律严惩，以定尊卑。",
+                "score": 0,
+                "emperor_reply": "此非长治久安之道。"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "recruitment_gao_shi",
+      "type": "scholar_refugee",
+      "character_id": "gao_shi",
+      "name": "高适",
+      "title": "边塞名儒·行在陈兵机",
+      "description": "名士高适脱身哥舒翰潼关残军，千里跋涉抵达行在，请谒便殿陈边关兵策。",
+      "trigger_condition": {
+        "min_day": 5,
+        "max_day": 90,
+        "war_stage": "wartime_refugee"
+      },
+      "candidate_profile": {
+        "id": "gao_shi",
+        "name": "高适",
+        "clan_id": "clan_gao_bohuan",
+        "stats": {
+          "governance": 78,
+          "finance": 65,
+          "command": 80,
+          "martial": 72,
+          "intrigue": 70,
+          "diplomacy": 75,
+          "morality": 85
+        },
+        "traits": ["iron_commander", "renowned_scholar", "practical_pragmatic"],
+        "recommended_office": "xingjun_sima"
+      }
+    },
+    {
+      "id": "recruitment_cen_shen",
+      "type": "scholar_refugee",
+      "character_id": "cen_shen",
+      "name": "岑参",
+      "title": "北庭书记·万里勤王",
+      "description": "北庭节度使府判官岑参自西域回京，携带碛西精骑勤王密奏求见天子。",
+      "trigger_condition": {
+        "min_day": 10,
+        "max_day": 90,
+        "war_stage": "wartime_refugee"
+      },
+      "candidate_profile": {
+        "id": "cen_shen",
+        "name": "岑参",
+        "clan_id": "clan_cen_nanyang",
+        "stats": {
+          "governance": 74,
+          "finance": 62,
+          "command": 68,
+          "martial": 65,
+          "intrigue": 72,
+          "diplomacy": 80,
+          "morality": 82
+        },
+        "traits": ["renowned_scholar", "insightful_tactician"],
+        "recommended_office": "you_buque"
+      }
+    }
+  ],
+  "clan_nominations": [
+    {
+      "id": "nomination_cui_mianzhi",
+      "clan_id": "clan_cui_qinghe",
+      "clan_name": "清河崔氏",
+      "patriarch_id": "cui_yuan",
+      "scion_id": "cui_mianzhi",
+      "scion_name": "崔沔之",
+      "scion_title": "清河博学通儒",
+      "memorial_title": "《清河崔氏族长荐族人崔沔之充任六部疏》",
+      "memorial_text": "清河崔氏族长崔圆上奏：臣弟沔之，研习经术数十载，通晓律令户籍，恳请圣上录为国用，辅佐行在度支。",
+      "scion_stats": {
+        "governance": 82,
+        "finance": 78,
+        "command": 45,
+        "martial": 40,
+        "intrigue": 76,
+        "diplomacy": 75,
+        "morality": 80
+      },
+      "scion_traits": ["astute_administrator", "mature_statesman"],
+      "recommended_office": "libu_shangshu",
+      "opinion_gain_approve": 25,
+      "opinion_loss_reject": -15
+    },
+    {
+      "id": "nomination_lu_qi",
+      "clan_id": "clan_lu_fanyang",
+      "clan_name": "范阳卢氏",
+      "patriarch_id": "lu_yi",
+      "scion_id": "lu_qi",
+      "scion_name": "卢杞",
+      "scion_title": "范阳阴柔机辩士",
+      "memorial_title": "《范阳卢氏保举卢杞入御史台疏》",
+      "memorial_text": "范阳卢氏荐举族人卢杞：文思敏捷，能言善辩，深谙百官纠劾之法，请准其入御史台供职。",
+      "scion_stats": {
+        "governance": 68,
+        "finance": 62,
+        "command": 35,
+        "martial": 30,
+        "intrigue": 88,
+        "diplomacy": 70,
+        "morality": 40
+      },
+      "scion_traits": ["cunning_plotter", "resolute_unyielding"],
+      "recommended_office": "yushi_zhongcheng",
+      "opinion_gain_approve": 20,
+      "opinion_loss_reject": -10
+    },
+    {
+      "id": "nomination_cui_youzhi",
+      "clan_id": "clan_cui_boling",
+      "clan_name": "博陵崔氏",
+      "patriarch_id": "cui_guangyuan",
+      "scion_id": "cui_youzhi",
+      "scion_name": "崔佑之",
+      "scion_title": "博陵治兵干才",
+      "memorial_title": "《博陵崔氏荐崔佑之襄理兵部防务折》",
+      "memorial_text": "博陵崔光远上奏：族侄佑之通晓兵书，精于军资清点，可为兵部佐贰。",
+      "scion_stats": {
+        "governance": 72,
+        "finance": 68,
+        "command": 78,
+        "martial": 70,
+        "intrigue": 65,
+        "diplomacy": 60,
+        "morality": 75
+      },
+      "scion_traits": ["resourceful_commander", "practical_pragmatic"],
+      "recommended_office": "bingbu_shangshu",
+      "opinion_gain_approve": 20,
+      "opinion_loss_reject": -12
+    }
+  ],
+  "camp_wanderers_pool": [
+    {
+      "id": "wanderer_swordsman_guandong",
+      "name": "关东落魄游侠·燕赤鸣",
+      "category": "wanderer_knight",
+      "description": "身负重伤之关东豪侠，曾单骑斩杀安贼偏将三人，流落灵武难民营中求一碗粟饭。",
+      "stats": {
+        "governance": 40,
+        "finance": 35,
+        "command": 75,
+        "martial": 92,
+        "intrigue": 80,
+        "diplomacy": 50,
+        "morality": 85
+      },
+      "traits": ["heroic_warrior", "insightful_tactician", "resolute_unyielding"],
+      "initial_role": "秘密密谍使·行军斩将"
+    },
+    {
+      "id": "wanderer_accountant_east_market",
+      "name": "西京东市大贾账房·沈公茂",
+      "category": "urban_clerk",
+      "description": "长安东市首屈一指之算筹账房，战乱中携三副象牙算盘潜逃出关，精通商货度支榷税。",
+      "stats": {
+        "governance": 78,
+        "finance": 88,
+        "command": 30,
+        "martial": 25,
+        "intrigue": 60,
+        "diplomacy": 70,
+        "morality": 72
+      },
+      "traits": ["commercial_genius", "frugal_disciplined", "astute_administrator"],
+      "initial_role": "度支主簿·核验军资"
+    }
+  ],
+  "gentry_selection_pool": [
+    {
+      "id": "gentry_guanzhong_elder",
+      "name": "关中乡贤老儒·杜德威",
+      "category": "rural_gentry",
+      "description": "关中鄠县乡绅首领，通晓地方水利与劝农课桑，深得乡民拥戴。",
+      "stats": {
+        "governance": 80,
+        "finance": 75,
+        "command": 40,
+        "martial": 30,
+        "intrigue": 55,
+        "diplomacy": 78,
+        "morality": 90
+      },
+      "traits": ["compassionate_benevolent", "practical_pragmatic"]
+    },
+    {
+      "id": "gentry_hexi_magistrate",
+      "name": "河西实干退职县丞·赵令宪",
+      "category": "veteran_clerk",
+      "description": "曾任凉州录事参军，精于屯田开荒与漕渠修治，行事沉稳刚毅。",
+      "stats": {
+        "governance": 82,
+        "finance": 79,
+        "command": 55,
+        "martial": 45,
+        "intrigue": 60,
+        "diplomacy": 65,
+        "morality": 85
+      },
+      "traits": ["astute_administrator", "frugal_disciplined"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "bundle_id": "shanxi_upland_20261001",
+  "version": 1,
+  "extends": "shanxi_refine_20261001",
+  "review_status": "P3_TRIAL_NOT_ACCEPTED",
+  "generation_tool": "builtin image_gen",
+  "assets": [
+    {
+      "file": "taiyue-upland-v01.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "37404228c25eae7f9bc4ed43a97bbf4e8a135f6612bba94d8c27bf041f2e58ae"
+    }
+  ]
+}

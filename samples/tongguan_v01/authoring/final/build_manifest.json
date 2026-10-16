@@ -1,0 +1,732 @@
+{
+  "schema_version": 1,
+  "build_id": "tongguan_v01_final_20261015_03",
+  "component": "authoring",
+  "world_id": "tongguan_final_validation_v1",
+  "scenario_year": 756,
+  "generator_versions": {
+    "forest": "tongguan_r3_authoring"
+  },
+  "generator_version": "tongguan_r3_authoring",
+  "style_version": "tongguan_review_r4_engineering_v01",
+  "asset_bundle_version": "tongguan_final_assets_v01",
+  "asset_bundle_hash": "3fb0892169e0e43603a01f84673191cc027a42ac1b22cbfd8174c74c0a727577",
+  "layout_versions": {
+    "tongguan": "tongguan_p4_layout_v02"
+  },
+  "layout_version": "tongguan_p4_layout_v02",
+  "graph_version": "tongguan_controlled_corridor_r3_v01",
+  "source_hashes": {},
+  "files": [
+    {
+      "path": ".gdignore",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "addons/strategic_map_editor/art/chuandong_20260930/catalog.json",
+      "sha256": "6519fac9ec928eff06c3d3d6ffe1a0b8213628033a663fedc05151445896c967",
+      "bytes": 719
+    },
+    {
+      "path": "addons/strategic_map_editor/art/chuandong_20260930/manifest.json",
+      "sha256": "f72fd90723f8ade2f72f3c82ffa8e502d9f1e5ed89fe37ce12f7b60aec62bd30",
+      "bytes": 495
+    },
+    {
+      "path": "addons/strategic_map_editor/art/chuanzhong_20260930/catalog.json",
+      "sha256": "087650c381fedb5c04b08fdc3503cd53b664f1a0edd5d5a5bef1ccb3eb0ae14d",
+      "bytes": 763
+    },
+    {
+      "path": "addons/strategic_map_editor/art/chuanzhong_20260930/manifest.json",
+      "sha256": "1168e65099cf2723a33be2d56fd55d4eba0e303b560539e35824d543519ea69e",
+      "bytes": 507
+    },
+    {
+      "path": "addons/strategic_map_editor/art/ground_material_study_20261007/catalog.json",
+      "sha256": "a82532da6b0a7ed98e58b2d65203331ed367127511bd49085c3acefc1d4e1589",
+      "bytes": 1514
+    },
+    {
+      "path": "addons/strategic_map_editor/art/ground_material_study_20261007/manifest.json",
+      "sha256": "80d6951be8d89eb772c8cfcfc9b439a4d177292bbd2e5ae26c001b934e3c1e3c",
+      "bytes": 418
+    },
+    {
+      "path": "addons/strategic_map_editor/art/guanzhong_20260930/catalog.json",
+      "sha256": "cc6d72a90d55cbfe7bd376ea29942c4e2e314e748889c3f1a28f65efc8c44971",
+      "bytes": 762
+    },
+    {
+      "path": "addons/strategic_map_editor/art/guanzhong_20260930/manifest.json",
+      "sha256": "2f2d02c4fbbaad825a7a3bf9a08b2f1d680e978d5bba039b9e15f3dd9cc72965",
+      "bytes": 555
+    },
+    {
+      "path": "addons/strategic_map_editor/art/guanzhong_feedback_20261001/catalog.json",
+      "sha256": "a854839443d94efb89fe75f1fd9c5ebe53dffd6fa7b13bbf4fe41781d1d15d11",
+      "bytes": 534
+    },
+    {
+      "path": "addons/strategic_map_editor/art/guanzhong_feedback_20261001/manifest.json",
+      "sha256": "006cd98b3f2dc5bd60f09c5e58e9bf61bda98cf32624ea08659760c08bc8bb6b",
+      "bytes": 375
+    },
+    {
+      "path": "addons/strategic_map_editor/art/hanzhong_block01_20260928/catalog.json",
+      "sha256": "fe3efd40536af6c9dd7277a8d414f41ebc23d2eb728abc9b03ba4ee245b1ed9d",
+      "bytes": 1087
+    },
+    {
+      "path": "addons/strategic_map_editor/art/hanzhong_block01_20260928/manifest.json",
+      "sha256": "13af66abb42249ee482ae69a032cb7d7aa8140aea270f0d007707c00ed2ea4bb",
+      "bytes": 741
+    },
+    {
+      "path": "addons/strategic_map_editor/art/hanzhong_style_20260928/catalog.json",
+      "sha256": "2463388f332a6557f8be916cb75d507763d1d75f9dd4a387dee55bd105ba977c",
+      "bytes": 460
+    },
+    {
+      "path": "addons/strategic_map_editor/art/hanzhong_style_20260928/manifest.json",
+      "sha256": "bb7f79ca6a46f35e40581fa15db4e446d6fb41a9041d8fa7c35f6e9aad15c8f5",
+      "bytes": 394
+    },
+    {
+      "path": "addons/strategic_map_editor/art/jianmen_northsouth_20260929/catalog.json",
+      "sha256": "6277effc6806a1ebb3470958e9ee33cee6b3107168a551667160fb0ecb4c5ae6",
+      "bytes": 493
+    },
+    {
+      "path": "addons/strategic_map_editor/art/jianmen_northsouth_20260929/manifest.json",
+      "sha256": "9bd952183309ef512e4687303f2f888a5ef6b975d3b82e5e03b8e30837a69289",
+      "bytes": 341
+    },
+    {
+      "path": "addons/strategic_map_editor/art/jianmen_repair_20260929/catalog.json",
+      "sha256": "346b996a744720d4b3073246d91cb15973e76aa45dea019a8da1e85fe557d407",
+      "bytes": 787
+    },
+    {
+      "path": "addons/strategic_map_editor/art/jianmen_repair_20260929/manifest.json",
+      "sha256": "fa206998d0d62e13c4f8fcb167e36d8c2721695733a7f5668e67f80934686668",
+      "bytes": 687
+    },
+    {
+      "path": "addons/strategic_map_editor/art/library_deleted.json",
+      "sha256": "481476e8308ceec46e8d0756b951da0843f6456339e1730d4be32ca765cf3450",
+      "bytes": 2262
+    },
+    {
+      "path": "addons/strategic_map_editor/art/mianzhou_20260930/catalog.json",
+      "sha256": "8a365a6c474213ecf10c67180300bdc3f25e530a64491422451e13587d824ea0",
+      "bytes": 506
+    },
+    {
+      "path": "addons/strategic_map_editor/art/mianzhou_20260930/manifest.json",
+      "sha256": "2168b9cfd41336c4d687e053df4eef1ff2b6065d98fc997c878b8110b964fe9c",
+      "bytes": 331
+    },
+    {
+      "path": "addons/strategic_map_editor/art/mountain_collection_20261009/catalog.json",
+      "sha256": "9dab47924a0c04fe05b185c7e60ffca489090cb86de281ba0664f39170cb4046",
+      "bytes": 1667
+    },
+    {
+      "path": "addons/strategic_map_editor/art/mountain_collection_20261009/manifest.json",
+      "sha256": "c2ebf456dc38a37fcdd8d2529a4094b906ffabdb591bf64e2795ce6d729b58b9",
+      "bytes": 1107
+    },
+    {
+      "path": "addons/strategic_map_editor/art/mountain_oblique_pale_v2_20261009/catalog.json",
+      "sha256": "140a6b0bafd93d1c04d30db1ae47cd2d40d5a48dacdbbafb6520ed5acd0dcaa2",
+      "bytes": 1677
+    },
+    {
+      "path": "addons/strategic_map_editor/art/mountain_oblique_pale_v2_20261009/manifest.json",
+      "sha256": "63efab84289dd3eeb51697554aa429f7196e4faf277a72ea696b370dc05bdaa8",
+      "bytes": 1108
+    },
+    {
+      "path": "addons/strategic_map_editor/art/mountain_oblique_pale_v3_20261011/catalog.json",
+      "sha256": "21a28c7911b44f780fc7903b3d30bce1e27506f39a8fd95a15bb5c838bae34a0",
+      "bytes": 1704
+    },
+    {
+      "path": "addons/strategic_map_editor/art/mountain_oblique_pale_v3_20261011/generation-prompts.json",
+      "sha256": "3dc7bfe77ae2e6bbddd19dfa93403e616024613b5b1fc7469b6438036258d79e",
+      "bytes": 1988
+    },
+    {
+      "path": "addons/strategic_map_editor/art/mountain_oblique_pale_v3_20261011/manifest.json",
+      "sha256": "57bde53d3bc4039cc079847cce5fed7a5bf9e35890bfc14afcd70f96471aa763",
+      "bytes": 1127
+    },
+    {
+      "path": "addons/strategic_map_editor/art/mountain_oblique_snow_v1_20261011/catalog.json",
+      "sha256": "da258a8a9f0ce03ec307f62b43d005ccaf52e7f68bad54a7ba98da6eed55c4ad",
+      "bytes": 1704
+    },
+    {
+      "path": "addons/strategic_map_editor/art/mountain_oblique_snow_v1_20261011/generation-prompts.json",
+      "sha256": "35a7e364ddbaa26a58c6049ac01273a381fc139eefef002433956ddc7e7bb4d1",
+      "bytes": 1662
+    },
+    {
+      "path": "addons/strategic_map_editor/art/mountain_oblique_snow_v1_20261011/manifest.json",
+      "sha256": "457551d2c9831652ee260d9194daa938311267308019edcb49adfbad7181a597",
+      "bytes": 1136
+    },
+    {
+      "path": "addons/strategic_map_editor/art/national_a2_20260926/catalog.json",
+      "sha256": "5c7acc06b19b763eda7872a78acfe939d42cef78615536a76b1ff3ca779b4565",
+      "bytes": 887
+    },
+    {
+      "path": "addons/strategic_map_editor/art/national_a2_20260926/manifest.json",
+      "sha256": "dea1ceae5c103f36333e7e6ecaf888016ce6d691a573e8483e4c8af9b150ee0f",
+      "bytes": 978
+    },
+    {
+      "path": "addons/strategic_map_editor/art/national_a2_20260926/prompts.json",
+      "sha256": "e0e52d10cd08a843e329c7e83c921bee44db5bb59d6ae338cdabd52a4a767740",
+      "bytes": 2846
+    },
+    {
+      "path": "addons/strategic_map_editor/art/national_a3_20260926/catalog.json",
+      "sha256": "8a3045836833e726a4cc59eac8c8e95a5630e126b0232bb4809766ffd4f06863",
+      "bytes": 1137
+    },
+    {
+      "path": "addons/strategic_map_editor/art/national_a3_20260926/generation-inputs.json",
+      "sha256": "f469f51ec328a837347e1e71eacd252cb07226f29d1ea815b8d66e472b17f9a7",
+      "bytes": 996
+    },
+    {
+      "path": "addons/strategic_map_editor/art/national_a3_20260926/manifest.json",
+      "sha256": "a7acbea32b7d9004fa09013387f1c2cd5f05ceab0cfa33c1ff05bf30067811a0",
+      "bytes": 1308
+    },
+    {
+      "path": "addons/strategic_map_editor/art/national_a3_20260926/prompts.json",
+      "sha256": "612d997d26183a94d2bbb55977cf2f37838d5797a83653d56ca2f4c73fc26a76",
+      "bytes": 3533
+    },
+    {
+      "path": "addons/strategic_map_editor/art/national_c2_20260926/catalog.json",
+      "sha256": "a15be5f4206813a39805b843683fbd8c6ec4862ca759f38efc62c9d8a77e381d",
+      "bytes": 2170
+    },
+    {
+      "path": "addons/strategic_map_editor/art/national_c2_20260926/generation-inputs.json",
+      "sha256": "e44ed8e183758db82138df1d8afb3880f1d94764d915e106c5ab8843d14eeb11",
+      "bytes": 8255
+    },
+    {
+      "path": "addons/strategic_map_editor/art/national_c2_20260926/manifest.json",
+      "sha256": "6560306543ad5471c1d6e050105de2b86b148e1c8833f0645bc6a29f652d28b2",
+      "bytes": 2357
+    },
+    {
+      "path": "addons/strategic_map_editor/art/settlements_camera_v2_20261004/catalog.json",
+      "sha256": "88508eab2fa0b379329d3c5fb8cbe7673819bf5b2a07bf8430000f00ae01db92",
+      "bytes": 8948
+    },
+    {
+      "path": "addons/strategic_map_editor/art/settlements_camera_v2_20261004/manifest.json",
+      "sha256": "9879a60c6c0f4f344c62a7a26e0ad5e73f49e01382a270407940be74e95c7250",
+      "bytes": 4288
+    },
+    {
+      "path": "addons/strategic_map_editor/art/settlements_regional_20261004/catalog.json",
+      "sha256": "f8d932fef9eb891df8593c022d126468ed59bc26483dfebb7e44412201cc5e81",
+      "bytes": 8647
+    },
+    {
+      "path": "addons/strategic_map_editor/art/settlements_regional_20261004/manifest.json",
+      "sha256": "6c0f3aae9a8f0d310e50a90e9f9f8fa70105e5dc5d24869973f94de3f740317b",
+      "bytes": 4287
+    },
+    {
+      "path": "addons/strategic_map_editor/art/shanxi_20261001/catalog.json",
+      "sha256": "8c7d54e8579766fd110da649e58704e43f469fd8bfc21b5af861e201b2a4bfd9",
+      "bytes": 769
+    },
+    {
+      "path": "addons/strategic_map_editor/art/shanxi_20261001/manifest.json",
+      "sha256": "823b62b221e1f8b872c74d6e1d904f6f9f47f39163d608ecd29a95b87c79d512",
+      "bytes": 553
+    },
+    {
+      "path": "addons/strategic_map_editor/art/shanxi_angular_trial_20261002/catalog.json",
+      "sha256": "e7f6e8d5035f9ca866cea1277d63fdb10ca909343c8e0e51299200f5f0e09a7b",
+      "bytes": 2823
+    },
+    {
+      "path": "addons/strategic_map_editor/art/shanxi_angular_trial_20261002/manifest.json",
+      "sha256": "4d52703d0efdd7c54c304517322914f0f376b28920d058c66136745caa78ed0a",
+      "bytes": 1618
+    },
+    {
+      "path": "addons/strategic_map_editor/art/shanxi_crossing_20261001/catalog.json",
+      "sha256": "934b2f954db65738ab67bd351a0ddc30aed96ef204d3b1729cf70f8859354dff",
+      "bytes": 503
+    },
+    {
+      "path": "addons/strategic_map_editor/art/shanxi_crossing_20261001/manifest.json",
+      "sha256": "1da7ee0348181e8d71251cec0bd72dd44aa9216d2eede0965123e8adf0f0371b",
+      "bytes": 340
+    },
+    {
+      "path": "addons/strategic_map_editor/art/shanxi_refine_20261001/catalog.json",
+      "sha256": "978bbe9cb9df7eb1cedb53e79b9221992d60cb935116633a8adbfd73628fe9e7",
+      "bytes": 436
+    },
+    {
+      "path": "addons/strategic_map_editor/art/shanxi_refine_20261001/manifest.json",
+      "sha256": "5d1ff23e8b9fa0bc49f89dfaacdcc5e1eee24fdcf7c44584e31673db425eb4fa",
+      "bytes": 372
+    },
+    {
+      "path": "addons/strategic_map_editor/art/shanxi_revision_20261001/catalog.json",
+      "sha256": "1d5b735375105f23af5aa182e4399fe0245187ddc73a3fabd0d53ac0d9715ff0",
+      "bytes": 10041
+    },
+    {
+      "path": "addons/strategic_map_editor/art/shanxi_revision_20261001/manifest.json",
+      "sha256": "b645084bb8d1c9ec76ab02529143355a1fb23b01cf053f70764e37008a338951",
+      "bytes": 5725
+    },
+    {
+      "path": "addons/strategic_map_editor/art/shanxi_upland_20261001/catalog.json",
+      "sha256": "e43315e02d401f328fe49b5a99569e8568cc79aa3cf2a092ea8a169896d10031",
+      "bytes": 442
+    },
+    {
+      "path": "addons/strategic_map_editor/art/shanxi_upland_20261001/manifest.json",
+      "sha256": "e6a7d70e4d85eeaa911e0e63e806e3adb0c20ce523f9fbf1fb0db0b34642e704",
+      "bytes": 381
+    },
+    {
+      "path": "addons/strategic_map_editor/art/strategic_ground_biomes_v05_20261007/catalog.json",
+      "sha256": "4da37ffdd58250b65d1754882ad231e98a0983dbebf9803b220f3a3c314b16eb",
+      "bytes": 1487
+    },
+    {
+      "path": "addons/strategic_map_editor/art/strategic_ground_biomes_v05_20261007/manifest.json",
+      "sha256": "06bbb166631371a288930d02d963e732c975f95fb1295985bad06c90e0c5a834",
+      "bytes": 434
+    },
+    {
+      "path": "addons/strategic_map_editor/art/strategic_ground_v02_20261007/catalog.json",
+      "sha256": "18e7da589e46da59a16ab5ebe883707dd151879d7b505f1cffa4afacac866de1",
+      "bytes": 1555
+    },
+    {
+      "path": "addons/strategic_map_editor/art/strategic_ground_v02_20261007/manifest.json",
+      "sha256": "6cdb94b6e7a02b31ca2096a1f18b22ceebc04481fe9d8850492ac64e561bb553",
+      "bytes": 423
+    },
+    {
+      "path": "addons/strategic_map_editor/art/strategic_landforms_v03_20261007/catalog.json",
+      "sha256": "7c150f2bbc0ae313bece38cdf1fe63f587ddffaf0b55f83bf69514f648cea73e",
+      "bytes": 1583
+    },
+    {
+      "path": "addons/strategic_map_editor/art/strategic_landforms_v03_20261007/manifest.json",
+      "sha256": "c85a334abab002d16d8017e9e7bcf7fcead5b345ba0deedb7d27bd1060dc5fe3",
+      "bytes": 665
+    },
+    {
+      "path": "addons/strategic_map_editor/art/strategic_landforms_v04_20261007/catalog.json",
+      "sha256": "7fab8f9ee16d99acf0e634a6ec56bb395ed0552d4ccfa043bcd0205b77bb486c",
+      "bytes": 895
+    },
+    {
+      "path": "addons/strategic_map_editor/art/strategic_landforms_v04_20261007/manifest.json",
+      "sha256": "b6a027230f932053ece609de570f76dc91461e250d32d534354c2faca64d123b",
+      "bytes": 438
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_reference_20260925/catalog.json",
+      "sha256": "947cd609bc1340dde6f3c58f06309e8aeff95f1ceeb1eb36d5cd448e23102065",
+      "bytes": 506
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_reference_20260925/manifest.json",
+      "sha256": "862cfc6e39f8b199a2375bdb039a16da1d61a656aad7c87849e4fe390a213a8b",
+      "bytes": 740
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_reference_20260925/tongguan-grounded.map.json",
+      "sha256": "01e9c6c9426f21c157f925d3d521db2a8efe420b7eb47d6811349d287438d763",
+      "bytes": 197506
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_reference_20260925/tongguan-reference.map.json",
+      "sha256": "51a4c01bda42f76d308177eb2bc761df2227a743ee23b11875167e7f2aa4bf89",
+      "bytes": 182083
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_review_20260925/catalog.json",
+      "sha256": "8c0863fef48ff9e2308dc873bd64e7ef8bcf5ce1a85570207efa9ba85222887e",
+      "bytes": 1870
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_review_20260925/generation-prompts.json",
+      "sha256": "c218debccf2096e4e6b329fb05c32e1c38814695aac19dd4b51a5941737ab117",
+      "bytes": 7023
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_review_20260925/manifest.json",
+      "sha256": "a6d9002ec05c023af564ea1a28bb784e023ae9c7e48d96671ca965da2d5cd93d",
+      "bytes": 2169
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_review_20260925/tongguan-review.map.json",
+      "sha256": "f29c20c48ab0fa42e6feadfca6810276459388c7c9cfefaca39cab583708f3bb",
+      "bytes": 126126
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_review_20260925/vertical-generation-prompts.json",
+      "sha256": "c40ff40442d39639bcbb56dca67d8925de53414f4548b82536585ad6e800867b",
+      "bytes": 5296
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v1/catalog.json",
+      "sha256": "24b7e2d9e750c30b3ad13ecdd7fb0be4ff08d6dc632793d83b53a02d1d4847ec",
+      "bytes": 24780
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v1/generation-prompts.json",
+      "sha256": "8b04fcd51acbc58ca3ec6f88096ed977ec0ff1c9b95941b19986a64adbcd6151",
+      "bytes": 9895
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v1/manifest.json",
+      "sha256": "239104877a2dbe78d10ca670ef535d8de03853818675ad695a6a1ab60f8d8f10",
+      "bytes": 17068
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v1/tongguan-workshop-v06.map.json",
+      "sha256": "7cf69531259f11e8780c8dcce2b14fd5255ca41e94173108ac47ae5744f1dbea",
+      "bytes": 167850
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v1/tongguan.map.json",
+      "sha256": "5d01e4fda0dbd49972a0f7a02de8526c438d47d8ca8b68ac3fe05ccf33b13cac",
+      "bytes": 102314
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v2/catalog.json",
+      "sha256": "424341ad8008a4c06ae91f176ed65ac103d01ae97da4d5b12c08c3b6e14fe170",
+      "bytes": 362
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v2/generation-prompts.json",
+      "sha256": "e5fd8ca6a5ba770e5f9c5a9cf932519d9e759c77facd7fd853865c363922b2fd",
+      "bytes": 2325
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v2/manifest.json",
+      "sha256": "de6343a76d4c14230a978033c5b0d38e2c1245695ffe49a0176a66780947eede",
+      "bytes": 705
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v2/tongguan-workshop-v063.map.json",
+      "sha256": "3aa5e6d9677972a3fb28f3ca68783a6e5bbc71f645b676435bdd5fe82fa82ebf",
+      "bytes": 169431
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v2/tongguan-workshop-v064.map.json",
+      "sha256": "d1e202c446fb95ef27938d84f79d469459e56f9c1b1c8cdd2d62f989d77cd3a0",
+      "bytes": 171353
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v2/tongguan-workshop-v065.map.json",
+      "sha256": "d10cdc5263fedc0f1f56c90f3aad8c1cd81cb41359b0ab8373f1c40e2406d3ed",
+      "bytes": 171381
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v2/tongguan-workshop-v066.map.json",
+      "sha256": "8510f64be3b369838d2c1558936880cd99cfa9c0fe70aa46346d7c3a91d78ef2",
+      "bytes": 171378
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v2/tongguan-workshop-v072.map.json",
+      "sha256": "5c6319d7e67c84805018a724821d828229fe0f84543c9169f7c2ed0185e0d265",
+      "bytes": 171391
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v3/catalog.json",
+      "sha256": "0dfb9e280640078aef2e6e311b7ae4461a36a9ab1851159451505e158606dd10",
+      "bytes": 356
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v3/generation-prompts.json",
+      "sha256": "60f82625f9aaf71b9a8e6a3a47a0f3d612ebe4a1e53d5daaa4f25f617bd76b4b",
+      "bytes": 803
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v3/manifest.json",
+      "sha256": "83a9e6b5c4d6ffc097fa5d2c303a0b796830e75bfc65ca653a2c8bdebb787b25",
+      "bytes": 702
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v3/tongguan-workshop-v074.map.json",
+      "sha256": "ceb004fed7e1e2fddc642b458ee573acad96fe19b278ae3869d1f7bce95618dc",
+      "bytes": 139344
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v3/tongguan-workshop-v075.map.json",
+      "sha256": "d3e9bc1f6028f776caab2623fcd80e5800dcea2632e2efc5039473c3385c1c2d",
+      "bytes": 139688
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v3/tongguan-workshop-v077.map.json",
+      "sha256": "2e67d49b9e0e3bfea0511a61fbb1a908b740b2793bda4426247cff7cabcdbaf4",
+      "bytes": 139714
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v4/catalog.json",
+      "sha256": "86909e69708cbaaf6027a141d2c01685982bf22fa29646ea69b151ffc8c16cbd",
+      "bytes": 381
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v4/generation-prompts.json",
+      "sha256": "903d079cb5113ab4d323e0ec0dadcd4d9d697af91a09799e52eeca10cd98d28f",
+      "bytes": 760
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v4/manifest.json",
+      "sha256": "5e56cdb0c309b8d61c8879aa2520cc7ed4b443a01b0e7215486c5bb9ccf18d45",
+      "bytes": 708
+    },
+    {
+      "path": "addons/strategic_map_editor/art/tongguan_v4/tongguan-workshop-v081.map.json",
+      "sha256": "55bb9cade5179de991f4080c3a8357149ae993e9f1a2fd011b3d5a1f2942ecee",
+      "bytes": 139837
+    },
+    {
+      "path": "addons/strategic_map_editor/art/zizhou_bank_20260930/catalog.json",
+      "sha256": "914fae9efc21c0aec5948d3408f2483fb8faf3b9e64349dba3bbba89e248df83",
+      "bytes": 420
+    },
+    {
+      "path": "addons/strategic_map_editor/art/zizhou_bank_20260930/manifest.json",
+      "sha256": "c39c3953bc62fe5cbdbc1c595c20deca28587875338ae940796d71cbe1e77b60",
+      "bytes": 369
+    },
+    {
+      "path": "addons/strategic_map_editor/art_catalog.gd",
+      "sha256": "cad78166dceef4718cceefc0ac5218a6f937a8f347a3ca42247b4e653d30b5d2",
+      "bytes": 23744
+    },
+    {
+      "path": "addons/strategic_map_editor/art_image_loader.gd",
+      "sha256": "04ee2a9e20aae85c847fd98745a7918a7897d7a31ad4559d1a5ed5b43290f6f4",
+      "bytes": 2074
+    },
+    {
+      "path": "addons/strategic_map_editor/art_library.gd",
+      "sha256": "c8c4105b19210f993a059d1fa741846eeb9ed729228f2de4a9bb6c5ebb9a2003",
+      "bytes": 5711
+    },
+    {
+      "path": "addons/strategic_map_editor/art_ribbon.gd",
+      "sha256": "2bbe5035578e91ec6297e86cd40d85cc6bfa2491f7a9c17959af50d957bd048e",
+      "bytes": 4792
+    },
+    {
+      "path": "addons/strategic_map_editor/art_spatial.gd",
+      "sha256": "c46becde077350796111f643a963d684f65577951200a954bf799e06df8518d3",
+      "bytes": 3573
+    },
+    {
+      "path": "addons/strategic_map_editor/document.gd",
+      "sha256": "f1655b24e6018736687dfefa4e06f3aa4cb9e4c37db298a5c4ec362a0698bdb8",
+      "bytes": 68021
+    },
+    {
+      "path": "addons/strategic_map_editor/geometry_ops.gd",
+      "sha256": "8301b517d1bcdf00ad8880784df482f5a4dfa41fc6f3476076706b39ed034511",
+      "bytes": 6725
+    },
+    {
+      "path": "addons/strategic_map_editor/natural_water.gd",
+      "sha256": "1441bd8309f46d750d409988ced536cc1584a8fab5ed604006b8f4624061c171",
+      "bytes": 4173
+    },
+    {
+      "path": "addons/strategic_map_editor/polygon_boolean.gd",
+      "sha256": "257dd77f4bf9ff8ceafa6bbf9edf12a0621e5b32108d619f73ebda3709f311b7",
+      "bytes": 8604
+    },
+    {
+      "path": "addons/strategic_map_editor/polygon_math.gd",
+      "sha256": "c37955df059468cbe6bb5d6f4d64f5b85f39c8236b32dea601f48eba22b55e56",
+      "bytes": 803
+    },
+    {
+      "path": "addons/strategic_map_editor/polygon_query.gd",
+      "sha256": "347314c8c8180ffb709d16627a8989d0c1f38431ca273a13328752e763610b5e",
+      "bytes": 1985
+    },
+    {
+      "path": "addons/strategic_map_editor/production_contract.gd",
+      "sha256": "40f8af513f31a3950a3786f535edf14c9c41b2eada8615dc6311998a08c75772",
+      "bytes": 4263
+    },
+    {
+      "path": "addons/strategic_map_editor/reference_registration.gd",
+      "sha256": "b2485ec3071c284c2425381e31904c8760e3aa155edf6697a594c6ce28d8907f",
+      "bytes": 2358
+    },
+    {
+      "path": "addons/strategic_map_editor/shared_boundaries.gd",
+      "sha256": "b2e3aad61d17614f9a6d769877c8760f86f37129294a9d8145d43f8b281ad333",
+      "bytes": 3540
+    },
+    {
+      "path": "addons/strategic_map_editor/spatial_index.gd",
+      "sha256": "bf25d8ee1bd477f9712483bf1f0b14f7c8223f226e1ace1f462a4062ddf85cd0",
+      "bytes": 1609
+    },
+    {
+      "path": "addons/strategic_map_editor/water_brush.gd",
+      "sha256": "d0e483eb2e20b9e17e61a85f30ad0f5541e0b098073695f79e5d61fa514729ce",
+      "bytes": 15639
+    },
+    {
+      "path": "export_presets.cfg",
+      "sha256": "14a562a0eade2424f24752e4f1f040052a33643c0939fbcdfae2b87113abb558",
+      "bytes": 567
+    },
+    {
+      "path": "final/acceptance.gd",
+      "sha256": "4bbd4d6e9ce96f955ce8d6673b8ebc79d46f76860dccbf2c48c22bd24fb432e0",
+      "bytes": 5084
+    },
+    {
+      "path": "final/asset_manifest.json",
+      "sha256": "3fb0892169e0e43603a01f84673191cc027a42ac1b22cbfd8174c74c0a727577",
+      "bytes": 750
+    },
+    {
+      "path": "final/boot.gd",
+      "sha256": "3be666a566425e7f5cac3cc750dac34eb330d76c0a204a2d46a392982917ef71",
+      "bytes": 333
+    },
+    {
+      "path": "final/canvas.gd",
+      "sha256": "71cc8d12acfc671172203aa0c3f4434039f4ebfaf4c18d36dfa020999a8680fb",
+      "bytes": 665
+    },
+    {
+      "path": "final/main.tscn",
+      "sha256": "f5a3984a4ad304e0255b3bf5b00d4d3d2ca2f191a4fee11c9c666c9fb82acf73",
+      "bytes": 169
+    },
+    {
+      "path": "final/resolver.gd",
+      "sha256": "b59d25be94a7403c2122440e142cbbb855d8dd3907b9b703be6370b576214452",
+      "bytes": 2760
+    },
+    {
+      "path": "final/ui.gd",
+      "sha256": "0aa650a1a393cf477963c1d2e81442a9c0f1537322656ba203a67c123cd2b27d",
+      "bytes": 1665
+    },
+    {
+      "path": "p3/generated/modern_water.json",
+      "sha256": "b5077c55a773faf1e74acaf07b285d892046f642011b8ec99f92a2d4b3924a0d",
+      "bytes": 168989
+    },
+    {
+      "path": "p3/geography_recipe.json",
+      "sha256": "7c69433ffdeda1b9b400fbf0fa449b3694d192df2bf8e7f5b71cfb23e797c82e",
+      "bytes": 6328
+    },
+    {
+      "path": "p4/layout.json",
+      "sha256": "3997c4218b0ee10f4032c092f7f76b93ea75c4c168a17ede2c3dcad9fbb5a403",
+      "bytes": 8221
+    },
+    {
+      "path": "p4/settlement_host.gd",
+      "sha256": "ceb90af764a15829831b8c0103e9dc176e13c4e44736b2c845d49ebb0f72d5bf",
+      "bytes": 21141
+    },
+    {
+      "path": "project.godot",
+      "sha256": "b65a8bed8444d4d20eb2712e0bf5fa1d0a6b1b75814aabf119a49480b8e47171",
+      "bytes": 404
+    },
+    {
+      "path": "r3_authoring/acceptance.gd",
+      "sha256": "462c0252e6518c1bfc4c90e99e904f1b3aad73876cf6f8268907ee627ed8974c",
+      "bytes": 5242
+    },
+    {
+      "path": "r3_authoring/boot.gd",
+      "sha256": "005b008456ee4961839007ab84aa06f2c6a1d501f5f468361edca772f99599ba",
+      "bytes": 353
+    },
+    {
+      "path": "r3_authoring/canvas.gd",
+      "sha256": "7a9269feb1941e5aea9b7e3dfe6b64712d660c2df8505c68e2dbde582ba72001",
+      "bytes": 5003
+    },
+    {
+      "path": "r3_authoring/main.tscn",
+      "sha256": "01e10b7e1cf7c50d751ff4c46846450c980c923b5f23fa7727a406758e6b0259",
+      "bytes": 171
+    },
+    {
+      "path": "r3_authoring/patch_engine.gd",
+      "sha256": "4d2dac9c93a69950034653fc368493cdd67c13081a84d91bfa2890c7ba123bbc",
+      "bytes": 2098
+    },
+    {
+      "path": "r3_authoring/resolver.gd",
+      "sha256": "249bc44a9ec12742a5d98edb9c2ddaa4d8087717dc7155f039c03eaf78425a95",
+      "bytes": 30836
+    },
+    {
+      "path": "r3_authoring/trees.png",
+      "sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+      "bytes": 2199035
+    },
+    {
+      "path": "r3_authoring/workshop.gd",
+      "sha256": "0ae81619cac8c58caec84ea0c501f7f8dcda15a95b2fecf99cbb081fb725daa9",
+      "bytes": 9614
+    },
+    {
+      "path": "r3_authoring/workshop.tscn",
+      "sha256": "df34b88137126fa7892f51a331690c812a41d57e045fb8bc9e4a704bf7a04b3d",
+      "bytes": 287
+    },
+    {
+      "path": "tests/test_final_layout.gd",
+      "sha256": "a1abeacb2bbfd808341d7849fa9217f222565741c66ea50ce6d06bc21a59c7a9",
+      "bytes": 2836
+    },
+    {
+      "path": "tests/test_r3_authoring.gd",
+      "sha256": "46c6290737eb05b114b1d1318a5325661049169513f048fff25b6128e65301a0",
+      "bytes": 10207
+    },
+    {
+      "path": "tests/test_r3_authoring_scene.gd",
+      "sha256": "573881b26abefc3abde03ee2de524bf62cf7d1b3b7fa671e83db01315cc71912",
+      "bytes": 259
+    },
+    {
+      "path": "tests/test_r3_size_guard.gd",
+      "sha256": "cbf305cbc1a663781124560751547e76db2c4131f5aa0aab6f196a1392feae19",
+      "bytes": 951
+    }
+  ]
+}

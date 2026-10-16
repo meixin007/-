@@ -1,0 +1,27 @@
+{
+  "bundle_id": "jianmen_northsouth_20260929",
+  "version": 1,
+  "extends": "jianmen_repair_20260929",
+  "assets": {
+    "jm_gate_south": {
+      "label": "剑门 · 南北通门正向关楼",
+      "group": "pass",
+      "atlas": "gate-south.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 135,
+      "anchor": [
+        0.5,
+        0.975
+      ],
+      "gate_anchor": [
+        0.5,
+        0.752
+      ]
+    }
+  }
+}

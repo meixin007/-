@@ -1,0 +1,28 @@
+{
+  "bundle_id": "shanxi_crossing_20261001",
+  "version": 1,
+  "extends": "shanxi_upland_20261001",
+  "assets": {
+    "sx_bridge_reverse": {
+      "label": "山西 · 短跨水木桥方向变体",
+      "group": "pass",
+      "manual_only": true,
+      "atlas": "bridge-reverse-v01.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 36,
+      "anchor": [
+        0.5,
+        0.8
+      ],
+      "gate_anchor": [
+        0.12,
+        0.26
+      ]
+    }
+  }
+}

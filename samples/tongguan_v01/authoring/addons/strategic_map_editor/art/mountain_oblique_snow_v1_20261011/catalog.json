@@ -1,0 +1,79 @@
+{
+  "bundle_id": "mountain_oblique_snow_v1_20261011",
+  "version": 1,
+  "extends": "mountain_oblique_pale_v3_20261011",
+  "assets": {
+    "mountain_snow_v1_snow_craggy_peak": {
+      "label": "俯视雪山 · 巍峨绝顶",
+      "atlas": "snow_craggy_peak.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "rect": [
+        20,
+        21,
+        1159,
+        819
+      ],
+      "width": 420
+    },
+    "mountain_snow_v1_snow_gorge_pass": {
+      "label": "俯视雪山 · 冰谷险隘",
+      "atlas": "snow_gorge_pass.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "rect": [
+        18,
+        20,
+        1228,
+        782
+      ],
+      "width": 480
+    },
+    "mountain_snow_v1_snow_cascading_ridge": {
+      "label": "俯视雪山 · 连绵长脉",
+      "atlas": "snow_cascading_ridge.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "rect": [
+        11,
+        21,
+        1344,
+        703
+      ],
+      "width": 580
+    },
+    "mountain_snow_v1_snow_plateau_peaks": {
+      "label": "俯视雪山 · 琼峦三叠",
+      "atlas": "snow_plateau_peaks.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "rect": [
+        16,
+        21,
+        1233,
+        774
+      ],
+      "width": 450
+    }
+  }
+}

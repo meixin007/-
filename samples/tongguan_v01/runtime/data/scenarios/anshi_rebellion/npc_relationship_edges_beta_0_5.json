@@ -1,0 +1,786 @@
+[
+  {
+    "source_id": "guo_ziyi",
+    "target_id": "li_fuguo",
+    "edge_type": "distrusts",
+    "weight": 62,
+    "visibility": "discoverable",
+    "summary": "Guo Ziyi distrusts palace gatekeeping when military orders depend on fast relay.",
+    "evidence_memory_ids": []
+  },
+  {
+    "source_id": "li_fuguo",
+    "target_id": "guo_ziyi",
+    "edge_type": "blocks_access_to",
+    "weight": 55,
+    "visibility": "secret",
+    "summary": "Li Fuguo can slow or filter military memorials before they reach the emperor.",
+    "evidence_memory_ids": []
+  },
+  {
+    "source_id": "li_bi",
+    "target_id": "li_fuguo",
+    "edge_type": "watches",
+    "weight": 48,
+    "visibility": "discoverable",
+    "summary": "Li Bi watches Li Fuguo's access control for signs of hidden delay.",
+    "evidence_memory_ids": []
+  },
+  {
+    "source_id": "li_bi",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "negotiates_with",
+    "weight": 44,
+    "visibility": "visible",
+    "summary": "Li Bi can negotiate ritual wording with old-court officials.",
+    "evidence_memory_ids": []
+  },
+  {
+    "source_id": "hardline_old_court_official",
+    "target_id": "tang_xuanzong",
+    "edge_type": "protects",
+    "weight": 70,
+    "visibility": "visible",
+    "summary": "The old-court official protects Xuanzong's ceremonial standing.",
+    "evidence_memory_ids": []
+  },
+  {
+    "source_id": "uighur_envoy",
+    "target_id": "li_bi",
+    "edge_type": "negotiates_with",
+    "weight": 40,
+    "visibility": "visible",
+    "summary": "The Uighur envoy treats Li Bi as a credible terms drafter.",
+    "evidence_memory_ids": []
+  },
+  {
+    "source_id": "uighur_envoy",
+    "target_id": "guo_ziyi",
+    "edge_type": "respects",
+    "weight": 52,
+    "visibility": "discoverable",
+    "summary": "The envoy respects Guo Ziyi's battlefield credibility.",
+    "evidence_memory_ids": []
+  },
+  {
+    "source_id": "li_guangbi",
+    "target_id": "pugu_huaien",
+    "edge_type": "distrusts",
+    "weight": 46,
+    "visibility": "discoverable",
+    "summary": "Li Guangbi distrusts Pugu Huaien's appetite for fast action.",
+    "evidence_memory_ids": []
+  },
+  {
+    "source_id": "pugu_huaien",
+    "target_id": "guo_ziyi",
+    "edge_type": "competes_with",
+    "weight": 58,
+    "visibility": "visible",
+    "summary": "Pugu Huaien competes with Guo Ziyi for visible military credit.",
+    "evidence_memory_ids": []
+  },
+  {
+    "source_id": "li_chu",
+    "target_id": "li_fuguo",
+    "edge_type": "fears",
+    "weight": 35,
+    "visibility": "discoverable",
+    "summary": "Li Chu is cautious around Li Fuguo's control of palace access.",
+    "evidence_memory_ids": []
+  },
+  {
+    "source_id": "li_chu",
+    "target_id": "zhang_liangdi",
+    "edge_type": "protects",
+    "weight": 42,
+    "visibility": "secret",
+    "summary": "Li Chu avoids court moves that expose Zhang Liangdi to palace rumor.",
+    "evidence_memory_ids": []
+  },
+  {
+    "source_id": "lingwu_merchant_refugee",
+    "target_id": "uighur_envoy",
+    "edge_type": "uses_as_proxy",
+    "weight": 31,
+    "visibility": "rumor",
+    "summary": "Merchants repeat envoy terms as market rumor.",
+    "evidence_memory_ids": []
+  },
+  {
+    "source_id": "regional_jiedushi_rep",
+    "target_id": "guo_ziyi",
+    "edge_type": "trusts",
+    "weight": 47,
+    "visibility": "discoverable",
+    "summary": "Regional envoys follow Guo Ziyi's authority signal before risking support.",
+    "evidence_memory_ids": []
+  },
+  {
+    "source_id": "regional_jiedushi_rep",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "fears",
+    "weight": 39,
+    "visibility": "discoverable",
+    "summary": "Regional envoys fear old-court blame after emergency orders.",
+    "evidence_memory_ids": []
+  },
+  {
+    "source_id": "grain_official_lingwu",
+    "target_id": "lingwu_merchant_refugee",
+    "edge_type": "resents",
+    "weight": 34,
+    "visibility": "visible",
+    "summary": "The grain official resents merchants who expose storehouse pressure.",
+    "evidence_memory_ids": []
+  },
+  {
+    "source_id": "hardline_old_court_official",
+    "target_id": "guo_ziyi",
+    "edge_type": "distrusts",
+    "weight": 41,
+    "visibility": "discoverable",
+    "summary": "The old-court official distrusts emergency military promotion without paperwork.",
+    "evidence_memory_ids": []
+  },
+  {
+    "edge_id": "beta06_edge_01",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_01",
+    "edge_type": "office_rivalry",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_02",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_02",
+    "edge_type": "faction_patronage",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_03",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_03",
+    "edge_type": "political_debt",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_04",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_04",
+    "edge_type": "office_rivalry",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_05",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_05",
+    "edge_type": "faction_patronage",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_06",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_06",
+    "edge_type": "political_debt",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_07",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_07",
+    "edge_type": "office_rivalry",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_08",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_08",
+    "edge_type": "faction_patronage",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_09",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_09",
+    "edge_type": "political_debt",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_10",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_10",
+    "edge_type": "office_rivalry",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_11",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_11",
+    "edge_type": "faction_patronage",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_12",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_12",
+    "edge_type": "political_debt",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_13",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_13",
+    "edge_type": "office_rivalry",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_14",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_14",
+    "edge_type": "faction_patronage",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_15",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_15",
+    "edge_type": "political_debt",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_16",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_01",
+    "edge_type": "office_rivalry",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_17",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_02",
+    "edge_type": "faction_patronage",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_18",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_03",
+    "edge_type": "political_debt",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_19",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_04",
+    "edge_type": "office_rivalry",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_20",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_05",
+    "edge_type": "faction_patronage",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_21",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_06",
+    "edge_type": "political_debt",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_22",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_07",
+    "edge_type": "office_rivalry",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_23",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_08",
+    "edge_type": "faction_patronage",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_24",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_09",
+    "edge_type": "political_debt",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_25",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_10",
+    "edge_type": "office_rivalry",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_26",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_11",
+    "edge_type": "faction_patronage",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_27",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_12",
+    "edge_type": "political_debt",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_28",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_13",
+    "edge_type": "office_rivalry",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_29",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_14",
+    "edge_type": "faction_patronage",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_30",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_15",
+    "edge_type": "political_debt",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_31",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_01",
+    "edge_type": "office_rivalry",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_32",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_02",
+    "edge_type": "faction_patronage",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_33",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_03",
+    "edge_type": "political_debt",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_34",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_04",
+    "edge_type": "office_rivalry",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_35",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_05",
+    "edge_type": "faction_patronage",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_36",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_06",
+    "edge_type": "political_debt",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_37",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_07",
+    "edge_type": "office_rivalry",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_38",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_08",
+    "edge_type": "faction_patronage",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_39",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_09",
+    "edge_type": "political_debt",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_40",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_10",
+    "edge_type": "office_rivalry",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_41",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_11",
+    "edge_type": "faction_patronage",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_42",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_12",
+    "edge_type": "political_debt",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_43",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_13",
+    "edge_type": "office_rivalry",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_44",
+    "source_id": "li_fuguo",
+    "target_id": "beta06_court_actor_14",
+    "edge_type": "faction_patronage",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta06_edge_45",
+    "source_id": "guo_ziyi",
+    "target_id": "beta06_court_actor_15",
+    "edge_type": "political_debt",
+    "visibility": "discoverable",
+    "summary": "Beta 0.6 relationship edge tying office politics to faction memory."
+  },
+  {
+    "edge_id": "beta07_intel_edge_01",
+    "source_id": "guo_ziyi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_02",
+    "source_id": "li_fuguo",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_03",
+    "source_id": "li_bi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_04",
+    "source_id": "hardline_old_court_official",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_05",
+    "source_id": "guo_ziyi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_06",
+    "source_id": "li_fuguo",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_07",
+    "source_id": "li_bi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_08",
+    "source_id": "hardline_old_court_official",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_09",
+    "source_id": "guo_ziyi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_10",
+    "source_id": "li_fuguo",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_11",
+    "source_id": "li_bi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_12",
+    "source_id": "hardline_old_court_official",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_13",
+    "source_id": "guo_ziyi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_14",
+    "source_id": "li_fuguo",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_15",
+    "source_id": "li_bi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_16",
+    "source_id": "hardline_old_court_official",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_17",
+    "source_id": "guo_ziyi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_18",
+    "source_id": "li_fuguo",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_19",
+    "source_id": "li_bi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_20",
+    "source_id": "hardline_old_court_official",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_21",
+    "source_id": "guo_ziyi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_22",
+    "source_id": "li_fuguo",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_23",
+    "source_id": "li_bi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_24",
+    "source_id": "hardline_old_court_official",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_25",
+    "source_id": "guo_ziyi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_26",
+    "source_id": "li_fuguo",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_27",
+    "source_id": "li_bi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_28",
+    "source_id": "hardline_old_court_official",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_29",
+    "source_id": "guo_ziyi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_30",
+    "source_id": "li_fuguo",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_31",
+    "source_id": "li_bi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_32",
+    "source_id": "hardline_old_court_official",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_33",
+    "source_id": "guo_ziyi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_34",
+    "source_id": "li_fuguo",
+    "target_id": "hardline_old_court_official",
+    "edge_type": "report_suspicion",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  },
+  {
+    "edge_id": "beta07_intel_edge_35",
+    "source_id": "li_bi",
+    "target_id": "li_bi",
+    "edge_type": "report_trust",
+    "visibility": "discoverable",
+    "summary": "Beta 0.7 edge describing trust or suspicion around regional reports."
+  }
+]

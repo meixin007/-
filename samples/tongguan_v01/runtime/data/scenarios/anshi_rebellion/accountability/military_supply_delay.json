@@ -1,0 +1,11 @@
+{
+  "case_id": "beta108_case_military_grain_delay",
+  "template_id": "military_grain_delay",
+  "phase_open_day": 36,
+  "facts": [{"fact_id": "fact_military_supply_delay", "kind": "supply_delay", "source_ref_id": "military_report_36", "public_summary": "前线粮运延误跨过既定时限。"}],
+  "claims": [{"claim_id": "claim_guo_supply", "character_id": "guo_ziyi", "fact_ids": ["fact_military_supply_delay"]}, {"claim_id": "claim_pugu_supply", "character_id": "pugu_huaien", "fact_ids": ["fact_military_supply_delay"]}],
+  "evidence": [{"evidence_id": "evidence_military_report", "kind": "verified_intelligence", "ref_id": "military_report_36"}, {"evidence_id": "evidence_military_route", "kind": "event_history", "ref_id": "military_route_37"}],
+  "available_verdicts": ["dismiss", "reform"],
+  "required_fact_kinds": ["supply_delay"],
+  "minimum_independent_sources": 2
+}

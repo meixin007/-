@@ -1,0 +1,24 @@
+{
+  "bundle_id": "strategic_landforms_v03_20261007",
+  "version": 1,
+  "extends": "strategic_ground_v02_20261007",
+  "asset_review_status": "CANDIDATE_NOT_USER_ACCEPTED",
+  "assets": [
+    {
+      "file": "connected-ridges-v03.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "bytes": 1478698,
+      "sha256": "47fc86405640c85924665efa5ea577803391b2fbe1ef1a028f14e2dd6bdc2c73"
+    },
+    {
+      "file": "forest-regions-v03.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "bytes": 2329592,
+      "sha256": "586b2776c892cfd24de19cf5e878807f59e95f9628f677eede52084525270690"
+    }
+  ]
+}

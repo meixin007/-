@@ -1,0 +1,174 @@
+{
+  "schema_version": 2,
+  "stress_rules": {
+    "max_stress": 300,
+    "tier_thresholds": {
+      "tier_1": 100,
+      "tier_2": 200,
+      "tier_3": 300
+    },
+    "tier_labels": {
+      "tier_0": "神清气定",
+      "tier_1": "心神恍惚",
+      "tier_2": "疑惧惊梦",
+      "tier_3": "精神崩解"
+    },
+    "trait_violations": {
+      "paranoid_anxious": {
+        "actions": ["grant_absolute_military_trust", "pardon_rebel_sympathizer", "ignore_palace_guards"],
+        "stress_gain": 35,
+        "reason": "违逆猜忌本性，深恐大权旁落遭人反噬"
+      },
+      "daoist_recluse": {
+        "actions": ["desecrate_taoist_altar", "scoff_at_divination", "suppress_recluse_scholars"],
+        "stress_gain": 30,
+        "reason": "违逆崇道心性，惊扰神明心怀大愆"
+      },
+      "indecisive_hesitant": {
+        "actions": ["execute_inner_court_confidant", "ruthless_purge_of_relatives"],
+        "stress_gain": 40,
+        "reason": "违逆优柔性情，手刃亲信内疚深重"
+      },
+      "righteous_upright": {
+        "actions": ["accept_bribes", "punish_honest_counsel", "compromise_with_rebels"],
+        "stress_gain": 45,
+        "reason": "违逆刚正风骨，折节屈从痛心疾首"
+      },
+      "pure_uncompromising": {
+        "actions": ["flatter_eunuchs", "appease_corrupt_ministers"],
+        "stress_gain": 40,
+        "reason": "违逆孤介操守，自惭与瓦砾同流"
+      },
+      "loyal_restrained": {
+        "actions": ["defy_imperial_order", "extort_court_supplies"],
+        "stress_gain": 50,
+        "reason": "违逆忠顺臣节，夜不能寐深恐负国"
+      }
+    }
+  },
+  "coping_actions": [
+    {
+      "id": "taoist_ritual",
+      "name": "行在设醮（崇道祈福）",
+      "description": "延请山人李泌于灵武行在设立太清黄箓道场，斋戒沐浴，讲论《道德经》以宁心神。",
+      "stress_relief": 40,
+      "cost": {"treasury": 30},
+      "bonus": {"legitimacy": 5},
+      "cooldown_days": 7,
+      "flavor_feedback": "道场钟磬悠扬，李泌清谈玄理，陛下焦躁多疑之心渐得抚慰。"
+    },
+    {
+      "id": "confide_in_eunuchs",
+      "name": "夜召内侍（密室倾诉）",
+      "description": "屏退外廷大臣，密召李辅国等近侍入寝帐，吐露猜忌与隐忧，令其整饬宿卫。",
+      "stress_relief": 50,
+      "cost": {},
+      "bonus": {},
+      "penalty": {"inner_court_influence": 15, "authority": -5},
+      "cooldown_days": 5,
+      "flavor_feedback": "李辅国顿首泣奏誓死效忠，内侍宿卫锁钥加固，陛下心安但内廷权势渐重。"
+    },
+    {
+      "id": "banquet_commanders",
+      "name": "巡营犒军（把酒言欢）",
+      "description": "亲临郭子仪等大将营寨，赐御用美酒羊炙，与边塞宿将共话平戎大计。",
+      "stress_relief": 35,
+      "cost": {"grain": 40, "treasury": 20},
+      "bonus": {"commander_morale": 10},
+      "cooldown_days": 10,
+      "flavor_feedback": "营中桴鼓震天，将士欢声雷动，边将感激涕零，陛下暂时忘却朝堂危殆。"
+    },
+    {
+      "id": "penitential_edict",
+      "name": "颁下罪己（自抑心神）",
+      "description": "避正殿，减膳食，下《引咎责躬诏》，自陈德薄致寇之失，以正天人感应。",
+      "stress_relief": 60,
+      "cost": {"authority": 10},
+      "bonus": {"public_order": 10, "legitimacy": 8},
+      "cooldown_days": 15,
+      "flavor_feedback": "天下士民闻诏感泣，关陇民心大顺，陛下引咎释怀，心头巨石落地。"
+    }
+  ],
+  "breakdown_events": [
+    {
+      "id": "breakdown_tier_1",
+      "tier": 1,
+      "title": "心神恍惚：中宵惊梦",
+      "text": "连日战报纷沓，陛下夜不成寐，梦中忽见玄宗蜀中使者持剑质问灵武僭立之愆，惊悸汗下。",
+      "choices": [
+        {
+          "choice_id": "call_li_bi",
+          "text": "连夜急召李泌入帐谈玄解惑",
+          "stress_relief": 30,
+          "cost": {"treasury": 10},
+          "gained_trait": ""
+        },
+        {
+          "choice_id": "drink_till_dawn",
+          "text": "独坐痛饮御酒，借醉长歌销愁",
+          "stress_relief": 45,
+          "gained_trait": "drunken_escapism",
+          "flavor": "痛饮彻夜，酒入愁肠，陛下暂时心宽，却添了沉湎杜康之习。"
+        },
+        {
+          "choice_id": "endure_silently",
+          "text": "隐忍不发，强撑视朝",
+          "stress_relief": 0,
+          "gained_trait": "",
+          "penalty": {"governance_efficiency": -10}
+        }
+      ]
+    },
+    {
+      "id": "breakdown_tier_2",
+      "tier": 2,
+      "title": "疑惧惊梦：行在风声鹤唳",
+      "text": "陛下见前线将帅奏疏辞色昂扬，又闻宫门宿卫夜有喧哗，疑心有内臣与边将密谋废立，心胆俱裂。",
+      "choices": [
+        {
+          "choice_id": "entrust_fuguo_lockdown",
+          "text": "传李辅国密锁行在四门，严加巡哨防备",
+          "stress_relief": 60,
+          "gained_trait": "paranoid_insomnia",
+          "penalty": {"inner_court_influence": 25, "general_resentment": 15},
+          "flavor": "四门紧锁，拔剑夜巡，陛下终于能略睡片刻，但寝殿内已草木皆兵。"
+        },
+        {
+          "choice_id": "take_elixir_calm",
+          "text": "暗服道士所献九转金丹以图安神定魄",
+          "stress_relief": 75,
+          "gained_trait": "alchemical_obsession",
+          "flavor": "服下金丹，只觉胸腹如灼，神魂亢奋，虽惊恐暂消，但脾气愈发暴躁喜怒无常。"
+        },
+        {
+          "choice_id": "fasting_seclusion",
+          "text": "下令避殿三日，谢绝臣僚，专心辟谷",
+          "stress_relief": 50,
+          "gained_trait": "secluded_meditation",
+          "penalty": {"governance_efficiency": -25, "authority": -10},
+          "flavor": "深居内殿，避不见客，朝政略有延宕，陛下于静修中勉强抚平惊恐。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown_tier_3",
+      "tier": 3,
+      "title": "精神崩解：狂澜既倒之危",
+      "text": "惊惧交加之下，陛下精神几近崩溃，已无法理智视朝，甚至对忠贞宿将拔刀相向，社稷危在旦夕！",
+      "choices": [
+        {
+          "choice_id": "desperate_repentance",
+          "text": "向天下颁《罪己避位乞还太上皇诏》，自请退居别殿",
+          "stress_relief": 120,
+          "penalty": {"legitimacy": -30, "authority": -40}
+        },
+        {
+          "choice_id": "blood_purge",
+          "text": "孤注一掷，命李辅国大兴诏狱，诛杀一切疑似异己",
+          "stress_relief": 100,
+          "penalty": {"public_order": -30, "general_resentment": 40}
+        }
+      ]
+    }
+  ]
+}

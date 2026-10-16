@@ -1,0 +1,14 @@
+{
+  "bundle_id": "jianmen_northsouth_20260929",
+  "version": 1,
+  "extends": "jianmen_repair_20260929",
+  "review_status": "PENDING_USER",
+  "assets": [
+    {
+      "file": "gate-south.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d2adcb9d58b00c131672449f247ca9674f9dffadda8929f83a3a9eb73c3e59bd"
+    }
+  ]
+}

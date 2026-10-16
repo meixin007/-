@@ -1,0 +1,15 @@
+{
+  "bundle_id": "zizhou_bank_20260930",
+  "version": 1,
+  "extends": "mianzhou_20260930",
+  "review_status": "PENDING_USER_REVIEW",
+  "generation_tool": "builtin image_gen",
+  "assets": [
+    {
+      "file": "zizhou-dry-bank.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "e2c5bcd8626ec9edbdc0f8dc78ab48baa65d8820fea43ab3dd3261d99ff65f63"
+    }
+  ]
+}

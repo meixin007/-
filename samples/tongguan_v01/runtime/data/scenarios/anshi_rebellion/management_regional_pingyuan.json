@@ -1,0 +1,1444 @@
+{
+  "source_id": "scenario:pingyuan_management_756",
+  "clan_definitions": [
+    {
+      "clan_id": "clan_yan_langya",
+      "name": "琅琊颜氏",
+      "clan_type": "scholarly_gentry",
+      "origin_county": "琅琊",
+      "default_patriarch_id": "yan_zhenqing",
+      "prominent_members": [
+        "yan_zhenqing",
+        "yan_gaoqing"
+      ],
+      "renown_tier": 2,
+      "estate_resources": {
+        "silver": 250
+      },
+      "source_id": "scenario:pingyuan_yan_estate",
+      "content_basis": "本作颜氏家产玩法配置；250 为开局记账单位，不是史实财产估计。"
+    }
+  ],
+  "clan_cash_locations": [
+    {
+      "clan_id": "clan_yan_langya",
+      "location_id": "zhou_dezhou",
+      "source_id": "scenario:pingyuan_yan_estate"
+    }
+  ],
+  "content_basis": "756 年安史剧本玩法映射：复用既有颜真卿与德州/平原战略节点；刺史、四幕职、俸给和下列幕僚为本作扩展配置，不作为唐代普通州府法定定员或历史价格。 成都、河东、扬州补入林竹、矿石、盐及商船开发配置；资源量、当地经营供需与虚构供货人均为游戏设定，非历史储量。",
+  "organizations": [
+    {
+      "organization_id": "government_pingyuan",
+      "name": "平原州府",
+      "head_office_id": "pingyuan_prefect",
+      "location_id": "zhou_dezhou"
+    }
+  ],
+  "local_nodes": [
+    {
+      "node_id": "zhou_dezhou",
+      "name": "平原州署",
+      "display_name": "平原州署",
+      "strategic_node_id": "zhou_dezhou",
+      "active_office_holder": "yan_zhenqing",
+      "control": 55,
+      "public_order": 45,
+      "security": 50,
+      "supply": 40,
+      "communication_delay": 4,
+      "dominant_faction": "tang_court",
+      "recent_orders": [],
+      "linked_events": [],
+      "linked_fronts": [],
+      "rumors_or_uncertainty": [],
+      "source_id": "scenario:pingyuan_management_756"
+    },
+    {
+      "node_id": "chengdou_rear_hub_node",
+      "name": "成都经营地区",
+      "display_name": "成都经营地区",
+      "active_office_holder": "",
+      "control": 50,
+      "public_order": 55,
+      "security": 55,
+      "supply": 50,
+      "communication_delay": 5,
+      "dominant_faction": "tang_court",
+      "recent_orders": [],
+      "linked_events": [],
+      "linked_fronts": [],
+      "rumors_or_uncertainty": [],
+      "source_id": "scenario:regional_resource_sites_756"
+    },
+    {
+      "node_id": "taiyuan_hub_node",
+      "name": "太原经营地区",
+      "display_name": "太原经营地区",
+      "active_office_holder": "",
+      "control": 50,
+      "public_order": 55,
+      "security": 55,
+      "supply": 50,
+      "communication_delay": 5,
+      "dominant_faction": "tang_court",
+      "recent_orders": [],
+      "linked_events": [],
+      "linked_fronts": [],
+      "rumors_or_uncertainty": [],
+      "source_id": "scenario:regional_resource_sites_756"
+    },
+    {
+      "node_id": "yangzhou_tribute_hub_node",
+      "name": "扬州经营地区",
+      "display_name": "扬州经营地区",
+      "active_office_holder": "",
+      "control": 50,
+      "public_order": 55,
+      "security": 55,
+      "supply": 50,
+      "communication_delay": 5,
+      "dominant_faction": "tang_court",
+      "recent_orders": [],
+      "linked_events": [],
+      "linked_fronts": [],
+      "rumors_or_uncertainty": [],
+      "source_id": "scenario:regional_resource_sites_756"
+    }
+  ],
+  "characters": [
+    {
+      "id": "pingyuan_qin_jian",
+      "name": "秦简",
+      "role": "平原掌书记（本作虚构幕僚）",
+      "status": "alive",
+      "location_id": "zhou_dezhou",
+      "governance_ability": 68,
+      "stats": {
+        "governance": 68,
+        "finance": 60,
+        "diplomacy": 65
+      },
+      "relationships": {
+        "yan_zhenqing": 35
+      },
+      "employment_preferences": {
+        "assistant_willing": true,
+        "regional_willing": true
+      },
+      "source_id": "scenario:pingyuan_management_756"
+    },
+    {
+      "id": "pingyuan_lu_wen",
+      "name": "卢文",
+      "role": "平原待辟士人（本作虚构人物）",
+      "status": "alive",
+      "location_id": "zhou_dezhou",
+      "governance_ability": 72,
+      "stats": {
+        "governance": 72,
+        "finance": 65,
+        "diplomacy": 58
+      },
+      "relationships": {
+        "yan_zhenqing": 20
+      },
+      "employment_preferences": {
+        "assistant_willing": true,
+        "regional_willing": true
+      },
+      "source_id": "scenario:pingyuan_management_756"
+    },
+    {
+      "id": "pingyuan_zheng_cheng",
+      "name": "郑承",
+      "role": "平原待辟士人（本作虚构人物）",
+      "status": "alive",
+      "location_id": "zhou_dezhou",
+      "governance_ability": 62,
+      "stats": {
+        "governance": 62,
+        "finance": 57,
+        "diplomacy": 78
+      },
+      "relationships": {
+        "yan_zhenqing": 15
+      },
+      "employment_preferences": {
+        "assistant_willing": true,
+        "regional_willing": true
+      },
+      "source_id": "scenario:pingyuan_management_756"
+    },
+    {
+      "id": "pingyuan_qian_liang",
+      "name": "钱良",
+      "role": "平原待辟士人（本作虚构人物）",
+      "status": "alive",
+      "location_id": "zhou_dezhou",
+      "governance_ability": 65,
+      "stats": {
+        "governance": 65,
+        "finance": 70,
+        "intrigue": 72
+      },
+      "relationships": {
+        "yan_zhenqing": 15
+      },
+      "employment_preferences": {
+        "assistant_willing": true,
+        "regional_willing": true
+      },
+      "source_id": "scenario:pingyuan_management_756"
+    },
+    {
+      "id": "pingyuan_han_gong",
+      "name": "韩工",
+      "role": "平原承修工匠（本作虚构人物）",
+      "status": "alive",
+      "location_id": "zhou_dezhou",
+      "stats": {
+        "governance": 35,
+        "finance": 40
+      },
+      "relationships": {
+        "yan_zhenqing": 15
+      },
+      "source_id": "scenario:pingyuan_management_756"
+    },
+    {
+      "id": "pingyuan_tian_sheng",
+      "name": "田生",
+      "role": "平原田地主人（本作虚构人物）",
+      "status": "alive",
+      "location_id": "zhou_dezhou",
+      "stats": {
+        "governance": 35,
+        "finance": 40
+      },
+      "relationships": {
+        "yan_zhenqing": 15
+      },
+      "source_id": "scenario:pingyuan_management_756"
+    },
+    {
+      "id": "pingyuan_zhou_zhi",
+      "name": "周直",
+      "role": "平原求聘先生（本作虚构人物）",
+      "status": "alive",
+      "location_id": "zhou_dezhou",
+      "stats": {
+        "governance": 60,
+        "scholarship": 80
+      },
+      "relationships": {
+        "yan_zhenqing": 10
+      },
+      "source_id": "scenario:pingyuan_school_756"
+    },
+    {
+      "id": "pingyuan_he_ping",
+      "name": "何平",
+      "role": "平原求学士子（本作虚构人物）",
+      "status": "alive",
+      "location_id": "zhou_dezhou",
+      "stats": {
+        "governance": 40,
+        "scholarship": 40
+      },
+      "relationships": {
+        "yan_zhenqing": 10
+      },
+      "source_id": "scenario:pingyuan_school_756",
+      "employment_preferences": {
+        "regional_willing": true,
+        "assistant_willing": false
+      }
+    },
+    {
+      "id": "pingyuan_liu_an",
+      "name": "刘安",
+      "role": "平原求学士子（本作虚构人物）",
+      "status": "alive",
+      "location_id": "zhou_dezhou",
+      "stats": {
+        "governance": 45,
+        "scholarship": 45
+      },
+      "relationships": {
+        "yan_zhenqing": 10
+      },
+      "source_id": "scenario:pingyuan_school_756",
+      "employment_preferences": {
+        "regional_willing": true,
+        "assistant_willing": false
+      }
+    },
+    {
+      "id": "pingyuan_wu_cheng",
+      "name": "吴成",
+      "role": "平原求学士子（本作虚构人物）",
+      "status": "alive",
+      "location_id": "zhou_dezhou",
+      "stats": {
+        "governance": 38,
+        "scholarship": 38
+      },
+      "relationships": {
+        "yan_zhenqing": 10
+      },
+      "source_id": "scenario:pingyuan_school_756",
+      "employment_preferences": {
+        "regional_willing": true,
+        "assistant_willing": false
+      }
+    },
+    {
+      "id": "pingyuan_ding_heng",
+      "name": "丁衡",
+      "role": "平原求聘先生（本作虚构人物）",
+      "status": "alive",
+      "location_id": "zhou_dezhou",
+      "stats": {
+        "governance": 58,
+        "scholarship": 75
+      },
+      "relationships": {
+        "yan_zhenqing": 10
+      },
+      "source_id": "scenario:pingyuan_school_faculty_756"
+    },
+    {
+      "id": "pingyuan_sun_nian",
+      "name": "孙念",
+      "role": "平原求学士子（本作虚构人物）",
+      "status": "alive",
+      "location_id": "zhou_dezhou",
+      "stats": {
+        "governance": 42,
+        "scholarship": 42
+      },
+      "relationships": {
+        "yan_zhenqing": 10
+      },
+      "source_id": "scenario:pingyuan_school_faculty_756",
+      "employment_preferences": {
+        "regional_willing": true,
+        "assistant_willing": false
+      }
+    },
+    {
+      "id": "pingyuan_shen_qiu",
+      "name": "沈求",
+      "role": "平原求学士子（本作虚构人物）",
+      "status": "alive",
+      "location_id": "zhou_dezhou",
+      "stats": {
+        "governance": 35,
+        "scholarship": 40
+      },
+      "relationships": {
+        "yan_zhenqing": 10
+      },
+      "source_id": "scenario:pingyuan_school_living_aid_756",
+      "employment_preferences": {
+        "regional_willing": true,
+        "assistant_willing": false
+      }
+    },
+    {
+      "id": "pingyuan_xu_liang",
+      "name": "许粮",
+      "role": "平原粮商（本作虚构人物）",
+      "status": "alive",
+      "location_id": "zhou_dezhou",
+      "stats": {
+        "governance": 35,
+        "scholarship": 40
+      },
+      "relationships": {
+        "yan_zhenqing": 10
+      },
+      "source_id": "scenario:pingyuan_school_living_aid_756"
+    },
+    {
+      "id": "court_lu_heng",
+      "name": "陆衡",
+      "role": "行在受聘考官（本作虚构人物）",
+      "status": "alive",
+      "location_id": "lingwu_court_node",
+      "stats": {
+        "governance": 60,
+        "scholarship": 80
+      },
+      "relationships": {
+        "li_heng": 10
+      },
+      "source_id": "scenario:central_examination_756"
+    },
+    {
+      "id": "pingyuan_du_shen",
+      "name": "杜慎",
+      "role": "平原地方大户（本作虚构人物）",
+      "status": "alive",
+      "location_id": "zhou_dezhou",
+      "stats": {
+        "finance": 65,
+        "diplomacy": 45
+      },
+      "relationships": {
+        "yan_zhenqing": 10
+      },
+      "source_id": "scenario:pingyuan_local_fiscal_756"
+    }
+  ],
+  "character_cash_grants": [
+    {
+      "character_id": "yan_zhenqing",
+      "location_id": "zhou_dezhou",
+      "amount": 40,
+      "source_id": "scenario:pingyuan_personal_savings"
+    },
+    {
+      "character_id": "pingyuan_qin_jian",
+      "location_id": "zhou_dezhou",
+      "amount": 10,
+      "source_id": "scenario:pingyuan_staff_savings"
+    },
+    {
+      "character_id": "pingyuan_lu_wen",
+      "location_id": "zhou_dezhou",
+      "amount": 10,
+      "source_id": "scenario:pingyuan_staff_savings"
+    },
+    {
+      "character_id": "pingyuan_zheng_cheng",
+      "location_id": "zhou_dezhou",
+      "amount": 10,
+      "source_id": "scenario:pingyuan_staff_savings"
+    },
+    {
+      "character_id": "pingyuan_qian_liang",
+      "location_id": "zhou_dezhou",
+      "amount": 10,
+      "source_id": "scenario:pingyuan_staff_savings"
+    },
+    {
+      "character_id": "pingyuan_han_gong",
+      "location_id": "zhou_dezhou",
+      "amount": 10,
+      "source_id": "scenario:pingyuan_workers_savings"
+    },
+    {
+      "character_id": "pingyuan_tian_sheng",
+      "location_id": "zhou_dezhou",
+      "amount": 10,
+      "source_id": "scenario:pingyuan_workers_savings"
+    },
+    {
+      "character_id": "pingyuan_zhou_zhi",
+      "location_id": "zhou_dezhou",
+      "amount": 10,
+      "source_id": "scenario:pingyuan_school_savings"
+    },
+    {
+      "character_id": "pingyuan_he_ping",
+      "location_id": "zhou_dezhou",
+      "amount": 10,
+      "source_id": "scenario:pingyuan_school_savings"
+    },
+    {
+      "character_id": "pingyuan_liu_an",
+      "location_id": "zhou_dezhou",
+      "amount": 10,
+      "source_id": "scenario:pingyuan_school_savings"
+    },
+    {
+      "character_id": "pingyuan_wu_cheng",
+      "location_id": "zhou_dezhou",
+      "amount": 10,
+      "source_id": "scenario:pingyuan_school_savings"
+    },
+    {
+      "character_id": "pingyuan_ding_heng",
+      "location_id": "zhou_dezhou",
+      "amount": 10,
+      "source_id": "scenario:pingyuan_school_faculty_756"
+    },
+    {
+      "character_id": "pingyuan_sun_nian",
+      "location_id": "zhou_dezhou",
+      "amount": 10,
+      "source_id": "scenario:pingyuan_school_faculty_756"
+    },
+    {
+      "character_id": "pingyuan_shen_qiu",
+      "location_id": "zhou_dezhou",
+      "amount": 0,
+      "source_id": "scenario:pingyuan_school_living_aid_756"
+    },
+    {
+      "character_id": "pingyuan_xu_liang",
+      "location_id": "zhou_dezhou",
+      "amount": 0,
+      "source_id": "scenario:pingyuan_school_living_aid_756"
+    },
+    {
+      "character_id": "court_lu_heng",
+      "amount": 0,
+      "location_id": "lingwu_court_node",
+      "source_id": "scenario:central_examination_756"
+    },
+    {
+      "character_id": "pingyuan_du_shen",
+      "location_id": "zhou_dezhou",
+      "amount": 40,
+      "source_id": "scenario:pingyuan_du_household_savings"
+    }
+  ],
+  "offices": [
+    {
+      "id": "pingyuan_prefect",
+      "name": "平原刺史",
+      "office_kind": "regional",
+      "organization_id": "government_pingyuan",
+      "role_key": "prefect",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "imperial_court"
+      },
+      "jurisdiction": [
+        "zhou_dezhou"
+      ],
+      "required_stats": {
+        "governance": 75
+      },
+      "preferred_traits": [],
+      "responsibility_text": "统筹州务、州库与四幕职；刺史本职须由朝廷除授。既有太守人物映射为本作刺史玩法。",
+      "remuneration_terms": {
+        "account_id": "pingyuan_treasury",
+        "daily_amount": 2,
+        "period_days": 10,
+        "unit_id": "cash_unit"
+      }
+    },
+    {
+      "id": "pingyuan_judge",
+      "name": "平原判官",
+      "office_kind": "regional",
+      "organization_id": "government_pingyuan",
+      "role_key": "judge",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "pingyuan_prefect"
+      },
+      "jurisdiction": [
+        "zhou_dezhou"
+      ],
+      "required_stats": {
+        "governance": 65
+      },
+      "preferred_traits": [],
+      "responsibility_text": "综合政务、方案审查、跨事务协调；本作扩展辟召幕职。",
+      "remuneration_terms": {
+        "account_id": "pingyuan_treasury",
+        "daily_amount": 2,
+        "period_days": 10,
+        "unit_id": "cash_unit"
+      }
+    },
+    {
+      "id": "pingyuan_aide",
+      "name": "平原支使",
+      "office_kind": "regional",
+      "organization_id": "government_pingyuan",
+      "role_key": "aide",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "pingyuan_prefect"
+      },
+      "jurisdiction": [
+        "zhou_dezhou"
+      ],
+      "required_stats": {
+        "diplomacy": 65
+      },
+      "preferred_traits": [],
+      "responsibility_text": "经办差遣、往来协调、项目推进；本作扩展辟召幕职。",
+      "remuneration_terms": {
+        "account_id": "pingyuan_treasury",
+        "daily_amount": 1,
+        "period_days": 10,
+        "unit_id": "cash_unit"
+      }
+    },
+    {
+      "id": "pingyuan_investigator",
+      "name": "平原推官",
+      "office_kind": "regional",
+      "organization_id": "government_pingyuan",
+      "role_key": "investigator",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "pingyuan_prefect"
+      },
+      "jurisdiction": [
+        "zhou_dezhou"
+      ],
+      "required_stats": {
+        "governance": 60,
+        "intrigue": 60
+      },
+      "preferred_traits": [],
+      "responsibility_text": "调查、案情核实、争议处理；本作扩展辟召幕职。",
+      "remuneration_terms": {
+        "account_id": "pingyuan_treasury",
+        "daily_amount": 1,
+        "period_days": 10,
+        "unit_id": "cash_unit"
+      }
+    },
+    {
+      "id": "pingyuan_secretary",
+      "name": "平原掌书记",
+      "office_kind": "regional",
+      "organization_id": "government_pingyuan",
+      "role_key": "secretary",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "pingyuan_prefect"
+      },
+      "jurisdiction": [
+        "zhou_dezhou"
+      ],
+      "required_stats": {
+        "governance": 60
+      },
+      "preferred_traits": [],
+      "responsibility_text": "文书、报告、接洽、事务统筹；本作扩展辟召幕职，默认协助刺史办理已授权事务。",
+      "remuneration_terms": {
+        "account_id": "pingyuan_treasury",
+        "daily_amount": 1,
+        "period_days": 10,
+        "unit_id": "cash_unit"
+      }
+    },
+    {
+      "id": "pingyuan_school_clerk",
+      "name": "平原学舍书吏",
+      "rank": "无品书吏（本作设定）",
+      "branch": "regional_administration",
+      "office_kind": "regional",
+      "organization_id": "government_pingyuan",
+      "role_key": "school_clerk",
+      "authority_ref": {
+        "entity_kind": "office_holder",
+        "entity_id": "pingyuan_prefect"
+      },
+      "jurisdiction": [
+        "zhou_dezhou"
+      ],
+      "required_stats": {
+        "governance": 35,
+        "scholarship": 60
+      },
+      "preferred_traits": [],
+      "entry_school_id": "pingyuan_school",
+      "responsibility_text": "本作设定的州学初任书吏，整理学籍、课书与考核文书；须取得本学舍真实荐举资格，由现任刺史另行辟用，不等同科举进士或朝廷品官。",
+      "remuneration_terms": {
+        "account_id": "pingyuan_treasury",
+        "daily_amount": 1,
+        "period_days": 10,
+        "unit_id": "cash_unit"
+      }
+    }
+  ],
+  "initial_terms": [
+    {
+      "office_id": "pingyuan_prefect",
+      "holder_id": "yan_zhenqing"
+    },
+    {
+      "office_id": "pingyuan_secretary",
+      "holder_id": "pingyuan_qin_jian"
+    }
+  ],
+  "public_accounts": [
+    {
+      "account_id": "pingyuan_treasury",
+      "office_id": "pingyuan_prefect",
+      "organization_id": "government_pingyuan",
+      "location_id": "zhou_dezhou",
+      "amount": 400,
+      "source_id": "scenario:pingyuan_public_stock"
+    }
+  ],
+  "work_schedule": {
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "duty_work_kinds": [
+      "management",
+      "character_search"
+    ],
+    "source_id": "scenario:pingyuan_management_756"
+  },
+  "public_works_assets": [
+    {
+      "asset_id": "pingyuan_timber",
+      "asset_kind": "material_stock",
+      "name": "州库工程木料",
+      "owner_ref": {
+        "entity_kind": "office",
+        "entity_id": "pingyuan_prefect"
+      },
+      "location_id": "zhou_dezhou",
+      "source_ref": {
+        "entity_kind": "rule",
+        "rule_id": "scenario:pingyuan_public_works_756"
+      },
+      "rights": [],
+      "contract_refs": [],
+      "status": "available",
+      "material_key": "timber",
+      "unit_id": "material_unit",
+      "initial_quantity": 12,
+      "remaining_quantity": 12,
+      "consumptions": {}
+    },
+    {
+      "asset_id": "pingyuan_stone",
+      "asset_kind": "material_stock",
+      "name": "州库工程石料",
+      "owner_ref": {
+        "entity_kind": "office",
+        "entity_id": "pingyuan_prefect"
+      },
+      "location_id": "zhou_dezhou",
+      "source_ref": {
+        "entity_kind": "rule",
+        "rule_id": "scenario:pingyuan_public_works_756"
+      },
+      "rights": [],
+      "contract_refs": [],
+      "status": "available",
+      "material_key": "stone",
+      "unit_id": "material_unit",
+      "initial_quantity": 16,
+      "remaining_quantity": 16,
+      "consumptions": {}
+    },
+    {
+      "asset_id": "pingyuan_east_field",
+      "asset_kind": "farmland",
+      "name": "东渠田",
+      "owner_ref": {
+        "entity_kind": "character",
+        "entity_id": "pingyuan_tian_sheng"
+      },
+      "location_id": "zhou_dezhou",
+      "source_ref": {
+        "entity_kind": "rule",
+        "rule_id": "scenario:pingyuan_public_works_756"
+      },
+      "rights": [],
+      "contract_refs": [],
+      "status": "available",
+      "area_units": 12,
+      "base_water_supply": 20,
+      "water_supply": 20,
+      "irrigation_canal_id": "pingyuan_east_canal",
+      "water_source_contract_id": "",
+      "administration_office_id": "pingyuan_prefect",
+      "crop_rule": {
+        "name": "夏播杂粮",
+        "source_id": "scenario:pingyuan_cultivation_units",
+        "seed_units": 3,
+        "plant_months": [
+          7,
+          8
+        ],
+        "growth_months": [
+          7,
+          8,
+          9
+        ],
+        "harvest_months": [
+          8,
+          9
+        ],
+        "growth_days": 12,
+        "units_per_area": 4
+      },
+      "cultivation": {
+        "cycle_refs": [],
+        "active_cycle_id": "",
+        "last_season_year": 0,
+        "last_update_day": 0,
+        "blocked_reason": "尚未播种。"
+      }
+    },
+    {
+      "asset_id": "pingyuan_west_field",
+      "asset_kind": "farmland",
+      "name": "西坡旱田",
+      "owner_ref": {
+        "entity_kind": "character",
+        "entity_id": "pingyuan_tian_sheng"
+      },
+      "location_id": "zhou_dezhou",
+      "source_ref": {
+        "entity_kind": "rule",
+        "rule_id": "scenario:pingyuan_public_works_756"
+      },
+      "rights": [],
+      "contract_refs": [],
+      "status": "available",
+      "area_units": 8,
+      "base_water_supply": 20,
+      "water_supply": 20,
+      "irrigation_canal_id": "",
+      "water_source_contract_id": "",
+      "administration_office_id": "pingyuan_prefect",
+      "crop_rule": {
+        "name": "夏播杂粮",
+        "source_id": "scenario:pingyuan_cultivation_units",
+        "seed_units": 2,
+        "plant_months": [
+          7,
+          8
+        ],
+        "growth_months": [
+          7,
+          8,
+          9
+        ],
+        "harvest_months": [
+          8,
+          9
+        ],
+        "growth_days": 12,
+        "units_per_area": 4
+      },
+      "cultivation": {
+        "cycle_refs": [],
+        "active_cycle_id": "",
+        "last_season_year": 0,
+        "last_update_day": 0,
+        "blocked_reason": "尚未播种。"
+      }
+    },
+    {
+      "asset_id": "pingyuan_east_canal",
+      "asset_kind": "irrigation_canal",
+      "name": "平原东渠",
+      "owner_ref": {
+        "entity_kind": "office",
+        "entity_id": "pingyuan_prefect"
+      },
+      "location_id": "zhou_dezhou",
+      "source_ref": {
+        "entity_kind": "rule",
+        "rule_id": "scenario:pingyuan_public_works_756"
+      },
+      "rights": [],
+      "contract_refs": [],
+      "status": "damaged",
+      "account_id": "pingyuan_treasury",
+      "active_contract_id": "",
+      "benefit_field_ids": [
+        "pingyuan_east_field"
+      ],
+      "repaired_water_supply": 80,
+      "repair_offer": {
+        "supplier_id": "pingyuan_han_gong",
+        "payee_account_id": "pingyuan_han_gong_cash",
+        "price": 60,
+        "duration_days": 3,
+        "work_months": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10
+        ],
+        "inputs": [
+          {
+            "stock_id": "pingyuan_timber",
+            "quantity": 6
+          },
+          {
+            "stock_id": "pingyuan_stone",
+            "quantity": 8
+          }
+        ]
+      },
+      "content_basis": "本作工程账例：材料、面积、供水与工款均为玩法单位。二至五月及七至十月可施工，六月避汛、冬月避冻；不作历史水文或价格断言。"
+    },
+    {
+      "asset_id": "pingyuan_school_paper",
+      "asset_kind": "material_stock",
+      "name": "州库课书纸墨料",
+      "owner_ref": {
+        "entity_kind": "office",
+        "entity_id": "pingyuan_prefect"
+      },
+      "location_id": "zhou_dezhou",
+      "source_ref": {
+        "entity_kind": "rule",
+        "rule_id": "scenario:pingyuan_school_supply_756"
+      },
+      "rights": [],
+      "contract_refs": [],
+      "status": "available",
+      "material_key": "school_paper_ink",
+      "unit_id": "material_unit",
+      "initial_quantity": 8,
+      "remaining_quantity": 8,
+      "consumptions": {}
+    }
+  ],
+  "ration_grants": [
+    {
+      "character_id": "pingyuan_tian_sheng",
+      "amount": 20,
+      "source_id": "scenario:pingyuan_farmer_grain"
+    },
+    {
+      "character_id": "pingyuan_zhou_zhi",
+      "amount": 40,
+      "source_id": "scenario:pingyuan_school_household_grain"
+    },
+    {
+      "character_id": "pingyuan_he_ping",
+      "amount": 40,
+      "source_id": "scenario:pingyuan_school_household_grain"
+    },
+    {
+      "character_id": "pingyuan_liu_an",
+      "amount": 40,
+      "source_id": "scenario:pingyuan_school_household_grain"
+    },
+    {
+      "character_id": "pingyuan_wu_cheng",
+      "amount": 40,
+      "source_id": "scenario:pingyuan_school_household_grain"
+    },
+    {
+      "character_id": "pingyuan_ding_heng",
+      "amount": 40,
+      "source_id": "scenario:pingyuan_school_faculty_756"
+    },
+    {
+      "character_id": "pingyuan_sun_nian",
+      "amount": 40,
+      "source_id": "scenario:pingyuan_school_faculty_756"
+    },
+    {
+      "character_id": "pingyuan_shen_qiu",
+      "amount": 0,
+      "source_id": "scenario:pingyuan_school_living_aid_756"
+    },
+    {
+      "character_id": "pingyuan_xu_liang",
+      "amount": 48,
+      "source_id": "scenario:pingyuan_school_living_aid_756"
+    },
+    {
+      "character_id": "court_lu_heng",
+      "amount": 80,
+      "source_id": "scenario:central_examination_756"
+    }
+  ],
+  "life_models": {
+    "pingyuan_tian_sheng": {
+      "minimum_reserve": 5,
+      "dependants": 1,
+      "tie_bonus": 0,
+      "application_wait_days": 3,
+      "review_interval_days": 1,
+      "unpaid_grace_days": 3,
+      "stable_goal": "support_family",
+      "preferred_employer_id": "yan_zhenqing",
+      "source_id": "scenario:pingyuan_farmer_livelihood"
+    },
+    "pingyuan_zhou_zhi": {
+      "minimum_reserve": 5,
+      "dependants": 0,
+      "tie_bonus": 0,
+      "application_wait_days": 3,
+      "review_interval_days": 1,
+      "unpaid_grace_days": 3,
+      "stable_goal": "support_family",
+      "preferred_employer_id": "yan_zhenqing",
+      "source_id": "scenario:pingyuan_school_livelihood"
+    },
+    "pingyuan_he_ping": {
+      "minimum_reserve": 5,
+      "dependants": 0,
+      "tie_bonus": 0,
+      "application_wait_days": 3,
+      "review_interval_days": 1,
+      "unpaid_grace_days": 3,
+      "stable_goal": "build_reputation",
+      "preferred_employer_id": "yan_zhenqing",
+      "source_id": "scenario:pingyuan_school_livelihood"
+    },
+    "pingyuan_liu_an": {
+      "minimum_reserve": 5,
+      "dependants": 0,
+      "tie_bonus": 0,
+      "application_wait_days": 3,
+      "review_interval_days": 1,
+      "unpaid_grace_days": 3,
+      "stable_goal": "learn_trade",
+      "preferred_employer_id": "yan_zhenqing",
+      "source_id": "scenario:pingyuan_school_livelihood"
+    },
+    "pingyuan_wu_cheng": {
+      "minimum_reserve": 5,
+      "dependants": 0,
+      "tie_bonus": 0,
+      "application_wait_days": 3,
+      "review_interval_days": 1,
+      "unpaid_grace_days": 3,
+      "stable_goal": "support_family",
+      "preferred_employer_id": "yan_zhenqing",
+      "source_id": "scenario:pingyuan_school_livelihood"
+    },
+    "pingyuan_ding_heng": {
+      "minimum_reserve": 5,
+      "dependants": 0,
+      "tie_bonus": 0,
+      "application_wait_days": 3,
+      "review_interval_days": 1,
+      "unpaid_grace_days": 3,
+      "stable_goal": "support_family",
+      "preferred_employer_id": "yan_zhenqing",
+      "source_id": "scenario:pingyuan_school_faculty_756"
+    },
+    "pingyuan_sun_nian": {
+      "minimum_reserve": 5,
+      "dependants": 0,
+      "tie_bonus": 0,
+      "application_wait_days": 3,
+      "review_interval_days": 1,
+      "unpaid_grace_days": 3,
+      "stable_goal": "learn_trade",
+      "preferred_employer_id": "yan_zhenqing",
+      "source_id": "scenario:pingyuan_school_faculty_756"
+    },
+    "pingyuan_shen_qiu": {
+      "minimum_reserve": 5,
+      "dependants": 0,
+      "tie_bonus": 0,
+      "application_wait_days": 3,
+      "review_interval_days": 1,
+      "unpaid_grace_days": 3,
+      "stable_goal": "learn_trade",
+      "preferred_employer_id": "yan_zhenqing",
+      "source_id": "scenario:pingyuan_school_living_aid_756"
+    },
+    "court_lu_heng": {
+      "minimum_reserve": 5,
+      "dependants": 0,
+      "tie_bonus": 0,
+      "application_wait_days": 3,
+      "review_interval_days": 1,
+      "unpaid_grace_days": 3,
+      "stable_goal": "support_family",
+      "preferred_employer_id": "li_heng",
+      "source_id": "scenario:central_examiner_livelihood"
+    }
+  },
+  "education_assets": [
+    {
+      "asset_id": "pingyuan_school",
+      "asset_kind": "school",
+      "name": "平原学舍",
+      "owner_ref": {
+        "entity_kind": "office",
+        "entity_id": "pingyuan_prefect"
+      },
+      "location_id": "zhou_dezhou",
+      "source_ref": {
+        "entity_kind": "rule",
+        "rule_id": "scenario:pingyuan_school_756"
+      },
+      "rights": [
+        "administer",
+        "teach"
+      ],
+      "contract_refs": [],
+      "status": "awaiting_teacher",
+      "account_id": "pingyuan_treasury",
+      "seats": 2,
+      "book_sets": 2,
+      "active_teaching_id": "",
+      "curriculum": {
+        "name": "经义与文书基础",
+        "required_lessons": 6,
+        "score_per_lesson": 5,
+        "assessment_threshold": 60
+      },
+      "teacher_offers": [
+        {
+          "teacher_id": "pingyuan_zhou_zhi",
+          "payee_account_id": "pingyuan_zhou_zhi_cash",
+          "price": 24,
+          "teaching_days": 12,
+          "capacity": 2,
+          "source_id": "scenario:pingyuan_school_756"
+        },
+        {
+          "teacher_id": "pingyuan_ding_heng",
+          "payee_account_id": "pingyuan_ding_heng_cash",
+          "price": 18,
+          "teaching_days": 6,
+          "capacity": 2,
+          "source_id": "scenario:pingyuan_school_faculty_756"
+        }
+      ],
+      "student_offers": [
+        {
+          "character_id": "pingyuan_he_ping",
+          "willing": true,
+          "identity_eligible": true,
+          "initial_score": 40,
+          "source_id": "scenario:pingyuan_school_756",
+          "assessment_willing": true,
+          "aid_willing": true,
+          "travel_willing": true,
+          "central_exam_willing": true,
+          "central_office_willing": true
+        },
+        {
+          "character_id": "pingyuan_liu_an",
+          "willing": true,
+          "identity_eligible": true,
+          "initial_score": 45,
+          "source_id": "scenario:pingyuan_school_756",
+          "assessment_willing": true,
+          "aid_willing": true,
+          "travel_willing": true,
+          "central_exam_willing": true,
+          "central_office_willing": true
+        },
+        {
+          "character_id": "pingyuan_wu_cheng",
+          "willing": true,
+          "identity_eligible": true,
+          "initial_score": 38,
+          "source_id": "scenario:pingyuan_school_756",
+          "assessment_willing": true,
+          "aid_willing": true,
+          "travel_willing": true,
+          "central_exam_willing": true,
+          "central_office_willing": true
+        },
+        {
+          "character_id": "pingyuan_sun_nian",
+          "willing": true,
+          "identity_eligible": true,
+          "initial_score": 42,
+          "assessment_willing": true,
+          "source_id": "scenario:pingyuan_school_faculty_756",
+          "aid_willing": true,
+          "travel_willing": true,
+          "central_exam_willing": true,
+          "central_office_willing": true
+        },
+        {
+          "character_id": "pingyuan_shen_qiu",
+          "willing": true,
+          "identity_eligible": true,
+          "initial_score": 40,
+          "assessment_willing": true,
+          "source_id": "scenario:pingyuan_school_living_aid_756",
+          "aid_willing": true,
+          "travel_willing": true,
+          "central_exam_willing": true,
+          "central_office_willing": true
+        }
+      ],
+      "content_basis": "本作州学初始来源为两席、两套课书。周直报价二十四钱、十二授课日；丁衡报价十八钱、六授课日，各最多同时教两人。可增聘不同先生，席位与课书仍共享；只有实际师生到课才计工日。基础课程需六日，学习完成只形成后续考核资格，不保证名额、录取或任官。",
+      "assessment_rule": {
+        "source_id": "scenario:pingyuan_school_assessment_756",
+        "examiner_id": "pingyuan_zhou_zhi",
+        "payee_account_id": "pingyuan_zhou_zhi_cash",
+        "fee": 8,
+        "quota": 1,
+        "registration_days": 3,
+        "interval_days": 20,
+        "pass_score": 60,
+        "examiner_threshold": 70,
+        "content_basis": "本作州学荐举考核规则：每二十日最多开办一期，一期一个荐举名额；报名三日，考官实际主持、评定各一日，报酬八钱。按已完成课程的实际学业评分，及格线六十，成绩高者优先；同分按人物标识升序。此为玩法参数，不是唐代科举史实名额；录取仅得荐举资格，不自动任官。"
+      },
+      "capacity_origin": {
+        "source_id": "scenario:pingyuan_school_756",
+        "seats": 2,
+        "book_sets": 2
+      },
+      "supply_contract_refs": [],
+      "supply_offers": [
+        {
+          "supply_id": "expand_room",
+          "name": "扩建学舍",
+          "source_id": "scenario:pingyuan_school_supply_756",
+          "supplier_id": "pingyuan_han_gong",
+          "payee_account_id": "pingyuan_han_gong_cash",
+          "price": 40,
+          "duration_days": 3,
+          "output_kind": "seats",
+          "output_quantity": 2,
+          "max_orders": 1,
+          "inputs": [
+            {
+              "stock_id": "pingyuan_timber",
+              "quantity": 4
+            },
+            {
+              "stock_id": "pingyuan_stone",
+              "quantity": 4
+            }
+          ],
+          "work_months": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "supply_id": "copy_course_books",
+          "name": "抄制课书",
+          "source_id": "scenario:pingyuan_school_supply_756",
+          "supplier_id": "pingyuan_zhou_zhi",
+          "payee_account_id": "pingyuan_zhou_zhi_cash",
+          "price": 12,
+          "duration_days": 2,
+          "output_kind": "book_sets",
+          "output_quantity": 2,
+          "max_orders": 4,
+          "inputs": [
+            {
+              "stock_id": "pingyuan_school_paper",
+              "quantity": 2
+            }
+          ],
+          "work_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "supply_basis": "本作供给报价：韩工用木料四、石料四，收四十钱，三个可施工工日扩出两席；既有场地只容一次扩建。周直用两份实有纸墨料，收十二钱，两工日抄成两套课书。交验后才增加实物容量；书籍、席位与教师容量分别限制办学，不增加荐举名额。",
+      "living_aid_rule": {
+        "source_id": "scenario:pingyuan_school_living_aid_756",
+        "cash_amount": 6,
+        "food_lots": 1,
+        "stall_id": "pingyuan_xu_food_stall",
+        "interval_days": 10,
+        "content_basis": "本作求学资助规则：已入学且本人同意者每十日至多领取一次；实付生活款六钱，并按许粮当前真实报价买一批六份口粮。开局报价两钱，总支出八钱，使用获准州库、私款或家族款。实际款粮交付不增加学业、录取名额或官职。"
+      },
+      "exam_journey_rule": {
+        "source_id": "scenario:pingyuan_exam_journey_756",
+        "map_source": "res://data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "destination_id": "lingwu_court_node",
+        "faction_id": "tang_court",
+        "allowance": 12,
+        "food_lots": 4,
+        "stall_id": "pingyuan_xu_food_stall",
+        "report_days": 4,
+        "corridor_ids": [
+          "c_cangzhou_dezhou",
+          "c_yingzhou_cangzhou",
+          "c_mozhou_yingzhou",
+          "c_youzhou_mozhou",
+          "c_fanyang_youzhou",
+          "corridor_fanyang_changshan",
+          "taiyuan_to_jingxing_pass",
+          "corridor_taiyuan_hedong",
+          "hedong_to_guanzhong_ferry",
+          "lingwu_to_guanzhong_relay"
+        ],
+        "content_basis": "本作赴行在候试行程：使用已登记的平原—沧州—瀛州—莫州—幽州—范阳—常山—太原—河东—关中—灵武道路，基准二十个行路日，不是历史行程估计。已荐举且本人同意后实发旅费十二钱，并向许粮买四批行粮；开局粮价八钱、口粮二十四份，总支出二十钱。随身私款和口粮随人移动，产业和公库不迁移；每日实际用粮，已知封路、军政阻碍及天气阻止行进，沿途治安未核实。抵达后按平原既有四日通信参数等候回报；到场不等于已报名、录取或任官。"
+      }
+    }
+  ],
+  "initial_assets": [
+    {
+      "asset_id": "pingyuan_xu_food_stall",
+      "asset_kind": "food_stall",
+      "name": "许粮口粮摊",
+      "owner_ref": {
+        "entity_kind": "character",
+        "entity_id": "pingyuan_xu_liang"
+      },
+      "location_id": "zhou_dezhou",
+      "source_ref": {
+        "entity_kind": "rule",
+        "entity_id": "pingyuan_xu_food_stall",
+        "rule_id": "scenario:pingyuan_school_living_aid_756"
+      },
+      "rights": [],
+      "contract_refs": [],
+      "status": "available",
+      "offer_visibility": "public",
+      "food_offer": {
+        "stock_account_id": "pingyuan_xu_liang_rations",
+        "payee_account_id": "pingyuan_xu_liang_cash",
+        "lot_units": 6,
+        "price": 2
+      }
+    }
+  ],
+  "examination_assets": [
+    {
+      "asset_id": "lingwu_examination_hall",
+      "asset_kind": "examination_hall",
+      "name": "行在试场",
+      "owner_ref": {
+        "entity_kind": "office",
+        "entity_id": "hubu_shangshu"
+      },
+      "location_id": "lingwu_court_node",
+      "source_ref": {
+        "entity_kind": "rule",
+        "entity_id": "scenario:central_examination_756",
+        "rule_id": "scenario:central_examination_756"
+      },
+      "rights": [
+        "examination"
+      ],
+      "contract_refs": [],
+      "status": "available",
+      "account_id": "court_treasury",
+      "seats": 2,
+      "book_sets": 2,
+      "content_basis": "本作行在考试玩法：两席、一名额，须真实学业、地方荐举和赴试到场；考官陆衡为虚构人物。国库实付十钱聘考，报名三日后实际考试及评定各一工日，学业七十及格，同分按人物标识排序；二十日一期。录取仅形成中央考试结果，不自动任官。",
+      "assessment_rule": {
+        "source_id": "scenario:central_examination_756",
+        "content_basis": "本作有限考试规则，不作唐代考试制度复原。",
+        "examiner_id": "court_lu_heng",
+        "examiner_threshold": 75,
+        "payee_account_id": "court_lu_heng_cash",
+        "fee": 10,
+        "quota": 1,
+        "registration_days": 3,
+        "interval_days": 20,
+        "pass_score": 70
+      },
+      "appointment_rules": {
+        "source_id": "scenario:central_graduate_appointments_756",
+        "office_ids": [
+          "zuo_shiyi",
+          "you_shiyi",
+          "zuo_buque",
+          "you_buque"
+        ],
+        "content_basis": "本作中央录取者可依原官职条件争取现有拾遗、补阙职位。录取不替代才能、权源、本人意愿、到任与交接；破格任用仍承担原有政治成本。此为玩法衔接，不宣称科举是全部任用途径。"
+      }
+    }
+  ],
+  "local_fiscal_policy": {
+    "source_id": "scenario:pingyuan_local_fiscal_756",
+    "content_basis": "本作地方征收规则：常额每人二钱、急征每人八钱、三十日一期，均非历史税制与价格。人物保留生计或家产所需现金，可请求减免；没有自动强制扣款。",
+    "office_id": "pingyuan_prefect",
+    "account_id": "pingyuan_treasury",
+    "location_id": "zhou_dezhou",
+    "rates": {
+      "ordinary": 2,
+      "emergency": 8
+    },
+    "interval_days": 30,
+    "people": [
+      {
+        "person_id": "pingyuan_tian_sheng",
+        "group": "农户",
+        "reserve": 8,
+        "petition": "田中收成尚待农时，须留家用，请减免本期未缴款。"
+      },
+      {
+        "person_id": "pingyuan_xu_liang",
+        "group": "商户",
+        "reserve": 5,
+        "petition": "粮铺进账仍须留本经营，不能凭尚未售出的粮食算作现金；请求减免。"
+      },
+      {
+        "person_id": "pingyuan_zhou_zhi",
+        "group": "士人",
+        "reserve": 5,
+        "petition": "授课薪资用于生活，尚需维持家用；请求减免本期未缴款。"
+      },
+      {
+        "person_id": "pingyuan_du_shen",
+        "group": "豪强",
+        "reserve": 35,
+        "petition": "家产须留供家中事务，不愿按本期额度出款，要求减免。"
+      }
+    ]
+  },
+  "official_motives": {
+    "source_id": "scenario:pingyuan_official_motives_756",
+    "content_basis": "本作虚构幕僚的机会偏好与亲属关系配置，不作为历史人物动机或亲属关系断言。请求并不授官、开工或免债。",
+    "head_office_id": "pingyuan_prefect",
+    "location_id": "zhou_dezhou",
+    "canal_id": "pingyuan_east_canal",
+    "review_days": 7,
+    "people": {
+      "pingyuan_qin_jian": {
+        "career_office_id": "pingyuan_judge",
+        "kin_ids": [],
+        "priorities": {
+          "promotion": 90,
+          "public_work": 40,
+          "family_interest": 10
+        }
+      },
+      "pingyuan_zheng_cheng": {
+        "career_office_id": "pingyuan_judge",
+        "kin_ids": [],
+        "priorities": {
+          "promotion": 20,
+          "public_work": 90,
+          "family_interest": 10
+        }
+      },
+      "pingyuan_qian_liang": {
+        "career_office_id": "pingyuan_judge",
+        "kin_ids": [
+          "pingyuan_du_shen"
+        ],
+        "priorities": {
+          "promotion": 30,
+          "public_work": 40,
+          "family_interest": 90
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,667 @@
+{
+  "schema_version": 113,
+  "description": "唐代门阀世家二三级人物池扩展表 (Tier 2 门阀精英与 Tier 3 宗族后备)",
+  "tier_2_elites": [
+    {
+      "id": "cui_yuan",
+      "name": "崔圆",
+      "clan_id": "clan_cui_qinghe",
+      "clan_role": "patriarch",
+      "role": "中书令·剑南节度使",
+      "tier": 2,
+      "stats": {
+        "military": 45,
+        "governance": 82,
+        "finance": 78,
+        "intrigue": 66,
+        "diplomacy": 75,
+        "prowess": 35
+      },
+      "tang_traits": [
+        "mature_statesman",
+        "hereditary_nobility",
+        "astute_administrator"
+      ],
+      "relationships": {
+        "cui_huan": 30,
+        "li_heng": 20,
+        "li_fuguo": -40
+      }
+    },
+    {
+      "id": "cui_huan",
+      "name": "崔涣",
+      "clan_id": "clan_cui_qinghe",
+      "clan_role": "heir",
+      "role": "门下侍郎",
+      "tier": 2,
+      "stats": {
+        "military": 35,
+        "governance": 78,
+        "finance": 65,
+        "intrigue": 62,
+        "diplomacy": 74,
+        "prowess": 30
+      },
+      "tang_traits": [
+        "mature_statesman",
+        "hereditary_nobility",
+        "classical_scholar"
+      ],
+      "relationships": {
+        "cui_yuan": 30,
+        "li_heng": 15
+      }
+    },
+    {
+      "id": "cui_youfu",
+      "name": "崔祐甫",
+      "clan_id": "clan_cui_qinghe",
+      "clan_role": "scion",
+      "role": "中书舍人",
+      "tier": 2,
+      "stats": {
+        "military": 25,
+        "governance": 82,
+        "finance": 70,
+        "intrigue": 68,
+        "diplomacy": 76,
+        "prowess": 25
+      },
+      "tang_traits": [
+        "incorruptible_upright",
+        "classical_scholar",
+        "astute_administrator"
+      ],
+      "relationships": {
+        "cui_yuan": 20,
+        "li_bi": 25
+      }
+    },
+    {
+      "id": "cui_guangyuan",
+      "name": "崔光远",
+      "clan_id": "clan_cui_boling",
+      "clan_role": "patriarch",
+      "role": "京兆尹兼御史大夫",
+      "tier": 2,
+      "stats": {
+        "military": 65,
+        "governance": 72,
+        "finance": 58,
+        "intrigue": 64,
+        "diplomacy": 60,
+        "prowess": 60
+      },
+      "tang_traits": [
+        "mature_statesman",
+        "frontier_warlord",
+        "hereditary_nobility"
+      ],
+      "relationships": {
+        "li_heng": 25,
+        "guo_ziyi": 15
+      }
+    },
+    {
+      "id": "lu_yi",
+      "name": "卢弈",
+      "clan_id": "clan_lu_fanyang",
+      "clan_role": "patriarch",
+      "role": "御史中丞",
+      "tier": 2,
+      "stats": {
+        "military": 40,
+        "governance": 75,
+        "finance": 55,
+        "intrigue": 50,
+        "diplomacy": 65,
+        "prowess": 45
+      },
+      "tang_traits": [
+        "incorruptible_upright",
+        "inflexible_stubborn",
+        "classical_scholar"
+      ],
+      "relationships": {
+        "yan_gaoqing": 40,
+        "li_heng": 20
+      }
+    },
+    {
+      "id": "lu_qi",
+      "name": "卢杞",
+      "clan_id": "clan_lu_fanyang",
+      "clan_role": "scion",
+      "role": "京兆府参军",
+      "tier": 2,
+      "stats": {
+        "military": 20,
+        "governance": 60,
+        "finance": 50,
+        "intrigue": 88,
+        "diplomacy": 70,
+        "prowess": 20
+      },
+      "tang_traits": [
+        "vicious_schemer",
+        "flatterer_sycophant",
+        "petty_vengeful"
+      ],
+      "relationships": {
+        "lu_yi": 10,
+        "li_fuguo": 20,
+        "guo_ziyi": -30
+      }
+    },
+    {
+      "id": "li_xian",
+      "name": "李岘",
+      "clan_id": "clan_li_zhaojun",
+      "clan_role": "heir",
+      "role": "京兆尹兼御史中丞",
+      "tier": 2,
+      "stats": {
+        "military": 38,
+        "governance": 85,
+        "finance": 78,
+        "intrigue": 65,
+        "diplomacy": 70,
+        "prowess": 35
+      },
+      "tang_traits": [
+        "incorruptible_upright",
+        "mature_statesman",
+        "astute_administrator"
+      ],
+      "relationships": {
+        "li_bi": 35,
+        "li_fuguo": -35
+      }
+    },
+    {
+      "id": "li_tan",
+      "name": "李倓",
+      "clan_id": "clan_li_longxi_imperial",
+      "clan_role": "scion",
+      "role": "建宁王·典领骁骑",
+      "tier": 2,
+      "stats": {
+        "military": 75,
+        "governance": 45,
+        "finance": 40,
+        "intrigue": 42,
+        "diplomacy": 55,
+        "prowess": 80
+      },
+      "tang_traits": [
+        "gallant_cavalry",
+        "incorruptible_upright",
+        "impetuous_reckless"
+      ],
+      "relationships": {
+        "li_heng": 15,
+        "li_chu": 40,
+        "li_fuguo": -50,
+        "zhang_liangdi": -50
+      }
+    },
+    {
+      "id": "zheng_qian",
+      "name": "郑虔",
+      "clan_id": "clan_zheng_xingyang",
+      "clan_role": "patriarch",
+      "role": "著作郎·文翰领袖",
+      "tier": 2,
+      "stats": {
+        "military": 15,
+        "governance": 70,
+        "finance": 45,
+        "intrigue": 40,
+        "diplomacy": 75,
+        "prowess": 20
+      },
+      "tang_traits": [
+        "classical_scholar",
+        "daoist_recluse",
+        "frail_constitution"
+      ],
+      "relationships": {
+        "du_fu": 45,
+        "wang_wei": 35
+      }
+    },
+    {
+      "id": "wang_jin",
+      "name": "王缙",
+      "clan_id": "clan_wang_taiyuan",
+      "clan_role": "heir",
+      "role": "黄门侍郎",
+      "tier": 2,
+      "stats": {
+        "military": 40,
+        "governance": 78,
+        "finance": 72,
+        "intrigue": 65,
+        "diplomacy": 70,
+        "prowess": 30
+      },
+      "tang_traits": [
+        "mature_statesman",
+        "classical_scholar",
+        "buddhist_devotee"
+      ],
+      "relationships": {
+        "wang_wei": 50,
+        "li_bi": 20
+      }
+    },
+    {
+      "id": "wang_wei",
+      "name": "王维",
+      "clan_id": "clan_wang_taiyuan",
+      "clan_role": "prominent_elder",
+      "role": "给事中·右丞",
+      "tier": 2,
+      "stats": {
+        "military": 20,
+        "governance": 68,
+        "finance": 50,
+        "intrigue": 45,
+        "diplomacy": 78,
+        "prowess": 25
+      },
+      "tang_traits": [
+        "buddhist_devotee",
+        "classical_scholar",
+        "daoist_recluse"
+      ],
+      "relationships": {
+        "wang_jin": 50,
+        "pei_di": 40
+      }
+    },
+    {
+      "id": "wei_zhi",
+      "name": "韦陟",
+      "clan_id": "clan_wei_jingzhao",
+      "clan_role": "heir",
+      "role": "吏部尚书",
+      "tier": 2,
+      "stats": {
+        "military": 30,
+        "governance": 84,
+        "finance": 76,
+        "intrigue": 70,
+        "diplomacy": 80,
+        "prowess": 25
+      },
+      "tang_traits": [
+        "hereditary_nobility",
+        "classical_scholar",
+        "mature_statesman"
+      ],
+      "relationships": {
+        "wei_jiansu": 35,
+        "fang_guan": 25
+      }
+    },
+    {
+      "id": "du_hongjian",
+      "name": "杜鸿渐",
+      "clan_id": "clan_du_jingzhao",
+      "clan_role": "patriarch",
+      "role": "中书舍人兼灵武推戴功臣",
+      "tier": 2,
+      "stats": {
+        "military": 50,
+        "governance": 80,
+        "finance": 72,
+        "intrigue": 68,
+        "diplomacy": 75,
+        "prowess": 40
+      },
+      "tang_traits": [
+        "mature_statesman",
+        "buddhist_devotee",
+        "astute_administrator"
+      ],
+      "relationships": {
+        "li_heng": 35,
+        "wei_jiansu": 20
+      }
+    },
+    {
+      "id": "du_fu",
+      "name": "杜甫",
+      "clan_id": "clan_du_jingzhao",
+      "clan_role": "scion",
+      "role": "避乱士人",
+      "tier": 2,
+      "stats": {
+        "military": 20,
+        "governance": 72,
+        "finance": 45,
+        "intrigue": 35,
+        "diplomacy": 65,
+        "prowess": 20
+      },
+      "tang_traits": [
+        "incorruptible_upright",
+        "classical_scholar",
+        "frail_constitution"
+      ],
+      "relationships": {
+        "fang_guan": 35,
+        "zheng_qian": 40,
+        "li_bi": 20
+      }
+    },
+    {
+      "id": "du_you",
+      "name": "杜佑",
+      "clan_id": "clan_du_jingzhao",
+      "clan_role": "scion",
+      "role": "度支判官",
+      "tier": 2,
+      "stats": {
+        "military": 35,
+        "governance": 88,
+        "finance": 92,
+        "intrigue": 60,
+        "diplomacy": 65,
+        "prowess": 30
+      },
+      "tang_traits": [
+        "astute_administrator",
+        "classical_scholar",
+        "frugal_disciplined"
+      ],
+      "relationships": {
+        "du_hongjian": 25,
+        "yang_yan": 20
+      }
+    },
+    {
+      "id": "yang_wan",
+      "name": "杨绾",
+      "clan_id": "clan_yang_hongnong",
+      "clan_role": "patriarch",
+      "role": "起居舍人·国子司业",
+      "tier": 2,
+      "stats": {
+        "military": 20,
+        "governance": 82,
+        "finance": 60,
+        "intrigue": 50,
+        "diplomacy": 75,
+        "prowess": 20
+      },
+      "tang_traits": [
+        "frugal_disciplined",
+        "classical_scholar",
+        "incorruptible_upright"
+      ],
+      "relationships": {
+        "li_heng": 20,
+        "cui_youfu": 30
+      }
+    },
+    {
+      "id": "yang_yan",
+      "name": "杨炎",
+      "clan_id": "clan_yang_hongnong",
+      "clan_role": "heir",
+      "role": "户部度支郎中",
+      "tier": 2,
+      "stats": {
+        "military": 25,
+        "governance": 86,
+        "finance": 94,
+        "intrigue": 75,
+        "diplomacy": 68,
+        "prowess": 25
+      },
+      "tang_traits": [
+        "astute_administrator",
+        "petty_vengeful",
+        "subtle_tactician"
+      ],
+      "relationships": {
+        "yuan_zai": 30,
+        "liu_yan": -20
+      }
+    },
+    {
+      "id": "guo_xi",
+      "name": "郭晞",
+      "clan_id": "clan_guo_huazhou",
+      "clan_role": "heir",
+      "role": "朔方行营兵马使",
+      "tier": 2,
+      "stats": {
+        "military": 82,
+        "governance": 40,
+        "finance": 35,
+        "intrigue": 45,
+        "diplomacy": 50,
+        "prowess": 85
+      },
+      "tang_traits": [
+        "gallant_cavalry",
+        "towering_physique",
+        "impetuous_reckless"
+      ],
+      "relationships": {
+        "guo_ziyi": 45,
+        "pugu_yang": 30
+      }
+    },
+    {
+      "id": "pugu_yang",
+      "name": "仆固玚",
+      "clan_id": "clan_pugu_shuofang",
+      "clan_role": "heir",
+      "role": "铁勒骑军先锋将",
+      "tier": 2,
+      "stats": {
+        "military": 85,
+        "governance": 30,
+        "finance": 25,
+        "intrigue": 35,
+        "diplomacy": 40,
+        "prowess": 90
+      },
+      "tang_traits": [
+        "gallant_cavalry",
+        "towering_physique",
+        "impetuous_reckless"
+      ],
+      "relationships": {
+        "pugu_huaien": 50,
+        "guo_xi": 30
+      }
+    },
+    {
+      "id": "yan_zhenqing",
+      "name": "颜真卿",
+      "clan_id": "clan_yan_langya",
+      "clan_role": "patriarch",
+      "role": "平原太守·河北盟主",
+      "tier": 2,
+      "stats": {
+        "military": 76,
+        "governance": 86,
+        "finance": 65,
+        "intrigue": 55,
+        "diplomacy": 82,
+        "prowess": 70
+      },
+      "tang_traits": [
+        "incorruptible_upright",
+        "loyal_restrained",
+        "classical_scholar"
+      ],
+      "relationships": {
+        "yan_gaoqing": 50,
+        "li_heng": 30,
+        "cui_yuan": 15
+      }
+    },
+    {
+      "id": "yan_gaoqing",
+      "name": "颜杲卿",
+      "clan_id": "clan_yan_langya",
+      "clan_role": "prominent_elder",
+      "role": "常山太守",
+      "tier": 2,
+      "stats": {
+        "military": 70,
+        "governance": 78,
+        "finance": 60,
+        "intrigue": 50,
+        "diplomacy": 70,
+        "prowess": 65
+      },
+      "tang_traits": [
+        "incorruptible_upright",
+        "inflexible_stubborn",
+        "loyal_restrained"
+      ],
+      "relationships": {
+        "yan_zhenqing": 50,
+        "an_lushang": -100
+      }
+    }
+  ],
+  "tier_3_scion_pool": [
+    {
+      "id": "scion_cui_01",
+      "name": "崔沔之",
+      "clan_id": "clan_cui_qinghe",
+      "age": 22,
+      "potential": "governance",
+      "aptitude": 75
+    },
+    {
+      "id": "scion_cui_02",
+      "name": "崔慎微",
+      "clan_id": "clan_cui_qinghe",
+      "age": 26,
+      "potential": "finance",
+      "aptitude": 72
+    },
+    {
+      "id": "scion_cui_03",
+      "name": "崔玄简",
+      "clan_id": "clan_cui_boling",
+      "age": 24,
+      "potential": "intrigue",
+      "aptitude": 74
+    },
+    {
+      "id": "scion_lu_01",
+      "name": "卢道源",
+      "clan_id": "clan_lu_fanyang",
+      "age": 21,
+      "potential": "diplomacy",
+      "aptitude": 70
+    },
+    {
+      "id": "scion_lu_02",
+      "name": "卢士衡",
+      "clan_id": "clan_lu_fanyang",
+      "age": 28,
+      "potential": "governance",
+      "aptitude": 78
+    },
+    {
+      "id": "scion_li_01",
+      "name": "李德裕先祖",
+      "clan_id": "clan_li_zhaojun",
+      "age": 25,
+      "potential": "governance",
+      "aptitude": 82
+    },
+    {
+      "id": "scion_li_02",
+      "name": "李通玄",
+      "clan_id": "clan_li_zhaojun",
+      "age": 23,
+      "potential": "intrigue",
+      "aptitude": 76
+    },
+    {
+      "id": "scion_zheng_01",
+      "name": "郑审言",
+      "clan_id": "clan_zheng_xingyang",
+      "age": 27,
+      "potential": "diplomacy",
+      "aptitude": 75
+    },
+    {
+      "id": "scion_wang_01",
+      "name": "王叔文先系",
+      "clan_id": "clan_wang_taiyuan",
+      "age": 24,
+      "potential": "finance",
+      "aptitude": 80
+    },
+    {
+      "id": "scion_wei_01",
+      "name": "韦应物",
+      "clan_id": "clan_wei_jingzhao",
+      "age": 19,
+      "potential": "military",
+      "aptitude": 74
+    },
+    {
+      "id": "scion_wei_02",
+      "name": "韦夏卿",
+      "clan_id": "clan_wei_jingzhao",
+      "age": 25,
+      "potential": "governance",
+      "aptitude": 79
+    },
+    {
+      "id": "scion_du_01",
+      "name": "杜黄裳先系",
+      "clan_id": "clan_du_jingzhao",
+      "age": 23,
+      "potential": "intrigue",
+      "aptitude": 81
+    },
+    {
+      "id": "scion_yang_01",
+      "name": "杨凭",
+      "clan_id": "clan_yang_hongnong",
+      "age": 26,
+      "potential": "diplomacy",
+      "aptitude": 73
+    },
+    {
+      "id": "scion_guo_01",
+      "name": "郭映",
+      "clan_id": "clan_guo_huazhou",
+      "age": 20,
+      "potential": "military",
+      "aptitude": 84
+    },
+    {
+      "id": "scion_guo_02",
+      "name": "郭曙",
+      "clan_id": "clan_guo_huazhou",
+      "age": 18,
+      "potential": "prowess",
+      "aptitude": 82
+    },
+    {
+      "id": "scion_pugu_01",
+      "name": "仆固廷",
+      "clan_id": "clan_pugu_shuofang",
+      "age": 21,
+      "potential": "military",
+      "aptitude": 86
+    }
+  ]
+}

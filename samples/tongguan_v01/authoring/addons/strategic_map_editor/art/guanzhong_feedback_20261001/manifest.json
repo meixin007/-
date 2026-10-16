@@ -1,0 +1,15 @@
+{
+  "bundle_id": "guanzhong_feedback_20261001",
+  "version": 1,
+  "extends": "guanzhong_20260930",
+  "review_status": "TRIAL_NOT_ACCEPTED",
+  "generation_tool": "builtin image_gen",
+  "assets": [
+    {
+      "file": "gate-eastwest.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "971dbffc6bfe5c947e5f9541fb68c12d5712f23c26bfd94566c904880c7fe16d"
+    }
+  ]
+}

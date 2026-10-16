@@ -1,0 +1,40 @@
+{
+  "bundle_id": "mountain_oblique_pale_v2_20261009",
+  "version": 1,
+  "extends": "mountain_collection_20261009",
+  "asset_review_status": "CANDIDATE_NOT_USER_ACCEPTED",
+  "assets": [
+    {
+      "file": "curved_ridge.png",
+      "width": 1685,
+      "height": 934,
+      "mode": "RGBA",
+      "bytes": 1439341,
+      "sha256": "b7bc8d4872a7f76abdc71dd851d2e72ed6b06fc1840223e00aff1b3be05cf605"
+    },
+    {
+      "file": "branching_ridges.png",
+      "width": 1430,
+      "height": 1100,
+      "mode": "RGBA",
+      "bytes": 1252008,
+      "sha256": "0f747c1f59a1de74341fc675d2be5a50e4e4f5d6a75716d4b89a77d6d276007d"
+    },
+    {
+      "file": "rocky_summit.png",
+      "width": 1374,
+      "height": 1145,
+      "mode": "RGBA",
+      "bytes": 1565823,
+      "sha256": "2208e21d31bd3442ef05fb13d0358a45fc6a572891e4acb542cc560e411a8aa7"
+    },
+    {
+      "file": "saddle_pair.png",
+      "width": 1491,
+      "height": 1055,
+      "mode": "RGBA",
+      "bytes": 1492181,
+      "sha256": "7df6f7e322b01c53ee934c8eb3a8a17c4a957a6d659104a4450e213f080fb99c"
+    }
+  ]
+}

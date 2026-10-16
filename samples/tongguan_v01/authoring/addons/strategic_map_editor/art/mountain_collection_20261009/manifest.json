@@ -1,0 +1,40 @@
+{
+  "bundle_id": "mountain_collection_20261009",
+  "version": 1,
+  "extends": "strategic_ground_biomes_v05_20261007",
+  "asset_review_status": "CANDIDATE_NOT_USER_ACCEPTED",
+  "assets": [
+    {
+      "file": "rolling_range.png",
+      "width": 1983,
+      "height": 793,
+      "mode": "RGBA",
+      "bytes": 1342975,
+      "sha256": "49743151e2e408e5f6828a93b744ba2e7ea3a6f391b78ac44e62e696ad98dcb9"
+    },
+    {
+      "file": "branching_range.png",
+      "width": 1635,
+      "height": 962,
+      "mode": "RGBA",
+      "bytes": 1521490,
+      "sha256": "ee5f50533da2b1afc8bdf400706d5b63ec5265fc878a35acada16f8535bdeaa2"
+    },
+    {
+      "file": "rock_peak.png",
+      "width": 1430,
+      "height": 1100,
+      "mode": "RGBA",
+      "bytes": 1392838,
+      "sha256": "0fe7f31b9839bb950e030ece2039cfe12ac049e77b81c2c7f83998ce787d47a4"
+    },
+    {
+      "file": "saddle_peaks.png",
+      "width": 1681,
+      "height": 936,
+      "mode": "RGBA",
+      "bytes": 1579457,
+      "sha256": "77b77c9d29f6b736084e89142ea7ff8b58e374dac6497885924ccbbf83ac7f72"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.3.0",
+  "subjects": [
+    {
+      "id": "jinshi_ke",
+      "name": "进士科",
+      "emphasis": "诗赋声律、时务策论三道",
+      "prestige_bonus": 25,
+      "stat_focus": ["governance", "intrigue", "diplomacy"]
+    },
+    {
+      "id": "mingjing_ke",
+      "name": "明经科",
+      "emphasis": "九经义疏、帖经墨义",
+      "prestige_bonus": 15,
+      "stat_focus": ["governance", "morality"]
+    },
+    {
+      "id": "zhike_special",
+      "name": "制科·贤良方正",
+      "emphasis": "能直言极谏、匡救国难大策",
+      "prestige_bonus": 30,
+      "stat_focus": ["governance", "intrigue", "finance"]
+    }
+  ],
+  "examination_topics": [
+    {
+      "id": "topic_zhongxing_ce",
+      "title": "《安史乱定天下中兴策》",
+      "prompt": "两京虽复，关东未平，四方宿兵，府库耗竭。策问：当何以富国强兵、整肃纪纲以致中兴？",
+      "ideal_trait": "astute_administrator"
+    },
+    {
+      "id": "topic_caoyun_duzhi",
+      "title": "《江淮漕运两税通流论》",
+      "prompt": "大运河漕运受阻，关中仰食于江南。策问：当何以畅通漕渠，调剂盐铁度支？",
+      "ideal_trait": "commercial_genius"
+    },
+    {
+      "id": "topic_tuntian_shubian",
+      "title": "《兵农合一屯田固边议》",
+      "prompt": "边关募兵靡费金帛，方镇尾大不掉。策问：当何以行营田之法，使兵自食其力？",
+      "ideal_trait": "practical_pragmatic"
+    }
+  ],
+  "candidate_pool_template": [
+    {
+      "id": "scholar_liu_yuxi",
+      "name": "刘晏之",
+      "origin": "江淮寒门文人",
+      "base_stats": {"governance": 86, "finance": 88, "command": 45, "martial": 30, "intrigue": 78, "diplomacy": 80, "morality": 85},
+      "traits": ["financial_genius", "astute_administrator"],
+      "paper_title": "《江淮漕渠通变十便疏》",
+      "paper_excerpt": "因江淮之水利，通转运之通衢。平物价，榷盐铁，不加赋而国用足。"
+    },
+    {
+      "id": "scholar_lu_zhi",
+      "name": "陆清源",
+      "origin": "吴郡江南名士",
+      "base_stats": {"governance": 90, "finance": 78, "command": 50, "martial": 35, "intrigue": 88, "diplomacy": 85, "morality": 92},
+      "traits": ["mature_statesman", "righteous_upright"],
+      "paper_title": "《均节赋税抚恤黎庶疏》",
+      "paper_excerpt": "治国之本，在于固民；固民之术，在于均税。去苛暴，省徭役，天下归心。"
+    },
+    {
+      "id": "scholar_cui_hanmen",
+      "name": "崔景文",
+      "origin": "清河崔氏寒素支脉",
+      "base_stats": {"governance": 78, "finance": 72, "command": 60, "martial": 55, "intrigue": 75, "diplomacy": 74, "morality": 80},
+      "traits": ["practical_pragmatic", "renowned_scholar"],
+      "paper_title": "《定边息争整饬兵甲策》",
+      "paper_excerpt": "练精兵而不尚多，严节钺以制方镇。防患于未萌，息乱于未兆。"
+    },
+    {
+      "id": "scholar_han_yu_student",
+      "name": "韩弘道",
+      "origin": "中原避乱士子",
+      "base_stats": {"governance": 82, "finance": 65, "command": 40, "martial": 35, "intrigue": 70, "diplomacy": 88, "morality": 90},
+      "traits": ["renowned_scholar", "inspiring_orator"],
+      "paper_title": "《原道明经崇儒重教议》",
+      "paper_excerpt": "大唐之所以立国者，礼义风化也。开国学，正文风，上以承天心，下以化万民。"
+    }
+  ]
+}

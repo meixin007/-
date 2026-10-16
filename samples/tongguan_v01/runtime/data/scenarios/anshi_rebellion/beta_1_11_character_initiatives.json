@@ -1,0 +1,66 @@
+{
+  "schema_version": 111,
+  "initiative_count": 36,
+  "initiatives": {
+    "guo_ziyi": [
+      {"fate_status":"constrained_commander","action_type":"request_clear_orders","public_title":"郭子仪请重申军令边界","public_summary":"郭子仪认为节制关系已经妨碍前线判断，请朝廷明确哪些军令可以自主执行。"},
+      {"fate_status":"frontline_pillar","action_type":"ask_for_grain","public_title":"郭子仪请为前线柱石续粮","public_summary":"郭子仪愿继续承担前线主责，但要求把粮道优先级与军功责任一并写明。"},
+      {"fate_status":"sidelined_commander","action_type":"request_audience","public_title":"郭子仪请求说明去留","public_summary":"郭子仪在被置于一旁后请求召见，要求朝廷说明今后是否仍以其承担战局责任。"}
+    ],
+    "li_bi": [
+      {"fate_status":"procedural_brake","action_type":"propose_sunset_clause","public_title":"李泌请求限定临时权力","public_summary":"李泌愿继续承担程序制衡，但要求所有紧急授权写明复核日与撤销条件。"},
+      {"fate_status":"institutional_designer","action_type":"request_audience","public_title":"李泌请求议定新制度","public_summary":"李泌已成为制度设计者，请求召集相关人物，把此前的临时做法整理为公开规则。"},
+      {"fate_status":"exception_debt_recorder","action_type":"request_intelligence_review","public_title":"李泌请求核对例外债务","public_summary":"李泌掌握多笔例外授权记录，请求交叉核验责任人、期限与尚未兑现的条件。"}
+    ],
+    "li_fuguo": [
+      {"fate_status":"observed_channel","action_type":"submit_secret_report","public_title":"李辅国密陈受监控渠道","public_summary":"李辅国称传令渠道受到持续监控，请朝廷决定哪些密报仍可由宫门递送。"},
+      {"fate_status":"registered_gate_power","action_type":"lobby_registration_control","public_title":"李辅国要求落实登记权","public_summary":"李辅国以登记在册的宫门权力为据，要求确认文书、召见与出入记录的控制边界。"},
+      {"fate_status":"disgraced_gate_official","action_type":"seek_private_audience","public_title":"失势的李辅国请求密见","public_summary":"李辅国在失势后请求密见，声称可以交出一条宫门证据换取有限保护。"}
+    ],
+    "li_guangbi": [
+      {"fate_status":"conditional_commander","action_type":"request_clear_orders","public_title":"李光弼请求核定方面军令","public_summary":"李光弼仍是待核验的方面将，请朝廷明确援军、粮道与节制关系。"},
+      {"fate_status":"military_credit_holder","action_type":"demand_reward","public_title":"李光弼请求兑现军方信用","public_summary":"李光弼承接了朝廷的军方信用，要求把军功、补给与后续责任对应起来。"},
+      {"fate_status":"aid_liability_commander","action_type":"request_audience","public_title":"李光弼请求说明援助债务","public_summary":"李光弼承担了援助债务，请求召见以说明哪些损失应由朝廷共同负责。"}
+    ],
+    "pugu_huaien": [
+      {"fate_status":"conditional_ally","action_type":"demand_reward_terms","public_title":"仆固怀恩要求写明联盟条件","public_summary":"仆固怀恩仍是有条件的盟友，要求把出兵、赏约与军纪责任写成可核对的条款。"},
+      {"fate_status":"trusted_alliance_executor","action_type":"request_cavalry_supply","public_title":"仆固怀恩请求补足骑军供给","public_summary":"仆固怀恩已被信任执行联盟事务，请求优先解决草料、市易与骑军补给。"},
+      {"fate_status":"marginalized_ally_commander","action_type":"request_audience","public_title":"仆固怀恩请求解释边缘化处置","public_summary":"仆固怀恩认为自己在承担联盟风险后被边缘化，请求当面说明军功与去留。"}
+    ],
+    "li_chu": [
+      {"fate_status":"procedural_observer","action_type":"seek_private_advice","public_title":"李俶请求私议继嗣程序","public_summary":"李俶仍只是程序旁观者，请求私下讨论哪些决定可以留下正式记录。"},
+      {"fate_status":"review_anchor","action_type":"request_succession_assurance","public_title":"李俶请求确认复核地位","public_summary":"李俶已成为复核锚点，请求确认其在内廷传令与继嗣议题中的公开职责。"},
+      {"fate_status":"procedural_dissent","action_type":"request_audience","public_title":"李俶请求陈述程序异议","public_summary":"李俶的程序异议已被记录，请求召见并要求朝廷正面回应。"}
+    ],
+    "uighur_envoy": [
+      {"fate_status":"conditional_ally","action_type":"privately_negotiate","public_title":"回纥使者试探履约底线","public_summary":"回纥使者仍把联盟视为有条件交易，请朝廷先给出赏约与出兵底线。"},
+      {"fate_status":"documented_ally","action_type":"submit_memorial","public_title":"回纥使者递交联盟凭据","public_summary":"回纥使者要求依照已经登记的联盟凭据核定交付、军纪与验功程序。"},
+      {"fate_status":"priced_alliance","action_type":"demand_reward_terms","public_title":"回纥使者重议联盟价格","public_summary":"回纥使者认为联盟代价已经公开化，要求重新议定赏赐和交付时点。"}
+    ],
+    "hardline_old_court_official": [
+      {"fate_status":"observing_dissenter","action_type":"request_audience","public_title":"旧臣异议者请求公开陈述","public_summary":"旧臣强硬派仍在观望，请求召见以陈述对新程序与名分安排的异议。"},
+      {"fate_status":"recorded_precedent","action_type":"demand_ritual_review","public_title":"旧臣要求援引登记先例","public_summary":"旧臣强硬派已成为先例守门人，要求用登记在册的旧制复核当前决定。"},
+      {"fate_status":"renewed_objection","action_type":"accuse_another_npc","public_title":"旧臣重新提出程序指控","public_summary":"旧臣强硬派重新提出异议，并指控一名朝臣绕过了应有程序。"}
+    ],
+    "grain_official_lingwu": [
+      {"fate_status":"unsettled_registrar","action_type":"submit_account_report","public_title":"粮官请求先行核账","public_summary":"灵武粮草官仍处于待核账状态，请求确认账册差异与经手责任。"},
+      {"fate_status":"audited_registrar","action_type":"request_audience","public_title":"粮官请求确认核账权限","public_summary":"灵武粮草官已通过公开核账，请求确认今后的登记权限与调粮顺序。"},
+      {"fate_status":"displaced_grain_official","action_type":"shift_audit_blame","public_title":"被替换粮官请求申辩","public_summary":"灵武粮草官被替换后请求申辩，试图重新划分亏空与转运责任。"}
+    ],
+    "lingwu_merchant_refugee": [
+      {"fate_status":"waiting_witness","action_type":"request_grain_relief","public_title":"商民见证者催问赈给","public_summary":"灵武商民代表仍在等待承诺兑现，请求明确粮市与赈给的实际日期。"},
+      {"fate_status":"protected_market_witness","action_type":"lobby_appointment","public_title":"商民代表请求设置市场经办人","public_summary":"市场受到保护后，商民代表请求指定一名公开经办钱粮与市易的官员。"},
+      {"fate_status":"burdened_market_witness","action_type":"request_audience","public_title":"商民代表请求追究迟延代价","public_summary":"商民承担了迟延代价，请求召见并要求朝廷说明补偿与后续征敛安排。"}
+    ],
+    "regional_jiedushi_rep": [
+      {"fate_status":"waiting_regional_broker","action_type":"request_emergency_grain","public_title":"地方中介请求紧急调粮","public_summary":"藩镇代表的地位尚未确定，请求以一次紧急调粮证明朝廷愿意继续合作。"},
+      {"fate_status":"trusted_regional_broker","action_type":"submit_front_report","public_title":"地方中介呈交联络军报","public_summary":"藩镇代表已获得信任，呈交地方兵粮与前线联络报告，请朝廷裁定下一步授权。"},
+      {"fate_status":"excluded_regional_broker","action_type":"request_audience","public_title":"被排除的藩镇代表请求解释","public_summary":"藩镇代表被排除在决策外，请求召见并警告地方合作可能转为观望。"}
+    ],
+    "eunuch_deputy_gate": [
+      {"fate_status":"unregistered_gatekeeper","action_type":"submit_witness_report","public_title":"宫门副使请求登记证词","public_summary":"宫门副使仍未登记身份，请求先把其所见传令过程列入正式证据。"},
+      {"fate_status":"registered_gate_witness","action_type":"seek_private_audience","public_title":"宫门见证者请求密陈","public_summary":"宫门副使已成为登记见证者，请求密陈一条涉及上级的门禁记录。"},
+      {"fate_status":"gate_liability","action_type":"request_amnesty","public_title":"承担门禁责任的副使请求宽免","public_summary":"宫门副使承担了门禁责任，请求划定可宽免行为并保留继续作证的资格。"}
+    ]
+  }
+}

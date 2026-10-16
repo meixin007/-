@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "asset_bundle_version": "tongguan_final_assets_v01",
+  "assets": [],
+  "code_native_placeholders": {
+    "stable_ids": [
+      "tongguan.courtyard.placeholder.v01",
+      "tongguan.wall.socket-sample.v01",
+      "tongguan.damage.overlay.v01"
+    ],
+    "style_version": "tongguan_review_r4_engineering_v01",
+    "anchor": "fixed eight layout slots or gate",
+    "footprint": "review/geometry_audit.json",
+    "orientations": [
+      0
+    ],
+    "mirror_allowed": false,
+    "sorting": "ground->trees/courtyards->wall/gate->strategic_flag",
+    "terrain": "full footprint validated against existing constraints",
+    "source": "project code",
+    "content_hashes": {},
+    "formal_art": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "bundle_id": "shanxi_crossing_20261001",
+  "version": 1,
+  "extends": "shanxi_upland_20261001",
+  "generation_tool": "builtin image_gen",
+  "assets": [
+    {
+      "file": "bridge-reverse-v01.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "35cacc8a33defa14bc47d3fe808360ec07d4d500eb1f3fa3493f7c2701facb67"
+    }
+  ]
+}

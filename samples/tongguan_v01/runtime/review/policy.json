@@ -1,0 +1,23 @@
+{
+  "schema_version":1,
+  "style_version":"tongguan_review_r4_engineering_v01",
+  "site_id":"tongguan",
+  "visual_acceptance":"pending_user_review",
+  "ground_mapping":"existing_Albers_local_x_east_y_south_no_rotation",
+  "gate":{"path":"res://bundle/art/gate_eastwest.png","anchor_px":[665,690],"image_size_px":[1536,1024],"rotation_radians":0,"mirror_allowed":false,"screen_icon_not_surveyed_size":true,"near_width_px":310,"far_width_px":70,"socket_north_px":[544,268],"socket_south_px":[1097,956]},
+  "wall":{"north_local_m":[[70,-500],[0,-105]],"south_local_m":[[0,130],[-80,550],[-230,1300]],"display_limit_from_gate_m":200,"status":"short_engineering_socket_sample_not_Tang_wall_survey"},
+  "bookmarks":{
+    "east_asia":{"name":"1 东亚总览","world_local":[-500000,100000],"zoom":0.00014,"lod":0},
+    "guanzhong_east":{"name":"2 关河区域","world_local":[0,500],"zoom":0.065,"lod":1},
+    "tongguan_context":{"name":"3 地理背景","world_local":[-200,150],"zoom":0.30,"lod":2},
+    "gate_close":{"name":"4 关城组合","world_local":[-220,-100],"zoom":1.3,"lod":3}
+  },
+  "engineering_placeholders":[
+    {"id":"courtyards","acceptable_scope":"construction, growth and footprint readability","formal_gap":"Chinese courtyard architecture, direction variants and matching damaged art"},
+    {"id":"wall_continuation","acceptable_scope":"trace candidate defense direction and gate sockets","formal_gap":"matching stepped wall, connectors, terminals and damaged pairs"},
+    {"id":"relief_contours","acceptable_scope":"continuous modern DSM slope shape","formal_gap":"coherent hand-painted slope and bank treatment"},
+    {"id":"damage","acceptable_scope":"same-anchor state feedback only","formal_gap":"paired art matching approved intact module footprint"}
+  ],
+  "unresolved_crossing_style":"red ring and question mark; no bridge, ferry or movement edge",
+  "campaign_movement_authority":"inherited MilitaryCampaignService only"
+}

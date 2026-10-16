@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "grid_size": [
+    600,
+    400
+  ],
+  "cell_size_m": 40,
+  "bounds_local_m": [
+    -12000,
+    -8000,
+    24000,
+    16000
+  ],
+  "origin_albers_m": [
+    477044.71190247545,
+    -145119.5149893904
+  ],
+  "origin_lonlat": [
+    110.2964,
+    34.6028
+  ],
+  "origin_status": "manual study origin / candidate location; not archaeologically surveyed",
+  "projection_wkt": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"Unknown based on WGS 84 ellipsoid\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",7030]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8901]]],CONVERSION[\"unknown\",METHOD[\"Albers Equal Area\",ID[\"EPSG\",9822]],PARAMETER[\"Latitude of false origin\",36,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8821]],PARAMETER[\"Longitude of false origin\",105,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8822]],PARAMETER[\"Latitude of 1st standard parallel\",25,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8823]],PARAMETER[\"Latitude of 2nd standard parallel\",47,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8824]],PARAMETER[\"Easting at false origin\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8826]],PARAMETER[\"Northing at false origin\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8827]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]",
+  "projection_control_count": 19,
+  "projection_control_max_error_m": 5.651037279350116e-07,
+  "vertical_datum": "EGM2008",
+  "vertical_units": "m",
+  "height_range_m": [
+    317.7081604003906,
+    687.7445678710938
+  ],
+  "nodata_pixels": 0,
+  "resampling": "bilinear to 40 m from nominal 30 m DSM",
+  "raster_transform": [
+    40.0,
+    0.0,
+    465044.71190247545,
+    0.0,
+    -40.0,
+    -137119.5149893904
+  ],
+  "screen_axis": "local x east in Albers, local y south; no claim that Albers grid north equals true north",
+  "horizontal_source_crs": "EPSG:4326",
+  "source_shape": [
+    3600,
+    3600
+  ],
+  "source_transform": [
+    0.0002777777777777778,
+    0.0,
+    109.99986111111112,
+    0.0,
+    -0.0002777777777777778,
+    35.00013888888889
+  ],
+  "source_nodata": null,
+  "source_area_or_point": "Point"
+}

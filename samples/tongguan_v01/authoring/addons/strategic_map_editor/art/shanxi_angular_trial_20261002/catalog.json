@@ -1,0 +1,143 @@
+{
+  "bundle_id": "shanxi_angular_trial_20261002",
+  "version": 1,
+  "extends": "shanxi_revision_20261001",
+  "assets": {
+    "sx3_angular_crags_sample1": {
+      "label": "尖峰断脊岩面样段v01",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "angular-crags-sample-v01.png",
+      "rect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "width": 90,
+      "anchor": [
+        0.5,
+        0.78
+      ]
+    },
+    "sx3_angular_branch_saddle1": {
+      "label": "折脊低鞍偏支肩v01",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "angular-branch-saddle-v01.png",
+      "rect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "width": 130,
+      "anchor": [
+        0.5,
+        0.78
+      ]
+    },
+    "sx3_angular_east_scarp1": {
+      "label": "东侧单峰折面陡崖v01",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "angular-east-scarp-v01.png",
+      "rect": [
+        0,
+        0,
+        1374,
+        1145
+      ],
+      "width": 105,
+      "anchor": [
+        0.5,
+        0.78
+      ]
+    },
+    "sx3_south_commonbody2": {
+      "label": "南主形角峰低鞍共坡v02",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "angular-south-commonbody-v02.png",
+      "rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "width": 150,
+      "anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "sx3_east_commonbody1": {
+      "label": "太行单峰西南共坡v01",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "angular-east-commonbody-v01.png",
+      "rect": [
+        0,
+        0,
+        1374,
+        1145
+      ],
+      "width": 155,
+      "anchor": [
+        0.5,
+        0.8
+      ]
+    },
+    "sx3_east_commonbody2": {
+      "label": "太行东北单峰西南低脊共坡v02",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "angular-east-commonbody-v02.png",
+      "rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "width": 165,
+      "anchor": [
+        0.5,
+        0.8
+      ]
+    },
+    "sx3_south_commonbody3": {
+      "label": "南共坡北侧绕峰低鞍v03",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "angular-south-commonbody-v03.png",
+      "rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "width": 150,
+      "anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "sx3_west_upland_surface1": {
+      "label": "晋西共面低塬与三组西向干沟v01",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "west-upland-surface-v01.png",
+      "rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "width": 180,
+      "anchor": [
+        0.5,
+        0.55
+      ]
+    }
+  }
+}

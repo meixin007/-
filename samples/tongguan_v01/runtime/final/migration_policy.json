@@ -1,0 +1,21 @@
+{
+  "schema_version":1,
+  "target_world_id":"tongguan_final_validation_v1",
+  "supported_source_campaigns":["tongguan_integrity_validation_v1","tongguan_review_validation_v1"],
+  "save_version":22,
+  "layout_migration":{
+    "from_version":"tongguan_p4_layout_v02","to_version":"tongguan_p4_layout_v02",
+    "slot_id_map":{
+      "tongguan.slot.rear_storage_01":"tongguan.slot.rear_storage_01",
+      "tongguan.slot.rear_military_01":"tongguan.slot.rear_military_01",
+      "tongguan.slot.rear_workshop_01":"tongguan.slot.rear_workshop_01",
+      "tongguan.slot.civil_01":"tongguan.slot.civil_01",
+      "tongguan.slot.civil_02":"tongguan.slot.civil_02",
+      "tongguan.slot.rear_support_01":"tongguan.slot.rear_support_01",
+      "tongguan.slot.expansion_01":"tongguan.slot.expansion_01",
+      "tongguan.slot.expansion_02":"tongguan.slot.expansion_02"
+    }
+  },
+  "changed_fields":["campaign_id","flags.campaign_id"],
+  "unsupported_policy":"explicit_reject_keep_original_and_current_state"
+}

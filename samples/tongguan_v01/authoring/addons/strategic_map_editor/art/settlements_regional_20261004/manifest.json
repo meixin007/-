@@ -1,0 +1,135 @@
+{
+  "bundle_id": "settlements_regional_20261004",
+  "version": 1,
+  "extends": "shanxi_revision_20261001",
+  "review_status": "PENDING_USER_ART_REVIEW",
+  "generation_tool": "builtin image_gen",
+  "assets": [
+    {
+      "file": "regional26_tang_capital.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1ee7434cc65f489eab42c2613eca84eb8d1efa746dddc30e69ea134e81b70300"
+    },
+    {
+      "file": "regional26_tang_large_administration.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "627ac0ee4379c43916f1d5834689a25886245ce7a186a84005275b7217f20425"
+    },
+    {
+      "file": "regional26_tang_large_market.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2e566a2a74b2df6d0b0c45b2e1ce4de90a5685f7db5bb83f17509aff2579a1f9"
+    },
+    {
+      "file": "regional26_tang_large_temple.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ba06f5709d67ceb64b0fffe246473f265d0bdef6959057eff1fb8555bf763bef"
+    },
+    {
+      "file": "regional26_tang_medium_yamen.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "257d9ebed55f283825beb0caf120b1665baa01f3a24ca444b6726e916937dd3c"
+    },
+    {
+      "file": "regional26_tang_medium_market.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e5c862d55fbace2fefed0be551d0859efc385935f1fe53991b054fce364dd4c1"
+    },
+    {
+      "file": "regional26_tang_medium_monastery.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "426c009132472fd5b75344bd758dd5904048cf34110b6583778d69949d1af9eb"
+    },
+    {
+      "file": "regional26_tang_medium_granary.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "46c851cc612ddbf2852b30e0a2160dd642bae6a105490129c3435298d18ad5c6"
+    },
+    {
+      "file": "regional26_tang_fort_drill.png",
+      "width": 1402,
+      "height": 1122,
+      "sha256": "135f9993e5629a3ed019ac26844cfb6eea38f38dad01b9de93a8835bbcb5a7d3"
+    },
+    {
+      "file": "regional26_tang_fort_supply.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8e003b9cdbcb547e036358ddeb5242dfaf56bb3638c738621f2eec000e09bf7f"
+    },
+    {
+      "file": "regional26_tang_village_farm.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9cb0e57916a8499ec3f497ba5d334c2317967b5987167fffa88cb13a0d761b89"
+    },
+    {
+      "file": "regional26_tang_village_market.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2bbea68218d9909a61f3fb3bef9fc9f333e4e3c31452a19c112465cdba7e09b3"
+    },
+    {
+      "file": "regional26_tang_village_post.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8dfcbd98ce95691aa80e5dfeb6a040a68c961c3a0253f5788e71e0f77de607c3"
+    },
+    {
+      "file": "regional26_tang_village_craft.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7057edd956ec3689d48c6a941a3abe455badc4c47a542d69c90f033827ec33ee"
+    },
+    {
+      "file": "regional26_nomad_chief.png",
+      "width": 1390,
+      "height": 1132,
+      "sha256": "469b94c32347cdafc29ca6839f68a9dbec4ef1d1a09252311c445279915d68ff"
+    },
+    {
+      "file": "regional26_nomad_pastoral.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "264b20ade4d749fd1a92abd0dd4be84dca07a5da5787e6bdaf120981ca2c775b"
+    },
+    {
+      "file": "regional26_tibet_potala.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7010adac69432ba6d6a764d94390563ebdbb24e9ed4d541c475b244392fc167d"
+    },
+    {
+      "file": "regional26_tibet_town.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "237eebda165b2ac502181adf82820bb1ca398981ac67c10135854d3a78544141"
+    },
+    {
+      "file": "regional26_japan_white.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8f95c3a08631f3d98e496b33b42a228b17fb79920a6891a648b1471ce747b6ac"
+    },
+    {
+      "file": "regional26_japan_black.png",
+      "width": 1385,
+      "height": 1136,
+      "sha256": "600ffbd5c7b19d0d2b3d39f71dc4b0120dd4d06030aabb85e19f8efde2abc97c"
+    },
+    {
+      "file": "regional26_japan_low.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a162a2663aae90d844fee04e0350dd3df9152566fa29e993096a47c6a5033db0"
+    }
+  ]
+}

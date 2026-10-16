@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "asset_bundle_version": "tongguan_final_assets_v01",
+  "assets": [
+    {
+      "stable_id": "tongguan.gate.eastwest.v01",
+      "atlas_rect_px": null,
+      "style_version": "tongguan_review_r4_engineering_v01",
+      "era_culture_tags": [
+        "Chinese-inspired",
+        "756_context_not_verified"
+      ],
+      "allowed_orientations": [
+        0
+      ],
+      "mirror_allowed": false,
+      "anchor_px": [
+        665,
+        690
+      ],
+      "visual_bounds_px": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "ground_footprint": {
+        "kind": "logical_gate_anchor_not_visual_hitbox",
+        "local_m": [
+          0,
+          0
+        ]
+      },
+      "sockets_px": {
+        "north": [
+          544,
+          268
+        ],
+        "south": [
+          1097,
+          956
+        ]
+      },
+      "sorting_category": "gate_above_ground",
+      "size_range": {
+        "screen_width_px": [
+          70,
+          310
+        ],
+        "surveyed": false
+      },
+      "density_range": [
+        0,
+        0
+      ],
+      "damage_variant_group": "same-anchor-engineering-overlay",
+      "allowed_terrain": "approved gate anchor",
+      "source": "user selected gate-eastwest.png",
+      "content_sha256": "971dbffc6bfe5c947e5f9541fb68c12d5712f23c26bfd94566c904880c7fe16d",
+      "path": "res://bundle/art/gate_eastwest.png",
+      "acceptance_scope": "R4 accepted engineering composition; formal art and exact era pending"
+    },
+    {
+      "stable_id": "tree_willow",
+      "atlas_rect_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "style_version": "tongguan_review_r4_engineering_v01",
+      "era_culture_tags": [
+        "Chinese-inspired",
+        "756_context_not_verified"
+      ],
+      "allowed_orientations": [
+        0
+      ],
+      "mirror_allowed": false,
+      "anchor_px": [
+        256,
+        399.36
+      ],
+      "visual_bounds_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "ground_footprint": {
+        "kind": "tree_footprint_per_instance",
+        "reference": "bundle/authoring.json and r3 footprint contract"
+      },
+      "sockets_px": {},
+      "sorting_category": "trees_by_ground_y",
+      "size_range": {
+        "width_m": 80,
+        "atlas_regions": "bundle/art_descriptors.json"
+      },
+      "density_range": [
+        0.2,
+        2.0
+      ],
+      "damage_variant_group": "none",
+      "allowed_terrain": "explicit footprint constraints, excludes water roads plots",
+      "source": "accepted P2 tree atlas",
+      "content_sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+      "path": "res://bundle/art/trees.png",
+      "acceptance_scope": "R4 accepted engineering composition; formal art and exact era pending"
+    },
+    {
+      "stable_id": "tree_grove",
+      "atlas_rect_px": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "style_version": "tongguan_review_r4_engineering_v01",
+      "era_culture_tags": [
+        "Chinese-inspired",
+        "756_context_not_verified"
+      ],
+      "allowed_orientations": [
+        0
+      ],
+      "mirror_allowed": false,
+      "anchor_px": [
+        256,
+        399.36
+      ],
+      "visual_bounds_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "ground_footprint": {
+        "kind": "tree_footprint_per_instance",
+        "reference": "bundle/authoring.json and r3 footprint contract"
+      },
+      "sockets_px": {},
+      "sorting_category": "trees_by_ground_y",
+      "size_range": {
+        "width_m": 80,
+        "atlas_regions": "bundle/art_descriptors.json"
+      },
+      "density_range": [
+        0.2,
+        2.0
+      ],
+      "damage_variant_group": "none",
+      "allowed_terrain": "explicit footprint constraints, excludes water roads plots",
+      "source": "accepted P2 tree atlas",
+      "content_sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+      "path": "res://bundle/art/trees.png",
+      "acceptance_scope": "R4 accepted engineering composition; formal art and exact era pending"
+    }
+  ],
+  "code_native_placeholders": {
+    "stable_ids": [
+      "tongguan.courtyard.placeholder.v01",
+      "tongguan.wall.socket-sample.v01",
+      "tongguan.damage.overlay.v01"
+    ],
+    "style_version": "tongguan_review_r4_engineering_v01",
+    "anchor": "fixed eight layout slots or gate",
+    "footprint": "review/geometry_audit.json",
+    "orientations": [
+      0
+    ],
+    "mirror_allowed": false,
+    "sorting": "ground->trees/courtyards->wall/gate->strategic_flag",
+    "terrain": "full footprint validated against existing constraints",
+    "source": "project code",
+    "content_hashes": {
+      "runtime/city_canvas.gd": "d1e30348ab8233d25fc98028629095000d8244a1ea299d4a281a2a997a5613b4",
+      "review/canvas.gd": "efea116df10ef7fc1e6dba0e8dd5ab5a60e49df223898efc5aaf6a6b1795a4b2"
+    },
+    "formal_art": false
+  }
+}

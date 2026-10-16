@@ -1,0 +1,75 @@
+{
+  "bundle_id": "ground_material_study_20261007",
+  "version": 1,
+  "extends": "tongguan_v1",
+  "assets": {
+    "ground_study_meadow": {
+      "label": "地表试样 · 草土斑驳",
+      "atlas": "ground-material-atlas-v01.png",
+      "group": "ground",
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        24,
+        190,
+        584,
+        385
+      ],
+      "width": 480
+    },
+    "ground_study_earth": {
+      "label": "地表试样 · 裸土过渡",
+      "atlas": "ground-material-atlas-v01.png",
+      "group": "ground",
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        661,
+        200,
+        586,
+        393
+      ],
+      "width": 480
+    },
+    "ground_study_shoulder": {
+      "label": "地表试样 · 浅丘坡肩",
+      "atlas": "ground-material-atlas-v01.png",
+      "group": "ground",
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        21,
+        741,
+        595,
+        404
+      ],
+      "width": 480
+    },
+    "ground_study_forest_floor": {
+      "label": "地表试样 · 林下草土",
+      "atlas": "ground-material-atlas-v01.png",
+      "group": "ground",
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        658,
+        753,
+        590,
+        385
+      ],
+      "width": 480
+    }
+  }
+}

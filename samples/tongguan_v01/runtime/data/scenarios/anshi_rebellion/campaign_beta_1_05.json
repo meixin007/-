@@ -1,0 +1,26 @@
+{
+  "campaign_id": "anshi_beta_1_05",
+  "campaign_days": 90,
+  "phases": [
+    { "id": "foundation", "start_day": 1, "end_day": 30 },
+    { "id": "power_formation", "start_day": 31, "end_day": 60 },
+    { "id": "alliance_cost", "start_day": 61, "end_day": 90 }
+  ],
+  "content_files": {
+    "scenario": ["scenario.json"],
+    "characters": ["characters.json"],
+    "events": ["chapter_1_events.json", "beta_1_0_important_events.json", "beta_1_05_important_events_phase_1.json", "beta_1_05_important_events_phase_2.json", "beta_1_05_important_events_phase_3.json"],
+    "key_scenes": ["key_scenes.json", "beta_1_05_key_scenes_phase_1.json", "beta_1_05_key_scenes_phase_2.json", "beta_1_05_key_scenes_phase_3.json"],
+    "dialogue": ["npc_dialogue_topics_beta_0_5.json"],
+    "political_chains": ["beta_0_95_political_chains.json"]
+  },
+  "character_ids": [
+    "li_heng", "guo_ziyi", "li_fuguo", "li_bi", "grain_official_lingwu", "tang_xuanzong",
+    "li_guangbi", "chen_xuanli", "zhang_liangdi", "an_lushan", "shi_siming", "uighur_envoy"
+  ],
+  "important_event_ids": [
+    "beta10_day01_court_open", "beta10_day02_guo_audience", "beta10_grain_audit_notice", "beta10_palace_channel_notice", "beta10_day06_li_bi_night", "beta10_uighur_terms_notice", "beta10_day09_gate_leak", "beta10_day11_old_court", "beta10_day13_grain_theft", "beta10_day14_uighur_price", "beta10_day20_promise_due", "beta10_day30_phase_settle",
+    "beta105_day33_grain_accountability", "beta105_day36_gate_appointment", "beta105_day39_uighur_hostage_terms", "beta105_day42_li_bi_precedent_review", "beta105_day45_guo_command_scope", "beta105_day48_market_requisition_backlash", "beta105_day51_fuguo_information_monopoly", "beta105_day54_old_court_legitimacy_drive", "beta105_day56_pugu_joint_command", "beta105_day58_li_chu_gate_inspection", "beta105_day59_promise_reckoning", "beta105_day60_phase_review",
+    "beta105_day63_shuofang_final_supply", "beta105_day66_gate_counterorder", "beta105_day69_uighur_final_price", "beta105_day72_civilian_cost_petition", "beta105_day75_general_council_split", "beta105_day78_li_bi_exit_warning", "beta105_day81_fuguo_loyalty_test", "beta105_day84_old_court_public_challenge", "beta105_day86_pugu_field_choice", "beta105_day88_three_chain_collision", "beta105_day89_final_private_audiences", "beta105_day90_final_court"
+  ]
+}

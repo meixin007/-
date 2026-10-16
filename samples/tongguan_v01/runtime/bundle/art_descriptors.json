@@ -1,0 +1,36 @@
+{
+  "tree_willow": {
+    "anchor": [
+      0.5,
+      0.78
+    ],
+    "atlas": "trees.png",
+    "group": "forest",
+    "label": "河畔垂柳",
+    "rect": [
+      1024.0,
+      0.0,
+      512.0,
+      512.0
+    ],
+    "width": 40.0,
+    "path": "res://bundle/art/trees.png"
+  },
+  "tree_grove": {
+    "anchor": [
+      0.5,
+      0.78
+    ],
+    "atlas": "trees.png",
+    "group": "forest",
+    "label": "混合树丛",
+    "rect": [
+      512.0,
+      512.0,
+      512.0,
+      512.0
+    ],
+    "width": 43.0,
+    "path": "res://bundle/art/trees.png"
+  }
+}

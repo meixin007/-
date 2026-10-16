@@ -1,0 +1,609 @@
+{
+  "date": "2026-10-14",
+  "source": "current local addons/strategic_map_editor",
+  "remote_baseline": "05b8807a869a2eaa2ce0dc3b0a721add45072c76",
+  "art_assets_included": 0,
+  "original_art_metadata_included": false,
+  "adaptations": [
+    "Relocate workshop_map_preferences.gd and workshop_place_layer.gd into addon; use relative preloads",
+    "Replace historical sample help and sample index with a generated blank example",
+    "Provide generated empty catalog and manifest configuration",
+    "Disable startup map restoration in the standalone scene; isolate the standalone user directory"
+  ],
+  "files": [
+    {
+      "source": "addons/strategic_map_editor/art_catalog.gd",
+      "export": "addons/strategic_map_editor/art_catalog.gd",
+      "source_sha256": "cad78166dceef4718cceefc0ac5218a6f937a8f347a3ca42247b4e653d30b5d2",
+      "export_sha256": "cad78166dceef4718cceefc0ac5218a6f937a8f347a3ca42247b4e653d30b5d2"
+    },
+    {
+      "source": "addons/strategic_map_editor/art_catalog.gd.uid",
+      "export": "addons/strategic_map_editor/art_catalog.gd.uid",
+      "source_sha256": "417adcf1c3a0fa5efd702933989d0dc74ddf40dfbb34b98fcce48e95b75d4835",
+      "export_sha256": "417adcf1c3a0fa5efd702933989d0dc74ddf40dfbb34b98fcce48e95b75d4835"
+    },
+    {
+      "source": "addons/strategic_map_editor/art_image_loader.gd",
+      "export": "addons/strategic_map_editor/art_image_loader.gd",
+      "source_sha256": "04ee2a9e20aae85c847fd98745a7918a7897d7a31ad4559d1a5ed5b43290f6f4",
+      "export_sha256": "04ee2a9e20aae85c847fd98745a7918a7897d7a31ad4559d1a5ed5b43290f6f4"
+    },
+    {
+      "source": "addons/strategic_map_editor/art_image_loader.gd.uid",
+      "export": "addons/strategic_map_editor/art_image_loader.gd.uid",
+      "source_sha256": "cc5c66a976792ced953cc6d0e28a92d6004774f7276aa5e79cea0833c77ea70f",
+      "export_sha256": "cc5c66a976792ced953cc6d0e28a92d6004774f7276aa5e79cea0833c77ea70f"
+    },
+    {
+      "source": "addons/strategic_map_editor/art_importer.gd",
+      "export": "addons/strategic_map_editor/art_importer.gd",
+      "source_sha256": "e1f69217749f96ea618112be80a81d667b689709dd778d6855b9e4cb86c519a4",
+      "export_sha256": "e1f69217749f96ea618112be80a81d667b689709dd778d6855b9e4cb86c519a4"
+    },
+    {
+      "source": "addons/strategic_map_editor/art_importer.gd.uid",
+      "export": "addons/strategic_map_editor/art_importer.gd.uid",
+      "source_sha256": "7ec71924bbcf5d19089a2f7d6e870883be6ef973735294e0897f4dad34fc6727",
+      "export_sha256": "7ec71924bbcf5d19089a2f7d6e870883be6ef973735294e0897f4dad34fc6727"
+    },
+    {
+      "source": "addons/strategic_map_editor/art_library.gd",
+      "export": "addons/strategic_map_editor/art_library.gd",
+      "source_sha256": "c8c4105b19210f993a059d1fa741846eeb9ed729228f2de4a9bb6c5ebb9a2003",
+      "export_sha256": "c8c4105b19210f993a059d1fa741846eeb9ed729228f2de4a9bb6c5ebb9a2003"
+    },
+    {
+      "source": "addons/strategic_map_editor/art_library.gd.uid",
+      "export": "addons/strategic_map_editor/art_library.gd.uid",
+      "source_sha256": "0ceed837fa5a20013de86df1cc75ec9b6652d3eff291790ba7d747077d5f8934",
+      "export_sha256": "0ceed837fa5a20013de86df1cc75ec9b6652d3eff291790ba7d747077d5f8934"
+    },
+    {
+      "source": "addons/strategic_map_editor/art_ribbon.gd",
+      "export": "addons/strategic_map_editor/art_ribbon.gd",
+      "source_sha256": "2bbe5035578e91ec6297e86cd40d85cc6bfa2491f7a9c17959af50d957bd048e",
+      "export_sha256": "2bbe5035578e91ec6297e86cd40d85cc6bfa2491f7a9c17959af50d957bd048e"
+    },
+    {
+      "source": "addons/strategic_map_editor/art_ribbon.gd.uid",
+      "export": "addons/strategic_map_editor/art_ribbon.gd.uid",
+      "source_sha256": "1b4fd8e3566d28f5d760e19ba598e1538edcbac1e4a10e8a1d95595711bce31c",
+      "export_sha256": "1b4fd8e3566d28f5d760e19ba598e1538edcbac1e4a10e8a1d95595711bce31c"
+    },
+    {
+      "source": "addons/strategic_map_editor/art_spatial.gd",
+      "export": "addons/strategic_map_editor/art_spatial.gd",
+      "source_sha256": "c46becde077350796111f643a963d684f65577951200a954bf799e06df8518d3",
+      "export_sha256": "c46becde077350796111f643a963d684f65577951200a954bf799e06df8518d3"
+    },
+    {
+      "source": "addons/strategic_map_editor/art_spatial.gd.uid",
+      "export": "addons/strategic_map_editor/art_spatial.gd.uid",
+      "source_sha256": "27f0edb01d6a839c2bc2e76d37f1dc0b7218d365f2f43b2a2a0d564ade70b481",
+      "export_sha256": "27f0edb01d6a839c2bc2e76d37f1dc0b7218d365f2f43b2a2a0d564ade70b481"
+    },
+    {
+      "source": "addons/strategic_map_editor/art_thumbnail_grid.gd",
+      "export": "addons/strategic_map_editor/art_thumbnail_grid.gd",
+      "source_sha256": "03796548ff0518da16f7ea3cf8f7e7e0e08f4007257c48f219336130a3af2a10",
+      "export_sha256": "03796548ff0518da16f7ea3cf8f7e7e0e08f4007257c48f219336130a3af2a10"
+    },
+    {
+      "source": "addons/strategic_map_editor/art_thumbnail_grid.gd.uid",
+      "export": "addons/strategic_map_editor/art_thumbnail_grid.gd.uid",
+      "source_sha256": "e3fd0e25d04524ad6ba3d8aa4a9061dbf8726679fdafbb78a7b4f2e16d754f1e",
+      "export_sha256": "e3fd0e25d04524ad6ba3d8aa4a9061dbf8726679fdafbb78a7b4f2e16d754f1e"
+    },
+    {
+      "source": "addons/strategic_map_editor/art_visual_audit.gd",
+      "export": "addons/strategic_map_editor/art_visual_audit.gd",
+      "source_sha256": "6b6fbfb4408b09676fd7e735c22bca0d6e78297c1cea1260efb0a25f11723a20",
+      "export_sha256": "6b6fbfb4408b09676fd7e735c22bca0d6e78297c1cea1260efb0a25f11723a20"
+    },
+    {
+      "source": "addons/strategic_map_editor/art_visual_audit.gd.uid",
+      "export": "addons/strategic_map_editor/art_visual_audit.gd.uid",
+      "source_sha256": "937931af99740f12036364b4fae553d3188a848ec679e0e54a197917889eaee9",
+      "export_sha256": "937931af99740f12036364b4fae553d3188a848ec679e0e54a197917889eaee9"
+    },
+    {
+      "source": "addons/strategic_map_editor/asset_browser.gd",
+      "export": "addons/strategic_map_editor/asset_browser.gd",
+      "source_sha256": "1783edcc205d84d864b12363911206ca1b05391f1bdd13bfdecaf1e5ba39d513",
+      "export_sha256": "1783edcc205d84d864b12363911206ca1b05391f1bdd13bfdecaf1e5ba39d513"
+    },
+    {
+      "source": "addons/strategic_map_editor/asset_browser.gd.uid",
+      "export": "addons/strategic_map_editor/asset_browser.gd.uid",
+      "source_sha256": "431d6006ff64d62f1a91bb3007ff70953611da9ac53ed69ab198aa3f69ceeccd",
+      "export_sha256": "431d6006ff64d62f1a91bb3007ff70953611da9ac53ed69ab198aa3f69ceeccd"
+    },
+    {
+      "source": "addons/strategic_map_editor/audit_review_panel.gd",
+      "export": "addons/strategic_map_editor/audit_review_panel.gd",
+      "source_sha256": "008a4069e8aeb411fe1d17025bcf35be90d7a0bd00d4e948ef4e9fe9bf38b3d9",
+      "export_sha256": "008a4069e8aeb411fe1d17025bcf35be90d7a0bd00d4e948ef4e9fe9bf38b3d9"
+    },
+    {
+      "source": "addons/strategic_map_editor/audit_review_panel.gd.uid",
+      "export": "addons/strategic_map_editor/audit_review_panel.gd.uid",
+      "source_sha256": "7ce50887cef9e27b50272b585c6b43868c23a446a1d9115a4005709b05201d4d",
+      "export_sha256": "7ce50887cef9e27b50272b585c6b43868c23a446a1d9115a4005709b05201d4d"
+    },
+    {
+      "source": "addons/strategic_map_editor/authoring_session.gd",
+      "export": "addons/strategic_map_editor/authoring_session.gd",
+      "source_sha256": "29c6842e4dc91e5d8c551be280dd8bec1df1d02414c4c8c99d678b7e35f0b9ca",
+      "export_sha256": "29c6842e4dc91e5d8c551be280dd8bec1df1d02414c4c8c99d678b7e35f0b9ca"
+    },
+    {
+      "source": "addons/strategic_map_editor/authoring_session.gd.uid",
+      "export": "addons/strategic_map_editor/authoring_session.gd.uid",
+      "source_sha256": "8348c9c183b68e4dd61ef48bbd25117b02e1d11fcf51c0774ee43ecf2e559da7",
+      "export_sha256": "8348c9c183b68e4dd61ef48bbd25117b02e1d11fcf51c0774ee43ecf2e559da7"
+    },
+    {
+      "source": "addons/strategic_map_editor/dialog_shell.gd",
+      "export": "addons/strategic_map_editor/dialog_shell.gd",
+      "source_sha256": "fa8f70d50798a8d9f0a0215688d65e88c489b5409e900127c6eb09e3d8a698ca",
+      "export_sha256": "fa8f70d50798a8d9f0a0215688d65e88c489b5409e900127c6eb09e3d8a698ca"
+    },
+    {
+      "source": "addons/strategic_map_editor/dialog_shell.gd.uid",
+      "export": "addons/strategic_map_editor/dialog_shell.gd.uid",
+      "source_sha256": "8d925fba798f388b1123dac566f4e97d3cfde3aa399763d88766ce09df409568",
+      "export_sha256": "8d925fba798f388b1123dac566f4e97d3cfde3aa399763d88766ce09df409568"
+    },
+    {
+      "source": "addons/strategic_map_editor/document.gd",
+      "export": "addons/strategic_map_editor/document.gd",
+      "source_sha256": "f1655b24e6018736687dfefa4e06f3aa4cb9e4c37db298a5c4ec362a0698bdb8",
+      "export_sha256": "f1655b24e6018736687dfefa4e06f3aa4cb9e4c37db298a5c4ec362a0698bdb8"
+    },
+    {
+      "source": "addons/strategic_map_editor/document.gd.uid",
+      "export": "addons/strategic_map_editor/document.gd.uid",
+      "source_sha256": "dec589159296485151f398b9a5177594c4bbfff848730345f86bdf707493c191",
+      "export_sha256": "dec589159296485151f398b9a5177594c4bbfff848730345f86bdf707493c191"
+    },
+    {
+      "source": "addons/strategic_map_editor/earth_path.gd",
+      "export": "addons/strategic_map_editor/earth_path.gd",
+      "source_sha256": "d9ebb56bf8918bc541be2f525103ed8c8dfb5e48483a4eea7e6b719ad49ffdaa",
+      "export_sha256": "d9ebb56bf8918bc541be2f525103ed8c8dfb5e48483a4eea7e6b719ad49ffdaa"
+    },
+    {
+      "source": "addons/strategic_map_editor/earth_path.gd.uid",
+      "export": "addons/strategic_map_editor/earth_path.gd.uid",
+      "source_sha256": "d5a9be1a79e730745d9505f2d41e9f064ec6065e76b9c08261d3aadc16e6aec0",
+      "export_sha256": "d5a9be1a79e730745d9505f2d41e9f064ec6065e76b9c08261d3aadc16e6aec0"
+    },
+    {
+      "source": "addons/strategic_map_editor/game_map_cache_worker.gd",
+      "export": "addons/strategic_map_editor/game_map_cache_worker.gd",
+      "source_sha256": "710e8d8603437295fc3dbe566efdc275f9e4210caf68ec4d8a86af5bd126ea9f",
+      "export_sha256": "710e8d8603437295fc3dbe566efdc275f9e4210caf68ec4d8a86af5bd126ea9f"
+    },
+    {
+      "source": "addons/strategic_map_editor/game_map_cache_worker.gd.uid",
+      "export": "addons/strategic_map_editor/game_map_cache_worker.gd.uid",
+      "source_sha256": "5c9c0a5710fc7bc6194989c42762fe6379f64d7f2f1b50d34c8eafbe257beec9",
+      "export_sha256": "5c9c0a5710fc7bc6194989c42762fe6379f64d7f2f1b50d34c8eafbe257beec9"
+    },
+    {
+      "source": "addons/strategic_map_editor/game_map_publisher.gd",
+      "export": "addons/strategic_map_editor/game_map_publisher.gd",
+      "source_sha256": "8e932f8c0cdb57c86bec6682943d3f452512204cac8097556fd7a2b1b6d35a1f",
+      "export_sha256": "8e932f8c0cdb57c86bec6682943d3f452512204cac8097556fd7a2b1b6d35a1f"
+    },
+    {
+      "source": "addons/strategic_map_editor/game_map_publisher.gd.uid",
+      "export": "addons/strategic_map_editor/game_map_publisher.gd.uid",
+      "source_sha256": "ae7ebaeefbba33f6834cab8d4a0ae5526c1b130411fdf470908d636e4ee0461e",
+      "export_sha256": "ae7ebaeefbba33f6834cab8d4a0ae5526c1b130411fdf470908d636e4ee0461e"
+    },
+    {
+      "source": "addons/strategic_map_editor/game_preview_adapter.gd",
+      "export": "addons/strategic_map_editor/game_preview_adapter.gd",
+      "source_sha256": "dcb88d800b9fd0ae8b5fc90c6e8b16f7e2e881d1667dc9f77426c0a9efbd6ed0",
+      "export_sha256": "a54666e1e22154746044d5dd1d2666e8e7c968ca06438c9f078c797fb47f3fc8"
+    },
+    {
+      "source": "addons/strategic_map_editor/game_preview_adapter.gd.uid",
+      "export": "addons/strategic_map_editor/game_preview_adapter.gd.uid",
+      "source_sha256": "be73756b4748a8b614470bdde2d4329fa2b32213536a87c875607383903f7409",
+      "export_sha256": "be73756b4748a8b614470bdde2d4329fa2b32213536a87c875607383903f7409"
+    },
+    {
+      "source": "addons/strategic_map_editor/geometry_ops.gd",
+      "export": "addons/strategic_map_editor/geometry_ops.gd",
+      "source_sha256": "8301b517d1bcdf00ad8880784df482f5a4dfa41fc6f3476076706b39ed034511",
+      "export_sha256": "8301b517d1bcdf00ad8880784df482f5a4dfa41fc6f3476076706b39ed034511"
+    },
+    {
+      "source": "addons/strategic_map_editor/geometry_ops.gd.uid",
+      "export": "addons/strategic_map_editor/geometry_ops.gd.uid",
+      "source_sha256": "710fc99b080f36f913efe56089da332ec15bc2215127657d24dcfdd4afd55b49",
+      "export_sha256": "710fc99b080f36f913efe56089da332ec15bc2215127657d24dcfdd4afd55b49"
+    },
+    {
+      "source": "addons/strategic_map_editor/interaction_overlay.gd",
+      "export": "addons/strategic_map_editor/interaction_overlay.gd",
+      "source_sha256": "6d9936f9a08e648aab589606dcae76e2179af77e499a6270da87da96f8861486",
+      "export_sha256": "6d9936f9a08e648aab589606dcae76e2179af77e499a6270da87da96f8861486"
+    },
+    {
+      "source": "addons/strategic_map_editor/interaction_overlay.gd.uid",
+      "export": "addons/strategic_map_editor/interaction_overlay.gd.uid",
+      "source_sha256": "0082d93215e7bb465b355f391710197311c9c1a3ebac0d34cad4971ed632de89",
+      "export_sha256": "0082d93215e7bb465b355f391710197311c9c1a3ebac0d34cad4971ed632de89"
+    },
+    {
+      "source": "addons/strategic_map_editor/map_audit.gd",
+      "export": "addons/strategic_map_editor/map_audit.gd",
+      "source_sha256": "a1e60c92d017252a189a201f1519f0f4837658a64369a3a5dfb3695b47081a45",
+      "export_sha256": "a1e60c92d017252a189a201f1519f0f4837658a64369a3a5dfb3695b47081a45"
+    },
+    {
+      "source": "addons/strategic_map_editor/map_audit.gd.uid",
+      "export": "addons/strategic_map_editor/map_audit.gd.uid",
+      "source_sha256": "2ac70817a8b723837a30e609ff1241161ddbf08e9e764e3a44e74b1898acbc6b",
+      "export_sha256": "2ac70817a8b723837a30e609ff1241161ddbf08e9e764e3a44e74b1898acbc6b"
+    },
+    {
+      "source": "addons/strategic_map_editor/map_canvas.gd",
+      "export": "addons/strategic_map_editor/map_canvas.gd",
+      "source_sha256": "61c9cb56fd6246a4022d4ae407889ebfd7c80f0fa889c86854e81cb504dfa47d",
+      "export_sha256": "61c9cb56fd6246a4022d4ae407889ebfd7c80f0fa889c86854e81cb504dfa47d"
+    },
+    {
+      "source": "addons/strategic_map_editor/map_canvas.gd.uid",
+      "export": "addons/strategic_map_editor/map_canvas.gd.uid",
+      "source_sha256": "e000e6f7d37a06fd3d93b8fafcacb26ebf2a048fe8c37fc19a81415968cb133d",
+      "export_sha256": "e000e6f7d37a06fd3d93b8fafcacb26ebf2a048fe8c37fc19a81415968cb133d"
+    },
+    {
+      "source": "addons/strategic_map_editor/map_exporter.gd",
+      "export": "addons/strategic_map_editor/map_exporter.gd",
+      "source_sha256": "387ca925e0d7774fdbd647be518ac7f1f85ca48a83d56f65079a082ea238a136",
+      "export_sha256": "387ca925e0d7774fdbd647be518ac7f1f85ca48a83d56f65079a082ea238a136"
+    },
+    {
+      "source": "addons/strategic_map_editor/map_exporter.gd.uid",
+      "export": "addons/strategic_map_editor/map_exporter.gd.uid",
+      "source_sha256": "02c78b4e98e11c08f39261385bb02f54be5ad8ae19d22475d985da25ca6b06a3",
+      "export_sha256": "02c78b4e98e11c08f39261385bb02f54be5ad8ae19d22475d985da25ca6b06a3"
+    },
+    {
+      "source": "addons/strategic_map_editor/minimap.gd",
+      "export": "addons/strategic_map_editor/minimap.gd",
+      "source_sha256": "93dac4fee4ad4f3e264bf8cde14dcb6dff3de93601b283fbfc6502e010385edb",
+      "export_sha256": "93dac4fee4ad4f3e264bf8cde14dcb6dff3de93601b283fbfc6502e010385edb"
+    },
+    {
+      "source": "addons/strategic_map_editor/minimap.gd.uid",
+      "export": "addons/strategic_map_editor/minimap.gd.uid",
+      "source_sha256": "c3fe18f9603b62be98f9f7796f4e42abae9e6fee23fd0f12ed6d4b89f0de8a94",
+      "export_sha256": "c3fe18f9603b62be98f9f7796f4e42abae9e6fee23fd0f12ed6d4b89f0de8a94"
+    },
+    {
+      "source": "addons/strategic_map_editor/natural_water.gd",
+      "export": "addons/strategic_map_editor/natural_water.gd",
+      "source_sha256": "1441bd8309f46d750d409988ced536cc1584a8fab5ed604006b8f4624061c171",
+      "export_sha256": "1441bd8309f46d750d409988ced536cc1584a8fab5ed604006b8f4624061c171"
+    },
+    {
+      "source": "addons/strategic_map_editor/natural_water.gd.uid",
+      "export": "addons/strategic_map_editor/natural_water.gd.uid",
+      "source_sha256": "76379796ef8b6a923f24713347525202c6ba5e8339c7c1505288299ae9ff5db8",
+      "export_sha256": "76379796ef8b6a923f24713347525202c6ba5e8339c7c1505288299ae9ff5db8"
+    },
+    {
+      "source": "addons/strategic_map_editor/plugin.cfg",
+      "export": "addons/strategic_map_editor/plugin.cfg",
+      "source_sha256": "606b1bec4494d3fefa5bf24ad7a7a0fa4c47607fcce019ab8685853339e96295",
+      "export_sha256": "606b1bec4494d3fefa5bf24ad7a7a0fa4c47607fcce019ab8685853339e96295"
+    },
+    {
+      "source": "addons/strategic_map_editor/plugin.gd",
+      "export": "addons/strategic_map_editor/plugin.gd",
+      "source_sha256": "835136f7f97c5808497cc2ff18b9ad88d0e82d91482cb1f972c94209db5eac31",
+      "export_sha256": "835136f7f97c5808497cc2ff18b9ad88d0e82d91482cb1f972c94209db5eac31"
+    },
+    {
+      "source": "addons/strategic_map_editor/plugin.gd.uid",
+      "export": "addons/strategic_map_editor/plugin.gd.uid",
+      "source_sha256": "d12e17bf716e76b7188da811b91fc6ee203155f2d4c0d97565f1b1ad622a9bbe",
+      "export_sha256": "d12e17bf716e76b7188da811b91fc6ee203155f2d4c0d97565f1b1ad622a9bbe"
+    },
+    {
+      "source": "addons/strategic_map_editor/polygon_boolean.gd",
+      "export": "addons/strategic_map_editor/polygon_boolean.gd",
+      "source_sha256": "257dd77f4bf9ff8ceafa6bbf9edf12a0621e5b32108d619f73ebda3709f311b7",
+      "export_sha256": "257dd77f4bf9ff8ceafa6bbf9edf12a0621e5b32108d619f73ebda3709f311b7"
+    },
+    {
+      "source": "addons/strategic_map_editor/polygon_boolean.gd.uid",
+      "export": "addons/strategic_map_editor/polygon_boolean.gd.uid",
+      "source_sha256": "2e90839360d339173f3fda5dae316234d64e767cb9c0970146dc5f2acb05ef0f",
+      "export_sha256": "2e90839360d339173f3fda5dae316234d64e767cb9c0970146dc5f2acb05ef0f"
+    },
+    {
+      "source": "addons/strategic_map_editor/polygon_math.gd",
+      "export": "addons/strategic_map_editor/polygon_math.gd",
+      "source_sha256": "c37955df059468cbe6bb5d6f4d64f5b85f39c8236b32dea601f48eba22b55e56",
+      "export_sha256": "c37955df059468cbe6bb5d6f4d64f5b85f39c8236b32dea601f48eba22b55e56"
+    },
+    {
+      "source": "addons/strategic_map_editor/polygon_math.gd.uid",
+      "export": "addons/strategic_map_editor/polygon_math.gd.uid",
+      "source_sha256": "e37b48419794e5a64806e9a81fae40632ed15a12568fcadd7dd62270016fa2ba",
+      "export_sha256": "e37b48419794e5a64806e9a81fae40632ed15a12568fcadd7dd62270016fa2ba"
+    },
+    {
+      "source": "addons/strategic_map_editor/polygon_query.gd",
+      "export": "addons/strategic_map_editor/polygon_query.gd",
+      "source_sha256": "347314c8c8180ffb709d16627a8989d0c1f38431ca273a13328752e763610b5e",
+      "export_sha256": "347314c8c8180ffb709d16627a8989d0c1f38431ca273a13328752e763610b5e"
+    },
+    {
+      "source": "addons/strategic_map_editor/polygon_query.gd.uid",
+      "export": "addons/strategic_map_editor/polygon_query.gd.uid",
+      "source_sha256": "4650e86613907bfe74ba93bd2fd0c335c9658607974edf2caaf2a833de3f28c6",
+      "export_sha256": "4650e86613907bfe74ba93bd2fd0c335c9658607974edf2caaf2a833de3f28c6"
+    },
+    {
+      "source": "addons/strategic_map_editor/production_contract.gd",
+      "export": "addons/strategic_map_editor/production_contract.gd",
+      "source_sha256": "40f8af513f31a3950a3786f535edf14c9c41b2eada8615dc6311998a08c75772",
+      "export_sha256": "40f8af513f31a3950a3786f535edf14c9c41b2eada8615dc6311998a08c75772"
+    },
+    {
+      "source": "addons/strategic_map_editor/production_contract.gd.uid",
+      "export": "addons/strategic_map_editor/production_contract.gd.uid",
+      "source_sha256": "0634af1384cf0f14745bb07e4938b495fd311878992caff97b804afb4ba058f3",
+      "export_sha256": "0634af1384cf0f14745bb07e4938b495fd311878992caff97b804afb4ba058f3"
+    },
+    {
+      "source": "addons/strategic_map_editor/production_panel.gd",
+      "export": "addons/strategic_map_editor/production_panel.gd",
+      "source_sha256": "52d11477aba367d6bfc82cc8dee84d5747e83b8f1eb118493e0788b1e2ba99e1",
+      "export_sha256": "52d11477aba367d6bfc82cc8dee84d5747e83b8f1eb118493e0788b1e2ba99e1"
+    },
+    {
+      "source": "addons/strategic_map_editor/production_panel.gd.uid",
+      "export": "addons/strategic_map_editor/production_panel.gd.uid",
+      "source_sha256": "44520b13b22650a6aa0e2ef0d814ca0e3dbdcf6232a3023f6f0df5e3a5f45a6b",
+      "export_sha256": "44520b13b22650a6aa0e2ef0d814ca0e3dbdcf6232a3023f6f0df5e3a5f45a6b"
+    },
+    {
+      "source": "addons/strategic_map_editor/production_samples.gd",
+      "export": "addons/strategic_map_editor/production_samples.gd",
+      "source_sha256": "697dd262494623f60a15a5c200f2dcca4346d2f5628d0546254f65deb5742830",
+      "export_sha256": "697dd262494623f60a15a5c200f2dcca4346d2f5628d0546254f65deb5742830"
+    },
+    {
+      "source": "addons/strategic_map_editor/production_samples.gd.uid",
+      "export": "addons/strategic_map_editor/production_samples.gd.uid",
+      "source_sha256": "46ac08d77b40b8f23dfada10398530403afd31a8b15af6ca5afd6f06310ce45e",
+      "export_sha256": "46ac08d77b40b8f23dfada10398530403afd31a8b15af6ca5afd6f06310ce45e"
+    },
+    {
+      "source": "addons/strategic_map_editor/recovery_store.gd",
+      "export": "addons/strategic_map_editor/recovery_store.gd",
+      "source_sha256": "5dc3c07a42945ab8ea2babdaa31338d4ce570f6f90bc0feb6ff6e6ba8add623c",
+      "export_sha256": "5dc3c07a42945ab8ea2babdaa31338d4ce570f6f90bc0feb6ff6e6ba8add623c"
+    },
+    {
+      "source": "addons/strategic_map_editor/recovery_store.gd.uid",
+      "export": "addons/strategic_map_editor/recovery_store.gd.uid",
+      "source_sha256": "b522c9f38adcebab8b88d661345594e80dec90d88aad286221cc67636570da59",
+      "export_sha256": "b522c9f38adcebab8b88d661345594e80dec90d88aad286221cc67636570da59"
+    },
+    {
+      "source": "addons/strategic_map_editor/reference_registration.gd",
+      "export": "addons/strategic_map_editor/reference_registration.gd",
+      "source_sha256": "b2485ec3071c284c2425381e31904c8760e3aa155edf6697a594c6ce28d8907f",
+      "export_sha256": "b2485ec3071c284c2425381e31904c8760e3aa155edf6697a594c6ce28d8907f"
+    },
+    {
+      "source": "addons/strategic_map_editor/reference_registration.gd.uid",
+      "export": "addons/strategic_map_editor/reference_registration.gd.uid",
+      "source_sha256": "d40aad68d0faf77d6f1681ed732c19e98e289d86a33d5abb9513747165177432",
+      "export_sha256": "d40aad68d0faf77d6f1681ed732c19e98e289d86a33d5abb9513747165177432"
+    },
+    {
+      "source": "addons/strategic_map_editor/regional_preview.gdshader",
+      "export": "addons/strategic_map_editor/regional_preview.gdshader",
+      "source_sha256": "01d778133923a59b40bdf53f6460e84499a932893f28a8358d5498e95d0a2667",
+      "export_sha256": "01d778133923a59b40bdf53f6460e84499a932893f28a8358d5498e95d0a2667"
+    },
+    {
+      "source": "addons/strategic_map_editor/regional_preview.gdshader.uid",
+      "export": "addons/strategic_map_editor/regional_preview.gdshader.uid",
+      "source_sha256": "832181c44c7e4ea49077d9691d77bd53161f1817dc498051c1fc077e8012e460",
+      "export_sha256": "832181c44c7e4ea49077d9691d77bd53161f1817dc498051c1fc077e8012e460"
+    },
+    {
+      "source": "addons/strategic_map_editor/route_preview.gd",
+      "export": "addons/strategic_map_editor/route_preview.gd",
+      "source_sha256": "68b9d4b12dc800597a8d11297eff38a0980e2c6ae3386c10f13048c796d10d0c",
+      "export_sha256": "68b9d4b12dc800597a8d11297eff38a0980e2c6ae3386c10f13048c796d10d0c"
+    },
+    {
+      "source": "addons/strategic_map_editor/route_preview.gd.uid",
+      "export": "addons/strategic_map_editor/route_preview.gd.uid",
+      "source_sha256": "ffe27b11a909f100caf1e4c57bb4be88d3bed3e992ad4675b5d4fc48d8f151f7",
+      "export_sha256": "ffe27b11a909f100caf1e4c57bb4be88d3bed3e992ad4675b5d4fc48d8f151f7"
+    },
+    {
+      "source": "addons/strategic_map_editor/runtime_geometry_cache.gd",
+      "export": "addons/strategic_map_editor/runtime_geometry_cache.gd",
+      "source_sha256": "5c06e4efe0385b59df764282e16c87f8c87779aa8407fed4ce4ff43bacc716f6",
+      "export_sha256": "5c06e4efe0385b59df764282e16c87f8c87779aa8407fed4ce4ff43bacc716f6"
+    },
+    {
+      "source": "addons/strategic_map_editor/runtime_geometry_cache.gd.uid",
+      "export": "addons/strategic_map_editor/runtime_geometry_cache.gd.uid",
+      "source_sha256": "e663e48d2a5c4c328a66eda443e89cc743443f589d40ca325aef0d951aaf608c",
+      "export_sha256": "e663e48d2a5c4c328a66eda443e89cc743443f589d40ca325aef0d951aaf608c"
+    },
+    {
+      "source": "addons/strategic_map_editor/runtime_label_policy.gd",
+      "export": "addons/strategic_map_editor/runtime_label_policy.gd",
+      "source_sha256": "1eac83007cff02e5aaa8f0fe19a2ecb05f7d300abe131fa46c860095306c041b",
+      "export_sha256": "1eac83007cff02e5aaa8f0fe19a2ecb05f7d300abe131fa46c860095306c041b"
+    },
+    {
+      "source": "addons/strategic_map_editor/runtime_label_policy.gd.uid",
+      "export": "addons/strategic_map_editor/runtime_label_policy.gd.uid",
+      "source_sha256": "c4836ef4ce9753be0d92a8abd3b218f5d78ea32f25c91d21d19473368f5a52a6",
+      "export_sha256": "c4836ef4ce9753be0d92a8abd3b218f5d78ea32f25c91d21d19473368f5a52a6"
+    },
+    {
+      "source": "addons/strategic_map_editor/sample_geography_review.gd",
+      "export": "addons/strategic_map_editor/sample_geography_review.gd",
+      "source_sha256": "3ae966e3a80f6f15f8c0d95f865587f243f93255f27d7625bea8237bad4cf8a3",
+      "export_sha256": "3ae966e3a80f6f15f8c0d95f865587f243f93255f27d7625bea8237bad4cf8a3"
+    },
+    {
+      "source": "addons/strategic_map_editor/sample_geography_review.gd.uid",
+      "export": "addons/strategic_map_editor/sample_geography_review.gd.uid",
+      "source_sha256": "e43e3168952195b781b20f77b6b59df15403e95224340a11d4b39e116f11d2e8",
+      "export_sha256": "e43e3168952195b781b20f77b6b59df15403e95224340a11d4b39e116f11d2e8"
+    },
+    {
+      "source": "addons/strategic_map_editor/selection_overlay.gd",
+      "export": "addons/strategic_map_editor/selection_overlay.gd",
+      "source_sha256": "68ce59d1120669e792f25ce14c285ae8e2de5248779f810c285fee7f341ce28c",
+      "export_sha256": "68ce59d1120669e792f25ce14c285ae8e2de5248779f810c285fee7f341ce28c"
+    },
+    {
+      "source": "addons/strategic_map_editor/selection_overlay.gd.uid",
+      "export": "addons/strategic_map_editor/selection_overlay.gd.uid",
+      "source_sha256": "da0a9500ea1bf53353def5c090cdba3a430c8509d48fb9205c5824bb314889d5",
+      "export_sha256": "da0a9500ea1bf53353def5c090cdba3a430c8509d48fb9205c5824bb314889d5"
+    },
+    {
+      "source": "addons/strategic_map_editor/settings_panel.gd",
+      "export": "addons/strategic_map_editor/settings_panel.gd",
+      "source_sha256": "be8dad902016f51da75b1e3b9d72295a2dbf5de32b46e893c8386878bb8604a3",
+      "export_sha256": "be8dad902016f51da75b1e3b9d72295a2dbf5de32b46e893c8386878bb8604a3"
+    },
+    {
+      "source": "addons/strategic_map_editor/settings_panel.gd.uid",
+      "export": "addons/strategic_map_editor/settings_panel.gd.uid",
+      "source_sha256": "8653205e5d2756855e697b3a551e78d0a559950f6cd0095c47734730d0c92925",
+      "export_sha256": "8653205e5d2756855e697b3a551e78d0a559950f6cd0095c47734730d0c92925"
+    },
+    {
+      "source": "addons/strategic_map_editor/shared_boundaries.gd",
+      "export": "addons/strategic_map_editor/shared_boundaries.gd",
+      "source_sha256": "b2e3aad61d17614f9a6d769877c8760f86f37129294a9d8145d43f8b281ad333",
+      "export_sha256": "b2e3aad61d17614f9a6d769877c8760f86f37129294a9d8145d43f8b281ad333"
+    },
+    {
+      "source": "addons/strategic_map_editor/shared_boundaries.gd.uid",
+      "export": "addons/strategic_map_editor/shared_boundaries.gd.uid",
+      "source_sha256": "2cb28e0c792f268426b40cf1637bd5c27e41e057dad0d3053c3eb90efe28e2b1",
+      "export_sha256": "2cb28e0c792f268426b40cf1637bd5c27e41e057dad0d3053c3eb90efe28e2b1"
+    },
+    {
+      "source": "addons/strategic_map_editor/spatial_index.gd",
+      "export": "addons/strategic_map_editor/spatial_index.gd",
+      "source_sha256": "bf25d8ee1bd477f9712483bf1f0b14f7c8223f226e1ace1f462a4062ddf85cd0",
+      "export_sha256": "bf25d8ee1bd477f9712483bf1f0b14f7c8223f226e1ace1f462a4062ddf85cd0"
+    },
+    {
+      "source": "addons/strategic_map_editor/spatial_index.gd.uid",
+      "export": "addons/strategic_map_editor/spatial_index.gd.uid",
+      "source_sha256": "52274e7e7f1e58eefcddf215f9d8d68223fcdeb1c36979f0d216df45f345e2b3",
+      "export_sha256": "52274e7e7f1e58eefcddf215f9d8d68223fcdeb1c36979f0d216df45f345e2b3"
+    },
+    {
+      "source": "addons/strategic_map_editor/water_brush.gd",
+      "export": "addons/strategic_map_editor/water_brush.gd",
+      "source_sha256": "d0e483eb2e20b9e17e61a85f30ad0f5541e0b098073695f79e5d61fa514729ce",
+      "export_sha256": "d0e483eb2e20b9e17e61a85f30ad0f5541e0b098073695f79e5d61fa514729ce"
+    },
+    {
+      "source": "addons/strategic_map_editor/water_brush.gd.uid",
+      "export": "addons/strategic_map_editor/water_brush.gd.uid",
+      "source_sha256": "abcb6f7e311dad48d14dd2f720d03ae334bb4ac89eee0e33ba0b46ea4ae95491",
+      "export_sha256": "abcb6f7e311dad48d14dd2f720d03ae334bb4ac89eee0e33ba0b46ea4ae95491"
+    },
+    {
+      "source": "addons/strategic_map_editor/water_brush_input.gd",
+      "export": "addons/strategic_map_editor/water_brush_input.gd",
+      "source_sha256": "ad5b7e5bff8a51a6545bd6c4cf169559219b31dce11c48a39502fe5a33179682",
+      "export_sha256": "ad5b7e5bff8a51a6545bd6c4cf169559219b31dce11c48a39502fe5a33179682"
+    },
+    {
+      "source": "addons/strategic_map_editor/water_brush_input.gd.uid",
+      "export": "addons/strategic_map_editor/water_brush_input.gd.uid",
+      "source_sha256": "e15318e9109e9893b9ca18b198992ff1e1089adec28bdf80b49dcc25a112c025",
+      "export_sha256": "e15318e9109e9893b9ca18b198992ff1e1089adec28bdf80b49dcc25a112c025"
+    },
+    {
+      "source": "addons/strategic_map_editor/water_join.gd",
+      "export": "addons/strategic_map_editor/water_join.gd",
+      "source_sha256": "5d61c30db5a23d55fe4d0fb0ddb24aee3e35eb92c5aa5810931533b2f1516a74",
+      "export_sha256": "5d61c30db5a23d55fe4d0fb0ddb24aee3e35eb92c5aa5810931533b2f1516a74"
+    },
+    {
+      "source": "addons/strategic_map_editor/water_join.gd.uid",
+      "export": "addons/strategic_map_editor/water_join.gd.uid",
+      "source_sha256": "aab6158ae6204fc1fc08d81930d81d5c479a2ebd8ed32c20df2b8d9989e3e1a7",
+      "export_sha256": "aab6158ae6204fc1fc08d81930d81d5c479a2ebd8ed32c20df2b8d9989e3e1a7"
+    },
+    {
+      "source": "addons/strategic_map_editor/workbench.gd",
+      "export": "addons/strategic_map_editor/workbench.gd",
+      "source_sha256": "c8d9a817933b771d57aa10ad018eacf48c639fd25b04f6344b3f106d6b1f4c9c",
+      "export_sha256": "7641ccb03dadf6bf61f142833b312f4ce56fe73e2f28f098ed86c45fe6e68917"
+    },
+    {
+      "source": "addons/strategic_map_editor/workbench.gd.uid",
+      "export": "addons/strategic_map_editor/workbench.gd.uid",
+      "source_sha256": "dfe5527496c4ec1861d42ff78d8f44e1121160fa841071fa1fa3ce5187bc5f25",
+      "export_sha256": "dfe5527496c4ec1861d42ff78d8f44e1121160fa841071fa1fa3ce5187bc5f25"
+    },
+    {
+      "source": "addons/strategic_map_editor/workspace_panel.gd",
+      "export": "addons/strategic_map_editor/workspace_panel.gd",
+      "source_sha256": "5470edcdfb5b42f439523f0024cf64df36f106db94bef6bc8cf5172a1c372b6a",
+      "export_sha256": "5470edcdfb5b42f439523f0024cf64df36f106db94bef6bc8cf5172a1c372b6a"
+    },
+    {
+      "source": "addons/strategic_map_editor/workspace_panel.gd.uid",
+      "export": "addons/strategic_map_editor/workspace_panel.gd.uid",
+      "source_sha256": "10a8193b63a6738d4d8539d92b39c0e26d9072f9983c95a5dc461e438866bad9",
+      "export_sha256": "10a8193b63a6738d4d8539d92b39c0e26d9072f9983c95a5dc461e438866bad9"
+    },
+    {
+      "source": "scripts/ui/workshop_map_preferences.gd",
+      "export": "addons/strategic_map_editor/workshop_map_preferences.gd",
+      "source_sha256": "0b311dcc1508a88bd6fb9c3c924799d294a0ddc93b3149efb9ea7e4b40a3b6a3",
+      "export_sha256": "0b311dcc1508a88bd6fb9c3c924799d294a0ddc93b3149efb9ea7e4b40a3b6a3"
+    },
+    {
+      "source": "scripts/ui/workshop_map_preferences.gd.uid",
+      "export": "addons/strategic_map_editor/workshop_map_preferences.gd.uid",
+      "source_sha256": "efc8c9137b742084449c3fa5f087d637fca7c79bc4179a9317152061493761a8",
+      "export_sha256": "efc8c9137b742084449c3fa5f087d637fca7c79bc4179a9317152061493761a8"
+    },
+    {
+      "source": "scenes/map/components/workshop_place_layer.gd",
+      "export": "addons/strategic_map_editor/workshop_place_layer.gd",
+      "source_sha256": "00443c74dce4e2f8c66c675ab3ac3cd961510501388254202adee895c1dbb812",
+      "export_sha256": "00443c74dce4e2f8c66c675ab3ac3cd961510501388254202adee895c1dbb812"
+    },
+    {
+      "source": "scenes/map/components/workshop_place_layer.gd.uid",
+      "export": "addons/strategic_map_editor/workshop_place_layer.gd.uid",
+      "source_sha256": "b442b91eeb6a0e8c513a733eb1abca63d4f9e6efd8620869ae928a5b73260e04",
+      "export_sha256": "b442b91eeb6a0e8c513a733eb1abca63d4f9e6efd8620869ae928a5b73260e04"
+    }
+  ]
+}

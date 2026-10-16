@@ -1,0 +1,11 @@
+{
+  "case_id": "beta108_case_uighur_aid_cost",
+  "template_id": "uighur_aid_cost",
+  "phase_open_day": 61,
+  "facts": [{"fact_id": "fact_uighur_aid_cost", "kind": "aid_cost", "source_ref_id": "uighur_report_61", "public_summary": "援军条件与朝廷承诺的资源成本已经可核验。"}],
+  "claims": [{"claim_id": "claim_uighur_envoy", "character_id": "uighur_envoy", "fact_ids": ["fact_uighur_aid_cost"]}, {"claim_id": "claim_uighur_military", "character_id": "li_guangbi", "fact_ids": ["fact_uighur_aid_cost"]}],
+  "evidence": [{"evidence_id": "evidence_uighur_report", "kind": "verified_intelligence", "ref_id": "uighur_report_61"}, {"evidence_id": "evidence_uighur_treaty", "kind": "event_history", "ref_id": "uighur_treaty_62"}],
+  "available_verdicts": ["dismiss", "reform"],
+  "required_fact_kinds": ["aid_cost"],
+  "minimum_independent_sources": 2
+}

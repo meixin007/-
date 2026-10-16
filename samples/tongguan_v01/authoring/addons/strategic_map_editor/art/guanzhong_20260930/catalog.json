@@ -1,0 +1,41 @@
+{
+  "bundle_id": "guanzhong_20260930",
+  "version": 1,
+  "extends": "chuandong_20260930",
+  "assets": {
+    "gz_loess_terrace": {
+      "label": "关中 · 开阔低塬与侵蚀坡缘",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "loess-terrace-edge.png",
+      "rect": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "width": 300,
+      "anchor": [
+        0.5,
+        0.52
+      ]
+    },
+    "gz_loess_open_edge": {
+      "label": "关中 · 开放塬面与斜沟坡缘",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "loess-open-edge.png",
+      "rect": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "width": 310,
+      "anchor": [
+        0.5,
+        0.55
+      ]
+    }
+  }
+}

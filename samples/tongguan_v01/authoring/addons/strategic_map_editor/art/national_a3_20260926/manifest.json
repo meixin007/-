@@ -1,0 +1,32 @@
+{
+  "bundle_id": "national_a3_20260926",
+  "version": 1,
+  "extends": "national_a2_20260926",
+  "review_status": "PENDING_USER_REVIEW",
+  "generation_tool": "builtin image_gen",
+  "actual_backend_model": "NOT_EXPOSED",
+  "transparent_background": true,
+  "assets": [
+    {
+      "file": "field-strips.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "681faf3723ec31cf47dfe6eec85e4a8c7609b9b770630a1cc85f066afeafd645",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0dd76-6712-7540-918f-1d2fe4b5cbc6\\exec-ce1b6f7c-3669-4129-9d81-fad6b3883d2e.png"
+    },
+    {
+      "file": "fields.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1c6eb8b8d36237a60c9d87eac5de5247d845e34a4562d46efb00b009f447c139",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0dd76-6712-7540-918f-1d2fe4b5cbc6\\exec-9e041bf4-a113-4d03-b0a6-cce69f25beac.png"
+    },
+    {
+      "file": "hamlet.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "dbdeb95405f36cfff619ab2a30817913bdefbca32d89c4991eb45017ca856a50",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0dd76-6712-7540-918f-1d2fe4b5cbc6\\exec-609ee56f-f3e7-473d-ad18-96e41a6bab26.png"
+    }
+  ]
+}

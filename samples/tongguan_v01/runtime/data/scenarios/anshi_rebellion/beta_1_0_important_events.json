@@ -1,0 +1,1275 @@
+[
+  {
+    "id": "beta10_day01_court_open",
+    "type": "memorial",
+    "title": "行在初开急奏",
+    "visible_summary": "即位后首日，朔方军前与宫门同时递进急奏。",
+    "source_kind": "system",
+    "source_character_id": "",
+    "related_character_ids": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "trigger_day": 1,
+    "deadline_days": 2,
+    "severity": "important",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "free_dialogue"
+    ],
+    "available_decisions": [
+      "set_military_priority",
+      "set_grain_priority"
+    ],
+    "on_resolve": [
+      {
+        "type": "resource_delta",
+        "target": "court_authority",
+        "value": 1
+      }
+    ],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "court_authority",
+        "value": -1
+      }
+    ],
+    "knowledge_sources": [
+      "中书通告"
+    ],
+    "confidence": 1.0,
+    "visible_risks": [
+      "政令失序"
+    ],
+    "related_task_ids": [
+      "guo_grain_priority_task"
+    ],
+    "related_map_ids": [
+      "lingwu_court_node"
+    ],
+    "related_chain_ids": [
+      "grain_authority"
+    ]
+  },
+  {
+    "id": "beta10_day02_guo_audience",
+    "type": "audience",
+    "title": "郭子仪请见",
+    "visible_summary": "郭子仪求当面陈述朔方粮道与统兵名分。",
+    "source_kind": "character",
+    "source_character_id": "guo_ziyi",
+    "related_character_ids": [
+      "guo_ziyi",
+      "li_bi"
+    ],
+    "trigger_day": 2,
+    "deadline_days": 3,
+    "severity": "major",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "summon_audience",
+      "free_dialogue",
+      "open_key_scene"
+    ],
+    "available_decisions": [
+      "appoint_guo_shuofang_commander",
+      "delay_grain"
+    ],
+    "on_resolve": [
+      {
+        "type": "resource_delta",
+        "target": "military_morale",
+        "value": 1
+      }
+    ],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "military_morale",
+        "value": -2
+      }
+    ],
+    "knowledge_sources": [
+      "朔方军前奏"
+    ],
+    "confidence": 0.9,
+    "visible_risks": [
+      "军心不稳"
+    ],
+    "related_task_ids": [
+      "guo_grain_priority_task"
+    ],
+    "related_map_ids": [
+      "shuofang_front_node"
+    ],
+    "related_chain_ids": [
+      "grain_authority"
+    ]
+  },
+  {
+    "id": "beta10_grain_audit_notice",
+    "type": "memorial",
+    "title": "朔方粮道复核",
+    "visible_summary": "军需官请复核朔方粮道账册。",
+    "source_kind": "system",
+    "source_character_id": "",
+    "related_character_ids": [
+      "grain_official_lingwu"
+    ],
+    "trigger_day": 3,
+    "deadline_days": 2,
+    "severity": "important",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "free_dialogue"
+    ],
+    "available_decisions": [
+      "send_grain",
+      "delay_grain",
+      "audit_grain_register"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "military_morale",
+        "value": -2
+      }
+    ],
+    "knowledge_sources": [
+      "军需官账册"
+    ],
+    "confidence": 1.0,
+    "visible_risks": [
+      "军心受损"
+    ],
+    "related_task_ids": [
+      "grain_transport_task"
+    ],
+    "related_map_ids": [
+      "grain_road_node"
+    ],
+    "related_chain_ids": [
+      "grain_authority"
+    ]
+  },
+  {
+    "id": "beta10_day04_merchant_plea",
+    "type": "public_sentiment",
+    "title": "市井求减征发",
+    "visible_summary": "灵武商民代表请求暂缓为军前征发。",
+    "source_kind": "character",
+    "source_character_id": "lingwu_merchant_refugee",
+    "related_character_ids": [
+      "lingwu_merchant_refugee",
+      "grain_official_lingwu"
+    ],
+    "trigger_day": 4,
+    "deadline_days": 3,
+    "severity": "important",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "free_dialogue",
+      "ask_advice"
+    ],
+    "available_decisions": [
+      "public_grain_reassurance",
+      "emergency_requisition_grain"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "public_order",
+        "value": -3
+      }
+    ],
+    "knowledge_sources": [
+      "市井联名"
+    ],
+    "confidence": 0.85,
+    "visible_risks": [
+      "民秩动摇"
+    ],
+    "related_task_ids": [
+      "grain_transport_task"
+    ],
+    "related_map_ids": [
+      "refugee_market_node"
+    ],
+    "related_chain_ids": [
+      "uighur_cost_legitimacy"
+    ]
+  },
+  {
+    "id": "beta10_palace_channel_notice",
+    "type": "secret_report",
+    "title": "宫门传信受阻",
+    "visible_summary": "中书传来宫门渠道受阻的密报。",
+    "source_kind": "unknown",
+    "source_character_id": "",
+    "related_character_ids": [
+      "li_fuguo",
+      "li_bi"
+    ],
+    "trigger_day": 5,
+    "deadline_days": 2,
+    "severity": "important",
+    "visibility_state": "estimated",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "free_dialogue"
+    ],
+    "available_decisions": [
+      "summon_li_bi",
+      "trust_li_fuguo_report"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "court_authority",
+        "value": -1
+      }
+    ],
+    "knowledge_sources": [
+      "中书密报"
+    ],
+    "confidence": 0.6,
+    "visible_risks": [
+      "政令迟滞"
+    ],
+    "related_task_ids": [
+      "li_fuguo_gate_task"
+    ],
+    "related_map_ids": [
+      "palace_inner_channel_node"
+    ],
+    "related_chain_ids": [
+      "palace_channel_precedent"
+    ]
+  },
+  {
+    "id": "beta10_day06_li_bi_night",
+    "type": "audience",
+    "title": "李泌夜对请限权",
+    "visible_summary": "李泌请以日限约束紧急授权，防近侍成例。",
+    "source_kind": "character",
+    "source_character_id": "li_bi",
+    "related_character_ids": [
+      "li_bi",
+      "li_fuguo"
+    ],
+    "trigger_day": 6,
+    "deadline_days": 3,
+    "severity": "major",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "summon_audience",
+      "free_dialogue",
+      "draft_decree"
+    ],
+    "available_decisions": [
+      "summon_li_bi",
+      "restrain_eunuch_gatekeeping"
+    ],
+    "on_resolve": [
+      {
+        "type": "resource_delta",
+        "target": "legitimacy",
+        "value": 1
+      }
+    ],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "legitimacy",
+        "value": -2
+      }
+    ],
+    "knowledge_sources": [
+      "夜对私记"
+    ],
+    "confidence": 0.95,
+    "visible_risks": [
+      "制度失守"
+    ],
+    "related_task_ids": [
+      "li_fuguo_gate_task"
+    ],
+    "related_map_ids": [
+      "lingwu_court_node"
+    ],
+    "related_chain_ids": [
+      "palace_channel_precedent"
+    ]
+  },
+  {
+    "id": "beta10_uighur_terms_notice",
+    "type": "diplomacy",
+    "title": "回纥使团催问盟约",
+    "visible_summary": "回纥使团要求明确援军与赏赐条件。",
+    "source_kind": "character",
+    "source_character_id": "uighur_envoy",
+    "related_character_ids": [
+      "uighur_envoy",
+      "pugu_huaien"
+    ],
+    "trigger_day": 7,
+    "deadline_days": 3,
+    "severity": "major",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "start_negotiation",
+      "free_dialogue"
+    ],
+    "available_decisions": [
+      "negotiate_uighur_vanguard",
+      "approve_uighur_reward",
+      "delay_uighur_terms"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "court_authority",
+        "value": -2
+      }
+    ],
+    "knowledge_sources": [
+      "回纥使团国书"
+    ],
+    "confidence": 1.0,
+    "visible_risks": [
+      "外援动摇"
+    ],
+    "related_task_ids": [
+      "pugu_fast_cavalry_task"
+    ],
+    "related_map_ids": [
+      "uighur_route_node"
+    ],
+    "related_chain_ids": [
+      "uighur_cost_legitimacy"
+    ]
+  },
+  {
+    "id": "beta10_day09_gate_leak",
+    "type": "secret_report",
+    "title": "宫门副使泄密迹象",
+    "visible_summary": "有人指宫门副使改写急奏措辞。",
+    "source_kind": "character",
+    "source_character_id": "eunuch_deputy_gate",
+    "related_character_ids": [
+      "eunuch_deputy_gate",
+      "li_fuguo",
+      "li_chu"
+    ],
+    "trigger_day": 9,
+    "deadline_days": 2,
+    "severity": "major",
+    "visibility_state": "estimated",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "free_dialogue",
+      "ask_advice"
+    ],
+    "available_decisions": [
+      "investigate_grain_official",
+      "restrain_eunuch_gatekeeping"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "intelligence",
+        "value": -2
+      }
+    ],
+    "knowledge_sources": [
+      "匿名密札"
+    ],
+    "confidence": 0.55,
+    "visible_risks": [
+      "消息失真"
+    ],
+    "related_task_ids": [
+      "gate_deputy_sealed_task"
+    ],
+    "related_map_ids": [
+      "palace_inner_channel_node"
+    ],
+    "related_chain_ids": [
+      "palace_channel_precedent"
+    ]
+  },
+  {
+    "id": "beta10_day11_old_court",
+    "type": "memorial",
+    "title": "旧臣请复旧仪",
+    "visible_summary": "旧臣强硬派请停止便宜行事，恢复正式程序。",
+    "source_kind": "character",
+    "source_character_id": "hardline_old_court_official",
+    "related_character_ids": [
+      "hardline_old_court_official",
+      "li_bi"
+    ],
+    "trigger_day": 11,
+    "deadline_days": 3,
+    "severity": "important",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "free_dialogue",
+      "draft_decree"
+    ],
+    "available_decisions": [
+      "honor_xuanzong_edict",
+      "assert_suzong_authority"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "legitimacy",
+        "value": -2
+      }
+    ],
+    "knowledge_sources": [
+      "朝堂奏疏"
+    ],
+    "confidence": 0.92,
+    "visible_risks": [
+      "正统争议"
+    ],
+    "related_task_ids": [
+      "support_against_gate_task"
+    ],
+    "related_map_ids": [
+      "lingwu_court_node"
+    ],
+    "related_chain_ids": [
+      "palace_channel_precedent"
+    ]
+  },
+  {
+    "id": "beta10_day12_li_chu_watch",
+    "type": "audience",
+    "title": "李俶请监宫门",
+    "visible_summary": "李俶请监核宫门收发，防近侍专断。",
+    "source_kind": "character",
+    "source_character_id": "li_chu",
+    "related_character_ids": [
+      "li_chu",
+      "li_fuguo"
+    ],
+    "trigger_day": 12,
+    "deadline_days": 3,
+    "severity": "major",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "summon_audience",
+      "free_dialogue"
+    ],
+    "available_decisions": [
+      "restrain_eunuch_gatekeeping",
+      "summon_li_bi"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "court_authority",
+        "value": -1
+      }
+    ],
+    "knowledge_sources": [
+      "东宫请对"
+    ],
+    "confidence": 0.93,
+    "visible_risks": [
+      "皇权旁落"
+    ],
+    "related_task_ids": [
+      "li_fuguo_gate_task"
+    ],
+    "related_map_ids": [
+      "palace_inner_channel_node"
+    ],
+    "related_chain_ids": [
+      "palace_channel_precedent"
+    ]
+  },
+  {
+    "id": "beta10_day13_grain_theft",
+    "type": "memorial",
+    "title": "粮册亏空坐实",
+    "visible_summary": "复核显示仓廪与账册不符，需定责。",
+    "source_kind": "system",
+    "source_character_id": "",
+    "related_character_ids": [
+      "grain_official_lingwu",
+      "guo_ziyi"
+    ],
+    "trigger_day": 13,
+    "deadline_days": 3,
+    "severity": "critical",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "free_dialogue"
+    ],
+    "available_decisions": [
+      "punish_grain_corruption",
+      "audit_grain_register",
+      "seal_grain_warehouse"
+    ],
+    "on_resolve": [
+      {
+        "type": "resource_delta",
+        "target": "public_order",
+        "value": 1
+      }
+    ],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "grain",
+        "value": -20
+      }
+    ],
+    "knowledge_sources": [
+      "仓簿对勘"
+    ],
+    "confidence": 1.0,
+    "visible_risks": [
+      "军粮中断"
+    ],
+    "related_task_ids": [
+      "grain_transport_task"
+    ],
+    "related_map_ids": [
+      "grain_road_node"
+    ],
+    "related_chain_ids": [
+      "grain_authority"
+    ]
+  },
+  {
+    "id": "beta10_day14_uighur_price",
+    "type": "diplomacy",
+    "title": "回纥加价",
+    "visible_summary": "回纥使团以市井抵制为由提高赏赐要求。",
+    "source_kind": "character",
+    "source_character_id": "uighur_envoy",
+    "related_character_ids": [
+      "uighur_envoy",
+      "lingwu_merchant_refugee"
+    ],
+    "trigger_day": 14,
+    "deadline_days": 3,
+    "severity": "major",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "start_negotiation",
+      "free_dialogue"
+    ],
+    "available_decisions": [
+      "approve_uighur_reward",
+      "delay_uighur_terms",
+      "negotiate_uighur_vanguard"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "legitimacy",
+        "value": -2
+      }
+    ],
+    "knowledge_sources": [
+      "使团二次国书"
+    ],
+    "confidence": 0.9,
+    "visible_risks": [
+      "外援要挟"
+    ],
+    "related_task_ids": [
+      "pugu_fast_cavalry_task"
+    ],
+    "related_map_ids": [
+      "uighur_route_node"
+    ],
+    "related_chain_ids": [
+      "uighur_cost_legitimacy"
+    ]
+  },
+  {
+    "id": "beta10_day15_route_cut",
+    "type": "military",
+    "title": "粮道受扰",
+    "visible_summary": "斥候报关中联络道出现截粮迹象。",
+    "source_kind": "character",
+    "source_character_id": "guo_ziyi",
+    "related_character_ids": [
+      "guo_ziyi",
+      "regional_jiedushi_rep"
+    ],
+    "trigger_day": 15,
+    "deadline_days": 2,
+    "severity": "major",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "free_dialogue",
+      "open_key_scene"
+    ],
+    "available_decisions": [
+      "reinforce_guanzhong_relay",
+      "send_grain",
+      "fortify_lingwu_camps"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "military_morale",
+        "value": -3
+      }
+    ],
+    "knowledge_sources": [
+      "斥候急报"
+    ],
+    "confidence": 0.8,
+    "visible_risks": [
+      "补给中断"
+    ],
+    "related_task_ids": [
+      "guo_grain_priority_task"
+    ],
+    "related_map_ids": [
+      "guanzhong_approach_node"
+    ],
+    "related_chain_ids": [
+      "grain_authority"
+    ]
+  },
+  {
+    "id": "beta10_day18_li_bi_compromise",
+    "type": "audience",
+    "title": "李泌提折中诏式",
+    "visible_summary": "李泌拟以有时限的中书副署兼顾速决与程序。",
+    "source_kind": "character",
+    "source_character_id": "li_bi",
+    "related_character_ids": [
+      "li_bi",
+      "li_chu",
+      "li_fuguo"
+    ],
+    "trigger_day": 18,
+    "deadline_days": 3,
+    "severity": "major",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "draft_decree",
+      "free_dialogue"
+    ],
+    "available_decisions": [
+      "summon_li_bi",
+      "restrain_eunuch_gatekeeping"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "court_authority",
+        "value": -1
+      }
+    ],
+    "knowledge_sources": [
+      "学士草诏"
+    ],
+    "confidence": 0.95,
+    "visible_risks": [
+      "程序空转"
+    ],
+    "related_task_ids": [
+      "li_fuguo_gate_task"
+    ],
+    "related_map_ids": [
+      "lingwu_court_node"
+    ],
+    "related_chain_ids": [
+      "palace_channel_precedent"
+    ]
+  },
+  {
+    "id": "beta10_day19_market_strike",
+    "type": "public_sentiment",
+    "title": "市集短暂停市",
+    "visible_summary": "商民以征发过重短暂停市示警。",
+    "source_kind": "character",
+    "source_character_id": "lingwu_merchant_refugee",
+    "related_character_ids": [
+      "lingwu_merchant_refugee",
+      "hardline_old_court_official"
+    ],
+    "trigger_day": 19,
+    "deadline_days": 2,
+    "severity": "major",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "free_dialogue"
+    ],
+    "available_decisions": [
+      "public_grain_reassurance",
+      "emergency_requisition_grain"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "public_order",
+        "value": -4
+      }
+    ],
+    "knowledge_sources": [
+      "坊市报状"
+    ],
+    "confidence": 0.9,
+    "visible_risks": [
+      "民变风险"
+    ],
+    "related_task_ids": [
+      "grain_transport_task"
+    ],
+    "related_map_ids": [
+      "refugee_market_node"
+    ],
+    "related_chain_ids": [
+      "uighur_cost_legitimacy"
+    ]
+  },
+  {
+    "id": "beta10_day20_promise_due",
+    "type": "memorial",
+    "title": "军前承诺将到期",
+    "visible_summary": "郭子仪方面提醒正式统兵名分期限将近。",
+    "source_kind": "character",
+    "source_character_id": "guo_ziyi",
+    "related_character_ids": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "trigger_day": 20,
+    "deadline_days": 2,
+    "severity": "critical",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "free_dialogue",
+      "summon_audience"
+    ],
+    "available_decisions": [
+      "appoint_guo_shuofang_commander",
+      "delay_grain"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "military_morale",
+        "value": -4
+      }
+    ],
+    "knowledge_sources": [
+      "军前期限札"
+    ],
+    "confidence": 1.0,
+    "visible_risks": [
+      "将领索债"
+    ],
+    "related_task_ids": [
+      "guo_grain_priority_task"
+    ],
+    "related_map_ids": [
+      "shuofang_front_node"
+    ],
+    "related_chain_ids": [
+      "grain_authority"
+    ]
+  },
+  {
+    "id": "beta10_day21_fuguo_channel",
+    "type": "secret_report",
+    "title": "李辅国请统一渠道",
+    "visible_summary": "李辅国请凡军国急奏先经宫门登记。",
+    "source_kind": "character",
+    "source_character_id": "li_fuguo",
+    "related_character_ids": [
+      "li_fuguo",
+      "li_chu",
+      "eunuch_deputy_gate"
+    ],
+    "trigger_day": 21,
+    "deadline_days": 3,
+    "severity": "major",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "free_dialogue"
+    ],
+    "available_decisions": [
+      "trust_li_fuguo_report",
+      "restrain_eunuch_gatekeeping"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "intelligence",
+        "value": -2
+      }
+    ],
+    "knowledge_sources": [
+      "内侍奏对"
+    ],
+    "confidence": 0.85,
+    "visible_risks": [
+      "近侍成例"
+    ],
+    "related_task_ids": [
+      "li_fuguo_gate_task"
+    ],
+    "related_map_ids": [
+      "palace_inner_channel_node"
+    ],
+    "related_chain_ids": [
+      "palace_channel_precedent"
+    ]
+  },
+  {
+    "id": "beta10_day23_pugu_alliance",
+    "type": "military",
+    "title": "仆固请联回纥",
+    "visible_summary": "仆固怀恩请以回纥骑兵急援关中道。",
+    "source_kind": "character",
+    "source_character_id": "pugu_huaien",
+    "related_character_ids": [
+      "pugu_huaien",
+      "uighur_envoy",
+      "guo_ziyi"
+    ],
+    "trigger_day": 23,
+    "deadline_days": 3,
+    "severity": "major",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "start_negotiation",
+      "free_dialogue"
+    ],
+    "available_decisions": [
+      "negotiate_uighur_vanguard",
+      "approve_uighur_reward"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "military_morale",
+        "value": -2
+      }
+    ],
+    "knowledge_sources": [
+      "军前联名"
+    ],
+    "confidence": 0.88,
+    "visible_risks": [
+      "外援绑定"
+    ],
+    "related_task_ids": [
+      "pugu_fast_cavalry_task"
+    ],
+    "related_map_ids": [
+      "desert_envoy_road_node"
+    ],
+    "related_chain_ids": [
+      "uighur_cost_legitimacy"
+    ]
+  },
+  {
+    "id": "beta10_day24_old_court_attack",
+    "type": "memorial",
+    "title": "旧臣攻外援",
+    "visible_summary": "旧臣以正统名义攻击借兵回纥。",
+    "source_kind": "character",
+    "source_character_id": "hardline_old_court_official",
+    "related_character_ids": [
+      "hardline_old_court_official",
+      "uighur_envoy",
+      "li_bi"
+    ],
+    "trigger_day": 24,
+    "deadline_days": 2,
+    "severity": "important",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "free_dialogue",
+      "draft_decree"
+    ],
+    "available_decisions": [
+      "assert_suzong_authority",
+      "delay_uighur_terms"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "legitimacy",
+        "value": -3
+      }
+    ],
+    "knowledge_sources": [
+      "朝议攻讦"
+    ],
+    "confidence": 0.9,
+    "visible_risks": [
+      "朝堂分裂"
+    ],
+    "related_task_ids": [
+      "support_against_gate_task"
+    ],
+    "related_map_ids": [
+      "lingwu_court_node"
+    ],
+    "related_chain_ids": [
+      "uighur_cost_legitimacy"
+    ]
+  },
+  {
+    "id": "beta10_day25_gate_choice",
+    "type": "secret_report",
+    "title": "宫门归属摊牌",
+    "visible_summary": "李俶与李辅国就宫门收发权摊牌。",
+    "source_kind": "character",
+    "source_character_id": "li_chu",
+    "related_character_ids": [
+      "li_chu",
+      "li_fuguo",
+      "eunuch_deputy_gate"
+    ],
+    "trigger_day": 25,
+    "deadline_days": 3,
+    "severity": "critical",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "summon_audience",
+      "free_dialogue"
+    ],
+    "available_decisions": [
+      "restrain_eunuch_gatekeeping",
+      "trust_li_fuguo_report"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "court_authority",
+        "value": -3
+      }
+    ],
+    "knowledge_sources": [
+      "东宫与内侍对质"
+    ],
+    "confidence": 0.95,
+    "visible_risks": [
+      "皇权旁落"
+    ],
+    "related_task_ids": [
+      "support_against_gate_task"
+    ],
+    "related_map_ids": [
+      "palace_inner_channel_node"
+    ],
+    "related_chain_ids": [
+      "palace_channel_precedent"
+    ]
+  },
+  {
+    "id": "beta10_day26_grain_final",
+    "type": "memorial",
+    "title": "军粮最后窗口",
+    "visible_summary": "若不立即定粮权与仓运，朔方将失补给窗口。",
+    "source_kind": "system",
+    "source_character_id": "",
+    "related_character_ids": [
+      "guo_ziyi",
+      "grain_official_lingwu",
+      "li_guangbi"
+    ],
+    "trigger_day": 26,
+    "deadline_days": 2,
+    "severity": "critical",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "free_dialogue"
+    ],
+    "available_decisions": [
+      "send_grain",
+      "seal_grain_warehouse",
+      "set_grain_priority"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "military_morale",
+        "value": -5
+      }
+    ],
+    "knowledge_sources": [
+      "军需总簿"
+    ],
+    "confidence": 1.0,
+    "visible_risks": [
+      "前线崩溃"
+    ],
+    "related_task_ids": [
+      "grain_transport_task"
+    ],
+    "related_map_ids": [
+      "grain_road_node"
+    ],
+    "related_chain_ids": [
+      "grain_authority"
+    ]
+  },
+  {
+    "id": "beta10_day27_final_military",
+    "type": "military",
+    "title": "最终军事授权",
+    "visible_summary": "需在朔方、河东与回纥骑兵之间定最终授权。",
+    "source_kind": "character",
+    "source_character_id": "guo_ziyi",
+    "related_character_ids": [
+      "guo_ziyi",
+      "li_guangbi",
+      "pugu_huaien"
+    ],
+    "trigger_day": 27,
+    "deadline_days": 2,
+    "severity": "critical",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "summon_audience",
+      "free_dialogue",
+      "open_key_scene"
+    ],
+    "available_decisions": [
+      "appoint_guo_shuofang_commander",
+      "set_military_priority",
+      "negotiate_uighur_vanguard"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "military_morale",
+        "value": -4
+      }
+    ],
+    "knowledge_sources": [
+      "三方军议"
+    ],
+    "confidence": 0.97,
+    "visible_risks": [
+      "战机尽失"
+    ],
+    "related_task_ids": [
+      "guo_grain_priority_task"
+    ],
+    "related_map_ids": [
+      "shuofang_front_node"
+    ],
+    "related_chain_ids": [
+      "grain_authority"
+    ]
+  },
+  {
+    "id": "beta10_day28_final_palace",
+    "type": "audience",
+    "title": "最终宫门裁定",
+    "visible_summary": "需裁定宫门渠道归属与监督。",
+    "source_kind": "character",
+    "source_character_id": "li_bi",
+    "related_character_ids": [
+      "li_bi",
+      "li_chu",
+      "li_fuguo"
+    ],
+    "trigger_day": 28,
+    "deadline_days": 2,
+    "severity": "critical",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "draft_decree",
+      "free_dialogue"
+    ],
+    "available_decisions": [
+      "restrain_eunuch_gatekeeping",
+      "assert_suzong_authority",
+      "summon_li_bi"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "court_authority",
+        "value": -4
+      }
+    ],
+    "knowledge_sources": [
+      "学士与东宫联署"
+    ],
+    "confidence": 0.96,
+    "visible_risks": [
+      "近侍专权"
+    ],
+    "related_task_ids": [
+      "li_fuguo_gate_task"
+    ],
+    "related_map_ids": [
+      "lingwu_court_node"
+    ],
+    "related_chain_ids": [
+      "palace_channel_precedent"
+    ]
+  },
+  {
+    "id": "beta10_day29_final_diplomacy",
+    "type": "diplomacy",
+    "title": "最终回纥条款",
+    "visible_summary": "回纥条款必须今夜前确认或拒绝。",
+    "source_kind": "character",
+    "source_character_id": "uighur_envoy",
+    "related_character_ids": [
+      "uighur_envoy",
+      "hardline_old_court_official",
+      "lingwu_merchant_refugee"
+    ],
+    "trigger_day": 29,
+    "deadline_days": 1,
+    "severity": "critical",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "start_negotiation",
+      "free_dialogue"
+    ],
+    "available_decisions": [
+      "approve_uighur_reward",
+      "delay_uighur_terms",
+      "negotiate_uighur_vanguard"
+    ],
+    "on_resolve": [],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "legitimacy",
+        "value": -4
+      }
+    ],
+    "knowledge_sources": [
+      "使团最后通牒"
+    ],
+    "confidence": 1.0,
+    "visible_risks": [
+      "外援破裂"
+    ],
+    "related_task_ids": [
+      "pugu_fast_cavalry_task"
+    ],
+    "related_map_ids": [
+      "uighur_route_node"
+    ],
+    "related_chain_ids": [
+      "uighur_cost_legitimacy"
+    ]
+  },
+  {
+    "id": "beta10_day30_phase_settle",
+    "type": "memorial",
+    "title": "灵武阶段结算前夜",
+    "visible_summary": "第30日需汇总粮权、宫门与回纥三条链的最终后果。",
+    "source_kind": "system",
+    "source_character_id": "",
+    "related_character_ids": [
+      "guo_ziyi",
+      "li_bi",
+      "li_fuguo",
+      "uighur_envoy"
+    ],
+    "trigger_day": 30,
+    "deadline_days": 1,
+    "severity": "critical",
+    "visibility_state": "known",
+    "requires_player_action": true,
+    "interaction_targets": [
+      "free_dialogue",
+      "ask_advice"
+    ],
+    "available_decisions": [
+      "assert_suzong_authority",
+      "set_legitimacy_priority"
+    ],
+    "on_resolve": [
+      {
+        "type": "resource_delta",
+        "target": "court_authority",
+        "value": 1
+      }
+    ],
+    "on_expire": [
+      {
+        "type": "resource_delta",
+        "target": "legitimacy",
+        "value": -2
+      }
+    ],
+    "knowledge_sources": [
+      "行在总簿"
+    ],
+    "confidence": 1.0,
+    "visible_risks": [
+      "阶段失控"
+    ],
+    "related_task_ids": [
+      "support_against_gate_task"
+    ],
+    "related_map_ids": [
+      "lingwu_court_node"
+    ],
+    "related_chain_ids": [
+      "grain_authority",
+      "palace_channel_precedent",
+      "uighur_cost_legitimacy"
+    ]
+  }
+]

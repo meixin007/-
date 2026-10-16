@@ -1,0 +1,185 @@
+[
+  {
+    "id": "beta105_day69_uighur_terms_scene",
+    "title": "回纥条款廷议",
+    "entry_event_id": "beta105_day69_uighur_final_price",
+    "entry_character_id": "uighur_envoy",
+    "entry_condition": "回纥使团在决战前抬高援军价码，朝廷必须当众定下条款。",
+    "intro_text": "使者列出马价、赏约与战后分赐三项条款。仆固怀恩在侧不语，旧臣则等着看新朝以什么名义答应外邦。",
+    "choices": [
+      {
+        "id": "publish_full_terms",
+        "label": "当廷明定条款",
+        "result_text": "条款公开写入诏令，外援价码不再私相授受，但正统代价当众落定。",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": -2
+          },
+          {
+            "type": "resource_delta",
+            "target": "military_morale",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "defer_reward_settlement",
+        "label": "延后赏约结算",
+        "result_text": "援军照常出兵，赏约留到战后再议，欠账转入下一次交涉。",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          },
+          {
+            "type": "resource_delta",
+            "target": "grain",
+            "value": -40
+          }
+        ]
+      },
+      {
+        "id": "refuse_price_increase",
+        "label": "拒绝加价",
+        "result_text": "朝廷守住原议，使者面色转冷，前线只能靠自有兵力承担决战。",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 2
+          },
+          {
+            "type": "resource_delta",
+            "target": "military_morale",
+            "value": -3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beta105_day88_three_chain_scene",
+    "title": "三链同压御前议",
+    "entry_event_id": "beta105_day88_three_chain_collision",
+    "entry_character_id": "li_bi",
+    "entry_condition": "粮权、宫门与回纥三条政治链在同一日一起逼近，无法全部满足。",
+    "intro_text": "李泌陈述成例，李辅国持奏报入内，郭子仪催问粮限。三方所求彼此排斥，御前必须先舍其一。",
+    "choices": [
+      {
+        "id": "prioritize_front_supply",
+        "label": "先保前线粮限",
+        "result_text": "粮道优先获保，宫门程序与回纥条款被押后，将帅得势而外交生怨。",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "military_morale",
+            "value": 3
+          },
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "id": "prioritize_gate_procedure",
+        "label": "先正宫门程序",
+        "result_text": "诏令入口重新收归外朝，程序得以澄清，但前线与外援都要多等一轮。",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 3
+          },
+          {
+            "type": "resource_delta",
+            "target": "military_morale",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "id": "prioritize_alliance_terms",
+        "label": "先了回纥之约",
+        "result_text": "外援条款先行落定，联军不致中途生变，代价是正统解释再退一步。",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": -3
+          },
+          {
+            "type": "resource_delta",
+            "target": "military_morale",
+            "value": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beta105_day90_final_court_scene",
+    "title": "灵武最终朝会",
+    "entry_event_id": "beta105_day90_final_court",
+    "entry_character_id": "li_bi",
+    "entry_condition": "九十日已尽，三条政治链、人物立场与未偿承诺在最终朝会上一并结算。",
+    "intro_text": "行在殿上，九十日来的诏令、承诺与旧账都被摆到台前。诸人各执一词，最后一次等待皇帝定调。",
+    "choices": [
+      {
+        "id": "declare_military_restoration",
+        "label": "以军事收复定调",
+        "result_text": "新朝以反攻两京为纲，将帅得到最终授权，制度与民力代价延后偿还。",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "military_morale",
+            "value": 3
+          },
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": -1
+          }
+        ]
+      },
+      {
+        "id": "declare_institutional_order",
+        "label": "以制度正统定调",
+        "result_text": "新朝以礼制与程序为纲，诏令重新可信，反攻节奏因此放缓。",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 3
+          },
+          {
+            "type": "resource_delta",
+            "target": "military_morale",
+            "value": -1
+          }
+        ]
+      },
+      {
+        "id": "declare_balanced_settlement",
+        "label": "以并存之势定调",
+        "result_text": "军令与程序各留其半，无人尽兴，也无人出局，全部债务写入下一朝。",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 2
+          },
+          {
+            "type": "resource_delta",
+            "target": "grain",
+            "value": -20
+          }
+        ]
+      }
+    ]
+  }
+]

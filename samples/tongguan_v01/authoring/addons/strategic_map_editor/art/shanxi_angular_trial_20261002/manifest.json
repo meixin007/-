@@ -1,0 +1,55 @@
+{
+  "bundle_id": "shanxi_angular_trial_20261002",
+  "version": 1,
+  "extends": "shanxi_revision_20261001",
+  "assets": [
+    {
+      "file": "angular-crags-sample-v01.png",
+      "sha256": "9c22fdfee7c0bfa522138e86846101f0fd3b058a2e35246d3e5fb7a34154ddf9",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "file": "angular-branch-saddle-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f522f27fead709fff7266447929c4d8de4d528eeaf852ccb085dd23562224ce1"
+    },
+    {
+      "file": "angular-east-scarp-v01.png",
+      "width": 1374,
+      "height": 1145,
+      "sha256": "810fcf87a4c32b7eb8e86ed27243b9d2037224c0d0a1d7ec4e229b44871123da"
+    },
+    {
+      "file": "angular-south-commonbody-v02.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "d2d3a4a8ae68fe24e451cc3cdf821b485dde8d3092ce87d263f058d1c782777f"
+    },
+    {
+      "file": "angular-east-commonbody-v01.png",
+      "width": 1374,
+      "height": 1145,
+      "sha256": "3181e5456e9656fd68b673b68d36da9cfa610d32ddb357ccee6482cf47bab850"
+    },
+    {
+      "file": "angular-east-commonbody-v02.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "301e72726842f917b424b00908ad4ac03b0f7539e693d870651a29a7d3650159"
+    },
+    {
+      "file": "angular-south-commonbody-v03.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "05cd74e1b97876ff75db164030a1225bf91aaac53643e5a581cb66398b95a87d"
+    },
+    {
+      "file": "west-upland-surface-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "ce6028c35a66f3e14eafd05c1a4dc8397ede7e7bbb5d610e52bf5992c537ab7f"
+    }
+  ]
+}

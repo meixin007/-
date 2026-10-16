@@ -1,0 +1,24 @@
+{
+  "bundle_id": "shanxi_refine_20261001",
+  "version": 1,
+  "extends": "shanxi_20261001",
+  "assets": {
+    "sx_taiyue_mass_v02": {
+      "label": "太岳连续山体 · 灰米色阶",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "taiyue-mass-v02.png",
+      "rect": [
+        0,
+        0,
+        1113,
+        1413
+      ],
+      "width": 200,
+      "anchor": [
+        0.5,
+        0.55
+      ]
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "attach_max_ms": 0.009,
+  "captures": [],
+  "checks": 23,
+  "cycles": 20,
+  "failures": [],
+  "first_view_ms": 162.061,
+  "hot_enter_ms": [
+    82.346,
+    80.07,
+    79.371,
+    78.966,
+    78.139,
+    79.204,
+    80.358,
+    79.462,
+    79.995,
+    78.831,
+    78.064,
+    78.074,
+    78.752,
+    79.207,
+    78.003,
+    78.584,
+    78.362,
+    78.425,
+    78.499,
+    78.227
+  ],
+  "tiles_ready_ms": 1993.895,
+  "build_id": "tongguan_v01_final_20261015_03",
+  "artifacts": {
+    "TongguanAuthoring.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanAuthoring.pck": "4b458cf6437e4db7106971d5f4a86ea963eb1be1d2c69849c049842a0fc2b500",
+    "TongguanFinal.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanFinal.pck": "16de08788dcb662ce82c4a6abe964b2ed95ec249100cd3ccede7b0a99f4fc072"
+  },
+  "release_sha256": "68b01e95b4f2744b71491711f358ec9e4e56b9e425b7a85dbd816fd36a1377fc",
+  "exit_code": 0,
+  "timed_out": false,
+  "diagnostics": [],
+  "windows_process_metrics": {
+    "process_start_to_ready_upper_bound_ms": 11094.000000000051,
+    "sampling_interval_target_ms": 50,
+    "sampled_private_peak_bytes": 361713664,
+    "sampled_gpu_dedicated_peak_bytes": 85659648,
+    "cycle_exit_samples": [
+      {
+        "cycle": 0,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 3089994,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 1,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 3491463,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 2,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 3890281,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 3,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 4287920,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 4,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 4685565,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 5,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 5083890,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 6,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 5484835,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 7,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 5884633,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 8,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 6284630,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 9,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 6683309,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 10,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 7080355,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 11,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 7478526,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 12,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 7876551,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 13,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 8276130,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 14,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 8673823,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 15,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 9072561,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 16,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 9474842,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 17,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 9873694,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 18,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 10272515,
+        "log_observed_s": 11.094000000000051
+      },
+      {
+        "cycle": 19,
+        "node_count": 2,
+        "texture_bytes": 34271822.0,
+        "tick_usec": 10671802,
+        "log_observed_s": 11.094000000000051
+      }
+    ],
+    "memory_comparison_windows_seconds": {
+      "initial": [
+        2.7735000000000127,
+        6.1017000000000285
+      ],
+      "final": [
+        8.320500000000038,
+        10.994000000000051
+      ]
+    },
+    "memory_sample_counts": {
+      "initial": 53,
+      "final": 43
+    },
+    "post_warmup_private_growth_bytes": -4034560,
+    "cycle_event_memory_note": "Release log is buffered. Cycle events prove 20 exits and cache counts; RAM comparison uses continuously sampled Windows-process windows, not log read times."
+  },
+  "budgets": {
+    "frame_p95_ms": 16.7,
+    "frame_p99_ms": 25,
+    "private_bytes": 4294967296,
+    "gpu_dedicated_bytes": 1610612736,
+    "cycle_private_growth_bytes": 16777216,
+    "scope": "current PC, final prototype, 1920x1080 GL Compatibility"
+  },
+  "passed": true
+}

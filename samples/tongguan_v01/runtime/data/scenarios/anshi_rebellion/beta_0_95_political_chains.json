@@ -1,0 +1,92 @@
+{
+  "chains": [
+    {
+      "chain_id": "grain_authority",
+      "source_context": {
+        "context_kind": "conversation_consequence"
+      },
+      "primary_npc_ids": ["guo_ziyi", "grain_official_lingwu", "li_bi"],
+      "required_knowledge": ["formal_commander_authority", "shuofang_grain_timing"],
+      "political_object_templates": ["guo_formal_authority_promise", "guo_grain_priority_task", "guo_route_pressure_report", "grain_audit_threat"],
+      "promise_object_id": "guo_formal_authority_promise",
+      "institution_precedent": "formal_commander_authority",
+      "possible_transmissions": ["shuofang_grain_to_palace_relay"],
+      "reaction_rules": ["li_bi_sunset_clause_advice", "old_court_authority_objection"],
+      "information_fact_id": "guo_authority_promise_day_2",
+      "information_payload": {"grant": "formal_authority", "withdrawal_condition": "grain_route_stable"},
+      "information_holders": ["guo_ziyi", "li_fuguo", "li_bi", "hardline_old_court_official"],
+      "active_requests": ["guo_grain_priority_task"],
+      "map_consequences": ["shuofang_front_node", "grain_road_node"],
+      "due_day_range": [2, 5],
+      "cross_chain_effects": ["grain_fulfillment_enables_palace", "grain_breach_weakens_palace", "grain_market_protection_supports_uighur", "grain_route_pressure_requires_uighur_credit"]
+    },
+    {
+      "chain_id": "palace_channel_precedent",
+      "source_context": {
+        "context_kind": "conversation_consequence"
+      },
+      "primary_npc_ids": ["li_fuguo", "eunuch_deputy_gate", "li_chu"],
+      "required_knowledge": ["private_access_control", "palace_channel_risk"],
+      "political_object_templates": ["li_fuguo_private_access_promise", "li_fuguo_gate_task", "gate_deputy_sealed_task"],
+      "promise_object_id": "li_fuguo_private_access_promise",
+      "institution_precedent": "registered_palace_access",
+      "possible_transmissions": ["palace_relay_to_grain_office"],
+      "reaction_rules": ["palace_channel_precedent_reaction"],
+      "information_fact_id": "palace_channel_precedent_fact",
+      "information_payload": {"access_registered": "palace_channel"},
+      "information_holders": ["li_fuguo", "grain_official_lingwu"],
+      "active_requests": ["li_fuguo_gate_task"],
+      "map_consequences": ["palace_inner_channel_node", "lingwu_court_node"],
+      "due_day_range": [1, 4],
+      "cross_chain_effects": ["palace_registration_stabilizes_grain", "palace_bypass_disrupts_grain", "palace_empowerment_prices_uighur", "palace_restraint_protects_uighur_market"]
+    },
+    {
+      "chain_id": "uighur_cost_legitimacy",
+      "source_context": {
+        "context_kind": "conversation_consequence"
+      },
+      "primary_npc_ids": ["uighur_envoy", "lingwu_merchant_refugee", "pugu_huaien"],
+      "required_knowledge": ["uighur_reward_terms", "weak_treasury_pressure"],
+      "political_object_templates": ["uighur_terms_promise", "uighur_formal_decree", "merchant_market_relief"],
+      "promise_object_id": "uighur_terms_promise",
+      "institution_precedent": "written_allied_terms",
+      "possible_transmissions": ["uighur_terms_to_market_report"],
+      "reaction_rules": ["uighur_market_protection_reaction", "uighur_cost_legitimacy_reaction"],
+      "information_fact_id": "uighur_cost_legitimacy_fact",
+      "information_payload": {"market_protection": "conditional", "formal_terms": "required"},
+      "information_holders": ["uighur_envoy", "lingwu_merchant_refugee", "pugu_huaien"],
+      "active_requests": ["merchant_market_relief"],
+      "map_consequences": ["uighur_route_node", "refugee_market_node"],
+      "due_day_range": [3, 7],
+      "cross_chain_effects": ["uighur_credit_requires_grain", "uighur_market_protection_confirms_grain", "uighur_cost_exposes_palace", "uighur_formal_terms_constrain_palace"]
+    }
+  ],
+  "cross_links": [
+    {"link_id": "grain_fulfillment_enables_palace", "from_chain_id": "grain_authority", "to_chain_id": "palace_channel_precedent", "effect": "fulfilled grain authority makes a registered palace relay credible"},
+    {"link_id": "grain_breach_weakens_palace", "from_chain_id": "grain_authority", "to_chain_id": "palace_channel_precedent", "effect": "broken grain promise creates a palace-channel accountability dispute"},
+    {"link_id": "grain_market_protection_supports_uighur", "from_chain_id": "grain_authority", "to_chain_id": "uighur_cost_legitimacy", "effect": "grain-market protection supports an affordable Uighur agreement"},
+    {"link_id": "grain_route_pressure_requires_uighur_credit", "from_chain_id": "grain_authority", "to_chain_id": "uighur_cost_legitimacy", "effect": "grain-route pressure raises the value of Uighur credit"},
+    {"link_id": "palace_registration_stabilizes_grain", "from_chain_id": "palace_channel_precedent", "to_chain_id": "grain_authority", "effect": "registered access preserves the grain order's authority"},
+    {"link_id": "palace_bypass_disrupts_grain", "from_chain_id": "palace_channel_precedent", "to_chain_id": "grain_authority", "effect": "bypassed access undermines the grain order's chain of command"},
+    {"link_id": "palace_empowerment_prices_uighur", "from_chain_id": "palace_channel_precedent", "to_chain_id": "uighur_cost_legitimacy", "effect": "Li Fuguo empowerment increases the political price of Uighur terms"},
+    {"link_id": "palace_restraint_protects_uighur_market", "from_chain_id": "palace_channel_precedent", "to_chain_id": "uighur_cost_legitimacy", "effect": "palace restraint protects the market guarantee behind Uighur terms"},
+    {"link_id": "uighur_credit_requires_grain", "from_chain_id": "uighur_cost_legitimacy", "to_chain_id": "grain_authority", "effect": "Uighur credit requires credible grain commitments"},
+    {"link_id": "uighur_market_protection_confirms_grain", "from_chain_id": "uighur_cost_legitimacy", "to_chain_id": "grain_authority", "effect": "market protection confirms the grain authority's public benefit"},
+    {"link_id": "uighur_cost_exposes_palace", "from_chain_id": "uighur_cost_legitimacy", "to_chain_id": "palace_channel_precedent", "effect": "unfunded Uighur costs expose palace-channel patronage"},
+    {"link_id": "uighur_formal_terms_constrain_palace", "from_chain_id": "uighur_cost_legitimacy", "to_chain_id": "palace_channel_precedent", "effect": "written Uighur terms constrain private palace intervention"}
+  ],
+  "representative_branches": [
+    {"branch_id": "guo_authority_fulfilled", "source_chain_id": "grain_authority", "source_object_id": "guo_formal_authority_promise", "outcome_id": "fulfilled", "settlement_kind": "closure", "target_chain_id": "palace_channel_precedent", "cross_link_id": "grain_fulfillment_enables_palace", "target_object_id": "li_fuguo_gate_task", "target_report_id": "li_fuguo_gate_task_followup", "target_route_id": "beta07_route_04", "route_effects": [{"field": "message_delay", "value": -1}], "effect": "grant a registered relay mandate"},
+    {"branch_id": "guo_authority_broken", "source_chain_id": "grain_authority", "source_object_id": "guo_formal_authority_promise", "outcome_id": "broken", "settlement_kind": "breach", "target_chain_id": "palace_channel_precedent", "cross_link_id": "grain_breach_weakens_palace", "target_object_id": "li_fuguo_private_access_promise", "target_report_id": "li_fuguo_private_access_followup", "target_route_id": "beta07_route_04", "route_effects": [{"field": "uncertainty", "value": 5}], "effect": "open a palace accountability dispute"},
+    {"branch_id": "grain_market_protection_supports_uighur", "source_chain_id": "grain_authority", "source_object_id": "guo_grain_priority_task", "outcome_id": "market_protected", "settlement_kind": "compromise", "target_chain_id": "uighur_cost_legitimacy", "cross_link_id": "grain_market_protection_supports_uighur", "target_object_id": "uighur_terms_promise", "target_report_id": "uighur_terms_followup", "target_route_id": "beta07_route_03", "route_effects": [{"field": "uncertainty", "value": -2}], "effect": "tie grain-market protection to an affordable Uighur agreement"},
+    {"branch_id": "grain_audit_escalates_uighur_credit", "source_chain_id": "grain_authority", "source_object_id": "grain_audit_threat", "outcome_id": "audit_escalated", "settlement_kind": "escalation", "target_chain_id": "uighur_cost_legitimacy", "cross_link_id": "grain_route_pressure_requires_uighur_credit", "target_object_id": "uighur_terms_promise", "target_report_id": "uighur_terms_followup", "target_route_id": "beta07_route_03", "route_effects": [{"field": "uncertainty", "value": 3}], "effect": "an unresolved grain audit raises the price of Uighur credit"},
+    {"branch_id": "palace_channel_registered", "source_chain_id": "palace_channel_precedent", "source_object_id": "li_fuguo_gate_task", "outcome_id": "registered", "settlement_kind": "closure", "target_chain_id": "grain_authority", "cross_link_id": "palace_registration_stabilizes_grain", "target_object_id": "guo_grain_priority_task", "target_report_id": "guo_grain_priority_followup", "target_route_id": "beta07_route_02", "route_effects": [{"field": "message_delay", "value": -1}], "effect": "a registered palace channel stabilizes the grain order"},
+    {"branch_id": "li_fuguo_bypassed", "source_chain_id": "palace_channel_precedent", "source_object_id": "li_fuguo_private_access_promise", "outcome_id": "bypassed", "settlement_kind": "counteraction", "target_chain_id": "grain_authority", "cross_link_id": "palace_bypass_disrupts_grain", "target_object_id": "guo_grain_priority_task", "target_report_id": "guo_grain_priority_followup", "target_route_id": "beta07_route_02", "route_effects": [{"field": "message_delay", "value": 2}], "effect": "weaken the grain order's command chain"},
+    {"branch_id": "li_fuguo_empowered", "source_chain_id": "palace_channel_precedent", "source_object_id": "li_fuguo_private_access_promise", "outcome_id": "empowered", "settlement_kind": "escalation", "target_chain_id": "uighur_cost_legitimacy", "cross_link_id": "palace_empowerment_prices_uighur", "target_object_id": "uighur_terms_promise", "target_report_id": "uighur_terms_followup", "target_route_id": "beta07_route_03", "route_effects": [{"field": "uncertainty", "value": 4}], "effect": "increase the Uighur deal's political cost"},
+    {"branch_id": "palace_restraint_protects_uighur_market", "source_chain_id": "palace_channel_precedent", "source_object_id": "li_fuguo_gate_task", "outcome_id": "restrained", "settlement_kind": "compromise", "target_chain_id": "uighur_cost_legitimacy", "cross_link_id": "palace_restraint_protects_uighur_market", "target_object_id": "merchant_market_relief", "target_report_id": "merchant_market_followup", "target_route_id": "beta07_route_03", "route_effects": [{"field": "uncertainty", "value": -2}], "effect": "restrained palace intervention protects the market guarantee"},
+    {"branch_id": "uighur_deal_market_unprotected", "source_chain_id": "uighur_cost_legitimacy", "source_object_id": "uighur_terms_promise", "outcome_id": "market_unprotected", "settlement_kind": "breach", "target_chain_id": "grain_authority", "cross_link_id": "uighur_credit_requires_grain", "target_object_id": "guo_route_pressure_report", "target_report_id": "guo_route_pressure_followup", "target_route_id": "beta07_route_02", "route_effects": [{"field": "rebel_pressure", "value": 4}], "effect": "raise grain-market pressure and reduce delivery legitimacy"},
+    {"branch_id": "uighur_market_protection_confirms_grain", "source_chain_id": "uighur_cost_legitimacy", "source_object_id": "merchant_market_relief", "outcome_id": "market_protected", "settlement_kind": "closure", "target_chain_id": "grain_authority", "cross_link_id": "uighur_market_protection_confirms_grain", "target_object_id": "guo_grain_priority_task", "target_report_id": "guo_grain_priority_followup", "target_route_id": "beta07_route_02", "route_effects": [{"field": "message_delay", "value": -1}], "effect": "market protection confirms the public benefit of the grain order"},
+    {"branch_id": "uighur_cost_exposes_palace", "source_chain_id": "uighur_cost_legitimacy", "source_object_id": "uighur_formal_decree", "outcome_id": "unfunded", "settlement_kind": "breach", "target_chain_id": "palace_channel_precedent", "cross_link_id": "uighur_cost_exposes_palace", "target_object_id": "li_fuguo_private_access_promise", "target_report_id": "li_fuguo_private_access_followup", "target_route_id": "beta07_route_04", "route_effects": [{"field": "uncertainty", "value": 3}], "effect": "unfunded Uighur terms expose palace-channel patronage"},
+    {"branch_id": "uighur_deal_market_protected", "source_chain_id": "uighur_cost_legitimacy", "source_object_id": "uighur_terms_promise", "outcome_id": "market_protected", "settlement_kind": "compromise", "target_chain_id": "palace_channel_precedent", "cross_link_id": "uighur_formal_terms_constrain_palace", "target_object_id": "li_fuguo_private_access_promise", "target_report_id": "li_fuguo_private_access_followup", "target_route_id": "beta07_route_04", "route_effects": [{"field": "security", "value": 3}], "effect": "set a market-protection restraint on palace access"}
+  ]
+}

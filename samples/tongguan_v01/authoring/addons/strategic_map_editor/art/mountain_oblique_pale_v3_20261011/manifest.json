@@ -1,0 +1,40 @@
+{
+  "bundle_id": "mountain_oblique_pale_v3_20261011",
+  "version": 1,
+  "extends": "mountain_oblique_pale_v2_20261009",
+  "asset_review_status": "CANDIDATE_READY_FOR_USER_ACCEPTANCE",
+  "assets": [
+    {
+      "file": "steep_craggy_peak.png",
+      "width": 1155,
+      "height": 787,
+      "mode": "RGBA",
+      "bytes": 913017,
+      "sha256": "46979cd99d44cb26618ae384ab27c2a0b50594322f8daf1727087c4405405e09"
+    },
+    {
+      "file": "mountain_gorge_pass.png",
+      "width": 1203,
+      "height": 773,
+      "mode": "RGBA",
+      "bytes": 1140788,
+      "sha256": "310d8e0b8cfeb3ed8e6df71f04dd6225a083da7904c73ada1a7f13f9080fac0d"
+    },
+    {
+      "file": "cascading_ridge.png",
+      "width": 1339,
+      "height": 692,
+      "mode": "RGBA",
+      "bytes": 954926,
+      "sha256": "6827debfd5759886048d6f068f8595e284ed20d811a301b5d72bbf397104c83a"
+    },
+    {
+      "file": "triple_peaks.png",
+      "width": 1174,
+      "height": 762,
+      "mode": "RGBA",
+      "bytes": 938517,
+      "sha256": "bcc903e218687cb4218345f4a8f71bd11055a710f2d94c2f95a1f25acf1c8598"
+    }
+  ]
+}

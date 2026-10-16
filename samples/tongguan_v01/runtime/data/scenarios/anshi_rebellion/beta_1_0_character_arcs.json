@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "arcs": {
+    "guo_ziyi": {
+      "character_id": "guo_ziyi",
+      "arc_id": "guo_field_command_legitimacy",
+      "title": "朔方军权与行在信任",
+      "stages": [
+        {
+          "stage_id": "request_authority",
+          "day_min": 1,
+          "day_max": 10,
+          "stance": "cautious_loyal",
+          "trigger": "grain_or_front_pressure",
+          "memory_callback": "unpaid_field_promise",
+          "event_refs": ["beta10_grain_audit_notice"]
+        },
+        {
+          "stage_id": "test_court_credit",
+          "day_min": 11,
+          "day_max": 22,
+          "stance": "demanding_formal_order",
+          "trigger": "promise_or_authority_decision",
+          "memory_callback": "command_bypassed",
+          "event_refs": ["beta10_grain_audit_notice"]
+        },
+        {
+          "stage_id": "commit_or_withhold",
+          "day_min": 23,
+          "day_max": 30,
+          "stance": "conditional_commitment",
+          "trigger": "final_military_choice",
+          "memory_callback": "supply_collapse",
+          "event_refs": ["beta10_grain_audit_notice"]
+        }
+      ]
+    },
+    "li_bi": {
+      "character_id": "li_bi",
+      "arc_id": "li_bi_institutional_brake",
+      "title": "制度边界与夜对",
+      "stages": [
+        {
+          "stage_id": "advise_limits",
+          "day_min": 1,
+          "day_max": 12,
+          "stance": "institutional_caution",
+          "trigger": "emergency_authority_request",
+          "memory_callback": "sunset_clause",
+          "event_refs": ["beta10_palace_channel_notice"]
+        },
+        {
+          "stage_id": "broker_compromise",
+          "day_min": 13,
+          "day_max": 24,
+          "stance": "broker",
+          "trigger": "cross_chain_collision",
+          "memory_callback": "court_humiliation_risk",
+          "event_refs": ["beta10_palace_channel_notice"]
+        },
+        {
+          "stage_id": "final_counsel",
+          "day_min": 25,
+          "day_max": 30,
+          "stance": "hard_counsel",
+          "trigger": "ending_window",
+          "memory_callback": "broken_procedure",
+          "event_refs": ["beta10_palace_channel_notice"]
+        }
+      ]
+    },
+    "li_fuguo": {
+      "character_id": "li_fuguo",
+      "arc_id": "li_fuguo_channel_capture",
+      "title": "宫门渠道统一",
+      "stages": [
+        {
+          "stage_id": "offer_efficiency",
+          "day_min": 1,
+          "day_max": 10,
+          "stance": "service_efficiency",
+          "trigger": "message_delay",
+          "memory_callback": "intercepted_report",
+          "event_refs": ["beta10_palace_channel_notice"]
+        },
+        {
+          "stage_id": "normalize_gate",
+          "day_min": 11,
+          "day_max": 22,
+          "stance": "gate_normalization",
+          "trigger": "player_delegates_channel",
+          "memory_callback": "secret_favor",
+          "event_refs": ["beta10_palace_channel_notice"]
+        },
+        {
+          "stage_id": "assert_control",
+          "day_min": 23,
+          "day_max": 30,
+          "stance": "channel_capture",
+          "trigger": "final_palace_choice",
+          "memory_callback": "public_rebuke",
+          "event_refs": ["beta10_palace_channel_notice"]
+        }
+      ]
+    },
+    "li_guangbi": {
+      "character_id": "li_guangbi",
+      "arc_id": "li_guangbi_priority_contest",
+      "title": "前线优先权之争",
+      "stages": [
+        {
+          "stage_id": "claim_priority",
+          "day_min": 1,
+          "day_max": 12,
+          "stance": "front_priority",
+          "trigger": "supply_allocation",
+          "memory_callback": "front_starved",
+          "event_refs": ["beta10_grain_audit_notice"]
+        },
+        {
+          "stage_id": "pressure_court",
+          "day_min": 13,
+          "day_max": 24,
+          "stance": "hard_pressure",
+          "trigger": "guo_or_pugu_favor",
+          "memory_callback": "credit_stolen",
+          "event_refs": ["beta10_grain_audit_notice"]
+        },
+        {
+          "stage_id": "accept_or_split",
+          "day_min": 25,
+          "day_max": 30,
+          "stance": "conditional_loyalty",
+          "trigger": "final_military_choice",
+          "memory_callback": "public_slight",
+          "event_refs": ["beta10_grain_audit_notice"]
+        }
+      ]
+    },
+    "pugu_huaien": {
+      "character_id": "pugu_huaien",
+      "arc_id": "pugu_alliance_cost",
+      "title": "外援军将的价码",
+      "stages": [
+        {
+          "stage_id": "seek_reward",
+          "day_min": 1,
+          "day_max": 12,
+          "stance": "reward_seeking",
+          "trigger": "uighur_or_front_need",
+          "memory_callback": "unpaid_merit",
+          "event_refs": ["beta10_uighur_terms_notice"]
+        },
+        {
+          "stage_id": "leverage_allies",
+          "day_min": 13,
+          "day_max": 24,
+          "stance": "alliance_leverage",
+          "trigger": "uighur_terms",
+          "memory_callback": "ethnic_suspicion",
+          "event_refs": ["beta10_uighur_terms_notice"]
+        },
+        {
+          "stage_id": "choose_side",
+          "day_min": 25,
+          "day_max": 30,
+          "stance": "side_choice",
+          "trigger": "final_diplomacy",
+          "memory_callback": "broken_reward",
+          "event_refs": ["beta10_uighur_terms_notice"]
+        }
+      ]
+    },
+    "li_chu": {
+      "character_id": "li_chu",
+      "arc_id": "li_chu_oversight",
+      "title": "太子监督与皇权",
+      "stages": [
+        {
+          "stage_id": "request_oversight",
+          "day_min": 1,
+          "day_max": 12,
+          "stance": "filial_oversight",
+          "trigger": "palace_channel_risk",
+          "memory_callback": "gate_secrecy",
+          "event_refs": ["beta10_palace_channel_notice"]
+        },
+        {
+          "stage_id": "contest_eunuch",
+          "day_min": 13,
+          "day_max": 24,
+          "stance": "anti_capture",
+          "trigger": "li_fuguo_power_gain",
+          "memory_callback": "delayed_order",
+          "event_refs": ["beta10_palace_channel_notice"]
+        },
+        {
+          "stage_id": "secure_succession_signal",
+          "day_min": 25,
+          "day_max": 30,
+          "stance": "succession_signal",
+          "trigger": "ending_window",
+          "memory_callback": "public_endorsement",
+          "event_refs": ["beta10_palace_channel_notice"]
+        }
+      ]
+    },
+    "uighur_envoy": {
+      "character_id": "uighur_envoy",
+      "arc_id": "uighur_price_of_aid",
+      "title": "回纥要价与正统成本",
+      "stages": [
+        {
+          "stage_id": "present_terms",
+          "day_min": 1,
+          "day_max": 12,
+          "stance": "formal_terms",
+          "trigger": "aid_request",
+          "memory_callback": "insulted_envoy",
+          "event_refs": ["beta10_uighur_terms_notice"]
+        },
+        {
+          "stage_id": "escalate_price",
+          "day_min": 13,
+          "day_max": 24,
+          "stance": "price_escalation",
+          "trigger": "delay_or_bargain",
+          "memory_callback": "market_resentment",
+          "event_refs": ["beta10_uighur_terms_notice"]
+        },
+        {
+          "stage_id": "seal_or_withdraw",
+          "day_min": 25,
+          "day_max": 30,
+          "stance": "seal_or_withdraw",
+          "trigger": "final_diplomacy",
+          "memory_callback": "broken_oath",
+          "event_refs": ["beta10_uighur_terms_notice"]
+        }
+      ]
+    },
+    "hardline_old_court_official": {
+      "character_id": "hardline_old_court_official",
+      "arc_id": "old_court_orthodoxy",
+      "title": "旧臣正统与程序",
+      "stages": [
+        {
+          "stage_id": "invoke_precedent",
+          "day_min": 1,
+          "day_max": 12,
+          "stance": "procedural_orthodoxy",
+          "trigger": "emergency_bypass",
+          "memory_callback": "illegal_order",
+          "event_refs": ["beta10_palace_channel_notice"]
+        },
+        {
+          "stage_id": "public_censure",
+          "day_min": 13,
+          "day_max": 24,
+          "stance": "public_censure",
+          "trigger": "uighur_or_eunuch_gain",
+          "memory_callback": "legitimacy_wound",
+          "event_refs": ["beta10_uighur_terms_notice"]
+        },
+        {
+          "stage_id": "final_judgment",
+          "day_min": 25,
+          "day_max": 30,
+          "stance": "final_judgment",
+          "trigger": "ending_window",
+          "memory_callback": "restored_rite",
+          "event_refs": ["beta10_palace_channel_notice"]
+        }
+      ]
+    },
+    "grain_official_lingwu": {
+      "character_id": "grain_official_lingwu",
+      "arc_id": "grain_books_and_blame",
+      "title": "粮账与责任",
+      "stages": [
+        {
+          "stage_id": "report_shortage",
+          "day_min": 1,
+          "day_max": 10,
+          "stance": "alarmed_clerk",
+          "trigger": "grain_audit",
+          "memory_callback": "forced_false_count",
+          "event_refs": ["beta10_grain_audit_notice"]
+        },
+        {
+          "stage_id": "defend_books",
+          "day_min": 11,
+          "day_max": 22,
+          "stance": "defensive_accounting",
+          "trigger": "investigation",
+          "memory_callback": "scapegoat_risk",
+          "event_refs": ["beta10_grain_audit_notice"]
+        },
+        {
+          "stage_id": "shift_or_confess",
+          "day_min": 23,
+          "day_max": 30,
+          "stance": "shift_or_confess",
+          "trigger": "final_grain_choice",
+          "memory_callback": "protected_by_court",
+          "event_refs": ["beta10_grain_audit_notice"]
+        }
+      ]
+    },
+    "lingwu_merchant_refugee": {
+      "character_id": "lingwu_merchant_refugee",
+      "arc_id": "market_cost_of_war",
+      "title": "市井成本与征发",
+      "stages": [
+        {
+          "stage_id": "plead_relief",
+          "day_min": 1,
+          "day_max": 12,
+          "stance": "plead_relief",
+          "trigger": "levy_or_uighur_cost",
+          "memory_callback": "market_raid",
+          "event_refs": ["beta10_uighur_terms_notice"]
+        },
+        {
+          "stage_id": "organize_complaint",
+          "day_min": 13,
+          "day_max": 24,
+          "stance": "organized_complaint",
+          "trigger": "continued_levy",
+          "memory_callback": "broken_tax_promise",
+          "event_refs": ["beta10_uighur_terms_notice"]
+        },
+        {
+          "stage_id": "support_or_riot_risk",
+          "day_min": 25,
+          "day_max": 30,
+          "stance": "support_or_unrest",
+          "trigger": "final_civil_choice",
+          "memory_callback": "public_protection",
+          "event_refs": ["beta10_uighur_terms_notice"]
+        }
+      ]
+    },
+    "regional_jiedushi_rep": {
+      "character_id": "regional_jiedushi_rep",
+      "arc_id": "provincial_bargain",
+      "title": "藩镇观望与议价",
+      "stages": [
+        {
+          "stage_id": "observe_court",
+          "day_min": 1,
+          "day_max": 12,
+          "stance": "watchful",
+          "trigger": "court_weakness",
+          "memory_callback": "unrewarded_loyalty",
+          "event_refs": ["beta10_grain_audit_notice"]
+        },
+        {
+          "stage_id": "demand_terms",
+          "day_min": 13,
+          "day_max": 24,
+          "stance": "bargain",
+          "trigger": "military_success_or_failure",
+          "memory_callback": "central_overreach",
+          "event_refs": ["beta10_grain_audit_notice"]
+        },
+        {
+          "stage_id": "align_or_distance",
+          "day_min": 25,
+          "day_max": 30,
+          "stance": "align_or_distance",
+          "trigger": "ending_window",
+          "memory_callback": "title_grant",
+          "event_refs": ["beta10_grain_audit_notice"]
+        }
+      ]
+    },
+    "eunuch_deputy_gate": {
+      "character_id": "eunuch_deputy_gate",
+      "arc_id": "gate_deputy_leak",
+      "title": "宫门副使与消息改写",
+      "stages": [
+        {
+          "stage_id": "serve_two_masters",
+          "day_min": 1,
+          "day_max": 12,
+          "stance": "double_service",
+          "trigger": "channel_congestion",
+          "memory_callback": "forced_silence",
+          "event_refs": ["beta10_palace_channel_notice"]
+        },
+        {
+          "stage_id": "leak_or_alter",
+          "day_min": 13,
+          "day_max": 24,
+          "stance": "leak_or_alter",
+          "trigger": "li_fuguo_pressure",
+          "memory_callback": "bribe_or_threat",
+          "event_refs": ["beta10_palace_channel_notice"]
+        },
+        {
+          "stage_id": "choose_patron",
+          "day_min": 25,
+          "day_max": 30,
+          "stance": "choose_patron",
+          "trigger": "final_palace_choice",
+          "memory_callback": "exposed_forgery",
+          "event_refs": ["beta10_palace_channel_notice"]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 108,
+  "cases": [
+    {
+      "case_id": "beta108_case_grain_ledger_shortfall",
+      "template_id": "grain_ledger_shortfall",
+      "lifecycle": "dormant",
+      "subject_ids": ["grain_official_lingwu", "lingwu_merchant_refugee", "li_bi", "li_fuguo"],
+      "office_ids": ["household_supply", "shangshu_execution"],
+      "term_ids": [], "causal_refs": [], "facts": [], "claims": [], "evidence": [],
+      "decision": {}, "decision_transaction_id": "", "opened_day": 0, "decided_day": 0, "closed_day": 0
+    },
+    {
+      "case_id": "beta108_case_military_grain_delay",
+      "template_id": "military_grain_delay",
+      "lifecycle": "dormant",
+      "subject_ids": ["guo_ziyi", "li_guangbi", "pugu_huaien", "regional_jiedushi_rep"],
+      "office_ids": ["war_mobilization", "shangshu_execution"],
+      "term_ids": [], "causal_refs": [], "facts": [], "claims": [], "evidence": [],
+      "decision": {}, "decision_transaction_id": "", "opened_day": 0, "decided_day": 0, "closed_day": 0
+    },
+    {
+      "case_id": "beta108_case_palace_order_leak",
+      "template_id": "palace_order_leak",
+      "lifecycle": "dormant",
+      "subject_ids": ["li_fuguo", "eunuch_deputy_gate", "li_chu", "hardline_old_court_official"],
+      "office_ids": ["inner_court_gatekeeper", "censorate"],
+      "term_ids": [], "causal_refs": [], "facts": [], "claims": [], "evidence": [],
+      "decision": {}, "decision_transaction_id": "", "opened_day": 0, "decided_day": 0, "closed_day": 0
+    },
+    {
+      "case_id": "beta108_case_edict_legitimacy",
+      "template_id": "edict_legitimacy",
+      "lifecycle": "dormant",
+      "subject_ids": ["li_bi", "li_chu", "hardline_old_court_official", "li_fuguo"],
+      "office_ids": ["zhongshu_drafting", "menxia_review"],
+      "term_ids": [], "causal_refs": [], "facts": [], "claims": [], "evidence": [],
+      "decision": {}, "decision_transaction_id": "", "opened_day": 0, "decided_day": 0, "closed_day": 0
+    },
+    {
+      "case_id": "beta108_case_uighur_aid_cost",
+      "template_id": "uighur_aid_cost",
+      "lifecycle": "dormant",
+      "subject_ids": ["uighur_envoy", "pugu_huaien", "li_bi", "li_guangbi", "regional_jiedushi_rep"],
+      "office_ids": ["envoy_negotiator", "war_mobilization"],
+      "term_ids": [], "causal_refs": [], "facts": [], "claims": [], "evidence": [],
+      "decision": {}, "decision_transaction_id": "", "opened_day": 0, "decided_day": 0, "closed_day": 0
+    },
+    {
+      "case_id": "beta108_case_final_assessment",
+      "template_id": "final_assessment",
+      "lifecycle": "dormant",
+      "subject_ids": ["guo_ziyi", "li_bi", "li_fuguo", "li_guangbi", "pugu_huaien", "li_chu", "uighur_envoy", "hardline_old_court_official", "grain_official_lingwu", "lingwu_merchant_refugee", "regional_jiedushi_rep", "eunuch_deputy_gate"],
+      "office_ids": ["zhongshu_drafting", "menxia_review", "shangshu_execution", "household_supply", "war_mobilization", "censorate", "inner_court_gatekeeper", "envoy_negotiator"],
+      "term_ids": [], "causal_refs": [], "facts": [], "claims": [], "evidence": [],
+      "decision": {}, "decision_transaction_id": "", "opened_day": 0, "decided_day": 0, "closed_day": 0
+    }
+  ]
+}

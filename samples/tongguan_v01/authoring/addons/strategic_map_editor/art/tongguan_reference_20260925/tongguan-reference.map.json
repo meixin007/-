@@ -1,0 +1,8677 @@
+{
+	"art_style": "tongguan_v1",
+	"canvas_size": [
+		14880.0,
+		9600.0
+	],
+	"document_type": "strategic_map_authoring",
+	"features": [
+		{
+			"domain_id": "lingwu_court_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_lingwu_court_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "灵武",
+			"note": "",
+			"points": [
+				[
+					7960.80029296875,
+					4080.0
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "shuofang_front_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_shuofang_front_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "朔方",
+			"note": "",
+			"points": [
+				[
+					7960.80029296875,
+					3840.0
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "grain_road_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_grain_road_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "太仓",
+			"note": "",
+			"points": [
+				[
+					7112.6396484375,
+					4099.19970703125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "guanzhong_approach_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_guanzhong_approach_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "关中",
+			"note": "",
+			"points": [
+				[
+					8139.35986328125,
+					4944.0
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "changan_pressure_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_changan_pressure_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "长安",
+			"note": "",
+			"points": [
+				[
+					8630.3994140625,
+					4963.2001953125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"visual": {
+				"label_offset": [
+					0.0,
+					10.0
+				],
+				"label_size": 15.0,
+				"variant": "city_capital",
+				"width_factor": 1.0
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "hedong_relay_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_hedong_relay_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "河东",
+			"note": "",
+			"points": [
+				[
+					9627.3603515625,
+					4512.0
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"visual": {
+				"label_offset": [
+					-35.0,
+					0.0
+				]
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "uighur_route_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_uighur_route_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "回纥",
+			"note": "",
+			"points": [
+				[
+					7201.919921875,
+					1852.80004882813
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "hebei_rebel_signal_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_hebei_rebel_signal_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "常山",
+			"note": "",
+			"points": [
+				[
+					9969.6005859375,
+					4041.60009765625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "luoyang_rumor_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_luoyang_rumor_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "洛阳",
+			"note": "",
+			"points": [
+				[
+					9463.6796875,
+					4876.80029296875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "refugee_market_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_refugee_market_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "商洛",
+			"note": "",
+			"points": [
+				[
+					8868.48046875,
+					5068.7998046875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"visual": {
+				"label_offset": [
+					20.0,
+					7.0
+				],
+				"label_size": 14.0,
+				"variant": "city_market_v06",
+				"width_factor": 0.9
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "palace_inner_channel_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_palace_inner_channel_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "秦岭",
+			"note": "",
+			"points": [
+				[
+					8481.599609375,
+					5040.0
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"visual": {
+				"label_offset": [
+					0.0,
+					12.0
+				],
+				"label_size": 18.0
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "desert_envoy_road_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_desert_envoy_road_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "凉州",
+			"note": "",
+			"points": [
+				[
+					6591.83984375,
+					3849.59985351563
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "tongguan_pass_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_tongguan_pass_node",
+			"kind": "pass",
+			"layer": "sites",
+			"name": "潼关",
+			"note": "",
+			"points": [
+				[
+					8957.759765625,
+					4905.599609375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"visual": {
+				"label_offset": [
+					31,
+					-16
+				],
+				"label_size": 14.0,
+				"offset": [
+					0,
+					0
+				],
+				"variant": "pass_reference_20260925",
+				"width_factor": 1.0
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "taiyuan_hub_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_taiyuan_hub_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "太原",
+			"note": "",
+			"points": [
+				[
+					9493.4404296875,
+					4108.7998046875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "fanyang_rebel_hub_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_fanyang_rebel_hub_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "范阳",
+			"note": "",
+			"points": [
+				[
+					10401.1201171875,
+					3619.19995117188
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"visual": {
+				"label_offset": [
+					-35.0,
+					0.0
+				]
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "suiyang_hub_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_suiyang_hub_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "睢阳",
+			"note": "图面对象为睢阳城。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+			"points": [
+				[
+					10222.5595703125,
+					4953.599609375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"visual": {
+				"label_offset": [
+					-35.0,
+					0.0
+				]
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "yangzhou_tribute_hub_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_yangzhou_tribute_hub_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "扬州",
+			"note": "",
+			"points": [
+				[
+					11145.1201171875,
+					5424.0
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"visual": {
+				"label_offset": [
+					-45.0,
+					-28.0
+				]
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "jianmen_pass_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_jianmen_pass_node",
+			"kind": "pass",
+			"layer": "sites",
+			"name": "剑门",
+			"note": "",
+			"points": [
+				[
+					7797.11962890625,
+					5500.80029296875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "chengdou_rear_hub_node",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_chengdou_rear_hub_node",
+			"kind": "city",
+			"layer": "sites",
+			"name": "成都",
+			"note": "",
+			"points": [
+				[
+					7454.8798828125,
+					5836.7998046875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_fengxiang",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_fengxiang",
+			"kind": "city",
+			"layer": "sites",
+			"name": "凤翔",
+			"note": "",
+			"points": [
+				[
+					8253.9365234375,
+					4914.240234375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_huazhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_huazhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "华州",
+			"note": "",
+			"points": [
+				[
+					8822.3515625,
+					4916.15966796875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"visual": {
+				"label_offset": [
+					10.0,
+					-58.0
+				],
+				"label_size": 14.0,
+				"variant": "city_prefecture_v06",
+				"width_factor": 0.9
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_tongzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_tongzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "同州",
+			"note": "",
+			"points": [
+				[
+					8865.50390625,
+					4848.9599609375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"visual": {
+				"label_offset": [
+					0.0,
+					-65.0
+				],
+				"label_size": 14.0,
+				"variant": "city_market_v06",
+				"width_factor": 1.0
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_binzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_binzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "邠州",
+			"note": "",
+			"points": [
+				[
+					8419.1044921875,
+					4790.39990234375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_jingzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_jingzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "泾州",
+			"note": "",
+			"points": [
+				[
+					8245.0078125,
+					4716.47998046875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_yanzhou_north",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_yanzhou_north",
+			"kind": "city",
+			"layer": "sites",
+			"name": "延州",
+			"note": "",
+			"points": [
+				[
+					8758.3681640625,
+					4415.0400390625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_qingzhou_west",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_qingzhou_west",
+			"kind": "city",
+			"layer": "sites",
+			"name": "庆州",
+			"note": "",
+			"points": [
+				[
+					8370.0,
+					4558.080078125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_yuanzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_yuanzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "原州",
+			"note": "图面对象为原州州治。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+			"points": [
+				[
+					7987.58447265625,
+					4558.080078125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_bianzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_bianzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "汴州",
+			"note": "",
+			"points": [
+				[
+					9916.0322265625,
+					4847.0400390625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_songzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_songzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "宋州",
+			"note": "",
+			"points": [
+				[
+					10225.5361328125,
+					4952.64013671875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_zhengzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_zhengzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "郑州",
+			"note": "",
+			"points": [
+				[
+					9758.3037109375,
+					4859.52001953125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_xuzhou_henan",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_xuzhou_henan",
+			"kind": "city",
+			"layer": "sites",
+			"name": "许州",
+			"note": "",
+			"points": [
+				[
+					9795.50390625,
+					5033.27978515625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_shanzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_shanzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "陕州",
+			"note": "图面对象为陕州州治。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+			"points": [
+				[
+					9154.17578125,
+					4848.9599609375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"visual": {
+				"label_offset": [
+					10.0,
+					-4.0
+				],
+				"label_size": 14.0,
+				"variant": "city_walled",
+				"width_factor": 1.03
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_caozhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_caozhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "曹州",
+			"note": "",
+			"points": [
+				[
+					10183.8720703125,
+					4790.39990234375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_yunzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_yunzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "郓州",
+			"note": "",
+			"points": [
+				[
+					10413.0244140625,
+					4566.7197265625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_qizhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_qizhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "齐州",
+			"note": "",
+			"points": [
+				[
+					10554.3837890625,
+					4399.68017578125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_dengzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_dengzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "登州",
+			"note": "",
+			"points": [
+				[
+					11460.576171875,
+					4126.080078125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_laizhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_laizhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "莱州",
+			"note": "",
+			"points": [
+				[
+					11265.6474609375,
+					4277.76025390625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_yanzhou_east",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_yanzhou_east",
+			"kind": "city",
+			"layer": "sites",
+			"name": "兖州",
+			"note": "",
+			"points": [
+				[
+					10517.18359375,
+					4667.52001953125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_qingzhou_east",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_qingzhou_east",
+			"kind": "city",
+			"layer": "sites",
+			"name": "青州",
+			"note": "",
+			"points": [
+				[
+					10914.48046875,
+					4394.8798828125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_puzhou_henan",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_puzhou_henan",
+			"kind": "city",
+			"layer": "sites",
+			"name": "濮州",
+			"note": "",
+			"points": [
+				[
+					10201.7275390625,
+					4639.68017578125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_weizhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_weizhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "魏州",
+			"note": "",
+			"points": [
+				[
+					10128.81640625,
+					4488.9599609375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_youzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_youzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "幽州",
+			"note": "",
+			"points": [
+				[
+					10404.095703125,
+					3619.19995117188
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_cangzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_cangzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "沧州",
+			"note": "",
+			"points": [
+				[
+					10566.2880859375,
+					4031.0400390625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_jizhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_jizhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "冀州",
+			"note": "",
+			"points": [
+				[
+					10215.1201171875,
+					4183.6796875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_beizhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_beizhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "贝州",
+			"note": "",
+			"points": [
+				[
+					10227.0244140625,
+					4299.83984375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_dingzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_dingzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "定州",
+			"note": "",
+			"points": [
+				[
+					10073.759765625,
+					3955.19995117188
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_yingzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_yingzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "瀛州",
+			"note": "",
+			"points": [
+				[
+					10340.111328125,
+					3975.35986328125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_xiangzhou_north",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_xiangzhou_north",
+			"kind": "city",
+			"layer": "sites",
+			"name": "相州",
+			"note": "",
+			"points": [
+				[
+					9923.4716796875,
+					4536.0
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_mozhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_mozhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "莫州",
+			"note": "",
+			"points": [
+				[
+					10346.0634765625,
+					3873.59985351563
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_bozhou_hebei",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_bozhou_hebei",
+			"kind": "city",
+			"layer": "sites",
+			"name": "博州",
+			"note": "",
+			"points": [
+				[
+					10338.6240234375,
+					4434.23974609375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_dezhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_dezhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "德州",
+			"note": "",
+			"points": [
+				[
+					10456.1767578125,
+					4239.35986328125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_puzhou_hedong",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_puzhou_hedong",
+			"kind": "city",
+			"layer": "sites",
+			"name": "蒲州",
+			"note": "图面对象为蒲州城；城西的蒲津渡应另作设施。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+			"points": [
+				[
+					8959.248046875,
+					4839.3603515625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"visual": {
+				"label_offset": [
+					20.0,
+					-70.0
+				],
+				"label_size": 14.0,
+				"variant": "city_timber",
+				"width_factor": 0.9
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_jinzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_jinzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "晋州",
+			"note": "",
+			"points": [
+				[
+					9219.6484375,
+					4545.60009765625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_jiangzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_jiangzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "绛州",
+			"note": "",
+			"points": [
+				[
+					9173.5205078125,
+					4653.1201171875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"visual": {
+				"label_offset": [
+					0.0,
+					28.0
+				],
+				"label_size": 14.0,
+				"variant": "city_timber",
+				"width_factor": 0.85
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_luzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_luzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "潞州",
+			"note": "",
+			"points": [
+				[
+					9624.3837890625,
+					4515.83984375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_fenzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_fenzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "汾州",
+			"note": "",
+			"points": [
+				[
+					9307.4404296875,
+					4256.64013671875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_daizhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_daizhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "代州",
+			"note": "图面对象为代州州治；不把州城替作雁门关址。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+			"points": [
+				[
+					9587.18359375,
+					3825.59985351563
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_shuozhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_shuozhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "朔州",
+			"note": "",
+			"points": [
+				[
+					9460.7041015625,
+					3766.080078125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_yunzhou_north",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_yunzhou_north",
+			"kind": "city",
+			"layer": "sites",
+			"name": "云州",
+			"note": "",
+			"points": [
+				[
+					9670.5126953125,
+					3577.92016601563
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_weizhou_hedong",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_weizhou_hedong",
+			"kind": "city",
+			"layer": "sites",
+			"name": "蔚州",
+			"note": "图面对象为蔚州州治。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+			"points": [
+				[
+					9895.2001953125,
+					3734.39990234375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_chuzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_chuzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "楚州",
+			"note": "",
+			"points": [
+				[
+					11073.6962890625,
+					5159.0400390625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_runzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_runzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "润州",
+			"note": "",
+			"points": [
+				[
+					11146.6083984375,
+					5470.080078125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_suzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_suzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "苏州",
+			"note": "",
+			"points": [
+				[
+					11427.83984375,
+					5685.11962890625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_hangzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_hangzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "杭州",
+			"note": "",
+			"points": [
+				[
+					11320.7041015625,
+					5929.919921875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_yuezhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_yuezhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "越州",
+			"note": "",
+			"points": [
+				[
+					11418.912109375,
+					5999.0400390625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_huzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_huzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "湖州",
+			"note": "",
+			"points": [
+				[
+					11304.3359375,
+					5792.64013671875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_xuanzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_xuanzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "宣州",
+			"note": "",
+			"points": [
+				[
+					10978.4638671875,
+					5772.47998046875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_hongzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_hongzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "洪州",
+			"note": "",
+			"points": [
+				[
+					10295.47265625,
+					6317.76025390625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_jiangzhou_south",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_jiangzhou_south",
+			"kind": "city",
+			"layer": "sites",
+			"name": "江州",
+			"note": "",
+			"points": [
+				[
+					10316.3037109375,
+					6067.2001953125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_raozhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_raozhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "饶州",
+			"note": "",
+			"points": [
+				[
+					10478.49609375,
+					6240.9599609375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_tanzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_tanzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "潭州",
+			"note": "",
+			"points": [
+				[
+					9594.6240234375,
+					6432.0
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_hengzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_hengzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "衡州",
+			"note": "",
+			"points": [
+				[
+					9503.8564453125,
+					6744.0
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_shouzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_shouzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "寿州",
+			"note": "",
+			"points": [
+				[
+					10506.767578125,
+					5381.759765625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_luzhou_south",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_luzhou_south",
+			"kind": "city",
+			"layer": "sites",
+			"name": "庐州",
+			"note": "",
+			"points": [
+				[
+					10625.8076171875,
+					5552.64013671875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_liangzhou_south",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_liangzhou_south",
+			"kind": "city",
+			"layer": "sites",
+			"name": "梁州",
+			"note": "",
+			"points": [
+				[
+					8169.12060546875,
+					5262.72021484375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_jinzhou_south",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_jinzhou_south",
+			"kind": "city",
+			"layer": "sites",
+			"name": "金州",
+			"note": "",
+			"points": [
+				[
+					8645.279296875,
+					5352.0
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_yangzhou_west",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_yangzhou_west",
+			"kind": "city",
+			"layer": "sites",
+			"name": "洋州",
+			"note": "图面对象为洋州州治。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+			"points": [
+				[
+					8346.19140625,
+					5279.0400390625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_mianzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_mianzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "绵州",
+			"note": "图面对象为绵州州治。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+			"points": [
+				[
+					7623.0244140625,
+					5645.76025390625
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_zizhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_zizhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "梓州",
+			"note": "",
+			"points": [
+				[
+					7700.39990234375,
+					5738.88037109375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_suizhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_suizhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "遂州",
+			"note": "",
+			"points": [
+				[
+					7817.95166015625,
+					5878.07958984375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_jiazhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_jiazhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "嘉州",
+			"note": "",
+			"points": [
+				[
+					7383.4560546875,
+					6104.64013671875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_rongzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_rongzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "戎州",
+			"note": "",
+			"points": [
+				[
+					7631.9521484375,
+					6286.080078125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_lanzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_lanzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "兰州",
+			"note": "图面对象为兰州州治；渡河设施不等同城点。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+			"points": [
+				[
+					7402.7998046875,
+					4548.47998046875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_qinzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_qinzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "秦州",
+			"note": "",
+			"points": [
+				[
+					7811.99951171875,
+					4802.8798828125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_weizhou_west",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_weizhou_west",
+			"kind": "city",
+			"layer": "sites",
+			"name": "渭州",
+			"note": "",
+			"points": [
+				[
+					7593.263671875,
+					4802.8798828125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_shanzhou_west",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_shanzhou_west",
+			"kind": "city",
+			"layer": "sites",
+			"name": "鄯州",
+			"note": "",
+			"points": [
+				[
+					7056.09619140625,
+					4444.7998046875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_guangzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_guangzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "广州",
+			"note": "",
+			"points": [
+				[
+					9661.583984375,
+					7647.35986328125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_guizhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_guizhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "桂州",
+			"note": "",
+			"points": [
+				[
+					8948.83203125,
+					7132.7998046875
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_fuzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_fuzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "福州",
+			"note": "",
+			"points": [
+				[
+					11116.84765625,
+					6942.72021484375
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "zhou_quanzhou",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "project_anchors",
+			"hidden_route": false,
+			"holes": [],
+			"id": "anchor_zhou_quanzhou",
+			"kind": "city",
+			"layer": "sites",
+			"name": "泉州",
+			"note": "",
+			"points": [
+				[
+					10941.263671875,
+					7222.080078125
+				]
+			],
+			"protected": true,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+				"era": "项目当前剧本定义；未新增历史考证",
+				"status": "candidate"
+			},
+			"width": 32.0
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "tongguan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "tg_guanzhong",
+			"kind": "basin",
+			"layer": "terrain",
+			"name": "关中平原",
+			"note": "",
+			"points": [
+				[
+					8547.759765625,
+					4860.599609375
+				],
+				[
+					8882.759765625,
+					4860.599609375
+				],
+				[
+					8852.759765625,
+					4965.599609375
+				],
+				[
+					8547.759765625,
+					5020.599609375
+				]
+			],
+			"protected": false,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"width": 16.0
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "tongguan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "tg_yellow_river",
+			"kind": "water",
+			"layer": "water",
+			"name": "黄河 · 无渡点不可步行跨越",
+			"note": "同州在西侧陆地、蒲州在东岸、陕州在东流段南岸；不是唐代精确河道复原。",
+			"points": [
+				[
+					8927.259765625,
+					4839.83210754395
+				],
+				[
+					8944.46914672852,
+					4853.599609375
+				],
+				[
+					9008.05230712891,
+					4853.599609375
+				],
+				[
+					9059.60049438477,
+					4805.80039215088
+				],
+				[
+					9062.44580078125,
+					4803.84034729004
+				],
+				[
+					9065.73162841797,
+					4802.77224731445
+				],
+				[
+					9067.759765625,
+					4802.599609375
+				],
+				[
+					9379.759765625,
+					4802.599609375
+				],
+				[
+					9379.759765625,
+					4826.599609375
+				],
+				[
+					9072.46722412109,
+					4826.599609375
+				],
+				[
+					9020.91903686523,
+					4874.39883422852
+				],
+				[
+					9018.07373046875,
+					4876.35887145996
+				],
+				[
+					9014.78790283203,
+					4877.42697143555
+				],
+				[
+					9012.759765625,
+					4877.599609375
+				],
+				[
+					8940.259765625,
+					4877.599609375
+				],
+				[
+					8936.84069824219,
+					4877.10221862793
+				],
+				[
+					8933.70504760742,
+					4875.65126037598
+				],
+				[
+					8932.76342773438,
+					4874.97003173828
+				],
+				[
+					8907.76342773438,
+					4854.97003173828
+				],
+				[
+					8905.404296875,
+					4852.44575500488
+				],
+				[
+					8903.86218261719,
+					4849.3539276123
+				],
+				[
+					8903.26489257813,
+					4845.95088195801
+				],
+				[
+					8903.259765625,
+					4845.599609375
+				],
+				[
+					8903.259765625,
+					4638.599609375
+				],
+				[
+					8927.259765625,
+					4638.599609375
+				]
+			],
+			"protected": false,
+			"rule": "water",
+			"scale": 0.5,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+				"era": "宏观岸别与谷地关系有出处；边界为项目固定锚点下的结构示意",
+				"status": "schematic"
+			},
+			"visual": {
+				"ribbon": {
+					"points": [
+						[
+							8915.25,
+							4650
+						],
+						[
+							8914.4,
+							4688
+						],
+						[
+							8916.6,
+							4730
+						],
+						[
+							8914.4,
+							4773
+						],
+						[
+							8916.1,
+							4805
+						],
+						[
+							8915.2,
+							4826.0
+						],
+						[
+							8915.3,
+							4845.0
+						],
+						[
+							8924.0,
+							4853.0
+						],
+						[
+							8941.0,
+							4865.0
+						],
+						[
+							8980.0,
+							4865.2
+						],
+						[
+							9012.0,
+							4865.0
+						],
+						[
+							9028.0,
+							4851.0
+						],
+						[
+							9051.0,
+							4829.0
+						],
+						[
+							9067.8,
+							4815.0
+						],
+						[
+							9100,
+							4814
+						],
+						[
+							9140,
+							4816
+						],
+						[
+							9180,
+							4813.6
+						],
+						[
+							9220,
+							4815.5
+						],
+						[
+							9270,
+							4813.8
+						],
+						[
+							9320,
+							4815.5
+						],
+						[
+							9368,
+							4814.6
+						]
+					],
+					"render_style": "inked_brush",
+					"widths": [
+						19,
+						17.5,
+						19,
+						17,
+						18,
+						19.0,
+						16.0,
+						19.6,
+						23.2,
+						22.8,
+						23.8,
+						19.6,
+						15.0,
+						16.0,
+						18,
+						19,
+						20,
+						17.5,
+						19,
+						17,
+						18
+					]
+				}
+			},
+			"width": 16.0
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "tongguan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "tg_qinling",
+			"kind": "mountain",
+			"layer": "terrain",
+			"name": "华山 · 秦岭屏障",
+			"note": "秦岭主体仍禁行；仅按商丹谷地宏观关系为商洛保留东南开口。",
+			"points": [
+				[
+					8547.759765625,
+					5030.599609375
+				],
+				[
+					8817.759765625,
+					4970.599609375
+				],
+				[
+					8907.759765625,
+					4860.599609375
+				],
+				[
+					9007.759765625,
+					4860.599609375
+				],
+				[
+					9087.759765625,
+					4980.599609375
+				],
+				[
+					9347.759765625,
+					5030.599609375
+				],
+				[
+					9347.759765625,
+					5170.599609375
+				],
+				[
+					8993.48049926758,
+					5170.599609375
+				],
+				[
+					8948.48046875,
+					5101.2998046875
+				],
+				[
+					8913.48046875,
+					5063.7998046875
+				],
+				[
+					8883.48046875,
+					5036.2998046875
+				],
+				[
+					8838.48046875,
+					5036.2998046875
+				],
+				[
+					8830.98046875,
+					5086.2998046875
+				],
+				[
+					8860.98046875,
+					5116.2998046875
+				],
+				[
+					8885.98046875,
+					5170.599609375
+				],
+				[
+					8547.759765625,
+					5170.599609375
+				]
+			],
+			"protected": false,
+			"rule": "blocked",
+			"scale": 0.5,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+				"era": "宏观岸别与谷地关系有出处；边界为项目固定锚点下的结构示意",
+				"status": "schematic"
+			},
+			"visual": {
+				"scatter": false
+			},
+			"width": 16.0
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "tongguan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "tg_xiaohan",
+			"kind": "hills",
+			"layer": "terrain",
+			"name": "崤函低丘 · 可通行 / 易设伏",
+			"note": "",
+			"points": [
+				[
+					9072.759765625,
+					4935.599609375
+				],
+				[
+					9272.759765625,
+					4930.599609375
+				],
+				[
+					9317.759765625,
+					5005.599609375
+				],
+				[
+					9112.759765625,
+					5005.599609375
+				]
+			],
+			"protected": false,
+			"rule": "rough",
+			"scale": 0.5,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"visual": {
+				"scatter": false
+			},
+			"width": 16.0
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "tongguan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "tg_woods",
+			"kind": "forest",
+			"layer": "terrain",
+			"name": "林地 · 可通行 / 较慢",
+			"note": "",
+			"points": [
+				[
+					8647.759765625,
+					4935.599609375
+				],
+				[
+					8767.759765625,
+					4930.599609375
+				],
+				[
+					8802.759765625,
+					4970.599609375
+				],
+				[
+					8677.759765625,
+					5000.599609375
+				]
+			],
+			"protected": false,
+			"rule": "rough",
+			"scale": 0.5,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"visual": {
+				"scatter": false
+			},
+			"width": 16.0
+		},
+		{
+			"domain_id": "",
+			"gate_id": "anchor_tongguan_pass_node",
+			"gate_open": true,
+			"group_id": "tongguan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "tg_main_valley",
+			"kind": "valley",
+			"layer": "passages",
+			"name": "沿河谷道",
+			"note": "",
+			"points": [
+				[
+					8847.759765625,
+					4905.599609375
+				],
+				[
+					9072.759765625,
+					4905.599609375
+				]
+			],
+			"protected": false,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"visual": {
+				"path": [
+					[
+						8847.759765625,
+						4905.599609375
+					],
+					[
+						8880.0,
+						4910.0
+					],
+					[
+						8910.0,
+						4908.0
+					],
+					[
+						8940.0,
+						4899.0
+					],
+					[
+						8965.0,
+						4899.0
+					],
+					[
+						8995.0,
+						4907.0
+					],
+					[
+						9030.0,
+						4910.0
+					],
+					[
+						9055.0,
+						4902.0
+					],
+					[
+						9072.759765625,
+						4905.599609375
+					]
+				],
+				"path_style": "painted"
+			},
+			"width": 48.0
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "tongguan",
+			"hidden_route": true,
+			"holes": [],
+			"id": "tg_secret_trail",
+			"kind": "trail",
+			"layer": "passages",
+			"name": "山间险径 · 仅轻装 / 需发现",
+			"note": "",
+			"points": [
+				[
+					8807.759765625,
+					4925.599609375
+				],
+				[
+					8857.759765625,
+					4970.599609375
+				],
+				[
+					8907.759765625,
+					5030.599609375
+				],
+				[
+					9047.759765625,
+					5030.599609375
+				],
+				[
+					9107.759765625,
+					4945.599609375
+				],
+				[
+					9137.759765625,
+					4925.599609375
+				]
+			],
+			"protected": false,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"width": 24.0
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "tongguan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "tg_west_city",
+			"kind": "city",
+			"layer": "sites",
+			"name": "关中一侧",
+			"note": "",
+			"points": [
+				[
+					8672.759765625,
+					4905.599609375
+				]
+			],
+			"protected": false,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"visual": {
+				"auxiliary": true
+			},
+			"width": 16.0
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "tongguan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "tg_east_city",
+			"kind": "city",
+			"layer": "sites",
+			"name": "崤函一侧",
+			"note": "",
+			"points": [
+				[
+					9212.759765625,
+					4905.599609375
+				]
+			],
+			"protected": false,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"visual": {
+				"auxiliary": true
+			},
+			"width": 16.0
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "tongguan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "tg_water_label",
+			"kind": "label",
+			"layer": "notes",
+			"name": "黄河",
+			"note": "",
+			"points": [
+				[
+					9177.759765625,
+					4808.099609375
+				]
+			],
+			"protected": false,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"visual": {
+				"label_offset": [
+					-105.0,
+					-14.0
+				],
+				"label_size": 18.0
+			},
+			"width": 16.0
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "tongguan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "tg_shangluo_basin",
+			"kind": "basin",
+			"layer": "terrain",
+			"name": "商洛—商丹谷地（结构示意）",
+			"note": "保留商洛既有节点，补出可落脚并向东南开口的谷地；不据此新增正式跨秦岭行军路线。",
+			"points": [
+				[
+					8838.48046875,
+					5036.2998046875
+				],
+				[
+					8883.48046875,
+					5036.2998046875
+				],
+				[
+					8913.48046875,
+					5063.7998046875
+				],
+				[
+					8948.48046875,
+					5101.2998046875
+				],
+				[
+					8993.48046875,
+					5170.599609375
+				],
+				[
+					9018.48046875,
+					5210.599609375
+				],
+				[
+					8913.48046875,
+					5210.599609375
+				],
+				[
+					8885.98046875,
+					5170.599609375
+				],
+				[
+					8860.98046875,
+					5116.2998046875
+				],
+				[
+					8830.98046875,
+					5086.2998046875
+				]
+			],
+			"protected": false,
+			"rule": "none",
+			"scale": 0.5,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+				"era": "宏观岸别与谷地关系有出处；边界为项目固定锚点下的结构示意",
+				"status": "schematic"
+			},
+			"width": 16.0
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "sichuan",
+			"hidden_route": false,
+			"holes": [
+				[
+					[
+						7437.11962890625,
+						5662.80029296875
+					],
+					[
+						7797.11962890625,
+						5590.80029296875
+					],
+					[
+						8025.11962890625,
+						5632.80029296875
+					],
+					[
+						8073.11962890625,
+						5782.80029296875
+					],
+					[
+						7977.11962890625,
+						5998.80029296875
+					],
+					[
+						7617.11962890625,
+						6022.80029296875
+					],
+					[
+						7413.11962890625,
+						5872.80029296875
+					]
+				]
+			],
+			"id": "shu_mountains",
+			"kind": "mountain",
+			"layer": "terrain",
+			"name": "盆地外围山系（结构示意）",
+			"note": "",
+			"points": [
+				[
+					7377.11962890625,
+					5470.80029296875
+				],
+				[
+					7767.11962890625,
+					5422.80029296875
+				],
+				[
+					8127.11962890625,
+					5500.80029296875
+				],
+				[
+					8229.11962890625,
+					5662.80029296875
+				],
+				[
+					8169.11962890625,
+					6094.80029296875
+				],
+				[
+					7437.11962890625,
+					6142.80029296875
+				],
+				[
+					7341.11962890625,
+					5782.80029296875
+				]
+			],
+			"protected": false,
+			"rule": "blocked",
+			"scale": 0.6,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"width": 19.2
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "sichuan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "shu_basin",
+			"kind": "basin",
+			"layer": "terrain",
+			"name": "四川盆地内部",
+			"note": "",
+			"points": [
+				[
+					7446.11962890625,
+					5671.80029296875
+				],
+				[
+					7797.11962890625,
+					5602.80029296875
+				],
+				[
+					8013.11962890625,
+					5641.80029296875
+				],
+				[
+					8055.11962890625,
+					5776.80029296875
+				],
+				[
+					7965.11962890625,
+					5986.80029296875
+				],
+				[
+					7623.11962890625,
+					6010.80029296875
+				],
+				[
+					7425.11962890625,
+					5866.80029296875
+				]
+			],
+			"protected": false,
+			"rule": "none",
+			"scale": 0.6,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"width": 19.2
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "sichuan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "shu_hills",
+			"kind": "hills",
+			"layer": "terrain",
+			"name": "盆地内低丘 · 可以穿行",
+			"note": "",
+			"points": [
+				[
+					7791.11962890625,
+					5740.80029296875
+				],
+				[
+					7965.11962890625,
+					5698.80029296875
+				],
+				[
+					8013.11962890625,
+					5872.80029296875
+				],
+				[
+					7797.11962890625,
+					5980.80029296875
+				]
+			],
+			"protected": false,
+			"rule": "rough",
+			"scale": 0.6,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"width": 19.2
+		},
+		{
+			"domain_id": "",
+			"gate_id": "anchor_jianmen_pass_node",
+			"gate_open": true,
+			"group_id": "sichuan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "shu_north",
+			"kind": "valley",
+			"layer": "passages",
+			"name": "剑门北向谷口",
+			"note": "",
+			"points": [
+				[
+					7797.11962890625,
+					5386.80029296875
+				],
+				[
+					7797.11962890625,
+					5644.80029296875
+				]
+			],
+			"protected": false,
+			"rule": "none",
+			"scale": 0.6,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"width": 57.6
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "sichuan",
+			"hidden_route": true,
+			"holes": [],
+			"id": "shu_trail",
+			"kind": "trail",
+			"layer": "passages",
+			"name": "北缘轻装险径（候选）",
+			"note": "",
+			"points": [
+				[
+					7713.11962890625,
+					5422.80029296875
+				],
+				[
+					7707.11962890625,
+					5506.80029296875
+				],
+				[
+					7713.11962890625,
+					5578.80029296875
+				],
+				[
+					7749.11962890625,
+					5656.80029296875
+				]
+			],
+			"protected": false,
+			"rule": "none",
+			"scale": 0.6,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"width": 28.8
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "sichuan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "shu_east",
+			"kind": "valley",
+			"layer": "passages",
+			"name": "东侧另一路出口（结构保留）",
+			"note": "",
+			"points": [
+				[
+					8007.11962890625,
+					5752.80029296875
+				],
+				[
+					8277.11962890625,
+					5752.80029296875
+				]
+			],
+			"protected": false,
+			"rule": "none",
+			"scale": 0.6,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"width": 57.6
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "sichuan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "shu_river",
+			"kind": "river",
+			"layer": "water",
+			"name": "盆地水系示意",
+			"note": "",
+			"points": [
+				[
+					7737.11962890625,
+					5842.80029296875
+				],
+				[
+					7893.11962890625,
+					5902.80029296875
+				],
+				[
+					8097.11962890625,
+					5872.80029296875
+				],
+				[
+					8277.11962890625,
+					5812.80029296875
+				]
+			],
+			"protected": false,
+			"rule": "water",
+			"scale": 0.6,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"width": 19.2
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "sichuan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "shu_forest",
+			"kind": "forest",
+			"layer": "terrain",
+			"name": "低丘林地 · 遮蔽条件示意",
+			"note": "",
+			"points": [
+				[
+					7557.11962890625,
+					5800.80029296875
+				],
+				[
+					7677.11962890625,
+					5782.80029296875
+				],
+				[
+					7701.11962890625,
+					5944.80029296875
+				],
+				[
+					7605.11962890625,
+					5938.80029296875
+				]
+			],
+			"protected": false,
+			"rule": "rough",
+			"scale": 0.6,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"width": 19.2
+		},
+		{
+			"domain_id": "",
+			"gate_id": "",
+			"gate_open": true,
+			"group_id": "sichuan",
+			"hidden_route": false,
+			"holes": [],
+			"id": "shu_label",
+			"kind": "label",
+			"layer": "notes",
+			"name": "四川盆地",
+			"note": "",
+			"points": [
+				[
+					7707.11962890625,
+					5728.80029296875
+				]
+			],
+			"protected": false,
+			"rule": "none",
+			"scale": 0.6,
+			"source": {
+				"citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+				"era": "战略空间结构示意，非历史测绘",
+				"status": "schematic"
+			},
+			"visual": {
+				"label_offset": [
+					0.0,
+					-55.0
+				]
+			},
+			"width": 19.2
+		}
+	],
+	"layers": [
+		{
+			"id": "terrain",
+			"locked": false,
+			"visible": true
+		},
+		{
+			"id": "water",
+			"locked": false,
+			"visible": true
+		},
+		{
+			"id": "passages",
+			"locked": false,
+			"visible": true
+		},
+		{
+			"id": "boundaries",
+			"locked": false,
+			"visible": true
+		},
+		{
+			"id": "sites",
+			"locked": false,
+			"visible": true
+		},
+		{
+			"id": "notes",
+			"locked": false,
+			"visible": true
+		}
+	],
+	"presentation": {
+		"bundle": {
+			"asset_hashes": {
+				"continuous_ridge_v063.png": "44212a4c8040ac18acc7bd744726a8951f80868750fd408af171f1b1f84b9d18",
+				"ground_wash_v06.png": "d5f2988b3ac32d35db48e9fb740325e071990ab8f8f2a029b1d5672f3d009221",
+				"mountains.png": "784d3b3775c58998c91190579937fadd11461d3afa4bcbb2da1214c5a6da4be3",
+				"open_pass.png": "892b421fda2ce0ab9110bea523cad324d2db27a4334facd5741d8ee72db37c24",
+				"ridge_connector_v06.png": "49fc10e4660cad3ebb4071811a0fbaf13ff66a71489bf3861deaa33d91029fec",
+				"rolling_ridge_v074.png": "c92fe42b82ab62f9bcabb173bb2465da27ce91a143a58c52afc37ac4d839d4f2",
+				"settlement_variants_v06.png": "25fd2c00b6472cef8d445cbad7b791563d8e305d2f65ff69ce002b6ead72681b",
+				"settlements.png": "2049052ffcd5b655d60a806e06e96f3e3eded1df02f530bd1b23bf7c4406fbab",
+				"trees.png": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11"
+			},
+			"catalog_sha256": "cb25ea039a4bc85fb7c515bc8db52292ae4933acee6abab019916bb801022909",
+			"id": "tongguan_reference_20260925",
+			"manifest_sha256": "4f4841d4da4780aab18f7fab1c23bc37403b6ec5e009316c913063d1d08ffaa1",
+			"version": 1.0
+		},
+		"instances": [
+			{
+				"asset": "ground_wash_v06",
+				"group_id": "ground_transitions",
+				"id": "ground_transition_01",
+				"locked": false,
+				"opacity": 0.46,
+				"plane": "terrain",
+				"position": [
+					8715.0,
+					5105.0
+				],
+				"scale": 0.98
+			},
+			{
+				"asset": "ground_wash_v06",
+				"group_id": "ground_transitions",
+				"id": "ground_transition_02",
+				"locked": false,
+				"opacity": 0.46,
+				"plane": "terrain",
+				"position": [
+					9195.0,
+					5110.0
+				],
+				"scale": 0.98
+			},
+			{
+				"asset": "ground_wash_v06",
+				"group_id": "ground_transitions",
+				"id": "ground_transition_03",
+				"locked": false,
+				"opacity": 0.24,
+				"plane": "terrain",
+				"position": [
+					8670.0,
+					4825.0
+				],
+				"scale": 0.72
+			},
+			{
+				"asset": "ground_wash_v06",
+				"group_id": "ground_transitions",
+				"id": "ground_transition_04",
+				"locked": false,
+				"opacity": 0.24,
+				"plane": "terrain",
+				"position": [
+					9230.0,
+					4755.0
+				],
+				"scale": 0.72
+			},
+			{
+				"asset": "ridge_connector_v06",
+				"group_id": "ridge_base",
+				"id": "core_ridge_base_01",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					8734.0,
+					5113.0
+				],
+				"scale": 0.92
+			},
+			{
+				"asset": "ridge_connector_v06",
+				"flip_h": true,
+				"group_id": "ridge_base",
+				"id": "core_ridge_base_02",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					9180.0,
+					5092.0
+				],
+				"scale": 0.96
+			},
+			{
+				"asset": "ridge_connector_v06",
+				"flip_h": true,
+				"group_id": "gate_shoulders",
+				"id": "core_gate_shoulders_02",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					9125.0,
+					4970.0
+				],
+				"scale": 0.93
+			},
+			{
+				"asset": "mountain_shoulder",
+				"group_id": "southwest_ridge",
+				"id": "core_southwest_ridge_01",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					8565.0,
+					5113.0
+				],
+				"scale": 1.03
+			},
+			{
+				"asset": "mountain_ridge",
+				"group_id": "southwest_ridge",
+				"id": "core_southwest_ridge_02",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					8635.0,
+					5112.0
+				],
+				"scale": 1.05
+			},
+			{
+				"asset": "mountain_ridge",
+				"group_id": "southwest_ridge",
+				"id": "core_southwest_ridge_04",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					8760.0,
+					5086.0
+				],
+				"scale": 1.02
+			},
+			{
+				"asset": "mountain_crags",
+				"group_id": "southwest_ridge",
+				"id": "core_southwest_ridge_05",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					8824.0,
+					5072.0
+				],
+				"scale": 0.92
+			},
+			{
+				"asset": "mountain_foothill",
+				"group_id": "gate_spur_west",
+				"id": "core_gate_spur_west_01",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					8720.0,
+					5017.0
+				],
+				"scale": 0.76
+			},
+			{
+				"asset": "mountain_hills",
+				"group_id": "gate_spur_west",
+				"id": "core_gate_spur_west_02",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					8780.0,
+					5007.0
+				],
+				"scale": 0.82
+			},
+			{
+				"asset": "mountain_shoulder",
+				"group_id": "gate_spur_west",
+				"id": "core_gate_spur_west_03",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					8833.0,
+					4986.0
+				],
+				"scale": 0.83
+			},
+			{
+				"asset": "mountain_crags",
+				"group_id": "gate_spur_west",
+				"id": "core_gate_spur_west_04",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					8880.0,
+					4978.0
+				],
+				"scale": 0.76
+			},
+			{
+				"asset": "mountain_foothill",
+				"group_id": "gate_spur_west",
+				"id": "core_gate_spur_west_05",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					8912.0,
+					4969.0
+				],
+				"scale": 0.71
+			},
+			{
+				"asset": "mountain_crags",
+				"group_id": "southeast_ridge",
+				"id": "core_southeast_ridge_01",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					9025.0,
+					5035.0
+				],
+				"scale": 0.9
+			},
+			{
+				"asset": "mountain_shoulder",
+				"group_id": "southeast_ridge",
+				"id": "core_southeast_ridge_02",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					9080.0,
+					5051.0
+				],
+				"scale": 0.98
+			},
+			{
+				"asset": "mountain_ridge",
+				"group_id": "southeast_ridge",
+				"id": "core_southeast_ridge_03",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					9142.0,
+					5072.0
+				],
+				"scale": 1.02
+			},
+			{
+				"asset": "mountain_cliff",
+				"group_id": "southeast_ridge",
+				"id": "core_southeast_ridge_04",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					9206.0,
+					5080.0
+				],
+				"scale": 0.96
+			},
+			{
+				"asset": "mountain_hills",
+				"group_id": "southeast_ridge",
+				"id": "core_southeast_ridge_05",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					9271.0,
+					5091.0
+				],
+				"scale": 0.9
+			},
+			{
+				"asset": "mountain_foothill",
+				"group_id": "southeast_ridge",
+				"id": "core_southeast_ridge_06",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					9330.0,
+					5111.0
+				],
+				"scale": 0.78
+			},
+			{
+				"asset": "mountain_foothill",
+				"group_id": "gate_spur_east",
+				"id": "core_gate_spur_east_01",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					9020.0,
+					4969.0
+				],
+				"scale": 0.7
+			},
+			{
+				"asset": "mountain_foothill",
+				"group_id": "gate_spur_east",
+				"id": "core_gate_spur_east_02",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					9080.0,
+					4990.0
+				],
+				"scale": 0.73
+			},
+			{
+				"asset": "mountain_hills",
+				"group_id": "gate_spur_east",
+				"id": "core_gate_spur_east_03",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					9131.0,
+					4985.0
+				],
+				"scale": 0.82
+			},
+			{
+				"asset": "mountain_shoulder",
+				"group_id": "gate_spur_east",
+				"id": "core_gate_spur_east_04",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					9189.0,
+					4982.0
+				],
+				"scale": 0.84
+			},
+			{
+				"asset": "mountain_ridge",
+				"group_id": "gate_spur_east",
+				"id": "core_gate_spur_east_05",
+				"locked": false,
+				"opacity": 0.8,
+				"plane": "terrain",
+				"position": [
+					9245.0,
+					4984.0
+				],
+				"scale": 0.87
+			},
+			{
+				"asset": "ground_wash_v06",
+				"flip_h": false,
+				"group_id": "ground_transitions_v062",
+				"id": "ground_gate_west_v062",
+				"locked": false,
+				"opacity": 0.42,
+				"plane": "terrain",
+				"position": [
+					8780.0,
+					4968.0
+				],
+				"scale": 0.78
+			},
+			{
+				"asset": "ground_wash_v06",
+				"flip_h": true,
+				"group_id": "ground_transitions_v062",
+				"id": "ground_gate_east_v062",
+				"locked": false,
+				"opacity": 0.42,
+				"plane": "terrain",
+				"position": [
+					9115.0,
+					4968.0
+				],
+				"scale": 0.78
+			},
+			{
+				"asset": "ground_wash_v06",
+				"flip_h": false,
+				"group_id": "ground_transitions_v062",
+				"id": "ground_southwest_v062",
+				"locked": false,
+				"opacity": 0.4,
+				"plane": "terrain",
+				"position": [
+					8725.0,
+					5160.0
+				],
+				"scale": 0.94
+			},
+			{
+				"asset": "ground_wash_v06",
+				"flip_h": true,
+				"group_id": "ground_transitions_v062",
+				"id": "ground_southeast_v062",
+				"locked": false,
+				"opacity": 0.4,
+				"plane": "terrain",
+				"position": [
+					9180.0,
+					5160.0
+				],
+				"scale": 0.94
+			},
+			{
+				"asset": "continuous_ridge_v063",
+				"group_id": "gate_shoulders_v063",
+				"id": "core_continuous_west_v063",
+				"locked": false,
+				"opacity": 0.74,
+				"plane": "terrain",
+				"position": [
+					8880.0,
+					4970.0
+				],
+				"scale": 0.8
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "gorge_edges_v064",
+				"id": "gate_scrub_west_01",
+				"locked": false,
+				"plane": "terrain",
+				"position": [
+					8888.0,
+					4937.0
+				],
+				"scale": 0.54
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "gorge_edges_v064",
+				"id": "gate_pine_west_01",
+				"locked": false,
+				"plane": "terrain",
+				"position": [
+					8910.0,
+					4948.0
+				],
+				"scale": 0.52
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "gorge_edges_v064",
+				"id": "gate_grove_east_01",
+				"locked": false,
+				"plane": "terrain",
+				"position": [
+					9040.0,
+					4939.0
+				],
+				"scale": 0.58
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "gorge_edges_v064",
+				"id": "gate_scrub_east_01",
+				"locked": false,
+				"plane": "terrain",
+				"position": [
+					9072.0,
+					4960.0
+				],
+				"scale": 0.55
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "gorge_edges_v064",
+				"id": "gate_pine_east_01",
+				"locked": false,
+				"plane": "terrain",
+				"position": [
+					9115.0,
+					4945.0
+				],
+				"scale": 0.55
+			},
+			{
+				"asset": "tree_willow",
+				"group_id": "gorge_edges_v064",
+				"id": "river_willow_east_01",
+				"locked": false,
+				"plane": "terrain",
+				"position": [
+					9070.0,
+					4862.0
+				],
+				"scale": 0.62
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "gorge_edges_v064",
+				"id": "river_scrub_east_01",
+				"locked": false,
+				"plane": "terrain",
+				"position": [
+					9110.0,
+					4860.0
+				],
+				"scale": 0.54
+			},
+			{
+				"asset": "rolling_ridge_v074",
+				"group_id": "ridge_connection_v074",
+				"id": "core_rolling_ridge_v074",
+				"locked": false,
+				"opacity": 0.7,
+				"plane": "terrain",
+				"position": [
+					8970.0,
+					4991.0
+				],
+				"scale": 1.0
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_000",
+				"locked": false,
+				"opacity": 0.665705323219299,
+				"plane": "terrain",
+				"position": [
+					9168.2958984375,
+					4601.392578125
+				],
+				"scale": 0.605070173740387
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_001",
+				"locked": false,
+				"opacity": 0.775174379348755,
+				"plane": "terrain",
+				"position": [
+					9155.37109375,
+					4601.751953125
+				],
+				"scale": 0.54970395565033
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_002",
+				"locked": false,
+				"opacity": 0.798040509223938,
+				"plane": "terrain",
+				"position": [
+					9189.759765625,
+					4603.99169921875
+				],
+				"scale": 0.757531225681305
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_003",
+				"locked": false,
+				"opacity": 0.805426120758057,
+				"plane": "terrain",
+				"position": [
+					9135.8173828125,
+					4607.67822265625
+				],
+				"scale": 0.542211532592773
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_004",
+				"locked": false,
+				"opacity": 0.759850978851318,
+				"plane": "terrain",
+				"position": [
+					9177.15234375,
+					4610.01220703125
+				],
+				"scale": 0.685610711574554
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_005",
+				"locked": false,
+				"opacity": 0.708174467086792,
+				"plane": "terrain",
+				"position": [
+					9115.791015625,
+					4612.87646484375
+				],
+				"scale": 0.866686940193176
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_006",
+				"locked": false,
+				"opacity": 0.790890634059906,
+				"plane": "terrain",
+				"position": [
+					9205.697265625,
+					4613.845703125
+				],
+				"scale": 0.542073249816895
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_007",
+				"locked": false,
+				"opacity": 0.754854261875153,
+				"plane": "terrain",
+				"position": [
+					9164.1357421875,
+					4614.3828125
+				],
+				"scale": 0.602408647537231
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_008",
+				"locked": false,
+				"opacity": 0.78762823343277,
+				"plane": "terrain",
+				"position": [
+					9128.6787109375,
+					4617.6259765625
+				],
+				"scale": 0.855247497558594
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_009",
+				"locked": false,
+				"opacity": 0.720803499221802,
+				"plane": "terrain",
+				"position": [
+					9140.912109375,
+					4618.65771484375
+				],
+				"scale": 0.761902809143066
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_010",
+				"locked": false,
+				"opacity": 0.667221426963806,
+				"plane": "terrain",
+				"position": [
+					9096.4765625,
+					4619.36083984375
+				],
+				"scale": 0.796556293964386
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_011",
+				"locked": false,
+				"opacity": 0.66012841463089,
+				"plane": "terrain",
+				"position": [
+					9192.3447265625,
+					4619.4677734375
+				],
+				"scale": 0.609974801540375
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_012",
+				"locked": false,
+				"opacity": 0.805590271949768,
+				"plane": "terrain",
+				"position": [
+					9220.9482421875,
+					4622.57763671875
+				],
+				"scale": 0.85694682598114
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_013",
+				"locked": false,
+				"opacity": 0.676200211048126,
+				"plane": "terrain",
+				"position": [
+					9086.0537109375,
+					4625.5546875
+				],
+				"scale": 0.660539984703064
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_014",
+				"locked": false,
+				"opacity": 0.80567330121994,
+				"plane": "terrain",
+				"position": [
+					9116.8681640625,
+					4625.96826171875
+				],
+				"scale": 0.616686284542084
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_015",
+				"locked": false,
+				"opacity": 0.722368359565735,
+				"plane": "terrain",
+				"position": [
+					9178.0400390625,
+					4627.19287109375
+				],
+				"scale": 0.586725890636444
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_016",
+				"locked": false,
+				"opacity": 0.700594544410706,
+				"plane": "terrain",
+				"position": [
+					9202.7373046875,
+					4627.58203125
+				],
+				"scale": 0.587109386920929
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_017",
+				"locked": false,
+				"opacity": 0.805094122886658,
+				"plane": "terrain",
+				"position": [
+					9157.2900390625,
+					4629.3896484375
+				],
+				"scale": 0.580995857715607
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_018",
+				"locked": false,
+				"opacity": 0.701826453208923,
+				"plane": "terrain",
+				"position": [
+					9068.9033203125,
+					4629.91943359375
+				],
+				"scale": 0.848898589611053
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_019",
+				"locked": false,
+				"opacity": 0.802383661270142,
+				"plane": "terrain",
+				"position": [
+					9101.1201171875,
+					4631.2783203125
+				],
+				"scale": 0.611853063106537
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_020",
+				"locked": false,
+				"opacity": 0.799208581447601,
+				"plane": "terrain",
+				"position": [
+					9139.2822265625,
+					4632.88623046875
+				],
+				"scale": 0.545020401477814
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_021",
+				"locked": false,
+				"opacity": 0.730170071125031,
+				"plane": "terrain",
+				"position": [
+					9052.1123046875,
+					4633.9404296875
+				],
+				"scale": 0.799413323402405
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_022",
+				"locked": false,
+				"opacity": 0.806258678436279,
+				"plane": "terrain",
+				"position": [
+					9125.162109375,
+					4634.685546875
+				],
+				"scale": 0.826635241508484
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_023",
+				"locked": false,
+				"opacity": 0.704136490821838,
+				"plane": "terrain",
+				"position": [
+					9110.5205078125,
+					4639.87548828125
+				],
+				"scale": 0.598553776741028
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_024",
+				"locked": false,
+				"opacity": 0.746297597885132,
+				"plane": "terrain",
+				"position": [
+					9083.4951171875,
+					4640.603515625
+				],
+				"scale": 0.743758797645569
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_025",
+				"locked": false,
+				"opacity": 0.703396856784821,
+				"plane": "terrain",
+				"position": [
+					9064.8544921875,
+					4642.0322265625
+				],
+				"scale": 0.520097136497498
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_026",
+				"locked": false,
+				"opacity": 0.774924874305725,
+				"plane": "terrain",
+				"position": [
+					9211.927734375,
+					4642.98193359375
+				],
+				"scale": 0.719499468803406
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_027",
+				"locked": false,
+				"opacity": 0.674244821071625,
+				"plane": "terrain",
+				"position": [
+					9030.7080078125,
+					4644.3369140625
+				],
+				"scale": 0.855337738990784
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_028",
+				"locked": false,
+				"opacity": 0.729997038841248,
+				"plane": "terrain",
+				"position": [
+					9228.2509765625,
+					4645.01318359375
+				],
+				"scale": 0.821151733398438
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_029",
+				"locked": false,
+				"opacity": 0.816409766674042,
+				"plane": "terrain",
+				"position": [
+					9044.7978515625,
+					4646.0078125
+				],
+				"scale": 0.793307304382324
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_030",
+				"locked": false,
+				"opacity": 0.764507234096527,
+				"plane": "terrain",
+				"position": [
+					9126.0634765625,
+					4648.765625
+				],
+				"scale": 0.775874018669128
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_031",
+				"locked": false,
+				"opacity": 0.684825837612152,
+				"plane": "terrain",
+				"position": [
+					9090.740234375,
+					4650.70458984375
+				],
+				"scale": 0.818791508674622
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_032",
+				"locked": false,
+				"opacity": 0.775275528430939,
+				"plane": "terrain",
+				"position": [
+					9076.6005859375,
+					4650.95361328125
+				],
+				"scale": 0.620812952518463
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_033",
+				"locked": false,
+				"opacity": 0.683064460754395,
+				"plane": "terrain",
+				"position": [
+					9103.2314453125,
+					4653.2763671875
+				],
+				"scale": 0.766228675842285
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_034",
+				"locked": false,
+				"opacity": 0.764841198921204,
+				"plane": "terrain",
+				"position": [
+					8683.310546875,
+					4655.57275390625
+				],
+				"scale": 0.578195869922638
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_035",
+				"locked": false,
+				"opacity": 0.737985551357269,
+				"plane": "terrain",
+				"position": [
+					8700.66796875,
+					4656.197265625
+				],
+				"scale": 0.585212707519531
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_036",
+				"locked": false,
+				"opacity": 0.749071657657623,
+				"plane": "terrain",
+				"position": [
+					9223.390625,
+					4656.41796875
+				],
+				"scale": 0.525669097900391
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_037",
+				"locked": false,
+				"opacity": 0.737686574459076,
+				"plane": "terrain",
+				"position": [
+					9023.646484375,
+					4656.5498046875
+				],
+				"scale": 0.739970445632935
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_038",
+				"locked": false,
+				"opacity": 0.796005308628082,
+				"plane": "terrain",
+				"position": [
+					8667.6611328125,
+					4657.6962890625
+				],
+				"scale": 0.866221308708191
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_039",
+				"locked": false,
+				"opacity": 0.696593940258026,
+				"plane": "terrain",
+				"position": [
+					9236.0029296875,
+					4659.78125
+				],
+				"scale": 0.778816223144531
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_040",
+				"locked": false,
+				"opacity": 0.693720459938049,
+				"plane": "terrain",
+				"position": [
+					9057.0556640625,
+					4661.26318359375
+				],
+				"scale": 0.827434062957764
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_041",
+				"locked": false,
+				"opacity": 0.699228405952454,
+				"plane": "terrain",
+				"position": [
+					9111.685546875,
+					4662.27392578125
+				],
+				"scale": 0.797606825828552
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_042",
+				"locked": false,
+				"opacity": 0.729057788848877,
+				"plane": "terrain",
+				"position": [
+					9089.53515625,
+					4662.7265625
+				],
+				"scale": 0.743913888931274
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_043",
+				"locked": false,
+				"opacity": 0.800789475440979,
+				"plane": "terrain",
+				"position": [
+					9248.0703125,
+					4663.65576171875
+				],
+				"scale": 0.867278337478638
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_044",
+				"locked": false,
+				"opacity": 0.777947187423706,
+				"plane": "terrain",
+				"position": [
+					8713.4443359375,
+					4664.21630859375
+				],
+				"scale": 0.679569125175476
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_045",
+				"locked": false,
+				"opacity": 0.776683986186981,
+				"plane": "terrain",
+				"position": [
+					8656.755859375,
+					4664.55517578125
+				],
+				"scale": 0.810752630233765
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_046",
+				"locked": false,
+				"opacity": 0.797153890132904,
+				"plane": "terrain",
+				"position": [
+					8691.9599609375,
+					4664.92041015625
+				],
+				"scale": 0.557523846626282
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_047",
+				"locked": false,
+				"opacity": 0.662635266780853,
+				"plane": "terrain",
+				"position": [
+					9068.802734375,
+					4666.5185546875
+				],
+				"scale": 0.831008672714233
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_048",
+				"locked": false,
+				"opacity": 0.682151973247528,
+				"plane": "terrain",
+				"position": [
+					9039.4677734375,
+					4666.951171875
+				],
+				"scale": 0.563574194908142
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_049",
+				"locked": false,
+				"opacity": 0.665207028388977,
+				"plane": "terrain",
+				"position": [
+					9267.5673828125,
+					4667.0380859375
+				],
+				"scale": 0.589224994182587
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_050",
+				"locked": false,
+				"opacity": 0.748995244503021,
+				"plane": "terrain",
+				"position": [
+					8644.17578125,
+					4668.09765625
+				],
+				"scale": 0.712870180606842
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_051",
+				"locked": false,
+				"opacity": 0.807107865810394,
+				"plane": "terrain",
+				"position": [
+					9022.6767578125,
+					4669.05322265625
+				],
+				"scale": 0.666893482208252
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_052",
+				"locked": false,
+				"opacity": 0.78015673160553,
+				"plane": "terrain",
+				"position": [
+					8679.26171875,
+					4670.49267578125
+				],
+				"scale": 0.776174008846283
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_053",
+				"locked": false,
+				"opacity": 0.796206951141357,
+				"plane": "terrain",
+				"position": [
+					9230.7314453125,
+					4670.9873046875
+				],
+				"scale": 0.747580409049988
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_054",
+				"locked": false,
+				"opacity": 0.723358988761902,
+				"plane": "terrain",
+				"position": [
+					8732.6171875,
+					4670.98974609375
+				],
+				"scale": 0.809511780738831
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_055",
+				"locked": false,
+				"opacity": 0.789401888847351,
+				"plane": "terrain",
+				"position": [
+					8624.982421875,
+					4673.52197265625
+				],
+				"scale": 0.875866532325745
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_056",
+				"locked": false,
+				"opacity": 0.705903708934784,
+				"plane": "terrain",
+				"position": [
+					9106.203125,
+					4673.58544921875
+				],
+				"scale": 0.580367386341095
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_057",
+				"locked": false,
+				"opacity": 0.753059506416321,
+				"plane": "terrain",
+				"position": [
+					9255.3740234375,
+					4673.92431640625
+				],
+				"scale": 0.871413290500641
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_058",
+				"locked": false,
+				"opacity": 0.79089093208313,
+				"plane": "terrain",
+				"position": [
+					8700.3447265625,
+					4675.65966796875
+				],
+				"scale": 0.859663724899292
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_059",
+				"locked": false,
+				"opacity": 0.786671161651611,
+				"plane": "terrain",
+				"position": [
+					8657.0869140625,
+					4676.720703125
+				],
+				"scale": 0.633798003196716
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_060",
+				"locked": false,
+				"opacity": 0.783675074577332,
+				"plane": "terrain",
+				"position": [
+					9052.529296875,
+					4676.86376953125
+				],
+				"scale": 0.785595893859863
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_061",
+				"locked": false,
+				"opacity": 0.8193319439888,
+				"plane": "terrain",
+				"position": [
+					9083.98828125,
+					4676.98779296875
+				],
+				"scale": 0.630022168159485
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_062",
+				"locked": false,
+				"opacity": 0.725582599639893,
+				"plane": "terrain",
+				"position": [
+					8715.8974609375,
+					4678.50537109375
+				],
+				"scale": 0.606966137886047
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_063",
+				"locked": false,
+				"opacity": 0.707656562328339,
+				"plane": "terrain",
+				"position": [
+					9038.248046875,
+					4679.455078125
+				],
+				"scale": 0.717542946338654
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_064",
+				"locked": false,
+				"opacity": 0.793702006340027,
+				"plane": "terrain",
+				"position": [
+					9242.5869140625,
+					4679.83349609375
+				],
+				"scale": 0.527987658977509
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_065",
+				"locked": false,
+				"opacity": 0.692485451698303,
+				"plane": "terrain",
+				"position": [
+					9278.806640625,
+					4681.68701171875
+				],
+				"scale": 0.695804178714752
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_066",
+				"locked": false,
+				"opacity": 0.699362397193909,
+				"plane": "terrain",
+				"position": [
+					8688.5947265625,
+					4681.83251953125
+				],
+				"scale": 0.582616090774536
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_067",
+				"locked": false,
+				"opacity": 0.776829242706299,
+				"plane": "terrain",
+				"position": [
+					9291.09375,
+					4681.8603515625
+				],
+				"scale": 0.731457710266113
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_068",
+				"locked": false,
+				"opacity": 0.699580371379852,
+				"plane": "terrain",
+				"position": [
+					9024.69140625,
+					4682.2041015625
+				],
+				"scale": 0.790387570858002
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_069",
+				"locked": false,
+				"opacity": 0.757813274860382,
+				"plane": "terrain",
+				"position": [
+					8642.2314453125,
+					4682.826171875
+				],
+				"scale": 0.709383130073547
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_070",
+				"locked": false,
+				"opacity": 0.729716360569,
+				"plane": "terrain",
+				"position": [
+					9263.1162109375,
+					4683.474609375
+				],
+				"scale": 0.640954911708832
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_071",
+				"locked": false,
+				"opacity": 0.768067300319672,
+				"plane": "terrain",
+				"position": [
+					8617.9599609375,
+					4683.4814453125
+				],
+				"scale": 0.730866611003876
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_072",
+				"locked": false,
+				"opacity": 0.788127183914185,
+				"plane": "terrain",
+				"position": [
+					9062.6455078125,
+					4684.107421875
+				],
+				"scale": 0.595929443836212
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_073",
+				"locked": false,
+				"opacity": 0.686696767807007,
+				"plane": "terrain",
+				"position": [
+					8739.072265625,
+					4686.51904296875
+				],
+				"scale": 0.813937544822693
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_074",
+				"locked": false,
+				"opacity": 0.691658556461334,
+				"plane": "terrain",
+				"position": [
+					9106.25,
+					4688.18359375
+				],
+				"scale": 0.876939952373505
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_075",
+				"locked": false,
+				"opacity": 0.669215619564056,
+				"plane": "terrain",
+				"position": [
+					8725.876953125,
+					4688.20654296875
+				],
+				"scale": 0.806176781654358
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_076",
+				"locked": false,
+				"opacity": 0.684618949890137,
+				"plane": "terrain",
+				"position": [
+					9048.95703125,
+					4688.61181640625
+				],
+				"scale": 0.674560904502869
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_077",
+				"locked": false,
+				"opacity": 0.747324526309967,
+				"plane": "terrain",
+				"position": [
+					8677.65234375,
+					4689.38818359375
+				],
+				"scale": 0.607840359210968
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_078",
+				"locked": false,
+				"opacity": 0.739724457263947,
+				"plane": "terrain",
+				"position": [
+					8698.1552734375,
+					4690.28857421875
+				],
+				"scale": 0.739482283592224
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_079",
+				"locked": false,
+				"opacity": 0.815653920173645,
+				"plane": "terrain",
+				"position": [
+					9236.373046875,
+					4690.359375
+				],
+				"scale": 0.740629434585571
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_080",
+				"locked": false,
+				"opacity": 0.801401257514954,
+				"plane": "terrain",
+				"position": [
+					9298.396484375,
+					4691.82275390625
+				],
+				"scale": 0.692715466022491
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_081",
+				"locked": false,
+				"opacity": 0.726188778877258,
+				"plane": "terrain",
+				"position": [
+					8591.423828125,
+					4692.1044921875
+				],
+				"scale": 0.866531908512115
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_082",
+				"locked": false,
+				"opacity": 0.766130566596985,
+				"plane": "terrain",
+				"position": [
+					8608.80078125,
+					4692.2001953125
+				],
+				"scale": 0.828947901725769
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_083",
+				"locked": false,
+				"opacity": 0.784346222877502,
+				"plane": "terrain",
+				"position": [
+					8576.8623046875,
+					4692.34912109375
+				],
+				"scale": 0.523222923278809
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_084",
+				"locked": false,
+				"opacity": 0.761784553527832,
+				"plane": "terrain",
+				"position": [
+					9072.7763671875,
+					4692.89794921875
+				],
+				"scale": 0.568207979202271
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_085",
+				"locked": false,
+				"opacity": 0.774427115917206,
+				"plane": "terrain",
+				"position": [
+					9085.4736328125,
+					4693.24951171875
+				],
+				"scale": 0.644189655780792
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_086",
+				"locked": false,
+				"opacity": 0.818625569343567,
+				"plane": "terrain",
+				"position": [
+					8633.1748046875,
+					4693.53662109375
+				],
+				"scale": 0.730190575122833
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_087",
+				"locked": false,
+				"opacity": 0.70615029335022,
+				"plane": "terrain",
+				"position": [
+					9022.1767578125,
+					4694.484375
+				],
+				"scale": 0.775595664978027
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_088",
+				"locked": false,
+				"opacity": 0.716805636882782,
+				"plane": "terrain",
+				"position": [
+					8660.1318359375,
+					4695.2197265625
+				],
+				"scale": 0.7015660405159
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_089",
+				"locked": false,
+				"opacity": 0.750772655010223,
+				"plane": "terrain",
+				"position": [
+					9038.94140625,
+					4695.337890625
+				],
+				"scale": 0.614294052124023
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_090",
+				"locked": false,
+				"opacity": 0.812329232692719,
+				"plane": "terrain",
+				"position": [
+					9006.2939453125,
+					4695.78955078125
+				],
+				"scale": 0.641870737075806
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_091",
+				"locked": false,
+				"opacity": 0.676719427108765,
+				"plane": "terrain",
+				"position": [
+					8747.3466796875,
+					4696.2119140625
+				],
+				"scale": 0.809670805931091
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_092",
+				"locked": false,
+				"opacity": 0.713878989219666,
+				"plane": "terrain",
+				"position": [
+					9253.3212890625,
+					4697.16455078125
+				],
+				"scale": 0.537461578845978
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_093",
+				"locked": false,
+				"opacity": 0.736092031002045,
+				"plane": "terrain",
+				"position": [
+					9309.8837890625,
+					4697.6591796875
+				],
+				"scale": 0.879805207252502
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_094",
+				"locked": false,
+				"opacity": 0.722622692584991,
+				"plane": "terrain",
+				"position": [
+					9096.71875,
+					4697.662109375
+				],
+				"scale": 0.726970374584198
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_095",
+				"locked": false,
+				"opacity": 0.816971302032471,
+				"plane": "terrain",
+				"position": [
+					9277.8505859375,
+					4698.240234375
+				],
+				"scale": 0.87664657831192
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_096",
+				"locked": false,
+				"opacity": 0.7029989361763,
+				"plane": "terrain",
+				"position": [
+					8712.6337890625,
+					4700.06640625
+				],
+				"scale": 0.784243822097778
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_097",
+				"locked": false,
+				"opacity": 0.717539668083191,
+				"plane": "terrain",
+				"position": [
+					8730.326171875,
+					4700.19873046875
+				],
+				"scale": 0.713107705116272
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_098",
+				"locked": false,
+				"opacity": 0.685765743255615,
+				"plane": "terrain",
+				"position": [
+					8686.416015625,
+					4701.38671875
+				],
+				"scale": 0.599155843257904
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_099",
+				"locked": false,
+				"opacity": 0.805002748966217,
+				"plane": "terrain",
+				"position": [
+					9241.92578125,
+					4701.51611328125
+				],
+				"scale": 0.689147651195526
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_100",
+				"locked": false,
+				"opacity": 0.739712178707123,
+				"plane": "terrain",
+				"position": [
+					8643.57421875,
+					4701.71044921875
+				],
+				"scale": 0.851418614387512
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_101",
+				"locked": false,
+				"opacity": 0.792884349822998,
+				"plane": "terrain",
+				"position": [
+					8558.3486328125,
+					4701.85009765625
+				],
+				"scale": 0.852296948432922
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_102",
+				"locked": false,
+				"opacity": 0.774126887321472,
+				"plane": "terrain",
+				"position": [
+					8699.1259765625,
+					4703.04833984375
+				],
+				"scale": 0.819288372993469
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_103",
+				"locked": false,
+				"opacity": 0.805457234382629,
+				"plane": "terrain",
+				"position": [
+					9112.26953125,
+					4703.078125
+				],
+				"scale": 0.726762175559998
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_104",
+				"locked": false,
+				"opacity": 0.696323812007904,
+				"plane": "terrain",
+				"position": [
+					8625.279296875,
+					4703.27490234375
+				],
+				"scale": 0.571718752384186
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_105",
+				"locked": false,
+				"opacity": 0.678763151168823,
+				"plane": "terrain",
+				"position": [
+					9265.1357421875,
+					4703.48681640625
+				],
+				"scale": 0.720332026481628
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_106",
+				"locked": false,
+				"opacity": 0.695812165737152,
+				"plane": "terrain",
+				"position": [
+					8571.9921875,
+					4705.31884765625
+				],
+				"scale": 0.746499121189117
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_107",
+				"locked": false,
+				"opacity": 0.797084867954254,
+				"plane": "terrain",
+				"position": [
+					9031.365234375,
+					4705.45947265625
+				],
+				"scale": 0.741105318069458
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_108",
+				"locked": false,
+				"opacity": 0.677033662796021,
+				"plane": "terrain",
+				"position": [
+					9052.9658203125,
+					4705.65380859375
+				],
+				"scale": 0.618102610111237
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_109",
+				"locked": false,
+				"opacity": 0.797544956207275,
+				"plane": "terrain",
+				"position": [
+					9300.5625,
+					4706.640625
+				],
+				"scale": 0.658518135547638
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_110",
+				"locked": false,
+				"opacity": 0.816007077693939,
+				"plane": "terrain",
+				"position": [
+					9075.1328125,
+					4706.736328125
+				],
+				"scale": 0.85164487361908
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_111",
+				"locked": false,
+				"opacity": 0.680683255195618,
+				"plane": "terrain",
+				"position": [
+					9000.77734375,
+					4708.1572265625
+				],
+				"scale": 0.659035801887512
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_112",
+				"locked": false,
+				"opacity": 0.661064267158508,
+				"plane": "terrain",
+				"position": [
+					8747.45703125,
+					4708.22998046875
+				],
+				"scale": 0.625774323940277
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_113",
+				"locked": false,
+				"opacity": 0.686140775680542,
+				"plane": "terrain",
+				"position": [
+					8613.7099609375,
+					4708.65185546875
+				],
+				"scale": 0.524695575237274
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_114",
+				"locked": false,
+				"opacity": 0.695501148700714,
+				"plane": "terrain",
+				"position": [
+					8987.97265625,
+					4708.9716796875
+				],
+				"scale": 0.728769421577454
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_115",
+				"locked": false,
+				"opacity": 0.664105534553528,
+				"plane": "terrain",
+				"position": [
+					9013.51171875,
+					4710.2548828125
+				],
+				"scale": 0.529850900173187
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_116",
+				"locked": false,
+				"opacity": 0.762480437755585,
+				"plane": "terrain",
+				"position": [
+					8592.8876953125,
+					4710.4345703125
+				],
+				"scale": 0.582645773887634
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_117",
+				"locked": false,
+				"opacity": 0.696374952793121,
+				"plane": "terrain",
+				"position": [
+					8721.2265625,
+					4711.03515625
+				],
+				"scale": 0.829041004180908
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_118",
+				"locked": false,
+				"opacity": 0.663945615291595,
+				"plane": "terrain",
+				"position": [
+					8674.4267578125,
+					4711.2216796875
+				],
+				"scale": 0.814687311649323
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_119",
+				"locked": false,
+				"opacity": 0.720282971858978,
+				"plane": "terrain",
+				"position": [
+					9095.251953125,
+					4712.53466796875
+				],
+				"scale": 0.534802436828613
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_120",
+				"locked": false,
+				"opacity": 0.7691450715065,
+				"plane": "terrain",
+				"position": [
+					8552.7861328125,
+					4713.17529296875
+				],
+				"scale": 0.676801562309265
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_121",
+				"locked": false,
+				"opacity": 0.674769997596741,
+				"plane": "terrain",
+				"position": [
+					8637.75,
+					4714.1103515625
+				],
+				"scale": 0.844996094703674
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_122",
+				"locked": false,
+				"opacity": 0.800569236278534,
+				"plane": "terrain",
+				"position": [
+					8687.734375,
+					4714.19482421875
+				],
+				"scale": 0.641499757766724
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_123",
+				"locked": false,
+				"opacity": 0.717431008815765,
+				"plane": "terrain",
+				"position": [
+					9234.44921875,
+					4715.1669921875
+				],
+				"scale": 0.608922481536865
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_124",
+				"locked": false,
+				"opacity": 0.762618362903595,
+				"plane": "terrain",
+				"position": [
+					9061.912109375,
+					4715.73974609375
+				],
+				"scale": 0.627739012241364
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_125",
+				"locked": false,
+				"opacity": 0.74989926815033,
+				"plane": "terrain",
+				"position": [
+					9037.23046875,
+					4715.97119140625
+				],
+				"scale": 0.774568140506744
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_126",
+				"locked": false,
+				"opacity": 0.706139087677002,
+				"plane": "terrain",
+				"position": [
+					8649.576171875,
+					4716.1484375
+				],
+				"scale": 0.646130204200745
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_127",
+				"locked": false,
+				"opacity": 0.724443018436432,
+				"plane": "terrain",
+				"position": [
+					9281.9306640625,
+					4716.2109375
+				],
+				"scale": 0.802112936973572
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_128",
+				"locked": false,
+				"opacity": 0.81446784734726,
+				"plane": "terrain",
+				"position": [
+					8566.3046875,
+					4716.52685546875
+				],
+				"scale": 0.818322956562042
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_129",
+				"locked": false,
+				"opacity": 0.790661334991455,
+				"plane": "terrain",
+				"position": [
+					8703.0390625,
+					4717.21484375
+				],
+				"scale": 0.550624310970306
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_130",
+				"locked": false,
+				"opacity": 0.704422354698181,
+				"plane": "terrain",
+				"position": [
+					8624.4140625,
+					4717.29345703125
+				],
+				"scale": 0.81318461894989
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_131",
+				"locked": false,
+				"opacity": 0.755157053470612,
+				"plane": "terrain",
+				"position": [
+					8661.8759765625,
+					4717.77294921875
+				],
+				"scale": 0.870375752449036
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_132",
+				"locked": false,
+				"opacity": 0.714061915874481,
+				"plane": "terrain",
+				"position": [
+					8581.98828125,
+					4718.275390625
+				],
+				"scale": 0.633674263954163
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_133",
+				"locked": false,
+				"opacity": 0.743905663490295,
+				"plane": "terrain",
+				"position": [
+					9247.255859375,
+					4719.37841796875
+				],
+				"scale": 0.588866472244263
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_134",
+				"locked": false,
+				"opacity": 0.728144586086273,
+				"plane": "terrain",
+				"position": [
+					9005.755859375,
+					4719.7216796875
+				],
+				"scale": 0.738588273525238
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_135",
+				"locked": false,
+				"opacity": 0.75786292552948,
+				"plane": "terrain",
+				"position": [
+					9109.265625,
+					4719.93603515625
+				],
+				"scale": 0.76954984664917
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_136",
+				"locked": false,
+				"opacity": 0.665557742118835,
+				"plane": "terrain",
+				"position": [
+					8728.35546875,
+					4721.11376953125
+				],
+				"scale": 0.745612263679504
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_137",
+				"locked": false,
+				"opacity": 0.730941355228424,
+				"plane": "terrain",
+				"position": [
+					9262.4326171875,
+					4721.47607421875
+				],
+				"scale": 0.861914873123169
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_138",
+				"locked": false,
+				"opacity": 0.769120335578918,
+				"plane": "terrain",
+				"position": [
+					8759.0732421875,
+					4721.55419921875
+				],
+				"scale": 0.80385160446167
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_139",
+				"locked": false,
+				"opacity": 0.665325284004211,
+				"plane": "terrain",
+				"position": [
+					8596.8642578125,
+					4722.08447265625
+				],
+				"scale": 0.641296148300171
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_140",
+				"locked": false,
+				"opacity": 0.716066837310791,
+				"plane": "terrain",
+				"position": [
+					8744.7880859375,
+					4722.22509765625
+				],
+				"scale": 0.652555644512177
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_141",
+				"locked": false,
+				"opacity": 0.811392307281494,
+				"plane": "terrain",
+				"position": [
+					8713.9306640625,
+					4722.431640625
+				],
+				"scale": 0.685750365257263
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_142",
+				"locked": false,
+				"opacity": 0.774343311786652,
+				"plane": "terrain",
+				"position": [
+					8544.984375,
+					4723.0224609375
+				],
+				"scale": 0.632685422897339
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_143",
+				"locked": false,
+				"opacity": 0.770232439041138,
+				"plane": "terrain",
+				"position": [
+					8677.3916015625,
+					4723.4111328125
+				],
+				"scale": 0.771495997905731
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_144",
+				"locked": false,
+				"opacity": 0.710546374320984,
+				"plane": "terrain",
+				"position": [
+					9124.0966796875,
+					4724.37841796875
+				],
+				"scale": 0.58102947473526
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_145",
+				"locked": false,
+				"opacity": 0.769668340682983,
+				"plane": "terrain",
+				"position": [
+					9089.5546875,
+					4724.81103515625
+				],
+				"scale": 0.865340232849121
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_146",
+				"locked": false,
+				"opacity": 0.711368262767792,
+				"plane": "terrain",
+				"position": [
+					9054.5693359375,
+					4725.23681640625
+				],
+				"scale": 0.791576027870178
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_147",
+				"locked": false,
+				"opacity": 0.738044023513794,
+				"plane": "terrain",
+				"position": [
+					9076.6181640625,
+					4726.48681640625
+				],
+				"scale": 0.599828660488129
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_148",
+				"locked": false,
+				"opacity": 0.703442633152008,
+				"plane": "terrain",
+				"position": [
+					8690.658203125,
+					4727.81103515625
+				],
+				"scale": 0.797157168388367
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_149",
+				"locked": false,
+				"opacity": 0.713368713855743,
+				"plane": "terrain",
+				"position": [
+					9037.8564453125,
+					4728.17041015625
+				],
+				"scale": 0.769394338130951
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_150",
+				"locked": false,
+				"opacity": 0.760820984840393,
+				"plane": "terrain",
+				"position": [
+					8990.1181640625,
+					4728.40869140625
+				],
+				"scale": 0.79372251033783
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_151",
+				"locked": false,
+				"opacity": 0.789065361022949,
+				"plane": "terrain",
+				"position": [
+					9017.0224609375,
+					4728.59716796875
+				],
+				"scale": 0.697855472564697
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_152",
+				"locked": false,
+				"opacity": 0.720655977725983,
+				"plane": "terrain",
+				"position": [
+					8556.9814453125,
+					4729.41064453125
+				],
+				"scale": 0.767171680927277
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_153",
+				"locked": false,
+				"opacity": 0.779197752475739,
+				"plane": "terrain",
+				"position": [
+					8572.2568359375,
+					4729.78857421875
+				],
+				"scale": 0.867459714412689
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_154",
+				"locked": false,
+				"opacity": 0.702229499816895,
+				"plane": "terrain",
+				"position": [
+					8625.435546875,
+					4729.9658203125
+				],
+				"scale": 0.708452820777893
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_155",
+				"locked": false,
+				"opacity": 0.764597654342651,
+				"plane": "terrain",
+				"position": [
+					8610.24609375,
+					4730.42041015625
+				],
+				"scale": 0.740387558937073
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_156",
+				"locked": false,
+				"opacity": 0.676685571670532,
+				"plane": "terrain",
+				"position": [
+					8770.220703125,
+					4731.01904296875
+				],
+				"scale": 0.74419379234314
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_157",
+				"locked": false,
+				"opacity": 0.677391350269318,
+				"plane": "terrain",
+				"position": [
+					9217.3662109375,
+					4732.33349609375
+				],
+				"scale": 0.868674635887146
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_158",
+				"locked": false,
+				"opacity": 0.763590335845947,
+				"plane": "terrain",
+				"position": [
+					8753.2080078125,
+					4733.21630859375
+				],
+				"scale": 0.807086586952209
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_159",
+				"locked": false,
+				"opacity": 0.738650798797607,
+				"plane": "terrain",
+				"position": [
+					8739.7421875,
+					4733.44775390625
+				],
+				"scale": 0.664381325244904
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_160",
+				"locked": false,
+				"opacity": 0.692246496677399,
+				"plane": "terrain",
+				"position": [
+					9259.57421875,
+					4733.53076171875
+				],
+				"scale": 0.756924211978912
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_161",
+				"locked": false,
+				"opacity": 0.75102710723877,
+				"plane": "terrain",
+				"position": [
+					9236.0888671875,
+					4733.8251953125
+				],
+				"scale": 0.563957810401917
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_162",
+				"locked": false,
+				"opacity": 0.76487135887146,
+				"plane": "terrain",
+				"position": [
+					9003.029296875,
+					4734.1611328125
+				],
+				"scale": 0.754419505596161
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_163",
+				"locked": false,
+				"opacity": 0.730707049369812,
+				"plane": "terrain",
+				"position": [
+					8660.1328125,
+					4734.26171875
+				],
+				"scale": 0.849899649620056
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_164",
+				"locked": false,
+				"opacity": 0.78063040971756,
+				"plane": "terrain",
+				"position": [
+					9104.6455078125,
+					4734.37939453125
+				],
+				"scale": 0.552463412284851
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_165",
+				"locked": false,
+				"opacity": 0.728651225566864,
+				"plane": "terrain",
+				"position": [
+					8797.5751953125,
+					4736.349609375
+				],
+				"scale": 0.726528286933899
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_166",
+				"locked": false,
+				"opacity": 0.760019421577454,
+				"plane": "terrain",
+				"position": [
+					8591.984375,
+					4736.76025390625
+				],
+				"scale": 0.758451640605927
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_167",
+				"locked": false,
+				"opacity": 0.73194694519043,
+				"plane": "terrain",
+				"position": [
+					8784.5244140625,
+					4737.2177734375
+				],
+				"scale": 0.69995129108429
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_168",
+				"locked": false,
+				"opacity": 0.711696207523346,
+				"plane": "terrain",
+				"position": [
+					8700.853515625,
+					4737.8505859375
+				],
+				"scale": 0.633730471134186
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_169",
+				"locked": false,
+				"opacity": 0.666538417339325,
+				"plane": "terrain",
+				"position": [
+					9092.24609375,
+					4738.20556640625
+				],
+				"scale": 0.630011558532715
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_170",
+				"locked": false,
+				"opacity": 0.706510424613953,
+				"plane": "terrain",
+				"position": [
+					9074.109375,
+					4738.6826171875
+				],
+				"scale": 0.523001134395599
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_171",
+				"locked": false,
+				"opacity": 0.713997483253479,
+				"plane": "terrain",
+				"position": [
+					9051.248046875,
+					4738.88232421875
+				],
+				"scale": 0.819428265094757
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_172",
+				"locked": false,
+				"opacity": 0.757535696029663,
+				"plane": "terrain",
+				"position": [
+					8715.939453125,
+					4739.45068359375
+				],
+				"scale": 0.549938797950745
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_173",
+				"locked": false,
+				"opacity": 0.711912393569946,
+				"plane": "terrain",
+				"position": [
+					9124.380859375,
+					4739.5498046875
+				],
+				"scale": 0.568035423755646
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_174",
+				"locked": false,
+				"opacity": 0.816110193729401,
+				"plane": "terrain",
+				"position": [
+					8579.38671875,
+					4739.5625
+				],
+				"scale": 0.755564212799072
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_175",
+				"locked": false,
+				"opacity": 0.757408857345581,
+				"plane": "terrain",
+				"position": [
+					8617.5751953125,
+					4740.724609375
+				],
+				"scale": 0.733161568641663
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_176",
+				"locked": false,
+				"opacity": 0.751563191413879,
+				"plane": "terrain",
+				"position": [
+					8685.7451171875,
+					4741.2548828125
+				],
+				"scale": 0.714719533920288
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_177",
+				"locked": false,
+				"opacity": 0.757191181182861,
+				"plane": "terrain",
+				"position": [
+					9245.8896484375,
+					4741.28759765625
+				],
+				"scale": 0.70388525724411
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_178",
+				"locked": false,
+				"opacity": 0.708348274230957,
+				"plane": "terrain",
+				"position": [
+					8630.7470703125,
+					4741.41259765625
+				],
+				"scale": 0.683802366256714
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_179",
+				"locked": false,
+				"opacity": 0.679072082042694,
+				"plane": "terrain",
+				"position": [
+					8728.361328125,
+					4741.701171875
+				],
+				"scale": 0.783895790576935
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_180",
+				"locked": false,
+				"opacity": 0.660208225250244,
+				"plane": "terrain",
+				"position": [
+					9038.3623046875,
+					4741.93505859375
+				],
+				"scale": 0.532515525817871
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_181",
+				"locked": false,
+				"opacity": 0.71524852514267,
+				"plane": "terrain",
+				"position": [
+					9014.0107421875,
+					4742.04296875
+				],
+				"scale": 0.80194228887558
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_182",
+				"locked": false,
+				"opacity": 0.665770828723907,
+				"plane": "terrain",
+				"position": [
+					8567.1796875,
+					4742.1748046875
+				],
+				"scale": 0.803886413574219
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_183",
+				"locked": false,
+				"opacity": 0.722657382488251,
+				"plane": "terrain",
+				"position": [
+					8554.0390625,
+					4742.2265625
+				],
+				"scale": 0.748871326446533
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_184",
+				"locked": false,
+				"opacity": 0.771812260150909,
+				"plane": "terrain",
+				"position": [
+					9136.2392578125,
+					4743.6494140625
+				],
+				"scale": 0.781014204025269
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_185",
+				"locked": false,
+				"opacity": 0.813628554344177,
+				"plane": "terrain",
+				"position": [
+					8764.3193359375,
+					4744.30615234375
+				],
+				"scale": 0.73912900686264
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_186",
+				"locked": false,
+				"opacity": 0.718436777591705,
+				"plane": "terrain",
+				"position": [
+					9063.3017578125,
+					4744.3583984375
+				],
+				"scale": 0.694014430046082
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_187",
+				"locked": false,
+				"opacity": 0.707755863666534,
+				"plane": "terrain",
+				"position": [
+					9203.2109375,
+					4744.87744140625
+				],
+				"scale": 0.552359104156494
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_188",
+				"locked": false,
+				"opacity": 0.715930283069611,
+				"plane": "terrain",
+				"position": [
+					8808.4345703125,
+					4744.88671875
+				],
+				"scale": 0.588032782077789
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_189",
+				"locked": false,
+				"opacity": 0.699303567409515,
+				"plane": "terrain",
+				"position": [
+					8671.2177734375,
+					4745.9560546875
+				],
+				"scale": 0.655048072338104
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_190",
+				"locked": false,
+				"opacity": 0.672299385070801,
+				"plane": "terrain",
+				"position": [
+					8643.9443359375,
+					4745.998046875
+				],
+				"scale": 0.718109130859375
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_191",
+				"locked": false,
+				"opacity": 0.737293064594269,
+				"plane": "terrain",
+				"position": [
+					9026.7392578125,
+					4746.34326171875
+				],
+				"scale": 0.729292333126068
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_192",
+				"locked": false,
+				"opacity": 0.671761870384216,
+				"plane": "terrain",
+				"position": [
+					9226.841796875,
+					4748.50634765625
+				],
+				"scale": 0.732884287834167
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_193",
+				"locked": false,
+				"opacity": 0.818672358989716,
+				"plane": "terrain",
+				"position": [
+					8605.3544921875,
+					4749.44677734375
+				],
+				"scale": 0.735621690750122
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_194",
+				"locked": false,
+				"opacity": 0.713087856769562,
+				"plane": "terrain",
+				"position": [
+					8794.5400390625,
+					4749.87255859375
+				],
+				"scale": 0.675465703010559
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_195",
+				"locked": false,
+				"opacity": 0.710896968841553,
+				"plane": "terrain",
+				"position": [
+					9153.55859375,
+					4749.93603515625
+				],
+				"scale": 0.558310747146606
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_196",
+				"locked": false,
+				"opacity": 0.697342336177826,
+				"plane": "terrain",
+				"position": [
+					9214.6923828125,
+					4750.59814453125
+				],
+				"scale": 0.744296133518219
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_197",
+				"locked": false,
+				"opacity": 0.723820149898529,
+				"plane": "terrain",
+				"position": [
+					8743.6162109375,
+					4751.5986328125
+				],
+				"scale": 0.824412405490875
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_198",
+				"locked": false,
+				"opacity": 0.684244632720947,
+				"plane": "terrain",
+				"position": [
+					8544.505859375,
+					4751.62451171875
+				],
+				"scale": 0.77116733789444
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_199",
+				"locked": false,
+				"opacity": 0.660967588424683,
+				"plane": "terrain",
+				"position": [
+					8592.041015625,
+					4751.8623046875
+				],
+				"scale": 0.569521605968475
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_200",
+				"locked": false,
+				"opacity": 0.755980312824249,
+				"plane": "terrain",
+				"position": [
+					9183.951171875,
+					4751.982421875
+				],
+				"scale": 0.572767198085785
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_201",
+				"locked": false,
+				"opacity": 0.6664999127388,
+				"plane": "terrain",
+				"position": [
+					8619.568359375,
+					4752.67431640625
+				],
+				"scale": 0.82433807849884
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_202",
+				"locked": false,
+				"opacity": 0.689543485641479,
+				"plane": "terrain",
+				"position": [
+					8716.484375,
+					4753.54736328125
+				],
+				"scale": 0.675015032291412
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_203",
+				"locked": false,
+				"opacity": 0.685550928115845,
+				"plane": "terrain",
+				"position": [
+					8653.5771484375,
+					4753.74609375
+				],
+				"scale": 0.740431368350983
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_204",
+				"locked": false,
+				"opacity": 0.74142050743103,
+				"plane": "terrain",
+				"position": [
+					8778.419921875,
+					4754.4970703125
+				],
+				"scale": 0.754542589187622
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_205",
+				"locked": false,
+				"opacity": 0.767967283725739,
+				"plane": "terrain",
+				"position": [
+					8563.53515625,
+					4756.2451171875
+				],
+				"scale": 0.665803790092468
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_206",
+				"locked": false,
+				"opacity": 0.794293820858002,
+				"plane": "terrain",
+				"position": [
+					8580.123046875,
+					4757.171875
+				],
+				"scale": 0.723692953586578
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_207",
+				"locked": false,
+				"opacity": 0.79406464099884,
+				"plane": "terrain",
+				"position": [
+					8731.8818359375,
+					4757.283203125
+				],
+				"scale": 0.806080281734467
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_208",
+				"locked": false,
+				"opacity": 0.688017785549164,
+				"plane": "terrain",
+				"position": [
+					8827.150390625,
+					4758.11669921875
+				],
+				"scale": 0.545171201229095
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_209",
+				"locked": false,
+				"opacity": 0.758445560932159,
+				"plane": "terrain",
+				"position": [
+					8638.60546875,
+					4758.4453125
+				],
+				"scale": 0.700241565704346
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_210",
+				"locked": false,
+				"opacity": 0.690293788909912,
+				"plane": "terrain",
+				"position": [
+					8690.2314453125,
+					4759.06640625
+				],
+				"scale": 0.580790579319
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_211",
+				"locked": false,
+				"opacity": 0.742929756641388,
+				"plane": "terrain",
+				"position": [
+					8804.642578125,
+					4759.126953125
+				],
+				"scale": 0.534634113311768
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_212",
+				"locked": false,
+				"opacity": 0.746472597122192,
+				"plane": "terrain",
+				"position": [
+					8703.35546875,
+					4759.96630859375
+				],
+				"scale": 0.829157888889313
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_213",
+				"locked": false,
+				"opacity": 0.760460376739502,
+				"plane": "terrain",
+				"position": [
+					8755.279296875,
+					4761.05029296875
+				],
+				"scale": 0.873571872711182
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_214",
+				"locked": false,
+				"opacity": 0.66682767868042,
+				"plane": "terrain",
+				"position": [
+					8607.951171875,
+					4762.25927734375
+				],
+				"scale": 0.618764638900757
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_215",
+				"locked": false,
+				"opacity": 0.703044414520264,
+				"plane": "terrain",
+				"position": [
+					8534.3935546875,
+					4763.830078125
+				],
+				"scale": 0.671874523162842
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_216",
+				"locked": false,
+				"opacity": 0.734515786170959,
+				"plane": "terrain",
+				"position": [
+					8592.6494140625,
+					4763.869140625
+				],
+				"scale": 0.685461938381195
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_217",
+				"locked": false,
+				"opacity": 0.682333171367645,
+				"plane": "terrain",
+				"position": [
+					8770.0791015625,
+					4764.20751953125
+				],
+				"scale": 0.721480965614319
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_218",
+				"locked": false,
+				"opacity": 0.742274701595306,
+				"plane": "terrain",
+				"position": [
+					8786.951171875,
+					4765.46484375
+				],
+				"scale": 0.586031496524811
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_219",
+				"locked": false,
+				"opacity": 0.709505498409271,
+				"plane": "terrain",
+				"position": [
+					8620.1494140625,
+					4765.96435546875
+				],
+				"scale": 0.640932023525238
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_220",
+				"locked": false,
+				"opacity": 0.795747995376587,
+				"plane": "terrain",
+				"position": [
+					8650.6181640625,
+					4766.2138671875
+				],
+				"scale": 0.740232169628143
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_221",
+				"locked": false,
+				"opacity": 0.742202401161194,
+				"plane": "terrain",
+				"position": [
+					8814.3544921875,
+					4766.24365234375
+				],
+				"scale": 0.550826847553253
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_222",
+				"locked": false,
+				"opacity": 0.788841128349304,
+				"plane": "terrain",
+				"position": [
+					8546.234375,
+					4767.693359375
+				],
+				"scale": 0.582673192024231
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_223",
+				"locked": false,
+				"opacity": 0.814573466777802,
+				"plane": "terrain",
+				"position": [
+					8738.1689453125,
+					4767.9130859375
+				],
+				"scale": 0.751713633537292
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_224",
+				"locked": false,
+				"opacity": 0.736717283725739,
+				"plane": "terrain",
+				"position": [
+					8714.4931640625,
+					4769.81396484375
+				],
+				"scale": 0.69702684879303
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_225",
+				"locked": false,
+				"opacity": 0.711586833000183,
+				"plane": "terrain",
+				"position": [
+					8567.189453125,
+					4771.36328125
+				],
+				"scale": 0.710723280906677
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_226",
+				"locked": false,
+				"opacity": 0.676080465316772,
+				"plane": "terrain",
+				"position": [
+					8727.03125,
+					4773.79052734375
+				],
+				"scale": 0.622635841369629
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_227",
+				"locked": false,
+				"opacity": 0.745199799537659,
+				"plane": "terrain",
+				"position": [
+					8583.5927734375,
+					4774.31396484375
+				],
+				"scale": 0.612992525100708
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_228",
+				"locked": false,
+				"opacity": 0.758575260639191,
+				"plane": "terrain",
+				"position": [
+					8598.1748046875,
+					4774.572265625
+				],
+				"scale": 0.681491851806641
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_229",
+				"locked": false,
+				"opacity": 0.740391910076141,
+				"plane": "terrain",
+				"position": [
+					8659.8076171875,
+					4775.291015625
+				],
+				"scale": 0.827572822570801
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_230",
+				"locked": false,
+				"opacity": 0.781779587268829,
+				"plane": "terrain",
+				"position": [
+					8766.0263671875,
+					4775.794921875
+				],
+				"scale": 0.524528384208679
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_231",
+				"locked": false,
+				"opacity": 0.803855657577515,
+				"plane": "terrain",
+				"position": [
+					8696.296875,
+					4776.5087890625
+				],
+				"scale": 0.778780102729797
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_232",
+				"locked": false,
+				"opacity": 0.787654519081116,
+				"plane": "terrain",
+				"position": [
+					8616.654296875,
+					4777.7119140625
+				],
+				"scale": 0.868189573287964
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_233",
+				"locked": false,
+				"opacity": 0.775998950004578,
+				"plane": "terrain",
+				"position": [
+					8632.87890625,
+					4777.76123046875
+				],
+				"scale": 0.777744174003601
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_234",
+				"locked": false,
+				"opacity": 0.792147696018219,
+				"plane": "terrain",
+				"position": [
+					8523.3515625,
+					4778.21728515625
+				],
+				"scale": 0.654292464256287
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_235",
+				"locked": false,
+				"opacity": 0.742863237857819,
+				"plane": "terrain",
+				"position": [
+					8815.45703125,
+					4778.458984375
+				],
+				"scale": 0.684749364852905
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_236",
+				"locked": false,
+				"opacity": 0.711377382278442,
+				"plane": "terrain",
+				"position": [
+					8675.69140625,
+					4779.15234375
+				],
+				"scale": 0.800003468990326
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_237",
+				"locked": false,
+				"opacity": 0.682072103023529,
+				"plane": "terrain",
+				"position": [
+					8785.392578125,
+					4779.75732421875
+				],
+				"scale": 0.660304129123688
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_238",
+				"locked": false,
+				"opacity": 0.697263956069946,
+				"plane": "terrain",
+				"position": [
+					8540.607421875,
+					4779.88720703125
+				],
+				"scale": 0.822442412376404
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_239",
+				"locked": false,
+				"opacity": 0.798623919487,
+				"plane": "terrain",
+				"position": [
+					8748.021484375,
+					4782.04443359375
+				],
+				"scale": 0.708119094371796
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_240",
+				"locked": false,
+				"opacity": 0.771220624446869,
+				"plane": "terrain",
+				"position": [
+					8797.478515625,
+					4782.94384765625
+				],
+				"scale": 0.771391093730927
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_241",
+				"locked": false,
+				"opacity": 0.792005836963654,
+				"plane": "terrain",
+				"position": [
+					8563.109375,
+					4786.03662109375
+				],
+				"scale": 0.524702370166779
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_242",
+				"locked": false,
+				"opacity": 0.793061256408691,
+				"plane": "terrain",
+				"position": [
+					8594.9833984375,
+					4786.60986328125
+				],
+				"scale": 0.749984502792358
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_243",
+				"locked": false,
+				"opacity": 0.787808418273926,
+				"plane": "terrain",
+				"position": [
+					8761.033203125,
+					4786.7451171875
+				],
+				"scale": 0.542244553565979
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_244",
+				"locked": false,
+				"opacity": 0.782405972480774,
+				"plane": "terrain",
+				"position": [
+					8508.5966796875,
+					4787.236328125
+				],
+				"scale": 0.585243582725525
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_245",
+				"locked": false,
+				"opacity": 0.717191100120544,
+				"plane": "terrain",
+				"position": [
+					8580.6650390625,
+					4787.45263671875
+				],
+				"scale": 0.573253512382507
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_246",
+				"locked": false,
+				"opacity": 0.750408470630646,
+				"plane": "terrain",
+				"position": [
+					8663.8291015625,
+					4788.04638671875
+				],
+				"scale": 0.794067859649658
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_247",
+				"locked": false,
+				"opacity": 0.706696271896362,
+				"plane": "terrain",
+				"position": [
+					8607.8271484375,
+					4788.74462890625
+				],
+				"scale": 0.676615357398987
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_248",
+				"locked": false,
+				"opacity": 0.779821634292603,
+				"plane": "terrain",
+				"position": [
+					8647.111328125,
+					4788.80322265625
+				],
+				"scale": 0.591955780982971
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_249",
+				"locked": false,
+				"opacity": 0.675001382827759,
+				"plane": "terrain",
+				"position": [
+					8628.619140625,
+					4789.70703125
+				],
+				"scale": 0.819894552230835
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_250",
+				"locked": false,
+				"opacity": 0.71329939365387,
+				"plane": "terrain",
+				"position": [
+					8681.876953125,
+					4790.05322265625
+				],
+				"scale": 0.578579425811768
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_251",
+				"locked": false,
+				"opacity": 0.671593546867371,
+				"plane": "terrain",
+				"position": [
+					8807.1328125,
+					4790.220703125
+				],
+				"scale": 0.758443832397461
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_252",
+				"locked": false,
+				"opacity": 0.734010934829712,
+				"plane": "terrain",
+				"position": [
+					8522.1455078125,
+					4790.39208984375
+				],
+				"scale": 0.818557977676392
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_253",
+				"locked": false,
+				"opacity": 0.676176011562347,
+				"plane": "terrain",
+				"position": [
+					8712.2744140625,
+					4790.408203125
+				],
+				"scale": 0.808484077453613
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_254",
+				"locked": false,
+				"opacity": 0.674728751182556,
+				"plane": "terrain",
+				"position": [
+					8734.2177734375,
+					4792.08837890625
+				],
+				"scale": 0.636779725551605
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_255",
+				"locked": false,
+				"opacity": 0.708551585674286,
+				"plane": "terrain",
+				"position": [
+					8779.6787109375,
+					4794.65966796875
+				],
+				"scale": 0.727554440498352
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_256",
+				"locked": false,
+				"opacity": 0.680658578872681,
+				"plane": "terrain",
+				"position": [
+					8535.15625,
+					4795.412109375
+				],
+				"scale": 0.848032653331757
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_257",
+				"locked": false,
+				"opacity": 0.778428077697754,
+				"plane": "terrain",
+				"position": [
+					8548.6591796875,
+					4797.634765625
+				],
+				"scale": 0.695860385894775
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_258",
+				"locked": false,
+				"opacity": 0.682966887950897,
+				"plane": "terrain",
+				"position": [
+					8722.6943359375,
+					4797.72265625
+				],
+				"scale": 0.849199652671814
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_259",
+				"locked": false,
+				"opacity": 0.705546796321869,
+				"plane": "terrain",
+				"position": [
+					8752.0234375,
+					4798.1484375
+				],
+				"scale": 0.664155185222626
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_260",
+				"locked": false,
+				"opacity": 0.664469540119171,
+				"plane": "terrain",
+				"position": [
+					8796.2021484375,
+					4798.30322265625
+				],
+				"scale": 0.843354105949402
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_261",
+				"locked": false,
+				"opacity": 0.717933177947998,
+				"plane": "terrain",
+				"position": [
+					8571.6865234375,
+					4798.388671875
+				],
+				"scale": 0.746842861175537
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_262",
+				"locked": false,
+				"opacity": 0.740090250968933,
+				"plane": "terrain",
+				"position": [
+					8587.1416015625,
+					4798.57958984375
+				],
+				"scale": 0.766721665859222
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_263",
+				"locked": false,
+				"opacity": 0.805033683776855,
+				"plane": "terrain",
+				"position": [
+					8765.232421875,
+					4799.25244140625
+				],
+				"scale": 0.607976794242859
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_264",
+				"locked": false,
+				"opacity": 0.667166709899902,
+				"plane": "terrain",
+				"position": [
+					8601.81640625,
+					4799.47802734375
+				],
+				"scale": 0.603071451187134
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_265",
+				"locked": false,
+				"opacity": 0.72171413898468,
+				"plane": "terrain",
+				"position": [
+					8668.9111328125,
+					4799.7666015625
+				],
+				"scale": 0.76611590385437
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_266",
+				"locked": false,
+				"opacity": 0.685046553611755,
+				"plane": "terrain",
+				"position": [
+					8514.142578125,
+					4800.3984375
+				],
+				"scale": 0.843546271324158
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_267",
+				"locked": false,
+				"opacity": 0.815150737762451,
+				"plane": "terrain",
+				"position": [
+					8708.8681640625,
+					4804.94482421875
+				],
+				"scale": 0.712100505828857
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_268",
+				"locked": false,
+				"opacity": 0.722152829170227,
+				"plane": "terrain",
+				"position": [
+					8620.8056640625,
+					4805.40966796875
+				],
+				"scale": 0.704549312591553
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_269",
+				"locked": false,
+				"opacity": 0.661376655101776,
+				"plane": "terrain",
+				"position": [
+					8635.2822265625,
+					4805.67578125
+				],
+				"scale": 0.838268458843231
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_270",
+				"locked": false,
+				"opacity": 0.763036370277405,
+				"plane": "terrain",
+				"position": [
+					8651.44921875,
+					4805.9990234375
+				],
+				"scale": 0.769117057323456
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_271",
+				"locked": false,
+				"opacity": 0.80635541677475,
+				"plane": "terrain",
+				"position": [
+					8683.9970703125,
+					4807.26416015625
+				],
+				"scale": 0.613991677761078
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_272",
+				"locked": false,
+				"opacity": 0.760148346424103,
+				"plane": "terrain",
+				"position": [
+					8779.9814453125,
+					4807.341796875
+				],
+				"scale": 0.705532610416412
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_273",
+				"locked": false,
+				"opacity": 0.670375168323517,
+				"plane": "terrain",
+				"position": [
+					8557.90625,
+					4808.01513671875
+				],
+				"scale": 0.732791483402252
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_274",
+				"locked": false,
+				"opacity": 0.729551315307617,
+				"plane": "terrain",
+				"position": [
+					8743.4228515625,
+					4808.2666015625
+				],
+				"scale": 0.730851054191589
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_275",
+				"locked": false,
+				"opacity": 0.689812839031219,
+				"plane": "terrain",
+				"position": [
+					8593.5849609375,
+					4808.8984375
+				],
+				"scale": 0.609222054481506
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_276",
+				"locked": false,
+				"opacity": 0.750659644603729,
+				"plane": "terrain",
+				"position": [
+					8529.8720703125,
+					4811.44189453125
+				],
+				"scale": 0.572404742240906
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_277",
+				"locked": false,
+				"opacity": 0.814744412899017,
+				"plane": "terrain",
+				"position": [
+					8576.8515625,
+					4811.9482421875
+				],
+				"scale": 0.61607700586319
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_278",
+				"locked": false,
+				"opacity": 0.716542601585388,
+				"plane": "terrain",
+				"position": [
+					8730.58984375,
+					4812.65234375
+				],
+				"scale": 0.754756569862366
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_279",
+				"locked": false,
+				"opacity": 0.694997549057007,
+				"plane": "terrain",
+				"position": [
+					8766.8115234375,
+					4813.212890625
+				],
+				"scale": 0.653376460075378
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_280",
+				"locked": false,
+				"opacity": 0.71407151222229,
+				"plane": "terrain",
+				"position": [
+					8718.552734375,
+					4813.90185546875
+				],
+				"scale": 0.814713597297668
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_281",
+				"locked": false,
+				"opacity": 0.798282504081726,
+				"plane": "terrain",
+				"position": [
+					8754.4580078125,
+					4815.64111328125
+				],
+				"scale": 0.846156358718872
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_282",
+				"locked": false,
+				"opacity": 0.807043135166168,
+				"plane": "terrain",
+				"position": [
+					8702.8935546875,
+					4815.90283203125
+				],
+				"scale": 0.76485002040863
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_283",
+				"locked": false,
+				"opacity": 0.785493433475494,
+				"plane": "terrain",
+				"position": [
+					8604.1171875,
+					4816.9833984375
+				],
+				"scale": 0.705973029136658
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_284",
+				"locked": false,
+				"opacity": 0.747096359729767,
+				"plane": "terrain",
+				"position": [
+					8627.875,
+					4817.1103515625
+				],
+				"scale": 0.605594635009766
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_285",
+				"locked": false,
+				"opacity": 0.787771582603455,
+				"plane": "terrain",
+				"position": [
+					8566.2939453125,
+					4817.80517578125
+				],
+				"scale": 0.626740574836731
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_286",
+				"locked": false,
+				"opacity": 0.769521296024323,
+				"plane": "terrain",
+				"position": [
+					8550.771484375,
+					4817.88330078125
+				],
+				"scale": 0.579337954521179
+			},
+			{
+				"asset": "tree_pine",
+				"group_id": "reference_woods",
+				"id": "reference_wood_287",
+				"locked": false,
+				"opacity": 0.75435596704483,
+				"plane": "terrain",
+				"position": [
+					8677.8466796875,
+					4818.1865234375
+				],
+				"scale": 0.780105233192444
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_288",
+				"locked": false,
+				"opacity": 0.76000052690506,
+				"plane": "terrain",
+				"position": [
+					8649.8291015625,
+					4818.6025390625
+				],
+				"scale": 0.562482833862305
+			},
+			{
+				"asset": "tree_grove",
+				"group_id": "reference_woods",
+				"id": "reference_wood_289",
+				"locked": false,
+				"opacity": 0.666827082633972,
+				"plane": "terrain",
+				"position": [
+					8588.4658203125,
+					4820.12841796875
+				],
+				"scale": 0.634500443935394
+			},
+			{
+				"asset": "tree_scrub",
+				"group_id": "reference_woods",
+				"id": "reference_wood_290",
+				"locked": false,
+				"opacity": 0.713029444217682,
+				"plane": "terrain",
+				"position": [
+					8741.9287109375,
+					4820.39794921875
+				],
+				"scale": 0.54666268825531
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_291",
+				"locked": false,
+				"opacity": 0.76602566242218,
+				"plane": "terrain",
+				"position": [
+					8665.765625,
+					4823.48486328125
+				],
+				"scale": 0.605120480060577
+			},
+			{
+				"asset": "tree_broad",
+				"group_id": "reference_woods",
+				"id": "reference_wood_292",
+				"locked": false,
+				"opacity": 0.694762170314789,
+				"plane": "terrain",
+				"position": [
+					8720.1396484375,
+					4826.3857421875
+				],
+				"scale": 0.8370680809021
+			},
+			{
+				"asset": "tree_tall",
+				"group_id": "reference_woods",
+				"id": "reference_wood_293",
+				"locked": false,
+				"opacity": 0.807443141937256,
+				"plane": "terrain",
+				"position": [
+					8695.99609375,
+					4831.2177734375
+				],
+				"scale": 0.562443673610687
+			}
+		]
+	},
+	"production": {
+		"audit_reviews": {
+
+		},
+		"calibrations": {
+
+		},
+		"checks": [
+			{
+				"expected": true,
+				"finish": [
+					9212.759765625,
+					4905.599609375
+				],
+				"gates": {
+					"anchor_tongguan_pass_node": true
+				},
+				"id": "tg_open",
+				"name": "开放关口 · 大军通过",
+				"rect": [
+					8547.759765625,
+					4690.599609375,
+					800.0,
+					480.0
+				],
+				"revealed": false,
+				"start": [
+					8672.759765625,
+					4905.599609375
+				],
+				"step": 4.0,
+				"unit": "army"
+			},
+			{
+				"expected": false,
+				"finish": [
+					9212.759765625,
+					4905.599609375
+				],
+				"gates": {
+					"anchor_tongguan_pass_node": false
+				},
+				"id": "tg_closed",
+				"name": "关闭关口 · 大军受阻",
+				"rect": [
+					8547.759765625,
+					4690.599609375,
+					800.0,
+					480.0
+				],
+				"revealed": false,
+				"start": [
+					8672.759765625,
+					4905.599609375
+				],
+				"step": 4.0,
+				"unit": "army"
+			},
+			{
+				"expected": false,
+				"finish": [
+					9212.759765625,
+					4905.599609375
+				],
+				"gates": {
+					"anchor_tongguan_pass_node": false
+				},
+				"id": "tg_unknown_trail",
+				"name": "未发现险径 · 小队受阻",
+				"rect": [
+					8547.759765625,
+					4690.599609375,
+					800.0,
+					480.0
+				],
+				"revealed": false,
+				"start": [
+					8672.759765625,
+					4905.599609375
+				],
+				"step": 4.0,
+				"unit": "light"
+			},
+			{
+				"expected": true,
+				"finish": [
+					9212.759765625,
+					4905.599609375
+				],
+				"gates": {
+					"anchor_tongguan_pass_node": false
+				},
+				"id": "tg_known_trail",
+				"name": "发现险径 · 小队绕行",
+				"rect": [
+					8547.759765625,
+					4690.599609375,
+					800.0,
+					480.0
+				],
+				"revealed": true,
+				"start": [
+					8672.759765625,
+					4905.599609375
+				],
+				"step": 4.0,
+				"unit": "light"
+			},
+			{
+				"expected": false,
+				"finish": [
+					9212.759765625,
+					4905.599609375
+				],
+				"gates": {
+					"anchor_tongguan_pass_node": false
+				},
+				"id": "tg_army_trail",
+				"name": "发现险径 · 大军仍受阻",
+				"rect": [
+					8547.759765625,
+					4690.599609375,
+					800.0,
+					480.0
+				],
+				"revealed": true,
+				"start": [
+					8672.759765625,
+					4905.599609375
+				],
+				"step": 4.0,
+				"unit": "army"
+			},
+			{
+				"expected": false,
+				"finish": [
+					8987.759765625,
+					4810.599609375
+				],
+				"gates": {
+
+				},
+				"id": "tg_water",
+				"name": "两岸均可落脚，但无渡点不能步行越河",
+				"rect": [
+					8747.759765625,
+					4690.599609375,
+					600.0,
+					250.0
+				],
+				"revealed": false,
+				"start": [
+					8862.759765625,
+					4849.099609375
+				],
+				"step": 4.0,
+				"unit": "army"
+			},
+			{
+				"expected": true,
+				"finish": [
+					8672.759765625,
+					4905.599609375
+				],
+				"gates": {
+
+				},
+				"id": "tg_tongzhou_bank",
+				"name": "同州沿西侧陆地接近关中",
+				"rect": [
+					8547.759765625,
+					4760.599609375,
+					350.0,
+					250.0
+				],
+				"revealed": false,
+				"start": [
+					8865.50390625,
+					4848.9599609375
+				],
+				"step": 3.0,
+				"unit": "army"
+			},
+			{
+				"expected": true,
+				"finish": [
+					9127.759765625,
+					4740.599609375
+				],
+				"gates": {
+
+				},
+				"id": "tg_puzhou_bank",
+				"name": "蒲州可向东岸腹地离开",
+				"rect": [
+					8897.759765625,
+					4690.599609375,
+					400.0,
+					200.0
+				],
+				"revealed": false,
+				"start": [
+					8959.248046875,
+					4839.3603515625
+				],
+				"step": 3.0,
+				"unit": "army"
+			},
+			{
+				"expected": true,
+				"finish": [
+					9212.759765625,
+					4905.599609375
+				],
+				"gates": {
+
+				},
+				"id": "tg_shanzhou_bank",
+				"name": "陕州沿黄河南岸接近崤函",
+				"rect": [
+					9072.759765625,
+					4790.599609375,
+					250.0,
+					175.0
+				],
+				"revealed": false,
+				"start": [
+					9154.17578125,
+					4848.9599609375
+				],
+				"step": 3.0,
+				"unit": "army"
+			},
+			{
+				"expected": false,
+				"finish": [
+					8959.248046875,
+					4839.3603515625
+				],
+				"gates": {
+
+				},
+				"id": "tg_opposite_banks",
+				"name": "同州至蒲州不能无渡点步行越河",
+				"rect": [
+					8747.759765625,
+					4690.599609375,
+					600.0,
+					250.0
+				],
+				"revealed": false,
+				"start": [
+					8865.50390625,
+					4848.9599609375
+				],
+				"step": 3.0,
+				"unit": "army"
+			},
+			{
+				"expected": true,
+				"finish": [
+					8943.48046875,
+					5195.599609375
+				],
+				"gates": {
+
+				},
+				"id": "tg_shangluo_exit",
+				"name": "商洛谷地有东南出口",
+				"rect": [
+					8778.48046875,
+					4988.7998046875,
+					280.0,
+					250.0
+				],
+				"revealed": false,
+				"start": [
+					8868.48046875,
+					5068.7998046875
+				],
+				"step": 3.0,
+				"unit": "army"
+			},
+			{
+				"expected": false,
+				"finish": [
+					8672.759765625,
+					4905.599609375
+				],
+				"gates": {
+
+				},
+				"id": "tg_shangluo_ridge",
+				"name": "商洛谷地不授予直穿秦岭捷径",
+				"rect": [
+					8547.759765625,
+					4690.599609375,
+					800.0,
+					520.0
+				],
+				"revealed": false,
+				"start": [
+					8868.48046875,
+					5068.7998046875
+				],
+				"step": 4.0,
+				"unit": "army"
+			},
+			{
+				"expected": true,
+				"finish": [
+					7797.11962890625,
+					5674.80029296875
+				],
+				"gates": {
+					"anchor_jianmen_pass_node": true
+				},
+				"id": "shu_open",
+				"name": "剑门北口 · open",
+				"rect": [
+					7653.11962890625,
+					5362.80029296875,
+					300.0,
+					348.0
+				],
+				"revealed": false,
+				"start": [
+					7797.11962890625,
+					5398.80029296875
+				],
+				"step": 3.0,
+				"unit": "army"
+			},
+			{
+				"expected": false,
+				"finish": [
+					7797.11962890625,
+					5674.80029296875
+				],
+				"gates": {
+					"anchor_jianmen_pass_node": false
+				},
+				"id": "shu_closed",
+				"name": "剑门北口 · closed",
+				"rect": [
+					7653.11962890625,
+					5362.80029296875,
+					300.0,
+					348.0
+				],
+				"revealed": false,
+				"start": [
+					7797.11962890625,
+					5398.80029296875
+				],
+				"step": 3.0,
+				"unit": "army"
+			},
+			{
+				"expected": true,
+				"finish": [
+					7797.11962890625,
+					5674.80029296875
+				],
+				"gates": {
+					"anchor_jianmen_pass_node": false
+				},
+				"id": "shu_trail",
+				"name": "剑门北口 · trail",
+				"rect": [
+					7653.11962890625,
+					5362.80029296875,
+					300.0,
+					348.0
+				],
+				"revealed": true,
+				"start": [
+					7797.11962890625,
+					5398.80029296875
+				],
+				"step": 3.0,
+				"unit": "light"
+			},
+			{
+				"expected": true,
+				"finish": [
+					8247.11962890625,
+					5752.80029296875
+				],
+				"gates": {
+					"anchor_jianmen_pass_node": false
+				},
+				"id": "shu_east",
+				"name": "关闭剑门不封死盆地东侧出口",
+				"rect": [
+					7887.11962890625,
+					5650.80029296875,
+					408.0,
+					210.0
+				],
+				"revealed": false,
+				"start": [
+					7977.11962890625,
+					5752.80029296875
+				],
+				"step": 3.0,
+				"unit": "army"
+			},
+			{
+				"expected": false,
+				"finish": [
+					7329.11962890625,
+					5752.80029296875
+				],
+				"gates": {
+
+				},
+				"id": "shu_mountain",
+				"name": "大军不能从西侧直穿高山",
+				"rect": [
+					7317.11962890625,
+					5662.80029296875,
+					276.0,
+					198.0
+				],
+				"revealed": false,
+				"start": [
+					7551.11962890625,
+					5752.80029296875
+				],
+				"step": 3.0,
+				"unit": "army"
+			},
+			{
+				"expected": true,
+				"finish": [
+					7454.8798828125,
+					5836.7998046875
+				],
+				"gates": {
+					"anchor_jianmen_pass_node": true
+				},
+				"id": "shu_chengdu",
+				"name": "剑门开放后可进入成都所在盆地",
+				"rect": [
+					7377.11962890625,
+					5362.80029296875,
+					570.0,
+					690.0
+				],
+				"revealed": false,
+				"start": [
+					7797.11962890625,
+					5398.80029296875
+				],
+				"step": 3.0,
+				"unit": "army"
+			}
+		],
+		"coordinate_frame": "game_map_3720x2400_scaled_4",
+		"receipts": {
+
+		},
+		"regions": [
+			{
+				"id": "shangluo",
+				"name": "商洛谷地复核",
+				"rect": [
+					8778.48046875,
+					4988.7998046875,
+					280.0,
+					250.0
+				]
+			},
+			{
+				"id": "tongguan",
+				"name": "潼关结构样区",
+				"rect": [
+					8547.759765625,
+					4690.599609375,
+					800.0,
+					480.0
+				]
+			},
+			{
+				"id": "sichuan",
+				"name": "剑门—四川盆地结构样区",
+				"rect": [
+					7317.11962890625,
+					5362.80029296875,
+					960.0,
+					840.0
+				]
+			}
+		],
+		"source_note": "地点使用项目现有归一化定义；地形是结构示意，不授予正式通行许可。"
+	},
+	"reference": {
+		"above_art": true,
+		"locked": true,
+		"opacity": 0.35,
+		"path": "",
+		"position": [
+			0.0,
+			0.0
+		],
+		"rotation": 0.0,
+		"size": [
+			1600.0,
+			960.0
+		],
+		"visible": true
+	},
+	"reference_tiles": [],
+	"schema_version": 4.0,
+	"title": "潼关工坊 0.7.7 黄河弯段局部加宽离线候选"
+}

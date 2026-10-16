@@ -1,0 +1,20 @@
+{
+  "bundle_id": "chuandong_20260930",
+  "version": 1,
+  "extends": "chuanzhong_20260930",
+  "generation_tool": "built-in image_gen",
+  "assets": [
+    {
+      "file": "narrow-ridge.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c2683cf2f68e0f18456cbc2efe275620d1b02437a24e1536d82557c742729203"
+    },
+    {
+      "file": "ridge-end.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "a7d25f850bbdf9f7d1326210fc59aab49b2234ee63a51d719c437e731fc0d5b5"
+    }
+  ]
+}

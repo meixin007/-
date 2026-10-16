@@ -1,0 +1,1463 @@
+[
+  {
+    "id": "guo_ziyi_military_tent",
+    "title": "郭子仪军帐",
+    "entry_character_id": "guo_ziyi",
+    "entry_event_id": "shuofang_grain_shortage_001",
+    "entry_condition": "当郭子仪相关事件处于待决状态，或对应路线压力升高时进入。",
+    "intro_text": "郭子仪军帐：玩家进入一次具体的关键人物对峙。",
+    "inspectable_objects": [
+      {
+        "id": "table",
+        "text": "粮册、军符与前线图摊在案上，朔方缺粮已经不只是数字。"
+      },
+      {
+        "id": "private_note",
+        "text": "郭子仪留下的私记透露了公开目标之外的顾虑。"
+      }
+    ],
+    "choices": [
+      {
+        "id": "commit_route",
+        "label": "明确推进：支援朔方反攻",
+        "effects": [
+          {
+            "type": "strategy_route_delta",
+            "target": "support_shuofang",
+            "value": 1
+          },
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          },
+          {
+            "type": "battlefront_delta",
+            "target": "shuofang_front",
+            "field": "supply",
+            "value": 4
+          },
+          {
+            "type": "faction_delta",
+            "target": "military_commanders",
+            "field": "pressure",
+            "value": 2
+          }
+        ],
+        "result_text": "郭子仪军帐后果：支援朔方反攻获得明显推进，同时把可追踪的代价写入状态。",
+        "follow_up_event": {
+          "id": "guo_ziyi_military_tent_followup_event",
+          "type": "completion_report",
+          "title": "郭子仪军帐后续回报",
+          "source_character_id": "guo_ziyi",
+          "deadline_days": 2,
+          "urgency": 55,
+          "visible_summary": "郭子仪军帐的选择已经传回行在，相关人物与派系开始作出反应。",
+          "available_decisions": []
+        }
+      },
+      {
+        "id": "balance_cost",
+        "label": "先稳住收益与朝局代价",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 2
+          },
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 1
+          },
+          {
+            "type": "strategy_route_delta",
+            "target": "support_shuofang",
+            "value": 1
+          }
+        ],
+        "result_text": "郭子仪军帐后果：路线谨慎推进，但未解决的成本被记录下来。",
+        "follow_up_event": {
+          "id": "guo_ziyi_military_tent_balanced_followup_event",
+          "type": "completion_report",
+          "title": "郭子仪军帐折中回报",
+          "source_character_id": "guo_ziyi",
+          "deadline_days": 3,
+          "urgency": 50,
+          "visible_summary": "郭子仪军帐的折中处理带来延迟回报，下一轮仍会追问代价。",
+          "available_decisions": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "li_bi_night_council",
+    "title": "李泌夜议",
+    "entry_character_id": "li_bi",
+    "entry_event_id": "li_bi_audience_strategy_001",
+    "entry_condition": "当李泌相关事件处于待决状态，或对应路线压力升高时进入。",
+    "intro_text": "李泌夜议：玩家进入一次具体的关键人物对峙。",
+    "inspectable_objects": [
+      {
+        "id": "table",
+        "text": "灯下只有几份奏疏和一张路线简图，军、礼、粮三事都等着定先后。"
+      },
+      {
+        "id": "private_note",
+        "text": "李泌留下的私记透露了公开目标之外的顾虑。"
+      }
+    ],
+    "choices": [
+      {
+        "id": "commit_route",
+        "label": "明确推进：固守灵武正统",
+        "effects": [
+          {
+            "type": "strategy_route_delta",
+            "target": "defend_lingwu",
+            "value": 1
+          },
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          },
+          {
+            "type": "battlefront_delta",
+            "target": "westward_route",
+            "field": "control",
+            "value": 3
+          },
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 2
+          }
+        ],
+        "result_text": "李泌夜议后果：固守灵武正统获得明显推进，同时把可追踪的代价写入状态。",
+        "follow_up_event": {
+          "id": "li_bi_night_council_followup_event",
+          "type": "completion_report",
+          "title": "李泌夜议后续回报",
+          "source_character_id": "li_bi",
+          "deadline_days": 2,
+          "urgency": 55,
+          "visible_summary": "李泌夜议的选择已经传回行在，相关人物与派系开始作出反应。",
+          "available_decisions": []
+        }
+      },
+      {
+        "id": "balance_cost",
+        "label": "先稳住收益与朝局代价",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 2
+          },
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 1
+          },
+          {
+            "type": "strategy_route_delta",
+            "target": "defend_lingwu",
+            "value": 1
+          }
+        ],
+        "result_text": "李泌夜议后果：路线谨慎推进，但未解决的成本被记录下来。",
+        "follow_up_event": {
+          "id": "li_bi_night_council_balanced_followup_event",
+          "type": "completion_report",
+          "title": "李泌夜议折中回报",
+          "source_character_id": "li_bi",
+          "deadline_days": 1,
+          "urgency": 50,
+          "visible_summary": "李泌夜议的折中处理带来延迟回报，下一轮仍会追问代价。",
+          "available_decisions": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "uighur_envoy_tent",
+    "title": "回纥使帐",
+    "entry_character_id": "uighur_envoy",
+    "entry_event_id": "uighur_envoy_reward_001",
+    "entry_condition": "当回纥使者相关事件处于待决状态，或对应路线压力升高时进入。",
+    "intro_text": "回纥使帐：玩家进入一次具体的关键人物对峙。",
+    "inspectable_objects": [
+      {
+        "id": "table",
+        "text": "帐中摆着马价、赏约和南下日期，援兵的好处与价码同样清楚。"
+      },
+      {
+        "id": "private_note",
+        "text": "回纥使者留下的私记透露了公开目标之外的顾虑。"
+      }
+    ],
+    "choices": [
+      {
+        "id": "commit_route",
+        "label": "明确推进：借回纥破局",
+        "effects": [
+          {
+            "type": "strategy_route_delta",
+            "target": "uighur_push",
+            "value": 1
+          },
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": -2
+          },
+          {
+            "type": "battlefront_delta",
+            "target": "hedong_front",
+            "field": "threat",
+            "value": -3
+          },
+          {
+            "type": "faction_delta",
+            "target": "uighur_envoys",
+            "field": "pressure",
+            "value": 3
+          },
+          {
+            "type": "resource_delta",
+            "target": "treasury",
+            "value": -40
+          }
+        ],
+        "result_text": "回纥使帐后果：借回纥破局获得明显推进，同时把可追踪的代价写入状态。",
+        "follow_up_event": {
+          "id": "uighur_envoy_tent_followup_event",
+          "type": "completion_report",
+          "title": "回纥使帐后续回报",
+          "source_character_id": "uighur_envoy",
+          "deadline_days": 3,
+          "urgency": 55,
+          "visible_summary": "回纥使帐的选择已经传回行在，相关人物与派系开始作出反应。",
+          "available_decisions": []
+        }
+      },
+      {
+        "id": "balance_cost",
+        "label": "先稳住收益与朝局代价",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 2
+          },
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": -2
+          },
+          {
+            "type": "strategy_route_delta",
+            "target": "uighur_push",
+            "value": 1
+          }
+        ],
+        "result_text": "回纥使帐后果：路线谨慎推进，但未解决的成本被记录下来。",
+        "follow_up_event": {
+          "id": "uighur_envoy_tent_balanced_followup_event",
+          "type": "completion_report",
+          "title": "回纥使帐折中回报",
+          "source_character_id": "uighur_envoy",
+          "deadline_days": 3,
+          "urgency": 50,
+          "visible_summary": "回纥使帐的折中处理带来延迟回报，下一轮仍会追问代价。",
+          "available_decisions": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "old_court_memorial_audience",
+    "title": "旧臣奏疏廷议",
+    "entry_character_id": "hardline_old_court_official",
+    "entry_event_id": "xuanzong_old_court_pressure_001",
+    "entry_condition": "当旧臣强硬派相关事件处于待决状态，或对应路线压力升高时进入。",
+    "intro_text": "旧臣奏疏廷议：玩家进入一次具体的关键人物对峙。",
+    "inspectable_objects": [
+      {
+        "id": "table",
+        "text": "案头满是礼制奏疏，玄宗旧廷的名分压力正压向灵武。"
+      },
+      {
+        "id": "private_note",
+        "text": "旧臣强硬派留下的私记透露了公开目标之外的顾虑。"
+      }
+    ],
+    "choices": [
+      {
+        "id": "commit_route",
+        "label": "明确推进：固守灵武正统",
+        "effects": [
+          {
+            "type": "strategy_route_delta",
+            "target": "defend_lingwu",
+            "value": 1
+          },
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          },
+          {
+            "type": "battlefront_delta",
+            "target": "westward_route",
+            "field": "control",
+            "value": 3
+          },
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 2
+          }
+        ],
+        "result_text": "旧臣奏疏廷议后果：固守灵武正统获得明显推进，同时把可追踪的代价写入状态。",
+        "follow_up_event": {
+          "id": "old_court_memorial_audience_followup_event",
+          "type": "completion_report",
+          "title": "旧臣奏疏廷议后续回报",
+          "source_character_id": "hardline_old_court_official",
+          "deadline_days": 1,
+          "urgency": 55,
+          "visible_summary": "旧臣奏疏廷议的选择已经传回行在，相关人物与派系开始作出反应。",
+          "available_decisions": []
+        }
+      },
+      {
+        "id": "balance_cost",
+        "label": "先稳住收益与朝局代价",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 2
+          },
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 1
+          },
+          {
+            "type": "strategy_route_delta",
+            "target": "defend_lingwu",
+            "value": 1
+          }
+        ],
+        "result_text": "旧臣奏疏廷议后果：路线谨慎推进，但未解决的成本被记录下来。",
+        "follow_up_event": {
+          "id": "old_court_memorial_audience_balanced_followup_event",
+          "type": "completion_report",
+          "title": "旧臣奏疏廷议折中回报",
+          "source_character_id": "hardline_old_court_official",
+          "deadline_days": 1,
+          "urgency": 50,
+          "visible_summary": "旧臣奏疏廷议的折中处理带来延迟回报，下一轮仍会追问代价。",
+          "available_decisions": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "li_fuguo_private_chamber",
+    "title": "李辅国内廷密室",
+    "entry_character_id": "li_fuguo",
+    "entry_event_id": "li_fuguo_secret_report_001",
+    "entry_condition": "当李辅国相关事件处于待决状态，或对应路线压力升高时进入。",
+    "intro_text": "李辅国内廷密室：玩家进入一次具体的关键人物对峙。",
+    "inspectable_objects": [
+      {
+        "id": "table",
+        "text": "宫门名册和被拆过的军府书札放在暗处，秩序与控制只隔一线。"
+      },
+      {
+        "id": "private_note",
+        "text": "李辅国留下的私记透露了公开目标之外的顾虑。"
+      }
+    ],
+    "choices": [
+      {
+        "id": "commit_route",
+        "label": "明确推进：固守灵武正统",
+        "effects": [
+          {
+            "type": "strategy_route_delta",
+            "target": "defend_lingwu",
+            "value": 1
+          },
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          },
+          {
+            "type": "battlefront_delta",
+            "target": "westward_route",
+            "field": "control",
+            "value": 3
+          },
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 2
+          }
+        ],
+        "result_text": "李辅国内廷密室后果：固守灵武正统获得明显推进，同时把可追踪的代价写入状态。",
+        "follow_up_event": {
+          "id": "li_fuguo_private_chamber_followup_event",
+          "type": "completion_report",
+          "title": "李辅国内廷密室后续回报",
+          "source_character_id": "li_fuguo",
+          "deadline_days": 1,
+          "urgency": 55,
+          "visible_summary": "李辅国内廷密室的选择已经传回行在，相关人物与派系开始作出反应。",
+          "available_decisions": []
+        }
+      },
+      {
+        "id": "balance_cost",
+        "label": "先稳住收益与朝局代价",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 2
+          },
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 1
+          },
+          {
+            "type": "strategy_route_delta",
+            "target": "defend_lingwu",
+            "value": 1
+          }
+        ],
+        "result_text": "李辅国内廷密室后果：路线谨慎推进，但未解决的成本被记录下来。",
+        "follow_up_event": {
+          "id": "li_fuguo_private_chamber_balanced_followup_event",
+          "type": "completion_report",
+          "title": "李辅国内廷密室折中回报",
+          "source_character_id": "li_fuguo",
+          "deadline_days": 1,
+          "urgency": 50,
+          "visible_summary": "李辅国内廷密室的折中处理带来延迟回报，下一轮仍会追问代价。",
+          "available_decisions": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "beta06_court_power_scene_01",
+    "title": "Beta06 court power scene 1",
+    "entry_character_id": "guo_ziyi",
+    "entry_event_id": "",
+    "entry_condition": "A Beta 0.6 office, council, or node pressure is active.",
+    "intro_text": "The court pauses around an institutional dispute rather than a private request.",
+    "inspectable_objects": [
+      {
+        "id": "office_roster",
+        "label": "Office roster",
+        "text": "The roster shows who now has authority to execute decrees."
+      },
+      {
+        "id": "faction_notes",
+        "label": "Faction notes",
+        "text": "Recent notes record which group gained or lost leverage."
+      }
+    ],
+    "choices": [
+      {
+        "id": "formalize_public_record",
+        "label": "Formalize public record",
+        "result_text": "The court records the decision publicly.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 1
+          },
+          {
+            "type": "faction_delta",
+            "target": "xuanzong_old_court",
+            "field": "pressure",
+            "value": 2
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta06_court_power_scene_01_public_report",
+          "type": "court_reaction_report",
+          "title": "Beta06 scene 1 public report",
+          "source_character_id": "guo_ziyi",
+          "visible_summary": "A public court record makes the office dispute harder to deny later.",
+          "available_decisions": [
+            "beta06_office_decree_01"
+          ],
+          "deadline_days": 1
+        }
+      },
+      {
+        "id": "route_through_private_channel",
+        "label": "Route through private channel",
+        "result_text": "The decision moves faster but creates private leverage.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          },
+          {
+            "type": "faction_delta",
+            "target": "eunuch_network",
+            "field": "pressure",
+            "value": 2
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta06_court_power_scene_01_private_report",
+          "type": "secret_report",
+          "title": "Beta06 scene 1 private report",
+          "source_character_id": "li_fuguo",
+          "visible_summary": "Private routing works, but the palace channel remembers the debt.",
+          "available_decisions": [
+            "beta06_office_decree_02"
+          ],
+          "deadline_days": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "beta06_court_power_scene_02",
+    "title": "Beta06 court power scene 2",
+    "entry_character_id": "li_fuguo",
+    "entry_event_id": "",
+    "entry_condition": "A Beta 0.6 office, council, or node pressure is active.",
+    "intro_text": "The court pauses around an institutional dispute rather than a private request.",
+    "inspectable_objects": [
+      {
+        "id": "office_roster",
+        "label": "Office roster",
+        "text": "The roster shows who now has authority to execute decrees."
+      },
+      {
+        "id": "faction_notes",
+        "label": "Faction notes",
+        "text": "Recent notes record which group gained or lost leverage."
+      }
+    ],
+    "choices": [
+      {
+        "id": "formalize_public_record",
+        "label": "Formalize public record",
+        "result_text": "The court records the decision publicly.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 1
+          },
+          {
+            "type": "faction_delta",
+            "target": "xuanzong_old_court",
+            "field": "pressure",
+            "value": 2
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta06_court_power_scene_02_public_report",
+          "type": "court_reaction_report",
+          "title": "Beta06 scene 2 public report",
+          "source_character_id": "li_fuguo",
+          "visible_summary": "A public court record makes the office dispute harder to deny later.",
+          "available_decisions": [
+            "beta06_office_decree_02"
+          ],
+          "deadline_days": 2
+        }
+      },
+      {
+        "id": "route_through_private_channel",
+        "label": "Route through private channel",
+        "result_text": "The decision moves faster but creates private leverage.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          },
+          {
+            "type": "faction_delta",
+            "target": "eunuch_network",
+            "field": "pressure",
+            "value": 2
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta06_court_power_scene_02_private_report",
+          "type": "secret_report",
+          "title": "Beta06 scene 2 private report",
+          "source_character_id": "li_fuguo",
+          "visible_summary": "Private routing works, but the palace channel remembers the debt.",
+          "available_decisions": [
+            "beta06_office_decree_03"
+          ],
+          "deadline_days": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "beta06_court_power_scene_03",
+    "title": "Beta06 court power scene 3",
+    "entry_character_id": "li_bi",
+    "entry_event_id": "",
+    "entry_condition": "A Beta 0.6 office, council, or node pressure is active.",
+    "intro_text": "The court pauses around an institutional dispute rather than a private request.",
+    "inspectable_objects": [
+      {
+        "id": "office_roster",
+        "label": "Office roster",
+        "text": "The roster shows who now has authority to execute decrees."
+      },
+      {
+        "id": "faction_notes",
+        "label": "Faction notes",
+        "text": "Recent notes record which group gained or lost leverage."
+      }
+    ],
+    "choices": [
+      {
+        "id": "formalize_public_record",
+        "label": "Formalize public record",
+        "result_text": "The court records the decision publicly.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 1
+          },
+          {
+            "type": "faction_delta",
+            "target": "xuanzong_old_court",
+            "field": "pressure",
+            "value": 2
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta06_court_power_scene_03_public_report",
+          "type": "court_reaction_report",
+          "title": "Beta06 scene 3 public report",
+          "source_character_id": "li_bi",
+          "visible_summary": "A public court record makes the office dispute harder to deny later.",
+          "available_decisions": [
+            "beta06_office_decree_03"
+          ],
+          "deadline_days": 2
+        }
+      },
+      {
+        "id": "route_through_private_channel",
+        "label": "Route through private channel",
+        "result_text": "The decision moves faster but creates private leverage.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          },
+          {
+            "type": "faction_delta",
+            "target": "eunuch_network",
+            "field": "pressure",
+            "value": 2
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta06_court_power_scene_03_private_report",
+          "type": "secret_report",
+          "title": "Beta06 scene 3 private report",
+          "source_character_id": "li_fuguo",
+          "visible_summary": "Private routing works, but the palace channel remembers the debt.",
+          "available_decisions": [
+            "beta06_office_decree_04"
+          ],
+          "deadline_days": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "beta06_court_power_scene_04",
+    "title": "Beta06 court power scene 4",
+    "entry_character_id": "hardline_old_court_official",
+    "entry_event_id": "",
+    "entry_condition": "A Beta 0.6 office, council, or node pressure is active.",
+    "intro_text": "The court pauses around an institutional dispute rather than a private request.",
+    "inspectable_objects": [
+      {
+        "id": "office_roster",
+        "label": "Office roster",
+        "text": "The roster shows who now has authority to execute decrees."
+      },
+      {
+        "id": "faction_notes",
+        "label": "Faction notes",
+        "text": "Recent notes record which group gained or lost leverage."
+      }
+    ],
+    "choices": [
+      {
+        "id": "formalize_public_record",
+        "label": "Formalize public record",
+        "result_text": "The court records the decision publicly.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 1
+          },
+          {
+            "type": "faction_delta",
+            "target": "xuanzong_old_court",
+            "field": "pressure",
+            "value": 2
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta06_court_power_scene_04_public_report",
+          "type": "court_reaction_report",
+          "title": "Beta06 scene 4 public report",
+          "source_character_id": "hardline_old_court_official",
+          "visible_summary": "A public court record makes the office dispute harder to deny later.",
+          "available_decisions": [
+            "beta06_office_decree_04"
+          ],
+          "deadline_days": 3
+        }
+      },
+      {
+        "id": "route_through_private_channel",
+        "label": "Route through private channel",
+        "result_text": "The decision moves faster but creates private leverage.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          },
+          {
+            "type": "faction_delta",
+            "target": "eunuch_network",
+            "field": "pressure",
+            "value": 2
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta06_court_power_scene_04_private_report",
+          "type": "secret_report",
+          "title": "Beta06 scene 4 private report",
+          "source_character_id": "li_fuguo",
+          "visible_summary": "Private routing works, but the palace channel remembers the debt.",
+          "available_decisions": [
+            "beta06_office_decree_05"
+          ],
+          "deadline_days": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "beta06_court_power_scene_05",
+    "title": "Beta06 court power scene 5",
+    "entry_character_id": "uighur_envoy",
+    "entry_event_id": "",
+    "entry_condition": "A Beta 0.6 office, council, or node pressure is active.",
+    "intro_text": "The court pauses around an institutional dispute rather than a private request.",
+    "inspectable_objects": [
+      {
+        "id": "office_roster",
+        "label": "Office roster",
+        "text": "The roster shows who now has authority to execute decrees."
+      },
+      {
+        "id": "faction_notes",
+        "label": "Faction notes",
+        "text": "Recent notes record which group gained or lost leverage."
+      }
+    ],
+    "choices": [
+      {
+        "id": "formalize_public_record",
+        "label": "Formalize public record",
+        "result_text": "The court records the decision publicly.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 1
+          },
+          {
+            "type": "faction_delta",
+            "target": "xuanzong_old_court",
+            "field": "pressure",
+            "value": 2
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta06_court_power_scene_05_public_report",
+          "type": "court_reaction_report",
+          "title": "Beta06 scene 5 public report",
+          "source_character_id": "uighur_envoy",
+          "visible_summary": "A public court record makes the office dispute harder to deny later.",
+          "available_decisions": [
+            "beta06_office_decree_05"
+          ],
+          "deadline_days": 3
+        }
+      },
+      {
+        "id": "route_through_private_channel",
+        "label": "Route through private channel",
+        "result_text": "The decision moves faster but creates private leverage.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          },
+          {
+            "type": "faction_delta",
+            "target": "eunuch_network",
+            "field": "pressure",
+            "value": 2
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta06_court_power_scene_05_private_report",
+          "type": "secret_report",
+          "title": "Beta06 scene 5 private report",
+          "source_character_id": "li_fuguo",
+          "visible_summary": "Private routing works, but the palace channel remembers the debt.",
+          "available_decisions": [
+            "beta06_office_decree_06"
+          ],
+          "deadline_days": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "beta06_court_power_scene_06",
+    "title": "Beta06 court power scene 6",
+    "entry_character_id": "grain_official_lingwu",
+    "entry_event_id": "",
+    "entry_condition": "A Beta 0.6 office, council, or node pressure is active.",
+    "intro_text": "The court pauses around an institutional dispute rather than a private request.",
+    "inspectable_objects": [
+      {
+        "id": "office_roster",
+        "label": "Office roster",
+        "text": "The roster shows who now has authority to execute decrees."
+      },
+      {
+        "id": "faction_notes",
+        "label": "Faction notes",
+        "text": "Recent notes record which group gained or lost leverage."
+      }
+    ],
+    "choices": [
+      {
+        "id": "formalize_public_record",
+        "label": "Formalize public record",
+        "result_text": "The court records the decision publicly.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 1
+          },
+          {
+            "type": "faction_delta",
+            "target": "xuanzong_old_court",
+            "field": "pressure",
+            "value": 2
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta06_court_power_scene_06_public_report",
+          "type": "court_reaction_report",
+          "title": "Beta06 scene 6 public report",
+          "source_character_id": "grain_official_lingwu",
+          "visible_summary": "A public court record makes the office dispute harder to deny later.",
+          "available_decisions": [
+            "beta06_office_decree_06"
+          ],
+          "deadline_days": 1
+        }
+      },
+      {
+        "id": "route_through_private_channel",
+        "label": "Route through private channel",
+        "result_text": "The decision moves faster but creates private leverage.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          },
+          {
+            "type": "faction_delta",
+            "target": "eunuch_network",
+            "field": "pressure",
+            "value": 2
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta06_court_power_scene_06_private_report",
+          "type": "secret_report",
+          "title": "Beta06 scene 6 private report",
+          "source_character_id": "li_fuguo",
+          "visible_summary": "Private routing works, but the palace channel remembers the debt.",
+          "available_decisions": [
+            "beta06_office_decree_07"
+          ],
+          "deadline_days": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "beta06_court_power_scene_07",
+    "title": "Beta06 court power scene 7",
+    "entry_character_id": "lingwu_merchant_refugee",
+    "entry_event_id": "",
+    "entry_condition": "A Beta 0.6 office, council, or node pressure is active.",
+    "intro_text": "The court pauses around an institutional dispute rather than a private request.",
+    "inspectable_objects": [
+      {
+        "id": "office_roster",
+        "label": "Office roster",
+        "text": "The roster shows who now has authority to execute decrees."
+      },
+      {
+        "id": "faction_notes",
+        "label": "Faction notes",
+        "text": "Recent notes record which group gained or lost leverage."
+      }
+    ],
+    "choices": [
+      {
+        "id": "formalize_public_record",
+        "label": "Formalize public record",
+        "result_text": "The court records the decision publicly.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "legitimacy",
+            "value": 1
+          },
+          {
+            "type": "faction_delta",
+            "target": "xuanzong_old_court",
+            "field": "pressure",
+            "value": 2
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta06_court_power_scene_07_public_report",
+          "type": "court_reaction_report",
+          "title": "Beta06 scene 7 public report",
+          "source_character_id": "lingwu_merchant_refugee",
+          "visible_summary": "A public court record makes the office dispute harder to deny later.",
+          "available_decisions": [
+            "beta06_office_decree_07"
+          ],
+          "deadline_days": 1
+        }
+      },
+      {
+        "id": "route_through_private_channel",
+        "label": "Route through private channel",
+        "result_text": "The decision moves faster but creates private leverage.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          },
+          {
+            "type": "faction_delta",
+            "target": "eunuch_network",
+            "field": "pressure",
+            "value": 2
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta06_court_power_scene_07_private_report",
+          "type": "secret_report",
+          "title": "Beta06 scene 7 private report",
+          "source_character_id": "li_fuguo",
+          "visible_summary": "Private routing works, but the palace channel remembers the debt.",
+          "available_decisions": [
+            "beta06_office_decree_08"
+          ],
+          "deadline_days": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "beta07_war_table_scene_01",
+    "title": "Beta07 war table scene 1",
+    "entry_character_id": "guo_ziyi",
+    "entry_event_id": "",
+    "entry_condition": "Conflicting regional intelligence is active.",
+    "intro_text": "The court table is covered with routes, messenger slips, and contradictory reports.",
+    "inspectable_objects": [
+      {
+        "id": "route_slips",
+        "label": "Route slips",
+        "text": "Route state shows supply flow, delay, security, rebel pressure, and uncertainty."
+      },
+      {
+        "id": "report_bundle",
+        "label": "Report bundle",
+        "text": "Reports disagree about source, bias, confidence, and age."
+      }
+    ],
+    "choices": [
+      {
+        "id": "trust_verified_route",
+        "label": "Trust the verified route",
+        "result_text": "The court waits for a cross-check before issuing an order.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta07_war_table_scene_01_verified_report",
+          "type": "intelligence_followup_report",
+          "title": "Beta07 verified report 1",
+          "source_character_id": "guo_ziyi",
+          "visible_summary": "A verified route report gives the court a clearer military picture.",
+          "available_decisions": [
+            "beta07_intelligence_action_01"
+          ],
+          "deadline_days": 1
+        }
+      },
+      {
+        "id": "act_through_fast_channel",
+        "label": "Act through a fast channel",
+        "result_text": "The court moves before all reports agree, gaining time but creating later leverage.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": -1
+          },
+          {
+            "type": "faction_delta",
+            "target": "eunuch_network",
+            "field": "pressure",
+            "value": 1
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta07_war_table_scene_01_fast_channel_report",
+          "type": "intelligence_followup_report",
+          "title": "Beta07 fast channel report 1",
+          "source_character_id": "li_fuguo",
+          "visible_summary": "A fast-channel order creates speed, suspicion, and a later causal record.",
+          "available_decisions": [
+            "beta07_intelligence_action_02"
+          ],
+          "deadline_days": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "beta07_war_table_scene_02",
+    "title": "Beta07 war table scene 2",
+    "entry_character_id": "li_fuguo",
+    "entry_event_id": "",
+    "entry_condition": "Conflicting regional intelligence is active.",
+    "intro_text": "The court table is covered with routes, messenger slips, and contradictory reports.",
+    "inspectable_objects": [
+      {
+        "id": "route_slips",
+        "label": "Route slips",
+        "text": "Route state shows supply flow, delay, security, rebel pressure, and uncertainty."
+      },
+      {
+        "id": "report_bundle",
+        "label": "Report bundle",
+        "text": "Reports disagree about source, bias, confidence, and age."
+      }
+    ],
+    "choices": [
+      {
+        "id": "trust_verified_route",
+        "label": "Trust the verified route",
+        "result_text": "The court waits for a cross-check before issuing an order.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta07_war_table_scene_02_verified_report",
+          "type": "intelligence_followup_report",
+          "title": "Beta07 verified report 2",
+          "source_character_id": "guo_ziyi",
+          "visible_summary": "A verified route report gives the court a clearer military picture.",
+          "available_decisions": [
+            "beta07_intelligence_action_02"
+          ],
+          "deadline_days": 2
+        }
+      },
+      {
+        "id": "act_through_fast_channel",
+        "label": "Act through a fast channel",
+        "result_text": "The court moves before all reports agree, gaining time but creating later leverage.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": -1
+          },
+          {
+            "type": "faction_delta",
+            "target": "eunuch_network",
+            "field": "pressure",
+            "value": 1
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta07_war_table_scene_02_fast_channel_report",
+          "type": "intelligence_followup_report",
+          "title": "Beta07 fast channel report 2",
+          "source_character_id": "li_fuguo",
+          "visible_summary": "A fast-channel order creates speed, suspicion, and a later causal record.",
+          "available_decisions": [
+            "beta07_intelligence_action_03"
+          ],
+          "deadline_days": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "beta07_war_table_scene_03",
+    "title": "Beta07 war table scene 3",
+    "entry_character_id": "li_bi",
+    "entry_event_id": "",
+    "entry_condition": "Conflicting regional intelligence is active.",
+    "intro_text": "The court table is covered with routes, messenger slips, and contradictory reports.",
+    "inspectable_objects": [
+      {
+        "id": "route_slips",
+        "label": "Route slips",
+        "text": "Route state shows supply flow, delay, security, rebel pressure, and uncertainty."
+      },
+      {
+        "id": "report_bundle",
+        "label": "Report bundle",
+        "text": "Reports disagree about source, bias, confidence, and age."
+      }
+    ],
+    "choices": [
+      {
+        "id": "trust_verified_route",
+        "label": "Trust the verified route",
+        "result_text": "The court waits for a cross-check before issuing an order.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta07_war_table_scene_03_verified_report",
+          "type": "intelligence_followup_report",
+          "title": "Beta07 verified report 3",
+          "source_character_id": "guo_ziyi",
+          "visible_summary": "A verified route report gives the court a clearer military picture.",
+          "available_decisions": [
+            "beta07_intelligence_action_03"
+          ],
+          "deadline_days": 3
+        }
+      },
+      {
+        "id": "act_through_fast_channel",
+        "label": "Act through a fast channel",
+        "result_text": "The court moves before all reports agree, gaining time but creating later leverage.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": -1
+          },
+          {
+            "type": "faction_delta",
+            "target": "eunuch_network",
+            "field": "pressure",
+            "value": 1
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta07_war_table_scene_03_fast_channel_report",
+          "type": "intelligence_followup_report",
+          "title": "Beta07 fast channel report 3",
+          "source_character_id": "li_fuguo",
+          "visible_summary": "A fast-channel order creates speed, suspicion, and a later causal record.",
+          "available_decisions": [
+            "beta07_intelligence_action_04"
+          ],
+          "deadline_days": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "beta07_war_table_scene_04",
+    "title": "Beta07 war table scene 4",
+    "entry_character_id": "hardline_old_court_official",
+    "entry_event_id": "",
+    "entry_condition": "Conflicting regional intelligence is active.",
+    "intro_text": "The court table is covered with routes, messenger slips, and contradictory reports.",
+    "inspectable_objects": [
+      {
+        "id": "route_slips",
+        "label": "Route slips",
+        "text": "Route state shows supply flow, delay, security, rebel pressure, and uncertainty."
+      },
+      {
+        "id": "report_bundle",
+        "label": "Report bundle",
+        "text": "Reports disagree about source, bias, confidence, and age."
+      }
+    ],
+    "choices": [
+      {
+        "id": "trust_verified_route",
+        "label": "Trust the verified route",
+        "result_text": "The court waits for a cross-check before issuing an order.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta07_war_table_scene_04_verified_report",
+          "type": "intelligence_followup_report",
+          "title": "Beta07 verified report 4",
+          "source_character_id": "guo_ziyi",
+          "visible_summary": "A verified route report gives the court a clearer military picture.",
+          "available_decisions": [
+            "beta07_intelligence_action_04"
+          ],
+          "deadline_days": 3
+        }
+      },
+      {
+        "id": "act_through_fast_channel",
+        "label": "Act through a fast channel",
+        "result_text": "The court moves before all reports agree, gaining time but creating later leverage.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": -1
+          },
+          {
+            "type": "faction_delta",
+            "target": "eunuch_network",
+            "field": "pressure",
+            "value": 1
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta07_war_table_scene_04_fast_channel_report",
+          "type": "intelligence_followup_report",
+          "title": "Beta07 fast channel report 4",
+          "source_character_id": "li_fuguo",
+          "visible_summary": "A fast-channel order creates speed, suspicion, and a later causal record.",
+          "available_decisions": [
+            "beta07_intelligence_action_05"
+          ],
+          "deadline_days": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "beta07_war_table_scene_05",
+    "title": "Beta07 war table scene 5",
+    "entry_character_id": "guo_ziyi",
+    "entry_event_id": "",
+    "entry_condition": "Conflicting regional intelligence is active.",
+    "intro_text": "The court table is covered with routes, messenger slips, and contradictory reports.",
+    "inspectable_objects": [
+      {
+        "id": "route_slips",
+        "label": "Route slips",
+        "text": "Route state shows supply flow, delay, security, rebel pressure, and uncertainty."
+      },
+      {
+        "id": "report_bundle",
+        "label": "Report bundle",
+        "text": "Reports disagree about source, bias, confidence, and age."
+      }
+    ],
+    "choices": [
+      {
+        "id": "trust_verified_route",
+        "label": "Trust the verified route",
+        "result_text": "The court waits for a cross-check before issuing an order.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta07_war_table_scene_05_verified_report",
+          "type": "intelligence_followup_report",
+          "title": "Beta07 verified report 5",
+          "source_character_id": "guo_ziyi",
+          "visible_summary": "A verified route report gives the court a clearer military picture.",
+          "available_decisions": [
+            "beta07_intelligence_action_05"
+          ],
+          "deadline_days": 1
+        }
+      },
+      {
+        "id": "act_through_fast_channel",
+        "label": "Act through a fast channel",
+        "result_text": "The court moves before all reports agree, gaining time but creating later leverage.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": -1
+          },
+          {
+            "type": "faction_delta",
+            "target": "eunuch_network",
+            "field": "pressure",
+            "value": 1
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta07_war_table_scene_05_fast_channel_report",
+          "type": "intelligence_followup_report",
+          "title": "Beta07 fast channel report 5",
+          "source_character_id": "li_fuguo",
+          "visible_summary": "A fast-channel order creates speed, suspicion, and a later causal record.",
+          "available_decisions": [
+            "beta07_intelligence_action_06"
+          ],
+          "deadline_days": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "beta07_war_table_scene_06",
+    "title": "Beta07 war table scene 6",
+    "entry_character_id": "li_fuguo",
+    "entry_event_id": "",
+    "entry_condition": "Conflicting regional intelligence is active.",
+    "intro_text": "The court table is covered with routes, messenger slips, and contradictory reports.",
+    "inspectable_objects": [
+      {
+        "id": "route_slips",
+        "label": "Route slips",
+        "text": "Route state shows supply flow, delay, security, rebel pressure, and uncertainty."
+      },
+      {
+        "id": "report_bundle",
+        "label": "Report bundle",
+        "text": "Reports disagree about source, bias, confidence, and age."
+      }
+    ],
+    "choices": [
+      {
+        "id": "trust_verified_route",
+        "label": "Trust the verified route",
+        "result_text": "The court waits for a cross-check before issuing an order.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": 1
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta07_war_table_scene_06_verified_report",
+          "type": "intelligence_followup_report",
+          "title": "Beta07 verified report 6",
+          "source_character_id": "guo_ziyi",
+          "visible_summary": "A verified route report gives the court a clearer military picture.",
+          "available_decisions": [
+            "beta07_intelligence_action_06"
+          ],
+          "deadline_days": 2
+        }
+      },
+      {
+        "id": "act_through_fast_channel",
+        "label": "Act through a fast channel",
+        "result_text": "The court moves before all reports agree, gaining time but creating later leverage.",
+        "effects": [
+          {
+            "type": "resource_delta",
+            "target": "court_authority",
+            "value": -1
+          },
+          {
+            "type": "faction_delta",
+            "target": "eunuch_network",
+            "field": "pressure",
+            "value": 1
+          }
+        ],
+        "follow_up_event": {
+          "id": "beta07_war_table_scene_06_fast_channel_report",
+          "type": "intelligence_followup_report",
+          "title": "Beta07 fast channel report 6",
+          "source_character_id": "li_fuguo",
+          "visible_summary": "A fast-channel order creates speed, suspicion, and a later causal record.",
+          "available_decisions": [
+            "beta07_intelligence_action_07"
+          ],
+          "deadline_days": 1
+        }
+      }
+    ]
+  }
+]

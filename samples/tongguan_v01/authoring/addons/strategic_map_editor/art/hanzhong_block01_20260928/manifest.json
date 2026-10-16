@@ -1,0 +1,27 @@
+{
+  "bundle_id": "hanzhong_block01_20260928",
+  "version": 1,
+  "extends": "national_c2_20260926",
+  "review_status": "PENDING_USER_REVIEW",
+  "generation_tool": "builtin image_gen",
+  "assets": [
+    {
+      "file": "foothill.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "ea373352837cc5875493687a6d9d9030e3ee50cefd34986841e6d2db2a6abfe0"
+    },
+    {
+      "file": "alluvial-fields.png",
+      "width": 1983,
+      "height": 793,
+      "sha256": "7e9de90d676ef47df28f928717bfcdf750c8e339c371cf86bd00573de5dbf856"
+    },
+    {
+      "file": "dryland-fan.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "eacdfe1805613f73876b5f6870175a3fc0637587d3bcab547a0e6480cdf17c8e"
+    }
+  ]
+}

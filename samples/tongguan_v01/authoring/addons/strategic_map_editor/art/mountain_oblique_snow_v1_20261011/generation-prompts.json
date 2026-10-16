@@ -1,0 +1,32 @@
+{
+  "tool": "built-in image_gen",
+  "theme": "Snow-capped Mountain Series (雪山系列)",
+  "color_tone_correction": "Darkened rock/cleft values slightly (deep charcoal-slate, cool deep olive-gray) to contrast dramatically with pure white snow, while keeping natural transparent foothill feathering",
+  "perspective_rule": "High oblique overhead orthographic view (~50 degrees downward), deep projected ground footprint, visible descending back slopes, no side-view horizon cutout",
+  "assets": [
+    {
+      "id": "snow_craggy_peak",
+      "label": "俯视雪山 · 巍峨绝顶",
+      "type": "Alpine Snow-capped Summit",
+      "description": "积雪皑皑的雪域第一主峰，冷白霜雪覆盖峰脊，岩崖呈现厚重的暗青墨灰，背坡雪原开阔。"
+    },
+    {
+      "id": "snow_gorge_pass",
+      "label": "俯视雪山 · 冰谷险隘",
+      "type": "Glacial Snow Mountain Pass",
+      "description": "两翼雪峰环抱夹峙的冰谷隘口，中间开辟出一条贯通深雪的峡谷通道，专为雪山要塞关防打造。"
+    },
+    {
+      "id": "snow_cascading_ridge",
+      "label": "俯视雪山 · 连绵长脉",
+      "type": "Continuous Snow Mountain Range",
+      "description": "东西横向走向的大型阶梯式雪山长脉，后高前低，多道起伏雪岭与深色岩肋明暗分明。"
+    },
+    {
+      "id": "snow_plateau_peaks",
+      "label": "俯视雪山 · 琼峦三叠",
+      "type": "Plateau Tiered Snow Domes",
+      "description": "三座阶梯错落的高原圆穹雪峰群，白雪如冠被覆，山腰岩裙层次分明，适宜高原雪原过渡。"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "bundle_id": "mountain_oblique_pale_v2_20261009",
+  "version": 1,
+  "extends": "mountain_collection_20261009",
+  "assets": {
+    "mountain_oblique_v2_curved_ridge": {
+      "label": "俯视淡山 · 曲折主脊",
+      "atlas": "curved_ridge.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "rect": [
+        63,
+        84,
+        1610,
+        797
+      ],
+      "width": 480
+    },
+    "mountain_oblique_v2_branching_ridges": {
+      "label": "俯视淡山 · 主支山脉",
+      "atlas": "branching_ridges.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "rect": [
+        64,
+        77,
+        1307,
+        957
+      ],
+      "width": 420
+    },
+    "mountain_oblique_v2_rocky_summit": {
+      "label": "俯视淡山 · 岩顶独峰",
+      "atlas": "rocky_summit.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "rect": [
+        36,
+        108,
+        1314,
+        938
+      ],
+      "width": 280
+    },
+    "mountain_oblique_v2_saddle_pair": {
+      "label": "俯视淡山 · 双峰低鞍",
+      "atlas": "saddle_pair.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.72
+      ],
+      "rect": [
+        47,
+        100,
+        1415,
+        871
+      ],
+      "width": 360
+    }
+  }
+}

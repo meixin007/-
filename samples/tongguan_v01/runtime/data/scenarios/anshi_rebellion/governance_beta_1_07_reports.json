@@ -1,0 +1,5 @@
+{
+  "grain_reports": {"receipt": {"title": "粮道命令已登记", "summary": "粮道命令已登记。"}, "progress": {"title": "粮道进展", "summary": "粮道事务出现进展。"}, "exception": {"title": "粮道异常", "summary": "粮道事务需要处理异常。"}, "closure": {"title": "粮道结案", "summary": "粮道事务已经结案。"}},
+  "palace_reports": {"receipt": {"title": "宫门命令已登记", "summary": "宫门命令已登记。"}, "progress": {"title": "宫门进展", "summary": "宫门事务出现进展。"}, "exception": {"title": "宫门异常", "summary": "宫门事务需要处理异常。"}, "closure": {"title": "宫门结案", "summary": "宫门事务已经结案。"}},
+  "uighur_reports": {"receipt": {"title": "盟约命令已登记", "summary": "盟约命令已登记。"}, "progress": {"title": "盟约进展", "summary": "盟约事务出现进展。"}, "exception": {"title": "盟约异常", "summary": "盟约事务需要处理异常。"}, "closure": {"title": "盟约结案", "summary": "盟约事务已经结案。"}}
+}

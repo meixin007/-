@@ -1,0 +1,16 @@
+{
+  "bundle_id": "tongguan_v2",
+  "version": 1,
+  "extends": "tongguan_v1",
+  "assets": {
+    "continuous_ridge_v063": {
+      "label": "山脊 · 连续断崖与山脚",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "continuous_ridge_v063.png",
+      "rect": [0, 0, 2172, 724],
+      "width": 420,
+      "anchor": [0.5, 0.82]
+    }
+  }
+}

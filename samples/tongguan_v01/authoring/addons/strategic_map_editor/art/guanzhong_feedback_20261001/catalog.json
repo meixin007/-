@@ -1,0 +1,27 @@
+{
+  "bundle_id": "guanzhong_feedback_20261001",
+  "version": 1,
+  "extends": "guanzhong_20260930",
+  "assets": {
+    "tg_gate_eastwest_v03": {
+      "label": "潼关 · 剑门式东西穿洞关城",
+      "group": "pass",
+      "atlas": "gate-eastwest.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 145,
+      "anchor": [
+        0.47458952306489444,
+        0.6857440166493236
+      ],
+      "gate_anchor": [
+        0.47458952306489444,
+        0.6857440166493236
+      ]
+    }
+  }
+}

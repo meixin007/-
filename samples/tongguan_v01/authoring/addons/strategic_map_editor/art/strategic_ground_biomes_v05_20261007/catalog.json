@@ -1,0 +1,75 @@
+{
+  "bundle_id": "strategic_ground_biomes_v05_20261007",
+  "version": 1,
+  "extends": "strategic_ground_v02_20261007",
+  "assets": {
+    "ground_biome_v05_plain": {
+      "label": "战略地表 · 平原",
+      "atlas": "ground-biomes-v05.png",
+      "group": "ground",
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        40,
+        210,
+        584,
+        419
+      ],
+      "width": 480
+    },
+    "ground_biome_v05_desert": {
+      "label": "战略地表 · 沙漠",
+      "atlas": "ground-biomes-v05.png",
+      "group": "ground",
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        650,
+        226,
+        570,
+        406
+      ],
+      "width": 480
+    },
+    "ground_biome_v05_gobi": {
+      "label": "战略地表 · 戈壁",
+      "atlas": "ground-biomes-v05.png",
+      "group": "ground",
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        34,
+        698,
+        586,
+        420
+      ],
+      "width": 480
+    },
+    "ground_biome_v05_marsh": {
+      "label": "战略地表 · 沼泽",
+      "atlas": "ground-biomes-v05.png",
+      "group": "ground",
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        650,
+        706,
+        577,
+        418
+      ],
+      "width": 480
+    }
+  }
+}

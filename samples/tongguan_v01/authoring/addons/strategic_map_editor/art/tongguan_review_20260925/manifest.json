@@ -1,0 +1,46 @@
+{
+  "bundle_id": "tongguan_review_20260925",
+  "version": 1,
+  "scope": "Editable authoring candidate only; no acceptance or rule authority",
+  "review_status": "PENDING_USER_REVIEW",
+  "generation_tool": "builtin image_gen",
+  "actual_backend_model": "NOT_EXPOSED",
+  "transparent_background": true,
+  "reference_paths": [
+    "docs/map-production/references/strategic-map-art-2026-09-24/01-primary-castle.png",
+    "artifacts/strategic-map-art-tongguan-2026-09-24/tongguan-style-sample-v5.png"
+  ],
+  "assets": [
+    {
+      "file": "gatehouse.png",
+      "width": 1402,
+      "height": 1122,
+      "sha256": "4be16d9a4cad8a8fd27b8e75da5968a8dba67ad461782516bc4be53f6d5dab24",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0d391-efed-76e1-a7ef-5547d0d38e9d\\exec-c16acce7-8936-43e1-a9ce-46ecbb467fbf.png"
+    },
+    {
+      "file": "forest_edges.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d0f4c3421c607b8d3835690f8da1998068f2b48026a4edd77cd07415eadcca43",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0d391-efed-76e1-a7ef-5547d0d38e9d\\exec-264ade65-5d3b-42ea-877d-642986ec68bc.png"
+    },
+    {
+      "file": "upright_wall.png",
+      "width": 1071,
+      "height": 1469,
+      "sha256": "98914fa9c4d67f4c3c161c541d569f209c14965944800ba7dab8259635bacdba",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0d391-efed-76e1-a7ef-5547d0d38e9d\\exec-53b4c1de-07e5-4db3-807e-b72610b5564d.png"
+    },
+    {
+      "file": "vertical_pass.png",
+      "width": 1133,
+      "height": 1388,
+      "sha256": "e92cba8769cc7f95330d1baf6695e874e153ce3c96c5f9ae8e4c7a836fa59fae",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0d391-efed-76e1-a7ef-5547d0d38e9d\\exec-5c2983e9-6e41-4acc-aa29-29aa48a93fcc.png"
+    }
+  ],
+  "cropping": "Atlas descriptor only; original PNG bytes copied unchanged.",
+  "extends": "tongguan_v3",
+  "user_direction": "Vertical on-screen wall axis; simplified high bird-eye symbol; road crosses left to right. Oblique composition rejected."
+}

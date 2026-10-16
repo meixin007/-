@@ -1,0 +1,14 @@
+{
+  "bundle_id": "mianzhou_20260930",
+  "version": 1,
+  "extends": "jianmen_northsouth_20260929",
+  "review_status": "PENDING_USER",
+  "assets": [
+    {
+      "file": "bridge.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "88f615af361034b059ae0cdde485a7f80e7f3b64812dc4a59e9baf7737c41909"
+    }
+  ]
+}

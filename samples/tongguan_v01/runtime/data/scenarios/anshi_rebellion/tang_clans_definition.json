@@ -1,0 +1,475 @@
+{
+  "schema_version": 113,
+  "description": "唐代十二大门阀宗族谱系与世家定义表",
+  "renown_tiers": [
+    {
+      "tier": 0,
+      "name": "寒微士族",
+      "min_renown": 0,
+      "prestige_bonus": 0,
+      "yin_slots": 0
+    },
+    {
+      "tier": 1,
+      "name": "累世冠带",
+      "min_renown": 100,
+      "prestige_bonus": 5,
+      "yin_slots": 1
+    },
+    {
+      "tier": 2,
+      "name": "阀阅名家",
+      "min_renown": 300,
+      "prestige_bonus": 15,
+      "yin_slots": 2
+    },
+    {
+      "tier": 3,
+      "name": "钟鸣鼎食",
+      "min_renown": 600,
+      "prestige_bonus": 30,
+      "yin_slots": 3
+    },
+    {
+      "tier": 4,
+      "name": "天下甲第",
+      "min_renown": 1000,
+      "prestige_bonus": 50,
+      "yin_slots": 5
+    }
+  ],
+  "clans": [
+    {
+      "clan_id": "clan_cui_qinghe",
+      "name": "清河崔氏",
+      "origin_county": "清河郡武城",
+      "clan_type": "five_great_clans",
+      "renown": 1200,
+      "renown_tier": 4,
+      "default_patriarch_id": "cui_yuan",
+      "prominent_members": [
+        "cui_yuan",
+        "cui_huan",
+        "cui_youfu"
+      ],
+      "ancestral_legacy": {
+        "id": "legacy_prime_minister_cradle",
+        "name": "相门渊薮",
+        "description": "累世宰辅，天下称甲。族人政务与财政声望获得速度提升 20%。",
+        "stat_bonuses": {
+          "governance": 6,
+          "finance": 4,
+          "diplomacy": 4
+        }
+      },
+      "base_opinion_modifiers": {
+        "five_great_clans": 20,
+        "guanlong_nobility": 5,
+        "frontier_military": -15,
+        "imperial_house": 10,
+        "eunuch_household": -45,
+        "plebeian_bureaucrats": -25
+      },
+      "estate_resources": {
+        "grain": 300,
+        "silver": 500
+      }
+    },
+    {
+      "clan_id": "clan_cui_boling",
+      "name": "博陵崔氏",
+      "origin_county": "博陵郡安平",
+      "clan_type": "five_great_clans",
+      "renown": 1150,
+      "renown_tier": 4,
+      "default_patriarch_id": "cui_guangyuan",
+      "prominent_members": [
+        "cui_guangyuan",
+        "cui_you"
+      ],
+      "ancestral_legacy": {
+        "id": "legacy_erudite_scholars",
+        "name": "博陵冠冕",
+        "description": "文宗学海，门第清高。族人谋略与政务见长。",
+        "stat_bonuses": {
+          "intrigue": 5,
+          "governance": 5,
+          "diplomacy": 4
+        }
+      },
+      "base_opinion_modifiers": {
+        "five_great_clans": 20,
+        "guanlong_nobility": 5,
+        "frontier_military": -15,
+        "imperial_house": 10,
+        "eunuch_household": -45,
+        "plebeian_bureaucrats": -25
+      },
+      "estate_resources": {
+        "grain": 260,
+        "silver": 450
+      }
+    },
+    {
+      "clan_id": "clan_lu_fanyang",
+      "name": "范阳卢氏",
+      "origin_county": "范阳郡涿县",
+      "clan_type": "five_great_clans",
+      "renown": 1100,
+      "renown_tier": 4,
+      "default_patriarch_id": "lu_yi",
+      "prominent_members": [
+        "lu_yi",
+        "lu_qi",
+        "lu_han"
+      ],
+      "ancestral_legacy": {
+        "id": "legacy_ritual_orthodoxy",
+        "name": "范阳礼法",
+        "description": "家法严整，重视名节与道统。族人言行坚定，不易屈服。",
+        "stat_bonuses": {
+          "governance": 5,
+          "diplomacy": 5,
+          "intrigue": 4
+        }
+      },
+      "base_opinion_modifiers": {
+        "five_great_clans": 25,
+        "guanlong_nobility": 0,
+        "frontier_military": -20,
+        "imperial_house": 5,
+        "eunuch_household": -50,
+        "plebeian_bureaucrats": -20
+      },
+      "estate_resources": {
+        "grain": 280,
+        "silver": 420
+      }
+    },
+    {
+      "clan_id": "clan_li_zhaojun",
+      "name": "赵郡李氏",
+      "origin_county": "赵郡柏人",
+      "clan_type": "five_great_clans",
+      "renown": 1250,
+      "renown_tier": 4,
+      "default_patriarch_id": "li_bi",
+      "prominent_members": [
+        "li_bi",
+        "li_xian",
+        "li_hua"
+      ],
+      "ancestral_legacy": {
+        "id": "legacy_strategic_counselors",
+        "name": "经世国策",
+        "description": "深谋远虑，出入帷幄。谋略与政务见长，极擅调停朝局。",
+        "stat_bonuses": {
+          "intrigue": 8,
+          "governance": 5,
+          "diplomacy": 5
+        }
+      },
+      "base_opinion_modifiers": {
+        "five_great_clans": 20,
+        "guanlong_nobility": 10,
+        "frontier_military": -10,
+        "imperial_house": 15,
+        "eunuch_household": -40,
+        "plebeian_bureaucrats": -15
+      },
+      "estate_resources": {
+        "grain": 320,
+        "silver": 480
+      }
+    },
+    {
+      "clan_id": "clan_li_longxi_imperial",
+      "name": "陇西李氏·皇族宗室",
+      "origin_county": "陇西郡狄道",
+      "clan_type": "imperial_house",
+      "renown": 2000,
+      "renown_tier": 4,
+      "default_patriarch_id": "li_heng",
+      "prominent_members": [
+        "li_heng",
+        "li_chu",
+        "li_tan",
+        "li_lin",
+        "li_xuan"
+      ],
+      "ancestral_legacy": {
+        "id": "legacy_imperial_bloodline",
+        "name": "天潢贵胄",
+        "description": "承天受命，威加海内。统御天下宗亲与百官声望加成。",
+        "stat_bonuses": {
+          "diplomacy": 6,
+          "governance": 6,
+          "military": 4
+        }
+      },
+      "base_opinion_modifiers": {
+        "five_great_clans": 10,
+        "guanlong_nobility": 20,
+        "frontier_military": 10,
+        "imperial_house": 30,
+        "eunuch_household": 15,
+        "plebeian_bureaucrats": 10
+      },
+      "estate_resources": {
+        "grain": 600,
+        "silver": 1000
+      }
+    },
+    {
+      "clan_id": "clan_zheng_xingyang",
+      "name": "荥阳郑氏",
+      "origin_county": "荥阳郡开封",
+      "clan_type": "five_great_clans",
+      "renown": 1080,
+      "renown_tier": 4,
+      "default_patriarch_id": "zheng_qian",
+      "prominent_members": [
+        "zheng_qian",
+        "zheng_xun"
+      ],
+      "ancestral_legacy": {
+        "id": "legacy_classical_erudition",
+        "name": "荥阳经训",
+        "description": "经学传家，文华冠世。族人政务与外交声望卓越。",
+        "stat_bonuses": {
+          "governance": 6,
+          "diplomacy": 6,
+          "finance": 3
+        }
+      },
+      "base_opinion_modifiers": {
+        "five_great_clans": 25,
+        "guanlong_nobility": 5,
+        "frontier_military": -15,
+        "imperial_house": 10,
+        "eunuch_household": -45,
+        "plebeian_bureaucrats": -20
+      },
+      "estate_resources": {
+        "grain": 250,
+        "silver": 400
+      }
+    },
+    {
+      "clan_id": "clan_wang_taiyuan",
+      "name": "太原王氏",
+      "origin_county": "太原郡晋阳",
+      "clan_type": "five_great_clans",
+      "renown": 1180,
+      "renown_tier": 4,
+      "default_patriarch_id": "wang_hong",
+      "prominent_members": [
+        "wang_hong",
+        "wang_jin",
+        "wang_wei"
+      ],
+      "ancestral_legacy": {
+        "id": "legacy_grand_lineage",
+        "name": "太原世阀",
+        "description": "晋阳名宗，出将入相。文辞政事兼备。",
+        "stat_bonuses": {
+          "governance": 5,
+          "intrigue": 5,
+          "diplomacy": 5
+        }
+      },
+      "base_opinion_modifiers": {
+        "five_great_clans": 20,
+        "guanlong_nobility": 5,
+        "frontier_military": -10,
+        "imperial_house": 10,
+        "eunuch_household": -40,
+        "plebeian_bureaucrats": -15
+      },
+      "estate_resources": {
+        "grain": 300,
+        "silver": 460
+      }
+    },
+    {
+      "clan_id": "clan_wei_jingzhao",
+      "name": "京兆韦氏",
+      "origin_county": "京兆府杜陵",
+      "clan_type": "guanlong_nobility",
+      "renown": 950,
+      "renown_tier": 3,
+      "default_patriarch_id": "wei_jiansu",
+      "prominent_members": [
+        "wei_jiansu",
+        "wei_zhi",
+        "wei_lun"
+      ],
+      "ancestral_legacy": {
+        "id": "legacy_guanlong_pillar",
+        "name": "城南冠冕",
+        "description": "城南韦杜，去天五尺。关陇政坛枢纽，门生故吏遍天下。",
+        "stat_bonuses": {
+          "governance": 6,
+          "finance": 5,
+          "diplomacy": 4
+        }
+      },
+      "base_opinion_modifiers": {
+        "five_great_clans": 5,
+        "guanlong_nobility": 25,
+        "frontier_military": 5,
+        "imperial_house": 20,
+        "eunuch_household": -30,
+        "plebeian_bureaucrats": -10
+      },
+      "estate_resources": {
+        "grain": 400,
+        "silver": 600
+      }
+    },
+    {
+      "clan_id": "clan_du_jingzhao",
+      "name": "京兆杜氏",
+      "origin_county": "京兆府杜陵",
+      "clan_type": "guanlong_nobility",
+      "renown": 880,
+      "renown_tier": 3,
+      "default_patriarch_id": "du_hongjian",
+      "prominent_members": [
+        "du_hongjian",
+        "du_fu",
+        "du_you"
+      ],
+      "ancestral_legacy": {
+        "id": "legacy_constitutional_records",
+        "name": "通典世家",
+        "description": "熟谙律令典章，擅理赋税与制度调度。",
+        "stat_bonuses": {
+          "governance": 7,
+          "finance": 6,
+          "intrigue": 3
+        }
+      },
+      "base_opinion_modifiers": {
+        "five_great_clans": 5,
+        "guanlong_nobility": 25,
+        "frontier_military": 5,
+        "imperial_house": 20,
+        "eunuch_household": -30,
+        "plebeian_bureaucrats": -5
+      },
+      "estate_resources": {
+        "grain": 350,
+        "silver": 520
+      }
+    },
+    {
+      "clan_id": "clan_yang_hongnong",
+      "name": "弘农杨氏",
+      "origin_county": "弘农郡华阴",
+      "clan_type": "guanlong_nobility",
+      "renown": 920,
+      "renown_tier": 3,
+      "default_patriarch_id": "yang_guozhong_remnant",
+      "prominent_members": [
+        "yang_wan",
+        "yang_yan"
+      ],
+      "ancestral_legacy": {
+        "id": "legacy_imperial_in_laws",
+        "name": "戚畹勋阀",
+        "description": "历代外戚后族，财雄势大，擅长漕运理财与内廷沟通。",
+        "stat_bonuses": {
+          "finance": 8,
+          "diplomacy": 5,
+          "intrigue": 4
+        }
+      },
+      "base_opinion_modifiers": {
+        "five_great_clans": 0,
+        "guanlong_nobility": 20,
+        "frontier_military": -10,
+        "imperial_house": 25,
+        "eunuch_household": -15,
+        "plebeian_bureaucrats": -15
+      },
+      "estate_resources": {
+        "grain": 500,
+        "silver": 900
+      }
+    },
+    {
+      "clan_id": "clan_guo_huazhou",
+      "name": "华州郭氏",
+      "origin_county": "华州郑县",
+      "clan_type": "frontier_military",
+      "renown": 580,
+      "renown_tier": 2,
+      "default_patriarch_id": "guo_ziyi",
+      "prominent_members": [
+        "guo_ziyi",
+        "guo_xi",
+        "guo_ai",
+        "guo_ying"
+      ],
+      "ancestral_legacy": {
+        "id": "legacy_loyal_frontier_generals",
+        "name": "忠烈将门",
+        "description": "再造王室，百战功勋。族人统帅与勇武出类拔萃，军中威望崇隆。",
+        "stat_bonuses": {
+          "military": 8,
+          "prowess": 8,
+          "diplomacy": 4
+        }
+      },
+      "base_opinion_modifiers": {
+        "five_great_clans": -15,
+        "guanlong_nobility": 5,
+        "frontier_military": 30,
+        "imperial_house": 20,
+        "eunuch_household": -20,
+        "plebeian_bureaucrats": 5
+      },
+      "estate_resources": {
+        "grain": 600,
+        "silver": 400
+      }
+    },
+    {
+      "clan_id": "clan_pugu_shuofang",
+      "name": "铁勒仆固氏",
+      "origin_county": "朔方金微州",
+      "clan_type": "frontier_military",
+      "renown": 490,
+      "renown_tier": 2,
+      "default_patriarch_id": "pugu_huaien",
+      "prominent_members": [
+        "pugu_huaien",
+        "pugu_ming",
+        "pugu_qiong"
+      ],
+      "ancestral_legacy": {
+        "id": "legacy_steppe_cavalry_chiefs",
+        "name": "金微酋帅",
+        "description": "九姓铁勒精骑之主，勇烈骁悍，边军蕃汉交融枢纽。",
+        "stat_bonuses": {
+          "military": 7,
+          "prowess": 9,
+          "intrigue": -3
+        }
+      },
+      "base_opinion_modifiers": {
+        "five_great_clans": -25,
+        "guanlong_nobility": -5,
+        "frontier_military": 35,
+        "imperial_house": 10,
+        "eunuch_household": -30,
+        "plebeian_bureaucrats": 0
+      },
+      "estate_resources": {
+        "grain": 450,
+        "silver": 350
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "bundle_id": "hanzhong_block01_20260928",
+  "version": 1,
+  "extends": "national_c2_20260926",
+  "assets": {
+    "hz_foothill": {
+      "label": "汉中 · 山麓缓坡",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "foothill.png",
+      "rect": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "width": 300,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "hz_fields": {
+      "label": "汉中 · 冲积地田群",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "alluvial-fields.png",
+      "rect": [
+        0,
+        0,
+        1983,
+        793
+      ],
+      "width": 180,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "hz_dryland": {
+      "label": "汉中 · 旱田浅沟与砂砾缓地",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "dryland-fan.png",
+      "rect": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "width": 220,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

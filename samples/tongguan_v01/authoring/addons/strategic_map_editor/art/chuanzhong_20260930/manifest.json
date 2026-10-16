@@ -1,0 +1,20 @@
+{
+  "bundle_id": "chuanzhong_20260930",
+  "version": 1,
+  "extends": "zizhou_bank_20260930",
+  "generation_tool": "builtin image_gen",
+  "assets": [
+    {
+      "file": "stepped-low-hills.png",
+      "width": 1942,
+      "height": 809,
+      "sha256": "88a2e87965d384bc8fc4e8e94f08dcbb7449cbf467374116b26ce166571705ea"
+    },
+    {
+      "file": "incised-low-hills.png",
+      "width": 1915,
+      "height": 821,
+      "sha256": "57c1f1d0469a9fea820f9d6218445c73ad65de7a560bc5202951aeb217c7d441"
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "bundle_id": "settlements_camera_v2_20261004",
+  "version": 1,
+  "extends": "shanxi_revision_20261001",
+  "assets": {
+    "regional27_tang_capital": {
+      "label": "唐·都城",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tang_capital.png",
+      "rect": [
+        32,
+        61,
+        1408,
+        926
+      ],
+      "width": 220,
+      "anchor": [
+        0.5025,
+        0.5541
+      ],
+      "gate_anchor": [
+        0.76089,
+        0.8
+      ]
+    },
+    "regional27_tang_medium_yamen": {
+      "label": "唐·中城",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tang_medium_yamen.png",
+      "rect": [
+        74,
+        30,
+        1393,
+        932
+      ],
+      "width": 140,
+      "anchor": [
+        0.50072,
+        0.55184
+      ],
+      "gate_anchor": [
+        0.77786,
+        0.78726
+      ]
+    },
+    "regional27_nomad_chief": {
+      "label": "北方·游牧大帐",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_nomad_chief.png",
+      "rect": [
+        268,
+        157,
+        1001,
+        697
+      ],
+      "width": 100,
+      "anchor": [
+        0.50502,
+        0.62338
+      ],
+      "gate_anchor": [
+        0.50602,
+        0.96681
+      ]
+    },
+    "regional27_tibet_town": {
+      "label": "高原·普通城镇",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tibet_town.png",
+      "rect": [
+        153,
+        47,
+        1212,
+        927
+      ],
+      "width": 105,
+      "anchor": [
+        0.51165,
+        0.58677
+      ],
+      "gate_anchor": [
+        0.46423,
+        0.9436
+      ]
+    },
+    "regional27_japan_white": {
+      "label": "日本·白色天守",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_japan_white.png",
+      "rect": [
+        172,
+        86,
+        1204,
+        866
+      ],
+      "width": 135,
+      "anchor": [
+        0.50209,
+        0.68187
+      ],
+      "gate_anchor": [
+        0.68536,
+        0.90058
+      ]
+    },
+    "regional27_tang_large_administration": {
+      "label": "唐·大城·府署",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tang_large_administration.png",
+      "rect": [
+        81,
+        52,
+        1375,
+        924
+      ],
+      "width": 180,
+      "anchor": [
+        0.50036,
+        0.54923
+      ],
+      "gate_anchor": [
+        0.48871,
+        0.95405
+      ]
+    },
+    "regional27_tang_large_market": {
+      "label": "唐·大城·商市",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tang_large_market.png",
+      "rect": [
+        61,
+        1,
+        1424,
+        990
+      ],
+      "width": 180,
+      "anchor": [
+        0.49965,
+        0.55703
+      ],
+      "gate_anchor": [
+        0.74841,
+        0.76069
+      ]
+    },
+    "regional27_tang_large_temple": {
+      "label": "唐·大城·寺坊",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tang_large_temple.png",
+      "rect": [
+        59,
+        34,
+        1421,
+        957
+      ],
+      "width": 180,
+      "anchor": [
+        0.50071,
+        0.54017
+      ],
+      "gate_anchor": [
+        0.75035,
+        0.75159
+      ]
+    },
+    "regional27_tang_medium_market": {
+      "label": "唐·中城·街市",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tang_medium_market.png",
+      "rect": [
+        191,
+        100,
+        1210,
+        771
+      ],
+      "width": 140,
+      "anchor": [
+        0.50456,
+        0.54534
+      ],
+      "gate_anchor": [
+        0.20878,
+        0.85677
+      ]
+    },
+    "regional27_tang_medium_monastery": {
+      "label": "唐·中城·寺院",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tang_medium_monastery.png",
+      "rect": [
+        147,
+        169,
+        1241,
+        707
+      ],
+      "width": 140,
+      "anchor": [
+        0.50203,
+        0.52143
+      ],
+      "gate_anchor": [
+        0.35557,
+        0.67857
+      ]
+    },
+    "regional27_tang_medium_granary": {
+      "label": "唐·中城·仓坊",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tang_medium_granary.png",
+      "rect": [
+        124,
+        47,
+        1291,
+        890
+      ],
+      "width": 140,
+      "anchor": [
+        0.50234,
+        0.57531
+      ],
+      "gate_anchor": [
+        0.49922,
+        0.93545
+      ]
+    },
+    "regional27_tang_fort_drill": {
+      "label": "唐·军镇·校场",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tang_fort_drill.png",
+      "rect": [
+        63,
+        49,
+        1403,
+        825
+      ],
+      "width": 120,
+      "anchor": [
+        0.50467,
+        0.59219
+      ],
+      "gate_anchor": [
+        0.50538,
+        0.96337
+      ]
+    },
+    "regional27_tang_fort_supply": {
+      "label": "唐·军镇·屯仓",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tang_fort_supply.png",
+      "rect": [
+        73,
+        41,
+        1396,
+        924
+      ],
+      "width": 120,
+      "anchor": [
+        0.50108,
+        0.55882
+      ],
+      "gate_anchor": [
+        0.75235,
+        0.77124
+      ]
+    },
+    "regional27_tang_village_farm": {
+      "label": "唐·村镇·农庄",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tang_village_farm.png",
+      "rect": [
+        165,
+        74,
+        1234,
+        811
+      ],
+      "width": 80,
+      "anchor": [
+        0.50245,
+        0.6125
+      ],
+      "gate_anchor": [
+        0.3928,
+        0.8825
+      ]
+    },
+    "regional27_tang_village_market": {
+      "label": "唐·村镇·集市",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tang_village_market.png",
+      "rect": [
+        204,
+        85,
+        1191,
+        816
+      ],
+      "width": 85,
+      "anchor": [
+        0.47683,
+        0.633
+      ],
+      "gate_anchor": [
+        0.45072,
+        0.93596
+      ]
+    },
+    "regional27_tang_village_post": {
+      "label": "唐·村镇·驿站",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tang_village_post.png",
+      "rect": [
+        178,
+        131,
+        1204,
+        671
+      ],
+      "width": 85,
+      "anchor": [
+        0.5,
+        0.65113
+      ],
+      "gate_anchor": [
+        0.67359,
+        0.87368
+      ]
+    },
+    "regional27_tang_village_craft": {
+      "label": "唐·村镇·作坊",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tang_village_craft.png",
+      "rect": [
+        179,
+        152,
+        1095,
+        704
+      ],
+      "width": 85,
+      "anchor": [
+        0.54346,
+        0.56566
+      ],
+      "gate_anchor": [
+        0.62946,
+        0.87302
+      ]
+    },
+    "regional27_nomad_pastoral": {
+      "label": "北方·游牧牧营",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_nomad_pastoral.png",
+      "rect": [
+        103,
+        195,
+        1331,
+        638
+      ],
+      "width": 90,
+      "anchor": [
+        0.5019,
+        0.5712
+      ],
+      "gate_anchor": [
+        0.60804,
+        0.87342
+      ]
+    },
+    "regional27_tibet_potala": {
+      "label": "高原·布达拉宫",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_tibet_potala.png",
+      "rect": [
+        67,
+        165,
+        1270,
+        904
+      ],
+      "width": 190,
+      "anchor": [
+        0.5142,
+        0.68834
+      ],
+      "gate_anchor": [
+        0.61593,
+        0.90919
+      ]
+    },
+    "regional27_japan_black": {
+      "label": "日本·乌城",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_japan_black.png",
+      "rect": [
+        200,
+        133,
+        992,
+        903
+      ],
+      "width": 125,
+      "anchor": [
+        0.49949,
+        0.66219
+      ],
+      "gate_anchor": [
+        0.31295,
+        0.84004
+      ]
+    },
+    "regional27_japan_low": {
+      "label": "日本·平城",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "regional27_japan_low.png",
+      "rect": [
+        162,
+        132,
+        1270,
+        758
+      ],
+      "width": 135,
+      "anchor": [
+        0.49245,
+        0.6332
+      ],
+      "gate_anchor": [
+        0.68864,
+        0.89157
+      ]
+    }
+  }
+}

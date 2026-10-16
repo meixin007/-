@@ -1,0 +1,1255 @@
+[
+  {
+    "character_id": "guo_ziyi",
+    "personality_rules": [
+      "loyal_to_dynasty",
+      "guards_field_command",
+      "avoids_court_humiliation",
+      "respects_written_orders",
+      "protects_soldiers_morale"
+    ],
+    "goals": [
+      "secure_formal_authority",
+      "protect_shuofang_supply"
+    ],
+    "red_lines": [
+      "unpaid_field_promise",
+      "command_bypassed",
+      "supply_collapse"
+    ],
+    "persuasion_hooks": [
+      "written_authority",
+      "grain_order",
+      "shared_credit"
+    ],
+    "memory_priorities": [
+      "promises",
+      "supply",
+      "court_trust",
+      "command_chain",
+      "front_pressure"
+    ],
+    "action_families": [
+      "request_formal_authority",
+      "ask_for_grain",
+      "request_audience",
+      "submit_memorial"
+    ],
+    "relationships": [
+      "li_heng",
+      "li_fuguo",
+      "li_bi"
+    ],
+    "mutable_stances": [
+      "court_trust",
+      "supply_patience"
+    ],
+    "action_rules": [
+      {
+        "action_type": "request_formal_authority",
+        "action_family": "request_formal_authority",
+        "base_score": 30,
+        "requirements": {
+          "obligation_statuses": [
+            "proposed",
+            "accepted"
+          ],
+          "obligation_object_id": "guo_formal_authority_promise",
+          "personality_rule": "loyal_to_dynasty",
+          "relationship": {
+            "target_id": "li_heng",
+            "minimum": 0
+          },
+          "office_faction_id": "military_commanders",
+          "information_participant": true,
+          "production_signal": "guo_formal_authority_promise"
+        },
+        "score_weights": {
+          "obligation": 12,
+          "personality": 2,
+          "relationship": 2,
+          "office": 3,
+          "information": 4
+        }
+      },
+      {
+        "action_type": "ask_for_grain",
+        "action_family": "ask_for_grain",
+        "base_score": 30,
+        "requirements": {
+          "pressure": {
+            "resource_id": "grain",
+            "maximum": 700
+          },
+          "map_battle": {
+            "route_id": "support_shuofang",
+            "minimum": 1
+          },
+          "production_signal": "guo_supply_order_needed"
+        },
+        "score_weights": {
+          "pressure": 8,
+          "map_battle": 5
+        }
+      },
+      {
+        "action_type": "request_audience",
+        "action_family": "request_audience",
+        "base_score": 30,
+        "requirements": {
+          "production_signal": "guo_command_audience_needed",
+          "information_participant": true
+        },
+        "score_weights": {
+          "pressure": 2,
+          "information": 9
+        }
+      },
+      {
+        "action_type": "ask_for_grain",
+        "action_family": "ask_for_grain",
+        "base_score": 25,
+        "requirements": {
+          "production_signal": "baseline_shuofang_supply"
+        },
+        "score_weights": {
+          "pressure": 8
+        }
+      }
+    ],
+    "arc_id": "guo_ziyi_arc",
+    "arc_stage_count": 3
+  },
+  {
+    "character_id": "li_bi",
+    "personality_rules": [
+      "balances_factions",
+      "prefers_reversible_commitments",
+      "protects_deliberation",
+      "prefers_sunset_clauses",
+      "avoids_faction_labels"
+    ],
+    "goals": [
+      "keep_multiple_channels_open",
+      "limit_palace_monopoly"
+    ],
+    "red_lines": [
+      "single_faction_capture",
+      "irrevocable_commitment",
+      "unread_intelligence"
+    ],
+    "persuasion_hooks": [
+      "sunset_clause",
+      "private_audience",
+      "cross_check"
+    ],
+    "memory_priorities": [
+      "precedent",
+      "promises",
+      "intelligence",
+      "faction_balance",
+      "succession"
+    ],
+    "action_families": [
+      "request_audience",
+      "propose_sunset_clause",
+      "submit_memorial",
+      "request_intelligence_review"
+    ],
+    "relationships": [
+      "li_heng",
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "mutable_stances": [
+      "palace_trust",
+      "military_confidence"
+    ],
+    "action_rules": [
+      {
+        "action_type": "request_audience",
+        "action_family": "request_audience",
+        "base_score": 30,
+        "requirements": {
+          "pressure": {
+            "faction_minimum": 50
+          },
+          "production_signal": "li_bi_faction_capture"
+        },
+        "score_weights": {
+          "pressure": 10
+        }
+      },
+      {
+        "action_type": "propose_sunset_clause",
+        "action_family": "propose_sunset_clause",
+        "base_score": 30,
+        "requirements": {
+          "obligation_statuses": [
+            "accepted"
+          ],
+          "production_signal": "li_bi_sunset_clause_needed"
+        },
+        "score_weights": {
+          "pressure": 2,
+          "obligation": 10
+        }
+      },
+      {
+        "action_type": "request_intelligence_review",
+        "action_family": "request_intelligence_review",
+        "base_score": 30,
+        "requirements": {
+          "production_signal": "li_bi_intelligence_gap",
+          "information_participant": true
+        },
+        "score_weights": {
+          "pressure": 2,
+          "information": 10
+        }
+      },
+      {
+        "action_type": "request_audience",
+        "action_family": "request_audience",
+        "base_score": 25,
+        "requirements": {
+          "production_signal": "baseline_guanzhong_threat"
+        },
+        "score_weights": {
+          "pressure": 8
+        }
+      }
+    ],
+    "arc_id": "li_bi_arc",
+    "arc_stage_count": 3
+  },
+  {
+    "character_id": "li_fuguo",
+    "personality_rules": [
+      "protects_palace_gate",
+      "converts_access_to_power",
+      "punishes_bypass",
+      "controls_information_flow",
+      "rewards_loyal_gatekeepers"
+    ],
+    "goals": [
+      "control_registration",
+      "monopolize_palace_channel"
+    ],
+    "red_lines": [
+      "registration_bypassed",
+      "secret_channel_excluded",
+      "palace_disorder"
+    ],
+    "persuasion_hooks": [
+      "gate_authority",
+      "confidential_access",
+      "visible_loyalty"
+    ],
+    "memory_priorities": [
+      "bypass",
+      "access",
+      "rivals",
+      "palace_risk",
+      "registration"
+    ],
+    "action_families": [
+      "lobby_registration_control",
+      "submit_secret_report",
+      "intercept_memorial",
+      "request_audience"
+    ],
+    "relationships": [
+      "li_heng",
+      "guo_ziyi",
+      "li_bi"
+    ],
+    "mutable_stances": [
+      "palace_access",
+      "court_cooperation"
+    ],
+    "action_rules": [
+      {
+        "action_type": "lobby_registration_control",
+        "action_family": "lobby_registration_control",
+        "base_score": 30,
+        "requirements": {
+          "office_faction_id": "eunuch_network",
+          "production_signal": "registration_control_bypassed"
+        },
+        "score_weights": {
+          "pressure": 2,
+          "office": 12
+        }
+      },
+      {
+        "action_type": "submit_secret_report",
+        "action_family": "submit_secret_report",
+        "base_score": 30,
+        "requirements": {
+          "production_signal": "li_fuguo_channel_risk",
+          "information_participant": true
+        },
+        "score_weights": {
+          "pressure": 2,
+          "information": 10
+        }
+      },
+      {
+        "action_type": "intercept_memorial",
+        "action_family": "intercept_memorial",
+        "base_score": 30,
+        "requirements": {
+          "relationship": {
+            "target_id": "li_heng",
+            "minimum": 15
+          },
+          "production_signal": "li_fuguo_memorial_risk"
+        },
+        "score_weights": {
+          "pressure": 2,
+          "relationship": 5
+        }
+      },
+      {
+        "action_type": "submit_secret_report",
+        "action_family": "submit_secret_report",
+        "base_score": 25,
+        "requirements": {
+          "production_signal": "baseline_eunuch_pressure"
+        },
+        "score_weights": {
+          "pressure": 8
+        }
+      }
+    ],
+    "arc_id": "li_fuguo_arc",
+    "arc_stage_count": 3
+  },
+  {
+    "character_id": "li_guangbi",
+    "personality_rules": [
+      "protects_front",
+      "requires_clear_orders",
+      "measures_supply",
+      "competes_for_supply_priority",
+      "resents_court_favoritism"
+    ],
+    "goals": [
+      "hold_hedong",
+      "secure_command_orders"
+    ],
+    "red_lines": [
+      "contradictory_order",
+      "supply_withdrawal",
+      "front_abandonment"
+    ],
+    "persuasion_hooks": [
+      "clear_command",
+      "reinforcement",
+      "grain_allocation"
+    ],
+    "memory_priorities": [
+      "orders",
+      "supply",
+      "front",
+      "guo_ziyi",
+      "court_delay"
+    ],
+    "action_families": [
+      "request_clear_orders",
+      "ask_for_grain",
+      "submit_front_report",
+      "request_audience"
+    ],
+    "relationships": [
+      "li_heng",
+      "guo_ziyi",
+      "li_bi"
+    ],
+    "mutable_stances": [
+      "court_reliance",
+      "front_patience"
+    ],
+    "action_rules": [
+      {
+        "action_type": "request_clear_orders",
+        "action_family": "request_clear_orders",
+        "base_score": 30,
+        "requirements": {
+          "map_battle": {
+            "front_id": "hedong_front",
+            "threat_minimum": 70
+          },
+          "production_signal": "li_guangbi_order_conflict"
+        },
+        "score_weights": {
+          "pressure": 2,
+          "map_battle": 11
+        }
+      },
+      {
+        "action_type": "ask_for_grain",
+        "action_family": "ask_for_grain",
+        "base_score": 30,
+        "requirements": {
+          "pressure": {
+            "resource_id": "grain",
+            "maximum": 700
+          },
+          "production_signal": "li_guangbi_supply_gap"
+        },
+        "score_weights": {
+          "pressure": 11
+        }
+      },
+      {
+        "action_type": "submit_front_report",
+        "action_family": "submit_front_report",
+        "base_score": 30,
+        "requirements": {
+          "obligation_statuses": [
+            "accepted"
+          ],
+          "production_signal": "li_guangbi_front_report_due"
+        },
+        "score_weights": {
+          "pressure": 2,
+          "obligation": 10
+        }
+      }
+    ],
+    "arc_id": "li_guangbi_arc",
+    "arc_stage_count": 3
+  },
+  {
+    "character_id": "pugu_huaien",
+    "personality_rules": [
+      "values_honor",
+      "protects_cavalry",
+      "remembers_slights",
+      "demands_visible_reward",
+      "sensitive_to_ethnic_slight"
+    ],
+    "goals": [
+      "secure_cavalry_support",
+      "raise_military_credit"
+    ],
+    "red_lines": [
+      "cavalry_neglect",
+      "public_slight",
+      "broken_reward"
+    ],
+    "persuasion_hooks": [
+      "command_credit",
+      "horse_supply",
+      "public_honor"
+    ],
+    "memory_priorities": [
+      "honor",
+      "supply",
+      "guo_ziyi",
+      "reward",
+      "court_trust"
+    ],
+    "action_families": [
+      "request_cavalry_supply",
+      "demand_reward",
+      "submit_front_report",
+      "pugu_huaien_action_4"
+    ],
+    "relationships": [
+      "li_heng",
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "mutable_stances": [
+      "court_trust",
+      "command_loyalty"
+    ],
+    "arc_id": "pugu_huaien_arc",
+    "arc_stage_count": 3,
+    "action_rules": [
+      {
+        "action_type": "request_cavalry_supply",
+        "action_family": "request_cavalry_supply",
+        "base_score": 30,
+        "requirements": {
+          "production_signal": "pugu_cavalry_supply_gap",
+          "pressure": {
+            "resource_id": "grain",
+            "maximum": 800
+          }
+        },
+        "score_weights": {
+          "pressure": 8
+        }
+      },
+      {
+        "action_type": "demand_reward",
+        "action_family": "demand_reward",
+        "base_score": 28,
+        "requirements": {
+          "production_signal": "pugu_reward_due",
+          "information_participant": true
+        },
+        "score_weights": {
+          "information": 7,
+          "pressure": 3
+        }
+      },
+      {
+        "action_type": "submit_front_report",
+        "action_family": "submit_front_report",
+        "base_score": 26,
+        "requirements": {
+          "production_signal": "pugu_front_report_due"
+        },
+        "score_weights": {
+          "pressure": 6
+        }
+      }
+    ]
+  },
+  {
+    "character_id": "li_chu",
+    "personality_rules": [
+      "protects_succession",
+      "reads_court_signals",
+      "avoids_open_split",
+      "defends_imperial_oversight",
+      "wary_of_eunuch_capture"
+    ],
+    "goals": [
+      "secure_dynastic_continuity",
+      "retain_voice_in_court"
+    ],
+    "red_lines": [
+      "succession_humiliation",
+      "palace_capture",
+      "dynastic_disorder"
+    ],
+    "persuasion_hooks": [
+      "family_unity",
+      "public_legitimacy",
+      "trusted_tutor"
+    ],
+    "memory_priorities": [
+      "succession",
+      "household",
+      "li_heng",
+      "li_bi",
+      "palace"
+    ],
+    "action_families": [
+      "request_succession_assurance",
+      "seek_private_advice",
+      "request_audience",
+      "li_chu_action_4"
+    ],
+    "relationships": [
+      "li_heng",
+      "li_bi",
+      "zhang_liangdi"
+    ],
+    "mutable_stances": [
+      "succession_confidence",
+      "palace_trust"
+    ],
+    "arc_id": "li_chu_arc",
+    "arc_stage_count": 3,
+    "action_rules": [
+      {
+        "action_type": "request_succession_assurance",
+        "action_family": "request_succession_assurance",
+        "base_score": 30,
+        "requirements": {
+          "production_signal": "li_chu_succession_risk",
+          "relationship": {
+            "target_id": "li_heng",
+            "minimum": 0
+          }
+        },
+        "score_weights": {
+          "relationship": 8,
+          "pressure": 3
+        }
+      },
+      {
+        "action_type": "seek_private_advice",
+        "action_family": "seek_private_advice",
+        "base_score": 28,
+        "requirements": {
+          "production_signal": "li_chu_private_counsel_needed",
+          "information_participant": true
+        },
+        "score_weights": {
+          "information": 8
+        }
+      },
+      {
+        "action_type": "request_audience",
+        "action_family": "request_audience",
+        "base_score": 26,
+        "requirements": {
+          "production_signal": "li_chu_audience_needed"
+        },
+        "score_weights": {
+          "pressure": 5
+        }
+      }
+    ]
+  },
+  {
+    "character_id": "uighur_envoy",
+    "personality_rules": [
+      "prices_alliance",
+      "guards_envoy_dignity",
+      "uses_deadlines",
+      "insists_on_formal_terms",
+      "tracks_market_cost_signals"
+    ],
+    "goals": [
+      "secure_reward_terms",
+      "protect_uighur_interests"
+    ],
+    "red_lines": [
+      "unwritten_reward",
+      "insulted_envoy",
+      "unpaid_cost"
+    ],
+    "persuasion_hooks": [
+      "written_terms",
+      "market_protection",
+      "hostage_assurance"
+    ],
+    "memory_priorities": [
+      "reward",
+      "market",
+      "honor",
+      "military_need",
+      "deadline"
+    ],
+    "action_families": [
+      "demand_reward_terms",
+      "request_audience",
+      "privately_negotiate",
+      "submit_memorial"
+    ],
+    "relationships": [
+      "li_heng",
+      "li_bi",
+      "guo_ziyi"
+    ],
+    "mutable_stances": [
+      "alliance_price",
+      "court_trust"
+    ],
+    "action_rules": [
+      {
+        "action_type": "demand_reward_terms",
+        "action_family": "demand_reward_terms",
+        "base_score": 30,
+        "requirements": {
+          "map_battle": {
+            "route_id": "uighur_push",
+            "minimum": 2
+          },
+          "production_signal": "uighur_terms_unwritten"
+        },
+        "score_weights": {
+          "pressure": 2,
+          "map_battle": 11
+        }
+      },
+      {
+        "action_type": "privately_negotiate",
+        "action_family": "privately_negotiate",
+        "base_score": 30,
+        "requirements": {
+          "obligation_statuses": [
+            "accepted"
+          ],
+          "production_signal": "uighur_private_channel_needed"
+        },
+        "score_weights": {
+          "pressure": 2,
+          "obligation": 10
+        }
+      },
+      {
+        "action_type": "submit_memorial",
+        "action_family": "submit_memorial",
+        "base_score": 30,
+        "requirements": {
+          "office_faction_id": "uighur_envoys",
+          "production_signal": "uighur_memorial_needed"
+        },
+        "score_weights": {
+          "pressure": 2,
+          "office": 10
+        }
+      },
+      {
+        "action_type": "demand_reward_terms",
+        "action_family": "demand_reward_terms",
+        "base_score": 25,
+        "requirements": {
+          "production_signal": "baseline_uighur_pressure"
+        },
+        "score_weights": {
+          "pressure": 8
+        }
+      }
+    ],
+    "arc_id": "uighur_envoy_arc",
+    "arc_stage_count": 3
+  },
+  {
+    "character_id": "hardline_old_court_official",
+    "personality_rules": [
+      "defends_ritual",
+      "tests_legitimacy",
+      "records_irregularity",
+      "invokes_ritual_precedent",
+      "attacks_foreign_dependency"
+    ],
+    "goals": [
+      "restore_procedure",
+      "limit_emergency_power"
+    ],
+    "red_lines": [
+      "ritual_breach",
+      "unratified_order",
+      "old_court_erasure"
+    ],
+    "persuasion_hooks": [
+      "public_precedent",
+      "formal_memorial",
+      "elder_witness"
+    ],
+    "memory_priorities": [
+      "precedent",
+      "ritual",
+      "authority",
+      "appointments",
+      "old_court"
+    ],
+    "action_families": [
+      "submit_memorial",
+      "demand_ritual_review",
+      "accuse_another_npc",
+      "leak_rumor"
+    ],
+    "relationships": [
+      "li_heng",
+      "tang_xuanzong",
+      "li_fuguo"
+    ],
+    "mutable_stances": [
+      "legitimacy_acceptance",
+      "emergency_tolerance"
+    ],
+    "action_rules": [
+      {
+        "action_type": "submit_memorial",
+        "action_family": "submit_memorial",
+        "base_score": 30,
+        "requirements": {
+          "personality_rule": "defends_ritual",
+          "production_signal": "old_court_procedure_bypassed"
+        },
+        "score_weights": {
+          "pressure": 2,
+          "personality": 10
+        }
+      },
+      {
+        "action_type": "demand_ritual_review",
+        "action_family": "demand_ritual_review",
+        "base_score": 30,
+        "requirements": {
+          "production_signal": "old_court_ritual_breach",
+          "information_participant": true
+        },
+        "score_weights": {
+          "pressure": 2,
+          "information": 10
+        }
+      },
+      {
+        "action_type": "accuse_another_npc",
+        "action_family": "accuse_another_npc",
+        "base_score": 30,
+        "requirements": {
+          "obligation_statuses": [
+            "accepted"
+          ],
+          "production_signal": "old_court_precedent_disputed"
+        },
+        "score_weights": {
+          "pressure": 2,
+          "obligation": 10
+        }
+      },
+      {
+        "action_type": "submit_memorial",
+        "action_family": "submit_memorial",
+        "base_score": 25,
+        "requirements": {
+          "production_signal": "baseline_old_court_pressure"
+        },
+        "score_weights": {
+          "pressure": 8
+        }
+      }
+    ],
+    "arc_id": "hardline_old_court_official_arc",
+    "arc_stage_count": 3
+  },
+  {
+    "character_id": "grain_official_lingwu",
+    "personality_rules": [
+      "protects_accounts",
+      "fears_audit",
+      "shifts_risk_downward",
+      "fears_scapegoating",
+      "protects_ledger_integrity"
+    ],
+    "goals": [
+      "avoid_audit_blame",
+      "stabilize_grain_ledgers"
+    ],
+    "red_lines": [
+      "audit_due",
+      "ledger_shortfall",
+      "public_accounting"
+    ],
+    "persuasion_hooks": [
+      "audit_delay",
+      "shared_responsibility",
+      "supply_relief"
+    ],
+    "memory_priorities": [
+      "audit",
+      "grain_balance",
+      "supervisor",
+      "scapegoat",
+      "refugee_demand"
+    ],
+    "action_families": [
+      "shift_audit_blame",
+      "request_grain_relief",
+      "submit_account_report",
+      "seek_patronage"
+    ],
+    "relationships": [
+      "li_heng",
+      "li_fuguo",
+      "lingwu_merchant_refugee"
+    ],
+    "mutable_stances": [
+      "audit_confidence",
+      "court_loyalty"
+    ],
+    "action_rules": [
+      {
+        "action_type": "shift_audit_blame",
+        "action_family": "shift_audit_blame",
+        "base_score": 30,
+        "requirements": {
+          "office_faction_id": "suzong_court",
+          "production_signal": "grain_audit_due"
+        },
+        "score_weights": {
+          "pressure": 3,
+          "office": 8
+        }
+      },
+      {
+        "action_type": "request_grain_relief",
+        "action_family": "request_grain_relief",
+        "base_score": 30,
+        "requirements": {
+          "pressure": {
+            "resource_id": "grain",
+            "maximum": 700
+          },
+          "production_signal": "grain_relief_needed"
+        },
+        "score_weights": {
+          "pressure": 11
+        }
+      },
+      {
+        "action_type": "submit_account_report",
+        "action_family": "submit_account_report",
+        "base_score": 30,
+        "requirements": {
+          "production_signal": "grain_account_report_due",
+          "information_participant": true
+        },
+        "score_weights": {
+          "pressure": 2,
+          "information": 9
+        }
+      }
+    ],
+    "arc_id": "grain_official_lingwu_arc",
+    "arc_stage_count": 3
+  },
+  {
+    "character_id": "lingwu_merchant_refugee",
+    "personality_rules": [
+      "protects_household",
+      "tracks_patronage",
+      "guards_succession",
+      "defends_market_survival",
+      "remembers_broken_tax_promises"
+    ],
+    "goals": [
+      "secure_household_safety",
+      "shape_appointments"
+    ],
+    "red_lines": [
+      "household_exposure",
+      "succession_slur",
+      "palace_exclusion"
+    ],
+    "persuasion_hooks": [
+      "household_safety",
+      "trusted_appointment",
+      "private_access"
+    ],
+    "memory_priorities": [
+      "household",
+      "appointments",
+      "li_chu",
+      "li_fuguo",
+      "palace_risk"
+    ],
+    "action_families": [
+      "request_household_protection",
+      "lobby_appointment",
+      "request_audience",
+      "lingwu_merchant_refugee_action_4"
+    ],
+    "relationships": [
+      "li_heng",
+      "grain_official_lingwu",
+      "hardline_old_court_official"
+    ],
+    "mutable_stances": [
+      "palace_security",
+      "eunuch_cooperation"
+    ],
+    "action_rules": [
+      {
+        "action_type": "request_household_protection",
+        "action_family": "request_household_protection",
+        "base_score": 28,
+        "requirements": {
+          "production_signal": "merchant_levy_pressure",
+          "relationship": {
+            "target_id": "li_heng",
+            "minimum": -20
+          }
+        },
+        "score_weights": {
+          "pressure": 8,
+          "relationship": 4
+        }
+      },
+      {
+        "action_type": "lobby_appointment",
+        "action_family": "lobby_appointment",
+        "base_score": 26,
+        "requirements": {
+          "production_signal": "merchant_market_complaint",
+          "information_participant": true
+        },
+        "score_weights": {
+          "information": 8,
+          "pressure": 4
+        }
+      },
+      {
+        "action_type": "request_audience",
+        "action_family": "request_audience",
+        "base_score": 24,
+        "requirements": {
+          "production_signal": "merchant_relief_plea"
+        },
+        "score_weights": {
+          "pressure": 6
+        }
+      }
+    ],
+    "arc_id": "lingwu_merchant_refugee_arc",
+    "arc_stage_count": 3
+  },
+  {
+    "character_id": "regional_jiedushi_rep",
+    "personality_rules": [
+      "defends_city",
+      "uses_moral_pressure",
+      "counts_grain",
+      "bargains_for_titles",
+      "watches_central_weakness"
+    ],
+    "goals": [
+      "relieve_front",
+      "win_symbolic_support"
+    ],
+    "red_lines": [
+      "city_abandoned",
+      "grain_denied",
+      "loyalty_unseen"
+    ],
+    "persuasion_hooks": [
+      "loyalty",
+      "emergency_grain",
+      "public_honor"
+    ],
+    "memory_priorities": [
+      "siege",
+      "grain",
+      "honor",
+      "court_response",
+      "guo_ziyi"
+    ],
+    "action_families": [
+      "request_emergency_grain",
+      "submit_front_report",
+      "request_audience",
+      "regional_jiedushi_rep_action_4"
+    ],
+    "relationships": [
+      "li_heng",
+      "guo_ziyi",
+      "li_bi"
+    ],
+    "mutable_stances": [
+      "court_hope",
+      "front_desperation"
+    ],
+    "arc_id": "regional_jiedushi_rep_arc",
+    "arc_stage_count": 3,
+    "action_rules": [
+      {
+        "action_type": "request_emergency_grain",
+        "action_family": "request_emergency_grain",
+        "base_score": 30,
+        "requirements": {
+          "production_signal": "regional_emergency_grain",
+          "pressure": {
+            "resource_id": "grain",
+            "maximum": 750
+          }
+        },
+        "score_weights": {
+          "pressure": 9
+        }
+      },
+      {
+        "action_type": "submit_front_report",
+        "action_family": "submit_front_report",
+        "base_score": 28,
+        "requirements": {
+          "production_signal": "regional_front_report_due"
+        },
+        "score_weights": {
+          "pressure": 6
+        }
+      },
+      {
+        "action_type": "request_audience",
+        "action_family": "request_audience",
+        "base_score": 26,
+        "requirements": {
+          "production_signal": "regional_audience_needed"
+        },
+        "score_weights": {
+          "pressure": 5
+        }
+      }
+    ]
+  },
+  {
+    "character_id": "eunuch_deputy_gate",
+    "personality_rules": [
+      "carries_guilt",
+      "protects_remnants",
+      "fears_scapegoating",
+      "serves_nearest_patron",
+      "can_alter_dispatches"
+    ],
+    "goals": [
+      "preserve_guard_remnants",
+      "avoid_collective_blame"
+    ],
+    "red_lines": [
+      "retroactive_blame",
+      "guard_dissolution",
+      "court_denial"
+    ],
+    "persuasion_hooks": [
+      "witness_testimony",
+      "guard_protection",
+      "limited_amnesty"
+    ],
+    "memory_priorities": [
+      "mawei",
+      "guard",
+      "blame",
+      "xuanzong",
+      "amnesty"
+    ],
+    "action_families": [
+      "submit_witness_report",
+      "request_amnesty",
+      "seek_private_audience",
+      "eunuch_deputy_gate_action_4"
+    ],
+    "relationships": [
+      "li_heng",
+      "tang_xuanzong",
+      "hardline_old_court_official"
+    ],
+    "mutable_stances": [
+      "court_trust",
+      "blame_fear"
+    ],
+    "arc_id": "eunuch_deputy_gate_arc",
+    "arc_stage_count": 3,
+    "action_rules": [
+      {
+        "action_type": "submit_witness_report",
+        "action_family": "submit_witness_report",
+        "base_score": 30,
+        "requirements": {
+          "production_signal": "gate_witness_report_due",
+          "information_participant": true
+        },
+        "score_weights": {
+          "information": 9
+        }
+      },
+      {
+        "action_type": "request_amnesty",
+        "action_family": "request_amnesty",
+        "base_score": 28,
+        "requirements": {
+          "production_signal": "gate_amnesty_plea"
+        },
+        "score_weights": {
+          "pressure": 6
+        }
+      },
+      {
+        "action_type": "seek_private_audience",
+        "action_family": "seek_private_audience",
+        "base_score": 26,
+        "requirements": {
+          "production_signal": "gate_private_audience_needed"
+        },
+        "score_weights": {
+          "pressure": 5
+        }
+      }
+    ]
+  },
+  {
+    "character_id": "zhang_liangdi",
+    "personality_rules": [
+      "protects_household",
+      "tracks_patronage",
+      "guards_succession"
+    ],
+    "goals": [
+      "secure_household_safety",
+      "shape_appointments"
+    ],
+    "red_lines": [
+      "household_exposure",
+      "succession_slur",
+      "palace_exclusion"
+    ],
+    "persuasion_hooks": [
+      "household_safety",
+      "trusted_appointment",
+      "private_access"
+    ],
+    "memory_priorities": [
+      "household",
+      "appointments",
+      "li_chu",
+      "li_fuguo",
+      "palace_risk"
+    ],
+    "action_families": [
+      "request_household_protection",
+      "lobby_appointment",
+      "request_audience",
+      "submit_private_report"
+    ],
+    "relationships": [
+      "li_heng",
+      "li_fuguo",
+      "li_chu"
+    ],
+    "mutable_stances": [
+      "palace_security",
+      "eunuch_cooperation"
+    ],
+    "action_rules": [
+      {
+        "action_type": "request_household_protection",
+        "action_family": "request_household_protection",
+        "base_score": 30,
+        "requirements": {
+          "relationship": {
+            "target_id": "li_heng",
+            "minimum": 0
+          },
+          "production_signal": "zhang_household_security_threat"
+        },
+        "score_weights": {
+          "relationship": 10,
+          "pressure": 2
+        }
+      },
+      {
+        "action_type": "lobby_appointment",
+        "action_family": "lobby_appointment",
+        "base_score": 30,
+        "requirements": {
+          "production_signal": "zhang_appointment_opening",
+          "information_participant": true
+        },
+        "score_weights": {
+          "information": 10,
+          "pressure": 2
+        }
+      },
+      {
+        "action_type": "request_audience",
+        "action_family": "request_audience",
+        "base_score": 30,
+        "requirements": {
+          "production_signal": "zhang_private_access_needed",
+          "relationship": {
+            "target_id": "li_heng",
+            "minimum": 0
+          }
+        },
+        "score_weights": {
+          "relationship": 8,
+          "pressure": 2
+        }
+      }
+    ],
+    "arc_id": "zhang_liangdi_arc",
+    "arc_stage_count": 3
+  }
+]

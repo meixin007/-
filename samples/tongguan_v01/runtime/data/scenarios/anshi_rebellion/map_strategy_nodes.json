@@ -1,0 +1,2418 @@
+{
+  "schema_version": 1,
+  "description": "大地图战略节点与交通走廊定义态（宪章 8.6 节点-走廊语义）。coords 为 3840x2160 画布归一化坐标；契约对齐 MilitaryDomainLoader.load_from_dict / StrategicNodeState.from_dict / TransitCorridorState.from_dict。",
+  "strategic_nodes": [
+    {
+      "node_id": "lingwu_court_node",
+      "display_name": "灵武",
+      "historical_title": "灵武郡·行在",
+      "region_id": "shuofang",
+      "node_type": "court_seat",
+      "coords": [
+        0.535,
+        0.425
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "shuofang_front_node",
+      "display_name": "朔方",
+      "historical_title": "朔方军镇",
+      "region_id": "shuofang",
+      "node_type": "fortress",
+      "coords": [
+        0.535,
+        0.4
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "grain_road_node",
+      "display_name": "太仓",
+      "historical_title": "河西太仓",
+      "region_id": "guanzhong",
+      "node_type": "tax_hub",
+      "coords": [
+        0.478,
+        0.427
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "guanzhong_approach_node",
+      "display_name": "关中",
+      "historical_title": "关中道口",
+      "region_id": "guanzhong",
+      "node_type": "frontier",
+      "coords": [
+        0.547,
+        0.515
+      ],
+      "is_pass": false,
+      "base_faction": "disputed"
+    },
+    {
+      "node_id": "changan_pressure_node",
+      "display_name": "长安",
+      "historical_title": "京师长安",
+      "region_id": "guanzhong",
+      "node_type": "capital",
+      "coords": [
+        0.58,
+        0.517
+      ],
+      "is_pass": false,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "hedong_relay_node",
+      "display_name": "河东",
+      "historical_title": "河东军镇",
+      "region_id": "hedong",
+      "node_type": "fortress",
+      "coords": [
+        0.647,
+        0.47
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "uighur_route_node",
+      "display_name": "回纥",
+      "historical_title": "回纥牙帐",
+      "region_id": "steppe",
+      "node_type": "foreign_capital",
+      "coords": [
+        0.484,
+        0.193
+      ],
+      "is_pass": false,
+      "base_faction": "foreign_huihe"
+    },
+    {
+      "node_id": "hebei_rebel_signal_node",
+      "display_name": "常山",
+      "historical_title": "常山郡",
+      "region_id": "hebei",
+      "node_type": "rebel_base",
+      "coords": [
+        0.67,
+        0.421
+      ],
+      "is_pass": false,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "luoyang_rumor_node",
+      "display_name": "洛阳",
+      "historical_title": "东都洛阳",
+      "region_id": "henan",
+      "node_type": "capital",
+      "coords": [
+        0.636,
+        0.508
+      ],
+      "is_pass": false,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "refugee_market_node",
+      "display_name": "商洛",
+      "historical_title": "商洛道",
+      "region_id": "guanzhong",
+      "node_type": "frontier",
+      "coords": [
+        0.596,
+        0.528
+      ],
+      "is_pass": false,
+      "base_faction": "disputed"
+    },
+    {
+      "node_id": "palace_inner_channel_node",
+      "display_name": "秦岭",
+      "historical_title": "秦岭谷道",
+      "region_id": "guanzhong",
+      "node_type": "frontier",
+      "coords": [
+        0.57,
+        0.525
+      ],
+      "is_pass": false,
+      "base_faction": "disputed"
+    },
+    {
+      "node_id": "desert_envoy_road_node",
+      "display_name": "凉州",
+      "historical_title": "武威郡",
+      "region_id": "hexi",
+      "node_type": "frontier",
+      "coords": [
+        0.443,
+        0.401
+      ],
+      "is_pass": false,
+      "base_faction": "disputed"
+    },
+    {
+      "node_id": "tongguan_pass_node",
+      "display_name": "潼关",
+      "historical_title": "潼关·两京锁钥",
+      "region_id": "guanzhong",
+      "node_type": "pass",
+      "coords": [
+        0.602,
+        0.511
+      ],
+      "is_pass": true,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "taiyuan_hub_node",
+      "display_name": "太原",
+      "historical_title": "太原·北都",
+      "region_id": "hedong",
+      "node_type": "fortress",
+      "coords": [
+        0.638,
+        0.428
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "fanyang_rebel_hub_node",
+      "display_name": "范阳",
+      "historical_title": "范阳·叛军老巢",
+      "region_id": "hebei",
+      "node_type": "rebel_base",
+      "coords": [
+        0.699,
+        0.377
+      ],
+      "is_pass": false,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "suiyang_hub_node",
+      "display_name": "睢阳",
+      "historical_title": "睢阳·江淮咽喉",
+      "region_id": "henan",
+      "node_type": "pass",
+      "coords": [
+        0.687,
+        0.516
+      ],
+      "is_pass": true,
+      "base_faction": "disputed"
+    },
+    {
+      "node_id": "yangzhou_tribute_hub_node",
+      "display_name": "扬州",
+      "historical_title": "扬州·江淮财赋",
+      "region_id": "jiangnan",
+      "node_type": "tax_hub",
+      "coords": [
+        0.749,
+        0.565
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "jianmen_pass_node",
+      "display_name": "剑门",
+      "historical_title": "剑门关",
+      "region_id": "shu",
+      "node_type": "pass",
+      "coords": [
+        0.524,
+        0.573
+      ],
+      "is_pass": true,
+      "base_faction": "disputed"
+    },
+    {
+      "node_id": "chengdou_rear_hub_node",
+      "display_name": "成都",
+      "historical_title": "成都·玄宗驻跸",
+      "region_id": "shu",
+      "node_type": "court_seat",
+      "coords": [
+        0.501,
+        0.608
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_fengxiang",
+      "display_name": "凤翔",
+      "historical_title": "岐州·西京凤翔府",
+      "region_id": "guanzhong",
+      "node_type": "capital",
+      "coords": [
+        0.5547,
+        0.5119
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_huazhou",
+      "display_name": "华州",
+      "historical_title": "华州·关内咽喉",
+      "region_id": "guanzhong",
+      "node_type": "fortress",
+      "coords": [
+        0.5929,
+        0.5121
+      ],
+      "is_pass": false,
+      "base_faction": "disputed"
+    },
+    {
+      "node_id": "zhou_tongzhou",
+      "display_name": "同州",
+      "historical_title": "同州·冯翊要塞",
+      "region_id": "guanzhong",
+      "node_type": "fortress",
+      "coords": [
+        0.5958,
+        0.5051
+      ],
+      "is_pass": false,
+      "base_faction": "disputed"
+    },
+    {
+      "node_id": "zhou_binzhou",
+      "display_name": "邠州",
+      "historical_title": "邠州·新平塞隘",
+      "region_id": "guanzhong",
+      "node_type": "fortress",
+      "coords": [
+        0.5658,
+        0.499
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_jingzhou",
+      "display_name": "泾州",
+      "historical_title": "泾州·安定重镇",
+      "region_id": "guanzhong",
+      "node_type": "fortress",
+      "coords": [
+        0.5541,
+        0.4913
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_yanzhou_north",
+      "display_name": "延州",
+      "historical_title": "延州·延安肤施",
+      "region_id": "guanzhong",
+      "node_type": "frontier",
+      "coords": [
+        0.5886,
+        0.4599
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_qingzhou_west",
+      "display_name": "庆州",
+      "historical_title": "庆州·安化塞下",
+      "region_id": "guanzhong",
+      "node_type": "frontier",
+      "coords": [
+        0.5625,
+        0.4748
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_yuanzhou",
+      "display_name": "原州",
+      "historical_title": "原州·平凉塞门",
+      "region_id": "guanzhong",
+      "node_type": "pass",
+      "coords": [
+        0.5368,
+        0.4748
+      ],
+      "is_pass": true,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_bianzhou",
+      "display_name": "汴州",
+      "historical_title": "汴州·开封大梁",
+      "region_id": "henan",
+      "node_type": "tax_hub",
+      "coords": [
+        0.6664,
+        0.5049
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_songzhou",
+      "display_name": "宋州",
+      "historical_title": "宋州·睢阳腹心",
+      "region_id": "henan",
+      "node_type": "tax_hub",
+      "coords": [
+        0.6872,
+        0.5159
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_zhengzhou",
+      "display_name": "郑州",
+      "historical_title": "郑州·荥阳古邑",
+      "region_id": "henan",
+      "node_type": "fortress",
+      "coords": [
+        0.6558,
+        0.5062
+      ],
+      "is_pass": false,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "zhou_xuzhou_henan",
+      "display_name": "许州",
+      "historical_title": "许州·颖川要道",
+      "region_id": "henan",
+      "node_type": "fortress",
+      "coords": [
+        0.6583,
+        0.5243
+      ],
+      "is_pass": false,
+      "base_faction": "disputed"
+    },
+    {
+      "node_id": "zhou_shanzhou",
+      "display_name": "陕州",
+      "historical_title": "陕州·硖石两京锁钥",
+      "region_id": "henan",
+      "node_type": "pass",
+      "coords": [
+        0.6152,
+        0.5051
+      ],
+      "is_pass": true,
+      "base_faction": "disputed"
+    },
+    {
+      "node_id": "zhou_caozhou",
+      "display_name": "曹州",
+      "historical_title": "曹州·济阴大泽",
+      "region_id": "henan",
+      "node_type": "prefecture",
+      "coords": [
+        0.6844,
+        0.499
+      ],
+      "is_pass": false,
+      "base_faction": "disputed"
+    },
+    {
+      "node_id": "zhou_yunzhou",
+      "display_name": "郓州",
+      "historical_title": "郓州·东平鲁西",
+      "region_id": "henan",
+      "node_type": "fortress",
+      "coords": [
+        0.6998,
+        0.4757
+      ],
+      "is_pass": false,
+      "base_faction": "disputed"
+    },
+    {
+      "node_id": "zhou_qizhou",
+      "display_name": "齐州",
+      "historical_title": "齐州·历城重镇",
+      "region_id": "henan",
+      "node_type": "fortress",
+      "coords": [
+        0.7093,
+        0.4583
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_dengzhou",
+      "display_name": "登州",
+      "historical_title": "登州·蓬莱海防",
+      "region_id": "henan",
+      "node_type": "fortress",
+      "coords": [
+        0.7702,
+        0.4298
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_laizhou",
+      "display_name": "莱州",
+      "historical_title": "莱州·东莱盐铁",
+      "region_id": "henan",
+      "node_type": "prefecture",
+      "coords": [
+        0.7571,
+        0.4456
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_yanzhou_east",
+      "display_name": "兖州",
+      "historical_title": "兖州·鲁郡文宗",
+      "region_id": "henan",
+      "node_type": "prefecture",
+      "coords": [
+        0.7068,
+        0.4862
+      ],
+      "is_pass": false,
+      "base_faction": "disputed"
+    },
+    {
+      "node_id": "zhou_qingzhou_east",
+      "display_name": "青州",
+      "historical_title": "青州·益都大镇",
+      "region_id": "henan",
+      "node_type": "fortress",
+      "coords": [
+        0.7335,
+        0.4578
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_puzhou_henan",
+      "display_name": "濮州",
+      "historical_title": "濮州·濮阳要津",
+      "region_id": "henan",
+      "node_type": "prefecture",
+      "coords": [
+        0.6856,
+        0.4833
+      ],
+      "is_pass": false,
+      "base_faction": "disputed"
+    },
+    {
+      "node_id": "zhou_weizhou",
+      "display_name": "魏州",
+      "historical_title": "魏州·魏博牙军雄镇",
+      "region_id": "hebei",
+      "node_type": "rebel_base",
+      "coords": [
+        0.6807,
+        0.4676
+      ],
+      "is_pass": false,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "zhou_youzhou",
+      "display_name": "幽州",
+      "historical_title": "幽州·蓟门极塞",
+      "region_id": "hebei",
+      "node_type": "rebel_base",
+      "coords": [
+        0.6992,
+        0.377
+      ],
+      "is_pass": false,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "zhou_cangzhou",
+      "display_name": "沧州",
+      "historical_title": "沧州·清池浮阳",
+      "region_id": "hebei",
+      "node_type": "prefecture",
+      "coords": [
+        0.7101,
+        0.4199
+      ],
+      "is_pass": false,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "zhou_jizhou",
+      "display_name": "冀州",
+      "historical_title": "冀州·信都河北大邦",
+      "region_id": "hebei",
+      "node_type": "prefecture",
+      "coords": [
+        0.6865,
+        0.4358
+      ],
+      "is_pass": false,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "zhou_beizhou",
+      "display_name": "贝州",
+      "historical_title": "贝州·清河名望",
+      "region_id": "hebei",
+      "node_type": "prefecture",
+      "coords": [
+        0.6873,
+        0.4479
+      ],
+      "is_pass": false,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "zhou_dingzhou",
+      "display_name": "定州",
+      "historical_title": "定州·安喜安禄山旧垒",
+      "region_id": "hebei",
+      "node_type": "rebel_base",
+      "coords": [
+        0.677,
+        0.412
+      ],
+      "is_pass": false,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "zhou_yingzhou",
+      "display_name": "瀛州",
+      "historical_title": "瀛州·河间坚城",
+      "region_id": "hebei",
+      "node_type": "fortress",
+      "coords": [
+        0.6949,
+        0.4141
+      ],
+      "is_pass": false,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "zhou_xiangzhou_north",
+      "display_name": "相州",
+      "historical_title": "相州·邺都古都",
+      "region_id": "hebei",
+      "node_type": "rebel_base",
+      "coords": [
+        0.6669,
+        0.4725
+      ],
+      "is_pass": false,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "zhou_mozhou",
+      "display_name": "莫州",
+      "historical_title": "莫州·鄚县烽燧",
+      "region_id": "hebei",
+      "node_type": "prefecture",
+      "coords": [
+        0.6953,
+        0.4035
+      ],
+      "is_pass": false,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "zhou_bozhou_hebei",
+      "display_name": "博州",
+      "historical_title": "博州·聊城渡口",
+      "region_id": "hebei",
+      "node_type": "prefecture",
+      "coords": [
+        0.6948,
+        0.4619
+      ],
+      "is_pass": false,
+      "base_faction": "tang_rebel"
+    },
+    {
+      "node_id": "zhou_dezhou",
+      "display_name": "德州",
+      "historical_title": "德州·平原郡真卿坚守",
+      "region_id": "hebei",
+      "node_type": "fortress",
+      "coords": [
+        0.7027,
+        0.4416
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_puzhou_hedong",
+      "display_name": "蒲州",
+      "historical_title": "蒲州·河中府蒲津关",
+      "region_id": "hedong",
+      "node_type": "pass",
+      "coords": [
+        0.6021,
+        0.5041
+      ],
+      "is_pass": true,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_jinzhou",
+      "display_name": "晋州",
+      "historical_title": "晋州·临汾平阳",
+      "region_id": "hedong",
+      "node_type": "fortress",
+      "coords": [
+        0.6196,
+        0.4735
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_jiangzhou",
+      "display_name": "绛州",
+      "historical_title": "绛州·正平坚要",
+      "region_id": "hedong",
+      "node_type": "fortress",
+      "coords": [
+        0.6165,
+        0.4847
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_luzhou",
+      "display_name": "潞州",
+      "historical_title": "潞州·上党雄峙",
+      "region_id": "hedong",
+      "node_type": "fortress",
+      "coords": [
+        0.6468,
+        0.4704
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_fenzhou",
+      "display_name": "汾州",
+      "historical_title": "汾州·西河雄垒",
+      "region_id": "hedong",
+      "node_type": "prefecture",
+      "coords": [
+        0.6255,
+        0.4434
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_daizhou",
+      "display_name": "代州",
+      "historical_title": "代州·雁门重险",
+      "region_id": "hedong",
+      "node_type": "pass",
+      "coords": [
+        0.6443,
+        0.3985
+      ],
+      "is_pass": true,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_shuozhou",
+      "display_name": "朔州",
+      "historical_title": "朔州·马邑塞防",
+      "region_id": "hedong",
+      "node_type": "frontier",
+      "coords": [
+        0.6358,
+        0.3923
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_yunzhou_north",
+      "display_name": "云州",
+      "historical_title": "云州·大同瀚海",
+      "region_id": "hedong",
+      "node_type": "frontier",
+      "coords": [
+        0.6499,
+        0.3727
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_weizhou_hedong",
+      "display_name": "蔚州",
+      "historical_title": "蔚州·灵丘安边",
+      "region_id": "hedong",
+      "node_type": "pass",
+      "coords": [
+        0.665,
+        0.389
+      ],
+      "is_pass": true,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_chuzhou",
+      "display_name": "楚州",
+      "historical_title": "楚州·山阳漕运关隘",
+      "region_id": "jiangnan",
+      "node_type": "tax_hub",
+      "coords": [
+        0.7442,
+        0.5374
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_runzhou",
+      "display_name": "润州",
+      "historical_title": "润州·京口南徐铁瓮",
+      "region_id": "jiangnan",
+      "node_type": "fortress",
+      "coords": [
+        0.7491,
+        0.5698
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_suzhou",
+      "display_name": "苏州",
+      "historical_title": "苏州·吴郡水乡",
+      "region_id": "jiangnan",
+      "node_type": "tax_hub",
+      "coords": [
+        0.768,
+        0.5922
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_hangzhou",
+      "display_name": "杭州",
+      "historical_title": "杭州·钱塘钱江门户",
+      "region_id": "jiangnan",
+      "node_type": "tax_hub",
+      "coords": [
+        0.7608,
+        0.6177
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_yuezhou",
+      "display_name": "越州",
+      "historical_title": "越州·会稽大都督府",
+      "region_id": "jiangnan",
+      "node_type": "fortress",
+      "coords": [
+        0.7674,
+        0.6249
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_huzhou",
+      "display_name": "湖州",
+      "historical_title": "湖州·吴兴太湖",
+      "region_id": "jiangnan",
+      "node_type": "prefecture",
+      "coords": [
+        0.7597,
+        0.6034
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_xuanzhou",
+      "display_name": "宣州",
+      "historical_title": "宣州·宣城水陆",
+      "region_id": "jiangnan",
+      "node_type": "prefecture",
+      "coords": [
+        0.7378,
+        0.6013
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_hongzhou",
+      "display_name": "洪州",
+      "historical_title": "洪州·豫章南昌都会",
+      "region_id": "jiangnan",
+      "node_type": "capital",
+      "coords": [
+        0.6919,
+        0.6581
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_jiangzhou_south",
+      "display_name": "江州",
+      "historical_title": "江州·浔阳九江要津",
+      "region_id": "jiangnan",
+      "node_type": "tax_hub",
+      "coords": [
+        0.6933,
+        0.632
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_raozhou",
+      "display_name": "饶州",
+      "historical_title": "饶州·鄱阳铜铁",
+      "region_id": "jiangnan",
+      "node_type": "prefecture",
+      "coords": [
+        0.7042,
+        0.6501
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_tanzhou",
+      "display_name": "潭州",
+      "historical_title": "潭州·长沙湘江大郡",
+      "region_id": "jiangnan",
+      "node_type": "fortress",
+      "coords": [
+        0.6448,
+        0.67
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_hengzhou",
+      "display_name": "衡州",
+      "historical_title": "衡州·衡阳南岳",
+      "region_id": "jiangnan",
+      "node_type": "prefecture",
+      "coords": [
+        0.6387,
+        0.7025
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_shouzhou",
+      "display_name": "寿州",
+      "historical_title": "寿州·寿春淮水锁钥",
+      "region_id": "jiangnan",
+      "node_type": "fortress",
+      "coords": [
+        0.7061,
+        0.5606
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_luzhou_south",
+      "display_name": "庐州",
+      "historical_title": "庐州·合肥江淮咽喉",
+      "region_id": "jiangnan",
+      "node_type": "fortress",
+      "coords": [
+        0.7141,
+        0.5784
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_liangzhou_south",
+      "display_name": "梁州",
+      "historical_title": "梁州·汉中大都督府",
+      "region_id": "shu",
+      "node_type": "fortress",
+      "coords": [
+        0.549,
+        0.5482
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_jinzhou_south",
+      "display_name": "金州",
+      "historical_title": "金州·西城金州水陆",
+      "region_id": "shu",
+      "node_type": "prefecture",
+      "coords": [
+        0.581,
+        0.5575
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_yangzhou_west",
+      "display_name": "洋州",
+      "historical_title": "洋州·洋川傥骆道口",
+      "region_id": "shu",
+      "node_type": "pass",
+      "coords": [
+        0.5609,
+        0.5499
+      ],
+      "is_pass": true,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_mianzhou",
+      "display_name": "绵州",
+      "historical_title": "绵州·巴西金牛咽喉",
+      "region_id": "shu",
+      "node_type": "pass",
+      "coords": [
+        0.5123,
+        0.5881
+      ],
+      "is_pass": true,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_zizhou",
+      "display_name": "梓州",
+      "historical_title": "梓州·东川节度使府",
+      "region_id": "shu",
+      "node_type": "fortress",
+      "coords": [
+        0.5175,
+        0.5978
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_suizhou",
+      "display_name": "遂州",
+      "historical_title": "遂州·长江广汉",
+      "region_id": "shu",
+      "node_type": "prefecture",
+      "coords": [
+        0.5254,
+        0.6123
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_jiazhou",
+      "display_name": "嘉州",
+      "historical_title": "嘉州·大佛三江会津",
+      "region_id": "shu",
+      "node_type": "prefecture",
+      "coords": [
+        0.4962,
+        0.6359
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_rongzhou",
+      "display_name": "戎州",
+      "historical_title": "戎州·叙南僰道",
+      "region_id": "shu",
+      "node_type": "frontier",
+      "coords": [
+        0.5129,
+        0.6548
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_lanzhou",
+      "display_name": "兰州",
+      "historical_title": "兰州·金城渡河要塞",
+      "region_id": "hexi",
+      "node_type": "pass",
+      "coords": [
+        0.4975,
+        0.4738
+      ],
+      "is_pass": true,
+      "base_faction": "disputed"
+    },
+    {
+      "node_id": "zhou_qinzhou",
+      "display_name": "秦州",
+      "historical_title": "秦州·天水陇右门户",
+      "region_id": "hexi",
+      "node_type": "fortress",
+      "coords": [
+        0.525,
+        0.5003
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_weizhou_west",
+      "display_name": "渭州",
+      "historical_title": "渭州·陇西襄武",
+      "region_id": "hexi",
+      "node_type": "fortress",
+      "coords": [
+        0.5103,
+        0.5003
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_shanzhou_west",
+      "display_name": "鄯州",
+      "historical_title": "鄯州·西平陇右节度府",
+      "region_id": "hexi",
+      "node_type": "capital",
+      "coords": [
+        0.4742,
+        0.463
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_guangzhou",
+      "display_name": "广州",
+      "historical_title": "广州·南海大都督府蕃舶",
+      "region_id": "jiangnan",
+      "node_type": "capital",
+      "coords": [
+        0.6493,
+        0.7966
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_guizhou",
+      "display_name": "桂州",
+      "historical_title": "桂州·始安桂柳大镇",
+      "region_id": "jiangnan",
+      "node_type": "fortress",
+      "coords": [
+        0.6014,
+        0.743
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_fuzhou",
+      "display_name": "福州",
+      "historical_title": "福州·闽中闽江海口",
+      "region_id": "jiangnan",
+      "node_type": "tax_hub",
+      "coords": [
+        0.7471,
+        0.7232
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_quanzhou",
+      "display_name": "泉州",
+      "historical_title": "泉州·晋江刺桐海舶",
+      "region_id": "jiangnan",
+      "node_type": "tax_hub",
+      "coords": [
+        0.7353,
+        0.7523
+      ],
+      "is_pass": false,
+      "base_faction": "tang_court"
+    },
+    {
+      "node_id": "zhou_chencang",
+      "display_name": "陈仓",
+      "historical_title": "陈仓",
+      "region_id": "",
+      "node_type": "prefecture",
+      "coords": [
+        0.5510960349462365,
+        0.5188690625
+      ],
+      "is_pass": false,
+      "base_faction": "",
+      "defense_level": 0,
+      "grain_capacity": 0,
+      "current_grain": 0,
+      "linked_corridor_ids": [],
+      "content_basis": "既有地图锚点的展示索引；不新增军队、粮储、道路或实控事实。"
+    },
+    {
+      "node_id": "zhou_beiting",
+      "display_name": "北庭治所",
+      "historical_title": "北庭治所",
+      "region_id": "",
+      "node_type": "prefecture",
+      "coords": [
+        0.26161290322580644,
+        0.275
+      ],
+      "is_pass": false,
+      "base_faction": "",
+      "defense_level": 0,
+      "grain_capacity": 0,
+      "current_grain": 0,
+      "linked_corridor_ids": [],
+      "content_basis": "既有地图锚点的展示索引；不新增军队、粮储、道路或实控事实。"
+    },
+    {
+      "node_id": "zhou_anxi",
+      "display_name": "安西治所",
+      "historical_title": "安西治所",
+      "region_id": "",
+      "node_type": "prefecture",
+      "coords": [
+        0.16064516129032258,
+        0.33175000000000004
+      ],
+      "is_pass": false,
+      "base_faction": "",
+      "defense_level": 0,
+      "grain_capacity": 0,
+      "current_grain": 0,
+      "linked_corridor_ids": [],
+      "content_basis": "既有地图锚点的展示索引；不新增军队、粮储、道路或实控事实。"
+    },
+    {
+      "node_id": "zhou_fengzhou",
+      "display_name": "凤州",
+      "historical_title": "凤州",
+      "region_id": "",
+      "node_type": "prefecture",
+      "coords": [
+        0.543825,
+        0.5281583333333333
+      ],
+      "is_pass": false,
+      "base_faction": "",
+      "defense_level": 0,
+      "grain_capacity": 0,
+      "current_grain": 0,
+      "linked_corridor_ids": [],
+      "content_basis": "既有地图锚点的展示索引；不新增军队、粮储、道路或实控事实。"
+    },
+    {
+      "node_id": "zhou_qianzhou",
+      "display_name": "黔州",
+      "historical_title": "黔州",
+      "region_id": "",
+      "node_type": "prefecture",
+      "coords": [
+        0.5658694220430108,
+        0.6452292708333334
+      ],
+      "is_pass": false,
+      "base_faction": "",
+      "defense_level": 0,
+      "grain_capacity": 0,
+      "current_grain": 0,
+      "linked_corridor_ids": [],
+      "content_basis": "既有地图锚点的展示索引；不新增军队、粮储、道路或实控事实。"
+    }
+  ],
+  "macro_regions": [
+    {
+      "id": "steppe",
+      "name": "回纥汗国",
+      "polygon_points": [
+        [
+          0.44,
+          0.12
+        ],
+        [
+          0.65,
+          0.12
+        ],
+        [
+          0.65,
+          0.28
+        ],
+        [
+          0.44,
+          0.28
+        ]
+      ],
+      "center_pos": [
+        0.54,
+        0.2
+      ]
+    },
+    {
+      "id": "hexi",
+      "name": "陇右",
+      "polygon_points": [
+        [
+          0.36,
+          0.36
+        ],
+        [
+          0.48,
+          0.36
+        ],
+        [
+          0.48,
+          0.52
+        ],
+        [
+          0.36,
+          0.52
+        ]
+      ],
+      "center_pos": [
+        0.42,
+        0.44
+      ]
+    },
+    {
+      "id": "shuofang",
+      "name": "朔方",
+      "polygon_points": [
+        [
+          0.48,
+          0.32
+        ],
+        [
+          0.57,
+          0.32
+        ],
+        [
+          0.57,
+          0.46
+        ],
+        [
+          0.48,
+          0.46
+        ]
+      ],
+      "center_pos": [
+        0.52,
+        0.39
+      ]
+    },
+    {
+      "id": "hedong",
+      "name": "河东",
+      "polygon_points": [
+        [
+          0.57,
+          0.36
+        ],
+        [
+          0.62,
+          0.36
+        ],
+        [
+          0.62,
+          0.5
+        ],
+        [
+          0.57,
+          0.5
+        ]
+      ],
+      "center_pos": [
+        0.59,
+        0.43
+      ]
+    },
+    {
+      "id": "guanzhong",
+      "name": "关中",
+      "polygon_points": [
+        [
+          0.52,
+          0.49
+        ],
+        [
+          0.6,
+          0.49
+        ],
+        [
+          0.6,
+          0.58
+        ],
+        [
+          0.52,
+          0.58
+        ]
+      ],
+      "center_pos": [
+        0.56,
+        0.53
+      ]
+    },
+    {
+      "id": "hebei",
+      "name": "河北",
+      "polygon_points": [
+        [
+          0.62,
+          0.3
+        ],
+        [
+          0.71,
+          0.3
+        ],
+        [
+          0.71,
+          0.48
+        ],
+        [
+          0.62,
+          0.48
+        ]
+      ],
+      "center_pos": [
+        0.66,
+        0.38
+      ]
+    },
+    {
+      "id": "henan",
+      "name": "河南",
+      "polygon_points": [
+        [
+          0.6,
+          0.49
+        ],
+        [
+          0.68,
+          0.49
+        ],
+        [
+          0.68,
+          0.58
+        ],
+        [
+          0.6,
+          0.58
+        ]
+      ],
+      "center_pos": [
+        0.64,
+        0.53
+      ]
+    },
+    {
+      "id": "jiangnan",
+      "name": "江淮",
+      "polygon_points": [
+        [
+          0.64,
+          0.56
+        ],
+        [
+          0.74,
+          0.56
+        ],
+        [
+          0.74,
+          0.68
+        ],
+        [
+          0.64,
+          0.68
+        ]
+      ],
+      "center_pos": [
+        0.69,
+        0.61
+      ]
+    },
+    {
+      "id": "shu",
+      "name": "剑南",
+      "polygon_points": [
+        [
+          0.46,
+          0.58
+        ],
+        [
+          0.56,
+          0.58
+        ],
+        [
+          0.56,
+          0.72
+        ],
+        [
+          0.46,
+          0.72
+        ]
+      ],
+      "center_pos": [
+        0.51,
+        0.65
+      ]
+    }
+  ],
+  "transit_corridors": [
+    {
+      "corridor_id": "lingwu_to_guanzhong_relay",
+      "corridor_name": "灵武—关中驿路",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "guanzhong_approach_node",
+      "transit_type": "land",
+      "base_travel_days": 3
+    },
+    {
+      "corridor_id": "beta07_route_02",
+      "corridor_name": "朔方粮道",
+      "from_node_id": "shuofang_front_node",
+      "to_node_id": "grain_road_node",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "beta07_route_03",
+      "corridor_name": "回纥道",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "uighur_route_node",
+      "transit_type": "desert",
+      "base_travel_days": 5
+    },
+    {
+      "corridor_id": "beta07_route_04",
+      "corridor_name": "秦岭谷道",
+      "from_node_id": "shuofang_front_node",
+      "to_node_id": "palace_inner_channel_node",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 4
+    },
+    {
+      "corridor_id": "beta07_route_05",
+      "corridor_name": "商洛道",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "refugee_market_node",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 5
+    },
+    {
+      "corridor_id": "beta07_route_06",
+      "corridor_name": "朔方—长安官道",
+      "from_node_id": "shuofang_front_node",
+      "to_node_id": "changan_pressure_node",
+      "transit_type": "land",
+      "base_travel_days": 3
+    },
+    {
+      "corridor_id": "corridor_changan_tongguan",
+      "corridor_name": "长安—潼关御道",
+      "from_node_id": "changan_pressure_node",
+      "to_node_id": "tongguan_pass_node",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "corridor_tongguan_luoyang",
+      "corridor_name": "陕州官道",
+      "from_node_id": "tongguan_pass_node",
+      "to_node_id": "luoyang_rumor_node",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "corridor_taiyuan_hedong",
+      "corridor_name": "汾河谷道",
+      "from_node_id": "taiyuan_hub_node",
+      "to_node_id": "hedong_relay_node",
+      "transit_type": "river",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "corridor_fanyang_changshan",
+      "corridor_name": "河北大道",
+      "from_node_id": "fanyang_rebel_hub_node",
+      "to_node_id": "hebei_rebel_signal_node",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "corridor_luoyang_suiyang",
+      "corridor_name": "汴河漕渠",
+      "from_node_id": "luoyang_rumor_node",
+      "to_node_id": "suiyang_hub_node",
+      "transit_type": "river",
+      "base_travel_days": 3
+    },
+    {
+      "corridor_id": "corridor_suiyang_yangzhou",
+      "corridor_name": "通济渠·淮扬水陆",
+      "from_node_id": "suiyang_hub_node",
+      "to_node_id": "yangzhou_tribute_hub_node",
+      "transit_type": "river",
+      "base_travel_days": 3
+    },
+    {
+      "corridor_id": "corridor_changan_jianmen",
+      "corridor_name": "金牛金牛道·蜀道",
+      "from_node_id": "changan_pressure_node",
+      "to_node_id": "jianmen_pass_node",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 4
+    },
+    {
+      "corridor_id": "corridor_jianmen_chengdou",
+      "corridor_name": "剑南驿路",
+      "from_node_id": "jianmen_pass_node",
+      "to_node_id": "chengdou_rear_hub_node",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "corridor_lingwu_liangzhou",
+      "corridor_name": "贺兰—河西驿路",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "desert_envoy_road_node",
+      "transit_type": "land",
+      "base_travel_days": 4
+    },
+    {
+      "corridor_id": "guanzhong_to_changan_axis",
+      "corridor_name": "关中—长安御道",
+      "from_node_id": "guanzhong_approach_node",
+      "to_node_id": "changan_pressure_node",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "hedong_to_guanzhong_ferry",
+      "corridor_name": "蒲津渡·河东入关水道",
+      "from_node_id": "hedong_relay_node",
+      "to_node_id": "guanzhong_approach_node",
+      "transit_type": "river",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "taiyuan_to_jingxing_pass",
+      "corridor_name": "井陉关·太原出冀要道",
+      "from_node_id": "taiyuan_hub_node",
+      "to_node_id": "hebei_rebel_signal_node",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 3
+    },
+    {
+      "corridor_id": "c_changan_huazhou",
+      "corridor_name": "华阴御道",
+      "from_node_id": "changan_pressure_node",
+      "to_node_id": "zhou_huazhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_huazhou_tongguan",
+      "corridor_name": "潼关隘道",
+      "from_node_id": "zhou_huazhou",
+      "to_node_id": "tongguan_pass_node",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_tongguan_shanzhou",
+      "corridor_name": "陕州狭道",
+      "from_node_id": "tongguan_pass_node",
+      "to_node_id": "zhou_shanzhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_shanzhou_luoyang",
+      "corridor_name": "崤函古道",
+      "from_node_id": "zhou_shanzhou",
+      "to_node_id": "luoyang_rumor_node",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_changan_fengxiang",
+      "corridor_name": "西京驿路",
+      "from_node_id": "changan_pressure_node",
+      "to_node_id": "zhou_fengxiang",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_fengxiang_binzhou",
+      "corridor_name": "岐邠道",
+      "from_node_id": "zhou_fengxiang",
+      "to_node_id": "zhou_binzhou",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_binzhou_jingzhou",
+      "corridor_name": "泾邠驿道",
+      "from_node_id": "zhou_binzhou",
+      "to_node_id": "zhou_jingzhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_jingzhou_yuanzhou",
+      "corridor_name": "原州塞路",
+      "from_node_id": "zhou_jingzhou",
+      "to_node_id": "zhou_yuanzhou",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_yuanzhou_lingwu",
+      "corridor_name": "灵武南驿",
+      "from_node_id": "zhou_yuanzhou",
+      "to_node_id": "lingwu_court_node",
+      "transit_type": "land",
+      "base_travel_days": 3
+    },
+    {
+      "corridor_id": "c_changan_tongzhou",
+      "corridor_name": "同州大路",
+      "from_node_id": "changan_pressure_node",
+      "to_node_id": "zhou_tongzhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_tongzhou_puzhou",
+      "corridor_name": "蒲津浮桥渡",
+      "from_node_id": "zhou_tongzhou",
+      "to_node_id": "zhou_puzhou_hedong",
+      "transit_type": "river",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_tongzhou_yanzhou",
+      "corridor_name": "延州北路",
+      "from_node_id": "zhou_tongzhou",
+      "to_node_id": "zhou_yanzhou_north",
+      "transit_type": "land",
+      "base_travel_days": 3
+    },
+    {
+      "corridor_id": "c_binzhou_qingzhou",
+      "corridor_name": "庆州巡塞路",
+      "from_node_id": "zhou_binzhou",
+      "to_node_id": "zhou_qingzhou_west",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_puzhou_jiangzhou",
+      "corridor_name": "汾阴官道",
+      "from_node_id": "zhou_puzhou_hedong",
+      "to_node_id": "zhou_jiangzhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_jiangzhou_jinzhou",
+      "corridor_name": "平阳驿道",
+      "from_node_id": "zhou_jiangzhou",
+      "to_node_id": "zhou_jinzhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_jinzhou_fenzhou",
+      "corridor_name": "西河道",
+      "from_node_id": "zhou_jinzhou",
+      "to_node_id": "zhou_fenzhou",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_fenzhou_taiyuan",
+      "corridor_name": "晋阳驰道",
+      "from_node_id": "zhou_fenzhou",
+      "to_node_id": "taiyuan_hub_node",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_taiyuan_daizhou",
+      "corridor_name": "代北隘道",
+      "from_node_id": "taiyuan_hub_node",
+      "to_node_id": "zhou_daizhou",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_daizhou_shuozhou",
+      "corridor_name": "雁门塞路",
+      "from_node_id": "zhou_daizhou",
+      "to_node_id": "zhou_shuozhou",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_shuozhou_yunzhou",
+      "corridor_name": "大同极塞",
+      "from_node_id": "zhou_shuozhou",
+      "to_node_id": "zhou_yunzhou_north",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_daizhou_weizhou",
+      "corridor_name": "灵丘太行陉",
+      "from_node_id": "zhou_daizhou",
+      "to_node_id": "zhou_weizhou_hedong",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_taiyuan_luzhou",
+      "corridor_name": "上党古道",
+      "from_node_id": "taiyuan_hub_node",
+      "to_node_id": "zhou_luzhou",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_luzhou_xiangzhou",
+      "corridor_name": "滏口陉",
+      "from_node_id": "zhou_luzhou",
+      "to_node_id": "zhou_xiangzhou_north",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_luzhou_luoyang",
+      "corridor_name": "太行陉入洛",
+      "from_node_id": "zhou_luzhou",
+      "to_node_id": "luoyang_rumor_node",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 3
+    },
+    {
+      "corridor_id": "c_luoyang_zhengzhou",
+      "corridor_name": "郑洛官道",
+      "from_node_id": "luoyang_rumor_node",
+      "to_node_id": "zhou_zhengzhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_zhengzhou_bianzhou",
+      "corridor_name": "汴河漕渠上游",
+      "from_node_id": "zhou_zhengzhou",
+      "to_node_id": "zhou_bianzhou",
+      "transit_type": "river",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_bianzhou_songzhou",
+      "corridor_name": "汴宋水陆",
+      "from_node_id": "zhou_bianzhou",
+      "to_node_id": "zhou_songzhou",
+      "transit_type": "river",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_songzhou_suiyang",
+      "corridor_name": "睢阳水道",
+      "from_node_id": "zhou_songzhou",
+      "to_node_id": "suiyang_hub_node",
+      "transit_type": "river",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_suiyang_chuzhou",
+      "corridor_name": "通济渠下段",
+      "from_node_id": "suiyang_hub_node",
+      "to_node_id": "zhou_chuzhou",
+      "transit_type": "river",
+      "base_travel_days": 3
+    },
+    {
+      "corridor_id": "c_chuzhou_yangzhou",
+      "corridor_name": "山阳扬州运河",
+      "from_node_id": "zhou_chuzhou",
+      "to_node_id": "yangzhou_tribute_hub_node",
+      "transit_type": "river",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_zhengzhou_xuzhou",
+      "corridor_name": "许颍官道",
+      "from_node_id": "zhou_zhengzhou",
+      "to_node_id": "zhou_xuzhou_henan",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_bianzhou_caozhou",
+      "corridor_name": "济阴官道",
+      "from_node_id": "zhou_bianzhou",
+      "to_node_id": "zhou_caozhou",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_caozhou_yunzhou",
+      "corridor_name": "东平大道",
+      "from_node_id": "zhou_caozhou",
+      "to_node_id": "zhou_yunzhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_yunzhou_qizhou",
+      "corridor_name": "历城大路",
+      "from_node_id": "zhou_yunzhou",
+      "to_node_id": "zhou_qizhou",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_qizhou_qingzhou",
+      "corridor_name": "齐鲁青州道",
+      "from_node_id": "zhou_qizhou",
+      "to_node_id": "zhou_qingzhou_east",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_qingzhou_laizhou",
+      "corridor_name": "胶东商路",
+      "from_node_id": "zhou_qingzhou_east",
+      "to_node_id": "zhou_laizhou",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_laizhou_dengzhou",
+      "corridor_name": "蓬莱海口道",
+      "from_node_id": "zhou_laizhou",
+      "to_node_id": "zhou_dengzhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_yunzhou_yanzhou",
+      "corridor_name": "鲁郡孔孟道",
+      "from_node_id": "zhou_yunzhou",
+      "to_node_id": "zhou_yanzhou_east",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_caozhou_puzhou",
+      "corridor_name": "黄河津梁",
+      "from_node_id": "zhou_caozhou",
+      "to_node_id": "zhou_puzhou_henan",
+      "transit_type": "river",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_fanyang_youzhou",
+      "corridor_name": "幽州蓟门同城",
+      "from_node_id": "fanyang_rebel_hub_node",
+      "to_node_id": "zhou_youzhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_youzhou_mozhou",
+      "corridor_name": "鄚州驿路",
+      "from_node_id": "zhou_youzhou",
+      "to_node_id": "zhou_mozhou",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_mozhou_yingzhou",
+      "corridor_name": "河间道",
+      "from_node_id": "zhou_mozhou",
+      "to_node_id": "zhou_yingzhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_yingzhou_jizhou",
+      "corridor_name": "信都大道",
+      "from_node_id": "zhou_yingzhou",
+      "to_node_id": "zhou_jizhou",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_jizhou_beizhou",
+      "corridor_name": "清河驿道",
+      "from_node_id": "zhou_jizhou",
+      "to_node_id": "zhou_beizhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_beizhou_weizhou",
+      "corridor_name": "魏博总道",
+      "from_node_id": "zhou_beizhou",
+      "to_node_id": "zhou_weizhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_weizhou_xiangzhou",
+      "corridor_name": "邺下平原道",
+      "from_node_id": "zhou_weizhou",
+      "to_node_id": "zhou_xiangzhou_north",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_changshan_dingzhou",
+      "corridor_name": "常山安喜路",
+      "from_node_id": "hebei_rebel_signal_node",
+      "to_node_id": "zhou_dingzhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_dingzhou_youzhou",
+      "corridor_name": "幽燕南大道",
+      "from_node_id": "zhou_dingzhou",
+      "to_node_id": "zhou_youzhou",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_yingzhou_cangzhou",
+      "corridor_name": "沧州水道",
+      "from_node_id": "zhou_yingzhou",
+      "to_node_id": "zhou_cangzhou",
+      "transit_type": "river",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_cangzhou_dezhou",
+      "corridor_name": "平原郡粮道",
+      "from_node_id": "zhou_cangzhou",
+      "to_node_id": "zhou_dezhou",
+      "transit_type": "river",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_beizhou_bozhou",
+      "corridor_name": "聊城官渡",
+      "from_node_id": "zhou_beizhou",
+      "to_node_id": "zhou_bozhou_hebei",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_bozhou_puzhou",
+      "corridor_name": "濮河渡口",
+      "from_node_id": "zhou_bozhou_hebei",
+      "to_node_id": "zhou_puzhou_henan",
+      "transit_type": "river",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_yangzhou_runzhou",
+      "corridor_name": "京口瓜洲大江渡",
+      "from_node_id": "yangzhou_tribute_hub_node",
+      "to_node_id": "zhou_runzhou",
+      "transit_type": "river",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_runzhou_suzhou",
+      "corridor_name": "江南河姑苏段",
+      "from_node_id": "zhou_runzhou",
+      "to_node_id": "zhou_suzhou",
+      "transit_type": "river",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_suzhou_huzhou",
+      "corridor_name": "吴兴太湖水路",
+      "from_node_id": "zhou_suzhou",
+      "to_node_id": "zhou_huzhou",
+      "transit_type": "river",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_huzhou_hangzhou",
+      "corridor_name": "钱塘运河",
+      "from_node_id": "zhou_huzhou",
+      "to_node_id": "zhou_hangzhou",
+      "transit_type": "river",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_hangzhou_yuezhou",
+      "corridor_name": "浙东运河",
+      "from_node_id": "zhou_hangzhou",
+      "to_node_id": "zhou_yuezhou",
+      "transit_type": "river",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_yangzhou_shouzhou",
+      "corridor_name": "淮南水路",
+      "from_node_id": "yangzhou_tribute_hub_node",
+      "to_node_id": "zhou_shouzhou",
+      "transit_type": "river",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_shouzhou_luzhou",
+      "corridor_name": "合肥陆道",
+      "from_node_id": "zhou_shouzhou",
+      "to_node_id": "zhou_luzhou_south",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_runzhou_xuanzhou",
+      "corridor_name": "宣城驿路",
+      "from_node_id": "zhou_runzhou",
+      "to_node_id": "zhou_xuanzhou",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_xuanzhou_jiangzhou",
+      "corridor_name": "浔阳江津",
+      "from_node_id": "zhou_xuanzhou",
+      "to_node_id": "zhou_jiangzhou_south",
+      "transit_type": "river",
+      "base_travel_days": 3
+    },
+    {
+      "corridor_id": "c_jiangzhou_raozhou",
+      "corridor_name": "鄱阳水道",
+      "from_node_id": "zhou_jiangzhou_south",
+      "to_node_id": "zhou_raozhou",
+      "transit_type": "river",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_jiangzhou_hongzhou",
+      "corridor_name": "赣水漕路",
+      "from_node_id": "zhou_jiangzhou_south",
+      "to_node_id": "zhou_hongzhou",
+      "transit_type": "river",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_hongzhou_tanzhou",
+      "corridor_name": "湘赣驿路",
+      "from_node_id": "zhou_hongzhou",
+      "to_node_id": "zhou_tanzhou",
+      "transit_type": "land",
+      "base_travel_days": 3
+    },
+    {
+      "corridor_id": "c_tanzhou_hengzhou",
+      "corridor_name": "衡湘古道",
+      "from_node_id": "zhou_tanzhou",
+      "to_node_id": "zhou_hengzhou",
+      "transit_type": "river",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_hengzhou_guizhou",
+      "corridor_name": "灵渠大水陆",
+      "from_node_id": "zhou_hengzhou",
+      "to_node_id": "zhou_guizhou",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 3
+    },
+    {
+      "corridor_id": "c_guizhou_guangzhou",
+      "corridor_name": "漓水桂江达番禺",
+      "from_node_id": "zhou_guizhou",
+      "to_node_id": "zhou_guangzhou",
+      "transit_type": "river",
+      "base_travel_days": 3
+    },
+    {
+      "corridor_id": "c_yuezhou_fuzhou",
+      "corridor_name": "闽道闽江口",
+      "from_node_id": "zhou_yuezhou",
+      "to_node_id": "zhou_fuzhou",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 4
+    },
+    {
+      "corridor_id": "c_fuzhou_quanzhou",
+      "corridor_name": "海滨驿道",
+      "from_node_id": "zhou_fuzhou",
+      "to_node_id": "zhou_quanzhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_quanzhou_guangzhou",
+      "corridor_name": "岭南海防驿道",
+      "from_node_id": "zhou_quanzhou",
+      "to_node_id": "zhou_guangzhou",
+      "transit_type": "land",
+      "base_travel_days": 4
+    },
+    {
+      "corridor_id": "c_changan_yangzhou",
+      "corridor_name": "傥骆道",
+      "from_node_id": "changan_pressure_node",
+      "to_node_id": "zhou_yangzhou_west",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 3
+    },
+    {
+      "corridor_id": "c_yangzhou_liangzhou",
+      "corridor_name": "汉中平川道",
+      "from_node_id": "zhou_yangzhou_west",
+      "to_node_id": "zhou_liangzhou_south",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_fengxiang_liangzhou",
+      "corridor_name": "褒斜道连汉中",
+      "from_node_id": "zhou_fengxiang",
+      "to_node_id": "zhou_liangzhou_south",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 3
+    },
+    {
+      "corridor_id": "c_liangzhou_jinzhou",
+      "corridor_name": "汉水水道",
+      "from_node_id": "zhou_liangzhou_south",
+      "to_node_id": "zhou_jinzhou_south",
+      "transit_type": "river",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_liangzhou_jianmen",
+      "corridor_name": "金牛道北段",
+      "from_node_id": "zhou_liangzhou_south",
+      "to_node_id": "jianmen_pass_node",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_jianmen_mianzhou",
+      "corridor_name": "剑阁巴西道",
+      "from_node_id": "jianmen_pass_node",
+      "to_node_id": "zhou_mianzhou",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_mianzhou_zizhou",
+      "corridor_name": "东川梓潼路",
+      "from_node_id": "zhou_mianzhou",
+      "to_node_id": "zhou_zizhou",
+      "transit_type": "land",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_zizhou_suizhou",
+      "corridor_name": "郪江水路",
+      "from_node_id": "zhou_zizhou",
+      "to_node_id": "zhou_suizhou",
+      "transit_type": "river",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_suizhou_chengdou",
+      "corridor_name": "天府锦江水道",
+      "from_node_id": "zhou_suizhou",
+      "to_node_id": "chengdou_rear_hub_node",
+      "transit_type": "river",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_chengdou_jiazhou",
+      "corridor_name": "岷江水陆",
+      "from_node_id": "chengdou_rear_hub_node",
+      "to_node_id": "zhou_jiazhou",
+      "transit_type": "river",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_jiazhou_rongzhou",
+      "corridor_name": "大江会僰道",
+      "from_node_id": "zhou_jiazhou",
+      "to_node_id": "zhou_rongzhou",
+      "transit_type": "river",
+      "base_travel_days": 1
+    },
+    {
+      "corridor_id": "c_fengxiang_qinzhou",
+      "corridor_name": "陇山大震关道",
+      "from_node_id": "zhou_fengxiang",
+      "to_node_id": "zhou_qinzhou",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_qinzhou_weizhou",
+      "corridor_name": "渭水古驿",
+      "from_node_id": "zhou_qinzhou",
+      "to_node_id": "zhou_weizhou_west",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_weizhou_lanzhou",
+      "corridor_name": "金城关塞路",
+      "from_node_id": "zhou_weizhou_west",
+      "to_node_id": "zhou_lanzhou",
+      "transit_type": "land",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_lanzhou_shanzhou",
+      "corridor_name": "湟水鄯州路",
+      "from_node_id": "zhou_lanzhou",
+      "to_node_id": "zhou_shanzhou_west",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 2
+    },
+    {
+      "corridor_id": "c_lanzhou_liangzhou",
+      "corridor_name": "乌鞘岭出塞路",
+      "from_node_id": "zhou_lanzhou",
+      "to_node_id": "desert_envoy_road_node",
+      "transit_type": "land",
+      "base_travel_days": 3
+    }
+  ],
+  "mountain_belts": [
+    {
+      "id": "qinling",
+      "name": "秦岭",
+      "points": [
+        [
+          0.52,
+          0.56
+        ],
+        [
+          0.56,
+          0.56
+        ],
+        [
+          0.6,
+          0.55
+        ]
+      ],
+      "stroke_count": 7,
+      "spread": 12.0
+    },
+    {
+      "id": "taihang",
+      "name": "太行山",
+      "points": [
+        [
+          0.61,
+          0.35
+        ],
+        [
+          0.61,
+          0.42
+        ],
+        [
+          0.6,
+          0.47
+        ]
+      ],
+      "stroke_count": 8,
+      "spread": 14.0
+    },
+    {
+      "id": "yinshan",
+      "name": "阴山",
+      "points": [
+        [
+          0.48,
+          0.32
+        ],
+        [
+          0.55,
+          0.32
+        ],
+        [
+          0.62,
+          0.32
+        ]
+      ],
+      "stroke_count": 6,
+      "spread": 10.0
+    },
+    {
+      "id": "funiu",
+      "name": "伏牛山",
+      "points": [
+        [
+          0.59,
+          0.55
+        ],
+        [
+          0.62,
+          0.56
+        ],
+        [
+          0.64,
+          0.57
+        ]
+      ],
+      "stroke_count": 5,
+      "spread": 10.0
+    }
+  ]
+}

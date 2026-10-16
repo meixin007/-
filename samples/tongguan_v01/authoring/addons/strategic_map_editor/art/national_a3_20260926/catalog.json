@@ -1,0 +1,62 @@
+{
+  "bundle_id": "national_a3_20260926",
+  "version": 1,
+  "extends": "national_a2_20260926",
+  "assets": {
+    "field_strips_a3": {
+      "label": "田地 · 曲折狭长田垄",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "field-strips.png",
+      "rect": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "width": 140,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "fields_a3": {
+      "label": "田地 · 曲折田埂与疏行",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "fields.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 140,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "hamlet_a3": {
+      "label": "村落 · 木屋与草棚",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "hamlet.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 46,
+      "anchor": [
+        0.5,
+        0.8
+      ],
+      "gate_anchor": [
+        0.5,
+        0.8
+      ]
+    }
+  }
+}

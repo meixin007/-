@@ -1,0 +1,181 @@
+[
+  {
+    "faction_id": "military_commanders",
+    "agenda_id": "secure_field_authority",
+    "influence": 50,
+    "pressure": 45,
+    "red_lines": [
+      "empty_grain_promises"
+    ],
+    "supported_offices": [
+      "shuofang_field_commander"
+    ],
+    "opposed_offices": [
+      "inner_court_gatekeeper"
+    ],
+    "likely_actions": [
+      "petition_court",
+      "demand_appointment"
+    ]
+  },
+  {
+    "faction_id": "suzong_court",
+    "agenda_id": "beta06_suzong_court_agenda",
+    "influence": 40,
+    "pressure": 45,
+    "red_lines": [
+      "public_humiliation"
+    ],
+    "supported_offices": [
+      "shuofang_field_commander"
+    ],
+    "opposed_offices": [
+      "inner_court_gatekeeper"
+    ],
+    "likely_actions": [
+      "petition_court",
+      "offer_bargain",
+      "delay_decree"
+    ]
+  },
+  {
+    "faction_id": "xuanzong_old_court",
+    "agenda_id": "beta06_xuanzong_old_court_agenda",
+    "influence": 41,
+    "pressure": 46,
+    "red_lines": [
+      "public_humiliation"
+    ],
+    "supported_offices": [
+      "inner_court_gatekeeper"
+    ],
+    "opposed_offices": [
+      "grain_transport_supervisor"
+    ],
+    "likely_actions": [
+      "petition_court",
+      "offer_bargain",
+      "delay_decree"
+    ]
+  },
+  {
+    "faction_id": "eunuch_network",
+    "agenda_id": "beta06_eunuch_network_agenda",
+    "influence": 42,
+    "pressure": 47,
+    "red_lines": [
+      "public_humiliation"
+    ],
+    "supported_offices": [
+      "grain_transport_supervisor"
+    ],
+    "opposed_offices": [
+      "court_memorial_reviewer"
+    ],
+    "likely_actions": [
+      "petition_court",
+      "offer_bargain",
+      "delay_decree"
+    ]
+  },
+  {
+    "faction_id": "uighur_envoys",
+    "agenda_id": "beta06_uighur_envoys_agenda",
+    "influence": 43,
+    "pressure": 48,
+    "red_lines": [
+      "public_humiliation"
+    ],
+    "supported_offices": [
+      "court_memorial_reviewer"
+    ],
+    "opposed_offices": [
+      "palace_household_controller"
+    ],
+    "likely_actions": [
+      "petition_court",
+      "offer_bargain",
+      "delay_decree"
+    ]
+  },
+  {
+    "faction_id": "merchant_refugees",
+    "agenda_id": "beta06_merchant_refugees_agenda",
+    "influence": 44,
+    "pressure": 49,
+    "red_lines": [
+      "public_humiliation"
+    ],
+    "supported_offices": [
+      "palace_household_controller"
+    ],
+    "opposed_offices": [
+      "envoy_negotiator"
+    ],
+    "likely_actions": [
+      "petition_court",
+      "offer_bargain",
+      "delay_decree"
+    ]
+  },
+  {
+    "faction_id": "regional_jiedushi",
+    "agenda_id": "beta06_regional_jiedushi_agenda",
+    "influence": 45,
+    "pressure": 50,
+    "red_lines": [
+      "public_humiliation"
+    ],
+    "supported_offices": [
+      "envoy_negotiator"
+    ],
+    "opposed_offices": [
+      "intelligence_coordinator"
+    ],
+    "likely_actions": [
+      "petition_court",
+      "offer_bargain",
+      "delay_decree"
+    ]
+  },
+  {
+    "faction_id": "grain_transport_bureaucracy",
+    "agenda_id": "beta06_grain_transport_bureaucracy_agenda",
+    "influence": 46,
+    "pressure": 51,
+    "red_lines": [
+      "public_humiliation"
+    ],
+    "supported_offices": [
+      "intelligence_coordinator"
+    ],
+    "opposed_offices": [
+      "local_node_administrator"
+    ],
+    "likely_actions": [
+      "petition_court",
+      "offer_bargain",
+      "delay_decree"
+    ]
+  },
+  {
+    "faction_id": "refugee_commoner_pressure",
+    "agenda_id": "beta06_refugee_commoner_pressure_agenda",
+    "influence": 47,
+    "pressure": 52,
+    "red_lines": [
+      "public_humiliation"
+    ],
+    "supported_offices": [
+      "local_node_administrator"
+    ],
+    "opposed_offices": [
+      "shuofang_field_commander"
+    ],
+    "likely_actions": [
+      "petition_court",
+      "offer_bargain",
+      "delay_decree"
+    ]
+  }
+]

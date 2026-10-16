@@ -1,0 +1,10 @@
+{
+  "case_chains": [{"case_chain_id": "uighur_cost_legitimacy"}],
+  "memorial_templates": [
+    {"memorial_id": "uighur_cost_origin", "case_chain_id": "uighur_cost_legitimacy", "case_phase": "origin", "sender_id": "uighur_envoy", "topic": "uighur_cost", "location_id": "uighur_gate", "resource_keys": ["treasury"], "deadline_days": 7, "recommended_executor_ids": ["uighur_envoy"], "visible_facts": ["盟约报价送达边关"], "visible_resistance": []},
+    {"memorial_id": "uighur_cost_escalation", "previous_memorial_id": "uighur_cost_origin", "case_chain_id": "uighur_cost_legitimacy", "case_phase": "escalation", "sender_id": "uighur_envoy", "topic": "uighur_cost", "location_id": "hexi_route", "resource_keys": ["treasury", "public_order"], "deadline_days": 7, "recommended_executor_ids": ["guo_ziyi"], "visible_facts": ["边贸成本与军援承诺冲突"], "visible_resistance": []},
+    {"memorial_id": "uighur_cost_closure", "previous_memorial_id": "uighur_cost_escalation", "case_chain_id": "uighur_cost_legitimacy", "case_phase": "closure", "sender_id": "uighur_envoy", "topic": "uighur_cost", "location_id": "uighur_gate", "resource_keys": ["treasury", "public_order"], "deadline_days": 7, "recommended_executor_ids": ["guo_ziyi"], "visible_facts": ["最终代价需要向朝廷说明"], "visible_resistance": []}
+  ],
+  "topic_rules": {"uighur_cost": {"required_offices": ["menxia_review"], "action_id": "uighur_cost_order", "council_rules": {}}},
+  "command_actions": {"uighur_cost_order": {"factor_weights": {"ability": 2, "authority": 1, "resources": 3, "route": 2, "deadline": 1, "intel": 2, "clauses": 1, "prior_case": 1}, "report_template_family": "uighur_reports", "effects": {"resource_delta": {"treasury": -240}, "resolution_path": "fulfilled"}, "recovery_actions": ["wait", "supplement"]}}
+}

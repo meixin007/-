@@ -1,0 +1,74 @@
+[
+  {
+	"id": "suzong_court",
+	"name": "肃宗行在",
+	"attitude": 55,
+	"pressure": 35
+  },
+  {
+	"id": "xuanzong_old_court",
+	"name": "玄宗旧臣",
+	"attitude": 30,
+	"pressure": 60
+  },
+  {
+	"id": "military_commanders",
+	"name": "将帅集团",
+	"attitude": 45,
+	"pressure": 50
+  },
+  {
+	"id": "eunuch_network",
+	"name": "宦官近侍",
+	"attitude": 50,
+	"pressure": 45
+  },
+  {
+	"id": "uighur_envoys",
+	"name": "回纥使团",
+	"attitude": 20,
+	"pressure": 70
+  },
+  {
+	"id": "old_court",
+	"name": "蜀中旧朝",
+	"attitude": 28,
+	"pressure": 62
+  },
+  {
+	"id": "palace_household",
+	"name": "随驾内廷",
+	"attitude": 48,
+	"pressure": 42
+  },
+  {
+	"id": "rebel_command",
+	"name": "叛军军府",
+	"attitude": 5,
+	"pressure": 88
+  },
+  {
+	"id": "common_people",
+	"name": "灵武军民",
+	"attitude": 38,
+	"pressure": 55
+  },
+  {
+	"id": "regional_jiedushi",
+	"name": "地方节度使集团",
+	"attitude": 34,
+	"pressure": 52
+  },
+  {
+	"id": "hebei_loyalists",
+	"name": "河北忠义守军",
+	"attitude": 50,
+	"pressure": 64
+  },
+  {
+	"id": "merchant_refugees",
+	"name": "灵武商民难民",
+	"attitude": 42,
+	"pressure": 58
+  }
+]

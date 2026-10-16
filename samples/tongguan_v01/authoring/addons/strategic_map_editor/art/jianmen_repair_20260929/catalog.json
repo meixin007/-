@@ -1,0 +1,41 @@
+{
+  "bundle_id": "jianmen_repair_20260929",
+  "version": 1,
+  "extends": "hanzhong_style_20260928",
+  "assets": {
+    "jm_rock_shoulder": {
+      "label": "剑门 · 不规则岩壁肩部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "rock-shoulder.png",
+      "rect": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "width": 200,
+      "anchor": [
+        0.5,
+        0.83
+      ]
+    },
+    "jm_continuous_foot": {
+      "label": "剑门 · 连续低缓坡地",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "footslope.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 160,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

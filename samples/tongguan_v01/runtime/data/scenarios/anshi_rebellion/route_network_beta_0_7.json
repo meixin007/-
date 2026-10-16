@@ -1,0 +1,497 @@
+{
+  "nodes": [
+    {
+      "node_id": "guanzhong_approach_node",
+      "name": "guanzhong_approach_node",
+      "control": 43,
+      "supply": 38,
+      "security": 41,
+      "public_order": 37,
+      "dominant_faction": "xuanzong_old_court",
+      "active_office_holder": "li_fuguo",
+      "recent_change_reason": "Beta 0.7 route-network pressure initialized."
+    },
+    {
+      "node_id": "lingwu_court_node",
+      "name": "lingwu_court_node",
+      "control": 40,
+      "supply": 35,
+      "security": 38,
+      "public_order": 34,
+      "dominant_faction": "military_commanders",
+      "active_office_holder": "guo_ziyi",
+      "recent_change_reason": "Beta 0.7 route-network pressure initialized."
+    },
+    {
+      "node_id": "shuofang_front_node",
+      "name": "shuofang_front_node",
+      "control": 41,
+      "supply": 36,
+      "security": 39,
+      "public_order": 35,
+      "dominant_faction": "eunuch_network",
+      "active_office_holder": "li_fuguo",
+      "recent_change_reason": "Beta 0.7 route-network pressure initialized."
+    },
+    {
+      "node_id": "hedong_relay_node",
+      "name": "hedong_relay_node",
+      "control": 42,
+      "supply": 37,
+      "security": 40,
+      "public_order": 36,
+      "dominant_faction": "suzong_court",
+      "active_office_holder": "guo_ziyi",
+      "recent_change_reason": "Beta 0.7 route-network pressure initialized."
+    },
+    {
+      "node_id": "grain_road_node",
+      "name": "grain_road_node",
+      "control": 44,
+      "supply": 39,
+      "security": 42,
+      "public_order": 38,
+      "dominant_faction": "military_commanders",
+      "active_office_holder": "guo_ziyi",
+      "recent_change_reason": "Beta 0.7 route-network pressure initialized."
+    },
+    {
+      "node_id": "uighur_route_node",
+      "name": "uighur_route_node",
+      "control": 45,
+      "supply": 40,
+      "security": 43,
+      "public_order": 39,
+      "dominant_faction": "eunuch_network",
+      "active_office_holder": "li_fuguo",
+      "recent_change_reason": "Beta 0.7 route-network pressure initialized."
+    },
+    {
+      "node_id": "palace_inner_channel_node",
+      "name": "palace_inner_channel_node",
+      "control": 46,
+      "supply": 41,
+      "security": 44,
+      "public_order": 40,
+      "dominant_faction": "suzong_court",
+      "active_office_holder": "guo_ziyi",
+      "recent_change_reason": "Beta 0.7 route-network pressure initialized."
+    },
+    {
+      "node_id": "refugee_market_node",
+      "name": "refugee_market_node",
+      "control": 47,
+      "supply": 42,
+      "security": 45,
+      "public_order": 41,
+      "dominant_faction": "xuanzong_old_court",
+      "active_office_holder": "li_fuguo",
+      "recent_change_reason": "Beta 0.7 route-network pressure initialized."
+    },
+    {
+      "node_id": "changan_pressure_node",
+      "name": "changan_pressure_node",
+      "control": 48,
+      "supply": 43,
+      "security": 46,
+      "public_order": 42,
+      "dominant_faction": "military_commanders",
+      "active_office_holder": "guo_ziyi",
+      "recent_change_reason": "Beta 0.7 route-network pressure initialized."
+    },
+    {
+      "node_id": "luoyang_rumor_node",
+      "name": "luoyang_rumor_node",
+      "control": 49,
+      "supply": 44,
+      "security": 47,
+      "public_order": 43,
+      "dominant_faction": "eunuch_network",
+      "active_office_holder": "li_fuguo",
+      "recent_change_reason": "Beta 0.7 route-network pressure initialized."
+    },
+    {
+      "node_id": "hebei_rebel_signal_node",
+      "name": "hebei_rebel_signal_node",
+      "control": 50,
+      "supply": 45,
+      "security": 48,
+      "public_order": 44,
+      "dominant_faction": "suzong_court",
+      "active_office_holder": "guo_ziyi",
+      "recent_change_reason": "Beta 0.7 route-network pressure initialized."
+    },
+    {
+      "node_id": "desert_envoy_road_node",
+      "name": "desert_envoy_road_node",
+      "control": 51,
+      "supply": 46,
+      "security": 49,
+      "public_order": 45,
+      "dominant_faction": "xuanzong_old_court",
+      "active_office_holder": "li_fuguo",
+      "recent_change_reason": "Beta 0.7 route-network pressure initialized."
+    }
+  ],
+  "routes": [
+    {
+      "route_id": "lingwu_to_guanzhong_relay",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "guanzhong_approach_node",
+      "supply_flow": 34,
+      "message_delay": 3,
+      "security": 41,
+      "rebel_pressure": 68,
+      "dominant_faction": "rebel_infiltration",
+      "last_verified_at": 0,
+      "uncertainty": 46,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement"
+      ]
+    },
+    {
+      "route_id": "beta07_route_02",
+      "from_node_id": "shuofang_front_node",
+      "to_node_id": "grain_road_node",
+      "supply_flow": 31,
+      "message_delay": 2,
+      "security": 36,
+      "rebel_pressure": 41,
+      "dominant_faction": "eunuch_network",
+      "last_verified_at": 0,
+      "uncertainty": 36,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_03",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "uighur_route_node",
+      "supply_flow": 32,
+      "message_delay": 3,
+      "security": 37,
+      "rebel_pressure": 42,
+      "dominant_faction": "suzong_court",
+      "last_verified_at": 0,
+      "uncertainty": 37,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_04",
+      "from_node_id": "shuofang_front_node",
+      "to_node_id": "palace_inner_channel_node",
+      "supply_flow": 33,
+      "message_delay": 4,
+      "security": 38,
+      "rebel_pressure": 43,
+      "dominant_faction": "xuanzong_old_court",
+      "last_verified_at": 0,
+      "uncertainty": 38,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_05",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "refugee_market_node",
+      "supply_flow": 34,
+      "message_delay": 5,
+      "security": 39,
+      "rebel_pressure": 44,
+      "dominant_faction": "military_commanders",
+      "last_verified_at": 0,
+      "uncertainty": 39,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_06",
+      "from_node_id": "shuofang_front_node",
+      "to_node_id": "changan_pressure_node",
+      "supply_flow": 35,
+      "message_delay": 1,
+      "security": 40,
+      "rebel_pressure": 45,
+      "dominant_faction": "eunuch_network",
+      "last_verified_at": 0,
+      "uncertainty": 40,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_07",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "luoyang_rumor_node",
+      "supply_flow": 36,
+      "message_delay": 2,
+      "security": 41,
+      "rebel_pressure": 46,
+      "dominant_faction": "suzong_court",
+      "last_verified_at": 0,
+      "uncertainty": 41,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_08",
+      "from_node_id": "shuofang_front_node",
+      "to_node_id": "hebei_rebel_signal_node",
+      "supply_flow": 37,
+      "message_delay": 3,
+      "security": 42,
+      "rebel_pressure": 47,
+      "dominant_faction": "xuanzong_old_court",
+      "last_verified_at": 0,
+      "uncertainty": 42,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_09",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "desert_envoy_road_node",
+      "supply_flow": 38,
+      "message_delay": 4,
+      "security": 43,
+      "rebel_pressure": 48,
+      "dominant_faction": "military_commanders",
+      "last_verified_at": 0,
+      "uncertainty": 43,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_10",
+      "from_node_id": "shuofang_front_node",
+      "to_node_id": "lingwu_court_node",
+      "supply_flow": 39,
+      "message_delay": 5,
+      "security": 44,
+      "rebel_pressure": 49,
+      "dominant_faction": "eunuch_network",
+      "last_verified_at": 0,
+      "uncertainty": 44,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_11",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "shuofang_front_node",
+      "supply_flow": 40,
+      "message_delay": 1,
+      "security": 45,
+      "rebel_pressure": 50,
+      "dominant_faction": "suzong_court",
+      "last_verified_at": 0,
+      "uncertainty": 45,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_12",
+      "from_node_id": "shuofang_front_node",
+      "to_node_id": "hedong_relay_node",
+      "supply_flow": 41,
+      "message_delay": 2,
+      "security": 46,
+      "rebel_pressure": 51,
+      "dominant_faction": "xuanzong_old_court",
+      "last_verified_at": 0,
+      "uncertainty": 46,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_13",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "guanzhong_approach_node",
+      "supply_flow": 42,
+      "message_delay": 3,
+      "security": 47,
+      "rebel_pressure": 52,
+      "dominant_faction": "military_commanders",
+      "last_verified_at": 0,
+      "uncertainty": 47,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_14",
+      "from_node_id": "shuofang_front_node",
+      "to_node_id": "grain_road_node",
+      "supply_flow": 43,
+      "message_delay": 4,
+      "security": 48,
+      "rebel_pressure": 53,
+      "dominant_faction": "eunuch_network",
+      "last_verified_at": 0,
+      "uncertainty": 48,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_15",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "uighur_route_node",
+      "supply_flow": 44,
+      "message_delay": 5,
+      "security": 49,
+      "rebel_pressure": 54,
+      "dominant_faction": "suzong_court",
+      "last_verified_at": 0,
+      "uncertainty": 49,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_16",
+      "from_node_id": "shuofang_front_node",
+      "to_node_id": "palace_inner_channel_node",
+      "supply_flow": 45,
+      "message_delay": 1,
+      "security": 50,
+      "rebel_pressure": 55,
+      "dominant_faction": "xuanzong_old_court",
+      "last_verified_at": 0,
+      "uncertainty": 50,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_17",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "refugee_market_node",
+      "supply_flow": 46,
+      "message_delay": 2,
+      "security": 51,
+      "rebel_pressure": 56,
+      "dominant_faction": "military_commanders",
+      "last_verified_at": 0,
+      "uncertainty": 51,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    },
+    {
+      "route_id": "beta07_route_18",
+      "from_node_id": "shuofang_front_node",
+      "to_node_id": "changan_pressure_node",
+      "supply_flow": 47,
+      "message_delay": 3,
+      "security": 52,
+      "rebel_pressure": 57,
+      "dominant_faction": "eunuch_network",
+      "last_verified_at": 0,
+      "uncertainty": 52,
+      "recent_reports": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "available_operations": [
+        "verify_guanzhong_movement",
+        "beta07_regional_operation_02"
+      ]
+    }
+  ]
+}

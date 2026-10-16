@@ -1,0 +1,116 @@
+{
+  "source_id": "scenario:mei_estate_756",
+  "content_basis": "本作虚构人物梅清及其女梅贞、次子梅安的遗产样例。死亡日期、私款、份额及经办人委托均为场景配置，不作历史事实或通行继承制度断言。 原受托经办人崔圆同意在继承人请求且实际有空时依原约核验清偿与交割；继承人不能直接处分死者账户。 原已签订的私人生产委托由原受托人依原预算继续完成；产物由遗产经办人现场接管，铜器以外的剩余动产遗赠梅贞。 死者剩余实际口粮库存先保留原义务，再按同样二比一份额向两名继承人的同单位仓储现场分配；不把粮食换算或补发为钱。 原经办人也可接管死者已付清且无人正在代为收取的生产订单；只接收原实物，不恢复已撤销的委托，不重复付款或改签买方。",
+  "characters": [
+    {
+      "id": "mei_an",
+      "name": "梅安",
+      "role": "本作虚构成年人物，梅清次子",
+      "status": "alive",
+      "location_id": "refugee_market_node",
+      "clan_id": "clan_mei_market",
+      "age": 20,
+      "stats": {
+        "governance": 35,
+        "finance": 40
+      },
+      "relationships": {
+        "mei_qing": 10,
+        "mei_zhen": 10,
+        "cui_yuan": 10
+      },
+      "source_id": "scenario:mei_estate_756"
+    }
+  ],
+  "cash_grants": [
+    {
+      "character_id": "mei_qing",
+      "amount": 60
+    }
+  ],
+  "initial_assets": [
+    {
+      "custodian_ref": {
+        "entity_kind": "character",
+        "entity_id": "mei_qing"
+      },
+      "contract_refs": [],
+      "condition": 100,
+      "owner_ref": {
+        "entity_kind": "character",
+        "entity_id": "mei_qing"
+      },
+      "name": "梅清私有铜器",
+      "location_id": "refugee_market_node",
+      "pledge_offer": {
+        "valuation": 30,
+        "recourse": false,
+        "duration_days": 10,
+        "allow_redemption_collection": true,
+        "organization_ids": [
+          "clan_cui_qinghe",
+          "clan_cui_boling"
+        ],
+        "valuation_basis": "本作虚构私有铜器与借据配置，不作历史价格断言。",
+        "borrower_id": "mei_qing",
+        "disposal_grace_days": 2,
+        "principal": 20,
+        "fee": 2,
+        "borrower_account_id": "mei_qing_cash"
+      },
+      "source_ref": {
+        "entity_kind": "rule",
+        "entity_id": "mei_qing",
+        "rule_id": "scenario:mei_estate_756"
+      },
+      "asset_kind": "movable",
+      "asset_id": "mei_copper_vessel",
+      "rights": [],
+      "lien_contract_id": "",
+      "status": "available"
+    }
+  ],
+  "rules": [
+    {
+      "estate_id": "estate:mei_qing",
+      "owner_id": "mei_qing",
+      "executor_id": "cui_yuan",
+      "account_id": "mei_qing_cash",
+      "location_id": "refugee_market_node",
+      "death_day": 12,
+      "clan_id": "clan_mei_market",
+      "successor_id": "mei_zhen",
+      "heirs": [
+        {
+          "character_id": "mei_zhen",
+          "account_id": "mei_zhen_cash",
+          "weight": 2,
+          "willing": true
+        },
+        {
+          "character_id": "mei_an",
+          "account_id": "mei_an_cash",
+          "weight": 1,
+          "willing": true
+        }
+      ],
+      "bequests": {
+        "mei_copper_vessel": "mei_an"
+      },
+      "executor_willing": true,
+      "continue_private_production": true,
+      "residual_movable_heir": "mei_zhen",
+      "resource_shares": [
+        {
+          "account_id": "mei_qing_rations",
+          "unit_id": "ration_unit",
+          "recipient_accounts": {
+            "mei_zhen": "mei_zhen_rations",
+            "mei_an": "mei_an_rations"
+          }
+        }
+      ],
+      "collect_paid_production": true
+    }
+  ]
+}

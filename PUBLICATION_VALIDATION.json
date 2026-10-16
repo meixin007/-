@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-15",
+  "engine": "Godot 4.6.1 official Windows console",
+  "passed": true,
+  "checks": [
+    {
+      "name": "plugin_allowlist",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 0.094,
+      "diagnostics": []
+    },
+    {
+      "name": "repository_scope",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 0.422,
+      "diagnostics": []
+    },
+    {
+      "name": "plugin_import",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 4.516,
+      "diagnostics": []
+    },
+    {
+      "name": "runtime_import",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 5.343,
+      "diagnostics": []
+    },
+    {
+      "name": "authoring_import",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 4.141,
+      "diagnostics": []
+    },
+    {
+      "name": "plugin_import_feedback",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 1.016,
+      "diagnostics": []
+    },
+    {
+      "name": "plugin_document",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 0.953,
+      "diagnostics": []
+    },
+    {
+      "name": "runtime_full_footprint",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 3.437,
+      "diagnostics": []
+    },
+    {
+      "name": "runtime_view",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 3.344,
+      "diagnostics": []
+    },
+    {
+      "name": "runtime_passage",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 4.922,
+      "diagnostics": []
+    },
+    {
+      "name": "runtime_construction",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 5.094,
+      "diagnostics": []
+    },
+    {
+      "name": "runtime_migration",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 4.468,
+      "diagnostics": []
+    },
+    {
+      "name": "authoring_layout",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 9.922,
+      "diagnostics": []
+    },
+    {
+      "name": "authoring_protection",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 10.094,
+      "diagnostics": []
+    }
+  ],
+  "scope": "fresh isolated public export headless imports, plugin and source logic tests; prior native Release evidence remains bound to original _03 bytes; not GitHub CI or new art acceptance"
+}

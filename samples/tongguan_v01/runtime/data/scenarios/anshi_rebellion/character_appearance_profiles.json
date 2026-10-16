@@ -1,0 +1,219 @@
+{
+  "version": "character-appearance-1.0",
+  "age_basis": "authored_portrait_setting",
+  "note": "Explicit portrait art families and initial display ages for the campaign. These are editable visual authoring settings, not verified historical birth dates. Unlisted people receive no inferred family or genome.",
+  "profiles": {
+    "market_zhao_landlord": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "market_lu_carpenter": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "market_sun_trader": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "household_cui_an": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "estate_chen_shou": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "guard_zhang_yong": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "market_zhou_liang": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "market_wang_shi": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "li_heng": {
+      "portrait_family": "male",
+      "display_age_years": 45
+    },
+    "guo_ziyi": {
+      "portrait_family": "male",
+      "display_age_years": 60
+    },
+    "li_fuguo": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "li_bi": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "grain_official_lingwu": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "tang_xuanzong": {
+      "portrait_family": "male",
+      "display_age_years": 70
+    },
+    "li_guangbi": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "chen_xuanli": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "an_lushan": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "shi_siming": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "uighur_envoy": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "pugu_huaien": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "li_chu": {
+      "portrait_family": "male",
+      "display_age_years": 30
+    },
+    "zhang_xun_front_rep": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "regional_jiedushi_rep": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "uighur_prince_envoy": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "eunuch_deputy_gate": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "hardline_old_court_official": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "lingwu_merchant_refugee": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "cui_yuan": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "cui_huan": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "cui_youfu": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "cui_guangyuan": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "lu_yi": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "lu_qi": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "li_xian": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "li_tan": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "zheng_qian": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "wang_jin": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "wang_wei": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "wei_zhi": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "du_hongjian": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "du_fu": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "du_you": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "yang_wan": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "yang_yan": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "guo_xi": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "pugu_yang": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "yan_zhenqing": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "yan_gaoqing": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "qinghe_smith": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "qinghe_scribe": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "lingwu_smith": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "lingwu_scribe": {
+      "portrait_family": "male",
+      "display_age_years": 35
+    },
+    "zhang_liangdi": {
+      "portrait_family": "female",
+      "display_age_years": 35
+    }
+  }
+}

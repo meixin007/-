@@ -1,0 +1,15 @@
+{
+  "bundle_id": "hanzhong_style_20260928",
+  "version": 1,
+  "extends": "hanzhong_block01_20260928",
+  "review_status": "PENDING_USER",
+  "generation_tool": "builtin image_gen edit",
+  "assets": [
+    {
+      "file": "rolling-ridge-pale.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "3ed4d789d17c012d03c5e40fe9346a378d67032cfbd024330fa9a610c9540713"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "grain": 1200,
+  "treasury": 600,
+  "legitimacy": 45,
+  "military_morale": 52,
+  "public_order": 40,
+  "intelligence": 25,
+  "court_authority": 35
+}

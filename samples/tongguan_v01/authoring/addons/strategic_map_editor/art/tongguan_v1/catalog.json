@@ -1,0 +1,1515 @@
+{
+	"assets": {
+		"art_01": {
+			"anchor": [
+				0.400000005960464,
+				0.800000011920929
+			],
+			"atlas": "art_01.png",
+			"group": "forest",
+			"label": "01_主峰与纵横支脊",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				757.0,
+				275.0
+			],
+			"width": 240.0
+		},
+		"art_02": {
+			"anchor": [
+				0.600000023841858,
+				0.800000011920929
+			],
+			"atlas": "art_02.png",
+			"group": "forest",
+			"label": "02_宽缓高台与岩壁",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				760.0,
+				279.0
+			],
+			"width": 240.0
+		},
+		"art_04_38_23": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_04_38_23.png",
+			"gate_anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"group": "city",
+			"label": "长安",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1536.0,
+				1024.0
+			],
+			"width": 180.0
+		},
+		"art_05_03_39": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_05_03_39.png",
+			"gate_anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"group": "city",
+			"label": "长安2",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1536.0,
+				1024.0
+			],
+			"width": 180.0
+		},
+		"art_05_09_18": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_05_09_18.png",
+			"gate_anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"group": "city",
+			"label": "长安3",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1536.0,
+				1024.0
+			],
+			"width": 180.0
+		},
+		"art_06_21_09": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_06_21_09.png",
+			"group": "forest",
+			"label": "新版大型城市",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1448.0,
+				1086.0
+			],
+			"width": 180.0
+		},
+		"art_08_26_57": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_08_26_57.png",
+			"group": "forest",
+			"label": "08_26_57",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1983.0,
+				793.0
+			],
+			"width": 80.0
+		},
+		"art_08_34_21": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_08_34_21.png",
+			"group": "forest",
+			"label": "新版大城",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1448.0,
+				1086.0
+			],
+			"width": 180.0
+		},
+		"art_08_34_48": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_08_34_48.png",
+			"group": "forest",
+			"label": "08_34_48",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1683.0,
+				934.0
+			],
+			"width": 80.0
+		},
+		"art_19_48_57": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_19_48_57.png",
+			"group": "forest",
+			"label": "19_48_57",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1448.0,
+				1086.0
+			],
+			"width": 180.0
+		},
+		"art_19_59_36": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_19_59_36.png",
+			"group": "forest",
+			"label": "19_59_36",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1448.0,
+				1086.0
+			],
+			"width": 180.0
+		},
+		"art_20_07_56_4": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_20_07_56_4.png",
+			"group": "forest",
+			"label": "20_07_56-4",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1448.0,
+				1086.0
+			],
+			"width": 180.0
+		},
+		"art_20_22_16": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_20_22_16.png",
+			"group": "forest",
+			"label": "20_22_16",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1448.0,
+				1086.0
+			],
+			"width": 180.0
+		},
+		"art_20_40_26": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_20_40_26.png",
+			"group": "forest",
+			"label": "20_40_26",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1448.0,
+				1086.0
+			],
+			"width": 180.0
+		},
+		"art_20_53_35": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_20_53_35.png",
+			"group": "forest",
+			"label": "20_53_35",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1448.0,
+				1086.0
+			],
+			"width": 180.0
+		},
+		"art_21_01_04": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_21_01_04.png",
+			"group": "forest",
+			"label": "21_01_04",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1448.0,
+				1086.0
+			],
+			"width": 180.0
+		},
+		"art_21_12_00": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_21_12_00.png",
+			"group": "forest",
+			"label": "21_12_00",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1470.0,
+				1070.0
+			],
+			"width": 180.0
+		},
+		"art_21_41_10_import_fixed": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "art_21_41_10_import_fixed.png",
+			"group": "forest",
+			"label": "21_41_10_import_fixed",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1464.0,
+				1102.0
+			],
+			"width": 180.0
+		},
+		"chatgpt_2026_10_6_06_38_31": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "chatgpt_2026_10_6_06_38_31.png",
+			"group": "forest",
+			"label": "还原版",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1448.0,
+				1086.0
+			],
+			"width": 180.0
+		},
+		"chatgpt_2026_9_28_20_03_30": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "chatgpt_2026_9_28_20_03_30.png",
+			"group": "forest",
+			"label": "20_03_30",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1024.0,
+				1536.0
+			],
+			"width": 80.0
+		},
+		"city_capital": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "settlements.png",
+			"gate_anchor": [
+				0.5,
+				0.78
+			],
+			"group": "city",
+			"label": "宫城 · 高台宫殿",
+			"rect": [
+				0.0,
+				0.0,
+				742.0,
+				680.0
+			],
+			"width": 205.0
+		},
+		"city_market_v06": {
+			"anchor": [
+				0.5,
+				0.79
+			],
+			"atlas": "settlement_variants_v06.png",
+			"gate_anchor": [
+				0.5,
+				0.79
+			],
+			"group": "city",
+			"label": "市镇 · 低城墙与棚市",
+			"rect": [
+				880.0,
+				0.0,
+				656.0,
+				1024.0
+			],
+			"width": 120.0
+		},
+		"city_prefecture_v06": {
+			"anchor": [
+				0.5,
+				0.79
+			],
+			"atlas": "settlement_variants_v06.png",
+			"gate_anchor": [
+				0.5,
+				0.79
+			],
+			"group": "city",
+			"label": "州城 · 不规则城墙与佛塔",
+			"rect": [
+				0.0,
+				0.0,
+				880.0,
+				1024.0
+			],
+			"width": 145.0
+		},
+		"city_timber": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "settlements.png",
+			"gate_anchor": [
+				0.5,
+				0.78
+			],
+			"group": "city",
+			"label": "小城 · 木屋院落",
+			"rect": [
+				0.0,
+				720.0,
+				650.0,
+				534.0
+			],
+			"width": 132.0
+		},
+		"city_walled": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "settlements.png",
+			"gate_anchor": [
+				0.5,
+				0.78
+			],
+			"group": "city",
+			"label": "州城 · 木楼佛塔",
+			"rect": [
+				748.0,
+				0.0,
+				506.0,
+				680.0
+			],
+			"width": 132.0
+		},
+		"gate_eastwest": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "gate_eastwest.png",
+			"group": "forest",
+			"label": "gate-eastwest",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1536.0,
+				1024.0
+			],
+			"width": 80.0
+		},
+		"gate_south": {
+			"anchor": [
+				0.5,
+				0.800000011920929
+			],
+			"atlas": "gate_south.png",
+			"group": "forest",
+			"label": "gate-south",
+			"manual_only": true,
+			"rect": [
+				0,
+				0,
+				1536,
+				1024
+			],
+			"width": 80.0
+		},
+		"ground_wash_v06": {
+			"anchor": [
+				0.5,
+				0.8
+			],
+			"atlas": "ground_wash_v06.png",
+			"group": "ground",
+			"label": "地表 · 山脚淡彩过渡",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				2172.0,
+				724.0
+			],
+			"width": 420.0
+		},
+		"mountain_cliff": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "mountains.png",
+			"group": "mountain",
+			"label": "台地断崖",
+			"rect": [
+				0.0,
+				512.0,
+				532.0,
+				512.0
+			],
+			"width": 98.0
+		},
+		"mountain_crags": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "mountains.png",
+			"group": "mountain",
+			"label": "参差峭峰",
+			"rect": [
+				1052.0,
+				0.0,
+				484.0,
+				512.0
+			],
+			"width": 90.0
+		},
+		"mountain_foothill": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "mountains.png",
+			"group": "mountain",
+			"hills_compatible": true,
+			"label": "低缓山麓",
+			"rect": [
+				1040.0,
+				512.0,
+				496.0,
+				512.0
+			],
+			"width": 86.0
+		},
+		"mountain_hills": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "mountains.png",
+			"group": "mountain",
+			"hills_compatible": true,
+			"label": "缓丘",
+			"rect": [
+				532.0,
+				512.0,
+				508.0,
+				512.0
+			],
+			"width": 90.0
+		},
+		"mountain_ridge": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "mountains.png",
+			"group": "mountain",
+			"label": "连绵山脊",
+			"rect": [
+				532.0,
+				0.0,
+				520.0,
+				512.0
+			],
+			"width": 108.0
+		},
+		"mountain_shoulder": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "mountains.png",
+			"group": "mountain",
+			"hills_compatible": true,
+			"label": "宽厚山肩",
+			"rect": [
+				0.0,
+				0.0,
+				532.0,
+				512.0
+			],
+			"width": 104.0
+		},
+		"mt_city_20261014_branch_valley": {
+			"anchor": [
+				0.5,
+				0.779999971389771
+			],
+			"atlas": "mt_city_20261014_branch_valley.png",
+			"group": "mountain",
+			"label": "新绘山体 · 分脊开谷（待审）",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1600.0,
+				1088.0
+			],
+			"width": 210.0
+		},
+		"mt_city_20261014_rocky_peak": {
+			"anchor": [
+				0.5,
+				0.779999971389771
+			],
+			"atlas": "mt_city_20261014_rocky_peak.png",
+			"group": "mountain",
+			"label": "新绘山体 · 峭岩独峰（待审）",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1600.0,
+				1088.0
+			],
+			"width": 125.0
+		},
+		"mt_city_20261014_snow_massif": {
+			"anchor": [
+				0.5,
+				0.779999971389771
+			],
+			"atlas": "mt_city_20261014_snow_massif.png",
+			"group": "mountain",
+			"label": "新绘山体 · 雪岭双鞍（待审）",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1838.0,
+				951.0
+			],
+			"width": 210.0
+		},
+		"mt_city_20261014_snow_peak": {
+			"anchor": [
+				0.5,
+				0.779999971389771
+			],
+			"atlas": "mt_city_20261014_snow_peak.png",
+			"group": "mountain",
+			"label": "新绘山体 · 积雪孤峰（待审）",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1600.0,
+				1088.0
+			],
+			"width": 140.0
+		},
+		"mt_city_20261014_snow_ridge": {
+			"anchor": [
+				0.5,
+				0.779999971389771
+			],
+			"atlas": "mt_city_20261014_snow_ridge.png",
+			"group": "mountain",
+			"label": "新绘山体 · 雪线长脊（待审）",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1838.0,
+				951.0
+			],
+			"width": 240.0
+		},
+		"mt_city_20261014_winding_ridge": {
+			"anchor": [
+				0.5,
+				0.779999971389771
+			],
+			"atlas": "mt_city_20261014_winding_ridge.png",
+			"group": "mountain",
+			"label": "新绘山体 · 曲折连脊（待审）",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				1838.0,
+				951.0
+			],
+			"width": 230.0
+		},
+		"pass_gate": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "settlements.png",
+			"gate_anchor": [
+				0.5,
+				0.78
+			],
+			"group": "pass",
+			"label": "潼关 · 城墙关楼",
+			"rect": [
+				675.0,
+				720.0,
+				579.0,
+				534.0
+			],
+			"width": 112.0
+		},
+		"ridge_connector_v06": {
+			"anchor": [
+				0.5,
+				0.82
+			],
+			"atlas": "ridge_connector_v06.png",
+			"group": "mountain",
+			"label": "山脊 · 连续山肩连接",
+			"manual_only": true,
+			"rect": [
+				0.0,
+				0.0,
+				2172.0,
+				724.0
+			],
+			"width": 300.0
+		},
+		"tree_broad": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "trees.png",
+			"group": "forest",
+			"label": "阔冠老树",
+			"rect": [
+				0.0,
+				0.0,
+				512.0,
+				512.0
+			],
+			"width": 38.0
+		},
+		"tree_grove": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "trees.png",
+			"group": "forest",
+			"label": "混合树丛",
+			"rect": [
+				512.0,
+				512.0,
+				512.0,
+				512.0
+			],
+			"width": 43.0
+		},
+		"tree_pine": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "trees.png",
+			"group": "forest",
+			"label": "疏松",
+			"rect": [
+				0.0,
+				512.0,
+				512.0,
+				512.0
+			],
+			"width": 35.0
+		},
+		"tree_scrub": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "trees.png",
+			"group": "forest",
+			"label": "矮树灌丛",
+			"rect": [
+				1024.0,
+				512.0,
+				512.0,
+				512.0
+			],
+			"width": 30.0
+		},
+		"tree_tall": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "trees.png",
+			"group": "forest",
+			"label": "高瘦林木",
+			"rect": [
+				512.0,
+				0.0,
+				512.0,
+				512.0
+			],
+			"width": 35.0
+		},
+		"tree_willow": {
+			"anchor": [
+				0.5,
+				0.78
+			],
+			"atlas": "trees.png",
+			"group": "forest",
+			"label": "河畔垂柳",
+			"rect": [
+				1024.0,
+				0.0,
+				512.0,
+				512.0
+			],
+			"width": 40.0
+		},
+		"workshop_regional27_japan_black": {
+			"anchor": [
+				0.49949,
+				0.66219
+			],
+			"atlas": "workshop_regional27_japan_black.png",
+			"gate_anchor": [
+				0.31295,
+				0.84004
+			],
+			"group": "city",
+			"label": "城镇二版·日本·乌城",
+			"manual_only": true,
+			"rect": [
+				200.0,
+				133.0,
+				992.0,
+				903.0
+			],
+			"width": 125.0
+		},
+		"workshop_regional27_japan_low": {
+			"anchor": [
+				0.49245,
+				0.6332
+			],
+			"atlas": "workshop_regional27_japan_low.png",
+			"gate_anchor": [
+				0.68864,
+				0.89157
+			],
+			"group": "city",
+			"label": "城镇二版·日本·平城",
+			"manual_only": true,
+			"rect": [
+				162.0,
+				132.0,
+				1270.0,
+				758.0
+			],
+			"width": 135.0
+		},
+		"workshop_regional27_japan_white": {
+			"anchor": [
+				0.50209,
+				0.68187
+			],
+			"atlas": "workshop_regional27_japan_white.png",
+			"gate_anchor": [
+				0.68536,
+				0.90058
+			],
+			"group": "city",
+			"label": "城镇二版·日本·白色天守",
+			"manual_only": true,
+			"rect": [
+				172.0,
+				86.0,
+				1204.0,
+				866.0
+			],
+			"width": 135.0
+		},
+		"workshop_regional27_nomad_chief": {
+			"anchor": [
+				0.50502,
+				0.62338
+			],
+			"atlas": "workshop_regional27_nomad_chief.png",
+			"gate_anchor": [
+				0.50602,
+				0.96681
+			],
+			"group": "city",
+			"label": "城镇二版·北方·游牧大帐",
+			"manual_only": true,
+			"rect": [
+				268.0,
+				157.0,
+				1001.0,
+				697.0
+			],
+			"width": 100.0
+		},
+		"workshop_regional27_nomad_pastoral": {
+			"anchor": [
+				0.5019,
+				0.5712
+			],
+			"atlas": "workshop_regional27_nomad_pastoral.png",
+			"gate_anchor": [
+				0.60804,
+				0.87342
+			],
+			"group": "city",
+			"label": "城镇二版·北方·游牧牧营",
+			"manual_only": true,
+			"rect": [
+				103.0,
+				195.0,
+				1331.0,
+				638.0
+			],
+			"width": 90.0
+		},
+		"workshop_regional27_tang_capital": {
+			"anchor": [
+				0.5025,
+				0.5541
+			],
+			"atlas": "workshop_regional27_tang_capital.png",
+			"gate_anchor": [
+				0.76089,
+				0.8
+			],
+			"group": "city",
+			"label": "城镇二版·唐·都城",
+			"manual_only": true,
+			"rect": [
+				32.0,
+				61.0,
+				1408.0,
+				926.0
+			],
+			"width": 220.0
+		},
+		"workshop_regional27_tang_fort_drill": {
+			"anchor": [
+				0.50467,
+				0.59219
+			],
+			"atlas": "workshop_regional27_tang_fort_drill.png",
+			"gate_anchor": [
+				0.50538,
+				0.96337
+			],
+			"group": "city",
+			"label": "城镇二版·唐·军镇·校场",
+			"manual_only": true,
+			"rect": [
+				63.0,
+				49.0,
+				1403.0,
+				825.0
+			],
+			"width": 120.0
+		},
+		"workshop_regional27_tang_fort_supply": {
+			"anchor": [
+				0.50108,
+				0.55882
+			],
+			"atlas": "workshop_regional27_tang_fort_supply.png",
+			"gate_anchor": [
+				0.75235,
+				0.77124
+			],
+			"group": "city",
+			"label": "城镇二版·唐·军镇·屯仓",
+			"manual_only": true,
+			"rect": [
+				73.0,
+				41.0,
+				1396.0,
+				924.0
+			],
+			"width": 120.0
+		},
+		"workshop_regional27_tang_large_administration": {
+			"anchor": [
+				0.50036,
+				0.54923
+			],
+			"atlas": "workshop_regional27_tang_large_administration.png",
+			"gate_anchor": [
+				0.48871,
+				0.95405
+			],
+			"group": "city",
+			"label": "城镇二版·唐·大城·府署",
+			"manual_only": true,
+			"rect": [
+				81.0,
+				52.0,
+				1375.0,
+				924.0
+			],
+			"width": 180.0
+		},
+		"workshop_regional27_tang_large_market": {
+			"anchor": [
+				0.49965,
+				0.55703
+			],
+			"atlas": "workshop_regional27_tang_large_market.png",
+			"gate_anchor": [
+				0.74841,
+				0.76069
+			],
+			"group": "city",
+			"label": "城镇二版·唐·大城·商市",
+			"manual_only": true,
+			"rect": [
+				61.0,
+				1.0,
+				1424.0,
+				990.0
+			],
+			"width": 180.0
+		},
+		"workshop_regional27_tang_large_temple": {
+			"anchor": [
+				0.50071,
+				0.54017
+			],
+			"atlas": "workshop_regional27_tang_large_temple.png",
+			"gate_anchor": [
+				0.75035,
+				0.75159
+			],
+			"group": "city",
+			"label": "城镇二版·唐·大城·寺坊",
+			"manual_only": true,
+			"rect": [
+				59.0,
+				34.0,
+				1421.0,
+				957.0
+			],
+			"width": 180.0
+		},
+		"workshop_regional27_tang_medium_granary": {
+			"anchor": [
+				0.50234,
+				0.57531
+			],
+			"atlas": "workshop_regional27_tang_medium_granary.png",
+			"gate_anchor": [
+				0.49922,
+				0.93545
+			],
+			"group": "city",
+			"label": "城镇二版·唐·中城·仓坊",
+			"manual_only": true,
+			"rect": [
+				124.0,
+				47.0,
+				1291.0,
+				890.0
+			],
+			"width": 140.0
+		},
+		"workshop_regional27_tang_medium_market": {
+			"anchor": [
+				0.50456,
+				0.54534
+			],
+			"atlas": "workshop_regional27_tang_medium_market.png",
+			"gate_anchor": [
+				0.20878,
+				0.85677
+			],
+			"group": "city",
+			"label": "城镇二版·唐·中城·街市",
+			"manual_only": true,
+			"rect": [
+				191.0,
+				100.0,
+				1210.0,
+				771.0
+			],
+			"width": 140.0
+		},
+		"workshop_regional27_tang_medium_monastery": {
+			"anchor": [
+				0.50203,
+				0.52143
+			],
+			"atlas": "workshop_regional27_tang_medium_monastery.png",
+			"gate_anchor": [
+				0.35557,
+				0.67857
+			],
+			"group": "city",
+			"label": "城镇二版·唐·中城·寺院",
+			"manual_only": true,
+			"rect": [
+				147.0,
+				169.0,
+				1241.0,
+				707.0
+			],
+			"width": 140.0
+		},
+		"workshop_regional27_tang_medium_yamen": {
+			"anchor": [
+				0.50072,
+				0.55184
+			],
+			"atlas": "workshop_regional27_tang_medium_yamen.png",
+			"gate_anchor": [
+				0.77786,
+				0.78726
+			],
+			"group": "city",
+			"label": "城镇二版·唐·中城",
+			"manual_only": true,
+			"rect": [
+				74.0,
+				30.0,
+				1393.0,
+				932.0
+			],
+			"width": 140.0
+		},
+		"workshop_regional27_tang_village_craft": {
+			"anchor": [
+				0.54346,
+				0.56566
+			],
+			"atlas": "workshop_regional27_tang_village_craft.png",
+			"gate_anchor": [
+				0.62946,
+				0.87302
+			],
+			"group": "city",
+			"label": "城镇二版·唐·村镇·作坊",
+			"manual_only": true,
+			"rect": [
+				179.0,
+				152.0,
+				1095.0,
+				704.0
+			],
+			"width": 85.0
+		},
+		"workshop_regional27_tang_village_farm": {
+			"anchor": [
+				0.50245,
+				0.6125
+			],
+			"atlas": "workshop_regional27_tang_village_farm.png",
+			"gate_anchor": [
+				0.3928,
+				0.8825
+			],
+			"group": "city",
+			"label": "城镇二版·唐·村镇·农庄",
+			"manual_only": true,
+			"rect": [
+				165.0,
+				74.0,
+				1234.0,
+				811.0
+			],
+			"width": 80.0
+		},
+		"workshop_regional27_tang_village_market": {
+			"anchor": [
+				0.47683,
+				0.633
+			],
+			"atlas": "workshop_regional27_tang_village_market.png",
+			"gate_anchor": [
+				0.45072,
+				0.93596
+			],
+			"group": "city",
+			"label": "城镇二版·唐·村镇·集市",
+			"manual_only": true,
+			"rect": [
+				204.0,
+				85.0,
+				1191.0,
+				816.0
+			],
+			"width": 85.0
+		},
+		"workshop_regional27_tang_village_post": {
+			"anchor": [
+				0.5,
+				0.65113
+			],
+			"atlas": "workshop_regional27_tang_village_post.png",
+			"gate_anchor": [
+				0.67359,
+				0.87368
+			],
+			"group": "city",
+			"label": "城镇二版·唐·村镇·驿站",
+			"manual_only": true,
+			"rect": [
+				178.0,
+				131.0,
+				1204.0,
+				671.0
+			],
+			"width": 85.0
+		},
+		"workshop_regional27_tibet_potala": {
+			"anchor": [
+				0.5142,
+				0.68834
+			],
+			"atlas": "workshop_regional27_tibet_potala.png",
+			"gate_anchor": [
+				0.61593,
+				0.90919
+			],
+			"group": "city",
+			"label": "城镇二版·高原·布达拉宫",
+			"manual_only": true,
+			"rect": [
+				67.0,
+				165.0,
+				1270.0,
+				904.0
+			],
+			"width": 190.0
+		},
+		"workshop_regional27_tibet_town": {
+			"anchor": [
+				0.51165,
+				0.58677
+			],
+			"atlas": "workshop_regional27_tibet_town.png",
+			"gate_anchor": [
+				0.46423,
+				0.9436
+			],
+			"group": "city",
+			"label": "城镇二版·高原·普通城镇",
+			"manual_only": true,
+			"rect": [
+				153.0,
+				47.0,
+				1212.0,
+				927.0
+			],
+			"width": 105.0
+		},
+		"workshop_regional28_pass_north_south": {
+			"anchor": [
+				0.5,
+				0.9458
+			],
+			"atlas": "workshop_regional28_pass_north_south.png",
+			"gate_anchor": [
+				0.5,
+				0.98077
+			],
+			"group": "pass",
+			"label": "关口三版·南北通行·横墙",
+			"manual_only": true,
+			"rect": [
+				35.0,
+				175.0,
+				1466.0,
+				577.0
+			],
+			"width": 160.0
+		},
+		"workshop_regional28_tang_capital": {
+			"anchor": [
+				0.50069,
+				0.53484
+			],
+			"atlas": "workshop_regional28_tang_capital.png",
+			"gate_anchor": [
+				0.77083,
+				0.76434
+			],
+			"group": "city",
+			"label": "都城三版·唐帝都",
+			"manual_only": true,
+			"rect": [
+				41.0,
+				12.0,
+				1451.0,
+				988.0
+			],
+			"width": 280.0
+		},
+		"workshop_tang_handdrawn_fort_drill": {
+			"anchor": [
+				0.50341,
+				0.53266
+			],
+			"atlas": "workshop_tang_handdrawn_fort_drill.png",
+			"gate_anchor": [
+				0.74489,
+				0.73668
+			],
+			"group": "city",
+			"label": "唐·手绘·军镇·校场",
+			"manual_only": true,
+			"rect": [
+				81.0,
+				16.0,
+				1326.0,
+				998.0
+			],
+			"width": 120.0
+		},
+		"workshop_tang_handdrawn_fort_supply": {
+			"anchor": [
+				0.49964,
+				0.52467
+			],
+			"atlas": "workshop_tang_handdrawn_fort_supply.png",
+			"gate_anchor": [
+				0.74021,
+				0.74723
+			],
+			"group": "city",
+			"label": "唐·手绘·军镇·屯仓",
+			"manual_only": true,
+			"rect": [
+				40.0,
+				17.0,
+				1410.0,
+				1002.0
+			],
+			"width": 120.0
+		},
+		"workshop_tang_handdrawn_large_administration": {
+			"anchor": [
+				0.49714,
+				0.51506
+			],
+			"atlas": "workshop_tang_handdrawn_large_administration.png",
+			"gate_anchor": [
+				0.7618,
+				0.724
+			],
+			"group": "city",
+			"label": "唐·手绘·大城·府署",
+			"manual_only": true,
+			"rect": [
+				40.0,
+				0.0,
+				1408.0,
+				1032.0
+			],
+			"width": 180.0
+		},
+		"workshop_tang_handdrawn_large_market": {
+			"anchor": [
+				0.49965,
+				0.51597
+			],
+			"atlas": "workshop_tang_handdrawn_large_market.png",
+			"gate_anchor": [
+				0.75857,
+				0.73553
+			],
+			"group": "city",
+			"label": "唐·手绘·大城·商市",
+			"manual_only": true,
+			"rect": [
+				28.0,
+				7.0,
+				1436.0,
+				1012.0
+			],
+			"width": 180.0
+		},
+		"workshop_tang_handdrawn_large_temple": {
+			"anchor": [
+				0.5014,
+				0.52016
+			],
+			"atlas": "workshop_tang_handdrawn_large_temple.png",
+			"gate_anchor": [
+				0.74965,
+				0.73488
+			],
+			"group": "city",
+			"label": "唐·手绘·大城·寺坊",
+			"manual_only": true,
+			"rect": [
+				29.0,
+				15.0,
+				1430.0,
+				1001.0
+			],
+			"width": 180.0
+		},
+		"workshop_tang_handdrawn_medium_granary": {
+			"anchor": [
+				0.49723,
+				0.52012
+			],
+			"atlas": "workshop_tang_handdrawn_medium_granary.png",
+			"gate_anchor": [
+				0.74827,
+				0.73013
+			],
+			"group": "city",
+			"label": "唐·手绘·中城·仓坊",
+			"manual_only": true,
+			"rect": [
+				22.0,
+				7.0,
+				1449.0,
+				1028.0
+			],
+			"width": 140.0
+		},
+		"workshop_tang_handdrawn_medium_market": {
+			"anchor": [
+				0.50646,
+				0.52632
+			],
+			"atlas": "workshop_tang_handdrawn_medium_market.png",
+			"gate_anchor": [
+				0.74373,
+				0.74097
+			],
+			"group": "city",
+			"label": "唐·手绘·中城·街市",
+			"manual_only": true,
+			"rect": [
+				74.0,
+				31.0,
+				1318.0,
+				975.0
+			],
+			"width": 140.0
+		},
+		"workshop_tang_handdrawn_medium_monastery": {
+			"anchor": [
+				0.50379,
+				0.53629
+			],
+			"atlas": "workshop_tang_handdrawn_medium_monastery.png",
+			"gate_anchor": [
+				0.74203,
+				0.74756
+			],
+			"group": "city",
+			"label": "唐·手绘·中城·寺院",
+			"manual_only": true,
+			"rect": [
+				82.0,
+				49.0,
+				1324.0,
+				935.0
+			],
+			"width": 140.0
+		},
+		"workshop_tang_handdrawn_medium_yamen": {
+			"anchor": [
+				0.49656,
+				0.51947
+			],
+			"atlas": "workshop_tang_handdrawn_medium_yamen.png",
+			"gate_anchor": [
+				0.73797,
+				0.72951
+			],
+			"group": "city",
+			"label": "唐·手绘·中城·县署",
+			"manual_only": true,
+			"rect": [
+				89.0,
+				31.0,
+				1317.0,
+				980.0
+			],
+			"width": 140.0
+		}
+	},
+	"bundle_id": "tongguan_v1",
+	"version": 1.0
+}

@@ -1,0 +1,112 @@
+{
+  "schema_version": 109,
+  "campaign_id": "anshi_beta_1_09",
+  "followups": [
+    {
+      "memorial_id": "memorial_lingwu_ration_001",
+      "previous_memorial_id": "memorial_shuofang_grain_001",
+      "case_chain_id": "beta109_supply_chain",
+      "case_phase": "followup",
+      "activation_window": {"start_day": 4, "end_day": 8},
+      "activation_predicate": {
+        "predecessor_outcomes": ["completed", "partial", "failed"],
+        "predecessor_conditions": ["normal", "delayed", "blocked", "lost_contact"]
+      },
+      "predecessor_outcomes": ["completed", "partial", "failed"],
+      "predecessor_conditions": ["normal", "delayed", "blocked", "lost_contact"],
+      "missed_precondition_variant": "missed",
+      "activation_variant": "normal",
+      "deadline_days": 6,
+      "variants": {
+        "normal": {
+          "public_title": "灵武仓粮复核",
+          "public_summary": "前置粮道账册已形成可追踪依据，仓粮与军民名册进入复核。",
+          "next_action": "verify_rations"
+        },
+        "partial": {
+          "public_title": "灵武仓粮补核",
+          "public_summary": "前置账册只完成部分核验，仓粮后续事务要求补核。",
+          "next_action": "verify_rations"
+        },
+        "failed": {
+          "public_title": "灵武仓粮缺口追查",
+          "public_summary": "前置粮道事务失败，仓粮名册保留缺口追查入口。",
+          "next_action": "verify_rations"
+        },
+        "delayed": {
+          "public_title": "迟延后的仓粮复核",
+          "public_summary": "粮道迟延挤压配给窗口，复核必须公开记下时效代价。",
+          "next_action": "verify_rations"
+        },
+        "blocked": {
+          "public_title": "受阻后的仓粮复核",
+          "public_summary": "粮道事务受阻，军民配给不能假定已经完成。",
+          "next_action": "verify_rations"
+        },
+        "missed": {
+          "public_title": "错过期限的仓粮缺口",
+          "public_summary": "前置期限已错过，复盘保留未能及时复核的事实。",
+          "next_action": "day30_review"
+        }
+      },
+      "public_source_paths": [
+        "governance.orders",
+        "governance.reports",
+        "structured_memories"
+      ]
+    },
+    {
+      "memorial_id": "memorial_gate_review_001",
+      "previous_memorial_id": "memorial_lingwu_ration_001",
+      "case_chain_id": "beta109_supply_chain",
+      "case_phase": "followup",
+      "activation_window": {"start_day": 9, "end_day": 21},
+      "activation_predicate": {
+        "predecessor_outcomes": ["completed", "partial", "failed"],
+        "predecessor_conditions": ["normal", "delayed", "blocked", "lost_contact"]
+      },
+      "predecessor_outcomes": ["completed", "partial", "failed"],
+      "predecessor_conditions": ["normal", "delayed", "blocked", "lost_contact"],
+      "missed_precondition_variant": "missed",
+      "activation_variant": "delayed",
+      "deadline_days": 6,
+      "variants": {
+        "normal": {
+          "public_title": "宫门传令复核",
+          "public_summary": "仓粮复核已有公开依据，宫门登记与中书传递记录进入双签复核。",
+          "next_action": "review_gate_records"
+        },
+        "partial": {
+          "public_title": "仓粮缺页后的宫门复核",
+          "public_summary": "仓粮复核留下部分缺页，宫门复核必须同时保留缺口。",
+          "next_action": "review_gate_records"
+        },
+        "failed": {
+          "public_title": "配给失败后的授权复核",
+          "public_summary": "配给事务未闭合，宫门授权复核转为公开因果链的一部分。",
+          "next_action": "review_gate_records"
+        },
+        "delayed": {
+          "public_title": "迟延后的宫门传令复核",
+          "public_summary": "配给迟延压缩宫门复核时限，复盘须说明效率与留痕的取舍。",
+          "next_action": "review_gate_records"
+        },
+        "blocked": {
+          "public_title": "受阻后的宫门授权复核",
+          "public_summary": "前置事务受阻，内外双签或急报通道的代价不能隐藏。",
+          "next_action": "review_gate_records"
+        },
+        "missed": {
+          "public_title": "错过期限的宫门记录",
+          "public_summary": "配给期限已错过，宫门登记缺口在第三十日复盘中公开。",
+          "next_action": "day30_review"
+        }
+      },
+      "public_source_paths": [
+        "governance.orders",
+        "governance.reports",
+        "chronicle_causal_references"
+      ]
+    }
+  ]
+}

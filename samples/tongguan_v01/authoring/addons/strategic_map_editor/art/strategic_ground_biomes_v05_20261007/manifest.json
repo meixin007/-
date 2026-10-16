@@ -1,0 +1,16 @@
+{
+  "bundle_id": "strategic_ground_biomes_v05_20261007",
+  "version": 1,
+  "extends": "strategic_ground_v02_20261007",
+  "asset_review_status": "CANDIDATE_NOT_USER_ACCEPTED",
+  "assets": [
+    {
+      "file": "ground-biomes-v05.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1768656,
+      "sha256": "87458d3a69483ef0fbbd7219b4b0f166f3d913a5e8cdf2607f07d3ed06be0715"
+    }
+  ]
+}

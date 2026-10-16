@@ -1,0 +1,653 @@
+{
+  "schema_version": 1,
+  "site_id": "tongguan",
+  "scenario_year": 756,
+  "slots": [
+    {
+      "id": "tongguan.slot.rear_storage_01",
+      "allowed": true,
+      "reasons": [],
+      "full_slot_slope_max_degrees": 2.6030209064483643,
+      "footprint_m": [
+        [
+          -583.5,
+          -239.5
+        ],
+        [
+          -551.5,
+          -239.5
+        ],
+        [
+          -551.5,
+          -217.5
+        ],
+        [
+          -583.5,
+          -217.5
+        ]
+      ],
+      "min_main_corridor_distance_m": 149.839
+    },
+    {
+      "id": "tongguan.slot.rear_military_01",
+      "allowed": true,
+      "reasons": [],
+      "full_slot_slope_max_degrees": 2.9061875343322754,
+      "footprint_m": [
+        [
+          -523.5,
+          -239.5
+        ],
+        [
+          -491.5,
+          -239.5
+        ],
+        [
+          -491.5,
+          -217.5
+        ],
+        [
+          -523.5,
+          -217.5
+        ]
+      ],
+      "min_main_corridor_distance_m": 156.652
+    },
+    {
+      "id": "tongguan.slot.rear_workshop_01",
+      "allowed": true,
+      "reasons": [],
+      "full_slot_slope_max_degrees": 3.0881264209747314,
+      "footprint_m": [
+        [
+          -463.5,
+          -239.5
+        ],
+        [
+          -431.5,
+          -239.5
+        ],
+        [
+          -431.5,
+          -217.5
+        ],
+        [
+          -463.5,
+          -217.5
+        ]
+      ],
+      "min_main_corridor_distance_m": 163.465
+    },
+    {
+      "id": "tongguan.slot.civil_01",
+      "allowed": true,
+      "reasons": [],
+      "full_slot_slope_max_degrees": 1.6603325605392456,
+      "footprint_m": [
+        [
+          -403.5,
+          -239.5
+        ],
+        [
+          -371.5,
+          -239.5
+        ],
+        [
+          -371.5,
+          -217.5
+        ],
+        [
+          -403.5,
+          -217.5
+        ]
+      ],
+      "min_main_corridor_distance_m": 170.277
+    },
+    {
+      "id": "tongguan.slot.civil_02",
+      "allowed": true,
+      "reasons": [],
+      "full_slot_slope_max_degrees": 4.497452259063721,
+      "footprint_m": [
+        [
+          -583.5,
+          -199.5
+        ],
+        [
+          -551.5,
+          -199.5
+        ],
+        [
+          -551.5,
+          -177.5
+        ],
+        [
+          -583.5,
+          -177.5
+        ]
+      ],
+      "min_main_corridor_distance_m": 110.098
+    },
+    {
+      "id": "tongguan.slot.rear_support_01",
+      "allowed": true,
+      "reasons": [],
+      "full_slot_slope_max_degrees": 4.243912220001221,
+      "footprint_m": [
+        [
+          -523.5,
+          -199.5
+        ],
+        [
+          -491.5,
+          -199.5
+        ],
+        [
+          -491.5,
+          -177.5
+        ],
+        [
+          -523.5,
+          -177.5
+        ]
+      ],
+      "min_main_corridor_distance_m": 116.91
+    },
+    {
+      "id": "tongguan.slot.expansion_01",
+      "allowed": true,
+      "reasons": [],
+      "full_slot_slope_max_degrees": 4.4940104484558105,
+      "footprint_m": [
+        [
+          -463.5,
+          -199.5
+        ],
+        [
+          -431.5,
+          -199.5
+        ],
+        [
+          -431.5,
+          -177.5
+        ],
+        [
+          -463.5,
+          -177.5
+        ]
+      ],
+      "min_main_corridor_distance_m": 123.723
+    },
+    {
+      "id": "tongguan.slot.expansion_02",
+      "allowed": true,
+      "reasons": [],
+      "full_slot_slope_max_degrees": 4.4940104484558105,
+      "footprint_m": [
+        [
+          -403.5,
+          -199.5
+        ],
+        [
+          -371.5,
+          -199.5
+        ],
+        [
+          -371.5,
+          -177.5
+        ],
+        [
+          -403.5,
+          -177.5
+        ]
+      ],
+      "min_main_corridor_distance_m": 130.536
+    }
+  ],
+  "trees": [
+    {
+      "id": "manual.1",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.0.4",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.0.6",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.1.1",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.1.3",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.1.4",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.1.5",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.1.6",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.2.0",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.2.1",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.2.2",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.2.4",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.2.5",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.3.0",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.3.1",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.3.2",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.3.5",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.3.6",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.4.0",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.4.1",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.4.2",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.4.5",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.5.0",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.5.2",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.5.3",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.5.5",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.5.6",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.6.1",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.6.2",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.6.4",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.6.5",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.7.1",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.7.2",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.7.3",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.7.4",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.7.5",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.8.0",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.8.1",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.8.3",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.8.5",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.8.6",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.9.1",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.9.2",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.9.4",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.9.5",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_east.9.6",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.0.0",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.0.1",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.0.2",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.0.3",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.1.0",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.1.1",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.2.4",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.2.6",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.3.5",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.3.6",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.4.6",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.4.7",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.5.1",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.5.5",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.5.6",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.6.3",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.6.5",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.7.0",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.7.1",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.7.4",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.8.0",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.8.1",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.8.2",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.8.4",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.8.5",
+      "allowed": true,
+      "reasons": []
+    },
+    {
+      "id": "tongguan.decor.forest_west.9.3",
+      "allowed": true,
+      "reasons": []
+    }
+  ],
+  "roads": {
+    "rear_connected_to_candidate": true,
+    "all_slot_sockets_connected": true,
+    "candidate_extension_is_design_only": true
+  },
+  "candidate_crossings": [
+    {
+      "id": "osm_way_361840810_0",
+      "points_m": [
+        [
+          10610.842959,
+          1514.779061
+        ]
+      ],
+      "status": "unresolved_no_runtime_edge",
+      "evidence_class": "modern_water_intersection_not_historical_crossing"
+    },
+    {
+      "id": "osm_way_551673191_0",
+      "points_m": [
+        [
+          -1301.264755,
+          -107.750681
+        ]
+      ],
+      "status": "unresolved_no_runtime_edge",
+      "evidence_class": "modern_water_intersection_not_historical_crossing"
+    },
+    {
+      "id": "osm_way_928699540_0",
+      "points_m": [
+        [
+          -6806.050902,
+          161.898084
+        ]
+      ],
+      "status": "unresolved_no_runtime_edge",
+      "evidence_class": "modern_water_intersection_not_historical_crossing"
+    },
+    {
+      "id": "osm_way_1195134073_0",
+      "points_m": [
+        [
+          495.486913,
+          56.627076
+        ]
+      ],
+      "status": "unresolved_no_runtime_edge",
+      "evidence_class": "modern_water_intersection_not_historical_crossing"
+    }
+  ],
+  "runtime": {
+    "no_water_crossing_edges": true,
+    "edges": [
+      {
+        "id": "tg_east_approach",
+        "water_intersections": [],
+        "synthetic_test_only": false
+      },
+      {
+        "id": "tg_main_gate",
+        "water_intersections": [],
+        "synthetic_test_only": false
+      },
+      {
+        "id": "tg_west_egress",
+        "water_intersections": [],
+        "synthetic_test_only": false
+      },
+      {
+        "id": "tg_synthetic_trail",
+        "water_intersections": [],
+        "synthetic_test_only": true
+      }
+    ],
+    "candidate_extension_authorized": false,
+    "graph_sha256": "22dc31a963c9dcbfcc6c9653468d754be297b3310970ef6b77cc93cec8c40e34"
+  },
+  "modern_dsm_shape_check": {
+    "north_sample_median_m": 328.028,
+    "south_sample_median_m": 546.861,
+    "supports": "modern southern highground shape only; not a 756 terrain survey"
+  },
+  "geometry_acceptance": "technical_checks_only_user_spatial_review_pending"
+}

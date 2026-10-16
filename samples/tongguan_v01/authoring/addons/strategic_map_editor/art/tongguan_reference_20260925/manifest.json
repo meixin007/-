@@ -1,0 +1,19 @@
+{
+  "bundle_id": "tongguan_reference_20260925",
+  "version": 1,
+  "extends": "tongguan_v3",
+  "review_status": "PENDING_USER_REVIEW",
+  "generation_tool": "builtin image_gen",
+  "actual_backend_model": "NOT_EXPOSED",
+  "transparent_background": true,
+  "assets": [
+    {
+      "file": "open_pass.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "892b421fda2ce0ab9110bea523cad324d2db27a4334facd5741d8ee72db37c24",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0d391-efed-76e1-a7ef-5547d0d38e9d\\exec-294f8a97-46ab-4cd6-a35d-6864feec2648.png"
+    }
+  ],
+  "user_direction": "Cancel the central gatehouse; keep an open east-west passage between north and south walls."
+}

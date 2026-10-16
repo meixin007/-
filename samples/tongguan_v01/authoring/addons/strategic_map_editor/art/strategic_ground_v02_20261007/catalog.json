@@ -1,0 +1,75 @@
+{
+  "bundle_id": "strategic_ground_v02_20261007",
+  "version": 1,
+  "extends": "tongguan_v1",
+  "assets": {
+    "ground_study_v02_meadow": {
+      "label": "战略底色 · 平原淡彩",
+      "atlas": "strategic-ground-atlas-v02-soft.png",
+      "group": "ground",
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        103,
+        176,
+        469,
+        400
+      ],
+      "width": 480
+    },
+    "ground_study_v02_earth": {
+      "label": "战略底色 · 浅土过渡",
+      "atlas": "strategic-ground-atlas-v02-soft.png",
+      "group": "ground",
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        701,
+        175,
+        467,
+        407
+      ],
+      "width": 480
+    },
+    "ground_study_v02_shoulder": {
+      "label": "战略底色 · 低丘淡晕",
+      "atlas": "strategic-ground-atlas-v02-soft.png",
+      "group": "ground",
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        103,
+        719,
+        492,
+        406
+      ],
+      "width": 480
+    },
+    "ground_study_v02_forest_floor": {
+      "label": "战略底色 · 林地淡彩",
+      "atlas": "strategic-ground-atlas-v02-soft.png",
+      "group": "ground",
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        697,
+        728,
+        473,
+        409
+      ],
+      "width": 480
+    }
+  }
+}

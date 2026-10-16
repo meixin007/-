@@ -1,0 +1,33 @@
+{
+  "schema_version": 107,
+  "campaign_id": "anshi_beta_1_07",
+  "scenario": {"start_phase": "opening"},
+  "factions": [],
+  "governance_manifest": "governance_beta_1_07.json",
+  "characters": [
+    {"id": "guo_ziyi", "name": "郭子仪", "status": "active", "governance_ability": 8},
+    {"id": "li_bi", "name": "李泌", "status": "active", "governance_ability": 7},
+    {"id": "grain_official_lingwu", "name": "灵武粮官", "status": "active", "governance_ability": 6},
+    {"id": "li_fuguo", "name": "李辅国", "status": "active", "governance_ability": 5},
+    {"id": "uighur_envoy", "name": "回纥使者", "status": "active", "governance_ability": 6}
+  ],
+  "offices": [
+    {"office_id": "zhongshu_drafting"},
+    {"office_id": "menxia_review"},
+    {"office_id": "grain_office"},
+    {"office_id": "inner_court_office"}
+  ],
+  "local_nodes": [
+    {"node_id": "lingwu"},
+    {"node_id": "shuofang_front_node"},
+    {"node_id": "chang_an"},
+    {"node_id": "hexi_route"},
+    {"node_id": "uighur_gate"}
+  ],
+  "resources": {
+    "grain": 1200,
+    "treasury": 900,
+    "court_authority": 100,
+    "public_order": 60
+  }
+}

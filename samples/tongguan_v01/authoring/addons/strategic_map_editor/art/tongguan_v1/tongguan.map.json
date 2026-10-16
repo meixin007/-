@@ -1,0 +1,4003 @@
+{
+  "canvas_size": [
+    14880,
+    9600
+  ],
+  "document_type": "strategic_map_authoring",
+  "features": [
+    {
+      "domain_id": "lingwu_court_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_lingwu_court_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "灵武",
+      "note": "",
+      "points": [
+        [
+          7960.80029296875,
+          4080.0
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "shuofang_front_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_shuofang_front_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "朔方",
+      "note": "",
+      "points": [
+        [
+          7960.80029296875,
+          3840.0
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "grain_road_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_grain_road_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "太仓",
+      "note": "",
+      "points": [
+        [
+          7112.6396484375,
+          4099.19970703125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "guanzhong_approach_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_guanzhong_approach_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "关中",
+      "note": "",
+      "points": [
+        [
+          8139.35986328125,
+          4944.0
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "changan_pressure_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_changan_pressure_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "长安",
+      "note": "",
+      "points": [
+        [
+          8630.3994140625,
+          4963.2001953125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "hedong_relay_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_hedong_relay_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "河东",
+      "note": "",
+      "points": [
+        [
+          9627.3603515625,
+          4512.0
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "uighur_route_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_uighur_route_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "回纥",
+      "note": "",
+      "points": [
+        [
+          7201.919921875,
+          1852.80004882813
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "hebei_rebel_signal_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_hebei_rebel_signal_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "常山",
+      "note": "",
+      "points": [
+        [
+          9969.6005859375,
+          4041.60009765625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "luoyang_rumor_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_luoyang_rumor_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "洛阳",
+      "note": "",
+      "points": [
+        [
+          9463.6796875,
+          4876.80029296875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "refugee_market_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_refugee_market_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "商洛",
+      "note": "",
+      "points": [
+        [
+          8868.48046875,
+          5068.7998046875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "palace_inner_channel_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_palace_inner_channel_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "秦岭",
+      "note": "",
+      "points": [
+        [
+          8481.599609375,
+          5040.0
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "desert_envoy_road_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_desert_envoy_road_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "凉州",
+      "note": "",
+      "points": [
+        [
+          6591.83984375,
+          3849.59985351563
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "tongguan_pass_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_tongguan_pass_node",
+      "kind": "pass",
+      "layer": "sites",
+      "name": "潼关",
+      "note": "",
+      "points": [
+        [
+          8957.759765625,
+          4905.599609375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "taiyuan_hub_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_taiyuan_hub_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "太原",
+      "note": "",
+      "points": [
+        [
+          9493.4404296875,
+          4108.7998046875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "fanyang_rebel_hub_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_fanyang_rebel_hub_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "范阳",
+      "note": "",
+      "points": [
+        [
+          10401.1201171875,
+          3619.19995117188
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "suiyang_hub_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_suiyang_hub_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "睢阳",
+      "note": "图面对象为睢阳城。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+      "points": [
+        [
+          10222.5595703125,
+          4953.599609375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "yangzhou_tribute_hub_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_yangzhou_tribute_hub_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "扬州",
+      "note": "",
+      "points": [
+        [
+          11145.1201171875,
+          5424.0
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "jianmen_pass_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_jianmen_pass_node",
+      "kind": "pass",
+      "layer": "sites",
+      "name": "剑门",
+      "note": "",
+      "points": [
+        [
+          7797.11962890625,
+          5500.80029296875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "chengdou_rear_hub_node",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_chengdou_rear_hub_node",
+      "kind": "city",
+      "layer": "sites",
+      "name": "成都",
+      "note": "",
+      "points": [
+        [
+          7454.8798828125,
+          5836.7998046875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_fengxiang",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_fengxiang",
+      "kind": "city",
+      "layer": "sites",
+      "name": "凤翔",
+      "note": "",
+      "points": [
+        [
+          8253.9365234375,
+          4914.240234375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_huazhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_huazhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "华州",
+      "note": "",
+      "points": [
+        [
+          8822.3515625,
+          4916.15966796875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_tongzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_tongzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "同州",
+      "note": "",
+      "points": [
+        [
+          8865.50390625,
+          4848.9599609375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_binzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_binzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "邠州",
+      "note": "",
+      "points": [
+        [
+          8419.1044921875,
+          4790.39990234375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_jingzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_jingzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "泾州",
+      "note": "",
+      "points": [
+        [
+          8245.0078125,
+          4716.47998046875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_yanzhou_north",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_yanzhou_north",
+      "kind": "city",
+      "layer": "sites",
+      "name": "延州",
+      "note": "",
+      "points": [
+        [
+          8758.3681640625,
+          4415.0400390625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_qingzhou_west",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_qingzhou_west",
+      "kind": "city",
+      "layer": "sites",
+      "name": "庆州",
+      "note": "",
+      "points": [
+        [
+          8370.0,
+          4558.080078125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_yuanzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_yuanzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "原州",
+      "note": "图面对象为原州州治。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+      "points": [
+        [
+          7987.58447265625,
+          4558.080078125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_bianzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_bianzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "汴州",
+      "note": "",
+      "points": [
+        [
+          9916.0322265625,
+          4847.0400390625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_songzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_songzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "宋州",
+      "note": "",
+      "points": [
+        [
+          10225.5361328125,
+          4952.64013671875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_zhengzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_zhengzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "郑州",
+      "note": "",
+      "points": [
+        [
+          9758.3037109375,
+          4859.52001953125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_xuzhou_henan",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_xuzhou_henan",
+      "kind": "city",
+      "layer": "sites",
+      "name": "许州",
+      "note": "",
+      "points": [
+        [
+          9795.50390625,
+          5033.27978515625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_shanzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_shanzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "陕州",
+      "note": "图面对象为陕州州治。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+      "points": [
+        [
+          9154.17578125,
+          4848.9599609375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_caozhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_caozhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "曹州",
+      "note": "",
+      "points": [
+        [
+          10183.8720703125,
+          4790.39990234375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_yunzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_yunzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "郓州",
+      "note": "",
+      "points": [
+        [
+          10413.0244140625,
+          4566.7197265625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_qizhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_qizhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "齐州",
+      "note": "",
+      "points": [
+        [
+          10554.3837890625,
+          4399.68017578125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_dengzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_dengzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "登州",
+      "note": "",
+      "points": [
+        [
+          11460.576171875,
+          4126.080078125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_laizhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_laizhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "莱州",
+      "note": "",
+      "points": [
+        [
+          11265.6474609375,
+          4277.76025390625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_yanzhou_east",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_yanzhou_east",
+      "kind": "city",
+      "layer": "sites",
+      "name": "兖州",
+      "note": "",
+      "points": [
+        [
+          10517.18359375,
+          4667.52001953125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_qingzhou_east",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_qingzhou_east",
+      "kind": "city",
+      "layer": "sites",
+      "name": "青州",
+      "note": "",
+      "points": [
+        [
+          10914.48046875,
+          4394.8798828125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_puzhou_henan",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_puzhou_henan",
+      "kind": "city",
+      "layer": "sites",
+      "name": "濮州",
+      "note": "",
+      "points": [
+        [
+          10201.7275390625,
+          4639.68017578125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_weizhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_weizhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "魏州",
+      "note": "",
+      "points": [
+        [
+          10128.81640625,
+          4488.9599609375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_youzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_youzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "幽州",
+      "note": "",
+      "points": [
+        [
+          10404.095703125,
+          3619.19995117188
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_cangzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_cangzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "沧州",
+      "note": "",
+      "points": [
+        [
+          10566.2880859375,
+          4031.0400390625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_jizhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_jizhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "冀州",
+      "note": "",
+      "points": [
+        [
+          10215.1201171875,
+          4183.6796875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_beizhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_beizhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "贝州",
+      "note": "",
+      "points": [
+        [
+          10227.0244140625,
+          4299.83984375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_dingzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_dingzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "定州",
+      "note": "",
+      "points": [
+        [
+          10073.759765625,
+          3955.19995117188
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_yingzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_yingzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "瀛州",
+      "note": "",
+      "points": [
+        [
+          10340.111328125,
+          3975.35986328125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_xiangzhou_north",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_xiangzhou_north",
+      "kind": "city",
+      "layer": "sites",
+      "name": "相州",
+      "note": "",
+      "points": [
+        [
+          9923.4716796875,
+          4536.0
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_mozhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_mozhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "莫州",
+      "note": "",
+      "points": [
+        [
+          10346.0634765625,
+          3873.59985351563
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_bozhou_hebei",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_bozhou_hebei",
+      "kind": "city",
+      "layer": "sites",
+      "name": "博州",
+      "note": "",
+      "points": [
+        [
+          10338.6240234375,
+          4434.23974609375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_dezhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_dezhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "德州",
+      "note": "",
+      "points": [
+        [
+          10456.1767578125,
+          4239.35986328125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_puzhou_hedong",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_puzhou_hedong",
+      "kind": "city",
+      "layer": "sites",
+      "name": "蒲州",
+      "note": "图面对象为蒲州城；城西的蒲津渡应另作设施。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+      "points": [
+        [
+          8959.248046875,
+          4839.3603515625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_jinzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_jinzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "晋州",
+      "note": "",
+      "points": [
+        [
+          9219.6484375,
+          4545.60009765625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_jiangzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_jiangzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "绛州",
+      "note": "",
+      "points": [
+        [
+          9173.5205078125,
+          4653.1201171875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_luzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_luzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "潞州",
+      "note": "",
+      "points": [
+        [
+          9624.3837890625,
+          4515.83984375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_fenzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_fenzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "汾州",
+      "note": "",
+      "points": [
+        [
+          9307.4404296875,
+          4256.64013671875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_daizhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_daizhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "代州",
+      "note": "图面对象为代州州治；不把州城替作雁门关址。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+      "points": [
+        [
+          9587.18359375,
+          3825.59985351563
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_shuozhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_shuozhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "朔州",
+      "note": "",
+      "points": [
+        [
+          9460.7041015625,
+          3766.080078125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_yunzhou_north",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_yunzhou_north",
+      "kind": "city",
+      "layer": "sites",
+      "name": "云州",
+      "note": "",
+      "points": [
+        [
+          9670.5126953125,
+          3577.92016601563
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_weizhou_hedong",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_weizhou_hedong",
+      "kind": "city",
+      "layer": "sites",
+      "name": "蔚州",
+      "note": "图面对象为蔚州州治。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+      "points": [
+        [
+          9895.2001953125,
+          3734.39990234375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_chuzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_chuzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "楚州",
+      "note": "",
+      "points": [
+        [
+          11073.6962890625,
+          5159.0400390625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_runzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_runzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "润州",
+      "note": "",
+      "points": [
+        [
+          11146.6083984375,
+          5470.080078125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_suzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_suzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "苏州",
+      "note": "",
+      "points": [
+        [
+          11427.83984375,
+          5685.11962890625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_hangzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_hangzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "杭州",
+      "note": "",
+      "points": [
+        [
+          11320.7041015625,
+          5929.919921875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_yuezhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_yuezhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "越州",
+      "note": "",
+      "points": [
+        [
+          11418.912109375,
+          5999.0400390625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_huzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_huzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "湖州",
+      "note": "",
+      "points": [
+        [
+          11304.3359375,
+          5792.64013671875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_xuanzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_xuanzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "宣州",
+      "note": "",
+      "points": [
+        [
+          10978.4638671875,
+          5772.47998046875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_hongzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_hongzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "洪州",
+      "note": "",
+      "points": [
+        [
+          10295.47265625,
+          6317.76025390625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_jiangzhou_south",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_jiangzhou_south",
+      "kind": "city",
+      "layer": "sites",
+      "name": "江州",
+      "note": "",
+      "points": [
+        [
+          10316.3037109375,
+          6067.2001953125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_raozhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_raozhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "饶州",
+      "note": "",
+      "points": [
+        [
+          10478.49609375,
+          6240.9599609375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_tanzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_tanzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "潭州",
+      "note": "",
+      "points": [
+        [
+          9594.6240234375,
+          6432.0
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_hengzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_hengzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "衡州",
+      "note": "",
+      "points": [
+        [
+          9503.8564453125,
+          6744.0
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_shouzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_shouzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "寿州",
+      "note": "",
+      "points": [
+        [
+          10506.767578125,
+          5381.759765625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_luzhou_south",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_luzhou_south",
+      "kind": "city",
+      "layer": "sites",
+      "name": "庐州",
+      "note": "",
+      "points": [
+        [
+          10625.8076171875,
+          5552.64013671875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_liangzhou_south",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_liangzhou_south",
+      "kind": "city",
+      "layer": "sites",
+      "name": "梁州",
+      "note": "",
+      "points": [
+        [
+          8169.12060546875,
+          5262.72021484375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_jinzhou_south",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_jinzhou_south",
+      "kind": "city",
+      "layer": "sites",
+      "name": "金州",
+      "note": "",
+      "points": [
+        [
+          8645.279296875,
+          5352.0
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_yangzhou_west",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_yangzhou_west",
+      "kind": "city",
+      "layer": "sites",
+      "name": "洋州",
+      "note": "图面对象为洋州州治。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+      "points": [
+        [
+          8346.19140625,
+          5279.0400390625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_mianzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_mianzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "绵州",
+      "note": "图面对象为绵州州治。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+      "points": [
+        [
+          7623.0244140625,
+          5645.76025390625
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_zizhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_zizhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "梓州",
+      "note": "",
+      "points": [
+        [
+          7700.39990234375,
+          5738.88037109375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_suizhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_suizhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "遂州",
+      "note": "",
+      "points": [
+        [
+          7817.95166015625,
+          5878.07958984375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_jiazhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_jiazhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "嘉州",
+      "note": "",
+      "points": [
+        [
+          7383.4560546875,
+          6104.64013671875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_rongzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_rongzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "戎州",
+      "note": "",
+      "points": [
+        [
+          7631.9521484375,
+          6286.080078125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_lanzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_lanzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "兰州",
+      "note": "图面对象为兰州州治；渡河设施不等同城点。原战略节点仍保留 node_type=pass / is_pass=true；本标记不代表已定位的实体关隘。依据：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+      "points": [
+        [
+          7402.7998046875,
+          4548.47998046875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json；图面分类复核：docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_qinzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_qinzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "秦州",
+      "note": "",
+      "points": [
+        [
+          7811.99951171875,
+          4802.8798828125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_weizhou_west",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_weizhou_west",
+      "kind": "city",
+      "layer": "sites",
+      "name": "渭州",
+      "note": "",
+      "points": [
+        [
+          7593.263671875,
+          4802.8798828125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_shanzhou_west",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_shanzhou_west",
+      "kind": "city",
+      "layer": "sites",
+      "name": "鄯州",
+      "note": "",
+      "points": [
+        [
+          7056.09619140625,
+          4444.7998046875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_guangzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_guangzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "广州",
+      "note": "",
+      "points": [
+        [
+          9661.583984375,
+          7647.35986328125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_guizhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_guizhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "桂州",
+      "note": "",
+      "points": [
+        [
+          8948.83203125,
+          7132.7998046875
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_fuzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_fuzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "福州",
+      "note": "",
+      "points": [
+        [
+          11116.84765625,
+          6942.72021484375
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "zhou_quanzhou",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "project_anchors",
+      "hidden_route": false,
+      "holes": [],
+      "id": "anchor_zhou_quanzhou",
+      "kind": "city",
+      "layer": "sites",
+      "name": "泉州",
+      "note": "",
+      "points": [
+        [
+          10941.263671875,
+          7222.080078125
+        ]
+      ],
+      "protected": true,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "era": "项目当前剧本定义；未新增历史考证",
+        "status": "candidate"
+      },
+      "width": 32.0
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "tongguan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "tg_guanzhong",
+      "kind": "basin",
+      "layer": "terrain",
+      "name": "关中平原",
+      "note": "",
+      "points": [
+        [
+          8547.759765625,
+          4860.599609375
+        ],
+        [
+          8882.759765625,
+          4860.599609375
+        ],
+        [
+          8852.759765625,
+          4965.599609375
+        ],
+        [
+          8547.759765625,
+          5020.599609375
+        ]
+      ],
+      "protected": false,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 16.0
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "tongguan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "tg_yellow_river",
+      "kind": "water",
+      "layer": "water",
+      "name": "黄河 · 无渡点不可步行跨越",
+      "note": "同州在西侧陆地、蒲州在东岸、陕州在东流段南岸；不是唐代精确河道复原。",
+      "points": [
+        [
+          8927.259765625,
+          4839.83210754395
+        ],
+        [
+          8944.46914672852,
+          4853.599609375
+        ],
+        [
+          9008.05230712891,
+          4853.599609375
+        ],
+        [
+          9059.60049438477,
+          4805.80039215088
+        ],
+        [
+          9062.44580078125,
+          4803.84034729004
+        ],
+        [
+          9065.73162841797,
+          4802.77224731445
+        ],
+        [
+          9067.759765625,
+          4802.599609375
+        ],
+        [
+          9379.759765625,
+          4802.599609375
+        ],
+        [
+          9379.759765625,
+          4826.599609375
+        ],
+        [
+          9072.46722412109,
+          4826.599609375
+        ],
+        [
+          9020.91903686523,
+          4874.39883422852
+        ],
+        [
+          9018.07373046875,
+          4876.35887145996
+        ],
+        [
+          9014.78790283203,
+          4877.42697143555
+        ],
+        [
+          9012.759765625,
+          4877.599609375
+        ],
+        [
+          8940.259765625,
+          4877.599609375
+        ],
+        [
+          8936.84069824219,
+          4877.10221862793
+        ],
+        [
+          8933.70504760742,
+          4875.65126037598
+        ],
+        [
+          8932.76342773438,
+          4874.97003173828
+        ],
+        [
+          8907.76342773438,
+          4854.97003173828
+        ],
+        [
+          8905.404296875,
+          4852.44575500488
+        ],
+        [
+          8903.86218261719,
+          4849.3539276123
+        ],
+        [
+          8903.26489257813,
+          4845.95088195801
+        ],
+        [
+          8903.259765625,
+          4845.599609375
+        ],
+        [
+          8903.259765625,
+          4638.599609375
+        ],
+        [
+          8927.259765625,
+          4638.599609375
+        ]
+      ],
+      "protected": false,
+      "rule": "water",
+      "scale": 0.5,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+        "era": "宏观岸别与谷地关系有出处；边界为项目固定锚点下的结构示意",
+        "status": "schematic"
+      },
+      "width": 16.0
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "tongguan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "tg_qinling",
+      "kind": "mountain",
+      "layer": "terrain",
+      "name": "华山 · 秦岭屏障",
+      "note": "秦岭主体仍禁行；仅按商丹谷地宏观关系为商洛保留东南开口。",
+      "points": [
+        [
+          8547.759765625,
+          5030.599609375
+        ],
+        [
+          8817.759765625,
+          4970.599609375
+        ],
+        [
+          8907.759765625,
+          4860.599609375
+        ],
+        [
+          9007.759765625,
+          4860.599609375
+        ],
+        [
+          9087.759765625,
+          4980.599609375
+        ],
+        [
+          9347.759765625,
+          5030.599609375
+        ],
+        [
+          9347.759765625,
+          5170.599609375
+        ],
+        [
+          8993.48049926758,
+          5170.599609375
+        ],
+        [
+          8948.48046875,
+          5101.2998046875
+        ],
+        [
+          8913.48046875,
+          5063.7998046875
+        ],
+        [
+          8883.48046875,
+          5036.2998046875
+        ],
+        [
+          8838.48046875,
+          5036.2998046875
+        ],
+        [
+          8830.98046875,
+          5086.2998046875
+        ],
+        [
+          8860.98046875,
+          5116.2998046875
+        ],
+        [
+          8885.98046875,
+          5170.599609375
+        ],
+        [
+          8547.759765625,
+          5170.599609375
+        ]
+      ],
+      "protected": false,
+      "rule": "blocked",
+      "scale": 0.5,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+        "era": "宏观岸别与谷地关系有出处；边界为项目固定锚点下的结构示意",
+        "status": "schematic"
+      },
+      "width": 16.0
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "tongguan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "tg_xiaohan",
+      "kind": "hills",
+      "layer": "terrain",
+      "name": "崤函低丘 · 可通行 / 易设伏",
+      "note": "",
+      "points": [
+        [
+          9072.759765625,
+          4935.599609375
+        ],
+        [
+          9272.759765625,
+          4930.599609375
+        ],
+        [
+          9317.759765625,
+          5005.599609375
+        ],
+        [
+          9112.759765625,
+          5005.599609375
+        ]
+      ],
+      "protected": false,
+      "rule": "rough",
+      "scale": 0.5,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 16.0
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "tongguan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "tg_woods",
+      "kind": "forest",
+      "layer": "terrain",
+      "name": "林地 · 可通行 / 较慢",
+      "note": "",
+      "points": [
+        [
+          8647.759765625,
+          4935.599609375
+        ],
+        [
+          8767.759765625,
+          4930.599609375
+        ],
+        [
+          8802.759765625,
+          4970.599609375
+        ],
+        [
+          8677.759765625,
+          5000.599609375
+        ]
+      ],
+      "protected": false,
+      "rule": "rough",
+      "scale": 0.5,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 16.0
+    },
+    {
+      "domain_id": "",
+      "gate_id": "anchor_tongguan_pass_node",
+      "gate_open": true,
+      "group_id": "tongguan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "tg_main_valley",
+      "kind": "valley",
+      "layer": "passages",
+      "name": "沿河谷道",
+      "note": "",
+      "points": [
+        [
+          8847.759765625,
+          4905.599609375
+        ],
+        [
+          9072.759765625,
+          4905.599609375
+        ]
+      ],
+      "protected": false,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 48.0
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "tongguan",
+      "hidden_route": true,
+      "holes": [],
+      "id": "tg_secret_trail",
+      "kind": "trail",
+      "layer": "passages",
+      "name": "山间险径 · 仅轻装 / 需发现",
+      "note": "",
+      "points": [
+        [
+          8807.759765625,
+          4925.599609375
+        ],
+        [
+          8857.759765625,
+          4970.599609375
+        ],
+        [
+          8907.759765625,
+          5030.599609375
+        ],
+        [
+          9047.759765625,
+          5030.599609375
+        ],
+        [
+          9107.759765625,
+          4945.599609375
+        ],
+        [
+          9137.759765625,
+          4925.599609375
+        ]
+      ],
+      "protected": false,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 24.0
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "tongguan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "tg_west_city",
+      "kind": "city",
+      "layer": "sites",
+      "name": "关中一侧",
+      "note": "",
+      "points": [
+        [
+          8672.759765625,
+          4905.599609375
+        ]
+      ],
+      "protected": false,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 16.0
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "tongguan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "tg_east_city",
+      "kind": "city",
+      "layer": "sites",
+      "name": "崤函一侧",
+      "note": "",
+      "points": [
+        [
+          9212.759765625,
+          4905.599609375
+        ]
+      ],
+      "protected": false,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 16.0
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "tongguan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "tg_water_label",
+      "kind": "label",
+      "layer": "notes",
+      "name": "黄  河",
+      "note": "",
+      "points": [
+        [
+          9177.759765625,
+          4808.099609375
+        ]
+      ],
+      "protected": false,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 16.0
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "tongguan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "tg_shangluo_basin",
+      "kind": "basin",
+      "layer": "terrain",
+      "name": "商洛—商丹谷地（结构示意）",
+      "note": "保留商洛既有节点，补出可落脚并向东南开口的谷地；不据此新增正式跨秦岭行军路线。",
+      "points": [
+        [
+          8838.48046875,
+          5036.2998046875
+        ],
+        [
+          8883.48046875,
+          5036.2998046875
+        ],
+        [
+          8913.48046875,
+          5063.7998046875
+        ],
+        [
+          8948.48046875,
+          5101.2998046875
+        ],
+        [
+          8993.48046875,
+          5170.599609375
+        ],
+        [
+          9018.48046875,
+          5210.599609375
+        ],
+        [
+          8913.48046875,
+          5210.599609375
+        ],
+        [
+          8885.98046875,
+          5170.599609375
+        ],
+        [
+          8860.98046875,
+          5116.2998046875
+        ],
+        [
+          8830.98046875,
+          5086.2998046875
+        ]
+      ],
+      "protected": false,
+      "rule": "none",
+      "scale": 0.5,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_MAP_EDITOR_SAMPLE_REVIEW_2026-09-23.md",
+        "era": "宏观岸别与谷地关系有出处；边界为项目固定锚点下的结构示意",
+        "status": "schematic"
+      },
+      "width": 16
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "sichuan",
+      "hidden_route": false,
+      "holes": [
+        [
+          [
+            7437.11962890625,
+            5662.80029296875
+          ],
+          [
+            7797.11962890625,
+            5590.80029296875
+          ],
+          [
+            8025.11962890625,
+            5632.80029296875
+          ],
+          [
+            8073.11962890625,
+            5782.80029296875
+          ],
+          [
+            7977.11962890625,
+            5998.80029296875
+          ],
+          [
+            7617.11962890625,
+            6022.80029296875
+          ],
+          [
+            7413.11962890625,
+            5872.80029296875
+          ]
+        ]
+      ],
+      "id": "shu_mountains",
+      "kind": "mountain",
+      "layer": "terrain",
+      "name": "盆地外围山系（结构示意）",
+      "note": "",
+      "points": [
+        [
+          7377.11962890625,
+          5470.80029296875
+        ],
+        [
+          7767.11962890625,
+          5422.80029296875
+        ],
+        [
+          8127.11962890625,
+          5500.80029296875
+        ],
+        [
+          8229.11962890625,
+          5662.80029296875
+        ],
+        [
+          8169.11962890625,
+          6094.80029296875
+        ],
+        [
+          7437.11962890625,
+          6142.80029296875
+        ],
+        [
+          7341.11962890625,
+          5782.80029296875
+        ]
+      ],
+      "protected": false,
+      "rule": "blocked",
+      "scale": 0.6,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 19.2
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "sichuan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "shu_basin",
+      "kind": "basin",
+      "layer": "terrain",
+      "name": "四川盆地内部",
+      "note": "",
+      "points": [
+        [
+          7446.11962890625,
+          5671.80029296875
+        ],
+        [
+          7797.11962890625,
+          5602.80029296875
+        ],
+        [
+          8013.11962890625,
+          5641.80029296875
+        ],
+        [
+          8055.11962890625,
+          5776.80029296875
+        ],
+        [
+          7965.11962890625,
+          5986.80029296875
+        ],
+        [
+          7623.11962890625,
+          6010.80029296875
+        ],
+        [
+          7425.11962890625,
+          5866.80029296875
+        ]
+      ],
+      "protected": false,
+      "rule": "none",
+      "scale": 0.6,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 19.2
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "sichuan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "shu_hills",
+      "kind": "hills",
+      "layer": "terrain",
+      "name": "盆地内低丘 · 可以穿行",
+      "note": "",
+      "points": [
+        [
+          7791.11962890625,
+          5740.80029296875
+        ],
+        [
+          7965.11962890625,
+          5698.80029296875
+        ],
+        [
+          8013.11962890625,
+          5872.80029296875
+        ],
+        [
+          7797.11962890625,
+          5980.80029296875
+        ]
+      ],
+      "protected": false,
+      "rule": "rough",
+      "scale": 0.6,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 19.2
+    },
+    {
+      "domain_id": "",
+      "gate_id": "anchor_jianmen_pass_node",
+      "gate_open": true,
+      "group_id": "sichuan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "shu_north",
+      "kind": "valley",
+      "layer": "passages",
+      "name": "剑门北向谷口",
+      "note": "",
+      "points": [
+        [
+          7797.11962890625,
+          5386.80029296875
+        ],
+        [
+          7797.11962890625,
+          5644.80029296875
+        ]
+      ],
+      "protected": false,
+      "rule": "none",
+      "scale": 0.6,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 57.6
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "sichuan",
+      "hidden_route": true,
+      "holes": [],
+      "id": "shu_trail",
+      "kind": "trail",
+      "layer": "passages",
+      "name": "北缘轻装险径（候选）",
+      "note": "",
+      "points": [
+        [
+          7713.11962890625,
+          5422.80029296875
+        ],
+        [
+          7707.11962890625,
+          5506.80029296875
+        ],
+        [
+          7713.11962890625,
+          5578.80029296875
+        ],
+        [
+          7749.11962890625,
+          5656.80029296875
+        ]
+      ],
+      "protected": false,
+      "rule": "none",
+      "scale": 0.6,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 28.8
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "sichuan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "shu_east",
+      "kind": "valley",
+      "layer": "passages",
+      "name": "东侧另一路出口（结构保留）",
+      "note": "",
+      "points": [
+        [
+          8007.11962890625,
+          5752.80029296875
+        ],
+        [
+          8277.11962890625,
+          5752.80029296875
+        ]
+      ],
+      "protected": false,
+      "rule": "none",
+      "scale": 0.6,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 57.6
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "sichuan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "shu_river",
+      "kind": "river",
+      "layer": "water",
+      "name": "盆地水系示意",
+      "note": "",
+      "points": [
+        [
+          7737.11962890625,
+          5842.80029296875
+        ],
+        [
+          7893.11962890625,
+          5902.80029296875
+        ],
+        [
+          8097.11962890625,
+          5872.80029296875
+        ],
+        [
+          8277.11962890625,
+          5812.80029296875
+        ]
+      ],
+      "protected": false,
+      "rule": "water",
+      "scale": 0.6,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 19.2
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "sichuan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "shu_forest",
+      "kind": "forest",
+      "layer": "terrain",
+      "name": "低丘林地 · 遮蔽条件示意",
+      "note": "",
+      "points": [
+        [
+          7557.11962890625,
+          5800.80029296875
+        ],
+        [
+          7677.11962890625,
+          5782.80029296875
+        ],
+        [
+          7701.11962890625,
+          5944.80029296875
+        ],
+        [
+          7605.11962890625,
+          5938.80029296875
+        ]
+      ],
+      "protected": false,
+      "rule": "rough",
+      "scale": 0.6,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 19.2
+    },
+    {
+      "domain_id": "",
+      "gate_id": "",
+      "gate_open": true,
+      "group_id": "sichuan",
+      "hidden_route": false,
+      "holes": [],
+      "id": "shu_label",
+      "kind": "label",
+      "layer": "notes",
+      "name": "四川盆地",
+      "note": "",
+      "points": [
+        [
+          7707.11962890625,
+          5728.80029296875
+        ]
+      ],
+      "protected": false,
+      "rule": "none",
+      "scale": 0.6,
+      "source": {
+        "citation": "docs/map-production/STRATEGIC_TERRAIN_DESIGN_DRAFT_2026-09-23.md",
+        "era": "战略空间结构示意，非历史测绘",
+        "status": "schematic"
+      },
+      "width": 19.2
+    }
+  ],
+  "layers": [
+    {
+      "id": "terrain",
+      "locked": false,
+      "visible": true
+    },
+    {
+      "id": "water",
+      "locked": false,
+      "visible": true
+    },
+    {
+      "id": "passages",
+      "locked": false,
+      "visible": true
+    },
+    {
+      "id": "boundaries",
+      "locked": false,
+      "visible": true
+    },
+    {
+      "id": "sites",
+      "locked": false,
+      "visible": true
+    },
+    {
+      "id": "notes",
+      "locked": false,
+      "visible": true
+    }
+  ],
+  "production": {
+    "audit_reviews": {},
+    "calibrations": {},
+    "checks": [
+      {
+        "expected": true,
+        "finish": [
+          9212.759765625,
+          4905.599609375
+        ],
+        "gates": {
+          "anchor_tongguan_pass_node": true
+        },
+        "id": "tg_open",
+        "name": "开放关口 · 大军通过",
+        "rect": [
+          8547.759765625,
+          4690.599609375,
+          800.0,
+          480.0
+        ],
+        "revealed": false,
+        "start": [
+          8672.759765625,
+          4905.599609375
+        ],
+        "step": 4.0,
+        "unit": "army"
+      },
+      {
+        "expected": false,
+        "finish": [
+          9212.759765625,
+          4905.599609375
+        ],
+        "gates": {
+          "anchor_tongguan_pass_node": false
+        },
+        "id": "tg_closed",
+        "name": "关闭关口 · 大军受阻",
+        "rect": [
+          8547.759765625,
+          4690.599609375,
+          800.0,
+          480.0
+        ],
+        "revealed": false,
+        "start": [
+          8672.759765625,
+          4905.599609375
+        ],
+        "step": 4.0,
+        "unit": "army"
+      },
+      {
+        "expected": false,
+        "finish": [
+          9212.759765625,
+          4905.599609375
+        ],
+        "gates": {
+          "anchor_tongguan_pass_node": false
+        },
+        "id": "tg_unknown_trail",
+        "name": "未发现险径 · 小队受阻",
+        "rect": [
+          8547.759765625,
+          4690.599609375,
+          800.0,
+          480.0
+        ],
+        "revealed": false,
+        "start": [
+          8672.759765625,
+          4905.599609375
+        ],
+        "step": 4.0,
+        "unit": "light"
+      },
+      {
+        "expected": true,
+        "finish": [
+          9212.759765625,
+          4905.599609375
+        ],
+        "gates": {
+          "anchor_tongguan_pass_node": false
+        },
+        "id": "tg_known_trail",
+        "name": "发现险径 · 小队绕行",
+        "rect": [
+          8547.759765625,
+          4690.599609375,
+          800.0,
+          480.0
+        ],
+        "revealed": true,
+        "start": [
+          8672.759765625,
+          4905.599609375
+        ],
+        "step": 4.0,
+        "unit": "light"
+      },
+      {
+        "expected": false,
+        "finish": [
+          9212.759765625,
+          4905.599609375
+        ],
+        "gates": {
+          "anchor_tongguan_pass_node": false
+        },
+        "id": "tg_army_trail",
+        "name": "发现险径 · 大军仍受阻",
+        "rect": [
+          8547.759765625,
+          4690.599609375,
+          800.0,
+          480.0
+        ],
+        "revealed": true,
+        "start": [
+          8672.759765625,
+          4905.599609375
+        ],
+        "step": 4.0,
+        "unit": "army"
+      },
+      {
+        "expected": false,
+        "finish": [
+          8987.759765625,
+          4810.599609375
+        ],
+        "gates": {},
+        "id": "tg_water",
+        "name": "两岸均可落脚，但无渡点不能步行越河",
+        "rect": [
+          8747.759765625,
+          4690.599609375,
+          600.0,
+          250.0
+        ],
+        "revealed": false,
+        "start": [
+          8862.759765625,
+          4849.099609375
+        ],
+        "step": 4.0,
+        "unit": "army"
+      },
+      {
+        "expected": true,
+        "finish": [
+          8672.759765625,
+          4905.599609375
+        ],
+        "gates": {},
+        "id": "tg_tongzhou_bank",
+        "name": "同州沿西侧陆地接近关中",
+        "rect": [
+          8547.759765625,
+          4760.599609375,
+          350.0,
+          250.0
+        ],
+        "revealed": false,
+        "start": [
+          8865.50390625,
+          4848.9599609375
+        ],
+        "step": 3.0,
+        "unit": "army"
+      },
+      {
+        "expected": true,
+        "finish": [
+          9127.759765625,
+          4740.599609375
+        ],
+        "gates": {},
+        "id": "tg_puzhou_bank",
+        "name": "蒲州可向东岸腹地离开",
+        "rect": [
+          8897.759765625,
+          4690.599609375,
+          400.0,
+          200.0
+        ],
+        "revealed": false,
+        "start": [
+          8959.248046875,
+          4839.3603515625
+        ],
+        "step": 3.0,
+        "unit": "army"
+      },
+      {
+        "expected": true,
+        "finish": [
+          9212.759765625,
+          4905.599609375
+        ],
+        "gates": {},
+        "id": "tg_shanzhou_bank",
+        "name": "陕州沿黄河南岸接近崤函",
+        "rect": [
+          9072.759765625,
+          4790.599609375,
+          250.0,
+          175.0
+        ],
+        "revealed": false,
+        "start": [
+          9154.17578125,
+          4848.9599609375
+        ],
+        "step": 3.0,
+        "unit": "army"
+      },
+      {
+        "expected": false,
+        "finish": [
+          8959.248046875,
+          4839.3603515625
+        ],
+        "gates": {},
+        "id": "tg_opposite_banks",
+        "name": "同州至蒲州不能无渡点步行越河",
+        "rect": [
+          8747.759765625,
+          4690.599609375,
+          600.0,
+          250.0
+        ],
+        "revealed": false,
+        "start": [
+          8865.50390625,
+          4848.9599609375
+        ],
+        "step": 3.0,
+        "unit": "army"
+      },
+      {
+        "expected": true,
+        "finish": [
+          8943.48046875,
+          5195.599609375
+        ],
+        "gates": {},
+        "id": "tg_shangluo_exit",
+        "name": "商洛谷地有东南出口",
+        "rect": [
+          8778.48046875,
+          4988.7998046875,
+          280.0,
+          250.0
+        ],
+        "revealed": false,
+        "start": [
+          8868.48046875,
+          5068.7998046875
+        ],
+        "step": 3.0,
+        "unit": "army"
+      },
+      {
+        "expected": false,
+        "finish": [
+          8672.759765625,
+          4905.599609375
+        ],
+        "gates": {},
+        "id": "tg_shangluo_ridge",
+        "name": "商洛谷地不授予直穿秦岭捷径",
+        "rect": [
+          8547.759765625,
+          4690.599609375,
+          800.0,
+          520.0
+        ],
+        "revealed": false,
+        "start": [
+          8868.48046875,
+          5068.7998046875
+        ],
+        "step": 4.0,
+        "unit": "army"
+      },
+      {
+        "expected": true,
+        "finish": [
+          7797.11962890625,
+          5674.80029296875
+        ],
+        "gates": {
+          "anchor_jianmen_pass_node": true
+        },
+        "id": "shu_open",
+        "name": "剑门北口 · open",
+        "rect": [
+          7653.11962890625,
+          5362.80029296875,
+          300.0,
+          348.0
+        ],
+        "revealed": false,
+        "start": [
+          7797.11962890625,
+          5398.80029296875
+        ],
+        "step": 3.0,
+        "unit": "army"
+      },
+      {
+        "expected": false,
+        "finish": [
+          7797.11962890625,
+          5674.80029296875
+        ],
+        "gates": {
+          "anchor_jianmen_pass_node": false
+        },
+        "id": "shu_closed",
+        "name": "剑门北口 · closed",
+        "rect": [
+          7653.11962890625,
+          5362.80029296875,
+          300.0,
+          348.0
+        ],
+        "revealed": false,
+        "start": [
+          7797.11962890625,
+          5398.80029296875
+        ],
+        "step": 3.0,
+        "unit": "army"
+      },
+      {
+        "expected": true,
+        "finish": [
+          7797.11962890625,
+          5674.80029296875
+        ],
+        "gates": {
+          "anchor_jianmen_pass_node": false
+        },
+        "id": "shu_trail",
+        "name": "剑门北口 · trail",
+        "rect": [
+          7653.11962890625,
+          5362.80029296875,
+          300.0,
+          348.0
+        ],
+        "revealed": true,
+        "start": [
+          7797.11962890625,
+          5398.80029296875
+        ],
+        "step": 3.0,
+        "unit": "light"
+      },
+      {
+        "expected": true,
+        "finish": [
+          8247.11962890625,
+          5752.80029296875
+        ],
+        "gates": {
+          "anchor_jianmen_pass_node": false
+        },
+        "id": "shu_east",
+        "name": "关闭剑门不封死盆地东侧出口",
+        "rect": [
+          7887.11962890625,
+          5650.80029296875,
+          408.0,
+          210.0
+        ],
+        "revealed": false,
+        "start": [
+          7977.11962890625,
+          5752.80029296875
+        ],
+        "step": 3.0,
+        "unit": "army"
+      },
+      {
+        "expected": false,
+        "finish": [
+          7329.11962890625,
+          5752.80029296875
+        ],
+        "gates": {},
+        "id": "shu_mountain",
+        "name": "大军不能从西侧直穿高山",
+        "rect": [
+          7317.11962890625,
+          5662.80029296875,
+          276.0,
+          198.0
+        ],
+        "revealed": false,
+        "start": [
+          7551.11962890625,
+          5752.80029296875
+        ],
+        "step": 3.0,
+        "unit": "army"
+      },
+      {
+        "expected": true,
+        "finish": [
+          7454.8798828125,
+          5836.7998046875
+        ],
+        "gates": {
+          "anchor_jianmen_pass_node": true
+        },
+        "id": "shu_chengdu",
+        "name": "剑门开放后可进入成都所在盆地",
+        "rect": [
+          7377.11962890625,
+          5362.80029296875,
+          570.0,
+          690.0
+        ],
+        "revealed": false,
+        "start": [
+          7797.11962890625,
+          5398.80029296875
+        ],
+        "step": 3.0,
+        "unit": "army"
+      }
+    ],
+    "coordinate_frame": "game_map_3720x2400_scaled_4",
+    "receipts": {},
+    "regions": [
+      {
+        "id": "shangluo",
+        "name": "商洛谷地复核",
+        "rect": [
+          8778.48046875,
+          4988.7998046875,
+          280.0,
+          250.0
+        ]
+      },
+      {
+        "id": "tongguan",
+        "name": "潼关结构样区",
+        "rect": [
+          8547.759765625,
+          4690.599609375,
+          800,
+          480
+        ]
+      },
+      {
+        "id": "sichuan",
+        "name": "剑门—四川盆地结构样区",
+        "rect": [
+          7317.11962890625,
+          5362.80029296875,
+          960,
+          840
+        ]
+      }
+    ],
+    "source_note": "地点使用项目现有归一化定义；地形是结构示意，不授予正式通行许可。"
+  },
+  "reference": {
+    "above_art": true,
+    "locked": true,
+    "opacity": 0.35,
+    "path": "",
+    "position": [
+      0,
+      0
+    ],
+    "rotation": 0.0,
+    "size": [
+      1600,
+      960
+    ],
+    "visible": true
+  },
+  "reference_tiles": [],
+  "schema_version": 4,
+  "title": "潼关美术样区 · 手绘淡彩 v1",
+  "art_style": "tongguan_v1"
+}

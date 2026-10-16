@@ -1,0 +1,36 @@
+{
+  "tool": "built-in image_gen",
+  "reference_standard": "addons/strategic_map_editor/art/mountain_oblique_pale_v2_20261009/ and tongguan_v1/workshop_tang_handdrawn_medium_yamen.png",
+  "perspective_rule": "High oblique overhead orthographic view (~50 degrees downward), deep projected ground footprint, visible descending back slopes, no side-view horizon cutout",
+  "palette_rule": "Pale cream-ochre sunlit slopes (#EFE7C9 base match), soft pale warm gray-olive/beige-gray shadows, delicate dark-brown structural ink strokes, feathering alpha footprint with no dark outer perimeter line",
+  "assets": [
+    {
+      "id": "steep_craggy_peak",
+      "label": "俯视淡山 · 巍峨绝顶",
+      "type": "Alpine Isolated Peak / Main Craggy Summit",
+      "ratio": "4:3",
+      "description": "高耸拔萃的大山主峰，岩骨嶙峋，四方延展宽厚山脚，背坡清晰完整，适宜作为区域地标名山与险要山脊主脑。"
+    },
+    {
+      "id": "mountain_gorge_pass",
+      "label": "俯视淡山 · 锁钥险隘",
+      "type": "Gorge Mountain Pass / Horseshoe Range",
+      "ratio": "3:2",
+      "description": "两翼环抱合围的关隘峡谷山脉，中开幽深平缓的谷道通路，适宜在地图工坊中卡设关隘要塞或作为通道险关。"
+    },
+    {
+      "id": "cascading_ridge",
+      "label": "俯视淡山 · 连绵叠障",
+      "type": "Cascading Multi-Tiered Mountain Range",
+      "ratio": "16:9",
+      "description": "横向东西走向的大型连绵叠障山脉，前后双重起伏山脊层层递进，气势开阔舒展，适宜大区域战略分界屏障。"
+    },
+    {
+      "id": "triple_peaks",
+      "label": "俯视淡山 · 三峰竞秀",
+      "type": "Triple Staggered Peak Cluster",
+      "ratio": "4:3",
+      "description": "三座高低错落、参差呼应的秀美峰峦，主峰居中偏后，侧峰斜向递进，山腰以低鞍贯通，过渡舒缓优美。"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bundle_id": "guanzhong_20260930",
+  "version": 1,
+  "extends": "chuandong_20260930",
+  "review_status": "STRUCTURE_TRIAL_NOT_ACCEPTED",
+  "generation_tool": "builtin image_gen",
+  "assets": [
+    {
+      "file": "loess-terrace-edge.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "fb3eea9aac8ae4676c55c51d0d662acc7f2d58d78e16f063396bafbdc9333575"
+    },
+    {
+      "file": "loess-open-edge.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "efe3c5b06316231a16b6d7b0b17b2690c5d2492f125d02b3e293fd309dd8bbf2"
+    }
+  ]
+}

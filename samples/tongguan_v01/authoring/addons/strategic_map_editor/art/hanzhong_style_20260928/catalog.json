@@ -1,0 +1,24 @@
+{
+  "bundle_id": "hanzhong_style_20260928",
+  "version": 1,
+  "extends": "hanzhong_block01_20260928",
+  "assets": {
+    "hz_ridge_pale": {
+      "label": "山肩 · 浅淡无树双峰",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "rolling-ridge-pale.png",
+      "rect": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "width": 340,
+      "anchor": [
+        0.5,
+        0.82
+      ]
+    }
+  }
+}

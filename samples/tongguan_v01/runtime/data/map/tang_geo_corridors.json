@@ -1,0 +1,605 @@
+{
+  "version": "1.0",
+  "historical_era": "tang_tianbao_zhide",
+  "description": "唐代天宝/至德年间战略交通走廊与公文补给线考据数据库",
+  "corridors": [
+    {
+      "id": "lingwu_to_guanzhong_relay",
+      "name": "灵武凤翔驿路",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "guanzhong_approach_node",
+      "transit_type": "land",
+      "base_travel_days": 3,
+      "loss_rate_per_day": 0.002,
+      "strategic_value": "高",
+      "description": "连接灵武大本营与关中前线凤翔行营的主干军驿",
+      "waypoints": [
+        [
+          38.1,
+          106.33
+        ],
+        [
+          37.48,
+          105.98
+        ],
+        [
+          36.2,
+          106.85
+        ],
+        [
+          35.03,
+          108.08
+        ],
+        [
+          34.52,
+          107.4
+        ]
+      ]
+    },
+    {
+      "id": "beta07_route_02",
+      "name": "朔方陕虢粮道",
+      "from_node_id": "shuofang_front_node",
+      "to_node_id": "grain_road_node",
+      "transit_type": "land",
+      "base_travel_days": 4,
+      "loss_rate_per_day": 0.003,
+      "strategic_value": "极高",
+      "description": "朔方前线向常平仓运粮之干线",
+      "waypoints": [
+        [
+          37.48,
+          105.98
+        ],
+        [
+          35.73,
+          107.63
+        ],
+        [
+          34.9,
+          108.97
+        ],
+        [
+          34.85,
+          110.32
+        ],
+        [
+          34.78,
+          111.19
+        ]
+      ]
+    },
+    {
+      "id": "beta07_route_03",
+      "name": "灵武瀚海回纥道",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "uighur_route_node",
+      "transit_type": "desert",
+      "base_travel_days": 5,
+      "loss_rate_per_day": 0.005,
+      "strategic_value": "极高",
+      "description": "通往漠北借兵回纥之关键使臣走廊",
+      "waypoints": [
+        [
+          38.1,
+          106.33
+        ],
+        [
+          39.25,
+          106.75
+        ],
+        [
+          40.33,
+          107.0
+        ],
+        [
+          40.85,
+          107.75
+        ],
+        [
+          41.2,
+          108.5
+        ]
+      ]
+    },
+    {
+      "id": "beta07_route_04",
+      "name": "终南子午密道",
+      "from_node_id": "shuofang_front_node",
+      "to_node_id": "palace_inner_channel_node",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 2,
+      "loss_rate_per_day": 0.001,
+      "strategic_value": "中",
+      "description": "内臣亲信与密谍传递军情的隐蔽小径",
+      "waypoints": [
+        [
+          37.48,
+          105.98
+        ],
+        [
+          36.15,
+          107.1
+        ],
+        [
+          35.3,
+          107.8
+        ],
+        [
+          34.35,
+          108.65
+        ],
+        [
+          34.02,
+          108.85
+        ]
+      ]
+    },
+    {
+      "id": "beta07_route_05",
+      "name": "灵武武关流民道",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "refugee_market_node",
+      "transit_type": "land",
+      "base_travel_days": 4,
+      "loss_rate_per_day": 0.004,
+      "strategic_value": "中",
+      "description": "沟通商洛流民与招募溃兵之通道",
+      "waypoints": [
+        [
+          38.1,
+          106.33
+        ],
+        [
+          36.0,
+          106.28
+        ],
+        [
+          34.89,
+          106.85
+        ],
+        [
+          34.15,
+          109.32
+        ],
+        [
+          33.86,
+          109.94
+        ]
+      ]
+    },
+    {
+      "id": "beta07_route_06",
+      "name": "朔方直驱长安前线",
+      "from_node_id": "shuofang_front_node",
+      "to_node_id": "changan_pressure_node",
+      "transit_type": "land",
+      "base_travel_days": 3,
+      "loss_rate_per_day": 0.003,
+      "strategic_value": "极高",
+      "description": "郭子仪率朔方精锐直插长安城下之主力进军线",
+      "waypoints": [
+        [
+          37.48,
+          105.98
+        ],
+        [
+          35.95,
+          106.25
+        ],
+        [
+          35.03,
+          108.08
+        ],
+        [
+          34.35,
+          108.7
+        ],
+        [
+          34.27,
+          108.95
+        ]
+      ]
+    },
+    {
+      "id": "guanzhong_to_changan_axis",
+      "name": "凤翔进京官道",
+      "from_node_id": "guanzhong_approach_node",
+      "to_node_id": "changan_pressure_node",
+      "transit_type": "land",
+      "base_travel_days": 2,
+      "loss_rate_per_day": 0.001,
+      "strategic_value": "极高",
+      "description": "自西向东收复京师之决战主轴",
+      "waypoints": [
+        [
+          34.52,
+          107.4
+        ],
+        [
+          34.45,
+          107.62
+        ],
+        [
+          34.26,
+          108.2
+        ],
+        [
+          34.33,
+          108.72
+        ],
+        [
+          34.27,
+          108.95
+        ]
+      ]
+    },
+    {
+      "id": "changan_to_tongguan_highway",
+      "name": "京畿东出大道",
+      "from_node_id": "changan_pressure_node",
+      "to_node_id": "tongguan_pass_node",
+      "transit_type": "land",
+      "base_travel_days": 2,
+      "loss_rate_per_day": 0.001,
+      "strategic_value": "极高",
+      "description": "长安通往潼关之直道，叛军运兵与撤退生命线",
+      "waypoints": [
+        [
+          34.27,
+          108.95
+        ],
+        [
+          34.37,
+          109.21
+        ],
+        [
+          34.5,
+          109.5
+        ],
+        [
+          34.56,
+          110.09
+        ],
+        [
+          34.55,
+          110.23
+        ]
+      ]
+    },
+    {
+      "id": "tongguan_to_luoyang_corridor",
+      "name": "陕虢峡谷大道",
+      "from_node_id": "tongguan_pass_node",
+      "to_node_id": "luoyang_rumor_node",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 3,
+      "loss_rate_per_day": 0.002,
+      "strategic_value": "极高",
+      "description": "两京之间险道，哥舒翰败退、安史锁钥",
+      "waypoints": [
+        [
+          34.55,
+          110.23
+        ],
+        [
+          34.72,
+          111.19
+        ],
+        [
+          34.76,
+          111.76
+        ],
+        [
+          34.73,
+          112.14
+        ],
+        [
+          34.62,
+          112.45
+        ]
+      ]
+    },
+    {
+      "id": "hedong_to_guanzhong_ferry",
+      "name": "蒲津大桥渡口",
+      "from_node_id": "guanzhong_approach_node",
+      "to_node_id": "hedong_relay_node",
+      "transit_type": "river",
+      "base_travel_days": 1,
+      "loss_rate_per_day": 0.001,
+      "strategic_value": "高",
+      "description": "黄河铁索浮桥，关中与河东两军策应之枢纽",
+      "waypoints": [
+        [
+          34.52,
+          107.4
+        ],
+        [
+          34.45,
+          108.7
+        ],
+        [
+          34.62,
+          108.94
+        ],
+        [
+          34.79,
+          109.94
+        ],
+        [
+          34.85,
+          110.32
+        ]
+      ]
+    },
+    {
+      "id": "hedong_to_taiyuan_route",
+      "name": "晋阳官道",
+      "from_node_id": "hedong_relay_node",
+      "to_node_id": "taiyuan_hub_node",
+      "transit_type": "land",
+      "base_travel_days": 4,
+      "loss_rate_per_day": 0.002,
+      "strategic_value": "高",
+      "description": "河东道南北大动脉，李光弼保卫太原补给线",
+      "waypoints": [
+        [
+          34.85,
+          110.32
+        ],
+        [
+          35.61,
+          111.23
+        ],
+        [
+          36.08,
+          111.52
+        ],
+        [
+          36.57,
+          111.75
+        ],
+        [
+          37.03,
+          111.92
+        ],
+        [
+          37.87,
+          112.55
+        ]
+      ]
+    },
+    {
+      "id": "taiyuan_to_jingxing_pass",
+      "name": "太行井陉道",
+      "from_node_id": "taiyuan_hub_node",
+      "to_node_id": "hebei_rebel_signal_node",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 3,
+      "loss_rate_per_day": 0.003,
+      "strategic_value": "极高",
+      "description": "太行八陉最险道，出太原直插常山河北叛军腹心",
+      "waypoints": [
+        [
+          37.87,
+          112.55
+        ],
+        [
+          37.89,
+          113.18
+        ],
+        [
+          37.95,
+          113.88
+        ],
+        [
+          38.03,
+          114.14
+        ],
+        [
+          38.04,
+          114.51
+        ]
+      ]
+    },
+    {
+      "id": "hebei_to_fanyang_highway",
+      "name": "幽蓟官道",
+      "from_node_id": "hebei_rebel_signal_node",
+      "to_node_id": "fanyang_rebel_hub_node",
+      "transit_type": "land",
+      "base_travel_days": 4,
+      "loss_rate_per_day": 0.002,
+      "strategic_value": "高",
+      "description": "连接常山与范阳老巢之叛军运输动脉",
+      "waypoints": [
+        [
+          38.04,
+          114.51
+        ],
+        [
+          38.51,
+          114.99
+        ],
+        [
+          38.87,
+          115.48
+        ],
+        [
+          39.48,
+          115.98
+        ],
+        [
+          39.9,
+          116.4
+        ]
+      ]
+    },
+    {
+      "id": "luoyang_to_suiyang_canal",
+      "name": "汴渠漕运水路",
+      "from_node_id": "luoyang_rumor_node",
+      "to_node_id": "suiyang_hub_node",
+      "transit_type": "river",
+      "base_travel_days": 3,
+      "loss_rate_per_day": 0.001,
+      "strategic_value": "极高",
+      "description": "大运河汴水段，东南漕粮入洛阳之水路咽喉",
+      "waypoints": [
+        [
+          34.62,
+          112.45
+        ],
+        [
+          34.68,
+          112.79
+        ],
+        [
+          34.75,
+          113.02
+        ],
+        [
+          34.8,
+          114.35
+        ],
+        [
+          34.38,
+          115.65
+        ]
+      ]
+    },
+    {
+      "id": "suiyang_to_yangzhou_grand_canal",
+      "name": "江淮通济渠大运河",
+      "from_node_id": "suiyang_hub_node",
+      "to_node_id": "yangzhou_tribute_hub_node",
+      "transit_type": "river",
+      "base_travel_days": 4,
+      "loss_rate_per_day": 0.001,
+      "strategic_value": "极高",
+      "description": "天下财赋生命线，数百万石东南米粮尽系于此",
+      "waypoints": [
+        [
+          34.38,
+          115.65
+        ],
+        [
+          33.64,
+          116.98
+        ],
+        [
+          33.01,
+          118.52
+        ],
+        [
+          33.51,
+          119.14
+        ],
+        [
+          32.39,
+          119.42
+        ]
+      ]
+    },
+    {
+      "id": "guanzhong_to_jianmen_shudao",
+      "name": "秦蜀金牛栈道",
+      "from_node_id": "guanzhong_approach_node",
+      "to_node_id": "jianmen_pass_node",
+      "transit_type": "mountain_pass",
+      "base_travel_days": 5,
+      "loss_rate_per_day": 0.004,
+      "strategic_value": "高",
+      "description": "黄鹤之飞尚不得过之蜀道，连通关中与剑南",
+      "waypoints": [
+        [
+          34.52,
+          107.4
+        ],
+        [
+          34.25,
+          107.03
+        ],
+        [
+          33.91,
+          106.52
+        ],
+        [
+          33.33,
+          106.15
+        ],
+        [
+          32.22,
+          105.57
+        ]
+      ]
+    },
+    {
+      "id": "jianmen_to_chengdou_road",
+      "name": "锦官官道",
+      "from_node_id": "jianmen_pass_node",
+      "to_node_id": "chengdou_rear_hub_node",
+      "transit_type": "land",
+      "base_travel_days": 2,
+      "loss_rate_per_day": 0.001,
+      "strategic_value": "高",
+      "description": "剑阁南下直达太上皇行在成都平原之大道",
+      "waypoints": [
+        [
+          32.22,
+          105.57
+        ],
+        [
+          31.64,
+          105.16
+        ],
+        [
+          31.47,
+          104.74
+        ],
+        [
+          31.13,
+          104.38
+        ],
+        [
+          30.67,
+          104.06
+        ]
+      ]
+    },
+    {
+      "id": "lingwu_to_hexi_corridor",
+      "name": "河西祁连道",
+      "from_node_id": "lingwu_court_node",
+      "to_node_id": "desert_envoy_road_node",
+      "transit_type": "land",
+      "base_travel_days": 5,
+      "loss_rate_per_day": 0.003,
+      "strategic_value": "高",
+      "description": "自灵武出黄河穿腾格里往凉州征调安西精兵之路线",
+      "waypoints": [
+        [
+          38.1,
+          106.33
+        ],
+        [
+          37.51,
+          105.18
+        ],
+        [
+          37.18,
+          104.06
+        ],
+        [
+          37.47,
+          102.89
+        ],
+        [
+          37.93,
+          102.64
+        ]
+      ]
+    }
+  ]
+}

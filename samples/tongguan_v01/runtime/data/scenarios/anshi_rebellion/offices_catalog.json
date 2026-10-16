@@ -1,0 +1,605 @@
+{
+  "schema_version": "1.3.0",
+  "branches": [
+    {
+      "id": "central_executive",
+      "name": "中枢宰执与政事堂",
+      "description": "执掌朝政中枢，草拟制敕，审议封驳，总领六部庶政"
+    },
+    {
+      "id": "six_ministries",
+      "name": "尚书六部",
+      "description": "国家行政执行中枢，掌吏、户、礼、兵、刑、工六司"
+    },
+    {
+      "id": "censorate_remonstrance",
+      "name": "台谏近侍与言路",
+      "description": "纠察百官贪墨，殿廷极谏补阙，草拟密旨内命"
+    },
+    {
+      "id": "wartime_commission",
+      "name": "战时特设使职",
+      "description": "战时总管军费度支、江淮盐铁转运与前线粮料调发"
+    },
+    {
+      "id": "regional_command",
+      "name": "地方藩镇与统帅",
+      "description": "分统各道方镇兵马，坐镇要冲，戡定叛乱"
+    }
+  ],
+  "offices": [
+    {
+      "id": "zhongshu_ling",
+      "name": "中书令",
+      "rank": "正二品",
+      "branch": "central_executive",
+      "department": "zhongshu_sheng",
+      "is_core_cabinet": true,
+      "responsibility_text": "执掌中书省，主草拟制敕与决策中枢，总揽大政方针。",
+      "required_stats": {
+        "intrigue": 75,
+        "governance": 70
+      },
+      "preferred_traits": ["mature_statesman", "upright_loyal"],
+      "output_multipliers": {
+        "policy_execution_rate": 1.25,
+        "state_authority_growth": 1.5
+      },
+      "vacant_penalties": {
+        "policy_execution_rate": 0.6,
+        "daily_emperor_stress": 4
+      },
+      "aliases": ["zhongshu_drafting"]
+    },
+    {
+      "id": "menxia_shizhong",
+      "name": "侍中",
+      "rank": "正二品",
+      "branch": "central_executive",
+      "department": "menxia_sheng",
+      "is_core_cabinet": true,
+      "responsibility_text": "执掌门下省，主审议封驳，驳正违失旨意，纠察朝堂偏差。",
+      "required_stats": {
+        "governance": 75,
+        "diplomacy": 70
+      },
+      "preferred_traits": ["incorruptible", "cautious_prudent"],
+      "output_multipliers": {
+        "policy_error_reduction": 0.3,
+        "court_harmony": 1.2
+      },
+      "vacant_penalties": {
+        "policy_error_reduction": 0.0,
+        "daily_emperor_stress": 3
+      },
+      "aliases": ["menxia_review"]
+    },
+    {
+      "id": "tong_pingzhangshi",
+      "name": "同中书门下平章事",
+      "rank": "正三品",
+      "branch": "central_executive",
+      "department": "zhengshitang",
+      "is_core_cabinet": true,
+      "responsibility_text": "宰相头衔，入政事堂共议大政，调和百官，督导政令推行。",
+      "required_stats": {
+        "governance": 80,
+        "intrigue": 75
+      },
+      "preferred_traits": ["astute_administrator", "mature_statesman"],
+      "output_multipliers": {
+        "governance_efficiency": 1.3,
+        "faction_balance": 1.2
+      },
+      "vacant_penalties": {
+        "governance_efficiency": 0.7,
+        "daily_emperor_stress": 3
+      },
+      "aliases": ["shangshu_execution"]
+    },
+    {
+      "id": "libu_shangshu",
+      "name": "吏部尚书",
+      "rank": "正三品",
+      "branch": "six_ministries",
+      "department": "shangshu_six_ministries",
+      "is_core_cabinet": true,
+      "responsibility_text": "掌天下官吏考课、铨选、升迁与降黜，铨叙天下名士。",
+      "required_stats": {
+        "governance": 80,
+        "intrigue": 65
+      },
+      "preferred_traits": ["incorruptible", "astute_administrator"],
+      "output_multipliers": {
+        "recruitment_quality_bonus": 1.25,
+        "official_loyalty_growth": 1.2
+      },
+      "vacant_penalties": {
+        "recruitment_quality_bonus": 0.8,
+        "daily_emperor_stress": 2
+      },
+      "aliases": ["personnel_affairs"]
+    },
+    {
+      "id": "hubu_shangshu",
+      "name": "户部尚书",
+      "rank": "正三品",
+      "branch": "six_ministries",
+      "department": "shangshu_six_ministries",
+      "is_core_cabinet": true,
+      "responsibility_text": "掌天下户籍、赋税、仓廪与国家度支总账，确保行在国库充裕。",
+      "required_stats": {
+        "finance": 85,
+        "governance": 70
+      },
+      "preferred_traits": ["frugal_disciplined", "astute_administrator"],
+      "output_multipliers": {
+        "tax_revenue_multiplier": 1.3,
+        "grain_storage_efficiency": 1.2
+      },
+      "vacant_penalties": {
+        "tax_revenue_multiplier": 0.6,
+        "daily_emperor_stress": 4
+      },
+      "aliases": ["household_supply", "grain_office"]
+    },
+    {
+      "id": "libu_rites_shangshu",
+      "name": "礼部尚书",
+      "rank": "正三品",
+      "branch": "six_ministries",
+      "department": "shangshu_six_ministries",
+      "is_core_cabinet": true,
+      "responsibility_text": "掌礼乐祭祀、科举贡举与邦交封贡，维护大唐正统声望。",
+      "required_stats": {
+        "diplomacy": 80,
+        "morality": 75
+      },
+      "preferred_traits": ["renowned_scholar", "diplomatic_talent"],
+      "output_multipliers": {
+        "diplomatic_influence": 1.35,
+        "scholar_loyalty": 1.25
+      },
+      "vacant_penalties": {
+        "diplomatic_influence": 0.7,
+        "daily_emperor_stress": 2
+      },
+      "aliases": ["rites_affairs", "envoy_negotiator"]
+    },
+    {
+      "id": "bingbu_shangshu",
+      "name": "兵部尚书",
+      "rank": "正三品",
+      "branch": "six_ministries",
+      "department": "shangshu_six_ministries",
+      "is_core_cabinet": true,
+      "responsibility_text": "掌武官铨选、兵籍图籍、军械转运与天下防务调发。",
+      "required_stats": {
+        "command": 75,
+        "martial": 70
+      },
+      "preferred_traits": ["heroic_warrior", "resourceful_commander"],
+      "output_multipliers": {
+        "troop_readiness_rate": 1.25,
+        "reinforcement_speed": 1.3
+      },
+      "vacant_penalties": {
+        "troop_readiness_rate": 0.65,
+        "daily_emperor_stress": 4
+      },
+      "aliases": ["war_mobilization"]
+    },
+    {
+      "id": "xingbu_shangshu",
+      "name": "刑部尚书",
+      "rank": "正三品",
+      "branch": "six_ministries",
+      "department": "shangshu_six_ministries",
+      "is_core_cabinet": false,
+      "responsibility_text": "掌天下刑名、律法复核与大案覆奏，严防宵小乱国。",
+      "required_stats": {
+        "governance": 75,
+        "intrigue": 70
+      },
+      "preferred_traits": ["incorruptible", "resolute_unyielding"],
+      "output_multipliers": {
+        "crime_suppression": 1.3,
+        "rebellion_risk_reduction": 0.25
+      },
+      "vacant_penalties": {
+        "crime_suppression": 0.7,
+        "daily_emperor_stress": 1
+      },
+      "aliases": ["justice_affairs"]
+    },
+    {
+      "id": "gongbu_shangshu",
+      "name": "工部尚书",
+      "rank": "正三品",
+      "branch": "six_ministries",
+      "department": "shangshu_six_ministries",
+      "is_core_cabinet": false,
+      "responsibility_text": "掌行在营建、军器监造、黄河漕运堤防与修缮要塞。",
+      "required_stats": {
+        "governance": 70,
+        "finance": 70
+      },
+      "preferred_traits": ["practical_pragmatic", "astute_administrator"],
+      "output_multipliers": {
+        "logistics_loss_reduction": 0.25,
+        "fortification_repair_bonus": 1.3
+      },
+      "vacant_penalties": {
+        "logistics_loss_reduction": 0.0,
+        "daily_emperor_stress": 1
+      },
+      "aliases": ["works_affairs"]
+    },
+    {
+      "id": "yushi_zhongcheng",
+      "name": "御史中丞",
+      "rank": "从三品",
+      "branch": "censorate_remonstrance",
+      "department": "yushitai",
+      "is_core_cabinet": true,
+      "responsibility_text": "掌御史台纲纪，监察百官风纪，主导贪腐问责与大案调查。",
+      "required_stats": {
+        "intrigue": 75,
+        "morality": 70
+      },
+      "preferred_traits": ["incorruptible", "resolute_unyielding"],
+      "output_multipliers": {
+        "corruption_detection_rate": 1.4,
+        "official_discipline": 1.2
+      },
+      "vacant_penalties": {
+        "corruption_detection_rate": 0.4,
+        "daily_emperor_stress": 2
+      },
+      "aliases": ["censorate"]
+    },
+    {
+      "id": "zuo_shiyi",
+      "name": "左拾遗",
+      "rank": "从八品",
+      "branch": "censorate_remonstrance",
+      "department": "menxia_sheng",
+      "is_core_cabinet": false,
+      "responsibility_text": "门下省供奉言官，掌殿廷规谏天子、拾遗补阙、体察民隐。",
+      "required_stats": {
+        "morality": 80,
+        "diplomacy": 60
+      },
+      "preferred_traits": ["righteous_upright", "renowned_scholar"],
+      "output_multipliers": {
+        "public_voice_accessibility": 1.5,
+        "unjust_case_redress": 1.3
+      },
+      "vacant_penalties": {
+        "public_voice_accessibility": 1.0,
+        "daily_emperor_stress": 0
+      },
+      "aliases": []
+    },
+    {
+      "id": "you_shiyi",
+      "name": "右拾遗",
+      "rank": "从八品",
+      "branch": "censorate_remonstrance",
+      "department": "zhongshu_sheng",
+      "is_core_cabinet": false,
+      "responsibility_text": "中书省供奉言官，掌讽谏天子政令之阙失，密疏直陈国是。",
+      "required_stats": {
+        "morality": 80,
+        "intrigue": 65
+      },
+      "preferred_traits": ["righteous_upright", "renowned_scholar"],
+      "output_multipliers": {
+        "public_voice_accessibility": 1.3,
+        "policy_refinement_bonus": 1.2
+      },
+      "vacant_penalties": {
+        "public_voice_accessibility": 1.0,
+        "daily_emperor_stress": 0
+      },
+      "aliases": []
+    },
+    {
+      "id": "zuo_buque",
+      "name": "左补阙",
+      "rank": "从七品",
+      "branch": "censorate_remonstrance",
+      "department": "menxia_sheng",
+      "is_core_cabinet": false,
+      "responsibility_text": "掌规谏天子过失、平反冤抑、弹劾不法权贵。",
+      "required_stats": {
+        "intrigue": 70,
+        "martial": 60
+      },
+      "preferred_traits": ["resolute_unyielding", "cautious_prudent"],
+      "output_multipliers": {
+        "impeachment_power": 1.3
+      },
+      "vacant_penalties": {
+        "impeachment_power": 1.0,
+        "daily_emperor_stress": 0
+      },
+      "aliases": []
+    },
+    {
+      "id": "you_buque",
+      "name": "右补阙",
+      "rank": "从七品",
+      "branch": "censorate_remonstrance",
+      "department": "zhongshu_sheng",
+      "is_core_cabinet": false,
+      "responsibility_text": "掌参议制书疏漏、匡正时弊、上书言事。",
+      "required_stats": {
+        "intrigue": 70,
+        "governance": 65
+      },
+      "preferred_traits": ["righteous_upright", "astute_administrator"],
+      "output_multipliers": {
+        "impeachment_power": 1.3
+      },
+      "vacant_penalties": {
+        "impeachment_power": 1.0,
+        "daily_emperor_stress": 0
+      },
+      "aliases": []
+    },
+    {
+      "id": "hanlin_xueshi",
+      "name": "翰林学士",
+      "rank": "正五品",
+      "branch": "censorate_remonstrance",
+      "department": "hanlin_yuan",
+      "is_core_cabinet": true,
+      "responsibility_text": "天子机要文学侍从，草拟内命密诏，参谋帷幄，不拘常制。",
+      "required_stats": {
+        "intrigue": 85,
+        "governance": 75
+      },
+      "preferred_traits": ["insightful_tactician", "mature_statesman"],
+      "output_multipliers": {
+        "secret_strategy_bonus": 1.5,
+        "crisis_response_speed": 1.4
+      },
+      "vacant_penalties": {
+        "secret_strategy_bonus": 0.7,
+        "daily_emperor_stress": 3
+      },
+      "aliases": ["court_memorial_reviewer", "intelligence_coordinator"]
+    },
+    {
+      "id": "inner_court_gatekeeper",
+      "name": "内廷宫门使",
+      "rank": "正四品",
+      "branch": "censorate_remonstrance",
+      "department": "neishi_sheng",
+      "is_core_cabinet": true,
+      "responsibility_text": "统摄宫廷宿卫与禁军传令，传递内命，严防宫禁刺谍。",
+      "required_stats": {
+        "intrigue": 70,
+        "governance": 60
+      },
+      "preferred_traits": ["loyal_servant", "cautious_prudent"],
+      "output_multipliers": {
+        "palace_security": 1.4,
+        "eunuch_network_efficiency": 1.3
+      },
+      "vacant_penalties": {
+        "palace_security": 0.6,
+        "daily_emperor_stress": 2
+      },
+      "aliases": ["inner_court_office", "palace_household_controller"]
+    },
+    {
+      "id": "duzhi_shi",
+      "name": "度支使",
+      "rank": "使职",
+      "branch": "wartime_commission",
+      "department": "duzhi_chu",
+      "is_core_cabinet": true,
+      "responsibility_text": "战时最高财政专使，专司全国军费筹措、特种征发与度支调剂。",
+      "required_stats": {
+        "finance": 85,
+        "intrigue": 75
+      },
+      "preferred_traits": ["financial_genius", "astute_administrator"],
+      "output_multipliers": {
+        "emergency_fund_raising": 1.4,
+        "fiscal_balance_boost": 1.3
+      },
+      "vacant_penalties": {
+        "emergency_fund_raising": 0.5,
+        "daily_emperor_stress": 3
+      },
+      "aliases": []
+    },
+    {
+      "id": "yantie_zhuanyun_shi",
+      "name": "盐铁转运使",
+      "rank": "使职",
+      "branch": "wartime_commission",
+      "department": "yantie_chu",
+      "is_core_cabinet": true,
+      "responsibility_text": "掌控江淮盐铁榷税与大运河粮船转运生命线，维系大唐财脉。",
+      "required_stats": {
+        "finance": 85,
+        "diplomacy": 70
+      },
+      "preferred_traits": ["commercial_genius", "frugal_disciplined"],
+      "output_multipliers": {
+        "salt_monopoly_revenue": 1.5,
+        "canal_transport_speed": 1.3
+      },
+      "vacant_penalties": {
+        "salt_monopoly_revenue": 0.4,
+        "daily_emperor_stress": 3
+      },
+      "aliases": []
+    },
+    {
+      "id": "liangliao_shi",
+      "name": "粮料使",
+      "rank": "使职",
+      "branch": "wartime_commission",
+      "department": "liangliao_chu",
+      "is_core_cabinet": false,
+      "responsibility_text": "专掌前线诸军行粮发放、随军仓储与损耗防窃。",
+      "required_stats": {
+        "finance": 70,
+        "governance": 65
+      },
+      "preferred_traits": ["frugal_disciplined", "cautious_prudent"],
+      "output_multipliers": {
+        "ration_loss_reduction": 0.35,
+        "frontline_supply_stability": 1.3
+      },
+      "vacant_penalties": {
+        "ration_loss_reduction": 0.0,
+        "daily_emperor_stress": 2
+      },
+      "aliases": ["grain_transport_supervisor"]
+    },
+    {
+      "id": "xuanwei_zhaotao_shi",
+      "name": "宣慰招讨使",
+      "rank": "使职",
+      "branch": "wartime_commission",
+      "department": "xuanwei_chu",
+      "is_core_cabinet": false,
+      "responsibility_text": "奉天子密旨巡抚河南河北沦陷区，宣谕皇恩，联络义军勤王。",
+      "required_stats": {
+        "diplomacy": 85,
+        "intrigue": 75
+      },
+      "preferred_traits": ["inspiring_orator", "righteous_upright"],
+      "output_multipliers": {
+        "occupied_loyalty_growth": 1.6,
+        "guerrilla_rebellion_bonus": 1.4
+      },
+      "vacant_penalties": {
+        "occupied_loyalty_growth": 1.0,
+        "daily_emperor_stress": 1
+      },
+      "aliases": []
+    },
+    {
+      "id": "shuofang_jiedushi",
+      "name": "朔方节度使",
+      "rank": "从二品",
+      "branch": "regional_command",
+      "department": "shuofang_zhen",
+      "is_core_cabinet": true,
+      "responsibility_text": "统领灵武朔方军主力精锐，大唐中兴定策第一主力军团帅位。",
+      "required_stats": {
+        "command": 90,
+        "martial": 85
+      },
+      "preferred_traits": ["towering_pillar", "heroic_warrior"],
+      "output_multipliers": {
+        "shuofang_combat_bonus": 1.4,
+        "army_morale_recovery": 1.5
+      },
+      "vacant_penalties": {
+        "shuofang_combat_bonus": 0.5,
+        "daily_emperor_stress": 5
+      },
+      "aliases": ["shuofang_field_commander"]
+    },
+    {
+      "id": "hedong_jiedushi",
+      "name": "河东节度使",
+      "rank": "从二品",
+      "branch": "regional_command",
+      "department": "hedong_zhen",
+      "is_core_cabinet": true,
+      "responsibility_text": "扼守太原重镇与雁门关，切断叛军范阳老巢与两京通道。",
+      "required_stats": {
+        "command": 88,
+        "intrigue": 80
+      },
+      "preferred_traits": ["iron_commander", "insightful_tactician"],
+      "output_multipliers": {
+        "hedong_fortress_defense": 1.5,
+        "rebel_flank_interdiction": 1.4
+      },
+      "vacant_penalties": {
+        "hedong_fortress_defense": 0.6,
+        "daily_emperor_stress": 3
+      },
+      "aliases": []
+    },
+    {
+      "id": "jiannan_jiedushi",
+      "name": "剑南节度使",
+      "rank": "从二品",
+      "branch": "regional_command",
+      "department": "jiannan_zhen",
+      "is_core_cabinet": false,
+      "responsibility_text": "坐镇蜀中天府粮仓，安抚玄宗蜀中旧廷，确保巴蜀财赋入秦。",
+      "required_stats": {
+        "governance": 75,
+        "diplomacy": 75
+      },
+      "preferred_traits": ["astute_administrator", "mature_statesman"],
+      "output_multipliers": {
+        "sichuan_tribute_bonus": 1.35,
+        "rear_stability": 1.3
+      },
+      "vacant_penalties": {
+        "sichuan_tribute_bonus": 0.7,
+        "daily_emperor_stress": 2
+      },
+      "aliases": []
+    },
+    {
+      "id": "henan_jiedu_fushi",
+      "name": "河南节度副使",
+      "rank": "正三品",
+      "branch": "regional_command",
+      "department": "henan_zhen",
+      "is_core_cabinet": false,
+      "responsibility_text": "坚守睢阳与汴水咽喉，阻击安禄山叛军南侵江淮财赋腹地。",
+      "required_stats": {
+        "command": 85,
+        "martial": 90
+      },
+      "preferred_traits": ["resolute_unyielding", "towering_pillar"],
+      "output_multipliers": {
+        "suiyang_resilience": 1.6,
+        "jianghuai_protection": 1.5
+      },
+      "vacant_penalties": {
+        "suiyang_resilience": 0.5,
+        "daily_emperor_stress": 2
+      },
+      "aliases": []
+    },
+    {
+      "id": "xingjun_sima",
+      "name": "行军司马",
+      "rank": "从五品",
+      "branch": "regional_command",
+      "department": "mufu",
+      "is_core_cabinet": false,
+      "responsibility_text": "节度使府首席幕僚与掌书记，执掌军机文书、军法戒律与参谋。",
+      "required_stats": {
+        "governance": 70,
+        "intrigue": 70
+      },
+      "preferred_traits": ["renowned_scholar", "astute_administrator"],
+      "output_multipliers": {
+        "headquarters_efficiency": 1.3,
+        "discipline_enforcement": 1.2
+      },
+      "vacant_penalties": {
+        "headquarters_efficiency": 1.0,
+        "daily_emperor_stress": 0
+      },
+      "aliases": ["local_node_administrator"]
+    }
+  ]
+}

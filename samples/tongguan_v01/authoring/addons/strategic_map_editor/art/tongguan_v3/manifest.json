@@ -1,0 +1,22 @@
+{
+  "bundle_id": "tongguan_v3",
+  "version": 1,
+  "extends": "tongguan_v2",
+  "scope": "Authoring presentation only; no campaign authority",
+  "style_reference": "artifacts/strategic-map-art-tongguan-2026-09-24/tongguan-style-sample-v5.png",
+  "style_reference_status": "USER_APPROVED",
+  "asset_review_status": "CANDIDATE_NOT_USER_ACCEPTED",
+  "generation_tool": "imagegen",
+  "prompts": "generation-prompts.json",
+  "assets": [
+    {
+      "file": "rolling_ridge_v074.png",
+      "width": 2172,
+      "height": 724,
+      "mode": "RGBA",
+      "sha256": "c92fe42b82ab62f9bcabb173bb2465da27ce91a143a58c52afc37ac4d839d4f2",
+      "sprites": 1,
+      "status": "CANDIDATE_NOT_USER_ACCEPTED"
+    }
+  ]
+}

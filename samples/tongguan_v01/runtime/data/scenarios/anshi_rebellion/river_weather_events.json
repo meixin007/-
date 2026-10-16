@@ -1,0 +1,7 @@
+{
+  "description": "M3 剧本高水位事件。游戏日与持续时间为设计参数，不代表历史气象记录；不由季节或画面推断。",
+  "events": [
+    {"event_id":"wei_high_water_early","river_id":"wei","condition_id":"flood_autumn","starts_day":2,"ends_day":4,"recovers_day":6},
+    {"event_id":"han_high_water_early","river_id":"han","condition_id":"flood_autumn","starts_day":8,"ends_day":10,"recovers_day":12}
+  ]
+}

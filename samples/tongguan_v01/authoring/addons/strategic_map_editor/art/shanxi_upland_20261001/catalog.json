@@ -1,0 +1,24 @@
+{
+  "bundle_id": "shanxi_upland_20261001",
+  "version": 1,
+  "extends": "shanxi_refine_20261001",
+  "assets": {
+    "sx_upland_body": {
+      "label": "山西 · 不等宽宽坡与短支肩",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "taiyue-upland-v01.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 250,
+      "anchor": [
+        0.5,
+        0.55
+      ]
+    }
+  }
+}

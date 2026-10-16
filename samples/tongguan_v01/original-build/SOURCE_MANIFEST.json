@@ -1,0 +1,3486 @@
+{
+  "schema_version": 1,
+  "build_id": "tongguan_v01_final_20261015_03",
+  "files": [
+    {
+      "component": "runtime",
+      "path": ".gdignore",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "component": "runtime",
+      "path": "army/acceptance.gd",
+      "sha256": "b7a1281620ea91f20cb51beb91c1f7b653b396e0c19a66f1e20754d928c596dd",
+      "bytes": 8388
+    },
+    {
+      "component": "runtime",
+      "path": "army/boot.gd",
+      "sha256": "1033369b5031fd81911f9e75a7b7f19b43d968faa9950fcc7003ec9a71732359",
+      "bytes": 331
+    },
+    {
+      "component": "runtime",
+      "path": "army/canvas.gd",
+      "sha256": "d62b0a769c9ae39782a01236fe6fd8baa47dbfc04ebf7517364b2add3d0fa4bb",
+      "bytes": 3725
+    },
+    {
+      "component": "runtime",
+      "path": "army/controller.gd",
+      "sha256": "1d17cb36b2e88da4268d3e1a969d92d8a65d6bd246a137220257eae4e4cde8a7",
+      "bytes": 20030
+    },
+    {
+      "component": "runtime",
+      "path": "army/fixture.json",
+      "sha256": "c771cc57f83c993332d1763404616536706d8411ee6efa5e44e9da3745eae364",
+      "bytes": 3836
+    },
+    {
+      "component": "runtime",
+      "path": "army/session.gd",
+      "sha256": "e40f970f6a0f99455c13ec94a71dcb4384c59b4dd194c0c69d32c42c077ed618",
+      "bytes": 353
+    },
+    {
+      "component": "runtime",
+      "path": "army/ui.gd",
+      "sha256": "4bea6866441e2895d4f52d197e543810a122e661e9ab19bbae9158b98aacdb25",
+      "bytes": 9826
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/art/gate_eastwest.png",
+      "sha256": "971dbffc6bfe5c947e5f9541fb68c12d5712f23c26bfd94566c904880c7fe16d",
+      "bytes": 1469918
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/art/trees.png",
+      "sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+      "bytes": 2199035
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/art_descriptors.json",
+      "sha256": "019658b6e3cc4224bdcfd3d59bfe434e5de71a67699ebe1192dd43248a52068e",
+      "bytes": 595
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/ATTRIBUTION.txt",
+      "sha256": "34a78eeb38ebe76cd967f04b2e25046855ad1bafd1cd5189eee666463fc03dc2",
+      "bytes": 721
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/authoring.json",
+      "sha256": "d3b377d092e2b9949f883f604c176b9362e0d474eacc2382c25e6da2645258e2",
+      "bytes": 21657
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/authoring_alternate_fixture.json",
+      "sha256": "20a5eefbef4b151127c9186013bf47713ed715b9cb697277ea9ec68b813ff215",
+      "bytes": 68177
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/authoring_publication.json",
+      "sha256": "5ab27208b28ba3068345421d75f8fe19700405bc03291fcfa88a2ee9791da88a",
+      "bytes": 67257
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/coarse_overview.json",
+      "sha256": "88af1bf38580e040645b8c1085af4f09ba8346370a855e491ef66df627cfdc21",
+      "bytes": 2786
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/elevation_f32.bin",
+      "sha256": "2384f254107aec65664af1169f005a9297de71a7000732aec87c08d59282a87f",
+      "bytes": 960000
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/geography_metadata.json",
+      "sha256": "0694cd125f6fe5c8a6b516af7963a00a9164d8c3199b87da452bb3006df9fea1",
+      "bytes": 2360
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/geography_recipe.json",
+      "sha256": "5f36d70eb1ac1918f99698810b4adc4a4f303122468842954e16393432c76759",
+      "bytes": 9754
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/initial_runtime.json",
+      "sha256": "aff8e2c9046b672a33892893e515d510abc73e0a33e497d65859aae178086266",
+      "bytes": 1855
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/layout.json",
+      "sha256": "0aa0aa417038dbe2d89150914a83f9e34e0f42099534ed86bac5b54dc5f78f81",
+      "bytes": 8493
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/modern_water.json",
+      "sha256": "b5077c55a773faf1e74acaf07b285d892046f642011b8ec99f92a2d4b3924a0d",
+      "bytes": 168989
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/slope.png",
+      "sha256": "bbfe8d03184c584f31132ef6702edbcebf70f575a4f2904bcda5b69deb1f3e38",
+      "bytes": 166443
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/slope_degrees_f32.bin",
+      "sha256": "3a73132af3242f98f16917d9e68c89572f70bead009679a6aae7e1066d2a0cf4",
+      "bytes": 960000
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/template_checks.json",
+      "sha256": "c6f999ee1439f1b9444f2c6bad4cb3332b945b88d6da35111dc15d68bd007f06",
+      "bytes": 694
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/terrain/0_0.png",
+      "sha256": "645d179939f7680ef43713d737b5fa3a363155853fd923032b2d01d71e470337",
+      "bytes": 49775
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/terrain/0_256.png",
+      "sha256": "e744eb4b1e4e5e433a6176a539d39638eeb703068ca5fe7997bf7f0bb9663926",
+      "bytes": 43827
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/terrain/256_0.png",
+      "sha256": "30d4a52c65ecda79d4b82c14d053716a06ea03af4785dde7a79926bbb07f6531",
+      "bytes": 69291
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/terrain/256_256.png",
+      "sha256": "1ad051d79ef96d3b25f3ff8f66876f249690326c05dc1b43fb5ff1a1cd270e70",
+      "bytes": 44253
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/terrain/512_0.png",
+      "sha256": "a29a9a20c394a3136e2ddf8b7a46a774d590901e12ece8aa2e5fcebfc2cbb530",
+      "bytes": 24199
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/terrain/512_256.png",
+      "sha256": "84d7790d230840a92b624525421df9ff04f5bfe6da866ada79487349a23a81d6",
+      "bytes": 15683
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/terrain_fallback.png",
+      "sha256": "f67d357996b50fe4f24ef75ffa7afce9b720e9a25f53c589f4016201bc0c3313",
+      "bytes": 15636
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/terrain_reference.png",
+      "sha256": "333f8a97e2154ab610596ce5b19ff1bb92310f2cea2ff85739a013e3474c27f8",
+      "bytes": 221087
+    },
+    {
+      "component": "runtime",
+      "path": "bundle/terrain_tiles.json",
+      "sha256": "6d6e15c2a1ff498b6fe73e221f480075e97a700c024680ca8b74b65cf0162c4e",
+      "bytes": 1549
+    },
+    {
+      "component": "runtime",
+      "path": "construction/acceptance.gd",
+      "sha256": "3b698e8f815d77f56b600f66c3b7a7d6812ffb0318574ef0761ed69909e0f47d",
+      "bytes": 8280
+    },
+    {
+      "component": "runtime",
+      "path": "construction/boot.gd",
+      "sha256": "779779511552e8870b989d741a1878f5bf7b80f5d3f1535472ed95614850245d",
+      "bytes": 363
+    },
+    {
+      "component": "runtime",
+      "path": "construction/catalog.json",
+      "sha256": "965d01098e0be830dc7eb6a8751e30592e866206e2d986713ed94f1e07535938",
+      "bytes": 904
+    },
+    {
+      "component": "runtime",
+      "path": "construction/economy.gd",
+      "sha256": "59f9228ebe63e3dd9937f89d748e984a3e9e51f7d41acb95d3c2dc4316c44083",
+      "bytes": 9654
+    },
+    {
+      "component": "runtime",
+      "path": "construction/ui.gd",
+      "sha256": "ddcd95ab7686959be1aab986869485ba8bc64d861c56e2011d428371c0f7e04a",
+      "bytes": 14123
+    },
+    {
+      "component": "runtime",
+      "path": "data/map/georef.json",
+      "sha256": "ba5f6ecae8535d8aea89296fde4c68cd693dd329c5e41011650a6ebdd393207d",
+      "bytes": 4947
+    },
+    {
+      "component": "runtime",
+      "path": "data/map/tang_geo_corridors.json",
+      "sha256": "0f5345dc254acea0349064907f09965aaa1dd897c3c9bb99a6b2aceb788bca89",
+      "bytes": 13170
+    },
+    {
+      "component": "runtime",
+      "path": "data/map/tang_geo_nodes.json",
+      "sha256": "836d0b39f9b36ac2fe61c15a2d9d7783b1410b0a512d2f02737dc875d26bdfaf",
+      "bytes": 8470
+    },
+    {
+      "component": "runtime",
+      "path": "data/map/tang_historical_hydrography.json",
+      "sha256": "29661d34ba0602f06c24bf176d1376514ddb78ff4d113fa8a4caa2ed13edc814",
+      "bytes": 13692
+    },
+    {
+      "component": "runtime",
+      "path": "data/map/tang_macro_regions.json",
+      "sha256": "751c113361d41e1ca64d3629b8d87711b8303aff5e5d41decc8d689f65c44fed",
+      "bytes": 2662
+    },
+    {
+      "component": "runtime",
+      "path": "data/map/tang_mountain_ranges.json",
+      "sha256": "d2992294c474405164fa938f143aa5d38e490c8325b61e08576274a82a6df97b",
+      "bytes": 9717
+    },
+    {
+      "component": "runtime",
+      "path": "data/map/vic3_east_asia_relief_edit.json",
+      "sha256": "b466c64bfd9564eab8ede1d17365141434171777529f6e1b7def2a0ec0465ca3",
+      "bytes": 2672
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/accountability/edict_legitimacy.json",
+      "sha256": "54136e0b723ebca54b83e42f84808d99ac3a7be34547c549dee6a00a79d490bc",
+      "bytes": 873
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/accountability/final_assessment.json",
+      "sha256": "3e74468f60bd439798fd7ec3505484912f4ec5c195eafdc08e441364d52b1ff4",
+      "bytes": 888
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/accountability/grain_ledger_deficit.json",
+      "sha256": "59214807259324589e3a9e6110c1c4ec43e5fb0addb837e0628c339d79bbaa94",
+      "bytes": 931
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/accountability/military_supply_delay.json",
+      "sha256": "02d3e169af60037eccb6cc6755e4395a6bdb5c9a92de74671025dac99f7c04d0",
+      "bytes": 880
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/accountability/palace_leak.json",
+      "sha256": "4e9dd13fc58e944964dacda768531d1123f6c5b668c77b4c89415ab404327fc3",
+      "bytes": 895
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/accountability/uighur_aid_cost.json",
+      "sha256": "22a36e4f30a6b0457439cfce24dac0047a62aebbf5ac9edd16e22e7325ea22ff",
+      "bytes": 866
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/accountability_beta_1_08.json",
+      "sha256": "e04d989fae4747206b362adb7f2812da736e80fc38cf257c84ed1ab125d330d7",
+      "bytes": 3200
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/accountability_effects_beta_1_10.json",
+      "sha256": "d7c2035b1b8e4bb14af1aee53173aa637519cf2392382a3954bf6aa309d28841",
+      "bytes": 7703
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/administrative_geography.json",
+      "sha256": "620a4ae73fccc143f76aaecbbc147fa140f0d7c2e53a6e66e754e096c756abdb",
+      "bytes": 1986
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/appointments_beta_1_08.json",
+      "sha256": "4742fcb26baf6310366d44db994fb6c5ef58ee5383b2dc0b9dff1c751723e848",
+      "bytes": 12443
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/audience_dialogues.json",
+      "sha256": "2ee367d017ce2f7902e482e584d1dccc549cfcf2e35073682d09be1b6a6fdd62",
+      "bytes": 7654
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/battlefronts.json",
+      "sha256": "f7b6472128810121182de4ab909074324d3b8a9ba7a5e954e95b67a5e0811cf9",
+      "bytes": 4971
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_0_95_character_models.json",
+      "sha256": "ba3b34e2002ca1e42901d911471a38cc2d8829807471b633f6a7ca0ba5bd79eb",
+      "bytes": 31240
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_0_95_information_rules.json",
+      "sha256": "3e9b1a85443eb1667d4da725b26fb9bc19356b0865a06a4c3bb33b4bc6c41778",
+      "bytes": 3794
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_0_95_political_chains.json",
+      "sha256": "d57aaa4f2d3c3e545139ca38313bc33694557edcd0c60f08590ff5afc164ac41",
+      "bytes": 13107
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_1_05_character_matters.json",
+      "sha256": "3cbc03c12806e826526dd8ba87d7ebf373d569b3a159a1ae511faec8cd1ba27b",
+      "bytes": 2635
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_1_05_endings.json",
+      "sha256": "dc645c13bca7acab8f891522f63ccdb7b5443e2d422eadf2bb8e22d1b722a451",
+      "bytes": 419
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_1_05_fallback_dialogue.json",
+      "sha256": "89871cc79279966182ec685399cd45a1e0ab18574a0b5298a000cfb7a1dc9241",
+      "bytes": 853
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_1_05_important_events_phase_1.json",
+      "sha256": "31689e8da5da0bca8e9f8a8bf882e680e8561a208d1babed963a4a2f498da974",
+      "bytes": 5523
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_1_05_important_events_phase_2.json",
+      "sha256": "6a6f44fda3d65ac4e232ffb6de8418c8f13b7e8736faad4f959f6d478575cf24",
+      "bytes": 6576
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_1_05_important_events_phase_3.json",
+      "sha256": "b7ca76871b41d2f1e8714634282423c409068b1ec8fe6d45ca4c75add7c5fec1",
+      "bytes": 5347
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_1_05_key_scenes_phase_1.json",
+      "sha256": "2496dc32ece2b56bd0836934b993e96f53531cc6ffce755b9761fd7c15cc7df5",
+      "bytes": 1761
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_1_05_key_scenes_phase_2.json",
+      "sha256": "f9392cce63cee95ad0307dbd2e03a1f1546374567a0ebb4a8510ab76f743cbc4",
+      "bytes": 1178
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_1_05_key_scenes_phase_3.json",
+      "sha256": "015cd4617a91fbdaef908819cf1db204acac04933d40ec3b262b23150135318c",
+      "bytes": 5866
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_1_08_character_arcs.json",
+      "sha256": "10124e9e07d1c8153fa1c5180b6df14d90e19512c3f816c26444f3f6ec26fd35",
+      "bytes": 6900
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_1_0_character_arcs.json",
+      "sha256": "354392698496d417beb9e1978b195fe5f47ebc2d4da8b4b80cf8af5a830b8924",
+      "bytes": 13272
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_1_0_important_events.json",
+      "sha256": "dc6248a61823cc475fe23b0f7418001851cd677bcfe53c8641e5aa4c855f6e79",
+      "bytes": 29298
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_1_10_character_arcs.json",
+      "sha256": "175fd6ea583837ac28491a7854f192b99cc4f043ba9c08994615388f83a1c339",
+      "bytes": 32457
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_1_11_character_initiatives.json",
+      "sha256": "34dc6b024b9670db4f2314d7dd66d444390a8a3879423af412b685354d0228d7",
+      "bytes": 9246
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/beta_1_11_faction_bargains.json",
+      "sha256": "d523bf3c7210b2dbd9e32916b616c4f05f61c9e777dc7e09f611643f10a1800c",
+      "bytes": 16967
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/branch_evaluations_beta_0_6.json",
+      "sha256": "5cbaa460907d843d2c6a3ca735eae63215ed8af13af51a33567ce982231a39eb",
+      "bytes": 11139
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/bureaucracy.json",
+      "sha256": "c8ea2fab6b9541bb9f3a937e12c5340e3f41f0c9e34b0af839f27ee04f510d2c",
+      "bytes": 83740
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/campaign_beta_1_05.json",
+      "sha256": "89747b62480f3360101340f2b12dad6c686932761d8cf3873c4a10bc4b243647",
+      "bytes": 2336
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/campaign_beta_1_07.json",
+      "sha256": "7d2ffa36dc9d23a57756f95efe4bcc4148495d6c2295a4d778651dbb10c2f84d",
+      "bytes": 1133
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/campaign_beta_1_08.json",
+      "sha256": "d04cddaf6545c25cb04be8cd0a6be86abc7f8b114a47421bdb8839095b598de4",
+      "bytes": 1795
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/campaign_beta_1_09.json",
+      "sha256": "2618c08a366f13acef1e19d397a7924bdfdc090deed2d833d981926e3ade23a6",
+      "bytes": 2053
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/campaign_beta_1_10.json",
+      "sha256": "49645953aa5387a263c2207e96f451b4298e0b7482e9db1508eaacafc2a09394",
+      "bytes": 1481
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/campaign_beta_1_13.json",
+      "sha256": "7143cb55361949e0db7537b5c1278e89419312cee0da2980b5aa345b444159e8",
+      "bytes": 1971
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/campaign_beta_1_14.json",
+      "sha256": "a45c2f1bd133a063d1a9098af1f4c80601b461b1561a4c04bb3934fcda5d91bb",
+      "bytes": 522550
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/chapter_1_events.json",
+      "sha256": "09d271c455f4fad3ac844104b8be492c9188743101ea14475f92e261f1a2a172",
+      "bytes": 106382
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/character_appearance_profiles.json",
+      "sha256": "8563a87813acab6b6eaa81eaa54fb8f3c2bb9613affa6c8df6266e708594470d",
+      "bytes": 5420
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/characters.json",
+      "sha256": "82bb523ec79728a447d61c8d7cd3fc8539d0e584f973c4aadfacc6c68d18ac99",
+      "bytes": 13276
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/clan_petitions.json",
+      "sha256": "0a2c20b53a0a5dfa4f85807b235b12778c6ff38934fa1bb2f0ce1a753dd1a991",
+      "bytes": 4096
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/consequence_chains_beta_0_6.json",
+      "sha256": "2cf2c601369c073569d497db6d684b902548271b868f3725cf74ffd1199cdc80",
+      "bytes": 9411
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/conversation_consequences_beta_0_9.json",
+      "sha256": "9bb1686b1b5e39d221fb661c4b4a49bc0d44a5ba8d5f5376147cd5af2fc64913",
+      "bytes": 15711
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/court_meetings_beta_0_6.json",
+      "sha256": "382071489766e022d592fc1b556bbb910c2c2829634ec6780755611792d7eda9",
+      "bytes": 11442
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/decisions.json",
+      "sha256": "c45d0b37894c0a24083c0e1e4160fb4fa7e991a043a53bd05510cac9a4de5571",
+      "bytes": 105232
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/dialogue_intents_beta_0_9.json",
+      "sha256": "67c35c5b927a1979307a513529d5919c6997f62205bc5c5633c942fded7d52b6",
+      "bytes": 5797
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/dialogues.json",
+      "sha256": "4bd9a1f21f70a4d7e98b1ba13f3930cf4f0d1fa4a9b09db5a3c04adc6ee0ccdb",
+      "bytes": 270002
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/domain/bureaucracy.json",
+      "sha256": "c8ea2fab6b9541bb9f3a937e12c5340e3f41f0c9e34b0af839f27ee04f510d2c",
+      "bytes": 83740
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/domain/characters.json",
+      "sha256": "12f6d276a85d00d11666dd28f2de5b8ed48672674617fdd73cc42f62ccac0dd8",
+      "bytes": 268088
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/domain/dialogues.json",
+      "sha256": "4bd9a1f21f70a4d7e98b1ba13f3930cf4f0d1fa4a9b09db5a3c04adc6ee0ccdb",
+      "bytes": 270002
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/domain/events.json",
+      "sha256": "35041eaf2b3d69901f8a30f95516899e9e34c1a765dd9f13b87e985709af05f3",
+      "bytes": 238665
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/domain/governance.json",
+      "sha256": "c8ac85a58f2f2b5c9d7c91cb2e8433484f4882c7c1654d611a26425cd913b031",
+      "bytes": 161250
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/domain/lingwu_military_pack.json",
+      "sha256": "9dcc3df4f1652d45546d14414a906bb5a74ef781c5f6bfb4191e46977ae015f3",
+      "bytes": 7651
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/domain/military.json",
+      "sha256": "10a4b47b8782265fac4e39f1f2d71911837ef178946c5e3b909821b11347e28b",
+      "bytes": 95219
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/events.json",
+      "sha256": "0fddf76dfb8f22a78fccb51fdd109ca07172efeb7ccc7a1b3247bcef9d2b134e",
+      "bytes": 413224
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/examination_questions.json",
+      "sha256": "7763535a998bc51f44e0882b027b6c27239558014b9c348d1339cdd46dcacac0",
+      "bytes": 3497
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/faction_agendas_beta_0_6.json",
+      "sha256": "f6cdde190bbd6552f8c9d1b766ab9bb28e44fe9fd79b01985c6fb187ef5b972f",
+      "bytes": 3797
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/factions.json",
+      "sha256": "619117316559481e5b5b19624a510f5c93f37841d9d0c7bbdfdd0bf0697e4649",
+      "bytes": 1135
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/first_political_loop_beta_1_08.json",
+      "sha256": "4976cc1b1d198122c45f3aa5c52a24c2a8abbcdf05ddd1bc74a9c8d2c99025cd",
+      "bytes": 1454
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/governance.json",
+      "sha256": "c8ac85a58f2f2b5c9d7c91cb2e8433484f4882c7c1654d611a26425cd913b031",
+      "bytes": 161250
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/governance_beta_1_06.json",
+      "sha256": "324609e64d481fe688b0c56aa412dd9cab93ef121fe13fd8c0e66d86f1122892",
+      "bytes": 6736
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/governance_beta_1_07.json",
+      "sha256": "0e394fa38dce45137aa1df0ae30cf02051791ebf5cf0fcb9043058a8f53ffa28",
+      "bytes": 315
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/governance_beta_1_07_grain_authority.json",
+      "sha256": "885c2148526e9ee5d262b2672299a2a039dc8922bb2e8b4d45ff1f91173c60b7",
+      "bytes": 1815
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/governance_beta_1_07_palace_channel.json",
+      "sha256": "6a2768c784e95611be6f35897fc16b1557b60896967b50dc3f6aafdf6930ede7",
+      "bytes": 1825
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/governance_beta_1_07_reports.json",
+      "sha256": "4e49c749a7a15c0e3c99228df72854c7b7b7b7d79ee5da9241be8116afb7608b",
+      "bytes": 1073
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/governance_beta_1_07_uighur_cost.json",
+      "sha256": "1de4de88f12aa5bec83c5a739ee9161efb00008792c275ebfd173afce8f23b32",
+      "bytes": 1816
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/governance_followups_beta_1_09.json",
+      "sha256": "d285fb543de3edb412f79e71960633b628cd25c43b5f416cc9d48c7691c10992",
+      "bytes": 4658
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/governance_followups_beta_1_10.json",
+      "sha256": "65687a1d0841c24efc382d82131cb1427c774b1ec3ab8af02e5c61f70d9661c6",
+      "bytes": 11660
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/industry_catalog.json",
+      "sha256": "ede868012e8fa88177b10471913c8cf1545363aebb821f95a5f9619f43f05649",
+      "bytes": 92169
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/intelligence_contradictions_beta_0_7.json",
+      "sha256": "e784693dee8ea0de5db95960fd73eb2e736eca9ed6d7074d876187add7c9877c",
+      "bytes": 3783
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/intelligence_reports_beta_0_7.json",
+      "sha256": "bc734b9cbef83383c3a000f4d35fe19f252393b3e94367775e943c4abe882afa",
+      "bytes": 35771
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/key_scenes.json",
+      "sha256": "4a727f837f9809e3881d8045789f6981341162ab02e51996b0262e91d525e525",
+      "bytes": 48910
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/local_nodes_beta_0_6.json",
+      "sha256": "f8ce031d9edb9238e70e69bc076bf3e067eb3f1b1e90f6a311dc824e6aad9b03",
+      "bytes": 6016
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/management_central_offices.json",
+      "sha256": "1da72d85e3f929f6247d7b5acb2b9f117f03339a2dc5882af5aab4beac175ae6",
+      "bytes": 40949
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/management_criminal_cases.json",
+      "sha256": "07934427424b911ff6b84bf06c4b147fa8cae3494b624a5fa8d06107e2505b10",
+      "bytes": 2197
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/management_estates.json",
+      "sha256": "0378665de456b247bd0bd35d18b0b51f7beebd4002ee3f95a34ea6f81cf7dcd3",
+      "bytes": 3866
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/management_marriage.json",
+      "sha256": "59a94a233999fb94f63fa7e65d01bd8ae46735006badd3b8c10e8c0f7eaf425e",
+      "bytes": 3811
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/management_partitions.json",
+      "sha256": "8a9a05fca29a34ed1ee2bfd5632c1389dcbb2ec865f7c8e4cc53b285c783395b",
+      "bytes": 1636
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/management_player_succession.json",
+      "sha256": "76c666ba026aecea8ef90f2bf9b3cec2dce1131b6f3fc5bd6cbaf89b7c0a907c",
+      "bytes": 1013
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/management_regional_pingyuan.json",
+      "sha256": "a45ce351fea2da12ed6c68cb51060451acae6486d7a2b0a5fa677fb31b6d7d38",
+      "bytes": 44709
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/management_succession.json",
+      "sha256": "69b7bb5c4abef0f44a53aebd00a032cde80df8b9de10bead330a2320f5d825de",
+      "bytes": 774
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/map_conversation_routes_beta_0_9.json",
+      "sha256": "26091eabe69dd6b9809fffd3f9ddba9b7f028c54cfcf3c7aeacdbfe6489c151a",
+      "bytes": 2626
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+      "sha256": "5b50db726e8b125c7e5513d47b4b64bd25a92b6c0fd16a112172569aa2052acd",
+      "bytes": 59874
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/military.json",
+      "sha256": "10a4b47b8782265fac4e39f1f2d71911837ef178946c5e3b909821b11347e28b",
+      "bytes": 95219
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/npc_dialogue_topics_beta_0_5.json",
+      "sha256": "b247834136019b4a03c5d1eb615b8e44d522276d9ae72ca626dd803f082821b6",
+      "bytes": 78640
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/npc_interactions_beta_0_4.json",
+      "sha256": "b4fc4e376c7023d32ad9a08d00609fa1fa7822428591168a772f1c23aa1d9003",
+      "bytes": 27396
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/npc_political_profiles_beta_0_9.json",
+      "sha256": "7badb9106eb76ea173c62f141b136d793373668e4014a8ce221c476d78c2cc6a",
+      "bytes": 18317
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/npc_relationship_edges_beta_0_5.json",
+      "sha256": "e6a970e566f78d72375052fa91da95c1991a7979fa4fcfc4d8a215572649f7cf",
+      "bytes": 25923
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/npc_stances_beta_0_5.json",
+      "sha256": "b9a35623ed39469ea994b93a01a94edca226620e55fe57b9b34df73d675c7ef3",
+      "bytes": 3607
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/obligation_ledger_beta_0_5.json",
+      "sha256": "c02323651173ef7d12e2a8b667f9a1a527fca46e4b767495d97a0a4cf0da78a2",
+      "bytes": 43112
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/offices_beta_0_6.json",
+      "sha256": "67e529b4a62f8a0fdc455dd061e1118d3b739726ff680b7e1ed3a431a6722195",
+      "bytes": 12848
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/offices_catalog.json",
+      "sha256": "d234771024ab9c8a3df41fd9163ed89b291851eb4fa22b2d81d0a99530ff2cc0",
+      "bytes": 19031
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/political_echoes_beta_1_09.json",
+      "sha256": "487ee95850b0a8674ba0f26e407e6f4387b6edb3a5dc4c21af6dadb3b91c8e1d",
+      "bytes": 8273
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/political_echoes_beta_1_10.json",
+      "sha256": "d7581001b9bea8f604ae8806855122354c7b62e4d284c9729143b6a8987801ed",
+      "bytes": 11680
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/political_season_beta_1_09.json",
+      "sha256": "cd4736f4350b08ff298bf2de83b5794d63cb7e01d682a094f8e742ca1a9b8e8e",
+      "bytes": 11212
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/political_season_beta_1_10.json",
+      "sha256": "6a573d5a70760c23cafab20e170ef99390da93b2c59fa33afad8d97c245865da",
+      "bytes": 7804
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/political_season_review_beta_1_09.json",
+      "sha256": "35746eeacbf08b13cf6af2149abb80bd7da6aaf212515c86dcba23b8fc8d499b",
+      "bytes": 3497
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/political_season_review_beta_1_10.json",
+      "sha256": "3cce9cd3d3b38f9de51af3a385332b2835122a117b9cd6398d8b5301a0fd2549",
+      "bytes": 5247
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/regional_demography.json",
+      "sha256": "dd91bffadd9542ebc10574e7fc158df4e0e4b2cfab89a4edf21f5de7f4b6c828",
+      "bytes": 103689
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/regional_economic_baselines.json",
+      "sha256": "ae78318f4b6f507e10a2580ddfcab7a1aaf6750ba29cc7fcc747aeec6700e221",
+      "bytes": 79581
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/regional_estates.json",
+      "sha256": "f4c7a876b150ee13e605a5668820015573cd2933842d53dae9cc1ab30c608c0e",
+      "bytes": 1269776
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/regional_operations_beta_0_7.json",
+      "sha256": "241f1c7a4d1e6d67869bffff98941177899b0570305d1f43042684021a432c91",
+      "bytes": 22534
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/resources.json",
+      "sha256": "f8e39e64b6c820049e7e1354ede9eba59d5758c5ce26cb2b33f21b3ce10b0c4a",
+      "bytes": 153
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/river_weather_events.json",
+      "sha256": "ae141d80f243c39993c467b2b9e8e4bd436474a883ab470b70551cf2f99cda4e",
+      "bytes": 439
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/road_surface_events.json",
+      "sha256": "ad0d2ea469fccc2bfa6d314671f0b8607adf6af225f7ffe67c234ad4d46476bc",
+      "bytes": 448
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/route_network_beta_0_7.json",
+      "sha256": "c2df5af12b08f273309dc090d717e2b430b8754410a748f3270d7235862a3746",
+      "bytes": 14311
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/scenario.json",
+      "sha256": "b49f679cf0c4440104d654aa9de88c4f49a310d28b38d8f46e672bd755f0c917",
+      "bytes": 843
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/tang_clan_characters_expansion.json",
+      "sha256": "dab6158cac7287c4020f519524180335a0988f6cda8e116e05bb151f2186d617",
+      "bytes": 14758
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/tang_clans_definition.json",
+      "sha256": "241c6c2c8fb7392d4378530cf4c3929d7274968edfd00725b784962107ccca43",
+      "bytes": 12669
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/tang_recruitment_events.json",
+      "sha256": "024d52f6de2ba61817aba2b6df079e79f1deb7a28453838eff609e736d4755aa",
+      "bytes": 10511
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/tang_stress_events.json",
+      "sha256": "88511283ed5232c1082258468e708854d33a19142f8e643386fc8c4a84f26eb4",
+      "bytes": 6864
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/tang_traits_definition.json",
+      "sha256": "eb3f39d7e5d6ed057e6600ecf228274fb7a195aaae7b02b44097668062b0e88c",
+      "bytes": 33998
+    },
+    {
+      "component": "runtime",
+      "path": "data/scenarios/anshi_rebellion/vertical_slice_definition.json",
+      "sha256": "1dfe3e87027d9b26d914ff3bf688af99e7a28d7bea452b17ee3156b5404c71f5",
+      "bytes": 772
+    },
+    {
+      "component": "runtime",
+      "path": "export_presets.cfg",
+      "sha256": "b3051f36356b3ac53131e65c37eefce55e5b7dac0a506cbe7b44a4baba78989e",
+      "bytes": 872
+    },
+    {
+      "component": "runtime",
+      "path": "final/acceptance.gd",
+      "sha256": "8d42218eb35b62dc6eed22d91bf1333db1014cdd22bacfa3cde3c5a8b683ad0a",
+      "bytes": 14568
+    },
+    {
+      "component": "runtime",
+      "path": "final/asset_manifest.json",
+      "sha256": "87adde2788f56c165a78191f10d82472079e9929f3bf5e45651914e2b0db6df8",
+      "bytes": 5138
+    },
+    {
+      "component": "runtime",
+      "path": "final/boot.gd",
+      "sha256": "182d44aa9b5b745de4f3a5da218ac98af10d07c934d73ca258b179cb7f34d78d",
+      "bytes": 815
+    },
+    {
+      "component": "runtime",
+      "path": "final/controller.gd",
+      "sha256": "97983bb5132c2da7ae044fe8668b0604b41973d354cb592398d9f2a336adb83f",
+      "bytes": 1149
+    },
+    {
+      "component": "runtime",
+      "path": "final/fixtures/r4_save.json",
+      "sha256": "9c5d472dd88cdc53fd12ccb97b698d8e71ffcbd9a85cb3e930db278014799ea9",
+      "bytes": 76389
+    },
+    {
+      "component": "runtime",
+      "path": "final/migration.gd",
+      "sha256": "f9f91aa9460288b2d14d2693a87f411ac59a2358dd1e473d000154b4bbe3248a",
+      "bytes": 5775
+    },
+    {
+      "component": "runtime",
+      "path": "final/migration_policy.json",
+      "sha256": "d391dfbb3eabc7be6973336a27e963053ae30022805a440be9275f0a28ff0087",
+      "bytes": 997
+    },
+    {
+      "component": "runtime",
+      "path": "final/ui.gd",
+      "sha256": "06bb9d3827bb57057e09c1b5cd8c3e4167e86404a0b4483e8c0a7984bf37ee23",
+      "bytes": 3601
+    },
+    {
+      "component": "runtime",
+      "path": "integration/campaign_adapter.gd",
+      "sha256": "e01e2662a693a9d7901254afd5c7822baa9d87e957e1869778ed6818d95c9020",
+      "bytes": 5525
+    },
+    {
+      "component": "runtime",
+      "path": "integrity/acceptance.gd",
+      "sha256": "9499e1d135bf06bb3c9940683ea04612d79efe8a51bcc7bf01db8eed9fb7a419",
+      "bytes": 9327
+    },
+    {
+      "component": "runtime",
+      "path": "integrity/boot.gd",
+      "sha256": "3df376e6a1609e2f8c0ce421f9fe56d1156dbad974d96623448779a91c329a0a",
+      "bytes": 341
+    },
+    {
+      "component": "runtime",
+      "path": "integrity/polyline.gd",
+      "sha256": "625c2696439709347e971d56e8b5cdd31872392133be6dcc6c9f5f17abdc9a47",
+      "bytes": 1226
+    },
+    {
+      "component": "runtime",
+      "path": "integrity/publication.gd",
+      "sha256": "d717d396080f00590452b3c68284911357c2d408258b9ba48af557fd0b07009c",
+      "bytes": 5243
+    },
+    {
+      "component": "runtime",
+      "path": "integrity/ui.gd",
+      "sha256": "5ea8ae1980b56d83857d997f8527d42bd9cfef6fdea8da79fda905989b0b5cf0",
+      "bytes": 4284
+    },
+    {
+      "component": "runtime",
+      "path": "main.tscn",
+      "sha256": "ceb3a653b6c510610ae639a46804d35a7a4b8e180f460d16a78c40f8d2a3e57c",
+      "bytes": 165
+    },
+    {
+      "component": "runtime",
+      "path": "probe_fixture.gd",
+      "sha256": "39c071139a10dfe970d1a5bf5eb4a0cc94eb6af3eb944cdd019ddff45e2e7a75",
+      "bytes": 675
+    },
+    {
+      "component": "runtime",
+      "path": "project.godot",
+      "sha256": "6c9febed948e8e70b0e01e2d51998dc8325fde87efd1887bf102fcea06645367",
+      "bytes": 442
+    },
+    {
+      "component": "runtime",
+      "path": "review/acceptance.gd",
+      "sha256": "3ad9ec2858d0dda1a277421b3a72f0a242f44ce29b53b4ec53842b13fb9ea2ba",
+      "bytes": 9283
+    },
+    {
+      "component": "runtime",
+      "path": "review/boot.gd",
+      "sha256": "fe27a47ef90cd9cd13ba8144812b984682e6943bd24b7834890feafd4adcea64",
+      "bytes": 335
+    },
+    {
+      "component": "runtime",
+      "path": "review/canvas.gd",
+      "sha256": "efea116df10ef7fc1e6dba0e8dd5ab5a60e49df223898efc5aaf6a6b1795a4b2",
+      "bytes": 12497
+    },
+    {
+      "component": "runtime",
+      "path": "review/geometry_audit.json",
+      "sha256": "c6bf865cdb62e2203a9c6cda013be978d5d988d62621b45e26d6cd5aa66da975",
+      "bytes": 13944
+    },
+    {
+      "component": "runtime",
+      "path": "review/history.json",
+      "sha256": "1a360a9659396c040955101f31431e44092544d66ead6b8a0a14a362199445cd",
+      "bytes": 3495
+    },
+    {
+      "component": "runtime",
+      "path": "review/policy.json",
+      "sha256": "f16e6919d13c7d9704a11dee519a54ce794f3f70927c7b6f6f4d709433500487",
+      "bytes": 1947
+    },
+    {
+      "component": "runtime",
+      "path": "review/relief_contours.json",
+      "sha256": "65dbe5f8b49c76aa3b2faf46e0af9834b3b325e8deeaf5b466d89b90427b9563",
+      "bytes": 619921
+    },
+    {
+      "component": "runtime",
+      "path": "review/ui.gd",
+      "sha256": "182b9f8ca2e739293f8dcecb620d56e531464f3f201732b9f488b5a1133c8d03",
+      "bytes": 4806
+    },
+    {
+      "component": "runtime",
+      "path": "review/view_rules.gd",
+      "sha256": "03825a5053366d0e5d42b629cef33472aa42a4886a89d0994740f48bde22f621",
+      "bytes": 1365
+    },
+    {
+      "component": "runtime",
+      "path": "runtime/acceptance.gd",
+      "sha256": "c14696df80e5b0e988d700cc526ec57882f62f4e655914cf72efefa8e8e6ded4",
+      "bytes": 8982
+    },
+    {
+      "component": "runtime",
+      "path": "runtime/asset_cache.gd",
+      "sha256": "fa60831148a58d2a0587476017a619847672535e8c4be0e9ca2d29c548a49094",
+      "bytes": 2924
+    },
+    {
+      "component": "runtime",
+      "path": "runtime/boot.gd",
+      "sha256": "be012794d593e4eb2bf554de14739eddef3a5d19707c28fbc94c38e98f8f0d00",
+      "bytes": 342
+    },
+    {
+      "component": "runtime",
+      "path": "runtime/canvas_input.gd",
+      "sha256": "45d980eebb556fed1e4f12cea3e7aff18e91a3e4f96296c19f4b2bca8af40d19",
+      "bytes": 2209
+    },
+    {
+      "component": "runtime",
+      "path": "runtime/city_canvas.gd",
+      "sha256": "d1e30348ab8233d25fc98028629095000d8244a1ea299d4a281a2a997a5613b4",
+      "bytes": 6176
+    },
+    {
+      "component": "runtime",
+      "path": "runtime/geography_canvas.gd",
+      "sha256": "30fe92fd421d1f5dc83adc9440b3f9de8637361d8f45493db71c72b3b79c646e",
+      "bytes": 5139
+    },
+    {
+      "component": "runtime",
+      "path": "runtime/model.gd",
+      "sha256": "aef3e0ee05e27cc5f963b73dc9c33fbeed4b1f1a990f07711cf0000e1b7a2a83",
+      "bytes": 6712
+    },
+    {
+      "component": "runtime",
+      "path": "runtime/session.gd",
+      "sha256": "ee68c5fdf7b5c8a8bb597c3eab8a539194c55b2e7964bb5ae57b0c05dac657d5",
+      "bytes": 408
+    },
+    {
+      "component": "runtime",
+      "path": "runtime/settlement_state.gd",
+      "sha256": "f4038f6ee0c089ef0e84d61a48dc8e97a13cdeb03e477e1b37f6c194ecc4d74d",
+      "bytes": 8344
+    },
+    {
+      "component": "runtime",
+      "path": "runtime/ui.gd",
+      "sha256": "da32e4d16726da923aa55cc6eb9df0615f845927bbf071757488dc1b442276f8",
+      "bytes": 9754
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/ai/assistant_plan_parser.gd",
+      "sha256": "dbad6809ad4a6ff75c4764a59bcfabfee13143384d32b87604c2da6042bf33ed",
+      "bytes": 33340
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/ai/dialogue_intent_parser.gd",
+      "sha256": "834e244a260474ec3ca93ea6fed0cc26e26d45f47fc44c1951a2c29c912aa80b",
+      "bytes": 41786
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/ai/generic_entrustment_slot_extractor.gd",
+      "sha256": "f06cae9ef21d762e02e7bb599756b4f49f32a0dd70607b7fd2debff1a6889573",
+      "bytes": 49311
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/ai/npc_decision_parser.gd",
+      "sha256": "ae93b0e1ffcb97c63d516f10bcc7964de2815a45eef935545242d1687991751f",
+      "bytes": 4096
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/accountability_case_service.gd",
+      "sha256": "c72f3ae0e3939a9a5bf5f15946a910188b16cc137bf1ca4485f92a7468b9bbcf",
+      "bytes": 29235
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/accountability_verdict_effect_service.gd",
+      "sha256": "764fa8c42e89c002b30bfdf9a0c92a9356b92bf1d40ff2458cc1b9b672a743eb",
+      "bytes": 7662
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/accountability_workflow_coordinator.gd",
+      "sha256": "62a493c390021a7a2ad27f512dc8e130c2fb3c0dd9cba5514d70b74b844c4351",
+      "bytes": 24145
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/action_authorization_service.gd",
+      "sha256": "079436f1eff0ea251e592cd361670014a03196f23b8bfd5bae78bbd4dd20a335",
+      "bytes": 41848
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/agricultural_season.gd",
+      "sha256": "5fba06e24c412c08cc5dc513430fa943bb8827064862657ae2aebcfef784c576",
+      "bytes": 2056
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/assistant_action_instruction_scope.gd",
+      "sha256": "cfb0748413f8fc782f7888d24117bfcb307b18176fc78e1f5f2dd5f648923872",
+      "bytes": 21956
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/assistant_advice_service.gd",
+      "sha256": "5dc88469418bc810e216e0442848c01d4f326cb8346362527b7db42cdf484ee8",
+      "bytes": 13477
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/assistant_context_pages.gd",
+      "sha256": "015017b96f81cfd08f0e25a982db27976add589ac853d2f27be08f676252e447",
+      "bytes": 4572
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/assistant_context_projection.gd",
+      "sha256": "845ea02e6a883eb2e3f01839325aa8c970118fa27006d92719ca821305c649ee",
+      "bytes": 10259
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/assistant_instruction_authority.gd",
+      "sha256": "c35fcea11bf8b457b82e45d00390b29d35f412792216a61c5e1dbda444eaf9f5",
+      "bytes": 18758
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/assistant_plan_assembly.gd",
+      "sha256": "8d2020f57f0414fc1774843dec42974eb643ca3f56c90de31e985a736864a1c7",
+      "bytes": 4418
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/auto_pause_policy.gd",
+      "sha256": "3f3f00277fc308fcf1fcfd826505a8b57c5decf9ae1555a7fb13f9095388bc0f",
+      "bytes": 3770
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/beta_1_09_test_scope.gd",
+      "sha256": "cb23934ea70016057a9bce7126f33d7b33fa205e125a5d05d06b8c9fa5d97ffa",
+      "bytes": 5099
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/bounded_value_validator.gd",
+      "sha256": "6f25146436db5dde90bad1a34cce6363d5a46ce0580687534b0495adadcc5aa9",
+      "bytes": 3077
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_credit_assessment.gd",
+      "sha256": "a33c87b2f07370bcac37c367535795a8429219e310c623053bc4bd820dc8fd12",
+      "bytes": 6634
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_distribution_service.gd",
+      "sha256": "fe68bb5123ccf11eb5e26f5146ab3c080f5146fa55c4832295b125abe2717cbb",
+      "bytes": 4408
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_financial_projection.gd",
+      "sha256": "1892d7328b7c2b53a85ee1a374999a53f0353d357e2390e62f35afe14bd346a9",
+      "bytes": 17040
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_labor_conditions.gd",
+      "sha256": "cec6da4546cce1f55f172fab9fb56300286db85a429c9361833130dab1b4b689",
+      "bytes": 4569
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_maintenance_condition.gd",
+      "sha256": "b9a7c9400a7e5a4654b44bef9bb38a16cf3f4d53ad5835eb9a58ce57de79969c",
+      "bytes": 3277
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_management_service.gd",
+      "sha256": "933d94f08aff9b0a48bbb5ed4f4eaa828674694333606c161887fbf17e65c9d9",
+      "bytes": 47026
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_manager_office.gd",
+      "sha256": "b3a93b65c31a858af51ea3aaec236a3e7595d4b5939e1034470d1942fbd3bfca",
+      "bytes": 6278
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_payroll_service.gd",
+      "sha256": "9db69efc17f7054b1189209837da61d05a825d60d4eede9a752d305e7bbcedad",
+      "bytes": 3873
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_personnel_conditions.gd",
+      "sha256": "af4d31f9e9a0b42c5db5d749840b1dc5fe1600e8c1d391f2b406713b0b5290a8",
+      "bytes": 4361
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_profit_sharing_service.gd",
+      "sha256": "5ec94686d76b57c96dd18b9ed7d53e2b49eaf897e15e4e5c3c89216632472c7a",
+      "bytes": 13113
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_report_delivery.gd",
+      "sha256": "28e363f1813fc052452d4f2c33b605a32159ac7fe85805650b20b46b2f35dea5",
+      "bytes": 12106
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_review_service.gd",
+      "sha256": "6bc03cfe6d5b4a65df4e78a7867c5fb5d7557365ff3647ce5d808998396dc0ba",
+      "bytes": 9454
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_staff_service.gd",
+      "sha256": "090a2e239fc4df5e9677fca3bd60ceb2b0d4103755161f09319aad37601abc38",
+      "bytes": 6429
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_strategy_rules.gd",
+      "sha256": "dfc14c466e5edcf130a16d831141f214c9fdfa15b28aec3b1a522dfc1b73ffe3",
+      "bytes": 1008
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_transport_conditions.gd",
+      "sha256": "824abe1fade7f6f1cb7636c52411c5bdcb848912764150a1e98873dea9d8d1f5",
+      "bytes": 2680
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/business_wage_service.gd",
+      "sha256": "e35d7fda6e4bc0f4f1265226f230d6eebf3b24d17f77b4f577b6e7a2eebc2840",
+      "bytes": 6381
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/campaign_pacing_service.gd",
+      "sha256": "a8c347c78ec87c9f5f6764d465cdb9fdcfb60d207d254d9e08aa66ca02aa14e4",
+      "bytes": 2759
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/canonical_json.gd",
+      "sha256": "439b12c1f65a283cbbb62cc155a8bdba9cb58b4c47c0e29e0b5d16a7f500c9c1",
+      "bytes": 5597
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/central_appointment_rules.gd",
+      "sha256": "5c0ff02b3e5ed25111f1481fd2bcbfc717d9d4a07cdecf1201c1a389740086ca",
+      "bytes": 5078
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/central_examination_service.gd",
+      "sha256": "55682c32dd4a04f7e5414c4c600243f3c04fc53a77025db2840bfb9e5e8ea220",
+      "bytes": 4186
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/central_office_rules.gd",
+      "sha256": "60b962f9671a563b7ecbe75513becd1e4897882257a7f64be15db02ee81484a4",
+      "bytes": 8069
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/character_agenda_service.gd",
+      "sha256": "64aad573b1049e2b55502a5eca0bda101679ff5aa07e28ac7d44538783f3d4ed",
+      "bytes": 36030
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/character_appearance_contract.gd",
+      "sha256": "464ec6f97d25d5fb2f4aa889829ddf8472f5d7e3422c4b3885ab291540e84675",
+      "bytes": 9003
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/character_arc_service.gd",
+      "sha256": "effbf2f7d38a3a06f7ca7e54141e193e47e0eebea5008bd20112f53537f01738",
+      "bytes": 35197
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/character_birth_contract.gd",
+      "sha256": "0683f6a262fea04324185c8f287d9574d860c22662f24d24ddd0a0fb9cf075f7",
+      "bytes": 1315
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/character_birth_service.gd",
+      "sha256": "e36c7c75bf1ff48bac92e5f9fed3fc933731ea84136bbaf1f552238ee8c7569d",
+      "bytes": 4412
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/character_dossier_service.gd",
+      "sha256": "907f59723d01638725507a9450ae678eb753f6e8880a07504af48e8f1b64b866",
+      "bytes": 15948
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/character_generation_service.gd",
+      "sha256": "1b255ffebbe2686e7ccc9adfeb7a547a9430efbf584946b3f77a228b504867a6",
+      "bytes": 9523
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/character_knowledge_service.gd",
+      "sha256": "07372ef52129dba3d3c3c824710c4d3cac7dc55fdce51868d8c5b5ad7d14c298",
+      "bytes": 39455
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/character_portrait_service.gd",
+      "sha256": "e0b0cf249d20f59034c171285f297cd6ff083c2528b2eb311aba75a3b3db5b8a",
+      "bytes": 1425
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/character_query_service.gd",
+      "sha256": "443d0cadd8b5d1dd9c1b2997fe2f92904bf2f85f84dce30ed0b0c2036c8f160f",
+      "bytes": 4391
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/character_scheme_state.gd",
+      "sha256": "a2b32b7375321af023b75b6748b31a9a66dc608b871c837807dd7e389a81afbd",
+      "bytes": 2436
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/character_search_service.gd",
+      "sha256": "7ac199f0701825b6c6c322524850ab0569a711e4d88c63400b1699a819b2e4e2",
+      "bytes": 9490
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/character_state_service.gd",
+      "sha256": "0b8f1f1c20d9030bdeb25e21e92bb6329d7c110d4c516a363d43700b2ce7ba3d",
+      "bytes": 10763
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/character_style_service.gd",
+      "sha256": "614575f0acd6f895e6411da9e23179d20fd59a950bf5ddddcb5c22013e22388c",
+      "bytes": 2810
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/character_workload_service.gd",
+      "sha256": "44c65415c56423eba616ca90e2ed058e156ea1029c621f5d8711dfd0060969bf",
+      "bytes": 7739
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/clan_succession_service.gd",
+      "sha256": "510f71e035448fa73fdf9b904ac3b63845b05adfbbf86af242765f181e1abaea",
+      "bytes": 13369
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/commodity_stock_service.gd",
+      "sha256": "a0795fdf285932d75146462729885bb9561e08ce3d14c013d1099c510974d9f2",
+      "bytes": 3211
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/control_dispatch_actions.gd",
+      "sha256": "07029a59d2033d9d2dadfeaee31b06e5455f30a9c95ea7440d91876503f4677f",
+      "bytes": 3226
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/control_relation_state.gd",
+      "sha256": "027fe2f2af30af5ab0196892194e1cb43c0ab51a22aa7bb885a1ca3dbd799adc",
+      "bytes": 1265
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/court_workbench_router.gd",
+      "sha256": "548aa6f8597d3d34573bc10715ec9889d87c86451f953ddb73a4332be4b5498c",
+      "bytes": 6664
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/criminal_case_service.gd",
+      "sha256": "7a8f4fa4e2d025f57f4f132a2b823604a1cf0a6a6e618636fd1a4578acf545fb",
+      "bytes": 18243
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/crossing_observation_projection.gd",
+      "sha256": "da90f985986bd466bccc751b144c999d9921ce5ee3d5a000ed724a286115b8c4",
+      "bytes": 3237
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/daily_settlement_coordinator.gd",
+      "sha256": "68a913317a7f998521d288f60e38675403f1b6e11ee11c37bcd9a938dd48f10b",
+      "bytes": 17646
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/day_value_validator.gd",
+      "sha256": "5e77049b6aad86680768da2d331ad56fe17bd549d83e7270c7ceaff2a6288824",
+      "bytes": 907
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/depot_state.gd",
+      "sha256": "fca7c2dc9057d08052a12a248d4c55954678b6c48940dc94b789c03faea5997c",
+      "bytes": 1623
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/dialogue_production_adapter.gd",
+      "sha256": "ad4a26ca7655f96491df2c5b4c9f7e6d3cb7ba36d070f274b472da12cdfddf60",
+      "bytes": 17643
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/dispatch_transport.gd",
+      "sha256": "693c73d37660fb8aabc77a917b97796c3163261bd993c974878bc26ff12bf675",
+      "bytes": 6949
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/education_service.gd",
+      "sha256": "4db8bea86650d4c5261bf054d7e3ecbb038f0646a5d2bb86948283b579feb123",
+      "bytes": 27331
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/emperor_stress_service.gd",
+      "sha256": "ec5fbef32bbc3ba7a8d6404d5191c0b778f1aeaf592f6985341a22e0dbfbc9a2",
+      "bytes": 16743
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/entrustment_capability_registry.gd",
+      "sha256": "f8491875ab1ad05ac1b0b40bc1c6c4c0701c19aaa1a9a20870e63b8a6bf7600e",
+      "bytes": 8243
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/entrustment_request_compiler.gd",
+      "sha256": "4cc52f5887e1fca7c74dff847719552645f40d4477d7af41921574b22933e3bd",
+      "bytes": 24246
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/estate_construction_service.gd",
+      "sha256": "249aeb7e3f802c8b16b734b0ca4816b2a7066a3484a9dcadd8872336658b52de",
+      "bytes": 16702
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/estate_lifecycle_service.gd",
+      "sha256": "1c3c0e6f677484cd380503b1c6077207e94f82c7bbac8ae15fa0c2cc1c5424f4",
+      "bytes": 17501
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/estate_paid_production_service.gd",
+      "sha256": "292ef01245395b1390b506416cfe0da888f38861e884b743b0f590ddbe9d97f0",
+      "bytes": 5797
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/estate_production_continuation.gd",
+      "sha256": "bd72d670c2cb691a3b6d0331bc12047bcf22a36ec958879d9df7ead1d4fcc9d9",
+      "bytes": 9187
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/estate_property_transaction_service.gd",
+      "sha256": "01be9df7ffd2a588fbc83ab2f03730b954a4ca59d43b119429442fdcd6cff5e2",
+      "bytes": 22975
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/estate_resource_distribution.gd",
+      "sha256": "b5d9d1d26c3da2cd97aeb06a7337dbafd52792b326fa1c3a7d891f9be890c379",
+      "bytes": 6159
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/event_queue.gd",
+      "sha256": "b97f1ef717cf1cb623c3aeef297403501146af1661d36f433116084bd1ea34c6",
+      "bytes": 6526
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/event_resolution_service.gd",
+      "sha256": "efc8c2ec1c646f4227bd8d6e4507f9bfa6e79b0adc6c4f7e8f75ff24adede63e",
+      "bytes": 8838
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/exam_journey_service.gd",
+      "sha256": "44bc7bb47ef0ed7c1019f5b1049154c33ba34fa26fc112220934f3c93810bd30",
+      "bytes": 23601
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/faction_agenda_service.gd",
+      "sha256": "61941329e517dcf4cbbbd00bfda3536a216e88152087d562248e153f73aa50fb",
+      "bytes": 3218
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/family_office_rules.gd",
+      "sha256": "9d13addf83894be031eeabd2cd31f4c538174d2b3164050e9806ded59db0be98",
+      "bytes": 18591
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/family_partition_service.gd",
+      "sha256": "87b32de790daafca9d3a0a2c6e7c80d2c034129b9e08e7e85b51ef8dc9615315",
+      "bytes": 18347
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/farmland_service.gd",
+      "sha256": "dc1ee5d114270a0086c9fd2378979cbb91e6f9efce839d3ee8b3961161ca08d9",
+      "bytes": 19748
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/game_action_catalog.gd",
+      "sha256": "0e4d0bbb53aa52d03b2dfa22f076ca72f5e478eac156c4e73191fc8e9b67cf64",
+      "bytes": 21924
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/game_action_dispatcher.gd",
+      "sha256": "222142d8ded9aa65377730974a8fa4b71460ed4d71d9c9fbf84112a31c68cea8",
+      "bytes": 42422
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/game_runtime_context.gd",
+      "sha256": "649871179792f1826360a13c98be6a49c5175efcaed8edc22e5456a9206a94f5",
+      "bytes": 15373
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/game_state.gd",
+      "sha256": "c49b79d357db1555a5ab0cbf259119b83ee9902d62dbc0a3240a6cf621443071",
+      "bytes": 131254
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/game_state_transaction.gd",
+      "sha256": "a9bffe3c8281a6707f9ec5651bfb8b0419195745fe897370267d706c717c78cd",
+      "bytes": 14212
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/geo_map_data_contract.gd",
+      "sha256": "b6217251cbf55bf5191a7a13eb06c8768df2182f567372af52bbd7fae11ff94d",
+      "bytes": 5330
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/gift_delivery_service.gd",
+      "sha256": "5274a1dfa64a6f3baa31243b739291ceacc8140f3aaff126424bb4c2996cedef",
+      "bytes": 15972
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/governance_advice_presenter.gd",
+      "sha256": "05bc85da9c848cd6eaf600b8e10927ebac06b95244b498ee6ba1e1f97afb4081",
+      "bytes": 24869
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/governance_council_service.gd",
+      "sha256": "b62f5c5f3354de942cad529b28e06f197d5f78f8264df5a6ff40be7bb4d040d4",
+      "bytes": 22571
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/governance_memorial_service.gd",
+      "sha256": "f85e404a99017ac77436f595931d2d10801169d7e5376e992d5a4d390178ea9d",
+      "bytes": 50279
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/governance_order_resolver.gd",
+      "sha256": "598266089e07dbdc52b30e7ff03f222ef8010d6e7326a6c09b19ce7b1baa8749",
+      "bytes": 15149
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/governance_order_service.gd",
+      "sha256": "fc19456d47abfcd16c8e00d0d48da907b8f1bf34d1a4694356ab150a8c67ecb0",
+      "bytes": 34923
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/governance_report_service.gd",
+      "sha256": "a659b6d442805432c0d557f9ac4e1ded4c0c683a5b397671a9733c522616dacd",
+      "bytes": 23525
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/governance_workflow_coordinator.gd",
+      "sha256": "d94ddf1738dfb7b0d7f99891e09a70aca280e522ea0bfbc1dd065a84a9bdfc82",
+      "bytes": 40042
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/grain_transport_reports.gd",
+      "sha256": "3cb85f337a36ea3a4cd062d890a1eca74921b1d0e89c753c14b417fc3ebfb747",
+      "bytes": 6774
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/household_membership_service.gd",
+      "sha256": "557ebe4144c51a6c735a32dc0fa4aba629dcd2dbfd54b560c6d5ee12745d9111",
+      "bytes": 1714
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/household_subsistence_service.gd",
+      "sha256": "3dbfa043bb96ae9eeea75039d6211969a2642d5641da5f0a60e728c6c620473d",
+      "bytes": 20164
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/important_event_projection.gd",
+      "sha256": "e585214b45461f0f9aa557dd697fc45f4d2fe1b45dd1fe32f7e5723dd672fd52",
+      "bytes": 12576
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/industry_catalog.gd",
+      "sha256": "81e7c0360d7d50cd96f65676cbd643328c1a9f7710bd5d5126cd928527820855",
+      "bytes": 8501
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/information_propagation_service.gd",
+      "sha256": "f51e179248c92726afc66882b179a3282e456d9c918d9507a116e1bd07596c7b",
+      "bytes": 11513
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/land_coownership_service.gd",
+      "sha256": "d4962a233015e0211f0ba238c014affd4b7dfa5e592a440d72e146bacbb4a449",
+      "bytes": 13988
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/land_lease_service.gd",
+      "sha256": "1702e6d36e19173522f900719d88177c64e528374014af0890f91d77b8a83eac",
+      "bytes": 12767
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/land_property_service.gd",
+      "sha256": "20f36e7edb6ca5f2ba43bf09f425bfac4e5089e1064602159eec4ba8f2450790",
+      "bytes": 9200
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/liang_map_definition_bootstrap.gd",
+      "sha256": "d64083a4882dc760ed53aabf2f92f5709064cab5aff35f6852847559c095da4d",
+      "bytes": 3678
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/local_fiscal_policy_service.gd",
+      "sha256": "9d08c1f97db597362c7a3597a275f399bbd815e67c4876bb2677dc9b47cfbde1",
+      "bytes": 16224
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/local_node_service.gd",
+      "sha256": "21c09c6cc098070370c3836e2302651b7bfb512fc506a6af1c6f7b4a495f3034",
+      "bytes": 1661
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/logistics_service.gd",
+      "sha256": "09d79709e9428180c6980315c0851f606aaec1fa07aa0a4dbc042c14e1847da7",
+      "bytes": 31448
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/managed_farming_service.gd",
+      "sha256": "ba79c7097ffe98d168544a1373d33ce768e91091e9f3f3e3023438ad5d157ce1",
+      "bytes": 42261
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/managed_item_service.gd",
+      "sha256": "c68c577f500e0ab9dacec7ab9fdece5b35d5645130e40cbb58cf7ed631505eb2",
+      "bytes": 7695
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/management_plan_builder.gd",
+      "sha256": "2fa8bdb2f2f486998b801285f3ee61edfe90c000d999a13a251a9124375ca23a",
+      "bytes": 6530
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/management_plan_segments.gd",
+      "sha256": "dfe3ef807655a7394df09d54b46e2512def17adb4af8bf20d4b7e894fa345cf5",
+      "bytes": 2647
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/management_state_contract.gd",
+      "sha256": "8d1d2492c4f4cf4e671a95915c054a91e68044577e1821c3412487a1c82ca69a",
+      "bytes": 99818
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/manufacturing_business_service.gd",
+      "sha256": "ddd003b3abe92c2a721ea163ce2283dac9656336f8495974921ea985782432fc",
+      "bytes": 21908
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/map_conversation_router.gd",
+      "sha256": "28ded6f25f0b9faeb6974af79fb751c728916d1728e5fa364db16d493632b848",
+      "bytes": 3444
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/map_status_projection.gd",
+      "sha256": "fb6af4f39767b8c725bcbb193754fb3fb6b4f3cc2f7b2a056eb13732add346bb",
+      "bytes": 14974
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/marriage_service.gd",
+      "sha256": "0ce687fc66a8448e4e65bc551fcfe484bfa5c521b73022e24359322207a2ba6e",
+      "bytes": 23427
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/military_campaign_service.gd",
+      "sha256": "a9b5fe2ec2765d205a14a5819cc3a47d47228412d1202a482c44dcd069a77248",
+      "bytes": 14415
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/military_grain_service.gd",
+      "sha256": "c4f3127c0aee3e0f6c5d801b2e67f9c4f09cdb94023fa219f63f18b2e5fa2ab8",
+      "bytes": 6980
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/modeled_business_service.gd",
+      "sha256": "5612593be56e541f8407ea2537077d6d5d8e07eedf24dacf0200e9d2f37d2415",
+      "bytes": 23482
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/native_state_snapshot.gd",
+      "sha256": "28f024cacc7c9ef0cc8e4781f381739fc3e5a22c28ca55c94bd99d14c2326111",
+      "bytes": 11557
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/node_control_observation.gd",
+      "sha256": "a3a2ccedc198725c8c204711acc024abe0b19081537e1c8def30104084521c72",
+      "bytes": 7773
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_active_action_system.gd",
+      "sha256": "2745ef4d6766877a6ecb5038e2d83fd193649fd8e324f820ec04d18ba5485ec2",
+      "bytes": 43720
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_ai_state_contract.gd",
+      "sha256": "c016584732adf421a8570fc29500b3f05c53578c0c9324c38eec778fb7a178d8",
+      "bytes": 15556
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_autonomy_coordinator.gd",
+      "sha256": "5f7d08d3ccb9d478ba4d3ccf144da8321cf67636697bba5ef20793aa20be5d9a",
+      "bytes": 10317
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_behavior_profile_service.gd",
+      "sha256": "66a7a03ed3c8a8d421d37d00771d491572ae2086ed66863cfac47721b1f0f909",
+      "bytes": 2928
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_context_pages.gd",
+      "sha256": "7e729ea6d79d4d50827bb52050690639ffa756e58e4cfe560872e6a4f4f4d6f7",
+      "bytes": 13838
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_decision_context_projection.gd",
+      "sha256": "bb10a5e614683d3d23a66f09a5f6e298c193970df1f4818e0468b51f07d2df80",
+      "bytes": 15309
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_decision_opportunity.gd",
+      "sha256": "720c0194b7e5e7aa7de9726a6c293affaecd0f552059525458ff47e1ac278d82",
+      "bytes": 3316
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_decision_read_set.gd",
+      "sha256": "27fa30b7ea26b8ff744ce8034ad7a9457db357fe6e376438e3134cc099386f8c",
+      "bytes": 5938
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_decision_service.gd",
+      "sha256": "1b85541a0d696cdc1e9d8646405b97816393cb2efa8a6e4b60cf3f5e353afca7",
+      "bytes": 26356
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_local_decision_policy.gd",
+      "sha256": "a5a5157f704934fe088f47ec9ed63281767a41d18ef845afcb75ef30d1a67d1d",
+      "bytes": 11428
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_mandate_service.gd",
+      "sha256": "553b81512763cc38f067bbdcfd09b3b69b9c3e647f02762f0bad6393f58ad8f4",
+      "bytes": 4071
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_opportunity_projection.gd",
+      "sha256": "ebc42ed1f10d8fbda36aa4f99c878b3d3b75ec3efac4abb9e457957d9f27bbee",
+      "bytes": 13584
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_recent_result_projection.gd",
+      "sha256": "c4780a0e1fc05923f2db8296db9ce98b8dd33270a4e004b056ad995976c6a879",
+      "bytes": 4203
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_relevance_index.gd",
+      "sha256": "1fdcd6608667a2cd780ba78a19d735dd0e9118c639a9a6a06af917f48daddad8",
+      "bytes": 6549
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_relevance_service.gd",
+      "sha256": "59ad3913aa73e5aae5d5e69cd1b28756f4f758cda93103b5d937def13585cc0a",
+      "bytes": 5243
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/npc_social_reaction_service.gd",
+      "sha256": "dd22f66f83dfc91938daa14840d0686c43af4facd74d0cbb2db73352a37fd8ee",
+      "bytes": 7362
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/obedience_relation_state.gd",
+      "sha256": "d43d1d16900eb39d09ac2c2c0bdd4880df6145bf49f78dbcecf45d6d809e3e24",
+      "bytes": 1293
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/office_appointment_authority.gd",
+      "sha256": "37ffbdd1cf7d73c70397ed50bf067161daaddab857e4b214ef3f7c53eff42851",
+      "bytes": 3799
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/office_service.gd",
+      "sha256": "8f5a6dab3d03f93e2e532d4609a01a6054e75ac81dd1b8c44e4dfed87bbb8d52",
+      "bytes": 87293
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/official_initiative_service.gd",
+      "sha256": "673532e02a7b9aeb33a64cfdf9c3b5079f80720e2f84e3d478f2f53574550d1f",
+      "bytes": 16165
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/official_journey_service.gd",
+      "sha256": "3adc53feb36a26266f0703b1dc71f4d7c1da7972c168434ee0fdc3c5ee3af4b7",
+      "bytes": 21321
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/official_office_actions.gd",
+      "sha256": "935f60553d3544437d01d4d9748c4ed09743bdaec3258da205f2c7b9b251d741",
+      "bytes": 10923
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/pawnshop_service.gd",
+      "sha256": "bc605547d538f439193afe7ec10f7f7334a49cc4a7f374db940652f7765a6023",
+      "bytes": 35167
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/person_arrangement_service.gd",
+      "sha256": "005a5375e38a2f5184c8be81d1952a5bc90734cd41592b60d5764ae47227168e",
+      "bytes": 7181
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/personal_estate_service.gd",
+      "sha256": "e52c4ebc124c479e6ee16bd2f05e72388f824487503a1b9fb9310c01629da820",
+      "bytes": 33647
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/phase_ending_evaluator.gd",
+      "sha256": "724eb418b648154768c3e3ddd4affe31f32985cc3345397d6997e95eef9e0f9b",
+      "bytes": 44717
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/player_assistant_service.gd",
+      "sha256": "97b468a9413218a784132d369e15ef639385fd385bf6662a18d5a3496a2c33b6",
+      "bytes": 10764
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/player_succession_service.gd",
+      "sha256": "d137090c69bd354df898921af3707759eb3dfcd3fbeef9b26c4321edcdfa517c",
+      "bytes": 13546
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/political_season_progression_guard.gd",
+      "sha256": "10ac9346b402a84196c47fe53a28ccce734b64be7b6ee7a80cd3ad87efef339a",
+      "bytes": 3330
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/political_season_review_service.gd",
+      "sha256": "5e01bdd1c8731e4b4815dfdd320c447f987fdb55df04f50bd15de68f85f1dcc2",
+      "bytes": 14390
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/political_season_route_service.gd",
+      "sha256": "9615140bd3edf754c0b33eef544b1784170c6392b875c99dccac258621312a46",
+      "bytes": 18303
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/political_season_settlement_service.gd",
+      "sha256": "519b839a883f545fa9ac45fb05023044ea528f3cb8218f005897ab237390d7b0",
+      "bytes": 22448
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/portfolio_business_budget_plan.gd",
+      "sha256": "1cad4fdf6a9ffb94885570629375bdfaae1b5809612c91155309aed00c6c2ffe",
+      "bytes": 9146
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/position_claim_state.gd",
+      "sha256": "6b2de91f97ec2cc111bda25c69dd012246e8c85e1fc03caa554265ed930c65ca",
+      "bytes": 1562
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/private_entrustment_service.gd",
+      "sha256": "dffe312beb938acf056f9cf6ebf00c0f5307e3b816cb667a1d9cebfa4984e794",
+      "bytes": 46573
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/production_service.gd",
+      "sha256": "cbed59ad5987c307c6ea5fdb36a0fd6127574885439f6438f6d28ddd83faba52",
+      "bytes": 10234
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/public_works_service.gd",
+      "sha256": "20cf9643ae6eb62a8b6da2f0c38b325b6883793446a84a78b1611ea1f3d3697e",
+      "bytes": 18592
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/regional_business_budget_service.gd",
+      "sha256": "a193fcc3318dce611c93885bf3bbdc076b70597d5ac0f1f7df0416fc2451f670",
+      "bytes": 6900
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/regional_business_policy_service.gd",
+      "sha256": "b5cc5bab89d04a8a899272f661141e72a6e25a687fa2681bc93eb3fd23ec8e45",
+      "bytes": 6602
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/regional_demography.gd",
+      "sha256": "b260a960594a684373f0033944914d4c05d361ed26f3c8954dead35b708ad82c",
+      "bytes": 10357
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/regional_economic_baselines.gd",
+      "sha256": "477538d5cce53cef9436d76dadbe184f004641e331580ece3b707b37dac6f9c0",
+      "bytes": 4115
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/regional_fiscal_service.gd",
+      "sha256": "9fbca8351ed1a5ae512bd02c8979143af97f7993b0aea1f7b9095c3c7fac44f8",
+      "bytes": 14479
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/regional_grain_service.gd",
+      "sha256": "e4e3977df8e848a5d2def667ec219bb7b2fdfa68dccfc0411c402553fb34d435",
+      "bytes": 26421
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/regional_office_knowledge.gd",
+      "sha256": "1584dd8aab8b42fceaedd978b2302f06bc4d79ae069a696ac3c67d544b651458",
+      "bytes": 6903
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/regional_office_rules.gd",
+      "sha256": "5054e5630a280b47d07e9d5cedc1a4d6f36e7452a3a132fa58c25700940e36b7",
+      "bytes": 10982
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/regional_population_service.gd",
+      "sha256": "b8f3b133496b0c22548c610030bbe0d45f7c60c31b9b2e25cc773eb1fab4c5e9",
+      "bytes": 5329
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/regional_visit_service.gd",
+      "sha256": "8808bcbd83a949d9b3aaca22cf1af850b721d6b5ad9c6e3e183727649785a6df",
+      "bytes": 8563
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/resource_account_service.gd",
+      "sha256": "742ba3ff5078fd2582ba1232092e984daeb5f076be3a1698ddc1380c5c9420fa",
+      "bytes": 10644
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/resource_commodity_definitions.gd",
+      "sha256": "b7578e535acb8dfa6d383aa98a2d762e82059dcbe7c36e40a6d396851592e0df",
+      "bytes": 936
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/resource_rule_settlement.gd",
+      "sha256": "5e0e30f7465d43092721edc3ff4f7a1d7935bc70309a2d2af07ec208abda82a4",
+      "bytes": 3510
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/resource_storage_adapter.gd",
+      "sha256": "cc8dd0c1a8f3a6c7ef822b1d2b4cdde5c2aaa9b98e5b2d11082d0896848642fe",
+      "bytes": 1585
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/retail_trading_service.gd",
+      "sha256": "bb980be62575a345e2920bcedf1a53c890b95123d1edc6d408b8d19ee8d73c1d",
+      "bytes": 23082
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/route_network_service.gd",
+      "sha256": "9a01170ea9f2aac976ce5566ddba58e85bba31dff5af700777ac36f2bbbb1af5",
+      "bytes": 7654
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/routine_request_service.gd",
+      "sha256": "ba9aef7974d3c18bb8eaeb63c51759c133d42b1badd502ace9f95c1708d31ba9",
+      "bytes": 39903
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/rule_engine.gd",
+      "sha256": "16e9e5d8f4fa9b07a57d6a1305d0811e7444d8237566a823ac40d77e221ab368",
+      "bytes": 9920
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/runtime_corridor_reader.gd",
+      "sha256": "35d9337ea722e8cead86f6870a50e80123b904002adb8e83e472d1c1dca4aaaa",
+      "bytes": 4503
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/save_file_store.gd",
+      "sha256": "0ba3ba701f9be11868e129854126aba9c939bae61bd384a6aef7d3444b3f1fd1",
+      "bytes": 3434
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/save_manager.gd",
+      "sha256": "369d768f937028b4e73cfd8b6becc2f60131f1ca4062eb2e77babf013510737c",
+      "bytes": 2458
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/save_repository.gd",
+      "sha256": "271ffcebc416bf4363073b839df6b4554c29682cc84e9e648ff171e6fc6f797f",
+      "bytes": 10826
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/school_appointment_rules.gd",
+      "sha256": "19fa671bdff88ec6a00fdcf01613f07116bcfd3050e4d6fc8d6f987b237a2d48",
+      "bytes": 3508
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/school_assessment_service.gd",
+      "sha256": "e7c9a70556823683e9840b2a59d2dbfe4f13b2c755e7a17651a2a23d34e75684",
+      "bytes": 24585
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/school_living_aid_service.gd",
+      "sha256": "d43dd0ef59474dd5adf2aa10a259faafa486ac6582acb875f9c438bf5523ab98",
+      "bytes": 14908
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/school_supply_service.gd",
+      "sha256": "54462bac1926c6a0a1dd82e1468311cf99b36fe02ac889d11701cf4fa4b45ebe",
+      "bytes": 15787
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/social_agreement_service.gd",
+      "sha256": "188dfab5deeb28dea0a4430ad6a0d2d96a81d0440e621cb6736b85de6805d8f6",
+      "bytes": 27558
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/start_profile_service.gd",
+      "sha256": "d3452b2a780b4fa0cf6aff56e7f5b16259fe27cf24650534d567f9112de70271",
+      "bytes": 17143
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/strategic_time_service.gd",
+      "sha256": "f8a23aa35c31082906e9eaeb8b1f43690b5243a9cf03cbf6f3982d0573d78120",
+      "bytes": 9648
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/structured_memory_service.gd",
+      "sha256": "2a2e8a24a4155fb9a2831a426c512d11289e68994526e183828b7e021f835d62",
+      "bytes": 14067
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/talk_resolution_service.gd",
+      "sha256": "66278a3f7a78254d7ed799def782d469908e9d81dc398d15862f4181a245679b",
+      "bytes": 4585
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/tang_character_trait_service.gd",
+      "sha256": "ed453c9a1717d042dca701fe4a2c59cd336c93cbdf803183cadccb57cb76a16a",
+      "bytes": 17412
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/tang_clan_service.gd",
+      "sha256": "f3c3880536e6c397952ca091c7ac461cedbeb3ca425f3ebb9439070da1859d46",
+      "bytes": 12811
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/task_queue.gd",
+      "sha256": "c57625bf040eaf9d6bf51fd8815354965048c114d57adfeeb123108c16b87040",
+      "bytes": 17047
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/time_controller.gd",
+      "sha256": "de3afe6846438fc9034575205562eca33823a8328ff9ddad937720445d552682",
+      "bytes": 13192
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/core/transit_corridor_state.gd",
+      "sha256": "82e8dc068d53ad898560a2a5aff29c3d2b5635638f7a0f9484028e6d4d9bfca0",
+      "bytes": 2614
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/beta_1_08_campaign_loader.gd",
+      "sha256": "f436add635ba481003f3e3086aa7eeb857b0f885cde8efb1e3c6ca34f855bf14",
+      "bytes": 5696
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/beta_1_08_case_catalog.gd",
+      "sha256": "eee05438327d6a5583b1e45bd0e180844a84d6267e6da49737b6a198c7cd5769",
+      "bytes": 2293
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/beta_1_08_content_validator.gd",
+      "sha256": "c420f523f698dc72d58f69da512415b2c43b8a6c292b5fdef6517926b1a51ce3",
+      "bytes": 12029
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/beta_1_08_office_catalog.gd",
+      "sha256": "4a360fd53975168cbcd29954fc84f58056a9ad7861ad666cd1687b6197145f74",
+      "bytes": 1702
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/beta_1_09_campaign_loader.gd",
+      "sha256": "6a7a829938d118d6cf04af3a96511310b1f67e4eb0d38c9329795c33c4b3a968",
+      "bytes": 9840
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/beta_1_09_content_validator.gd",
+      "sha256": "8ecd460b1a8a2f7e97b6d81381ce5c3f5ef980d25ec89954024e79eeb858fd70",
+      "bytes": 24620
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/beta_1_0_content_validator.gd",
+      "sha256": "fa7f2c4f110fc06a3063f36c5353ad985b00848a0767535cc7cf826f4af99688",
+      "bytes": 12340
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/beta_1_10_campaign_loader.gd",
+      "sha256": "099fbd595170198504ae4291aec996a596f59724a39534b4d6fa4b4d4aac3302",
+      "bytes": 15475
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/beta_1_10_content_validator.gd",
+      "sha256": "0ce343f9de1a6ec1d55cfe0a68255d7b370530541f4bf22f3cafc5a76f9a3f74",
+      "bytes": 37860
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/campaign_manifest.gd",
+      "sha256": "a245b40bc21c9b726e2f27d72075d05845e59ddef21093563d6ef24fa76bf6b9",
+      "bytes": 4036
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/current_campaign.gd",
+      "sha256": "da1d7606c32f5802df45f39f20146244c3024389418529d9a83cec89429b12bb",
+      "bytes": 684
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/opening_control_knowledge.gd",
+      "sha256": "5d8ebf4c8b7bd56de76885ae071a126a96c3a459bd6a25e2d118256a9a4db585",
+      "bytes": 1935
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/river_crossing_conditions.gd",
+      "sha256": "ae810f99873ed17a4fa499cd018a747adfc3144300809f36713a7ebe590256a4",
+      "bytes": 3957
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/river_weather_events.gd",
+      "sha256": "8ad845c3869d0a2ec75a63c12b208b96c24014fc1793fade30760cbcd8015d77",
+      "bytes": 2662
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/road_surface_conditions.gd",
+      "sha256": "0505cfa6336d3eea529e43b664385c0161ce8eae13e32bf0249279d3b77bbc9a",
+      "bytes": 3093
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/scenario_data.gd",
+      "sha256": "fa412ff03f8bc9e247866521a5fa553fc2182c3b2fdab0d85478146a5cac18fc",
+      "bytes": 31582
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/tang_office_catalog.gd",
+      "sha256": "30442f6515c24ce47f456ef5a3e6d90ece5618901fa6aeb7f149f3f95ca1bb1c",
+      "bytes": 7889
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/terrain_rule_service.gd",
+      "sha256": "8a2d593dcddf13b23d02b324377ff3ceed0c80a02629dda286f39aafcc78786c",
+      "bytes": 8453
+    },
+    {
+      "component": "runtime",
+      "path": "scripts/domain/unified_campaign_loader.gd",
+      "sha256": "7bbf2dabc8abddabbb89d039db9a2ebceddce6b15114574981443384ee7ded88",
+      "bytes": 27082
+    },
+    {
+      "component": "runtime",
+      "path": "tang_dna_v3_2/scripts/appearance_recipe.gd",
+      "sha256": "dc1be97232d8ee8e54e034ee224a8f2f5ad3cf55c6f9f21c90ba9eea7c992bb9",
+      "bytes": 12097
+    },
+    {
+      "component": "runtime",
+      "path": "tang_dna_v3_2/scripts/appearance_scorer.gd",
+      "sha256": "a0cc0bd7563f64b1a2112238d530ed1c0c15426cff839912f0d65f9658cf8c4f",
+      "bytes": 2016
+    },
+    {
+      "component": "runtime",
+      "path": "tang_dna_v3_2/scripts/character_contract.gd",
+      "sha256": "a88dc17e4e03b5c52813590a8141e4612d80b43db760c1fdee49707ced768ff4",
+      "bytes": 3153
+    },
+    {
+      "component": "runtime",
+      "path": "tang_dna_v3_2/scripts/data_io.gd",
+      "sha256": "0b6791e34bfe833033093822e03ae6b8f3916add212145433f6222cbf27580f3",
+      "bytes": 1297
+    },
+    {
+      "component": "runtime",
+      "path": "tang_dna_v3_2/scripts/dna_core.gd",
+      "sha256": "eeee864c40dee5240b67200d507cd547e9d85108f2cbb2dd450c4498627017f4",
+      "bytes": 5486
+    },
+    {
+      "component": "runtime",
+      "path": "tang_dna_v3_2/scripts/dna_exact_record.gd",
+      "sha256": "d697b38ff838c85772433c2210eee1cff4eacf5a2116b5277f9e0b30100432bc",
+      "bytes": 3741
+    },
+    {
+      "component": "runtime",
+      "path": "tang_dna_v3_2/scripts/outfit_resolver.gd",
+      "sha256": "404483d1ece4c912fe90384bc57223c5e326bb2ba6cb18ae036699fb93d66680",
+      "bytes": 7533
+    },
+    {
+      "component": "runtime",
+      "path": "tang_dna_v3_2/scripts/phenotype_mapper.gd",
+      "sha256": "ef81adc1a9301c81b727b463d67ea4793534df7726ca412d05b7b895dc7c67c1",
+      "bytes": 7888
+    },
+    {
+      "component": "runtime",
+      "path": "tang_dna_v3_2/scripts/portrait_style_catalog.gd",
+      "sha256": "759c25b52460ca206ec9376bc190f3bf0116414eebaa98febeab691c343fd64f",
+      "bytes": 2505
+    },
+    {
+      "component": "runtime",
+      "path": "tang_dna_v3_2/scripts/stable_rng.gd",
+      "sha256": "d93645a1d05184818b18739e4a84a9a10103a4f7f9cac5ab0e81a8196218e977",
+      "bytes": 1119
+    },
+    {
+      "component": "runtime",
+      "path": "tests/probe_publication.gd",
+      "sha256": "34fcbec04d5ceda81c2f9072b8c48ddc6577dbf80bf5882877a57f94194a6fd5",
+      "bytes": 466
+    },
+    {
+      "component": "runtime",
+      "path": "tests/test_army_scene.gd",
+      "sha256": "14446aecf16bce865ea72b3647642e6897cd33e34cfa0c9194a8c2b575a5323d",
+      "bytes": 220
+    },
+    {
+      "component": "runtime",
+      "path": "tests/test_army_state.gd",
+      "sha256": "3729995914c85aaed4b293881d9863eef53c6045459bee6b0517fba09d8f759c",
+      "bytes": 7587
+    },
+    {
+      "component": "runtime",
+      "path": "tests/test_construction.gd",
+      "sha256": "1293bef91ce2131c8091a3e0c1ebb18b7282ab96950b1a71cfacef5c34796af5",
+      "bytes": 10588
+    },
+    {
+      "component": "runtime",
+      "path": "tests/test_construction_scene.gd",
+      "sha256": "7acbeb07477b018db1aba03cc68f6c7901a2dd5f42ffa50fa2adf9daed231694",
+      "bytes": 263
+    },
+    {
+      "component": "runtime",
+      "path": "tests/test_final_publication.gd",
+      "sha256": "6aecdaf9e4ef7374bf633a7b8c84769c865390e69e3114bb97a729f2712b0635",
+      "bytes": 1312
+    },
+    {
+      "component": "runtime",
+      "path": "tests/test_native_construction_lifecycle.gd",
+      "sha256": "c8027e595cf592ab5de3e2db14e77e610dff6f21bd59096a55a780dad4cd1e3e",
+      "bytes": 6939
+    },
+    {
+      "component": "runtime",
+      "path": "tests/test_original_host.gd",
+      "sha256": "fcdf089510116c967c7cef137370fd5d25007d70369800f896c44a4f6bde1bcb",
+      "bytes": 6488
+    },
+    {
+      "component": "runtime",
+      "path": "tests/test_r3_passage.gd",
+      "sha256": "4de3dc17ca2e94898a7fb74814838b712b5575ee4274c198fba5a8daf5419577",
+      "bytes": 5969
+    },
+    {
+      "component": "runtime",
+      "path": "tests/test_r3_scene.gd",
+      "sha256": "064f46777a6ca927dfb735302d373f7c8b905bc6ca541036f6b4ae19f648002a",
+      "bytes": 248
+    },
+    {
+      "component": "runtime",
+      "path": "tests/test_r4_view.gd",
+      "sha256": "acf0088c87e2c86bf26a5ec54800e902ffc1fc8eaa45f0b20c9e891a7d025edb",
+      "bytes": 2758
+    },
+    {
+      "component": "runtime",
+      "path": "tests/test_r5_saves.gd",
+      "sha256": "84cbdd3de5414ca168ebac6d58bc92f2af95e649c42fbf5b106005c56783b4bc",
+      "bytes": 6579
+    },
+    {
+      "component": "runtime",
+      "path": "final/build_manifest.json",
+      "sha256": "e4c311850b386687480be1445c60c50723e17915fabbc639fc1dd99ec33a2f8f",
+      "bytes": 81037
+    },
+    {
+      "component": "authoring",
+      "path": ".gdignore",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/chuandong_20260930/catalog.json",
+      "sha256": "6519fac9ec928eff06c3d3d6ffe1a0b8213628033a663fedc05151445896c967",
+      "bytes": 719
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/chuandong_20260930/manifest.json",
+      "sha256": "f72fd90723f8ade2f72f3c82ffa8e502d9f1e5ed89fe37ce12f7b60aec62bd30",
+      "bytes": 495
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/chuanzhong_20260930/catalog.json",
+      "sha256": "087650c381fedb5c04b08fdc3503cd53b664f1a0edd5d5a5bef1ccb3eb0ae14d",
+      "bytes": 763
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/chuanzhong_20260930/manifest.json",
+      "sha256": "1168e65099cf2723a33be2d56fd55d4eba0e303b560539e35824d543519ea69e",
+      "bytes": 507
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/ground_material_study_20261007/catalog.json",
+      "sha256": "a82532da6b0a7ed98e58b2d65203331ed367127511bd49085c3acefc1d4e1589",
+      "bytes": 1514
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/ground_material_study_20261007/manifest.json",
+      "sha256": "80d6951be8d89eb772c8cfcfc9b439a4d177292bbd2e5ae26c001b934e3c1e3c",
+      "bytes": 418
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/guanzhong_20260930/catalog.json",
+      "sha256": "cc6d72a90d55cbfe7bd376ea29942c4e2e314e748889c3f1a28f65efc8c44971",
+      "bytes": 762
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/guanzhong_20260930/manifest.json",
+      "sha256": "2f2d02c4fbbaad825a7a3bf9a08b2f1d680e978d5bba039b9e15f3dd9cc72965",
+      "bytes": 555
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/guanzhong_feedback_20261001/catalog.json",
+      "sha256": "a854839443d94efb89fe75f1fd9c5ebe53dffd6fa7b13bbf4fe41781d1d15d11",
+      "bytes": 534
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/guanzhong_feedback_20261001/manifest.json",
+      "sha256": "006cd98b3f2dc5bd60f09c5e58e9bf61bda98cf32624ea08659760c08bc8bb6b",
+      "bytes": 375
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/hanzhong_block01_20260928/catalog.json",
+      "sha256": "fe3efd40536af6c9dd7277a8d414f41ebc23d2eb728abc9b03ba4ee245b1ed9d",
+      "bytes": 1087
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/hanzhong_block01_20260928/manifest.json",
+      "sha256": "13af66abb42249ee482ae69a032cb7d7aa8140aea270f0d007707c00ed2ea4bb",
+      "bytes": 741
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/hanzhong_style_20260928/catalog.json",
+      "sha256": "2463388f332a6557f8be916cb75d507763d1d75f9dd4a387dee55bd105ba977c",
+      "bytes": 460
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/hanzhong_style_20260928/manifest.json",
+      "sha256": "bb7f79ca6a46f35e40581fa15db4e446d6fb41a9041d8fa7c35f6e9aad15c8f5",
+      "bytes": 394
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/jianmen_northsouth_20260929/catalog.json",
+      "sha256": "6277effc6806a1ebb3470958e9ee33cee6b3107168a551667160fb0ecb4c5ae6",
+      "bytes": 493
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/jianmen_northsouth_20260929/manifest.json",
+      "sha256": "9bd952183309ef512e4687303f2f888a5ef6b975d3b82e5e03b8e30837a69289",
+      "bytes": 341
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/jianmen_repair_20260929/catalog.json",
+      "sha256": "346b996a744720d4b3073246d91cb15973e76aa45dea019a8da1e85fe557d407",
+      "bytes": 787
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/jianmen_repair_20260929/manifest.json",
+      "sha256": "fa206998d0d62e13c4f8fcb167e36d8c2721695733a7f5668e67f80934686668",
+      "bytes": 687
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/library_deleted.json",
+      "sha256": "481476e8308ceec46e8d0756b951da0843f6456339e1730d4be32ca765cf3450",
+      "bytes": 2262
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/mianzhou_20260930/catalog.json",
+      "sha256": "8a365a6c474213ecf10c67180300bdc3f25e530a64491422451e13587d824ea0",
+      "bytes": 506
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/mianzhou_20260930/manifest.json",
+      "sha256": "2168b9cfd41336c4d687e053df4eef1ff2b6065d98fc997c878b8110b964fe9c",
+      "bytes": 331
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/mountain_collection_20261009/catalog.json",
+      "sha256": "9dab47924a0c04fe05b185c7e60ffca489090cb86de281ba0664f39170cb4046",
+      "bytes": 1667
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/mountain_collection_20261009/manifest.json",
+      "sha256": "c2ebf456dc38a37fcdd8d2529a4094b906ffabdb591bf64e2795ce6d729b58b9",
+      "bytes": 1107
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/mountain_oblique_pale_v2_20261009/catalog.json",
+      "sha256": "140a6b0bafd93d1c04d30db1ae47cd2d40d5a48dacdbbafb6520ed5acd0dcaa2",
+      "bytes": 1677
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/mountain_oblique_pale_v2_20261009/manifest.json",
+      "sha256": "63efab84289dd3eeb51697554aa429f7196e4faf277a72ea696b370dc05bdaa8",
+      "bytes": 1108
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/mountain_oblique_pale_v3_20261011/catalog.json",
+      "sha256": "21a28c7911b44f780fc7903b3d30bce1e27506f39a8fd95a15bb5c838bae34a0",
+      "bytes": 1704
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/mountain_oblique_pale_v3_20261011/generation-prompts.json",
+      "sha256": "3dc7bfe77ae2e6bbddd19dfa93403e616024613b5b1fc7469b6438036258d79e",
+      "bytes": 1988
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/mountain_oblique_pale_v3_20261011/manifest.json",
+      "sha256": "57bde53d3bc4039cc079847cce5fed7a5bf9e35890bfc14afcd70f96471aa763",
+      "bytes": 1127
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/mountain_oblique_snow_v1_20261011/catalog.json",
+      "sha256": "da258a8a9f0ce03ec307f62b43d005ccaf52e7f68bad54a7ba98da6eed55c4ad",
+      "bytes": 1704
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/mountain_oblique_snow_v1_20261011/generation-prompts.json",
+      "sha256": "35a7e364ddbaa26a58c6049ac01273a381fc139eefef002433956ddc7e7bb4d1",
+      "bytes": 1662
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/mountain_oblique_snow_v1_20261011/manifest.json",
+      "sha256": "457551d2c9831652ee260d9194daa938311267308019edcb49adfbad7181a597",
+      "bytes": 1136
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/national_a2_20260926/catalog.json",
+      "sha256": "5c7acc06b19b763eda7872a78acfe939d42cef78615536a76b1ff3ca779b4565",
+      "bytes": 887
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/national_a2_20260926/manifest.json",
+      "sha256": "dea1ceae5c103f36333e7e6ecaf888016ce6d691a573e8483e4c8af9b150ee0f",
+      "bytes": 978
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/national_a2_20260926/prompts.json",
+      "sha256": "e0e52d10cd08a843e329c7e83c921bee44db5bb59d6ae338cdabd52a4a767740",
+      "bytes": 2846
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/national_a3_20260926/catalog.json",
+      "sha256": "8a3045836833e726a4cc59eac8c8e95a5630e126b0232bb4809766ffd4f06863",
+      "bytes": 1137
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/national_a3_20260926/generation-inputs.json",
+      "sha256": "f469f51ec328a837347e1e71eacd252cb07226f29d1ea815b8d66e472b17f9a7",
+      "bytes": 996
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/national_a3_20260926/manifest.json",
+      "sha256": "a7acbea32b7d9004fa09013387f1c2cd5f05ceab0cfa33c1ff05bf30067811a0",
+      "bytes": 1308
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/national_a3_20260926/prompts.json",
+      "sha256": "612d997d26183a94d2bbb55977cf2f37838d5797a83653d56ca2f4c73fc26a76",
+      "bytes": 3533
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/national_c2_20260926/catalog.json",
+      "sha256": "a15be5f4206813a39805b843683fbd8c6ec4862ca759f38efc62c9d8a77e381d",
+      "bytes": 2170
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/national_c2_20260926/generation-inputs.json",
+      "sha256": "e44ed8e183758db82138df1d8afb3880f1d94764d915e106c5ab8843d14eeb11",
+      "bytes": 8255
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/national_c2_20260926/manifest.json",
+      "sha256": "6560306543ad5471c1d6e050105de2b86b148e1c8833f0645bc6a29f652d28b2",
+      "bytes": 2357
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/settlements_camera_v2_20261004/catalog.json",
+      "sha256": "88508eab2fa0b379329d3c5fb8cbe7673819bf5b2a07bf8430000f00ae01db92",
+      "bytes": 8948
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/settlements_camera_v2_20261004/manifest.json",
+      "sha256": "9879a60c6c0f4f344c62a7a26e0ad5e73f49e01382a270407940be74e95c7250",
+      "bytes": 4288
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/settlements_regional_20261004/catalog.json",
+      "sha256": "f8d932fef9eb891df8593c022d126468ed59bc26483dfebb7e44412201cc5e81",
+      "bytes": 8647
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/settlements_regional_20261004/manifest.json",
+      "sha256": "6c0f3aae9a8f0d310e50a90e9f9f8fa70105e5dc5d24869973f94de3f740317b",
+      "bytes": 4287
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/shanxi_20261001/catalog.json",
+      "sha256": "8c7d54e8579766fd110da649e58704e43f469fd8bfc21b5af861e201b2a4bfd9",
+      "bytes": 769
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/shanxi_20261001/manifest.json",
+      "sha256": "823b62b221e1f8b872c74d6e1d904f6f9f47f39163d608ecd29a95b87c79d512",
+      "bytes": 553
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/shanxi_angular_trial_20261002/catalog.json",
+      "sha256": "e7f6e8d5035f9ca866cea1277d63fdb10ca909343c8e0e51299200f5f0e09a7b",
+      "bytes": 2823
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/shanxi_angular_trial_20261002/manifest.json",
+      "sha256": "4d52703d0efdd7c54c304517322914f0f376b28920d058c66136745caa78ed0a",
+      "bytes": 1618
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/shanxi_crossing_20261001/catalog.json",
+      "sha256": "934b2f954db65738ab67bd351a0ddc30aed96ef204d3b1729cf70f8859354dff",
+      "bytes": 503
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/shanxi_crossing_20261001/manifest.json",
+      "sha256": "1da7ee0348181e8d71251cec0bd72dd44aa9216d2eede0965123e8adf0f0371b",
+      "bytes": 340
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/shanxi_refine_20261001/catalog.json",
+      "sha256": "978bbe9cb9df7eb1cedb53e79b9221992d60cb935116633a8adbfd73628fe9e7",
+      "bytes": 436
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/shanxi_refine_20261001/manifest.json",
+      "sha256": "5d1ff23e8b9fa0bc49f89dfaacdcc5e1eee24fdcf7c44584e31673db425eb4fa",
+      "bytes": 372
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/shanxi_revision_20261001/catalog.json",
+      "sha256": "1d5b735375105f23af5aa182e4399fe0245187ddc73a3fabd0d53ac0d9715ff0",
+      "bytes": 10041
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/shanxi_revision_20261001/manifest.json",
+      "sha256": "b645084bb8d1c9ec76ab02529143355a1fb23b01cf053f70764e37008a338951",
+      "bytes": 5725
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/shanxi_upland_20261001/catalog.json",
+      "sha256": "e43315e02d401f328fe49b5a99569e8568cc79aa3cf2a092ea8a169896d10031",
+      "bytes": 442
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/shanxi_upland_20261001/manifest.json",
+      "sha256": "e6a7d70e4d85eeaa911e0e63e806e3adb0c20ce523f9fbf1fb0db0b34642e704",
+      "bytes": 381
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/strategic_ground_biomes_v05_20261007/catalog.json",
+      "sha256": "4da37ffdd58250b65d1754882ad231e98a0983dbebf9803b220f3a3c314b16eb",
+      "bytes": 1487
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/strategic_ground_biomes_v05_20261007/manifest.json",
+      "sha256": "06bbb166631371a288930d02d963e732c975f95fb1295985bad06c90e0c5a834",
+      "bytes": 434
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/strategic_ground_v02_20261007/catalog.json",
+      "sha256": "18e7da589e46da59a16ab5ebe883707dd151879d7b505f1cffa4afacac866de1",
+      "bytes": 1555
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/strategic_ground_v02_20261007/manifest.json",
+      "sha256": "6cdb94b6e7a02b31ca2096a1f18b22ceebc04481fe9d8850492ac64e561bb553",
+      "bytes": 423
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/strategic_landforms_v03_20261007/catalog.json",
+      "sha256": "7c150f2bbc0ae313bece38cdf1fe63f587ddffaf0b55f83bf69514f648cea73e",
+      "bytes": 1583
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/strategic_landforms_v03_20261007/manifest.json",
+      "sha256": "c85a334abab002d16d8017e9e7bcf7fcead5b345ba0deedb7d27bd1060dc5fe3",
+      "bytes": 665
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/strategic_landforms_v04_20261007/catalog.json",
+      "sha256": "7fab8f9ee16d99acf0e634a6ec56bb395ed0552d4ccfa043bcd0205b77bb486c",
+      "bytes": 895
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/strategic_landforms_v04_20261007/manifest.json",
+      "sha256": "b6a027230f932053ece609de570f76dc91461e250d32d534354c2faca64d123b",
+      "bytes": 438
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_reference_20260925/catalog.json",
+      "sha256": "947cd609bc1340dde6f3c58f06309e8aeff95f1ceeb1eb36d5cd448e23102065",
+      "bytes": 506
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_reference_20260925/manifest.json",
+      "sha256": "862cfc6e39f8b199a2375bdb039a16da1d61a656aad7c87849e4fe390a213a8b",
+      "bytes": 740
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_reference_20260925/tongguan-grounded.map.json",
+      "sha256": "01e9c6c9426f21c157f925d3d521db2a8efe420b7eb47d6811349d287438d763",
+      "bytes": 197506
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_reference_20260925/tongguan-reference.map.json",
+      "sha256": "51a4c01bda42f76d308177eb2bc761df2227a743ee23b11875167e7f2aa4bf89",
+      "bytes": 182083
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_review_20260925/catalog.json",
+      "sha256": "8c0863fef48ff9e2308dc873bd64e7ef8bcf5ce1a85570207efa9ba85222887e",
+      "bytes": 1870
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_review_20260925/generation-prompts.json",
+      "sha256": "c218debccf2096e4e6b329fb05c32e1c38814695aac19dd4b51a5941737ab117",
+      "bytes": 7023
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_review_20260925/manifest.json",
+      "sha256": "a6d9002ec05c023af564ea1a28bb784e023ae9c7e48d96671ca965da2d5cd93d",
+      "bytes": 2169
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_review_20260925/tongguan-review.map.json",
+      "sha256": "f29c20c48ab0fa42e6feadfca6810276459388c7c9cfefaca39cab583708f3bb",
+      "bytes": 126126
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_review_20260925/vertical-generation-prompts.json",
+      "sha256": "c40ff40442d39639bcbb56dca67d8925de53414f4548b82536585ad6e800867b",
+      "bytes": 5296
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v1/catalog.json",
+      "sha256": "24b7e2d9e750c30b3ad13ecdd7fb0be4ff08d6dc632793d83b53a02d1d4847ec",
+      "bytes": 24780
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v1/generation-prompts.json",
+      "sha256": "8b04fcd51acbc58ca3ec6f88096ed977ec0ff1c9b95941b19986a64adbcd6151",
+      "bytes": 9895
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v1/manifest.json",
+      "sha256": "239104877a2dbe78d10ca670ef535d8de03853818675ad695a6a1ab60f8d8f10",
+      "bytes": 17068
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v1/tongguan-workshop-v06.map.json",
+      "sha256": "7cf69531259f11e8780c8dcce2b14fd5255ca41e94173108ac47ae5744f1dbea",
+      "bytes": 167850
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v1/tongguan.map.json",
+      "sha256": "5d01e4fda0dbd49972a0f7a02de8526c438d47d8ca8b68ac3fe05ccf33b13cac",
+      "bytes": 102314
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v2/catalog.json",
+      "sha256": "424341ad8008a4c06ae91f176ed65ac103d01ae97da4d5b12c08c3b6e14fe170",
+      "bytes": 362
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v2/generation-prompts.json",
+      "sha256": "e5fd8ca6a5ba770e5f9c5a9cf932519d9e759c77facd7fd853865c363922b2fd",
+      "bytes": 2325
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v2/manifest.json",
+      "sha256": "de6343a76d4c14230a978033c5b0d38e2c1245695ffe49a0176a66780947eede",
+      "bytes": 705
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v2/tongguan-workshop-v063.map.json",
+      "sha256": "3aa5e6d9677972a3fb28f3ca68783a6e5bbc71f645b676435bdd5fe82fa82ebf",
+      "bytes": 169431
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v2/tongguan-workshop-v064.map.json",
+      "sha256": "d1e202c446fb95ef27938d84f79d469459e56f9c1b1c8cdd2d62f989d77cd3a0",
+      "bytes": 171353
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v2/tongguan-workshop-v065.map.json",
+      "sha256": "d10cdc5263fedc0f1f56c90f3aad8c1cd81cb41359b0ab8373f1c40e2406d3ed",
+      "bytes": 171381
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v2/tongguan-workshop-v066.map.json",
+      "sha256": "8510f64be3b369838d2c1558936880cd99cfa9c0fe70aa46346d7c3a91d78ef2",
+      "bytes": 171378
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v2/tongguan-workshop-v072.map.json",
+      "sha256": "5c6319d7e67c84805018a724821d828229fe0f84543c9169f7c2ed0185e0d265",
+      "bytes": 171391
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v3/catalog.json",
+      "sha256": "0dfb9e280640078aef2e6e311b7ae4461a36a9ab1851159451505e158606dd10",
+      "bytes": 356
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v3/generation-prompts.json",
+      "sha256": "60f82625f9aaf71b9a8e6a3a47a0f3d612ebe4a1e53d5daaa4f25f617bd76b4b",
+      "bytes": 803
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v3/manifest.json",
+      "sha256": "83a9e6b5c4d6ffc097fa5d2c303a0b796830e75bfc65ca653a2c8bdebb787b25",
+      "bytes": 702
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v3/tongguan-workshop-v074.map.json",
+      "sha256": "ceb004fed7e1e2fddc642b458ee573acad96fe19b278ae3869d1f7bce95618dc",
+      "bytes": 139344
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v3/tongguan-workshop-v075.map.json",
+      "sha256": "d3e9bc1f6028f776caab2623fcd80e5800dcea2632e2efc5039473c3385c1c2d",
+      "bytes": 139688
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v3/tongguan-workshop-v077.map.json",
+      "sha256": "2e67d49b9e0e3bfea0511a61fbb1a908b740b2793bda4426247cff7cabcdbaf4",
+      "bytes": 139714
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v4/catalog.json",
+      "sha256": "86909e69708cbaaf6027a141d2c01685982bf22fa29646ea69b151ffc8c16cbd",
+      "bytes": 381
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v4/generation-prompts.json",
+      "sha256": "903d079cb5113ab4d323e0ec0dadcd4d9d697af91a09799e52eeca10cd98d28f",
+      "bytes": 760
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v4/manifest.json",
+      "sha256": "5e56cdb0c309b8d61c8879aa2520cc7ed4b443a01b0e7215486c5bb9ccf18d45",
+      "bytes": 708
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/tongguan_v4/tongguan-workshop-v081.map.json",
+      "sha256": "55bb9cade5179de991f4080c3a8357149ae993e9f1a2fd011b3d5a1f2942ecee",
+      "bytes": 139837
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/zizhou_bank_20260930/catalog.json",
+      "sha256": "914fae9efc21c0aec5948d3408f2483fb8faf3b9e64349dba3bbba89e248df83",
+      "bytes": 420
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art/zizhou_bank_20260930/manifest.json",
+      "sha256": "c39c3953bc62fe5cbdbc1c595c20deca28587875338ae940796d71cbe1e77b60",
+      "bytes": 369
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art_catalog.gd",
+      "sha256": "cad78166dceef4718cceefc0ac5218a6f937a8f347a3ca42247b4e653d30b5d2",
+      "bytes": 23744
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art_image_loader.gd",
+      "sha256": "04ee2a9e20aae85c847fd98745a7918a7897d7a31ad4559d1a5ed5b43290f6f4",
+      "bytes": 2074
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art_library.gd",
+      "sha256": "c8c4105b19210f993a059d1fa741846eeb9ed729228f2de4a9bb6c5ebb9a2003",
+      "bytes": 5711
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art_ribbon.gd",
+      "sha256": "2bbe5035578e91ec6297e86cd40d85cc6bfa2491f7a9c17959af50d957bd048e",
+      "bytes": 4792
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/art_spatial.gd",
+      "sha256": "c46becde077350796111f643a963d684f65577951200a954bf799e06df8518d3",
+      "bytes": 3573
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/document.gd",
+      "sha256": "f1655b24e6018736687dfefa4e06f3aa4cb9e4c37db298a5c4ec362a0698bdb8",
+      "bytes": 68021
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/geometry_ops.gd",
+      "sha256": "8301b517d1bcdf00ad8880784df482f5a4dfa41fc6f3476076706b39ed034511",
+      "bytes": 6725
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/natural_water.gd",
+      "sha256": "1441bd8309f46d750d409988ced536cc1584a8fab5ed604006b8f4624061c171",
+      "bytes": 4173
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/polygon_boolean.gd",
+      "sha256": "257dd77f4bf9ff8ceafa6bbf9edf12a0621e5b32108d619f73ebda3709f311b7",
+      "bytes": 8604
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/polygon_math.gd",
+      "sha256": "c37955df059468cbe6bb5d6f4d64f5b85f39c8236b32dea601f48eba22b55e56",
+      "bytes": 803
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/polygon_query.gd",
+      "sha256": "347314c8c8180ffb709d16627a8989d0c1f38431ca273a13328752e763610b5e",
+      "bytes": 1985
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/production_contract.gd",
+      "sha256": "40f8af513f31a3950a3786f535edf14c9c41b2eada8615dc6311998a08c75772",
+      "bytes": 4263
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/reference_registration.gd",
+      "sha256": "b2485ec3071c284c2425381e31904c8760e3aa155edf6697a594c6ce28d8907f",
+      "bytes": 2358
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/shared_boundaries.gd",
+      "sha256": "b2e3aad61d17614f9a6d769877c8760f86f37129294a9d8145d43f8b281ad333",
+      "bytes": 3540
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/spatial_index.gd",
+      "sha256": "bf25d8ee1bd477f9712483bf1f0b14f7c8223f226e1ace1f462a4062ddf85cd0",
+      "bytes": 1609
+    },
+    {
+      "component": "authoring",
+      "path": "addons/strategic_map_editor/water_brush.gd",
+      "sha256": "d0e483eb2e20b9e17e61a85f30ad0f5541e0b098073695f79e5d61fa514729ce",
+      "bytes": 15639
+    },
+    {
+      "component": "authoring",
+      "path": "export_presets.cfg",
+      "sha256": "14a562a0eade2424f24752e4f1f040052a33643c0939fbcdfae2b87113abb558",
+      "bytes": 567
+    },
+    {
+      "component": "authoring",
+      "path": "final/acceptance.gd",
+      "sha256": "4bbd4d6e9ce96f955ce8d6673b8ebc79d46f76860dccbf2c48c22bd24fb432e0",
+      "bytes": 5084
+    },
+    {
+      "component": "authoring",
+      "path": "final/asset_manifest.json",
+      "sha256": "3fb0892169e0e43603a01f84673191cc027a42ac1b22cbfd8174c74c0a727577",
+      "bytes": 750
+    },
+    {
+      "component": "authoring",
+      "path": "final/boot.gd",
+      "sha256": "3be666a566425e7f5cac3cc750dac34eb330d76c0a204a2d46a392982917ef71",
+      "bytes": 333
+    },
+    {
+      "component": "authoring",
+      "path": "final/canvas.gd",
+      "sha256": "71cc8d12acfc671172203aa0c3f4434039f4ebfaf4c18d36dfa020999a8680fb",
+      "bytes": 665
+    },
+    {
+      "component": "authoring",
+      "path": "final/main.tscn",
+      "sha256": "f5a3984a4ad304e0255b3bf5b00d4d3d2ca2f191a4fee11c9c666c9fb82acf73",
+      "bytes": 169
+    },
+    {
+      "component": "authoring",
+      "path": "final/resolver.gd",
+      "sha256": "b59d25be94a7403c2122440e142cbbb855d8dd3907b9b703be6370b576214452",
+      "bytes": 2760
+    },
+    {
+      "component": "authoring",
+      "path": "final/ui.gd",
+      "sha256": "0aa650a1a393cf477963c1d2e81442a9c0f1537322656ba203a67c123cd2b27d",
+      "bytes": 1665
+    },
+    {
+      "component": "authoring",
+      "path": "p3/generated/modern_water.json",
+      "sha256": "b5077c55a773faf1e74acaf07b285d892046f642011b8ec99f92a2d4b3924a0d",
+      "bytes": 168989
+    },
+    {
+      "component": "authoring",
+      "path": "p3/geography_recipe.json",
+      "sha256": "7c69433ffdeda1b9b400fbf0fa449b3694d192df2bf8e7f5b71cfb23e797c82e",
+      "bytes": 6328
+    },
+    {
+      "component": "authoring",
+      "path": "p4/layout.json",
+      "sha256": "3997c4218b0ee10f4032c092f7f76b93ea75c4c168a17ede2c3dcad9fbb5a403",
+      "bytes": 8221
+    },
+    {
+      "component": "authoring",
+      "path": "p4/settlement_host.gd",
+      "sha256": "ceb90af764a15829831b8c0103e9dc176e13c4e44736b2c845d49ebb0f72d5bf",
+      "bytes": 21141
+    },
+    {
+      "component": "authoring",
+      "path": "project.godot",
+      "sha256": "b65a8bed8444d4d20eb2712e0bf5fa1d0a6b1b75814aabf119a49480b8e47171",
+      "bytes": 404
+    },
+    {
+      "component": "authoring",
+      "path": "r3_authoring/acceptance.gd",
+      "sha256": "462c0252e6518c1bfc4c90e99e904f1b3aad73876cf6f8268907ee627ed8974c",
+      "bytes": 5242
+    },
+    {
+      "component": "authoring",
+      "path": "r3_authoring/boot.gd",
+      "sha256": "005b008456ee4961839007ab84aa06f2c6a1d501f5f468361edca772f99599ba",
+      "bytes": 353
+    },
+    {
+      "component": "authoring",
+      "path": "r3_authoring/canvas.gd",
+      "sha256": "7a9269feb1941e5aea9b7e3dfe6b64712d660c2df8505c68e2dbde582ba72001",
+      "bytes": 5003
+    },
+    {
+      "component": "authoring",
+      "path": "r3_authoring/main.tscn",
+      "sha256": "01e10b7e1cf7c50d751ff4c46846450c980c923b5f23fa7727a406758e6b0259",
+      "bytes": 171
+    },
+    {
+      "component": "authoring",
+      "path": "r3_authoring/patch_engine.gd",
+      "sha256": "4d2dac9c93a69950034653fc368493cdd67c13081a84d91bfa2890c7ba123bbc",
+      "bytes": 2098
+    },
+    {
+      "component": "authoring",
+      "path": "r3_authoring/resolver.gd",
+      "sha256": "249bc44a9ec12742a5d98edb9c2ddaa4d8087717dc7155f039c03eaf78425a95",
+      "bytes": 30836
+    },
+    {
+      "component": "authoring",
+      "path": "r3_authoring/trees.png",
+      "sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+      "bytes": 2199035
+    },
+    {
+      "component": "authoring",
+      "path": "r3_authoring/workshop.gd",
+      "sha256": "0ae81619cac8c58caec84ea0c501f7f8dcda15a95b2fecf99cbb081fb725daa9",
+      "bytes": 9614
+    },
+    {
+      "component": "authoring",
+      "path": "r3_authoring/workshop.tscn",
+      "sha256": "df34b88137126fa7892f51a331690c812a41d57e045fb8bc9e4a704bf7a04b3d",
+      "bytes": 287
+    },
+    {
+      "component": "authoring",
+      "path": "tests/test_final_layout.gd",
+      "sha256": "a1abeacb2bbfd808341d7849fa9217f222565741c66ea50ce6d06bc21a59c7a9",
+      "bytes": 2836
+    },
+    {
+      "component": "authoring",
+      "path": "tests/test_r3_authoring.gd",
+      "sha256": "46c6290737eb05b114b1d1318a5325661049169513f048fff25b6128e65301a0",
+      "bytes": 10207
+    },
+    {
+      "component": "authoring",
+      "path": "tests/test_r3_authoring_scene.gd",
+      "sha256": "573881b26abefc3abde03ee2de524bf62cf7d1b3b7fa671e83db01315cc71912",
+      "bytes": 259
+    },
+    {
+      "component": "authoring",
+      "path": "tests/test_r3_size_guard.gd",
+      "sha256": "cbf305cbc1a663781124560751547e76db2c4131f5aa0aab6f196a1392feae19",
+      "bytes": 951
+    },
+    {
+      "component": "authoring",
+      "path": "final/build_manifest.json",
+      "sha256": "bddc0bb2d79576117453b71f09518dde52857ee630f5ed1f715269e831e9530a",
+      "bytes": 28860
+    }
+  ]
+}

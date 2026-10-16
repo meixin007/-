@@ -1,0 +1,13 @@
+{
+  "source_id": "scenario:criminal_case_game_model_756",
+  "content_basis": "本作粗粒度刑事玩法：地方签判、上送复核与看管执行分离；不模拟完整唐律量刑或死刑执行。市场命案、涉案人及狱吏均为有来源的虚构场景，不是历史人物事迹。",
+  "historical_sources": ["https://zh.wikisource.org/zh-hans/唐六典/卷18", "https://zh.wikisource.org/zh/唐律疏議/卷第三十"],
+  "jurisdictions": [{"office_id": "pingyuan_prefect", "location_id": "zhou_dezhou", "permitted_verdicts": ["acquit", "maintain_detention", "refer_upper"], "custodian_id": "criminal_pingyuan_jailer"}],
+  "characters": [
+    {"id": "criminal_pingyuan_accused", "name": "陆平", "role": "命案嫌疑人（本作虚构）", "status": "alive", "location_id": "zhou_dezhou", "relationships": {"criminal_pingyuan_kin": -10}, "source_id": "scenario:criminal_case_game_model_756"},
+    {"id": "criminal_pingyuan_victim", "name": "许安", "role": "市场命案死者（本作虚构）", "status": "dead", "location_id": "zhou_dezhou", "relationships": {"criminal_pingyuan_kin": 60}, "source_id": "scenario:criminal_case_game_model_756"},
+    {"id": "criminal_pingyuan_kin", "name": "许宁", "role": "死者亲属（本作虚构）", "status": "alive", "location_id": "zhou_dezhou", "relationships": {"criminal_pingyuan_victim": 60}, "tang_traits": ["righteous_upright"], "source_id": "scenario:criminal_case_game_model_756"},
+    {"id": "criminal_pingyuan_jailer", "name": "吴守", "role": "具名看管人（本作虚构）", "status": "alive", "location_id": "zhou_dezhou", "relationships": {"yan_zhenqing": 20}, "tang_traits": ["opportunist_chameleon"], "source_id": "scenario:criminal_case_game_model_756"}
+  ],
+  "initial_cases": [{"case_id": "criminal:pingyuan_market_homicide", "incident_id": "incident:pingyuan_market_homicide", "jurisdiction_office_id": "pingyuan_prefect", "location_id": "zhou_dezhou", "accused_id": "criminal_pingyuan_accused", "victim_id": "criminal_pingyuan_victim", "victim_kin_ids": ["criminal_pingyuan_kin"], "summary": "市场发生命案；死者已死亡，嫌疑人由具名看管人暂押，案情与责任仍待调查。"}]
+}

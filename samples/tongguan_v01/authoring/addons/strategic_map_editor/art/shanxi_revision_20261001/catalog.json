@@ -1,0 +1,534 @@
+{
+  "bundle_id": "shanxi_revision_20261001",
+  "version": 1,
+  "extends": "shanxi_crossing_20261001",
+  "assets": {
+    "sx2_taihang_long": {
+      "label": "taihang-long-v01",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "taihang-long-v01.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 300,
+      "anchor": [
+        0.5,
+        0.67
+      ]
+    },
+    "sx2_wutai_mass": {
+      "label": "wutai-mass-v01",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "wutai-mass-v01.png",
+      "rect": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "width": 270,
+      "anchor": [
+        0.5,
+        0.75
+      ]
+    },
+    "sx2_loess_body": {
+      "label": "lvliang-loess-v01",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "lvliang-loess-v01.png",
+      "rect": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "width": 370,
+      "anchor": [
+        0.5,
+        0.68
+      ]
+    },
+    "sx2_low_watershed": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "low-watershed-v01.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 260,
+      "anchor": [
+        0.5,
+        0.65
+      ]
+    },
+    "sx2_lvliang_spine": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "lvliang-spine-v01.png",
+      "rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "width": 250,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "sx2_taihang_scarp": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "taihang-scarp-v01.png",
+      "rect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "width": 225,
+      "anchor": [
+        0.5,
+        0.6
+      ]
+    },
+    "sx2_lvliang_spine2": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "lvliang-spine-v02.png",
+      "rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "width": 250,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "sx2_taihang_scarp2": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "taihang-scarp-v02.png",
+      "rect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "width": 225,
+      "anchor": [
+        0.5,
+        0.6
+      ]
+    },
+    "sx2_designed_spine": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "designed-spine-v01.png",
+      "rect": [
+        0,
+        0,
+        1312,
+        1199
+      ],
+      "width": 300,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "sx2_taihang_scarp3": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "taihang-scarp-v03.png",
+      "rect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "width": 225,
+      "anchor": [
+        0.5,
+        0.6
+      ]
+    },
+    "sx2_drawn_lvliang": {
+      "label": "手绘低地形 lvliang",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "lvliang-low-relief.png",
+      "rect": [
+        0,
+        0,
+        1230,
+        2130
+      ],
+      "width": 410,
+      "anchor": [
+        0,
+        0
+      ]
+    },
+    "sx2_drawn_heng_wutai": {
+      "label": "手绘低地形 heng_wutai",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "heng_wutai-low-relief.png",
+      "rect": [
+        0,
+        0,
+        1530,
+        1230
+      ],
+      "width": 510,
+      "anchor": [
+        0,
+        0
+      ]
+    },
+    "sx2_drawn_jingxing_taihang": {
+      "label": "手绘低地形 jingxing_taihang",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "jingxing_taihang-low-relief.png",
+      "rect": [
+        0,
+        0,
+        1230,
+        1470
+      ],
+      "width": 410,
+      "anchor": [
+        0,
+        0
+      ]
+    },
+    "sx2_drawn_shangdang_south": {
+      "label": "手绘低地形 shangdang_south",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "shangdang_south-low-relief.png",
+      "rect": [
+        0,
+        0,
+        1530,
+        1080
+      ],
+      "width": 510,
+      "anchor": [
+        0,
+        0
+      ]
+    },
+    "sx2_south_low": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "lvliang-south-low-v01.png",
+      "rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "width": 220,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "sx2_south_low2": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "lvliang-south-low-v02.png",
+      "rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "width": 220,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "sx2_designed_spine_style2": {
+      "label": "designed-spine-v02",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "designed-spine-v02.png",
+      "rect": [
+        0,
+        0,
+        1312,
+        1199
+      ],
+      "width": 300,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "sx2_south_low3": {
+      "label": "lvliang-south-low-v03",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "lvliang-south-low-v03.png",
+      "rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "width": 220,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "sx2_taiyue_divide": {
+      "label": "taiyue-divide-v01",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "taiyue-divide-v01.png",
+      "rect": [
+        0,
+        0,
+        1063,
+        1479
+      ],
+      "width": 280,
+      "anchor": [
+        0,
+        0
+      ]
+    },
+    "sx2_taihang_designed": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "taihang-designed-v01.png",
+      "rect": [
+        0,
+        0,
+        1196,
+        1315
+      ],
+      "width": 270,
+      "anchor": [
+        0.5,
+        0.6
+      ]
+    },
+    "sx2_taiyue_divide2": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "taiyue-divide-v02.png",
+      "rect": [
+        0,
+        0,
+        1064,
+        1479
+      ],
+      "width": 280,
+      "anchor": [
+        0,
+        0
+      ]
+    },
+    "sx2_south_low4": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "lvliang-south-low-v04.png",
+      "rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "width": 220,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "sx2_taihang_designed2": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "taihang-designed-v02.png",
+      "rect": [
+        0,
+        0,
+        1197,
+        1315
+      ],
+      "width": 270,
+      "anchor": [
+        0.5,
+        0.6
+      ]
+    },
+    "sx2_taiyue_divide3": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "taiyue-divide-v03.png",
+      "rect": [
+        0,
+        0,
+        1063,
+        1479
+      ],
+      "width": 280,
+      "anchor": [
+        0,
+        0
+      ]
+    },
+    "sx2_south_low5": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "lvliang-south-low-v05.png",
+      "rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "width": 220,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "sx2_taihang_gimp3": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "taihang-gimp-v03.png",
+      "rect": [
+        0,
+        0,
+        1197,
+        1315
+      ],
+      "width": 270,
+      "anchor": [
+        0.5,
+        0.6
+      ]
+    },
+    "sx2_north_gimp3": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "lvliang-north-gimp-v03.png",
+      "rect": [
+        0,
+        0,
+        1312,
+        1199
+      ],
+      "width": 300,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "sx2_south_tributaries6": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "lvliang-south-tributaries-v06.png",
+      "rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "width": 220,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "sx2_south_notch7": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "lvliang-south-notch-v07.png",
+      "rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "width": 220,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    "sx2_taihang_tributaries4": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "taihang-tributaries-v04.png",
+      "rect": [
+        0,
+        0,
+        1197,
+        1314
+      ],
+      "width": 270,
+      "anchor": [
+        0.5,
+        0.6
+      ]
+    },
+    "sx2_north_tributaries4": {
+      "label": "裸地低分水岭与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "lvliang-north-tributaries-v04.png",
+      "rect": [
+        0,
+        0,
+        1312,
+        1199
+      ],
+      "width": 300,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

@@ -1,0 +1,437 @@
+[
+  {
+    "meeting_id": "military_command_appointment_debate",
+    "title": "Military Command Appointment Debate",
+    "issue": "Whether Guo Ziyi should receive stronger Shuofang field authority.",
+    "speakers": [
+      {
+        "character_id": "guo_ziyi",
+        "position": "support",
+        "faction_id": "military_commanders"
+      },
+      {
+        "character_id": "hardline_old_court_official",
+        "position": "oppose",
+        "faction_id": "xuanzong_old_court"
+      },
+      {
+        "character_id": "li_fuguo",
+        "position": "bargain",
+        "faction_id": "eunuch_network"
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_id": "appoint_guo_publicly",
+        "office_id": "shuofang_field_commander",
+        "public_record": true
+      }
+    ]
+  },
+  {
+    "meeting_id": "beta06_council_chain_01",
+    "title": "Beta06 council chain 1",
+    "issue": "A public court dispute over office power and faction pressure.",
+    "speakers": [
+      {
+        "character_id": "guo_ziyi",
+        "position": "support",
+        "faction_id": "military_commanders"
+      },
+      {
+        "character_id": "li_fuguo",
+        "position": "bargain",
+        "faction_id": "eunuch_network"
+      },
+      {
+        "character_id": "hardline_old_court_official",
+        "position": "oppose",
+        "faction_id": "xuanzong_old_court"
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_id": "public_decree",
+        "office_id": "shuofang_field_commander",
+        "public_record": true
+      }
+    ]
+  },
+  {
+    "meeting_id": "beta06_council_chain_02",
+    "title": "Beta06 council chain 2",
+    "issue": "A public court dispute over office power and faction pressure.",
+    "speakers": [
+      {
+        "character_id": "guo_ziyi",
+        "position": "support",
+        "faction_id": "military_commanders"
+      },
+      {
+        "character_id": "li_fuguo",
+        "position": "bargain",
+        "faction_id": "eunuch_network"
+      },
+      {
+        "character_id": "hardline_old_court_official",
+        "position": "oppose",
+        "faction_id": "xuanzong_old_court"
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_id": "public_decree",
+        "office_id": "inner_court_gatekeeper",
+        "public_record": true
+      }
+    ]
+  },
+  {
+    "meeting_id": "beta06_council_chain_03",
+    "title": "Beta06 council chain 3",
+    "issue": "A public court dispute over office power and faction pressure.",
+    "speakers": [
+      {
+        "character_id": "guo_ziyi",
+        "position": "support",
+        "faction_id": "military_commanders"
+      },
+      {
+        "character_id": "li_fuguo",
+        "position": "bargain",
+        "faction_id": "eunuch_network"
+      },
+      {
+        "character_id": "hardline_old_court_official",
+        "position": "oppose",
+        "faction_id": "xuanzong_old_court"
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_id": "public_decree",
+        "office_id": "grain_transport_supervisor",
+        "public_record": true
+      }
+    ]
+  },
+  {
+    "meeting_id": "beta06_council_chain_04",
+    "title": "Beta06 council chain 4",
+    "issue": "A public court dispute over office power and faction pressure.",
+    "speakers": [
+      {
+        "character_id": "guo_ziyi",
+        "position": "support",
+        "faction_id": "military_commanders"
+      },
+      {
+        "character_id": "li_fuguo",
+        "position": "bargain",
+        "faction_id": "eunuch_network"
+      },
+      {
+        "character_id": "hardline_old_court_official",
+        "position": "oppose",
+        "faction_id": "xuanzong_old_court"
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_id": "public_decree",
+        "office_id": "court_memorial_reviewer",
+        "public_record": true
+      }
+    ]
+  },
+  {
+    "meeting_id": "beta06_council_chain_05",
+    "title": "Beta06 council chain 5",
+    "issue": "A public court dispute over office power and faction pressure.",
+    "speakers": [
+      {
+        "character_id": "guo_ziyi",
+        "position": "support",
+        "faction_id": "military_commanders"
+      },
+      {
+        "character_id": "li_fuguo",
+        "position": "bargain",
+        "faction_id": "eunuch_network"
+      },
+      {
+        "character_id": "hardline_old_court_official",
+        "position": "oppose",
+        "faction_id": "xuanzong_old_court"
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_id": "public_decree",
+        "office_id": "palace_household_controller",
+        "public_record": true
+      }
+    ]
+  },
+  {
+    "meeting_id": "beta06_council_chain_06",
+    "title": "Beta06 council chain 6",
+    "issue": "A public court dispute over office power and faction pressure.",
+    "speakers": [
+      {
+        "character_id": "guo_ziyi",
+        "position": "support",
+        "faction_id": "military_commanders"
+      },
+      {
+        "character_id": "li_fuguo",
+        "position": "bargain",
+        "faction_id": "eunuch_network"
+      },
+      {
+        "character_id": "hardline_old_court_official",
+        "position": "oppose",
+        "faction_id": "xuanzong_old_court"
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_id": "public_decree",
+        "office_id": "envoy_negotiator",
+        "public_record": true
+      }
+    ]
+  },
+  {
+    "meeting_id": "beta06_council_chain_07",
+    "title": "Beta06 council chain 7",
+    "issue": "A public court dispute over office power and faction pressure.",
+    "speakers": [
+      {
+        "character_id": "guo_ziyi",
+        "position": "support",
+        "faction_id": "military_commanders"
+      },
+      {
+        "character_id": "li_fuguo",
+        "position": "bargain",
+        "faction_id": "eunuch_network"
+      },
+      {
+        "character_id": "hardline_old_court_official",
+        "position": "oppose",
+        "faction_id": "xuanzong_old_court"
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_id": "public_decree",
+        "office_id": "intelligence_coordinator",
+        "public_record": true
+      }
+    ]
+  },
+  {
+    "meeting_id": "beta06_council_chain_08",
+    "title": "Beta06 council chain 8",
+    "issue": "A public court dispute over office power and faction pressure.",
+    "speakers": [
+      {
+        "character_id": "guo_ziyi",
+        "position": "support",
+        "faction_id": "military_commanders"
+      },
+      {
+        "character_id": "li_fuguo",
+        "position": "bargain",
+        "faction_id": "eunuch_network"
+      },
+      {
+        "character_id": "hardline_old_court_official",
+        "position": "oppose",
+        "faction_id": "xuanzong_old_court"
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_id": "public_decree",
+        "office_id": "local_node_administrator",
+        "public_record": true
+      }
+    ]
+  },
+  {
+    "meeting_id": "beta07_intelligence_briefing_01",
+    "title": "Beta07 intelligence briefing 1",
+    "issue": "A council dispute over report confidence, route pressure, and command channel risk.",
+    "speakers": [
+      {
+        "character_id": "guo_ziyi",
+        "position": "verify",
+        "faction_id": "military_commanders"
+      },
+      {
+        "character_id": "li_fuguo",
+        "position": "act_fast",
+        "faction_id": "eunuch_network"
+      },
+      {
+        "character_id": "li_bi",
+        "position": "cross_check",
+        "faction_id": "suzong_court"
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_id": "verify_before_order",
+        "public_record": true,
+        "operation_id": "verify_guanzhong_movement"
+      }
+    ]
+  },
+  {
+    "meeting_id": "beta07_intelligence_briefing_02",
+    "title": "Beta07 intelligence briefing 2",
+    "issue": "A council dispute over report confidence, route pressure, and command channel risk.",
+    "speakers": [
+      {
+        "character_id": "guo_ziyi",
+        "position": "verify",
+        "faction_id": "military_commanders"
+      },
+      {
+        "character_id": "li_fuguo",
+        "position": "act_fast",
+        "faction_id": "eunuch_network"
+      },
+      {
+        "character_id": "li_bi",
+        "position": "cross_check",
+        "faction_id": "suzong_court"
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_id": "verify_before_order",
+        "public_record": true,
+        "operation_id": "beta07_regional_operation_02"
+      }
+    ]
+  },
+  {
+    "meeting_id": "beta07_intelligence_briefing_03",
+    "title": "Beta07 intelligence briefing 3",
+    "issue": "A council dispute over report confidence, route pressure, and command channel risk.",
+    "speakers": [
+      {
+        "character_id": "guo_ziyi",
+        "position": "verify",
+        "faction_id": "military_commanders"
+      },
+      {
+        "character_id": "li_fuguo",
+        "position": "act_fast",
+        "faction_id": "eunuch_network"
+      },
+      {
+        "character_id": "li_bi",
+        "position": "cross_check",
+        "faction_id": "suzong_court"
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_id": "verify_before_order",
+        "public_record": true,
+        "operation_id": "beta07_regional_operation_03"
+      }
+    ]
+  },
+  {
+    "meeting_id": "beta07_intelligence_briefing_04",
+    "title": "Beta07 intelligence briefing 4",
+    "issue": "A council dispute over report confidence, route pressure, and command channel risk.",
+    "speakers": [
+      {
+        "character_id": "guo_ziyi",
+        "position": "verify",
+        "faction_id": "military_commanders"
+      },
+      {
+        "character_id": "li_fuguo",
+        "position": "act_fast",
+        "faction_id": "eunuch_network"
+      },
+      {
+        "character_id": "li_bi",
+        "position": "cross_check",
+        "faction_id": "suzong_court"
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_id": "verify_before_order",
+        "public_record": true,
+        "operation_id": "beta07_regional_operation_04"
+      }
+    ]
+  },
+  {
+    "meeting_id": "beta07_intelligence_briefing_05",
+    "title": "Beta07 intelligence briefing 5",
+    "issue": "A council dispute over report confidence, route pressure, and command channel risk.",
+    "speakers": [
+      {
+        "character_id": "guo_ziyi",
+        "position": "verify",
+        "faction_id": "military_commanders"
+      },
+      {
+        "character_id": "li_fuguo",
+        "position": "act_fast",
+        "faction_id": "eunuch_network"
+      },
+      {
+        "character_id": "li_bi",
+        "position": "cross_check",
+        "faction_id": "suzong_court"
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_id": "verify_before_order",
+        "public_record": true,
+        "operation_id": "beta07_regional_operation_05"
+      }
+    ]
+  },
+  {
+    "meeting_id": "beta07_intelligence_briefing_06",
+    "title": "Beta07 intelligence briefing 6",
+    "issue": "A council dispute over report confidence, route pressure, and command channel risk.",
+    "speakers": [
+      {
+        "character_id": "guo_ziyi",
+        "position": "verify",
+        "faction_id": "military_commanders"
+      },
+      {
+        "character_id": "li_fuguo",
+        "position": "act_fast",
+        "faction_id": "eunuch_network"
+      },
+      {
+        "character_id": "li_bi",
+        "position": "cross_check",
+        "faction_id": "suzong_court"
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_id": "verify_before_order",
+        "public_record": true,
+        "operation_id": "beta07_regional_operation_06"
+      }
+    ]
+  }
+]

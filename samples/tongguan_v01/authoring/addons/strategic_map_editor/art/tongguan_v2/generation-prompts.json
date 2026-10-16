@@ -1,0 +1,11 @@
+{
+  "tool": "built-in imagegen",
+  "reference_images": [
+    "artifacts/strategic-map-art-tongguan-2026-09-24/tongguan-style-sample-v5.png",
+    "artifacts/strategic-map-editor-v0.6.2-2026-09-25/variant-mid.png"
+  ],
+  "selected_asset": "continuous_ridge_v063.png",
+  "generation_prompt": "Use case: stylized-concept. Asset type: transparent PNG cutout for a 2D editable historical strategy map, a single long continuous mountain ridge and foothill transition piece. Image 1 is the APPROVED art-style reference only: match its warm parchment watercolor, pale ochre and sage slopes, broken dark ink ridgelines, hand-painted stratified mountain shading, sparse foothill scrub, fixed oblique bird's-eye view. Image 2 shows the current map sprite vocabulary; the new asset should visually match scale and ink softness but be more continuous and less stamp-like. Draw only a horizontally elongated, asymmetric connected range that can sit behind and connect several mountain sprites: ridge rises and dips, two distinct shoulders, small rocky ledges, tapering foothills on both ends, irregular lower edge and sparse dark trees near slopes. Include visible valleys and saddle details within the range. All surrounding space must be truly transparent alpha with clean edges. No city, tower, wall, road, river, shoreline, label, letters, borders, paper backdrop, rectangular fill, texture outside the landform, shadows outside the cutout, or watermark. Wide composition approximately 3:1; horizontal ridge occupies most width, lower part fades naturally into isolated transparent foothill marks. Preserve the v5 delicate hand-inked look rather than photorealistic or 3D render.",
+  "final_edit_prompt": "Use case: precise-object-edit. This is an existing transparent map sprite. Preserve the hand-painted continuous mountain ridge and all details. Reframe it slightly smaller within the same 2172x724 transparent canvas so EVERY side has at least 30 pixels of fully transparent margin, including the low foothills. Clean the silhouette edge: remove all tiny bright red/yellow chromatic fringes and use muted earth/ink colors with smooth alpha. Keep a true fully transparent background; no black, white, or paper backdrop. No other changes, no new scenery, no writing or watermark.",
+  "review_status": "CANDIDATE_NOT_USER_ACCEPTED"
+}

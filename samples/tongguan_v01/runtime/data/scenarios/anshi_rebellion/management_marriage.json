@@ -1,0 +1,145 @@
+{
+  "source_id": "scenario:marriage_cui_mei_756",
+  "content_basis": "本作虚构成年人物与家庭的联姻玩法；年龄、意愿、礼金、财产和日期均为场景配置，不作历史婚俗或价格断言。",
+  "characters": [
+    {
+      "id": "cui_ning",
+      "name": "崔宁",
+      "role": "本作虚构成年家族人物",
+      "status": "alive",
+      "location_id": "refugee_market_node",
+      "clan_id": "clan_cui_qinghe",
+      "age": 24,
+      "stats": {
+        "governance": 40,
+        "finance": 45
+      },
+      "relationships": {
+        "cui_yuan": 10,
+        "cui_ning": 10,
+        "mei_zhen": 10
+      },
+      "source_id": "scenario:marriage_cui_mei_756"
+    },
+    {
+      "id": "mei_zhen",
+      "name": "梅贞",
+      "role": "本作虚构成年家族人物",
+      "status": "alive",
+      "location_id": "refugee_market_node",
+      "clan_id": "clan_mei_market",
+      "age": 22,
+      "stats": {
+        "governance": 40,
+        "finance": 45
+      },
+      "relationships": {
+        "cui_yuan": 10,
+        "cui_ning": 10,
+        "mei_zhen": 10
+      },
+      "source_id": "scenario:marriage_cui_mei_756"
+    },
+    {
+      "id": "mei_qing",
+      "name": "梅清",
+      "role": "本作虚构成年家族人物",
+      "status": "alive",
+      "location_id": "refugee_market_node",
+      "clan_id": "clan_mei_market",
+      "age": 48,
+      "stats": {
+        "governance": 40,
+        "finance": 45
+      },
+      "relationships": {
+        "cui_yuan": 10,
+        "cui_ning": 10,
+        "mei_zhen": 10
+      },
+      "source_id": "scenario:marriage_cui_mei_756"
+    }
+  ],
+  "cash_grants": [
+    {
+      "character_id": "cui_ning",
+      "location_id": "refugee_market_node",
+      "amount": 0,
+      "source_id": "scenario:marriage_cui_mei_756"
+    },
+    {
+      "character_id": "mei_zhen",
+      "location_id": "refugee_market_node",
+      "amount": 0,
+      "source_id": "scenario:marriage_cui_mei_756"
+    },
+    {
+      "character_id": "mei_qing",
+      "location_id": "refugee_market_node",
+      "amount": 0,
+      "source_id": "scenario:marriage_cui_mei_756"
+    }
+  ],
+  "ration_grants": [
+    {
+      "character_id": "cui_ning",
+      "amount": 40,
+      "source_id": "scenario:marriage_cui_mei_756"
+    },
+    {
+      "character_id": "mei_zhen",
+      "amount": 40,
+      "source_id": "scenario:marriage_cui_mei_756"
+    },
+    {
+      "character_id": "mei_qing",
+      "amount": 40,
+      "source_id": "scenario:marriage_cui_mei_756"
+    }
+  ],
+  "clan": {
+    "clan_id": "clan_mei_market",
+    "name": "梅氏商户",
+    "clan_type": "local_gentry",
+    "origin_county": "行在市集",
+    "default_patriarch_id": "mei_qing",
+    "prominent_members": [
+      "mei_qing",
+      "mei_zhen"
+    ],
+    "renown_tier": 1,
+    "estate_resources": {
+      "silver": 120
+    },
+    "source_id": "scenario:marriage_cui_mei_756",
+    "content_basis": "本作虚构家庭；120 为有来源的初始家产记账单位。"
+  },
+  "matches": [
+    {
+      "match_id": "cui_mei",
+      "name": "崔宁与梅贞",
+      "party_a": "cui_ning",
+      "party_b": "mei_zhen",
+      "sponsor_account": "clan_cui_qinghe_cash",
+      "counter_account": "clan_mei_market_cash",
+      "location_id": "refugee_market_node",
+      "minimum_gift": 30,
+      "dowry": 20,
+      "reply_days": 2,
+      "arrangement_days": 3,
+      "counter_willing": true,
+      "consent": {
+        "cui_ning": {
+          "age": 24,
+          "willing": true,
+          "minimum_relation": -15
+        },
+        "mei_zhen": {
+          "age": 22,
+          "willing": true,
+          "minimum_relation": -15
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "tool": "builtin image_gen",
+  "actual_backend_model": "NOT_EXPOSED",
+  "transparent_background": true,
+  "calls": [
+    {
+      "asset": "vertical_pass_thin",
+      "prompt": "Make a NEW Chinese historical map pass symbol using the pale colors and loose ink line of the attached references. IMPORTANT USER CORRECTION: the gate and curtain wall must be arranged STRAIGHT VERTICALLY ON THE IMAGE, NOT DIAGONALLY. Favor simple readable 2D bird's-eye map drawing over realistic isometric projection. Transparent background. This is one compact gatehouse at the middle of a straight vertical north-south wall. In image coordinates: upper wall end centered at x=500,y=160, gate center at x=500,y=500, lower wall end centered at x=500,y=820. BOTH wall centerlines remain at the SAME X=500 for their entire length. Do not slant the wall toward upper-left/lower-right. Do not make a diagonal composition. The building is centered on that same vertical axis; its roof ridge runs vertically north-south on screen. LEFT to RIGHT is the passage direction; the road will be drawn separately through the gate center. Use a much more top-down schematic view than the reference castle. Show a simple narrow rectangular cream stone gate base, a small dark entry notch visible at the LEFT edge facing the westbound approach, a single modest low timber pavilion with a pale gray-brown tiled roof. The far eastern doorway is hidden under the roof/base. Do not try to show two opposing arches at once. Upper and lower curtain walls connect to the NORTH and SOUTH ends of the gate, never to its left/right entrance. Keep walls narrow with a pale top walk, uneven crenellations and a thin visible stone side edge for volume. Walls are only slightly taller than a person compared to the gatehouse. Architectural rendering may be deliberately simplified, as on an old hand-drawn map. Roof top and wall tops dominate because the view is high-angle. Irregular sparse pen strokes for roof tiles, very pale cream and gray-olive washes, no dark saturated paint or perfect brick grid. The overall silhouette should look like a VERTICAL line with a small wider building at its midpoint, NOT a diagonal line, NOT a frontal gate flanked by horizontal walls. No roads, grass, landscape, text or people in the PNG. Leave transparent margins, and do not paint a rectangular ground patch. North and south wall lengths may differ a little but orientation must be vertical. This simple vertical map marker will replace all earlier oblique attempts; do not preserve those attempts.",
+      "referenced_image_paths": [
+        "docs/map-production/references/strategic-map-art-2026-09-24/01-primary-castle.png",
+        "artifacts/strategic-map-art-tongguan-2026-09-24/tongguan-style-sample-v5.png"
+      ],
+      "output": "C:/Users/Administrator/.codex/generated_images/01a0d391-efed-76e1-a7ef-5547d0d38e9d/exec-8dc9c617-76df-4d9c-87d9-c0e76180773a.png",
+      "result": "SELF_REJECTED_TOO_THIN_IN_MAP"
+    },
+    {
+      "asset": "vertical_pass.png",
+      "prompt": "Edit this transparent Chinese historical map pass sprite. Preserve its strictly VERTICAL screen orientation and its pale loose pen-and-watercolor rendering. This is a functional map marker which must remain readable when its ENTIRE occupied silhouette is just 60 pixels tall. The current sprite is too tall and skinny and its middle building is illegible. REDRAW THE PROPORTIONS. Target the COMPLETE silhouette bounding-box aspect ratio WIDTH:HEIGHT = 1:3.3 (for example width 270px height 890px). Use a BROADER and more substantial rectangular central stone gate base and modest timber pavilion, with simple visibly uneven tile pen strokes. The pavilion occupies roughly the middle THIRD of the overall height and the FULL maximum silhouette width. The vertical upper wall extends only about ONE pavilion-height from the pavilion to the north end; the lower wall extends only about ONE pavilion-height to the south end. The wall is about one-third the pavilion width. Do not keep the reference's extremely long skinny wall lengths. Overall wall axis stays exactly vertical and roof ridge runs exactly vertical, simplified high bird's-eye map depiction; absolutely no diagonal orientation. Passage is LEFT TO RIGHT across the building at its center; show a small readable west-facing dark entry notch on the LEFT edge, eastern doorway hidden. Upper wall attaches to TOP and lower wall to BOTTOM of gate base; no wall on the left/right. Keep just a thin visible edge face giving stone walls some thickness, no brick grid, cream walls and gray-brown roof, muted light colors with irregular warm dark pen contour. No glossy rendering, no painting on a paper rectangle, no text, no landscape, no road, no ground shadow mat. Transparent background. Keep the ENTIRE occupied object compact with the explicitly specified 1:3.3 width/height proportions and plenty of transparent margin.",
+      "referenced_image_paths": [
+        "C:/Users/Administrator/.codex/generated_images/01a0d391-efed-76e1-a7ef-5547d0d38e9d/exec-8dc9c617-76df-4d9c-87d9-c0e76180773a.png"
+      ],
+      "output": "C:/Users/Administrator/.codex/generated_images/01a0d391-efed-76e1-a7ef-5547d0d38e9d/exec-5c2983e9-6e41-4acc-aa29-29aa48a93fcc.png",
+      "result": "PENDING_USER_REVIEW"
+    }
+  ]
+}

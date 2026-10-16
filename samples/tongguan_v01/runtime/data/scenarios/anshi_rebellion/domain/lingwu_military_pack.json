@@ -1,0 +1,278 @@
+{
+  "strategic_nodes": [
+    {
+      "node_id": "lingwu",
+      "display_name": "灵武行在",
+      "region_id": "shuofang",
+      "is_pass": false,
+      "control_faction_id": "tang_court",
+      "defense_level": 60,
+      "linked_corridor_ids": ["corridor_shuofang_lingwu", "corridor_lingwu_guanzhong"]
+    },
+    {
+      "node_id": "shuofang",
+      "display_name": "朔方大营",
+      "region_id": "shuofang",
+      "is_pass": false,
+      "control_faction_id": "tang_court",
+      "defense_level": 70,
+      "linked_corridor_ids": ["corridor_shuofang_lingwu"]
+    },
+    {
+      "node_id": "taiyuan",
+      "display_name": "太原北都",
+      "region_id": "hedong",
+      "is_pass": false,
+      "control_faction_id": "tang_court",
+      "defense_level": 85,
+      "linked_corridor_ids": ["corridor_taiyuan_hedong"]
+    },
+    {
+      "node_id": "tongguan",
+      "display_name": "潼关天险",
+      "region_id": "guanzhong",
+      "is_pass": true,
+      "control_faction_id": "yan_rebels",
+      "defense_level": 90,
+      "linked_corridor_ids": ["corridor_guanzhong_tongguan", "corridor_tongguan_shanzhou"]
+    },
+    {
+      "node_id": "shanzhou",
+      "display_name": "陕州要冲",
+      "region_id": "henan",
+      "is_pass": false,
+      "control_faction_id": "yan_rebels",
+      "defense_level": 75,
+      "linked_corridor_ids": ["corridor_tongguan_shanzhou", "corridor_suiyang_shanzhou"]
+    },
+    {
+      "node_id": "changan",
+      "display_name": "西京长安",
+      "region_id": "guanzhong",
+      "is_pass": false,
+      "control_faction_id": "yan_rebels",
+      "defense_level": 80,
+      "linked_corridor_ids": ["corridor_lingwu_guanzhong", "corridor_guanzhong_tongguan"]
+    },
+    {
+      "node_id": "luoyang",
+      "display_name": "东都洛阳",
+      "region_id": "henan",
+      "is_pass": false,
+      "control_faction_id": "yan_rebels",
+      "defense_level": 85,
+      "linked_corridor_ids": ["corridor_tongguan_shanzhou"]
+    },
+    {
+      "node_id": "suiyang",
+      "display_name": "江淮睢阳",
+      "region_id": "jiangnan",
+      "is_pass": true,
+      "control_faction_id": "tang_court",
+      "defense_level": 70,
+      "linked_corridor_ids": ["corridor_suiyang_shanzhou"]
+    }
+  ],
+  "transit_corridors": [
+    {
+      "corridor_id": "corridor_shuofang_lingwu",
+      "from_node_id": "shuofang",
+      "to_node_id": "lingwu",
+      "transit_type": "land",
+      "base_travel_days": 4,
+      "loss_rate_per_day": 0.001,
+      "is_blocked": false,
+      "blocking_reason": ""
+    },
+    {
+      "corridor_id": "corridor_lingwu_guanzhong",
+      "from_node_id": "lingwu",
+      "to_node_id": "changan",
+      "transit_type": "land",
+      "base_travel_days": 10,
+      "loss_rate_per_day": 0.003,
+      "is_blocked": false,
+      "blocking_reason": ""
+    },
+    {
+      "corridor_id": "corridor_guanzhong_tongguan",
+      "from_node_id": "changan",
+      "to_node_id": "tongguan",
+      "transit_type": "pass",
+      "base_travel_days": 6,
+      "loss_rate_per_day": 0.002,
+      "is_blocked": true,
+      "blocking_reason": "潼关已被叛军占据，严密封锁关陕要道。"
+    },
+    {
+      "corridor_id": "corridor_tongguan_shanzhou",
+      "from_node_id": "tongguan",
+      "to_node_id": "shanzhou",
+      "transit_type": "land",
+      "base_travel_days": 5,
+      "loss_rate_per_day": 0.002,
+      "is_blocked": false,
+      "blocking_reason": ""
+    },
+    {
+      "corridor_id": "corridor_suiyang_shanzhou",
+      "from_node_id": "suiyang",
+      "to_node_id": "shanzhou",
+      "transit_type": "river",
+      "base_travel_days": 8,
+      "loss_rate_per_day": 0.002,
+      "is_blocked": false,
+      "blocking_reason": ""
+    },
+    {
+      "corridor_id": "corridor_taiyuan_hedong",
+      "from_node_id": "taiyuan",
+      "to_node_id": "changan",
+      "transit_type": "land",
+      "base_travel_days": 7,
+      "loss_rate_per_day": 0.002,
+      "is_blocked": false,
+      "blocking_reason": ""
+    }
+  ],
+  "depots": [
+    {
+      "depot_id": "depot_lingwu",
+      "location_node_id": "lingwu",
+      "owner_organization_id": "tang_court",
+      "capacity": 100000,
+      "stock": {
+        "grain": 35000,
+        "silk_cash": 8000,
+        "warhorses": 2500,
+        "arms": 3000,
+        "labor": 15000
+      }
+    },
+    {
+      "depot_id": "depot_taiyuan",
+      "location_node_id": "taiyuan",
+      "owner_organization_id": "tang_court",
+      "capacity": 200000,
+      "stock": {
+        "grain": 80000,
+        "silk_cash": 20000,
+        "warhorses": 5000,
+        "arms": 8000,
+        "labor": 30000
+      }
+    },
+    {
+      "depot_id": "depot_shanzhou",
+      "location_node_id": "shanzhou",
+      "owner_organization_id": "yan_rebels",
+      "capacity": 80000,
+      "stock": {
+        "grain": 20000,
+        "silk_cash": 5000,
+        "warhorses": 1000,
+        "arms": 2000,
+        "labor": 5000
+      }
+    },
+    {
+      "depot_id": "depot_jianghuai",
+      "location_node_id": "suiyang",
+      "owner_organization_id": "tang_court",
+      "capacity": 300000,
+      "stock": {
+        "grain": 100000,
+        "silk_cash": 50000,
+        "warhorses": 2000,
+        "arms": 10000,
+        "labor": 50000
+      }
+    }
+  ],
+  "military_forces": [
+    {
+      "force_id": "force_shuofang_guo",
+      "display_name": "朔方讨贼中军",
+      "commander_id": "guo_ziyi",
+      "supervisor_id": "",
+      "faction_id": "tang_court",
+      "current_node_id": "lingwu",
+      "target_node_id": "",
+      "current_corridor_id": "",
+      "corridor_progress_days": 0,
+      "troop_tiers": {
+        "elite_retinue": 3000,
+        "regular_field": 18000,
+        "local_militia": 5000,
+        "foreign_cavalry": 4000
+      },
+      "morale": 85,
+      "rations_on_hand_days": 25,
+      "supply_line_active": true,
+      "active_directive_id": ""
+    },
+    {
+      "force_id": "force_hedong_li",
+      "display_name": "河东行营精锐",
+      "commander_id": "li_guangbi",
+      "supervisor_id": "",
+      "faction_id": "tang_court",
+      "current_node_id": "taiyuan",
+      "target_node_id": "",
+      "current_corridor_id": "",
+      "corridor_progress_days": 0,
+      "troop_tiers": {
+        "elite_retinue": 2000,
+        "regular_field": 12000,
+        "local_militia": 6000,
+        "foreign_cavalry": 1000
+      },
+      "morale": 80,
+      "rations_on_hand_days": 20,
+      "supply_line_active": true,
+      "active_directive_id": ""
+    },
+    {
+      "force_id": "force_yan_main",
+      "display_name": "大燕幽燕铁骑",
+      "commander_id": "an_shouzhong",
+      "supervisor_id": "",
+      "faction_id": "yan_rebels",
+      "current_node_id": "changan",
+      "target_node_id": "",
+      "current_corridor_id": "",
+      "corridor_progress_days": 0,
+      "troop_tiers": {
+        "elite_retinue": 5000,
+        "regular_field": 20000,
+        "local_militia": 5000,
+        "foreign_cavalry": 6000
+      },
+      "morale": 85,
+      "rations_on_hand_days": 30,
+      "supply_line_active": true,
+      "active_directive_id": ""
+    },
+    {
+      "force_id": "force_yan_vanguard",
+      "display_name": "大燕河南前锋",
+      "commander_id": "cui_qianyou",
+      "supervisor_id": "",
+      "faction_id": "yan_rebels",
+      "current_node_id": "tongguan",
+      "target_node_id": "",
+      "current_corridor_id": "",
+      "corridor_progress_days": 0,
+      "troop_tiers": {
+        "elite_retinue": 3000,
+        "regular_field": 15000,
+        "local_militia": 4000,
+        "foreign_cavalry": 2000
+      },
+      "morale": 80,
+      "rations_on_hand_days": 20,
+      "supply_line_active": true,
+      "active_directive_id": ""
+    }
+  ]
+}

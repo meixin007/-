@@ -1,0 +1,16 @@
+{
+  "bundle_id": "tongguan_v4",
+  "version": 1,
+  "extends": "tongguan_v3",
+  "assets": {
+    "pass_gate_transverse_v081": {
+      "label": "潼关 · 横关墙与东西向门洞",
+      "group": "pass",
+      "atlas": "compact-transverse-gate.png",
+      "rect": [350, 380, 560, 580],
+      "width": 100,
+      "anchor": [0.5, 0.27],
+      "gate_anchor": [0.51, 0.49]
+    }
+  }
+}

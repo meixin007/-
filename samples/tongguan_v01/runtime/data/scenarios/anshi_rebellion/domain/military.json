@@ -1,0 +1,3257 @@
+{
+  "battlefronts": [
+    {
+      "available_orders": [
+        "固守",
+        "进军",
+        "查问"
+      ],
+      "commander_id": "li_bi",
+      "control": 25.0,
+      "directional_pressure": "叛军压力沿关中驿路逼近灵武号令线。",
+      "eta_risk": "urgent",
+      "id": "guanzhong_front",
+      "last_change_reason": "长安、洛阳相继陷入叛军威胁。",
+      "linked_characters": [
+        "li_bi",
+        "li_fuguo"
+      ],
+      "linked_factions": [
+        "xuanzong_old_court",
+        "rebel_command"
+      ],
+      "momentum": "pressured",
+      "name": "关中战局",
+      "recent_change_reason": "长安、洛阳相继陷入叛军威胁。",
+      "region": "关中",
+      "risk_flags": [
+        "驿路受阻",
+        "旧臣掣肘"
+      ],
+      "route_pressure": {
+        "defend_lingwu": 2.0,
+        "support_shuofang": 0.0,
+        "uighur_push": 0.0
+      },
+      "route_tag": "defend_lingwu",
+      "summary": "长安、洛阳相继受叛军威胁，朝廷只能从灵武观察关中压力。",
+      "supply": 30.0,
+      "threat": 82.0
+    },
+    {
+      "available_orders": [
+        "调粮",
+        "任将",
+        "查问",
+        "固守"
+      ],
+      "commander_id": "guo_ziyi",
+      "control": 52.0,
+      "directional_pressure": "朔方粮道连接灵武补给与反攻动员。",
+      "eta_risk": "watch",
+      "id": "shuofang_front",
+      "last_change_reason": "郭子仪所部缺粮，仍待行在调度。",
+      "linked_characters": [
+        "guo_ziyi",
+        "grain_official_lingwu"
+      ],
+      "linked_factions": [
+        "military_commanders",
+        "common_people"
+      ],
+      "momentum": "pressured",
+      "name": "朔方粮道",
+      "recent_change_reason": "郭子仪所部缺粮，仍待行在调度。",
+      "region": "朔方",
+      "risk_flags": [
+        "粮道告急",
+        "军心动摇"
+      ],
+      "route_pressure": {
+        "defend_lingwu": 0.0,
+        "support_shuofang": 2.0,
+        "uighur_push": 0.0
+      },
+      "route_tag": "support_shuofang",
+      "summary": "郭子仪所部仍可支撑，但粮道一断，军心会迅速传回行在。",
+      "supply": 38.0,
+      "threat": 68.0
+    },
+    {
+      "available_orders": [
+        "固守",
+        "进军",
+        "调粮"
+      ],
+      "commander_id": "li_guangbi",
+      "control": 45.0,
+      "directional_pressure": "河东牵制线承接回纥外援与唐军侧翼。",
+      "eta_risk": "steady",
+      "id": "hedong_front",
+      "last_change_reason": "李光弼方向牵制叛军机动。",
+      "linked_characters": [
+        "li_guangbi",
+        "shi_siming"
+      ],
+      "linked_factions": [
+        "military_commanders",
+        "rebel_command"
+      ],
+      "momentum": "stable",
+      "name": "河东牵制",
+      "recent_change_reason": "李光弼方向牵制叛军机动。",
+      "region": "河东",
+      "risk_flags": [
+        "侧翼受压"
+      ],
+      "route_pressure": {
+        "defend_lingwu": 0.0,
+        "support_shuofang": 2.0,
+        "uighur_push": 2.0
+      },
+      "route_tag": "support_shuofang",
+      "summary": "李光弼方向牵制叛军机动，是灵武争取时间的侧翼。",
+      "supply": 42.0,
+      "threat": 61.0
+    },
+    {
+      "available_orders": [
+        "安抚",
+        "查问",
+        "固守"
+      ],
+      "commander_id": "chen_xuanli",
+      "control": 38.0,
+      "directional_pressure": "蜀道旧驾牵动玄宗旧臣与禁军名分。",
+      "eta_risk": "watch",
+      "id": "westward_route",
+      "last_change_reason": "玄宗旧驾仍牵动禁军和旧臣名分。",
+      "linked_characters": [
+        "chen_xuanli",
+        "zhang_liangdi"
+      ],
+      "linked_factions": [
+        "xuanzong_old_court",
+        "palace_household"
+      ],
+      "momentum": "stable",
+      "name": "蜀道旧驾",
+      "recent_change_reason": "玄宗旧驾仍牵动禁军和旧臣名分。",
+      "region": "西行旧驾",
+      "risk_flags": [
+        "名分摇摆"
+      ],
+      "route_pressure": {
+        "defend_lingwu": 2.0,
+        "support_shuofang": 0.0,
+        "uighur_push": 0.0
+      },
+      "route_tag": "defend_lingwu",
+      "summary": "玄宗旧驾西行之后仍影响禁军与旧臣名分，灵武必须处理这条政治退路。",
+      "supply": 34.0,
+      "threat": 48.0
+    },
+    {
+      "available_orders": [
+        "牵制",
+        "密探",
+        "进军"
+      ],
+      "commander_id": "shi_siming",
+      "control": 20.0,
+      "directional_pressure": "河北叛军机动压力从侧翼撕扯战局。",
+      "eta_risk": "urgent",
+      "id": "rebel_hebei_front",
+      "last_change_reason": "史思明等叛军将领仍保持机动。",
+      "linked_characters": [
+        "shi_siming"
+      ],
+      "linked_factions": [
+        "rebel_command"
+      ],
+      "momentum": "pressured",
+      "name": "河北叛军",
+      "recent_change_reason": "史思明等叛军将领仍保持机动。",
+      "region": "河北",
+      "risk_flags": [
+        "侧翼试探",
+        "叛军机动"
+      ],
+      "route_pressure": {
+        "defend_lingwu": 0.0,
+        "support_shuofang": 0.0,
+        "uighur_push": 0.0
+      },
+      "route_tag": "neutral",
+      "summary": "史思明等叛军将领仍在河北保持机动，随时可能放大战局压力。",
+      "supply": 58.0,
+      "threat": 76.0
+    }
+  ],
+  "intelligence_contradictions": [
+    {
+      "contradiction_id": "guanzhong_false_movement_contradiction",
+      "if_acted_unverified": {
+        "causal_tag": "trusted_unverified_guanzhong_alarm",
+        "summary": "The court acted on an unverified Guanzhong alarm before the relay was checked."
+      },
+      "report_ids": [
+        "guanzhong_false_movement_a",
+        "guanzhong_false_movement_b"
+      ],
+      "truth_resolution": "decoy",
+      "verification_operation_id": "verify_guanzhong_movement"
+    },
+    {
+      "contradiction_id": "beta07_contradiction_01",
+      "if_acted_unverified": {
+        "causal_tag": "beta07_unverified_action_01",
+        "summary": "The court acted before conflicting intelligence was resolved."
+      },
+      "report_ids": [
+        "beta07_intel_report_01",
+        "beta07_intel_report_02"
+      ],
+      "truth_resolution": "decoy",
+      "verification_operation_id": "verify_guanzhong_movement"
+    },
+    {
+      "contradiction_id": "beta07_contradiction_02",
+      "if_acted_unverified": {
+        "causal_tag": "beta07_unverified_action_02",
+        "summary": "The court acted before conflicting intelligence was resolved."
+      },
+      "report_ids": [
+        "beta07_intel_report_03",
+        "beta07_intel_report_04"
+      ],
+      "truth_resolution": "stale",
+      "verification_operation_id": "beta07_regional_operation_03"
+    },
+    {
+      "contradiction_id": "beta07_contradiction_03",
+      "if_acted_unverified": {
+        "causal_tag": "beta07_unverified_action_03",
+        "summary": "The court acted before conflicting intelligence was resolved."
+      },
+      "report_ids": [
+        "beta07_intel_report_05",
+        "beta07_intel_report_06"
+      ],
+      "truth_resolution": "partial",
+      "verification_operation_id": "beta07_regional_operation_04"
+    },
+    {
+      "contradiction_id": "beta07_contradiction_04",
+      "if_acted_unverified": {
+        "causal_tag": "beta07_unverified_action_04",
+        "summary": "The court acted before conflicting intelligence was resolved."
+      },
+      "report_ids": [
+        "beta07_intel_report_07",
+        "beta07_intel_report_08"
+      ],
+      "truth_resolution": "decoy",
+      "verification_operation_id": "beta07_regional_operation_05"
+    },
+    {
+      "contradiction_id": "beta07_contradiction_05",
+      "if_acted_unverified": {
+        "causal_tag": "beta07_unverified_action_05",
+        "summary": "The court acted before conflicting intelligence was resolved."
+      },
+      "report_ids": [
+        "beta07_intel_report_09",
+        "beta07_intel_report_10"
+      ],
+      "truth_resolution": "stale",
+      "verification_operation_id": "beta07_regional_operation_06"
+    },
+    {
+      "contradiction_id": "beta07_contradiction_06",
+      "if_acted_unverified": {
+        "causal_tag": "beta07_unverified_action_06",
+        "summary": "The court acted before conflicting intelligence was resolved."
+      },
+      "report_ids": [
+        "beta07_intel_report_11",
+        "beta07_intel_report_12"
+      ],
+      "truth_resolution": "partial",
+      "verification_operation_id": "beta07_regional_operation_07"
+    },
+    {
+      "contradiction_id": "beta07_contradiction_07",
+      "if_acted_unverified": {
+        "causal_tag": "beta07_unverified_action_07",
+        "summary": "The court acted before conflicting intelligence was resolved."
+      },
+      "report_ids": [
+        "beta07_intel_report_13",
+        "beta07_intel_report_14"
+      ],
+      "truth_resolution": "decoy",
+      "verification_operation_id": "beta07_regional_operation_08"
+    },
+    {
+      "contradiction_id": "beta07_contradiction_08",
+      "if_acted_unverified": {
+        "causal_tag": "beta07_unverified_action_08",
+        "summary": "The court acted before conflicting intelligence was resolved."
+      },
+      "report_ids": [
+        "beta07_intel_report_15",
+        "beta07_intel_report_16"
+      ],
+      "truth_resolution": "stale",
+      "verification_operation_id": "beta07_regional_operation_09"
+    }
+  ],
+  "intelligence_reports": [
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "palace_channel",
+        "speed_over_certainty"
+      ],
+      "confidence": 58.0,
+      "contradicts_report_ids": [
+        "guanzhong_false_movement_b"
+      ],
+      "expires_after_days": 5.0,
+      "possible_hidden_truth": "decoy",
+      "report_id": "guanzhong_false_movement_a",
+      "reported_pressure": 72.0,
+      "source_character_id": "li_fuguo",
+      "source_faction_id": "eunuch_network",
+      "source_type": "palace_channel",
+      "target_node_id": "guanzhong_approach_node",
+      "target_route_id": "lingwu_to_guanzhong_relay",
+      "title": "Guanzhong Rebel Movement Report",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "military_caution"
+      ],
+      "confidence": 66.0,
+      "contradicts_report_ids": [
+        "guanzhong_false_movement_a"
+      ],
+      "expires_after_days": 6.0,
+      "possible_hidden_truth": "decoy",
+      "report_id": "guanzhong_false_movement_b",
+      "reported_pressure": 42.0,
+      "source_character_id": "guo_ziyi",
+      "source_faction_id": "military_commanders",
+      "source_type": "military_scout",
+      "target_node_id": "guanzhong_approach_node",
+      "target_route_id": "lingwu_to_guanzhong_relay",
+      "title": "Guo Ziyi Questions Guanzhong Alarm",
+      "verification_options": [
+        "send_scouts",
+        "wait_for_relay"
+      ]
+    },
+    {
+      "age_days": 1.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 42.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_02"
+      ],
+      "expires_after_days": 10.0,
+      "possible_hidden_truth": "decoy",
+      "report_id": "beta07_intel_report_01",
+      "reported_pressure": 35.0,
+      "source_character_id": "guo_ziyi",
+      "source_faction_id": "military_commanders",
+      "source_type": "palace_channel",
+      "target_node_id": "lingwu_court_node",
+      "target_route_id": "lingwu_to_guanzhong_relay",
+      "title": "Beta07 intelligence report 1",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 1.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 43.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_01"
+      ],
+      "expires_after_days": 8.0,
+      "possible_hidden_truth": "stale",
+      "report_id": "beta07_intel_report_02",
+      "reported_pressure": 36.0,
+      "source_character_id": "li_fuguo",
+      "source_faction_id": "eunuch_network",
+      "source_type": "military_scout",
+      "target_node_id": "shuofang_front_node",
+      "target_route_id": "beta07_route_03",
+      "title": "Beta07 intelligence report 2",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 44.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_04"
+      ],
+      "expires_after_days": 4.0,
+      "possible_hidden_truth": "accurate",
+      "report_id": "beta07_intel_report_03",
+      "reported_pressure": 37.0,
+      "source_character_id": "li_bi",
+      "source_faction_id": "suzong_court",
+      "source_type": "merchant_rumor",
+      "target_node_id": "hedong_relay_node",
+      "target_route_id": "beta07_route_04",
+      "title": "Beta07 intelligence report 3",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 45.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_03"
+      ],
+      "expires_after_days": 3.0,
+      "possible_hidden_truth": "planted",
+      "report_id": "beta07_intel_report_04",
+      "reported_pressure": 38.0,
+      "source_character_id": "hardline_old_court_official",
+      "source_faction_id": "xuanzong_old_court",
+      "source_type": "palace_channel",
+      "target_node_id": "guanzhong_approach_node",
+      "target_route_id": "beta07_route_05",
+      "title": "Beta07 intelligence report 4",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 1.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 46.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_06"
+      ],
+      "expires_after_days": 7.0,
+      "possible_hidden_truth": "decoy",
+      "report_id": "beta07_intel_report_05",
+      "reported_pressure": 39.0,
+      "source_character_id": "guo_ziyi",
+      "source_faction_id": "military_commanders",
+      "source_type": "military_scout",
+      "target_node_id": "grain_road_node",
+      "target_route_id": "beta07_route_06",
+      "title": "Beta07 intelligence report 5",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 47.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_05"
+      ],
+      "expires_after_days": 8.0,
+      "possible_hidden_truth": "stale",
+      "report_id": "beta07_intel_report_06",
+      "reported_pressure": 40.0,
+      "source_character_id": "li_fuguo",
+      "source_faction_id": "eunuch_network",
+      "source_type": "merchant_rumor",
+      "target_node_id": "uighur_route_node",
+      "target_route_id": "beta07_route_07",
+      "title": "Beta07 intelligence report 6",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 1.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 48.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_08"
+      ],
+      "expires_after_days": 10.0,
+      "possible_hidden_truth": "accurate",
+      "report_id": "beta07_intel_report_07",
+      "reported_pressure": 41.0,
+      "source_character_id": "li_bi",
+      "source_faction_id": "suzong_court",
+      "source_type": "palace_channel",
+      "target_node_id": "palace_inner_channel_node",
+      "target_route_id": "beta07_route_08",
+      "title": "Beta07 intelligence report 7",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 49.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_07"
+      ],
+      "expires_after_days": 6.0,
+      "possible_hidden_truth": "planted",
+      "report_id": "beta07_intel_report_08",
+      "reported_pressure": 42.0,
+      "source_character_id": "hardline_old_court_official",
+      "source_faction_id": "xuanzong_old_court",
+      "source_type": "military_scout",
+      "target_node_id": "refugee_market_node",
+      "target_route_id": "beta07_route_09",
+      "title": "Beta07 intelligence report 8",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 50.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_10"
+      ],
+      "expires_after_days": 2.0,
+      "possible_hidden_truth": "decoy",
+      "report_id": "beta07_intel_report_09",
+      "reported_pressure": 43.0,
+      "source_character_id": "guo_ziyi",
+      "source_faction_id": "military_commanders",
+      "source_type": "merchant_rumor",
+      "target_node_id": "changan_pressure_node",
+      "target_route_id": "beta07_route_10",
+      "title": "Beta07 intelligence report 9",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 51.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_09"
+      ],
+      "expires_after_days": 6.0,
+      "possible_hidden_truth": "stale",
+      "report_id": "beta07_intel_report_10",
+      "reported_pressure": 44.0,
+      "source_character_id": "li_fuguo",
+      "source_faction_id": "eunuch_network",
+      "source_type": "palace_channel",
+      "target_node_id": "luoyang_rumor_node",
+      "target_route_id": "beta07_route_11",
+      "title": "Beta07 intelligence report 10",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 1.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 52.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_12"
+      ],
+      "expires_after_days": 10.0,
+      "possible_hidden_truth": "accurate",
+      "report_id": "beta07_intel_report_11",
+      "reported_pressure": 45.0,
+      "source_character_id": "li_bi",
+      "source_faction_id": "suzong_court",
+      "source_type": "military_scout",
+      "target_node_id": "hebei_rebel_signal_node",
+      "target_route_id": "beta07_route_12",
+      "title": "Beta07 intelligence report 11",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 53.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_11"
+      ],
+      "expires_after_days": 10.0,
+      "possible_hidden_truth": "planted",
+      "report_id": "beta07_intel_report_12",
+      "reported_pressure": 46.0,
+      "source_character_id": "hardline_old_court_official",
+      "source_faction_id": "xuanzong_old_court",
+      "source_type": "merchant_rumor",
+      "target_node_id": "desert_envoy_road_node",
+      "target_route_id": "beta07_route_13",
+      "title": "Beta07 intelligence report 12",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 54.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_14"
+      ],
+      "expires_after_days": 4.0,
+      "possible_hidden_truth": "decoy",
+      "report_id": "beta07_intel_report_13",
+      "reported_pressure": 47.0,
+      "source_character_id": "guo_ziyi",
+      "source_faction_id": "military_commanders",
+      "source_type": "palace_channel",
+      "target_node_id": "lingwu_court_node",
+      "target_route_id": "beta07_route_14",
+      "title": "Beta07 intelligence report 13",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 1.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 55.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_13"
+      ],
+      "expires_after_days": 9.0,
+      "possible_hidden_truth": "stale",
+      "report_id": "beta07_intel_report_14",
+      "reported_pressure": 48.0,
+      "source_character_id": "li_fuguo",
+      "source_faction_id": "eunuch_network",
+      "source_type": "military_scout",
+      "target_node_id": "shuofang_front_node",
+      "target_route_id": "beta07_route_15",
+      "title": "Beta07 intelligence report 14",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 56.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_16"
+      ],
+      "expires_after_days": 9.0,
+      "possible_hidden_truth": "accurate",
+      "report_id": "beta07_intel_report_15",
+      "reported_pressure": 49.0,
+      "source_character_id": "li_bi",
+      "source_faction_id": "suzong_court",
+      "source_type": "merchant_rumor",
+      "target_node_id": "hedong_relay_node",
+      "target_route_id": "beta07_route_16",
+      "title": "Beta07 intelligence report 15",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 57.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_15"
+      ],
+      "expires_after_days": 7.0,
+      "possible_hidden_truth": "planted",
+      "report_id": "beta07_intel_report_16",
+      "reported_pressure": 50.0,
+      "source_character_id": "hardline_old_court_official",
+      "source_faction_id": "xuanzong_old_court",
+      "source_type": "palace_channel",
+      "target_node_id": "guanzhong_approach_node",
+      "target_route_id": "beta07_route_17",
+      "title": "Beta07 intelligence report 16",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 58.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_18"
+      ],
+      "expires_after_days": 10.0,
+      "possible_hidden_truth": "decoy",
+      "report_id": "beta07_intel_report_17",
+      "reported_pressure": 51.0,
+      "source_character_id": "guo_ziyi",
+      "source_faction_id": "military_commanders",
+      "source_type": "military_scout",
+      "target_node_id": "grain_road_node",
+      "target_route_id": "beta07_route_18",
+      "title": "Beta07 intelligence report 17",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 59.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_17"
+      ],
+      "expires_after_days": 4.0,
+      "possible_hidden_truth": "stale",
+      "report_id": "beta07_intel_report_18",
+      "reported_pressure": 52.0,
+      "source_character_id": "li_fuguo",
+      "source_faction_id": "eunuch_network",
+      "source_type": "merchant_rumor",
+      "target_node_id": "uighur_route_node",
+      "target_route_id": "beta07_route_02",
+      "title": "Beta07 intelligence report 18",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 60.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_20"
+      ],
+      "expires_after_days": 2.0,
+      "possible_hidden_truth": "accurate",
+      "report_id": "beta07_intel_report_19",
+      "reported_pressure": 53.0,
+      "source_character_id": "li_bi",
+      "source_faction_id": "suzong_court",
+      "source_type": "palace_channel",
+      "target_node_id": "palace_inner_channel_node",
+      "target_route_id": "beta07_route_03",
+      "title": "Beta07 intelligence report 19",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 61.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_19"
+      ],
+      "expires_after_days": 2.0,
+      "possible_hidden_truth": "planted",
+      "report_id": "beta07_intel_report_20",
+      "reported_pressure": 54.0,
+      "source_character_id": "hardline_old_court_official",
+      "source_faction_id": "xuanzong_old_court",
+      "source_type": "military_scout",
+      "target_node_id": "refugee_market_node",
+      "target_route_id": "beta07_route_04",
+      "title": "Beta07 intelligence report 20",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 1.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 62.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_22"
+      ],
+      "expires_after_days": 8.0,
+      "possible_hidden_truth": "decoy",
+      "report_id": "beta07_intel_report_21",
+      "reported_pressure": 55.0,
+      "source_character_id": "guo_ziyi",
+      "source_faction_id": "military_commanders",
+      "source_type": "merchant_rumor",
+      "target_node_id": "changan_pressure_node",
+      "target_route_id": "beta07_route_05",
+      "title": "Beta07 intelligence report 21",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 63.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_21"
+      ],
+      "expires_after_days": 7.0,
+      "possible_hidden_truth": "stale",
+      "report_id": "beta07_intel_report_22",
+      "reported_pressure": 56.0,
+      "source_character_id": "li_fuguo",
+      "source_faction_id": "eunuch_network",
+      "source_type": "palace_channel",
+      "target_node_id": "luoyang_rumor_node",
+      "target_route_id": "beta07_route_06",
+      "title": "Beta07 intelligence report 22",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 64.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_24"
+      ],
+      "expires_after_days": 2.0,
+      "possible_hidden_truth": "accurate",
+      "report_id": "beta07_intel_report_23",
+      "reported_pressure": 57.0,
+      "source_character_id": "li_bi",
+      "source_faction_id": "suzong_court",
+      "source_type": "military_scout",
+      "target_node_id": "hebei_rebel_signal_node",
+      "target_route_id": "beta07_route_07",
+      "title": "Beta07 intelligence report 23",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 65.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_23"
+      ],
+      "expires_after_days": 7.0,
+      "possible_hidden_truth": "planted",
+      "report_id": "beta07_intel_report_24",
+      "reported_pressure": 58.0,
+      "source_character_id": "hardline_old_court_official",
+      "source_faction_id": "xuanzong_old_court",
+      "source_type": "merchant_rumor",
+      "target_node_id": "desert_envoy_road_node",
+      "target_route_id": "beta07_route_08",
+      "title": "Beta07 intelligence report 24",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 1.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 66.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_26"
+      ],
+      "expires_after_days": 3.0,
+      "possible_hidden_truth": "decoy",
+      "report_id": "beta07_intel_report_25",
+      "reported_pressure": 59.0,
+      "source_character_id": "guo_ziyi",
+      "source_faction_id": "military_commanders",
+      "source_type": "palace_channel",
+      "target_node_id": "lingwu_court_node",
+      "target_route_id": "beta07_route_09",
+      "title": "Beta07 intelligence report 25",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 67.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_25"
+      ],
+      "expires_after_days": 2.0,
+      "possible_hidden_truth": "stale",
+      "report_id": "beta07_intel_report_26",
+      "reported_pressure": 60.0,
+      "source_character_id": "li_fuguo",
+      "source_faction_id": "eunuch_network",
+      "source_type": "military_scout",
+      "target_node_id": "shuofang_front_node",
+      "target_route_id": "beta07_route_10",
+      "title": "Beta07 intelligence report 26",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 68.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_28"
+      ],
+      "expires_after_days": 10.0,
+      "possible_hidden_truth": "accurate",
+      "report_id": "beta07_intel_report_27",
+      "reported_pressure": 61.0,
+      "source_character_id": "li_bi",
+      "source_faction_id": "suzong_court",
+      "source_type": "merchant_rumor",
+      "target_node_id": "hedong_relay_node",
+      "target_route_id": "beta07_route_11",
+      "title": "Beta07 intelligence report 27",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 69.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_27"
+      ],
+      "expires_after_days": 3.0,
+      "possible_hidden_truth": "planted",
+      "report_id": "beta07_intel_report_28",
+      "reported_pressure": 62.0,
+      "source_character_id": "hardline_old_court_official",
+      "source_faction_id": "xuanzong_old_court",
+      "source_type": "palace_channel",
+      "target_node_id": "guanzhong_approach_node",
+      "target_route_id": "beta07_route_12",
+      "title": "Beta07 intelligence report 28",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 1.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 70.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_30"
+      ],
+      "expires_after_days": 4.0,
+      "possible_hidden_truth": "decoy",
+      "report_id": "beta07_intel_report_29",
+      "reported_pressure": 63.0,
+      "source_character_id": "guo_ziyi",
+      "source_faction_id": "military_commanders",
+      "source_type": "military_scout",
+      "target_node_id": "grain_road_node",
+      "target_route_id": "beta07_route_13",
+      "title": "Beta07 intelligence report 29",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 71.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_29"
+      ],
+      "expires_after_days": 10.0,
+      "possible_hidden_truth": "stale",
+      "report_id": "beta07_intel_report_30",
+      "reported_pressure": 64.0,
+      "source_character_id": "li_fuguo",
+      "source_faction_id": "eunuch_network",
+      "source_type": "merchant_rumor",
+      "target_node_id": "uighur_route_node",
+      "target_route_id": "beta07_route_14",
+      "title": "Beta07 intelligence report 30",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 72.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_32"
+      ],
+      "expires_after_days": 3.0,
+      "possible_hidden_truth": "accurate",
+      "report_id": "beta07_intel_report_31",
+      "reported_pressure": 65.0,
+      "source_character_id": "li_bi",
+      "source_faction_id": "suzong_court",
+      "source_type": "palace_channel",
+      "target_node_id": "palace_inner_channel_node",
+      "target_route_id": "beta07_route_15",
+      "title": "Beta07 intelligence report 31",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 73.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_31"
+      ],
+      "expires_after_days": 2.0,
+      "possible_hidden_truth": "planted",
+      "report_id": "beta07_intel_report_32",
+      "reported_pressure": 66.0,
+      "source_character_id": "hardline_old_court_official",
+      "source_faction_id": "xuanzong_old_court",
+      "source_type": "military_scout",
+      "target_node_id": "refugee_market_node",
+      "target_route_id": "beta07_route_16",
+      "title": "Beta07 intelligence report 32",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 74.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_34"
+      ],
+      "expires_after_days": 2.0,
+      "possible_hidden_truth": "decoy",
+      "report_id": "beta07_intel_report_33",
+      "reported_pressure": 67.0,
+      "source_character_id": "guo_ziyi",
+      "source_faction_id": "military_commanders",
+      "source_type": "merchant_rumor",
+      "target_node_id": "changan_pressure_node",
+      "target_route_id": "beta07_route_17",
+      "title": "Beta07 intelligence report 33",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 1.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 75.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_33"
+      ],
+      "expires_after_days": 5.0,
+      "possible_hidden_truth": "stale",
+      "report_id": "beta07_intel_report_34",
+      "reported_pressure": 68.0,
+      "source_character_id": "li_fuguo",
+      "source_faction_id": "eunuch_network",
+      "source_type": "palace_channel",
+      "target_node_id": "luoyang_rumor_node",
+      "target_route_id": "beta07_route_18",
+      "title": "Beta07 intelligence report 34",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 76.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_36"
+      ],
+      "expires_after_days": 8.0,
+      "possible_hidden_truth": "accurate",
+      "report_id": "beta07_intel_report_35",
+      "reported_pressure": 69.0,
+      "source_character_id": "li_bi",
+      "source_faction_id": "suzong_court",
+      "source_type": "military_scout",
+      "target_node_id": "hebei_rebel_signal_node",
+      "target_route_id": "beta07_route_02",
+      "title": "Beta07 intelligence report 35",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 77.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_35"
+      ],
+      "expires_after_days": 2.0,
+      "possible_hidden_truth": "planted",
+      "report_id": "beta07_intel_report_36",
+      "reported_pressure": 70.0,
+      "source_character_id": "hardline_old_court_official",
+      "source_faction_id": "xuanzong_old_court",
+      "source_type": "merchant_rumor",
+      "target_node_id": "desert_envoy_road_node",
+      "target_route_id": "beta07_route_03",
+      "title": "Beta07 intelligence report 36",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 78.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_38"
+      ],
+      "expires_after_days": 7.0,
+      "possible_hidden_truth": "decoy",
+      "report_id": "beta07_intel_report_37",
+      "reported_pressure": 71.0,
+      "source_character_id": "guo_ziyi",
+      "source_faction_id": "military_commanders",
+      "source_type": "palace_channel",
+      "target_node_id": "lingwu_court_node",
+      "target_route_id": "beta07_route_04",
+      "title": "Beta07 intelligence report 37",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 79.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_37"
+      ],
+      "expires_after_days": 10.0,
+      "possible_hidden_truth": "stale",
+      "report_id": "beta07_intel_report_38",
+      "reported_pressure": 72.0,
+      "source_character_id": "li_fuguo",
+      "source_faction_id": "eunuch_network",
+      "source_type": "military_scout",
+      "target_node_id": "shuofang_front_node",
+      "target_route_id": "beta07_route_05",
+      "title": "Beta07 intelligence report 38",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 80.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_40"
+      ],
+      "expires_after_days": 5.0,
+      "possible_hidden_truth": "accurate",
+      "report_id": "beta07_intel_report_39",
+      "reported_pressure": 73.0,
+      "source_character_id": "li_bi",
+      "source_faction_id": "suzong_court",
+      "source_type": "merchant_rumor",
+      "target_node_id": "hedong_relay_node",
+      "target_route_id": "beta07_route_06",
+      "title": "Beta07 intelligence report 39",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 1.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 81.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_39"
+      ],
+      "expires_after_days": 9.0,
+      "possible_hidden_truth": "planted",
+      "report_id": "beta07_intel_report_40",
+      "reported_pressure": 74.0,
+      "source_character_id": "hardline_old_court_official",
+      "source_faction_id": "xuanzong_old_court",
+      "source_type": "palace_channel",
+      "target_node_id": "guanzhong_approach_node",
+      "target_route_id": "beta07_route_07",
+      "title": "Beta07 intelligence report 40",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 82.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_42"
+      ],
+      "expires_after_days": 6.0,
+      "possible_hidden_truth": "decoy",
+      "report_id": "beta07_intel_report_41",
+      "reported_pressure": 75.0,
+      "source_character_id": "guo_ziyi",
+      "source_faction_id": "military_commanders",
+      "source_type": "military_scout",
+      "target_node_id": "grain_road_node",
+      "target_route_id": "beta07_route_08",
+      "title": "Beta07 intelligence report 41",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 83.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_41"
+      ],
+      "expires_after_days": 4.0,
+      "possible_hidden_truth": "stale",
+      "report_id": "beta07_intel_report_42",
+      "reported_pressure": 76.0,
+      "source_character_id": "li_fuguo",
+      "source_faction_id": "eunuch_network",
+      "source_type": "merchant_rumor",
+      "target_node_id": "uighur_route_node",
+      "target_route_id": "beta07_route_09",
+      "title": "Beta07 intelligence report 42",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 84.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_44"
+      ],
+      "expires_after_days": 3.0,
+      "possible_hidden_truth": "accurate",
+      "report_id": "beta07_intel_report_43",
+      "reported_pressure": 77.0,
+      "source_character_id": "li_bi",
+      "source_faction_id": "suzong_court",
+      "source_type": "palace_channel",
+      "target_node_id": "palace_inner_channel_node",
+      "target_route_id": "beta07_route_10",
+      "title": "Beta07 intelligence report 43",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 85.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_43"
+      ],
+      "expires_after_days": 3.0,
+      "possible_hidden_truth": "planted",
+      "report_id": "beta07_intel_report_44",
+      "reported_pressure": 78.0,
+      "source_character_id": "hardline_old_court_official",
+      "source_faction_id": "xuanzong_old_court",
+      "source_type": "military_scout",
+      "target_node_id": "refugee_market_node",
+      "target_route_id": "beta07_route_11",
+      "title": "Beta07 intelligence report 44",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 1.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 86.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_46"
+      ],
+      "expires_after_days": 7.0,
+      "possible_hidden_truth": "decoy",
+      "report_id": "beta07_intel_report_45",
+      "reported_pressure": 79.0,
+      "source_character_id": "guo_ziyi",
+      "source_faction_id": "military_commanders",
+      "source_type": "merchant_rumor",
+      "target_node_id": "changan_pressure_node",
+      "target_route_id": "beta07_route_12",
+      "title": "Beta07 intelligence report 45",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 1.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 42.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_45"
+      ],
+      "expires_after_days": 4.0,
+      "possible_hidden_truth": "stale",
+      "report_id": "beta07_intel_report_46",
+      "reported_pressure": 80.0,
+      "source_character_id": "li_fuguo",
+      "source_faction_id": "eunuch_network",
+      "source_type": "palace_channel",
+      "target_node_id": "luoyang_rumor_node",
+      "target_route_id": "beta07_route_13",
+      "title": "Beta07 intelligence report 46",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 43.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_48"
+      ],
+      "expires_after_days": 6.0,
+      "possible_hidden_truth": "accurate",
+      "report_id": "beta07_intel_report_47",
+      "reported_pressure": 81.0,
+      "source_character_id": "li_bi",
+      "source_faction_id": "suzong_court",
+      "source_type": "military_scout",
+      "target_node_id": "hebei_rebel_signal_node",
+      "target_route_id": "beta07_route_14",
+      "title": "Beta07 intelligence report 47",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 3.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 44.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_47"
+      ],
+      "expires_after_days": 3.0,
+      "possible_hidden_truth": "planted",
+      "report_id": "beta07_intel_report_48",
+      "reported_pressure": 82.0,
+      "source_character_id": "hardline_old_court_official",
+      "source_faction_id": "xuanzong_old_court",
+      "source_type": "merchant_rumor",
+      "target_node_id": "desert_envoy_road_node",
+      "target_route_id": "beta07_route_15",
+      "title": "Beta07 intelligence report 48",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 1.0,
+      "bias_tags": [
+        "beta07",
+        "speed_over_certainty"
+      ],
+      "confidence": 45.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_50"
+      ],
+      "expires_after_days": 3.0,
+      "possible_hidden_truth": "decoy",
+      "report_id": "beta07_intel_report_49",
+      "reported_pressure": 83.0,
+      "source_character_id": "guo_ziyi",
+      "source_faction_id": "military_commanders",
+      "source_type": "palace_channel",
+      "target_node_id": "lingwu_court_node",
+      "target_route_id": "beta07_route_16",
+      "title": "Beta07 intelligence report 49",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    },
+    {
+      "age_days": 2.0,
+      "bias_tags": [
+        "beta07",
+        "military_caution"
+      ],
+      "confidence": 46.0,
+      "contradicts_report_ids": [
+        "beta07_intel_report_49"
+      ],
+      "expires_after_days": 4.0,
+      "possible_hidden_truth": "stale",
+      "report_id": "beta07_intel_report_50",
+      "reported_pressure": 84.0,
+      "source_character_id": "li_fuguo",
+      "source_faction_id": "eunuch_network",
+      "source_type": "military_scout",
+      "target_node_id": "shuofang_front_node",
+      "target_route_id": "beta07_route_17",
+      "title": "Beta07 intelligence report 50",
+      "verification_options": [
+        "send_scouts",
+        "ask_guo_ziyi",
+        "call_council"
+      ]
+    }
+  ],
+  "local_nodes": [
+    {
+      "active_office_holder": "guo_ziyi",
+      "communication_delay": 2.0,
+      "control": 45.0,
+      "dominant_faction": "military_commanders",
+      "linked_events": [
+        "shuofang_grain_shortage_001"
+      ],
+      "linked_fronts": [
+        "shuofang_front"
+      ],
+      "name": "Shuofang Front",
+      "node_id": "shuofang_front_node",
+      "public_order": 40.0,
+      "recent_orders": [],
+      "rumors_or_uncertainty": [
+        "Beta 0.7 intelligence uncertainty"
+      ],
+      "security": 52.0,
+      "supply": 38.0
+    },
+    {
+      "active_office_holder": "guo_ziyi",
+      "communication_delay": 1.0,
+      "control": 45.0,
+      "dominant_faction": "military_commanders",
+      "linked_events": [
+        "shuofang_grain_shortage_001"
+      ],
+      "linked_fronts": [
+        "shuofang_front"
+      ],
+      "name": "lingwu_court_node",
+      "node_id": "lingwu_court_node",
+      "public_order": 40.0,
+      "recent_orders": [],
+      "rumors_or_uncertainty": [
+        "Beta 0.7 intelligence uncertainty"
+      ],
+      "security": 42.0,
+      "supply": 38.0
+    },
+    {
+      "active_office_holder": "guo_ziyi",
+      "communication_delay": 3.0,
+      "control": 47.0,
+      "dominant_faction": "suzong_court",
+      "linked_events": [
+        "shuofang_grain_shortage_001"
+      ],
+      "linked_fronts": [
+        "shuofang_front"
+      ],
+      "name": "hedong_relay_node",
+      "node_id": "hedong_relay_node",
+      "public_order": 42.0,
+      "recent_orders": [],
+      "rumors_or_uncertainty": [
+        "Beta 0.7 intelligence uncertainty"
+      ],
+      "security": 44.0,
+      "supply": 40.0
+    },
+    {
+      "active_office_holder": "li_fuguo",
+      "communication_delay": 4.0,
+      "control": 48.0,
+      "dominant_faction": "xuanzong_old_court",
+      "linked_events": [
+        "shuofang_grain_shortage_001"
+      ],
+      "linked_fronts": [
+        "shuofang_front"
+      ],
+      "name": "guanzhong_approach_node",
+      "node_id": "guanzhong_approach_node",
+      "public_order": 43.0,
+      "recent_orders": [],
+      "rumors_or_uncertainty": [
+        "Beta 0.7 intelligence uncertainty"
+      ],
+      "security": 45.0,
+      "supply": 41.0
+    },
+    {
+      "active_office_holder": "li_fuguo",
+      "communication_delay": 2.0,
+      "control": 50.0,
+      "dominant_faction": "eunuch_network",
+      "linked_events": [
+        "shuofang_grain_shortage_001"
+      ],
+      "linked_fronts": [
+        "shuofang_front"
+      ],
+      "name": "uighur_route_node",
+      "node_id": "uighur_route_node",
+      "public_order": 45.0,
+      "recent_orders": [],
+      "rumors_or_uncertainty": [
+        "Beta 0.7 intelligence uncertainty"
+      ],
+      "security": 47.0,
+      "supply": 43.0
+    },
+    {
+      "active_office_holder": "guo_ziyi",
+      "communication_delay": 1.0,
+      "control": 49.0,
+      "dominant_faction": "military_commanders",
+      "linked_events": [
+        "shuofang_grain_shortage_001"
+      ],
+      "linked_fronts": [
+        "shuofang_front"
+      ],
+      "name": "grain_road_node",
+      "node_id": "grain_road_node",
+      "public_order": 44.0,
+      "recent_orders": [],
+      "rumors_or_uncertainty": [
+        "Beta 0.7 intelligence uncertainty"
+      ],
+      "security": 46.0,
+      "supply": 42.0
+    },
+    {
+      "active_office_holder": "guo_ziyi",
+      "communication_delay": 3.0,
+      "control": 51.0,
+      "dominant_faction": "suzong_court",
+      "linked_events": [
+        "shuofang_grain_shortage_001"
+      ],
+      "linked_fronts": [
+        "shuofang_front"
+      ],
+      "name": "palace_inner_channel_node",
+      "node_id": "palace_inner_channel_node",
+      "public_order": 46.0,
+      "recent_orders": [],
+      "rumors_or_uncertainty": [
+        "Beta 0.7 intelligence uncertainty"
+      ],
+      "security": 48.0,
+      "supply": 44.0
+    },
+    {
+      "active_office_holder": "li_fuguo",
+      "communication_delay": 4.0,
+      "control": 52.0,
+      "dominant_faction": "xuanzong_old_court",
+      "linked_events": [
+        "shuofang_grain_shortage_001"
+      ],
+      "linked_fronts": [
+        "shuofang_front"
+      ],
+      "name": "refugee_market_node",
+      "node_id": "refugee_market_node",
+      "public_order": 47.0,
+      "recent_orders": [],
+      "rumors_or_uncertainty": [
+        "Beta 0.7 intelligence uncertainty"
+      ],
+      "security": 49.0,
+      "supply": 45.0
+    },
+    {
+      "active_office_holder": "guo_ziyi",
+      "communication_delay": 1.0,
+      "control": 53.0,
+      "dominant_faction": "military_commanders",
+      "linked_events": [
+        "shuofang_grain_shortage_001"
+      ],
+      "linked_fronts": [
+        "shuofang_front"
+      ],
+      "name": "changan_pressure_node",
+      "node_id": "changan_pressure_node",
+      "public_order": 48.0,
+      "recent_orders": [],
+      "rumors_or_uncertainty": [
+        "Beta 0.7 intelligence uncertainty"
+      ],
+      "security": 50.0,
+      "supply": 46.0
+    },
+    {
+      "active_office_holder": "li_fuguo",
+      "communication_delay": 2.0,
+      "control": 54.0,
+      "dominant_faction": "eunuch_network",
+      "linked_events": [
+        "shuofang_grain_shortage_001"
+      ],
+      "linked_fronts": [
+        "shuofang_front"
+      ],
+      "name": "luoyang_rumor_node",
+      "node_id": "luoyang_rumor_node",
+      "public_order": 49.0,
+      "recent_orders": [],
+      "rumors_or_uncertainty": [
+        "Beta 0.7 intelligence uncertainty"
+      ],
+      "security": 51.0,
+      "supply": 47.0
+    },
+    {
+      "active_office_holder": "guo_ziyi",
+      "communication_delay": 3.0,
+      "control": 55.0,
+      "dominant_faction": "suzong_court",
+      "linked_events": [
+        "shuofang_grain_shortage_001"
+      ],
+      "linked_fronts": [
+        "shuofang_front"
+      ],
+      "name": "hebei_rebel_signal_node",
+      "node_id": "hebei_rebel_signal_node",
+      "public_order": 50.0,
+      "recent_orders": [],
+      "rumors_or_uncertainty": [
+        "Beta 0.7 intelligence uncertainty"
+      ],
+      "security": 52.0,
+      "supply": 48.0
+    },
+    {
+      "active_office_holder": "li_fuguo",
+      "communication_delay": 4.0,
+      "control": 56.0,
+      "dominant_faction": "xuanzong_old_court",
+      "linked_events": [
+        "shuofang_grain_shortage_001"
+      ],
+      "linked_fronts": [
+        "shuofang_front"
+      ],
+      "name": "desert_envoy_road_node",
+      "node_id": "desert_envoy_road_node",
+      "public_order": 51.0,
+      "recent_orders": [],
+      "rumors_or_uncertainty": [
+        "Beta 0.7 intelligence uncertainty"
+      ],
+      "security": 53.0,
+      "supply": 49.0
+    }
+  ],
+  "regional_operations": [
+    {
+      "allowed_channels": [
+        "public_decree",
+        "oral_military_order",
+        "secret_palace_channel",
+        "council_resolution"
+      ],
+      "channel_risks": {
+        "public_decree": {
+          "faction_id": "xuanzong_old_court",
+          "pressure_delta": 2.0,
+          "risk_text": "public and legitimate but slower"
+        },
+        "secret_palace_channel": {
+          "faction_id": "eunuch_network",
+          "pressure_delta": 4.0,
+          "risk_text": "fast but empowers palace channels"
+        }
+      },
+      "duration_days": 2.0,
+      "node_effects": [
+        {
+          "field": "security",
+          "value": 4.0
+        }
+      ],
+      "operation_id": "verify_guanzhong_movement",
+      "reports": [
+        {
+          "available_decisions": [],
+          "deadline_days": 3.0,
+          "id": "guanzhong_verification_result_report",
+          "source_character_id": "guo_ziyi",
+          "title": "Guanzhong Movement Rechecked",
+          "type": "intelligence_followup_report",
+          "visible_summary": "Scouts return with a clearer account of Guanzhong movement and relay pressure."
+        }
+      ],
+      "required_executor_tags": [
+        "military",
+        "scout",
+        "trusted_general"
+      ],
+      "route_effects": [
+        {
+          "field": "uncertainty",
+          "value": -12.0
+        },
+        {
+          "field": "security",
+          "value": 3.0
+        }
+      ],
+      "target_node_id": "guanzhong_approach_node",
+      "target_route_id": "lingwu_to_guanzhong_relay",
+      "title": "Verify Guanzhong Movement"
+    },
+    {
+      "allowed_channels": [
+        "public_decree",
+        "oral_military_order",
+        "secret_palace_channel",
+        "council_resolution"
+      ],
+      "channel_risks": {
+        "council_resolution": {
+          "faction_id": "suzong_court",
+          "pressure_delta": -1.0,
+          "risk_text": "slower but records shared responsibility"
+        },
+        "oral_military_order": {
+          "faction_id": "military_commanders",
+          "pressure_delta": -1.0,
+          "risk_text": "fast if trusted, easier to misread"
+        },
+        "public_decree": {
+          "faction_id": "xuanzong_old_court",
+          "pressure_delta": 1.0,
+          "risk_text": "public and legitimate but slower"
+        },
+        "secret_palace_channel": {
+          "faction_id": "eunuch_network",
+          "pressure_delta": 3.0,
+          "risk_text": "fast but empowers palace channels"
+        }
+      },
+      "duration_days": 4.0,
+      "node_effects": [
+        {
+          "field": "security",
+          "value": 1.0
+        },
+        {
+          "field": "public_order",
+          "value": 1.0
+        }
+      ],
+      "operation_id": "beta07_regional_operation_02",
+      "reports": [
+        {
+          "available_decisions": [],
+          "deadline_days": 2.0,
+          "id": "beta07_regional_operation_02_report",
+          "source_character_id": "guo_ziyi",
+          "title": "Beta07 regional operation 2 report",
+          "type": "intelligence_followup_report",
+          "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences."
+        }
+      ],
+      "required_executor_tags": [
+        "military",
+        "scout",
+        "trusted_general"
+      ],
+      "route_effects": [
+        {
+          "field": "uncertainty",
+          "value": -5.0
+        },
+        {
+          "field": "security",
+          "value": 1.0
+        }
+      ],
+      "target_node_id": "lingwu_court_node",
+      "target_route_id": "beta07_route_02",
+      "title": "Beta07 regional operation 2"
+    },
+    {
+      "allowed_channels": [
+        "public_decree",
+        "oral_military_order",
+        "secret_palace_channel",
+        "council_resolution"
+      ],
+      "channel_risks": {
+        "council_resolution": {
+          "faction_id": "suzong_court",
+          "pressure_delta": -1.0,
+          "risk_text": "slower but records shared responsibility"
+        },
+        "oral_military_order": {
+          "faction_id": "military_commanders",
+          "pressure_delta": -1.0,
+          "risk_text": "fast if trusted, easier to misread"
+        },
+        "public_decree": {
+          "faction_id": "xuanzong_old_court",
+          "pressure_delta": 1.0,
+          "risk_text": "public and legitimate but slower"
+        },
+        "secret_palace_channel": {
+          "faction_id": "eunuch_network",
+          "pressure_delta": 3.0,
+          "risk_text": "fast but empowers palace channels"
+        }
+      },
+      "duration_days": 5.0,
+      "node_effects": [
+        {
+          "field": "security",
+          "value": 2.0
+        },
+        {
+          "field": "public_order",
+          "value": -1.0
+        }
+      ],
+      "operation_id": "beta07_regional_operation_03",
+      "reports": [
+        {
+          "available_decisions": [],
+          "deadline_days": 3.0,
+          "id": "beta07_regional_operation_03_report",
+          "source_character_id": "li_fuguo",
+          "title": "Beta07 regional operation 3 report",
+          "type": "intelligence_followup_report",
+          "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences."
+        }
+      ],
+      "required_executor_tags": [
+        "military",
+        "scout",
+        "trusted_general"
+      ],
+      "route_effects": [
+        {
+          "field": "uncertainty",
+          "value": -6.0
+        },
+        {
+          "field": "security",
+          "value": 2.0
+        }
+      ],
+      "target_node_id": "shuofang_front_node",
+      "target_route_id": "beta07_route_03",
+      "title": "Beta07 regional operation 3"
+    },
+    {
+      "allowed_channels": [
+        "public_decree",
+        "oral_military_order",
+        "secret_palace_channel",
+        "council_resolution"
+      ],
+      "channel_risks": {
+        "council_resolution": {
+          "faction_id": "suzong_court",
+          "pressure_delta": -1.0,
+          "risk_text": "slower but records shared responsibility"
+        },
+        "oral_military_order": {
+          "faction_id": "military_commanders",
+          "pressure_delta": -1.0,
+          "risk_text": "fast if trusted, easier to misread"
+        },
+        "public_decree": {
+          "faction_id": "xuanzong_old_court",
+          "pressure_delta": 1.0,
+          "risk_text": "public and legitimate but slower"
+        },
+        "secret_palace_channel": {
+          "faction_id": "eunuch_network",
+          "pressure_delta": 3.0,
+          "risk_text": "fast but empowers palace channels"
+        }
+      },
+      "duration_days": 6.0,
+      "node_effects": [
+        {
+          "field": "security",
+          "value": 3.0
+        },
+        {
+          "field": "public_order",
+          "value": 1.0
+        }
+      ],
+      "operation_id": "beta07_regional_operation_04",
+      "reports": [
+        {
+          "available_decisions": [],
+          "deadline_days": 2.0,
+          "id": "beta07_regional_operation_04_report",
+          "source_character_id": "li_bi",
+          "title": "Beta07 regional operation 4 report",
+          "type": "intelligence_followup_report",
+          "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences."
+        }
+      ],
+      "required_executor_tags": [
+        "military",
+        "scout",
+        "trusted_general"
+      ],
+      "route_effects": [
+        {
+          "field": "uncertainty",
+          "value": -7.0
+        },
+        {
+          "field": "security",
+          "value": 3.0
+        }
+      ],
+      "target_node_id": "hedong_relay_node",
+      "target_route_id": "beta07_route_04",
+      "title": "Beta07 regional operation 4"
+    },
+    {
+      "allowed_channels": [
+        "public_decree",
+        "oral_military_order",
+        "secret_palace_channel",
+        "council_resolution"
+      ],
+      "channel_risks": {
+        "council_resolution": {
+          "faction_id": "suzong_court",
+          "pressure_delta": -1.0,
+          "risk_text": "slower but records shared responsibility"
+        },
+        "oral_military_order": {
+          "faction_id": "military_commanders",
+          "pressure_delta": -1.0,
+          "risk_text": "fast if trusted, easier to misread"
+        },
+        "public_decree": {
+          "faction_id": "xuanzong_old_court",
+          "pressure_delta": 1.0,
+          "risk_text": "public and legitimate but slower"
+        },
+        "secret_palace_channel": {
+          "faction_id": "eunuch_network",
+          "pressure_delta": 3.0,
+          "risk_text": "fast but empowers palace channels"
+        }
+      },
+      "duration_days": 7.0,
+      "node_effects": [
+        {
+          "field": "security",
+          "value": 4.0
+        },
+        {
+          "field": "public_order",
+          "value": -1.0
+        }
+      ],
+      "operation_id": "beta07_regional_operation_05",
+      "reports": [
+        {
+          "available_decisions": [],
+          "deadline_days": 3.0,
+          "id": "beta07_regional_operation_05_report",
+          "source_character_id": "hardline_old_court_official",
+          "title": "Beta07 regional operation 5 report",
+          "type": "intelligence_followup_report",
+          "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences."
+        }
+      ],
+      "required_executor_tags": [
+        "military",
+        "scout",
+        "trusted_general"
+      ],
+      "route_effects": [
+        {
+          "field": "uncertainty",
+          "value": -8.0
+        },
+        {
+          "field": "security",
+          "value": 4.0
+        }
+      ],
+      "target_node_id": "guanzhong_approach_node",
+      "target_route_id": "beta07_route_05",
+      "title": "Beta07 regional operation 5"
+    },
+    {
+      "allowed_channels": [
+        "public_decree",
+        "oral_military_order",
+        "secret_palace_channel",
+        "council_resolution"
+      ],
+      "channel_risks": {
+        "council_resolution": {
+          "faction_id": "suzong_court",
+          "pressure_delta": -1.0,
+          "risk_text": "slower but records shared responsibility"
+        },
+        "oral_military_order": {
+          "faction_id": "military_commanders",
+          "pressure_delta": -1.0,
+          "risk_text": "fast if trusted, easier to misread"
+        },
+        "public_decree": {
+          "faction_id": "xuanzong_old_court",
+          "pressure_delta": 1.0,
+          "risk_text": "public and legitimate but slower"
+        },
+        "secret_palace_channel": {
+          "faction_id": "eunuch_network",
+          "pressure_delta": 3.0,
+          "risk_text": "fast but empowers palace channels"
+        }
+      },
+      "duration_days": 8.0,
+      "node_effects": [
+        {
+          "field": "security",
+          "value": 5.0
+        },
+        {
+          "field": "public_order",
+          "value": 1.0
+        }
+      ],
+      "operation_id": "beta07_regional_operation_06",
+      "reports": [
+        {
+          "available_decisions": [],
+          "deadline_days": 2.0,
+          "id": "beta07_regional_operation_06_report",
+          "source_character_id": "guo_ziyi",
+          "title": "Beta07 regional operation 6 report",
+          "type": "intelligence_followup_report",
+          "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences."
+        }
+      ],
+      "required_executor_tags": [
+        "military",
+        "scout",
+        "trusted_general"
+      ],
+      "route_effects": [
+        {
+          "field": "uncertainty",
+          "value": -9.0
+        },
+        {
+          "field": "security",
+          "value": 1.0
+        }
+      ],
+      "target_node_id": "grain_road_node",
+      "target_route_id": "beta07_route_06",
+      "title": "Beta07 regional operation 6"
+    },
+    {
+      "allowed_channels": [
+        "public_decree",
+        "oral_military_order",
+        "secret_palace_channel",
+        "council_resolution"
+      ],
+      "channel_risks": {
+        "council_resolution": {
+          "faction_id": "suzong_court",
+          "pressure_delta": -1.0,
+          "risk_text": "slower but records shared responsibility"
+        },
+        "oral_military_order": {
+          "faction_id": "military_commanders",
+          "pressure_delta": -1.0,
+          "risk_text": "fast if trusted, easier to misread"
+        },
+        "public_decree": {
+          "faction_id": "xuanzong_old_court",
+          "pressure_delta": 1.0,
+          "risk_text": "public and legitimate but slower"
+        },
+        "secret_palace_channel": {
+          "faction_id": "eunuch_network",
+          "pressure_delta": 3.0,
+          "risk_text": "fast but empowers palace channels"
+        }
+      },
+      "duration_days": 9.0,
+      "node_effects": [
+        {
+          "field": "security",
+          "value": 1.0
+        },
+        {
+          "field": "public_order",
+          "value": -1.0
+        }
+      ],
+      "operation_id": "beta07_regional_operation_07",
+      "reports": [
+        {
+          "available_decisions": [],
+          "deadline_days": 3.0,
+          "id": "beta07_regional_operation_07_report",
+          "source_character_id": "li_fuguo",
+          "title": "Beta07 regional operation 7 report",
+          "type": "intelligence_followup_report",
+          "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences."
+        }
+      ],
+      "required_executor_tags": [
+        "military",
+        "scout",
+        "trusted_general"
+      ],
+      "route_effects": [
+        {
+          "field": "uncertainty",
+          "value": -10.0
+        },
+        {
+          "field": "security",
+          "value": 2.0
+        }
+      ],
+      "target_node_id": "uighur_route_node",
+      "target_route_id": "beta07_route_07",
+      "title": "Beta07 regional operation 7"
+    },
+    {
+      "allowed_channels": [
+        "public_decree",
+        "oral_military_order",
+        "secret_palace_channel",
+        "council_resolution"
+      ],
+      "channel_risks": {
+        "council_resolution": {
+          "faction_id": "suzong_court",
+          "pressure_delta": -1.0,
+          "risk_text": "slower but records shared responsibility"
+        },
+        "oral_military_order": {
+          "faction_id": "military_commanders",
+          "pressure_delta": -1.0,
+          "risk_text": "fast if trusted, easier to misread"
+        },
+        "public_decree": {
+          "faction_id": "xuanzong_old_court",
+          "pressure_delta": 1.0,
+          "risk_text": "public and legitimate but slower"
+        },
+        "secret_palace_channel": {
+          "faction_id": "eunuch_network",
+          "pressure_delta": 3.0,
+          "risk_text": "fast but empowers palace channels"
+        }
+      },
+      "duration_days": 3.0,
+      "node_effects": [
+        {
+          "field": "security",
+          "value": 2.0
+        },
+        {
+          "field": "public_order",
+          "value": 1.0
+        }
+      ],
+      "operation_id": "beta07_regional_operation_08",
+      "reports": [
+        {
+          "available_decisions": [],
+          "deadline_days": 2.0,
+          "id": "beta07_regional_operation_08_report",
+          "source_character_id": "li_bi",
+          "title": "Beta07 regional operation 8 report",
+          "type": "intelligence_followup_report",
+          "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences."
+        }
+      ],
+      "required_executor_tags": [
+        "military",
+        "scout",
+        "trusted_general"
+      ],
+      "route_effects": [
+        {
+          "field": "uncertainty",
+          "value": -5.0
+        },
+        {
+          "field": "security",
+          "value": 3.0
+        }
+      ],
+      "target_node_id": "palace_inner_channel_node",
+      "target_route_id": "beta07_route_08",
+      "title": "Beta07 regional operation 8"
+    },
+    {
+      "allowed_channels": [
+        "public_decree",
+        "oral_military_order",
+        "secret_palace_channel",
+        "council_resolution"
+      ],
+      "channel_risks": {
+        "council_resolution": {
+          "faction_id": "suzong_court",
+          "pressure_delta": -1.0,
+          "risk_text": "slower but records shared responsibility"
+        },
+        "oral_military_order": {
+          "faction_id": "military_commanders",
+          "pressure_delta": -1.0,
+          "risk_text": "fast if trusted, easier to misread"
+        },
+        "public_decree": {
+          "faction_id": "xuanzong_old_court",
+          "pressure_delta": 1.0,
+          "risk_text": "public and legitimate but slower"
+        },
+        "secret_palace_channel": {
+          "faction_id": "eunuch_network",
+          "pressure_delta": 3.0,
+          "risk_text": "fast but empowers palace channels"
+        }
+      },
+      "duration_days": 4.0,
+      "node_effects": [
+        {
+          "field": "security",
+          "value": 3.0
+        },
+        {
+          "field": "public_order",
+          "value": -1.0
+        }
+      ],
+      "operation_id": "beta07_regional_operation_09",
+      "reports": [
+        {
+          "available_decisions": [],
+          "deadline_days": 3.0,
+          "id": "beta07_regional_operation_09_report",
+          "source_character_id": "hardline_old_court_official",
+          "title": "Beta07 regional operation 9 report",
+          "type": "intelligence_followup_report",
+          "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences."
+        }
+      ],
+      "required_executor_tags": [
+        "military",
+        "scout",
+        "trusted_general"
+      ],
+      "route_effects": [
+        {
+          "field": "uncertainty",
+          "value": -6.0
+        },
+        {
+          "field": "security",
+          "value": 4.0
+        }
+      ],
+      "target_node_id": "refugee_market_node",
+      "target_route_id": "beta07_route_09",
+      "title": "Beta07 regional operation 9"
+    },
+    {
+      "allowed_channels": [
+        "public_decree",
+        "oral_military_order",
+        "secret_palace_channel",
+        "council_resolution"
+      ],
+      "channel_risks": {
+        "council_resolution": {
+          "faction_id": "suzong_court",
+          "pressure_delta": -1.0,
+          "risk_text": "slower but records shared responsibility"
+        },
+        "oral_military_order": {
+          "faction_id": "military_commanders",
+          "pressure_delta": -1.0,
+          "risk_text": "fast if trusted, easier to misread"
+        },
+        "public_decree": {
+          "faction_id": "xuanzong_old_court",
+          "pressure_delta": 1.0,
+          "risk_text": "public and legitimate but slower"
+        },
+        "secret_palace_channel": {
+          "faction_id": "eunuch_network",
+          "pressure_delta": 3.0,
+          "risk_text": "fast but empowers palace channels"
+        }
+      },
+      "duration_days": 2.0,
+      "node_effects": [
+        {
+          "field": "security",
+          "value": 4.0
+        },
+        {
+          "field": "public_order",
+          "value": 1.0
+        }
+      ],
+      "operation_id": "beta07_regional_operation_10",
+      "reports": [
+        {
+          "available_decisions": [],
+          "deadline_days": 3.0,
+          "id": "beta07_regional_operation_10_report",
+          "source_character_id": "guo_ziyi",
+          "title": "Beta07 regional operation 10 report",
+          "type": "intelligence_followup_report",
+          "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences."
+        }
+      ],
+      "required_executor_tags": [
+        "military",
+        "scout",
+        "trusted_general"
+      ],
+      "route_effects": [
+        {
+          "field": "uncertainty",
+          "value": -7.0
+        },
+        {
+          "field": "security",
+          "value": 1.0
+        }
+      ],
+      "target_node_id": "changan_pressure_node",
+      "target_route_id": "beta07_route_10",
+      "title": "Beta07 regional operation 10"
+    },
+    {
+      "allowed_channels": [
+        "public_decree",
+        "oral_military_order",
+        "secret_palace_channel",
+        "council_resolution"
+      ],
+      "channel_risks": {
+        "council_resolution": {
+          "faction_id": "suzong_court",
+          "pressure_delta": -1.0,
+          "risk_text": "slower but records shared responsibility"
+        },
+        "oral_military_order": {
+          "faction_id": "military_commanders",
+          "pressure_delta": -1.0,
+          "risk_text": "fast if trusted, easier to misread"
+        },
+        "public_decree": {
+          "faction_id": "xuanzong_old_court",
+          "pressure_delta": 1.0,
+          "risk_text": "public and legitimate but slower"
+        },
+        "secret_palace_channel": {
+          "faction_id": "eunuch_network",
+          "pressure_delta": 3.0,
+          "risk_text": "fast but empowers palace channels"
+        }
+      },
+      "duration_days": 10.0,
+      "node_effects": [
+        {
+          "field": "security",
+          "value": 5.0
+        },
+        {
+          "field": "public_order",
+          "value": -1.0
+        }
+      ],
+      "operation_id": "beta07_regional_operation_11",
+      "reports": [
+        {
+          "available_decisions": [],
+          "deadline_days": 2.0,
+          "id": "beta07_regional_operation_11_report",
+          "source_character_id": "li_fuguo",
+          "title": "Beta07 regional operation 11 report",
+          "type": "intelligence_followup_report",
+          "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences."
+        }
+      ],
+      "required_executor_tags": [
+        "military",
+        "scout",
+        "trusted_general"
+      ],
+      "route_effects": [
+        {
+          "field": "uncertainty",
+          "value": -8.0
+        },
+        {
+          "field": "security",
+          "value": 2.0
+        }
+      ],
+      "target_node_id": "luoyang_rumor_node",
+      "target_route_id": "beta07_route_11",
+      "title": "Beta07 regional operation 11"
+    },
+    {
+      "allowed_channels": [
+        "public_decree",
+        "oral_military_order",
+        "secret_palace_channel",
+        "council_resolution"
+      ],
+      "channel_risks": {
+        "council_resolution": {
+          "faction_id": "suzong_court",
+          "pressure_delta": -1.0,
+          "risk_text": "slower but records shared responsibility"
+        },
+        "oral_military_order": {
+          "faction_id": "military_commanders",
+          "pressure_delta": -1.0,
+          "risk_text": "fast if trusted, easier to misread"
+        },
+        "public_decree": {
+          "faction_id": "xuanzong_old_court",
+          "pressure_delta": 1.0,
+          "risk_text": "public and legitimate but slower"
+        },
+        "secret_palace_channel": {
+          "faction_id": "eunuch_network",
+          "pressure_delta": 3.0,
+          "risk_text": "fast but empowers palace channels"
+        }
+      },
+      "duration_days": 9.0,
+      "node_effects": [
+        {
+          "field": "security",
+          "value": 1.0
+        },
+        {
+          "field": "public_order",
+          "value": 1.0
+        }
+      ],
+      "operation_id": "beta07_regional_operation_12",
+      "reports": [
+        {
+          "available_decisions": [],
+          "deadline_days": 3.0,
+          "id": "beta07_regional_operation_12_report",
+          "source_character_id": "li_bi",
+          "title": "Beta07 regional operation 12 report",
+          "type": "intelligence_followup_report",
+          "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences."
+        }
+      ],
+      "required_executor_tags": [
+        "military",
+        "scout",
+        "trusted_general"
+      ],
+      "route_effects": [
+        {
+          "field": "uncertainty",
+          "value": -9.0
+        },
+        {
+          "field": "security",
+          "value": 3.0
+        }
+      ],
+      "target_node_id": "hebei_rebel_signal_node",
+      "target_route_id": "beta07_route_12",
+      "title": "Beta07 regional operation 12"
+    }
+  ],
+  "route_network": {
+    "nodes": [
+      {
+        "active_office_holder": "li_fuguo",
+        "control": 43.0,
+        "dominant_faction": "xuanzong_old_court",
+        "name": "guanzhong_approach_node",
+        "node_id": "guanzhong_approach_node",
+        "public_order": 37.0,
+        "recent_change_reason": "Beta 0.7 route-network pressure initialized.",
+        "security": 41.0,
+        "supply": 38.0
+      },
+      {
+        "active_office_holder": "guo_ziyi",
+        "control": 40.0,
+        "dominant_faction": "military_commanders",
+        "name": "lingwu_court_node",
+        "node_id": "lingwu_court_node",
+        "public_order": 34.0,
+        "recent_change_reason": "Beta 0.7 route-network pressure initialized.",
+        "security": 38.0,
+        "supply": 35.0
+      },
+      {
+        "active_office_holder": "li_fuguo",
+        "control": 41.0,
+        "dominant_faction": "eunuch_network",
+        "name": "shuofang_front_node",
+        "node_id": "shuofang_front_node",
+        "public_order": 35.0,
+        "recent_change_reason": "Beta 0.7 route-network pressure initialized.",
+        "security": 39.0,
+        "supply": 36.0
+      },
+      {
+        "active_office_holder": "guo_ziyi",
+        "control": 42.0,
+        "dominant_faction": "suzong_court",
+        "name": "hedong_relay_node",
+        "node_id": "hedong_relay_node",
+        "public_order": 36.0,
+        "recent_change_reason": "Beta 0.7 route-network pressure initialized.",
+        "security": 40.0,
+        "supply": 37.0
+      },
+      {
+        "active_office_holder": "guo_ziyi",
+        "control": 44.0,
+        "dominant_faction": "military_commanders",
+        "name": "grain_road_node",
+        "node_id": "grain_road_node",
+        "public_order": 38.0,
+        "recent_change_reason": "Beta 0.7 route-network pressure initialized.",
+        "security": 42.0,
+        "supply": 39.0
+      },
+      {
+        "active_office_holder": "li_fuguo",
+        "control": 45.0,
+        "dominant_faction": "eunuch_network",
+        "name": "uighur_route_node",
+        "node_id": "uighur_route_node",
+        "public_order": 39.0,
+        "recent_change_reason": "Beta 0.7 route-network pressure initialized.",
+        "security": 43.0,
+        "supply": 40.0
+      },
+      {
+        "active_office_holder": "guo_ziyi",
+        "control": 46.0,
+        "dominant_faction": "suzong_court",
+        "name": "palace_inner_channel_node",
+        "node_id": "palace_inner_channel_node",
+        "public_order": 40.0,
+        "recent_change_reason": "Beta 0.7 route-network pressure initialized.",
+        "security": 44.0,
+        "supply": 41.0
+      },
+      {
+        "active_office_holder": "li_fuguo",
+        "control": 47.0,
+        "dominant_faction": "xuanzong_old_court",
+        "name": "refugee_market_node",
+        "node_id": "refugee_market_node",
+        "public_order": 41.0,
+        "recent_change_reason": "Beta 0.7 route-network pressure initialized.",
+        "security": 45.0,
+        "supply": 42.0
+      },
+      {
+        "active_office_holder": "guo_ziyi",
+        "control": 48.0,
+        "dominant_faction": "military_commanders",
+        "name": "changan_pressure_node",
+        "node_id": "changan_pressure_node",
+        "public_order": 42.0,
+        "recent_change_reason": "Beta 0.7 route-network pressure initialized.",
+        "security": 46.0,
+        "supply": 43.0
+      },
+      {
+        "active_office_holder": "li_fuguo",
+        "control": 49.0,
+        "dominant_faction": "eunuch_network",
+        "name": "luoyang_rumor_node",
+        "node_id": "luoyang_rumor_node",
+        "public_order": 43.0,
+        "recent_change_reason": "Beta 0.7 route-network pressure initialized.",
+        "security": 47.0,
+        "supply": 44.0
+      },
+      {
+        "active_office_holder": "guo_ziyi",
+        "control": 50.0,
+        "dominant_faction": "suzong_court",
+        "name": "hebei_rebel_signal_node",
+        "node_id": "hebei_rebel_signal_node",
+        "public_order": 44.0,
+        "recent_change_reason": "Beta 0.7 route-network pressure initialized.",
+        "security": 48.0,
+        "supply": 45.0
+      },
+      {
+        "active_office_holder": "li_fuguo",
+        "control": 51.0,
+        "dominant_faction": "xuanzong_old_court",
+        "name": "desert_envoy_road_node",
+        "node_id": "desert_envoy_road_node",
+        "public_order": 45.0,
+        "recent_change_reason": "Beta 0.7 route-network pressure initialized.",
+        "security": 49.0,
+        "supply": 46.0
+      }
+    ],
+    "routes": [
+      {
+        "available_operations": [
+          "verify_guanzhong_movement"
+        ],
+        "dominant_faction": "rebel_infiltration",
+        "from_node_id": "lingwu_court_node",
+        "last_verified_at": 0.0,
+        "message_delay": 3.0,
+        "rebel_pressure": 68.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "lingwu_to_guanzhong_relay",
+        "security": 41.0,
+        "supply_flow": 34.0,
+        "to_node_id": "guanzhong_approach_node",
+        "uncertainty": 46.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "eunuch_network",
+        "from_node_id": "shuofang_front_node",
+        "last_verified_at": 0.0,
+        "message_delay": 2.0,
+        "rebel_pressure": 41.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_02",
+        "security": 36.0,
+        "supply_flow": 31.0,
+        "to_node_id": "grain_road_node",
+        "uncertainty": 36.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "suzong_court",
+        "from_node_id": "lingwu_court_node",
+        "last_verified_at": 0.0,
+        "message_delay": 3.0,
+        "rebel_pressure": 42.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_03",
+        "security": 37.0,
+        "supply_flow": 32.0,
+        "to_node_id": "uighur_route_node",
+        "uncertainty": 37.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "xuanzong_old_court",
+        "from_node_id": "shuofang_front_node",
+        "last_verified_at": 0.0,
+        "message_delay": 4.0,
+        "rebel_pressure": 43.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_04",
+        "security": 38.0,
+        "supply_flow": 33.0,
+        "to_node_id": "palace_inner_channel_node",
+        "uncertainty": 38.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "military_commanders",
+        "from_node_id": "lingwu_court_node",
+        "last_verified_at": 0.0,
+        "message_delay": 5.0,
+        "rebel_pressure": 44.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_05",
+        "security": 39.0,
+        "supply_flow": 34.0,
+        "to_node_id": "refugee_market_node",
+        "uncertainty": 39.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "eunuch_network",
+        "from_node_id": "shuofang_front_node",
+        "last_verified_at": 0.0,
+        "message_delay": 1.0,
+        "rebel_pressure": 45.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_06",
+        "security": 40.0,
+        "supply_flow": 35.0,
+        "to_node_id": "changan_pressure_node",
+        "uncertainty": 40.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "suzong_court",
+        "from_node_id": "lingwu_court_node",
+        "last_verified_at": 0.0,
+        "message_delay": 2.0,
+        "rebel_pressure": 46.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_07",
+        "security": 41.0,
+        "supply_flow": 36.0,
+        "to_node_id": "luoyang_rumor_node",
+        "uncertainty": 41.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "xuanzong_old_court",
+        "from_node_id": "shuofang_front_node",
+        "last_verified_at": 0.0,
+        "message_delay": 3.0,
+        "rebel_pressure": 47.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_08",
+        "security": 42.0,
+        "supply_flow": 37.0,
+        "to_node_id": "hebei_rebel_signal_node",
+        "uncertainty": 42.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "military_commanders",
+        "from_node_id": "lingwu_court_node",
+        "last_verified_at": 0.0,
+        "message_delay": 4.0,
+        "rebel_pressure": 48.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_09",
+        "security": 43.0,
+        "supply_flow": 38.0,
+        "to_node_id": "desert_envoy_road_node",
+        "uncertainty": 43.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "eunuch_network",
+        "from_node_id": "shuofang_front_node",
+        "last_verified_at": 0.0,
+        "message_delay": 5.0,
+        "rebel_pressure": 49.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_10",
+        "security": 44.0,
+        "supply_flow": 39.0,
+        "to_node_id": "lingwu_court_node",
+        "uncertainty": 44.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "suzong_court",
+        "from_node_id": "lingwu_court_node",
+        "last_verified_at": 0.0,
+        "message_delay": 1.0,
+        "rebel_pressure": 50.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_11",
+        "security": 45.0,
+        "supply_flow": 40.0,
+        "to_node_id": "shuofang_front_node",
+        "uncertainty": 45.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "xuanzong_old_court",
+        "from_node_id": "shuofang_front_node",
+        "last_verified_at": 0.0,
+        "message_delay": 2.0,
+        "rebel_pressure": 51.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_12",
+        "security": 46.0,
+        "supply_flow": 41.0,
+        "to_node_id": "hedong_relay_node",
+        "uncertainty": 46.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "military_commanders",
+        "from_node_id": "lingwu_court_node",
+        "last_verified_at": 0.0,
+        "message_delay": 3.0,
+        "rebel_pressure": 52.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_13",
+        "security": 47.0,
+        "supply_flow": 42.0,
+        "to_node_id": "guanzhong_approach_node",
+        "uncertainty": 47.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "eunuch_network",
+        "from_node_id": "shuofang_front_node",
+        "last_verified_at": 0.0,
+        "message_delay": 4.0,
+        "rebel_pressure": 53.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_14",
+        "security": 48.0,
+        "supply_flow": 43.0,
+        "to_node_id": "grain_road_node",
+        "uncertainty": 48.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "suzong_court",
+        "from_node_id": "lingwu_court_node",
+        "last_verified_at": 0.0,
+        "message_delay": 5.0,
+        "rebel_pressure": 54.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_15",
+        "security": 49.0,
+        "supply_flow": 44.0,
+        "to_node_id": "uighur_route_node",
+        "uncertainty": 49.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "xuanzong_old_court",
+        "from_node_id": "shuofang_front_node",
+        "last_verified_at": 0.0,
+        "message_delay": 1.0,
+        "rebel_pressure": 55.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_16",
+        "security": 50.0,
+        "supply_flow": 45.0,
+        "to_node_id": "palace_inner_channel_node",
+        "uncertainty": 50.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "military_commanders",
+        "from_node_id": "lingwu_court_node",
+        "last_verified_at": 0.0,
+        "message_delay": 2.0,
+        "rebel_pressure": 56.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_17",
+        "security": 51.0,
+        "supply_flow": 46.0,
+        "to_node_id": "refugee_market_node",
+        "uncertainty": 51.0
+      },
+      {
+        "available_operations": [
+          "verify_guanzhong_movement",
+          "beta07_regional_operation_02"
+        ],
+        "dominant_faction": "eunuch_network",
+        "from_node_id": "shuofang_front_node",
+        "last_verified_at": 0.0,
+        "message_delay": 3.0,
+        "rebel_pressure": 57.0,
+        "recent_reports": [
+          "guanzhong_false_movement_a",
+          "guanzhong_false_movement_b"
+        ],
+        "route_id": "beta07_route_18",
+        "security": 52.0,
+        "supply_flow": 47.0,
+        "to_node_id": "changan_pressure_node",
+        "uncertainty": 52.0
+      }
+    ]
+  },
+  "schema_version": 113,
+  "strategic_routes": {
+
+  }
+}

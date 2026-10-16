@@ -1,0 +1,79 @@
+{
+  "bundle_id": "mountain_collection_20261009",
+  "version": 1,
+  "extends": "strategic_ground_biomes_v05_20261007",
+  "assets": {
+    "mountain_20261009_rolling_range": {
+      "label": "山川新作 · 连续缓脊",
+      "atlas": "rolling_range.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.82
+      ],
+      "rect": [
+        6,
+        129,
+        1973,
+        560
+      ],
+      "width": 512
+    },
+    "mountain_20261009_branching_range": {
+      "label": "山川新作 · 分叉山脉",
+      "atlas": "branching_range.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.82
+      ],
+      "rect": [
+        18,
+        87,
+        1587,
+        717
+      ],
+      "width": 420
+    },
+    "mountain_20261009_rock_peak": {
+      "label": "山川新作 · 独立岩峰",
+      "atlas": "rock_peak.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.82
+      ],
+      "rect": [
+        38,
+        152,
+        1363,
+        842
+      ],
+      "width": 280
+    },
+    "mountain_20261009_saddle_peaks": {
+      "label": "山川新作 · 双峰鞍部",
+      "atlas": "saddle_peaks.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.82
+      ],
+      "rect": [
+        34,
+        93,
+        1626,
+        784
+      ],
+      "width": 360
+    }
+  }
+}

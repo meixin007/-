@@ -1,0 +1,14 @@
+[
+  {"id":"beta105_matter_guo_old_promise","character_id":"guo_ziyi","title":"军前旧诺","trigger":"unfulfilled_command_promise","visible_source":"军前使者","resolve":"兑现节制范围","ignore":"军心受损"},
+  {"id":"beta105_matter_li_bi_precedent","character_id":"li_bi","title":"成例之辩","trigger":"temporary_authority_precedent","visible_source":"中书草诏","resolve":"设定期限复核","ignore":"制度信任下降"},
+  {"id":"beta105_matter_li_fuguo_memorial","character_id":"li_fuguo","title":"密奏留痕","trigger":"channel_concentrated","visible_source":"宫门奏报","resolve":"保留交叉核验","ignore":"消息失真"},
+  {"id":"beta105_matter_li_guangbi_priority","character_id":"li_guangbi","title":"河东先后","trigger":"military_priority_conflict","visible_source":"前线军报","resolve":"重排军需","ignore":"前线不满"},
+  {"id":"beta105_matter_pugu_merit","character_id":"pugu_huaien","title":"功赏与盟约","trigger":"alliance_reward_conflict","visible_source":"联军请功","resolve":"明确奖赏","ignore":"联军离心"},
+  {"id":"beta105_matter_li_chu_gate_audit","character_id":"li_chu","title":"宫门巡核","trigger":"gate_power_imbalance","visible_source":"东宫奏请","resolve":"公开巡察","ignore":"监督失效"},
+  {"id":"beta105_matter_uighur_private_terms","character_id":"uighur_envoy","title":"使团私议","trigger":"public_private_terms_diverge","visible_source":"使团国书","resolve":"统一条款","ignore":"盟约加价"},
+  {"id":"beta105_matter_old_court_edict","character_id":"hardline_old_court_official","title":"旧诏回声","trigger":"legitimacy_decision_recalled","visible_source":"旧臣奏疏","resolve":"说明正统依据","ignore":"公开诘难"},
+  {"id":"beta105_matter_grain_official_defense","character_id":"grain_official_lingwu","title":"粮册自辩","trigger":"audit_or_seal","visible_source":"仓曹账册","resolve":"复核责任","ignore":"替罪风险"},
+  {"id":"beta105_matter_merchant_cost","character_id":"lingwu_merchant_refugee","title":"市井代价","trigger":"requisition_threshold","visible_source":"商民联名","resolve":"缓征安抚","ignore":"停市风险"},
+  {"id":"beta105_matter_jiedushi_wait","character_id":"regional_jiedushi_rep","title":"节度观望","trigger":"command_signal_ambiguous","visible_source":"藩镇来书","resolve":"明确军令","ignore":"地方观望"},
+  {"id":"beta105_matter_gate_deputy_survival","character_id":"eunuch_deputy_gate","title":"泄密自保","trigger":"leak_and_pressure","visible_source":"匿名密报","resolve":"保护证人","ignore":"证据湮灭"}
+]

@@ -1,0 +1,16 @@
+{
+  "bundle_id": "strategic_ground_v02_20261007",
+  "version": 1,
+  "extends": "tongguan_v1",
+  "asset_review_status": "CANDIDATE_NOT_USER_ACCEPTED",
+  "assets": [
+    {
+      "file": "strategic-ground-atlas-v02-soft.png",
+      "sha256": "7076e5445f555d8f33264c78aa1971d2e8db0d99a442f6b28863684aa9b1ae45",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1463112
+    }
+  ]
+}

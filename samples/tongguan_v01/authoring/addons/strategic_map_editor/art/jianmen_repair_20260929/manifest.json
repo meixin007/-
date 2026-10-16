@@ -1,0 +1,25 @@
+{
+  "bundle_id": "jianmen_repair_20260929",
+  "version": 1,
+  "extends": "hanzhong_style_20260928",
+  "review_status": "PENDING_USER",
+  "generation_tool": "builtin image_gen",
+  "assets": [
+    {
+      "file": "rock-shoulder.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "fd9cf9d3d261e0e6ada59d670bdab73bf5788d91754bd5d57d08d82f3076086a"
+    },
+    {
+      "file": "footslope.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "480b7992247c641013283c4a9b6d75fee60cdcd5cc664869b05deced446024a0"
+    }
+  ],
+  "prompts": [
+    "../../../../../sources/rock-shoulder-prompt.txt",
+    "../../../../../sources/footslope-prompt.txt"
+  ]
+}

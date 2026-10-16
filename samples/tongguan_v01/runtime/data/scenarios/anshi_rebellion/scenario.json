@@ -1,0 +1,35 @@
+{
+  "id": "anshi_rebellion",
+  "title": "安史之乱",
+  "player_character_id": "li_heng",
+  "player_role": {
+	"role_archetype": "emperor",
+	"visibility_scope": "imperial_court",
+	"available_action_sets": [
+	  "imperial_edicts",
+	  "appointments",
+	  "audiences",
+	  "resource_allocation",
+      "faction_management"
+	],
+	"personal_goals": [
+	  "survive_enthronement_crisis",
+	  "stabilize_lingwu_court",
+      "retain_effective_power"
+	]
+  },
+  "start_time": "756-07-15T08:00:00",
+  "start_phase": "lingwu_court",
+  "time_mode": "realtime_event_stream",
+  "history_mode": "open_simulation",
+  "failure_enabled": true,
+  "enabled_systems": {
+	"intelligence_visibility": true,
+	"relationship_types": true,
+	"social_access": false,
+	"life_status": true,
+	"ai_budgeting": false,
+	"palace_family": "reserved",
+	"multi_identity": "reserved"
+  }
+}

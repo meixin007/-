@@ -1,0 +1,49 @@
+{
+  "bundle_id": "national_a2_20260926",
+  "version": 1,
+  "extends": "tongguan_reference_20260925",
+  "assets": {
+    "ferry_east_a2": {
+      "label": "渡埠 · 东岸向水",
+      "group": "pass",
+      "manual_only": true,
+      "atlas": "ferry-east.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 40,
+      "anchor": [
+        0.75,
+        0.78
+      ],
+      "gate_anchor": [
+        0.75,
+        0.78
+      ]
+    },
+    "ferry_west_a2": {
+      "label": "渡埠 · 西岸向水",
+      "group": "pass",
+      "manual_only": true,
+      "atlas": "ferry-west.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 40,
+      "anchor": [
+        0.28,
+        0.79
+      ],
+      "gate_anchor": [
+        0.28,
+        0.79
+      ]
+    }
+  }
+}

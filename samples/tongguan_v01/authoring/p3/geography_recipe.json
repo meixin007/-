@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "prototype_id": "tongguan_slice_v01",
+  "scenario_year": 756,
+  "site_id": "tongguan",
+  "campaign_node_reference": "tongguan_pass_node",
+  "historical_status": "candidate_pending_review",
+  "authority": "offline_geography_review_only",
+  "coordinate_system": "main_project_albers_local_m_y_south",
+  "geography_metadata": "res://p3/generated/geography_metadata.json",
+  "anchor": {
+    "local_m": [0, 0],
+    "status": "manual_candidate_not_surveyed",
+    "uncertainty_radius_m": 1500,
+    "source_ids": ["history_691", "history_city_rebuild", "manual_v01"],
+    "note": "在迁近黄河后的旧城区域选工程候选点；并非756年关门测绘坐标。1500米为审查工作圈，不是统计置信区间。主工程粗战略节点只保留引用，不改写。"
+  },
+  "sources": {
+    "copernicus_glo30": {"type": "modern_dsm", "record": "p3/sources/dem_source.json"},
+    "osm_20261014": {"type": "modern_vector", "record": "p3/sources/osm_source.json"},
+    "history_691": {"type": "published_history", "url": "https://www.thepaper.cn/newsDetail_forward_15412872", "supports": "691迁向塬下河岸的阶段线索；不提供756精确墙线"},
+    "history_city_rebuild": {"type": "academic_secondary", "url": "https://html.rhhz.net/WNSFXYXB/weixin/9453f045-422e-4611-b556-4b42dbe0e4ee.htm", "supports": "迁址阶段、后世扩建和现代改造的区分；不据明清尺寸复原唐城"},
+    "main_georef": {"type": "project_contract", "record": "p3/sources/main_project_georef.json"},
+    "manual_v01": {"type": "design_candidate", "author": "Codex", "date": "2026-10-14", "supports": "人工工程候选线、占地与禁入边界；均待阶段审阅"}
+  },
+  "terrain_rules": {"max_candidate_slope_degrees": 12, "dsm_cell_size_m": 40, "note": "40米格网仅筛选粗地形，不证明单栋地基平整。"},
+  "constraints": [
+    {"id":"modern_water_layer","kind":"water_reference","geometry":"line","points_m":[],"external_geometry":"res://p3/generated/modern_water.json","source_ids":["osm_20261014"],"evidence_class":"modern_reference","note":"外部水系是现代参照；不提供虚构的756岸线。"},
+    {"id":"main_corridor_candidate","kind":"main_corridor","geometry":"line","points_m":[[-12000,700],[-7000,180],[-4000,-100],[-2000,-140],[-700,-80],[0,0],[700,80],[1800,180],[3500,400],[6000,850],[9000,1300],[12000,1700]],"reserved_half_width_m":50,"interfaces":["guanzhong_west","guandong_east"],"source_ids":["copernicus_glo30","history_691","manual_v01"],"evidence_class":"manual_design_candidate","note":"贯穿候选锚点的东西通道骨架；沿途沟流跨越尚未考证，不代表已验证军道或桥。"},
+    {"id":"defense_candidate","kind":"defense_line","geometry":"line","points_m":[[70,-500],[0,0],[-80,550],[-230,1300]],"source_ids":["copernicus_glo30","history_691","manual_v01"],"evidence_class":"manual_design_candidate","note":"河岸至南侧高地的拦截方向候选；不是出土唐城墙线。"},
+    {"id":"bank_uncertainty","kind":"building_exclusion","geometry":"polygon","points_m":[[-2700,-1100],[-500,-900],[1500,-750],[3500,-650],[3500,-250],[1200,-350],[-400,-450],[-2700,-650]],"source_ids":["osm_20261014","manual_v01"],"evidence_class":"manual_design_candidate","note":"北侧河岸不确定带，工程保守禁入；未经756河槽复原。"},
+    {"id":"southern_highground","kind":"highground","geometry":"polygon","points_m":[[-3800,1800],[-2100,1500],[-600,1750],[1600,1800],[2800,3000],[3600,8000],[-4500,8000]],"source_ids":["copernicus_glo30","manual_v01"],"evidence_class":"manual_design_candidate","note":"保留南侧塬坡形势的手工边界，不进行全国按高度分类。"},
+    {"id":"eastern_gully","kind":"gully","geometry":"polygon","points_m":[[380,-250],[680,-300],[800,1800],[1100,3500],[650,5000],[200,5000],[430,3000],[380,1300]],"source_ids":["copernicus_glo30","osm_20261014","manual_v01"],"evidence_class":"manual_design_candidate","note":"依据现代沟谷方向留出的禁建带；唐代形态与河流名称待核。"},
+    {"id":"western_gully","kind":"gully","geometry":"polygon","points_m":[[-1600,-450],[-1150,-500],[-900,600],[-1250,1800],[-1450,3500],[-1900,3500],[-1700,1700],[-1250,700]],"source_ids":["copernicus_glo30","osm_20261014","manual_v01"],"evidence_class":"manual_design_candidate","note":"现代沟谷参照，未认定其等于史载禁沟。"},
+    {"id":"city_candidate","kind":"city_allowed","geometry":"polygon","points_m":[[-750,-300],[300,-250],[300,650],[-450,650],[-700,350]],"source_ids":["copernicus_glo30","history_691","manual_v01"],"evidence_class":"manual_design_candidate","note":"小范围可审模板，不是唐城范围，不套用明清城池尺寸。"},
+    {"id":"gate_reserved","kind":"building_exclusion","geometry":"polygon","points_m":[[-85,-100],[85,-100],[85,120],[-85,120]],"source_ids":["manual_v01"],"evidence_class":"manual_design_candidate","note":"主关锚点接口预留，不允许候选地块覆盖。"},
+    {"id":"plot_west","kind":"plot","geometry":"polygon","points_m":[[-550,140],[-300,140],[-300,360],[-550,360]],"test_point_m":[-425,250],"role":"后勤地块候选","source_ids":["copernicus_glo30","manual_v01"],"evidence_class":"manual_design_candidate","note":"仅占地占位；不生成建筑、不赋予资源或施工权限。"},
+    {"id":"plot_northwest","kind":"plot","geometry":"polygon","points_m":[[-600,-250],[-340,-250],[-340,-160],[-600,-160]],"test_point_m":[-470,-205],"role":"值守地块候选","source_ids":["copernicus_glo30","manual_v01"],"evidence_class":"manual_design_candidate","note":"游戏设计候选，非历史设施清单。"}
+  ],
+  "camera_bookmarks": {
+    "east_asia":{"name":"24公里工作区","world_local":[0,0],"zoom":0.039},
+    "guanzhong_east":{"name":"8公里关河","world_local":[-600,0],"zoom":0.12},
+    "tongguan_context":{"name":"2公里通道","world_local":[0,0],"zoom":0.45},
+    "gate_close":{"name":"模板近景","world_local":[-180,100],"zoom":1.2}
+  },
+  "presentation": {"asset_id":"user_gate_eastwest_20261014","source_scene":"res://p2/tongguan_material_lab.tscn","scale_policy":"screen_icon_not_building_dimensions"},
+  "non_authority": {"campaign_movement_connected":false,"build_permission_connected":false,"year_changes_existing_fixture":false}
+}

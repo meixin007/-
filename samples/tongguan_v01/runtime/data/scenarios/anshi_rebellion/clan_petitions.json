@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.3.0",
+  "clan_petitions": [
+    {
+      "id": "petition_cui_qinghe_chancellor",
+      "clan_id": "clan_cui_qinghe",
+      "clan_name": "清河崔氏",
+      "patriarch_name": "崔圆",
+      "title": "《请立清河子弟入知政事疏》",
+      "summary": "清河崔圆上奏：清河崔氏累世冠带，望族之冠。请圣上优崇名望，擢用清河门阀重臣同平章事，以安山东士林之心。",
+      "trigger_condition": {
+        "min_day": 10,
+        "clan_opinion_threshold": 10
+      },
+      "grant_effects": {
+        "clan_opinion_delta": 30,
+        "policy_execution_rate_bonus": 0.25,
+        "court_support_bonus": 20,
+        "description": "清河崔氏深感皇恩，山东门阀官员积极响应新政，政令推行效率大幅提升。"
+      },
+      "compromise_effects": {
+        "clan_opinion_delta": 10,
+        "cost_silver": 100,
+        "description": "赐予清河子弟礼部清显闲职并加封荣衔，稳固基本好感。"
+      },
+      "reject_effects": {
+        "clan_opinion_delta": -25,
+        "emperor_authority_gain": 15,
+        "rebel_resistance_penalty": -0.15,
+        "description": "严斥门阀擅权，皇权威严大振，但清河崔氏联合山东门阀消极抵制。"
+      },
+      "balance_with_scholars_effects": {
+        "clan_opinion_delta": -15,
+        "scholar_faction_loyalty": 30,
+        "emperor_authority_gain": 20,
+        "description": "天子宣旨以科举策论取士，力抑门荫私恩，天下寒门进士士气大振，拥戴天子！"
+      }
+    },
+    {
+      "id": "petition_du_jingzhao_duzhi",
+      "clan_id": "clan_du_jingzhao",
+      "clan_name": "京兆杜氏",
+      "patriarch_name": "杜鸿渐",
+      "title": "《请专设江淮盐铁度支使疏》",
+      "summary": "京兆杜氏奏请：关中钱粮日蹙，请专设使职专司江淮盐铁漕运，统领运河粮道，确保大军度支无虞。",
+      "trigger_condition": {
+        "min_day": 15,
+        "clan_opinion_threshold": 5
+      },
+      "grant_effects": {
+        "clan_opinion_delta": 25,
+        "grain_transport_loss_reduction": 0.20,
+        "description": "采纳杜氏度支疏，江淮漕运粮船直达关中，转运损耗压降至两成以下。"
+      },
+      "compromise_effects": {
+        "clan_opinion_delta": 10,
+        "description": "准设副使襄理粮草，稳步改善转运效率。"
+      },
+      "reject_effects": {
+        "clan_opinion_delta": -20,
+        "description": "驳回专使提案，漕运仍由旧制运转，出现转运拖延。"
+      },
+      "balance_with_scholars_effects": {
+        "clan_opinion_delta": -10,
+        "scholar_faction_loyalty": 20,
+        "description": "任用科举拔萃进士出任盐铁判官，革除世家漕运私利。"
+      }
+    },
+    {
+      "id": "petition_guo_huazhou_supplies",
+      "clan_id": "clan_guo_huazhou",
+      "clan_name": "华州郭氏",
+      "patriarch_name": "郭子仪",
+      "title": "《请犒赏三军将士战功疏》",
+      "summary": "华州郭子仪奏请：朔方将士浴血前线，粮饷匮乏，请发内库金帛犒赏三军，以励士气。",
+      "trigger_condition": {
+        "min_day": 20,
+        "clan_opinion_threshold": 0
+      },
+      "grant_effects": {
+        "clan_opinion_delta": 30,
+        "cost_silver": 150,
+        "army_morale_boost": 30,
+        "description": "大赐三军，朔方精锐士气高昂，战意沸腾！"
+      },
+      "compromise_effects": {
+        "clan_opinion_delta": 15,
+        "cost_silver": 80,
+        "army_morale_boost": 15,
+        "description": "折中赏赐御酒与粮米，将士感念皇恩。"
+      },
+      "reject_effects": {
+        "clan_opinion_delta": -25,
+        "army_morale_boost": -20,
+        "description": "以国库空虚为由拒绝犒赏，边关将士出现厌战不满。"
+      },
+      "balance_with_scholars_effects": {
+        "clan_opinion_delta": 5,
+        "description": "遣翰林学士持节劳军，亲写抚军诏书，以名节荣誉激励三军。"
+      }
+    }
+  ]
+}

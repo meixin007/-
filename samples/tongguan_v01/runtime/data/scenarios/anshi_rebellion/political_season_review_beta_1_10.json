@@ -1,0 +1,45 @@
+{
+  "schema_version": 110,
+  "campaign_id": "anshi_beta_1_10",
+  "reviews": [
+    {
+      "review_id": "beta110_supply_review",
+      "report_id": "beta110_report_supply_review",
+      "day": 45,
+      "node_id": "beta110_supply_review",
+      "title": "军粮与账册阶段复盘",
+      "public_summary": "公开比较粮册短缺、前线迟延和三条路线留下的凭据。",
+      "sources": [{"source_id": "beta110_source_supply_case", "path": "accountability_cases.beta108_case_grain_ledger_shortfall", "case_id": "beta108_case_grain_ledger_shortfall"}, {"source_id": "beta110_source_front_case", "path": "accountability_cases.beta108_case_military_grain_delay", "case_id": "beta108_case_military_grain_delay"}, {"source_id": "beta110_source_supply_echo", "path": "political_echoes.beta110_echo_grain_audit_trust", "echo_id": "beta110_echo_grain_audit_trust"}],
+      "source_requirements": ["case:beta108_case_grain_ledger_shortfall", "case:beta108_case_military_grain_delay", "echo:beta110_echo_grain_audit_trust"],
+      "state_paths": ["resources", "route_network", "faction_agenda_state", "governance_state.cases"],
+      "sections": [{"section_id": "supply_cases", "public_title": "两案事实", "source_echo_ids": ["beta110_echo_grain_audit_trust", "beta110_echo_supply_debt"], "public_prompt": "哪一份粮道凭据真正改变了后续选择？"}, {"section_id": "supply_cost", "public_title": "连续性代价", "source_echo_ids": ["beta110_echo_grain_continuity_cost", "beta110_echo_frontline_delivery_confidence"], "public_prompt": "军期与制度连续性分别承担了什么代价？"}],
+      "accountability_preview": {"case_id": "beta108_case_palace_order_leak", "open_day": 42}
+    },
+    {
+      "review_id": "beta110_authority_review",
+      "report_id": "beta110_report_authority_review",
+      "day": 65,
+      "node_id": "beta110_authority_review",
+      "title": "授权与门禁阶段复盘",
+      "public_summary": "复盘宫门泄漏、诏令正当性和职位安排如何改变中枢权威。",
+      "sources": [{"source_id": "beta110_source_palace_case", "path": "accountability_cases.beta108_case_palace_order_leak", "case_id": "beta108_case_palace_order_leak"}, {"source_id": "beta110_source_edict_case", "path": "accountability_cases.beta108_case_edict_legitimacy", "case_id": "beta108_case_edict_legitimacy"}, {"source_id": "beta110_source_gate_echo", "path": "political_echoes.beta110_echo_gate_authority", "echo_id": "beta110_echo_gate_authority"}],
+      "source_requirements": ["case:beta108_case_palace_order_leak", "case:beta108_case_edict_legitimacy", "echo:beta110_echo_gate_authority"],
+      "state_paths": ["office_terms", "faction_agenda_state", "structured_memories", "chronicle_causal_references"],
+      "sections": [{"section_id": "authority_cases", "public_title": "授权案件", "source_echo_ids": ["beta110_echo_gate_authority", "beta110_echo_old_court_precedent"], "public_prompt": "谁获得了可登记的授权，谁只获得了口头例外？"}, {"section_id": "edict_procedure", "public_title": "诏令程序", "source_echo_ids": ["beta110_echo_edict_procedure", "beta110_echo_court_authority"], "public_prompt": "程序成为约束，还是成为新的派系边界？"}],
+      "accountability_preview": {"case_id": "beta108_case_uighur_aid_cost", "open_day": 61}
+    },
+    {
+      "review_id": "beta110_final_assessment",
+      "report_id": "beta110_report_final_assessment",
+      "day": 90,
+      "node_id": "beta110_day90_settlement",
+      "title": "九十日余波结算",
+      "public_summary": "以六案、三份报告、政治债、人物关系和 chronicle 因果引用结算三条路线的遗产。",
+      "sources": [{"source_id": "beta110_source_aid_case", "path": "accountability_cases.beta108_case_uighur_aid_cost", "case_id": "beta108_case_uighur_aid_cost"}, {"source_id": "beta110_source_final_case", "path": "accountability_cases.beta108_case_final_assessment", "case_id": "beta108_case_final_assessment"}, {"source_id": "beta110_source_legacy_echo", "path": "political_echoes.beta110_echo_final_legacy", "echo_id": "beta110_echo_final_legacy"}, {"source_id": "beta110_source_authority_report", "path": "governance_reports.beta110_report_authority_review", "report_id": "beta110_report_authority_review"}],
+      "source_requirements": ["case:beta108_case_uighur_aid_cost", "case:beta108_case_final_assessment", "report:beta110_report_authority_review", "echo:beta110_echo_final_legacy"],
+      "state_paths": ["resources", "faction_agenda_state", "office_terms", "political_debts", "structured_memories", "chronicle_causal_references", "ending_weights"],
+      "sections": [{"section_id": "final_cases", "public_title": "六案遗留", "source_echo_ids": ["beta110_echo_uighur_terms", "beta110_echo_assessment_record"], "public_prompt": "哪些责任已闭合，哪些责任转入下一阶段？"}, {"section_id": "final_legacy", "public_title": "路线遗产", "source_echo_ids": ["beta110_echo_military_credit", "beta110_echo_final_legacy"], "public_prompt": "九十日后留下的是前线恢复、制度连续性还是权威裂解？"}],
+      "accountability_preview": {"case_id": "beta108_case_final_assessment", "open_day": 75}
+    }
+  ]
+}

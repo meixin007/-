@@ -1,0 +1,10 @@
+**/.godot/
+**/__pycache__/
+**/*.import
+**/exports/
+*.exe
+*.pck
+*.zip
+*.log
+.DS_Store
+samples/**/*.uid

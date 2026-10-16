@@ -1,0 +1,5348 @@
+{
+  "accountability_case_templates": [
+    {
+      "case_id": "beta108_case_grain_ledger_shortfall",
+      "causal_refs": [],
+      "claims": [],
+      "closed_day": 0.0,
+      "decided_day": 0.0,
+      "decision": {
+
+      },
+      "decision_transaction_id": "",
+      "evidence": [],
+      "facts": [],
+      "lifecycle": "dormant",
+      "office_ids": [
+        "household_supply",
+        "shangshu_execution"
+      ],
+      "opened_day": 0.0,
+      "subject_ids": [
+        "grain_official_lingwu",
+        "lingwu_merchant_refugee",
+        "li_bi",
+        "li_fuguo"
+      ],
+      "template_id": "grain_ledger_shortfall",
+      "term_ids": []
+    },
+    {
+      "case_id": "beta108_case_military_grain_delay",
+      "causal_refs": [],
+      "claims": [],
+      "closed_day": 0.0,
+      "decided_day": 0.0,
+      "decision": {
+
+      },
+      "decision_transaction_id": "",
+      "evidence": [],
+      "facts": [],
+      "lifecycle": "dormant",
+      "office_ids": [
+        "war_mobilization",
+        "shangshu_execution"
+      ],
+      "opened_day": 0.0,
+      "subject_ids": [
+        "guo_ziyi",
+        "li_guangbi",
+        "pugu_huaien",
+        "regional_jiedushi_rep"
+      ],
+      "template_id": "military_grain_delay",
+      "term_ids": []
+    },
+    {
+      "case_id": "beta108_case_palace_order_leak",
+      "causal_refs": [],
+      "claims": [],
+      "closed_day": 0.0,
+      "decided_day": 0.0,
+      "decision": {
+
+      },
+      "decision_transaction_id": "",
+      "evidence": [],
+      "facts": [],
+      "lifecycle": "dormant",
+      "office_ids": [
+        "inner_court_gatekeeper",
+        "censorate"
+      ],
+      "opened_day": 0.0,
+      "subject_ids": [
+        "li_fuguo",
+        "eunuch_deputy_gate",
+        "li_chu",
+        "hardline_old_court_official"
+      ],
+      "template_id": "palace_order_leak",
+      "term_ids": []
+    },
+    {
+      "case_id": "beta108_case_edict_legitimacy",
+      "causal_refs": [],
+      "claims": [],
+      "closed_day": 0.0,
+      "decided_day": 0.0,
+      "decision": {
+
+      },
+      "decision_transaction_id": "",
+      "evidence": [],
+      "facts": [],
+      "lifecycle": "dormant",
+      "office_ids": [
+        "zhongshu_drafting",
+        "menxia_review"
+      ],
+      "opened_day": 0.0,
+      "subject_ids": [
+        "li_bi",
+        "li_chu",
+        "hardline_old_court_official",
+        "li_fuguo"
+      ],
+      "template_id": "edict_legitimacy",
+      "term_ids": []
+    },
+    {
+      "case_id": "beta108_case_uighur_aid_cost",
+      "causal_refs": [],
+      "claims": [],
+      "closed_day": 0.0,
+      "decided_day": 0.0,
+      "decision": {
+
+      },
+      "decision_transaction_id": "",
+      "evidence": [],
+      "facts": [],
+      "lifecycle": "dormant",
+      "office_ids": [
+        "envoy_negotiator",
+        "war_mobilization"
+      ],
+      "opened_day": 0.0,
+      "subject_ids": [
+        "uighur_envoy",
+        "pugu_huaien",
+        "li_bi",
+        "li_guangbi",
+        "regional_jiedushi_rep"
+      ],
+      "template_id": "uighur_aid_cost",
+      "term_ids": []
+    },
+    {
+      "case_id": "beta108_case_final_assessment",
+      "causal_refs": [],
+      "claims": [],
+      "closed_day": 0.0,
+      "decided_day": 0.0,
+      "decision": {
+
+      },
+      "decision_transaction_id": "",
+      "evidence": [],
+      "facts": [],
+      "lifecycle": "dormant",
+      "office_ids": [
+        "zhongshu_drafting",
+        "menxia_review",
+        "shangshu_execution",
+        "household_supply",
+        "war_mobilization",
+        "censorate",
+        "inner_court_gatekeeper",
+        "envoy_negotiator"
+      ],
+      "opened_day": 0.0,
+      "subject_ids": [
+        "guo_ziyi",
+        "li_bi",
+        "li_fuguo",
+        "li_guangbi",
+        "pugu_huaien",
+        "li_chu",
+        "uighur_envoy",
+        "hardline_old_court_official",
+        "grain_official_lingwu",
+        "lingwu_merchant_refugee",
+        "regional_jiedushi_rep",
+        "eunuch_deputy_gate"
+      ],
+      "template_id": "final_assessment",
+      "term_ids": []
+    }
+  ],
+  "accountability_effects": {
+    "campaign_id": "anshi_beta_1_10",
+    "case_effects": [
+      {
+        "case_id": "beta108_case_grain_ledger_shortfall",
+        "verdict_effects": {
+          "dismiss": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "粮册短缺案以补证收束。"
+            },
+            "memories": [
+              {
+                "character_id": "grain_official_lingwu",
+                "memory_id": "beta110_verdict_grain_dismiss",
+                "summary": "粮册案以补证而非定罪收束。"
+              }
+            ],
+            "relationship_effects": [
+              {
+                "character_id": "grain_official_lingwu",
+                "delta": 1.0
+              }
+            ],
+            "resource_delta": {
+              "grain": -1.0,
+              "treasury": 1.0
+            }
+          },
+          "forced_removal": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "粮册案导致职位更替。"
+            },
+            "faction_reactions": [
+              {
+                "faction_id": "merchant_refugees",
+                "influence_delta": -2.0,
+                "pressure_delta": 3.0
+              }
+            ],
+            "memories": [
+              {
+                "character_id": "grain_official_lingwu",
+                "memory_id": "beta110_verdict_grain_removal",
+                "summary": "粮册责任落到职位更替。"
+              }
+            ],
+            "resource_delta": {
+              "grain": -2.0,
+              "treasury": -1.0
+            }
+          },
+          "reform": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "粮册案推动公开核账。"
+            },
+            "faction_reactions": [
+              {
+                "faction_id": "merchant_refugees",
+                "influence_delta": 2.0,
+                "pressure_delta": -1.0
+              }
+            ],
+            "memories": [
+              {
+                "character_id": "grain_official_lingwu",
+                "memory_id": "beta110_verdict_grain_reform",
+                "summary": "粮册案推动了公开核账改革。"
+              }
+            ],
+            "node_effects": [
+              {
+                "effects": {
+                  "supply_flow": 3.0
+                },
+                "node_id": "grain_road_node"
+              }
+            ],
+            "resource_delta": {
+              "grain": 2.0,
+              "treasury": -2.0
+            },
+            "route_effects": [
+              {
+                "effects": {
+                  "security": 2.0,
+                  "uncertainty": -2.0
+                },
+                "route_id": "beta07_route_02"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "case_id": "beta108_case_military_grain_delay",
+        "verdict_effects": {
+          "dismiss": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "前线军粮迟延暂不定罪。"
+            },
+            "relationship_effects": [
+              {
+                "character_id": "guo_ziyi",
+                "delta": -1.0
+              }
+            ],
+            "resource_delta": {
+              "grain": -2.0
+            }
+          },
+          "forced_removal": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "军粮迟延案导致军职更替。"
+            },
+            "faction_reactions": [
+              {
+                "faction_id": "military_commanders",
+                "influence_delta": -2.0,
+                "pressure_delta": 4.0
+              }
+            ],
+            "memories": [
+              {
+                "character_id": "guo_ziyi",
+                "memory_id": "beta110_verdict_military_removal",
+                "summary": "军粮迟延责任导致军职更替。"
+              }
+            ],
+            "resource_delta": {
+              "grain": -3.0,
+              "military_confidence": -2.0
+            }
+          },
+          "reform": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "军粮迟延案推动前线急应。"
+            },
+            "faction_reactions": [
+              {
+                "faction_id": "military_commanders",
+                "influence_delta": 2.0,
+                "pressure_delta": -2.0
+              }
+            ],
+            "memories": [
+              {
+                "character_id": "guo_ziyi",
+                "memory_id": "beta110_verdict_military_reform",
+                "summary": "军粮迟延案推动前线急应规则。"
+              }
+            ],
+            "node_effects": [
+              {
+                "effects": {
+                  "supply_flow": 4.0
+                },
+                "node_id": "shuofang_front_node"
+              }
+            ],
+            "resource_delta": {
+              "grain": 3.0,
+              "military_confidence": 2.0
+            },
+            "route_effects": [
+              {
+                "effects": {
+                  "message_delay": -1.0,
+                  "security": 3.0
+                },
+                "route_id": "beta07_route_14"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "case_id": "beta108_case_palace_order_leak",
+        "verdict_effects": {
+          "dismiss": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "宫门泄漏案以内部警戒收束。"
+            },
+            "relationship_effects": [
+              {
+                "character_id": "li_fuguo",
+                "delta": 1.0
+              }
+            ],
+            "resource_delta": {
+              "court_authority": -1.0
+            }
+          },
+          "forced_removal": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "宫门泄漏案导致门禁职位更替。"
+            },
+            "faction_reactions": [
+              {
+                "faction_id": "eunuch_network",
+                "influence_delta": -3.0,
+                "pressure_delta": 4.0
+              }
+            ],
+            "memories": [
+              {
+                "character_id": "li_fuguo",
+                "memory_id": "beta110_verdict_gate_removal",
+                "summary": "宫门泄漏案导致传令职位更替。"
+              }
+            ],
+            "resource_delta": {
+              "court_authority": -2.0
+            }
+          },
+          "reform": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "宫门泄漏案建立双签门禁。"
+            },
+            "faction_reactions": [
+              {
+                "faction_id": "eunuch_network",
+                "influence_delta": -1.0,
+                "pressure_delta": 2.0
+              }
+            ],
+            "memories": [
+              {
+                "character_id": "li_fuguo",
+                "memory_id": "beta110_verdict_gate_reform",
+                "summary": "宫门泄漏案建立内外双签。"
+              }
+            ],
+            "node_effects": [
+              {
+                "effects": {
+                  "security": 4.0
+                },
+                "node_id": "palace_inner_channel_node"
+              }
+            ],
+            "resource_delta": {
+              "court_authority": 2.0
+            }
+          }
+        }
+      },
+      {
+        "case_id": "beta108_case_edict_legitimacy",
+        "verdict_effects": {
+          "dismiss": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "诏令正当性争议暂留异议。"
+            },
+            "relationship_effects": [
+              {
+                "character_id": "li_chu",
+                "delta": -1.0
+              }
+            ],
+            "resource_delta": {
+              "legitimacy": -1.0
+            }
+          },
+          "forced_removal": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "诏令正当性案导致审议职位更替。"
+            },
+            "faction_reactions": [
+              {
+                "faction_id": "suzong_court",
+                "influence_delta": -2.0,
+                "pressure_delta": 3.0
+              }
+            ],
+            "memories": [
+              {
+                "character_id": "li_chu",
+                "memory_id": "beta110_verdict_edict_removal",
+                "summary": "诏令正当性案导致审议职位更替。"
+              }
+            ],
+            "resource_delta": {
+              "court_authority": -1.0,
+              "legitimacy": -3.0
+            }
+          },
+          "reform": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "诏令正当性案推动期限复核。"
+            },
+            "faction_reactions": [
+              {
+                "faction_id": "suzong_court",
+                "influence_delta": 2.0,
+                "pressure_delta": -1.0
+              }
+            ],
+            "memories": [
+              {
+                "character_id": "li_bi",
+                "memory_id": "beta110_verdict_edict_reform",
+                "summary": "诏令正当性案推动复核期限。"
+              }
+            ],
+            "resource_delta": {
+              "court_authority": 1.0,
+              "legitimacy": 3.0
+            }
+          }
+        }
+      },
+      {
+        "case_id": "beta108_case_uighur_aid_cost",
+        "verdict_effects": {
+          "dismiss": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "援助代价案暂不追究。"
+            },
+            "relationship_effects": [
+              {
+                "character_id": "uighur_envoy",
+                "delta": -1.0
+              }
+            ],
+            "resource_delta": {
+              "treasury": -2.0
+            }
+          },
+          "forced_removal": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "援助代价案导致职位更替。"
+            },
+            "faction_reactions": [
+              {
+                "faction_id": "uighur_envoys",
+                "influence_delta": -2.0,
+                "pressure_delta": 4.0
+              }
+            ],
+            "memories": [
+              {
+                "character_id": "li_guangbi",
+                "memory_id": "beta110_verdict_aid_removal",
+                "summary": "援助代价案导致使节或军职更替。"
+              }
+            ],
+            "resource_delta": {
+              "military_confidence": -2.0,
+              "treasury": -3.0
+            }
+          },
+          "reform": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "援助代价案改为公开条款。"
+            },
+            "faction_reactions": [
+              {
+                "faction_id": "uighur_envoys",
+                "influence_delta": 2.0,
+                "pressure_delta": -2.0
+              }
+            ],
+            "memories": [
+              {
+                "character_id": "uighur_envoy",
+                "memory_id": "beta110_verdict_aid_reform",
+                "summary": "援助代价案改为公开条款。"
+              }
+            ],
+            "node_effects": [
+              {
+                "effects": {
+                  "security": 3.0
+                },
+                "node_id": "uighur_route_node"
+              }
+            ],
+            "resource_delta": {
+              "military_confidence": 2.0,
+              "treasury": -4.0
+            },
+            "route_effects": [
+              {
+                "effects": {
+                  "security": 2.0,
+                  "uncertainty": -1.0
+                },
+                "route_id": "beta07_route_15"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "case_id": "beta108_case_final_assessment",
+        "verdict_effects": {
+          "dismiss": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "终局考核案暂不定责。"
+            },
+            "relationship_effects": [
+              {
+                "character_id": "li_bi",
+                "delta": -1.0
+              }
+            ],
+            "resource_delta": {
+              "legitimacy": -1.0
+            }
+          },
+          "forced_removal": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "终局考核案导致职位责任结算。"
+            },
+            "faction_reactions": [
+              {
+                "faction_id": "suzong_court",
+                "influence_delta": -2.0,
+                "pressure_delta": 4.0
+              }
+            ],
+            "memories": [
+              {
+                "character_id": "li_fuguo",
+                "memory_id": "beta110_verdict_final_removal",
+                "summary": "终局考核案以职位责任收束。"
+              }
+            ],
+            "resource_delta": {
+              "court_authority": -2.0,
+              "legitimacy": -2.0
+            }
+          },
+          "reform": {
+            "chronicle": {
+              "kind": "accountability_verdict",
+              "summary": "终局考核案把路线代价转为制度记录。"
+            },
+            "faction_reactions": [
+              {
+                "faction_id": "suzong_court",
+                "influence_delta": 1.0,
+                "pressure_delta": -1.0
+              }
+            ],
+            "memories": [
+              {
+                "character_id": "li_bi",
+                "memory_id": "beta110_verdict_final_reform",
+                "summary": "终局考核案把路线代价转为制度记录。"
+              }
+            ],
+            "resource_delta": {
+              "court_authority": 2.0,
+              "legitimacy": 2.0
+            }
+          }
+        }
+      }
+    ],
+    "schema_version": 110.0
+  },
+  "beta108_accountability": {
+    "cases": [
+      {
+        "case_id": "beta108_case_grain_ledger_shortfall",
+        "causal_refs": [],
+        "claims": [],
+        "closed_day": 0.0,
+        "decided_day": 0.0,
+        "decision": {
+
+        },
+        "decision_transaction_id": "",
+        "evidence": [],
+        "facts": [],
+        "lifecycle": "dormant",
+        "office_ids": [
+          "household_supply",
+          "shangshu_execution"
+        ],
+        "opened_day": 0.0,
+        "subject_ids": [
+          "grain_official_lingwu",
+          "lingwu_merchant_refugee",
+          "li_bi",
+          "li_fuguo"
+        ],
+        "template_id": "grain_ledger_shortfall",
+        "term_ids": []
+      },
+      {
+        "case_id": "beta108_case_military_grain_delay",
+        "causal_refs": [],
+        "claims": [],
+        "closed_day": 0.0,
+        "decided_day": 0.0,
+        "decision": {
+
+        },
+        "decision_transaction_id": "",
+        "evidence": [],
+        "facts": [],
+        "lifecycle": "dormant",
+        "office_ids": [
+          "war_mobilization",
+          "shangshu_execution"
+        ],
+        "opened_day": 0.0,
+        "subject_ids": [
+          "guo_ziyi",
+          "li_guangbi",
+          "pugu_huaien",
+          "regional_jiedushi_rep"
+        ],
+        "template_id": "military_grain_delay",
+        "term_ids": []
+      },
+      {
+        "case_id": "beta108_case_palace_order_leak",
+        "causal_refs": [],
+        "claims": [],
+        "closed_day": 0.0,
+        "decided_day": 0.0,
+        "decision": {
+
+        },
+        "decision_transaction_id": "",
+        "evidence": [],
+        "facts": [],
+        "lifecycle": "dormant",
+        "office_ids": [
+          "inner_court_gatekeeper",
+          "censorate"
+        ],
+        "opened_day": 0.0,
+        "subject_ids": [
+          "li_fuguo",
+          "eunuch_deputy_gate",
+          "li_chu",
+          "hardline_old_court_official"
+        ],
+        "template_id": "palace_order_leak",
+        "term_ids": []
+      },
+      {
+        "case_id": "beta108_case_edict_legitimacy",
+        "causal_refs": [],
+        "claims": [],
+        "closed_day": 0.0,
+        "decided_day": 0.0,
+        "decision": {
+
+        },
+        "decision_transaction_id": "",
+        "evidence": [],
+        "facts": [],
+        "lifecycle": "dormant",
+        "office_ids": [
+          "zhongshu_drafting",
+          "menxia_review"
+        ],
+        "opened_day": 0.0,
+        "subject_ids": [
+          "li_bi",
+          "li_chu",
+          "hardline_old_court_official",
+          "li_fuguo"
+        ],
+        "template_id": "edict_legitimacy",
+        "term_ids": []
+      },
+      {
+        "case_id": "beta108_case_uighur_aid_cost",
+        "causal_refs": [],
+        "claims": [],
+        "closed_day": 0.0,
+        "decided_day": 0.0,
+        "decision": {
+
+        },
+        "decision_transaction_id": "",
+        "evidence": [],
+        "facts": [],
+        "lifecycle": "dormant",
+        "office_ids": [
+          "envoy_negotiator",
+          "war_mobilization"
+        ],
+        "opened_day": 0.0,
+        "subject_ids": [
+          "uighur_envoy",
+          "pugu_huaien",
+          "li_bi",
+          "li_guangbi",
+          "regional_jiedushi_rep"
+        ],
+        "template_id": "uighur_aid_cost",
+        "term_ids": []
+      },
+      {
+        "case_id": "beta108_case_final_assessment",
+        "causal_refs": [],
+        "claims": [],
+        "closed_day": 0.0,
+        "decided_day": 0.0,
+        "decision": {
+
+        },
+        "decision_transaction_id": "",
+        "evidence": [],
+        "facts": [],
+        "lifecycle": "dormant",
+        "office_ids": [
+          "zhongshu_drafting",
+          "menxia_review",
+          "shangshu_execution",
+          "household_supply",
+          "war_mobilization",
+          "censorate",
+          "inner_court_gatekeeper",
+          "envoy_negotiator"
+        ],
+        "opened_day": 0.0,
+        "subject_ids": [
+          "guo_ziyi",
+          "li_bi",
+          "li_fuguo",
+          "li_guangbi",
+          "pugu_huaien",
+          "li_chu",
+          "uighur_envoy",
+          "hardline_old_court_official",
+          "grain_official_lingwu",
+          "lingwu_merchant_refugee",
+          "regional_jiedushi_rep",
+          "eunuch_deputy_gate"
+        ],
+        "template_id": "final_assessment",
+        "term_ids": []
+      }
+    ],
+    "schema_version": 108.0
+  },
+  "beta108_case_content": {
+    "beta108_case_edict_legitimacy": {
+      "available_verdicts": [
+        "dismiss",
+        "reform"
+      ],
+      "case_id": "beta108_case_edict_legitimacy",
+      "claims": [
+        {
+          "character_id": "li_bi",
+          "claim_id": "claim_edict_drafting",
+          "fact_ids": [
+            "fact_edict_legitimacy"
+          ]
+        },
+        {
+          "character_id": "li_chu",
+          "claim_id": "claim_edict_review",
+          "fact_ids": [
+            "fact_edict_legitimacy"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "evidence_edict_record",
+          "kind": "event_history",
+          "ref_id": "edict_record_48"
+        },
+        {
+          "evidence_id": "evidence_edict_report",
+          "kind": "governance_report",
+          "ref_id": "edict_report_49"
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "fact_edict_legitimacy",
+          "kind": "edict_procedure",
+          "public_summary": "中书起草、门下复核与尚书执行记录出现程序断点。",
+          "source_ref_id": "edict_record_48"
+        }
+      ],
+      "minimum_independent_sources": 2.0,
+      "phase_open_day": 48.0,
+      "required_fact_kinds": [
+        "edict_procedure"
+      ],
+      "template_id": "edict_legitimacy"
+    },
+    "beta108_case_final_assessment": {
+      "available_verdicts": [
+        "dismiss",
+        "reform"
+      ],
+      "case_id": "beta108_case_final_assessment",
+      "claims": [
+        {
+          "character_id": "li_bi",
+          "claim_id": "claim_final_authority",
+          "fact_ids": [
+            "fact_final_assessment"
+          ]
+        },
+        {
+          "character_id": "li_fuguo",
+          "claim_id": "claim_final_court",
+          "fact_ids": [
+            "fact_final_assessment"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "evidence_final_report",
+          "kind": "governance_report",
+          "ref_id": "assessment_report_75"
+        },
+        {
+          "evidence_id": "evidence_final_chronicle",
+          "kind": "chronicle",
+          "ref_id": "assessment_chronicle_76"
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "fact_final_assessment",
+          "kind": "campaign_assessment",
+          "public_summary": "最终考核汇总已引用前五案的已结束结果。",
+          "source_ref_id": "assessment_report_75"
+        }
+      ],
+      "minimum_independent_sources": 2.0,
+      "phase_open_day": 75.0,
+      "required_fact_kinds": [
+        "campaign_assessment"
+      ],
+      "template_id": "final_assessment"
+    },
+    "beta108_case_grain_ledger_shortfall": {
+      "available_verdicts": [
+        "dismiss",
+        "reform",
+        "forced_removal"
+      ],
+      "case_id": "beta108_case_grain_ledger_shortfall",
+      "claims": [
+        {
+          "character_id": "grain_official_lingwu",
+          "claim_id": "claim_grain_official",
+          "fact_ids": [
+            "fact_grain_ledger_shortfall"
+          ]
+        },
+        {
+          "character_id": "lingwu_merchant_refugee",
+          "claim_id": "claim_grain_counter",
+          "fact_ids": [
+            "fact_grain_ledger_shortfall"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "evidence_grain_report",
+          "kind": "governance_report",
+          "ref_id": "grain_report_31"
+        },
+        {
+          "evidence_id": "evidence_grain_event",
+          "kind": "event_history",
+          "ref_id": "grain_event_32"
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "fact_grain_ledger_shortfall",
+          "kind": "ledger_shortfall",
+          "public_summary": "粮册与转运回执出现可核验缺口。",
+          "source_ref_id": "grain_report_31"
+        }
+      ],
+      "minimum_independent_sources": 2.0,
+      "phase_open_day": 31.0,
+      "required_fact_kinds": [
+        "ledger_shortfall"
+      ],
+      "template_id": "grain_ledger_shortfall"
+    },
+    "beta108_case_military_grain_delay": {
+      "available_verdicts": [
+        "dismiss",
+        "reform"
+      ],
+      "case_id": "beta108_case_military_grain_delay",
+      "claims": [
+        {
+          "character_id": "guo_ziyi",
+          "claim_id": "claim_guo_supply",
+          "fact_ids": [
+            "fact_military_supply_delay"
+          ]
+        },
+        {
+          "character_id": "pugu_huaien",
+          "claim_id": "claim_pugu_supply",
+          "fact_ids": [
+            "fact_military_supply_delay"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "evidence_military_report",
+          "kind": "verified_intelligence",
+          "ref_id": "military_report_36"
+        },
+        {
+          "evidence_id": "evidence_military_route",
+          "kind": "event_history",
+          "ref_id": "military_route_37"
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "fact_military_supply_delay",
+          "kind": "supply_delay",
+          "public_summary": "前线粮运延误跨过既定时限。",
+          "source_ref_id": "military_report_36"
+        }
+      ],
+      "minimum_independent_sources": 2.0,
+      "phase_open_day": 36.0,
+      "required_fact_kinds": [
+        "supply_delay"
+      ],
+      "template_id": "military_grain_delay"
+    },
+    "beta108_case_palace_order_leak": {
+      "available_verdicts": [
+        "dismiss",
+        "reform",
+        "forced_removal"
+      ],
+      "case_id": "beta108_case_palace_order_leak",
+      "claims": [
+        {
+          "character_id": "li_fuguo",
+          "claim_id": "claim_palace_gate",
+          "fact_ids": [
+            "fact_palace_order_leak"
+          ]
+        },
+        {
+          "character_id": "hardline_old_court_official",
+          "claim_id": "claim_palace_audit",
+          "fact_ids": [
+            "fact_palace_order_leak"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "evidence_palace_report",
+          "kind": "governance_report",
+          "ref_id": "palace_report_42"
+        },
+        {
+          "evidence_id": "evidence_palace_event",
+          "kind": "event_history",
+          "ref_id": "palace_event_43"
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "fact_palace_order_leak",
+          "kind": "order_leak",
+          "public_summary": "宫门传递记录显示诏令在授权链外泄露。",
+          "source_ref_id": "palace_report_42"
+        }
+      ],
+      "minimum_independent_sources": 2.0,
+      "phase_open_day": 42.0,
+      "required_fact_kinds": [
+        "order_leak"
+      ],
+      "template_id": "palace_order_leak"
+    },
+    "beta108_case_uighur_aid_cost": {
+      "available_verdicts": [
+        "dismiss",
+        "reform"
+      ],
+      "case_id": "beta108_case_uighur_aid_cost",
+      "claims": [
+        {
+          "character_id": "uighur_envoy",
+          "claim_id": "claim_uighur_envoy",
+          "fact_ids": [
+            "fact_uighur_aid_cost"
+          ]
+        },
+        {
+          "character_id": "li_guangbi",
+          "claim_id": "claim_uighur_military",
+          "fact_ids": [
+            "fact_uighur_aid_cost"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "evidence_uighur_report",
+          "kind": "verified_intelligence",
+          "ref_id": "uighur_report_61"
+        },
+        {
+          "evidence_id": "evidence_uighur_treaty",
+          "kind": "event_history",
+          "ref_id": "uighur_treaty_62"
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "fact_uighur_aid_cost",
+          "kind": "aid_cost",
+          "public_summary": "援军条件与朝廷承诺的资源成本已经可核验。",
+          "source_ref_id": "uighur_report_61"
+        }
+      ],
+      "minimum_independent_sources": 2.0,
+      "phase_open_day": 61.0,
+      "required_fact_kinds": [
+        "aid_cost"
+      ],
+      "template_id": "uighur_aid_cost"
+    }
+  },
+  "court_meetings": [
+    {
+      "issue": "Whether Guo Ziyi should receive stronger Shuofang field authority.",
+      "meeting_id": "military_command_appointment_debate",
+      "outcomes": [
+        {
+          "office_id": "shuofang_field_commander",
+          "outcome_id": "appoint_guo_publicly",
+          "public_record": true
+        }
+      ],
+      "speakers": [
+        {
+          "character_id": "guo_ziyi",
+          "faction_id": "military_commanders",
+          "position": "support"
+        },
+        {
+          "character_id": "hardline_old_court_official",
+          "faction_id": "xuanzong_old_court",
+          "position": "oppose"
+        },
+        {
+          "character_id": "li_fuguo",
+          "faction_id": "eunuch_network",
+          "position": "bargain"
+        }
+      ],
+      "title": "Military Command Appointment Debate"
+    },
+    {
+      "issue": "A public court dispute over office power and faction pressure.",
+      "meeting_id": "beta06_council_chain_01",
+      "outcomes": [
+        {
+          "office_id": "shuofang_field_commander",
+          "outcome_id": "public_decree",
+          "public_record": true
+        }
+      ],
+      "speakers": [
+        {
+          "character_id": "guo_ziyi",
+          "faction_id": "military_commanders",
+          "position": "support"
+        },
+        {
+          "character_id": "li_fuguo",
+          "faction_id": "eunuch_network",
+          "position": "bargain"
+        },
+        {
+          "character_id": "hardline_old_court_official",
+          "faction_id": "xuanzong_old_court",
+          "position": "oppose"
+        }
+      ],
+      "title": "Beta06 council chain 1"
+    },
+    {
+      "issue": "A public court dispute over office power and faction pressure.",
+      "meeting_id": "beta06_council_chain_02",
+      "outcomes": [
+        {
+          "office_id": "inner_court_gatekeeper",
+          "outcome_id": "public_decree",
+          "public_record": true
+        }
+      ],
+      "speakers": [
+        {
+          "character_id": "guo_ziyi",
+          "faction_id": "military_commanders",
+          "position": "support"
+        },
+        {
+          "character_id": "li_fuguo",
+          "faction_id": "eunuch_network",
+          "position": "bargain"
+        },
+        {
+          "character_id": "hardline_old_court_official",
+          "faction_id": "xuanzong_old_court",
+          "position": "oppose"
+        }
+      ],
+      "title": "Beta06 council chain 2"
+    },
+    {
+      "issue": "A public court dispute over office power and faction pressure.",
+      "meeting_id": "beta06_council_chain_03",
+      "outcomes": [
+        {
+          "office_id": "grain_transport_supervisor",
+          "outcome_id": "public_decree",
+          "public_record": true
+        }
+      ],
+      "speakers": [
+        {
+          "character_id": "guo_ziyi",
+          "faction_id": "military_commanders",
+          "position": "support"
+        },
+        {
+          "character_id": "li_fuguo",
+          "faction_id": "eunuch_network",
+          "position": "bargain"
+        },
+        {
+          "character_id": "hardline_old_court_official",
+          "faction_id": "xuanzong_old_court",
+          "position": "oppose"
+        }
+      ],
+      "title": "Beta06 council chain 3"
+    },
+    {
+      "issue": "A public court dispute over office power and faction pressure.",
+      "meeting_id": "beta06_council_chain_04",
+      "outcomes": [
+        {
+          "office_id": "court_memorial_reviewer",
+          "outcome_id": "public_decree",
+          "public_record": true
+        }
+      ],
+      "speakers": [
+        {
+          "character_id": "guo_ziyi",
+          "faction_id": "military_commanders",
+          "position": "support"
+        },
+        {
+          "character_id": "li_fuguo",
+          "faction_id": "eunuch_network",
+          "position": "bargain"
+        },
+        {
+          "character_id": "hardline_old_court_official",
+          "faction_id": "xuanzong_old_court",
+          "position": "oppose"
+        }
+      ],
+      "title": "Beta06 council chain 4"
+    },
+    {
+      "issue": "A public court dispute over office power and faction pressure.",
+      "meeting_id": "beta06_council_chain_05",
+      "outcomes": [
+        {
+          "office_id": "palace_household_controller",
+          "outcome_id": "public_decree",
+          "public_record": true
+        }
+      ],
+      "speakers": [
+        {
+          "character_id": "guo_ziyi",
+          "faction_id": "military_commanders",
+          "position": "support"
+        },
+        {
+          "character_id": "li_fuguo",
+          "faction_id": "eunuch_network",
+          "position": "bargain"
+        },
+        {
+          "character_id": "hardline_old_court_official",
+          "faction_id": "xuanzong_old_court",
+          "position": "oppose"
+        }
+      ],
+      "title": "Beta06 council chain 5"
+    },
+    {
+      "issue": "A public court dispute over office power and faction pressure.",
+      "meeting_id": "beta06_council_chain_06",
+      "outcomes": [
+        {
+          "office_id": "envoy_negotiator",
+          "outcome_id": "public_decree",
+          "public_record": true
+        }
+      ],
+      "speakers": [
+        {
+          "character_id": "guo_ziyi",
+          "faction_id": "military_commanders",
+          "position": "support"
+        },
+        {
+          "character_id": "li_fuguo",
+          "faction_id": "eunuch_network",
+          "position": "bargain"
+        },
+        {
+          "character_id": "hardline_old_court_official",
+          "faction_id": "xuanzong_old_court",
+          "position": "oppose"
+        }
+      ],
+      "title": "Beta06 council chain 6"
+    },
+    {
+      "issue": "A public court dispute over office power and faction pressure.",
+      "meeting_id": "beta06_council_chain_07",
+      "outcomes": [
+        {
+          "office_id": "intelligence_coordinator",
+          "outcome_id": "public_decree",
+          "public_record": true
+        }
+      ],
+      "speakers": [
+        {
+          "character_id": "guo_ziyi",
+          "faction_id": "military_commanders",
+          "position": "support"
+        },
+        {
+          "character_id": "li_fuguo",
+          "faction_id": "eunuch_network",
+          "position": "bargain"
+        },
+        {
+          "character_id": "hardline_old_court_official",
+          "faction_id": "xuanzong_old_court",
+          "position": "oppose"
+        }
+      ],
+      "title": "Beta06 council chain 7"
+    },
+    {
+      "issue": "A public court dispute over office power and faction pressure.",
+      "meeting_id": "beta06_council_chain_08",
+      "outcomes": [
+        {
+          "office_id": "local_node_administrator",
+          "outcome_id": "public_decree",
+          "public_record": true
+        }
+      ],
+      "speakers": [
+        {
+          "character_id": "guo_ziyi",
+          "faction_id": "military_commanders",
+          "position": "support"
+        },
+        {
+          "character_id": "li_fuguo",
+          "faction_id": "eunuch_network",
+          "position": "bargain"
+        },
+        {
+          "character_id": "hardline_old_court_official",
+          "faction_id": "xuanzong_old_court",
+          "position": "oppose"
+        }
+      ],
+      "title": "Beta06 council chain 8"
+    },
+    {
+      "issue": "A council dispute over report confidence, route pressure, and command channel risk.",
+      "meeting_id": "beta07_intelligence_briefing_01",
+      "outcomes": [
+        {
+          "operation_id": "verify_guanzhong_movement",
+          "outcome_id": "verify_before_order",
+          "public_record": true
+        }
+      ],
+      "speakers": [
+        {
+          "character_id": "guo_ziyi",
+          "faction_id": "military_commanders",
+          "position": "verify"
+        },
+        {
+          "character_id": "li_fuguo",
+          "faction_id": "eunuch_network",
+          "position": "act_fast"
+        },
+        {
+          "character_id": "li_bi",
+          "faction_id": "suzong_court",
+          "position": "cross_check"
+        }
+      ],
+      "title": "Beta07 intelligence briefing 1"
+    },
+    {
+      "issue": "A council dispute over report confidence, route pressure, and command channel risk.",
+      "meeting_id": "beta07_intelligence_briefing_02",
+      "outcomes": [
+        {
+          "operation_id": "beta07_regional_operation_02",
+          "outcome_id": "verify_before_order",
+          "public_record": true
+        }
+      ],
+      "speakers": [
+        {
+          "character_id": "guo_ziyi",
+          "faction_id": "military_commanders",
+          "position": "verify"
+        },
+        {
+          "character_id": "li_fuguo",
+          "faction_id": "eunuch_network",
+          "position": "act_fast"
+        },
+        {
+          "character_id": "li_bi",
+          "faction_id": "suzong_court",
+          "position": "cross_check"
+        }
+      ],
+      "title": "Beta07 intelligence briefing 2"
+    },
+    {
+      "issue": "A council dispute over report confidence, route pressure, and command channel risk.",
+      "meeting_id": "beta07_intelligence_briefing_03",
+      "outcomes": [
+        {
+          "operation_id": "beta07_regional_operation_03",
+          "outcome_id": "verify_before_order",
+          "public_record": true
+        }
+      ],
+      "speakers": [
+        {
+          "character_id": "guo_ziyi",
+          "faction_id": "military_commanders",
+          "position": "verify"
+        },
+        {
+          "character_id": "li_fuguo",
+          "faction_id": "eunuch_network",
+          "position": "act_fast"
+        },
+        {
+          "character_id": "li_bi",
+          "faction_id": "suzong_court",
+          "position": "cross_check"
+        }
+      ],
+      "title": "Beta07 intelligence briefing 3"
+    },
+    {
+      "issue": "A council dispute over report confidence, route pressure, and command channel risk.",
+      "meeting_id": "beta07_intelligence_briefing_04",
+      "outcomes": [
+        {
+          "operation_id": "beta07_regional_operation_04",
+          "outcome_id": "verify_before_order",
+          "public_record": true
+        }
+      ],
+      "speakers": [
+        {
+          "character_id": "guo_ziyi",
+          "faction_id": "military_commanders",
+          "position": "verify"
+        },
+        {
+          "character_id": "li_fuguo",
+          "faction_id": "eunuch_network",
+          "position": "act_fast"
+        },
+        {
+          "character_id": "li_bi",
+          "faction_id": "suzong_court",
+          "position": "cross_check"
+        }
+      ],
+      "title": "Beta07 intelligence briefing 4"
+    },
+    {
+      "issue": "A council dispute over report confidence, route pressure, and command channel risk.",
+      "meeting_id": "beta07_intelligence_briefing_05",
+      "outcomes": [
+        {
+          "operation_id": "beta07_regional_operation_05",
+          "outcome_id": "verify_before_order",
+          "public_record": true
+        }
+      ],
+      "speakers": [
+        {
+          "character_id": "guo_ziyi",
+          "faction_id": "military_commanders",
+          "position": "verify"
+        },
+        {
+          "character_id": "li_fuguo",
+          "faction_id": "eunuch_network",
+          "position": "act_fast"
+        },
+        {
+          "character_id": "li_bi",
+          "faction_id": "suzong_court",
+          "position": "cross_check"
+        }
+      ],
+      "title": "Beta07 intelligence briefing 5"
+    },
+    {
+      "issue": "A council dispute over report confidence, route pressure, and command channel risk.",
+      "meeting_id": "beta07_intelligence_briefing_06",
+      "outcomes": [
+        {
+          "operation_id": "beta07_regional_operation_06",
+          "outcome_id": "verify_before_order",
+          "public_record": true
+        }
+      ],
+      "speakers": [
+        {
+          "character_id": "guo_ziyi",
+          "faction_id": "military_commanders",
+          "position": "verify"
+        },
+        {
+          "character_id": "li_fuguo",
+          "faction_id": "eunuch_network",
+          "position": "act_fast"
+        },
+        {
+          "character_id": "li_bi",
+          "faction_id": "suzong_court",
+          "position": "cross_check"
+        }
+      ],
+      "title": "Beta07 intelligence briefing 6"
+    }
+  ],
+  "first_political_loop": {
+    "direct_action_id": "prioritize_grain_transport",
+    "first_report_match": {
+      "kind": "progress",
+      "status": "acknowledged"
+    },
+    "guidance": {
+      "advance": "政令已发，推进日期等待军前回报。",
+      "choose_adviser": "只需问一位大臣；注意区分事实、判断与偏见。",
+      "choose_resolution": "直接下诏更快；完整朝议更稳，但不是首轮门槛。",
+      "open_memorial": "先读清事实、期限与被忽略风险。",
+      "preview": "核对执行人、资源、期限、风险和预计回报。",
+      "report": "看清发生了什么、为什么发生、改变了什么、下一步能做什么。"
+    },
+    "intro": {
+      "identity": "你是灵武即位后的李亨。长安失守，行在新立，军粮、军权与正统都在等待你的第一道判断。",
+      "pressure_labels": [
+        "粮道",
+        "军权",
+        "合法性"
+      ],
+      "title": "灵武即位后的第一道政务"
+    },
+    "loop_id": "beta108_first_grain_command",
+    "memorial_id": "memorial_shuofang_grain_001",
+    "offline_draft_text": "奉旨：先核验粮道转运账册，再按军期调度朔方军粮，限期具报。",
+    "offline_exchange": {
+      "adviser_name": "李泌",
+      "adviser_text": "先核验粮道转运账册与军前收讫记录，再按军期调度。",
+      "player_text": "请说明朔方军粮的风险与优先次序。"
+    },
+    "recommended_adviser_ids": [
+      "li_bi",
+      "guo_ziyi"
+    ],
+    "report_due_day_offset": 2.0,
+    "schema_version": 1.0
+  },
+  "governance": {
+    "command_actions": [
+      "prioritize_grain_transport",
+      "verify_rations",
+      "review_gate_records"
+    ],
+    "memorial_templates": [
+      {
+        "deadline_days": 18.0,
+        "location_id": "shuofang_front_node",
+        "memorial_id": "memorial_shuofang_grain_001",
+        "recommended_executor_ids": [
+          "guo_ziyi",
+          "li_bi"
+        ],
+        "request_text": "请核定朔方军前营的粮草优先次序与粮道转运。",
+        "resource_keys": [
+          "grain"
+        ],
+        "sender_id": "guo_ziyi",
+        "topic": "military_supply",
+        "visible_facts": [
+          "朔方前营粮道受阻",
+          "前线可用存粮不足"
+        ],
+        "visible_resistance": [
+          "行在库存有限",
+          "旧令已占用部分转运"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal",
+            "delayed",
+            "blocked",
+            "lost_contact"
+          ],
+          "predecessor_outcomes": [
+            "completed",
+            "partial",
+            "failed"
+          ]
+        },
+        "activation_variant": "normal",
+        "activation_window": {
+          "end_day": 8.0,
+          "start_day": 4.0
+        },
+        "case_chain_id": "beta109_supply_chain",
+        "case_phase": "followup",
+        "deadline_days": 6.0,
+        "location_id": "lingwu_court_node",
+        "memorial_id": "memorial_lingwu_ration_001",
+        "missed_precondition_variant": "missed",
+        "predecessor_conditions": [
+          "normal",
+          "delayed",
+          "blocked",
+          "lost_contact"
+        ],
+        "predecessor_outcomes": [
+          "completed",
+          "partial",
+          "failed"
+        ],
+        "previous_memorial_id": "memorial_shuofang_grain_001",
+        "public_source_paths": [
+          "governance.orders",
+          "governance.reports",
+          "structured_memories"
+        ],
+        "recommended_executor_ids": [
+          "grain_official_lingwu",
+          "li_bi"
+        ],
+        "request_text": "请核验仓粮、名册并定出军民配给次序。",
+        "resource_keys": [
+          "grain"
+        ],
+        "sender_id": "grain_official_lingwu",
+        "topic": "fiscal_supply",
+        "variants": {
+          "blocked": {
+            "next_action": "verify_rations",
+            "public_summary": "粮道事务受阻，军民配给不能假定已经完成。",
+            "public_title": "受阻后的仓粮复核"
+          },
+          "delayed": {
+            "next_action": "verify_rations",
+            "public_summary": "粮道迟延挤压配给窗口，复核必须公开记下时效代价。",
+            "public_title": "迟延后的仓粮复核"
+          },
+          "failed": {
+            "next_action": "verify_rations",
+            "public_summary": "前置粮道事务失败，仓粮名册保留缺口追查入口。",
+            "public_title": "灵武仓粮缺口追查"
+          },
+          "missed": {
+            "next_action": "day30_review",
+            "public_summary": "前置期限已错过，复盘保留未能及时复核的事实。",
+            "public_title": "错过期限的仓粮缺口"
+          },
+          "normal": {
+            "next_action": "verify_rations",
+            "public_summary": "前置粮道账册已形成可追踪依据，仓粮与军民名册进入复核。",
+            "public_title": "灵武仓粮复核"
+          },
+          "partial": {
+            "next_action": "verify_rations",
+            "public_summary": "前置账册只完成部分核验，仓粮后续事务要求补核。",
+            "public_title": "灵武仓粮补核"
+          }
+        },
+        "visible_facts": [
+          "灵武仓粮与赈给名册不符",
+          "军民配给均在等待核定"
+        ],
+        "visible_resistance": [
+          "赈给将压缩军储",
+          "名册仍需复核"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal",
+            "delayed",
+            "blocked",
+            "lost_contact"
+          ],
+          "predecessor_outcomes": [
+            "completed",
+            "partial",
+            "failed"
+          ]
+        },
+        "activation_variant": "delayed",
+        "activation_window": {
+          "end_day": 21.0,
+          "start_day": 9.0
+        },
+        "case_chain_id": "beta109_supply_chain",
+        "case_phase": "followup",
+        "deadline_days": 6.0,
+        "location_id": "palace_inner_channel_node",
+        "memorial_id": "memorial_gate_review_001",
+        "missed_precondition_variant": "missed",
+        "predecessor_conditions": [
+          "normal",
+          "delayed",
+          "blocked",
+          "lost_contact"
+        ],
+        "predecessor_outcomes": [
+          "completed",
+          "partial",
+          "failed"
+        ],
+        "previous_memorial_id": "memorial_lingwu_ration_001",
+        "public_source_paths": [
+          "governance.orders",
+          "governance.reports",
+          "chronicle_causal_references"
+        ],
+        "recommended_executor_ids": [
+          "li_fuguo",
+          "chen_xuanli"
+        ],
+        "request_text": "请定宫门传令与文书登记的复核程序。",
+        "resource_keys": [
+          "court_authority"
+        ],
+        "sender_id": "li_fuguo",
+        "topic": "inner_court_oversight",
+        "variants": {
+          "blocked": {
+            "next_action": "review_gate_records",
+            "public_summary": "前置事务受阻，内外双签或急报通道的代价不能隐藏。",
+            "public_title": "受阻后的宫门授权复核"
+          },
+          "delayed": {
+            "next_action": "review_gate_records",
+            "public_summary": "配给迟延压缩宫门复核时限，复盘须说明效率与留痕的取舍。",
+            "public_title": "迟延后的宫门传令复核"
+          },
+          "failed": {
+            "next_action": "review_gate_records",
+            "public_summary": "配给事务未闭合，宫门授权复核转为公开因果链的一部分。",
+            "public_title": "配给失败后的授权复核"
+          },
+          "missed": {
+            "next_action": "day30_review",
+            "public_summary": "配给期限已错过，宫门登记缺口在第三十日复盘中公开。",
+            "public_title": "错过期限的宫门记录"
+          },
+          "normal": {
+            "next_action": "review_gate_records",
+            "public_summary": "仓粮复核已有公开依据，宫门登记与中书传递记录进入双签复核。",
+            "public_title": "宫门传令复核"
+          },
+          "partial": {
+            "next_action": "review_gate_records",
+            "public_summary": "仓粮复核留下部分缺页，宫门复核必须同时保留缺口。",
+            "public_title": "仓粮缺页后的宫门复核"
+          }
+        },
+        "visible_facts": [
+          "宫门登记与中书传递记录不一致",
+          "内廷传令渠道出现迟滞"
+        ],
+        "visible_resistance": [
+          "公开核查会触动近侍网络",
+          "私下处置缺少正式依据"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal"
+          ],
+          "predecessor_outcomes": [
+            "completed"
+          ]
+        },
+        "activation_window": {
+          "end_day": 45.0,
+          "start_day": 31.0
+        },
+        "deadline_days": 4.0,
+        "followup_id": "memorial_beta110_supply_completed",
+        "linked_case_id": "beta108_case_grain_ledger_shortfall",
+        "location_id": "grain_road_node",
+        "memorial_id": "memorial_beta110_supply_completed",
+        "node_id": "beta110_grain_case_open",
+        "predecessor_conditions": [
+          "normal"
+        ],
+        "predecessor_outcomes": [
+          "completed"
+        ],
+        "previous_memorial_id": "memorial_shuofang_grain_001",
+        "recommended_executor_ids": [
+          "grain_official_lingwu",
+          "li_bi"
+        ],
+        "request_text": "请将核账结果与仓籍副本一并呈报。",
+        "resource_keys": [
+          "grain"
+        ],
+        "sender_id": "grain_official_lingwu",
+        "source_paths": [
+          "accountability_case",
+          "governance.memorial_templates",
+          "grain_road_node"
+        ],
+        "topic": "supply_accountability",
+        "variants": [
+          "normal",
+          "partial"
+        ],
+        "visible_facts": [
+          "朔方前营粮道受阻",
+          "前线可用存粮不足"
+        ],
+        "visible_resistance": [
+          "行在库存有限",
+          "旧令已占用部分转运"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal"
+          ],
+          "predecessor_outcomes": [
+            "partial"
+          ]
+        },
+        "activation_window": {
+          "end_day": 45.0,
+          "start_day": 31.0
+        },
+        "deadline_days": 3.0,
+        "followup_id": "memorial_beta110_supply_partial",
+        "linked_case_id": "beta108_case_grain_ledger_shortfall",
+        "location_id": "grain_road_node",
+        "memorial_id": "memorial_beta110_supply_partial",
+        "node_id": "beta110_grain_case_open",
+        "predecessor_conditions": [
+          "normal"
+        ],
+        "predecessor_outcomes": [
+          "partial"
+        ],
+        "previous_memorial_id": "memorial_shuofang_grain_001",
+        "recommended_executor_ids": [
+          "grain_official_lingwu",
+          "li_bi"
+        ],
+        "request_text": "部分粮册尚缺，请准许商民补交凭据。",
+        "resource_keys": [
+          "grain"
+        ],
+        "sender_id": "lingwu_merchant_refugee",
+        "source_paths": [
+          "accountability_case",
+          "merchant_refugees",
+          "grain_road_node"
+        ],
+        "topic": "supply_accountability",
+        "variants": [
+          "partial",
+          "delayed"
+        ],
+        "visible_facts": [
+          "朔方前营粮道受阻",
+          "前线可用存粮不足"
+        ],
+        "visible_resistance": [
+          "行在库存有限",
+          "旧令已占用部分转运"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "delayed",
+            "expired"
+          ]
+        },
+        "activation_window": {
+          "end_day": 45.0,
+          "start_day": 31.0
+        },
+        "deadline_days": 2.0,
+        "followup_id": "memorial_beta110_supply_delayed",
+        "linked_case_id": "beta108_case_grain_ledger_shortfall",
+        "location_id": "grain_road_node",
+        "memorial_id": "memorial_beta110_supply_delayed",
+        "node_id": "beta110_grain_case_open",
+        "predecessor_conditions": [
+          "delayed",
+          "expired"
+        ],
+        "predecessor_outcomes": [
+          "partial",
+          "failed",
+          "expired"
+        ],
+        "previous_memorial_id": "memorial_shuofang_grain_001",
+        "recommended_executor_ids": [
+          "grain_official_lingwu",
+          "li_bi"
+        ],
+        "request_text": "迟延已经影响军期，请裁定补核期限。",
+        "resource_keys": [
+          "grain"
+        ],
+        "sender_id": "grain_official_lingwu",
+        "source_paths": [
+          "accountability_case",
+          "route_network",
+          "grain_road_node"
+        ],
+        "topic": "supply_accountability",
+        "variants": [
+          "delayed",
+          "missed"
+        ],
+        "visible_facts": [
+          "朔方前营粮道受阻",
+          "前线可用存粮不足"
+        ],
+        "visible_resistance": [
+          "行在库存有限",
+          "旧令已占用部分转运"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "blocked",
+            "lost_contact"
+          ]
+        },
+        "activation_window": {
+          "end_day": 45.0,
+          "start_day": 36.0
+        },
+        "deadline_days": 2.0,
+        "followup_id": "memorial_beta110_supply_blocked",
+        "linked_case_id": "beta108_case_military_grain_delay",
+        "location_id": "shuofang_front_node",
+        "memorial_id": "memorial_beta110_supply_blocked",
+        "node_id": "beta110_front_supply_delay",
+        "predecessor_conditions": [
+          "blocked",
+          "lost_contact"
+        ],
+        "predecessor_outcomes": [
+          "failed",
+          "partial"
+        ],
+        "previous_memorial_id": "memorial_shuofang_grain_001",
+        "recommended_executor_ids": [
+          "guo_ziyi",
+          "li_bi"
+        ],
+        "request_text": "军粮通道受阻，请确认是否改走备用路。",
+        "resource_keys": [
+          "grain"
+        ],
+        "sender_id": "guo_ziyi",
+        "source_paths": [
+          "accountability_case",
+          "route_network",
+          "shuofang_front_node"
+        ],
+        "topic": "frontline_supply",
+        "variants": [
+          "blocked",
+          "missed"
+        ],
+        "visible_facts": [
+          "朔方前营粮道受阻",
+          "前线可用存粮不足"
+        ],
+        "visible_resistance": [
+          "行在库存有限",
+          "旧令已占用部分转运"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal"
+          ],
+          "predecessor_outcomes": [
+            "completed"
+          ]
+        },
+        "activation_window": {
+          "end_day": 65.0,
+          "start_day": 42.0
+        },
+        "deadline_days": 5.0,
+        "followup_id": "memorial_beta110_palace_completed",
+        "linked_case_id": "beta108_case_palace_order_leak",
+        "location_id": "palace_inner_channel_node",
+        "memorial_id": "memorial_beta110_palace_completed",
+        "node_id": "beta110_palace_order_leak",
+        "predecessor_conditions": [
+          "normal"
+        ],
+        "predecessor_outcomes": [
+          "completed"
+        ],
+        "previous_memorial_id": "memorial_gate_review_001",
+        "recommended_executor_ids": [
+          "li_fuguo",
+          "chen_xuanli",
+          "li_bi"
+        ],
+        "request_text": "宫门副本已齐，请议定公开留痕范围。",
+        "resource_keys": [
+          "court_authority"
+        ],
+        "sender_id": "li_fuguo",
+        "source_paths": [
+          "accountability_case",
+          "office_terms",
+          "palace_inner_channel_node"
+        ],
+        "topic": "palace_authority",
+        "variants": [
+          "normal",
+          "partial"
+        ],
+        "visible_facts": [
+          "宫门登记与中书传递记录不一致",
+          "内廷传令渠道出现迟滞"
+        ],
+        "visible_resistance": [
+          "公开核查会触动近侍网络",
+          "私下处置缺少正式依据"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal"
+          ],
+          "predecessor_outcomes": [
+            "partial"
+          ]
+        },
+        "activation_window": {
+          "end_day": 65.0,
+          "start_day": 42.0
+        },
+        "deadline_days": 4.0,
+        "followup_id": "memorial_beta110_palace_partial",
+        "linked_case_id": "beta108_case_palace_order_leak",
+        "location_id": "lingwu_court_node",
+        "memorial_id": "memorial_beta110_palace_partial",
+        "node_id": "beta110_palace_order_leak",
+        "predecessor_conditions": [
+          "normal"
+        ],
+        "predecessor_outcomes": [
+          "partial"
+        ],
+        "previous_memorial_id": "memorial_gate_review_001",
+        "recommended_executor_ids": [
+          "li_fuguo",
+          "chen_xuanli",
+          "li_bi"
+        ],
+        "request_text": "传令链仍有缺页，请准许中书补录。",
+        "resource_keys": [
+          "court_authority"
+        ],
+        "sender_id": "li_bi",
+        "source_paths": [
+          "accountability_case",
+          "structured_memories",
+          "lingwu_court_node"
+        ],
+        "topic": "palace_authority",
+        "variants": [
+          "partial",
+          "delayed"
+        ],
+        "visible_facts": [
+          "宫门登记与中书传递记录不一致",
+          "内廷传令渠道出现迟滞"
+        ],
+        "visible_resistance": [
+          "公开核查会触动近侍网络",
+          "私下处置缺少正式依据"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "delayed",
+            "expired"
+          ]
+        },
+        "activation_window": {
+          "end_day": 65.0,
+          "start_day": 42.0
+        },
+        "deadline_days": 3.0,
+        "followup_id": "memorial_beta110_palace_delayed",
+        "linked_case_id": "beta108_case_palace_order_leak",
+        "location_id": "lingwu_court_node",
+        "memorial_id": "memorial_beta110_palace_delayed",
+        "node_id": "beta110_palace_order_leak",
+        "predecessor_conditions": [
+          "delayed",
+          "expired"
+        ],
+        "predecessor_outcomes": [
+          "partial",
+          "failed",
+          "expired"
+        ],
+        "previous_memorial_id": "memorial_gate_review_001",
+        "recommended_executor_ids": [
+          "li_fuguo",
+          "chen_xuanli",
+          "li_bi"
+        ],
+        "request_text": "旧制先例被绕过，请对传令程序作公开说明。",
+        "resource_keys": [
+          "court_authority"
+        ],
+        "sender_id": "hardline_old_court_official",
+        "source_paths": [
+          "accountability_case",
+          "old_court",
+          "lingwu_court_node"
+        ],
+        "topic": "palace_authority",
+        "variants": [
+          "delayed",
+          "missed"
+        ],
+        "visible_facts": [
+          "宫门登记与中书传递记录不一致",
+          "内廷传令渠道出现迟滞"
+        ],
+        "visible_resistance": [
+          "公开核查会触动近侍网络",
+          "私下处置缺少正式依据"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "blocked",
+            "lost_contact"
+          ]
+        },
+        "activation_window": {
+          "end_day": 65.0,
+          "start_day": 48.0
+        },
+        "deadline_days": 2.0,
+        "followup_id": "memorial_beta110_palace_blocked",
+        "linked_case_id": "beta108_case_edict_legitimacy",
+        "location_id": "lingwu_court_node",
+        "memorial_id": "memorial_beta110_palace_blocked",
+        "node_id": "beta110_edict_legitimacy",
+        "predecessor_conditions": [
+          "blocked",
+          "lost_contact"
+        ],
+        "predecessor_outcomes": [
+          "failed",
+          "partial"
+        ],
+        "previous_memorial_id": "memorial_gate_review_001",
+        "recommended_executor_ids": [
+          "chen_xuanli",
+          "li_bi"
+        ],
+        "request_text": "诏令复核被阻，请暂缓执行并留下异议。",
+        "resource_keys": [
+          "court_authority",
+          "legitimacy"
+        ],
+        "sender_id": "li_chu",
+        "source_paths": [
+          "accountability_case",
+          "office_terms",
+          "lingwu_court_node"
+        ],
+        "topic": "edict_legitimacy",
+        "variants": [
+          "blocked",
+          "missed"
+        ],
+        "visible_facts": [
+          "宫门登记与中书传递记录不一致",
+          "内廷传令渠道出现迟滞"
+        ],
+        "visible_resistance": [
+          "公开核查会触动近侍网络",
+          "私下处置缺少正式依据"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal"
+          ],
+          "predecessor_outcomes": [
+            "completed"
+          ]
+        },
+        "activation_window": {
+          "end_day": 90.0,
+          "start_day": 61.0
+        },
+        "deadline_days": 6.0,
+        "followup_id": "memorial_beta110_alliance_completed",
+        "linked_case_id": "beta108_case_uighur_aid_cost",
+        "location_id": "uighur_route_node",
+        "memorial_id": "memorial_beta110_alliance_completed",
+        "node_id": "beta110_uighur_aid_cost",
+        "predecessor_conditions": [
+          "normal"
+        ],
+        "predecessor_outcomes": [
+          "completed"
+        ],
+        "previous_memorial_id": "memorial_lingwu_ration_001",
+        "recommended_executor_ids": [
+          "li_fuguo",
+          "grain_official_lingwu",
+          "li_bi"
+        ],
+        "request_text": "援助条款已确认，请登记交换与付款凭据。",
+        "resource_keys": [
+          "treasury"
+        ],
+        "sender_id": "uighur_envoy",
+        "source_paths": [
+          "accountability_case",
+          "route_network",
+          "uighur_route_node"
+        ],
+        "topic": "alliance_cost",
+        "variants": [
+          "normal",
+          "partial"
+        ],
+        "visible_facts": [
+          "灵武仓粮与赈给名册不符",
+          "军民配给均在等待核定"
+        ],
+        "visible_resistance": [
+          "赈给将压缩军储",
+          "名册仍需复核"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal"
+          ],
+          "predecessor_outcomes": [
+            "partial"
+          ]
+        },
+        "activation_window": {
+          "end_day": 90.0,
+          "start_day": 61.0
+        },
+        "deadline_days": 5.0,
+        "followup_id": "memorial_beta110_alliance_partial",
+        "linked_case_id": "beta108_case_uighur_aid_cost",
+        "location_id": "uighur_route_node",
+        "memorial_id": "memorial_beta110_alliance_partial",
+        "node_id": "beta110_uighur_aid_cost",
+        "predecessor_conditions": [
+          "normal"
+        ],
+        "predecessor_outcomes": [
+          "partial"
+        ],
+        "previous_memorial_id": "memorial_lingwu_ration_001",
+        "recommended_executor_ids": [
+          "li_fuguo",
+          "grain_official_lingwu",
+          "li_bi"
+        ],
+        "request_text": "援助只完成一部分，请重新核定前线代价。",
+        "resource_keys": [
+          "treasury"
+        ],
+        "sender_id": "li_guangbi",
+        "source_paths": [
+          "accountability_case",
+          "military_commanders",
+          "uighur_route_node"
+        ],
+        "topic": "alliance_cost",
+        "variants": [
+          "partial",
+          "delayed"
+        ],
+        "visible_facts": [
+          "灵武仓粮与赈给名册不符",
+          "军民配给均在等待核定"
+        ],
+        "visible_resistance": [
+          "赈给将压缩军储",
+          "名册仍需复核"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "delayed",
+            "expired"
+          ]
+        },
+        "activation_window": {
+          "end_day": 90.0,
+          "start_day": 61.0
+        },
+        "deadline_days": 3.0,
+        "followup_id": "memorial_beta110_alliance_delayed",
+        "linked_case_id": "beta108_case_uighur_aid_cost",
+        "location_id": "uighur_route_node",
+        "memorial_id": "memorial_beta110_alliance_delayed",
+        "node_id": "beta110_uighur_aid_cost",
+        "predecessor_conditions": [
+          "delayed",
+          "expired"
+        ],
+        "predecessor_outcomes": [
+          "partial",
+          "failed",
+          "expired"
+        ],
+        "previous_memorial_id": "memorial_lingwu_ration_001",
+        "recommended_executor_ids": [
+          "li_fuguo",
+          "grain_official_lingwu",
+          "li_bi"
+        ],
+        "request_text": "条款迟延使盟军重新议价，请决定是否延长承诺。",
+        "resource_keys": [
+          "treasury"
+        ],
+        "sender_id": "uighur_envoy",
+        "source_paths": [
+          "accountability_case",
+          "route_network",
+          "uighur_route_node"
+        ],
+        "topic": "alliance_cost",
+        "variants": [
+          "delayed",
+          "missed"
+        ],
+        "visible_facts": [
+          "灵武仓粮与赈给名册不符",
+          "军民配给均在等待核定"
+        ],
+        "visible_resistance": [
+          "赈给将压缩军储",
+          "名册仍需复核"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "blocked",
+            "lost_contact"
+          ]
+        },
+        "activation_window": {
+          "end_day": 90.0,
+          "start_day": 75.0
+        },
+        "deadline_days": 2.0,
+        "followup_id": "memorial_beta110_alliance_blocked",
+        "linked_case_id": "beta108_case_final_assessment",
+        "location_id": "guanzhong_approach_node",
+        "memorial_id": "memorial_beta110_alliance_blocked",
+        "node_id": "beta110_final_assessment",
+        "predecessor_conditions": [
+          "blocked",
+          "lost_contact"
+        ],
+        "predecessor_outcomes": [
+          "failed",
+          "partial"
+        ],
+        "previous_memorial_id": "memorial_lingwu_ration_001",
+        "recommended_executor_ids": [
+          "li_bi",
+          "chen_xuanli"
+        ],
+        "request_text": "终局证据链未闭合，请先保存异议再结算。",
+        "resource_keys": [
+          "legitimacy",
+          "court_authority"
+        ],
+        "sender_id": "li_bi",
+        "source_paths": [
+          "accountability_case",
+          "chronicle_causal_references",
+          "guanzhong_approach_node"
+        ],
+        "topic": "final_assessment",
+        "variants": [
+          "blocked",
+          "missed"
+        ],
+        "visible_facts": [
+          "灵武仓粮与赈给名册不符",
+          "军民配给均在等待核定"
+        ],
+        "visible_resistance": [
+          "赈给将压缩军储",
+          "名册仍需复核"
+        ]
+      }
+    ],
+    "report_templates": {
+      "beta110_review_reports": {
+        "anomaly": {
+          "summary": "阶段复盘发现需要继续追责的异常。",
+          "title": "阶段复盘异常"
+        },
+        "closure": {
+          "summary": "阶段复盘已形成可追溯的结论记录。",
+          "title": "阶段复盘结案"
+        },
+        "progress": {
+          "summary": "阶段复盘汇总了案件、路线和派系的实际变化。",
+          "title": "阶段复盘进展"
+        },
+        "receipt": {
+          "summary": "阶段报告已登记并保留权威来源。",
+          "title": "阶段报告已登记"
+        }
+      },
+      "fiscal_reports": {
+        "anomaly": {
+          "summary": "灵武仓粮事务需要处理异常。",
+          "title": "灵武仓粮异常"
+        },
+        "closure": {
+          "summary": "灵武仓粮事务已经结案。",
+          "title": "灵武仓粮结案"
+        },
+        "progress": {
+          "summary": "灵武仓粮事务出现进展。",
+          "title": "灵武仓粮进展"
+        },
+        "receipt": {
+          "summary": "灵武仓粮命令已登记。",
+          "title": "灵武仓粮命令已登记"
+        }
+      },
+      "governance": {
+        "anomaly": {
+          "summary": "粮道事务需要处理异常。",
+          "title": "粮道异常"
+        },
+        "closure": {
+          "summary": "粮道事务已经结案。",
+          "title": "粮道结案"
+        },
+        "progress": {
+          "summary": "粮道事务出现进展。",
+          "title": "粮道进展"
+        },
+        "receipt": {
+          "summary": "粮道命令已登记。",
+          "title": "粮道命令已登记"
+        }
+      },
+      "grain_reports": {
+        "anomaly": {
+          "summary": "朔方粮道事务需要处理异常。",
+          "title": "朔方粮道异常"
+        },
+        "closure": {
+          "summary": "朔方粮道事务已经结案。",
+          "title": "朔方粮道结案"
+        },
+        "progress": {
+          "summary": "朔方粮道事务出现进展。",
+          "title": "朔方粮道进展"
+        },
+        "receipt": {
+          "summary": "朔方粮道命令已登记。",
+          "title": "朔方粮道命令已登记"
+        }
+      },
+      "inner_court_reports": {
+        "anomaly": {
+          "summary": "宫门传令事务需要处理异常。",
+          "title": "宫门传令异常"
+        },
+        "closure": {
+          "summary": "宫门传令事务已经结案。",
+          "title": "宫门传令结案"
+        },
+        "progress": {
+          "summary": "宫门传令事务出现进展。",
+          "title": "宫门传令进展"
+        },
+        "receipt": {
+          "summary": "宫门传令命令已登记。",
+          "title": "宫门传令已登记"
+        }
+      }
+    },
+    "special_councils": [],
+    "topic_rules": {
+      "alliance_cost": {
+        "action_id": "verify_rations",
+        "clauses": [],
+        "council_rules": {
+
+        },
+        "opening_question": "援助条款与付款凭据已经到案，应如何核定交换代价并登记履约？",
+        "required_offices": [
+          "envoy_negotiator",
+          "household_supply"
+        ]
+      },
+      "edict_legitimacy": {
+        "action_id": "review_gate_records",
+        "clauses": [],
+        "council_rules": {
+
+        },
+        "opening_question": "诏令复核受阻，应如何保存异议、核验程序并决定暂缓范围？",
+        "required_offices": [
+          "censorate",
+          "menxia_review"
+        ]
+      },
+      "final_assessment": {
+        "action_id": "review_gate_records",
+        "clauses": [],
+        "council_rules": {
+
+        },
+        "opening_question": "终局证据链尚未闭合，应如何保存异议、复核因果并完成结算？",
+        "required_offices": [
+          "zhongshu_drafting",
+          "censorate"
+        ]
+      },
+      "fiscal_supply": {
+        "action_id": "verify_rations",
+        "clauses": [
+          {
+            "adviser_id": "li_bi",
+            "clause_id": "verify_ration_roster",
+            "display_text": "逐项核验仓粮、名册与已发配给。",
+            "draft_patch": {
+              "action_id": "verify_rations"
+            },
+            "label": "核验配给名册"
+          },
+          {
+            "adviser_id": "li_bi",
+            "clause_id": "archive_warehouse_copy",
+            "display_text": "户部与中书各留仓簿副本，便于追核。",
+            "draft_patch": {
+              "authority_tags": [
+                "household_supply"
+              ]
+            },
+            "label": "留存仓簿副本"
+          },
+          {
+            "adviser_id": "li_fuguo",
+            "clause_id": "protect_court_reserve",
+            "display_text": "赈给前先划定行在底储，防止宫中断供。",
+            "draft_patch": {
+              "resources": {
+                "grain": 5.0
+              }
+            },
+            "label": "留足行在底储"
+          },
+          {
+            "adviser_id": "guo_ziyi",
+            "clause_id": "separate_military_rations",
+            "display_text": "军前口粮另册急发，不与民赈混同延误。",
+            "draft_patch": {
+              "deadline_delta": -1.0
+            },
+            "label": "军粮另册急发"
+          }
+        ],
+        "council_rules": {
+          "guo_ziyi": {
+            "clause_ids": [
+              "separate_military_rations"
+            ],
+            "position": "military_ration_priority",
+            "reply_mode": "weigh",
+            "reply_to": "all_previous"
+          },
+          "li_bi": {
+            "clause_ids": [
+              "verify_ration_roster",
+              "archive_warehouse_copy"
+            ],
+            "position": "roster_audit",
+            "reply_mode": "opening"
+          },
+          "li_fuguo": {
+            "clause_ids": [
+              "protect_court_reserve"
+            ],
+            "position": "court_continuity",
+            "reply_mode": "rebut",
+            "reply_to": "previous"
+          },
+          "seat_order": [
+            "li_bi",
+            "li_fuguo",
+            "guo_ziyi"
+          ]
+        },
+        "opening_question": "仓储与名册不一，军民待哺，诸卿可陈核验与给养之策。",
+        "report_template_family": "fiscal_reports",
+        "required_offices": [
+          "household_supply"
+        ]
+      },
+      "frontline_supply": {
+        "action_id": "prioritize_grain_transport",
+        "clauses": [],
+        "council_rules": {
+
+        },
+        "opening_question": "前线军粮通道受阻，应如何改道、核验收讫并保障军期？",
+        "required_offices": [
+          "war_mobilization",
+          "household_supply"
+        ]
+      },
+      "inner_court_oversight": {
+        "action_id": "review_gate_records",
+        "clauses": [
+          {
+            "adviser_id": "li_bi",
+            "clause_id": "verify_gate_log",
+            "display_text": "核验宫门登记与中书传递记录。",
+            "draft_patch": {
+              "action_id": "review_gate_records"
+            },
+            "label": "核验传令记录"
+          },
+          {
+            "adviser_id": "li_bi",
+            "clause_id": "archive_zhongshu_copy",
+            "display_text": "中书留存副本以备复核。",
+            "draft_patch": {
+              "authority_tags": [
+                "censorate"
+              ]
+            },
+            "label": "中书留存副本"
+          },
+          {
+            "adviser_id": "li_fuguo",
+            "clause_id": "inner_outer_dual_sign",
+            "display_text": "内廷与中书双签交验，不中断急报。",
+            "draft_patch": {
+              "required_offices": [
+                "inner_court_gatekeeper"
+              ]
+            },
+            "label": "内外双签交验"
+          },
+          {
+            "adviser_id": "guo_ziyi",
+            "clause_id": "urgent_dispatch_channel",
+            "display_text": "保留军情急报的加急通道。",
+            "draft_patch": {
+              "deadline_delta": -1.0
+            },
+            "label": "军情急报通道"
+          }
+        ],
+        "council_rules": {
+          "guo_ziyi": {
+            "clause_ids": [
+              "urgent_dispatch_channel"
+            ],
+            "position": "military_timing",
+            "reply_mode": "weigh",
+            "reply_to": "all_previous"
+          },
+          "li_bi": {
+            "clause_ids": [
+              "verify_gate_log",
+              "archive_zhongshu_copy"
+            ],
+            "position": "audit_first",
+            "reply_mode": "opening"
+          },
+          "li_fuguo": {
+            "clause_ids": [
+              "inner_outer_dual_sign"
+            ],
+            "position": "continuity_first",
+            "reply_mode": "rebut",
+            "reply_to": "previous"
+          },
+          "seat_order": [
+            "li_bi",
+            "li_fuguo",
+            "guo_ziyi"
+          ]
+        },
+        "opening_question": "宫门传令与中书簿记不一，诸卿可陈复核之法，毋使急报稽延。",
+        "report_template_family": "inner_court_reports",
+        "required_offices": [
+          "censorate",
+          "inner_court_gatekeeper"
+        ]
+      },
+      "military_supply": {
+        "action_id": "prioritize_grain_transport",
+        "clauses": [
+          {
+            "adviser_id": "li_bi",
+            "clause_id": "verify_transport_ledger",
+            "display_text": "先核验粮道转运账册与军前收讫记录。",
+            "draft_patch": {
+              "action_id": "prioritize_grain_transport"
+            },
+            "label": "核验粮道账册"
+          },
+          {
+            "adviser_id": "li_bi",
+            "clause_id": "archive_transfer_copy",
+            "display_text": "转运文书留存副本，供中书与户部复核。",
+            "draft_patch": {
+              "authority_tags": [
+                "household_supply"
+              ]
+            },
+            "label": "留存转运副本"
+          },
+          {
+            "adviser_id": "li_fuguo",
+            "clause_id": "reserve_court_grain",
+            "display_text": "调粮须保留行在底粮，避免朝廷供给中断。",
+            "draft_patch": {
+              "resources": {
+                "grain": 5.0
+              }
+            },
+            "label": "保留行在储粮"
+          },
+          {
+            "adviser_id": "guo_ziyi",
+            "clause_id": "frontline_urgent_transport",
+            "display_text": "军前危急时开设急运通道，先保朔方营垒。",
+            "draft_patch": {
+              "deadline_delta": -1.0
+            },
+            "label": "军前急运优先"
+          }
+        ],
+        "council_rules": {
+          "guo_ziyi": {
+            "clause_ids": [
+              "frontline_urgent_transport"
+            ],
+            "position": "frontline_priority",
+            "reply_mode": "weigh",
+            "reply_to": "all_previous"
+          },
+          "li_bi": {
+            "clause_ids": [
+              "verify_transport_ledger",
+              "archive_transfer_copy"
+            ],
+            "position": "supply_audit",
+            "reply_mode": "opening"
+          },
+          "li_fuguo": {
+            "clause_ids": [
+              "reserve_court_grain"
+            ],
+            "position": "continuity_first",
+            "reply_mode": "rebut",
+            "reply_to": "previous"
+          },
+          "seat_order": [
+            "li_bi",
+            "li_fuguo",
+            "guo_ziyi"
+          ]
+        },
+        "opening_question": "朔方军前粮道受阻，军储将竭，诸卿各陈缓急之策。",
+        "report_template_family": "grain_reports",
+        "required_offices": [
+          "war_mobilization",
+          "household_supply"
+        ]
+      },
+      "palace_authority": {
+        "action_id": "review_gate_records",
+        "clauses": [],
+        "council_rules": {
+
+        },
+        "opening_question": "宫门副本与传令记录已经汇集，应公开到何种范围并由谁留痕复核？",
+        "required_offices": [
+          "inner_court_gatekeeper",
+          "censorate"
+        ]
+      },
+      "supply_accountability": {
+        "action_id": "verify_rations",
+        "clauses": [],
+        "council_rules": {
+
+        },
+        "opening_question": "粮册核验已经形成结果，如何公开凭据、补足缺页并追明责任？",
+        "required_offices": [
+          "household_supply",
+          "censorate"
+        ]
+      }
+    }
+  },
+  "governance_followups": {
+    "followups": [
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal",
+            "delayed",
+            "blocked",
+            "lost_contact"
+          ],
+          "predecessor_outcomes": [
+            "completed",
+            "partial",
+            "failed"
+          ]
+        },
+        "activation_variant": "normal",
+        "activation_window": {
+          "end_day": 8.0,
+          "start_day": 4.0
+        },
+        "case_chain_id": "beta109_supply_chain",
+        "case_phase": "followup",
+        "deadline_days": 6.0,
+        "memorial_id": "memorial_lingwu_ration_001",
+        "missed_precondition_variant": "missed",
+        "predecessor_conditions": [
+          "normal",
+          "delayed",
+          "blocked",
+          "lost_contact"
+        ],
+        "predecessor_outcomes": [
+          "completed",
+          "partial",
+          "failed"
+        ],
+        "previous_memorial_id": "memorial_shuofang_grain_001",
+        "public_source_paths": [
+          "governance.orders",
+          "governance.reports",
+          "structured_memories"
+        ],
+        "variants": {
+          "blocked": {
+            "next_action": "verify_rations",
+            "public_summary": "粮道事务受阻，军民配给不能假定已经完成。",
+            "public_title": "受阻后的仓粮复核"
+          },
+          "delayed": {
+            "next_action": "verify_rations",
+            "public_summary": "粮道迟延挤压配给窗口，复核必须公开记下时效代价。",
+            "public_title": "迟延后的仓粮复核"
+          },
+          "failed": {
+            "next_action": "verify_rations",
+            "public_summary": "前置粮道事务失败，仓粮名册保留缺口追查入口。",
+            "public_title": "灵武仓粮缺口追查"
+          },
+          "missed": {
+            "next_action": "day30_review",
+            "public_summary": "前置期限已错过，复盘保留未能及时复核的事实。",
+            "public_title": "错过期限的仓粮缺口"
+          },
+          "normal": {
+            "next_action": "verify_rations",
+            "public_summary": "前置粮道账册已形成可追踪依据，仓粮与军民名册进入复核。",
+            "public_title": "灵武仓粮复核"
+          },
+          "partial": {
+            "next_action": "verify_rations",
+            "public_summary": "前置账册只完成部分核验，仓粮后续事务要求补核。",
+            "public_title": "灵武仓粮补核"
+          }
+        }
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal",
+            "delayed",
+            "blocked",
+            "lost_contact"
+          ],
+          "predecessor_outcomes": [
+            "completed",
+            "partial",
+            "failed"
+          ]
+        },
+        "activation_variant": "delayed",
+        "activation_window": {
+          "end_day": 21.0,
+          "start_day": 9.0
+        },
+        "case_chain_id": "beta109_supply_chain",
+        "case_phase": "followup",
+        "deadline_days": 6.0,
+        "memorial_id": "memorial_gate_review_001",
+        "missed_precondition_variant": "missed",
+        "predecessor_conditions": [
+          "normal",
+          "delayed",
+          "blocked",
+          "lost_contact"
+        ],
+        "predecessor_outcomes": [
+          "completed",
+          "partial",
+          "failed"
+        ],
+        "previous_memorial_id": "memorial_lingwu_ration_001",
+        "public_source_paths": [
+          "governance.orders",
+          "governance.reports",
+          "chronicle_causal_references"
+        ],
+        "variants": {
+          "blocked": {
+            "next_action": "review_gate_records",
+            "public_summary": "前置事务受阻，内外双签或急报通道的代价不能隐藏。",
+            "public_title": "受阻后的宫门授权复核"
+          },
+          "delayed": {
+            "next_action": "review_gate_records",
+            "public_summary": "配给迟延压缩宫门复核时限，复盘须说明效率与留痕的取舍。",
+            "public_title": "迟延后的宫门传令复核"
+          },
+          "failed": {
+            "next_action": "review_gate_records",
+            "public_summary": "配给事务未闭合，宫门授权复核转为公开因果链的一部分。",
+            "public_title": "配给失败后的授权复核"
+          },
+          "missed": {
+            "next_action": "day30_review",
+            "public_summary": "配给期限已错过，宫门登记缺口在第三十日复盘中公开。",
+            "public_title": "错过期限的宫门记录"
+          },
+          "normal": {
+            "next_action": "review_gate_records",
+            "public_summary": "仓粮复核已有公开依据，宫门登记与中书传递记录进入双签复核。",
+            "public_title": "宫门传令复核"
+          },
+          "partial": {
+            "next_action": "review_gate_records",
+            "public_summary": "仓粮复核留下部分缺页，宫门复核必须同时保留缺口。",
+            "public_title": "仓粮缺页后的宫门复核"
+          }
+        }
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal"
+          ],
+          "predecessor_outcomes": [
+            "completed"
+          ]
+        },
+        "activation_window": {
+          "end_day": 45.0,
+          "start_day": 31.0
+        },
+        "deadline_days": 4.0,
+        "followup_id": "memorial_beta110_supply_completed",
+        "linked_case_id": "beta108_case_grain_ledger_shortfall",
+        "location_id": "grain_road_node",
+        "memorial_id": "memorial_beta110_supply_completed",
+        "node_id": "beta110_grain_case_open",
+        "predecessor_conditions": [
+          "normal"
+        ],
+        "predecessor_outcomes": [
+          "completed"
+        ],
+        "previous_memorial_id": "memorial_shuofang_grain_001",
+        "recommended_executor_ids": [
+          "grain_official_lingwu",
+          "li_bi"
+        ],
+        "request_text": "请将核账结果与仓籍副本一并呈报。",
+        "resource_keys": [
+          "grain"
+        ],
+        "sender_id": "grain_official_lingwu",
+        "source_paths": [
+          "accountability_case",
+          "governance.memorial_templates",
+          "grain_road_node"
+        ],
+        "topic": "supply_accountability",
+        "variants": [
+          "normal",
+          "partial"
+        ],
+        "visible_facts": [
+          "朔方前营粮道受阻",
+          "前线可用存粮不足"
+        ],
+        "visible_resistance": [
+          "行在库存有限",
+          "旧令已占用部分转运"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal"
+          ],
+          "predecessor_outcomes": [
+            "partial"
+          ]
+        },
+        "activation_window": {
+          "end_day": 45.0,
+          "start_day": 31.0
+        },
+        "deadline_days": 3.0,
+        "followup_id": "memorial_beta110_supply_partial",
+        "linked_case_id": "beta108_case_grain_ledger_shortfall",
+        "location_id": "grain_road_node",
+        "memorial_id": "memorial_beta110_supply_partial",
+        "node_id": "beta110_grain_case_open",
+        "predecessor_conditions": [
+          "normal"
+        ],
+        "predecessor_outcomes": [
+          "partial"
+        ],
+        "previous_memorial_id": "memorial_shuofang_grain_001",
+        "recommended_executor_ids": [
+          "grain_official_lingwu",
+          "li_bi"
+        ],
+        "request_text": "部分粮册尚缺，请准许商民补交凭据。",
+        "resource_keys": [
+          "grain"
+        ],
+        "sender_id": "lingwu_merchant_refugee",
+        "source_paths": [
+          "accountability_case",
+          "merchant_refugees",
+          "grain_road_node"
+        ],
+        "topic": "supply_accountability",
+        "variants": [
+          "partial",
+          "delayed"
+        ],
+        "visible_facts": [
+          "朔方前营粮道受阻",
+          "前线可用存粮不足"
+        ],
+        "visible_resistance": [
+          "行在库存有限",
+          "旧令已占用部分转运"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "delayed",
+            "expired"
+          ]
+        },
+        "activation_window": {
+          "end_day": 45.0,
+          "start_day": 31.0
+        },
+        "deadline_days": 2.0,
+        "followup_id": "memorial_beta110_supply_delayed",
+        "linked_case_id": "beta108_case_grain_ledger_shortfall",
+        "location_id": "grain_road_node",
+        "memorial_id": "memorial_beta110_supply_delayed",
+        "node_id": "beta110_grain_case_open",
+        "predecessor_conditions": [
+          "delayed",
+          "expired"
+        ],
+        "predecessor_outcomes": [
+          "partial",
+          "failed",
+          "expired"
+        ],
+        "previous_memorial_id": "memorial_shuofang_grain_001",
+        "recommended_executor_ids": [
+          "grain_official_lingwu",
+          "li_bi"
+        ],
+        "request_text": "迟延已经影响军期，请裁定补核期限。",
+        "resource_keys": [
+          "grain"
+        ],
+        "sender_id": "grain_official_lingwu",
+        "source_paths": [
+          "accountability_case",
+          "route_network",
+          "grain_road_node"
+        ],
+        "topic": "supply_accountability",
+        "variants": [
+          "delayed",
+          "missed"
+        ],
+        "visible_facts": [
+          "朔方前营粮道受阻",
+          "前线可用存粮不足"
+        ],
+        "visible_resistance": [
+          "行在库存有限",
+          "旧令已占用部分转运"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "blocked",
+            "lost_contact"
+          ]
+        },
+        "activation_window": {
+          "end_day": 45.0,
+          "start_day": 36.0
+        },
+        "deadline_days": 2.0,
+        "followup_id": "memorial_beta110_supply_blocked",
+        "linked_case_id": "beta108_case_military_grain_delay",
+        "location_id": "shuofang_front_node",
+        "memorial_id": "memorial_beta110_supply_blocked",
+        "node_id": "beta110_front_supply_delay",
+        "predecessor_conditions": [
+          "blocked",
+          "lost_contact"
+        ],
+        "predecessor_outcomes": [
+          "failed",
+          "partial"
+        ],
+        "previous_memorial_id": "memorial_shuofang_grain_001",
+        "recommended_executor_ids": [
+          "guo_ziyi",
+          "li_bi"
+        ],
+        "request_text": "军粮通道受阻，请确认是否改走备用路。",
+        "resource_keys": [
+          "grain"
+        ],
+        "sender_id": "guo_ziyi",
+        "source_paths": [
+          "accountability_case",
+          "route_network",
+          "shuofang_front_node"
+        ],
+        "topic": "frontline_supply",
+        "variants": [
+          "blocked",
+          "missed"
+        ],
+        "visible_facts": [
+          "朔方前营粮道受阻",
+          "前线可用存粮不足"
+        ],
+        "visible_resistance": [
+          "行在库存有限",
+          "旧令已占用部分转运"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal"
+          ],
+          "predecessor_outcomes": [
+            "completed"
+          ]
+        },
+        "activation_window": {
+          "end_day": 65.0,
+          "start_day": 42.0
+        },
+        "deadline_days": 5.0,
+        "followup_id": "memorial_beta110_palace_completed",
+        "linked_case_id": "beta108_case_palace_order_leak",
+        "location_id": "palace_inner_channel_node",
+        "memorial_id": "memorial_beta110_palace_completed",
+        "node_id": "beta110_palace_order_leak",
+        "predecessor_conditions": [
+          "normal"
+        ],
+        "predecessor_outcomes": [
+          "completed"
+        ],
+        "previous_memorial_id": "memorial_gate_review_001",
+        "recommended_executor_ids": [
+          "li_fuguo",
+          "chen_xuanli",
+          "li_bi"
+        ],
+        "request_text": "宫门副本已齐，请议定公开留痕范围。",
+        "resource_keys": [
+          "court_authority"
+        ],
+        "sender_id": "li_fuguo",
+        "source_paths": [
+          "accountability_case",
+          "office_terms",
+          "palace_inner_channel_node"
+        ],
+        "topic": "palace_authority",
+        "variants": [
+          "normal",
+          "partial"
+        ],
+        "visible_facts": [
+          "宫门登记与中书传递记录不一致",
+          "内廷传令渠道出现迟滞"
+        ],
+        "visible_resistance": [
+          "公开核查会触动近侍网络",
+          "私下处置缺少正式依据"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal"
+          ],
+          "predecessor_outcomes": [
+            "partial"
+          ]
+        },
+        "activation_window": {
+          "end_day": 65.0,
+          "start_day": 42.0
+        },
+        "deadline_days": 4.0,
+        "followup_id": "memorial_beta110_palace_partial",
+        "linked_case_id": "beta108_case_palace_order_leak",
+        "location_id": "lingwu_court_node",
+        "memorial_id": "memorial_beta110_palace_partial",
+        "node_id": "beta110_palace_order_leak",
+        "predecessor_conditions": [
+          "normal"
+        ],
+        "predecessor_outcomes": [
+          "partial"
+        ],
+        "previous_memorial_id": "memorial_gate_review_001",
+        "recommended_executor_ids": [
+          "li_fuguo",
+          "chen_xuanli",
+          "li_bi"
+        ],
+        "request_text": "传令链仍有缺页，请准许中书补录。",
+        "resource_keys": [
+          "court_authority"
+        ],
+        "sender_id": "li_bi",
+        "source_paths": [
+          "accountability_case",
+          "structured_memories",
+          "lingwu_court_node"
+        ],
+        "topic": "palace_authority",
+        "variants": [
+          "partial",
+          "delayed"
+        ],
+        "visible_facts": [
+          "宫门登记与中书传递记录不一致",
+          "内廷传令渠道出现迟滞"
+        ],
+        "visible_resistance": [
+          "公开核查会触动近侍网络",
+          "私下处置缺少正式依据"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "delayed",
+            "expired"
+          ]
+        },
+        "activation_window": {
+          "end_day": 65.0,
+          "start_day": 42.0
+        },
+        "deadline_days": 3.0,
+        "followup_id": "memorial_beta110_palace_delayed",
+        "linked_case_id": "beta108_case_palace_order_leak",
+        "location_id": "lingwu_court_node",
+        "memorial_id": "memorial_beta110_palace_delayed",
+        "node_id": "beta110_palace_order_leak",
+        "predecessor_conditions": [
+          "delayed",
+          "expired"
+        ],
+        "predecessor_outcomes": [
+          "partial",
+          "failed",
+          "expired"
+        ],
+        "previous_memorial_id": "memorial_gate_review_001",
+        "recommended_executor_ids": [
+          "li_fuguo",
+          "chen_xuanli",
+          "li_bi"
+        ],
+        "request_text": "旧制先例被绕过，请对传令程序作公开说明。",
+        "resource_keys": [
+          "court_authority"
+        ],
+        "sender_id": "hardline_old_court_official",
+        "source_paths": [
+          "accountability_case",
+          "old_court",
+          "lingwu_court_node"
+        ],
+        "topic": "palace_authority",
+        "variants": [
+          "delayed",
+          "missed"
+        ],
+        "visible_facts": [
+          "宫门登记与中书传递记录不一致",
+          "内廷传令渠道出现迟滞"
+        ],
+        "visible_resistance": [
+          "公开核查会触动近侍网络",
+          "私下处置缺少正式依据"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "blocked",
+            "lost_contact"
+          ]
+        },
+        "activation_window": {
+          "end_day": 65.0,
+          "start_day": 48.0
+        },
+        "deadline_days": 2.0,
+        "followup_id": "memorial_beta110_palace_blocked",
+        "linked_case_id": "beta108_case_edict_legitimacy",
+        "location_id": "lingwu_court_node",
+        "memorial_id": "memorial_beta110_palace_blocked",
+        "node_id": "beta110_edict_legitimacy",
+        "predecessor_conditions": [
+          "blocked",
+          "lost_contact"
+        ],
+        "predecessor_outcomes": [
+          "failed",
+          "partial"
+        ],
+        "previous_memorial_id": "memorial_gate_review_001",
+        "recommended_executor_ids": [
+          "chen_xuanli",
+          "li_bi"
+        ],
+        "request_text": "诏令复核被阻，请暂缓执行并留下异议。",
+        "resource_keys": [
+          "court_authority",
+          "legitimacy"
+        ],
+        "sender_id": "li_chu",
+        "source_paths": [
+          "accountability_case",
+          "office_terms",
+          "lingwu_court_node"
+        ],
+        "topic": "edict_legitimacy",
+        "variants": [
+          "blocked",
+          "missed"
+        ],
+        "visible_facts": [
+          "宫门登记与中书传递记录不一致",
+          "内廷传令渠道出现迟滞"
+        ],
+        "visible_resistance": [
+          "公开核查会触动近侍网络",
+          "私下处置缺少正式依据"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal"
+          ],
+          "predecessor_outcomes": [
+            "completed"
+          ]
+        },
+        "activation_window": {
+          "end_day": 90.0,
+          "start_day": 61.0
+        },
+        "deadline_days": 6.0,
+        "followup_id": "memorial_beta110_alliance_completed",
+        "linked_case_id": "beta108_case_uighur_aid_cost",
+        "location_id": "uighur_route_node",
+        "memorial_id": "memorial_beta110_alliance_completed",
+        "node_id": "beta110_uighur_aid_cost",
+        "predecessor_conditions": [
+          "normal"
+        ],
+        "predecessor_outcomes": [
+          "completed"
+        ],
+        "previous_memorial_id": "memorial_lingwu_ration_001",
+        "recommended_executor_ids": [
+          "li_fuguo",
+          "grain_official_lingwu",
+          "li_bi"
+        ],
+        "request_text": "援助条款已确认，请登记交换与付款凭据。",
+        "resource_keys": [
+          "treasury"
+        ],
+        "sender_id": "uighur_envoy",
+        "source_paths": [
+          "accountability_case",
+          "route_network",
+          "uighur_route_node"
+        ],
+        "topic": "alliance_cost",
+        "variants": [
+          "normal",
+          "partial"
+        ],
+        "visible_facts": [
+          "灵武仓粮与赈给名册不符",
+          "军民配给均在等待核定"
+        ],
+        "visible_resistance": [
+          "赈给将压缩军储",
+          "名册仍需复核"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "normal"
+          ],
+          "predecessor_outcomes": [
+            "partial"
+          ]
+        },
+        "activation_window": {
+          "end_day": 90.0,
+          "start_day": 61.0
+        },
+        "deadline_days": 5.0,
+        "followup_id": "memorial_beta110_alliance_partial",
+        "linked_case_id": "beta108_case_uighur_aid_cost",
+        "location_id": "uighur_route_node",
+        "memorial_id": "memorial_beta110_alliance_partial",
+        "node_id": "beta110_uighur_aid_cost",
+        "predecessor_conditions": [
+          "normal"
+        ],
+        "predecessor_outcomes": [
+          "partial"
+        ],
+        "previous_memorial_id": "memorial_lingwu_ration_001",
+        "recommended_executor_ids": [
+          "li_fuguo",
+          "grain_official_lingwu",
+          "li_bi"
+        ],
+        "request_text": "援助只完成一部分，请重新核定前线代价。",
+        "resource_keys": [
+          "treasury"
+        ],
+        "sender_id": "li_guangbi",
+        "source_paths": [
+          "accountability_case",
+          "military_commanders",
+          "uighur_route_node"
+        ],
+        "topic": "alliance_cost",
+        "variants": [
+          "partial",
+          "delayed"
+        ],
+        "visible_facts": [
+          "灵武仓粮与赈给名册不符",
+          "军民配给均在等待核定"
+        ],
+        "visible_resistance": [
+          "赈给将压缩军储",
+          "名册仍需复核"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "delayed",
+            "expired"
+          ]
+        },
+        "activation_window": {
+          "end_day": 90.0,
+          "start_day": 61.0
+        },
+        "deadline_days": 3.0,
+        "followup_id": "memorial_beta110_alliance_delayed",
+        "linked_case_id": "beta108_case_uighur_aid_cost",
+        "location_id": "uighur_route_node",
+        "memorial_id": "memorial_beta110_alliance_delayed",
+        "node_id": "beta110_uighur_aid_cost",
+        "predecessor_conditions": [
+          "delayed",
+          "expired"
+        ],
+        "predecessor_outcomes": [
+          "partial",
+          "failed",
+          "expired"
+        ],
+        "previous_memorial_id": "memorial_lingwu_ration_001",
+        "recommended_executor_ids": [
+          "li_fuguo",
+          "grain_official_lingwu",
+          "li_bi"
+        ],
+        "request_text": "条款迟延使盟军重新议价，请决定是否延长承诺。",
+        "resource_keys": [
+          "treasury"
+        ],
+        "sender_id": "uighur_envoy",
+        "source_paths": [
+          "accountability_case",
+          "route_network",
+          "uighur_route_node"
+        ],
+        "topic": "alliance_cost",
+        "variants": [
+          "delayed",
+          "missed"
+        ],
+        "visible_facts": [
+          "灵武仓粮与赈给名册不符",
+          "军民配给均在等待核定"
+        ],
+        "visible_resistance": [
+          "赈给将压缩军储",
+          "名册仍需复核"
+        ]
+      },
+      {
+        "activation_predicate": {
+          "predecessor_conditions": [
+            "blocked",
+            "lost_contact"
+          ]
+        },
+        "activation_window": {
+          "end_day": 90.0,
+          "start_day": 75.0
+        },
+        "deadline_days": 2.0,
+        "followup_id": "memorial_beta110_alliance_blocked",
+        "linked_case_id": "beta108_case_final_assessment",
+        "location_id": "guanzhong_approach_node",
+        "memorial_id": "memorial_beta110_alliance_blocked",
+        "node_id": "beta110_final_assessment",
+        "predecessor_conditions": [
+          "blocked",
+          "lost_contact"
+        ],
+        "predecessor_outcomes": [
+          "failed",
+          "partial"
+        ],
+        "previous_memorial_id": "memorial_lingwu_ration_001",
+        "recommended_executor_ids": [
+          "li_bi",
+          "chen_xuanli"
+        ],
+        "request_text": "终局证据链未闭合，请先保存异议再结算。",
+        "resource_keys": [
+          "legitimacy",
+          "court_authority"
+        ],
+        "sender_id": "li_bi",
+        "source_paths": [
+          "accountability_case",
+          "chronicle_causal_references",
+          "guanzhong_approach_node"
+        ],
+        "topic": "final_assessment",
+        "variants": [
+          "blocked",
+          "missed"
+        ],
+        "visible_facts": [
+          "灵武仓粮与赈给名册不符",
+          "军民配给均在等待核定"
+        ],
+        "visible_resistance": [
+          "赈给将压缩军储",
+          "名册仍需复核"
+        ]
+      }
+    ]
+  },
+  "political_echoes": {
+    "echoes": [
+      {
+        "day_window": {
+          "end_day": 8.0,
+          "start_day": 2.0
+        },
+        "echo_id": "beta109_echo_grain_trust",
+        "effects": {
+          "chronicle": {
+            "source_memorial_id": "memorial_shuofang_grain_001",
+            "source_order_id": "beta109_grain_route_order"
+          },
+          "faction_reaction": {
+            "faction_key": "military_commanders",
+            "influence_delta": 2.0,
+            "pressure_delta": -2.0,
+            "reaction_type": "grain_route_trust",
+            "summary": "粮道回报改变将帅集团对兑现能力的判断。"
+          },
+          "relationship_delta": {
+            "source_character_id": "guo_ziyi",
+            "target_character_id": "li_bi",
+            "value": 2.0
+          },
+          "structured_memory": {
+            "id": "beta109_memory_grain_route_trust",
+            "memory_type": "political_season_echo",
+            "participants": [
+              "guo_ziyi",
+              "li_bi"
+            ],
+            "source_id": "guo_ziyi",
+            "summary": "朔方粮道的账册与转运选择改变了郭子仪对行在兑现能力的判断。",
+            "tags": [
+              "beta109",
+              "grain_route",
+              "trust"
+            ],
+            "target_id": "li_bi",
+            "visibility": "public"
+          }
+        },
+        "public_sources": [
+          {
+            "kind": "faction",
+            "path": "faction_agenda_state.military_commanders.pressure",
+            "source_memorial_id": "memorial_shuofang_grain_001",
+            "target_faction": "military_commanders"
+          }
+        ],
+        "public_summary": "郭子仪收到粮道回报：核账路线提高了他对后续兑现的信任，急运路线则让他继续催促下一批粮草。",
+        "route_ids": [
+          "audit_then_transport",
+          "frontline_urgent_transport"
+        ],
+        "source_memorial_id": "memorial_shuofang_grain_001",
+        "target_character_id": "guo_ziyi",
+        "target_faction": "military_commanders",
+        "trigger_conditions": [
+          "normal",
+          "delayed"
+        ],
+        "trigger_outcomes": [
+          "completed",
+          "partial"
+        ]
+      },
+      {
+        "day_window": {
+          "end_day": 14.0,
+          "start_day": 9.0
+        },
+        "echo_id": "beta109_echo_ration_relationship",
+        "effects": {
+          "chronicle": {
+            "source_memorial_id": "memorial_lingwu_ration_001",
+            "source_order_id": "beta109_ration_order"
+          },
+          "faction_reaction": {
+            "faction_key": "merchant_refugees",
+            "influence_delta": 1.0,
+            "pressure_delta": -1.0,
+            "reaction_type": "ration_record_confidence",
+            "summary": "配给名册的可追溯性改变商民难民压力。"
+          },
+          "relationship_delta": {
+            "source_character_id": "lingwu_merchant_refugee",
+            "target_character_id": "grain_official_lingwu",
+            "value": 3.0
+          },
+          "structured_memory": {
+            "id": "beta109_memory_ration_roster_confidence",
+            "memory_type": "political_season_echo",
+            "participants": [
+              "lingwu_merchant_refugee",
+              "grain_official_lingwu"
+            ],
+            "source_id": "lingwu_merchant_refugee",
+            "summary": "军民配给名册是否留痕，成为灵武商民判断粮草官是否可信的依据。",
+            "tags": [
+              "beta109",
+              "ration_roster",
+              "relationship"
+            ],
+            "target_id": "grain_official_lingwu",
+            "visibility": "public"
+          }
+        },
+        "public_sources": [
+          {
+            "kind": "relationship",
+            "path": "relationship_state.lingwu_merchant_refugee.grain_official_lingwu",
+            "relationship_target_character_id": "grain_official_lingwu",
+            "source_memorial_id": "memorial_lingwu_ration_001",
+            "target_character_id": "lingwu_merchant_refugee"
+          }
+        ],
+        "public_summary": "灵武商民代表根据军民配给是否留下名册副本，改变对粮草官与行在的信任与保留。",
+        "relationship_target_character_id": "grain_official_lingwu",
+        "route_ids": [
+          "audit_then_transport",
+          "frontline_urgent_transport"
+        ],
+        "source_memorial_id": "memorial_lingwu_ration_001",
+        "target_character_id": "lingwu_merchant_refugee",
+        "target_faction": "merchant_refugees",
+        "trigger_conditions": [
+          "normal",
+          "delayed",
+          "blocked"
+        ],
+        "trigger_outcomes": [
+          "completed",
+          "partial",
+          "failed"
+        ]
+      },
+      {
+        "day_window": {
+          "end_day": 21.0,
+          "start_day": 15.0
+        },
+        "echo_id": "beta109_echo_gate_authority",
+        "effects": {
+          "chronicle": {
+            "source_memorial_id": "memorial_gate_review_001",
+            "source_order_id": "beta109_gate_order"
+          },
+          "faction_reaction": {
+            "faction_key": "eunuch_network",
+            "influence_delta": -1.0,
+            "pressure_delta": 3.0,
+            "reaction_type": "gate_authority_boundary",
+            "summary": "宫门复核改变内廷网络对授权边界的压力判断。"
+          },
+          "relationship_delta": {
+            "source_character_id": "li_fuguo",
+            "target_character_id": "li_bi",
+            "value": -1.0
+          },
+          "structured_memory": {
+            "id": "beta109_memory_gate_authority_boundary",
+            "memory_type": "political_season_echo",
+            "participants": [
+              "li_fuguo",
+              "li_bi"
+            ],
+            "source_id": "li_fuguo",
+            "summary": "宫门传令的双签或急报选择，留下了内廷授权边界的公开记忆。",
+            "tags": [
+              "beta109",
+              "gate_review",
+              "authority"
+            ],
+            "target_id": "li_bi",
+            "visibility": "public"
+          }
+        },
+        "public_sources": [
+          {
+            "kind": "structured_memory",
+            "path": "structured_memories.beta109_gate_authority",
+            "source_memorial_id": "memorial_gate_review_001",
+            "target_character_id": "li_fuguo"
+          }
+        ],
+        "public_summary": "李辅国根据宫门记录是否双签留痕，回应内廷授权边界；急报通道会保留效率，也会提高渠道压力。",
+        "route_ids": [
+          "audit_then_transport",
+          "frontline_urgent_transport"
+        ],
+        "source_memorial_id": "memorial_gate_review_001",
+        "target_character_id": "li_fuguo",
+        "target_faction": "eunuch_network",
+        "trigger_conditions": [
+          "normal",
+          "blocked",
+          "lost_contact"
+        ],
+        "trigger_outcomes": [
+          "completed",
+          "partial",
+          "failed"
+        ]
+      },
+      {
+        "day_window": {
+          "end_day": 27.0,
+          "start_day": 12.0
+        },
+        "echo_id": "beta109_echo_appointment_faction",
+        "effects": {
+          "chronicle": {
+            "source_memorial_id": "memorial_gate_review_001",
+            "source_order_id": "appointment_menxia_review_day_12_20"
+          },
+          "faction_reaction": {
+            "faction_key": "xuanzong_old_court",
+            "influence_delta": 2.0,
+            "pressure_delta": 2.0,
+            "reaction_type": "appointment_meaning",
+            "summary": "门下省任命的政治含义改变旧臣集团的连续性压力。"
+          },
+          "relationship_delta": {
+            "source_character_id": "hardline_old_court_official",
+            "target_character_id": "li_bi",
+            "value": -2.0
+          },
+          "structured_memory": {
+            "id": "beta109_memory_menxia_appointment_meaning",
+            "memory_type": "political_season_echo",
+            "participants": [
+              "hardline_old_court_official",
+              "li_bi"
+            ],
+            "source_id": "hardline_old_court_official",
+            "summary": "门下省任命的候选人选择成为程序合法性与旧制连续性冲突的记忆。",
+            "tags": [
+              "beta109",
+              "appointment",
+              "faction"
+            ],
+            "target_id": "li_bi",
+            "visibility": "public"
+          }
+        },
+        "public_sources": [
+          {
+            "kind": "chronicle",
+            "path": "chronicle_causal_references.political_season_echo",
+            "source_memorial_id": "memorial_gate_review_001",
+            "source_order_id": "appointment_menxia_review_day_12_20",
+            "target_character_id": "hardline_old_court_official"
+          },
+          {
+            "kind": "npc",
+            "path": "npc_active_action_feed.old_court_precedent_disputed",
+            "source_memorial_id": "memorial_gate_review_001",
+            "target_npc_action": "old_court_precedent_disputed"
+          }
+        ],
+        "public_summary": "门下省任命把程序合法性或旧制连续性变成后续 NPC 行动的公开依据。",
+        "route_ids": [
+          "audit_then_transport",
+          "frontline_urgent_transport"
+        ],
+        "source_memorial_id": "memorial_gate_review_001",
+        "source_order_id": "appointment_menxia_review_day_12_20",
+        "target_character_id": "hardline_old_court_official",
+        "target_faction": "xuanzong_old_court",
+        "target_npc_action": "old_court_precedent_disputed",
+        "trigger_conditions": [
+          "normal",
+          "delayed"
+        ],
+        "trigger_outcomes": [
+          "completed",
+          "partial"
+        ]
+      },
+      {
+        "day_window": {
+          "end_day": 45.0,
+          "start_day": 31.0
+        },
+        "echo_id": "beta110_echo_grain_audit_trust",
+        "effects": {
+          "faction_reactions": [
+            {
+              "faction_id": "merchant_refugees",
+              "influence_delta": 2.0,
+              "pressure_delta": -1.0
+            }
+          ],
+          "memories": [
+            {
+              "character_id": "grain_official_lingwu",
+              "memory_id": "beta110_memory_grain_audit_trust",
+              "summary": "公开核账留下可复核的信任记录。"
+            }
+          ],
+          "relationship_effects": [
+            {
+              "character_id": "grain_official_lingwu",
+              "delta": 3.0,
+              "reason": "audit_trust"
+            }
+          ]
+        },
+        "public_sources": [
+          "memorial_beta110_supply_completed",
+          "beta110_grain_case_open"
+        ],
+        "public_summary": "公开核账让粮官与商民之间形成可追溯的信任。",
+        "route_ids": [
+          "beta110_route_audit_continuity"
+        ],
+        "source_memorial_id": "memorial_beta110_supply_completed",
+        "target_character_id": "grain_official_lingwu",
+        "target_faction_id": "merchant_refugees",
+        "trigger_conditions": [
+          "normal"
+        ],
+        "trigger_outcomes": [
+          "completed"
+        ]
+      },
+      {
+        "day_window": {
+          "end_day": 45.0,
+          "start_day": 31.0
+        },
+        "echo_id": "beta110_echo_grain_continuity_cost",
+        "effects": {
+          "faction_reactions": [
+            {
+              "faction_id": "merchant_refugees",
+              "influence_delta": -1.0,
+              "pressure_delta": 3.0
+            }
+          ],
+          "memories": [
+            {
+              "character_id": "lingwu_merchant_refugee",
+              "memory_id": "beta110_memory_continuity_cost",
+              "summary": "连续性方案留下商民承担迟延的记忆。"
+            }
+          ],
+          "relationship_effects": [
+            {
+              "character_id": "lingwu_merchant_refugee",
+              "delta": -2.0,
+              "reason": "continuity_cost"
+            }
+          ]
+        },
+        "public_sources": [
+          "memorial_beta110_supply_partial",
+          "beta110_supply_review"
+        ],
+        "public_summary": "制度连续性保住了账册，却把迟延成本转给了商民。",
+        "route_ids": [
+          "beta110_route_audit_continuity",
+          "beta110_route_court_consolidation"
+        ],
+        "source_memorial_id": "memorial_beta110_supply_partial",
+        "target_character_id": "lingwu_merchant_refugee",
+        "target_faction_id": "merchant_refugees",
+        "trigger_conditions": [
+          "normal",
+          "delayed"
+        ],
+        "trigger_outcomes": [
+          "partial",
+          "failed"
+        ]
+      },
+      {
+        "day_window": {
+          "end_day": 48.0,
+          "start_day": 36.0
+        },
+        "echo_id": "beta110_echo_frontline_delivery_confidence",
+        "effects": {
+          "faction_reactions": [
+            {
+              "faction_id": "military_commanders",
+              "influence_delta": 3.0,
+              "pressure_delta": -2.0
+            }
+          ],
+          "memories": [
+            {
+              "character_id": "guo_ziyi",
+              "memory_id": "beta110_memory_frontline_delivery",
+              "summary": "军前急运成为判断政令信用的实际证据。"
+            }
+          ],
+          "relationship_effects": [
+            {
+              "character_id": "guo_ziyi",
+              "delta": 4.0,
+              "reason": "frontline_delivery"
+            }
+          ]
+        },
+        "public_sources": [
+          "memorial_beta110_supply_blocked",
+          "beta110_front_supply_delay"
+        ],
+        "public_summary": "急运是否抵达，决定郭子仪和军方对新命令的信心。",
+        "route_ids": [
+          "beta110_route_frontline_urgency"
+        ],
+        "source_memorial_id": "memorial_beta110_supply_blocked",
+        "target_character_id": "guo_ziyi",
+        "target_faction_id": "military_commanders",
+        "trigger_conditions": [
+          "normal",
+          "blocked"
+        ],
+        "trigger_outcomes": [
+          "completed",
+          "partial"
+        ]
+      },
+      {
+        "day_window": {
+          "end_day": 48.0,
+          "start_day": 36.0
+        },
+        "echo_id": "beta110_echo_supply_debt",
+        "effects": {
+          "faction_reactions": [
+            {
+              "faction_id": "suzong_court",
+              "influence_delta": -1.0,
+              "pressure_delta": 3.0
+            }
+          ],
+          "memories": [
+            {
+              "character_id": "li_bi",
+              "memory_id": "beta110_memory_supply_debt",
+              "summary": "紧急供给以政治债的形式留下。"
+            }
+          ],
+          "political_debt": {
+            "character_id": "li_bi",
+            "debt_id": "beta110_debt_supply_exception",
+            "kind": "urgent_supply_exception",
+            "streak": 1.0
+          },
+          "relationship_effects": [
+            {
+              "character_id": "li_bi",
+              "delta": -2.0,
+              "reason": "supply_debt"
+            }
+          ]
+        },
+        "public_sources": [
+          "memorial_beta110_supply_delayed",
+          "beta110_front_supply_delay"
+        ],
+        "public_summary": "事后补程序形成政治债，李泌开始记录每一次紧急例外。",
+        "route_ids": [
+          "beta110_route_frontline_urgency",
+          "beta110_route_court_consolidation"
+        ],
+        "source_memorial_id": "memorial_beta110_supply_delayed",
+        "target_character_id": "li_bi",
+        "target_faction_id": "suzong_court",
+        "trigger_conditions": [
+          "delayed",
+          "missed"
+        ],
+        "trigger_outcomes": [
+          "partial",
+          "failed"
+        ]
+      },
+      {
+        "day_window": {
+          "end_day": 65.0,
+          "start_day": 42.0
+        },
+        "echo_id": "beta110_echo_gate_authority",
+        "effects": {
+          "faction_reactions": [
+            {
+              "faction_id": "eunuch_network",
+              "influence_delta": 2.0,
+              "pressure_delta": 2.0
+            }
+          ],
+          "memories": [
+            {
+              "character_id": "li_fuguo",
+              "memory_id": "beta110_memory_gate_authority",
+              "summary": "宫门权力必须以副本登记才能继续。"
+            }
+          ],
+          "relationship_effects": [
+            {
+              "character_id": "li_fuguo",
+              "delta": 2.0,
+              "reason": "gate_authority"
+            }
+          ]
+        },
+        "public_sources": [
+          "memorial_beta110_palace_completed",
+          "beta110_palace_order_leak"
+        ],
+        "public_summary": "宫门副本公开后，李辅国的传令权得到登记也受到约束。",
+        "route_ids": [
+          "beta110_route_audit_continuity",
+          "beta110_route_court_consolidation"
+        ],
+        "source_memorial_id": "memorial_beta110_palace_completed",
+        "target_character_id": "li_fuguo",
+        "target_faction_id": "eunuch_network",
+        "trigger_conditions": [
+          "normal"
+        ],
+        "trigger_outcomes": [
+          "completed"
+        ]
+      },
+      {
+        "day_window": {
+          "end_day": 65.0,
+          "start_day": 42.0
+        },
+        "echo_id": "beta110_echo_old_court_precedent",
+        "effects": {
+          "faction_reactions": [
+            {
+              "faction_id": "xuanzong_old_court",
+              "influence_delta": 2.0,
+              "pressure_delta": 4.0
+            }
+          ],
+          "memories": [
+            {
+              "character_id": "hardline_old_court_official",
+              "memory_id": "beta110_memory_old_court_precedent",
+              "summary": "旧制先例在宫门迟延中重新获得发言权。"
+            }
+          ],
+          "relationship_effects": [
+            {
+              "character_id": "hardline_old_court_official",
+              "delta": 3.0,
+              "reason": "old_court_precedent"
+            }
+          ]
+        },
+        "public_sources": [
+          "memorial_beta110_palace_delayed",
+          "beta110_palace_order_leak"
+        ],
+        "public_summary": "传令迟延让旧臣以先例重新质疑中枢授权。",
+        "route_ids": [
+          "beta110_route_court_consolidation",
+          "beta110_route_audit_continuity"
+        ],
+        "source_memorial_id": "memorial_beta110_palace_delayed",
+        "target_character_id": "hardline_old_court_official",
+        "target_faction_id": "xuanzong_old_court",
+        "trigger_conditions": [
+          "delayed",
+          "missed"
+        ],
+        "trigger_outcomes": [
+          "partial",
+          "failed"
+        ]
+      },
+      {
+        "day_window": {
+          "end_day": 65.0,
+          "start_day": 48.0
+        },
+        "echo_id": "beta110_echo_edict_procedure",
+        "effects": {
+          "faction_reactions": [
+            {
+              "faction_id": "suzong_court",
+              "influence_delta": 1.0,
+              "pressure_delta": 2.0
+            }
+          ],
+          "memories": [
+            {
+              "character_id": "li_chu",
+              "memory_id": "beta110_memory_edict_procedure",
+              "summary": "诏令例外必须附带可复核程序。"
+            }
+          ],
+          "relationship_effects": [
+            {
+              "character_id": "li_chu",
+              "delta": 2.0,
+              "reason": "edict_procedure"
+            }
+          ]
+        },
+        "public_sources": [
+          "memorial_beta110_palace_blocked",
+          "beta110_edict_legitimacy"
+        ],
+        "public_summary": "诏令复核被阻，李楚要求把例外程序写进公开记录。",
+        "route_ids": [
+          "beta110_route_frontline_urgency",
+          "beta110_route_court_consolidation"
+        ],
+        "source_memorial_id": "memorial_beta110_palace_blocked",
+        "target_character_id": "li_chu",
+        "target_faction_id": "suzong_court",
+        "trigger_conditions": [
+          "blocked",
+          "lost_contact"
+        ],
+        "trigger_outcomes": [
+          "failed",
+          "partial"
+        ]
+      },
+      {
+        "day_window": {
+          "end_day": 65.0,
+          "start_day": 48.0
+        },
+        "echo_id": "beta110_echo_court_authority",
+        "effects": {
+          "faction_reactions": [
+            {
+              "faction_id": "suzong_court",
+              "influence_delta": 3.0,
+              "pressure_delta": 3.0
+            }
+          ],
+          "memories": [
+            {
+              "character_id": "li_bi",
+              "memory_id": "beta110_memory_court_authority",
+              "summary": "程序权威扩大，同时提高中枢内部的边界冲突。"
+            }
+          ],
+          "relationship_effects": [
+            {
+              "character_id": "li_bi",
+              "delta": 3.0,
+              "reason": "court_authority"
+            }
+          ]
+        },
+        "public_sources": [
+          "memorial_beta110_palace_completed",
+          "beta110_authority_review"
+        ],
+        "public_summary": "固守中枢让门下省的程序权威上升，但派系边界变得更紧。",
+        "route_ids": [
+          "beta110_route_court_consolidation"
+        ],
+        "source_memorial_id": "memorial_beta110_palace_completed",
+        "target_character_id": "li_bi",
+        "target_faction_id": "suzong_court",
+        "trigger_conditions": [
+          "normal"
+        ],
+        "trigger_outcomes": [
+          "completed"
+        ]
+      },
+      {
+        "day_window": {
+          "end_day": 90.0,
+          "start_day": 61.0
+        },
+        "echo_id": "beta110_echo_uighur_terms",
+        "effects": {
+          "faction_reactions": [
+            {
+              "faction_id": "uighur_envoys",
+              "influence_delta": 2.0,
+              "pressure_delta": -1.0
+            }
+          ],
+          "memories": [
+            {
+              "character_id": "uighur_envoy",
+              "memory_id": "beta110_memory_uighur_terms",
+              "summary": "盟约条款以公开凭据代替口头承诺。"
+            }
+          ],
+          "relationship_effects": [
+            {
+              "character_id": "uighur_envoy",
+              "delta": 3.0,
+              "reason": "uighur_terms"
+            }
+          ]
+        },
+        "public_sources": [
+          "memorial_beta110_alliance_completed",
+          "beta110_uighur_aid_cost"
+        ],
+        "public_summary": "援助条款完成登记，盟军使者开始按公开凭据议价。",
+        "route_ids": [
+          "beta110_route_audit_continuity",
+          "beta110_route_frontline_urgency"
+        ],
+        "source_memorial_id": "memorial_beta110_alliance_completed",
+        "target_character_id": "uighur_envoy",
+        "target_faction_id": "uighur_envoys",
+        "trigger_conditions": [
+          "normal"
+        ],
+        "trigger_outcomes": [
+          "completed"
+        ]
+      },
+      {
+        "day_window": {
+          "end_day": 90.0,
+          "start_day": 61.0
+        },
+        "echo_id": "beta110_echo_military_credit",
+        "effects": {
+          "faction_reactions": [
+            {
+              "faction_id": "military_commanders",
+              "influence_delta": 3.0,
+              "pressure_delta": -2.0
+            }
+          ],
+          "memories": [
+            {
+              "character_id": "li_guangbi",
+              "memory_id": "beta110_memory_military_credit",
+              "summary": "快速付款换来军方信用。"
+            }
+          ],
+          "political_debt": {
+            "character_id": "li_guangbi",
+            "debt_id": "beta110_debt_aid_payment",
+            "kind": "alliance_payment",
+            "streak": 1.0
+          },
+          "relationship_effects": [
+            {
+              "character_id": "li_guangbi",
+              "delta": 4.0,
+              "reason": "military_credit"
+            }
+          ]
+        },
+        "public_sources": [
+          "memorial_beta110_alliance_partial",
+          "beta110_uighur_aid_cost"
+        ],
+        "public_summary": "援助付款的速度提高军方信用，却使财政和中枢承担更大压力。",
+        "route_ids": [
+          "beta110_route_frontline_urgency"
+        ],
+        "source_memorial_id": "memorial_beta110_alliance_partial",
+        "target_character_id": "li_guangbi",
+        "target_faction_id": "military_commanders",
+        "trigger_conditions": [
+          "normal",
+          "delayed"
+        ],
+        "trigger_outcomes": [
+          "partial",
+          "failed"
+        ]
+      },
+      {
+        "day_window": {
+          "end_day": 90.0,
+          "start_day": 75.0
+        },
+        "echo_id": "beta110_echo_assessment_record",
+        "effects": {
+          "faction_reactions": [
+            {
+              "faction_id": "suzong_court",
+              "influence_delta": -1.0,
+              "pressure_delta": 2.0
+            }
+          ],
+          "memories": [
+            {
+              "character_id": "li_bi",
+              "memory_id": "beta110_memory_assessment_record",
+              "summary": "援助迟延成为终局考核的可追责记录。"
+            }
+          ],
+          "relationship_effects": [
+            {
+              "character_id": "li_bi",
+              "delta": -1.0,
+              "reason": "assessment_record"
+            }
+          ]
+        },
+        "public_sources": [
+          "memorial_beta110_alliance_delayed",
+          "beta110_final_assessment"
+        ],
+        "public_summary": "援助迟延被写入终局考核，后续官员将继承这份记录。",
+        "route_ids": [
+          "beta110_route_audit_continuity",
+          "beta110_route_court_consolidation"
+        ],
+        "source_memorial_id": "memorial_beta110_alliance_delayed",
+        "target_character_id": "li_bi",
+        "target_faction_id": "suzong_court",
+        "trigger_conditions": [
+          "delayed",
+          "missed"
+        ],
+        "trigger_outcomes": [
+          "partial",
+          "failed"
+        ]
+      },
+      {
+        "day_window": {
+          "end_day": 90.0,
+          "start_day": 75.0
+        },
+        "echo_id": "beta110_echo_final_legacy",
+        "effects": {
+          "faction_reactions": [
+            {
+              "faction_id": "eunuch_network",
+              "influence_delta": -2.0,
+              "pressure_delta": 4.0
+            }
+          ],
+          "memories": [
+            {
+              "character_id": "li_fuguo",
+              "memory_id": "beta110_memory_final_legacy",
+              "summary": "未闭合的证据链成为宫廷派系的终局遗产。"
+            }
+          ],
+          "relationship_effects": [
+            {
+              "character_id": "li_fuguo",
+              "delta": -3.0,
+              "reason": "final_legacy"
+            }
+          ]
+        },
+        "public_sources": [
+          "memorial_beta110_alliance_blocked",
+          "beta110_day90_settlement"
+        ],
+        "public_summary": "证据链未闭合，李辅国与宫廷派系将以不同版本继承九十日余波。",
+        "route_ids": [
+          "beta110_route_court_consolidation",
+          "beta110_route_frontline_urgency"
+        ],
+        "source_memorial_id": "memorial_beta110_alliance_blocked",
+        "target_character_id": "li_fuguo",
+        "target_faction_id": "eunuch_network",
+        "trigger_conditions": [
+          "blocked",
+          "lost_contact"
+        ],
+        "trigger_outcomes": [
+          "failed",
+          "partial"
+        ]
+      }
+    ]
+  },
+  "political_season": {
+    "allow_overlap_after_predicates": true,
+    "appointment_window": {
+      "end_day": 90.0,
+      "office_id": "menxia_review",
+      "public_summary": "第十二日至第九十日可补任门下省审议人；逾期空缺不再锁死后续问责与复核流程。",
+      "start_day": 12.0
+    },
+    "base_season_id": "beta109_political_season",
+    "campaign_id": "anshi_beta_1_10",
+    "end_day": 90.0,
+    "freeze_before_day": 31.0,
+    "nodes": [
+      {
+        "arc": "supply_accountability",
+        "case_id": "beta108_case_grain_ledger_shortfall",
+        "day": 31.0,
+        "node_id": "beta110_grain_case_open",
+        "source_paths": [
+          "accountability_case",
+          "grain_road_node"
+        ],
+        "strategic_node_id": "grain_road_node",
+        "title": "粮册短缺案开启"
+      },
+      {
+        "arc": "supply_accountability",
+        "case_id": "beta108_case_military_grain_delay",
+        "day": 36.0,
+        "node_id": "beta110_front_supply_delay",
+        "source_paths": [
+          "accountability_case",
+          "route_network",
+          "shuofang_front_node"
+        ],
+        "strategic_node_id": "shuofang_front_node",
+        "title": "前线军粮迟延"
+      },
+      {
+        "arc": "palace_authority",
+        "case_id": "beta108_case_palace_order_leak",
+        "day": 42.0,
+        "node_id": "beta110_palace_order_leak",
+        "source_paths": [
+          "accountability_case",
+          "palace_inner_channel_node"
+        ],
+        "strategic_node_id": "palace_inner_channel_node",
+        "title": "宫门传令泄漏"
+      },
+      {
+        "arc": "supply_accountability",
+        "day": 45.0,
+        "node_id": "beta110_supply_review",
+        "report_id": "beta110_report_supply_review",
+        "source_paths": [
+          "case_outcomes",
+          "route_network",
+          "governance_reports"
+        ],
+        "strategic_node_id": "grain_road_node",
+        "title": "军粮与账册阶段复盘"
+      },
+      {
+        "arc": "palace_authority",
+        "case_id": "beta108_case_edict_legitimacy",
+        "day": 48.0,
+        "node_id": "beta110_edict_legitimacy",
+        "source_paths": [
+          "accountability_case",
+          "office_terms",
+          "lingwu_court_node"
+        ],
+        "strategic_node_id": "lingwu_court_node",
+        "title": "诏令正当性争议"
+      },
+      {
+        "arc": "alliance_cost",
+        "case_id": "beta108_case_uighur_aid_cost",
+        "day": 61.0,
+        "node_id": "beta110_uighur_aid_cost",
+        "source_paths": [
+          "accountability_case",
+          "route_network",
+          "uighur_route_node"
+        ],
+        "strategic_node_id": "uighur_route_node",
+        "title": "回纥援助代价"
+      },
+      {
+        "arc": "palace_authority",
+        "day": 65.0,
+        "node_id": "beta110_authority_review",
+        "report_id": "beta110_report_authority_review",
+        "source_paths": [
+          "case_outcomes",
+          "office_terms",
+          "political_echoes"
+        ],
+        "strategic_node_id": "palace_inner_channel_node",
+        "title": "授权与门禁阶段复盘"
+      },
+      {
+        "arc": "alliance_cost",
+        "case_id": "beta108_case_final_assessment",
+        "day": 75.0,
+        "node_id": "beta110_final_assessment",
+        "source_paths": [
+          "accountability_case",
+          "route_network",
+          "guanzhong_approach_node"
+        ],
+        "strategic_node_id": "guanzhong_approach_node",
+        "title": "终局考核案开启"
+      },
+      {
+        "arc": "alliance_cost",
+        "day": 90.0,
+        "node_id": "beta110_day90_settlement",
+        "report_id": "beta110_report_final_assessment",
+        "source_paths": [
+          "case_outcomes",
+          "governance_reports",
+          "chronicle_causal_references"
+        ],
+        "strategic_node_id": "guanzhong_approach_node",
+        "title": "九十日余波结算"
+      }
+    ],
+    "report_ids": [
+      "beta110_report_supply_review",
+      "beta110_report_authority_review",
+      "beta110_report_final_assessment"
+    ],
+    "report_template_families_by_topic": {
+
+    },
+    "report_templates": {
+      "beta110_review_reports": {
+        "anomaly": {
+          "summary": "阶段复盘发现需要继续追责的异常。",
+          "title": "阶段复盘异常"
+        },
+        "closure": {
+          "summary": "阶段复盘已形成可追溯的结论记录。",
+          "title": "阶段复盘结案"
+        },
+        "progress": {
+          "summary": "阶段复盘汇总了案件、路线和派系的实际变化。",
+          "title": "阶段复盘进展"
+        },
+        "receipt": {
+          "summary": "阶段报告已登记并保留权威来源。",
+          "title": "阶段报告已登记"
+        }
+      }
+    },
+    "routes": [
+      {
+        "base_route_ids": [
+          "audit_then_transport"
+        ],
+        "label": "核账续制",
+        "outcome_weights": {
+          "authority": 7.0,
+          "front_supply": -3.0,
+          "institutional_continuity": 8.0,
+          "military_confidence": -1.0
+        },
+        "public_route_id": "beta110_route_audit_continuity",
+        "public_summary": "以公开核账、双签和可追溯的援助条款维持制度连续性，前线速度承担代价。",
+        "route_id": "beta110_route_audit_continuity",
+        "steps": [
+          {
+            "clause_ids": [
+              "verify_transport_ledger",
+              "archive_transfer_copy"
+            ],
+            "day_window": {
+              "end_day": 36.0,
+              "start_day": 31.0
+            },
+            "node_id": "beta110_grain_case_open",
+            "operation": "public_audit_grain",
+            "source_paths": [
+              "accountability_case",
+              "grain_road_node"
+            ],
+            "step_id": "beta110_audit_supply"
+          },
+          {
+            "clause_ids": [
+              "inner_outer_dual_sign"
+            ],
+            "day_window": {
+              "end_day": 48.0,
+              "start_day": 42.0
+            },
+            "node_id": "beta110_palace_order_leak",
+            "operation": "public_palace_review",
+            "source_paths": [
+              "accountability_case",
+              "palace_inner_channel_node"
+            ],
+            "step_id": "beta110_audit_palace"
+          },
+          {
+            "clause_ids": [
+              "archive_transfer_copy"
+            ],
+            "day_window": {
+              "end_day": 75.0,
+              "start_day": 61.0
+            },
+            "node_id": "beta110_uighur_aid_cost",
+            "operation": "renegotiate_aid",
+            "source_paths": [
+              "accountability_case",
+              "uighur_route_node"
+            ],
+            "step_id": "beta110_audit_alliance"
+          }
+        ]
+      },
+      {
+        "base_route_ids": [
+          "frontline_urgent"
+        ],
+        "label": "军前急应",
+        "outcome_weights": {
+          "authority": -5.0,
+          "frontline_recovery": 9.0,
+          "military_confidence": 8.0,
+          "political_debt": 7.0
+        },
+        "public_route_id": "beta110_route_frontline_urgency",
+        "public_summary": "先保前线供给、再补事后程序，军事信用上升，但政治债务和授权损耗累积。",
+        "route_id": "beta110_route_frontline_urgency",
+        "steps": [
+          {
+            "clause_ids": [
+              "frontline_urgent_transport",
+              "separate_military_rations"
+            ],
+            "day_window": {
+              "end_day": 42.0,
+              "start_day": 31.0
+            },
+            "node_id": "beta110_front_supply_delay",
+            "operation": "urgent_dispatch",
+            "source_paths": [
+              "accountability_case",
+              "shuofang_front_node"
+            ],
+            "step_id": "beta110_urgent_supply"
+          },
+          {
+            "clause_ids": [
+              "urgent_dispatch_channel"
+            ],
+            "day_window": {
+              "end_day": 61.0,
+              "start_day": 48.0
+            },
+            "node_id": "beta110_edict_legitimacy",
+            "operation": "rapid_decree_after_procedure",
+            "source_paths": [
+              "accountability_case",
+              "lingwu_court_node"
+            ],
+            "step_id": "beta110_urgent_palace"
+          },
+          {
+            "clause_ids": [
+              "frontline_urgent_transport"
+            ],
+            "day_window": {
+              "end_day": 75.0,
+              "start_day": 61.0
+            },
+            "node_id": "beta110_uighur_aid_cost",
+            "operation": "pay_aid",
+            "source_paths": [
+              "accountability_case",
+              "uighur_route_node"
+            ],
+            "step_id": "beta110_urgent_alliance"
+          }
+        ]
+      },
+      {
+        "base_route_ids": [
+          "audit_then_transport",
+          "frontline_urgent"
+        ],
+        "label": "固守中枢",
+        "outcome_weights": {
+          "authority": 10.0,
+          "faction_conflict": 7.0,
+          "front_supply": -2.0,
+          "institutional_continuity": 5.0
+        },
+        "public_route_id": "beta110_route_court_consolidation",
+        "public_summary": "保护职位与门禁，分拆供给并延后援助，以中央程序换取更强的中枢权威。",
+        "route_id": "beta110_route_court_consolidation",
+        "steps": [
+          {
+            "clause_ids": [
+              "verify_ration_roster"
+            ],
+            "day_window": {
+              "end_day": 42.0,
+              "start_day": 31.0
+            },
+            "node_id": "beta110_grain_case_open",
+            "operation": "split_supply",
+            "source_paths": [
+              "accountability_case",
+              "grain_road_node"
+            ],
+            "step_id": "beta110_court_supply"
+          },
+          {
+            "clause_ids": [
+              "inner_outer_dual_sign",
+              "urgent_dispatch_channel"
+            ],
+            "day_window": {
+              "end_day": 65.0,
+              "start_day": 42.0
+            },
+            "node_id": "beta110_palace_order_leak",
+            "operation": "inner_gate_control",
+            "source_paths": [
+              "accountability_case",
+              "office_terms",
+              "palace_inner_channel_node"
+            ],
+            "step_id": "beta110_court_palace"
+          },
+          {
+            "clause_ids": [
+              "archive_transfer_copy"
+            ],
+            "day_window": {
+              "end_day": 90.0,
+              "start_day": 61.0
+            },
+            "node_id": "beta110_uighur_aid_cost",
+            "operation": "delay_renegotiate_aid",
+            "source_paths": [
+              "accountability_case",
+              "uighur_route_node"
+            ],
+            "step_id": "beta110_court_alliance"
+          }
+        ]
+      }
+    ],
+    "schema_version": 110.0,
+    "season_id": "beta110_political_season",
+    "start_day": 1.0
+  },
+  "political_season_review": {
+    "campaign_id": "anshi_beta_1_10",
+    "reviews": [
+      {
+        "accountability_preview": {
+          "case_id": "beta108_case_palace_order_leak",
+          "open_day": 42.0
+        },
+        "day": 45.0,
+        "node_id": "beta110_supply_review",
+        "public_summary": "公开比较粮册短缺、前线迟延和三条路线留下的凭据。",
+        "report_id": "beta110_report_supply_review",
+        "review_id": "beta110_supply_review",
+        "sections": [
+          {
+            "public_prompt": "哪一份粮道凭据真正改变了后续选择？",
+            "public_title": "两案事实",
+            "section_id": "supply_cases",
+            "source_echo_ids": [
+              "beta110_echo_grain_audit_trust",
+              "beta110_echo_supply_debt"
+            ]
+          },
+          {
+            "public_prompt": "军期与制度连续性分别承担了什么代价？",
+            "public_title": "连续性代价",
+            "section_id": "supply_cost",
+            "source_echo_ids": [
+              "beta110_echo_grain_continuity_cost",
+              "beta110_echo_frontline_delivery_confidence"
+            ]
+          }
+        ],
+        "source_requirements": [
+          "case:beta108_case_grain_ledger_shortfall",
+          "case:beta108_case_military_grain_delay",
+          "echo:beta110_echo_grain_audit_trust"
+        ],
+        "sources": [
+          {
+            "case_id": "beta108_case_grain_ledger_shortfall",
+            "path": "accountability_cases.beta108_case_grain_ledger_shortfall",
+            "source_id": "beta110_source_supply_case"
+          },
+          {
+            "case_id": "beta108_case_military_grain_delay",
+            "path": "accountability_cases.beta108_case_military_grain_delay",
+            "source_id": "beta110_source_front_case"
+          },
+          {
+            "echo_id": "beta110_echo_grain_audit_trust",
+            "path": "political_echoes.beta110_echo_grain_audit_trust",
+            "source_id": "beta110_source_supply_echo"
+          }
+        ],
+        "state_paths": [
+          "resources",
+          "route_network",
+          "faction_agenda_state",
+          "governance_state.cases"
+        ],
+        "title": "军粮与账册阶段复盘"
+      },
+      {
+        "accountability_preview": {
+          "case_id": "beta108_case_uighur_aid_cost",
+          "open_day": 61.0
+        },
+        "day": 65.0,
+        "node_id": "beta110_authority_review",
+        "public_summary": "复盘宫门泄漏、诏令正当性和职位安排如何改变中枢权威。",
+        "report_id": "beta110_report_authority_review",
+        "review_id": "beta110_authority_review",
+        "sections": [
+          {
+            "public_prompt": "谁获得了可登记的授权，谁只获得了口头例外？",
+            "public_title": "授权案件",
+            "section_id": "authority_cases",
+            "source_echo_ids": [
+              "beta110_echo_gate_authority",
+              "beta110_echo_old_court_precedent"
+            ]
+          },
+          {
+            "public_prompt": "程序成为约束，还是成为新的派系边界？",
+            "public_title": "诏令程序",
+            "section_id": "edict_procedure",
+            "source_echo_ids": [
+              "beta110_echo_edict_procedure",
+              "beta110_echo_court_authority"
+            ]
+          }
+        ],
+        "source_requirements": [
+          "case:beta108_case_palace_order_leak",
+          "case:beta108_case_edict_legitimacy",
+          "echo:beta110_echo_gate_authority"
+        ],
+        "sources": [
+          {
+            "case_id": "beta108_case_palace_order_leak",
+            "path": "accountability_cases.beta108_case_palace_order_leak",
+            "source_id": "beta110_source_palace_case"
+          },
+          {
+            "case_id": "beta108_case_edict_legitimacy",
+            "path": "accountability_cases.beta108_case_edict_legitimacy",
+            "source_id": "beta110_source_edict_case"
+          },
+          {
+            "echo_id": "beta110_echo_gate_authority",
+            "path": "political_echoes.beta110_echo_gate_authority",
+            "source_id": "beta110_source_gate_echo"
+          }
+        ],
+        "state_paths": [
+          "office_terms",
+          "faction_agenda_state",
+          "structured_memories",
+          "chronicle_causal_references"
+        ],
+        "title": "授权与门禁阶段复盘"
+      },
+      {
+        "accountability_preview": {
+          "case_id": "beta108_case_final_assessment",
+          "open_day": 75.0
+        },
+        "day": 90.0,
+        "node_id": "beta110_day90_settlement",
+        "public_summary": "以六案、三份报告、政治债、人物关系和 chronicle 因果引用结算三条路线的遗产。",
+        "report_id": "beta110_report_final_assessment",
+        "review_id": "beta110_final_assessment",
+        "sections": [
+          {
+            "public_prompt": "哪些责任已闭合，哪些责任转入下一阶段？",
+            "public_title": "六案遗留",
+            "section_id": "final_cases",
+            "source_echo_ids": [
+              "beta110_echo_uighur_terms",
+              "beta110_echo_assessment_record"
+            ]
+          },
+          {
+            "public_prompt": "九十日后留下的是前线恢复、制度连续性还是权威裂解？",
+            "public_title": "路线遗产",
+            "section_id": "final_legacy",
+            "source_echo_ids": [
+              "beta110_echo_military_credit",
+              "beta110_echo_final_legacy"
+            ]
+          }
+        ],
+        "source_requirements": [
+          "case:beta108_case_uighur_aid_cost",
+          "case:beta108_case_final_assessment",
+          "report:beta110_report_authority_review",
+          "echo:beta110_echo_final_legacy"
+        ],
+        "sources": [
+          {
+            "case_id": "beta108_case_uighur_aid_cost",
+            "path": "accountability_cases.beta108_case_uighur_aid_cost",
+            "source_id": "beta110_source_aid_case"
+          },
+          {
+            "case_id": "beta108_case_final_assessment",
+            "path": "accountability_cases.beta108_case_final_assessment",
+            "source_id": "beta110_source_final_case"
+          },
+          {
+            "echo_id": "beta110_echo_final_legacy",
+            "path": "political_echoes.beta110_echo_final_legacy",
+            "source_id": "beta110_source_legacy_echo"
+          },
+          {
+            "path": "governance_reports.beta110_report_authority_review",
+            "report_id": "beta110_report_authority_review",
+            "source_id": "beta110_source_authority_report"
+          }
+        ],
+        "state_paths": [
+          "resources",
+          "faction_agenda_state",
+          "office_terms",
+          "political_debts",
+          "structured_memories",
+          "chronicle_causal_references",
+          "ending_weights"
+        ],
+        "title": "九十日余波结算"
+      }
+    ],
+    "schema_version": 110.0
+  },
+  "political_season_reviews": [
+    {
+      "accountability_preview": {
+        "case_id": "beta108_case_palace_order_leak",
+        "open_day": 42.0
+      },
+      "day": 45.0,
+      "node_id": "beta110_supply_review",
+      "public_summary": "公开比较粮册短缺、前线迟延和三条路线留下的凭据。",
+      "report_id": "beta110_report_supply_review",
+      "review_id": "beta110_supply_review",
+      "sections": [
+        {
+          "public_prompt": "哪一份粮道凭据真正改变了后续选择？",
+          "public_title": "两案事实",
+          "section_id": "supply_cases",
+          "source_echo_ids": [
+            "beta110_echo_grain_audit_trust",
+            "beta110_echo_supply_debt"
+          ]
+        },
+        {
+          "public_prompt": "军期与制度连续性分别承担了什么代价？",
+          "public_title": "连续性代价",
+          "section_id": "supply_cost",
+          "source_echo_ids": [
+            "beta110_echo_grain_continuity_cost",
+            "beta110_echo_frontline_delivery_confidence"
+          ]
+        }
+      ],
+      "source_requirements": [
+        "case:beta108_case_grain_ledger_shortfall",
+        "case:beta108_case_military_grain_delay",
+        "echo:beta110_echo_grain_audit_trust"
+      ],
+      "sources": [
+        {
+          "case_id": "beta108_case_grain_ledger_shortfall",
+          "path": "accountability_cases.beta108_case_grain_ledger_shortfall",
+          "source_id": "beta110_source_supply_case"
+        },
+        {
+          "case_id": "beta108_case_military_grain_delay",
+          "path": "accountability_cases.beta108_case_military_grain_delay",
+          "source_id": "beta110_source_front_case"
+        },
+        {
+          "echo_id": "beta110_echo_grain_audit_trust",
+          "path": "political_echoes.beta110_echo_grain_audit_trust",
+          "source_id": "beta110_source_supply_echo"
+        }
+      ],
+      "state_paths": [
+        "resources",
+        "route_network",
+        "faction_agenda_state",
+        "governance_state.cases"
+      ],
+      "title": "军粮与账册阶段复盘"
+    },
+    {
+      "accountability_preview": {
+        "case_id": "beta108_case_uighur_aid_cost",
+        "open_day": 61.0
+      },
+      "day": 65.0,
+      "node_id": "beta110_authority_review",
+      "public_summary": "复盘宫门泄漏、诏令正当性和职位安排如何改变中枢权威。",
+      "report_id": "beta110_report_authority_review",
+      "review_id": "beta110_authority_review",
+      "sections": [
+        {
+          "public_prompt": "谁获得了可登记的授权，谁只获得了口头例外？",
+          "public_title": "授权案件",
+          "section_id": "authority_cases",
+          "source_echo_ids": [
+            "beta110_echo_gate_authority",
+            "beta110_echo_old_court_precedent"
+          ]
+        },
+        {
+          "public_prompt": "程序成为约束，还是成为新的派系边界？",
+          "public_title": "诏令程序",
+          "section_id": "edict_procedure",
+          "source_echo_ids": [
+            "beta110_echo_edict_procedure",
+            "beta110_echo_court_authority"
+          ]
+        }
+      ],
+      "source_requirements": [
+        "case:beta108_case_palace_order_leak",
+        "case:beta108_case_edict_legitimacy",
+        "echo:beta110_echo_gate_authority"
+      ],
+      "sources": [
+        {
+          "case_id": "beta108_case_palace_order_leak",
+          "path": "accountability_cases.beta108_case_palace_order_leak",
+          "source_id": "beta110_source_palace_case"
+        },
+        {
+          "case_id": "beta108_case_edict_legitimacy",
+          "path": "accountability_cases.beta108_case_edict_legitimacy",
+          "source_id": "beta110_source_edict_case"
+        },
+        {
+          "echo_id": "beta110_echo_gate_authority",
+          "path": "political_echoes.beta110_echo_gate_authority",
+          "source_id": "beta110_source_gate_echo"
+        }
+      ],
+      "state_paths": [
+        "office_terms",
+        "faction_agenda_state",
+        "structured_memories",
+        "chronicle_causal_references"
+      ],
+      "title": "授权与门禁阶段复盘"
+    },
+    {
+      "accountability_preview": {
+        "case_id": "beta108_case_final_assessment",
+        "open_day": 75.0
+      },
+      "day": 90.0,
+      "node_id": "beta110_day90_settlement",
+      "public_summary": "以六案、三份报告、政治债、人物关系和 chronicle 因果引用结算三条路线的遗产。",
+      "report_id": "beta110_report_final_assessment",
+      "review_id": "beta110_final_assessment",
+      "sections": [
+        {
+          "public_prompt": "哪些责任已闭合，哪些责任转入下一阶段？",
+          "public_title": "六案遗留",
+          "section_id": "final_cases",
+          "source_echo_ids": [
+            "beta110_echo_uighur_terms",
+            "beta110_echo_assessment_record"
+          ]
+        },
+        {
+          "public_prompt": "九十日后留下的是前线恢复、制度连续性还是权威裂解？",
+          "public_title": "路线遗产",
+          "section_id": "final_legacy",
+          "source_echo_ids": [
+            "beta110_echo_military_credit",
+            "beta110_echo_final_legacy"
+          ]
+        }
+      ],
+      "source_requirements": [
+        "case:beta108_case_uighur_aid_cost",
+        "case:beta108_case_final_assessment",
+        "report:beta110_report_authority_review",
+        "echo:beta110_echo_final_legacy"
+      ],
+      "sources": [
+        {
+          "case_id": "beta108_case_uighur_aid_cost",
+          "path": "accountability_cases.beta108_case_uighur_aid_cost",
+          "source_id": "beta110_source_aid_case"
+        },
+        {
+          "case_id": "beta108_case_final_assessment",
+          "path": "accountability_cases.beta108_case_final_assessment",
+          "source_id": "beta110_source_final_case"
+        },
+        {
+          "echo_id": "beta110_echo_final_legacy",
+          "path": "political_echoes.beta110_echo_final_legacy",
+          "source_id": "beta110_source_legacy_echo"
+        },
+        {
+          "path": "governance_reports.beta110_report_authority_review",
+          "report_id": "beta110_report_authority_review",
+          "source_id": "beta110_source_authority_report"
+        }
+      ],
+      "state_paths": [
+        "resources",
+        "faction_agenda_state",
+        "office_terms",
+        "political_debts",
+        "structured_memories",
+        "chronicle_causal_references",
+        "ending_weights"
+      ],
+      "title": "九十日余波结算"
+    }
+  ],
+  "schema_version": 113
+}

@@ -1,0 +1,1607 @@
+{
+  "templates": [
+    {
+      "template_id": "promise_formal_commander_authority",
+      "entry_type": "promise",
+      "summary": "The emperor promised formal commander authority if the general accepts a constrained order.",
+      "default_due_days": 30,
+      "visibility": "private",
+      "stakes": [
+        "military_trust",
+        "commander_authority"
+      ],
+      "risk_tags": [
+        "promise_debt",
+        "military_expectation"
+      ]
+    },
+    {
+      "template_id": "threat_grain_audit",
+      "entry_type": "threat",
+      "summary": "The emperor threatened a grain-account audit if the official delays registers.",
+      "default_due_days": 16,
+      "visibility": "public",
+      "stakes": [
+        "grain_register",
+        "official_resistance"
+      ],
+      "risk_tags": [
+        "investigation",
+        "public_pressure"
+      ]
+    },
+    {
+      "template_id": "bargain_uighur_reward_terms",
+      "entry_type": "bargain",
+      "summary": "The court bargained over Uighur cavalry reward terms.",
+      "default_due_days": 13,
+      "visibility": "public",
+      "stakes": [
+        "uighur_aid",
+        "treasury"
+      ],
+      "risk_tags": [
+        "uighur_price"
+      ]
+    },
+    {
+      "template_id": "refusal_public_restraint",
+      "entry_type": "refusal",
+      "summary": "The court refused to publicly humiliate palace intermediaries.",
+      "default_due_days": 29,
+      "visibility": "private",
+      "stakes": [
+        "eunuch_access",
+        "military_trust"
+      ],
+      "risk_tags": [
+        "court_access_risk"
+      ]
+    },
+    {
+      "template_id": "delay_regional_memorial",
+      "entry_type": "delay",
+      "summary": "A regional memorial was delayed until blame protection is drafted.",
+      "default_due_days": 26,
+      "visibility": "private",
+      "stakes": [
+        "regional_support"
+      ],
+      "risk_tags": [
+        "regional_delay"
+      ]
+    },
+    {
+      "template_id": "formal_paperwork_guo_authority",
+      "entry_type": "formal-paperwork-required",
+      "summary": "Guo Ziyi requires formal authority paperwork before a risky order proceeds.",
+      "default_due_days": 17,
+      "visibility": "private",
+      "stakes": [
+        "commander_authority"
+      ],
+      "risk_tags": [
+        "paperwork_delay"
+      ]
+    },
+    {
+      "template_id": "private_assurance_li_fuguo_access",
+      "entry_type": "private-assurance",
+      "summary": "Li Fuguo received private assurance that access control will not be publicly stripped.",
+      "default_due_days": 11,
+      "visibility": "secret",
+      "stakes": [
+        "palace_access"
+      ],
+      "risk_tags": [
+        "secret_debt"
+      ]
+    },
+    {
+      "template_id": "public_commitment_refugee_grain",
+      "entry_type": "public-commitment",
+      "summary": "The court made a narrow public grain reassurance to refugees and merchants.",
+      "default_due_days": 7,
+      "visibility": "public",
+      "stakes": [
+        "public_order",
+        "grain"
+      ],
+      "risk_tags": [
+        "public_expectation"
+      ]
+    },
+    {
+      "template_id": "favor_owed_li_bi_decree",
+      "entry_type": "favor-owed",
+      "summary": "Li Bi is owed political cover for drafting a difficult decree.",
+      "default_due_days": 17,
+      "visibility": "private",
+      "stakes": [
+        "legitimacy"
+      ],
+      "risk_tags": [
+        "court_debt"
+      ]
+    },
+    {
+      "template_id": "debt_created_pugu_reward",
+      "entry_type": "debt-created",
+      "summary": "A visible reward promise to Pugu Huaien created jealousy risk among generals.",
+      "default_due_days": 14,
+      "visibility": "rumor",
+      "stakes": [
+        "military_credit"
+      ],
+      "risk_tags": [
+        "faction_jealousy"
+      ]
+    },
+    {
+      "template_id": "promise_li_guangbi_reserve_limit",
+      "entry_type": "promise",
+      "summary": "The emperor promised Li Guangbi that reserve orders will wait for relay intelligence.",
+      "default_due_days": 8,
+      "visibility": "private",
+      "stakes": [
+        "reserve_timing"
+      ],
+      "risk_tags": [
+        "reserve_depletion"
+      ]
+    },
+    {
+      "template_id": "threat_li_fuguo_gatekeeping_probe",
+      "entry_type": "threat",
+      "summary": "The emperor threatened a quiet probe of gatekeeping delays.",
+      "default_due_days": 15,
+      "visibility": "secret",
+      "stakes": [
+        "palace_access"
+      ],
+      "risk_tags": [
+        "eunuch_resistance"
+      ]
+    },
+    {
+      "template_id": "bargain_old_court_ritual_language",
+      "entry_type": "bargain",
+      "summary": "The old-court faction accepted emergency language in exchange for ritual deference.",
+      "default_due_days": 9,
+      "visibility": "public",
+      "stakes": [
+        "legitimacy"
+      ],
+      "risk_tags": [
+        "ritual_delay"
+      ]
+    },
+    {
+      "template_id": "refusal_vague_uighur_reward",
+      "entry_type": "refusal",
+      "summary": "The court refused vague Uighur reward terms until a ceiling is named.",
+      "default_due_days": 18,
+      "visibility": "private",
+      "stakes": [
+        "uighur_aid"
+      ],
+      "risk_tags": [
+        "uighur_delay"
+      ]
+    },
+    {
+      "template_id": "delay_pugu_cavalry",
+      "entry_type": "delay",
+      "summary": "Pugu Huaien's cavalry push was delayed pending a clear objective.",
+      "default_due_days": 22,
+      "visibility": "private",
+      "stakes": [
+        "cavalry_action"
+      ],
+      "risk_tags": [
+        "loyalty_risk"
+      ]
+    },
+    {
+      "template_id": "formal_paperwork_regional_support",
+      "entry_type": "formal-paperwork-required",
+      "summary": "Regional support requires a formal memorial and blame protection.",
+      "default_due_days": 29,
+      "visibility": "private",
+      "stakes": [
+        "regional_support"
+      ],
+      "risk_tags": [
+        "paperwork_delay"
+      ]
+    },
+    {
+      "template_id": "private_assurance_li_chu_family",
+      "entry_type": "private-assurance",
+      "summary": "Li Chu received assurance that palace family exposure will be avoided.",
+      "default_due_days": 13,
+      "visibility": "secret",
+      "stakes": [
+        "succession_stability"
+      ],
+      "risk_tags": [
+        "palace_suspicion"
+      ]
+    },
+    {
+      "template_id": "public_commitment_xuanzong_deference",
+      "entry_type": "public-commitment",
+      "summary": "The court publicly committed to deferential language toward Xuanzong.",
+      "default_due_days": 8,
+      "visibility": "public",
+      "stakes": [
+        "legitimacy"
+      ],
+      "risk_tags": [
+        "old_court_pressure"
+      ]
+    },
+    {
+      "template_id": "favor_owed_merchant_information",
+      "entry_type": "favor-owed",
+      "summary": "A merchant source is owed protection after revealing market pressure.",
+      "default_due_days": 12,
+      "visibility": "private",
+      "stakes": [
+        "market_information"
+      ],
+      "risk_tags": [
+        "rumor_leak"
+      ]
+    },
+    {
+      "template_id": "debt_created_regional_recognition",
+      "entry_type": "debt-created",
+      "summary": "Recognition promised to a regional jiedushi representative became a political debt.",
+      "default_due_days": 16,
+      "visibility": "public",
+      "stakes": [
+        "regional_autonomy"
+      ],
+      "risk_tags": [
+        "regional_autonomy"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_01",
+      "entry_type": "office_promise",
+      "default_due_days": 26,
+      "visibility": "public",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_02",
+      "entry_type": "faction_debt",
+      "default_due_days": 13,
+      "visibility": "private",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_03",
+      "entry_type": "office_promise",
+      "default_due_days": 24,
+      "visibility": "public",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_04",
+      "entry_type": "faction_debt",
+      "default_due_days": 11,
+      "visibility": "private",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_05",
+      "entry_type": "office_promise",
+      "default_due_days": 22,
+      "visibility": "public",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_06",
+      "entry_type": "faction_debt",
+      "default_due_days": 9,
+      "visibility": "private",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_07",
+      "entry_type": "office_promise",
+      "default_due_days": 20,
+      "visibility": "public",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_08",
+      "entry_type": "faction_debt",
+      "default_due_days": 7,
+      "visibility": "private",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_09",
+      "entry_type": "office_promise",
+      "default_due_days": 18,
+      "visibility": "public",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_10",
+      "entry_type": "faction_debt",
+      "default_due_days": 8,
+      "visibility": "private",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_11",
+      "entry_type": "office_promise",
+      "default_due_days": 21,
+      "visibility": "public",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_12",
+      "entry_type": "faction_debt",
+      "default_due_days": 10,
+      "visibility": "private",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_13",
+      "entry_type": "office_promise",
+      "default_due_days": 23,
+      "visibility": "public",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_14",
+      "entry_type": "faction_debt",
+      "default_due_days": 28,
+      "visibility": "private",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_15",
+      "entry_type": "office_promise",
+      "default_due_days": 17,
+      "visibility": "public",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_16",
+      "entry_type": "faction_debt",
+      "default_due_days": 30,
+      "visibility": "private",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_17",
+      "entry_type": "office_promise",
+      "default_due_days": 19,
+      "visibility": "public",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_18",
+      "entry_type": "faction_debt",
+      "default_due_days": 24,
+      "visibility": "private",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_19",
+      "entry_type": "office_promise",
+      "default_due_days": 13,
+      "visibility": "public",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_20",
+      "entry_type": "faction_debt",
+      "default_due_days": 25,
+      "visibility": "private",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_21",
+      "entry_type": "office_promise",
+      "default_due_days": 12,
+      "visibility": "public",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_22",
+      "entry_type": "faction_debt",
+      "default_due_days": 27,
+      "visibility": "private",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_23",
+      "entry_type": "office_promise",
+      "default_due_days": 14,
+      "visibility": "public",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_24",
+      "entry_type": "faction_debt",
+      "default_due_days": 29,
+      "visibility": "private",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_25",
+      "entry_type": "office_promise",
+      "default_due_days": 16,
+      "visibility": "public",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_26",
+      "entry_type": "faction_debt",
+      "default_due_days": 7,
+      "visibility": "private",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_27",
+      "entry_type": "office_promise",
+      "default_due_days": 18,
+      "visibility": "public",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_28",
+      "entry_type": "faction_debt",
+      "default_due_days": 17,
+      "visibility": "private",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_29",
+      "entry_type": "office_promise",
+      "default_due_days": 28,
+      "visibility": "public",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta06_office_obligation_30",
+      "entry_type": "faction_debt",
+      "default_due_days": 18,
+      "visibility": "private",
+      "stakes": [
+        "office_power",
+        "faction_pressure"
+      ],
+      "summary": "Beta 0.6 office or faction obligation.",
+      "risk_tags": [
+        "court_power"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_01",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 28,
+      "visibility": "public",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_02",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 19,
+      "visibility": "private",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_03",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 30,
+      "visibility": "public",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_04",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 21,
+      "visibility": "private",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_05",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 8,
+      "visibility": "public",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_06",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 23,
+      "visibility": "private",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_07",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 10,
+      "visibility": "public",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_08",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 9,
+      "visibility": "private",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_09",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 20,
+      "visibility": "public",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_10",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 10,
+      "visibility": "private",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_11",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 23,
+      "visibility": "public",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_12",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 8,
+      "visibility": "private",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_13",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 21,
+      "visibility": "public",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_14",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 30,
+      "visibility": "private",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_15",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 19,
+      "visibility": "public",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_16",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 28,
+      "visibility": "private",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_17",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 17,
+      "visibility": "public",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_18",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 18,
+      "visibility": "private",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_19",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 7,
+      "visibility": "public",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_20",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 7,
+      "visibility": "private",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_21",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 18,
+      "visibility": "public",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_22",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 29,
+      "visibility": "private",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_23",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 16,
+      "visibility": "public",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_24",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 27,
+      "visibility": "private",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "beta07_intel_leverage_25",
+      "entry_type": "intelligence_leverage",
+      "default_due_days": 14,
+      "visibility": "public",
+      "stakes": [
+        "report_confidence",
+        "route_pressure"
+      ],
+      "summary": "Beta 0.7 intelligence leverage or report debt.",
+      "risk_tags": [
+        "war_intelligence"
+      ]
+    },
+    {
+      "template_id": "task_shuofang_grain_priority",
+      "entry_type": "task",
+      "summary": "朝廷承诺优先处理朔方粮道。",
+      "default_due_days": 28,
+      "visibility": "private",
+      "stakes": [
+        "task",
+        "guo_ziyi"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "report_shuofang_pressure",
+      "entry_type": "intelligence_leverage",
+      "summary": "郭子仪说明朔方节点和粮路压力。",
+      "default_due_days": 20,
+      "visibility": "public",
+      "stakes": [
+        "report",
+        "guo_ziyi"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "decree_balanced_authority",
+      "entry_type": "formal-paperwork-required",
+      "summary": "李泌把私下意图改写成兼顾将帅与旧臣的诏令。",
+      "default_due_days": 11,
+      "visibility": "public",
+      "stakes": [
+        "decree",
+        "li_bi"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "report_sequence_advice",
+      "entry_type": "intelligence_leverage",
+      "summary": "李泌建议先稳灵武，再调朔方与关中。",
+      "default_due_days": 13,
+      "visibility": "public",
+      "stakes": [
+        "report",
+        "li_bi"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "promise_private_access",
+      "entry_type": "promise",
+      "summary": "李辅国得到保留宫门通道的私下保证。",
+      "default_due_days": 20,
+      "visibility": "private",
+      "stakes": [
+        "promise",
+        "li_fuguo"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "task_gate_message_filter",
+      "entry_type": "task",
+      "summary": "宫门通道按密令放行一批军报。",
+      "default_due_days": 24,
+      "visibility": "private",
+      "stakes": [
+        "task",
+        "li_fuguo"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "operation_hedong_verified_order",
+      "entry_type": "regional-operation",
+      "summary": "李光弼要求侦明路线后再动用预备兵。",
+      "default_due_days": 27,
+      "visibility": "public",
+      "stakes": [
+        "regional_operation",
+        "li_guangbi"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "promise_formal_support_terms",
+      "entry_type": "promise",
+      "summary": "朝廷用正式支援条款安抚李光弼。",
+      "default_due_days": 11,
+      "visibility": "private",
+      "stakes": [
+        "promise",
+        "li_guangbi"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "task_fast_cavalry_probe",
+      "entry_type": "task",
+      "summary": "仆固怀恩得到快速骑军侦察目标。",
+      "default_due_days": 22,
+      "visibility": "private",
+      "stakes": [
+        "task",
+        "pugu_huaien"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "promise_visible_credit",
+      "entry_type": "promise",
+      "summary": "朝廷公开许诺记录骑军功劳。",
+      "default_due_days": 16,
+      "visibility": "private",
+      "stakes": [
+        "promise",
+        "pugu_huaien"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "decree_public_assurance",
+      "entry_type": "formal-paperwork-required",
+      "summary": "李俶帮助把安民承诺转成公开安抚。",
+      "default_due_days": 28,
+      "visibility": "public",
+      "stakes": [
+        "decree",
+        "li_chu"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "report_palace_access_caution",
+      "entry_type": "intelligence_leverage",
+      "summary": "李俶谨慎说明李辅国通道风险。",
+      "default_due_days": 24,
+      "visibility": "public",
+      "stakes": [
+        "report",
+        "li_chu"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "promise_uighur_reward_terms",
+      "entry_type": "promise",
+      "summary": "回纥使者得到援兵赏赐条款。",
+      "default_due_days": 8,
+      "visibility": "private",
+      "stakes": [
+        "promise",
+        "uighur_envoy"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "decree_uighur_terms",
+      "entry_type": "formal-paperwork-required",
+      "summary": "援兵交易被写成正式文书。",
+      "default_due_days": 23,
+      "visibility": "public",
+      "stakes": [
+        "decree",
+        "uighur_envoy"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "decree_ceremonial_compromise",
+      "entry_type": "formal-paperwork-required",
+      "summary": "诏令保留尊奉上皇措辞以降低旧臣阻力。",
+      "default_due_days": 21,
+      "visibility": "public",
+      "stakes": [
+        "decree",
+        "hardline_old_court_official"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "report_promotion_objection",
+      "entry_type": "intelligence_leverage",
+      "summary": "旧臣指出军职任命缺少礼制文书。",
+      "default_due_days": 12,
+      "visibility": "public",
+      "stakes": [
+        "report",
+        "hardline_old_court_official"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "memory_grain_audit_threat",
+      "entry_type": "memory",
+      "summary": "粮草官记住朝廷准备查账。",
+      "default_due_days": 18,
+      "visibility": "private",
+      "stakes": [
+        "memory",
+        "grain_official_lingwu"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "task_grain_transport_fix",
+      "entry_type": "task",
+      "summary": "粮草官被迫给出运输延误清单。",
+      "default_due_days": 25,
+      "visibility": "private",
+      "stakes": [
+        "task",
+        "grain_official_lingwu"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "promise_market_relief",
+      "entry_type": "promise",
+      "summary": "商民代表得到减税与市场保护承诺。",
+      "default_due_days": 12,
+      "visibility": "private",
+      "stakes": [
+        "promise",
+        "lingwu_merchant_refugee"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "report_refugee_market_route",
+      "entry_type": "intelligence_leverage",
+      "summary": "商民代表回报难民市集附近路线压力。",
+      "default_due_days": 25,
+      "visibility": "public",
+      "stakes": [
+        "report",
+        "lingwu_merchant_refugee"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "decree_limited_regional_mandate",
+      "entry_type": "formal-paperwork-required",
+      "summary": "地方节度使代表接受有限号令。",
+      "default_due_days": 30,
+      "visibility": "public",
+      "stakes": [
+        "decree",
+        "regional_jiedushi_rep"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "operation_shared_rebel_pressure",
+      "entry_type": "regional-operation",
+      "summary": "地方兵镇派人侦察叛军压力。",
+      "default_due_days": 8,
+      "visibility": "public",
+      "stakes": [
+        "regional_operation",
+        "regional_jiedushi_rep"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "task_gate_deputy_sealed_message",
+      "entry_type": "task",
+      "summary": "宫门副使按密令转送消息。",
+      "default_due_days": 24,
+      "visibility": "private",
+      "stakes": [
+        "task",
+        "eunuch_deputy_gate"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "rumor_gate_blame",
+      "entry_type": "rumor",
+      "summary": "宫门副使放出朝廷责备宫门的流言。",
+      "default_due_days": 7,
+      "visibility": "rumor",
+      "stakes": [
+        "rumor",
+        "eunuch_deputy_gate"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "report_route_owner",
+      "entry_type": "intelligence_leverage",
+      "summary": "李泌说明节点控制权与派系压力。",
+      "default_due_days": 28,
+      "visibility": "public",
+      "stakes": [
+        "report",
+        "li_bi"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "report_hidden_pressure",
+      "entry_type": "intelligence_leverage",
+      "summary": "使者透露回纥真正担心唐廷无法兑现。",
+      "default_due_days": 9,
+      "visibility": "public",
+      "stakes": [
+        "report",
+        "uighur_envoy"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "task_counter_gate_delay",
+      "entry_type": "task",
+      "summary": "郭子仪被请求协助压低宫门延误。",
+      "default_due_days": 30,
+      "visibility": "private",
+      "stakes": [
+        "task",
+        "guo_ziyi"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "memory_public_threat",
+      "entry_type": "memory",
+      "summary": "公开威胁让李辅国记下一笔怨怼。",
+      "default_due_days": 18,
+      "visibility": "private",
+      "stakes": [
+        "memory",
+        "li_fuguo"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    },
+    {
+      "template_id": "operation_map_conversation_probe",
+      "entry_type": "regional-operation",
+      "summary": "一次地图谈话转成路线侦察行动。",
+      "default_due_days": 21,
+      "visibility": "public",
+      "stakes": [
+        "regional_operation",
+        "li_guangbi"
+      ],
+      "risk_tags": [
+        "beta_0_9_conversation"
+      ]
+    }
+  ],
+  "reports": [
+    {
+      "id": "ledger_promise_due_report",
+      "entry_type": "promise",
+      "title": "Promise due report"
+    },
+    {
+      "id": "ledger_threat_due_report",
+      "entry_type": "threat",
+      "title": "Threat consequence report"
+    },
+    {
+      "id": "ledger_bargain_due_report",
+      "entry_type": "bargain",
+      "title": "Bargain terms report"
+    },
+    {
+      "id": "ledger_refusal_due_report",
+      "entry_type": "refusal",
+      "title": "Refusal aftereffect report"
+    },
+    {
+      "id": "ledger_delay_due_report",
+      "entry_type": "delay",
+      "title": "Delay pressure report"
+    },
+    {
+      "id": "ledger_paperwork_due_report",
+      "entry_type": "formal-paperwork-required",
+      "title": "Paperwork requirement report"
+    },
+    {
+      "id": "ledger_private_assurance_report",
+      "entry_type": "private-assurance",
+      "title": "Private assurance report"
+    },
+    {
+      "id": "ledger_public_commitment_report",
+      "entry_type": "public-commitment",
+      "title": "Public commitment report"
+    },
+    {
+      "id": "ledger_favor_due_report",
+      "entry_type": "favor-owed",
+      "title": "Favor owed report"
+    },
+    {
+      "id": "ledger_debt_due_report",
+      "entry_type": "debt-created",
+      "title": "Political debt report"
+    },
+    {
+      "id": "ledger_relationship_shift_report",
+      "entry_type": "relationship-shift",
+      "title": "Relationship shift report"
+    },
+    {
+      "id": "ledger_rumor_report",
+      "entry_type": "rumor",
+      "title": "Rumor from audience report"
+    }
+  ],
+  "consequences": [
+    {
+      "entry_type": "promise",
+      "broken_faction_delta": {
+        "faction_id": "military_commanders",
+        "field": "pressure",
+        "value": 6
+      },
+      "fulfilled_relationship_delta": {
+        "character_id": "guo_ziyi",
+        "value": 4
+      }
+    },
+    {
+      "entry_type": "threat",
+      "broken_faction_delta": {
+        "faction_id": "eunuch_network",
+        "field": "pressure",
+        "value": 5
+      },
+      "fulfilled_relationship_delta": {
+        "character_id": "li_fuguo",
+        "value": -2
+      }
+    },
+    {
+      "entry_type": "bargain",
+      "broken_faction_delta": {
+        "faction_id": "uighur_envoys",
+        "field": "pressure",
+        "value": 7
+      },
+      "fulfilled_relationship_delta": {
+        "character_id": "uighur_envoy",
+        "value": 3
+      }
+    },
+    {
+      "entry_type": "refusal",
+      "broken_faction_delta": {
+        "faction_id": "old_court",
+        "field": "pressure",
+        "value": 3
+      },
+      "fulfilled_relationship_delta": {
+        "character_id": "li_bi",
+        "value": 1
+      }
+    },
+    {
+      "entry_type": "delay",
+      "broken_faction_delta": {
+        "faction_id": "regional_jiedushi",
+        "field": "pressure",
+        "value": 4
+      },
+      "fulfilled_relationship_delta": {
+        "character_id": "regional_jiedushi_rep",
+        "value": 2
+      }
+    },
+    {
+      "entry_type": "formal-paperwork-required",
+      "broken_faction_delta": {
+        "faction_id": "suzong_court",
+        "field": "pressure",
+        "value": 3
+      },
+      "fulfilled_relationship_delta": {
+        "character_id": "li_bi",
+        "value": 3
+      }
+    },
+    {
+      "entry_type": "public-commitment",
+      "broken_faction_delta": {
+        "faction_id": "common_people",
+        "field": "pressure",
+        "value": 6
+      },
+      "fulfilled_relationship_delta": {
+        "character_id": "lingwu_merchant_refugee",
+        "value": 4
+      }
+    },
+    {
+      "entry_type": "debt-created",
+      "broken_faction_delta": {
+        "faction_id": "military_commanders",
+        "field": "pressure",
+        "value": 4
+      },
+      "fulfilled_relationship_delta": {
+        "character_id": "pugu_huaien",
+        "value": 2
+      }
+    }
+  ]
+}

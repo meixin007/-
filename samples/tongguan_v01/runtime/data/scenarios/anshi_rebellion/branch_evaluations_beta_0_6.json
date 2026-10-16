@@ -1,0 +1,364 @@
+[
+  {
+    "evaluation_id": "office_power_opening_balance",
+    "title": "Office Power Opening Balance",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "local_node_state"
+    ],
+    "summary": "Early court office choices are now tracked as branch evaluation material for later chapter assessments."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_01",
+    "title": "Beta06 branch evaluation 1",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_02",
+    "title": "Beta06 branch evaluation 2",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_03",
+    "title": "Beta06 branch evaluation 3",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_04",
+    "title": "Beta06 branch evaluation 4",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_05",
+    "title": "Beta06 branch evaluation 5",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_06",
+    "title": "Beta06 branch evaluation 6",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_07",
+    "title": "Beta06 branch evaluation 7",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_08",
+    "title": "Beta06 branch evaluation 8",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_09",
+    "title": "Beta06 branch evaluation 9",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_10",
+    "title": "Beta06 branch evaluation 10",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_11",
+    "title": "Beta06 branch evaluation 11",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_12",
+    "title": "Beta06 branch evaluation 12",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_13",
+    "title": "Beta06 branch evaluation 13",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_14",
+    "title": "Beta06 branch evaluation 14",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_15",
+    "title": "Beta06 branch evaluation 15",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_16",
+    "title": "Beta06 branch evaluation 16",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_17",
+    "title": "Beta06 branch evaluation 17",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_18",
+    "title": "Beta06 branch evaluation 18",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_19",
+    "title": "Beta06 branch evaluation 19",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta06_branch_evaluation_20",
+    "title": "Beta06 branch evaluation 20",
+    "tracked_causes": [
+      "office_appointment",
+      "faction_pressure",
+      "court_meeting",
+      "local_node_state"
+    ],
+    "summary": "Tracks how offices, factions, meetings, and nodes shaped a later Beta 0.6 assessment."
+  },
+  {
+    "evaluation_id": "beta07_intelligence_branch_01",
+    "title": "Beta07 intelligence branch 1",
+    "tracked_causes": [
+      "intelligence_report",
+      "route_pressure",
+      "regional_operation",
+      "command_channel"
+    ],
+    "summary": "Beta 0.7 branch evaluation references report trust and route outcomes."
+  },
+  {
+    "evaluation_id": "beta07_intelligence_branch_02",
+    "title": "Beta07 intelligence branch 2",
+    "tracked_causes": [
+      "intelligence_report",
+      "route_pressure",
+      "regional_operation",
+      "command_channel"
+    ],
+    "summary": "Beta 0.7 branch evaluation references report trust and route outcomes."
+  },
+  {
+    "evaluation_id": "beta07_intelligence_branch_03",
+    "title": "Beta07 intelligence branch 3",
+    "tracked_causes": [
+      "intelligence_report",
+      "route_pressure",
+      "regional_operation",
+      "command_channel"
+    ],
+    "summary": "Beta 0.7 branch evaluation references report trust and route outcomes."
+  },
+  {
+    "evaluation_id": "beta07_intelligence_branch_04",
+    "title": "Beta07 intelligence branch 4",
+    "tracked_causes": [
+      "intelligence_report",
+      "route_pressure",
+      "regional_operation",
+      "command_channel"
+    ],
+    "summary": "Beta 0.7 branch evaluation references report trust and route outcomes."
+  },
+  {
+    "evaluation_id": "beta07_intelligence_branch_05",
+    "title": "Beta07 intelligence branch 5",
+    "tracked_causes": [
+      "intelligence_report",
+      "route_pressure",
+      "regional_operation",
+      "command_channel"
+    ],
+    "summary": "Beta 0.7 branch evaluation references report trust and route outcomes."
+  },
+  {
+    "evaluation_id": "beta07_intelligence_branch_06",
+    "title": "Beta07 intelligence branch 6",
+    "tracked_causes": [
+      "intelligence_report",
+      "route_pressure",
+      "regional_operation",
+      "command_channel"
+    ],
+    "summary": "Beta 0.7 branch evaluation references report trust and route outcomes."
+  },
+  {
+    "evaluation_id": "beta07_intelligence_branch_07",
+    "title": "Beta07 intelligence branch 7",
+    "tracked_causes": [
+      "intelligence_report",
+      "route_pressure",
+      "regional_operation",
+      "command_channel"
+    ],
+    "summary": "Beta 0.7 branch evaluation references report trust and route outcomes."
+  },
+  {
+    "evaluation_id": "beta07_intelligence_branch_08",
+    "title": "Beta07 intelligence branch 8",
+    "tracked_causes": [
+      "intelligence_report",
+      "route_pressure",
+      "regional_operation",
+      "command_channel"
+    ],
+    "summary": "Beta 0.7 branch evaluation references report trust and route outcomes."
+  },
+  {
+    "evaluation_id": "beta07_intelligence_branch_09",
+    "title": "Beta07 intelligence branch 9",
+    "tracked_causes": [
+      "intelligence_report",
+      "route_pressure",
+      "regional_operation",
+      "command_channel"
+    ],
+    "summary": "Beta 0.7 branch evaluation references report trust and route outcomes."
+  },
+  {
+    "evaluation_id": "beta07_intelligence_branch_10",
+    "title": "Beta07 intelligence branch 10",
+    "tracked_causes": [
+      "intelligence_report",
+      "route_pressure",
+      "regional_operation",
+      "command_channel"
+    ],
+    "summary": "Beta 0.7 branch evaluation references report trust and route outcomes."
+  },
+  {
+    "evaluation_id": "beta07_intelligence_branch_11",
+    "title": "Beta07 intelligence branch 11",
+    "tracked_causes": [
+      "intelligence_report",
+      "route_pressure",
+      "regional_operation",
+      "command_channel"
+    ],
+    "summary": "Beta 0.7 branch evaluation references report trust and route outcomes."
+  },
+  {
+    "evaluation_id": "beta07_intelligence_branch_12",
+    "title": "Beta07 intelligence branch 12",
+    "tracked_causes": [
+      "intelligence_report",
+      "route_pressure",
+      "regional_operation",
+      "command_channel"
+    ],
+    "summary": "Beta 0.7 branch evaluation references report trust and route outcomes."
+  }
+]

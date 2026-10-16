@@ -1,0 +1,28 @@
+{
+  "bundle_id": "mianzhou_20260930",
+  "version": 1,
+  "extends": "jianmen_northsouth_20260929",
+  "assets": {
+    "mz_bridge": {
+      "label": "绵州 · 克制木桥作者示意",
+      "group": "pass",
+      "manual_only": true,
+      "atlas": "bridge.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 36,
+      "anchor": [
+        0.5,
+        0.8
+      ],
+      "gate_anchor": [
+        0.123,
+        0.691
+      ]
+    }
+  }
+}

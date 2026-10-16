@@ -1,0 +1,43 @@
+{
+  "schema_version": 109,
+  "campaign_id": "anshi_beta_1_09",
+  "campaign_days": 90,
+  "scenario": {"start_phase": "opening"},
+  "phases": [
+    {"id": "foundation", "start_day": 1, "end_day": 30},
+    {"id": "accountability", "start_day": 31, "end_day": 60},
+    {"id": "crisis_reorganization", "start_day": 61, "end_day": 90}
+  ],
+  "content_files": {
+    "appointments": "appointments_beta_1_08.json",
+    "accountability": "accountability_beta_1_08.json",
+    "first_political_loop": "first_political_loop_beta_1_08.json",
+    "political_season": "political_season_beta_1_09.json",
+    "governance_followups": "governance_followups_beta_1_09.json",
+    "political_echoes": "political_echoes_beta_1_09.json",
+    "political_season_review": "political_season_review_beta_1_09.json"
+  },
+  "case_content_files": {
+    "beta108_case_grain_ledger_shortfall": "accountability/grain_ledger_deficit.json",
+    "beta108_case_military_grain_delay": "accountability/military_supply_delay.json",
+    "beta108_case_palace_order_leak": "accountability/palace_leak.json",
+    "beta108_case_edict_legitimacy": "accountability/edict_legitimacy.json",
+    "beta108_case_uighur_aid_cost": "accountability/uighur_aid_cost.json",
+    "beta108_case_final_assessment": "accountability/final_assessment.json"
+  },
+  "character_arcs_file": "beta_1_08_character_arcs.json",
+  "core_character_ids": [
+    "guo_ziyi", "li_bi", "li_fuguo", "li_guangbi", "pugu_huaien", "li_chu",
+    "uighur_envoy", "hardline_old_court_official", "grain_official_lingwu",
+    "lingwu_merchant_refugee", "regional_jiedushi_rep", "eunuch_deputy_gate"
+  ],
+  "core_office_ids": [
+    "zhongshu_drafting", "menxia_review", "shangshu_execution", "household_supply",
+    "war_mobilization", "censorate", "inner_court_gatekeeper", "envoy_negotiator"
+  ],
+  "core_case_ids": [
+    "beta108_case_grain_ledger_shortfall", "beta108_case_military_grain_delay",
+    "beta108_case_palace_order_leak", "beta108_case_edict_legitimacy",
+    "beta108_case_uighur_aid_cost", "beta108_case_final_assessment"
+  ]
+}

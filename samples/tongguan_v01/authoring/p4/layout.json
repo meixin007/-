@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "layout_version": "tongguan_p4_layout_v02",
+  "site_id": "tongguan",
+  "scenario_year": 756,
+  "geography_recipe_sha256": "7c69433ffdeda1b9b400fbf0fa449b3694d192df2bf8e7f5b71cfb23e797c82e",
+  "parent_plot_id": "plot_northwest",
+  "slots": [
+    {
+      "id": "tongguan.slot.rear_storage_01",
+      "name": "仓储",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -590,
+          -240
+        ],
+        [
+          -545,
+          -240
+        ],
+        [
+          -545,
+          -215
+        ],
+        [
+          -590,
+          -215
+        ]
+      ],
+      "allowed_buildings": [
+        "warehouse",
+        "granary"
+      ],
+      "road_socket_id": "tongguan.socket.rear_storage_01",
+      "road_socket_m": [
+        -567.5,
+        -205
+      ],
+      "unlock_stage": 1,
+      "initial_building": "empty",
+      "authoring_pin": true,
+      "gameplay_buildable": true
+    },
+    {
+      "id": "tongguan.slot.rear_military_01",
+      "name": "驻军",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -530,
+          -240
+        ],
+        [
+          -485,
+          -240
+        ],
+        [
+          -485,
+          -215
+        ],
+        [
+          -530,
+          -215
+        ]
+      ],
+      "allowed_buildings": [
+        "barracks",
+        "training_ground"
+      ],
+      "road_socket_id": "tongguan.socket.rear_military_01",
+      "road_socket_m": [
+        -507.5,
+        -205
+      ],
+      "unlock_stage": 1,
+      "initial_building": "barracks",
+      "authoring_pin": true,
+      "gameplay_buildable": true
+    },
+    {
+      "id": "tongguan.slot.rear_workshop_01",
+      "name": "工坊",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -470,
+          -240
+        ],
+        [
+          -425,
+          -240
+        ],
+        [
+          -425,
+          -215
+        ],
+        [
+          -470,
+          -215
+        ]
+      ],
+      "allowed_buildings": [
+        "workshop",
+        "repair_yard"
+      ],
+      "road_socket_id": "tongguan.socket.rear_workshop_01",
+      "road_socket_m": [
+        -447.5,
+        -205
+      ],
+      "unlock_stage": 1,
+      "initial_building": "empty",
+      "authoring_pin": true,
+      "gameplay_buildable": true
+    },
+    {
+      "id": "tongguan.slot.civil_01",
+      "name": "民居",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -410,
+          -240
+        ],
+        [
+          -365,
+          -240
+        ],
+        [
+          -365,
+          -215
+        ],
+        [
+          -410,
+          -215
+        ]
+      ],
+      "allowed_buildings": [
+        "housing",
+        "shop"
+      ],
+      "road_socket_id": "tongguan.socket.civil_01",
+      "road_socket_m": [
+        -387.5,
+        -205
+      ],
+      "unlock_stage": 2,
+      "initial_building": "empty",
+      "authoring_pin": true,
+      "gameplay_buildable": true
+    },
+    {
+      "id": "tongguan.slot.civil_02",
+      "name": "商旅",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -590,
+          -200
+        ],
+        [
+          -545,
+          -200
+        ],
+        [
+          -545,
+          -175
+        ],
+        [
+          -590,
+          -175
+        ]
+      ],
+      "allowed_buildings": [
+        "market",
+        "inn"
+      ],
+      "road_socket_id": "tongguan.socket.civil_02",
+      "road_socket_m": [
+        -567.5,
+        -205
+      ],
+      "unlock_stage": 2,
+      "initial_building": "empty",
+      "authoring_pin": true,
+      "gameplay_buildable": true
+    },
+    {
+      "id": "tongguan.slot.rear_support_01",
+      "name": "勤务",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -530,
+          -200
+        ],
+        [
+          -485,
+          -200
+        ],
+        [
+          -485,
+          -175
+        ],
+        [
+          -530,
+          -175
+        ]
+      ],
+      "allowed_buildings": [
+        "infirmary",
+        "repair_yard"
+      ],
+      "road_socket_id": "tongguan.socket.rear_support_01",
+      "road_socket_m": [
+        -507.5,
+        -205
+      ],
+      "unlock_stage": 2,
+      "initial_building": "empty",
+      "authoring_pin": true,
+      "gameplay_buildable": true
+    },
+    {
+      "id": "tongguan.slot.expansion_01",
+      "name": "扩建仓储",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -470,
+          -200
+        ],
+        [
+          -425,
+          -200
+        ],
+        [
+          -425,
+          -175
+        ],
+        [
+          -470,
+          -175
+        ]
+      ],
+      "allowed_buildings": [
+        "warehouse",
+        "granary"
+      ],
+      "road_socket_id": "tongguan.socket.expansion_01",
+      "road_socket_m": [
+        -447.5,
+        -205
+      ],
+      "unlock_stage": 3,
+      "initial_building": "empty",
+      "authoring_pin": true,
+      "gameplay_buildable": true
+    },
+    {
+      "id": "tongguan.slot.expansion_02",
+      "name": "附属营地",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -410,
+          -200
+        ],
+        [
+          -365,
+          -200
+        ],
+        [
+          -365,
+          -175
+        ],
+        [
+          -410,
+          -175
+        ]
+      ],
+      "allowed_buildings": [
+        "camp",
+        "housing"
+      ],
+      "road_socket_id": "tongguan.socket.expansion_02",
+      "road_socket_m": [
+        -387.5,
+        -205
+      ],
+      "unlock_stage": 3,
+      "initial_building": "empty",
+      "authoring_pin": true,
+      "gameplay_buildable": true
+    }
+  ],
+  "fixed_refs": {
+    "gate": [
+      0,
+      0
+    ],
+    "main_corridor": [
+      [
+        -12000,
+        700
+      ],
+      [
+        -7000,
+        180
+      ],
+      [
+        -4000,
+        -100
+      ],
+      [
+        -2000,
+        -140
+      ],
+      [
+        -700,
+        -80
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        700,
+        80
+      ],
+      [
+        1800,
+        180
+      ],
+      [
+        3500,
+        400
+      ],
+      [
+        6000,
+        850
+      ],
+      [
+        9000,
+        1300
+      ],
+      [
+        12000,
+        1700
+      ]
+    ],
+    "defense_line": [
+      [
+        70,
+        -500
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        -80,
+        550
+      ],
+      [
+        -230,
+        1300
+      ]
+    ]
+  },
+  "roads": [
+    {
+      "id": "tongguan.road.rear",
+      "points_m": [
+        [
+          -620,
+          -205
+        ],
+        [
+          -340,
+          -205
+        ]
+      ],
+      "parent_id": "tongguan.road.connector"
+    },
+    {
+      "id": "tongguan.road.connector",
+      "points_m": [
+        [
+          -620,
+          -205
+        ],
+        [
+          -620,
+          -140
+        ],
+        [
+          -620,
+          -70.857142857
+        ]
+      ],
+      "parent_id": "main_corridor_candidate"
+    }
+  ],
+  "decoration_regions": [
+    {
+      "id": "forest_west",
+      "bounds_m": [
+        -3000,
+        100,
+        1500,
+        1200
+      ]
+    },
+    {
+      "id": "forest_east",
+      "bounds_m": [
+        1000,
+        450,
+        1500,
+        1000
+      ]
+    }
+  ],
+  "generator_version": "forest_grid_sha256_v2",
+  "grid_cell_m": 150,
+  "default_seed": 10321,
+  "default_density": 0.65,
+  "default_asset_version": 1,
+  "scope": "independent_validation_fixture_no_campaign_accounts",
+  "excluded_parent_plot": "plot_west",
+  "deferred_defense_slot": "No approved buildable footprint on the candidate defense line or reviewed highground; use rear support instead of inventing a defense site"
+}

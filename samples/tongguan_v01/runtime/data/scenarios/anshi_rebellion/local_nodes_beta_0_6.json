@@ -1,0 +1,254 @@
+[
+  {
+    "node_id": "shuofang_front_node",
+    "name": "Shuofang Front",
+    "control": 45,
+    "supply": 38,
+    "security": 52,
+    "public_order": 40,
+    "communication_delay": 2,
+    "dominant_faction": "military_commanders",
+    "active_office_holder": "guo_ziyi",
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_events": [
+      "shuofang_grain_shortage_001"
+    ],
+    "recent_orders": [],
+    "rumors_or_uncertainty": [
+      "Beta 0.7 intelligence uncertainty"
+    ]
+  },
+  {
+    "node_id": "lingwu_court_node",
+    "name": "lingwu_court_node",
+    "control": 45,
+    "supply": 38,
+    "security": 42,
+    "public_order": 40,
+    "communication_delay": 1,
+    "dominant_faction": "military_commanders",
+    "active_office_holder": "guo_ziyi",
+    "recent_orders": [],
+    "rumors_or_uncertainty": [
+      "Beta 0.7 intelligence uncertainty"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_events": [
+      "shuofang_grain_shortage_001"
+    ]
+  },
+  {
+    "node_id": "hedong_relay_node",
+    "name": "hedong_relay_node",
+    "control": 47,
+    "supply": 40,
+    "security": 44,
+    "public_order": 42,
+    "communication_delay": 3,
+    "dominant_faction": "suzong_court",
+    "active_office_holder": "guo_ziyi",
+    "recent_orders": [],
+    "rumors_or_uncertainty": [
+      "Beta 0.7 intelligence uncertainty"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_events": [
+      "shuofang_grain_shortage_001"
+    ]
+  },
+  {
+    "node_id": "guanzhong_approach_node",
+    "name": "guanzhong_approach_node",
+    "control": 48,
+    "supply": 41,
+    "security": 45,
+    "public_order": 43,
+    "communication_delay": 4,
+    "dominant_faction": "xuanzong_old_court",
+    "active_office_holder": "li_fuguo",
+    "recent_orders": [],
+    "rumors_or_uncertainty": [
+      "Beta 0.7 intelligence uncertainty"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_events": [
+      "shuofang_grain_shortage_001"
+    ]
+  },
+  {
+    "node_id": "uighur_route_node",
+    "name": "uighur_route_node",
+    "control": 50,
+    "supply": 43,
+    "security": 47,
+    "public_order": 45,
+    "communication_delay": 2,
+    "dominant_faction": "eunuch_network",
+    "active_office_holder": "li_fuguo",
+    "recent_orders": [],
+    "rumors_or_uncertainty": [
+      "Beta 0.7 intelligence uncertainty"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_events": [
+      "shuofang_grain_shortage_001"
+    ]
+  },
+  {
+    "node_id": "grain_road_node",
+    "name": "grain_road_node",
+    "control": 49,
+    "supply": 42,
+    "security": 46,
+    "public_order": 44,
+    "communication_delay": 1,
+    "dominant_faction": "military_commanders",
+    "active_office_holder": "guo_ziyi",
+    "recent_orders": [],
+    "rumors_or_uncertainty": [
+      "Beta 0.7 intelligence uncertainty"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_events": [
+      "shuofang_grain_shortage_001"
+    ]
+  },
+  {
+    "node_id": "palace_inner_channel_node",
+    "name": "palace_inner_channel_node",
+    "control": 51,
+    "supply": 44,
+    "security": 48,
+    "public_order": 46,
+    "communication_delay": 3,
+    "dominant_faction": "suzong_court",
+    "active_office_holder": "guo_ziyi",
+    "recent_orders": [],
+    "rumors_or_uncertainty": [
+      "Beta 0.7 intelligence uncertainty"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_events": [
+      "shuofang_grain_shortage_001"
+    ]
+  },
+  {
+    "node_id": "refugee_market_node",
+    "name": "refugee_market_node",
+    "control": 52,
+    "supply": 45,
+    "security": 49,
+    "public_order": 47,
+    "communication_delay": 4,
+    "dominant_faction": "xuanzong_old_court",
+    "active_office_holder": "li_fuguo",
+    "recent_orders": [],
+    "rumors_or_uncertainty": [
+      "Beta 0.7 intelligence uncertainty"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_events": [
+      "shuofang_grain_shortage_001"
+    ]
+  },
+  {
+    "node_id": "changan_pressure_node",
+    "name": "changan_pressure_node",
+    "control": 53,
+    "supply": 46,
+    "security": 50,
+    "public_order": 48,
+    "communication_delay": 1,
+    "dominant_faction": "military_commanders",
+    "active_office_holder": "guo_ziyi",
+    "recent_orders": [],
+    "rumors_or_uncertainty": [
+      "Beta 0.7 intelligence uncertainty"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_events": [
+      "shuofang_grain_shortage_001"
+    ]
+  },
+  {
+    "node_id": "luoyang_rumor_node",
+    "name": "luoyang_rumor_node",
+    "control": 54,
+    "supply": 47,
+    "security": 51,
+    "public_order": 49,
+    "communication_delay": 2,
+    "dominant_faction": "eunuch_network",
+    "active_office_holder": "li_fuguo",
+    "recent_orders": [],
+    "rumors_or_uncertainty": [
+      "Beta 0.7 intelligence uncertainty"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_events": [
+      "shuofang_grain_shortage_001"
+    ]
+  },
+  {
+    "node_id": "hebei_rebel_signal_node",
+    "name": "hebei_rebel_signal_node",
+    "control": 55,
+    "supply": 48,
+    "security": 52,
+    "public_order": 50,
+    "communication_delay": 3,
+    "dominant_faction": "suzong_court",
+    "active_office_holder": "guo_ziyi",
+    "recent_orders": [],
+    "rumors_or_uncertainty": [
+      "Beta 0.7 intelligence uncertainty"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_events": [
+      "shuofang_grain_shortage_001"
+    ]
+  },
+  {
+    "node_id": "desert_envoy_road_node",
+    "name": "desert_envoy_road_node",
+    "control": 56,
+    "supply": 49,
+    "security": 53,
+    "public_order": 51,
+    "communication_delay": 4,
+    "dominant_faction": "xuanzong_old_court",
+    "active_office_holder": "li_fuguo",
+    "recent_orders": [],
+    "rumors_or_uncertainty": [
+      "Beta 0.7 intelligence uncertainty"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_events": [
+      "shuofang_grain_shortage_001"
+    ]
+  }
+]

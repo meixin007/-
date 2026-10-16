@@ -1,0 +1,30 @@
+{
+  "source_id": "scenario:clan_handover_756",
+  "content_basis": "本作家族经营权移交规则；候选及意愿为场景配置，不作历史继承制度断言。",
+  "clans": [
+    {
+      "clan_id": "clan_cui_qinghe",
+      "initial_head_id": "cui_yuan",
+      "location_id": "refugee_market_node",
+      "candidates": [
+        {
+          "character_id": "cui_ning",
+          "willing": true,
+          "minimum_relation": 0
+        }
+      ]
+    },
+    {
+      "clan_id": "clan_mei_market",
+      "initial_head_id": "mei_qing",
+      "location_id": "refugee_market_node",
+      "candidates": [
+        {
+          "character_id": "mei_zhen",
+          "willing": true,
+          "minimum_relation": 0
+        }
+      ]
+    }
+  ]
+}

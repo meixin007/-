@@ -1,0 +1,16 @@
+{
+  "bundle_id": "tongguan_v3",
+  "version": 1,
+  "extends": "tongguan_v2",
+  "assets": {
+    "rolling_ridge_v074": {
+      "label": "山肩 · 双峰缓脊与鞍部",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "rolling_ridge_v074.png",
+      "rect": [0, 0, 2172, 724],
+      "width": 340,
+      "anchor": [0.5, 0.82]
+    }
+  }
+}

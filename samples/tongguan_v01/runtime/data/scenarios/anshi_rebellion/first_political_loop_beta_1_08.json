@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "loop_id": "beta108_first_grain_command",
+  "intro": {
+    "title": "灵武即位后的第一道政务",
+    "identity": "你是灵武即位后的李亨。长安失守，行在新立，军粮、军权与正统都在等待你的第一道判断。",
+    "pressure_labels": ["粮道", "军权", "合法性"]
+  },
+  "memorial_id": "memorial_shuofang_grain_001",
+  "recommended_adviser_ids": ["li_bi", "guo_ziyi"],
+  "direct_action_id": "prioritize_grain_transport",
+  "report_due_day_offset": 2,
+  "first_report_match": {"kind": "progress", "status": "acknowledged"},
+  "offline_exchange": {
+    "player_text": "请说明朔方军粮的风险与优先次序。",
+    "adviser_text": "先核验粮道转运账册与军前收讫记录，再按军期调度。",
+    "adviser_name": "李泌"
+  },
+  "offline_draft_text": "奉旨：先核验粮道转运账册，再按军期调度朔方军粮，限期具报。",
+  "guidance": {
+    "open_memorial": "先读清事实、期限与被忽略风险。",
+    "choose_adviser": "只需问一位大臣；注意区分事实、判断与偏见。",
+    "choose_resolution": "直接下诏更快；完整朝议更稳，但不是首轮门槛。",
+    "preview": "核对执行人、资源、期限、风险和预计回报。",
+    "advance": "政令已发，推进日期等待军前回报。",
+    "report": "看清发生了什么、为什么发生、改变了什么、下一步能做什么。"
+  }
+}

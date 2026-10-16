@@ -1,0 +1,1030 @@
+{
+  "core_npc_ids": [
+    "guo_ziyi",
+    "li_bi",
+    "li_fuguo",
+    "li_guangbi",
+    "pugu_huaien",
+    "li_chu",
+    "uighur_envoy",
+    "hardline_old_court_official",
+    "grain_official_lingwu",
+    "lingwu_merchant_refugee",
+    "regional_jiedushi_rep",
+    "eunuch_deputy_gate"
+  ],
+  "profiles": {
+    "li_bi": {
+      "summonable": true,
+      "active_pressure": "Wants the emperor to sequence legitimacy, grain, and generals before the court fragments.",
+      "hidden_tendency": "Balances military need against eunuch and old-court capture.",
+      "available_interactions": [
+        "summon_audience",
+        "free_dialogue",
+        "ask_advice",
+        "draft_decree",
+        "open_key_scene"
+      ],
+      "response_profile": "strategic_counselor",
+      "linked_factions": [
+        "suzong_court"
+      ],
+      "linked_fronts": [
+        "guanzhong_front",
+        "westward_route"
+      ],
+      "linked_events": [
+        "li_bi_audience_strategy_001",
+        "first_phase_pressure_check_001"
+      ],
+      "linked_tasks": [
+        "summon_li_bi",
+        "reinforce_guanzhong_relay"
+      ],
+      "recent_action_marker": "counsel available",
+      "summon": {
+        "default_result": "immediate_audience",
+        "variants": [
+          "immediate",
+          "key_scene"
+        ]
+      }
+    },
+    "guo_ziyi": {
+      "summonable": true,
+      "active_pressure": "Needs grain and a clear military mandate before Shuofang momentum collapses.",
+      "hidden_tendency": "Will obey, but remembers whether the court protects the army from suspicion.",
+      "available_interactions": [
+        "summon_audience",
+        "free_dialogue",
+        "issue_order",
+        "delegate_task",
+        "open_key_scene"
+      ],
+      "response_profile": "loyal_general",
+      "linked_factions": [
+        "military_commanders"
+      ],
+      "linked_fronts": [
+        "shuofang_front"
+      ],
+      "linked_events": [
+        "shuofang_grain_shortage_001",
+        "shuofang_supply_second_wave_002"
+      ],
+      "linked_tasks": [
+        "send_grain",
+        "appoint_guo_shuofang_commander"
+      ],
+      "recent_action_marker": "grain pressure",
+      "summon": {
+        "default_result": "key_scene",
+        "key_scene_id": "guo_ziyi_military_tent",
+        "variants": [
+          "immediate",
+          "delayed",
+          "proxy_report"
+        ]
+      }
+    },
+    "li_fuguo": {
+      "summonable": true,
+      "active_pressure": "Controls access to the emperor and watches military correspondence.",
+      "hidden_tendency": "Uses procedure to turn access into leverage.",
+      "available_interactions": [
+        "summon_audience",
+        "free_dialogue",
+        "demand_explanation",
+        "restrain_gatekeeping"
+      ],
+      "response_profile": "gatekeeping_eunuch",
+      "linked_factions": [
+        "eunuch_network"
+      ],
+      "linked_fronts": [
+        "westward_route"
+      ],
+      "linked_events": [
+        "li_fuguo_secret_report_001",
+        "eunuch_gatekeeping_001"
+      ],
+      "linked_tasks": [
+        "restrain_eunuch_gatekeeping",
+        "trust_li_fuguo_report"
+      ],
+      "recent_action_marker": "gatekeeping",
+      "summon": {
+        "default_result": "immediate_audience",
+        "variants": [
+          "immediate",
+          "blocked_by_faction"
+        ]
+      }
+    },
+    "uighur_envoy": {
+      "summonable": true,
+      "active_pressure": "Demands reward terms before Uighur help becomes reliable.",
+      "hidden_tendency": "Turns every concession into a written price.",
+      "available_interactions": [
+        "summon_audience",
+        "free_dialogue",
+        "start_negotiation",
+        "offer_reward",
+        "draft_decree"
+      ],
+      "response_profile": "transactional_envoy",
+      "linked_factions": [
+        "uighur_envoys"
+      ],
+      "linked_fronts": [
+        "hedong_front",
+        "uighur_direction"
+      ],
+      "linked_events": [
+        "uighur_envoy_reward_001",
+        "uighur_horse_price_001"
+      ],
+      "linked_tasks": [
+        "approve_uighur_reward",
+        "negotiate_uighur_vanguard"
+      ],
+      "recent_action_marker": "terms pending",
+      "summon": {
+        "default_result": "delayed_audience",
+        "variants": [
+          "delayed",
+          "bargain_first"
+        ]
+      }
+    },
+    "hardline_old_court_official": {
+      "summonable": true,
+      "active_pressure": "Demands ritual wording and old-court recognition before obeying new orders.",
+      "hidden_tendency": "Frames informal orders as illegitimate.",
+      "available_interactions": [
+        "summon_audience",
+        "free_dialogue",
+        "draft_decree",
+        "refuse_request",
+        "demand_explanation"
+      ],
+      "response_profile": "ritual_hardliner",
+      "linked_factions": [
+        "xuanzong_old_court",
+        "old_court"
+      ],
+      "linked_fronts": [
+        "westward_route"
+      ],
+      "linked_events": [
+        "old_court_messenger_001",
+        "old_court_ritual_countermove_002"
+      ],
+      "linked_tasks": [
+        "honor_xuanzong_edict",
+        "assert_suzong_authority"
+      ],
+      "recent_action_marker": "ritual pressure",
+      "summon": {
+        "default_result": "proxy_response",
+        "variants": [
+          "refused",
+          "proxy_response",
+          "formal_only"
+        ]
+      }
+    },
+    "li_guangbi": {
+      "summonable": true,
+      "active_pressure": "Needs relay clarity and will not waste Hedong strength without an order chain.",
+      "hidden_tendency": "Prefers disciplined written command over court improvisation.",
+      "available_interactions": [
+        "summon_audience",
+        "free_dialogue",
+        "issue_order",
+        "delegate_task"
+      ],
+      "response_profile": "disciplined_general",
+      "linked_factions": [
+        "military_commanders"
+      ],
+      "linked_fronts": [
+        "hedong_front",
+        "guanzhong_front"
+      ],
+      "linked_events": [
+        "hedong_scouts_001"
+      ],
+      "linked_tasks": [
+        "reinforce_guanzhong_relay",
+        "set_military_priority"
+      ],
+      "recent_action_marker": "Hedong scouts",
+      "summon": {
+        "default_result": "delayed_audience",
+        "variants": [
+          "delayed",
+          "military_report"
+        ]
+      }
+    },
+    "pugu_huaien": {
+      "summonable": true,
+      "active_pressure": "Wants mobile warfare authority and signs of trust from Lingwu.",
+      "hidden_tendency": "Remembers whether border commanders are rewarded or merely used.",
+      "available_interactions": [
+        "summon_audience",
+        "free_dialogue",
+        "delegate_task",
+        "offer_reward"
+      ],
+      "response_profile": "ambitious_border_general",
+      "linked_factions": [
+        "military_commanders"
+      ],
+      "linked_fronts": [
+        "shuofang_front"
+      ],
+      "linked_events": [
+        "military_joint_petition_002"
+      ],
+      "linked_tasks": [
+        "honor_military_petition",
+        "appoint_guo_shuofang_commander"
+      ],
+      "recent_action_marker": "border cavalry",
+      "summon": {
+        "default_result": "immediate_audience",
+        "variants": [
+          "immediate",
+          "bargain_first"
+        ]
+      }
+    },
+    "li_chu": {
+      "summonable": true,
+      "active_pressure": "Represents dynastic continuity inside a fragile court.",
+      "hidden_tendency": "Avoids being made a banner for palace factions.",
+      "available_interactions": [
+        "summon_audience",
+        "free_dialogue",
+        "ask_advice",
+        "public_reassurance"
+      ],
+      "response_profile": "dynastic_heir",
+      "linked_factions": [
+        "suzong_court",
+        "palace_household"
+      ],
+      "linked_fronts": [
+        "westward_route"
+      ],
+      "linked_events": [
+        "palace_household_request_001"
+      ],
+      "linked_tasks": [
+        "public_grain_reassurance",
+        "assert_suzong_authority"
+      ],
+      "recent_action_marker": "household concern",
+      "summon": {
+        "default_result": "immediate_audience",
+        "variants": [
+          "immediate",
+          "private_talk"
+        ]
+      }
+    },
+    "lingwu_merchant_refugee": {
+      "summonable": true,
+      "active_pressure": "Needs public order and grain prices kept bearable.",
+      "hidden_tendency": "Supports whoever prevents requisition from becoming chaos.",
+      "available_interactions": [
+        "summon_audience",
+        "free_dialogue",
+        "ask_information",
+        "public_reassurance"
+      ],
+      "response_profile": "civil_representative",
+      "linked_factions": [
+        "merchant_refugees"
+      ],
+      "linked_fronts": [
+        "westward_route"
+      ],
+      "linked_events": [
+        "lingwu_market_grain_001",
+        "common_petition_001"
+      ],
+      "linked_tasks": [
+        "public_grain_reassurance",
+        "audit_grain_register"
+      ],
+      "recent_action_marker": "market tension",
+      "summon": {
+        "default_result": "immediate_audience",
+        "variants": [
+          "immediate",
+          "petition"
+        ]
+      }
+    },
+    "regional_jiedushi_rep": {
+      "summonable": true,
+      "active_pressure": "Tests whether Lingwu orders are commands, bargains, or empty legitimacy.",
+      "hidden_tendency": "Protects regional autonomy unless rewarded with clear status.",
+      "available_interactions": [
+        "summon_audience",
+        "free_dialogue",
+        "start_negotiation",
+        "draft_decree"
+      ],
+      "response_profile": "regional_power_broker",
+      "linked_factions": [
+        "regional_jiedushi"
+      ],
+      "linked_fronts": [
+        "hedong_front",
+        "guanzhong_front"
+      ],
+      "linked_events": [
+        "rebel_guanzhong_pressure_001"
+      ],
+      "linked_tasks": [
+        "set_legitimacy_priority",
+        "reinforce_guanzhong_relay"
+      ],
+      "recent_action_marker": "regional terms",
+      "summon": {
+        "default_result": "delayed_audience",
+        "variants": [
+          "delayed",
+          "bargain_first",
+          "formal_only"
+        ]
+      }
+    },
+    "grain_official_lingwu": {
+      "summonable": true,
+      "active_pressure": "Fears audit of missing grain registers.",
+      "hidden_tendency": "Protects himself before protecting the warehouse.",
+      "available_interactions": [
+        "summon_audience",
+        "free_dialogue",
+        "demand_explanation",
+        "threaten_punishment"
+      ],
+      "response_profile": "cornered_official",
+      "linked_factions": [
+        "suzong_court"
+      ],
+      "linked_fronts": [
+        "shuofang_front"
+      ],
+      "linked_events": [
+        "grain_official_deficit_001",
+        "grain_corruption_trial_002"
+      ],
+      "linked_tasks": [
+        "investigate_grain_official",
+        "audit_grain_register",
+        "punish_grain_corruption"
+      ],
+      "recent_action_marker": "account books",
+      "summon": {
+        "default_result": "immediate_audience",
+        "variants": [
+          "immediate",
+          "fearful"
+        ]
+      }
+    },
+    "eunuch_deputy_gate": {
+      "summonable": true,
+      "active_pressure": "宫门文书积压",
+      "hidden_tendency": "Uses procedure to turn access into leverage.",
+      "available_interactions": [
+        "summon_audience",
+        "free_dialogue",
+        "demand_explanation",
+        "restrain_gatekeeping"
+      ],
+      "response_profile": "gatekeeping_eunuch",
+      "linked_factions": [
+        "eunuch_network"
+      ],
+      "linked_fronts": [
+        "westward_route"
+      ],
+      "linked_events": [
+        "li_fuguo_secret_report_001",
+        "eunuch_gatekeeping_001"
+      ],
+      "linked_tasks": [
+        "restrain_eunuch_gatekeeping",
+        "trust_li_fuguo_report"
+      ],
+      "recent_action_marker": "gatekeeping",
+      "summon": {
+        "default_result": "immediate_audience",
+        "variants": [
+          "immediate",
+          "blocked_by_faction"
+        ]
+      }
+    }
+  },
+  "intent_mappings": [
+    {
+      "intent_type": "ask_information",
+      "keywords": [
+        "ask guo about",
+        "ask about",
+        "information",
+        "report",
+        "情况",
+        "问",
+        "军情"
+      ],
+      "state_changing": false,
+      "requires_confirmation": false,
+      "source_type": "private_talk",
+      "confidence": 0.68
+    },
+    {
+      "intent_type": "ask_advice",
+      "keywords": [
+        "advice",
+        "counsel",
+        "建议",
+        "请教",
+        "谋划",
+        "怎么看"
+      ],
+      "state_changing": false,
+      "requires_confirmation": false,
+      "source_type": "private_talk",
+      "confidence": 0.72
+    },
+    {
+      "intent_type": "issue_order",
+      "decision_id": "send_grain",
+      "default_executor_id": "guo_ziyi",
+      "target_id": "shuofang_front",
+      "keywords": [
+        "send grain",
+        "grain to shuofang",
+        "拨粮",
+        "调粮",
+        "粮",
+        "朔方"
+      ],
+      "state_changing": true,
+      "requires_confirmation": true,
+      "source_type": "oral_order",
+      "risk_tags": [
+        "grain_pressure",
+        "military_expectation"
+      ],
+      "confidence": 0.88
+    },
+    {
+      "intent_type": "draft_decree",
+      "decision_id": "honor_xuanzong_edict",
+      "default_executor_id": "li_bi",
+      "target_id": "court_legitimacy",
+      "keywords": [
+        "decree",
+        "edict",
+        "formal",
+        "诏",
+        "制书",
+        "明诏",
+        "敕"
+      ],
+      "state_changing": true,
+      "requires_confirmation": true,
+      "source_type": "formal_decree",
+      "risk_tags": [
+        "legitimacy"
+      ],
+      "confidence": 0.82
+    },
+    {
+      "intent_type": "delegate_task",
+      "decision_id": "reinforce_guanzhong_relay",
+      "default_executor_id": "li_bi",
+      "target_id": "guanzhong_front",
+      "keywords": [
+        "delegate",
+        "relay",
+        "驿",
+        "关中",
+        "传令",
+        "委派"
+      ],
+      "state_changing": true,
+      "requires_confirmation": true,
+      "source_type": "oral_order",
+      "risk_tags": [
+        "relay_line"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "intent_type": "offer_reward",
+      "decision_id": "approve_uighur_reward",
+      "default_executor_id": "uighur_envoy",
+      "target_id": "uighur_envoys",
+      "keywords": [
+        "reward",
+        "赏",
+        "回纥",
+        "马价",
+        "许诺"
+      ],
+      "state_changing": true,
+      "requires_confirmation": true,
+      "source_type": "negotiation",
+      "risk_tags": [
+        "uighur_price"
+      ],
+      "confidence": 0.84
+    },
+    {
+      "intent_type": "threaten_punishment",
+      "decision_id": "punish_grain_corruption",
+      "default_executor_id": "grain_official_lingwu",
+      "target_id": "grain_official_lingwu",
+      "keywords": [
+        "punish",
+        "处罚",
+        "惩",
+        "粮官",
+        "问罪",
+        "账册"
+      ],
+      "state_changing": true,
+      "requires_confirmation": true,
+      "source_type": "public_audience",
+      "risk_tags": [
+        "official_resistance"
+      ],
+      "confidence": 0.78
+    },
+    {
+      "intent_type": "refuse_request",
+      "decision_id": "delay_grain",
+      "default_executor_id": "li_heng",
+      "target_id": "current_request",
+      "keywords": [
+        "refuse",
+        "reject",
+        "不准",
+        "拒绝",
+        "不许"
+      ],
+      "state_changing": true,
+      "requires_confirmation": true,
+      "source_type": "oral_order",
+      "risk_tags": [
+        "relationship_loss"
+      ],
+      "confidence": 0.7
+    },
+    {
+      "intent_type": "delay_request",
+      "decision_id": "delay_uighur_terms",
+      "default_executor_id": "uighur_envoy",
+      "target_id": "uighur_envoys",
+      "keywords": [
+        "delay",
+        "postpone",
+        "缓",
+        "拖",
+        "稍后"
+      ],
+      "state_changing": true,
+      "requires_confirmation": true,
+      "source_type": "oral_order",
+      "risk_tags": [
+        "delay_pressure"
+      ],
+      "confidence": 0.76
+    },
+    {
+      "intent_type": "demand_explanation",
+      "decision_id": "investigate_grain_official",
+      "default_executor_id": "grain_official_lingwu",
+      "target_id": "grain_register",
+      "keywords": [
+        "explain",
+        "explanation",
+        "account",
+        "解释",
+        "说明",
+        "账册",
+        "查问"
+      ],
+      "state_changing": true,
+      "requires_confirmation": true,
+      "source_type": "public_audience",
+      "risk_tags": [
+        "investigation"
+      ],
+      "confidence": 0.78
+    },
+    {
+      "intent_type": "ask_support_against_npc",
+      "decision_id": "restrain_eunuch_gatekeeping",
+      "default_executor_id": "li_bi",
+      "target_id": "li_fuguo",
+      "keywords": [
+        "support me against",
+        "against Li Fuguo",
+        "restrain eunuch gatekeeping",
+        "gatekeeping",
+        "eunuch",
+        "牵制",
+        "李辅国",
+        "宦官",
+        "支持我"
+      ],
+      "state_changing": true,
+      "requires_confirmation": true,
+      "source_type": "private_instruction",
+      "risk_tags": [
+        "eunuch_resistance"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "intent_type": "start_negotiation",
+      "decision_id": "negotiate_uighur_vanguard",
+      "default_executor_id": "uighur_envoy",
+      "target_id": "uighur_direction",
+      "keywords": [
+        "negotiate uighur reward",
+        "negotiate",
+        "terms",
+        "谈判",
+        "议价",
+        "前锋"
+      ],
+      "state_changing": true,
+      "requires_confirmation": true,
+      "source_type": "negotiation",
+      "risk_tags": [
+        "uighur_price"
+      ],
+      "confidence": 0.82
+    },
+    {
+      "intent_type": "open_key_scene",
+      "decision_id": "",
+      "default_executor_id": "guo_ziyi",
+      "target_id": "guo_ziyi_military_tent",
+      "keywords": [
+        "enter",
+        "scene",
+        "tent",
+        "军帐",
+        "入帐",
+        "场景"
+      ],
+      "state_changing": true,
+      "requires_confirmation": true,
+      "source_type": "private_talk",
+      "risk_tags": [
+        "scene_route"
+      ],
+      "confidence": 0.74
+    },
+    {
+      "intent_type": "public_reassurance",
+      "decision_id": "public_grain_reassurance",
+      "default_executor_id": "lingwu_merchant_refugee",
+      "target_id": "lingwu_court",
+      "keywords": [
+        "reassure",
+        "public",
+        "安民",
+        "告示",
+        "民心"
+      ],
+      "state_changing": true,
+      "requires_confirmation": true,
+      "source_type": "public_audience",
+      "risk_tags": [
+        "public_order"
+      ],
+      "confidence": 0.78
+    }
+  ],
+  "task_integrated_intent_types": [
+    "issue_order",
+    "draft_decree",
+    "delegate_task",
+    "offer_reward",
+    "threaten_punishment",
+    "refuse_request",
+    "delay_request",
+    "demand_explanation",
+    "ask_support_against_npc",
+    "start_negotiation",
+    "open_key_scene",
+    "public_reassurance"
+  ],
+  "response_profiles": {
+    "loyal_general": {
+      "default_kind": "accept",
+      "formal_decree_bias": 1
+    },
+    "strategic_counselor": {
+      "default_kind": "accept",
+      "warning_bias": 2
+    },
+    "gatekeeping_eunuch": {
+      "default_kind": "delay",
+      "secret_resist_bias": 2
+    },
+    "transactional_envoy": {
+      "default_kind": "bargain",
+      "reward_bias": 3
+    },
+    "ritual_hardliner": {
+      "default_kind": "require_formal_decree",
+      "refusal_bias": 2
+    },
+    "disciplined_general": {
+      "default_kind": "require_formal_decree",
+      "warning_bias": 1
+    },
+    "ambitious_border_general": {
+      "default_kind": "bargain",
+      "reward_bias": 2
+    },
+    "dynastic_heir": {
+      "default_kind": "accept",
+      "warning_bias": 1
+    },
+    "civil_representative": {
+      "default_kind": "accept",
+      "public_order_bias": 2
+    },
+    "regional_power_broker": {
+      "default_kind": "bargain",
+      "formal_decree_bias": 2
+    },
+    "cornered_official": {
+      "default_kind": "refuse",
+      "fear_bias": 3
+    }
+  },
+  "memory_templates": [
+    {
+      "memory_type": "order",
+      "summary": "The emperor turned a conversation into an executable order.",
+      "tags": [
+        "dialogue",
+        "order"
+      ]
+    },
+    {
+      "memory_type": "reward",
+      "summary": "A promised reward changed negotiation leverage.",
+      "tags": [
+        "reward",
+        "bargain"
+      ]
+    },
+    {
+      "memory_type": "insult",
+      "summary": "A public rebuke made the target defensive.",
+      "tags": [
+        "public",
+        "negative"
+      ]
+    },
+    {
+      "memory_type": "rescue",
+      "summary": "The court protected an ally during pressure.",
+      "tags": [
+        "positive",
+        "alliance"
+      ]
+    },
+    {
+      "memory_type": "betrayal",
+      "summary": "A private assurance was undercut by a later order.",
+      "tags": [
+        "negative",
+        "trust"
+      ]
+    },
+    {
+      "memory_type": "delay",
+      "summary": "The court delayed a request and the petitioner remembered it.",
+      "tags": [
+        "delay"
+      ]
+    },
+    {
+      "memory_type": "refusal",
+      "summary": "A request was refused and left a visible record.",
+      "tags": [
+        "refusal"
+      ]
+    },
+    {
+      "memory_type": "success",
+      "summary": "A dialogue-originated task completed and produced a report.",
+      "tags": [
+        "success",
+        "report"
+      ]
+    },
+    {
+      "memory_type": "failure",
+      "summary": "An order was blocked by resources or procedure.",
+      "tags": [
+        "failure",
+        "blocked"
+      ]
+    },
+    {
+      "memory_type": "rumor",
+      "summary": "Court talk spread as rumor after an audience.",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "memory_type": "decree",
+      "summary": "A formal decree clarified the order chain.",
+      "tags": [
+        "decree"
+      ]
+    },
+    {
+      "memory_type": "private_talk",
+      "summary": "A private exchange shaped later stance.",
+      "tags": [
+        "private"
+      ]
+    },
+    {
+      "memory_type": "order",
+      "summary": "Guo Ziyi remembered whether grain was actually sent.",
+      "tags": [
+        "guo_ziyi",
+        "grain"
+      ]
+    },
+    {
+      "memory_type": "reward",
+      "summary": "The Uighur envoy recorded the price the court accepted.",
+      "tags": [
+        "uighur"
+      ]
+    },
+    {
+      "memory_type": "delay",
+      "summary": "Li Fuguo used delay to test access control.",
+      "tags": [
+        "eunuch"
+      ]
+    },
+    {
+      "memory_type": "refusal",
+      "summary": "The old-court hardliner treated informal orders as suspect.",
+      "tags": [
+        "old_court"
+      ]
+    },
+    {
+      "memory_type": "success",
+      "summary": "Li Bi tied counsel to a later visible result.",
+      "tags": [
+        "li_bi"
+      ]
+    },
+    {
+      "memory_type": "failure",
+      "summary": "The grain official remembered an audit threat.",
+      "tags": [
+        "grain_official"
+      ]
+    },
+    {
+      "memory_type": "private_talk",
+      "summary": "Li Chu noted whether dynastic continuity was respected.",
+      "tags": [
+        "li_chu"
+      ]
+    },
+    {
+      "memory_type": "rumor",
+      "summary": "Lingwu merchants carried the result into public sentiment.",
+      "tags": [
+        "public_order"
+      ]
+    }
+  ],
+  "follow_up_reports": [
+    {
+      "id": "dialogue_grain_sent_report",
+      "intent_type": "issue_order",
+      "source_character_id": "guo_ziyi",
+      "title": "Dialogue grain order report"
+    },
+    {
+      "id": "dialogue_decree_report",
+      "intent_type": "draft_decree",
+      "source_character_id": "li_bi",
+      "title": "Dialogue decree report"
+    },
+    {
+      "id": "dialogue_relay_report",
+      "intent_type": "delegate_task",
+      "source_character_id": "li_bi",
+      "title": "Dialogue relay report"
+    },
+    {
+      "id": "dialogue_uighur_reward_report",
+      "intent_type": "offer_reward",
+      "source_character_id": "uighur_envoy",
+      "title": "Dialogue Uighur reward report"
+    },
+    {
+      "id": "dialogue_punishment_report",
+      "intent_type": "threaten_punishment",
+      "source_character_id": "grain_official_lingwu",
+      "title": "Dialogue punishment report"
+    },
+    {
+      "id": "dialogue_refusal_record",
+      "intent_type": "refuse_request",
+      "source_character_id": "li_bi",
+      "title": "Dialogue refusal record"
+    },
+    {
+      "id": "dialogue_delay_record",
+      "intent_type": "delay_request",
+      "source_character_id": "uighur_envoy",
+      "title": "Dialogue delay record"
+    },
+    {
+      "id": "dialogue_explanation_report",
+      "intent_type": "demand_explanation",
+      "source_character_id": "grain_official_lingwu",
+      "title": "Dialogue explanation report"
+    },
+    {
+      "id": "dialogue_eunuch_restraint_report",
+      "intent_type": "ask_support_against_npc",
+      "source_character_id": "li_fuguo",
+      "title": "Dialogue eunuch restraint report"
+    },
+    {
+      "id": "dialogue_negotiation_report",
+      "intent_type": "start_negotiation",
+      "source_character_id": "uighur_envoy",
+      "title": "Dialogue negotiation report"
+    },
+    {
+      "id": "dialogue_scene_report",
+      "intent_type": "open_key_scene",
+      "source_character_id": "guo_ziyi",
+      "title": "Dialogue scene entry report"
+    },
+    {
+      "id": "dialogue_public_reassurance_report",
+      "intent_type": "public_reassurance",
+      "source_character_id": "lingwu_merchant_refugee",
+      "title": "Dialogue public reassurance report"
+    }
+  ],
+  "audience_variants": [
+    {
+      "id": "immediate",
+      "summary": "NPC enters audience immediately."
+    },
+    {
+      "id": "delayed",
+      "summary": "NPC agrees but arrives after current pressure clears."
+    },
+    {
+      "id": "refused",
+      "summary": "NPC refuses audience and leaves a visible record."
+    },
+    {
+      "id": "proxy_response",
+      "summary": "NPC sends a proxy report or memorial."
+    },
+    {
+      "id": "key_scene",
+      "summary": "Audience routes into a key scene."
+    }
+  ]
+}

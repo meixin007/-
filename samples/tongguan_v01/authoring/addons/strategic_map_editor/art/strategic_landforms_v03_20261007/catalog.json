@@ -1,0 +1,77 @@
+{
+  "bundle_id": "strategic_landforms_v03_20261007",
+  "version": 1,
+  "extends": "strategic_ground_v02_20261007",
+  "assets": {
+    "landform_v03_ridge": {
+      "label": "战略山川 · 主脊与支脉",
+      "atlas": "connected-ridges-v03.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        33,
+        16,
+        1713,
+        542
+      ],
+      "width": 512
+    },
+    "landform_v03_spur": {
+      "label": "战略山川 · 谷口侧脉",
+      "atlas": "connected-ridges-v03.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        812,
+        611,
+        896,
+        255
+      ],
+      "width": 320
+    },
+    "landform_v03_forest_mass": {
+      "label": "战略山川 · 整片林区",
+      "atlas": "forest-regions-v03.png",
+      "group": "ground",
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        57,
+        58,
+        1446,
+        639
+      ],
+      "width": 500
+    },
+    "landform_v03_forest_belt": {
+      "label": "战略山川 · 山脚林带",
+      "atlas": "forest-regions-v03.png",
+      "group": "ground",
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        63,
+        710,
+        1409,
+        290
+      ],
+      "width": 400
+    }
+  }
+}

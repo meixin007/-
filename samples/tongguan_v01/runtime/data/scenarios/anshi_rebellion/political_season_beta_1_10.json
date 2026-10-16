@@ -1,0 +1,78 @@
+{
+  "schema_version": 110,
+  "season_id": "beta110_political_season",
+  "campaign_id": "anshi_beta_1_10",
+  "base_season_id": "beta109_political_season",
+  "start_day": 1,
+  "end_day": 90,
+  "freeze_before_day": 31,
+  "allow_overlap_after_predicates": true,
+  "appointment_window": {
+    "start_day": 12,
+    "end_day": 90,
+    "office_id": "menxia_review",
+    "public_summary": "第十二日至第九十日可补任门下省审议人；逾期空缺不再锁死后续问责与复核流程。"
+  },
+  "report_template_families_by_topic": {},
+  "report_templates": {
+    "beta110_review_reports": {
+      "receipt": {"title": "阶段报告已登记", "summary": "阶段报告已登记并保留权威来源。"},
+      "progress": {"title": "阶段复盘进展", "summary": "阶段复盘汇总了案件、路线和派系的实际变化。"},
+      "anomaly": {"title": "阶段复盘异常", "summary": "阶段复盘发现需要继续追责的异常。"},
+      "closure": {"title": "阶段复盘结案", "summary": "阶段复盘已形成可追溯的结论记录。"}
+    }
+  },
+  "nodes": [
+    {"node_id": "beta110_grain_case_open", "day": 31, "arc": "supply_accountability", "case_id": "beta108_case_grain_ledger_shortfall", "strategic_node_id": "grain_road_node", "title": "粮册短缺案开启", "source_paths": ["accountability_case", "grain_road_node"]},
+    {"node_id": "beta110_front_supply_delay", "day": 36, "arc": "supply_accountability", "case_id": "beta108_case_military_grain_delay", "strategic_node_id": "shuofang_front_node", "title": "前线军粮迟延", "source_paths": ["accountability_case", "route_network", "shuofang_front_node"]},
+    {"node_id": "beta110_palace_order_leak", "day": 42, "arc": "palace_authority", "case_id": "beta108_case_palace_order_leak", "strategic_node_id": "palace_inner_channel_node", "title": "宫门传令泄漏", "source_paths": ["accountability_case", "palace_inner_channel_node"]},
+    {"node_id": "beta110_supply_review", "day": 45, "arc": "supply_accountability", "report_id": "beta110_report_supply_review", "strategic_node_id": "grain_road_node", "title": "军粮与账册阶段复盘", "source_paths": ["case_outcomes", "route_network", "governance_reports"]},
+    {"node_id": "beta110_edict_legitimacy", "day": 48, "arc": "palace_authority", "case_id": "beta108_case_edict_legitimacy", "strategic_node_id": "lingwu_court_node", "title": "诏令正当性争议", "source_paths": ["accountability_case", "office_terms", "lingwu_court_node"]},
+    {"node_id": "beta110_uighur_aid_cost", "day": 61, "arc": "alliance_cost", "case_id": "beta108_case_uighur_aid_cost", "strategic_node_id": "uighur_route_node", "title": "回纥援助代价", "source_paths": ["accountability_case", "route_network", "uighur_route_node"]},
+    {"node_id": "beta110_authority_review", "day": 65, "arc": "palace_authority", "report_id": "beta110_report_authority_review", "strategic_node_id": "palace_inner_channel_node", "title": "授权与门禁阶段复盘", "source_paths": ["case_outcomes", "office_terms", "political_echoes"]},
+    {"node_id": "beta110_final_assessment", "day": 75, "arc": "alliance_cost", "case_id": "beta108_case_final_assessment", "strategic_node_id": "guanzhong_approach_node", "title": "终局考核案开启", "source_paths": ["accountability_case", "route_network", "guanzhong_approach_node"]},
+    {"node_id": "beta110_day90_settlement", "day": 90, "arc": "alliance_cost", "report_id": "beta110_report_final_assessment", "strategic_node_id": "guanzhong_approach_node", "title": "九十日余波结算", "source_paths": ["case_outcomes", "governance_reports", "chronicle_causal_references"]}
+  ],
+  "routes": [
+    {
+      "route_id": "beta110_route_audit_continuity",
+      "public_route_id": "beta110_route_audit_continuity",
+      "label": "核账续制",
+      "public_summary": "以公开核账、双签和可追溯的援助条款维持制度连续性，前线速度承担代价。",
+      "base_route_ids": ["audit_then_transport"],
+      "steps": [
+        {"step_id": "beta110_audit_supply", "node_id": "beta110_grain_case_open", "day_window": {"start_day": 31, "end_day": 36}, "clause_ids": ["verify_transport_ledger", "archive_transfer_copy"], "operation": "public_audit_grain", "source_paths": ["accountability_case", "grain_road_node"]},
+        {"step_id": "beta110_audit_palace", "node_id": "beta110_palace_order_leak", "day_window": {"start_day": 42, "end_day": 48}, "clause_ids": ["inner_outer_dual_sign"], "operation": "public_palace_review", "source_paths": ["accountability_case", "palace_inner_channel_node"]},
+        {"step_id": "beta110_audit_alliance", "node_id": "beta110_uighur_aid_cost", "day_window": {"start_day": 61, "end_day": 75}, "clause_ids": ["archive_transfer_copy"], "operation": "renegotiate_aid", "source_paths": ["accountability_case", "uighur_route_node"]}
+      ],
+      "outcome_weights": {"institutional_continuity": 8, "authority": 7, "front_supply": -3, "military_confidence": -1}
+    },
+    {
+      "route_id": "beta110_route_frontline_urgency",
+      "public_route_id": "beta110_route_frontline_urgency",
+      "label": "军前急应",
+      "public_summary": "先保前线供给、再补事后程序，军事信用上升，但政治债务和授权损耗累积。",
+      "base_route_ids": ["frontline_urgent"],
+      "steps": [
+        {"step_id": "beta110_urgent_supply", "node_id": "beta110_front_supply_delay", "day_window": {"start_day": 31, "end_day": 42}, "clause_ids": ["frontline_urgent_transport", "separate_military_rations"], "operation": "urgent_dispatch", "source_paths": ["accountability_case", "shuofang_front_node"]},
+        {"step_id": "beta110_urgent_palace", "node_id": "beta110_edict_legitimacy", "day_window": {"start_day": 48, "end_day": 61}, "clause_ids": ["urgent_dispatch_channel"], "operation": "rapid_decree_after_procedure", "source_paths": ["accountability_case", "lingwu_court_node"]},
+        {"step_id": "beta110_urgent_alliance", "node_id": "beta110_uighur_aid_cost", "day_window": {"start_day": 61, "end_day": 75}, "clause_ids": ["frontline_urgent_transport"], "operation": "pay_aid", "source_paths": ["accountability_case", "uighur_route_node"]}
+      ],
+      "outcome_weights": {"frontline_recovery": 9, "military_confidence": 8, "political_debt": 7, "authority": -5}
+    },
+    {
+      "route_id": "beta110_route_court_consolidation",
+      "public_route_id": "beta110_route_court_consolidation",
+      "label": "固守中枢",
+      "public_summary": "保护职位与门禁，分拆供给并延后援助，以中央程序换取更强的中枢权威。",
+      "base_route_ids": ["audit_then_transport", "frontline_urgent"],
+      "steps": [
+        {"step_id": "beta110_court_supply", "node_id": "beta110_grain_case_open", "day_window": {"start_day": 31, "end_day": 42}, "clause_ids": ["verify_ration_roster"], "operation": "split_supply", "source_paths": ["accountability_case", "grain_road_node"]},
+        {"step_id": "beta110_court_palace", "node_id": "beta110_palace_order_leak", "day_window": {"start_day": 42, "end_day": 65}, "clause_ids": ["inner_outer_dual_sign", "urgent_dispatch_channel"], "operation": "inner_gate_control", "source_paths": ["accountability_case", "office_terms", "palace_inner_channel_node"]},
+        {"step_id": "beta110_court_alliance", "node_id": "beta110_uighur_aid_cost", "day_window": {"start_day": 61, "end_day": 90}, "clause_ids": ["archive_transfer_copy"], "operation": "delay_renegotiate_aid", "source_paths": ["accountability_case", "uighur_route_node"]}
+      ],
+      "outcome_weights": {"institutional_continuity": 5, "authority": 10, "faction_conflict": 7, "front_supply": -2}
+    }
+  ],
+  "report_ids": ["beta110_report_supply_review", "beta110_report_authority_review", "beta110_report_final_assessment"]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "scope": "Explicit R2 initial validation economy; game design values, not historical prices or production campaign balance",
+  "initial_cash": 240,
+  "initial_timber": 80,
+  "facilities": {
+    "warehouse": {"name":"仓库","price":120,"days":3,"timber":20},
+    "granary": {"name":"粮仓","price":140,"days":4,"timber":28},
+    "workshop": {"name":"工坊","price":100,"days":3,"timber":18},
+    "repair_yard": {"name":"维修院","price":80,"days":2,"timber":14},
+    "housing": {"name":"民居组团","price":60,"days":2,"timber":12},
+    "shop": {"name":"商铺","price":80,"days":3,"timber":14},
+    "market": {"name":"市集","price":100,"days":3,"timber":16},
+    "inn": {"name":"客舍","price":120,"days":3,"timber":20},
+    "infirmary": {"name":"医护院","price":160,"days":4,"timber":24},
+    "camp": {"name":"附属营地","price":80,"days":2,"timber":16}
+  }
+}

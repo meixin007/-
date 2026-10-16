@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "source_size": [
+    600,
+    400
+  ],
+  "cell_size_m": 40,
+  "bleed_px": 8,
+  "tiles": [
+    {
+      "path": "res://bundle/terrain/0_0.png",
+      "core_px": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "source_region_px": [
+        0,
+        0,
+        256,
+        256
+      ]
+    },
+    {
+      "path": "res://bundle/terrain/256_0.png",
+      "core_px": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "source_region_px": [
+        8,
+        0,
+        256,
+        256
+      ]
+    },
+    {
+      "path": "res://bundle/terrain/512_0.png",
+      "core_px": [
+        512,
+        0,
+        88,
+        256
+      ],
+      "source_region_px": [
+        8,
+        0,
+        88,
+        256
+      ]
+    },
+    {
+      "path": "res://bundle/terrain/0_256.png",
+      "core_px": [
+        0,
+        256,
+        256,
+        144
+      ],
+      "source_region_px": [
+        0,
+        8,
+        256,
+        144
+      ]
+    },
+    {
+      "path": "res://bundle/terrain/256_256.png",
+      "core_px": [
+        256,
+        256,
+        256,
+        144
+      ],
+      "source_region_px": [
+        8,
+        8,
+        256,
+        144
+      ]
+    },
+    {
+      "path": "res://bundle/terrain/512_256.png",
+      "core_px": [
+        512,
+        256,
+        88,
+        144
+      ],
+      "source_region_px": [
+        8,
+        8,
+        88,
+        144
+      ]
+    }
+  ]
+}

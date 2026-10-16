@@ -1,0 +1,80 @@
+{
+  "campaign_days": 90,
+  "campaign_id": "anshi_beta_1_13",
+  "campaign_title": "安史风云·大唐中枢与门阀纪元",
+  "domain_files": {
+    "bureaucracy": "domain/bureaucracy.json",
+    "characters": "domain/characters.json",
+    "dialogues": "domain/dialogues.json",
+    "events": "domain/events.json",
+    "governance": "domain/governance.json",
+    "military": "domain/military.json"
+  },
+  "phases": [
+    {
+      "end_day": 30.0,
+      "id": "foundation",
+      "start_day": 1.0
+    },
+    {
+      "end_day": 45.0,
+      "id": "supply_accountability",
+      "start_day": 31.0
+    },
+    {
+      "end_day": 65.0,
+      "id": "palace_authority",
+      "start_day": 46.0
+    },
+    {
+      "end_day": 90.0,
+      "id": "alliance_cost",
+      "start_day": 66.0
+    }
+  ],
+  "resources": {
+    "court_authority": 35.0,
+    "grain": 1200.0,
+    "intelligence": 25.0,
+    "legitimacy": 45.0,
+    "military_morale": 52.0,
+    "public_order": 40.0,
+    "treasury": 600.0
+  },
+  "scenario": {
+    "start_phase": "opening"
+  },
+  "schema_version": 113,
+  "vertical_slice": {
+    "excluded_systems": [
+      "unverified_live_ai_text_generation",
+      "multi_identity_start",
+      "palace_family_full_play",
+      "random_appearance_assembly",
+      "speech_to_text"
+    ],
+    "id": "lingwu_court_rules_prototype",
+    "included_systems": [
+      "json_data_load",
+      "game_state",
+      "time_controller",
+      "event_queue",
+      "rule_engine",
+      "save_roundtrip",
+      "api_dialogue_payload",
+      "live_api_dialogue_validation",
+      "dialogue_to_task_registration",
+      "phase_ending",
+      "guo_ziyi_key_scene"
+    ],
+    "play_time_days": 30.0,
+    "success_criteria": [
+      "events_enter_queue_by_time",
+      "decisions_change_world_state",
+      "expired_events_apply_consequences",
+      "same_input_reproduces_same_state",
+      "live_api_player_dialogue_registers_task_when_key_configured",
+      "prototype_runs_without_ai"
+    ]
+  }
+}

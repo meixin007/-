@@ -1,0 +1,32 @@
+{
+  "id": "lingwu_court_rules_prototype",
+  "play_time_days": 30,
+  "included_systems": [
+	"json_data_load",
+	"game_state",
+	"time_controller",
+	"event_queue",
+	"rule_engine",
+	"save_roundtrip",
+	"api_dialogue_payload",
+	"live_api_dialogue_validation",
+	"dialogue_to_task_registration",
+	"phase_ending",
+    "guo_ziyi_key_scene"
+  ],
+  "excluded_systems": [
+	"unverified_live_ai_text_generation",
+	"multi_identity_start",
+	"palace_family_full_play",
+	"random_appearance_assembly",
+    "speech_to_text"
+  ],
+  "success_criteria": [
+	"events_enter_queue_by_time",
+	"decisions_change_world_state",
+	"expired_events_apply_consequences",
+	"same_input_reproduces_same_state",
+	"live_api_player_dialogue_registers_task_when_key_configured",
+    "prototype_runs_without_ai"
+  ]
+}

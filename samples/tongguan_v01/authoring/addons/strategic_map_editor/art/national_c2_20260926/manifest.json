@@ -1,0 +1,53 @@
+{
+  "bundle_id": "national_c2_20260926",
+  "version": 1,
+  "extends": "national_a3_20260926",
+  "review_status": "PENDING_USER_REVIEW",
+  "generation_tool": "builtin image_gen",
+  "actual_backend_model": "NOT_EXPOSED",
+  "transparent_background": true,
+  "assets": [
+    {
+      "file": "county-town.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "bd94ade994fd49534405788ab2173e4be151636f726fcbec9869105236fa03e0",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0deca-1e8f-77b1-a8bf-504d1b2840ca\\exec-90d76109-425a-4eff-a79c-3a443f0b2a35.png"
+    },
+    {
+      "file": "village-courtyard.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4a036d222073a46182c700c6d60cb122efcd67d4b717eb95b060643a733a4195",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0deca-1e8f-77b1-a8bf-504d1b2840ca\\exec-220decd2-9396-4f66-8b60-9934f98a87c1.png"
+    },
+    {
+      "file": "terraces.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "22833be8404435f0d8f023265f0bd1ede1a786faaf8afc7c9578c593c3b65e30",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0deca-1e8f-77b1-a8bf-504d1b2840ca\\exec-393f9cb0-2794-4688-90fe-bf117ba9d0e3.png"
+    },
+    {
+      "file": "desert-dunes.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "39b20f553cfffd2ebd91859332797474504e84d9a8ac6a1fb75c489eaff89006",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0deca-1e8f-77b1-a8bf-504d1b2840ca\\exec-efbe9dd6-7903-48b1-a75e-8513186431cc.png"
+    },
+    {
+      "file": "gobi-gravel.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4f0820e7c3cbb28a1ba5e2eb953fca31d37b529a08fe767641f69a3bd313ba81",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0deca-1e8f-77b1-a8bf-504d1b2840ca\\exec-6d879eb6-9a7e-4d8a-80d7-33cf44621a3e.png"
+    },
+    {
+      "file": "reed-wetland.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "15ff63805022dfe28638945f707e442f9bae2473f232c4fd5a4da210ab1d97dc",
+      "generation_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0deca-1e8f-77b1-a8bf-504d1b2840ca\\exec-54efd890-8232-42f4-bf41-665287f8f065.png"
+    }
+  ]
+}

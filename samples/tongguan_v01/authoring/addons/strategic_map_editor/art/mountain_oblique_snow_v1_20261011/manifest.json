@@ -1,0 +1,40 @@
+{
+  "bundle_id": "mountain_oblique_snow_v1_20261011",
+  "version": 1,
+  "extends": "mountain_oblique_pale_v3_20261011",
+  "asset_review_status": "CANDIDATE_READY_FOR_USER_ACCEPTANCE",
+  "assets": [
+    {
+      "file": "snow_craggy_peak.png",
+      "width": 1200,
+      "height": 861,
+      "mode": "RGBA",
+      "bytes": 1001504,
+      "sha256": "2ccd50e2fb9a7f9d721dd6986ee4a8fdc5634a9d99d60a3631e65b75d07125df"
+    },
+    {
+      "file": "snow_gorge_pass.png",
+      "width": 1264,
+      "height": 823,
+      "mode": "RGBA",
+      "bytes": 1212686,
+      "sha256": "265be2e56889b29620313b76b284692117768e3d710c263643eb440c4086d2f7"
+    },
+    {
+      "file": "snow_cascading_ridge.png",
+      "width": 1376,
+      "height": 744,
+      "mode": "RGBA",
+      "bytes": 1344699,
+      "sha256": "6de607019341a543e197b394385ab80ac4b7364123fffb7e37b60b2dc981d4e7"
+    },
+    {
+      "file": "snow_plateau_peaks.png",
+      "width": 1264,
+      "height": 816,
+      "mode": "RGBA",
+      "bytes": 1222190,
+      "sha256": "9e65d770184222aec6465a9674bdcfcf25397363e4d5feffb2f126fedb1c88f0"
+    }
+  ]
+}

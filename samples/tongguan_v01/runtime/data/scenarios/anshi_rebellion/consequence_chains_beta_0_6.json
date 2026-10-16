@@ -1,0 +1,327 @@
+[
+  {
+    "chain_id": "guo_appointment_political_debt",
+    "trigger_type": "office_appointment",
+    "trigger_id": "shuofang_field_commander",
+    "delay_days": 11,
+    "reports": [
+      {
+        "id": "guo_appointment_old_court_report",
+        "type": "court_reaction_report",
+        "title": "Old Court Questions Guo Ziyi's New Authority",
+        "source_character_id": "hardline_old_court_official",
+        "visible_summary": "The old-court faction argues that Lingwu is empowering frontier generals too quickly.",
+        "available_decisions": [],
+        "deadline_days": 3
+      }
+    ],
+    "effects": [
+      {
+        "type": "faction_delta",
+        "target": "xuanzong_old_court",
+        "field": "pressure",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "chain_id": "beta06_consequence_chain_01",
+    "trigger_type": "office_appointment",
+    "trigger_id": "shuofang_field_commander",
+    "delay_days": 20,
+    "reports": [
+      {
+        "id": "beta06_consequence_chain_01_report",
+        "type": "court_reaction_report",
+        "title": "Beta06 consequence report 1",
+        "source_character_id": "hardline_old_court_official",
+        "visible_summary": "Delayed political consequence from a Beta 0.6 office or council decision.",
+        "available_decisions": [],
+        "deadline_days": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "faction_delta",
+        "target": "xuanzong_old_court",
+        "field": "pressure",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "chain_id": "beta06_consequence_chain_02",
+    "trigger_type": "court_meeting",
+    "trigger_id": "beta06_council_chain_01",
+    "delay_days": 11,
+    "reports": [
+      {
+        "id": "beta06_consequence_chain_02_report",
+        "type": "court_reaction_report",
+        "title": "Beta06 consequence report 2",
+        "source_character_id": "li_fuguo",
+        "visible_summary": "Delayed political consequence from a Beta 0.6 office or council decision.",
+        "available_decisions": [],
+        "deadline_days": 3
+      }
+    ],
+    "effects": [
+      {
+        "type": "faction_delta",
+        "target": "xuanzong_old_court",
+        "field": "pressure",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "chain_id": "beta06_consequence_chain_03",
+    "trigger_type": "court_meeting",
+    "trigger_id": "beta06_council_chain_02",
+    "delay_days": 22,
+    "reports": [
+      {
+        "id": "beta06_consequence_chain_03_report",
+        "type": "court_reaction_report",
+        "title": "Beta06 consequence report 3",
+        "source_character_id": "hardline_old_court_official",
+        "visible_summary": "Delayed political consequence from a Beta 0.6 office or council decision.",
+        "available_decisions": [],
+        "deadline_days": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "faction_delta",
+        "target": "xuanzong_old_court",
+        "field": "pressure",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "chain_id": "beta06_consequence_chain_04",
+    "trigger_type": "court_meeting",
+    "trigger_id": "beta06_council_chain_03",
+    "delay_days": 13,
+    "reports": [
+      {
+        "id": "beta06_consequence_chain_04_report",
+        "type": "court_reaction_report",
+        "title": "Beta06 consequence report 4",
+        "source_character_id": "li_fuguo",
+        "visible_summary": "Delayed political consequence from a Beta 0.6 office or council decision.",
+        "available_decisions": [],
+        "deadline_days": 3
+      }
+    ],
+    "effects": [
+      {
+        "type": "faction_delta",
+        "target": "xuanzong_old_court",
+        "field": "pressure",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "chain_id": "beta06_consequence_chain_05",
+    "trigger_type": "court_meeting",
+    "trigger_id": "beta06_council_chain_04",
+    "delay_days": 24,
+    "reports": [
+      {
+        "id": "beta06_consequence_chain_05_report",
+        "type": "court_reaction_report",
+        "title": "Beta06 consequence report 5",
+        "source_character_id": "hardline_old_court_official",
+        "visible_summary": "Delayed political consequence from a Beta 0.6 office or council decision.",
+        "available_decisions": [],
+        "deadline_days": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "faction_delta",
+        "target": "xuanzong_old_court",
+        "field": "pressure",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "chain_id": "beta06_consequence_chain_06",
+    "trigger_type": "court_meeting",
+    "trigger_id": "beta06_council_chain_05",
+    "delay_days": 15,
+    "reports": [
+      {
+        "id": "beta06_consequence_chain_06_report",
+        "type": "court_reaction_report",
+        "title": "Beta06 consequence report 6",
+        "source_character_id": "li_fuguo",
+        "visible_summary": "Delayed political consequence from a Beta 0.6 office or council decision.",
+        "available_decisions": [],
+        "deadline_days": 3
+      }
+    ],
+    "effects": [
+      {
+        "type": "faction_delta",
+        "target": "xuanzong_old_court",
+        "field": "pressure",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "chain_id": "beta06_consequence_chain_07",
+    "trigger_type": "court_meeting",
+    "trigger_id": "beta06_council_chain_06",
+    "delay_days": 26,
+    "reports": [
+      {
+        "id": "beta06_consequence_chain_07_report",
+        "type": "court_reaction_report",
+        "title": "Beta06 consequence report 7",
+        "source_character_id": "hardline_old_court_official",
+        "visible_summary": "Delayed political consequence from a Beta 0.6 office or council decision.",
+        "available_decisions": [],
+        "deadline_days": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "faction_delta",
+        "target": "xuanzong_old_court",
+        "field": "pressure",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "chain_id": "beta06_consequence_chain_08",
+    "trigger_type": "court_meeting",
+    "trigger_id": "beta06_council_chain_07",
+    "delay_days": 25,
+    "reports": [
+      {
+        "id": "beta06_consequence_chain_08_report",
+        "type": "court_reaction_report",
+        "title": "Beta06 consequence report 8",
+        "source_character_id": "li_fuguo",
+        "visible_summary": "Delayed political consequence from a Beta 0.6 office or council decision.",
+        "available_decisions": [],
+        "deadline_days": 3
+      }
+    ],
+    "effects": [
+      {
+        "type": "faction_delta",
+        "target": "xuanzong_old_court",
+        "field": "pressure",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "chain_id": "beta06_consequence_chain_09",
+    "trigger_type": "court_meeting",
+    "trigger_id": "beta06_council_chain_08",
+    "delay_days": 12,
+    "reports": [
+      {
+        "id": "beta06_consequence_chain_09_report",
+        "type": "court_reaction_report",
+        "title": "Beta06 consequence report 9",
+        "source_character_id": "hardline_old_court_official",
+        "visible_summary": "Delayed political consequence from a Beta 0.6 office or council decision.",
+        "available_decisions": [],
+        "deadline_days": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "faction_delta",
+        "target": "xuanzong_old_court",
+        "field": "pressure",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "chain_id": "beta06_consequence_chain_10",
+    "trigger_type": "court_meeting",
+    "trigger_id": "beta06_council_chain_09",
+    "delay_days": 26,
+    "reports": [
+      {
+        "id": "beta06_consequence_chain_10_report",
+        "type": "court_reaction_report",
+        "title": "Beta06 consequence report 10",
+        "source_character_id": "li_fuguo",
+        "visible_summary": "Delayed political consequence from a Beta 0.6 office or council decision.",
+        "available_decisions": [],
+        "deadline_days": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "faction_delta",
+        "target": "xuanzong_old_court",
+        "field": "pressure",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "chain_id": "beta06_consequence_chain_11",
+    "trigger_type": "court_meeting",
+    "trigger_id": "beta06_council_chain_10",
+    "delay_days": 15,
+    "reports": [
+      {
+        "id": "beta06_consequence_chain_11_report",
+        "type": "court_reaction_report",
+        "title": "Beta06 consequence report 11",
+        "source_character_id": "hardline_old_court_official",
+        "visible_summary": "Delayed political consequence from a Beta 0.6 office or council decision.",
+        "available_decisions": [],
+        "deadline_days": 3
+      }
+    ],
+    "effects": [
+      {
+        "type": "faction_delta",
+        "target": "xuanzong_old_court",
+        "field": "pressure",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "chain_id": "beta06_consequence_chain_12",
+    "trigger_type": "court_meeting",
+    "trigger_id": "beta06_council_chain_11",
+    "delay_days": 24,
+    "reports": [
+      {
+        "id": "beta06_consequence_chain_12_report",
+        "type": "court_reaction_report",
+        "title": "Beta06 consequence report 12",
+        "source_character_id": "li_fuguo",
+        "visible_summary": "Delayed political consequence from a Beta 0.6 office or council decision.",
+        "available_decisions": [],
+        "deadline_days": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "faction_delta",
+        "target": "xuanzong_old_court",
+        "field": "pressure",
+        "value": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,617 @@
+[
+  {
+	"id": "li_heng",
+	"name": "李亨",
+	"role": "新即位皇帝",
+	"faction_id": "suzong_court",
+	"location_id": "lingwu_court",
+	"status": "active",
+	"public_goal": "稳住灵武行在，取得承认",
+	"hidden_goal": "避免被旧臣、宦官或将帅架空",
+	"stats": {
+	  "military": 42,
+	  "governance": 55,
+	  "finance": 45,
+	  "intrigue": 58,
+	  "diplomacy": 60,
+	  "prestige": 50
+	},
+	"traits": [
+	  "cautious",
+      "pressured"
+	],
+	"relationships": {
+	  "guo_ziyi": 20,
+	  "li_fuguo": 10,
+	  "li_bi": 25
+	},
+	"memory_summary": []
+  },
+  {
+	"id": "guo_ziyi",
+	"name": "郭子仪",
+	"role": "朔方军将领",
+	"faction_id": "military_commanders",
+	"location_id": "shuofang",
+	"status": "active",
+	"public_goal": "平定叛乱，保全唐室",
+	"hidden_goal": "避免朝廷猜忌，保住军队完整",
+	"stats": {
+	  "military": 88,
+	  "governance": 48,
+	  "finance": 42,
+	  "intrigue": 50,
+	  "diplomacy": 62,
+	  "prestige": 76
+	},
+	"traits": [
+	  "loyal",
+      "cautious"
+	],
+	"relationships": {
+	  "li_heng": 20,
+	  "li_fuguo": -10,
+	  "li_bi": 15
+	},
+	"governance_tags": ["military", "command", "logistics"],
+	"governance_ability": 55,
+	"memory_summary": [
+      "灵武即位后被视为可依赖的朔方军主将"
+	],
+	"active_action_rules": [
+	  "request_audience",
+	  "submit_memorial",
+      "ask_for_grain"
+	]
+  },
+  {
+	"id": "li_fuguo",
+	"name": "李辅国",
+	"role": "近侍宦官",
+	"faction_id": "eunuch_network",
+	"location_id": "lingwu_court",
+	"status": "active",
+	"public_goal": "保护新皇，控制宫廷通道",
+	"hidden_goal": "扩大近侍权势，压制外朝和将帅",
+	"stats": {
+	  "military": 20,
+	  "governance": 44,
+	  "finance": 40,
+	  "intrigue": 78,
+	  "diplomacy": 55,
+	  "prestige": 35
+	},
+	"traits": [
+	  "ambitious",
+      "watchful"
+	],
+	"relationships": {
+	  "li_heng": 10,
+	  "guo_ziyi": -10,
+	  "li_bi": -5
+	},
+	"governance_tags": ["inner_court", "relay", "governance"],
+	"governance_ability": 44,
+	"memory_summary": [],
+	"active_action_rules": [
+	  "request_audience",
+	  "submit_memorial",
+      "ask_for_grain"
+	]
+  },
+  {
+	"id": "li_bi",
+	"name": "李泌",
+	"role": "谋臣",
+	"faction_id": "suzong_court",
+	"location_id": "lingwu_court",
+	"status": "active",
+	"public_goal": "辅佐新皇稳定局势",
+	"hidden_goal": "避免朝廷被近侍或武将单方控制",
+	"stats": {
+	  "military": 55,
+	  "governance": 70,
+	  "finance": 58,
+	  "intrigue": 82,
+	  "diplomacy": 75,
+	  "prestige": 68
+	},
+	"traits": [
+	  "strategic",
+      "reserved"
+	],
+	"relationships": {
+	  "li_heng": 25,
+	  "guo_ziyi": 15,
+	  "li_fuguo": -5
+	},
+	"governance_tags": ["governance", "intelligence", "drafting", "logistics"],
+	"governance_ability": 58,
+	"memory_summary": [],
+	"active_action_rules": [
+	  "request_audience",
+	  "submit_memorial",
+      "ask_for_grain"
+	]
+  },
+  {
+	"id": "grain_official_lingwu",
+	"name": "灵武粮草官",
+	"role": "地方粮草官",
+	"faction_id": "suzong_court",
+	"location_id": "lingwu_court",
+	"status": "active",
+	"public_goal": "维持行在粮草账目",
+	"hidden_goal": "掩盖亏空，避免被追责",
+	"stats": {
+	  "military": 10,
+	  "governance": 52,
+	  "finance": 64,
+	  "intrigue": 48,
+	  "diplomacy": 35,
+	  "prestige": 20
+	},
+	"traits": [
+	  "nervous",
+      "self_protective"
+	],
+	"relationships": {
+	  "li_heng": 0,
+	  "li_fuguo": 5
+	},
+	"governance_tags": ["finance", "logistics"],
+	"governance_ability": 48,
+	"memory_summary": []
+  },
+  {
+	"id": "tang_xuanzong",
+	"name": "唐玄宗",
+	"role": "上皇",
+	"faction_id": "old_court",
+	"location_id": "shu",
+	"status": "distant",
+	"public_goal": "维持上皇尊位与旧臣体面",
+	"hidden_goal": "避免新皇完全切断旧朝影响",
+	"stats": {
+	  "military": 35,
+	  "governance": 66,
+	  "finance": 52,
+	  "intrigue": 70,
+	  "diplomacy": 68,
+	  "prestige": 82
+	},
+	"traits": [
+	  "proud",
+      "wounded_authority"
+	],
+	"relationships": {
+	  "li_heng": -5,
+	  "li_bi": 5
+	},
+	"memory_summary": [
+      "马嵬坡后西狩入蜀，与灵武新朝形成正统压力"
+	]
+  },
+  {
+	"id": "li_guangbi",
+	"name": "李光弼",
+	"role": "河东唐军将领",
+	"faction_id": "military_commanders",
+	"location_id": "hedong_front",
+	"status": "active",
+	"public_goal": "稳住河东战线，等待朝廷明确号令",
+	"hidden_goal": "避免被仓促调度拖入无粮败局",
+	"stats": {
+	  "military": 86,
+	  "governance": 45,
+	  "finance": 38,
+	  "intrigue": 48,
+	  "diplomacy": 58,
+	  "prestige": 72
+	},
+	"traits": [
+	  "disciplined",
+      "hard_edged"
+	],
+	"relationships": {
+	  "li_heng": 12,
+	  "guo_ziyi": 18,
+	  "li_bi": 10
+	},
+	"governance_tags": ["military", "command"],
+	"governance_ability": 52,
+	"memory_summary": [
+      "被视为郭子仪之外另一支可依靠的平叛主力"
+	]
+  },
+  {
+	"id": "chen_xuanli",
+	"name": "陈玄礼",
+	"role": "禁军宿将",
+	"faction_id": "old_court",
+	"location_id": "westward_route",
+	"status": "distant",
+	"public_goal": "保全禁军与车驾残余秩序",
+	"hidden_goal": "不愿再为失控朝政承担全部罪责",
+	"stats": {
+	  "military": 74,
+	  "governance": 38,
+	  "finance": 30,
+	  "intrigue": 52,
+	  "diplomacy": 45,
+	  "prestige": 58
+	},
+	"traits": [
+	  "battle_worn",
+      "guilt_burdened"
+	],
+	"relationships": {
+	  "li_heng": 0,
+	  "tang_xuanzong": 15
+	},
+	"governance_tags": ["oversight", "military"],
+	"governance_ability": 46,
+	"memory_summary": [
+      "马嵬坡兵变后成为旧秩序崩裂的见证者"
+	]
+  },
+  {
+	"id": "zhang_liangdi",
+	"name": "张良娣",
+	"role": "肃宗后妃",
+	"faction_id": "palace_household",
+	"location_id": "lingwu_court",
+	"status": "active",
+	"public_goal": "稳住内廷与宗室随行人心",
+	"hidden_goal": "扩大后宫在新朝用人和赏赐上的影响",
+	"stats": {
+	  "military": 8,
+	  "governance": 48,
+	  "finance": 46,
+	  "intrigue": 68,
+	  "diplomacy": 62,
+	  "prestige": 42
+	},
+	"traits": [
+	  "protective",
+      "politically_alert"
+	],
+	"relationships": {
+	  "li_heng": 18,
+	  "li_fuguo": 5,
+	  "li_bi": -3
+	},
+	"memory_summary": [
+      "随李亨进入灵武，关注内廷安全与新朝名分"
+	]
+  },
+  {
+	"id": "an_lushan",
+	"name": "安禄山",
+	"role": "叛军首领",
+	"faction_id": "rebel_command",
+	"location_id": "rebel_court",
+	"status": "enemy",
+	"public_goal": "摧毁唐廷权威，建立叛军政权",
+	"hidden_goal": "压住叛军内部猜忌与继承隐患",
+	"stats": {
+	  "military": 82,
+	  "governance": 40,
+	  "finance": 58,
+	  "intrigue": 60,
+	  "diplomacy": 50,
+	  "prestige": 78
+	},
+	"traits": [
+	  "ruthless",
+      "suspicious"
+	],
+	"relationships": {
+	  "li_heng": -80,
+	  "shi_siming": 10
+	},
+	"memory_summary": [
+      "天宝十四载起兵，迫使唐廷从长安秩序跌入战时流亡"
+	]
+  },
+  {
+	"id": "shi_siming",
+	"name": "史思明",
+	"role": "叛军大将",
+	"faction_id": "rebel_command",
+	"location_id": "rebel_front",
+	"status": "enemy",
+	"public_goal": "为叛军夺取河北与关中战果",
+	"hidden_goal": "保存自身兵权，观望叛军中枢变化",
+	"stats": {
+	  "military": 84,
+	  "governance": 38,
+	  "finance": 45,
+	  "intrigue": 72,
+	  "diplomacy": 44,
+	  "prestige": 66
+	},
+	"traits": [
+	  "opportunistic",
+      "hard_to_bind"
+	],
+	"relationships": {
+	  "li_heng": -70,
+	  "an_lushan": 10
+	},
+	"memory_summary": [
+      "叛军中最危险的机动将领之一，可能放大战局压力"
+	]
+  },
+  {
+	"id": "uighur_envoy",
+	"name": "回纥使者",
+	"role": "回纥谈判使者",
+	"faction_id": "uighur_envoys",
+	"location_id": "lingwu_court",
+	"status": "active",
+	"public_goal": "确认唐廷能支付援兵代价",
+	"hidden_goal": "为回纥争取最大赏赐与战后利益",
+	"stats": {
+	  "military": 45,
+	  "governance": 42,
+	  "finance": 68,
+	  "intrigue": 62,
+	  "diplomacy": 78,
+	  "prestige": 50
+	},
+	"traits": [
+	  "transactional",
+      "watchful"
+	],
+	"relationships": {
+	  "li_heng": 0,
+	  "li_bi": 8
+	},
+	"memory_summary": [
+      "灵武新朝必须争取其援兵，但厚赏会带来长期代价"
+	],
+	"active_action_rules": [
+	  "request_audience",
+	  "submit_memorial",
+      "ask_for_grain"
+	]
+  },
+  {
+	"id": "pugu_huaien",
+	"name": "仆固怀恩",
+	"role": "朔方骑军将领",
+	"faction_id": "military_commanders",
+	"location_id": "shuofang",
+	"status": "active",
+	"public_goal": "为唐廷取得机动作战胜势。",
+	"hidden_goal": "在未来猜忌到来前积累足够军中威望。",
+	"stats": {
+	  "military": 82,
+	  "governance": 38,
+	  "finance": 36,
+	  "intrigue": 58,
+	  "diplomacy": 52,
+	  "prestige": 62
+	},
+	"traits": [
+	  "骁勇",
+      "未来隐患"
+	],
+	"relationships": {
+	  "li_heng": 8,
+	  "guo_ziyi": 18
+	},
+	"memory_summary": [
+      "他会记住灵武是否善待边军将领。"
+	]
+  },
+  {
+	"id": "li_chu",
+	"name": "李俶",
+	"role": "广平王",
+	"faction_id": "suzong_court",
+	"location_id": "lingwu_court",
+	"status": "active",
+	"public_goal": "在灵武行在代表宗室延续。",
+	"hidden_goal": "避免被内廷派系当作可摆布的继承符号。",
+	"stats": {
+	  "military": 48,
+	  "governance": 58,
+	  "finance": 44,
+	  "intrigue": 55,
+	  "diplomacy": 62,
+	  "prestige": 64
+	},
+	"traits": [
+	  "储望",
+      "谨慎"
+	],
+	"relationships": {
+	  "li_heng": 20,
+	  "li_bi": 10
+	},
+	"memory_summary": [
+      "他的立场会影响下一章的宗室稳定。"
+	]
+  },
+  {
+	"id": "zhang_xun_front_rep",
+	"name": "张巡前线使者",
+	"role": "忠义守城前线代表",
+	"faction_id": "hebei_loyalists",
+	"location_id": "guanzhong_front",
+	"status": "active",
+	"public_goal": "让灵武看见坚守城池的急迫压力。",
+	"hidden_goal": "迫使朝廷把稀缺粮草投向有象征意义的坚守。",
+	"stats": {
+	  "military": 72,
+	  "governance": 40,
+	  "finance": 30,
+	  "intrigue": 45,
+	  "diplomacy": 50,
+	  "prestige": 70
+	},
+	"traits": [
+	  "刚烈",
+      "守城见证者"
+	],
+	"relationships": {
+	  "li_heng": 6,
+	  "guo_ziyi": 8
+	},
+	"memory_summary": [
+      "他带来仍在苦守的忠义城池消息。"
+	]
+  },
+  {
+	"id": "regional_jiedushi_rep",
+	"name": "藩镇节度使代表",
+	"role": "地方军镇代表",
+	"faction_id": "regional_jiedushi",
+	"location_id": "lingwu_court",
+	"status": "active",
+	"public_goal": "问清灵武对地方兵马的号令边界。",
+	"hidden_goal": "在索取正统背书时保住地方自主。",
+	"stats": {
+	  "military": 64,
+	  "governance": 54,
+	  "finance": 52,
+	  "intrigue": 60,
+	  "diplomacy": 56,
+	  "prestige": 48
+	},
+	"traits": [
+	  "务实",
+      "重自主"
+	],
+	"relationships": {
+	  "li_heng": 2,
+	  "li_bi": 6
+	},
+	"memory_summary": [
+      "他会记住灵武是以信任还是威压统御地方。"
+	]
+  },
+  {
+	"id": "uighur_prince_envoy",
+	"name": "回纥王子使",
+	"role": "可汗一侧使者",
+	"faction_id": "uighur_envoys",
+	"location_id": "uighur_direction",
+	"status": "active",
+	"public_goal": "把灵武承诺转成可执行的回纥利益。",
+	"hidden_goal": "试探唐廷是否已经急迫到接受苛刻条件。",
+	"stats": {
+	  "military": 55,
+	  "governance": 42,
+	  "finance": 72,
+	  "intrigue": 66,
+	  "diplomacy": 82,
+	  "prestige": 58
+	},
+	"traits": [
+	  "精算",
+      "重盟约"
+	],
+	"relationships": {
+	  "li_heng": 0,
+	  "uighur_envoy": 16
+	},
+	"memory_summary": [
+      "他记录每一项为骑兵援助付出的让步。"
+	]
+  },
+  {
+	"id": "eunuch_deputy_gate",
+	"name": "宫门宦官副使",
+	"role": "李辅国属下",
+	"faction_id": "eunuch_network",
+	"location_id": "lingwu_court",
+	"status": "active",
+	"public_goal": "让入见皇帝的通道保持秩序。",
+	"hidden_goal": "把宫门秩序转成近侍派系筹码。",
+	"stats": {
+	  "military": 18,
+	  "governance": 36,
+	  "finance": 32,
+	  "intrigue": 70,
+	  "diplomacy": 42,
+	  "prestige": 25
+	},
+	"traits": [
+	  "守门",
+      "听命"
+	],
+	"relationships": {
+	  "li_heng": 0,
+	  "li_fuguo": 22
+	},
+	"memory_summary": [
+      "他会放大李辅国的宫门控制策略。"
+	]
+  },
+  {
+	"id": "hardline_old_court_official",
+	"name": "旧臣强硬派",
+	"role": "礼制保守官员",
+	"faction_id": "xuanzong_old_court",
+	"location_id": "westward_route",
+	"status": "active",
+	"public_goal": "让玄宗旧廷名分压在灵武新政之上。",
+	"hidden_goal": "把李亨每一次独断都说成礼制可疑。",
+	"stats": {
+	  "military": 20,
+	  "governance": 68,
+	  "finance": 46,
+	  "intrigue": 64,
+	  "diplomacy": 54,
+	  "prestige": 66
+	},
+	"traits": [
+	  "强硬",
+      "礼制派"
+	],
+	"relationships": {
+	  "li_heng": -8,
+	  "tang_xuanzong": 18
+	},
+	"memory_summary": [
+      "他会记住李亨是尊奉还是绕开玄宗。"
+	],
+	"active_action_rules": [
+	  "submit_memorial",
+	  "accuse_another_npc",
+      "leak_rumor"
+	]
+  },
+  {
+	"id": "lingwu_merchant_refugee",
+	"name": "灵武商民代表",
+	"role": "民间秩序代表",
+	"faction_id": "merchant_refugees",
+	"location_id": "lingwu_court",
+	"status": "active",
+	"public_goal": "让粮价、征发和难民安置保持可承受。",
+	"hidden_goal": "以民心支持换取保护和减免。",
+	"stats": {
+	  "military": 12,
+	  "governance": 44,
+	  "finance": 70,
+	  "intrigue": 46,
+	  "diplomacy": 58,
+	  "prestige": 38
+	},
+	"traits": [
+	  "务实",
+      "民间声望"
+	],
+	"relationships": {
+	  "li_heng": 4,
+	  "grain_official_lingwu": -6
+	},
+	"memory_summary": [
+      "灵武征发或安抚都会改变他代表的民心。"
+	]
+  }
+]

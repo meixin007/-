@@ -1,0 +1,117 @@
+{
+  "bundle_id": "national_c2_20260926",
+  "version": 1,
+  "extends": "national_a3_20260926",
+  "assets": {
+    "city_county_c2": {
+      "label": "城池 · 偏门长形县城",
+      "group": "city",
+      "manual_only": false,
+      "atlas": "county-town.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 132,
+      "anchor": [
+        0.5,
+        0.8
+      ],
+      "gate_anchor": [
+        0.5,
+        0.8
+      ]
+    },
+    "village_c2": {
+      "label": "村落 · 土墙院落与树荫",
+      "group": "city",
+      "manual_only": true,
+      "atlas": "village-courtyard.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 46,
+      "anchor": [
+        0.5,
+        0.8
+      ],
+      "gate_anchor": [
+        0.5,
+        0.8
+      ]
+    },
+    "terraces_c2": {
+      "label": "耕地 · 曲线梯田",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "terraces.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 140,
+      "anchor": [
+        0.5,
+        0.65
+      ]
+    },
+    "desert_c2": {
+      "label": "景观 · 风蚀沙丘",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "desert-dunes.png",
+      "rect": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "width": 470,
+      "anchor": [
+        0.5,
+        0.75
+      ]
+    },
+    "gobi_c2": {
+      "label": "景观 · 戈壁碎石低台",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "gobi-gravel.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 450,
+      "anchor": [
+        0.5,
+        0.75
+      ]
+    },
+    "wetland_c2": {
+      "label": "景观 · 芦苇浅塘湿地",
+      "group": "ground",
+      "manual_only": true,
+      "atlas": "reed-wetland.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "width": 150,
+      "anchor": [
+        0.5,
+        0.72
+      ]
+    }
+  }
+}

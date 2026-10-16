@@ -1,0 +1,43 @@
+{
+  "bundle_id": "strategic_landforms_v04_20261007",
+  "version": 1,
+  "extends": "strategic_landforms_v03_20261007",
+  "assets": {
+    "landform_v04_ridge": {
+      "label": "斜俯视山体 · 主脊",
+      "atlas": "ridges-high-oblique-v04.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        11,
+        104,
+        1750,
+        489
+      ],
+      "width": 512
+    },
+    "landform_v04_spur": {
+      "label": "斜俯视山体 · 侧脉",
+      "atlas": "ridges-high-oblique-v04.png",
+      "group": "mountain",
+      "hills_compatible": true,
+      "manual_only": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rect": [
+        469,
+        610,
+        858,
+        210
+      ],
+      "width": 320
+    }
+  }
+}

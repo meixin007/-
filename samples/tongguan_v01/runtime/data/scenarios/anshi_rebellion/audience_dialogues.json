@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.3.0",
+  "characters_dialogues": {
+    "li_bi": {
+      "character_id": "li_bi",
+      "character_name": "李泌",
+      "dialogue_style": "清高睿智，机谋深远，羽衣布带，超然物外",
+      "strategic_inquiries": [
+        {
+          "id": "strategy_libi_fan_yang_raid",
+          "title": "《出奇兵捣范阳策》",
+          "question": "皇帝垂询：“朕当何日发兵决战，克复长安、洛阳二京？”",
+          "response": "李泌稽首言道：“陛下无急于两京。贼虽据洛阳、长安，其根本在范阳。今令李光弼自太原出井陉，郭子仪自朔方捣范阳，贼军必惊惶回救，关中贼势立溃，两京不攻自拔矣！”",
+          "proposal_effect": {
+            "strategy_id": "fan_yang_strategic_raid",
+            "name": "奇兵捣范阳密策",
+            "battlefront_delta": {
+              "shuofang_front": {"morale": 15, "readiness": 20},
+              "rebel_morale": -20
+            },
+            "description": "采纳李泌奇策，令河东与朔方精骑牵制河北，瓦解叛军回救主力。"
+          }
+        },
+        {
+          "id": "strategy_libi_crown_prince_balance",
+          "title": "《定储位安宗社疏》",
+          "question": "皇帝问：“内侍与朝臣纷扰，诸子暗争，如何保宗社安宁？”",
+          "response": "李泌肃然：“建宁王李倓英毅刚烈，广平王李俶宽仁有度。陛下宜笃念手足，明定储位，切不可轻信内侍谗言骨肉相残。”",
+          "proposal_effect": {
+            "strategy_id": "crown_prince_stability",
+            "name": "明定储位安定策",
+            "emperor_stress_delta": -15,
+            "court_stability": 20
+          }
+        }
+      ],
+      "private_counsels": [
+        {
+          "id": "counsel_libi_hermit_wish",
+          "prompt": "探问归隐心迹：“先生辅佐朕平定大乱之后，欲受何等封赏？”",
+          "response": "李泌抚须淡笑：“臣得与陛下枕膝而寝，画天下大计，已尽平生之愿。待海内肃清，愿乞骸骨归南岳衡山，抱琴修道，不愿入政事堂受金紫羁绊。”",
+          "familiarity_gain": 25
+        },
+        {
+          "id": "counsel_libi_eunuch_network",
+          "prompt": "私询内廷：“内侍李辅国侍奉朕日久，先生观此人如何？”",
+          "response": "李泌正色：“辅国专擅宫禁传令，迎驾虽有微劳，然心术阴鸷、嗜权贪功，久必为祸，陛下当防微杜渐。”",
+          "familiarity_gain": 25
+        }
+      ],
+      "imperial_favors": [
+        {"id": "favor_daoist_robe", "name": "赐御用羽衣紫金道冠", "cost_silver": 50, "opinion_gain": 15},
+        {"id": "favor_secret_decree", "name": "密赐参谋帷幄便宜内命", "cost_authority": 10, "opinion_gain": 25}
+      ],
+      "secrets": {
+        "tier_30_tendency": "【行事七维】：至忠无二，超然物外，谋深虑远，厌恶党争权谋，极重手足天伦。",
+        "tier_60_trait": "【深层隐藏特质】：【自保韬晦】（洞察帝王猜忌，能在功高震主前全身而退）",
+        "tier_100_life_secret": "【终生隐秘诉求】：【衡山白云客】——一生誓言唯求天下太平后辞官归隐南岳衡山，若遭朝廷强行留相，心神日损。"
+      }
+    },
+    "guo_ziyi": {
+      "character_id": "guo_ziyi",
+      "character_name": "郭子仪",
+      "dialogue_style": "沉稳如山，威严忠烈，抚恤将士，谦逊克己",
+      "strategic_inquiries": [
+        {
+          "id": "strategy_guo_uighur_alliance",
+          "title": "《借兵回纥联兵定两京策》",
+          "question": "皇帝问：“叛军马队骁悍，朔方兵力虽精然骑兵不足，何以克敌制胜？”",
+          "response": "郭子仪抱拳奏道：“回纥毗伽阙可汗骁勇善战，陛下若降恩结好、许以缯帛联姻，遣葛勒特勤率四千精骑助战，臣必身先士卒，一举荡平香积寺贼阵！”",
+          "proposal_effect": {
+            "strategy_id": "uighur_cavalry_reinforcement",
+            "name": "借兵回纥合击令",
+            "battlefront_delta": {
+              "shuofang_front": {"attack_power": 35, "morale": 25}
+            },
+            "cost_silver": 200,
+            "description": "引回纥突骑助战，决战陕州与香积寺，前线战力爆发性提升。"
+          }
+        }
+      ],
+      "private_counsels": [
+        {
+          "id": "counsel_guo_army_discipline",
+          "prompt": "探问朔方三军：“军中诸将多有功高桀骜者，爱卿如何驭下？”",
+          "response": "郭子仪正色道：“臣奉天子节钺，治军唯以宽仁信义。仆固怀恩、浑瑊虽桀骜，臣视之如子侄，有功必赏，有罪必引咎于臣，故三军愿为陛下效死。”",
+          "familiarity_gain": 25
+        }
+      ],
+      "imperial_favors": [
+        {"id": "favor_fine_horse", "name": "赐西凉大宛名马与御酒", "cost_silver": 80, "opinion_gain": 20}
+      ],
+      "secrets": {
+        "tier_30_tendency": "【行事七维】：治军宽仁，忠贞不渝，笃信天命，深畏功高震主，凡事退让为先。",
+        "tier_60_trait": "【深层隐藏特质】：【再造玄黄】（无论绝境如何凶险，亲临前线必全军士气归心）",
+        "tier_100_life_secret": "【终生隐秘诉求】：【保全宗族清白】——唯愿郭氏满门为国尽忠且免遭权相与宦官构陷屠戮。"
+      }
+    },
+    "du_fu": {
+      "character_id": "du_fu",
+      "character_name": "杜甫",
+      "dialogue_style": "沉郁顿挫，心系苍生，刚正不阿，清介自持",
+      "strategic_inquiries": [
+        {
+          "id": "strategy_dufu_refugee_settlement",
+          "title": "《广纳流民设使屯田疏》",
+          "question": "皇帝问：“关中道殣相望，流民多沦为盗贼，爱卿可有良策？”",
+          "response": "杜甫涕零顿首：“陛下！百姓岂乐为盗！宜遣廉吏于凤翔、汉中设流民大营，发官粟赐耕牛，屯田以自给。民得安居，则皆为朝廷赤子，盗贼自息矣！”",
+          "proposal_effect": {
+            "strategy_id": "refugee_homestead_policy",
+            "name": "关中流民屯田安堵令",
+            "grain_production_bonus": 0.20,
+            "rebellion_risk_delta": -0.30,
+            "description": "收纳安抚逃难流民，就地屯田垦荒，大幅恢复关中民心与后方粮产。"
+          }
+        }
+      ],
+      "private_counsels": [
+        {
+          "id": "counsel_dufu_changan_fall",
+          "prompt": "探问沦陷见闻：“子美间道出长安，途中所见京华景象如何？”",
+          "response": "杜甫长叹：“国破山河在，城春草木深。贼首搜刮公卿宗室，涂炭生灵。然天下士民北望灵武凤翔，翘首盼官军日夜如渴！”",
+          "familiarity_gain": 30
+        }
+      ],
+      "imperial_favors": [
+        {"id": "favor_brush_ink", "name": "赐宣城名砚与御札", "cost_silver": 30, "opinion_gain": 20}
+      ],
+      "secrets": {
+        "tier_30_tendency": "【行事七维】：仁者爱人，忧国忧民，直言敢谏，不通逢迎，诗文冠绝千古。",
+        "tier_60_trait": "【深层隐藏特质】：【致君尧舜】（毕生志在辅佐圣君重现开元盛世）",
+        "tier_100_life_secret": "【终生隐秘诉求】：【广厦大庇天下】——但愿天下寒士俱欢颜，纵自身颠沛流离死于沟壑亦无悔。"
+      }
+    }
+  }
+}

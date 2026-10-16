@@ -1,0 +1,166 @@
+{
+  "schema_version": 109,
+  "campaign_id": "anshi_beta_1_09",
+  "echoes": [
+    {
+      "echo_id": "beta109_echo_grain_trust",
+      "source_memorial_id": "memorial_shuofang_grain_001",
+      "trigger_outcomes": ["completed", "partial"],
+      "trigger_conditions": ["normal", "delayed"],
+      "day_window": {"start_day": 2, "end_day": 8},
+      "route_ids": ["audit_then_transport", "frontline_urgent_transport"],
+      "target_character_id": "guo_ziyi",
+      "target_faction": "military_commanders",
+      "public_summary": "郭子仪收到粮道回报：核账路线提高了他对后续兑现的信任，急运路线则让他继续催促下一批粮草。",
+      "public_sources": [
+        {"kind": "faction", "path": "faction_agenda_state.military_commanders.pressure", "source_memorial_id": "memorial_shuofang_grain_001", "target_faction": "military_commanders"}
+      ],
+      "effects": {
+        "faction_reaction": {
+          "faction_key": "military_commanders",
+          "reaction_type": "grain_route_trust",
+          "influence_delta": 2,
+          "pressure_delta": -2,
+          "summary": "粮道回报改变将帅集团对兑现能力的判断。"
+        },
+        "relationship_delta": {
+          "source_character_id": "guo_ziyi",
+          "target_character_id": "li_bi",
+          "value": 2
+        },
+        "structured_memory": {
+          "id": "beta109_memory_grain_route_trust",
+          "memory_type": "political_season_echo",
+          "participants": ["guo_ziyi", "li_bi"],
+          "source_id": "guo_ziyi",
+          "target_id": "li_bi",
+          "summary": "朔方粮道的账册与转运选择改变了郭子仪对行在兑现能力的判断。",
+          "tags": ["beta109", "grain_route", "trust"],
+          "visibility": "public"
+        },
+        "chronicle": {"source_memorial_id": "memorial_shuofang_grain_001", "source_order_id": "beta109_grain_route_order"}
+      }
+    },
+    {
+      "echo_id": "beta109_echo_ration_relationship",
+      "source_memorial_id": "memorial_lingwu_ration_001",
+      "trigger_outcomes": ["completed", "partial", "failed"],
+      "trigger_conditions": ["normal", "delayed", "blocked"],
+      "day_window": {"start_day": 9, "end_day": 14},
+      "route_ids": ["audit_then_transport", "frontline_urgent_transport"],
+      "target_character_id": "lingwu_merchant_refugee",
+      "relationship_target_character_id": "grain_official_lingwu",
+      "target_faction": "merchant_refugees",
+      "public_summary": "灵武商民代表根据军民配给是否留下名册副本，改变对粮草官与行在的信任与保留。",
+      "public_sources": [
+        {"kind": "relationship", "path": "relationship_state.lingwu_merchant_refugee.grain_official_lingwu", "source_memorial_id": "memorial_lingwu_ration_001", "target_character_id": "lingwu_merchant_refugee", "relationship_target_character_id": "grain_official_lingwu"}
+      ],
+      "effects": {
+        "faction_reaction": {
+          "faction_key": "merchant_refugees",
+          "reaction_type": "ration_record_confidence",
+          "influence_delta": 1,
+          "pressure_delta": -1,
+          "summary": "配给名册的可追溯性改变商民难民压力。"
+        },
+        "relationship_delta": {
+          "source_character_id": "lingwu_merchant_refugee",
+          "target_character_id": "grain_official_lingwu",
+          "value": 3
+        },
+        "structured_memory": {
+          "id": "beta109_memory_ration_roster_confidence",
+          "memory_type": "political_season_echo",
+          "participants": ["lingwu_merchant_refugee", "grain_official_lingwu"],
+          "source_id": "lingwu_merchant_refugee",
+          "target_id": "grain_official_lingwu",
+          "summary": "军民配给名册是否留痕，成为灵武商民判断粮草官是否可信的依据。",
+          "tags": ["beta109", "ration_roster", "relationship"],
+          "visibility": "public"
+        },
+        "chronicle": {"source_memorial_id": "memorial_lingwu_ration_001", "source_order_id": "beta109_ration_order"}
+      }
+    },
+    {
+      "echo_id": "beta109_echo_gate_authority",
+      "source_memorial_id": "memorial_gate_review_001",
+      "trigger_outcomes": ["completed", "partial", "failed"],
+      "trigger_conditions": ["normal", "blocked", "lost_contact"],
+      "day_window": {"start_day": 15, "end_day": 21},
+      "route_ids": ["audit_then_transport", "frontline_urgent_transport"],
+      "target_character_id": "li_fuguo",
+      "target_faction": "eunuch_network",
+      "public_summary": "李辅国根据宫门记录是否双签留痕，回应内廷授权边界；急报通道会保留效率，也会提高渠道压力。",
+      "public_sources": [
+        {"kind": "structured_memory", "path": "structured_memories.beta109_gate_authority", "source_memorial_id": "memorial_gate_review_001", "target_character_id": "li_fuguo"}
+      ],
+      "effects": {
+        "faction_reaction": {
+          "faction_key": "eunuch_network",
+          "reaction_type": "gate_authority_boundary",
+          "influence_delta": -1,
+          "pressure_delta": 3,
+          "summary": "宫门复核改变内廷网络对授权边界的压力判断。"
+        },
+        "relationship_delta": {
+          "source_character_id": "li_fuguo",
+          "target_character_id": "li_bi",
+          "value": -1
+        },
+        "structured_memory": {
+          "id": "beta109_memory_gate_authority_boundary",
+          "memory_type": "political_season_echo",
+          "participants": ["li_fuguo", "li_bi"],
+          "source_id": "li_fuguo",
+          "target_id": "li_bi",
+          "summary": "宫门传令的双签或急报选择，留下了内廷授权边界的公开记忆。",
+          "tags": ["beta109", "gate_review", "authority"],
+          "visibility": "public"
+        },
+        "chronicle": {"source_memorial_id": "memorial_gate_review_001", "source_order_id": "beta109_gate_order"}
+      }
+    },
+    {
+      "echo_id": "beta109_echo_appointment_faction",
+      "source_memorial_id": "memorial_gate_review_001",
+      "source_order_id": "appointment_menxia_review_day_12_20",
+      "trigger_outcomes": ["completed", "partial"],
+      "trigger_conditions": ["normal", "delayed"],
+      "day_window": {"start_day": 12, "end_day": 27},
+      "route_ids": ["audit_then_transport", "frontline_urgent_transport"],
+      "target_character_id": "hardline_old_court_official",
+      "target_faction": "xuanzong_old_court",
+      "target_npc_action": "old_court_precedent_disputed",
+      "public_summary": "门下省任命把程序合法性或旧制连续性变成后续 NPC 行动的公开依据。",
+      "public_sources": [
+        {"kind": "chronicle", "path": "chronicle_causal_references.political_season_echo", "source_memorial_id": "memorial_gate_review_001", "source_order_id": "appointment_menxia_review_day_12_20", "target_character_id": "hardline_old_court_official"},
+        {"kind": "npc", "path": "npc_active_action_feed.old_court_precedent_disputed", "source_memorial_id": "memorial_gate_review_001", "target_npc_action": "old_court_precedent_disputed"}
+      ],
+      "effects": {
+        "faction_reaction": {
+          "faction_key": "xuanzong_old_court",
+          "reaction_type": "appointment_meaning",
+          "influence_delta": 2,
+          "pressure_delta": 2,
+          "summary": "门下省任命的政治含义改变旧臣集团的连续性压力。"
+        },
+        "relationship_delta": {
+          "source_character_id": "hardline_old_court_official",
+          "target_character_id": "li_bi",
+          "value": -2
+        },
+        "structured_memory": {
+          "id": "beta109_memory_menxia_appointment_meaning",
+          "memory_type": "political_season_echo",
+          "participants": ["hardline_old_court_official", "li_bi"],
+          "source_id": "hardline_old_court_official",
+          "target_id": "li_bi",
+          "summary": "门下省任命的候选人选择成为程序合法性与旧制连续性冲突的记忆。",
+          "tags": ["beta109", "appointment", "faction"],
+          "visibility": "public"
+        },
+        "chronicle": {"source_memorial_id": "memorial_gate_review_001", "source_order_id": "appointment_menxia_review_day_12_20"}
+      }
+    }
+  ]
+}

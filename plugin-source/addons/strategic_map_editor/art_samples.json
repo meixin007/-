@@ -1,0 +1,14 @@
+{
+  "default_id": "blank",
+  "samples": [
+    {
+      "id": "blank",
+      "title": "空白画布（无美术资源）",
+      "path": "res://examples/blank.map.json",
+      "fit_map": true,
+      "focus_selected": false,
+      "status": "blank",
+      "note": "由文档默认结构生成；不含任何游戏地图、图片、素材引用或用户草稿。"
+    }
+  ]
+}

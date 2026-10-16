@@ -1,0 +1,840 @@
+[
+  {
+    "operation_id": "verify_guanzhong_movement",
+    "title": "Verify Guanzhong Movement",
+    "target_node_id": "guanzhong_approach_node",
+    "target_route_id": "lingwu_to_guanzhong_relay",
+    "required_executor_tags": [
+      "military",
+      "scout",
+      "trusted_general"
+    ],
+    "allowed_channels": [
+      "public_decree",
+      "oral_military_order",
+      "secret_palace_channel",
+      "council_resolution"
+    ],
+    "duration_days": 2,
+    "route_effects": [
+      {
+        "field": "uncertainty",
+        "value": -12
+      },
+      {
+        "field": "security",
+        "value": 3
+      }
+    ],
+    "node_effects": [
+      {
+        "field": "security",
+        "value": 4
+      }
+    ],
+    "channel_risks": {
+      "secret_palace_channel": {
+        "faction_id": "eunuch_network",
+        "pressure_delta": 4,
+        "risk_text": "fast but empowers palace channels"
+      },
+      "public_decree": {
+        "faction_id": "xuanzong_old_court",
+        "pressure_delta": 2,
+        "risk_text": "public and legitimate but slower"
+      }
+    },
+    "reports": [
+      {
+        "id": "guanzhong_verification_result_report",
+        "type": "intelligence_followup_report",
+        "title": "Guanzhong Movement Rechecked",
+        "source_character_id": "guo_ziyi",
+        "visible_summary": "Scouts return with a clearer account of Guanzhong movement and relay pressure.",
+        "available_decisions": [],
+        "deadline_days": 3
+      }
+    ]
+  },
+  {
+    "operation_id": "beta07_regional_operation_02",
+    "title": "Beta07 regional operation 2",
+    "target_node_id": "lingwu_court_node",
+    "target_route_id": "beta07_route_02",
+    "required_executor_tags": [
+      "military",
+      "scout",
+      "trusted_general"
+    ],
+    "allowed_channels": [
+      "public_decree",
+      "oral_military_order",
+      "secret_palace_channel",
+      "council_resolution"
+    ],
+    "duration_days": 4,
+    "route_effects": [
+      {
+        "field": "uncertainty",
+        "value": -5
+      },
+      {
+        "field": "security",
+        "value": 1
+      }
+    ],
+    "node_effects": [
+      {
+        "field": "security",
+        "value": 1
+      },
+      {
+        "field": "public_order",
+        "value": 1
+      }
+    ],
+    "channel_risks": {
+      "secret_palace_channel": {
+        "faction_id": "eunuch_network",
+        "pressure_delta": 3,
+        "risk_text": "fast but empowers palace channels"
+      },
+      "public_decree": {
+        "faction_id": "xuanzong_old_court",
+        "pressure_delta": 1,
+        "risk_text": "public and legitimate but slower"
+      },
+      "oral_military_order": {
+        "faction_id": "military_commanders",
+        "pressure_delta": -1,
+        "risk_text": "fast if trusted, easier to misread"
+      },
+      "council_resolution": {
+        "faction_id": "suzong_court",
+        "pressure_delta": -1,
+        "risk_text": "slower but records shared responsibility"
+      }
+    },
+    "reports": [
+      {
+        "id": "beta07_regional_operation_02_report",
+        "type": "intelligence_followup_report",
+        "title": "Beta07 regional operation 2 report",
+        "source_character_id": "guo_ziyi",
+        "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences.",
+        "available_decisions": [],
+        "deadline_days": 2
+      }
+    ]
+  },
+  {
+    "operation_id": "beta07_regional_operation_03",
+    "title": "Beta07 regional operation 3",
+    "target_node_id": "shuofang_front_node",
+    "target_route_id": "beta07_route_03",
+    "required_executor_tags": [
+      "military",
+      "scout",
+      "trusted_general"
+    ],
+    "allowed_channels": [
+      "public_decree",
+      "oral_military_order",
+      "secret_palace_channel",
+      "council_resolution"
+    ],
+    "duration_days": 5,
+    "route_effects": [
+      {
+        "field": "uncertainty",
+        "value": -6
+      },
+      {
+        "field": "security",
+        "value": 2
+      }
+    ],
+    "node_effects": [
+      {
+        "field": "security",
+        "value": 2
+      },
+      {
+        "field": "public_order",
+        "value": -1
+      }
+    ],
+    "channel_risks": {
+      "secret_palace_channel": {
+        "faction_id": "eunuch_network",
+        "pressure_delta": 3,
+        "risk_text": "fast but empowers palace channels"
+      },
+      "public_decree": {
+        "faction_id": "xuanzong_old_court",
+        "pressure_delta": 1,
+        "risk_text": "public and legitimate but slower"
+      },
+      "oral_military_order": {
+        "faction_id": "military_commanders",
+        "pressure_delta": -1,
+        "risk_text": "fast if trusted, easier to misread"
+      },
+      "council_resolution": {
+        "faction_id": "suzong_court",
+        "pressure_delta": -1,
+        "risk_text": "slower but records shared responsibility"
+      }
+    },
+    "reports": [
+      {
+        "id": "beta07_regional_operation_03_report",
+        "type": "intelligence_followup_report",
+        "title": "Beta07 regional operation 3 report",
+        "source_character_id": "li_fuguo",
+        "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences.",
+        "available_decisions": [],
+        "deadline_days": 3
+      }
+    ]
+  },
+  {
+    "operation_id": "beta07_regional_operation_04",
+    "title": "Beta07 regional operation 4",
+    "target_node_id": "hedong_relay_node",
+    "target_route_id": "beta07_route_04",
+    "required_executor_tags": [
+      "military",
+      "scout",
+      "trusted_general"
+    ],
+    "allowed_channels": [
+      "public_decree",
+      "oral_military_order",
+      "secret_palace_channel",
+      "council_resolution"
+    ],
+    "duration_days": 6,
+    "route_effects": [
+      {
+        "field": "uncertainty",
+        "value": -7
+      },
+      {
+        "field": "security",
+        "value": 3
+      }
+    ],
+    "node_effects": [
+      {
+        "field": "security",
+        "value": 3
+      },
+      {
+        "field": "public_order",
+        "value": 1
+      }
+    ],
+    "channel_risks": {
+      "secret_palace_channel": {
+        "faction_id": "eunuch_network",
+        "pressure_delta": 3,
+        "risk_text": "fast but empowers palace channels"
+      },
+      "public_decree": {
+        "faction_id": "xuanzong_old_court",
+        "pressure_delta": 1,
+        "risk_text": "public and legitimate but slower"
+      },
+      "oral_military_order": {
+        "faction_id": "military_commanders",
+        "pressure_delta": -1,
+        "risk_text": "fast if trusted, easier to misread"
+      },
+      "council_resolution": {
+        "faction_id": "suzong_court",
+        "pressure_delta": -1,
+        "risk_text": "slower but records shared responsibility"
+      }
+    },
+    "reports": [
+      {
+        "id": "beta07_regional_operation_04_report",
+        "type": "intelligence_followup_report",
+        "title": "Beta07 regional operation 4 report",
+        "source_character_id": "li_bi",
+        "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences.",
+        "available_decisions": [],
+        "deadline_days": 2
+      }
+    ]
+  },
+  {
+    "operation_id": "beta07_regional_operation_05",
+    "title": "Beta07 regional operation 5",
+    "target_node_id": "guanzhong_approach_node",
+    "target_route_id": "beta07_route_05",
+    "required_executor_tags": [
+      "military",
+      "scout",
+      "trusted_general"
+    ],
+    "allowed_channels": [
+      "public_decree",
+      "oral_military_order",
+      "secret_palace_channel",
+      "council_resolution"
+    ],
+    "duration_days": 7,
+    "route_effects": [
+      {
+        "field": "uncertainty",
+        "value": -8
+      },
+      {
+        "field": "security",
+        "value": 4
+      }
+    ],
+    "node_effects": [
+      {
+        "field": "security",
+        "value": 4
+      },
+      {
+        "field": "public_order",
+        "value": -1
+      }
+    ],
+    "channel_risks": {
+      "secret_palace_channel": {
+        "faction_id": "eunuch_network",
+        "pressure_delta": 3,
+        "risk_text": "fast but empowers palace channels"
+      },
+      "public_decree": {
+        "faction_id": "xuanzong_old_court",
+        "pressure_delta": 1,
+        "risk_text": "public and legitimate but slower"
+      },
+      "oral_military_order": {
+        "faction_id": "military_commanders",
+        "pressure_delta": -1,
+        "risk_text": "fast if trusted, easier to misread"
+      },
+      "council_resolution": {
+        "faction_id": "suzong_court",
+        "pressure_delta": -1,
+        "risk_text": "slower but records shared responsibility"
+      }
+    },
+    "reports": [
+      {
+        "id": "beta07_regional_operation_05_report",
+        "type": "intelligence_followup_report",
+        "title": "Beta07 regional operation 5 report",
+        "source_character_id": "hardline_old_court_official",
+        "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences.",
+        "available_decisions": [],
+        "deadline_days": 3
+      }
+    ]
+  },
+  {
+    "operation_id": "beta07_regional_operation_06",
+    "title": "Beta07 regional operation 6",
+    "target_node_id": "grain_road_node",
+    "target_route_id": "beta07_route_06",
+    "required_executor_tags": [
+      "military",
+      "scout",
+      "trusted_general"
+    ],
+    "allowed_channels": [
+      "public_decree",
+      "oral_military_order",
+      "secret_palace_channel",
+      "council_resolution"
+    ],
+    "duration_days": 8,
+    "route_effects": [
+      {
+        "field": "uncertainty",
+        "value": -9
+      },
+      {
+        "field": "security",
+        "value": 1
+      }
+    ],
+    "node_effects": [
+      {
+        "field": "security",
+        "value": 5
+      },
+      {
+        "field": "public_order",
+        "value": 1
+      }
+    ],
+    "channel_risks": {
+      "secret_palace_channel": {
+        "faction_id": "eunuch_network",
+        "pressure_delta": 3,
+        "risk_text": "fast but empowers palace channels"
+      },
+      "public_decree": {
+        "faction_id": "xuanzong_old_court",
+        "pressure_delta": 1,
+        "risk_text": "public and legitimate but slower"
+      },
+      "oral_military_order": {
+        "faction_id": "military_commanders",
+        "pressure_delta": -1,
+        "risk_text": "fast if trusted, easier to misread"
+      },
+      "council_resolution": {
+        "faction_id": "suzong_court",
+        "pressure_delta": -1,
+        "risk_text": "slower but records shared responsibility"
+      }
+    },
+    "reports": [
+      {
+        "id": "beta07_regional_operation_06_report",
+        "type": "intelligence_followup_report",
+        "title": "Beta07 regional operation 6 report",
+        "source_character_id": "guo_ziyi",
+        "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences.",
+        "available_decisions": [],
+        "deadline_days": 2
+      }
+    ]
+  },
+  {
+    "operation_id": "beta07_regional_operation_07",
+    "title": "Beta07 regional operation 7",
+    "target_node_id": "uighur_route_node",
+    "target_route_id": "beta07_route_07",
+    "required_executor_tags": [
+      "military",
+      "scout",
+      "trusted_general"
+    ],
+    "allowed_channels": [
+      "public_decree",
+      "oral_military_order",
+      "secret_palace_channel",
+      "council_resolution"
+    ],
+    "duration_days": 9,
+    "route_effects": [
+      {
+        "field": "uncertainty",
+        "value": -10
+      },
+      {
+        "field": "security",
+        "value": 2
+      }
+    ],
+    "node_effects": [
+      {
+        "field": "security",
+        "value": 1
+      },
+      {
+        "field": "public_order",
+        "value": -1
+      }
+    ],
+    "channel_risks": {
+      "secret_palace_channel": {
+        "faction_id": "eunuch_network",
+        "pressure_delta": 3,
+        "risk_text": "fast but empowers palace channels"
+      },
+      "public_decree": {
+        "faction_id": "xuanzong_old_court",
+        "pressure_delta": 1,
+        "risk_text": "public and legitimate but slower"
+      },
+      "oral_military_order": {
+        "faction_id": "military_commanders",
+        "pressure_delta": -1,
+        "risk_text": "fast if trusted, easier to misread"
+      },
+      "council_resolution": {
+        "faction_id": "suzong_court",
+        "pressure_delta": -1,
+        "risk_text": "slower but records shared responsibility"
+      }
+    },
+    "reports": [
+      {
+        "id": "beta07_regional_operation_07_report",
+        "type": "intelligence_followup_report",
+        "title": "Beta07 regional operation 7 report",
+        "source_character_id": "li_fuguo",
+        "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences.",
+        "available_decisions": [],
+        "deadline_days": 3
+      }
+    ]
+  },
+  {
+    "operation_id": "beta07_regional_operation_08",
+    "title": "Beta07 regional operation 8",
+    "target_node_id": "palace_inner_channel_node",
+    "target_route_id": "beta07_route_08",
+    "required_executor_tags": [
+      "military",
+      "scout",
+      "trusted_general"
+    ],
+    "allowed_channels": [
+      "public_decree",
+      "oral_military_order",
+      "secret_palace_channel",
+      "council_resolution"
+    ],
+    "duration_days": 3,
+    "route_effects": [
+      {
+        "field": "uncertainty",
+        "value": -5
+      },
+      {
+        "field": "security",
+        "value": 3
+      }
+    ],
+    "node_effects": [
+      {
+        "field": "security",
+        "value": 2
+      },
+      {
+        "field": "public_order",
+        "value": 1
+      }
+    ],
+    "channel_risks": {
+      "secret_palace_channel": {
+        "faction_id": "eunuch_network",
+        "pressure_delta": 3,
+        "risk_text": "fast but empowers palace channels"
+      },
+      "public_decree": {
+        "faction_id": "xuanzong_old_court",
+        "pressure_delta": 1,
+        "risk_text": "public and legitimate but slower"
+      },
+      "oral_military_order": {
+        "faction_id": "military_commanders",
+        "pressure_delta": -1,
+        "risk_text": "fast if trusted, easier to misread"
+      },
+      "council_resolution": {
+        "faction_id": "suzong_court",
+        "pressure_delta": -1,
+        "risk_text": "slower but records shared responsibility"
+      }
+    },
+    "reports": [
+      {
+        "id": "beta07_regional_operation_08_report",
+        "type": "intelligence_followup_report",
+        "title": "Beta07 regional operation 8 report",
+        "source_character_id": "li_bi",
+        "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences.",
+        "available_decisions": [],
+        "deadline_days": 2
+      }
+    ]
+  },
+  {
+    "operation_id": "beta07_regional_operation_09",
+    "title": "Beta07 regional operation 9",
+    "target_node_id": "refugee_market_node",
+    "target_route_id": "beta07_route_09",
+    "required_executor_tags": [
+      "military",
+      "scout",
+      "trusted_general"
+    ],
+    "allowed_channels": [
+      "public_decree",
+      "oral_military_order",
+      "secret_palace_channel",
+      "council_resolution"
+    ],
+    "duration_days": 4,
+    "route_effects": [
+      {
+        "field": "uncertainty",
+        "value": -6
+      },
+      {
+        "field": "security",
+        "value": 4
+      }
+    ],
+    "node_effects": [
+      {
+        "field": "security",
+        "value": 3
+      },
+      {
+        "field": "public_order",
+        "value": -1
+      }
+    ],
+    "channel_risks": {
+      "secret_palace_channel": {
+        "faction_id": "eunuch_network",
+        "pressure_delta": 3,
+        "risk_text": "fast but empowers palace channels"
+      },
+      "public_decree": {
+        "faction_id": "xuanzong_old_court",
+        "pressure_delta": 1,
+        "risk_text": "public and legitimate but slower"
+      },
+      "oral_military_order": {
+        "faction_id": "military_commanders",
+        "pressure_delta": -1,
+        "risk_text": "fast if trusted, easier to misread"
+      },
+      "council_resolution": {
+        "faction_id": "suzong_court",
+        "pressure_delta": -1,
+        "risk_text": "slower but records shared responsibility"
+      }
+    },
+    "reports": [
+      {
+        "id": "beta07_regional_operation_09_report",
+        "type": "intelligence_followup_report",
+        "title": "Beta07 regional operation 9 report",
+        "source_character_id": "hardline_old_court_official",
+        "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences.",
+        "available_decisions": [],
+        "deadline_days": 3
+      }
+    ]
+  },
+  {
+    "operation_id": "beta07_regional_operation_10",
+    "title": "Beta07 regional operation 10",
+    "target_node_id": "changan_pressure_node",
+    "target_route_id": "beta07_route_10",
+    "required_executor_tags": [
+      "military",
+      "scout",
+      "trusted_general"
+    ],
+    "allowed_channels": [
+      "public_decree",
+      "oral_military_order",
+      "secret_palace_channel",
+      "council_resolution"
+    ],
+    "duration_days": 2,
+    "route_effects": [
+      {
+        "field": "uncertainty",
+        "value": -7
+      },
+      {
+        "field": "security",
+        "value": 1
+      }
+    ],
+    "node_effects": [
+      {
+        "field": "security",
+        "value": 4
+      },
+      {
+        "field": "public_order",
+        "value": 1
+      }
+    ],
+    "channel_risks": {
+      "secret_palace_channel": {
+        "faction_id": "eunuch_network",
+        "pressure_delta": 3,
+        "risk_text": "fast but empowers palace channels"
+      },
+      "public_decree": {
+        "faction_id": "xuanzong_old_court",
+        "pressure_delta": 1,
+        "risk_text": "public and legitimate but slower"
+      },
+      "oral_military_order": {
+        "faction_id": "military_commanders",
+        "pressure_delta": -1,
+        "risk_text": "fast if trusted, easier to misread"
+      },
+      "council_resolution": {
+        "faction_id": "suzong_court",
+        "pressure_delta": -1,
+        "risk_text": "slower but records shared responsibility"
+      }
+    },
+    "reports": [
+      {
+        "id": "beta07_regional_operation_10_report",
+        "type": "intelligence_followup_report",
+        "title": "Beta07 regional operation 10 report",
+        "source_character_id": "guo_ziyi",
+        "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences.",
+        "available_decisions": [],
+        "deadline_days": 3
+      }
+    ]
+  },
+  {
+    "operation_id": "beta07_regional_operation_11",
+    "title": "Beta07 regional operation 11",
+    "target_node_id": "luoyang_rumor_node",
+    "target_route_id": "beta07_route_11",
+    "required_executor_tags": [
+      "military",
+      "scout",
+      "trusted_general"
+    ],
+    "allowed_channels": [
+      "public_decree",
+      "oral_military_order",
+      "secret_palace_channel",
+      "council_resolution"
+    ],
+    "duration_days": 10,
+    "route_effects": [
+      {
+        "field": "uncertainty",
+        "value": -8
+      },
+      {
+        "field": "security",
+        "value": 2
+      }
+    ],
+    "node_effects": [
+      {
+        "field": "security",
+        "value": 5
+      },
+      {
+        "field": "public_order",
+        "value": -1
+      }
+    ],
+    "channel_risks": {
+      "secret_palace_channel": {
+        "faction_id": "eunuch_network",
+        "pressure_delta": 3,
+        "risk_text": "fast but empowers palace channels"
+      },
+      "public_decree": {
+        "faction_id": "xuanzong_old_court",
+        "pressure_delta": 1,
+        "risk_text": "public and legitimate but slower"
+      },
+      "oral_military_order": {
+        "faction_id": "military_commanders",
+        "pressure_delta": -1,
+        "risk_text": "fast if trusted, easier to misread"
+      },
+      "council_resolution": {
+        "faction_id": "suzong_court",
+        "pressure_delta": -1,
+        "risk_text": "slower but records shared responsibility"
+      }
+    },
+    "reports": [
+      {
+        "id": "beta07_regional_operation_11_report",
+        "type": "intelligence_followup_report",
+        "title": "Beta07 regional operation 11 report",
+        "source_character_id": "li_fuguo",
+        "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences.",
+        "available_decisions": [],
+        "deadline_days": 2
+      }
+    ]
+  },
+  {
+    "operation_id": "beta07_regional_operation_12",
+    "title": "Beta07 regional operation 12",
+    "target_node_id": "hebei_rebel_signal_node",
+    "target_route_id": "beta07_route_12",
+    "required_executor_tags": [
+      "military",
+      "scout",
+      "trusted_general"
+    ],
+    "allowed_channels": [
+      "public_decree",
+      "oral_military_order",
+      "secret_palace_channel",
+      "council_resolution"
+    ],
+    "duration_days": 9,
+    "route_effects": [
+      {
+        "field": "uncertainty",
+        "value": -9
+      },
+      {
+        "field": "security",
+        "value": 3
+      }
+    ],
+    "node_effects": [
+      {
+        "field": "security",
+        "value": 1
+      },
+      {
+        "field": "public_order",
+        "value": 1
+      }
+    ],
+    "channel_risks": {
+      "secret_palace_channel": {
+        "faction_id": "eunuch_network",
+        "pressure_delta": 3,
+        "risk_text": "fast but empowers palace channels"
+      },
+      "public_decree": {
+        "faction_id": "xuanzong_old_court",
+        "pressure_delta": 1,
+        "risk_text": "public and legitimate but slower"
+      },
+      "oral_military_order": {
+        "faction_id": "military_commanders",
+        "pressure_delta": -1,
+        "risk_text": "fast if trusted, easier to misread"
+      },
+      "council_resolution": {
+        "faction_id": "suzong_court",
+        "pressure_delta": -1,
+        "risk_text": "slower but records shared responsibility"
+      }
+    },
+    "reports": [
+      {
+        "id": "beta07_regional_operation_12_report",
+        "type": "intelligence_followup_report",
+        "title": "Beta07 regional operation 12 report",
+        "source_character_id": "li_bi",
+        "visible_summary": "A regional operation returns with route pressure, channel risk, and court memory consequences.",
+        "available_decisions": [],
+        "deadline_days": 3
+      }
+    ]
+  }
+]

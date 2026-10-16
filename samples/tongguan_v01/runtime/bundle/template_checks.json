@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "recipe_sha256": "7c69433ffdeda1b9b400fbf0fa449b3694d192df2bf8e7f5b71cfb23e797c82e",
+  "plots": [
+    {
+      "id": "plot_west",
+      "allowed": false,
+      "reasons": [
+        "slope_over_12_degrees"
+      ],
+      "tested_points": 47,
+      "max_slope_degrees": 21.059410095214844,
+      "area_m2": 55000.0
+    },
+    {
+      "id": "plot_northwest",
+      "allowed": true,
+      "reasons": [],
+      "tested_points": 19,
+      "max_slope_degrees": 7.436102390289307,
+      "area_m2": 23400.0
+    }
+  ],
+  "campaign_anchor_separation_m": 8448.2199285068,
+  "campaign_node_modified": false,
+  "authority": "offline_design_filter_only"
+}

@@ -1,0 +1,27 @@
+{
+  "source_id": "scenario:qinghe_player_succession_756",
+  "content_basis": "虚构的清河家族接续玩法：完成真实经营权交接后，经本人同意，玩家可以继续扮演崔宁；不代表历史死亡、遗产分配或私产赠与。 同一世界的虚构梅清家业开局沿用已配置第十二日死亡及梅贞继任；身份接续不代替遗产经办。",
+  "rules": [
+    {
+      "succession_id": "qinghe_ning",
+      "from_id": "cui_yuan",
+      "to_id": "cui_ning",
+      "clan_id": "clan_cui_qinghe",
+      "location_id": "refugee_market_node",
+      "willing": true,
+      "minimum_relation": 0
+    },
+    {
+      "succession_id": "mei_zhen",
+      "from_id": "mei_qing",
+      "to_id": "mei_zhen",
+      "clan_id": "clan_mei_market",
+      "location_id": "refugee_market_node",
+      "willing": true,
+      "minimum_relation": 0,
+      "mode": "after_death",
+      "estate_id": "estate:mei_qing",
+      "source_id": "scenario:mei_estate_756"
+    }
+  ]
+}

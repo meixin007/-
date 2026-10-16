@@ -1,0 +1,11 @@
+{
+  "case_id": "beta108_case_edict_legitimacy",
+  "template_id": "edict_legitimacy",
+  "phase_open_day": 48,
+  "facts": [{"fact_id": "fact_edict_legitimacy", "kind": "edict_procedure", "source_ref_id": "edict_record_48", "public_summary": "中书起草、门下复核与尚书执行记录出现程序断点。"}],
+  "claims": [{"claim_id": "claim_edict_drafting", "character_id": "li_bi", "fact_ids": ["fact_edict_legitimacy"]}, {"claim_id": "claim_edict_review", "character_id": "li_chu", "fact_ids": ["fact_edict_legitimacy"]}],
+  "evidence": [{"evidence_id": "evidence_edict_record", "kind": "event_history", "ref_id": "edict_record_48"}, {"evidence_id": "evidence_edict_report", "kind": "governance_report", "ref_id": "edict_report_49"}],
+  "available_verdicts": ["dismiss", "reform"],
+  "required_fact_kinds": ["edict_procedure"],
+  "minimum_independent_sources": 2
+}

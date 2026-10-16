@@ -1,0 +1,200 @@
+{
+  "version": "1.0",
+  "description": "大唐大战略地图地理参考契约。Blender 工坊与 Godot 运行时必须实现逐行一致的 Albers 等积圆锥投影，并用 nodes 数组交叉校验（误差 < 1e-4 地图单位）。",
+  "projection": {
+    "type": "Albers_Conic_Equal_Area",
+    "ellipsoid": "WGS84",
+    "semi_major_m": 6378137.0,
+    "inverse_flattening": 298.257223563,
+    "lat1_deg": 25.0,
+    "lat2_deg": 47.0,
+    "lon0_deg": 105.0,
+    "lat0_deg": 36.0,
+    "derived": {
+      "n": 0.5771090015118581,
+      "C": 1.3072918526770514,
+      "rho0_m": 8788569.315199792,
+      "e": 0.08181919084262149,
+      "e2": 0.0066943799901413165
+    }
+  },
+  "bbox_lonlat": [
+    73.0,
+    17.0,
+    136.0,
+    55.0
+  ],
+  "nodes": [
+    {
+      "id": "lingwu_court_node",
+      "name": "灵武行在",
+      "lon": 106.33,
+      "lat": 38.1,
+      "x_m": 114551.368392,
+      "y_m": 238149.399695
+    },
+    {
+      "id": "shuofang_front_node",
+      "name": "朔方军前锋",
+      "lon": 105.98,
+      "lat": 37.48,
+      "x_m": 85099.238029,
+      "y_m": 167715.631623
+    },
+    {
+      "id": "grain_road_node",
+      "name": "太仓粮道",
+      "lon": 111.19,
+      "lat": 34.78,
+      "x_m": 556187.294349,
+      "y_m": -120491.80792
+    },
+    {
+      "id": "guanzhong_approach_node",
+      "name": "关中门户",
+      "lon": 107.4,
+      "lat": 34.52,
+      "x_m": 216474.575955,
+      "y_m": -164580.078136
+    },
+    {
+      "id": "changan_pressure_node",
+      "name": "长安京师",
+      "lon": 108.95,
+      "lat": 34.27,
+      "x_m": 357344.463978,
+      "y_m": -188312.510036
+    },
+    {
+      "id": "tongguan_pass_node",
+      "name": "潼关天险",
+      "lon": 110.23,
+      "lat": 34.55,
+      "x_m": 471383.590185,
+      "y_m": -151390.409731
+    },
+    {
+      "id": "hedong_relay_node",
+      "name": "河东津梁",
+      "lon": 110.32,
+      "lat": 34.85,
+      "x_m": 477673.106547,
+      "y_m": -117129.143906
+    },
+    {
+      "id": "taiyuan_hub_node",
+      "name": "太原北京",
+      "lon": 112.55,
+      "lat": 37.87,
+      "x_m": 651640.893944,
+      "y_m": 236172.655409
+    },
+    {
+      "id": "uighur_route_node",
+      "name": "回纥塞路",
+      "lon": 108.5,
+      "lat": 41.2,
+      "x_m": 289057.849653,
+      "y_m": 592577.062448
+    },
+    {
+      "id": "hebei_rebel_signal_node",
+      "name": "常山义旗",
+      "lon": 114.51,
+      "lat": 38.04,
+      "x_m": 818506.465555,
+      "y_m": 269831.825861
+    },
+    {
+      "id": "fanyang_rebel_hub_node",
+      "name": "范阳幽陵",
+      "lon": 116.4,
+      "lat": 39.9,
+      "x_m": 956439.170011,
+      "y_m": 495741.114443
+    },
+    {
+      "id": "luoyang_rumor_node",
+      "name": "洛阳东都",
+      "lon": 112.45,
+      "lat": 34.62,
+      "x_m": 670561.547545,
+      "y_m": -130733.699544
+    },
+    {
+      "id": "suiyang_hub_node",
+      "name": "睢阳睢水",
+      "lon": 115.65,
+      "lat": 34.38,
+      "x_m": 960550.452673,
+      "y_m": -131434.33802
+    },
+    {
+      "id": "yangzhou_tribute_hub_node",
+      "name": "扬州财赋",
+      "lon": 119.42,
+      "lat": 32.39,
+      "x_m": 1330981.312937,
+      "y_m": -310613.577983
+    },
+    {
+      "id": "refugee_market_node",
+      "name": "商洛流民市",
+      "lon": 109.94,
+      "lat": 33.86,
+      "x_m": 449141.874976,
+      "y_m": -230521.493309
+    },
+    {
+      "id": "palace_inner_channel_node",
+      "name": "秦岭内道",
+      "lon": 108.85,
+      "lat": 34.02,
+      "x_m": 349396.396494,
+      "y_m": -216865.800679
+    },
+    {
+      "id": "desert_envoy_road_node",
+      "name": "河西凉州",
+      "lon": 102.64,
+      "lat": 37.93,
+      "x_m": -203707.773603,
+      "y_m": 220586.795334
+    },
+    {
+      "id": "jianmen_pass_node",
+      "name": "剑门雄关",
+      "lon": 105.57,
+      "lat": 32.22,
+      "x_m": 52906.686449,
+      "y_m": -426438.73726
+    },
+    {
+      "id": "chengdou_rear_hub_node",
+      "name": "成都南京",
+      "lon": 104.06,
+      "lat": 30.67,
+      "x_m": -88899.536545,
+      "y_m": -600519.552537
+    }
+  ],
+  "reference_implementation": {
+    "python": "tools/blender/proj_albers.py",
+    "gdscript": "scripts/core/map_georef_service.gd"
+  },
+  "terrain_grid": {
+    "width": 4096,
+    "height": 3024,
+    "xllcorner_m": -3451436.899458672,
+    "yllcorner_m": -2107268.9289838243,
+    "cellsize_m": 1659.8154971797526,
+    "height_min_m": -7744.609375,
+    "height_max_m": 7449.466796875,
+    "height_encoding": "RG8: v = R*256 + G ; h = height_min_m + v/65535*(height_max_m-height_min_m)",
+    "height_exaggeration": 10.0,
+    "sea_level_m": 0.0,
+    "blender_unit_per_meter": 3.660897217785748e-05,
+    "width_m": 6798604.276448267,
+    "height_m": 4561172.98624996
+  }
+}

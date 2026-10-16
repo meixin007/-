@@ -1,0 +1,241 @@
+{
+  "version": "1.0",
+  "historical_era": "tang_tianbao_zhide",
+  "description": "唐代天宝/至德年间主要山脉脊线考据。用于在 Blender 地形高度场上施加山脊骨架约束（抬升），并作为地图上山体晕渲与不可通行区的依据。坐标一律为 [lon, lat]（先经后纬，WGS84）。",
+  "conventions": {
+    "coordinate_order": "[lon, lat]",
+    "crs": "WGS84 / EPSG:4326",
+    "elevation_unit": "meter",
+    "influence_radius_m": "脊线两侧的影响半径，用于地形抬升衰减与通行性判定"
+  },
+  "sources": [
+    "谭其骧《中国历史地图集》第五册（隋唐五代十国）",
+    "《元和郡县图志》（李吉甫，813）",
+    "《通典·州郡典》（杜佑，801）",
+    "现代地形高程用于校核峰高（AWS Terrarium / SRTM 同源）"
+  ],
+  "note": "峰高取该山脉在本区域内的代表值，不追求逐一实测；目的是让地形骨架走势正确，而非地形测量。",
+  "ranges": [
+    {
+      "id": "qinling",
+      "name": "秦岭",
+      "historical_name": "终南山·太乙山·太白山",
+      "ridgeline": [
+        [104.5, 33.9], [105.8, 34.1], [106.8, 34.2], [107.3, 34.0],
+        [107.7, 33.95], [108.5, 33.85], [108.9, 33.95], [109.5, 34.0],
+        [110.0, 34.1], [110.3, 34.3], [111.0, 34.4]
+      ],
+      "peak_m": 3767,
+      "peak_profile_m": [3500, 3200, 2800, 2500, 3767, 2800, 2600, 2200, 1800, 1500, 1300],
+      "influence_radius_m": 70000,
+      "passability": "low",
+      "strategic_note": "横亘关中之南，是长安与汉中/巴蜀之间的天险。子午道、傥骆道、褒斜道、陈仓道皆穿行其间，行军缓慢、补给损耗极高。",
+      "peak_profile_note": "逐点峰高：3767 m 只是太白山主峰（第 5 点），距长安最近的一段（终南山，第 7 点）约 2600 m，东段降至 1300 m。整条脊线共用一个 peak_m 会把长安城抬成山地。"
+    },
+    {
+      "id": "taihang",
+      "name": "太行山",
+      "historical_name": "太行八陉",
+      "ridgeline": [
+        [115.5, 39.9], [114.8, 39.5], [114.6, 39.0], [114.2, 38.5],
+        [114.0, 38.0], [113.8, 37.5], [113.6, 37.0], [113.5, 36.5],
+        [113.0, 36.0], [112.9, 35.5], [113.0, 35.2]
+      ],
+      "peak_m": 2882,
+      "influence_radius_m": 55000,
+      "passability": "low",
+      "strategic_note": "隔断河东与河北的决定性山脉，仅太行八陉可通：军都陉、飞狐陉、蒲阴陉、井陉、滏口陉、白陉、太行陉、轵关陉。安史叛军据范阳，唐军守河东，全赖井陉、滏口诸陉的争夺。"
+    },
+    {
+      "id": "yinshan",
+      "name": "阴山",
+      "historical_name": "阴山·大青山",
+      "ridgeline": [
+        [107.0, 41.0], [109.0, 41.3], [111.0, 41.5], [113.0, 41.8],
+        [115.0, 42.0], [117.0, 42.2]
+      ],
+      "peak_m": 2338,
+      "influence_radius_m": 60000,
+      "passability": "medium",
+      "strategic_note": "河套之北的屏障，唐与突厥、回纥的天然分界。山脉以北为漠南草原，是骑兵驰骋之地。"
+    },
+    {
+      "id": "longshan",
+      "name": "陇山·六盘山",
+      "historical_name": "陇坻·大震关",
+      "ridgeline": [
+        [106.3, 35.6], [106.4, 35.2], [106.5, 34.8], [106.4, 34.4], [106.2, 34.0]
+      ],
+      "peak_m": 2942,
+      "influence_radius_m": 45000,
+      "passability": "low",
+      "strategic_note": "关中与陇右的分水岭，大震关扼其要。陇右失守则关中无屏障——安史乱起后河西、陇右精锐东调勤王，吐蕃随即乘虚而入。"
+    },
+    {
+      "id": "yanmen_hengshan",
+      "name": "雁门·恒山",
+      "historical_name": "雁门关·勾注山",
+      "ridgeline": [
+        [112.6, 39.3], [113.2, 39.2], [113.8, 39.1], [114.3, 39.0]
+      ],
+      "peak_m": 2017,
+      "influence_radius_m": 40000,
+      "passability": "low",
+      "strategic_note": "太原以北的门户，雁门关所在。河东节度使北防之要害。"
+    },
+    {
+      "id": "funiu",
+      "name": "伏牛山",
+      "historical_name": "伏牛山",
+      "ridgeline": [
+        [111.8, 33.9], [112.1, 33.7], [112.4, 33.5], [112.7, 33.4]
+      ],
+      "peak_m": 2216,
+      "influence_radius_m": 40000,
+      "passability": "low",
+      "strategic_note": "秦岭东段支脉，屏蔽南阳盆地，是江汉与中原之间的缓冲。"
+    },
+    {
+      "id": "yanshan",
+      "name": "燕山",
+      "historical_name": "燕山·军都山·卢龙塞·榆关",
+      "ridgeline": [
+        [115.50, 40.38],
+        [115.90, 40.30],
+        [116.40, 40.42],
+        [117.00, 40.55],
+        [117.20, 40.70],
+        [117.70, 40.62],
+        [118.30, 40.43],
+        [118.88, 39.92],
+        [119.35, 40.05]
+      ],
+      "peak_m": 2116,
+      "peak_profile_m": [1500, 1400, 1700, 2000, 1550, 2116, 1800, 1100, 900],
+      "influence_radius_m": 45000,
+      "passability": "low",
+      "strategic_note": "幽州之北的屏障，西起军都山、居庸关，经古北口、喜峰口、卢龙塞，东止于抚宁以西。山海关是燕山与渤海之间的关口缺口，脊线不到海，辽西走廊在此穿出。",
+      "peak_profile_note": "逐点峰高：雾灵山约 2116 m（第 6 点）；古北口（第 5 点）为隘口略降；末点停在抚宁以西，山海关本身不抬成山墙。"
+    },
+    {
+      "id": "qilian",
+      "name": "祁连山",
+      "historical_name": "祁连山·天山",
+      "ridgeline": [
+        [98.0, 38.6], [100.0, 38.0], [101.5, 37.5], [102.5, 37.0]
+      ],
+      "peak_m": 5547,
+      "influence_radius_m": 80000,
+      "passability": "very_low",
+      "strategic_note": "河西走廊南壁，雪水灌溉张掖、酒泉、敦煌诸绿洲。河西节度使赖此山雪水屯田，隔断吐蕃与漠北的联络。"
+    },
+    {
+      "id": "helan",
+      "name": "贺兰山",
+      "historical_name": "贺兰山",
+      "ridgeline": [
+        [105.9, 38.5], [106.2, 38.9], [106.4, 39.3]
+      ],
+      "peak_m": 3556,
+      "influence_radius_m": 35000,
+      "passability": "low",
+      "strategic_note": "银川平原西屏，灵武、定远诸城依之。肃宗即位于灵武，即以此为背靠。"
+    },
+    {
+      "id": "lvliang",
+      "name": "吕梁山",
+      "historical_name": "吕梁山",
+      "ridgeline": [
+        [111.4, 38.5], [111.3, 37.8], [111.2, 37.0], [111.1, 36.3]
+      ],
+      "peak_m": 2830,
+      "influence_radius_m": 45000,
+      "passability": "low",
+      "strategic_note": "河东道西部山地，与太行夹汾水河谷。"
+    },
+    {
+      "id": "zhongtiao",
+      "name": "中条山",
+      "historical_name": "中条山·蒲津",
+      "ridgeline": [
+        [111.4, 35.4], [111.7, 35.2], [112.0, 35.0]
+      ],
+      "peak_m": 2321,
+      "influence_radius_m": 30000,
+      "passability": "medium",
+      "strategic_note": "河东与河南之间的界山，蒲津关在其西端，是河东与关中之间的黄河渡口。"
+    },
+    {
+      "id": "xiaoshan",
+      "name": "崤山",
+      "historical_name": "崤函之固",
+      "ridgeline": [
+        [111.3, 34.5], [111.6, 34.5], [111.9, 34.6]
+      ],
+      "peak_m": 1900,
+      "influence_radius_m": 30000,
+      "passability": "low",
+      "strategic_note": "崤函古道所经，长安与洛阳之间的险道。所谓「秦孝公据崤函之固」即此。"
+    },
+    {
+      "id": "daba",
+      "name": "大巴山·米仓山",
+      "historical_name": "大巴山·米仓道",
+      "ridgeline": [
+        [106.5, 32.8], [107.5, 32.6], [108.5, 32.4], [109.5, 32.1], [110.5, 31.7]
+      ],
+      "peak_m": 2500,
+      "influence_radius_m": 55000,
+      "passability": "very_low",
+      "strategic_note": "汉中与巴蜀之间的屏障，米仓道、荔枝道穿行。剑南与山南西道的分界。"
+    },
+    {
+      "id": "jianmen_longmen",
+      "name": "剑门·龙门山",
+      "historical_name": "剑阁·剑门关",
+      "ridgeline": [
+        [104.8, 32.6], [105.2, 32.3], [105.55, 32.2], [105.8, 31.9]
+      ],
+      "peak_m": 2200,
+      "influence_radius_m": 40000,
+      "passability": "very_low",
+      "strategic_note": "金牛道上的剑门天险，大小剑山连亘，「一夫当关，万夫莫开」。玄宗幸蜀即经此道，剑门关节点即位于此。"
+    },
+    {
+      "id": "wushan",
+      "name": "巫山",
+      "historical_name": "三峡·瞿塘峡",
+      "ridgeline": [
+        [109.5, 31.1], [110.0, 31.0], [110.5, 30.9]
+      ],
+      "peak_m": 2400,
+      "influence_radius_m": 35000,
+      "passability": "very_low",
+      "strategic_note": "长江三峡所在，巴蜀与荆襄之间的水路咽喉，陆路几不可行。"
+    },
+    {
+      "id": "minshan",
+      "name": "岷山",
+      "historical_name": "岷山·雪岭",
+      "ridgeline": [
+        [103.4, 32.5], [103.8, 32.0], [104.2, 31.5]
+      ],
+      "peak_m": 5588,
+      "influence_radius_m": 60000,
+      "passability": "very_low",
+      "strategic_note": "剑南西北雪线山脉，唐与吐蕃在松州、维州一带的拉锯之地。"
+    },
+    {
+      "id": "dabie",
+      "name": "大别山",
+      "historical_name": "大别山",
+      "ridgeline": [
+        [115.5, 31.5], [116.0, 31.2], [116.5, 30.9]
+      ],
+      "peak_m": 1777,
+      "influence_radius_m": 45000,
+      "passability": "low",
+      "strategic_note": "淮南道西界，分隔江汉与江淮。睢阳保卫战时，此山以东的江淮财赋区是唐军续命之本。"
+    }
+  ]
+}

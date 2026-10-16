@@ -1,0 +1,10 @@
+{
+  "schema_version": 107,
+  "case_files": [
+    "governance_beta_1_07_grain_authority.json",
+    "governance_beta_1_07_palace_channel.json",
+    "governance_beta_1_07_uighur_cost.json"
+  ],
+  "report_file": "governance_beta_1_07_reports.json",
+  "score_thresholds": {"completed": 70, "partial": 40, "failed": 0}
+}

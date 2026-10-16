@@ -1,0 +1,80 @@
+{
+  "schema_version": 109,
+  "campaign_id": "anshi_beta_1_09",
+  "review_id": "beta109_day30_review",
+  "day": 30,
+  "title": "三十日政治季复盘",
+  "public_summary": "复盘实际资源、程序留痕、派系压力和任命含义；第三十一日只开放既有问责案的调查入口，不在此处裁决。",
+  "authoritative_paths": [
+    "resources.grain",
+    "resources.court_authority",
+    "faction_agenda_state",
+    "political_debts",
+    "structured_memories",
+    "office_terms",
+    "chronicle_causal_references"
+  ],
+  "state_paths": [
+    "resources.grain",
+    "resources.court_authority",
+    "faction_agenda_state",
+    "political_debts",
+    "structured_memories",
+    "office_terms",
+    "chronicle_causal_references"
+  ],
+  "sources": [
+    {"source_id": "review_source_grain", "path": "governance.orders", "memorial_id": "memorial_shuofang_grain_001", "echo_id": "beta109_echo_grain_trust"},
+    {"source_id": "review_source_rations", "path": "governance.reports", "memorial_id": "memorial_lingwu_ration_001", "echo_id": "beta109_echo_ration_relationship"},
+    {"source_id": "review_source_gate", "path": "chronicle_causal_references", "memorial_id": "memorial_gate_review_001", "echo_id": "beta109_echo_gate_authority"},
+    {"source_id": "review_source_appointment", "path": "office_terms", "office_id": "menxia_review", "echo_id": "beta109_echo_appointment_faction"}
+  ],
+  "sections": [
+    {
+      "section_id": "resource_ledger",
+      "public_title": "粮食与朝廷权威",
+      "state_paths": ["resources.grain", "resources.court_authority"],
+      "source_echo_ids": ["beta109_echo_grain_trust", "beta109_echo_gate_authority"],
+      "public_prompt": "显示核账留痕与军前急运在粮耗、时效和朝廷权威上的实际差异。"
+    },
+    {
+      "section_id": "faction_pressure",
+      "public_title": "派系压力",
+      "state_paths": ["faction_agenda_state", "political_debts"],
+      "source_echo_ids": ["beta109_echo_grain_trust", "beta109_echo_appointment_faction"],
+      "public_prompt": "指出将帅、商民、内廷和旧臣压力分别由哪件事务引起。"
+    },
+    {
+      "section_id": "relationship_memory",
+      "public_title": "人物信任与记忆",
+      "state_paths": ["structured_memories", "chronicle_causal_references"],
+      "source_echo_ids": ["beta109_echo_ration_relationship", "beta109_echo_gate_authority"],
+      "public_prompt": "显示人物关系记忆与编年史因果引用，不以抽象评分替代来源。"
+    },
+    {
+      "section_id": "appointment_meaning",
+      "public_title": "门下省任命含义",
+      "state_paths": ["office_terms", "political_debts"],
+      "source_echo_ids": ["beta109_echo_appointment_faction"],
+      "public_prompt": "显示李泌的程序合法性含义或旧臣代表的先例连续性含义。"
+    }
+  ],
+  "day_31_accountability_preview": {
+    "case_id": "beta108_case_grain_ledger_shortfall",
+    "open_day": 31,
+    "preview_only": true,
+    "verdict_allowed": false,
+    "public_facts": [
+      "朔方粮道订单、灵武仓粮名册与第三十日复盘已形成可查来源。"
+    ],
+    "source_paths": ["governance.orders", "governance.reports", "chronicle_causal_references"],
+    "next_action": "begin_investigation"
+  },
+  "accountability_preview": {
+    "case_id": "beta108_case_grain_ledger_shortfall",
+    "open_day": 31,
+    "preview_only": true,
+    "verdict_allowed": false,
+    "next_action": "begin_investigation"
+  }
+}

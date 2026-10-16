@@ -1,0 +1,11 @@
+Terrain and modern water reuse the accepted P3 references.
+produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved
+https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM
+
+© OpenStreetMap contributors, ODbL 1.0
+https://www.openstreetmap.org/copyright
+Raw inputs and provenance remain under p3/sources/.
+
+Gate: user supplied gate-eastwest.png, byte-identical P2 asset.
+Trees: existing P2 tongguan_v1 tree_willow and tree_grove.
+Buildings, construction and damage overlays: code-native engineering placeholders.

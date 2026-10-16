@@ -1,0 +1,16 @@
+{
+  "bundle_id": "ground_material_study_20261007",
+  "version": 1,
+  "extends": "tongguan_v1",
+  "asset_review_status": "CANDIDATE_NOT_USER_ACCEPTED",
+  "assets": [
+    {
+      "file": "ground-material-atlas-v01.png",
+      "sha256": "679d542e120f95ab56d0419a9a5ed5a1e492a29715170b62af756626887ac495",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 2010978
+    }
+  ]
+}

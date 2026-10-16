@@ -1,0 +1,3165 @@
+{
+  "version": 1,
+  "source_id": "scenario:tang_industry_catalog_756",
+  "content_basis": "完整玩法目录与经营分类定义；除具名引文外，其余条目尚待逐类史料校准。无任何虚构收益、资产或资源登记。 全目录分类经营参数为游戏设计：月度供需有上限，普通供销合并处理，建设和经营仍使用共同账户及负责人。",
+  "groups": {
+    "agriculture": "农田园圃",
+    "husbandry": "畜牧渔业",
+    "extraction": "山林采掘",
+    "food": "食品加工",
+    "manufacture": "纺织制造",
+    "retail": "商业零售",
+    "logistics": "住宿运输",
+    "finance": "金融信用",
+    "services": "娱乐服务"
+  },
+  "requirements": {
+    "arable": "可耕土地",
+    "irrigation": "灌溉水源与用水权",
+    "tea_soil": "适合茶树的气候与土壤",
+    "orchard": "适用园地与生长期",
+    "pasture": "牧地与放牧权",
+    "fresh_water": "淡水与水域使用权",
+    "fishing": "渔业资源与捕捞权",
+    "forest": "林木资源与采伐权",
+    "bamboo": "竹林资源与采伐权",
+    "stone": "可开采石料",
+    "gold": "金矿资源与开采权",
+    "silver": "银矿资源与开采权",
+    "copper": "铜矿资源与开采权",
+    "iron": "铁矿资源与开采权",
+    "salt_surface": "可用盐源与制盐场地",
+    "brine": "盐卤资源与盐井用地",
+    "water_power": "可用水力与设施用地",
+    "clay": "合用陶土或砖土",
+    "premises": "适用铺面或设施用地",
+    "waterfront": "岸线场地与通航条件",
+    "harbor": "停泊设施与可用船只",
+    "road": "通行道路与车畜",
+    "secure_storage": "安全库房与保管能力"
+  },
+  "goods": {
+    "seed": "种苗",
+    "water": "水",
+    "grain": "粮食",
+    "rice": "稻谷",
+    "tea_leaf": "鲜茶叶",
+    "tea": "成茶",
+    "mulberry": "桑叶",
+    "hemp": "麻纤维",
+    "fruit": "果品",
+    "vegetables": "蔬菜",
+    "herbs": "药材",
+    "lacquer": "生漆",
+    "feed": "饲料",
+    "horses": "马匹",
+    "cattle": "牛羊",
+    "meat": "肉禽",
+    "cocoons": "蚕茧",
+    "fish": "鱼",
+    "timber": "木材",
+    "bamboo": "竹材",
+    "charcoal": "木炭",
+    "stone": "石料",
+    "gold": "金",
+    "silver": "银",
+    "copper": "铜",
+    "iron": "铁",
+    "salt": "盐",
+    "flour": "面粉",
+    "oilseed": "油料",
+    "oil": "油",
+    "wine": "酒",
+    "sauce": "酱醋",
+    "silk": "生丝",
+    "yarn": "纱线",
+    "cloth": "布帛",
+    "dye": "染料",
+    "clothes": "衣物",
+    "hide": "皮革原料",
+    "leather": "皮革制品",
+    "clay": "陶土",
+    "ceramics": "陶瓷",
+    "tiles": "砖瓦",
+    "woodwares": "木器",
+    "tools": "铁器",
+    "jewelry": "金银首饰",
+    "paper": "纸",
+    "books": "书籍",
+    "fuel": "燃料",
+    "food": "餐食",
+    "medicine": "药品",
+    "sundries": "杂货",
+    "guest_service": "住宿",
+    "storage_service": "保管",
+    "freight": "货运",
+    "passage": "渡运",
+    "ship": "船只",
+    "repairs": "修造服务",
+    "credit": "借贷服务",
+    "remittance": "异地结算",
+    "performance": "演艺宴饮",
+    "entertainment": "娱乐服务",
+    "bathing": "洗浴",
+    "care": "诊疗",
+    "education": "教学",
+    "cash": "营运资金",
+    "labor": "人员工时",
+    "tea_seedlings": "茶苗（建园投入）"
+  },
+  "models": {
+    "agriculture": {
+      "cycle": "seasonal",
+      "revenue": "按实际采收与售出数量取得收入；生长期不凭空产生月收入。",
+      "costs": "种苗、灌溉、农工、土地租税；未售作物按库存保留。"
+    },
+    "husbandry": {
+      "cycle": "biological",
+      "revenue": "按真实繁育、生长或捕获后交付的产物结算。",
+      "costs": "种畜、饲料、养护、人手与损耗；幼畜不能当天变成成畜。"
+    },
+    "extraction": {
+      "cycle": "depletion",
+      "revenue": "按可开采资源、实际产量和运销收入结算。",
+      "costs": "开采人手、燃料、工具、运费、许可税费及资源损失。"
+    },
+    "manufacture": {
+      "cycle": "batch",
+      "revenue": "按真实投入产出的合格批次和成交数量结算。",
+      "costs": "已售产品耗用材料、工钱、燃料、维护与运销；未售产品不是现金。"
+    },
+    "retail": {
+      "cycle": "turnover",
+      "revenue": "按实际售出商品的价差与周转计算。",
+      "costs": "已售商品进货成本、店员、铺租、运输、税费与损耗；进货不立即全部算亏损。"
+    },
+    "hospitality": {
+      "cycle": "capacity",
+      "revenue": "按实际接待量或完成服务收费。",
+      "costs": "接待耗材、人手、铺租、设施维护、税费及服务事故。"
+    },
+    "transport": {
+      "cycle": "contract",
+      "revenue": "按实际货运或渡运合同的履行收费。",
+      "costs": "车船、人员、饲料燃料、途中损耗和保管赔付。"
+    },
+    "custody": {
+      "cycle": "contract",
+      "revenue": "按实际保管期限与合同收取费用。",
+      "costs": "库房、人手、安保、维护与实际赔付；寄存财物不算店铺收入或自有库存。"
+    },
+    "credit": {
+      "cycle": "contract",
+      "revenue": "按实收利息费用、处置损益和已确认信贷损失结算。",
+      "costs": "资金占用、人手、铺租、维护、坏账；借贷本金不算营业收入。"
+    }
+  },
+  "sources": {
+    "plan": {
+      "title": "区域信息与地产实施计划第1.7节",
+      "url": "",
+      "basis": "game_design",
+      "note": "用户确定的玩法范围；经营分类和名称不等于逐项史实考证。"
+    },
+    "old_tang_49": {
+      "title": "《旧唐书》卷49·食货下",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷49",
+      "basis": "primary_text",
+      "note": "记乾元元年（758）第五琦盐法；不能将该制度提前套用到756开局。"
+    },
+    "feng_6": {
+      "title": "《封氏闻见记》卷六·饮茶",
+      "url": "https://zh.wikisource.org/wiki/封氏聞見記/卷六",
+      "basis": "primary_text",
+      "note": "记城市煎茶售饮与江淮茶叶运输；可支持茶铺依靠外地货源，不能证明任一州已有茶园。"
+    },
+    "lu_yu_tea": {
+      "title": "《茶经》卷上：一之源、三之造",
+      "url": "https://zh.wikisource.org/zh/茶經_(四庫全書本)/卷上",
+      "basis": "primary_text",
+      "note": "参考三岁可采、二至四月采期及采后制茶工序；不作为756年商洛茶园面积、产量或价格的直接证据。游戏树龄、工日和记账单位为规则近似。"
+    }
+  },
+  "industries": {
+    "grain_estate": {
+      "industry_id": "grain_estate",
+      "name": "粮食田庄",
+      "group_id": "agriculture",
+      "model": "agriculture",
+      "cycle": "seasonal",
+      "inputs": [
+        "seed",
+        "water"
+      ],
+      "outputs": [
+        "grain"
+      ],
+      "requirements": [
+        "arable"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "grain",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "paddy": {
+      "industry_id": "paddy",
+      "name": "水田",
+      "group_id": "agriculture",
+      "model": "agriculture",
+      "cycle": "seasonal",
+      "inputs": [
+        "seed",
+        "water"
+      ],
+      "outputs": [
+        "rice"
+      ],
+      "requirements": [
+        "arable",
+        "irrigation"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "rice",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "dry_field": {
+      "industry_id": "dry_field",
+      "name": "旱田",
+      "group_id": "agriculture",
+      "model": "agriculture",
+      "cycle": "seasonal",
+      "inputs": [
+        "seed",
+        "water"
+      ],
+      "outputs": [
+        "grain"
+      ],
+      "requirements": [
+        "arable"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "grain",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "tea_garden": {
+      "industry_id": "tea_garden",
+      "name": "茶园",
+      "group_id": "agriculture",
+      "model": "agriculture",
+      "cycle": "seasonal",
+      "inputs": [
+        "tea_seedlings",
+        "water"
+      ],
+      "outputs": [
+        "tea"
+      ],
+      "requirements": [
+        "arable",
+        "tea_soil"
+      ],
+      "source_refs": [
+        "plan",
+        "feng_6",
+        "lu_yu_tea"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "新栽茶树需等待成园并满足春季采期；由庄头安排管护采制后才形成成茶。苗木在建园时投入，不按年重复播种。适宜土壤、人工、灾害和销售资金影响经营；城市能卖茶不代表当地适合种茶。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "tea",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 1080,
+        "harvest_months": [
+          2,
+          3,
+          4
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "mulberry_garden": {
+      "industry_id": "mulberry_garden",
+      "name": "桑园",
+      "group_id": "agriculture",
+      "model": "agriculture",
+      "cycle": "seasonal",
+      "inputs": [
+        "seed",
+        "water"
+      ],
+      "outputs": [
+        "mulberry"
+      ],
+      "requirements": [
+        "arable",
+        "orchard"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "mulberry",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 90,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "hemp_field": {
+      "industry_id": "hemp_field",
+      "name": "麻田",
+      "group_id": "agriculture",
+      "model": "agriculture",
+      "cycle": "seasonal",
+      "inputs": [
+        "seed",
+        "water"
+      ],
+      "outputs": [
+        "hemp"
+      ],
+      "requirements": [
+        "arable"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "hemp",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "orchard": {
+      "industry_id": "orchard",
+      "name": "果园",
+      "group_id": "agriculture",
+      "model": "agriculture",
+      "cycle": "seasonal",
+      "inputs": [
+        "seed",
+        "water"
+      ],
+      "outputs": [
+        "fruit"
+      ],
+      "requirements": [
+        "arable",
+        "orchard"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "fruit",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 90,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "vegetable_garden": {
+      "industry_id": "vegetable_garden",
+      "name": "菜圃",
+      "group_id": "agriculture",
+      "model": "agriculture",
+      "cycle": "seasonal",
+      "inputs": [
+        "seed",
+        "water"
+      ],
+      "outputs": [
+        "vegetables"
+      ],
+      "requirements": [
+        "arable",
+        "irrigation"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "vegetables",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "herb_garden": {
+      "industry_id": "herb_garden",
+      "name": "药圃",
+      "group_id": "agriculture",
+      "model": "agriculture",
+      "cycle": "seasonal",
+      "inputs": [
+        "seed",
+        "water"
+      ],
+      "outputs": [
+        "herbs"
+      ],
+      "requirements": [
+        "arable"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "herbs",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "lacquer_garden": {
+      "industry_id": "lacquer_garden",
+      "name": "漆园",
+      "group_id": "agriculture",
+      "model": "agriculture",
+      "cycle": "seasonal",
+      "inputs": [
+        "seed",
+        "water"
+      ],
+      "outputs": [
+        "lacquer"
+      ],
+      "requirements": [
+        "orchard"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "lacquer",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 90,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "horse_ranch": {
+      "industry_id": "horse_ranch",
+      "name": "马场",
+      "group_id": "husbandry",
+      "model": "husbandry",
+      "cycle": "biological",
+      "inputs": [
+        "feed",
+        "water"
+      ],
+      "outputs": [
+        "horses"
+      ],
+      "requirements": [
+        "pasture",
+        "fresh_water"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "horses",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 90,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "cattle_ranch": {
+      "industry_id": "cattle_ranch",
+      "name": "牛羊牧场",
+      "group_id": "husbandry",
+      "model": "husbandry",
+      "cycle": "biological",
+      "inputs": [
+        "feed",
+        "water"
+      ],
+      "outputs": [
+        "cattle"
+      ],
+      "requirements": [
+        "pasture",
+        "fresh_water"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "cattle",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 90,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "pig_farm": {
+      "industry_id": "pig_farm",
+      "name": "养猪场",
+      "group_id": "husbandry",
+      "model": "husbandry",
+      "cycle": "biological",
+      "inputs": [
+        "feed",
+        "water"
+      ],
+      "outputs": [
+        "meat"
+      ],
+      "requirements": [
+        "premises",
+        "fresh_water"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "meat",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "poultry_farm": {
+      "industry_id": "poultry_farm",
+      "name": "家禽养殖",
+      "group_id": "husbandry",
+      "model": "husbandry",
+      "cycle": "biological",
+      "inputs": [
+        "feed",
+        "water"
+      ],
+      "outputs": [
+        "meat"
+      ],
+      "requirements": [
+        "premises",
+        "fresh_water"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "meat",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "silkworm_house": {
+      "industry_id": "silkworm_house",
+      "name": "养蚕设施",
+      "group_id": "husbandry",
+      "model": "husbandry",
+      "cycle": "biological",
+      "inputs": [
+        "mulberry"
+      ],
+      "outputs": [
+        "cocoons"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "cocoons",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "fishery": {
+      "industry_id": "fishery",
+      "name": "渔场",
+      "group_id": "husbandry",
+      "model": "husbandry",
+      "cycle": "biological",
+      "inputs": [
+        "labor"
+      ],
+      "outputs": [
+        "fish"
+      ],
+      "requirements": [
+        "fishing",
+        "waterfront"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "fish",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "fishpond": {
+      "industry_id": "fishpond",
+      "name": "鱼塘",
+      "group_id": "husbandry",
+      "model": "husbandry",
+      "cycle": "biological",
+      "inputs": [
+        "feed",
+        "water"
+      ],
+      "outputs": [
+        "fish"
+      ],
+      "requirements": [
+        "fresh_water"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "farm",
+        "capacity": 36,
+        "unit_revenue": 5,
+        "unit_cost": 2,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "fish",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [
+          4,
+          8,
+          10
+        ],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "forest_estate": {
+      "industry_id": "forest_estate",
+      "name": "林场",
+      "group_id": "extraction",
+      "model": "extraction",
+      "cycle": "depletion",
+      "inputs": [
+        "labor",
+        "tools"
+      ],
+      "outputs": [
+        "timber"
+      ],
+      "requirements": [
+        "forest"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "extraction",
+        "capacity": 24,
+        "unit_revenue": 8,
+        "unit_cost": 3,
+        "monthly_demand": 72,
+        "monthly_supply": 72,
+        "market_key": "timber",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "bamboo_estate": {
+      "industry_id": "bamboo_estate",
+      "name": "竹场",
+      "group_id": "extraction",
+      "model": "extraction",
+      "cycle": "depletion",
+      "inputs": [
+        "labor",
+        "tools"
+      ],
+      "outputs": [
+        "bamboo"
+      ],
+      "requirements": [
+        "bamboo"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "extraction",
+        "capacity": 24,
+        "unit_revenue": 8,
+        "unit_cost": 3,
+        "monthly_demand": 72,
+        "monthly_supply": 72,
+        "market_key": "bamboo",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "charcoal_kiln": {
+      "industry_id": "charcoal_kiln",
+      "name": "炭窑",
+      "group_id": "extraction",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "timber",
+        "labor"
+      ],
+      "outputs": [
+        "charcoal"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "charcoal",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "quarry": {
+      "industry_id": "quarry",
+      "name": "采石场",
+      "group_id": "extraction",
+      "model": "extraction",
+      "cycle": "depletion",
+      "inputs": [
+        "labor",
+        "tools"
+      ],
+      "outputs": [
+        "stone"
+      ],
+      "requirements": [
+        "stone"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "extraction",
+        "capacity": 24,
+        "unit_revenue": 8,
+        "unit_cost": 3,
+        "monthly_demand": 72,
+        "monthly_supply": 72,
+        "market_key": "stone",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "gold_mine": {
+      "industry_id": "gold_mine",
+      "name": "金矿",
+      "group_id": "extraction",
+      "model": "extraction",
+      "cycle": "depletion",
+      "inputs": [
+        "labor",
+        "tools"
+      ],
+      "outputs": [
+        "gold"
+      ],
+      "requirements": [
+        "gold"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "extraction",
+        "capacity": 24,
+        "unit_revenue": 8,
+        "unit_cost": 3,
+        "monthly_demand": 72,
+        "monthly_supply": 72,
+        "market_key": "gold",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "silver_mine": {
+      "industry_id": "silver_mine",
+      "name": "银矿",
+      "group_id": "extraction",
+      "model": "extraction",
+      "cycle": "depletion",
+      "inputs": [
+        "labor",
+        "tools"
+      ],
+      "outputs": [
+        "silver"
+      ],
+      "requirements": [
+        "silver"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "extraction",
+        "capacity": 24,
+        "unit_revenue": 8,
+        "unit_cost": 3,
+        "monthly_demand": 72,
+        "monthly_supply": 72,
+        "market_key": "silver",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "copper_mine": {
+      "industry_id": "copper_mine",
+      "name": "铜矿",
+      "group_id": "extraction",
+      "model": "extraction",
+      "cycle": "depletion",
+      "inputs": [
+        "labor",
+        "tools"
+      ],
+      "outputs": [
+        "copper"
+      ],
+      "requirements": [
+        "copper"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "extraction",
+        "capacity": 24,
+        "unit_revenue": 8,
+        "unit_cost": 3,
+        "monthly_demand": 72,
+        "monthly_supply": 72,
+        "market_key": "copper",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "iron_mine": {
+      "industry_id": "iron_mine",
+      "name": "铁矿",
+      "group_id": "extraction",
+      "model": "extraction",
+      "cycle": "depletion",
+      "inputs": [
+        "labor",
+        "tools"
+      ],
+      "outputs": [
+        "iron"
+      ],
+      "requirements": [
+        "iron"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "extraction",
+        "capacity": 24,
+        "unit_revenue": 8,
+        "unit_cost": 3,
+        "monthly_demand": 72,
+        "monthly_supply": 72,
+        "market_key": "iron",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "salt_field": {
+      "industry_id": "salt_field",
+      "name": "盐场",
+      "group_id": "extraction",
+      "model": "extraction",
+      "cycle": "depletion",
+      "inputs": [
+        "fuel",
+        "labor"
+      ],
+      "outputs": [
+        "salt"
+      ],
+      "requirements": [
+        "salt_surface"
+      ],
+      "source_refs": [
+        "plan",
+        "old_tang_49"
+      ],
+      "regulation": "756年开局不能预置758年才开始的盐法；后续须按实际政令处理收购、许可和税制。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "extraction",
+        "capacity": 24,
+        "unit_revenue": 8,
+        "unit_cost": 3,
+        "monthly_demand": 72,
+        "monthly_supply": 72,
+        "market_key": "salt",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "salt_well": {
+      "industry_id": "salt_well",
+      "name": "盐井",
+      "group_id": "extraction",
+      "model": "extraction",
+      "cycle": "depletion",
+      "inputs": [
+        "fuel",
+        "labor"
+      ],
+      "outputs": [
+        "salt"
+      ],
+      "requirements": [
+        "brine"
+      ],
+      "source_refs": [
+        "plan",
+        "old_tang_49"
+      ],
+      "regulation": "756年开局不能预置758年才开始的盐法；后续须按实际政令处理收购、许可和税制。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "extraction",
+        "capacity": 24,
+        "unit_revenue": 8,
+        "unit_cost": 3,
+        "monthly_demand": 72,
+        "monthly_supply": 72,
+        "market_key": "salt",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "water_mill": {
+      "industry_id": "water_mill",
+      "name": "碾硙",
+      "group_id": "food",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "grain"
+      ],
+      "outputs": [
+        "flour"
+      ],
+      "requirements": [
+        "premises",
+        "water_power"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "flour",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "mill": {
+      "industry_id": "mill",
+      "name": "磨坊",
+      "group_id": "food",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "grain"
+      ],
+      "outputs": [
+        "flour"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "flour",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "oil_press": {
+      "industry_id": "oil_press",
+      "name": "油坊",
+      "group_id": "food",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "oilseed"
+      ],
+      "outputs": [
+        "oil"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "oil",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "brewery": {
+      "industry_id": "brewery",
+      "name": "酿酒坊",
+      "group_id": "food",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "grain",
+        "water"
+      ],
+      "outputs": [
+        "wine"
+      ],
+      "requirements": [
+        "premises",
+        "fresh_water"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "wine",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "tea_workshop": {
+      "industry_id": "tea_workshop",
+      "name": "制茶坊",
+      "group_id": "food",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "tea_leaf",
+        "fuel"
+      ],
+      "outputs": [
+        "tea"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan",
+        "feng_6"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "tea",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "sauce_workshop": {
+      "industry_id": "sauce_workshop",
+      "name": "酱醋作坊",
+      "group_id": "food",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "grain",
+        "water"
+      ],
+      "outputs": [
+        "sauce"
+      ],
+      "requirements": [
+        "premises",
+        "fresh_water"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "sauce",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "silk_reeling": {
+      "industry_id": "silk_reeling",
+      "name": "缫丝坊",
+      "group_id": "manufacture",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "cocoons",
+        "fuel",
+        "water"
+      ],
+      "outputs": [
+        "silk"
+      ],
+      "requirements": [
+        "premises",
+        "fresh_water"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "silk",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "weaving_workshop": {
+      "industry_id": "weaving_workshop",
+      "name": "织坊",
+      "group_id": "manufacture",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "silk",
+        "hemp",
+        "yarn"
+      ],
+      "outputs": [
+        "cloth"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "cloth",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "dye_workshop": {
+      "industry_id": "dye_workshop",
+      "name": "染坊",
+      "group_id": "manufacture",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "cloth",
+        "dye",
+        "water"
+      ],
+      "outputs": [
+        "cloth"
+      ],
+      "requirements": [
+        "premises",
+        "fresh_water"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "cloth",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "tailor": {
+      "industry_id": "tailor",
+      "name": "成衣铺",
+      "group_id": "manufacture",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "cloth"
+      ],
+      "outputs": [
+        "clothes"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "clothes",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "leather_workshop": {
+      "industry_id": "leather_workshop",
+      "name": "皮革坊",
+      "group_id": "manufacture",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "hide",
+        "water"
+      ],
+      "outputs": [
+        "leather"
+      ],
+      "requirements": [
+        "premises",
+        "fresh_water"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "leather",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "ceramic_kiln": {
+      "industry_id": "ceramic_kiln",
+      "name": "陶瓷窑",
+      "group_id": "manufacture",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "clay",
+        "fuel"
+      ],
+      "outputs": [
+        "ceramics"
+      ],
+      "requirements": [
+        "premises",
+        "clay"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "ceramics",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "brick_kiln": {
+      "industry_id": "brick_kiln",
+      "name": "砖瓦窑",
+      "group_id": "manufacture",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "clay",
+        "fuel"
+      ],
+      "outputs": [
+        "tiles"
+      ],
+      "requirements": [
+        "premises",
+        "clay"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "tiles",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "wood_workshop": {
+      "industry_id": "wood_workshop",
+      "name": "木作",
+      "group_id": "manufacture",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "timber"
+      ],
+      "outputs": [
+        "woodwares"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "woodwares",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "smithy": {
+      "industry_id": "smithy",
+      "name": "铁匠铺",
+      "group_id": "manufacture",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "iron",
+        "charcoal"
+      ],
+      "outputs": [
+        "tools"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "tools",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "goldsmith": {
+      "industry_id": "goldsmith",
+      "name": "金银作坊",
+      "group_id": "manufacture",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "gold",
+        "silver"
+      ],
+      "outputs": [
+        "jewelry"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "jewelry",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "paper_workshop": {
+      "industry_id": "paper_workshop",
+      "name": "造纸坊",
+      "group_id": "manufacture",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "hemp",
+        "water",
+        "fuel"
+      ],
+      "outputs": [
+        "paper"
+      ],
+      "requirements": [
+        "premises",
+        "fresh_water"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "paper",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "grain_shop": {
+      "industry_id": "grain_shop",
+      "name": "粮铺",
+      "group_id": "retail",
+      "model": "retail",
+      "cycle": "turnover",
+      "inputs": [
+        "grain"
+      ],
+      "outputs": [
+        "grain"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "trade",
+        "capacity": 32,
+        "unit_revenue": 5,
+        "unit_cost": 3,
+        "monthly_demand": 96,
+        "monthly_supply": 96,
+        "market_key": "grain",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "cloth_shop": {
+      "industry_id": "cloth_shop",
+      "name": "布帛铺／布庄",
+      "group_id": "retail",
+      "model": "retail",
+      "cycle": "turnover",
+      "inputs": [
+        "cloth"
+      ],
+      "outputs": [
+        "cloth"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "可从外地进货，无须本地已有上游产业；仍须真实库存、购买力和运输履约。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "trade",
+        "capacity": 32,
+        "unit_revenue": 5,
+        "unit_cost": 3,
+        "monthly_demand": 96,
+        "monthly_supply": 96,
+        "market_key": "cloth",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "tea_shop": {
+      "industry_id": "tea_shop",
+      "name": "茶铺",
+      "group_id": "retail",
+      "model": "retail",
+      "cycle": "turnover",
+      "inputs": [
+        "tea",
+        "water",
+        "fuel"
+      ],
+      "outputs": [
+        "tea"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan",
+        "feng_6"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "可从外地进货，无须本地已有上游产业；仍须真实库存、购买力和运输履约。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "trade",
+        "capacity": 32,
+        "unit_revenue": 5,
+        "unit_cost": 3,
+        "monthly_demand": 96,
+        "monthly_supply": 96,
+        "market_key": "tea",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "wine_shop": {
+      "industry_id": "wine_shop",
+      "name": "酒肆",
+      "group_id": "retail",
+      "model": "retail",
+      "cycle": "turnover",
+      "inputs": [
+        "wine"
+      ],
+      "outputs": [
+        "wine"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "trade",
+        "capacity": 32,
+        "unit_revenue": 5,
+        "unit_cost": 3,
+        "monthly_demand": 96,
+        "monthly_supply": 96,
+        "market_key": "wine",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "restaurant": {
+      "industry_id": "restaurant",
+      "name": "食肆／酒楼",
+      "group_id": "retail",
+      "model": "hospitality",
+      "cycle": "capacity",
+      "inputs": [
+        "grain",
+        "meat",
+        "vegetables",
+        "fuel"
+      ],
+      "outputs": [
+        "food"
+      ],
+      "requirements": [
+        "premises",
+        "fresh_water"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "service",
+        "capacity": 36,
+        "unit_revenue": 4,
+        "unit_cost": 1,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "food",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "herbal_shop": {
+      "industry_id": "herbal_shop",
+      "name": "药铺",
+      "group_id": "retail",
+      "model": "retail",
+      "cycle": "turnover",
+      "inputs": [
+        "herbs"
+      ],
+      "outputs": [
+        "medicine"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "trade",
+        "capacity": 32,
+        "unit_revenue": 5,
+        "unit_cost": 3,
+        "monthly_demand": 96,
+        "monthly_supply": 96,
+        "market_key": "medicine",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "general_store": {
+      "industry_id": "general_store",
+      "name": "杂货铺",
+      "group_id": "retail",
+      "model": "retail",
+      "cycle": "turnover",
+      "inputs": [
+        "sundries"
+      ],
+      "outputs": [
+        "sundries"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "trade",
+        "capacity": 32,
+        "unit_revenue": 5,
+        "unit_cost": 3,
+        "monthly_demand": 96,
+        "monthly_supply": 96,
+        "market_key": "sundries",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "jewelry_shop": {
+      "industry_id": "jewelry_shop",
+      "name": "珠宝铺",
+      "group_id": "retail",
+      "model": "retail",
+      "cycle": "turnover",
+      "inputs": [
+        "jewelry"
+      ],
+      "outputs": [
+        "jewelry"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "trade",
+        "capacity": 32,
+        "unit_revenue": 5,
+        "unit_cost": 3,
+        "monthly_demand": 96,
+        "monthly_supply": 96,
+        "market_key": "jewelry",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "livestock_market": {
+      "industry_id": "livestock_market",
+      "name": "牲畜交易场",
+      "group_id": "retail",
+      "model": "retail",
+      "cycle": "turnover",
+      "inputs": [
+        "horses",
+        "cattle"
+      ],
+      "outputs": [
+        "horses",
+        "cattle"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "trade",
+        "capacity": 32,
+        "unit_revenue": 5,
+        "unit_cost": 3,
+        "monthly_demand": 96,
+        "monthly_supply": 96,
+        "market_key": "horses",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "inn": {
+      "industry_id": "inn",
+      "name": "客舍",
+      "group_id": "logistics",
+      "model": "hospitality",
+      "cycle": "capacity",
+      "inputs": [
+        "food",
+        "fuel"
+      ],
+      "outputs": [
+        "guest_service"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "service",
+        "capacity": 36,
+        "unit_revenue": 4,
+        "unit_cost": 1,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "guest_service",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "didian": {
+      "industry_id": "didian",
+      "name": "邸店",
+      "group_id": "logistics",
+      "model": "hospitality",
+      "cycle": "capacity",
+      "inputs": [
+        "labor"
+      ],
+      "outputs": [
+        "storage_service",
+        "guest_service"
+      ],
+      "requirements": [
+        "premises",
+        "secure_storage"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "service",
+        "capacity": 36,
+        "unit_revenue": 4,
+        "unit_cost": 1,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "storage_service",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "freight_depot": {
+      "industry_id": "freight_depot",
+      "name": "货栈",
+      "group_id": "logistics",
+      "model": "custody",
+      "cycle": "contract",
+      "inputs": [
+        "labor"
+      ],
+      "outputs": [
+        "storage_service"
+      ],
+      "requirements": [
+        "secure_storage"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "logistics",
+        "capacity": 28,
+        "unit_revenue": 4,
+        "unit_cost": 1,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "storage_service",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "warehouse": {
+      "industry_id": "warehouse",
+      "name": "仓库",
+      "group_id": "logistics",
+      "model": "custody",
+      "cycle": "contract",
+      "inputs": [
+        "labor"
+      ],
+      "outputs": [
+        "storage_service"
+      ],
+      "requirements": [
+        "secure_storage"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "logistics",
+        "capacity": 28,
+        "unit_revenue": 4,
+        "unit_cost": 1,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "storage_service",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "caravan": {
+      "industry_id": "caravan",
+      "name": "车马运输",
+      "group_id": "logistics",
+      "model": "transport",
+      "cycle": "contract",
+      "inputs": [
+        "feed",
+        "labor"
+      ],
+      "outputs": [
+        "freight"
+      ],
+      "requirements": [
+        "road"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "logistics",
+        "capacity": 28,
+        "unit_revenue": 4,
+        "unit_cost": 1,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "freight",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "ferry": {
+      "industry_id": "ferry",
+      "name": "渡口",
+      "group_id": "logistics",
+      "model": "transport",
+      "cycle": "contract",
+      "inputs": [
+        "labor"
+      ],
+      "outputs": [
+        "passage"
+      ],
+      "requirements": [
+        "waterfront"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "logistics",
+        "capacity": 28,
+        "unit_revenue": 4,
+        "unit_cost": 1,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "passage",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "merchant_shipping": {
+      "industry_id": "merchant_shipping",
+      "name": "商船经营",
+      "group_id": "logistics",
+      "model": "transport",
+      "cycle": "contract",
+      "inputs": [
+        "labor"
+      ],
+      "outputs": [
+        "freight"
+      ],
+      "requirements": [
+        "harbor"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "logistics",
+        "capacity": 28,
+        "unit_revenue": 4,
+        "unit_cost": 1,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "freight",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "shipyard": {
+      "industry_id": "shipyard",
+      "name": "造船作坊",
+      "group_id": "logistics",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "timber",
+        "iron",
+        "labor"
+      ],
+      "outputs": [
+        "ship"
+      ],
+      "requirements": [
+        "waterfront"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "ship",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "ship_repair": {
+      "industry_id": "ship_repair",
+      "name": "修船作坊",
+      "group_id": "logistics",
+      "model": "manufacture",
+      "cycle": "batch",
+      "inputs": [
+        "timber",
+        "iron",
+        "labor"
+      ],
+      "outputs": [
+        "repairs"
+      ],
+      "requirements": [
+        "waterfront"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "processing",
+        "capacity": 28,
+        "unit_revenue": 6,
+        "unit_cost": 3,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "repairs",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "pawnshop": {
+      "industry_id": "pawnshop",
+      "name": "质库／当铺",
+      "group_id": "finance",
+      "model": "credit",
+      "cycle": "contract",
+      "inputs": [
+        "cash",
+        "labor"
+      ],
+      "outputs": [
+        "credit"
+      ],
+      "requirements": [
+        "premises",
+        "secure_storage"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "finance",
+        "capacity": 150,
+        "unit_revenue": 0,
+        "unit_cost": 0,
+        "monthly_demand": 450,
+        "monthly_supply": 450,
+        "market_key": "credit",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 8,
+        "bad_debt_percent": 2
+      }
+    },
+    "deposit_house": {
+      "industry_id": "deposit_house",
+      "name": "财物寄存",
+      "group_id": "finance",
+      "model": "custody",
+      "cycle": "contract",
+      "inputs": [
+        "labor"
+      ],
+      "outputs": [
+        "storage_service"
+      ],
+      "requirements": [
+        "secure_storage"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "logistics",
+        "capacity": 28,
+        "unit_revenue": 4,
+        "unit_cost": 1,
+        "monthly_demand": 84,
+        "monthly_supply": 84,
+        "market_key": "storage_service",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "money_house": {
+      "industry_id": "money_house",
+      "name": "柜坊（钱庄类）",
+      "group_id": "finance",
+      "model": "credit",
+      "cycle": "contract",
+      "inputs": [
+        "cash",
+        "labor"
+      ],
+      "outputs": [
+        "storage_service",
+        "credit"
+      ],
+      "requirements": [
+        "premises",
+        "secure_storage"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "以柜坊、寄存和具约借贷区分业务，不直接套用后世钱庄的完整制度。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "finance",
+        "capacity": 150,
+        "unit_revenue": 0,
+        "unit_cost": 0,
+        "monthly_demand": 450,
+        "monthly_supply": 450,
+        "market_key": "storage_service",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 8,
+        "bad_debt_percent": 2
+      }
+    },
+    "lending_house": {
+      "industry_id": "lending_house",
+      "name": "借贷经营",
+      "group_id": "finance",
+      "model": "credit",
+      "cycle": "contract",
+      "inputs": [
+        "cash",
+        "labor"
+      ],
+      "outputs": [
+        "credit"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "finance",
+        "capacity": 150,
+        "unit_revenue": 0,
+        "unit_cost": 0,
+        "monthly_demand": 450,
+        "monthly_supply": 450,
+        "market_key": "credit",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 8,
+        "bad_debt_percent": 2
+      }
+    },
+    "remittance": {
+      "industry_id": "remittance",
+      "name": "异地汇兑",
+      "group_id": "finance",
+      "model": "credit",
+      "cycle": "contract",
+      "inputs": [
+        "cash",
+        "labor"
+      ],
+      "outputs": [
+        "remittance"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "当前756年开局未开放该制度；后续须核定年代与实际政策，不因钱款充足自动解锁。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "later_institution",
+      "operation": {
+        "model": "finance",
+        "capacity": 150,
+        "unit_revenue": 0,
+        "unit_cost": 0,
+        "monthly_demand": 450,
+        "monthly_supply": 450,
+        "market_key": "remittance",
+        "build_cost": 55,
+        "build_days": 5,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 8,
+        "bad_debt_percent": 2
+      }
+    },
+    "banquet_house": {
+      "industry_id": "banquet_house",
+      "name": "歌舞宴饮",
+      "group_id": "services",
+      "model": "hospitality",
+      "cycle": "capacity",
+      "inputs": [
+        "food",
+        "wine",
+        "labor"
+      ],
+      "outputs": [
+        "performance"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "须有实际从业人员、服务能力与受聘意愿；负责人不能凭空生成医者、教师或艺人。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "service",
+        "capacity": 36,
+        "unit_revenue": 4,
+        "unit_cost": 1,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "performance",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "pleasure_house": {
+      "industry_id": "pleasure_house",
+      "name": "青楼类经营",
+      "group_id": "services",
+      "model": "hospitality",
+      "cycle": "capacity",
+      "inputs": [
+        "food",
+        "wine",
+        "labor"
+      ],
+      "outputs": [
+        "entertainment"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "须有实际从业人员、服务能力与受聘意愿；负责人不能凭空生成医者、教师或艺人。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "service",
+        "capacity": 36,
+        "unit_revenue": 4,
+        "unit_cost": 1,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "entertainment",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "gambling_house": {
+      "industry_id": "gambling_house",
+      "name": "博戏场所／赌场",
+      "group_id": "services",
+      "model": "hospitality",
+      "cycle": "capacity",
+      "inputs": [
+        "labor",
+        "cash"
+      ],
+      "outputs": [
+        "entertainment"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "属于有查禁、罚没和地方关系风险的玩法；地方默许不等于合法，须有实际执法规则。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "service",
+        "capacity": 36,
+        "unit_revenue": 4,
+        "unit_cost": 1,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "entertainment",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "bathhouse": {
+      "industry_id": "bathhouse",
+      "name": "浴堂",
+      "group_id": "services",
+      "model": "hospitality",
+      "cycle": "capacity",
+      "inputs": [
+        "water",
+        "fuel",
+        "labor"
+      ],
+      "outputs": [
+        "bathing"
+      ],
+      "requirements": [
+        "premises",
+        "fresh_water"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "service",
+        "capacity": 36,
+        "unit_revenue": 4,
+        "unit_cost": 1,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "bathing",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "clinic": {
+      "industry_id": "clinic",
+      "name": "医馆",
+      "group_id": "services",
+      "model": "hospitality",
+      "cycle": "capacity",
+      "inputs": [
+        "medicine",
+        "labor"
+      ],
+      "outputs": [
+        "care"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "须有实际从业人员、服务能力与受聘意愿；负责人不能凭空生成医者、教师或艺人。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "service",
+        "capacity": 36,
+        "unit_revenue": 4,
+        "unit_cost": 1,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "care",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "private_school": {
+      "industry_id": "private_school",
+      "name": "私学",
+      "group_id": "services",
+      "model": "hospitality",
+      "cycle": "capacity",
+      "inputs": [
+        "books",
+        "labor"
+      ],
+      "outputs": [
+        "education"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "须有实际从业人员、服务能力与受聘意愿；负责人不能凭空生成医者、教师或艺人。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "service",
+        "capacity": 36,
+        "unit_revenue": 4,
+        "unit_cost": 1,
+        "monthly_demand": 108,
+        "monthly_supply": 108,
+        "market_key": "education",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    },
+    "bookshop": {
+      "industry_id": "bookshop",
+      "name": "书肆",
+      "group_id": "services",
+      "model": "retail",
+      "cycle": "turnover",
+      "inputs": [
+        "books",
+        "paper"
+      ],
+      "outputs": [
+        "books"
+      ],
+      "requirements": [
+        "premises"
+      ],
+      "source_refs": [
+        "plan"
+      ],
+      "regulation": "经营资格、税费和合同按当地实际规则核验；未登记条件不视为已满足。",
+      "risk_notes": "人员缺位、资金不足、断运与战乱影响实际开工及成交，不另加无来源固定利润。",
+      "chronology": "current_scope",
+      "operation": {
+        "model": "trade",
+        "capacity": 32,
+        "unit_revenue": 5,
+        "unit_cost": 3,
+        "monthly_demand": 96,
+        "monthly_supply": 96,
+        "market_key": "books",
+        "build_cost": 40,
+        "build_days": 3,
+        "area_units": 3,
+        "maturity_days": 0,
+        "harvest_months": [],
+        "interest_percent": 0,
+        "bad_debt_percent": 0
+      }
+    }
+  }
+}

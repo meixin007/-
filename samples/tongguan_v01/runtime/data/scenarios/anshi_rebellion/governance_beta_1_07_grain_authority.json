@@ -1,0 +1,10 @@
+{
+  "case_chains": [{"case_chain_id": "grain_authority"}],
+  "memorial_templates": [
+    {"memorial_id": "grain_authority_origin", "case_chain_id": "grain_authority", "case_phase": "origin", "sender_id": "grain_official_lingwu", "topic": "grain_authority", "location_id": "lingwu", "resource_keys": ["grain"], "deadline_days": 5, "recommended_executor_ids": ["guo_ziyi"], "visible_facts": ["粮道账册已抵达灵武"], "visible_resistance": []},
+    {"memorial_id": "grain_authority_escalation", "previous_memorial_id": "grain_authority_origin", "case_chain_id": "grain_authority", "case_phase": "escalation", "sender_id": "grain_official_lingwu", "topic": "grain_authority", "location_id": "shuofang_front_node", "resource_keys": ["grain"], "deadline_days": 5, "recommended_executor_ids": ["guo_ziyi"], "visible_facts": ["前线军粮出现缺口"], "visible_resistance": []},
+    {"memorial_id": "grain_authority_closure", "previous_memorial_id": "grain_authority_escalation", "case_chain_id": "grain_authority", "case_phase": "closure", "sender_id": "grain_official_lingwu", "topic": "grain_authority", "location_id": "lingwu", "resource_keys": ["grain", "court_authority"], "deadline_days": 5, "recommended_executor_ids": ["li_bi"], "visible_facts": ["转运结果需要公开核验"], "visible_resistance": []}
+  ],
+  "topic_rules": {"grain_authority": {"required_offices": ["grain_office"], "action_id": "grain_authority_order", "council_rules": {}}},
+  "command_actions": {"grain_authority_order": {"factor_weights": {"ability": 2, "authority": 2, "resources": 2, "route": 1, "deadline": 1, "intel": 1, "clauses": 1, "prior_case": 1}, "report_template_family": "grain_reports", "effects": {"resource_delta": {"grain": -360}, "resolution_path": "fulfilled"}, "recovery_actions": ["wait", "supplement"]}}
+}

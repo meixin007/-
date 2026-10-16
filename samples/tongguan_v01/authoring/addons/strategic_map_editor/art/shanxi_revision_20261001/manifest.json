@@ -1,0 +1,193 @@
+{
+  "bundle_id": "shanxi_revision_20261001",
+  "version": 1,
+  "assets": [
+    {
+      "file": "taihang-long-v01.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7ac7af326b542db062560022d2fc5a7f6e901fee9d3af75f1ffc4759a8b91dac"
+    },
+    {
+      "file": "wutai-mass-v01.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "49195f35d352cb8bd96e1318a0fa1a12882136872715391022f36167d4f33be6"
+    },
+    {
+      "file": "lvliang-loess-v01.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "fa271f8e36e138e9c5df7904ef46d500f57057675a07394177f461bbb2cf67de"
+    },
+    {
+      "file": "low-watershed-v01.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4fe4565fdc71fd30543d21ae4cee171954081965ff95a1c5a014e20ae6a4ddab"
+    },
+    {
+      "file": "lvliang-spine-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "6e5c56a283f53ec4d39a3e00202e214200ea882ce933050077bcf5f73c84cd32"
+    },
+    {
+      "file": "taihang-scarp-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d36bc24baaf038f90c35287623b536ec6e5da75d51267c2f7c5579885c2f9d51"
+    },
+    {
+      "file": "lvliang-spine-v02.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "b9d0f553ef278bee9edb6bd4b17a9f3cd11377c0d52cce8366e70a3c64fee11c"
+    },
+    {
+      "file": "taihang-scarp-v02.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6d7d74ffdbfdc463537bd84d2639953784321aa89d7927b4f92fb13eb1ec35e6"
+    },
+    {
+      "file": "designed-spine-v01.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "9075003ca370405ccd3826b799c03e2fe9fe8ed43a085048befbf1a68e6d897e"
+    },
+    {
+      "file": "taihang-scarp-v03.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "61c3388251c3f9da69a82ee81e38f88489759c08ac9dec52f391faf89b96c640"
+    },
+    {
+      "file": "lvliang-low-relief.png",
+      "width": 1230,
+      "height": 2130,
+      "sha256": "63bca9cea17cc5800af57fb6872211e06c15375e5a9e3f2d07706ff11a0de9d6"
+    },
+    {
+      "file": "heng_wutai-low-relief.png",
+      "width": 1530,
+      "height": 1230,
+      "sha256": "7adab3955febb162709526eeb2f4aedbd660f73867ac99c0ca481745e644b88a"
+    },
+    {
+      "file": "jingxing_taihang-low-relief.png",
+      "width": 1230,
+      "height": 1470,
+      "sha256": "ff37d1b47c385e73824930a1f9f53c40135ace105f7b64daaa9383f022838ec0"
+    },
+    {
+      "file": "shangdang_south-low-relief.png",
+      "width": 1530,
+      "height": 1080,
+      "sha256": "ef5f624922929ac4944c625bf56740079055c63222a619f088d6d628e549bf3d"
+    },
+    {
+      "file": "lvliang-south-low-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "6110864bcae3e434c1179a426e40f719f4d4ffb91f4706af3c6eeae69faa8578"
+    },
+    {
+      "file": "lvliang-south-low-v02.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "e86944435263ef27d1185955097aab4816fba72ef6845d1b0cc56f439626a4e8"
+    },
+    {
+      "file": "designed-spine-v02.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "740b9d99b8ac8d00b3941ee831048f1ea359d03ff9c4fd205a5ed45424e20689"
+    },
+    {
+      "file": "lvliang-south-low-v03.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "51376b7fbf6fbf4b34ae0649f3c5b19075cf17c8cf00a358f3e0520e3140b68b"
+    },
+    {
+      "file": "taiyue-divide-v01.png",
+      "width": 1063,
+      "height": 1479,
+      "sha256": "f0965482e4d05e6dc21649ebfdf95431bade8a06b8ddd5e07ea4715f688ae533"
+    },
+    {
+      "file": "taihang-designed-v01.png",
+      "width": 1196,
+      "height": 1315,
+      "sha256": "e2ed95af16c0cf8280b4c7b988aefe78d5d472817f4bcb868f14edc30c8ec032"
+    },
+    {
+      "file": "taiyue-divide-v02.png",
+      "width": 1064,
+      "height": 1479,
+      "sha256": "318e89284243a3eda34f6e990d7e8c317c4e4c0c6c3d9904ba39bcf3bfd1a045"
+    },
+    {
+      "file": "lvliang-south-low-v04.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "a2454d99b8653d21cc6bb20dd49b2ee485498ef3c5183f20ce731bef2745456f"
+    },
+    {
+      "file": "taihang-designed-v02.png",
+      "width": 1197,
+      "height": 1315,
+      "sha256": "b3cf177b517332e7f93928c53de02eb2d64802caf12847032c781dac9aea405e"
+    },
+    {
+      "file": "taiyue-divide-v03.png",
+      "width": 1063,
+      "height": 1479,
+      "sha256": "8abef7dcf75d83055f2b84fa1d9d6008b34afdff804be2c569db1d2a96dfae9f"
+    },
+    {
+      "file": "lvliang-south-low-v05.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "b1f7648b4d60be179caaab18e479d7c0cc54ec38de26d78bbef4909300b67ed4"
+    },
+    {
+      "file": "taihang-gimp-v03.png",
+      "width": 1197,
+      "height": 1315,
+      "sha256": "35707ce9acf04df085c47c1730753e2059a00f54b929e6a421d5ef8cb920d752"
+    },
+    {
+      "file": "lvliang-north-gimp-v03.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "9c8eaa6e97a07ebe0ac0c9593cb08dc2fd48ba3bdd414b819835613051a3c6a8"
+    },
+    {
+      "file": "lvliang-south-tributaries-v06.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "ab922af92c8eb6f041d678334e3c4af936a8b8b1959a5243f80c55d6f036cd65"
+    },
+    {
+      "file": "lvliang-south-notch-v07.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "c99cf096a692763f0c487e77b55cf837ffe298007c5d2863612e9b6ac532cc99"
+    },
+    {
+      "file": "taihang-tributaries-v04.png",
+      "width": 1197,
+      "height": 1314,
+      "sha256": "42455e28d0aceaac048da98cb1f8f404c0cd7ac3937168739c6c63b2c2b968af"
+    },
+    {
+      "file": "lvliang-north-tributaries-v04.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "5f13db0feaa2beb5f2e88ec2d364189b999eb2601bcee47de76592de336f22ce"
+    }
+  ],
+  "extends": "shanxi_crossing_20261001"
+}

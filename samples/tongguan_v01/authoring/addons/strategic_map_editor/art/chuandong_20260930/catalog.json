@@ -1,0 +1,41 @@
+{
+  "bundle_id": "chuandong_20260930",
+  "version": 1,
+  "extends": "chuanzhong_20260930",
+  "assets": {
+    "ce_narrow_ridge": {
+      "label": "川东 · 窄岭浅鞍",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "narrow-ridge.png",
+      "rect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "width": 115,
+      "anchor": [
+        0.5,
+        0.55
+      ]
+    },
+    "ce_ridge_end": {
+      "label": "川东 · 缓降岭端",
+      "group": "mountain",
+      "manual_only": true,
+      "atlas": "ridge-end.png",
+      "rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "width": 115,
+      "anchor": [
+        0.5,
+        0.55
+      ]
+    }
+  }
+}

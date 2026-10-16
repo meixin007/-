@@ -1,0 +1,16 @@
+{
+  "bundle_id": "strategic_landforms_v04_20261007",
+  "version": 1,
+  "extends": "strategic_landforms_v03_20261007",
+  "asset_review_status": "CANDIDATE_NOT_USER_ACCEPTED",
+  "assets": [
+    {
+      "file": "ridges-high-oblique-v04.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "bytes": 1286814,
+      "sha256": "0180081b3f3b772fa0fe996a66f1743dade4424f9fb56131fb8df3ab9c3e18ca"
+    }
+  ]
+}

@@ -1,0 +1,574 @@
+{
+	"asset_review_status": "IMPLEMENTED_AND_VISUALLY_CHECKED_NOT_USER_ACCEPTED",
+	"assets": [
+		{
+			"bytes": 2199035.0,
+			"file": "trees.png",
+			"height": 1024.0,
+			"mode": "RGBA",
+			"sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"sprites": 6.0,
+			"width": 1536.0,
+			"zero_alpha_fraction": 0.612220128377279
+		},
+		{
+			"bytes": 1883663.0,
+			"file": "mountains.png",
+			"height": 1024.0,
+			"mode": "RGBA",
+			"sha256": "784d3b3775c58998c91190579937fadd11461d3afa4bcbb2da1214c5a6da4be3",
+			"sprites": 6.0,
+			"width": 1536.0,
+			"zero_alpha_fraction": 0.709609349568685
+		},
+		{
+			"bytes": 1535366.0,
+			"file": "settlements.png",
+			"height": 1254.0,
+			"mode": "RGBA",
+			"sha256": "2049052ffcd5b655d60a806e06e96f3e3eded1df02f530bd1b23bf7c4406fbab",
+			"sprites": 4.0,
+			"width": 1254.0,
+			"zero_alpha_fraction": 0.650867145389936
+		},
+		{
+			"file": "ridge_connector_v06.png",
+			"height": 724.0,
+			"mode": "RGBA",
+			"sha256": "49fc10e4660cad3ebb4071811a0fbaf13ff66a71489bf3861deaa33d91029fec",
+			"sprites": 1.0,
+			"status": "CANDIDATE_NOT_USER_ACCEPTED",
+			"width": 2172.0
+		},
+		{
+			"file": "settlement_variants_v06.png",
+			"height": 1024.0,
+			"mode": "RGBA",
+			"sha256": "25fd2c00b6472cef8d445cbad7b791563d8e305d2f65ff69ce002b6ead72681b",
+			"sprites": 2.0,
+			"status": "CANDIDATE_NOT_USER_ACCEPTED",
+			"width": 1536.0
+		},
+		{
+			"file": "ground_wash_v06.png",
+			"height": 724.0,
+			"mode": "RGBA",
+			"sha256": "d5f2988b3ac32d35db48e9fb740325e071990ab8f8f2a029b1d5672f3d009221",
+			"sprites": 1.0,
+			"status": "CANDIDATE_NOT_USER_ACCEPTED",
+			"width": 2172.0
+		},
+		{
+			"file": "workshop_regional27_tang_capital.png",
+			"height": 1070.0,
+			"sha256": "ad035231b2633871ad2f99ec6440b85bbba0bc0bb75249c93fffd1f45f6a28c4",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1470.0
+		},
+		{
+			"file": "workshop_regional27_tang_medium_yamen.png",
+			"height": 1024.0,
+			"sha256": "c10bbcda79f2ecdccc79165f1c012373dab4630e53c64eeebd31b84799c0e509",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_nomad_chief.png",
+			"height": 1024.0,
+			"sha256": "158a223d7c01db4e7cdc503499cc2cb4f9cbdd26946d15835dc534641eb6c5bc",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_tibet_town.png",
+			"height": 1024.0,
+			"sha256": "c07692618fb944805e1d7ae70f6e1175c7429b1070ea56046ed571ba3eeb97d9",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_japan_white.png",
+			"height": 1024.0,
+			"sha256": "107c34cd6174441b87607fcb5e68a004b8cc7bda43057e45e17fd78b210cfcb2",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_tang_large_administration.png",
+			"height": 1024.0,
+			"sha256": "add9da90af945d4e00758377c6e84f64dc3a8ee888ba2e44b48d8cc57890bfdc",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_tang_large_market.png",
+			"height": 1024.0,
+			"sha256": "31de3f5ae53bf35b50b0cb1feed8828ebc55a9d1d5ded93c6e2f8259f5457ecc",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_tang_large_temple.png",
+			"height": 1024.0,
+			"sha256": "32b1a0b3b4bdaf09e5b5755cc2406538e9a1533d83266cc4d2c5ffffd4d46f0f",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_tang_medium_market.png",
+			"height": 1024.0,
+			"sha256": "fb7ab3a0559a68af29b73f73c4a2184b2ca671d194a5affd0fe9f5a704b611e8",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_tang_medium_monastery.png",
+			"height": 1024.0,
+			"sha256": "a068dbf18fa070fb7e9eee8fbb53c5fcf1d4c37aeeb57908e201e44c4da3bf7f",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_tang_medium_granary.png",
+			"height": 1024.0,
+			"sha256": "b7b24556a91f59a88ee76f5529679490436f69e7e2628b4f7b509b57e0c29618",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_tang_fort_drill.png",
+			"height": 1024.0,
+			"sha256": "ac85605e3386d5178baf2f4446401a805fee3356dbbb9aded957171464bf49f5",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_tang_fort_supply.png",
+			"height": 1024.0,
+			"sha256": "16f2bd8ff8b0e61a6019020765ed7e31e48382e9f0f73576f70b89fcf3d239d5",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_tang_village_farm.png",
+			"height": 1024.0,
+			"sha256": "ba254731ed7a4e6eedb6b21a2c730a9949aa9c31f1a1f270bec9ecfd9610f550",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_tang_village_market.png",
+			"height": 1024.0,
+			"sha256": "8bcc48b6ab96e422f93707faf70c4b5716ab85362d11ca79f87fd1cd7db0c036",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_tang_village_post.png",
+			"height": 1024.0,
+			"sha256": "8c33ce4d98f1d3382023e262608562b48681d325eb0a1ea694ed8f3bf59565ca",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_tang_village_craft.png",
+			"height": 1024.0,
+			"sha256": "6b32a08f7e439baf1cbe8910c726211a0fc36c4020956cd5971e9d4236c3f149",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_nomad_pastoral.png",
+			"height": 1024.0,
+			"sha256": "6d5786e47c72282ae57ac4fd299e576ffd46523166c2af1ac2a44fc7ae8bbff2",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional27_tibet_potala.png",
+			"height": 1159.0,
+			"sha256": "eee28419be1e1a5a67bb50f3b1566c7adb5e16c910a771682d878895192d6b20",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1358.0
+		},
+		{
+			"file": "workshop_regional27_japan_black.png",
+			"height": 1156.0,
+			"sha256": "5264a75f92465f271d8411ba1b36c62009b34cafb08f4f7055d5059d14fa0a0d",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1360.0
+		},
+		{
+			"file": "workshop_regional27_japan_low.png",
+			"height": 1024.0,
+			"sha256": "6581da7fe49323653507569a3122cc0416f09ddea1db6494b5c7f5c4d9405e95",
+			"status": "USER_REQUESTED_INSTALL_PENDING_ART_REVIEW",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional28_tang_capital.png",
+			"height": 1024.0,
+			"sha256": "0972a1c1f6c391260f8221be0ad7a4b40cc069507a27783282ce9bb2f89f6e65",
+			"status": "USER_APPROVED_ART",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_regional28_pass_north_south.png",
+			"height": 1024.0,
+			"sha256": "4e89bd61b237aa4b9338dd6c96be2263147909c0db794266508f6a5d0bac388b",
+			"status": "USER_APPROVED_ART",
+			"width": 1536.0
+		},
+		{
+			"file": "workshop_tang_handdrawn_large_administration.png",
+			"height": 1055.0,
+			"sha256": "ac32286929dd70f53207a65fdaae2ac13af658f517232cee7169dba718c4b085",
+			"status": "USER_APPROVED_ART",
+			"width": 1491.0
+		},
+		{
+			"file": "workshop_tang_handdrawn_large_market.png",
+			"height": 1055.0,
+			"sha256": "2dad479a3641557b8e0753b0648cf34ba417d5d4a5ac057436ec403f575ea7fd",
+			"status": "USER_APPROVED_ART",
+			"width": 1491.0
+		},
+		{
+			"file": "workshop_tang_handdrawn_large_temple.png",
+			"height": 1055.0,
+			"sha256": "d8ad3c3fcc99f34f6701b92992cc7dfa2edd81dd8f8566ef589243224c0b336c",
+			"status": "USER_APPROVED_ART",
+			"width": 1491.0
+		},
+		{
+			"file": "workshop_tang_handdrawn_medium_yamen.png",
+			"height": 1055.0,
+			"sha256": "288bdc109d1ac475fc0515cec8ff7236632c61330ef765b64075702c3c724b42",
+			"status": "USER_APPROVED_ART",
+			"width": 1491.0
+		},
+		{
+			"file": "workshop_tang_handdrawn_medium_market.png",
+			"height": 1055.0,
+			"sha256": "f0891fbad2dae8fb0337b9dacb075334e8c00f86667f6175143b0d1301028601",
+			"status": "USER_APPROVED_ART",
+			"width": 1491.0
+		},
+		{
+			"file": "workshop_tang_handdrawn_medium_monastery.png",
+			"height": 1055.0,
+			"sha256": "e32549eb02b2897dacaefbc12c60a91aa323d5ff8daa2e2455dc7c828f7f6f2a",
+			"status": "USER_APPROVED_ART",
+			"width": 1491.0
+		},
+		{
+			"file": "workshop_tang_handdrawn_medium_granary.png",
+			"height": 1055.0,
+			"sha256": "bf76b0aee695a4a9dd17406c9cee4736727f8025281070a969a92892398d1a70",
+			"status": "USER_APPROVED_ART",
+			"width": 1491.0
+		},
+		{
+			"file": "workshop_tang_handdrawn_fort_drill.png",
+			"height": 1055.0,
+			"sha256": "5c9c67bd03aeddbe32fbb7744cff7876b054609daea84eba736e1bcc314e8e01",
+			"status": "USER_APPROVED_ART",
+			"width": 1491.0
+		},
+		{
+			"file": "workshop_tang_handdrawn_fort_supply.png",
+			"height": 1055.0,
+			"sha256": "04e521b72fe46301f50795344974e59bac1e458b3afa8a8b1da9ff20707e67fd",
+			"status": "USER_APPROVED_ART",
+			"width": 1491.0
+		},
+		{
+			"bytes": 3159033.0,
+			"file": "art_04_38_23.png",
+			"height": 1024.0,
+			"mode": "RGBA",
+			"sha256": "3f094121ad11d10c2169277f7761bb3ff9d0bc2883de4f5b967df0be2856a660",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1536.0
+		},
+		{
+			"bytes": 2844795.0,
+			"file": "art_05_03_39.png",
+			"height": 1024.0,
+			"mode": "RGBA",
+			"sha256": "32982109fbb9f435ae64d516ca447fdf9701c685522fd3e1fbc1c9a6381334c2",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1536.0
+		},
+		{
+			"bytes": 2617867.0,
+			"file": "art_05_09_18.png",
+			"height": 1024.0,
+			"mode": "RGBA",
+			"sha256": "cfa1540ce4a1747372072becbe855571d762bf152af9f7711c74f6393898657f",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1536.0
+		},
+		{
+			"bytes": 2432291.0,
+			"file": "art_06_21_09.png",
+			"height": 1086.0,
+			"mode": "RGBA",
+			"sha256": "3695aa99eef4b7ad3d9ef01bea3bf3d1d271f82d4322198fdd608d51e2aa6e34",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1448.0
+		},
+		{
+			"bytes": 2229404.0,
+			"file": "art_08_34_21.png",
+			"height": 1086.0,
+			"mode": "RGBA",
+			"sha256": "e5e1e3cbf17416ce344f5d8cf09b7af1732e2ebbef79a7b61f8cb9149c257902",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1448.0
+		},
+		{
+			"bytes": 2741044.0,
+			"file": "art_20_07_56_4.png",
+			"height": 1086.0,
+			"mode": "RGBA",
+			"sha256": "94b84c98980f1e0403cec3a9da1e72e3f48b7f35448559613c6d23a0cc0285f7",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1448.0
+		},
+		{
+			"bytes": 2178777.0,
+			"file": "chatgpt_2026_10_6_06_38_31.png",
+			"height": 1086.0,
+			"mode": "RGBA",
+			"sha256": "0dee64e9d8cc1ec3521350fb751066f8b89ad4f0ced6d5f46b1b64e9bd48d537",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1448.0
+		},
+		{
+			"bytes": 2466654.0,
+			"file": "art_19_48_57.png",
+			"height": 1086.0,
+			"mode": "RGBA",
+			"sha256": "3587f9da025a43f7861cf96718b657118535512794a5901f10e1b8065d30bbbc",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1448.0
+		},
+		{
+			"bytes": 2590569.0,
+			"file": "art_19_59_36.png",
+			"height": 1086.0,
+			"mode": "RGBA",
+			"sha256": "db7a2e20b2349a2a51eb0a4e8227d6ccf9dc30065a0091bfe2df0fcd51085c54",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1448.0
+		},
+		{
+			"bytes": 2557029.0,
+			"file": "art_20_22_16.png",
+			"height": 1086.0,
+			"mode": "RGBA",
+			"sha256": "849be73e7349ef653bbd14a0f6eaecec91c7afd2d33398916d936ac030aa73df",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1448.0
+		},
+		{
+			"bytes": 2698438.0,
+			"file": "art_20_40_26.png",
+			"height": 1086.0,
+			"mode": "RGBA",
+			"sha256": "06a781ffde7bb5113680945afbef6f09eabd38b59200b5695dfea412e36ab6aa",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1448.0
+		},
+		{
+			"bytes": 2439461.0,
+			"file": "art_20_53_35.png",
+			"height": 1086.0,
+			"mode": "RGBA",
+			"sha256": "71c5fc78246cda5a57abf6bb4cfede063cb75f333df88bb66610ccb21d1ce820",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1448.0
+		},
+		{
+			"bytes": 2319671.0,
+			"file": "art_21_01_04.png",
+			"height": 1086.0,
+			"mode": "RGBA",
+			"sha256": "e7dc2366964143d532957565b0f4d3a68563c20c29ee5a45deac6ab25ebd2d88",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1448.0
+		},
+		{
+			"bytes": 2416055.0,
+			"file": "art_21_12_00.png",
+			"height": 1070.0,
+			"mode": "RGBA",
+			"sha256": "e1cb9cb2e4aeabe59e7ae81eb07be597c276443e2c0bd2c823491b860ca8f67a",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1470.0
+		},
+		{
+			"bytes": 1886905.0,
+			"file": "art_21_41_10_import_fixed.png",
+			"height": 1102.0,
+			"mode": "RGBA",
+			"sha256": "d2d3343da8b677abde0bfe9bf7f3403fef3ce4bdccdcf92a9085f6fea547b4ec",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1464.0
+		},
+		{
+			"bytes": 1939293.0,
+			"file": "chatgpt_2026_9_28_20_03_30.png",
+			"height": 1536.0,
+			"mode": "RGBA",
+			"sha256": "0adb6f9994cffe658095d72d27915a4c78a89c129e2316d5d4dc28caa0aacfe2",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1024.0
+		},
+		{
+			"bytes": 1342975.0,
+			"file": "art_08_26_57.png",
+			"height": 793.0,
+			"mode": "RGBA",
+			"sha256": "49743151e2e408e5f6828a93b744ba2e7ea3a6f391b78ac44e62e696ad98dcb9",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1983.0
+		},
+		{
+			"bytes": 1661845.0,
+			"file": "art_08_34_48.png",
+			"height": 934.0,
+			"mode": "RGBA",
+			"sha256": "de92b1158a4c03fc912ee92e0a921d39c5c184527e1d45d6391c4a330f266e27",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1683.0
+		},
+		{
+			"bytes": 1469918.0,
+			"file": "gate_eastwest.png",
+			"height": 1024.0,
+			"mode": "RGBA",
+			"sha256": "971dbffc6bfe5c947e5f9541fb68c12d5712f23c26bfd94566c904880c7fe16d",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1536.0
+		},
+		{
+			"bytes": 374182.0,
+			"file": "art_01.png",
+			"height": 275.0,
+			"mode": "RGBA",
+			"sha256": "87c4442af4f1f0b4a5b8ab6bc34f1649a4604b109d1f38ef89876d20986cf995",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 757.0
+		},
+		{
+			"bytes": 389781.0,
+			"file": "art_02.png",
+			"height": 279.0,
+			"mode": "RGBA",
+			"sha256": "5d93bedffc23f9d4949e92262e2c0b6767f00925d9a32a853be4a46779216505",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 760.0
+		},
+		{
+			"bytes": 1127612.0,
+			"file": "mt_city_20261014_winding_ridge.png",
+			"height": 951.0,
+			"mode": "RGBA",
+			"sha256": "b47bee015c68086c405a6d434f6a3c9712b10fbcde2fcbc8a5544f32a43cf4f3",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1838.0
+		},
+		{
+			"bytes": 2023705.0,
+			"file": "mt_city_20261014_branch_valley.png",
+			"height": 1088.0,
+			"mode": "RGBA",
+			"sha256": "a431147e3678b71916391cd2be845272e92c2bb88fe14b14e87bc2b918d1d3ff",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1600.0
+		},
+		{
+			"bytes": 2109317.0,
+			"file": "mt_city_20261014_rocky_peak.png",
+			"height": 1088.0,
+			"mode": "RGBA",
+			"sha256": "ec17dc65fe4db9d8526ac9b814c8b1101a88409d3c7273dd0fdd9cdcaae00faf",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1600.0
+		},
+		{
+			"bytes": 1271942.0,
+			"file": "mt_city_20261014_snow_ridge.png",
+			"height": 951.0,
+			"mode": "RGBA",
+			"sha256": "557f3cdc6bdc6f97695c51a966380d9fe563e56b0d53e823edf1481c1e442417",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1838.0
+		},
+		{
+			"bytes": 2069497.0,
+			"file": "mt_city_20261014_snow_peak.png",
+			"height": 1088.0,
+			"mode": "RGBA",
+			"sha256": "bc6df2b71a8d6b9e2db4e10696d7e5563f9bda5b747dc901216cbac665b41206",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1600.0
+		},
+		{
+			"bytes": 1428384.0,
+			"file": "mt_city_20261014_snow_massif.png",
+			"height": 951.0,
+			"mode": "RGBA",
+			"sha256": "b42ee9c35a9b9c789115fac397255c0b0e869736bb75b0f7f517678c8f2d58d9",
+			"sprites": 1.0,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1838.0
+		},
+		{
+			"bytes": 1640191,
+			"file": "gate_south.png",
+			"height": 1024,
+			"mode": "RGBA",
+			"sha256": "d2adcb9d58b00c131672449f247ca9674f9dffadda8929f83a3a9eb73c3e59bd",
+			"sprites": 1,
+			"status": "USER_IMPORTED_UNREVIEWED",
+			"width": 1536
+		}
+	],
+	"bundle_id": "tongguan_v1",
+	"cropping": "Measured regions in art_library.gd; each cell gets independent mipmaps; source PNGs unchanged after generation",
+	"generation_tool": "imagegen",
+	"prompts": "generation-prompts.json",
+	"scope": "Authoring presentation only; no campaign authority",
+	"style_reference": "artifacts/strategic-map-art-tongguan-2026-09-24/tongguan-style-sample-v5.png",
+	"style_reference_status": "USER_APPROVED",
+	"version": 1.0
+}

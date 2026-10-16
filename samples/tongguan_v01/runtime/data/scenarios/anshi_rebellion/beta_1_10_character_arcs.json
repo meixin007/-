@@ -1,0 +1,788 @@
+{
+  "schema_version": 110,
+  "campaign_id": "anshi_beta_1_10",
+  "core_character_ids": ["guo_ziyi", "li_bi", "li_fuguo", "li_guangbi", "pugu_huaien", "li_chu", "uighur_envoy", "hardline_old_court_official", "grain_official_lingwu", "lingwu_merchant_refugee", "regional_jiedushi_rep", "eunuch_deputy_gate"],
+  "arcs": {
+    "guo_ziyi": [
+      {
+        "arc_id": "beta110_guo_constrained_command",
+        "character_id": "guo_ziyi",
+        "priority": 0,
+        "day_min": 1,
+        "day_max": 90,
+        "is_baseline": true,
+        "result_fate_status": "constrained_commander",
+        "public_label": "受限统帅",
+        "aftermath_category": "constrained",
+        "all": [],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "前线军职仍在，但路线与执行证据尚未形成稳定授权。",
+        "reason_refs": [{"kind": "route", "id": "beta110_route_audit_continuity"}]
+      },
+      {
+        "arc_id": "beta110_guo_frontline_pillar",
+        "character_id": "guo_ziyi",
+        "priority": 300,
+        "day_min": 31,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "frontline_pillar",
+        "public_label": "前线柱石",
+        "aftermath_category": "gained_position",
+        "all": [
+          {"kind": "route", "route_id": "beta110_route_frontline_urgency"},
+          {"kind": "case", "case_id": "beta108_case_military_grain_delay", "verdict_ids": ["reform"]},
+          {"kind": "office", "office_id": "war_mobilization", "status": "active"},
+          {"kind": "memory", "memory_id": "beta110_memory_frontline_delivery", "status": "confirmed"}
+        ],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "军粮迟延案以改革结案，急运路线与军职执行共同稳住了前线。",
+        "reason_refs": [
+          {"kind": "route", "id": "beta110_route_frontline_urgency"},
+          {"kind": "case", "id": "beta108_case_military_grain_delay"},
+          {"kind": "office", "id": "war_mobilization"}
+        ]
+      },
+      {
+        "arc_id": "beta110_guo_sidelined",
+        "character_id": "guo_ziyi",
+        "priority": 250,
+        "day_min": 31,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "sidelined_commander",
+        "public_label": "被置于一旁",
+        "aftermath_category": "paid_cost",
+        "all": [],
+        "any": [
+          {"kind": "office", "office_id": "war_mobilization", "status": "removed"},
+          {"kind": "obligation", "target_id": "promise_formal_commander_authority", "status": "breached"}
+        ],
+        "none": [],
+        "primary_public_reason": "军职或前线承诺未能继续承担公开责任，统军位置因此被收回。",
+        "reason_refs": [
+          {"kind": "office", "id": "war_mobilization"},
+          {"kind": "chronicle", "id": "beta110_echo_final_legacy"}
+        ]
+      }
+    ],
+    "li_bi": [
+      {
+        "arc_id": "beta110_li_bi_procedural_brake",
+        "character_id": "li_bi",
+        "priority": 0,
+        "day_min": 1,
+        "day_max": 90,
+        "is_baseline": true,
+        "result_fate_status": "procedural_brake",
+        "public_label": "程序制衡者",
+        "aftermath_category": "constrained",
+        "all": [],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "他仍在制度链条中，持续记录紧急命令与中枢程序的边界。",
+        "reason_refs": [{"kind": "review", "id": "beta110_authority_review"}]
+      },
+      {
+        "arc_id": "beta110_li_bi_institutional_designer",
+        "character_id": "li_bi",
+        "priority": 300,
+        "day_min": 31,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "institutional_designer",
+        "public_label": "制度设计者",
+        "aftermath_category": "gained_position",
+        "all": [
+          {"kind": "route", "route_id": "beta110_route_audit_continuity"},
+          {"kind": "case", "case_id": "beta108_case_edict_legitimacy", "verdict_ids": ["reform"]},
+          {"kind": "office", "office_id": "zhongshu_drafting", "status": "active"}
+        ],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "连续核账与诏令复核改革把紧急处置转成了可复查的制度设计。",
+        "reason_refs": [
+          {"kind": "route", "id": "beta110_route_audit_continuity"},
+          {"kind": "case", "id": "beta108_case_edict_legitimacy"},
+          {"kind": "office", "id": "zhongshu_drafting"}
+        ]
+      },
+      {
+        "arc_id": "beta110_li_bi_exception_debt_recorder",
+        "character_id": "li_bi",
+        "priority": 260,
+        "day_min": 31,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "exception_debt_recorder",
+        "public_label": "例外债务记录者",
+        "aftermath_category": "paid_cost",
+        "all": [
+          {"kind": "route", "route_id": "beta110_route_frontline_urgency"},
+          {"kind": "debt", "debt_id": "beta110_debt_supply_exception", "status": "open"},
+          {"kind": "memory", "memory_id": "beta110_memory_supply_debt", "status": "confirmed"}
+        ],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "前线急应留下未偿政治债，他把每次紧急例外登记为后续改革的依据。",
+        "reason_refs": [
+          {"kind": "route", "id": "beta110_route_frontline_urgency"},
+          {"kind": "chronicle", "id": "beta110_echo_supply_debt"},
+          {"kind": "review", "id": "beta110_supply_review"}
+        ]
+      }
+    ],
+    "li_fuguo": [
+      {
+        "arc_id": "beta110_li_fuguo_observed_channel",
+        "character_id": "li_fuguo",
+        "priority": 0,
+        "day_min": 1,
+        "day_max": 90,
+        "is_baseline": true,
+        "result_fate_status": "observed_channel",
+        "public_label": "受监控的传令渠道",
+        "aftermath_category": "constrained",
+        "all": [],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "宫门传令仍在运作，但证据链与双签程序尚未完全闭合。",
+        "reason_refs": [{"kind": "review", "id": "beta110_authority_review"}]
+      },
+      {
+        "arc_id": "beta110_li_fuguo_registered_gate_power",
+        "character_id": "li_fuguo",
+        "priority": 300,
+        "day_min": 46,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "registered_gate_power",
+        "public_label": "登记在册的宫门掌权者",
+        "aftermath_category": "gained_position",
+        "all": [
+          {"kind": "route", "route_id": "beta110_route_court_consolidation"},
+          {"kind": "case", "case_id": "beta108_case_palace_order_leak", "verdict_ids": ["reform"]},
+          {"kind": "office", "office_id": "inner_court_gatekeeper", "status": "active"},
+          {"kind": "memory", "memory_id": "beta110_memory_gate_authority", "status": "confirmed"}
+        ],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "宫门泄漏案以双签改革收束，传令权力被登记并纳入持续复核。",
+        "reason_refs": [
+          {"kind": "route", "id": "beta110_route_court_consolidation"},
+          {"kind": "case", "id": "beta108_case_palace_order_leak"},
+          {"kind": "office", "id": "inner_court_gatekeeper"}
+        ]
+      },
+      {
+        "arc_id": "beta110_li_fuguo_disgraced_gate_official",
+        "character_id": "li_fuguo",
+        "priority": 320,
+        "day_min": 46,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "disgraced_gate_official",
+        "public_label": "失势宫门官",
+        "aftermath_category": "paid_cost",
+        "all": [
+          {"kind": "case", "case_id": "beta108_case_palace_order_leak", "verdict_ids": ["forced_removal"]},
+          {"kind": "office", "office_id": "inner_court_gatekeeper", "status": "removed"}
+        ],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "宫门泄漏案形成合法强制免职，相关传令职位被清空并留下责任记录。",
+        "reason_refs": [
+          {"kind": "case", "id": "beta108_case_palace_order_leak"},
+          {"kind": "office", "id": "inner_court_gatekeeper"},
+          {"kind": "review", "id": "beta110_authority_review"}
+        ]
+      }
+    ],
+    "pugu_huaien": [
+      {
+        "arc_id": "beta110_pugu_conditional_ally",
+        "character_id": "pugu_huaien",
+        "priority": 0,
+        "day_min": 1,
+        "day_max": 90,
+        "is_baseline": true,
+        "result_fate_status": "conditional_ally",
+        "public_label": "有条件的盟友",
+        "aftermath_category": "constrained",
+        "all": [],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "联盟位置尚未失去，但援军履约与公开凭据仍需继续确认。",
+        "reason_refs": [{"kind": "review", "id": "beta110_final_assessment"}]
+      },
+      {
+        "arc_id": "beta110_pugu_trusted_alliance_executor",
+        "character_id": "pugu_huaien",
+        "priority": 300,
+        "day_min": 66,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "trusted_alliance_executor",
+        "public_label": "被信任的联盟执行者",
+        "aftermath_category": "gained_position",
+        "all": [
+          {"kind": "route", "route_id": "beta110_route_frontline_urgency"},
+          {"kind": "case", "case_id": "beta108_case_military_grain_delay", "verdict_ids": ["reform"]},
+          {"kind": "office", "office_id": "envoy_negotiator", "status": "active"},
+          {"kind": "obligation", "target_id": "promise_uighur_reward_terms", "status": "fulfilled"}
+        ],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "军粮改革与援军承诺均完成登记，联盟执行获得了可追溯的信任。",
+        "reason_refs": [
+          {"kind": "route", "id": "beta110_route_frontline_urgency"},
+          {"kind": "case", "id": "beta108_case_military_grain_delay"},
+          {"kind": "office", "id": "envoy_negotiator"}
+        ]
+      },
+      {
+        "arc_id": "beta110_pugu_marginalized_commander",
+        "character_id": "pugu_huaien",
+        "priority": 260,
+        "day_min": 66,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "marginalized_ally_commander",
+        "public_label": "被边缘化的盟将",
+        "aftermath_category": "paid_cost",
+        "all": [],
+        "any": [
+          {"kind": "case", "case_id": "beta108_case_military_grain_delay", "verdict_ids": ["dismiss"]},
+          {"kind": "obligation", "target_id": "promise_uighur_reward_terms", "status": "breached"},
+          {"kind": "office", "office_id": "envoy_negotiator", "status": "removed"}
+        ],
+        "none": [],
+        "primary_public_reason": "军粮责任或关键承诺未能闭合，盟将失去原有的公开执行位置。",
+        "reason_refs": [
+          {"kind": "case", "id": "beta108_case_military_grain_delay"},
+          {"kind": "chronicle", "id": "beta110_echo_military_credit"},
+          {"kind": "office", "id": "envoy_negotiator"}
+        ]
+      }
+    ],
+    "li_guangbi": [
+      {
+        "arc_id": "beta110_li_guangbi_conditional_commander",
+        "character_id": "li_guangbi",
+        "priority": 0,
+        "day_min": 1,
+        "day_max": 90,
+        "is_baseline": true,
+        "result_fate_status": "conditional_commander",
+        "public_label": "待核验的方面将",
+        "aftermath_category": "constrained",
+        "all": [],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "方面军位置仍在，但援助代价与公开凭据尚未完成核验。",
+        "reason_refs": [{"kind": "review", "id": "beta110_final_assessment"}]
+      },
+      {
+        "arc_id": "beta110_li_guangbi_military_credit",
+        "character_id": "li_guangbi",
+        "priority": 300,
+        "day_min": 66,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "military_credit_holder",
+        "public_label": "军方信用承接者",
+        "aftermath_category": "gained_position",
+        "all": [
+          {"kind": "route", "route_id": "beta110_route_frontline_urgency"},
+          {"kind": "case", "case_id": "beta108_case_uighur_aid_cost", "verdict_ids": ["reform"]},
+          {"kind": "office", "office_id": "war_mobilization", "status": "active"},
+          {"kind": "memory", "memory_id": "beta110_memory_military_credit", "status": "confirmed"}
+        ],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "援助付款留下军方信用，方面军将领获得了可追溯的执行位置。",
+        "reason_refs": [
+          {"kind": "route", "id": "beta110_route_frontline_urgency"},
+          {"kind": "case", "id": "beta108_case_uighur_aid_cost"},
+          {"kind": "chronicle", "id": "beta110_echo_military_credit"}
+        ]
+      },
+      {
+        "arc_id": "beta110_li_guangbi_aid_liability",
+        "character_id": "li_guangbi",
+        "priority": 260,
+        "day_min": 66,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "aid_liability_commander",
+        "public_label": "承担援助债务的将领",
+        "aftermath_category": "paid_cost",
+        "all": [],
+        "any": [
+          {"kind": "debt", "debt_id": "beta110_debt_aid_payment", "status": "open"},
+          {"kind": "case", "case_id": "beta108_case_uighur_aid_cost", "verdict_ids": ["dismiss"]},
+          {"kind": "office", "office_id": "war_mobilization", "status": "removed"}
+        ],
+        "none": [],
+        "primary_public_reason": "援助付款转成政治债务或责任争议，方面军位置因此受到牵制。",
+        "reason_refs": [
+          {"kind": "case", "id": "beta108_case_uighur_aid_cost"},
+          {"kind": "chronicle", "id": "beta110_echo_military_credit"}
+        ]
+      }
+    ],
+    "li_chu": [
+      {
+        "arc_id": "beta110_li_chu_procedural_observer",
+        "character_id": "li_chu",
+        "priority": 0,
+        "day_min": 1,
+        "day_max": 90,
+        "is_baseline": true,
+        "result_fate_status": "procedural_observer",
+        "public_label": "程序旁观者",
+        "aftermath_category": "constrained",
+        "all": [],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "他仍在中枢程序边缘观察诏令与门禁的责任边界。",
+        "reason_refs": [{"kind": "review", "id": "beta110_authority_review"}]
+      },
+      {
+        "arc_id": "beta110_li_chu_review_anchor",
+        "character_id": "li_chu",
+        "priority": 300,
+        "day_min": 46,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "review_anchor",
+        "public_label": "复核锚点",
+        "aftermath_category": "gained_position",
+        "all": [
+          {"kind": "route", "route_id": "beta110_route_audit_continuity"},
+          {"kind": "case", "case_id": "beta108_case_edict_legitimacy", "verdict_ids": ["reform"]},
+          {"kind": "office", "office_id": "menxia_review", "status": "active"}
+        ],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "诏令复核改革使他的程序意见成为中枢可追踪的锚点。",
+        "reason_refs": [
+          {"kind": "route", "id": "beta110_route_audit_continuity"},
+          {"kind": "case", "id": "beta108_case_edict_legitimacy"},
+          {"kind": "office", "id": "menxia_review"}
+        ]
+      },
+      {
+        "arc_id": "beta110_li_chu_procedural_dissent",
+        "character_id": "li_chu",
+        "priority": 260,
+        "day_min": 46,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "procedural_dissent",
+        "public_label": "程序异议者",
+        "aftermath_category": "paid_cost",
+        "all": [],
+        "any": [
+          {"kind": "case", "case_id": "beta108_case_edict_legitimacy", "verdict_ids": ["dismiss"]},
+          {"kind": "office", "office_id": "menxia_review", "status": "removed"}
+        ],
+        "none": [],
+        "primary_public_reason": "诏令程序未能闭合，复核位置留下公开异议。",
+        "reason_refs": [
+          {"kind": "case", "id": "beta108_case_edict_legitimacy"},
+          {"kind": "review", "id": "beta110_authority_review"}
+        ]
+      }
+    ],
+    "uighur_envoy": [
+      {
+        "arc_id": "beta110_uighur_conditional_ally",
+        "character_id": "uighur_envoy",
+        "priority": 0,
+        "day_min": 1,
+        "day_max": 90,
+        "is_baseline": true,
+        "result_fate_status": "conditional_ally",
+        "public_label": "待履约盟友",
+        "aftermath_category": "constrained",
+        "all": [],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "盟约仍有空间，但援军条款与公开履约尚未完成确认。",
+        "reason_refs": [{"kind": "review", "id": "beta110_final_assessment"}]
+      },
+      {
+        "arc_id": "beta110_uighur_documented_ally",
+        "character_id": "uighur_envoy",
+        "priority": 300,
+        "day_min": 66,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "documented_ally",
+        "public_label": "凭据化盟友",
+        "aftermath_category": "gained_position",
+        "all": [
+          {"kind": "route", "route_id": "beta110_route_audit_continuity"},
+          {"kind": "case", "case_id": "beta108_case_uighur_aid_cost", "verdict_ids": ["reform"]},
+          {"kind": "obligation", "target_id": "promise_uighur_reward_terms", "status": "fulfilled"},
+          {"kind": "memory", "memory_id": "beta110_memory_uighur_terms", "status": "confirmed"}
+        ],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "援助条款完成登记，盟军使者以公开凭据继续议价。",
+        "reason_refs": [
+          {"kind": "route", "id": "beta110_route_audit_continuity"},
+          {"kind": "case", "id": "beta108_case_uighur_aid_cost"},
+          {"kind": "chronicle", "id": "beta110_echo_uighur_terms"}
+        ]
+      },
+      {
+        "arc_id": "beta110_uighur_priced_alliance",
+        "character_id": "uighur_envoy",
+        "priority": 260,
+        "day_min": 66,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "priced_alliance",
+        "public_label": "带价盟友",
+        "aftermath_category": "paid_cost",
+        "all": [],
+        "any": [
+          {"kind": "case", "case_id": "beta108_case_uighur_aid_cost", "verdict_ids": ["dismiss"]},
+          {"kind": "obligation", "target_id": "promise_uighur_reward_terms", "status": "breached"}
+        ],
+        "none": [],
+        "primary_public_reason": "援助代价未能按条款闭合，盟约继续以更高价格维持。",
+        "reason_refs": [
+          {"kind": "case", "id": "beta108_case_uighur_aid_cost"},
+          {"kind": "review", "id": "beta110_final_assessment"}
+        ]
+      }
+    ],
+    "hardline_old_court_official": [
+      {
+        "arc_id": "beta110_hardline_observing_dissenter",
+        "character_id": "hardline_old_court_official",
+        "priority": 0,
+        "day_min": 1,
+        "day_max": 90,
+        "is_baseline": true,
+        "result_fate_status": "observing_dissenter",
+        "public_label": "观望的旧臣异议者",
+        "aftermath_category": "constrained",
+        "all": [],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "旧制先例仍有发言空间，但尚未转成正式责任结果。",
+        "reason_refs": [{"kind": "review", "id": "beta110_authority_review"}]
+      },
+      {
+        "arc_id": "beta110_hardline_recorded_precedent",
+        "character_id": "hardline_old_court_official",
+        "priority": 300,
+        "day_min": 46,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "recorded_precedent",
+        "public_label": "登记在册的先例守门人",
+        "aftermath_category": "gained_position",
+        "all": [
+          {"kind": "route", "route_id": "beta110_route_court_consolidation"},
+          {"kind": "case", "case_id": "beta108_case_palace_order_leak", "verdict_ids": ["reform"]},
+          {"kind": "office", "office_id": "censorate", "status": "active"},
+          {"kind": "memory", "memory_id": "beta110_memory_old_court_precedent", "status": "confirmed"}
+        ],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "宫门双签改革把旧制异议纳入了可复核的先例记录。",
+        "reason_refs": [
+          {"kind": "route", "id": "beta110_route_court_consolidation"},
+          {"kind": "case", "id": "beta108_case_palace_order_leak"},
+          {"kind": "chronicle", "id": "beta110_echo_old_court_precedent"}
+        ]
+      },
+      {
+        "arc_id": "beta110_hardline_renewed_objection",
+        "character_id": "hardline_old_court_official",
+        "priority": 260,
+        "day_min": 46,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "renewed_objection",
+        "public_label": "重新提出先例异议",
+        "aftermath_category": "paid_cost",
+        "all": [],
+        "any": [
+          {"kind": "case", "case_id": "beta108_case_palace_order_leak", "verdict_ids": ["dismiss"]},
+          {"kind": "office", "office_id": "censorate", "status": "removed"}
+        ],
+        "none": [],
+        "primary_public_reason": "门禁责任未能闭合，旧臣借先例重新质疑中枢授权。",
+        "reason_refs": [
+          {"kind": "case", "id": "beta108_case_palace_order_leak"},
+          {"kind": "review", "id": "beta110_authority_review"}
+        ]
+      }
+    ],
+    "grain_official_lingwu": [
+      {
+        "arc_id": "beta110_grain_unsettled_registrar",
+        "character_id": "grain_official_lingwu",
+        "priority": 0,
+        "day_min": 1,
+        "day_max": 90,
+        "is_baseline": true,
+        "result_fate_status": "unsettled_registrar",
+        "public_label": "待核账粮官",
+        "aftermath_category": "constrained",
+        "all": [],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "粮册与运输凭据仍待进一步核验，粮官位置尚未定型。",
+        "reason_refs": [{"kind": "review", "id": "beta110_supply_review"}]
+      },
+      {
+        "arc_id": "beta110_grain_audited_registrar",
+        "character_id": "grain_official_lingwu",
+        "priority": 300,
+        "day_min": 31,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "audited_registrar",
+        "public_label": "公开核账登记人",
+        "aftermath_category": "gained_position",
+        "all": [
+          {"kind": "route", "route_id": "beta110_route_audit_continuity"},
+          {"kind": "case", "case_id": "beta108_case_grain_ledger_shortfall", "verdict_ids": ["reform"]},
+          {"kind": "office", "office_id": "household_supply", "status": "active"},
+          {"kind": "memory", "memory_id": "beta110_memory_grain_audit_trust", "status": "confirmed"}
+        ],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "公开核账留下可复核的粮道信任记录，粮官成为制度连续性的登记人。",
+        "reason_refs": [
+          {"kind": "route", "id": "beta110_route_audit_continuity"},
+          {"kind": "case", "id": "beta108_case_grain_ledger_shortfall"},
+          {"kind": "chronicle", "id": "beta110_echo_grain_audit_trust"}
+        ]
+      },
+      {
+        "arc_id": "beta110_grain_displaced_official",
+        "character_id": "grain_official_lingwu",
+        "priority": 260,
+        "day_min": 31,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "displaced_grain_official",
+        "public_label": "被替换的粮官",
+        "aftermath_category": "paid_cost",
+        "all": [],
+        "any": [
+          {"kind": "case", "case_id": "beta108_case_grain_ledger_shortfall", "verdict_ids": ["forced_removal"]},
+          {"kind": "office", "office_id": "household_supply", "status": "removed"}
+        ],
+        "none": [],
+        "primary_public_reason": "粮册责任形成合法职位更替，运输短缺留下公开责任记录。",
+        "reason_refs": [
+          {"kind": "case", "id": "beta108_case_grain_ledger_shortfall"},
+          {"kind": "review", "id": "beta110_supply_review"}
+        ]
+      }
+    ],
+    "lingwu_merchant_refugee": [
+      {
+        "arc_id": "beta110_merchant_waiting_witness",
+        "character_id": "lingwu_merchant_refugee",
+        "priority": 0,
+        "day_min": 1,
+        "day_max": 90,
+        "is_baseline": true,
+        "result_fate_status": "waiting_witness",
+        "public_label": "等待兑现的商民见证者",
+        "aftermath_category": "constrained",
+        "all": [],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "商民承受运输迟延，市场保护仍停留在待兑现承诺。",
+        "reason_refs": [{"kind": "review", "id": "beta110_supply_review"}]
+      },
+      {
+        "arc_id": "beta110_merchant_protected_witness",
+        "character_id": "lingwu_merchant_refugee",
+        "priority": 300,
+        "day_min": 31,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "protected_market_witness",
+        "public_label": "受保护的市场见证者",
+        "aftermath_category": "gained_position",
+        "all": [
+          {"kind": "route", "route_id": "beta110_route_audit_continuity"},
+          {"kind": "case", "case_id": "beta108_case_grain_ledger_shortfall", "verdict_ids": ["reform"]},
+          {"kind": "obligation", "target_id": "promise_market_relief", "status": "fulfilled"}
+        ],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "公开核账与市场救济承诺共同保住了商民的可见安全边界。",
+        "reason_refs": [
+          {"kind": "route", "id": "beta110_route_audit_continuity"},
+          {"kind": "case", "id": "beta108_case_grain_ledger_shortfall"},
+          {"kind": "chronicle", "id": "beta110_echo_grain_audit_trust"}
+        ]
+      },
+      {
+        "arc_id": "beta110_merchant_burdened_refugee",
+        "character_id": "lingwu_merchant_refugee",
+        "priority": 260,
+        "day_min": 31,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "burdened_market_witness",
+        "public_label": "承担迟延代价的商民",
+        "aftermath_category": "paid_cost",
+        "all": [],
+        "any": [
+          {"kind": "case", "case_id": "beta108_case_grain_ledger_shortfall", "verdict_ids": ["dismiss"]},
+          {"kind": "obligation", "target_id": "promise_market_relief", "status": "breached"}
+        ],
+        "none": [],
+        "primary_public_reason": "粮册与市场救济未能闭合，迟延成本转由商民承担。",
+        "reason_refs": [
+          {"kind": "case", "id": "beta108_case_grain_ledger_shortfall"},
+          {"kind": "chronicle", "id": "beta110_echo_grain_continuity_cost"}
+        ]
+      }
+    ],
+    "regional_jiedushi_rep": [
+      {
+        "arc_id": "beta110_regional_waiting_broker",
+        "character_id": "regional_jiedushi_rep",
+        "priority": 0,
+        "day_min": 1,
+        "day_max": 90,
+        "is_baseline": true,
+        "result_fate_status": "waiting_regional_broker",
+        "public_label": "待定的地方中介",
+        "aftermath_category": "constrained",
+        "all": [],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "地方节度使代表等待中枢路线与前线凭据共同明确。",
+        "reason_refs": [{"kind": "review", "id": "beta110_final_assessment"}]
+      },
+      {
+        "arc_id": "beta110_regional_trusted_broker",
+        "character_id": "regional_jiedushi_rep",
+        "priority": 300,
+        "day_min": 66,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "trusted_regional_broker",
+        "public_label": "获得信任的地方中介",
+        "aftermath_category": "gained_position",
+        "all": [
+          {"kind": "route", "route_id": "beta110_route_audit_continuity"},
+          {"kind": "case", "case_id": "beta108_case_final_assessment", "verdict_ids": ["reform"]},
+          {"kind": "office", "office_id": "shangshu_execution", "status": "active"}
+        ],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "终局复核确认了地方执行与中枢核账之间的可追踪接口。",
+        "reason_refs": [
+          {"kind": "route", "id": "beta110_route_audit_continuity"},
+          {"kind": "case", "id": "beta108_case_final_assessment"},
+          {"kind": "review", "id": "beta110_final_assessment"}
+        ]
+      },
+      {
+        "arc_id": "beta110_regional_excluded_broker",
+        "character_id": "regional_jiedushi_rep",
+        "priority": 260,
+        "day_min": 66,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "excluded_regional_broker",
+        "public_label": "被排除的地方中介",
+        "aftermath_category": "paid_cost",
+        "all": [],
+        "any": [
+          {"kind": "case", "case_id": "beta108_case_final_assessment", "verdict_ids": ["dismiss"]},
+          {"kind": "office", "office_id": "shangshu_execution", "status": "removed"}
+        ],
+        "none": [],
+        "primary_public_reason": "地方执行接口未能闭合，终局复核将其排除在正式责任链外。",
+        "reason_refs": [
+          {"kind": "case", "id": "beta108_case_final_assessment"},
+          {"kind": "review", "id": "beta110_final_assessment"}
+        ]
+      }
+    ],
+    "eunuch_deputy_gate": [
+      {
+        "arc_id": "beta110_eunuch_unregistered_gatekeeper",
+        "character_id": "eunuch_deputy_gate",
+        "priority": 0,
+        "day_min": 1,
+        "day_max": 90,
+        "is_baseline": true,
+        "result_fate_status": "unregistered_gatekeeper",
+        "public_label": "未登记的宫门副使",
+        "aftermath_category": "constrained",
+        "all": [],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "宫门副使仍在执行传令，但授权与留痕程序尚未闭合。",
+        "reason_refs": [{"kind": "review", "id": "beta110_authority_review"}]
+      },
+      {
+        "arc_id": "beta110_eunuch_registered_witness",
+        "character_id": "eunuch_deputy_gate",
+        "priority": 300,
+        "day_min": 46,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "registered_gate_witness",
+        "public_label": "登记在册的宫门见证者",
+        "aftermath_category": "gained_position",
+        "all": [
+          {"kind": "route", "route_id": "beta110_route_court_consolidation"},
+          {"kind": "case", "case_id": "beta108_case_palace_order_leak", "verdict_ids": ["reform"]},
+          {"kind": "office", "office_id": "inner_court_gatekeeper", "status": "active"}
+        ],
+        "any": [],
+        "none": [],
+        "primary_public_reason": "宫门双签改革把副使的传令见证职责登记进持续复核链。",
+        "reason_refs": [
+          {"kind": "route", "id": "beta110_route_court_consolidation"},
+          {"kind": "case", "id": "beta108_case_palace_order_leak"},
+          {"kind": "office", "id": "inner_court_gatekeeper"}
+        ]
+      },
+      {
+        "arc_id": "beta110_eunuch_gate_liability",
+        "character_id": "eunuch_deputy_gate",
+        "priority": 260,
+        "day_min": 46,
+        "day_max": 90,
+        "is_baseline": false,
+        "result_fate_status": "gate_liability",
+        "public_label": "承担门禁责任的副使",
+        "aftermath_category": "paid_cost",
+        "all": [],
+        "any": [
+          {"kind": "case", "case_id": "beta108_case_palace_order_leak", "verdict_ids": ["dismiss"]},
+          {"kind": "office", "office_id": "inner_court_gatekeeper", "status": "removed"}
+        ],
+        "none": [],
+        "primary_public_reason": "传令责任未能闭合，宫门副使失去原有的执行位置。",
+        "reason_refs": [
+          {"kind": "case", "id": "beta108_case_palace_order_leak"},
+          {"kind": "review", "id": "beta110_authority_review"}
+        ]
+      }
+    ]
+  }
+}

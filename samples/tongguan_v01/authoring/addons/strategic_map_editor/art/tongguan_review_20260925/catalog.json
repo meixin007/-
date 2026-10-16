@@ -1,0 +1,95 @@
+{
+  "bundle_id": "tongguan_review_20260925",
+  "version": 1,
+  "extends": "tongguan_v3",
+  "assets": {
+    "forest_edge_review_1": {
+      "label": "林缘 · 疏密组 1（待审）",
+      "group": "forest",
+      "manual_only": true,
+      "atlas": "forest_edges.png",
+      "rect": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "width": 92,
+      "anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "forest_edge_review_2": {
+      "label": "林缘 · 疏密组 2（待审）",
+      "group": "forest",
+      "manual_only": true,
+      "atlas": "forest_edges.png",
+      "rect": [
+        768,
+        0,
+        768,
+        512
+      ],
+      "width": 92,
+      "anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "forest_edge_review_3": {
+      "label": "林缘 · 疏密组 3（待审）",
+      "group": "forest",
+      "manual_only": true,
+      "atlas": "forest_edges.png",
+      "rect": [
+        0,
+        512,
+        768,
+        512
+      ],
+      "width": 92,
+      "anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "forest_edge_review_4": {
+      "label": "林缘 · 疏密组 4（待审）",
+      "group": "forest",
+      "manual_only": true,
+      "atlas": "forest_edges.png",
+      "rect": [
+        768,
+        512,
+        768,
+        512
+      ],
+      "width": 92,
+      "anchor": [
+        0.5,
+        0.85
+      ]
+    },
+    "pass_vertical_review_20260925": {
+      "label": "潼关 · 竖向简化关楼与关墙（待审）",
+      "group": "pass",
+      "atlas": "vertical_pass.png",
+      "rect": [
+        395,
+        105,
+        340,
+        1185
+      ],
+      "width": 32,
+      "anchor": [
+        0.09,
+        0.493
+      ],
+      "gate_anchor": [
+        0.09,
+        0.493
+      ]
+    }
+  }
+}

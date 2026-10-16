@@ -1,0 +1,3699 @@
+{
+  "version": 1,
+  "source_id": "scenario:regional_census_756",
+  "basis_year": 756,
+  "observation_day": 0,
+  "basis": "opening_estimate",
+  "country_id": "country:唐",
+  "map_sha256": "d21067453bfe4036ab6315a4a98a9da5665f52e0facfa5d8c4fd3701fdb8de5c",
+  "content_basis": "史料锚点与有界游戏估算；地图展示分区不等同唐代完整州界。",
+  "method": "固定参数离线分配，百人/百亩取整；城市为州的子集，国家仅合计州与未细分余量。",
+  "sources": {
+    "jiutangshu_38_national_740": {
+      "title": "《旧唐书》卷38·地理序，开元二十八年户部计帐",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷38",
+      "period": "740年",
+      "kind": "historical_register",
+      "scope": "328郡府、1573县；羁縻州郡不在此数",
+      "population": 48143609,
+      "households": 8412871,
+      "note": "户籍口数不是全部实际人口；不得把后期户籍减少直接解释为死亡。"
+    },
+    "jiutangshu_38_land_entitlement": {
+      "title": "《旧唐书》卷38·地理序，应受田",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷38",
+      "period": "740年计帐段",
+      "kind": "historical_entitlement",
+      "scope": "与户部计帐同段；应受田，非实有垦田",
+      "entitlement_qing": 14403862,
+      "entitlement_mu_remainder": 13,
+      "note": "仅作口径说明，不参与实有田亩计算；与《通典》田制下数字有异文。"
+    },
+    "game_census_756_v1": {
+      "title": "756年开局人口田亩游戏估算 v1",
+      "url": "",
+      "period": "756年开局",
+      "kind": "game_estimate",
+      "scope": "当前地图唐属分组（含安西、北庭）；非740年户部计帐范围复刻",
+      "note": "各道总量、未细分余量、城市比例及田亩均为设计参数；上下界为设计范围，非统计置信区间。"
+    },
+    "jiutangshu_38_jingzhao": {
+      "title": "《旧唐书》卷38·京兆府",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷38#京兆府",
+      "period": "天宝年间（742—755年，条目未另定统计年）",
+      "kind": "historical_register",
+      "scope": "京兆府辖县合计，非城内人口",
+      "population": 1967100,
+      "households": 362921,
+      "note": "开局调整比例是游戏参数，不是史料记载的战乱损失率。"
+    },
+    "jiutangshu_38_henan": {
+      "title": "《旧唐书》卷38·河南府",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷38#河南府",
+      "period": "天宝年间（742—755年，条目未另定统计年）",
+      "kind": "historical_register",
+      "scope": "河南府辖县合计，非城内人口",
+      "population": 1183093,
+      "households": 194746,
+      "note": "开局调整比例是游戏参数，不是史料记载的战乱损失率。"
+    },
+    "jiutangshu_38_lingzhou": {
+      "title": "《旧唐书》卷38·灵州",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷38#靈州",
+      "period": "天宝年间（742—755年，条目未另定统计年）",
+      "kind": "historical_register",
+      "scope": "灵州辖县合计，非城内人口",
+      "population": 53163,
+      "households": 11456,
+      "note": "开局调整比例是游戏参数，不是史料记载的战乱损失率。"
+    }
+  },
+  "regions": {
+    "region:唐:京畿道": {
+      "name": "京畿道",
+      "prefecture_ids": [
+        "v02:唐:京畿道:anchor_changan_pressure_node",
+        "v02:唐:京畿道:anchor_zhou_binzhou",
+        "v02:唐:京畿道:anchor_zhou_fengxiang",
+        "v02:唐:京畿道:anchor_zhou_huazhou",
+        "v02:唐:京畿道:anchor_zhou_tongzhou",
+        "v02:唐:京畿道:ccsg03_chencang"
+      ],
+      "totals": {
+        "population": 4000000,
+        "households": 727200,
+        "farmland_mu": 67306400
+      },
+      "unmapped": {
+        "population": 400200,
+        "households": 68500,
+        "farmland_mu": 6734400
+      },
+      "bounds": {
+        "population": [
+          2800000,
+          5200000
+        ],
+        "households": [
+          509040,
+          945360
+        ],
+        "farmland_mu": [
+          47114480,
+          87498320
+        ]
+      },
+      "population_target": 4000000,
+      "mapped_share_percent": 90,
+      "land_weight": 16,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:都畿道": {
+      "name": "都畿道",
+      "prefecture_ids": [
+        "v02:唐:都畿道:anchor_luoyang_rumor_node",
+        "v02:唐:都畿道:anchor_zhou_shanzhou",
+        "v02:唐:都畿道:anchor_zhou_zhengzhou"
+      ],
+      "totals": {
+        "population": 2000000,
+        "households": 363600,
+        "farmland_mu": 37859800
+      },
+      "unmapped": {
+        "population": 300100,
+        "households": 71000,
+        "farmland_mu": 5681000
+      },
+      "bounds": {
+        "population": [
+          1400000,
+          2600000
+        ],
+        "households": [
+          254520,
+          472680
+        ],
+        "farmland_mu": [
+          26501860,
+          49217740
+        ]
+      },
+      "population_target": 2000000,
+      "mapped_share_percent": 85,
+      "land_weight": 18,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:关内道": {
+      "name": "关内道",
+      "prefecture_ids": [
+        "v02:唐:关内道:anchor_lingwu_court_node",
+        "v02:唐:关内道:anchor_zhou_jingzhou",
+        "v02:唐:关内道:anchor_zhou_qingzhou_west",
+        "v02:唐:关内道:anchor_zhou_yanzhou_north",
+        "v02:唐:关内道:anchor_zhou_yuanzhou"
+      ],
+      "totals": {
+        "population": 1500000,
+        "households": 272700,
+        "farmland_mu": 31549800
+      },
+      "unmapped": {
+        "population": 750200,
+        "households": 134600,
+        "farmland_mu": 15779400
+      },
+      "bounds": {
+        "population": [
+          1050000,
+          1950000
+        ],
+        "households": [
+          190890,
+          354510
+        ],
+        "farmland_mu": [
+          22084860,
+          41014740
+        ]
+      },
+      "population_target": 1500000,
+      "mapped_share_percent": 50,
+      "land_weight": 20,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:河南道": {
+      "name": "河南道",
+      "prefecture_ids": [
+        "v02:唐:河南道:anchor_suiyang_hub_node",
+        "v02:唐:河南道:anchor_zhou_bianzhou",
+        "v02:唐:河南道:anchor_zhou_caozhou",
+        "v02:唐:河南道:anchor_zhou_dengzhou",
+        "v02:唐:河南道:anchor_zhou_laizhou",
+        "v02:唐:河南道:anchor_zhou_puzhou_henan",
+        "v02:唐:河南道:anchor_zhou_qingzhou_east",
+        "v02:唐:河南道:anchor_zhou_qizhou",
+        "v02:唐:河南道:anchor_zhou_xuzhou_henan",
+        "v02:唐:河南道:anchor_zhou_yanzhou_east",
+        "v02:唐:河南道:anchor_zhou_yunzhou"
+      ],
+      "totals": {
+        "population": 7000000,
+        "households": 1272700,
+        "farmland_mu": 132509500
+      },
+      "unmapped": {
+        "population": 3150700,
+        "households": 573500,
+        "farmland_mu": 59642900
+      },
+      "bounds": {
+        "population": [
+          4900000,
+          9100000
+        ],
+        "households": [
+          890890,
+          1654510
+        ],
+        "farmland_mu": [
+          92756650,
+          172262350
+        ]
+      },
+      "population_target": 7000000,
+      "mapped_share_percent": 55,
+      "land_weight": 18,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:河东道": {
+      "name": "河东道",
+      "prefecture_ids": [
+        "v02:唐:河东道:anchor_taiyuan_hub_node",
+        "v02:唐:河东道:anchor_zhou_daizhou",
+        "v02:唐:河东道:anchor_zhou_fenzhou",
+        "v02:唐:河东道:anchor_zhou_jiangzhou",
+        "v02:唐:河东道:anchor_zhou_jinzhou",
+        "v02:唐:河东道:anchor_zhou_luzhou",
+        "v02:唐:河东道:anchor_zhou_puzhou_hedong",
+        "v02:唐:河东道:anchor_zhou_shuozhou",
+        "v02:唐:河东道:anchor_zhou_weizhou_hedong",
+        "v02:唐:河东道:anchor_zhou_yunzhou_north"
+      ],
+      "totals": {
+        "population": 3200000,
+        "households": 581800,
+        "farmland_mu": 60575700
+      },
+      "unmapped": {
+        "population": 800600,
+        "households": 146000,
+        "farmland_mu": 15155800
+      },
+      "bounds": {
+        "population": [
+          2240000,
+          4160000
+        ],
+        "households": [
+          407260,
+          756340
+        ],
+        "farmland_mu": [
+          42402990,
+          78748410
+        ]
+      },
+      "population_target": 3200000,
+      "mapped_share_percent": 75,
+      "land_weight": 18,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:河北道": {
+      "name": "河北道",
+      "prefecture_ids": [
+        "v02:唐:河北道:anchor_hebei_rebel_signal_node",
+        "v02:唐:河北道:anchor_zhou_beizhou",
+        "v02:唐:河北道:anchor_zhou_bozhou_hebei",
+        "v02:唐:河北道:anchor_zhou_cangzhou",
+        "v02:唐:河北道:anchor_zhou_dezhou",
+        "v02:唐:河北道:anchor_zhou_dingzhou",
+        "v02:唐:河北道:anchor_zhou_jizhou",
+        "v02:唐:河北道:anchor_zhou_mozhou",
+        "v02:唐:河北道:anchor_zhou_weizhou",
+        "v02:唐:河北道:anchor_zhou_xiangzhou_north",
+        "v02:唐:河北道:anchor_zhou_yingzhou",
+        "v02:唐:河北道:anchor_zhou_youzhou"
+      ],
+      "totals": {
+        "population": 7000000,
+        "households": 1272700,
+        "farmland_mu": 139871100
+      },
+      "unmapped": {
+        "population": 2450600,
+        "households": 446200,
+        "farmland_mu": 48967600
+      },
+      "bounds": {
+        "population": [
+          4900000,
+          9100000
+        ],
+        "households": [
+          890890,
+          1654510
+        ],
+        "farmland_mu": [
+          97909770,
+          181832430
+        ]
+      },
+      "population_target": 7000000,
+      "mapped_share_percent": 65,
+      "land_weight": 19,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:山南东道": {
+      "name": "山南东道",
+      "prefecture_ids": [
+        "v02:唐:山南东道:anchor_refugee_market_node",
+        "v02:唐:山南东道:anchor_zhou_jinzhou_south"
+      ],
+      "totals": {
+        "population": 3000000,
+        "households": 545400,
+        "farmland_mu": 44169800
+      },
+      "unmapped": {
+        "population": 2550100,
+        "households": 463700,
+        "farmland_mu": 37545900
+      },
+      "bounds": {
+        "population": [
+          2100000,
+          3900000
+        ],
+        "households": [
+          381780,
+          709020
+        ],
+        "farmland_mu": [
+          30918860,
+          57420740
+        ]
+      },
+      "population_target": 3000000,
+      "mapped_share_percent": 15,
+      "land_weight": 14,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:山南西道": {
+      "name": "山南西道",
+      "prefecture_ids": [
+        "v02:唐:山南西道:anchor_zhou_liangzhou_south",
+        "v02:唐:山南西道:anchor_zhou_yangzhou_west",
+        "v02:唐:山南西道:ccsg03_fengzhou"
+      ],
+      "totals": {
+        "population": 1500000,
+        "households": 272700,
+        "farmland_mu": 20507400
+      },
+      "unmapped": {
+        "population": 900100,
+        "households": 163800,
+        "farmland_mu": 12306000
+      },
+      "bounds": {
+        "population": [
+          1050000,
+          1950000
+        ],
+        "households": [
+          190890,
+          354510
+        ],
+        "farmland_mu": [
+          14355180,
+          26659620
+        ]
+      },
+      "population_target": 1500000,
+      "mapped_share_percent": 40,
+      "land_weight": 13,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:陇右道": {
+      "name": "陇右道",
+      "prefecture_ids": [
+        "v02:唐:陇右道:anchor_desert_envoy_road_node",
+        "v02:唐:陇右道:anchor_zhou_lanzhou",
+        "v02:唐:陇右道:anchor_zhou_qinzhou",
+        "v02:唐:陇右道:anchor_zhou_shanzhou_west",
+        "v02:唐:陇右道:anchor_zhou_weizhou_west"
+      ],
+      "totals": {
+        "population": 1000000,
+        "households": 181800,
+        "farmland_mu": 21033200
+      },
+      "unmapped": {
+        "population": 400300,
+        "households": 73000,
+        "farmland_mu": 8419900
+      },
+      "bounds": {
+        "population": [
+          700000,
+          1300000
+        ],
+        "households": [
+          127260,
+          236340
+        ],
+        "farmland_mu": [
+          14723240,
+          27343160
+        ]
+      },
+      "population_target": 1000000,
+      "mapped_share_percent": 60,
+      "land_weight": 20,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:淮南道": {
+      "name": "淮南道",
+      "prefecture_ids": [
+        "v02:唐:淮南道:anchor_yangzhou_tribute_hub_node",
+        "v02:唐:淮南道:anchor_zhou_chuzhou",
+        "v02:唐:淮南道:anchor_zhou_luzhou_south",
+        "v02:唐:淮南道:anchor_zhou_shouzhou"
+      ],
+      "totals": {
+        "population": 3500000,
+        "households": 636300,
+        "farmland_mu": 58893100
+      },
+      "unmapped": {
+        "population": 1925200,
+        "households": 350200,
+        "farmland_mu": 32394800
+      },
+      "bounds": {
+        "population": [
+          2450000,
+          4550000
+        ],
+        "households": [
+          445410,
+          827190
+        ],
+        "farmland_mu": [
+          41225170,
+          76561030
+        ]
+      },
+      "population_target": 3500000,
+      "mapped_share_percent": 45,
+      "land_weight": 16,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:江南东道": {
+      "name": "江南东道",
+      "prefecture_ids": [
+        "v02:唐:江南东道:anchor_zhou_fuzhou",
+        "v02:唐:江南东道:anchor_zhou_hangzhou",
+        "v02:唐:江南东道:anchor_zhou_huzhou",
+        "v02:唐:江南东道:anchor_zhou_quanzhou",
+        "v02:唐:江南东道:anchor_zhou_runzhou",
+        "v02:唐:江南东道:anchor_zhou_suzhou",
+        "v02:唐:江南东道:anchor_zhou_yuezhou"
+      ],
+      "totals": {
+        "population": 5500000,
+        "households": 1000000,
+        "farmland_mu": 69409700
+      },
+      "unmapped": {
+        "population": 2750300,
+        "households": 500400,
+        "farmland_mu": 34709100
+      },
+      "bounds": {
+        "population": [
+          3850000,
+          7150000
+        ],
+        "households": [
+          700000,
+          1300000
+        ],
+        "farmland_mu": [
+          48586790,
+          90232610
+        ]
+      },
+      "population_target": 5500000,
+      "mapped_share_percent": 50,
+      "land_weight": 12,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:江南西道": {
+      "name": "江南西道",
+      "prefecture_ids": [
+        "v02:唐:江南西道:anchor_zhou_hengzhou",
+        "v02:唐:江南西道:anchor_zhou_hongzhou",
+        "v02:唐:江南西道:anchor_zhou_jiangzhou_south",
+        "v02:唐:江南西道:anchor_zhou_raozhou",
+        "v02:唐:江南西道:anchor_zhou_tanzhou",
+        "v02:唐:江南西道:anchor_zhou_xuanzhou"
+      ],
+      "totals": {
+        "population": 3000000,
+        "households": 545400,
+        "farmland_mu": 37859800
+      },
+      "unmapped": {
+        "population": 1500400,
+        "households": 273100,
+        "farmland_mu": 18935300
+      },
+      "bounds": {
+        "population": [
+          2100000,
+          3900000
+        ],
+        "households": [
+          381780,
+          709020
+        ],
+        "farmland_mu": [
+          26501860,
+          49217740
+        ]
+      },
+      "population_target": 3000000,
+      "mapped_share_percent": 50,
+      "land_weight": 12,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:黔中道": {
+      "name": "黔中道",
+      "prefecture_ids": [
+        "v02:唐:黔中道:prefecture_city_14"
+      ],
+      "totals": {
+        "population": 600000,
+        "households": 109000,
+        "farmland_mu": 5047900
+      },
+      "unmapped": {
+        "population": 510000,
+        "households": 92700,
+        "farmland_mu": 4290800
+      },
+      "bounds": {
+        "population": [
+          420000,
+          780000
+        ],
+        "households": [
+          76300,
+          141700
+        ],
+        "farmland_mu": [
+          3533530,
+          6562270
+        ]
+      },
+      "population_target": 600000,
+      "mapped_share_percent": 15,
+      "land_weight": 8,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:剑南道": {
+      "name": "剑南道",
+      "prefecture_ids": [
+        "v02:唐:剑南道:anchor_chengdou_rear_hub_node",
+        "v02:唐:剑南道:anchor_zhou_jiazhou",
+        "v02:唐:剑南道:anchor_zhou_mianzhou",
+        "v02:唐:剑南道:anchor_zhou_rongzhou",
+        "v02:唐:剑南道:anchor_zhou_suizhou",
+        "v02:唐:剑南道:anchor_zhou_zizhou"
+      ],
+      "totals": {
+        "population": 4000000,
+        "households": 727200,
+        "farmland_mu": 50479800
+      },
+      "unmapped": {
+        "population": 2000200,
+        "households": 363900,
+        "farmland_mu": 25242800
+      },
+      "bounds": {
+        "population": [
+          2800000,
+          5200000
+        ],
+        "households": [
+          509040,
+          945360
+        ],
+        "farmland_mu": [
+          35335860,
+          65623740
+        ]
+      },
+      "population_target": 4000000,
+      "mapped_share_percent": 50,
+      "land_weight": 12,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:岭南道": {
+      "name": "岭南道",
+      "prefecture_ids": [
+        "v02:唐:岭南道:anchor_zhou_guangzhou",
+        "v02:唐:岭南道:anchor_zhou_guizhou"
+      ],
+      "totals": {
+        "population": 1800000,
+        "households": 327200,
+        "farmland_mu": 17036900
+      },
+      "unmapped": {
+        "population": 1440100,
+        "households": 261900,
+        "farmland_mu": 13630600
+      },
+      "bounds": {
+        "population": [
+          1260000,
+          2340000
+        ],
+        "households": [
+          229040,
+          425360
+        ],
+        "farmland_mu": [
+          11925830,
+          22147970
+        ]
+      },
+      "population_target": 1800000,
+      "mapped_share_percent": 20,
+      "land_weight": 9,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:安西都护府": {
+      "name": "安西都护府",
+      "prefecture_ids": [
+        "v02:唐:安西都护府:prefecture_city_00"
+      ],
+      "totals": {
+        "population": 200000,
+        "households": 36300,
+        "farmland_mu": 2944600
+      },
+      "unmapped": {
+        "population": 160000,
+        "households": 29100,
+        "farmland_mu": 2355700
+      },
+      "bounds": {
+        "population": [
+          140000,
+          260000
+        ],
+        "households": [
+          25410,
+          47190
+        ],
+        "farmland_mu": [
+          2061220,
+          3827980
+        ]
+      },
+      "population_target": 200000,
+      "mapped_share_percent": 20,
+      "land_weight": 14,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    },
+    "region:唐:北庭都护府": {
+      "name": "北庭都护府",
+      "prefecture_ids": [
+        "v02:唐:北庭都护府:prefecture_city_01"
+      ],
+      "totals": {
+        "population": 200000,
+        "households": 36300,
+        "farmland_mu": 2945500
+      },
+      "unmapped": {
+        "population": 160000,
+        "households": 29100,
+        "farmland_mu": 2356400
+      },
+      "bounds": {
+        "population": [
+          140000,
+          260000
+        ],
+        "households": [
+          25410,
+          47190
+        ],
+        "farmland_mu": [
+          2061850,
+          3829150
+        ]
+      },
+      "population_target": 200000,
+      "mapped_share_percent": 20,
+      "land_weight": 14,
+      "scope_note": "按当前地图展示分组汇总；未细分地区单列，不伪造不存在的州城。"
+    }
+  },
+  "prefectures": {
+    "v02:唐:京畿道:anchor_changan_pressure_node": {
+      "place_id": "v02:唐:京畿道:anchor_changan_pressure_node",
+      "region_id": "region:唐:京畿道",
+      "name": "长安",
+      "population": 1672000,
+      "households": 308400,
+      "farmland_mu": 28134000,
+      "bounds": {
+        "population": [
+          1170400,
+          2173600
+        ],
+        "households": [
+          215880,
+          400920
+        ],
+        "farmland_mu": [
+          19693800,
+          36574200
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1",
+        "jiutangshu_38_jingzhao"
+      ],
+      "historical_source_id": "jiutangshu_38_jingzhao",
+      "anchor_adjustment_percent": 85,
+      "city_share_percent": 25,
+      "city": {
+        "place_id": "city:anchor_changan_pressure_node",
+        "domain_id": "changan_pressure_node",
+        "population": 418000,
+        "households": 77100
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:京畿道:anchor_zhou_binzhou": {
+      "place_id": "v02:唐:京畿道:anchor_zhou_binzhou",
+      "region_id": "region:唐:京畿道",
+      "name": "邠州",
+      "population": 425100,
+      "households": 77200,
+      "farmland_mu": 7152900,
+      "bounds": {
+        "population": [
+          297570,
+          552630
+        ],
+        "households": [
+          54040,
+          100360
+        ],
+        "farmland_mu": [
+          5007030,
+          9298770
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_binzhou",
+        "domain_id": "zhou_binzhou",
+        "population": 42510,
+        "households": 7720
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:京畿道:anchor_zhou_fengxiang": {
+      "place_id": "v02:唐:京畿道:anchor_zhou_fengxiang",
+      "region_id": "region:唐:京畿道",
+      "name": "凤翔",
+      "population": 506600,
+      "households": 92100,
+      "farmland_mu": 8524300,
+      "bounds": {
+        "population": [
+          354620,
+          658580
+        ],
+        "households": [
+          64470,
+          119730
+        ],
+        "farmland_mu": [
+          5967010,
+          11081590
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_fengxiang",
+        "domain_id": "zhou_fengxiang",
+        "population": 50660,
+        "households": 9210
+      },
+      "scope_note": "当前地图将陈仓单列；凤翔统计片区不含陈仓，二者为互斥游戏分区，非两个历史州。"
+    },
+    "v02:唐:京畿道:anchor_zhou_huazhou": {
+      "place_id": "v02:唐:京畿道:anchor_zhou_huazhou",
+      "region_id": "region:唐:京畿道",
+      "name": "华州",
+      "population": 493800,
+      "households": 89700,
+      "farmland_mu": 8308900,
+      "bounds": {
+        "population": [
+          345660,
+          641940
+        ],
+        "households": [
+          62790,
+          116610
+        ],
+        "farmland_mu": [
+          5816230,
+          10801570
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_huazhou",
+        "domain_id": "zhou_huazhou",
+        "population": 49380,
+        "households": 8970
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:京畿道:anchor_zhou_tongzhou": {
+      "place_id": "v02:唐:京畿道:anchor_zhou_tongzhou",
+      "region_id": "region:唐:京畿道",
+      "name": "同州",
+      "population": 416500,
+      "households": 75700,
+      "farmland_mu": 7008200,
+      "bounds": {
+        "population": [
+          291550,
+          541450
+        ],
+        "households": [
+          52990,
+          98410
+        ],
+        "farmland_mu": [
+          4905740,
+          9110660
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_tongzhou",
+        "domain_id": "zhou_tongzhou",
+        "population": 41650,
+        "households": 7570
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:京畿道:ccsg03_chencang": {
+      "place_id": "v02:唐:京畿道:ccsg03_chencang",
+      "region_id": "region:唐:京畿道",
+      "name": "陈仓",
+      "population": 85800,
+      "households": 15600,
+      "farmland_mu": 1443700,
+      "bounds": {
+        "population": [
+          60060,
+          111540
+        ],
+        "households": [
+          10920,
+          20280
+        ],
+        "farmland_mu": [
+          1010590,
+          1876810
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:ccsg03_chencang",
+        "domain_id": "zhou_chencang",
+        "population": 8580,
+        "households": 1560
+      },
+      "scope_note": "当前地图将陈仓单列；凤翔统计片区不含陈仓，二者为互斥游戏分区，非两个历史州。"
+    },
+    "v02:唐:都畿道:anchor_luoyang_rumor_node": {
+      "place_id": "v02:唐:都畿道:anchor_luoyang_rumor_node",
+      "region_id": "region:唐:都畿道",
+      "name": "洛阳",
+      "population": 946400,
+      "households": 155700,
+      "farmland_mu": 17915200,
+      "bounds": {
+        "population": [
+          662480,
+          1230320
+        ],
+        "households": [
+          108990,
+          202410
+        ],
+        "farmland_mu": [
+          12540640,
+          23289760
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1",
+        "jiutangshu_38_henan"
+      ],
+      "historical_source_id": "jiutangshu_38_henan",
+      "anchor_adjustment_percent": 80,
+      "city_share_percent": 25,
+      "city": {
+        "place_id": "city:anchor_luoyang_rumor_node",
+        "domain_id": "luoyang_rumor_node",
+        "population": 236600,
+        "households": 38925
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:都畿道:anchor_zhou_shanzhou": {
+      "place_id": "v02:唐:都畿道:anchor_zhou_shanzhou",
+      "region_id": "region:唐:都畿道",
+      "name": "陕州",
+      "population": 388800,
+      "households": 70600,
+      "farmland_mu": 7359900,
+      "bounds": {
+        "population": [
+          272160,
+          505440
+        ],
+        "households": [
+          49420,
+          91780
+        ],
+        "farmland_mu": [
+          5151930,
+          9567870
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_shanzhou",
+        "domain_id": "zhou_shanzhou",
+        "population": 38880,
+        "households": 7060
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:都畿道:anchor_zhou_zhengzhou": {
+      "place_id": "v02:唐:都畿道:anchor_zhou_zhengzhou",
+      "region_id": "region:唐:都畿道",
+      "name": "郑州",
+      "population": 364700,
+      "households": 66300,
+      "farmland_mu": 6903700,
+      "bounds": {
+        "population": [
+          255290,
+          474110
+        ],
+        "households": [
+          46410,
+          86190
+        ],
+        "farmland_mu": [
+          4832590,
+          8974810
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_zhengzhou",
+        "domain_id": "zhou_zhengzhou",
+        "population": 36470,
+        "households": 6630
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:关内道:anchor_lingwu_court_node": {
+      "place_id": "v02:唐:关内道:anchor_lingwu_court_node",
+      "region_id": "region:唐:关内道",
+      "name": "灵武",
+      "population": 58400,
+      "households": 12600,
+      "farmland_mu": 1228300,
+      "bounds": {
+        "population": [
+          40880,
+          75920
+        ],
+        "households": [
+          8820,
+          16380
+        ],
+        "farmland_mu": [
+          859810,
+          1596790
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1",
+        "jiutangshu_38_lingzhou"
+      ],
+      "historical_source_id": "jiutangshu_38_lingzhou",
+      "anchor_adjustment_percent": 110,
+      "city_share_percent": 20,
+      "city": {
+        "place_id": "city:anchor_lingwu_court_node",
+        "domain_id": "lingwu_court_node",
+        "population": 11680,
+        "households": 2520
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:关内道:anchor_zhou_jingzhou": {
+      "place_id": "v02:唐:关内道:anchor_zhou_jingzhou",
+      "region_id": "region:唐:关内道",
+      "name": "泾州",
+      "population": 165200,
+      "households": 30000,
+      "farmland_mu": 3474600,
+      "bounds": {
+        "population": [
+          115640,
+          214760
+        ],
+        "households": [
+          21000,
+          39000
+        ],
+        "farmland_mu": [
+          2432220,
+          4516980
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_jingzhou",
+        "domain_id": "zhou_jingzhou",
+        "population": 16520,
+        "households": 3000
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:关内道:anchor_zhou_qingzhou_west": {
+      "place_id": "v02:唐:关内道:anchor_zhou_qingzhou_west",
+      "region_id": "region:唐:关内道",
+      "name": "庆州",
+      "population": 189000,
+      "households": 34300,
+      "farmland_mu": 3975200,
+      "bounds": {
+        "population": [
+          132300,
+          245700
+        ],
+        "households": [
+          24010,
+          44590
+        ],
+        "farmland_mu": [
+          2782640,
+          5167760
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_qingzhou_west",
+        "domain_id": "zhou_qingzhou_west",
+        "population": 18900,
+        "households": 3430
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:关内道:anchor_zhou_yanzhou_north": {
+      "place_id": "v02:唐:关内道:anchor_zhou_yanzhou_north",
+      "region_id": "region:唐:关内道",
+      "name": "延州",
+      "population": 149900,
+      "households": 27200,
+      "farmland_mu": 3152800,
+      "bounds": {
+        "population": [
+          104930,
+          194870
+        ],
+        "households": [
+          19040,
+          35360
+        ],
+        "farmland_mu": [
+          2206960,
+          4098640
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_yanzhou_north",
+        "domain_id": "zhou_yanzhou_north",
+        "population": 14990,
+        "households": 2720
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:关内道:anchor_zhou_yuanzhou": {
+      "place_id": "v02:唐:关内道:anchor_zhou_yuanzhou",
+      "region_id": "region:唐:关内道",
+      "name": "原州",
+      "population": 187300,
+      "households": 34000,
+      "farmland_mu": 3939500,
+      "bounds": {
+        "population": [
+          131110,
+          243490
+        ],
+        "households": [
+          23800,
+          44200
+        ],
+        "farmland_mu": [
+          2757650,
+          5121350
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_yuanzhou",
+        "domain_id": "zhou_yuanzhou",
+        "population": 18730,
+        "households": 3400
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河南道:anchor_suiyang_hub_node": {
+      "place_id": "v02:唐:河南道:anchor_suiyang_hub_node",
+      "region_id": "region:唐:河南道",
+      "name": "宋州（睢阳）",
+      "population": 381000,
+      "households": 69200,
+      "farmland_mu": 7212300,
+      "bounds": {
+        "population": [
+          266700,
+          495300
+        ],
+        "households": [
+          48440,
+          89960
+        ],
+        "farmland_mu": [
+          5048610,
+          9375990
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_suiyang_hub_node",
+        "domain_id": "suiyang_hub_node",
+        "population": 38100,
+        "households": 6920
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河南道:anchor_zhou_bianzhou": {
+      "place_id": "v02:唐:河南道:anchor_zhou_bianzhou",
+      "region_id": "region:唐:河南道",
+      "name": "汴州",
+      "population": 358000,
+      "households": 65000,
+      "farmland_mu": 6776900,
+      "bounds": {
+        "population": [
+          250600,
+          465400
+        ],
+        "households": [
+          45500,
+          84500
+        ],
+        "farmland_mu": [
+          4743830,
+          8809970
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_bianzhou",
+        "domain_id": "zhou_bianzhou",
+        "population": 35800,
+        "households": 6500
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河南道:anchor_zhou_caozhou": {
+      "place_id": "v02:唐:河南道:anchor_zhou_caozhou",
+      "region_id": "region:唐:河南道",
+      "name": "曹州",
+      "population": 351400,
+      "households": 63800,
+      "farmland_mu": 6651900,
+      "bounds": {
+        "population": [
+          245980,
+          456820
+        ],
+        "households": [
+          44660,
+          82940
+        ],
+        "farmland_mu": [
+          4656330,
+          8647470
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_caozhou",
+        "domain_id": "zhou_caozhou",
+        "population": 35140,
+        "households": 6380
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河南道:anchor_zhou_dengzhou": {
+      "place_id": "v02:唐:河南道:anchor_zhou_dengzhou",
+      "region_id": "region:唐:河南道",
+      "name": "登州",
+      "population": 381000,
+      "households": 69200,
+      "farmland_mu": 7212300,
+      "bounds": {
+        "population": [
+          266700,
+          495300
+        ],
+        "households": [
+          48440,
+          89960
+        ],
+        "farmland_mu": [
+          5048610,
+          9375990
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_dengzhou",
+        "domain_id": "zhou_dengzhou",
+        "population": 38100,
+        "households": 6920
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河南道:anchor_zhou_laizhou": {
+      "place_id": "v02:唐:河南道:anchor_zhou_laizhou",
+      "region_id": "region:唐:河南道",
+      "name": "莱州",
+      "population": 387600,
+      "households": 70400,
+      "farmland_mu": 7337200,
+      "bounds": {
+        "population": [
+          271320,
+          503880
+        ],
+        "households": [
+          49280,
+          91520
+        ],
+        "farmland_mu": [
+          5136040,
+          9538360
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_laizhou",
+        "domain_id": "zhou_laizhou",
+        "population": 38760,
+        "households": 7040
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河南道:anchor_zhou_puzhou_henan": {
+      "place_id": "v02:唐:河南道:anchor_zhou_puzhou_henan",
+      "region_id": "region:唐:河南道",
+      "name": "濮州",
+      "population": 289000,
+      "households": 52500,
+      "farmland_mu": 5470700,
+      "bounds": {
+        "population": [
+          202300,
+          375700
+        ],
+        "households": [
+          36750,
+          68250
+        ],
+        "farmland_mu": [
+          3829490,
+          7111910
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_puzhou_henan",
+        "domain_id": "zhou_puzhou_henan",
+        "population": 28900,
+        "households": 5250
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河南道:anchor_zhou_qingzhou_east": {
+      "place_id": "v02:唐:河南道:anchor_zhou_qingzhou_east",
+      "region_id": "region:唐:河南道",
+      "name": "青州",
+      "population": 374400,
+      "households": 68000,
+      "farmland_mu": 7087300,
+      "bounds": {
+        "population": [
+          262080,
+          486720
+        ],
+        "households": [
+          47600,
+          88400
+        ],
+        "farmland_mu": [
+          4961110,
+          9213490
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_qingzhou_east",
+        "domain_id": "zhou_qingzhou_east",
+        "population": 37440,
+        "households": 6800
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河南道:anchor_zhou_qizhou": {
+      "place_id": "v02:唐:河南道:anchor_zhou_qizhou",
+      "region_id": "region:唐:河南道",
+      "name": "齐州",
+      "population": 358000,
+      "households": 65000,
+      "farmland_mu": 6776900,
+      "bounds": {
+        "population": [
+          250600,
+          465400
+        ],
+        "households": [
+          45500,
+          84500
+        ],
+        "farmland_mu": [
+          4743830,
+          8809970
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_qizhou",
+        "domain_id": "zhou_qizhou",
+        "population": 35800,
+        "households": 6500
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河南道:anchor_zhou_xuzhou_henan": {
+      "place_id": "v02:唐:河南道:anchor_zhou_xuzhou_henan",
+      "region_id": "region:唐:河南道",
+      "name": "许州",
+      "population": 302200,
+      "households": 54900,
+      "farmland_mu": 5720600,
+      "bounds": {
+        "population": [
+          211540,
+          392860
+        ],
+        "households": [
+          38430,
+          71370
+        ],
+        "farmland_mu": [
+          4004420,
+          7436780
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_xuzhou_henan",
+        "domain_id": "zhou_xuzhou_henan",
+        "population": 30220,
+        "households": 5490
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河南道:anchor_zhou_yanzhou_east": {
+      "place_id": "v02:唐:河南道:anchor_zhou_yanzhou_east",
+      "region_id": "region:唐:河南道",
+      "name": "兖州",
+      "population": 331700,
+      "households": 60300,
+      "farmland_mu": 6279000,
+      "bounds": {
+        "population": [
+          232190,
+          431210
+        ],
+        "households": [
+          42210,
+          78390
+        ],
+        "farmland_mu": [
+          4395300,
+          8162700
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_yanzhou_east",
+        "domain_id": "zhou_yanzhou_east",
+        "population": 33170,
+        "households": 6030
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河南道:anchor_zhou_yunzhou": {
+      "place_id": "v02:唐:河南道:anchor_zhou_yunzhou",
+      "region_id": "region:唐:河南道",
+      "name": "郓州",
+      "population": 335000,
+      "households": 60900,
+      "farmland_mu": 6341500,
+      "bounds": {
+        "population": [
+          234500,
+          435500
+        ],
+        "households": [
+          42630,
+          79170
+        ],
+        "farmland_mu": [
+          4439050,
+          8243950
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_yunzhou",
+        "domain_id": "zhou_yunzhou",
+        "population": 33500,
+        "households": 6090
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河东道:anchor_taiyuan_hub_node": {
+      "place_id": "v02:唐:河东道:anchor_taiyuan_hub_node",
+      "region_id": "region:唐:河东道",
+      "name": "太原",
+      "population": 199000,
+      "households": 36100,
+      "farmland_mu": 3767000,
+      "bounds": {
+        "population": [
+          139300,
+          258700
+        ],
+        "households": [
+          25270,
+          46930
+        ],
+        "farmland_mu": [
+          2636900,
+          4897100
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_taiyuan_hub_node",
+        "domain_id": "taiyuan_hub_node",
+        "population": 19900,
+        "households": 3610
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河东道:anchor_zhou_daizhou": {
+      "place_id": "v02:唐:河东道:anchor_zhou_daizhou",
+      "region_id": "region:唐:河东道",
+      "name": "代州",
+      "population": 249900,
+      "households": 45400,
+      "farmland_mu": 4730500,
+      "bounds": {
+        "population": [
+          174930,
+          324870
+        ],
+        "households": [
+          31780,
+          59020
+        ],
+        "farmland_mu": [
+          3311350,
+          6149650
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_daizhou",
+        "domain_id": "zhou_daizhou",
+        "population": 24990,
+        "households": 4540
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河东道:anchor_zhou_fenzhou": {
+      "place_id": "v02:唐:河东道:anchor_zhou_fenzhou",
+      "region_id": "region:唐:河东道",
+      "name": "汾州",
+      "population": 233700,
+      "households": 42400,
+      "farmland_mu": 4423900,
+      "bounds": {
+        "population": [
+          163590,
+          303810
+        ],
+        "households": [
+          29680,
+          55120
+        ],
+        "farmland_mu": [
+          3096730,
+          5751070
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_fenzhou",
+        "domain_id": "zhou_fenzhou",
+        "population": 23370,
+        "households": 4240
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河东道:anchor_zhou_jiangzhou": {
+      "place_id": "v02:唐:河东道:anchor_zhou_jiangzhou",
+      "region_id": "region:唐:河东道",
+      "name": "绛州",
+      "population": 247600,
+      "households": 45000,
+      "farmland_mu": 4687000,
+      "bounds": {
+        "population": [
+          173320,
+          321880
+        ],
+        "households": [
+          31500,
+          58500
+        ],
+        "farmland_mu": [
+          3280900,
+          6093100
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_jiangzhou",
+        "domain_id": "zhou_jiangzhou",
+        "population": 24760,
+        "households": 4500
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河东道:anchor_zhou_jinzhou": {
+      "place_id": "v02:唐:河东道:anchor_zhou_jinzhou",
+      "region_id": "region:唐:河东道",
+      "name": "晋州",
+      "population": 273000,
+      "households": 49600,
+      "farmland_mu": 5167800,
+      "bounds": {
+        "population": [
+          191100,
+          354900
+        ],
+        "households": [
+          34720,
+          64480
+        ],
+        "farmland_mu": [
+          3617460,
+          6718140
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_jinzhou",
+        "domain_id": "zhou_jinzhou",
+        "population": 27300,
+        "households": 4960
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河东道:anchor_zhou_luzhou": {
+      "place_id": "v02:唐:河东道:anchor_zhou_luzhou",
+      "region_id": "region:唐:河东道",
+      "name": "潞州",
+      "population": 217500,
+      "households": 39500,
+      "farmland_mu": 4117200,
+      "bounds": {
+        "population": [
+          152250,
+          282750
+        ],
+        "households": [
+          27650,
+          51350
+        ],
+        "farmland_mu": [
+          2882040,
+          5352360
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_luzhou",
+        "domain_id": "zhou_luzhou",
+        "population": 21750,
+        "households": 3950
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河东道:anchor_zhou_puzhou_hedong": {
+      "place_id": "v02:唐:河东道:anchor_zhou_puzhou_hedong",
+      "region_id": "region:唐:河东道",
+      "name": "蒲州",
+      "population": 270700,
+      "households": 49200,
+      "farmland_mu": 5124300,
+      "bounds": {
+        "population": [
+          189490,
+          351910
+        ],
+        "households": [
+          34440,
+          63960
+        ],
+        "farmland_mu": [
+          3587010,
+          6661590
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_puzhou_hedong",
+        "domain_id": "zhou_puzhou_hedong",
+        "population": 27070,
+        "households": 4920
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河东道:anchor_zhou_shuozhou": {
+      "place_id": "v02:唐:河东道:anchor_zhou_shuozhou",
+      "region_id": "region:唐:河东道",
+      "name": "朔州",
+      "population": 266100,
+      "households": 48300,
+      "farmland_mu": 5037200,
+      "bounds": {
+        "population": [
+          186270,
+          345930
+        ],
+        "households": [
+          33810,
+          62790
+        ],
+        "farmland_mu": [
+          3526040,
+          6548360
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_shuozhou",
+        "domain_id": "zhou_shuozhou",
+        "population": 26610,
+        "households": 4830
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河东道:anchor_zhou_weizhou_hedong": {
+      "place_id": "v02:唐:河东道:anchor_zhou_weizhou_hedong",
+      "region_id": "region:唐:河东道",
+      "name": "蔚州",
+      "population": 201300,
+      "households": 36600,
+      "farmland_mu": 3810500,
+      "bounds": {
+        "population": [
+          140910,
+          261690
+        ],
+        "households": [
+          25620,
+          47580
+        ],
+        "farmland_mu": [
+          2667350,
+          4953650
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_weizhou_hedong",
+        "domain_id": "zhou_weizhou_hedong",
+        "population": 20130,
+        "households": 3660
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河东道:anchor_zhou_yunzhou_north": {
+      "place_id": "v02:唐:河东道:anchor_zhou_yunzhou_north",
+      "region_id": "region:唐:河东道",
+      "name": "云州",
+      "population": 240600,
+      "households": 43700,
+      "farmland_mu": 4554500,
+      "bounds": {
+        "population": [
+          168420,
+          312780
+        ],
+        "households": [
+          30590,
+          56810
+        ],
+        "farmland_mu": [
+          3188150,
+          5920850
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_yunzhou_north",
+        "domain_id": "zhou_yunzhou_north",
+        "population": 24060,
+        "households": 4370
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河北道:anchor_hebei_rebel_signal_node": {
+      "place_id": "v02:唐:河北道:anchor_hebei_rebel_signal_node",
+      "region_id": "region:唐:河北道",
+      "name": "常山",
+      "population": 427700,
+      "households": 77700,
+      "farmland_mu": 8546100,
+      "bounds": {
+        "population": [
+          299390,
+          556010
+        ],
+        "households": [
+          54390,
+          101010
+        ],
+        "farmland_mu": [
+          5982270,
+          11109930
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_hebei_rebel_signal_node",
+        "domain_id": "hebei_rebel_signal_node",
+        "population": 42770,
+        "households": 7770
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河北道:anchor_zhou_beizhou": {
+      "place_id": "v02:唐:河北道:anchor_zhou_beizhou",
+      "region_id": "region:唐:河北道",
+      "name": "贝州",
+      "population": 322700,
+      "households": 58600,
+      "farmland_mu": 6448000,
+      "bounds": {
+        "population": [
+          225890,
+          419510
+        ],
+        "households": [
+          41020,
+          76180
+        ],
+        "farmland_mu": [
+          4513600,
+          8382400
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_beizhou",
+        "domain_id": "zhou_beizhou",
+        "population": 32270,
+        "households": 5860
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河北道:anchor_zhou_bozhou_hebei": {
+      "place_id": "v02:唐:河北道:anchor_zhou_bozhou_hebei",
+      "region_id": "region:唐:河北道",
+      "name": "博州",
+      "population": 416100,
+      "households": 75600,
+      "farmland_mu": 8314300,
+      "bounds": {
+        "population": [
+          291270,
+          540930
+        ],
+        "households": [
+          52920,
+          98280
+        ],
+        "farmland_mu": [
+          5820010,
+          10808590
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_bozhou_hebei",
+        "domain_id": "zhou_bozhou_hebei",
+        "population": 41610,
+        "households": 7560
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河北道:anchor_zhou_cangzhou": {
+      "place_id": "v02:唐:河北道:anchor_zhou_cangzhou",
+      "region_id": "region:唐:河北道",
+      "name": "沧州",
+      "population": 318800,
+      "households": 57900,
+      "farmland_mu": 6370100,
+      "bounds": {
+        "population": [
+          223160,
+          414440
+        ],
+        "households": [
+          40530,
+          75270
+        ],
+        "farmland_mu": [
+          4459070,
+          8281130
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_cangzhou",
+        "domain_id": "zhou_cangzhou",
+        "population": 31880,
+        "households": 5790
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河北道:anchor_zhou_dezhou": {
+      "place_id": "v02:唐:河北道:anchor_zhou_dezhou",
+      "region_id": "region:唐:河北道",
+      "name": "德州",
+      "population": 338300,
+      "households": 61500,
+      "farmland_mu": 6759700,
+      "bounds": {
+        "population": [
+          236810,
+          439790
+        ],
+        "households": [
+          43050,
+          79950
+        ],
+        "farmland_mu": [
+          4731790,
+          8787610
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_dezhou",
+        "domain_id": "zhou_dezhou",
+        "population": 33830,
+        "households": 6150
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河北道:anchor_zhou_dingzhou": {
+      "place_id": "v02:唐:河北道:anchor_zhou_dingzhou",
+      "region_id": "region:唐:河北道",
+      "name": "定州",
+      "population": 315000,
+      "households": 57200,
+      "farmland_mu": 6294100,
+      "bounds": {
+        "population": [
+          220500,
+          409500
+        ],
+        "households": [
+          40040,
+          74360
+        ],
+        "farmland_mu": [
+          4405870,
+          8182330
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_dingzhou",
+        "domain_id": "zhou_dingzhou",
+        "population": 31500,
+        "households": 5720
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河北道:anchor_zhou_jizhou": {
+      "place_id": "v02:唐:河北道:anchor_zhou_jizhou",
+      "region_id": "region:唐:河北道",
+      "name": "冀州",
+      "population": 462700,
+      "households": 84100,
+      "farmland_mu": 9245400,
+      "bounds": {
+        "population": [
+          323890,
+          601510
+        ],
+        "households": [
+          58870,
+          109330
+        ],
+        "farmland_mu": [
+          6471780,
+          12019020
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_jizhou",
+        "domain_id": "zhou_jizhou",
+        "population": 46270,
+        "households": 8410
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河北道:anchor_zhou_mozhou": {
+      "place_id": "v02:唐:河北道:anchor_zhou_mozhou",
+      "region_id": "region:唐:河北道",
+      "name": "莫州",
+      "population": 311100,
+      "households": 56500,
+      "farmland_mu": 6216200,
+      "bounds": {
+        "population": [
+          217770,
+          404430
+        ],
+        "households": [
+          39550,
+          73450
+        ],
+        "farmland_mu": [
+          4351340,
+          8081060
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_mozhou",
+        "domain_id": "zhou_mozhou",
+        "population": 31110,
+        "households": 5650
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河北道:anchor_zhou_weizhou": {
+      "place_id": "v02:唐:河北道:anchor_zhou_weizhou",
+      "region_id": "region:唐:河北道",
+      "name": "魏州",
+      "population": 435500,
+      "households": 79100,
+      "farmland_mu": 8701900,
+      "bounds": {
+        "population": [
+          304850,
+          566150
+        ],
+        "households": [
+          55370,
+          102830
+        ],
+        "farmland_mu": [
+          6091330,
+          11312470
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_weizhou",
+        "domain_id": "zhou_weizhou",
+        "population": 43550,
+        "households": 7910
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河北道:anchor_zhou_xiangzhou_north": {
+      "place_id": "v02:唐:河北道:anchor_zhou_xiangzhou_north",
+      "region_id": "region:唐:河北道",
+      "name": "相州",
+      "population": 439400,
+      "households": 79800,
+      "farmland_mu": 8779900,
+      "bounds": {
+        "population": [
+          307580,
+          571220
+        ],
+        "households": [
+          55860,
+          103740
+        ],
+        "farmland_mu": [
+          6145930,
+          11413870
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_xiangzhou_north",
+        "domain_id": "zhou_xiangzhou_north",
+        "population": 43940,
+        "households": 7980
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河北道:anchor_zhou_yingzhou": {
+      "place_id": "v02:唐:河北道:anchor_zhou_yingzhou",
+      "region_id": "region:唐:河北道",
+      "name": "瀛州",
+      "population": 408300,
+      "households": 74200,
+      "farmland_mu": 8158400,
+      "bounds": {
+        "population": [
+          285810,
+          530790
+        ],
+        "households": [
+          51940,
+          96460
+        ],
+        "farmland_mu": [
+          5710880,
+          10605920
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_yingzhou",
+        "domain_id": "zhou_yingzhou",
+        "population": 40830,
+        "households": 7420
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:河北道:anchor_zhou_youzhou": {
+      "place_id": "v02:唐:河北道:anchor_zhou_youzhou",
+      "region_id": "region:唐:河北道",
+      "name": "幽州",
+      "population": 353800,
+      "households": 64300,
+      "farmland_mu": 7069400,
+      "bounds": {
+        "population": [
+          247660,
+          459940
+        ],
+        "households": [
+          45010,
+          83590
+        ],
+        "farmland_mu": [
+          4948580,
+          9190220
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_youzhou",
+        "domain_id": "zhou_youzhou",
+        "population": 35380,
+        "households": 6430
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:山南东道:anchor_refugee_market_node": {
+      "place_id": "v02:唐:山南东道:anchor_refugee_market_node",
+      "region_id": "region:唐:山南东道",
+      "name": "商洛",
+      "population": 230400,
+      "households": 41800,
+      "farmland_mu": 3392200,
+      "bounds": {
+        "population": [
+          161280,
+          299520
+        ],
+        "households": [
+          29260,
+          54340
+        ],
+        "farmland_mu": [
+          2374540,
+          4409860
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_refugee_market_node",
+        "domain_id": "refugee_market_node",
+        "population": 23040,
+        "households": 4180
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:山南东道:anchor_zhou_jinzhou_south": {
+      "place_id": "v02:唐:山南东道:anchor_zhou_jinzhou_south",
+      "region_id": "region:唐:山南东道",
+      "name": "金州",
+      "population": 219500,
+      "households": 39900,
+      "farmland_mu": 3231700,
+      "bounds": {
+        "population": [
+          153650,
+          285350
+        ],
+        "households": [
+          27930,
+          51870
+        ],
+        "farmland_mu": [
+          2262190,
+          4201210
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_jinzhou_south",
+        "domain_id": "zhou_jinzhou_south",
+        "population": 21950,
+        "households": 3990
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:山南西道:anchor_zhou_liangzhou_south": {
+      "place_id": "v02:唐:山南西道:anchor_zhou_liangzhou_south",
+      "region_id": "region:唐:山南西道",
+      "name": "梁州",
+      "population": 223000,
+      "households": 40500,
+      "farmland_mu": 3048700,
+      "bounds": {
+        "population": [
+          156100,
+          289900
+        ],
+        "households": [
+          28350,
+          52650
+        ],
+        "farmland_mu": [
+          2134090,
+          3963310
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_liangzhou_south",
+        "domain_id": "zhou_liangzhou_south",
+        "population": 22300,
+        "households": 4050
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:山南西道:anchor_zhou_yangzhou_west": {
+      "place_id": "v02:唐:山南西道:anchor_zhou_yangzhou_west",
+      "region_id": "region:唐:山南西道",
+      "name": "洋州",
+      "population": 177600,
+      "households": 32200,
+      "farmland_mu": 2428000,
+      "bounds": {
+        "population": [
+          124320,
+          230880
+        ],
+        "households": [
+          22540,
+          41860
+        ],
+        "farmland_mu": [
+          1699600,
+          3156400
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_yangzhou_west",
+        "domain_id": "zhou_yangzhou_west",
+        "population": 17760,
+        "households": 3220
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:山南西道:ccsg03_fengzhou": {
+      "place_id": "v02:唐:山南西道:ccsg03_fengzhou",
+      "region_id": "region:唐:山南西道",
+      "name": "凤州",
+      "population": 199300,
+      "households": 36200,
+      "farmland_mu": 2724700,
+      "bounds": {
+        "population": [
+          139510,
+          259090
+        ],
+        "households": [
+          25340,
+          47060
+        ],
+        "farmland_mu": [
+          1907290,
+          3542110
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:ccsg03_fengzhou",
+        "domain_id": "zhou_fengzhou",
+        "population": 19930,
+        "households": 3620
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:陇右道:anchor_desert_envoy_road_node": {
+      "place_id": "v02:唐:陇右道:anchor_desert_envoy_road_node",
+      "region_id": "region:唐:陇右道",
+      "name": "凉州",
+      "population": 106400,
+      "households": 19300,
+      "farmland_mu": 2237900,
+      "bounds": {
+        "population": [
+          74480,
+          138320
+        ],
+        "households": [
+          13510,
+          25090
+        ],
+        "farmland_mu": [
+          1566530,
+          2909270
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_desert_envoy_road_node",
+        "domain_id": "desert_envoy_road_node",
+        "population": 10640,
+        "households": 1930
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:陇右道:anchor_zhou_lanzhou": {
+      "place_id": "v02:唐:陇右道:anchor_zhou_lanzhou",
+      "region_id": "region:唐:陇右道",
+      "name": "兰州",
+      "population": 101900,
+      "households": 18500,
+      "farmland_mu": 2143200,
+      "bounds": {
+        "population": [
+          71330,
+          132470
+        ],
+        "households": [
+          12950,
+          24050
+        ],
+        "farmland_mu": [
+          1500240,
+          2786160
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_lanzhou",
+        "domain_id": "zhou_lanzhou",
+        "population": 10190,
+        "households": 1850
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:陇右道:anchor_zhou_qinzhou": {
+      "place_id": "v02:唐:陇右道:anchor_zhou_qinzhou",
+      "region_id": "region:唐:陇右道",
+      "name": "秦州",
+      "population": 127000,
+      "households": 23000,
+      "farmland_mu": 2671200,
+      "bounds": {
+        "population": [
+          88900,
+          165100
+        ],
+        "households": [
+          16100,
+          29900
+        ],
+        "farmland_mu": [
+          1869840,
+          3472560
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_qinzhou",
+        "domain_id": "zhou_qinzhou",
+        "population": 12700,
+        "households": 2300
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:陇右道:anchor_zhou_shanzhou_west": {
+      "place_id": "v02:唐:陇右道:anchor_zhou_shanzhou_west",
+      "region_id": "region:唐:陇右道",
+      "name": "鄯州",
+      "population": 129300,
+      "households": 23500,
+      "farmland_mu": 2719500,
+      "bounds": {
+        "population": [
+          90510,
+          168090
+        ],
+        "households": [
+          16450,
+          30550
+        ],
+        "farmland_mu": [
+          1903650,
+          3535350
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_shanzhou_west",
+        "domain_id": "zhou_shanzhou_west",
+        "population": 12930,
+        "households": 2350
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:陇右道:anchor_zhou_weizhou_west": {
+      "place_id": "v02:唐:陇右道:anchor_zhou_weizhou_west",
+      "region_id": "region:唐:陇右道",
+      "name": "渭州",
+      "population": 135100,
+      "households": 24500,
+      "farmland_mu": 2841500,
+      "bounds": {
+        "population": [
+          94570,
+          175630
+        ],
+        "households": [
+          17150,
+          31850
+        ],
+        "farmland_mu": [
+          1989050,
+          3693950
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_weizhou_west",
+        "domain_id": "zhou_weizhou_west",
+        "population": 13510,
+        "households": 2450
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:淮南道:anchor_yangzhou_tribute_hub_node": {
+      "place_id": "v02:唐:淮南道:anchor_yangzhou_tribute_hub_node",
+      "region_id": "region:唐:淮南道",
+      "name": "扬州",
+      "population": 405600,
+      "households": 73700,
+      "farmland_mu": 6824800,
+      "bounds": {
+        "population": [
+          283920,
+          527280
+        ],
+        "households": [
+          51590,
+          95810
+        ],
+        "farmland_mu": [
+          4777360,
+          8872240
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_yangzhou_tribute_hub_node",
+        "domain_id": "yangzhou_tribute_hub_node",
+        "population": 40560,
+        "households": 7370
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:淮南道:anchor_zhou_chuzhou": {
+      "place_id": "v02:唐:淮南道:anchor_zhou_chuzhou",
+      "region_id": "region:唐:淮南道",
+      "name": "楚州",
+      "population": 377800,
+      "households": 68600,
+      "farmland_mu": 6357000,
+      "bounds": {
+        "population": [
+          264460,
+          491140
+        ],
+        "households": [
+          48020,
+          89180
+        ],
+        "farmland_mu": [
+          4449900,
+          8264100
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_chuzhou",
+        "domain_id": "zhou_chuzhou",
+        "population": 37780,
+        "households": 6860
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:淮南道:anchor_zhou_luzhou_south": {
+      "place_id": "v02:唐:淮南道:anchor_zhou_luzhou_south",
+      "region_id": "region:唐:淮南道",
+      "name": "庐州",
+      "population": 322100,
+      "households": 58500,
+      "farmland_mu": 5419800,
+      "bounds": {
+        "population": [
+          225470,
+          418730
+        ],
+        "households": [
+          40950,
+          76050
+        ],
+        "farmland_mu": [
+          3793860,
+          7045740
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_luzhou_south",
+        "domain_id": "zhou_luzhou_south",
+        "population": 32210,
+        "households": 5850
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:淮南道:anchor_zhou_shouzhou": {
+      "place_id": "v02:唐:淮南道:anchor_zhou_shouzhou",
+      "region_id": "region:唐:淮南道",
+      "name": "寿州",
+      "population": 469300,
+      "households": 85300,
+      "farmland_mu": 7896700,
+      "bounds": {
+        "population": [
+          328510,
+          610090
+        ],
+        "households": [
+          59710,
+          110890
+        ],
+        "farmland_mu": [
+          5527690,
+          10265710
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_shouzhou",
+        "domain_id": "zhou_shouzhou",
+        "population": 46930,
+        "households": 8530
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:江南东道:anchor_zhou_fuzhou": {
+      "place_id": "v02:唐:江南东道:anchor_zhou_fuzhou",
+      "region_id": "region:唐:江南东道",
+      "name": "福州",
+      "population": 368400,
+      "households": 66900,
+      "farmland_mu": 4649100,
+      "bounds": {
+        "population": [
+          257880,
+          478920
+        ],
+        "households": [
+          46830,
+          86970
+        ],
+        "farmland_mu": [
+          3254370,
+          6043830
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_fuzhou",
+        "domain_id": "zhou_fuzhou",
+        "population": 36840,
+        "households": 6690
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:江南东道:anchor_zhou_hangzhou": {
+      "place_id": "v02:唐:江南东道:anchor_zhou_hangzhou",
+      "region_id": "region:唐:江南东道",
+      "name": "杭州",
+      "population": 379500,
+      "households": 69000,
+      "farmland_mu": 4789200,
+      "bounds": {
+        "population": [
+          265650,
+          493350
+        ],
+        "households": [
+          48300,
+          89700
+        ],
+        "farmland_mu": [
+          3352440,
+          6225960
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_hangzhou",
+        "domain_id": "zhou_hangzhou",
+        "population": 37950,
+        "households": 6900
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:江南东道:anchor_zhou_huzhou": {
+      "place_id": "v02:唐:江南东道:anchor_zhou_huzhou",
+      "region_id": "region:唐:江南东道",
+      "name": "湖州",
+      "population": 424200,
+      "households": 77100,
+      "farmland_mu": 5353300,
+      "bounds": {
+        "population": [
+          296940,
+          551460
+        ],
+        "households": [
+          53970,
+          100230
+        ],
+        "farmland_mu": [
+          3747310,
+          6959290
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_huzhou",
+        "domain_id": "zhou_huzhou",
+        "population": 42420,
+        "households": 7710
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:江南东道:anchor_zhou_quanzhou": {
+      "place_id": "v02:唐:江南东道:anchor_zhou_quanzhou",
+      "region_id": "region:唐:江南东道",
+      "name": "泉州",
+      "population": 416700,
+      "households": 75700,
+      "farmland_mu": 5258700,
+      "bounds": {
+        "population": [
+          291690,
+          541710
+        ],
+        "households": [
+          52990,
+          98410
+        ],
+        "farmland_mu": [
+          3681090,
+          6836310
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_quanzhou",
+        "domain_id": "zhou_quanzhou",
+        "population": 41670,
+        "households": 7570
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:江南东道:anchor_zhou_runzhou": {
+      "place_id": "v02:唐:江南东道:anchor_zhou_runzhou",
+      "region_id": "region:唐:江南东道",
+      "name": "润州",
+      "population": 431600,
+      "households": 78400,
+      "farmland_mu": 5446700,
+      "bounds": {
+        "population": [
+          302120,
+          561080
+        ],
+        "households": [
+          54880,
+          101920
+        ],
+        "farmland_mu": [
+          3812690,
+          7080710
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_runzhou",
+        "domain_id": "zhou_runzhou",
+        "population": 43160,
+        "households": 7840
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:江南东道:anchor_zhou_suzhou": {
+      "place_id": "v02:唐:江南东道:anchor_zhou_suzhou",
+      "region_id": "region:唐:江南东道",
+      "name": "苏州",
+      "population": 320000,
+      "households": 58100,
+      "farmland_mu": 4038300,
+      "bounds": {
+        "population": [
+          224000,
+          416000
+        ],
+        "households": [
+          40670,
+          75530
+        ],
+        "farmland_mu": [
+          2826810,
+          5249790
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_suzhou",
+        "domain_id": "zhou_suzhou",
+        "population": 32000,
+        "households": 5810
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:江南东道:anchor_zhou_yuezhou": {
+      "place_id": "v02:唐:江南东道:anchor_zhou_yuezhou",
+      "region_id": "region:唐:江南东道",
+      "name": "越州",
+      "population": 409300,
+      "households": 74400,
+      "farmland_mu": 5165300,
+      "bounds": {
+        "population": [
+          286510,
+          532090
+        ],
+        "households": [
+          52080,
+          96720
+        ],
+        "farmland_mu": [
+          3615710,
+          6714890
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_yuezhou",
+        "domain_id": "zhou_yuezhou",
+        "population": 40930,
+        "households": 7440
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:江南西道:anchor_zhou_hengzhou": {
+      "place_id": "v02:唐:江南西道:anchor_zhou_hengzhou",
+      "region_id": "region:唐:江南西道",
+      "name": "衡州",
+      "population": 283200,
+      "households": 51400,
+      "farmland_mu": 3573900,
+      "bounds": {
+        "population": [
+          198240,
+          368160
+        ],
+        "households": [
+          35980,
+          66820
+        ],
+        "farmland_mu": [
+          2501730,
+          4646070
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_hengzhou",
+        "domain_id": "zhou_hengzhou",
+        "population": 28320,
+        "households": 5140
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:江南西道:anchor_zhou_hongzhou": {
+      "place_id": "v02:唐:江南西道:anchor_zhou_hongzhou",
+      "region_id": "region:唐:江南西道",
+      "name": "洪州",
+      "population": 261000,
+      "households": 47400,
+      "farmland_mu": 3293800,
+      "bounds": {
+        "population": [
+          182700,
+          339300
+        ],
+        "households": [
+          33180,
+          61620
+        ],
+        "farmland_mu": [
+          2305660,
+          4281940
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_hongzhou",
+        "domain_id": "zhou_hongzhou",
+        "population": 26100,
+        "households": 4740
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:江南西道:anchor_zhou_jiangzhou_south": {
+      "place_id": "v02:唐:江南西道:anchor_zhou_jiangzhou_south",
+      "region_id": "region:唐:江南西道",
+      "name": "江州",
+      "population": 275800,
+      "households": 50100,
+      "farmland_mu": 3480500,
+      "bounds": {
+        "population": [
+          193060,
+          358540
+        ],
+        "households": [
+          35070,
+          65130
+        ],
+        "farmland_mu": [
+          2436350,
+          4524650
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_jiangzhou_south",
+        "domain_id": "zhou_jiangzhou_south",
+        "population": 27580,
+        "households": 5010
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:江南西道:anchor_zhou_raozhou": {
+      "place_id": "v02:唐:江南西道:anchor_zhou_raozhou",
+      "region_id": "region:唐:江南西道",
+      "name": "饶州",
+      "population": 243800,
+      "households": 44300,
+      "farmland_mu": 3076700,
+      "bounds": {
+        "population": [
+          170660,
+          316940
+        ],
+        "households": [
+          31010,
+          57590
+        ],
+        "farmland_mu": [
+          2153690,
+          3999710
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_raozhou",
+        "domain_id": "zhou_raozhou",
+        "population": 24380,
+        "households": 4430
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:江南西道:anchor_zhou_tanzhou": {
+      "place_id": "v02:唐:江南西道:anchor_zhou_tanzhou",
+      "region_id": "region:唐:江南西道",
+      "name": "潭州",
+      "population": 214200,
+      "households": 38900,
+      "farmland_mu": 2703100,
+      "bounds": {
+        "population": [
+          149940,
+          278460
+        ],
+        "households": [
+          27230,
+          50570
+        ],
+        "farmland_mu": [
+          1892170,
+          3514030
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_tanzhou",
+        "domain_id": "zhou_tanzhou",
+        "population": 21420,
+        "households": 3890
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:江南西道:anchor_zhou_xuanzhou": {
+      "place_id": "v02:唐:江南西道:anchor_zhou_xuanzhou",
+      "region_id": "region:唐:江南西道",
+      "name": "宣州",
+      "population": 221600,
+      "households": 40200,
+      "farmland_mu": 2796500,
+      "bounds": {
+        "population": [
+          155120,
+          288080
+        ],
+        "households": [
+          28140,
+          52260
+        ],
+        "farmland_mu": [
+          1957550,
+          3635450
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_xuanzhou",
+        "domain_id": "zhou_xuanzhou",
+        "population": 22160,
+        "households": 4020
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:黔中道:prefecture_city_14": {
+      "place_id": "v02:唐:黔中道:prefecture_city_14",
+      "region_id": "region:唐:黔中道",
+      "name": "黔州",
+      "population": 90000,
+      "households": 16300,
+      "farmland_mu": 757100,
+      "bounds": {
+        "population": [
+          63000,
+          117000
+        ],
+        "households": [
+          11410,
+          21190
+        ],
+        "farmland_mu": [
+          529970,
+          984230
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:prefecture_city_14",
+        "domain_id": "zhou_qianzhou",
+        "population": 9000,
+        "households": 1630
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:剑南道:anchor_chengdou_rear_hub_node": {
+      "place_id": "v02:唐:剑南道:anchor_chengdou_rear_hub_node",
+      "region_id": "region:唐:剑南道",
+      "name": "成都",
+      "population": 338700,
+      "households": 61500,
+      "farmland_mu": 4274300,
+      "bounds": {
+        "population": [
+          237090,
+          440310
+        ],
+        "households": [
+          43050,
+          79950
+        ],
+        "farmland_mu": [
+          2992010,
+          5556590
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_chengdou_rear_hub_node",
+        "domain_id": "chengdou_rear_hub_node",
+        "population": 33870,
+        "households": 6150
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:剑南道:anchor_zhou_jiazhou": {
+      "place_id": "v02:唐:剑南道:anchor_zhou_jiazhou",
+      "region_id": "region:唐:剑南道",
+      "name": "嘉州",
+      "population": 302900,
+      "households": 55000,
+      "farmland_mu": 3822500,
+      "bounds": {
+        "population": [
+          212030,
+          393770
+        ],
+        "households": [
+          38500,
+          71500
+        ],
+        "farmland_mu": [
+          2675750,
+          4969250
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_jiazhou",
+        "domain_id": "zhou_jiazhou",
+        "population": 30290,
+        "households": 5500
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:剑南道:anchor_zhou_mianzhou": {
+      "place_id": "v02:唐:剑南道:anchor_zhou_mianzhou",
+      "region_id": "region:唐:剑南道",
+      "name": "绵州",
+      "population": 280100,
+      "households": 50900,
+      "farmland_mu": 3534800,
+      "bounds": {
+        "population": [
+          196070,
+          364130
+        ],
+        "households": [
+          35630,
+          66170
+        ],
+        "farmland_mu": [
+          2474360,
+          4595240
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_mianzhou",
+        "domain_id": "zhou_mianzhou",
+        "population": 28010,
+        "households": 5090
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:剑南道:anchor_zhou_rongzhou": {
+      "place_id": "v02:唐:剑南道:anchor_zhou_rongzhou",
+      "region_id": "region:唐:剑南道",
+      "name": "戎州",
+      "population": 325700,
+      "households": 59200,
+      "farmland_mu": 4110300,
+      "bounds": {
+        "population": [
+          227990,
+          423410
+        ],
+        "households": [
+          41440,
+          76960
+        ],
+        "farmland_mu": [
+          2877210,
+          5343390
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_rongzhou",
+        "domain_id": "zhou_rongzhou",
+        "population": 32570,
+        "households": 5920
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:剑南道:anchor_zhou_suizhou": {
+      "place_id": "v02:唐:剑南道:anchor_zhou_suizhou",
+      "region_id": "region:唐:剑南道",
+      "name": "遂州",
+      "population": 371300,
+      "households": 67500,
+      "farmland_mu": 4685700,
+      "bounds": {
+        "population": [
+          259910,
+          482690
+        ],
+        "households": [
+          47250,
+          87750
+        ],
+        "farmland_mu": [
+          3279990,
+          6091410
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_suizhou",
+        "domain_id": "zhou_suizhou",
+        "population": 37130,
+        "households": 6750
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:剑南道:anchor_zhou_zizhou": {
+      "place_id": "v02:唐:剑南道:anchor_zhou_zizhou",
+      "region_id": "region:唐:剑南道",
+      "name": "梓州",
+      "population": 381100,
+      "households": 69200,
+      "farmland_mu": 4809400,
+      "bounds": {
+        "population": [
+          266770,
+          495430
+        ],
+        "households": [
+          48440,
+          89960
+        ],
+        "farmland_mu": [
+          3366580,
+          6252220
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_zizhou",
+        "domain_id": "zhou_zizhou",
+        "population": 38110,
+        "households": 6920
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:岭南道:anchor_zhou_guangzhou": {
+      "place_id": "v02:唐:岭南道:anchor_zhou_guangzhou",
+      "region_id": "region:唐:岭南道",
+      "name": "广州",
+      "population": 181900,
+      "households": 33000,
+      "farmland_mu": 1721600,
+      "bounds": {
+        "population": [
+          127330,
+          236470
+        ],
+        "households": [
+          23100,
+          42900
+        ],
+        "farmland_mu": [
+          1205120,
+          2238080
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_guangzhou",
+        "domain_id": "zhou_guangzhou",
+        "population": 18190,
+        "households": 3300
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:岭南道:anchor_zhou_guizhou": {
+      "place_id": "v02:唐:岭南道:anchor_zhou_guizhou",
+      "region_id": "region:唐:岭南道",
+      "name": "桂州",
+      "population": 178000,
+      "households": 32300,
+      "farmland_mu": 1684700,
+      "bounds": {
+        "population": [
+          124600,
+          231400
+        ],
+        "households": [
+          22610,
+          41990
+        ],
+        "farmland_mu": [
+          1179290,
+          2190110
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:anchor_zhou_guizhou",
+        "domain_id": "zhou_guizhou",
+        "population": 17800,
+        "households": 3230
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:安西都护府:prefecture_city_00": {
+      "place_id": "v02:唐:安西都护府:prefecture_city_00",
+      "region_id": "region:唐:安西都护府",
+      "name": "安西治所",
+      "population": 40000,
+      "households": 7200,
+      "farmland_mu": 588900,
+      "bounds": {
+        "population": [
+          28000,
+          52000
+        ],
+        "households": [
+          5040,
+          9360
+        ],
+        "farmland_mu": [
+          412230,
+          765570
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:prefecture_city_00",
+        "domain_id": "zhou_anxi",
+        "population": 4000,
+        "households": 720
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    },
+    "v02:唐:北庭都护府:prefecture_city_01": {
+      "place_id": "v02:唐:北庭都护府:prefecture_city_01",
+      "region_id": "region:唐:北庭都护府",
+      "name": "北庭治所",
+      "population": 40000,
+      "households": 7200,
+      "farmland_mu": 589100,
+      "bounds": {
+        "population": [
+          28000,
+          52000
+        ],
+        "households": [
+          5040,
+          9360
+        ],
+        "farmland_mu": [
+          412370,
+          765830
+        ]
+      },
+      "source_ids": [
+        "game_census_756_v1"
+      ],
+      "historical_source_id": "",
+      "anchor_adjustment_percent": 100,
+      "city_share_percent": 10,
+      "city": {
+        "place_id": "city:prefecture_city_01",
+        "domain_id": "zhou_beiting",
+        "population": 4000,
+        "households": 720
+      },
+      "scope_note": "含所属城镇及乡村；城镇人口已在州内。"
+    }
+  }
+}

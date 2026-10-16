@@ -1,0 +1,62 @@
+{
+  "gate_open": true,
+  "growth_stage": 1,
+  "layout_version": "tongguan_p4_layout_v02",
+  "module_damage": {
+    "gate": 0,
+    "tongguan.slot.civil_01": 0,
+    "tongguan.slot.civil_02": 0,
+    "tongguan.slot.expansion_01": 0,
+    "tongguan.slot.expansion_02": 0,
+    "tongguan.slot.rear_military_01": 0,
+    "tongguan.slot.rear_storage_01": 0,
+    "tongguan.slot.rear_support_01": 0,
+    "tongguan.slot.rear_workshop_01": 0,
+    "wall_east": 0,
+    "wall_west": 0
+  },
+  "revision": 0,
+  "site_id": "tongguan",
+  "slot_occupancy": {
+    "tongguan.slot.civil_01": {
+      "building_id": "tongguan.slot.civil_01.building",
+      "building_type": "",
+      "status": "empty"
+    },
+    "tongguan.slot.civil_02": {
+      "building_id": "tongguan.slot.civil_02.building",
+      "building_type": "",
+      "status": "empty"
+    },
+    "tongguan.slot.expansion_01": {
+      "building_id": "tongguan.slot.expansion_01.building",
+      "building_type": "",
+      "status": "empty"
+    },
+    "tongguan.slot.expansion_02": {
+      "building_id": "tongguan.slot.expansion_02.building",
+      "building_type": "",
+      "status": "empty"
+    },
+    "tongguan.slot.rear_military_01": {
+      "building_id": "tongguan.slot.rear_military_01.building",
+      "building_type": "barracks",
+      "status": "built"
+    },
+    "tongguan.slot.rear_storage_01": {
+      "building_id": "tongguan.slot.rear_storage_01.building",
+      "building_type": "",
+      "status": "empty"
+    },
+    "tongguan.slot.rear_support_01": {
+      "building_id": "tongguan.slot.rear_support_01.building",
+      "building_type": "",
+      "status": "empty"
+    },
+    "tongguan.slot.rear_workshop_01": {
+      "building_id": "tongguan.slot.rear_workshop_01.building",
+      "building_type": "",
+      "status": "empty"
+    }
+  }
+}

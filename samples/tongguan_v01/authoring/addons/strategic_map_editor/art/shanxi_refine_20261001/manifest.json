@@ -1,0 +1,15 @@
+{
+  "bundle_id": "shanxi_refine_20261001",
+  "version": 1,
+  "extends": "shanxi_20261001",
+  "review_status": "P3_TRIAL_NOT_ACCEPTED",
+  "generation_tool": "builtin image_gen",
+  "assets": [
+    {
+      "file": "taiyue-mass-v02.png",
+      "width": 1113,
+      "height": 1413,
+      "sha256": "8ded580121b236c327fb3dbf434613fa8cd2b67c765b6129428c1c8201e754c4"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "case_id": "beta108_case_palace_order_leak",
+  "template_id": "palace_order_leak",
+  "phase_open_day": 42,
+  "facts": [{"fact_id": "fact_palace_order_leak", "kind": "order_leak", "source_ref_id": "palace_report_42", "public_summary": "宫门传递记录显示诏令在授权链外泄露。"}],
+  "claims": [{"claim_id": "claim_palace_gate", "character_id": "li_fuguo", "fact_ids": ["fact_palace_order_leak"]}, {"claim_id": "claim_palace_audit", "character_id": "hardline_old_court_official", "fact_ids": ["fact_palace_order_leak"]}],
+  "evidence": [{"evidence_id": "evidence_palace_report", "kind": "governance_report", "ref_id": "palace_report_42"}, {"evidence_id": "evidence_palace_event", "kind": "event_history", "ref_id": "palace_event_43"}],
+  "available_verdicts": ["dismiss", "reform", "forced_removal"],
+  "required_fact_kinds": ["order_leak"],
+  "minimum_independent_sources": 2
+}

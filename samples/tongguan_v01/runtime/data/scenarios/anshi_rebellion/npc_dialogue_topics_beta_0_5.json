@@ -1,0 +1,3387 @@
+[
+  {
+    "topic_id": "shuofang_grain_timing",
+    "npc_id": "guo_ziyi",
+    "title": "Shuofang grain and counterattack timing",
+    "summary": "Guo Ziyi explains how grain, relay security, and commander authority shape the counterattack window.",
+    "tags": [
+      "current_crisis",
+      "warfront",
+      "grain",
+      "shuofang"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_factions": [
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "li_fuguo",
+      "grain_official_lingwu"
+    ],
+    "reveals": [
+      "empty_grain_promises",
+      "palace_channel_risk"
+    ],
+    "allowed_intents": [
+      "ask_stance",
+      "ask_about_npc",
+      "offer_promise",
+      "issue_order",
+      "convert_to_decree"
+    ],
+    "risk_tags": [
+      "grain_pressure",
+      "military_expectation"
+    ]
+  },
+  {
+    "topic_id": "palace_channel_risk",
+    "npc_id": "guo_ziyi",
+    "title": "Palace channels and military trust",
+    "summary": "Guo Ziyi warns that Li Fuguo's access control can slow military execution.",
+    "tags": [
+      "opinion_of_another_npc",
+      "red_line",
+      "eunuch"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_factions": [
+      "eunuch_network",
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "li_fuguo"
+    ],
+    "reveals": [
+      "guo_distrusts_li_fuguo"
+    ],
+    "allowed_intents": [
+      "ask_about_npc",
+      "request_support_against_npc",
+      "offer_promise"
+    ],
+    "risk_tags": [
+      "eunuch_resistance"
+    ]
+  },
+  {
+    "topic_id": "formal_commander_authority",
+    "npc_id": "guo_ziyi",
+    "title": "Formal commander authority",
+    "summary": "Guo wants clear authority before accepting risky constraints.",
+    "tags": [
+      "acceptable_bargain",
+      "formal_paperwork_requirement"
+    ],
+    "linked_fronts": [
+      "shuofang_front",
+      "hedong_front"
+    ],
+    "linked_factions": [
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "li_heng"
+    ],
+    "reveals": [
+      "commander_authority_condition"
+    ],
+    "allowed_intents": [
+      "offer_promise",
+      "convert_to_decree"
+    ],
+    "risk_tags": [
+      "promise_debt"
+    ]
+  },
+  {
+    "topic_id": "empty_grain_promises",
+    "npc_id": "guo_ziyi",
+    "title": "Empty grain promises",
+    "summary": "Guo treats unsupported grain promises as a red line that damages military trust.",
+    "tags": [
+      "red_line",
+      "recent_memory"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_factions": [
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "grain_official_lingwu"
+    ],
+    "reveals": [
+      "empty_grain_promises"
+    ],
+    "allowed_intents": [
+      "ask_acceptable_terms",
+      "offer_promise"
+    ],
+    "risk_tags": [
+      "military_trust_loss"
+    ]
+  },
+  {
+    "topic_id": "strategic_sequence",
+    "npc_id": "li_bi",
+    "title": "Strategic sequencing",
+    "summary": "Li Bi urges holding Lingwu while timing Guanzhong and Shuofang commitments.",
+    "tags": [
+      "stance_toward_route",
+      "current_crisis"
+    ],
+    "linked_fronts": [
+      "guanzhong_front",
+      "shuofang_front"
+    ],
+    "linked_factions": [
+      "suzong_court"
+    ],
+    "linked_characters": [
+      "guo_ziyi"
+    ],
+    "reveals": [
+      "li_bi_sequence_first"
+    ],
+    "allowed_intents": [
+      "ask_advice",
+      "ask_stance",
+      "convert_to_decree"
+    ],
+    "risk_tags": [
+      "overextension"
+    ]
+  },
+  {
+    "topic_id": "decree_language",
+    "npc_id": "li_bi",
+    "title": "Decree language",
+    "summary": "Li Bi can turn a private intent into public text without surrendering rule authority to prose.",
+    "tags": [
+      "formal_paperwork_requirement",
+      "acceptable_bargain"
+    ],
+    "linked_fronts": [
+      "guanzhong_front"
+    ],
+    "linked_factions": [
+      "suzong_court",
+      "old_court"
+    ],
+    "linked_characters": [
+      "hardline_old_court_official"
+    ],
+    "reveals": [
+      "ritual_language_needed"
+    ],
+    "allowed_intents": [
+      "request_formal_memorial",
+      "convert_to_decree"
+    ],
+    "risk_tags": [
+      "legitimacy"
+    ]
+  },
+  {
+    "topic_id": "li_fuguo_access",
+    "npc_id": "li_bi",
+    "title": "Li Fuguo's access control",
+    "summary": "Li Bi describes how palace channels can help secrecy while harming military confidence.",
+    "tags": [
+      "opinion_of_another_npc",
+      "hidden_pressure_clue"
+    ],
+    "linked_fronts": [
+      "guanzhong_front"
+    ],
+    "linked_factions": [
+      "eunuch_network",
+      "suzong_court"
+    ],
+    "linked_characters": [
+      "li_fuguo",
+      "guo_ziyi"
+    ],
+    "reveals": [
+      "li_bi_wary_of_gatekeeping"
+    ],
+    "allowed_intents": [
+      "ask_about_npc",
+      "request_support_against_npc"
+    ],
+    "risk_tags": [
+      "court_access_risk"
+    ]
+  },
+  {
+    "topic_id": "reward_bargain_limits",
+    "npc_id": "li_bi",
+    "title": "Reward bargain limits",
+    "summary": "Li Bi resists impulsive reward promises that bind the court before supplies are known.",
+    "tags": [
+      "red_line",
+      "acceptable_bargain"
+    ],
+    "linked_fronts": [
+      "westward_route"
+    ],
+    "linked_factions": [
+      "uighur_envoys",
+      "treasury"
+    ],
+    "linked_characters": [
+      "uighur_envoy"
+    ],
+    "reveals": [
+      "avoid_open_reward_bargains"
+    ],
+    "allowed_intents": [
+      "ask_acceptable_terms",
+      "offer_promise"
+    ],
+    "risk_tags": [
+      "treasury_pressure"
+    ]
+  },
+  {
+    "topic_id": "private_access_control",
+    "npc_id": "li_fuguo",
+    "title": "Private access control",
+    "summary": "Li Fuguo accepts private instructions that preserve his palace gatekeeping role.",
+    "tags": [
+      "personal_goal",
+      "acceptable_bargain"
+    ],
+    "linked_fronts": [
+      "guanzhong_front"
+    ],
+    "linked_factions": [
+      "eunuch_network"
+    ],
+    "linked_characters": [
+      "li_heng"
+    ],
+    "reveals": [
+      "access_control_preserved"
+    ],
+    "allowed_intents": [
+      "private_instruction",
+      "offer_promise",
+      "ask_stance"
+    ],
+    "risk_tags": [
+      "palace_dependence"
+    ]
+  },
+  {
+    "topic_id": "public_restraint_red_line",
+    "npc_id": "li_fuguo",
+    "title": "Public restraint red line",
+    "summary": "Li Fuguo resists any public order that humiliates palace intermediaries.",
+    "tags": [
+      "red_line",
+      "faction_pressure"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_factions": [
+      "eunuch_network",
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "guo_ziyi"
+    ],
+    "reveals": [
+      "public_restraint"
+    ],
+    "allowed_intents": [
+      "threaten_consequence",
+      "ask_acceptable_terms"
+    ],
+    "risk_tags": [
+      "eunuch_resistance"
+    ]
+  },
+  {
+    "topic_id": "military_direct_access",
+    "npc_id": "li_fuguo",
+    "title": "Military direct access",
+    "summary": "Li Fuguo fears generals bypassing him more than he fears delay itself.",
+    "tags": [
+      "hidden_pressure_clue",
+      "opinion_of_another_npc"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_factions": [
+      "eunuch_network",
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "guo_ziyi",
+      "li_guangbi"
+    ],
+    "reveals": [
+      "military_direct_access_red_line"
+    ],
+    "allowed_intents": [
+      "ask_about_npc",
+      "request_support_against_npc"
+    ],
+    "risk_tags": [
+      "access_conflict"
+    ]
+  },
+  {
+    "topic_id": "palace_memory",
+    "npc_id": "li_fuguo",
+    "title": "Recent palace memory",
+    "summary": "Li Fuguo remembers which promises were made privately and which were exposed in court.",
+    "tags": [
+      "recent_memory",
+      "personal_goal"
+    ],
+    "linked_fronts": [],
+    "linked_factions": [
+      "palace_household"
+    ],
+    "linked_characters": [
+      "zhang_liangdi"
+    ],
+    "reveals": [
+      "private_promise_memory"
+    ],
+    "allowed_intents": [
+      "ask_recent_memory",
+      "offer_promise"
+    ],
+    "risk_tags": [
+      "rumor_leak"
+    ]
+  },
+  {
+    "topic_id": "uighur_reward_terms",
+    "npc_id": "uighur_envoy",
+    "title": "Reward terms for cavalry aid",
+    "summary": "The envoy wants clear reward language before committing mounted support.",
+    "tags": [
+      "acceptable_bargain",
+      "current_crisis"
+    ],
+    "linked_fronts": [
+      "westward_route",
+      "hedong_front"
+    ],
+    "linked_factions": [
+      "uighur_envoys"
+    ],
+    "linked_characters": [
+      "li_bi"
+    ],
+    "reveals": [
+      "reward_terms_needed"
+    ],
+    "allowed_intents": [
+      "offer_promise",
+      "start_negotiation",
+      "convert_to_decree"
+    ],
+    "risk_tags": [
+      "uighur_price"
+    ]
+  },
+  {
+    "topic_id": "weak_treasury_pressure",
+    "npc_id": "uighur_envoy",
+    "title": "Weak treasury pressure",
+    "summary": "The envoy notices treasury weakness and may exploit vague promises.",
+    "tags": [
+      "hidden_pressure_clue",
+      "faction_pressure"
+    ],
+    "linked_fronts": [
+      "westward_route"
+    ],
+    "linked_factions": [
+      "uighur_envoys",
+      "merchant_refugees"
+    ],
+    "linked_characters": [
+      "lingwu_merchant_refugee"
+    ],
+    "reveals": [
+      "treasury_leverage"
+    ],
+    "allowed_intents": [
+      "ask_acceptable_terms",
+      "offer_promise"
+    ],
+    "risk_tags": [
+      "treasury_pressure"
+    ]
+  },
+  {
+    "topic_id": "formal_terms",
+    "npc_id": "uighur_envoy",
+    "title": "Formal terms",
+    "summary": "Formal terms make the envoy more cooperative but raise public obligation risk.",
+    "tags": [
+      "formal_paperwork_requirement",
+      "red_line"
+    ],
+    "linked_fronts": [
+      "hedong_front"
+    ],
+    "linked_factions": [
+      "uighur_envoys",
+      "old_court"
+    ],
+    "linked_characters": [
+      "hardline_old_court_official"
+    ],
+    "reveals": [
+      "formal_terms_public_risk"
+    ],
+    "allowed_intents": [
+      "convert_to_decree",
+      "request_formal_memorial"
+    ],
+    "risk_tags": [
+      "public_commitment"
+    ]
+  },
+  {
+    "topic_id": "opinion_of_generals",
+    "npc_id": "uighur_envoy",
+    "title": "Opinion of Tang generals",
+    "summary": "The envoy respects strong generals and discounts divided court promises.",
+    "tags": [
+      "opinion_of_another_npc",
+      "stance_toward_route"
+    ],
+    "linked_fronts": [
+      "shuofang_front",
+      "hedong_front"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "uighur_envoys"
+    ],
+    "linked_characters": [
+      "guo_ziyi",
+      "li_guangbi"
+    ],
+    "reveals": [
+      "respects_strong_generals"
+    ],
+    "allowed_intents": [
+      "ask_about_npc",
+      "ask_stance"
+    ],
+    "risk_tags": [
+      "coalition_bargain"
+    ]
+  },
+  {
+    "topic_id": "ritual_language",
+    "npc_id": "hardline_old_court_official",
+    "title": "Ritual language",
+    "summary": "The old-court official requires ritual framing before accepting new court orders.",
+    "tags": [
+      "formal_paperwork_requirement",
+      "red_line"
+    ],
+    "linked_fronts": [
+      "guanzhong_front"
+    ],
+    "linked_factions": [
+      "old_court",
+      "xuanzong_old_court"
+    ],
+    "linked_characters": [
+      "tang_xuanzong"
+    ],
+    "reveals": [
+      "ritual_language_needed"
+    ],
+    "allowed_intents": [
+      "convert_to_decree",
+      "request_formal_memorial"
+    ],
+    "risk_tags": [
+      "legitimacy"
+    ]
+  },
+  {
+    "topic_id": "xuanzong_deference",
+    "npc_id": "hardline_old_court_official",
+    "title": "Deference to Xuanzong",
+    "summary": "The official watches whether Lingwu language honors Xuanzong's seniority.",
+    "tags": [
+      "personal_goal",
+      "faction_pressure"
+    ],
+    "linked_fronts": [],
+    "linked_factions": [
+      "xuanzong_old_court",
+      "old_court"
+    ],
+    "linked_characters": [
+      "tang_xuanzong",
+      "li_heng"
+    ],
+    "reveals": [
+      "old_court_deference_condition"
+    ],
+    "allowed_intents": [
+      "ask_stance",
+      "offer_promise"
+    ],
+    "risk_tags": [
+      "legitimacy_pressure"
+    ]
+  },
+  {
+    "topic_id": "military_promotions",
+    "npc_id": "hardline_old_court_official",
+    "title": "Military promotions",
+    "summary": "He distrusts emergency military promotion without formal paperwork.",
+    "tags": [
+      "opinion_of_another_npc",
+      "red_line"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_factions": [
+      "old_court",
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "guo_ziyi"
+    ],
+    "reveals": [
+      "promotion_paperwork_red_line"
+    ],
+    "allowed_intents": [
+      "ask_about_npc",
+      "convert_to_decree"
+    ],
+    "risk_tags": [
+      "court_resistance"
+    ]
+  },
+  {
+    "topic_id": "old_court_compromise",
+    "npc_id": "hardline_old_court_official",
+    "title": "Old court compromise",
+    "summary": "A ceremonial promise can reduce opposition without giving old officials command.",
+    "tags": [
+      "acceptable_bargain",
+      "faction_pressure"
+    ],
+    "linked_fronts": [
+      "guanzhong_front"
+    ],
+    "linked_factions": [
+      "old_court",
+      "suzong_court"
+    ],
+    "linked_characters": [
+      "li_bi"
+    ],
+    "reveals": [
+      "ceremonial_compromise"
+    ],
+    "allowed_intents": [
+      "offer_promise",
+      "request_formal_memorial"
+    ],
+    "risk_tags": [
+      "ritual_delay"
+    ]
+  },
+  {
+    "topic_id": "hedong_coordination",
+    "npc_id": "li_guangbi",
+    "title": "Hedong coordination",
+    "summary": "Li Guangbi wants route coordination before committing reserves.",
+    "tags": [
+      "current_crisis",
+      "warfront"
+    ],
+    "linked_fronts": [
+      "hedong_front",
+      "shuofang_front"
+    ],
+    "linked_factions": [
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "guo_ziyi"
+    ],
+    "reveals": [
+      "hedong_coordination_need"
+    ],
+    "allowed_intents": [
+      "ask_stance",
+      "issue_order"
+    ],
+    "risk_tags": [
+      "front_coordination"
+    ]
+  },
+  {
+    "topic_id": "pugu_reliability",
+    "npc_id": "li_guangbi",
+    "title": "Pugu Huaien reliability",
+    "summary": "Li Guangbi can speak frankly about Pugu Huaien's usefulness and volatility.",
+    "tags": [
+      "opinion_of_another_npc",
+      "hidden_pressure_clue"
+    ],
+    "linked_fronts": [
+      "hedong_front"
+    ],
+    "linked_factions": [
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "pugu_huaien"
+    ],
+    "reveals": [
+      "pugu_volatility"
+    ],
+    "allowed_intents": [
+      "ask_about_npc",
+      "ask_advice"
+    ],
+    "risk_tags": [
+      "commander_rivalry"
+    ]
+  },
+  {
+    "topic_id": "reserve_red_line",
+    "npc_id": "li_guangbi",
+    "title": "Reserve red line",
+    "summary": "Li Guangbi resists orders that spend reserves before relay intelligence confirms timing.",
+    "tags": [
+      "red_line",
+      "stance_toward_route"
+    ],
+    "linked_fronts": [
+      "hedong_front",
+      "guanzhong_front"
+    ],
+    "linked_factions": [
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "li_bi"
+    ],
+    "reveals": [
+      "reserve_timing_red_line"
+    ],
+    "allowed_intents": [
+      "ask_acceptable_terms",
+      "convert_to_decree"
+    ],
+    "risk_tags": [
+      "reserve_depletion"
+    ]
+  },
+  {
+    "topic_id": "formal_support_terms",
+    "npc_id": "li_guangbi",
+    "title": "Formal support terms",
+    "summary": "He accepts a constrained order if a formal decree names support priority.",
+    "tags": [
+      "acceptable_bargain",
+      "formal_paperwork_requirement"
+    ],
+    "linked_fronts": [
+      "hedong_front"
+    ],
+    "linked_factions": [
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "li_heng"
+    ],
+    "reveals": [
+      "formal_support_condition"
+    ],
+    "allowed_intents": [
+      "offer_promise",
+      "convert_to_decree"
+    ],
+    "risk_tags": [
+      "promise_debt"
+    ]
+  },
+  {
+    "topic_id": "cavalry_impulse",
+    "npc_id": "pugu_huaien",
+    "title": "Cavalry impulse",
+    "summary": "Pugu Huaien wants quick cavalry action and dislikes slow paperwork.",
+    "tags": [
+      "personal_goal",
+      "stance_toward_route"
+    ],
+    "linked_fronts": [
+      "hedong_front",
+      "westward_route"
+    ],
+    "linked_factions": [
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "uighur_envoy"
+    ],
+    "reveals": [
+      "pugu_prefers_speed"
+    ],
+    "allowed_intents": [
+      "ask_stance",
+      "issue_order"
+    ],
+    "risk_tags": [
+      "rash_action"
+    ]
+  },
+  {
+    "topic_id": "guo_rivalry",
+    "npc_id": "pugu_huaien",
+    "title": "Rivalry with Guo Ziyi",
+    "summary": "Pugu respects Guo but competes for visible credit.",
+    "tags": [
+      "opinion_of_another_npc",
+      "recent_memory"
+    ],
+    "linked_fronts": [
+      "shuofang_front",
+      "hedong_front"
+    ],
+    "linked_factions": [
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "guo_ziyi"
+    ],
+    "reveals": [
+      "pugu_competes_with_guo"
+    ],
+    "allowed_intents": [
+      "ask_about_npc",
+      "offer_promise"
+    ],
+    "risk_tags": [
+      "credit_rivalry"
+    ]
+  },
+  {
+    "topic_id": "reward_for_speed",
+    "npc_id": "pugu_huaien",
+    "title": "Reward for speed",
+    "summary": "A public reward can motivate Pugu but may anger steadier generals.",
+    "tags": [
+      "acceptable_bargain",
+      "faction_pressure"
+    ],
+    "linked_fronts": [
+      "hedong_front"
+    ],
+    "linked_factions": [
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "li_guangbi"
+    ],
+    "reveals": [
+      "reward_speed_tradeoff"
+    ],
+    "allowed_intents": [
+      "offer_promise",
+      "ask_acceptable_terms"
+    ],
+    "risk_tags": [
+      "faction_jealousy"
+    ]
+  },
+  {
+    "topic_id": "discipline_red_line",
+    "npc_id": "pugu_huaien",
+    "title": "Discipline red line",
+    "summary": "Pugu resents threats of punishment before he receives clear objectives.",
+    "tags": [
+      "red_line",
+      "formal_paperwork_requirement"
+    ],
+    "linked_fronts": [
+      "westward_route"
+    ],
+    "linked_factions": [
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "li_heng"
+    ],
+    "reveals": [
+      "clear_objective_needed"
+    ],
+    "allowed_intents": [
+      "threaten_consequence",
+      "convert_to_decree"
+    ],
+    "risk_tags": [
+      "loyalty_risk"
+    ]
+  },
+  {
+    "topic_id": "heir_legitimacy",
+    "npc_id": "li_chu",
+    "title": "Heir legitimacy",
+    "summary": "Li Chu frames court promises through succession stability and public confidence.",
+    "tags": [
+      "personal_goal",
+      "faction_pressure"
+    ],
+    "linked_fronts": [
+      "guanzhong_front"
+    ],
+    "linked_factions": [
+      "suzong_court",
+      "palace_household"
+    ],
+    "linked_characters": [
+      "zhang_liangdi"
+    ],
+    "reveals": [
+      "heir_public_confidence"
+    ],
+    "allowed_intents": [
+      "ask_advice",
+      "ask_stance"
+    ],
+    "risk_tags": [
+      "succession_pressure"
+    ]
+  },
+  {
+    "topic_id": "view_of_li_fuguo",
+    "npc_id": "li_chu",
+    "title": "View of Li Fuguo",
+    "summary": "Li Chu is cautious about Li Fuguo's access control but avoids open conflict.",
+    "tags": [
+      "opinion_of_another_npc",
+      "hidden_pressure_clue"
+    ],
+    "linked_fronts": [],
+    "linked_factions": [
+      "palace_household",
+      "eunuch_network"
+    ],
+    "linked_characters": [
+      "li_fuguo"
+    ],
+    "reveals": [
+      "li_chu_cautious_of_li_fuguo"
+    ],
+    "allowed_intents": [
+      "ask_about_npc",
+      "request_support_against_npc"
+    ],
+    "risk_tags": [
+      "palace_suspicion"
+    ]
+  },
+  {
+    "topic_id": "public_assurance",
+    "npc_id": "li_chu",
+    "title": "Public assurance",
+    "summary": "Li Chu can help turn private promises into public reassurance without sounding desperate.",
+    "tags": [
+      "acceptable_bargain",
+      "formal_paperwork_requirement"
+    ],
+    "linked_fronts": [
+      "guanzhong_front"
+    ],
+    "linked_factions": [
+      "common_people",
+      "suzong_court"
+    ],
+    "linked_characters": [
+      "lingwu_merchant_refugee"
+    ],
+    "reveals": [
+      "public_assurance_path"
+    ],
+    "allowed_intents": [
+      "offer_promise",
+      "convert_to_decree"
+    ],
+    "risk_tags": [
+      "public_expectation"
+    ]
+  },
+  {
+    "topic_id": "young_court_memory",
+    "npc_id": "li_chu",
+    "title": "Recent young court memory",
+    "summary": "Li Chu remembers which ministers treated Lingwu as temporary and which accepted the new court.",
+    "tags": [
+      "recent_memory",
+      "hidden_pressure_clue"
+    ],
+    "linked_fronts": [],
+    "linked_factions": [
+      "old_court",
+      "suzong_court"
+    ],
+    "linked_characters": [
+      "hardline_old_court_official"
+    ],
+    "reveals": [
+      "young_court_memory"
+    ],
+    "allowed_intents": [
+      "ask_recent_memory",
+      "ask_about_npc"
+    ],
+    "risk_tags": [
+      "court_division"
+    ]
+  },
+  {
+    "topic_id": "grain_market_pressure",
+    "npc_id": "lingwu_merchant_refugee",
+    "title": "Grain market pressure",
+    "summary": "The merchant refugee knows which promises are credible in the market.",
+    "tags": [
+      "current_crisis",
+      "faction_pressure"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_factions": [
+      "merchant_refugees",
+      "common_people"
+    ],
+    "linked_characters": [
+      "grain_official_lingwu"
+    ],
+    "reveals": [
+      "market_price_pressure"
+    ],
+    "allowed_intents": [
+      "ask_information",
+      "offer_promise"
+    ],
+    "risk_tags": [
+      "public_order"
+    ]
+  },
+  {
+    "topic_id": "fear_of_requisition",
+    "npc_id": "lingwu_merchant_refugee",
+    "title": "Fear of requisition",
+    "summary": "Public threats can trigger flight unless paired with reassurance.",
+    "tags": [
+      "red_line",
+      "personal_goal"
+    ],
+    "linked_fronts": [
+      "westward_route"
+    ],
+    "linked_factions": [
+      "merchant_refugees",
+      "common_people"
+    ],
+    "linked_characters": [
+      "li_chu"
+    ],
+    "reveals": [
+      "requisition_fear"
+    ],
+    "allowed_intents": [
+      "threaten_consequence",
+      "public_reassurance"
+    ],
+    "risk_tags": [
+      "refugee_panic"
+    ]
+  },
+  {
+    "topic_id": "merchant_view_of_envoy",
+    "npc_id": "lingwu_merchant_refugee",
+    "title": "View of the Uighur envoy",
+    "summary": "Merchants hear which reward terms the envoy repeats outside court.",
+    "tags": [
+      "opinion_of_another_npc",
+      "hidden_pressure_clue"
+    ],
+    "linked_fronts": [
+      "westward_route"
+    ],
+    "linked_factions": [
+      "merchant_refugees",
+      "uighur_envoys"
+    ],
+    "linked_characters": [
+      "uighur_envoy"
+    ],
+    "reveals": [
+      "envoy_reward_rumor"
+    ],
+    "allowed_intents": [
+      "ask_about_npc",
+      "ask_information"
+    ],
+    "risk_tags": [
+      "rumor_spread"
+    ]
+  },
+  {
+    "topic_id": "public_commitment_terms",
+    "npc_id": "lingwu_merchant_refugee",
+    "title": "Public commitment terms",
+    "summary": "A narrow public commitment can calm refugees without bankrupting the court.",
+    "tags": [
+      "acceptable_bargain",
+      "formal_paperwork_requirement"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_factions": [
+      "common_people",
+      "suzong_court"
+    ],
+    "linked_characters": [
+      "li_chu"
+    ],
+    "reveals": [
+      "narrow_public_commitment"
+    ],
+    "allowed_intents": [
+      "offer_promise",
+      "public_reassurance"
+    ],
+    "risk_tags": [
+      "public_commitment"
+    ]
+  },
+  {
+    "topic_id": "regional_support_price",
+    "npc_id": "regional_jiedushi_rep",
+    "title": "Regional support price",
+    "summary": "The representative wants recognition before sending grain or soldiers.",
+    "tags": [
+      "acceptable_bargain",
+      "faction_pressure"
+    ],
+    "linked_fronts": [
+      "guanzhong_front",
+      "hedong_front"
+    ],
+    "linked_factions": [
+      "regional_jiedushi"
+    ],
+    "linked_characters": [
+      "li_bi"
+    ],
+    "reveals": [
+      "regional_recognition_price"
+    ],
+    "allowed_intents": [
+      "offer_promise",
+      "convert_to_decree"
+    ],
+    "risk_tags": [
+      "regional_autonomy"
+    ]
+  },
+  {
+    "topic_id": "fear_of_central_blame",
+    "npc_id": "regional_jiedushi_rep",
+    "title": "Fear of central blame",
+    "summary": "Regional envoys delay when orders expose them to blame without protection.",
+    "tags": [
+      "red_line",
+      "hidden_pressure_clue"
+    ],
+    "linked_fronts": [
+      "guanzhong_front"
+    ],
+    "linked_factions": [
+      "regional_jiedushi",
+      "old_court"
+    ],
+    "linked_characters": [
+      "hardline_old_court_official"
+    ],
+    "reveals": [
+      "blame_protection_needed"
+    ],
+    "allowed_intents": [
+      "ask_acceptable_terms",
+      "offer_promise"
+    ],
+    "risk_tags": [
+      "regional_delay"
+    ]
+  },
+  {
+    "topic_id": "view_of_guo",
+    "npc_id": "regional_jiedushi_rep",
+    "title": "View of Guo Ziyi",
+    "summary": "Regional commanders watch whether Guo receives clear authority before they follow.",
+    "tags": [
+      "opinion_of_another_npc",
+      "stance_toward_route"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_factions": [
+      "regional_jiedushi",
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "guo_ziyi"
+    ],
+    "reveals": [
+      "regional_follow_guo_authority"
+    ],
+    "allowed_intents": [
+      "ask_about_npc",
+      "ask_stance"
+    ],
+    "risk_tags": [
+      "commander_signal"
+    ]
+  },
+  {
+    "topic_id": "memorial_requirement",
+    "npc_id": "regional_jiedushi_rep",
+    "title": "Memorial requirement",
+    "summary": "A formal memorial can convert regional hesitation into a trackable obligation.",
+    "tags": [
+      "formal_paperwork_requirement",
+      "recent_memory"
+    ],
+    "linked_fronts": [
+      "hedong_front"
+    ],
+    "linked_factions": [
+      "regional_jiedushi"
+    ],
+    "linked_characters": [
+      "li_bi"
+    ],
+    "reveals": [
+      "regional_memorial_path"
+    ],
+    "allowed_intents": [
+      "request_formal_memorial",
+      "convert_to_decree"
+    ],
+    "risk_tags": [
+      "paperwork_delay"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_01",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 1",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_02",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 2",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_03",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 3",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_04",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 4",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_05",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 5",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_06",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 6",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_07",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 7",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_08",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 8",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_09",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 9",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_10",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 10",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_11",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 11",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_12",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 12",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_13",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 13",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_14",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 14",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_15",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 15",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_16",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 16",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_17",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 17",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_18",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 18",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_19",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 19",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_20",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 20",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_21",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 21",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_22",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 22",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_23",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 23",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_24",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 24",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_25",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 25",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_26",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 26",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_27",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 27",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_28",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 28",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_29",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 29",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_30",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 30",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_31",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 31",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_32",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 32",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_33",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 33",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_34",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 34",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_35",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 35",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_36",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 36",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_37",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 37",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_38",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 38",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_39",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 39",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_40",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 40",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_41",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 41",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_42",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 42",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_43",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 43",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_44",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 44",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_45",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 45",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_46",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 46",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_47",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 47",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_48",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 48",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_49",
+    "npc_id": "guo_ziyi",
+    "title": "Beta06 office politics topic 49",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta06_office_topic_50",
+    "npc_id": "li_fuguo",
+    "title": "Beta06 office politics topic 50",
+    "prompt_seed": "Discuss office power, faction pressure, and delayed court consequences.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta06",
+      "office_power"
+    ],
+    "reveals": [
+      "office_power"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_01",
+    "npc_id": "guo_ziyi",
+    "title": "Beta07 intelligence topic 1",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_02",
+    "npc_id": "li_fuguo",
+    "title": "Beta07 intelligence topic 2",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_03",
+    "npc_id": "li_bi",
+    "title": "Beta07 intelligence topic 3",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_04",
+    "npc_id": "hardline_old_court_official",
+    "title": "Beta07 intelligence topic 4",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_05",
+    "npc_id": "guo_ziyi",
+    "title": "Beta07 intelligence topic 5",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_06",
+    "npc_id": "li_fuguo",
+    "title": "Beta07 intelligence topic 6",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_07",
+    "npc_id": "li_bi",
+    "title": "Beta07 intelligence topic 7",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_08",
+    "npc_id": "hardline_old_court_official",
+    "title": "Beta07 intelligence topic 8",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_09",
+    "npc_id": "guo_ziyi",
+    "title": "Beta07 intelligence topic 9",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_10",
+    "npc_id": "li_fuguo",
+    "title": "Beta07 intelligence topic 10",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_11",
+    "npc_id": "li_bi",
+    "title": "Beta07 intelligence topic 11",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_12",
+    "npc_id": "hardline_old_court_official",
+    "title": "Beta07 intelligence topic 12",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_13",
+    "npc_id": "guo_ziyi",
+    "title": "Beta07 intelligence topic 13",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_14",
+    "npc_id": "li_fuguo",
+    "title": "Beta07 intelligence topic 14",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_15",
+    "npc_id": "li_bi",
+    "title": "Beta07 intelligence topic 15",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_16",
+    "npc_id": "hardline_old_court_official",
+    "title": "Beta07 intelligence topic 16",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_17",
+    "npc_id": "guo_ziyi",
+    "title": "Beta07 intelligence topic 17",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_18",
+    "npc_id": "li_fuguo",
+    "title": "Beta07 intelligence topic 18",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_19",
+    "npc_id": "li_bi",
+    "title": "Beta07 intelligence topic 19",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_20",
+    "npc_id": "hardline_old_court_official",
+    "title": "Beta07 intelligence topic 20",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_21",
+    "npc_id": "guo_ziyi",
+    "title": "Beta07 intelligence topic 21",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_22",
+    "npc_id": "li_fuguo",
+    "title": "Beta07 intelligence topic 22",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_23",
+    "npc_id": "li_bi",
+    "title": "Beta07 intelligence topic 23",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_24",
+    "npc_id": "hardline_old_court_official",
+    "title": "Beta07 intelligence topic 24",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_25",
+    "npc_id": "guo_ziyi",
+    "title": "Beta07 intelligence topic 25",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_26",
+    "npc_id": "li_fuguo",
+    "title": "Beta07 intelligence topic 26",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_27",
+    "npc_id": "li_bi",
+    "title": "Beta07 intelligence topic 27",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_28",
+    "npc_id": "hardline_old_court_official",
+    "title": "Beta07 intelligence topic 28",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_29",
+    "npc_id": "guo_ziyi",
+    "title": "Beta07 intelligence topic 29",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_30",
+    "npc_id": "li_fuguo",
+    "title": "Beta07 intelligence topic 30",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_31",
+    "npc_id": "li_bi",
+    "title": "Beta07 intelligence topic 31",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_32",
+    "npc_id": "hardline_old_court_official",
+    "title": "Beta07 intelligence topic 32",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_33",
+    "npc_id": "guo_ziyi",
+    "title": "Beta07 intelligence topic 33",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_34",
+    "npc_id": "li_fuguo",
+    "title": "Beta07 intelligence topic 34",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "beta07_intel_topic_35",
+    "npc_id": "li_bi",
+    "title": "Beta07 intelligence topic 35",
+    "prompt_seed": "Discuss regional intelligence confidence, route pressure, and command channels.",
+    "linked_characters": [
+      "guo_ziyi",
+      "li_fuguo"
+    ],
+    "linked_factions": [
+      "military_commanders",
+      "eunuch_network"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "tags": [
+      "beta07",
+      "war_intelligence"
+    ],
+    "reveals": [
+      "intelligence_bias",
+      "route_pressure"
+    ]
+  },
+  {
+    "topic_id": "grain_official_audit_delay_beta_0_9",
+    "npc_id": "grain_official_lingwu",
+    "title": "Grain audit and delay excuses",
+    "summary": "The Lingwu grain official explains missing registers, route delays, and which seals can force accountability.",
+    "tags": [
+      "beta_0_9",
+      "supply_delay",
+      "red_line",
+      "faction_pressure"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_factions": [
+      "suzong_court",
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "guo_ziyi",
+      "lingwu_merchant_refugee"
+    ],
+    "reveals": [
+      "grain_delay",
+      "audit_threat",
+      "shortage_hidden"
+    ],
+    "allowed_intents": [
+      "ask_supply_delay",
+      "threaten_audit",
+      "convert_to_decree"
+    ],
+    "risk_tags": [
+      "paperwork_delay",
+      "official_resistance"
+    ]
+  },
+  {
+    "topic_id": "eunuch_deputy_gate_channel_beta_0_9",
+    "npc_id": "eunuch_deputy_gate",
+    "title": "Gate channel and blame rumors",
+    "summary": "The gate deputy can move sealed messages but may turn public blame into palace resentment.",
+    "tags": [
+      "beta_0_9",
+      "palace_channel",
+      "rumor",
+      "faction_pressure"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_factions": [
+      "eunuch_network",
+      "military_commanders"
+    ],
+    "linked_characters": [
+      "li_fuguo",
+      "guo_ziyi"
+    ],
+    "reveals": [
+      "gate_blame_risk",
+      "sealed_order_channel"
+    ],
+    "allowed_intents": [
+      "promise_sealed_order",
+      "bargain_with_threat",
+      "ask_about_npc"
+    ],
+    "risk_tags": [
+      "rumor_leak",
+      "eunuch_resistance"
+    ]
+  },
+  {
+    "topic_id": "lingwu_civil_administration_beta_0_9",
+    "npc_id": "beta06_court_actor_05",
+    "title": "Lingwu civil administration bridge",
+    "summary": "This civil administrator equivalent connects market pressure, paperwork, and court order execution.",
+    "tags": [
+      "beta_0_9",
+      "civil_administration",
+      "market_pressure",
+      "paperwork"
+    ],
+    "linked_fronts": [
+      "shuofang_front"
+    ],
+    "linked_factions": [
+      "suzong_court",
+      "common_people"
+    ],
+    "linked_characters": [
+      "grain_official_lingwu",
+      "lingwu_merchant_refugee"
+    ],
+    "reveals": [
+      "civil_admin_bottleneck",
+      "market_paperwork_pressure"
+    ],
+    "allowed_intents": [
+      "ask_map_pressure",
+      "promise_relief",
+      "request_formal_memorial"
+    ],
+    "risk_tags": [
+      "paperwork_delay",
+      "public_order"
+    ]
+  }
+]

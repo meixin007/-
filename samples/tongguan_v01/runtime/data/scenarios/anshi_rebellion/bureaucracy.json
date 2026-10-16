@@ -1,0 +1,2916 @@
+{
+  "beta108_appointments": {
+    "initial_office_overlay": [
+      {
+        "holder_id": "li_bi",
+        "office_id": "zhongshu_drafting",
+        "status": "appointed"
+      },
+      {
+        "holder_id": "",
+        "office_id": "menxia_review",
+        "status": "vacant",
+        "vacancy_reason": "initial_overlay"
+      },
+      {
+        "holder_id": "li_chu",
+        "office_id": "shangshu_execution",
+        "status": "appointed"
+      },
+      {
+        "holder_id": "grain_official_lingwu",
+        "office_id": "household_supply",
+        "status": "appointed"
+      },
+      {
+        "holder_id": "guo_ziyi",
+        "office_id": "war_mobilization",
+        "status": "appointed"
+      },
+      {
+        "holder_id": "",
+        "office_id": "censorate",
+        "status": "vacant",
+        "vacancy_reason": "initial_overlay"
+      },
+      {
+        "holder_id": "li_fuguo",
+        "office_id": "inner_court_gatekeeper",
+        "status": "appointed"
+      },
+      {
+        "holder_id": "",
+        "office_id": "envoy_negotiator",
+        "status": "vacant",
+        "vacancy_reason": "initial_overlay"
+      }
+    ],
+    "office_priority": [
+      "zhongshu_drafting",
+      "shangshu_execution",
+      "household_supply",
+      "war_mobilization",
+      "inner_court_gatekeeper",
+      "menxia_review",
+      "censorate",
+      "envoy_negotiator"
+    ],
+    "qualification_matrix": {
+      "eunuch_deputy_gate": {
+        "censorate": {
+          "level": "prohibited",
+          "reason": "内廷渠道与监察冲突"
+        },
+        "envoy_negotiator": {
+          "exception_cost": {
+            "authority": 4.0,
+            "political_debt": 2.0
+          },
+          "level": "exceptional",
+          "reason": "可传达内廷条件但外交信誉有限"
+        },
+        "household_supply": {
+          "level": "prohibited",
+          "reason": "内廷身份与钱粮核验冲突"
+        },
+        "inner_court_gatekeeper": {
+          "level": "eligible",
+          "reason": "宫门副使经验与传令职责匹配"
+        },
+        "menxia_review": {
+          "level": "prohibited",
+          "reason": "内廷身份不能直接掌门下审议"
+        },
+        "shangshu_execution": {
+          "level": "prohibited",
+          "reason": "内廷副使不掌外朝行政"
+        },
+        "war_mobilization": {
+          "level": "prohibited",
+          "reason": "不能直接统军"
+        },
+        "zhongshu_drafting": {
+          "exception_cost": {
+            "authority": 5.0,
+            "political_debt": 2.0
+          },
+          "level": "exceptional",
+          "reason": "熟悉传令但缺少公开制诰资历"
+        }
+      },
+      "grain_official_lingwu": {
+        "censorate": {
+          "exception_cost": {
+            "authority": 4.0,
+            "political_debt": 2.0
+          },
+          "level": "exceptional",
+          "reason": "可监察粮账但存在自查冲突"
+        },
+        "envoy_negotiator": {
+          "level": "prohibited",
+          "reason": "缺少外交与盟约资格"
+        },
+        "household_supply": {
+          "level": "eligible",
+          "reason": "仓粮核验与军需配置是本职"
+        },
+        "inner_court_gatekeeper": {
+          "level": "prohibited",
+          "reason": "钱粮官不能掌宫门"
+        },
+        "menxia_review": {
+          "level": "prohibited",
+          "reason": "缺少程序审议资格"
+        },
+        "shangshu_execution": {
+          "exception_cost": {
+            "authority": 3.0,
+            "political_debt": 1.0
+          },
+          "level": "exceptional",
+          "reason": "掌握仓运执行但行政范围有限"
+        },
+        "war_mobilization": {
+          "level": "prohibited",
+          "reason": "不能直接统军"
+        },
+        "zhongshu_drafting": {
+          "level": "prohibited",
+          "reason": "钱粮官不能掌制诰"
+        }
+      },
+      "guo_ziyi": {
+        "censorate": {
+          "level": "prohibited",
+          "reason": "现任军权身份与直接监察冲突"
+        },
+        "envoy_negotiator": {
+          "exception_cost": {
+            "authority": 3.0,
+            "political_debt": 1.0
+          },
+          "level": "exceptional",
+          "reason": "可代表军方谈判但外交经验有限"
+        },
+        "household_supply": {
+          "exception_cost": {
+            "authority": 3.0,
+            "political_debt": 1.0
+          },
+          "level": "exceptional",
+          "reason": "可监督军需但并非钱粮专长"
+        },
+        "inner_court_gatekeeper": {
+          "level": "prohibited",
+          "reason": "军镇身份不能掌内廷传令"
+        },
+        "menxia_review": {
+          "exception_cost": {
+            "authority": 3.0,
+            "political_debt": 1.0
+          },
+          "level": "exceptional",
+          "reason": "能守军令程序，但缺少审议资历"
+        },
+        "shangshu_execution": {
+          "level": "eligible",
+          "reason": "统筹军政执行经验明确"
+        },
+        "war_mobilization": {
+          "level": "eligible",
+          "reason": "前线调度与统帅经验匹配"
+        },
+        "zhongshu_drafting": {
+          "exception_cost": {
+            "authority": 4.0,
+            "political_debt": 1.0
+          },
+          "level": "exceptional",
+          "reason": "军令经验足，但制诰训练不足"
+        }
+      },
+      "hardline_old_court_official": {
+        "censorate": {
+          "level": "eligible",
+          "reason": "监察与名分审查是其强项"
+        },
+        "envoy_negotiator": {
+          "exception_cost": {
+            "authority": 3.0,
+            "political_debt": 1.0
+          },
+          "level": "exceptional",
+          "reason": "可守盟约名分但谈判弹性有限"
+        },
+        "household_supply": {
+          "level": "prohibited",
+          "reason": "缺少钱粮与军需专长"
+        },
+        "inner_court_gatekeeper": {
+          "level": "prohibited",
+          "reason": "旧臣身份不能掌内廷渠道"
+        },
+        "menxia_review": {
+          "level": "eligible",
+          "reason": "程序复核与旧制权威匹配"
+        },
+        "shangshu_execution": {
+          "exception_cost": {
+            "authority": 2.0,
+            "political_debt": 1.0
+          },
+          "level": "exceptional",
+          "reason": "能守行政程序但执行弹性不足"
+        },
+        "war_mobilization": {
+          "level": "prohibited",
+          "reason": "不具前线统军资格"
+        },
+        "zhongshu_drafting": {
+          "level": "eligible",
+          "reason": "旧制与诏令名分经验充分"
+        }
+      },
+      "li_bi": {
+        "censorate": {
+          "level": "eligible",
+          "reason": "制度监察与事实核查能力充分"
+        },
+        "envoy_negotiator": {
+          "level": "eligible",
+          "reason": "善于谈判并能辨识承诺边界"
+        },
+        "household_supply": {
+          "exception_cost": {
+            "authority": 2.0,
+            "political_debt": 1.0
+          },
+          "level": "exceptional",
+          "reason": "能审粮政但缺少仓运日常经验"
+        },
+        "inner_court_gatekeeper": {
+          "exception_cost": {
+            "authority": 4.0,
+            "political_debt": 1.0
+          },
+          "level": "exceptional",
+          "reason": "可以约束宫门但不具内廷派系基础"
+        },
+        "menxia_review": {
+          "level": "eligible",
+          "reason": "熟悉程序复核与名分边界"
+        },
+        "shangshu_execution": {
+          "level": "eligible",
+          "reason": "能把议论转成跨部门执行方案"
+        },
+        "war_mobilization": {
+          "level": "prohibited",
+          "reason": "缺乏直接统军资格"
+        },
+        "zhongshu_drafting": {
+          "level": "eligible",
+          "reason": "制诰与制度判断是其核心专长"
+        }
+      },
+      "li_chu": {
+        "censorate": {
+          "exception_cost": {
+            "authority": 3.0,
+            "political_debt": 1.0
+          },
+          "level": "exceptional",
+          "reason": "可推动监察但存在储君干预疑虑"
+        },
+        "envoy_negotiator": {
+          "level": "eligible",
+          "reason": "皇室身份可承担盟约谈判"
+        },
+        "household_supply": {
+          "level": "prohibited",
+          "reason": "储君身份不宜直接掌钱粮"
+        },
+        "inner_court_gatekeeper": {
+          "level": "prohibited",
+          "reason": "储君不直接掌内廷传令"
+        },
+        "menxia_review": {
+          "level": "eligible",
+          "reason": "储君身份与名分复核职责匹配"
+        },
+        "shangshu_execution": {
+          "level": "eligible",
+          "reason": "可协调各署落实皇命"
+        },
+        "war_mobilization": {
+          "exception_cost": {
+            "authority": 4.0,
+            "political_debt": 1.0
+          },
+          "level": "exceptional",
+          "reason": "可代表皇权统军但缺少前线经历"
+        },
+        "zhongshu_drafting": {
+          "exception_cost": {
+            "authority": 3.0,
+            "political_debt": 1.0
+          },
+          "level": "exceptional",
+          "reason": "储君可定名分但制诰经验有限"
+        }
+      },
+      "li_fuguo": {
+        "censorate": {
+          "level": "prohibited",
+          "reason": "内廷渠道与监察职责直接冲突"
+        },
+        "envoy_negotiator": {
+          "exception_cost": {
+            "authority": 4.0,
+            "political_debt": 2.0
+          },
+          "level": "exceptional",
+          "reason": "可用宫门渠道促成谈判但信任成本高"
+        },
+        "household_supply": {
+          "level": "prohibited",
+          "reason": "内廷专长与钱粮核验存在硬冲突"
+        },
+        "inner_court_gatekeeper": {
+          "level": "eligible",
+          "reason": "宫门传令与内廷渠道经验完全匹配"
+        },
+        "menxia_review": {
+          "exception_cost": {
+            "authority": 5.0,
+            "political_debt": 2.0
+          },
+          "level": "exceptional",
+          "reason": "可代表皇权复核但程序信誉不足"
+        },
+        "shangshu_execution": {
+          "exception_cost": {
+            "authority": 4.0,
+            "political_debt": 2.0
+          },
+          "level": "exceptional",
+          "reason": "渠道协调强但行政公开性不足"
+        },
+        "war_mobilization": {
+          "level": "prohibited",
+          "reason": "不具前线统军资格"
+        },
+        "zhongshu_drafting": {
+          "exception_cost": {
+            "authority": 5.0,
+            "political_debt": 2.0
+          },
+          "level": "exceptional",
+          "reason": "熟悉宫门口谕但缺少公开制诰资历"
+        }
+      },
+      "li_guangbi": {
+        "censorate": {
+          "exception_cost": {
+            "authority": 3.0,
+            "political_debt": 1.0
+          },
+          "level": "exceptional",
+          "reason": "可监察军政但军中利益需要申报"
+        },
+        "envoy_negotiator": {
+          "level": "eligible",
+          "reason": "可代表军方核定盟约代价"
+        },
+        "household_supply": {
+          "exception_cost": {
+            "authority": 3.0,
+            "political_debt": 1.0
+          },
+          "level": "exceptional",
+          "reason": "熟悉军需但非钱粮主官"
+        },
+        "inner_court_gatekeeper": {
+          "level": "prohibited",
+          "reason": "前线将领不能掌内廷传令"
+        },
+        "menxia_review": {
+          "exception_cost": {
+            "authority": 3.0,
+            "political_debt": 1.0
+          },
+          "level": "exceptional",
+          "reason": "能审军令但程序经验不足"
+        },
+        "shangshu_execution": {
+          "level": "eligible",
+          "reason": "军政协调与执行能力匹配"
+        },
+        "war_mobilization": {
+          "level": "eligible",
+          "reason": "前线统帅资格明确"
+        },
+        "zhongshu_drafting": {
+          "level": "prohibited",
+          "reason": "前线身份不适合掌制诰"
+        }
+      },
+      "lingwu_merchant_refugee": {
+        "censorate": {
+          "level": "prohibited",
+          "reason": "缺少官署监察资格"
+        },
+        "envoy_negotiator": {
+          "level": "eligible",
+          "reason": "商路与民情经验适合沟通外援"
+        },
+        "household_supply": {
+          "exception_cost": {
+            "authority": 4.0,
+            "political_debt": 2.0
+          },
+          "level": "exceptional",
+          "reason": "熟悉市场粮价但需防利益冲突"
+        },
+        "inner_court_gatekeeper": {
+          "level": "prohibited",
+          "reason": "民间身份不能掌宫门"
+        },
+        "menxia_review": {
+          "exception_cost": {
+            "authority": 5.0,
+            "political_debt": 2.0
+          },
+          "level": "exceptional",
+          "reason": "可提供民间程序见闻但身份不足"
+        },
+        "shangshu_execution": {
+          "exception_cost": {
+            "authority": 4.0,
+            "political_debt": 2.0
+          },
+          "level": "exceptional",
+          "reason": "商路经验可助执行但官阶不足"
+        },
+        "war_mobilization": {
+          "level": "prohibited",
+          "reason": "民间身份不能统军"
+        },
+        "zhongshu_drafting": {
+          "level": "prohibited",
+          "reason": "民间身份不能掌制诰"
+        }
+      },
+      "pugu_huaien": {
+        "censorate": {
+          "level": "prohibited",
+          "reason": "被监察对象不能兼任监察"
+        },
+        "envoy_negotiator": {
+          "level": "eligible",
+          "reason": "熟悉盟军条件与军政谈判"
+        },
+        "household_supply": {
+          "level": "prohibited",
+          "reason": "盟军身份与钱粮核验冲突"
+        },
+        "inner_court_gatekeeper": {
+          "level": "prohibited",
+          "reason": "外援军将不能掌宫门"
+        },
+        "menxia_review": {
+          "level": "prohibited",
+          "reason": "外援军将不能直接掌程序审议"
+        },
+        "shangshu_execution": {
+          "exception_cost": {
+            "authority": 4.0,
+            "political_debt": 2.0
+          },
+          "level": "exceptional",
+          "reason": "可协调边军执行但行政基础不足"
+        },
+        "war_mobilization": {
+          "level": "eligible",
+          "reason": "联军调度能力与职责匹配"
+        },
+        "zhongshu_drafting": {
+          "level": "prohibited",
+          "reason": "外援军将身份不适合掌制诰"
+        }
+      },
+      "regional_jiedushi_rep": {
+        "censorate": {
+          "level": "prohibited",
+          "reason": "藩镇代表不能监察自身系统"
+        },
+        "envoy_negotiator": {
+          "level": "eligible",
+          "reason": "熟悉地方与盟军协调条件"
+        },
+        "household_supply": {
+          "level": "prohibited",
+          "reason": "地方代表不能直接核验行在钱粮"
+        },
+        "inner_court_gatekeeper": {
+          "level": "prohibited",
+          "reason": "地方代表不能掌内廷"
+        },
+        "menxia_review": {
+          "level": "prohibited",
+          "reason": "藩镇代表不能掌朝廷程序"
+        },
+        "shangshu_execution": {
+          "level": "eligible",
+          "reason": "地方执行与军政协调经验匹配"
+        },
+        "war_mobilization": {
+          "level": "eligible",
+          "reason": "藩镇军需与调度经验匹配"
+        },
+        "zhongshu_drafting": {
+          "level": "prohibited",
+          "reason": "藩镇代表不掌中书制诰"
+        }
+      },
+      "uighur_envoy": {
+        "censorate": {
+          "level": "prohibited",
+          "reason": "外使不能担任本朝监察"
+        },
+        "envoy_negotiator": {
+          "level": "eligible",
+          "reason": "外援条件与翻译谈判是其职责"
+        },
+        "household_supply": {
+          "level": "prohibited",
+          "reason": "外使不能核验本朝钱粮"
+        },
+        "inner_court_gatekeeper": {
+          "level": "prohibited",
+          "reason": "外使不能掌宫门传令"
+        },
+        "menxia_review": {
+          "level": "prohibited",
+          "reason": "外使不能掌朝廷程序复核"
+        },
+        "shangshu_execution": {
+          "level": "prohibited",
+          "reason": "外使不能统筹内廷行政"
+        },
+        "war_mobilization": {
+          "exception_cost": {
+            "authority": 5.0,
+            "political_debt": 2.0
+          },
+          "level": "exceptional",
+          "reason": "可协调援军但受外籍身份限制"
+        },
+        "zhongshu_drafting": {
+          "level": "prohibited",
+          "reason": "外使身份不能掌中书制诰"
+        }
+      }
+    },
+    "schema_version": 108.0
+  },
+  "beta108_catalog": {
+    "case_ids": [
+      "beta108_case_grain_ledger_shortfall",
+      "beta108_case_military_grain_delay",
+      "beta108_case_palace_order_leak",
+      "beta108_case_edict_legitimacy",
+      "beta108_case_uighur_aid_cost",
+      "beta108_case_final_assessment"
+    ],
+    "case_template_ids": [
+      "grain_ledger_shortfall",
+      "military_grain_delay",
+      "palace_order_leak",
+      "edict_legitimacy",
+      "uighur_aid_cost",
+      "final_assessment"
+    ],
+    "office_ids": [
+      "zhongshu_drafting",
+      "menxia_review",
+      "shangshu_execution",
+      "household_supply",
+      "war_mobilization",
+      "censorate",
+      "inner_court_gatekeeper",
+      "envoy_negotiator"
+    ]
+  },
+  "clan_petitions": {
+    "clan_petitions": [
+      {
+        "balance_with_scholars_effects": {
+          "clan_opinion_delta": -15.0,
+          "description": "天子宣旨以科举策论取士，力抑门荫私恩，天下寒门进士士气大振，拥戴天子！",
+          "emperor_authority_gain": 20.0,
+          "scholar_faction_loyalty": 30.0
+        },
+        "clan_id": "clan_cui_qinghe",
+        "clan_name": "清河崔氏",
+        "compromise_effects": {
+          "clan_opinion_delta": 10.0,
+          "cost_silver": 100.0,
+          "description": "赐予清河子弟礼部清显闲职并加封荣衔，稳固基本好感。"
+        },
+        "grant_effects": {
+          "clan_opinion_delta": 30.0,
+          "court_support_bonus": 20.0,
+          "description": "清河崔氏深感皇恩，山东门阀官员积极响应新政，政令推行效率大幅提升。",
+          "policy_execution_rate_bonus": 0.25
+        },
+        "id": "petition_cui_qinghe_chancellor",
+        "patriarch_name": "崔圆",
+        "reject_effects": {
+          "clan_opinion_delta": -25.0,
+          "description": "严斥门阀擅权，皇权威严大振，但清河崔氏联合山东门阀消极抵制。",
+          "emperor_authority_gain": 15.0,
+          "rebel_resistance_penalty": -0.15
+        },
+        "summary": "清河崔圆上奏：清河崔氏累世冠带，望族之冠。请圣上优崇名望，擢用清河门阀重臣同平章事，以安山东士林之心。",
+        "title": "《请立清河子弟入知政事疏》",
+        "trigger_condition": {
+          "clan_opinion_threshold": 10.0,
+          "min_day": 10.0
+        }
+      },
+      {
+        "balance_with_scholars_effects": {
+          "clan_opinion_delta": -10.0,
+          "description": "任用科举拔萃进士出任盐铁判官，革除世家漕运私利。",
+          "scholar_faction_loyalty": 20.0
+        },
+        "clan_id": "clan_du_jingzhao",
+        "clan_name": "京兆杜氏",
+        "compromise_effects": {
+          "clan_opinion_delta": 10.0,
+          "description": "准设副使襄理粮草，稳步改善转运效率。"
+        },
+        "grant_effects": {
+          "clan_opinion_delta": 25.0,
+          "description": "采纳杜氏度支疏，江淮漕运粮船直达关中，转运损耗压降至两成以下。",
+          "grain_transport_loss_reduction": 0.2
+        },
+        "id": "petition_du_jingzhao_duzhi",
+        "patriarch_name": "杜鸿渐",
+        "reject_effects": {
+          "clan_opinion_delta": -20.0,
+          "description": "驳回专使提案，漕运仍由旧制运转，出现转运拖延。"
+        },
+        "summary": "京兆杜氏奏请：关中钱粮日蹙，请专设使职专司江淮盐铁漕运，统领运河粮道，确保大军度支无虞。",
+        "title": "《请专设江淮盐铁度支使疏》",
+        "trigger_condition": {
+          "clan_opinion_threshold": 5.0,
+          "min_day": 15.0
+        }
+      },
+      {
+        "balance_with_scholars_effects": {
+          "clan_opinion_delta": 5.0,
+          "description": "遣翰林学士持节劳军，亲写抚军诏书，以名节荣誉激励三军。"
+        },
+        "clan_id": "clan_guo_huazhou",
+        "clan_name": "华州郭氏",
+        "compromise_effects": {
+          "army_morale_boost": 15.0,
+          "clan_opinion_delta": 15.0,
+          "cost_silver": 80.0,
+          "description": "折中赏赐御酒与粮米，将士感念皇恩。"
+        },
+        "grant_effects": {
+          "army_morale_boost": 30.0,
+          "clan_opinion_delta": 30.0,
+          "cost_silver": 150.0,
+          "description": "大赐三军，朔方精锐士气高昂，战意沸腾！"
+        },
+        "id": "petition_guo_huazhou_supplies",
+        "patriarch_name": "郭子仪",
+        "reject_effects": {
+          "army_morale_boost": -20.0,
+          "clan_opinion_delta": -25.0,
+          "description": "以国库空虚为由拒绝犒赏，边关将士出现厌战不满。"
+        },
+        "summary": "华州郭子仪奏请：朔方将士浴血前线，粮饷匮乏，请发内库金帛犒赏三军，以励士气。",
+        "title": "《请犒赏三军将士战功疏》",
+        "trigger_condition": {
+          "clan_opinion_threshold": 0.0,
+          "min_day": 20.0
+        }
+      }
+    ],
+    "schema_version": "1.3.0"
+  },
+  "examination_questions": {
+    "candidate_pool_template": [
+      {
+        "base_stats": {
+          "command": 45.0,
+          "diplomacy": 80.0,
+          "finance": 88.0,
+          "governance": 86.0,
+          "intrigue": 78.0,
+          "martial": 30.0,
+          "morality": 85.0
+        },
+        "id": "scholar_liu_yuxi",
+        "name": "刘晏之",
+        "origin": "江淮寒门文人",
+        "paper_excerpt": "因江淮之水利，通转运之通衢。平物价，榷盐铁，不加赋而国用足。",
+        "paper_title": "《江淮漕渠通变十便疏》",
+        "traits": [
+          "financial_genius",
+          "astute_administrator"
+        ]
+      },
+      {
+        "base_stats": {
+          "command": 50.0,
+          "diplomacy": 85.0,
+          "finance": 78.0,
+          "governance": 90.0,
+          "intrigue": 88.0,
+          "martial": 35.0,
+          "morality": 92.0
+        },
+        "id": "scholar_lu_zhi",
+        "name": "陆清源",
+        "origin": "吴郡江南名士",
+        "paper_excerpt": "治国之本，在于固民；固民之术，在于均税。去苛暴，省徭役，天下归心。",
+        "paper_title": "《均节赋税抚恤黎庶疏》",
+        "traits": [
+          "mature_statesman",
+          "righteous_upright"
+        ]
+      },
+      {
+        "base_stats": {
+          "command": 60.0,
+          "diplomacy": 74.0,
+          "finance": 72.0,
+          "governance": 78.0,
+          "intrigue": 75.0,
+          "martial": 55.0,
+          "morality": 80.0
+        },
+        "id": "scholar_cui_hanmen",
+        "name": "崔景文",
+        "origin": "清河崔氏寒素支脉",
+        "paper_excerpt": "练精兵而不尚多，严节钺以制方镇。防患于未萌，息乱于未兆。",
+        "paper_title": "《定边息争整饬兵甲策》",
+        "traits": [
+          "practical_pragmatic",
+          "renowned_scholar"
+        ]
+      },
+      {
+        "base_stats": {
+          "command": 40.0,
+          "diplomacy": 88.0,
+          "finance": 65.0,
+          "governance": 82.0,
+          "intrigue": 70.0,
+          "martial": 35.0,
+          "morality": 90.0
+        },
+        "id": "scholar_han_yu_student",
+        "name": "韩弘道",
+        "origin": "中原避乱士子",
+        "paper_excerpt": "大唐之所以立国者，礼义风化也。开国学，正文风，上以承天心，下以化万民。",
+        "paper_title": "《原道明经崇儒重教议》",
+        "traits": [
+          "renowned_scholar",
+          "inspiring_orator"
+        ]
+      }
+    ],
+    "examination_topics": [
+      {
+        "id": "topic_zhongxing_ce",
+        "ideal_trait": "astute_administrator",
+        "prompt": "两京虽复，关东未平，四方宿兵，府库耗竭。策问：当何以富国强兵、整肃纪纲以致中兴？",
+        "title": "《安史乱定天下中兴策》"
+      },
+      {
+        "id": "topic_caoyun_duzhi",
+        "ideal_trait": "commercial_genius",
+        "prompt": "大运河漕运受阻，关中仰食于江南。策问：当何以畅通漕渠，调剂盐铁度支？",
+        "title": "《江淮漕运两税通流论》"
+      },
+      {
+        "id": "topic_tuntian_shubian",
+        "ideal_trait": "practical_pragmatic",
+        "prompt": "边关募兵靡费金帛，方镇尾大不掉。策问：当何以行营田之法，使兵自食其力？",
+        "title": "《兵农合一屯田固边议》"
+      }
+    ],
+    "schema_version": "1.3.0",
+    "subjects": [
+      {
+        "emphasis": "诗赋声律、时务策论三道",
+        "id": "jinshi_ke",
+        "name": "进士科",
+        "prestige_bonus": 25.0,
+        "stat_focus": [
+          "governance",
+          "intrigue",
+          "diplomacy"
+        ]
+      },
+      {
+        "emphasis": "九经义疏、帖经墨义",
+        "id": "mingjing_ke",
+        "name": "明经科",
+        "prestige_bonus": 15.0,
+        "stat_focus": [
+          "governance",
+          "morality"
+        ]
+      },
+      {
+        "emphasis": "能直言极谏、匡救国难大策",
+        "id": "zhike_special",
+        "name": "制科·贤良方正",
+        "prestige_bonus": 30.0,
+        "stat_focus": [
+          "governance",
+          "intrigue",
+          "finance"
+        ]
+      }
+    ]
+  },
+  "initial_office_overlay": [
+    {
+      "holder_id": "li_bi",
+      "office_id": "zhongshu_drafting",
+      "status": "appointed"
+    },
+    {
+      "holder_id": "",
+      "office_id": "menxia_review",
+      "status": "vacant",
+      "vacancy_reason": "initial_overlay"
+    },
+    {
+      "holder_id": "li_chu",
+      "office_id": "shangshu_execution",
+      "status": "appointed"
+    },
+    {
+      "holder_id": "grain_official_lingwu",
+      "office_id": "household_supply",
+      "status": "appointed"
+    },
+    {
+      "holder_id": "guo_ziyi",
+      "office_id": "war_mobilization",
+      "status": "appointed"
+    },
+    {
+      "holder_id": "",
+      "office_id": "censorate",
+      "status": "vacant",
+      "vacancy_reason": "initial_overlay"
+    },
+    {
+      "holder_id": "li_fuguo",
+      "office_id": "inner_court_gatekeeper",
+      "status": "appointed"
+    },
+    {
+      "holder_id": "",
+      "office_id": "envoy_negotiator",
+      "status": "vacant",
+      "vacancy_reason": "initial_overlay"
+    }
+  ],
+  "office_priority": [
+    "zhongshu_drafting",
+    "shangshu_execution",
+    "household_supply",
+    "war_mobilization",
+    "inner_court_gatekeeper",
+    "menxia_review",
+    "censorate",
+    "envoy_negotiator"
+  ],
+  "offices": [
+    {
+      "appointment": {
+        "candidate_tags": [],
+        "minimum_known_ability": 0.0,
+        "player_may_appoint_if_vacant": false
+      },
+      "authority_tags": [
+        "seal_edict"
+      ],
+      "category": "imperial",
+      "council_topics": [
+        "military_supply",
+        "fiscal_supply",
+        "inner_court_oversight"
+      ],
+      "display_name": "御前",
+      "effects": [],
+      "execution_bonus": {
+        "governance": 8.0
+      },
+      "holder_id": "li_heng",
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "office_id": "imperial_court",
+      "parent_office_id": "",
+      "removal": {
+        "reason_text": "御前不可任免。",
+        "requires": [
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "裁定国政与军令。",
+      "risks": [
+        "imperial_pressure"
+      ],
+      "status": "appointed",
+      "title": "御前"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "governance"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "draft_edict",
+        "council_strategy"
+      ],
+      "category": "drafting",
+      "council_topics": [
+        "military_supply",
+        "fiscal_supply",
+        "inner_court_oversight"
+      ],
+      "display_name": "中书省·制诰",
+      "effects": [],
+      "execution_bonus": {
+        "clarity": 8.0,
+        "governance": 5.0
+      },
+      "holder_id": "li_bi",
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "office_id": "zhongshu_drafting",
+      "parent_office_id": "imperial_court",
+      "removal": {
+        "reason_text": "现任须有政治条件方可任免。",
+        "requires": [
+          "memorial",
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "汇总奏折与朝议意见，拟定制书草案。",
+      "risks": [
+        "old_court_suspicion"
+      ],
+      "status": "appointed",
+      "title": "中书省·制诰"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "oversight"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "review_edict"
+      ],
+      "category": "review",
+      "council_topics": [
+        "military_supply",
+        "inner_court_oversight"
+      ],
+      "display_name": "门下省·审议",
+      "effects": [],
+      "execution_bonus": {
+        "clarity": 5.0
+      },
+      "holder_id": "",
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "office_id": "menxia_review",
+      "parent_office_id": "imperial_court",
+      "removal": {
+        "reason_text": "现任须有政治条件方可任免。",
+        "requires": [
+          "memorial",
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "复核制书与朝议分歧。",
+      "risks": [
+        "review_delay"
+      ],
+      "status": "vacant",
+      "title": "门下省·审议"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "governance"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "execute_edict"
+      ],
+      "category": "execution",
+      "council_topics": [
+        "military_supply",
+        "fiscal_supply"
+      ],
+      "display_name": "尚书省·执行",
+      "effects": [],
+      "execution_bonus": {
+        "governance": 5.0
+      },
+      "holder_id": "",
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "office_id": "shangshu_execution",
+      "parent_office_id": "imperial_court",
+      "removal": {
+        "reason_text": "现任须有政治条件方可任免。",
+        "requires": [
+          "memorial",
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "协调六部施行诏令。",
+      "risks": [
+        "bureaucratic_delay"
+      ],
+      "status": "vacant",
+      "title": "尚书省·执行"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "finance"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "allocate_grain",
+        "mobilize_supply"
+      ],
+      "category": "supply",
+      "council_topics": [
+        "military_supply",
+        "fiscal_supply"
+      ],
+      "display_name": "户部·钱粮",
+      "effects": [],
+      "execution_bonus": {
+        "finance": 6.0
+      },
+      "holder_id": "grain_official_lingwu",
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "office_id": "household_supply",
+      "parent_office_id": "shangshu_execution",
+      "removal": {
+        "reason_text": "现任须有政治条件方可任免。",
+        "requires": [
+          "memorial",
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "核验仓粮与配给。",
+      "risks": [
+        "shortage"
+      ],
+      "status": "appointed",
+      "title": "户部·钱粮"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "military"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "mobilize_supply",
+        "mobilize_force"
+      ],
+      "category": "military",
+      "council_topics": [
+        "military_supply"
+      ],
+      "display_name": "兵部·调发",
+      "effects": [],
+      "execution_bonus": {
+        "military": 6.0
+      },
+      "holder_id": "guo_ziyi",
+      "jurisdiction": [
+        "shuofang_front_node"
+      ],
+      "office_id": "war_mobilization",
+      "parent_office_id": "shangshu_execution",
+      "removal": {
+        "reason_text": "现任须有政治条件方可任免。",
+        "requires": [
+          "memorial",
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "调发军队与前线资源。",
+      "risks": [
+        "military_bloc_empowered"
+      ],
+      "status": "appointed",
+      "title": "兵部·调发"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "governance"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "appoint_office"
+      ],
+      "category": "personnel",
+      "council_topics": [
+        "inner_court_oversight"
+      ],
+      "display_name": "吏部·人事",
+      "effects": [],
+      "execution_bonus": {
+        "governance": 3.0
+      },
+      "holder_id": "",
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "office_id": "personnel_affairs",
+      "parent_office_id": "shangshu_execution",
+      "removal": {
+        "reason_text": "现任须有政治条件方可任免。",
+        "requires": [
+          "memorial",
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "审验官员任免。",
+      "risks": [
+        "patronage"
+      ],
+      "status": "vacant",
+      "title": "吏部·人事"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "governance"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "ritual_review"
+      ],
+      "category": "rites",
+      "council_topics": [
+        "inner_court_oversight"
+      ],
+      "display_name": "礼部·礼制",
+      "effects": [],
+      "execution_bonus": {
+        "prestige": 3.0
+      },
+      "holder_id": "",
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "office_id": "rites_affairs",
+      "parent_office_id": "shangshu_execution",
+      "removal": {
+        "reason_text": "现任须有政治条件方可任免。",
+        "requires": [
+          "memorial",
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "维护诏令礼制与名分。",
+      "risks": [
+        "ceremonial_delay"
+      ],
+      "status": "vacant",
+      "title": "礼部·礼制"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "oversight"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "legal_review"
+      ],
+      "category": "justice",
+      "council_topics": [
+        "inner_court_oversight"
+      ],
+      "display_name": "刑部·刑名",
+      "effects": [],
+      "execution_bonus": {
+        "oversight": 3.0
+      },
+      "holder_id": "",
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "office_id": "justice_affairs",
+      "parent_office_id": "shangshu_execution",
+      "removal": {
+        "reason_text": "现任须有政治条件方可任免。",
+        "requires": [
+          "memorial",
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "处理军政法度争议。",
+      "risks": [
+        "procedural_delay"
+      ],
+      "status": "vacant",
+      "title": "刑部·刑名"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "logistics"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "repair_route"
+      ],
+      "category": "works",
+      "council_topics": [
+        "military_supply"
+      ],
+      "display_name": "工部·营造",
+      "effects": [],
+      "execution_bonus": {
+        "logistics": 3.0
+      },
+      "holder_id": "",
+      "jurisdiction": [
+        "grain_road_node"
+      ],
+      "office_id": "works_affairs",
+      "parent_office_id": "shangshu_execution",
+      "removal": {
+        "reason_text": "现任须有政治条件方可任免。",
+        "requires": [
+          "memorial",
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "统筹营造与道路修复。",
+      "risks": [
+        "construction_delay"
+      ],
+      "status": "vacant",
+      "title": "工部·营造"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "oversight"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "oversight"
+      ],
+      "category": "oversight",
+      "council_topics": [
+        "inner_court_oversight",
+        "military_supply"
+      ],
+      "display_name": "御史台·监察",
+      "effects": [],
+      "execution_bonus": {
+        "oversight": 6.0
+      },
+      "holder_id": "chen_xuanli",
+      "jurisdiction": [
+        "palace_inner_channel_node"
+      ],
+      "office_id": "censorate",
+      "parent_office_id": "imperial_court",
+      "removal": {
+        "reason_text": "现任须有政治条件方可任免。",
+        "requires": [
+          "memorial",
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "监察宫门、军政与文书。",
+      "risks": [
+        "old_court_suspicion"
+      ],
+      "status": "appointed",
+      "title": "御史台·监察"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "inner_court"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "relay_order"
+      ],
+      "category": "inner_court",
+      "council_topics": [
+        "inner_court_oversight"
+      ],
+      "display_name": "内廷·宫门传令",
+      "effects": [],
+      "execution_bonus": {
+        "governance": 3.0
+      },
+      "holder_id": "li_fuguo",
+      "jurisdiction": [
+        "palace_inner_channel_node"
+      ],
+      "office_id": "inner_court_gatekeeper",
+      "parent_office_id": "imperial_court",
+      "removal": {
+        "reason_text": "现任须有政治条件方可任免。",
+        "requires": [
+          "memorial",
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "传递宫门文书并登记内廷命令。",
+      "risks": [
+        "office_rivalry"
+      ],
+      "status": "appointed",
+      "title": "内廷·宫门传令"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "military",
+          "command"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "mobilize_force",
+        "mobilize_supply"
+      ],
+      "category": "field_command",
+      "council_topics": [
+        "military_supply"
+      ],
+      "display_name": "朔方军镇",
+      "effects": [
+        {
+          "field": "supply",
+          "target": "shuofang_front",
+          "type": "battlefront_delta",
+          "value": 6.0
+        }
+      ],
+      "execution_bonus": {
+        "military": 8.0,
+        "shuofang_supply": 6.0
+      },
+      "holder_id": "guo_ziyi",
+      "jurisdiction": [
+        "shuofang_front_node",
+        "grain_road_node"
+      ],
+      "office_id": "shuofang_field_commander",
+      "parent_office_id": "war_mobilization",
+      "removal": {
+        "reason_text": "现任须有政治条件方可任免。",
+        "requires": [
+          "memorial",
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "统率朔方前营与军需。",
+      "risks": [
+        "military_bloc_empowered",
+        "old_court_suspicion"
+      ],
+      "status": "appointed",
+      "title": "朔方军镇"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "logistics"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "mobilize_supply"
+      ],
+      "category": "logistics",
+      "council_topics": [
+        "military_supply",
+        "fiscal_supply"
+      ],
+      "display_name": "粮道转运",
+      "effects": [],
+      "execution_bonus": {
+        "logistics": 5.0
+      },
+      "holder_id": "li_bi",
+      "jurisdiction": [
+        "grain_road_node"
+      ],
+      "office_id": "grain_transport_supervisor",
+      "parent_office_id": "household_supply",
+      "removal": {
+        "reason_text": "现任须有政治条件方可任免。",
+        "requires": [
+          "memorial",
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "调度粮道与转运文书。",
+      "risks": [
+        "office_rivalry"
+      ],
+      "status": "appointed",
+      "title": "粮道转运"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "governance"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "local_coordination"
+      ],
+      "category": "local",
+      "council_topics": [
+        "fiscal_supply"
+      ],
+      "display_name": "地方州县·行在联络",
+      "effects": [],
+      "execution_bonus": {
+        "governance": 2.0
+      },
+      "holder_id": "",
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "office_id": "local_node_administrator",
+      "parent_office_id": "shangshu_execution",
+      "removal": {
+        "reason_text": "现任须有政治条件方可任免。",
+        "requires": [
+          "memorial",
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "联络地方节点与行在。",
+      "risks": [
+        "local_resistance"
+      ],
+      "status": "vacant",
+      "title": "地方州县·行在联络"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "governance"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "review_edict"
+      ],
+      "category": "review",
+      "council_topics": [
+        "inner_court_oversight"
+      ],
+      "display_name": "奏折覆核使",
+      "effects": [],
+      "execution_bonus": {
+        "governance": 5.0
+      },
+      "holder_id": "li_fuguo",
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "office_id": "court_memorial_reviewer",
+      "parent_office_id": "menxia_review",
+      "removal": {
+        "reason_text": "须具政治条件。",
+        "requires": [
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "复核旧制奏折。",
+      "risks": [
+        "office_rivalry"
+      ],
+      "status": "appointed",
+      "title": "奏折覆核使"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "governance"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "relay_order"
+      ],
+      "category": "inner_court",
+      "council_topics": [
+        "inner_court_oversight"
+      ],
+      "display_name": "宫廷内务使",
+      "effects": [],
+      "execution_bonus": {
+        "governance": 6.0
+      },
+      "holder_id": "li_bi",
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "office_id": "palace_household_controller",
+      "parent_office_id": "imperial_court",
+      "removal": {
+        "reason_text": "须具政治条件。",
+        "requires": [
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "统筹行在内务。",
+      "risks": [
+        "office_rivalry"
+      ],
+      "status": "appointed",
+      "title": "宫廷内务使"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "governance"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "negotiate"
+      ],
+      "category": "diplomacy",
+      "council_topics": [
+        "inner_court_oversight"
+      ],
+      "display_name": "使节议和使",
+      "effects": [],
+      "execution_bonus": {
+        "governance": 7.0
+      },
+      "holder_id": "li_fuguo",
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "office_id": "envoy_negotiator",
+      "parent_office_id": "imperial_court",
+      "removal": {
+        "reason_text": "须具政治条件。",
+        "requires": [
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "处理使节交涉。",
+      "risks": [
+        "office_rivalry"
+      ],
+      "status": "appointed",
+      "title": "使节议和使"
+    },
+    {
+      "appointment": {
+        "candidate_tags": [
+          "intelligence"
+        ],
+        "minimum_known_ability": 35.0,
+        "player_may_appoint_if_vacant": true
+      },
+      "authority_tags": [
+        "intelligence_review"
+      ],
+      "category": "intelligence",
+      "council_topics": [
+        "military_supply"
+      ],
+      "display_name": "军情统筹使",
+      "effects": [],
+      "execution_bonus": {
+        "governance": 8.0
+      },
+      "holder_id": "li_bi",
+      "jurisdiction": [
+        "lingwu_court_node"
+      ],
+      "office_id": "intelligence_coordinator",
+      "parent_office_id": "zhongshu_drafting",
+      "removal": {
+        "reason_text": "须具政治条件。",
+        "requires": [
+          "political_condition"
+        ]
+      },
+      "responsibility_text": "汇总已知军情。",
+      "risks": [
+        "office_rivalry"
+      ],
+      "status": "appointed",
+      "title": "军情统筹使"
+    }
+  ],
+  "offices_catalog": {
+    "branches": [
+      {
+        "description": "执掌朝政中枢，草拟制敕，审议封驳，总领六部庶政",
+        "id": "central_executive",
+        "name": "中枢宰执与政事堂"
+      },
+      {
+        "description": "国家行政执行中枢，掌吏、户、礼、兵、刑、工六司",
+        "id": "six_ministries",
+        "name": "尚书六部"
+      },
+      {
+        "description": "纠察百官贪墨，殿廷极谏补阙，草拟密旨内命",
+        "id": "censorate_remonstrance",
+        "name": "台谏近侍与言路"
+      },
+      {
+        "description": "战时总管军费度支、江淮盐铁转运与前线粮料调发",
+        "id": "wartime_commission",
+        "name": "战时特设使职"
+      },
+      {
+        "description": "分统各道方镇兵马，坐镇要冲，戡定叛乱",
+        "id": "regional_command",
+        "name": "地方藩镇与统帅"
+      }
+    ],
+    "offices": [
+      {
+        "aliases": [
+          "zhongshu_drafting"
+        ],
+        "branch": "central_executive",
+        "department": "zhongshu_sheng",
+        "id": "zhongshu_ling",
+        "is_core_cabinet": true,
+        "name": "中书令",
+        "output_multipliers": {
+          "policy_execution_rate": 1.25,
+          "state_authority_growth": 1.5
+        },
+        "preferred_traits": [
+          "mature_statesman",
+          "upright_loyal"
+        ],
+        "rank": "正二品",
+        "required_stats": {
+          "governance": 70.0,
+          "intrigue": 75.0
+        },
+        "responsibility_text": "执掌中书省，主草拟制敕与决策中枢，总揽大政方针。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 4.0,
+          "policy_execution_rate": 0.6
+        }
+      },
+      {
+        "aliases": [
+          "menxia_review"
+        ],
+        "branch": "central_executive",
+        "department": "menxia_sheng",
+        "id": "menxia_shizhong",
+        "is_core_cabinet": true,
+        "name": "侍中",
+        "output_multipliers": {
+          "court_harmony": 1.2,
+          "policy_error_reduction": 0.3
+        },
+        "preferred_traits": [
+          "incorruptible",
+          "cautious_prudent"
+        ],
+        "rank": "正二品",
+        "required_stats": {
+          "diplomacy": 70.0,
+          "governance": 75.0
+        },
+        "responsibility_text": "执掌门下省，主审议封驳，驳正违失旨意，纠察朝堂偏差。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 3.0,
+          "policy_error_reduction": 0.0
+        }
+      },
+      {
+        "aliases": [
+          "shangshu_execution"
+        ],
+        "branch": "central_executive",
+        "department": "zhengshitang",
+        "id": "tong_pingzhangshi",
+        "is_core_cabinet": true,
+        "name": "同中书门下平章事",
+        "output_multipliers": {
+          "faction_balance": 1.2,
+          "governance_efficiency": 1.3
+        },
+        "preferred_traits": [
+          "astute_administrator",
+          "mature_statesman"
+        ],
+        "rank": "正三品",
+        "required_stats": {
+          "governance": 80.0,
+          "intrigue": 75.0
+        },
+        "responsibility_text": "宰相头衔，入政事堂共议大政，调和百官，督导政令推行。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 3.0,
+          "governance_efficiency": 0.7
+        }
+      },
+      {
+        "aliases": [
+          "personnel_affairs"
+        ],
+        "branch": "six_ministries",
+        "department": "shangshu_six_ministries",
+        "id": "libu_shangshu",
+        "is_core_cabinet": true,
+        "name": "吏部尚书",
+        "output_multipliers": {
+          "official_loyalty_growth": 1.2,
+          "recruitment_quality_bonus": 1.25
+        },
+        "preferred_traits": [
+          "incorruptible",
+          "astute_administrator"
+        ],
+        "rank": "正三品",
+        "required_stats": {
+          "governance": 80.0,
+          "intrigue": 65.0
+        },
+        "responsibility_text": "掌天下官吏考课、铨选、升迁与降黜，铨叙天下名士。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 2.0,
+          "recruitment_quality_bonus": 0.8
+        }
+      },
+      {
+        "aliases": [
+          "household_supply",
+          "grain_office"
+        ],
+        "branch": "six_ministries",
+        "department": "shangshu_six_ministries",
+        "id": "hubu_shangshu",
+        "is_core_cabinet": true,
+        "name": "户部尚书",
+        "output_multipliers": {
+          "grain_storage_efficiency": 1.2,
+          "tax_revenue_multiplier": 1.3
+        },
+        "preferred_traits": [
+          "frugal_disciplined",
+          "astute_administrator"
+        ],
+        "rank": "正三品",
+        "required_stats": {
+          "finance": 85.0,
+          "governance": 70.0
+        },
+        "responsibility_text": "掌天下户籍、赋税、仓廪与国家度支总账，确保行在国库充裕。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 4.0,
+          "tax_revenue_multiplier": 0.6
+        }
+      },
+      {
+        "aliases": [
+          "rites_affairs",
+          "envoy_negotiator"
+        ],
+        "branch": "six_ministries",
+        "department": "shangshu_six_ministries",
+        "id": "libu_rites_shangshu",
+        "is_core_cabinet": true,
+        "name": "礼部尚书",
+        "output_multipliers": {
+          "diplomatic_influence": 1.35,
+          "scholar_loyalty": 1.25
+        },
+        "preferred_traits": [
+          "renowned_scholar",
+          "diplomatic_talent"
+        ],
+        "rank": "正三品",
+        "required_stats": {
+          "diplomacy": 80.0,
+          "morality": 75.0
+        },
+        "responsibility_text": "掌礼乐祭祀、科举贡举与邦交封贡，维护大唐正统声望。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 2.0,
+          "diplomatic_influence": 0.7
+        }
+      },
+      {
+        "aliases": [
+          "war_mobilization"
+        ],
+        "branch": "six_ministries",
+        "department": "shangshu_six_ministries",
+        "id": "bingbu_shangshu",
+        "is_core_cabinet": true,
+        "name": "兵部尚书",
+        "output_multipliers": {
+          "reinforcement_speed": 1.3,
+          "troop_readiness_rate": 1.25
+        },
+        "preferred_traits": [
+          "heroic_warrior",
+          "resourceful_commander"
+        ],
+        "rank": "正三品",
+        "required_stats": {
+          "command": 75.0,
+          "martial": 70.0
+        },
+        "responsibility_text": "掌武官铨选、兵籍图籍、军械转运与天下防务调发。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 4.0,
+          "troop_readiness_rate": 0.65
+        }
+      },
+      {
+        "aliases": [
+          "justice_affairs"
+        ],
+        "branch": "six_ministries",
+        "department": "shangshu_six_ministries",
+        "id": "xingbu_shangshu",
+        "is_core_cabinet": false,
+        "name": "刑部尚书",
+        "output_multipliers": {
+          "crime_suppression": 1.3,
+          "rebellion_risk_reduction": 0.25
+        },
+        "preferred_traits": [
+          "incorruptible",
+          "resolute_unyielding"
+        ],
+        "rank": "正三品",
+        "required_stats": {
+          "governance": 75.0,
+          "intrigue": 70.0
+        },
+        "responsibility_text": "掌天下刑名、律法复核与大案覆奏，严防宵小乱国。",
+        "vacant_penalties": {
+          "crime_suppression": 0.7,
+          "daily_emperor_stress": 1.0
+        }
+      },
+      {
+        "aliases": [
+          "works_affairs"
+        ],
+        "branch": "six_ministries",
+        "department": "shangshu_six_ministries",
+        "id": "gongbu_shangshu",
+        "is_core_cabinet": false,
+        "name": "工部尚书",
+        "output_multipliers": {
+          "fortification_repair_bonus": 1.3,
+          "logistics_loss_reduction": 0.25
+        },
+        "preferred_traits": [
+          "practical_pragmatic",
+          "astute_administrator"
+        ],
+        "rank": "正三品",
+        "required_stats": {
+          "finance": 70.0,
+          "governance": 70.0
+        },
+        "responsibility_text": "掌行在营建、军器监造、黄河漕运堤防与修缮要塞。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 1.0,
+          "logistics_loss_reduction": 0.0
+        }
+      },
+      {
+        "aliases": [
+          "censorate"
+        ],
+        "branch": "censorate_remonstrance",
+        "department": "yushitai",
+        "id": "yushi_zhongcheng",
+        "is_core_cabinet": true,
+        "name": "御史中丞",
+        "output_multipliers": {
+          "corruption_detection_rate": 1.4,
+          "official_discipline": 1.2
+        },
+        "preferred_traits": [
+          "incorruptible",
+          "resolute_unyielding"
+        ],
+        "rank": "从三品",
+        "required_stats": {
+          "intrigue": 75.0,
+          "morality": 70.0
+        },
+        "responsibility_text": "掌御史台纲纪，监察百官风纪，主导贪腐问责与大案调查。",
+        "vacant_penalties": {
+          "corruption_detection_rate": 0.4,
+          "daily_emperor_stress": 2.0
+        }
+      },
+      {
+        "aliases": [],
+        "branch": "censorate_remonstrance",
+        "department": "menxia_sheng",
+        "id": "zuo_shiyi",
+        "is_core_cabinet": false,
+        "name": "左拾遗",
+        "output_multipliers": {
+          "public_voice_accessibility": 1.5,
+          "unjust_case_redress": 1.3
+        },
+        "preferred_traits": [
+          "righteous_upright",
+          "renowned_scholar"
+        ],
+        "rank": "从八品",
+        "required_stats": {
+          "diplomacy": 60.0,
+          "morality": 80.0
+        },
+        "responsibility_text": "门下省供奉言官，掌殿廷规谏天子、拾遗补阙、体察民隐。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 0.0,
+          "public_voice_accessibility": 1.0
+        }
+      },
+      {
+        "aliases": [],
+        "branch": "censorate_remonstrance",
+        "department": "zhongshu_sheng",
+        "id": "you_shiyi",
+        "is_core_cabinet": false,
+        "name": "右拾遗",
+        "output_multipliers": {
+          "policy_refinement_bonus": 1.2,
+          "public_voice_accessibility": 1.3
+        },
+        "preferred_traits": [
+          "righteous_upright",
+          "renowned_scholar"
+        ],
+        "rank": "从八品",
+        "required_stats": {
+          "intrigue": 65.0,
+          "morality": 80.0
+        },
+        "responsibility_text": "中书省供奉言官，掌讽谏天子政令之阙失，密疏直陈国是。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 0.0,
+          "public_voice_accessibility": 1.0
+        }
+      },
+      {
+        "aliases": [],
+        "branch": "censorate_remonstrance",
+        "department": "menxia_sheng",
+        "id": "zuo_buque",
+        "is_core_cabinet": false,
+        "name": "左补阙",
+        "output_multipliers": {
+          "impeachment_power": 1.3
+        },
+        "preferred_traits": [
+          "resolute_unyielding",
+          "cautious_prudent"
+        ],
+        "rank": "从七品",
+        "required_stats": {
+          "intrigue": 70.0,
+          "martial": 60.0
+        },
+        "responsibility_text": "掌规谏天子过失、平反冤抑、弹劾不法权贵。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 0.0,
+          "impeachment_power": 1.0
+        }
+      },
+      {
+        "aliases": [],
+        "branch": "censorate_remonstrance",
+        "department": "zhongshu_sheng",
+        "id": "you_buque",
+        "is_core_cabinet": false,
+        "name": "右补阙",
+        "output_multipliers": {
+          "impeachment_power": 1.3
+        },
+        "preferred_traits": [
+          "righteous_upright",
+          "astute_administrator"
+        ],
+        "rank": "从七品",
+        "required_stats": {
+          "governance": 65.0,
+          "intrigue": 70.0
+        },
+        "responsibility_text": "掌参议制书疏漏、匡正时弊、上书言事。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 0.0,
+          "impeachment_power": 1.0
+        }
+      },
+      {
+        "aliases": [
+          "court_memorial_reviewer",
+          "intelligence_coordinator"
+        ],
+        "branch": "censorate_remonstrance",
+        "department": "hanlin_yuan",
+        "id": "hanlin_xueshi",
+        "is_core_cabinet": true,
+        "name": "翰林学士",
+        "output_multipliers": {
+          "crisis_response_speed": 1.4,
+          "secret_strategy_bonus": 1.5
+        },
+        "preferred_traits": [
+          "insightful_tactician",
+          "mature_statesman"
+        ],
+        "rank": "正五品",
+        "required_stats": {
+          "governance": 75.0,
+          "intrigue": 85.0
+        },
+        "responsibility_text": "天子机要文学侍从，草拟内命密诏，参谋帷幄，不拘常制。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 3.0,
+          "secret_strategy_bonus": 0.7
+        }
+      },
+      {
+        "aliases": [
+          "inner_court_office",
+          "palace_household_controller"
+        ],
+        "branch": "censorate_remonstrance",
+        "department": "neishi_sheng",
+        "id": "inner_court_gatekeeper",
+        "is_core_cabinet": true,
+        "name": "内廷宫门使",
+        "output_multipliers": {
+          "eunuch_network_efficiency": 1.3,
+          "palace_security": 1.4
+        },
+        "preferred_traits": [
+          "loyal_servant",
+          "cautious_prudent"
+        ],
+        "rank": "正四品",
+        "required_stats": {
+          "governance": 60.0,
+          "intrigue": 70.0
+        },
+        "responsibility_text": "统摄宫廷宿卫与禁军传令，传递内命，严防宫禁刺谍。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 2.0,
+          "palace_security": 0.6
+        }
+      },
+      {
+        "aliases": [],
+        "branch": "wartime_commission",
+        "department": "duzhi_chu",
+        "id": "duzhi_shi",
+        "is_core_cabinet": true,
+        "name": "度支使",
+        "output_multipliers": {
+          "emergency_fund_raising": 1.4,
+          "fiscal_balance_boost": 1.3
+        },
+        "preferred_traits": [
+          "financial_genius",
+          "astute_administrator"
+        ],
+        "rank": "使职",
+        "required_stats": {
+          "finance": 85.0,
+          "intrigue": 75.0
+        },
+        "responsibility_text": "战时最高财政专使，专司全国军费筹措、特种征发与度支调剂。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 3.0,
+          "emergency_fund_raising": 0.5
+        }
+      },
+      {
+        "aliases": [],
+        "branch": "wartime_commission",
+        "department": "yantie_chu",
+        "id": "yantie_zhuanyun_shi",
+        "is_core_cabinet": true,
+        "name": "盐铁转运使",
+        "output_multipliers": {
+          "canal_transport_speed": 1.3,
+          "salt_monopoly_revenue": 1.5
+        },
+        "preferred_traits": [
+          "commercial_genius",
+          "frugal_disciplined"
+        ],
+        "rank": "使职",
+        "required_stats": {
+          "diplomacy": 70.0,
+          "finance": 85.0
+        },
+        "responsibility_text": "掌控江淮盐铁榷税与大运河粮船转运生命线，维系大唐财脉。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 3.0,
+          "salt_monopoly_revenue": 0.4
+        }
+      },
+      {
+        "aliases": [
+          "grain_transport_supervisor"
+        ],
+        "branch": "wartime_commission",
+        "department": "liangliao_chu",
+        "id": "liangliao_shi",
+        "is_core_cabinet": false,
+        "name": "粮料使",
+        "output_multipliers": {
+          "frontline_supply_stability": 1.3,
+          "ration_loss_reduction": 0.35
+        },
+        "preferred_traits": [
+          "frugal_disciplined",
+          "cautious_prudent"
+        ],
+        "rank": "使职",
+        "required_stats": {
+          "finance": 70.0,
+          "governance": 65.0
+        },
+        "responsibility_text": "专掌前线诸军行粮发放、随军仓储与损耗防窃。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 2.0,
+          "ration_loss_reduction": 0.0
+        }
+      },
+      {
+        "aliases": [],
+        "branch": "wartime_commission",
+        "department": "xuanwei_chu",
+        "id": "xuanwei_zhaotao_shi",
+        "is_core_cabinet": false,
+        "name": "宣慰招讨使",
+        "output_multipliers": {
+          "guerrilla_rebellion_bonus": 1.4,
+          "occupied_loyalty_growth": 1.6
+        },
+        "preferred_traits": [
+          "inspiring_orator",
+          "righteous_upright"
+        ],
+        "rank": "使职",
+        "required_stats": {
+          "diplomacy": 85.0,
+          "intrigue": 75.0
+        },
+        "responsibility_text": "奉天子密旨巡抚河南河北沦陷区，宣谕皇恩，联络义军勤王。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 1.0,
+          "occupied_loyalty_growth": 1.0
+        }
+      },
+      {
+        "aliases": [
+          "shuofang_field_commander"
+        ],
+        "branch": "regional_command",
+        "department": "shuofang_zhen",
+        "id": "shuofang_jiedushi",
+        "is_core_cabinet": true,
+        "name": "朔方节度使",
+        "output_multipliers": {
+          "army_morale_recovery": 1.5,
+          "shuofang_combat_bonus": 1.4
+        },
+        "preferred_traits": [
+          "towering_pillar",
+          "heroic_warrior"
+        ],
+        "rank": "从二品",
+        "required_stats": {
+          "command": 90.0,
+          "martial": 85.0
+        },
+        "responsibility_text": "统领灵武朔方军主力精锐，大唐中兴定策第一主力军团帅位。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 5.0,
+          "shuofang_combat_bonus": 0.5
+        }
+      },
+      {
+        "aliases": [],
+        "branch": "regional_command",
+        "department": "hedong_zhen",
+        "id": "hedong_jiedushi",
+        "is_core_cabinet": true,
+        "name": "河东节度使",
+        "output_multipliers": {
+          "hedong_fortress_defense": 1.5,
+          "rebel_flank_interdiction": 1.4
+        },
+        "preferred_traits": [
+          "iron_commander",
+          "insightful_tactician"
+        ],
+        "rank": "从二品",
+        "required_stats": {
+          "command": 88.0,
+          "intrigue": 80.0
+        },
+        "responsibility_text": "扼守太原重镇与雁门关，切断叛军范阳老巢与两京通道。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 3.0,
+          "hedong_fortress_defense": 0.6
+        }
+      },
+      {
+        "aliases": [],
+        "branch": "regional_command",
+        "department": "jiannan_zhen",
+        "id": "jiannan_jiedushi",
+        "is_core_cabinet": false,
+        "name": "剑南节度使",
+        "output_multipliers": {
+          "rear_stability": 1.3,
+          "sichuan_tribute_bonus": 1.35
+        },
+        "preferred_traits": [
+          "astute_administrator",
+          "mature_statesman"
+        ],
+        "rank": "从二品",
+        "required_stats": {
+          "diplomacy": 75.0,
+          "governance": 75.0
+        },
+        "responsibility_text": "坐镇蜀中天府粮仓，安抚玄宗蜀中旧廷，确保巴蜀财赋入秦。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 2.0,
+          "sichuan_tribute_bonus": 0.7
+        }
+      },
+      {
+        "aliases": [],
+        "branch": "regional_command",
+        "department": "henan_zhen",
+        "id": "henan_jiedu_fushi",
+        "is_core_cabinet": false,
+        "name": "河南节度副使",
+        "output_multipliers": {
+          "jianghuai_protection": 1.5,
+          "suiyang_resilience": 1.6
+        },
+        "preferred_traits": [
+          "resolute_unyielding",
+          "towering_pillar"
+        ],
+        "rank": "正三品",
+        "required_stats": {
+          "command": 85.0,
+          "martial": 90.0
+        },
+        "responsibility_text": "坚守睢阳与汴水咽喉，阻击安禄山叛军南侵江淮财赋腹地。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 2.0,
+          "suiyang_resilience": 0.5
+        }
+      },
+      {
+        "aliases": [
+          "local_node_administrator"
+        ],
+        "branch": "regional_command",
+        "department": "mufu",
+        "id": "xingjun_sima",
+        "is_core_cabinet": false,
+        "name": "行军司马",
+        "output_multipliers": {
+          "discipline_enforcement": 1.2,
+          "headquarters_efficiency": 1.3
+        },
+        "preferred_traits": [
+          "renowned_scholar",
+          "astute_administrator"
+        ],
+        "rank": "从五品",
+        "required_stats": {
+          "governance": 70.0,
+          "intrigue": 70.0
+        },
+        "responsibility_text": "节度使府首席幕僚与掌书记，执掌军机文书、军法戒律与参谋。",
+        "vacant_penalties": {
+          "daily_emperor_stress": 0.0,
+          "headquarters_efficiency": 1.0
+        }
+      }
+    ],
+    "schema_version": "1.3.0"
+  },
+  "qualification_matrix": {
+    "eunuch_deputy_gate": {
+      "censorate": {
+        "level": "prohibited",
+        "reason": "内廷渠道与监察冲突"
+      },
+      "envoy_negotiator": {
+        "exception_cost": {
+          "authority": 4.0,
+          "political_debt": 2.0
+        },
+        "level": "exceptional",
+        "reason": "可传达内廷条件但外交信誉有限"
+      },
+      "household_supply": {
+        "level": "prohibited",
+        "reason": "内廷身份与钱粮核验冲突"
+      },
+      "inner_court_gatekeeper": {
+        "level": "eligible",
+        "reason": "宫门副使经验与传令职责匹配"
+      },
+      "menxia_review": {
+        "level": "prohibited",
+        "reason": "内廷身份不能直接掌门下审议"
+      },
+      "shangshu_execution": {
+        "level": "prohibited",
+        "reason": "内廷副使不掌外朝行政"
+      },
+      "war_mobilization": {
+        "level": "prohibited",
+        "reason": "不能直接统军"
+      },
+      "zhongshu_drafting": {
+        "exception_cost": {
+          "authority": 5.0,
+          "political_debt": 2.0
+        },
+        "level": "exceptional",
+        "reason": "熟悉传令但缺少公开制诰资历"
+      }
+    },
+    "grain_official_lingwu": {
+      "censorate": {
+        "exception_cost": {
+          "authority": 4.0,
+          "political_debt": 2.0
+        },
+        "level": "exceptional",
+        "reason": "可监察粮账但存在自查冲突"
+      },
+      "envoy_negotiator": {
+        "level": "prohibited",
+        "reason": "缺少外交与盟约资格"
+      },
+      "household_supply": {
+        "level": "eligible",
+        "reason": "仓粮核验与军需配置是本职"
+      },
+      "inner_court_gatekeeper": {
+        "level": "prohibited",
+        "reason": "钱粮官不能掌宫门"
+      },
+      "menxia_review": {
+        "level": "prohibited",
+        "reason": "缺少程序审议资格"
+      },
+      "shangshu_execution": {
+        "exception_cost": {
+          "authority": 3.0,
+          "political_debt": 1.0
+        },
+        "level": "exceptional",
+        "reason": "掌握仓运执行但行政范围有限"
+      },
+      "war_mobilization": {
+        "level": "prohibited",
+        "reason": "不能直接统军"
+      },
+      "zhongshu_drafting": {
+        "level": "prohibited",
+        "reason": "钱粮官不能掌制诰"
+      }
+    },
+    "guo_ziyi": {
+      "censorate": {
+        "level": "prohibited",
+        "reason": "现任军权身份与直接监察冲突"
+      },
+      "envoy_negotiator": {
+        "exception_cost": {
+          "authority": 3.0,
+          "political_debt": 1.0
+        },
+        "level": "exceptional",
+        "reason": "可代表军方谈判但外交经验有限"
+      },
+      "household_supply": {
+        "exception_cost": {
+          "authority": 3.0,
+          "political_debt": 1.0
+        },
+        "level": "exceptional",
+        "reason": "可监督军需但并非钱粮专长"
+      },
+      "inner_court_gatekeeper": {
+        "level": "prohibited",
+        "reason": "军镇身份不能掌内廷传令"
+      },
+      "menxia_review": {
+        "exception_cost": {
+          "authority": 3.0,
+          "political_debt": 1.0
+        },
+        "level": "exceptional",
+        "reason": "能守军令程序，但缺少审议资历"
+      },
+      "shangshu_execution": {
+        "level": "eligible",
+        "reason": "统筹军政执行经验明确"
+      },
+      "war_mobilization": {
+        "level": "eligible",
+        "reason": "前线调度与统帅经验匹配"
+      },
+      "zhongshu_drafting": {
+        "exception_cost": {
+          "authority": 4.0,
+          "political_debt": 1.0
+        },
+        "level": "exceptional",
+        "reason": "军令经验足，但制诰训练不足"
+      }
+    },
+    "hardline_old_court_official": {
+      "censorate": {
+        "level": "eligible",
+        "reason": "监察与名分审查是其强项"
+      },
+      "envoy_negotiator": {
+        "exception_cost": {
+          "authority": 3.0,
+          "political_debt": 1.0
+        },
+        "level": "exceptional",
+        "reason": "可守盟约名分但谈判弹性有限"
+      },
+      "household_supply": {
+        "level": "prohibited",
+        "reason": "缺少钱粮与军需专长"
+      },
+      "inner_court_gatekeeper": {
+        "level": "prohibited",
+        "reason": "旧臣身份不能掌内廷渠道"
+      },
+      "menxia_review": {
+        "level": "eligible",
+        "reason": "程序复核与旧制权威匹配"
+      },
+      "shangshu_execution": {
+        "exception_cost": {
+          "authority": 2.0,
+          "political_debt": 1.0
+        },
+        "level": "exceptional",
+        "reason": "能守行政程序但执行弹性不足"
+      },
+      "war_mobilization": {
+        "level": "prohibited",
+        "reason": "不具前线统军资格"
+      },
+      "zhongshu_drafting": {
+        "level": "eligible",
+        "reason": "旧制与诏令名分经验充分"
+      }
+    },
+    "li_bi": {
+      "censorate": {
+        "level": "eligible",
+        "reason": "制度监察与事实核查能力充分"
+      },
+      "envoy_negotiator": {
+        "level": "eligible",
+        "reason": "善于谈判并能辨识承诺边界"
+      },
+      "household_supply": {
+        "exception_cost": {
+          "authority": 2.0,
+          "political_debt": 1.0
+        },
+        "level": "exceptional",
+        "reason": "能审粮政但缺少仓运日常经验"
+      },
+      "inner_court_gatekeeper": {
+        "exception_cost": {
+          "authority": 4.0,
+          "political_debt": 1.0
+        },
+        "level": "exceptional",
+        "reason": "可以约束宫门但不具内廷派系基础"
+      },
+      "menxia_review": {
+        "level": "eligible",
+        "reason": "熟悉程序复核与名分边界"
+      },
+      "shangshu_execution": {
+        "level": "eligible",
+        "reason": "能把议论转成跨部门执行方案"
+      },
+      "war_mobilization": {
+        "level": "prohibited",
+        "reason": "缺乏直接统军资格"
+      },
+      "zhongshu_drafting": {
+        "level": "eligible",
+        "reason": "制诰与制度判断是其核心专长"
+      }
+    },
+    "li_chu": {
+      "censorate": {
+        "exception_cost": {
+          "authority": 3.0,
+          "political_debt": 1.0
+        },
+        "level": "exceptional",
+        "reason": "可推动监察但存在储君干预疑虑"
+      },
+      "envoy_negotiator": {
+        "level": "eligible",
+        "reason": "皇室身份可承担盟约谈判"
+      },
+      "household_supply": {
+        "level": "prohibited",
+        "reason": "储君身份不宜直接掌钱粮"
+      },
+      "inner_court_gatekeeper": {
+        "level": "prohibited",
+        "reason": "储君不直接掌内廷传令"
+      },
+      "menxia_review": {
+        "level": "eligible",
+        "reason": "储君身份与名分复核职责匹配"
+      },
+      "shangshu_execution": {
+        "level": "eligible",
+        "reason": "可协调各署落实皇命"
+      },
+      "war_mobilization": {
+        "exception_cost": {
+          "authority": 4.0,
+          "political_debt": 1.0
+        },
+        "level": "exceptional",
+        "reason": "可代表皇权统军但缺少前线经历"
+      },
+      "zhongshu_drafting": {
+        "exception_cost": {
+          "authority": 3.0,
+          "political_debt": 1.0
+        },
+        "level": "exceptional",
+        "reason": "储君可定名分但制诰经验有限"
+      }
+    },
+    "li_fuguo": {
+      "censorate": {
+        "level": "prohibited",
+        "reason": "内廷渠道与监察职责直接冲突"
+      },
+      "envoy_negotiator": {
+        "exception_cost": {
+          "authority": 4.0,
+          "political_debt": 2.0
+        },
+        "level": "exceptional",
+        "reason": "可用宫门渠道促成谈判但信任成本高"
+      },
+      "household_supply": {
+        "level": "prohibited",
+        "reason": "内廷专长与钱粮核验存在硬冲突"
+      },
+      "inner_court_gatekeeper": {
+        "level": "eligible",
+        "reason": "宫门传令与内廷渠道经验完全匹配"
+      },
+      "menxia_review": {
+        "exception_cost": {
+          "authority": 5.0,
+          "political_debt": 2.0
+        },
+        "level": "exceptional",
+        "reason": "可代表皇权复核但程序信誉不足"
+      },
+      "shangshu_execution": {
+        "exception_cost": {
+          "authority": 4.0,
+          "political_debt": 2.0
+        },
+        "level": "exceptional",
+        "reason": "渠道协调强但行政公开性不足"
+      },
+      "war_mobilization": {
+        "level": "prohibited",
+        "reason": "不具前线统军资格"
+      },
+      "zhongshu_drafting": {
+        "exception_cost": {
+          "authority": 5.0,
+          "political_debt": 2.0
+        },
+        "level": "exceptional",
+        "reason": "熟悉宫门口谕但缺少公开制诰资历"
+      }
+    },
+    "li_guangbi": {
+      "censorate": {
+        "exception_cost": {
+          "authority": 3.0,
+          "political_debt": 1.0
+        },
+        "level": "exceptional",
+        "reason": "可监察军政但军中利益需要申报"
+      },
+      "envoy_negotiator": {
+        "level": "eligible",
+        "reason": "可代表军方核定盟约代价"
+      },
+      "household_supply": {
+        "exception_cost": {
+          "authority": 3.0,
+          "political_debt": 1.0
+        },
+        "level": "exceptional",
+        "reason": "熟悉军需但非钱粮主官"
+      },
+      "inner_court_gatekeeper": {
+        "level": "prohibited",
+        "reason": "前线将领不能掌内廷传令"
+      },
+      "menxia_review": {
+        "exception_cost": {
+          "authority": 3.0,
+          "political_debt": 1.0
+        },
+        "level": "exceptional",
+        "reason": "能审军令但程序经验不足"
+      },
+      "shangshu_execution": {
+        "level": "eligible",
+        "reason": "军政协调与执行能力匹配"
+      },
+      "war_mobilization": {
+        "level": "eligible",
+        "reason": "前线统帅资格明确"
+      },
+      "zhongshu_drafting": {
+        "level": "prohibited",
+        "reason": "前线身份不适合掌制诰"
+      }
+    },
+    "lingwu_merchant_refugee": {
+      "censorate": {
+        "level": "prohibited",
+        "reason": "缺少官署监察资格"
+      },
+      "envoy_negotiator": {
+        "level": "eligible",
+        "reason": "商路与民情经验适合沟通外援"
+      },
+      "household_supply": {
+        "exception_cost": {
+          "authority": 4.0,
+          "political_debt": 2.0
+        },
+        "level": "exceptional",
+        "reason": "熟悉市场粮价但需防利益冲突"
+      },
+      "inner_court_gatekeeper": {
+        "level": "prohibited",
+        "reason": "民间身份不能掌宫门"
+      },
+      "menxia_review": {
+        "exception_cost": {
+          "authority": 5.0,
+          "political_debt": 2.0
+        },
+        "level": "exceptional",
+        "reason": "可提供民间程序见闻但身份不足"
+      },
+      "shangshu_execution": {
+        "exception_cost": {
+          "authority": 4.0,
+          "political_debt": 2.0
+        },
+        "level": "exceptional",
+        "reason": "商路经验可助执行但官阶不足"
+      },
+      "war_mobilization": {
+        "level": "prohibited",
+        "reason": "民间身份不能统军"
+      },
+      "zhongshu_drafting": {
+        "level": "prohibited",
+        "reason": "民间身份不能掌制诰"
+      }
+    },
+    "pugu_huaien": {
+      "censorate": {
+        "level": "prohibited",
+        "reason": "被监察对象不能兼任监察"
+      },
+      "envoy_negotiator": {
+        "level": "eligible",
+        "reason": "熟悉盟军条件与军政谈判"
+      },
+      "household_supply": {
+        "level": "prohibited",
+        "reason": "盟军身份与钱粮核验冲突"
+      },
+      "inner_court_gatekeeper": {
+        "level": "prohibited",
+        "reason": "外援军将不能掌宫门"
+      },
+      "menxia_review": {
+        "level": "prohibited",
+        "reason": "外援军将不能直接掌程序审议"
+      },
+      "shangshu_execution": {
+        "exception_cost": {
+          "authority": 4.0,
+          "political_debt": 2.0
+        },
+        "level": "exceptional",
+        "reason": "可协调边军执行但行政基础不足"
+      },
+      "war_mobilization": {
+        "level": "eligible",
+        "reason": "联军调度能力与职责匹配"
+      },
+      "zhongshu_drafting": {
+        "level": "prohibited",
+        "reason": "外援军将身份不适合掌制诰"
+      }
+    },
+    "regional_jiedushi_rep": {
+      "censorate": {
+        "level": "prohibited",
+        "reason": "藩镇代表不能监察自身系统"
+      },
+      "envoy_negotiator": {
+        "level": "eligible",
+        "reason": "熟悉地方与盟军协调条件"
+      },
+      "household_supply": {
+        "level": "prohibited",
+        "reason": "地方代表不能直接核验行在钱粮"
+      },
+      "inner_court_gatekeeper": {
+        "level": "prohibited",
+        "reason": "地方代表不能掌内廷"
+      },
+      "menxia_review": {
+        "level": "prohibited",
+        "reason": "藩镇代表不能掌朝廷程序"
+      },
+      "shangshu_execution": {
+        "level": "eligible",
+        "reason": "地方执行与军政协调经验匹配"
+      },
+      "war_mobilization": {
+        "level": "eligible",
+        "reason": "藩镇军需与调度经验匹配"
+      },
+      "zhongshu_drafting": {
+        "level": "prohibited",
+        "reason": "藩镇代表不掌中书制诰"
+      }
+    },
+    "uighur_envoy": {
+      "censorate": {
+        "level": "prohibited",
+        "reason": "外使不能担任本朝监察"
+      },
+      "envoy_negotiator": {
+        "level": "eligible",
+        "reason": "外援条件与翻译谈判是其职责"
+      },
+      "household_supply": {
+        "level": "prohibited",
+        "reason": "外使不能核验本朝钱粮"
+      },
+      "inner_court_gatekeeper": {
+        "level": "prohibited",
+        "reason": "外使不能掌宫门传令"
+      },
+      "menxia_review": {
+        "level": "prohibited",
+        "reason": "外使不能掌朝廷程序复核"
+      },
+      "shangshu_execution": {
+        "level": "prohibited",
+        "reason": "外使不能统筹内廷行政"
+      },
+      "war_mobilization": {
+        "exception_cost": {
+          "authority": 5.0,
+          "political_debt": 2.0
+        },
+        "level": "exceptional",
+        "reason": "可协调援军但受外籍身份限制"
+      },
+      "zhongshu_drafting": {
+        "level": "prohibited",
+        "reason": "外使身份不能掌中书制诰"
+      }
+    }
+  },
+  "schema_version": 113
+}

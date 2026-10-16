@@ -1,0 +1,13 @@
+config_version=5
+[application]
+config/name="潼关 v0.1 制作与发布"
+run/main_scene="res://final/main.tscn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="tongguan_slice_v01_final"
+[display]
+window/size/viewport_width=1440
+window/size/viewport_height=900
+window/stretch/mode="canvas_items"
+window/vsync/vsync_mode=0
+[rendering]
+renderer/rendering_method="gl_compatibility"

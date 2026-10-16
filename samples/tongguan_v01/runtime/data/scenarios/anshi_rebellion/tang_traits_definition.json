@@ -1,0 +1,1120 @@
+{
+  "schema_version": "1.2.0",
+  "categories": {
+    "personality": {
+      "name": "处事品性",
+      "description": "决定人物内心行事准则、AI决策七维倾向与言行心神压力。",
+      "max_count": 4
+    },
+    "education_origin": {
+      "name": "功名出身",
+      "description": "大唐阶层门阀与入仕正途，决定官场认同与基础政务威望。",
+      "max_count": 2
+    },
+    "physical_health": {
+      "name": "先天体魄",
+      "description": "天生相貌体质与旧疾伤患，影响统军战力、寿命与行事底气。",
+      "max_count": 2
+    },
+    "fame_lifestyle": {
+      "name": "声望处世",
+      "description": "天下名望、开国勋贵渊源或处世之道，大幅影响君臣与同僚好恶。",
+      "max_count": 3
+    },
+    "stress_coping": {
+      "name": "压力习气",
+      "description": "长期处于高压或心理崩溃后形成的排解习惯与精神沉疴。",
+      "max_count": 2
+    }
+  },
+  "traits": {
+    "righteous_upright": {
+      "id": "righteous_upright",
+      "category": "personality",
+      "name": "刚正不阿",
+      "summary": "骨鲠之臣，秉公直谏，绝不趋炎附势。",
+      "quote": "宁鸣而死，不默而生。虽万仞加身，不可夺其正气。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "governance": 10,
+        "intrigue": -12,
+        "prowess": 8
+      },
+      "ai_modifiers": {
+        "boldness": 40,
+        "compassion": 20,
+        "greed": -60,
+        "honor": 80,
+        "rationality": 30,
+        "vengefulness": -20,
+        "zeal": 40
+      },
+      "opinion_modifiers": {
+        "righteous_upright": 25,
+        "loyal_restrained": 15,
+        "sinister_usurper": -50,
+        "corrupt_sycophant": -50,
+        "opportunist_chameleon": -35
+      },
+      "stress_triggers": {
+        "bribe_received": 50,
+        "innocent_punished": 40,
+        "unlawful_command": 45,
+        "honest_counsel_accepted": -20
+      },
+      "conflicts": ["opportunist_chameleon", "corrupt_sycophant", "sinister_usurper"]
+    },
+    "mature_statesman": {
+      "id": "mature_statesman",
+      "category": "personality",
+      "name": "老成谋国",
+      "summary": "深谋远虑，持重维稳，绝不轻启边衅或激进变法。",
+      "quote": "天下之重，系于安危。慎始敬终，可保宗庙无虞。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "governance": 12,
+        "military": 6,
+        "diplomacy": 8
+      },
+      "ai_modifiers": {
+        "boldness": -30,
+        "compassion": 15,
+        "greed": -20,
+        "honor": 50,
+        "rationality": 70,
+        "vengefulness": -30,
+        "zeal": 20
+      },
+      "opinion_modifiers": {
+        "mature_statesman": 20,
+        "loyal_restrained": 15,
+        "audacious_warlord": -30,
+        "indecisive_hesitant": 10
+      },
+      "stress_triggers": {
+        "hasty_war_declared": 40,
+        "reckless_decision": 35,
+        "stable_pact_formed": -20
+      },
+      "conflicts": ["audacious_warlord", "chivalrous_zealot"]
+    },
+    "pure_uncompromising": {
+      "id": "pure_uncompromising",
+      "category": "personality",
+      "name": "清流孤介",
+      "summary": "自诩高洁，鄙夷权奸，不屑结党钻营。",
+      "quote": "出淤泥而不染，濯清涟而不妖。非孤介无以守洁。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "governance": 6,
+        "diplomacy": -10,
+        "intrigue": -15,
+        "prowess": 12
+      },
+      "ai_modifiers": {
+        "boldness": 20,
+        "compassion": 10,
+        "greed": -70,
+        "honor": 60,
+        "rationality": 20,
+        "vengefulness": 10,
+        "zeal": 50
+      },
+      "opinion_modifiers": {
+        "pure_uncompromising": 25,
+        "jinshi_degree": 15,
+        "eunuch_servant": -45,
+        "corrupt_sycophant": -45
+      },
+      "stress_triggers": {
+        "compromise_with_eunuch": 45,
+        "flattery_required": 40
+      },
+      "conflicts": ["opportunist_chameleon", "humble_attendant"]
+    },
+    "opportunist_chameleon": {
+      "id": "opportunist_chameleon",
+      "category": "personality",
+      "name": "随风倒舵",
+      "summary": "机变圆滑，观风望色，依附强者以自保图进。",
+      "quote": "水因地而制流，兵因敌而制胜。识时务者，乃为俊杰。",
+      "default_visibility": "hidden",
+      "stat_modifiers": {
+        "intrigue": 14,
+        "diplomacy": 8,
+        "governance": -6
+      },
+      "ai_modifiers": {
+        "boldness": -40,
+        "compassion": -30,
+        "greed": 50,
+        "honor": -70,
+        "rationality": 40,
+        "vengefulness": 10,
+        "zeal": -40
+      },
+      "opinion_modifiers": {
+        "opportunist_chameleon": -10,
+        "righteous_upright": -30,
+        "pure_uncompromising": -35
+      },
+      "stress_triggers": {
+        "standing_alone_in_crisis": 50,
+        "forced_to_martyr": 60
+      },
+      "conflicts": ["righteous_upright", "pure_uncompromising", "chivalrous_zealot"]
+    },
+    "loyal_restrained": {
+      "id": "loyal_restrained",
+      "category": "personality",
+      "name": "忠顺克制",
+      "summary": "恪尽臣节，手握重兵而奉诏惟谨，深自抑损。",
+      "quote": "臣之于国，犬马之劳耳。朝廷有命，虽万死不辞兵柄。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "military": 10,
+        "governance": 6,
+        "intrigue": -8,
+        "prowess": 15
+      },
+      "ai_modifiers": {
+        "boldness": 10,
+        "compassion": 30,
+        "greed": -50,
+        "honor": 85,
+        "rationality": 40,
+        "vengefulness": -40,
+        "zeal": 60
+      },
+      "opinion_modifiers": {
+        "loyal_restrained": 25,
+        "mature_statesman": 20,
+        "audacious_warlord": -40,
+        "sinister_usurper": -40
+      },
+      "stress_triggers": {
+        "accused_of_treason": 50,
+        "defying_imperial_edict": 60,
+        "reward_troops_allowed": -20
+      },
+      "conflicts": ["audacious_warlord", "sinister_usurper"]
+    },
+    "audacious_warlord": {
+      "id": "audacious_warlord",
+      "category": "personality",
+      "name": "跋扈自雄",
+      "summary": "恃勇居功，拥兵自重，视朝廷号令若无物。",
+      "quote": "天子宁有种耶？兵强马壮者为之耳！",
+      "default_visibility": "hidden",
+      "stat_modifiers": {
+        "military": 16,
+        "intrigue": 8,
+        "diplomacy": -12,
+        "governance": -10
+      },
+      "ai_modifiers": {
+        "boldness": 85,
+        "compassion": -40,
+        "greed": 60,
+        "honor": -50,
+        "rationality": -20,
+        "vengefulness": 60,
+        "zeal": -50
+      },
+      "opinion_modifiers": {
+        "loyal_restrained": -35,
+        "mature_statesman": -25,
+        "audacious_warlord": 10
+      },
+      "stress_triggers": {
+        "surrendering_military_seal": 60,
+        "publicly_reprimanded": 45
+      },
+      "conflicts": ["loyal_restrained", "subtle_tactician", "humble_attendant"]
+    },
+    "chivalrous_zealot": {
+      "id": "chivalrous_zealot",
+      "category": "personality",
+      "name": "轻生重义",
+      "summary": "燕赵悲歌之士，重一诺而轻生死，义烈过人。",
+      "quote": "士为知己者死，脱剑酬知己，誓不顾家室。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "military": 12,
+        "diplomacy": 4,
+        "intrigue": -16
+      },
+      "ai_modifiers": {
+        "boldness": 70,
+        "compassion": 40,
+        "greed": -50,
+        "honor": 75,
+        "rationality": -30,
+        "vengefulness": 40,
+        "zeal": 50
+      },
+      "opinion_modifiers": {
+        "chivalrous_zealot": 30,
+        "righteous_upright": 20,
+        "opportunist_chameleon": -40
+      },
+      "stress_triggers": {
+        "breaking_solemn_vow": 60,
+        "abandoning_ally": 50
+      },
+      "conflicts": ["opportunist_chameleon", "subtle_tactician"]
+    },
+    "subtle_tactician": {
+      "id": "subtle_tactician",
+      "category": "personality",
+      "name": "韬晦自保",
+      "summary": "藏巧于拙，装聋作哑，绝不做出头之鸟。",
+      "quote": "大勇若怯，大智若愚。善藏锋者，方能全躯保国。",
+      "default_visibility": "hidden",
+      "stat_modifiers": {
+        "intrigue": 12,
+        "governance": 6,
+        "prowess": -6
+      },
+      "ai_modifiers": {
+        "boldness": -50,
+        "compassion": -10,
+        "greed": -10,
+        "honor": 10,
+        "rationality": 65,
+        "vengefulness": -20,
+        "zeal": -10
+      },
+      "opinion_modifiers": {
+        "subtle_tactician": 15,
+        "audacious_warlord": -25
+      },
+      "stress_triggers": {
+        "forced_to_lead_front": 45,
+        "spotlight_confrontation": 40
+      },
+      "conflicts": ["audacious_warlord", "chivalrous_zealot"]
+    },
+    "sinister_usurper": {
+      "id": "sinister_usurper",
+      "category": "personality",
+      "name": "阴鸷擅权",
+      "summary": "深沉狠鸷，结党营私，架空主上操弄国柄。",
+      "quote": "大家但内里坐，外事付与老奴即可，何须烦心劳神？",
+      "default_visibility": "hidden",
+      "stat_modifiers": {
+        "intrigue": 18,
+        "governance": 4,
+        "diplomacy": -8,
+        "prowess": -10
+      },
+      "ai_modifiers": {
+        "boldness": 50,
+        "compassion": -70,
+        "greed": 75,
+        "honor": -80,
+        "rationality": 30,
+        "vengefulness": 80,
+        "zeal": -40
+      },
+      "opinion_modifiers": {
+        "righteous_upright": -50,
+        "loyal_restrained": -40,
+        "pure_uncompromising": -45
+      },
+      "stress_triggers": {
+        "palace_gates_opened_to_ministers": 50,
+        "eunuch_purged": 60
+      },
+      "conflicts": ["righteous_upright", "loyal_restrained", "pure_uncompromising"]
+    },
+    "humble_attendant": {
+      "id": "humble_attendant",
+      "category": "personality",
+      "name": "恭谨事主",
+      "summary": "小心伺候，顺承上意，体察天子微旨。",
+      "quote": "奴婢受主子天恩，粉身碎骨亦难报万一。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "diplomacy": 8,
+        "intrigue": 6,
+        "military": -10
+      },
+      "ai_modifiers": {
+        "boldness": -30,
+        "compassion": 0,
+        "greed": 20,
+        "honor": -10,
+        "rationality": 10,
+        "vengefulness": 20,
+        "zeal": 30
+      },
+      "opinion_modifiers": {
+        "humble_attendant": 15
+      },
+      "stress_triggers": {
+        "reprimanded_by_ruler": 35
+      },
+      "conflicts": ["audacious_warlord"]
+    },
+    "corrupt_sycophant": {
+      "id": "corrupt_sycophant",
+      "category": "personality",
+      "name": "弄权怙宠",
+      "summary": "贪得无厌，卖官鬻爵，专以谄媚固位。",
+      "quote": "只要天子欢心，金帛充盈，万民死活与我何干？",
+      "default_visibility": "hidden",
+      "stat_modifiers": {
+        "intrigue": 10,
+        "finance": -12,
+        "governance": -14,
+        "prowess": -15
+      },
+      "ai_modifiers": {
+        "boldness": -20,
+        "compassion": -60,
+        "greed": 90,
+        "honor": -85,
+        "rationality": -20,
+        "vengefulness": 50,
+        "zeal": -60
+      },
+      "opinion_modifiers": {
+        "righteous_upright": -45,
+        "frugal_competent": -40
+      },
+      "stress_triggers": {
+        "anti_corruption_audit": 55,
+        "bribes_confiscated": 50
+      },
+      "conflicts": ["righteous_upright", "frugal_competent"]
+    },
+    "paranoid_anxious": {
+      "id": "paranoid_anxious",
+      "category": "personality",
+      "name": "惊悸多疑",
+      "summary": "惊弓之鸟，夜不能寐，总疑近侍将帅包藏祸心。",
+      "quote": "两宫猜忌，宗室离心。这殿阁之外，谁可真托社稷？",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "intrigue": 12,
+        "governance": -6,
+        "diplomacy": -8
+      },
+      "ai_modifiers": {
+        "boldness": -40,
+        "compassion": -30,
+        "greed": 10,
+        "honor": -20,
+        "rationality": -40,
+        "vengefulness": 70,
+        "zeal": 20
+      },
+      "opinion_modifiers": {
+        "audacious_warlord": -40,
+        "sinister_usurper": -30,
+        "subtle_tactician": -20
+      },
+      "stress_triggers": {
+        "grant_absolute_military_trust": 45,
+        "granting_absolute_command": 45,
+        "eunuch_and_general_meeting": 40,
+        "daoist_consultation": -25
+      },
+      "conflicts": ["mature_statesman", "chivalrous_zealot"]
+    },
+    "daoist_recluse": {
+      "id": "daoist_recluse",
+      "category": "personality",
+      "name": "潜心黄老",
+      "summary": "慕道清修，喜谈玄理，视世俗功名如浮云。",
+      "quote": "功成名遂身退，天之道也。愿乞骸骨归南山，与白云为伴。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "governance": 8,
+        "diplomacy": 8,
+        "military": -12,
+        "prowess": 10
+      },
+      "ai_modifiers": {
+        "boldness": -20,
+        "compassion": 40,
+        "greed": -80,
+        "honor": 50,
+        "rationality": 50,
+        "vengefulness": -60,
+        "zeal": 80
+      },
+      "opinion_modifiers": {
+        "daoist_recluse": 30,
+        "pure_uncompromising": 15,
+        "corrupt_sycophant": -35
+      },
+      "stress_triggers": {
+        "execution_ordered": 40,
+        "daoist_ritual_held": -30
+      },
+      "conflicts": ["corrupt_sycophant", "audacious_warlord"]
+    },
+    "indecisive_hesitant": {
+      "id": "indecisive_hesitant",
+      "category": "personality",
+      "name": "优柔寡断",
+      "summary": "遇事迟疑，多方权衡，常在决断关头首鼠两端。",
+      "quote": "此事干系重大，容朕再思之，容朕再思之……",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "governance": -8,
+        "military": -10,
+        "diplomacy": 4
+      },
+      "ai_modifiers": {
+        "boldness": -60,
+        "compassion": 20,
+        "greed": -10,
+        "honor": 0,
+        "rationality": -20,
+        "vengefulness": -20,
+        "zeal": -10
+      },
+      "opinion_modifiers": {
+        "mature_statesman": 15,
+        "audacious_warlord": -30
+      },
+      "stress_triggers": {
+        "urgent_decree_required": 40,
+        "harsh_purge_decision": 50
+      },
+      "conflicts": ["righteous_upright", "chivalrous_zealot"]
+    },
+    "frugal_competent": {
+      "id": "frugal_competent",
+      "category": "personality",
+      "name": "廉能实干",
+      "summary": "精于簿书，铢锱必较，勤勉料理钱粮钱监。",
+      "quote": "国库一粟一帛，皆百姓膏血，岂容贪暴耗损！",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "finance": 16,
+        "governance": 10,
+        "intrigue": -6
+      },
+      "ai_modifiers": {
+        "boldness": 10,
+        "compassion": 20,
+        "greed": -75,
+        "honor": 70,
+        "rationality": 75,
+        "vengefulness": -10,
+        "zeal": 20
+      },
+      "opinion_modifiers": {
+        "frugal_competent": 25,
+        "corrupt_sycophant": -50
+      },
+      "stress_triggers": {
+        "treasury_wasted_on_luxury": 45,
+        "grain_shortage_relieved": -25
+      },
+      "conflicts": ["corrupt_sycophant"]
+    },
+    "greedy_grain_hoarder": {
+      "id": "greedy_grain_hoarder",
+      "category": "personality",
+      "name": "贪墨渎职",
+      "summary": "侵吞军饷，中饱私囊，以次充好欺瞒朝廷。",
+      "quote": "过手沾油，常例皆然。水清则无鱼，何必太苛？",
+      "default_visibility": "hidden",
+      "stat_modifiers": {
+        "finance": -16,
+        "governance": -10,
+        "intrigue": 8
+      },
+      "ai_modifiers": {
+        "boldness": -30,
+        "compassion": -50,
+        "greed": 95,
+        "honor": -80,
+        "rationality": -10,
+        "vengefulness": 30,
+        "zeal": -50
+      },
+      "opinion_modifiers": {
+        "frugal_competent": -45,
+        "righteous_upright": -45
+      },
+      "stress_triggers": {
+        "accounting_investigation": 50
+      },
+      "conflicts": ["frugal_competent", "righteous_upright"]
+    },
+
+    "jinshi_degree": {
+      "id": "jinshi_degree",
+      "category": "education_origin",
+      "name": "进士及第",
+      "summary": "礼部科举登甲科，博通文墨，精于奏议词赋。",
+      "quote": "慈恩塔下题名处，十七人中最少年。文名甲于海内。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "diplomacy": 12,
+        "governance": 8,
+        "prowess": 10
+      },
+      "ai_modifiers": {
+        "rationality": 20,
+        "honor": 20,
+        "zeal": 10
+      },
+      "opinion_modifiers": {
+        "jinshi_degree": 20,
+        "mingjing_degree": 5,
+        "hereditary_nobility": -10,
+        "military_veteran": -15
+      },
+      "conflicts": ["military_veteran", "eunuch_servant", "recluse_scholar"]
+    },
+    "mingjing_degree": {
+      "id": "mingjing_degree",
+      "category": "education_origin",
+      "name": "明经入仕",
+      "summary": "熟读儒家经义律令，循规蹈矩，精于官署实务。",
+      "quote": "通经致用，守正奉法。虽乏藻丽，足任案牍。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "governance": 10,
+        "finance": 6,
+        "diplomacy": -4
+      },
+      "ai_modifiers": {
+        "rationality": 30,
+        "honor": 30,
+        "boldness": -15
+      },
+      "opinion_modifiers": {
+        "mingjing_degree": 15,
+        "jinshi_degree": -5
+      },
+      "conflicts": ["military_veteran", "eunuch_servant", "recluse_scholar"]
+    },
+    "hereditary_nobility": {
+      "id": "hereditary_nobility",
+      "category": "education_origin",
+      "name": "门荫阀阅",
+      "summary": "关陇关东世家名门，借祖荫入仕，根基深厚。",
+      "quote": "世济其美，不陨其名。五姓七望，高门鼎贵。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "prowess": 16,
+        "diplomacy": 6,
+        "governance": 2
+      },
+      "ai_modifiers": {
+        "honor": 10,
+        "greed": 15,
+        "zeal": -10
+      },
+      "opinion_modifiers": {
+        "hereditary_nobility": 20,
+        "jinshi_degree": -15,
+        "military_veteran": -20
+      },
+      "conflicts": ["eunuch_servant", "recluse_scholar"]
+    },
+    "military_veteran": {
+      "id": "military_veteran",
+      "category": "education_origin",
+      "name": "行伍拔擢",
+      "summary": "边塞卒伍出身，以斩首累功进官，精通战阵兵机。",
+      "quote": "百战沙场碎铁衣，功名只向马上取。不识之乎，唯识锋镝。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "military": 16,
+        "prowess": 6,
+        "diplomacy": -10,
+        "governance": -8
+      },
+      "ai_modifiers": {
+        "boldness": 35,
+        "rationality": -10,
+        "honor": 20
+      },
+      "opinion_modifiers": {
+        "military_veteran": 20,
+        "frontier_warlord": 15,
+        "jinshi_degree": -15,
+        "eunuch_servant": -25
+      },
+      "conflicts": ["jinshi_degree", "mingjing_degree", "eunuch_servant", "recluse_scholar"]
+    },
+    "eunuch_servant": {
+      "id": "eunuch_servant",
+      "category": "education_origin",
+      "name": "内侍供奉",
+      "summary": "内廷刑余之人入仕，深得宫禁密要与禁军枢机。",
+      "quote": "掖庭洒扫之流，因侍御龙颜而司中枢。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "intrigue": 14,
+        "diplomacy": 4,
+        "governance": -4,
+        "military": -12
+      },
+      "ai_modifiers": {
+        "honor": -30,
+        "greed": 30,
+        "vengefulness": 30
+      },
+      "opinion_modifiers": {
+        "eunuch_servant": 25,
+        "pure_uncompromising": -40,
+        "jinshi_degree": -20
+      },
+      "conflicts": ["jinshi_degree", "mingjing_degree", "hereditary_nobility", "military_veteran", "recluse_scholar"]
+    },
+    "recluse_scholar": {
+      "id": "recluse_scholar",
+      "category": "education_origin",
+      "name": "布衣山人",
+      "summary": "隐居名山不仕，以布衣客卿入主帷幄参赞军国。",
+      "quote": "本是终南避世客，偶乘天命佐中兴。不着朝冠，独运天枢。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "diplomacy": 10,
+        "governance": 10,
+        "intrigue": 8,
+        "prowess": 12
+      },
+      "ai_modifiers": {
+        "greed": -60,
+        "rationality": 50,
+        "zeal": 40
+      },
+      "opinion_modifiers": {
+        "recluse_scholar": 25,
+        "daoist_recluse": 25,
+        "corrupt_sycophant": -35
+      },
+      "conflicts": ["jinshi_degree", "mingjing_degree", "eunuch_servant", "hereditary_nobility"]
+    },
+
+    "towering_physique": {
+      "id": "towering_physique",
+      "category": "physical_health",
+      "name": "膂力绝伦",
+      "summary": "身高八尺，开两石雕弓，勇冠三军。",
+      "quote": "勇冠千夫，气吞万里。临阵陷阵，所向披靡。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "military": 10,
+        "prowess": 6
+      },
+      "ai_modifiers": {
+        "boldness": 30
+      },
+      "opinion_modifiers": {
+        "military_veteran": 10
+      },
+      "conflicts": ["frail_constitution"]
+    },
+    "frail_constitution": {
+      "id": "frail_constitution",
+      "category": "physical_health",
+      "name": "羸弱多病",
+      "summary": "气血虚寒，常年服药，难以胜任前线征伐。",
+      "quote": "沉疴羸骨，不胜鞍马。案牍劳形，常抱微恙。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "military": -12,
+        "prowess": -4
+      },
+      "ai_modifiers": {
+        "boldness": -25
+      },
+      "opinion_modifiers": {},
+      "conflicts": ["towering_physique"]
+    },
+    "majestic_demeanor": {
+      "id": "majestic_demeanor",
+      "category": "physical_health",
+      "name": "龙凤之姿",
+      "summary": "相貌英挺伟岸，有天日之表，望之令人心折敬畏。",
+      "quote": "英姿天挺，顾盼自雄。风神秀朗，威加四海。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "diplomacy": 10,
+        "prowess": 14
+      },
+      "ai_modifiers": {
+        "honor": 10
+      },
+      "opinion_modifiers": {
+        "all": 10
+      },
+      "conflicts": []
+    },
+    "chronic_injury": {
+      "id": "chronic_injury",
+      "category": "physical_health",
+      "name": "宿疾沉疴",
+      "summary": "早年征战或宫禁惊悸留下的旧疾，阴雨常作。",
+      "quote": "金创旧损，夜雨辄痛。形神受损，心力交瘁。",
+      "default_visibility": "hidden",
+      "stat_modifiers": {
+        "military": -6,
+        "governance": -4
+      },
+      "ai_modifiers": {
+        "vengefulness": 15,
+        "boldness": -15
+      },
+      "opinion_modifiers": {},
+      "conflicts": []
+    },
+
+    "lingyan_lineage": {
+      "id": "lingyan_lineage",
+      "category": "fame_lifestyle",
+      "name": "凌烟勋裔",
+      "summary": "太宗凌烟阁二十四功臣之后，世代忠勋，天下敬仰。",
+      "quote": "家传铁券，名在凌烟。国朝倚为干城，朝野共仰其门风。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "prowess": 20,
+        "diplomacy": 8,
+        "military": 6
+      },
+      "ai_modifiers": {
+        "honor": 25,
+        "zeal": 20
+      },
+      "opinion_modifiers": {
+        "all": 15,
+        "hereditary_nobility": 15
+      },
+      "conflicts": []
+    },
+    "frontier_warlord": {
+      "id": "frontier_warlord",
+      "category": "fame_lifestyle",
+      "name": "方镇宿将",
+      "summary": "镇守朔方河东数十载，士卒效死，威名播于四夷。",
+      "quote": "威震塞北，令行营伍。百万貔貅，唯听一将指麾。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "military": 14,
+        "prowess": 12
+      },
+      "ai_modifiers": {
+        "boldness": 20,
+        "rationality": 15
+      },
+      "opinion_modifiers": {
+        "military_veteran": 20,
+        "audacious_warlord": 10
+      },
+      "conflicts": []
+    },
+    "renowned_poet": {
+      "id": "renowned_poet",
+      "category": "fame_lifestyle",
+      "name": "诗坛宗匠",
+      "summary": "诗文名动天下，士林争相传抄，声名极隆。",
+      "quote": "笔落惊风雨，诗成泣鬼神。文章冠世，万民传唱。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "prowess": 18,
+        "diplomacy": 10
+      },
+      "ai_modifiers": {
+        "compassion": 25,
+        "greed": -30
+      },
+      "opinion_modifiers": {
+        "jinshi_degree": 25,
+        "pure_uncompromising": 15
+      },
+      "conflicts": []
+    },
+    "white_robed_prime_minister": {
+      "id": "white_robed_prime_minister",
+      "category": "fame_lifestyle",
+      "name": "白衣宰相",
+      "summary": "不拜官爵而帷幄赞画，天子以师友待之，声望亚于人主。",
+      "quote": "身无一品印，言定天下策。与天子促膝夜谈，坐揽乾坤。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "governance": 14,
+        "intrigue": 10,
+        "diplomacy": 12,
+        "prowess": 16
+      },
+      "ai_modifiers": {
+        "rationality": 50,
+        "honor": 40,
+        "greed": -60
+      },
+      "opinion_modifiers": {
+        "all": 20,
+        "daoist_recluse": 30
+      },
+      "conflicts": []
+    },
+
+    "drunken_escapism": {
+      "id": "drunken_escapism",
+      "category": "stress_coping",
+      "name": "借酒浇愁",
+      "summary": "受惊遇挫则痛饮狂醉，借酒消磨心头隐忧，损耗精力。",
+      "quote": "古来圣贤皆寂寞，唯有饮者留其名。痛饮狂歌，暂忘国难。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "governance": -6,
+        "diplomacy": 4,
+        "military": -8
+      },
+      "ai_modifiers": {
+        "rationality": -25,
+        "boldness": 15
+      },
+      "opinion_modifiers": {
+        "pure_uncompromising": -15
+      },
+      "stress_triggers": {
+        "drinking_feast_held": -35
+      },
+      "conflicts": ["secluded_meditation"]
+    },
+    "alchemical_obsession": {
+      "id": "alchemical_obsession",
+      "category": "stress_coping",
+      "name": "沉溺金丹",
+      "summary": "服食水银铅汞丹砂以求定心延寿，汞毒入骨，喜怒无常。",
+      "quote": "九转金丹求不死，铅汞入腑性情乖。躁怒易怒，难辨忠奸。",
+      "default_visibility": "hidden",
+      "stat_modifiers": {
+        "governance": -10,
+        "intrigue": 6,
+        "diplomacy": -10
+      },
+      "ai_modifiers": {
+        "rationality": -40,
+        "vengefulness": 45,
+        "boldness": 20
+      },
+      "opinion_modifiers": {
+        "mature_statesman": -25
+      },
+      "stress_triggers": {
+        "consume_elixir": -40
+      },
+      "conflicts": []
+    },
+    "paranoid_insomnia": {
+      "id": "paranoid_insomnia",
+      "category": "stress_coping",
+      "name": "疑惧不寐",
+      "summary": "终夕不寐，寝殿宿卫重重，常在惊梦中下令搜捕严讯。",
+      "quote": "长夜漫漫惊弓影，拔剑四顾心茫然。宿卫深严，仍惧肘腋。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "intrigue": 8,
+        "governance": -6
+      },
+      "ai_modifiers": {
+        "vengefulness": 35,
+        "rationality": -20
+      },
+      "opinion_modifiers": {},
+      "conflicts": []
+    },
+    "secluded_meditation": {
+      "id": "secluded_meditation",
+      "category": "stress_coping",
+      "name": "闭户绝客",
+      "summary": "谢绝外客，静坐焚香，借辟谷道法避开朝廷纷争。",
+      "quote": "闭门谢客求真定，独坐焚香理素琴。尘世机心，不入虚室。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "diplomacy": -8,
+        "governance": -4,
+        "prowess": 4
+      },
+      "ai_modifiers": {
+        "boldness": -30,
+        "zeal": 30
+      },
+      "opinion_modifiers": {
+        "daoist_recluse": 20
+      },
+      "conflicts": ["drunken_escapism"]
+    },
+    "incorruptible_upright": {
+      "id": "incorruptible_upright",
+      "category": "personality",
+      "name": "清正廉洁",
+      "summary": "廉洁奉公，骨鲠方正，绝不纳贿营私。",
+      "quote": "清风两袖朝天去，不带江南一寸丝。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "governance": 8,
+        "intrigue": -10,
+        "prowess": 6
+      }
+    },
+    "classical_scholar": {
+      "id": "classical_scholar",
+      "category": "education_origin",
+      "name": "经世通儒",
+      "summary": "博通儒家五经，精研治道，下笔成章。",
+      "quote": "腹有诗书气自华，经世致用佐太平。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "governance": 10,
+        "diplomacy": 6
+      }
+    },
+    "astute_administrator": {
+      "id": "astute_administrator",
+      "category": "personality",
+      "name": "精明干练",
+      "summary": "明察秋毫，处置繁难政务雷厉风行。",
+      "quote": "处事明断，虽千头万绪亦能井井有条。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "governance": 10,
+        "finance": 8
+      }
+    },
+    "inflexible_stubborn": {
+      "id": "inflexible_stubborn",
+      "category": "personality",
+      "name": "刚愎耿介",
+      "summary": "性格方板，认准道义绝不圆滑妥协。",
+      "quote": "宁折不弯，虽九死其犹未悔。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "governance": 4,
+        "diplomacy": -8
+      }
+    },
+    "imperial_clan_prestige": {
+      "id": "imperial_clan_prestige",
+      "category": "fame_lifestyle",
+      "name": "宗室懿亲",
+      "summary": "天潢贵胄，身负李唐皇族血脉声望。",
+      "quote": "帝室之胄，天潢贵派。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "diplomacy": 8,
+        "governance": 4
+      }
+    },
+    "financial_acumen": {
+      "id": "financial_acumen",
+      "category": "personality",
+      "name": "理财干才",
+      "summary": "精于度支赋税，通晓钱粮调度转运。",
+      "quote": "开源节流，足食足兵，天下富庶之本。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "finance": 12,
+        "governance": 6
+      }
+    },
+    "scholarly_prestige": {
+      "id": "scholarly_prestige",
+      "category": "fame_lifestyle",
+      "name": "士林宗望",
+      "summary": "德高望重，受天下士子与门阀推崇。",
+      "quote": "天下文宗，海内名宿。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "diplomacy": 10,
+        "governance": 6
+      }
+    },
+    "poet_talent": {
+      "id": "poet_talent",
+      "category": "fame_lifestyle",
+      "name": "诗坛宗匠",
+      "summary": "才华横溢，篇篇珠玑，声名播于四海。",
+      "quote": "篇篇皆称奇策，字字可值千金。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "diplomacy": 8
+      }
+    },
+    "loyal_martyr": {
+      "id": "loyal_martyr",
+      "category": "personality",
+      "name": "死节之臣",
+      "summary": "视死如归，临大节而不夺其志。",
+      "quote": "捐躯赴国难，视死忽如归。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "military": 8,
+        "prowess": 10
+      }
+    },
+    "resolute_brave": {
+      "id": "resolute_brave",
+      "category": "personality",
+      "name": "沉勇绝伦",
+      "summary": "临危不乱，胆识过人，勇冠三军。",
+      "quote": "临危制变，料敌制胜，胆魄如铁。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "military": 10,
+        "prowess": 12
+      }
+    },
+    "military_aristocracy": {
+      "id": "military_aristocracy",
+      "category": "education_origin",
+      "name": "将门世家",
+      "summary": "出身武勋将门，弓马娴熟，通晓韬略。",
+      "quote": "家传韬略，世守边陲，将种名宿。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "military": 12,
+        "prowess": 8
+      }
+    },
+    "calligraphy_master": {
+      "id": "calligraphy_master",
+      "category": "fame_lifestyle",
+      "name": "翰墨宗师",
+      "summary": "书法造诣冠绝当世，风骨遒劲。",
+      "quote": "力透纸背，字如其人，铁画银钩。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "diplomacy": 8
+      }
+    },
+    "frontier_warlord": {
+      "id": "frontier_warlord",
+      "category": "fame_lifestyle",
+      "name": "方镇宿帅",
+      "summary": "久历边关，威震胡虏，部曲忠心效命。",
+      "quote": "百战功勋在边关，麾下健儿尽虎狼。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "military": 10,
+        "prowess": 8
+      }
+    },
+    "hereditary_nobility": {
+      "id": "hereditary_nobility",
+      "category": "education_origin",
+      "name": "门荫阀阅",
+      "summary": "世家大族嫡系子弟，承袭千年门第名望。",
+      "quote": "代代公卿，门第甲于天下。",
+      "default_visibility": "public",
+      "stat_modifiers": {
+        "governance": 6,
+        "diplomacy": 6
+      }
+    }
+  }
+}

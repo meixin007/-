@@ -1,0 +1,87 @@
+[
+  {
+    "id": "city_county_c2",
+    "label": "城池 · 偏门长形县城",
+    "file": "county-town.png",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0deca-1e8f-77b1-a8bf-504d1b2840ca/exec-90d76109-425a-4eff-a79c-3a443f0b2a35.png",
+    "group": "city",
+    "width": 132,
+    "anchor": [
+      0.5,
+      0.8
+    ],
+    "manual_only": false,
+    "prompt": "Create a transparent PNG game map sprite for the existing hand-painted Chinese historical 2D map. Match the provided mountain and settlement reference sprites exactly in artistic language: fine uneven dark brown ink contours, soft opaque warm beige watercolor interiors, muted olive green, restrained peach stone, no lighting bloom, no 3D render. High oblique isometric bird's eye perspective looking toward north, front faces visible. The object itself is solid and readable with fully opaque main body, only the edge earth wash may fade. Actual alpha transparency outside the entire sprite, no paper background, no shadow rectangle, no checkerboard, no labels, no lettering, no roads extending out. Single coherent object centered with at least 8% EMPTY TRANSPARENT margin on every edge, no touching image edge. One isolated compact ancient Chinese northern county town, irregular elongated rectangular rammed earth enclosure with low stone base, small offset corner watchtowers, asymmetrical gate near front right, gray brown tiled courtyard houses, a modest temple courtyard and sparse muted olive trees within and just behind walls. A low grounded town, different from round prefectoral castle; no pagoda, no giant palace, no detached frame."
+  },
+  {
+    "id": "village_c2",
+    "label": "村落 · 土墙院落与树荫",
+    "file": "village-courtyard.png",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0deca-1e8f-77b1-a8bf-504d1b2840ca/exec-220decd2-9396-4f66-8b60-9934f98a87c1.png",
+    "group": "city",
+    "width": 46,
+    "anchor": [
+      0.5,
+      0.8
+    ],
+    "manual_only": true,
+    "prompt": "Create ONE transparent PNG asset for a hand-painted ancient Chinese strategic map. Match the referenced existing sprites: fine uneven dark brown ink, warm pale beige watercolor, gray brown stone, muted olive green, high oblique isometric view from south, modest detail readable at small map scale. Single coherent isolated object with entirely transparent background. Keep ALL painted pixels within the central 80% of the image. Empty transparent 10% margins all sides. Main painted objects opaque, base thin and soft. Absolutely NO broad haze or halo, NO glow, NO dark shadow, NO paper rectangle, NO checkerboard pattern, NO caption, NO frame. One compact farming hamlet of six differently oriented small rammed earth and timber houses with dark gray tiled roofs, a low boundary wall, a tiny courtyard well, two olive trees behind and one foreground shrub overlapping a corner house. Irregular clustered composition, no city walls. Buildings rest on thin pale earthy footprints. No water and no text."
+  },
+  {
+    "id": "terraces_c2",
+    "label": "耕地 · 曲线梯田",
+    "file": "terraces.png",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0deca-1e8f-77b1-a8bf-504d1b2840ca/exec-393f9cb0-2794-4688-90fe-bf117ba9d0e3.png",
+    "group": "ground",
+    "width": 140,
+    "anchor": [
+      0.5,
+      0.65
+    ],
+    "manual_only": true,
+    "prompt": "Create ONE transparent PNG asset for a hand-painted ancient Chinese strategic map. Match the referenced existing sprites: fine uneven dark brown ink, warm pale beige watercolor, gray brown stone, muted olive green, high oblique isometric view from south, modest detail readable at small map scale. Single coherent isolated object with entirely transparent background. Keep ALL painted pixels within the central 80% of the image. Empty transparent 10% margins all sides. Main painted objects opaque, base thin and soft. Absolutely NO broad haze or halo, NO glow, NO dark shadow, NO paper rectangle, NO checkerboard pattern, NO caption, NO frame. One asymmetrical group of stepped contour agricultural terraces climbing a LOW EARTH BANK, six narrow curving cultivated strips in alternating muted wheat gold and pale sage green, earthy dividing berms, a tiny irregular tree and shrub at one end. Flat and gently sloping, no tall mountain or houses; no isolated four-petal fields. No blue water."
+  },
+  {
+    "id": "desert_c2",
+    "label": "景观 · 风蚀沙丘",
+    "file": "desert-dunes.png",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0deca-1e8f-77b1-a8bf-504d1b2840ca/exec-efbe9dd6-7903-48b1-a75e-8513186431cc.png",
+    "group": "ground",
+    "width": 470,
+    "anchor": [
+      0.5,
+      0.75
+    ],
+    "manual_only": true,
+    "prompt": "Create ONE transparent PNG asset for a hand-painted ancient Chinese strategic map. Match the referenced existing sprites: fine uneven dark brown ink, warm pale beige watercolor, gray brown stone, muted olive green, high oblique isometric view from south, modest detail readable at small map scale. Single coherent isolated object with entirely transparent background. Keep ALL painted pixels within the central 80% of the image. Empty transparent 10% margins all sides. Main painted objects opaque, base thin and soft. Absolutely NO broad haze or halo, NO glow, NO dark shadow, NO paper rectangle, NO checkerboard pattern, NO caption, NO frame. One broad flat landscape patch of wind-shaped desert dunes, several asymmetrical low sand crescents with differing sizes, sparse dry tufts and tiny sandstone fragments. Warm pale ochre, delicate dotted sand texture, fine ink ridges, no palm tree, no architecture, no water. Low oblique map perspective and naturally feathered irregular outline."
+  },
+  {
+    "id": "gobi_c2",
+    "label": "景观 · 戈壁碎石低台",
+    "file": "gobi-gravel.png",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0deca-1e8f-77b1-a8bf-504d1b2840ca/exec-6d879eb6-9a7e-4d8a-80d7-33cf44621a3e.png",
+    "group": "ground",
+    "width": 450,
+    "anchor": [
+      0.5,
+      0.75
+    ],
+    "manual_only": true,
+    "prompt": "Create ONE transparent PNG asset for a hand-painted ancient Chinese strategic map. Match the referenced existing sprites: fine uneven dark brown ink, warm pale beige watercolor, gray brown stone, muted olive green, high oblique isometric view from south, modest detail readable at small map scale. Single coherent isolated object with entirely transparent background. Keep ALL painted pixels within the central 80% of the image. Empty transparent 10% margins all sides. Main painted objects opaque, base thin and soft. Absolutely NO broad haze or halo, NO glow, NO dark shadow, NO paper rectangle, NO checkerboard pattern, NO caption, NO frame. One broad flat Gobi gravel plain patch, pale gray ochre stony ground with irregular clusters of small dark stones, a weathered low jagged rock ledge on one side, sparse dry scrub and faint wind lines, restrained texture rather than hundreds of high contrast dots. No water, buildings or large sand dunes."
+  },
+  {
+    "id": "wetland_c2",
+    "label": "景观 · 芦苇浅塘湿地",
+    "file": "reed-wetland.png",
+    "source": "C:/Users/Administrator/.codex/generated_images/01a0deca-1e8f-77b1-a8bf-504d1b2840ca/exec-54efd890-8232-42f4-bf41-665287f8f065.png",
+    "group": "ground",
+    "width": 150,
+    "anchor": [
+      0.5,
+      0.72
+    ],
+    "manual_only": true,
+    "prompt": "Create ONE transparent PNG game-map asset: a low flat irregular REED WETLAND PATCH with three tiny interconnected pale slate-blue shallow pools, muted sage and olive reeds, small tussocks, thin earthy banks and a few scattered low willow shrubs. Hand-painted ancient Chinese strategic map style, fine uneven dark brown ink, pale beige watercolor wash, high oblique view from south. Match the supplied established sprite style and modest small-scale readability. No large mountain, no houses, no animals, no typography. Single coherent isolated patch, naturally uneven oval footprint, fully transparent exterior, at least 10% empty alpha margin on all sides. No broad halo, no glow, no dark shadow, no paper rectangle or checkerboard. Only the very thin perimeter earth wash fades."
+  }
+]
+

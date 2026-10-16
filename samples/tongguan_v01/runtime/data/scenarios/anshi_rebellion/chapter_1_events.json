@@ -1,0 +1,4049 @@
+[
+  {
+	"id": "shuofang_grain_shortage_001",
+	"type": "military_report",
+	"title": "朔方粮道告急",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 0,
+	"deadline_days": 6,
+	"urgency": 75,
+	"visible_summary": "郭子仪奏称粮草不足，若不补给，军心恐动。",
+	"available_decisions": [
+	  "send_grain",
+	  "delay_grain",
+      "investigate_grain_official"
+	],
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "military_morale",
+		"value": -8
+	  }
+	]
+  },
+  {
+	"id": "li_fuguo_secret_report_001",
+	"type": "secret_report",
+	"title": "李辅国密报郭子仪拥兵",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 0,
+	"deadline_days": 3,
+	"urgency": 65,
+	"visible_summary": "李辅国称郭子仪军中议论纷起，恐有观望之心。",
+	"available_decisions": [
+	  "trust_li_fuguo_report",
+      "summon_li_bi"
+	],
+	"on_expire": [
+	  {
+		"type": "relationship_delta",
+		"target": "li_fuguo",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "xuanzong_old_court_pressure_001",
+	"type": "memorial",
+	"title": "旧臣请尊上皇诏命",
+	"source_character_id": "li_bi",
+	"trigger_day": 0,
+	"deadline_days": 3,
+	"urgency": 60,
+	"visible_summary": "玄宗旧臣请求新皇明诏尊奉上皇，以安朝野。",
+	"available_decisions": [
+	  "honor_xuanzong_edict",
+	  "assert_suzong_authority",
+      "summon_li_bi"
+	],
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": -5
+	  }
+	]
+  },
+  {
+	"id": "uighur_envoy_reward_001",
+	"type": "diplomacy",
+	"title": "回纥使者索要重赏",
+	"source_character_id": "li_bi",
+	"trigger_day": 0,
+	"deadline_days": 3,
+	"urgency": 70,
+	"visible_summary": "回纥使者暗示若无厚赏，援兵难以按期南下。",
+	"available_decisions": [
+	  "approve_uighur_reward",
+	  "delay_uighur_terms",
+      "summon_li_bi"
+	],
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "lingwu_rumor_001",
+	"type": "public_sentiment",
+	"title": "灵武民间流言",
+	"source_character_id": "grain_official_lingwu",
+	"trigger_day": 0,
+	"deadline_days": 2,
+	"urgency": 45,
+	"visible_summary": "城中流言称新皇仓促即位，粮草不足，恐不能久守。",
+	"available_decisions": [
+	  "public_grain_reassurance",
+	  "suppress_rumor_patrols",
+      "summon_li_bi"
+	],
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "public_order",
+		"value": -5
+	  }
+	]
+  },
+  {
+	"id": "grain_official_deficit_001",
+	"type": "secret_report",
+	"title": "粮草官隐瞒亏空",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 0,
+	"deadline_days": 1,
+	"urgency": 55,
+	"visible_summary": "近侍称灵武粮册数目与实仓不合。",
+	"available_decisions": [
+	  "investigate_grain_official",
+	  "audit_grain_register",
+      "seal_grain_warehouse"
+	],
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "grain",
+		"value": -150
+	  }
+	]
+  },
+  {
+	"id": "li_bi_audience_strategy_001",
+	"type": "audience_request",
+	"title": "李泌请入小帐议定先后",
+	"source_character_id": "li_bi",
+	"trigger_day": 0,
+	"deadline_days": 2,
+	"urgency": 62,
+	"visible_summary": "李泌请陛下暂退左右，先定前线、正统与粮道三事的轻重。若迟疑太久，行在诸司仍会各行其是。",
+	"available_decisions": [
+	  "set_military_priority",
+	  "set_legitimacy_priority",
+      "set_grain_priority"
+	],
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "first_phase_pressure_check_001",
+	"type": "crisis",
+	"title": "第一轮局势评估",
+	"source_character_id": "li_bi",
+	"trigger_day": 0,
+	"deadline_days": 2,
+	"urgency": 85,
+	"visible_summary": "李泌请陛下定夺军粮、合法性与将帅信任三事先后。",
+	"available_decisions": [
+	  "set_military_priority",
+	  "set_legitimacy_priority",
+	  "set_grain_priority",
+      "summon_li_bi"
+	],
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -5
+	  }
+	]
+  },
+  {
+	"id": "hedong_scouts_001",
+	"type": "military_report",
+	"title": "河东斥候报叛军转骑",
+	"source_character_id": "li_guangbi",
+	"trigger_day": 1,
+	"deadline_days": 10,
+	"urgency": 58,
+	"visible_summary": "李光弼遣斥候报称叛军小股骑兵试探河东粮路，若朝廷没有明确次序，河东牵制会被迫收缩。",
+	"available_decisions": [
+	  "set_military_priority",
+	  "set_grain_priority",
+      "summon_li_bi"
+	],
+	"on_expire": [
+	  {
+		"type": "battlefront_delta",
+		"target": "hedong_front",
+		"field": "threat",
+		"value": 5
+	  }
+	]
+  },
+  {
+	"id": "palace_household_request_001",
+	"type": "audience_request",
+	"title": "张良娣请定内廷随行名册",
+	"source_character_id": "zhang_liangdi",
+	"trigger_day": 1,
+	"deadline_days": 2,
+	"urgency": 44,
+	"visible_summary": "张良娣请陛下裁定随驾内廷名册与口粮配给，避免后宫、近侍与诸司互相截留供给。",
+	"available_decisions": [
+	  "public_grain_reassurance",
+	  "suppress_rumor_patrols",
+      "assert_suzong_authority"
+	],
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "palace_household",
+		"field": "pressure",
+		"value": 5
+	  }
+	]
+  },
+  {
+	"id": "rebel_court_rumor_001",
+	"type": "secret_report",
+	"title": "密报称安禄山疑忌诸将",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 1,
+	"deadline_days": 2,
+	"urgency": 52,
+	"visible_summary": "近侍密报称叛军内部已有疑忌，若行在善用情报，或可牵制叛军锋芒。",
+	"available_decisions": [
+	  "trust_li_fuguo_report",
+	  "summon_li_bi",
+      "set_military_priority"
+	],
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "intelligence",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "old_court_messenger_001",
+	"type": "memorial",
+	"title": "旧臣使者求明定上皇礼制",
+	"source_character_id": "tang_xuanzong",
+	"trigger_day": 1,
+	"deadline_days": 2,
+	"urgency": 62,
+	"visible_summary": "自蜀中来的旧臣使者请灵武行在明定上皇礼制，若答复含糊，正统压力会继续上升。",
+	"available_decisions": [
+	  "honor_xuanzong_edict",
+	  "assert_suzong_authority",
+      "summon_li_bi"
+	],
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "old_court",
+		"field": "pressure",
+		"value": 5
+	  }
+	]
+  },
+  {
+	"id": "uighur_horse_price_001",
+	"type": "diplomacy",
+	"title": "回纥使者重议马价",
+	"source_character_id": "uighur_envoy",
+	"trigger_day": 1,
+	"deadline_days": 3,
+	"urgency": 66,
+	"visible_summary": "回纥使者要求先给马价与赏赐凭据，否则援兵南下之期仍难落实。",
+	"available_decisions": [
+	  "approve_uighur_reward",
+	  "delay_uighur_terms",
+      "set_legitimacy_priority"
+	],
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 7
+	  }
+	]
+  },
+  {
+	"id": "lingwu_market_grain_001",
+	"type": "public_sentiment",
+	"title": "灵武市中粮价骤涨",
+	"source_character_id": "grain_official_lingwu",
+	"trigger_day": 1,
+	"deadline_days": 3,
+	"urgency": 57,
+	"visible_summary": "市中粮价突然上涨，民户怀疑官仓先供军帐而不顾城中，行在声望受到试探。",
+	"available_decisions": [
+	  "public_grain_reassurance",
+	  "audit_grain_register",
+      "seal_grain_warehouse"
+	],
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "public_order",
+		"value": -6
+	  }
+	]
+  },
+  {
+	"id": "chen_xuanli_guard_001",
+	"type": "audience_request",
+	"title": "陈玄礼请示禁军归属",
+	"source_character_id": "chen_xuanli",
+	"trigger_day": 2,
+	"deadline_days": 2,
+	"urgency": 60,
+	"visible_summary": "陈玄礼从西行旧军中传来口信，请问禁军残部应听蜀中旧命，还是归灵武新朝节制。",
+	"available_decisions": [
+	  "honor_xuanzong_edict",
+	  "assert_suzong_authority",
+      "set_legitimacy_priority"
+	],
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "legitimacy",
+		"value": -4
+	  }
+	]
+  },
+  {
+	"id": "rebel_guanzhong_pressure_001",
+	"type": "military_report",
+	"title": "关中叛军压迫驿路",
+	"source_character_id": "li_bi",
+	"trigger_day": 2,
+	"deadline_days": 8,
+	"urgency": 74,
+	"visible_summary": "关中驿路再遭叛军压迫，灵武与前线传递诏令的时间被迫拉长。",
+	"available_decisions": [
+	  "set_military_priority",
+	  "set_grain_priority",
+      "summon_li_bi"
+	],
+	"on_expire": [
+	  {
+		"type": "battlefront_delta",
+		"target": "guanzhong_front",
+		"field": "threat",
+		"value": 6
+	  }
+	]
+  },
+  {
+	"id": "eunuch_gatekeeping_001",
+	"type": "secret_report",
+	"title": "近侍截留军府札子",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 2,
+	"deadline_days": 3,
+	"urgency": 64,
+	"visible_summary": "有军府札子被近侍先行拆阅，诸将疑心行在号令被人转述。",
+	"available_decisions": [
+	  "trust_li_fuguo_report",
+	  "assert_suzong_authority",
+      "summon_li_bi"
+	],
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 4
+	  }
+	]
+  },
+  {
+	"id": "common_petition_001",
+	"type": "public_sentiment",
+	"title": "百姓叩营求免杂役",
+	"source_character_id": "grain_official_lingwu",
+	"trigger_day": 2,
+	"deadline_days": 2,
+	"urgency": 50,
+	"visible_summary": "城外百姓叩营称杂役过重，若行在只顾前线，灵武本地秩序会先行松动。",
+	"available_decisions": [
+	  "public_grain_reassurance",
+	  "suppress_rumor_patrols",
+      "set_grain_priority"
+	],
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "common_people",
+		"field": "pressure",
+		"value": 6
+	  }
+	]
+  },
+  {
+	"id": "shi_siming_probe_001",
+	"type": "military_report",
+	"title": "史思明部试探河北",
+	"source_character_id": "shi_siming",
+	"trigger_day": 2,
+	"deadline_days": 5,
+	"urgency": 70,
+	"visible_summary": "河北叛军有向河东、关中之间试探的迹象，若不能牵制，后续战线会更难合围。",
+	"available_decisions": [
+	  "set_military_priority",
+	  "delay_uighur_terms",
+      "summon_li_bi"
+	],
+	"on_expire": [
+	  {
+		"type": "battlefront_delta",
+		"target": "rebel_hebei_front",
+		"field": "threat",
+		"value": 5
+	  }
+	]
+  },
+  {
+	"id": "second_phase_briefing_001",
+	"type": "crisis",
+	"title": "第二轮战局简报",
+	"source_character_id": "li_bi",
+	"trigger_day": 2,
+	"deadline_days": 2,
+	"urgency": 82,
+	"visible_summary": "李泌将军粮、援兵、正统、河东牵制四事并列，请陛下决定下一轮行在的总纲。",
+	"available_decisions": [
+	  "set_military_priority",
+	  "set_legitimacy_priority",
+	  "set_grain_priority",
+      "summon_li_bi"
+	],
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -5
+	  }
+	]
+  },
+  {
+	"id": "shuofang_commander_petition_002",
+	"type": "military_report",
+	"title": "朔方诸将请明节制",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 3,
+	"deadline_days": 9,
+	"urgency": 72,
+	"visible_summary": "郭子仪称朔方诸将愿奉新朝，但请行在明定军府节制，免得粮令与军令互相抵牾。",
+	"available_decisions": [
+	  "appoint_guo_shuofang_commander",
+	  "restrain_eunuch_gatekeeping",
+      "summon_li_bi"
+	],
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 6
+	  }
+	]
+  },
+  {
+	"id": "guanzhong_relay_cut_002",
+	"type": "military_report",
+	"title": "关中驿骑二度失期",
+	"source_character_id": "li_bi",
+	"trigger_day": 3,
+	"deadline_days": 5,
+	"urgency": 68,
+	"visible_summary": "关中驿骑二度失期，行在诏令抵达前线的时机开始影响战局。",
+	"available_decisions": [
+	  "reinforce_guanzhong_relay",
+	  "set_military_priority",
+      "fortify_lingwu_camps"
+	],
+	"on_expire": [
+	  {
+		"type": "battlefront_delta",
+		"target": "guanzhong_front",
+		"field": "threat",
+		"value": 6
+	  }
+	]
+  },
+  {
+	"id": "uighur_vanguard_argument_002",
+	"type": "diplomacy",
+	"title": "回纥前锋索明约",
+	"source_character_id": "uighur_envoy",
+	"trigger_day": 3,
+	"deadline_days": 3,
+	"urgency": 69,
+	"visible_summary": "回纥使者称可先遣前锋压迫叛军，但要求行在明定赏约与战后分赐。",
+	"available_decisions": [
+	  "negotiate_uighur_vanguard",
+	  "approve_uighur_reward",
+      "delay_uighur_terms"
+	],
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 8
+	  }
+	]
+  },
+  {
+	"id": "eunuch_military_letters_002",
+	"type": "secret_report",
+	"title": "军府疑近侍拆札",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 3,
+	"deadline_days": 3,
+	"urgency": 66,
+	"visible_summary": "军府私下议论近侍拆阅札子，若不处置，将帅和内廷会互相猜忌。",
+	"available_decisions": [
+	  "restrain_eunuch_gatekeeping",
+	  "trust_li_fuguo_report",
+      "appoint_guo_shuofang_commander"
+	],
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "eunuch_network",
+		"field": "pressure",
+		"value": 5
+	  }
+	]
+  },
+  {
+	"id": "military_joint_petition_002",
+	"type": "memorial",
+	"title": "将帅联名请功",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 3,
+	"deadline_days": 1,
+	"urgency": 61,
+	"visible_summary": "数名将帅联名请功，请行在以军功安人心，也借此确立新朝赏罚。",
+	"available_decisions": [
+	  "honor_military_petition",
+	  "assert_suzong_authority",
+      "honor_xuanzong_edict"
+	],
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "military_morale",
+		"value": -5
+	  }
+	]
+  },
+  {
+	"id": "lingwu_camp_works_002",
+	"type": "audience_request",
+	"title": "陈玄礼请修灵武营垒",
+	"source_character_id": "chen_xuanli",
+	"trigger_day": 3,
+	"deadline_days": 3,
+	"urgency": 58,
+	"visible_summary": "陈玄礼请调人修灵武营垒，以免行在在下一轮军情中再陷奔走。",
+	"available_decisions": [
+	  "fortify_lingwu_camps",
+	  "public_grain_reassurance",
+      "set_legitimacy_priority"
+	],
+	"on_expire": [
+	  {
+		"type": "battlefront_delta",
+		"target": "westward_route",
+		"field": "threat",
+		"value": 5
+	  }
+	]
+  },
+  {
+	"id": "hebei_probe_chance_002",
+	"type": "secret_report",
+	"title": "河北叛军内疑",
+	"source_character_id": "shi_siming",
+	"trigger_day": 4,
+	"deadline_days": 3,
+	"urgency": 63,
+	"visible_summary": "密报称河北叛军诸将互疑，若行在肯用情报，可为朔方争取牵制机会。",
+	"available_decisions": [
+	  "open_hebei_probe",
+	  "set_military_priority",
+      "summon_li_bi"
+	],
+	"on_expire": [
+	  {
+		"type": "battlefront_delta",
+		"target": "rebel_hebei_front",
+		"field": "threat",
+		"value": 5
+	  }
+	]
+  },
+  {
+	"id": "grain_corruption_trial_002",
+	"type": "memorial",
+	"title": "粮吏亏空案请断",
+	"source_character_id": "grain_official_lingwu",
+	"trigger_day": 4,
+	"deadline_days": 2,
+	"urgency": 64,
+	"visible_summary": "粮册亏空案已查出线索，若处置过轻，军粮仍会从行在指缝漏出。",
+	"available_decisions": [
+	  "punish_grain_corruption",
+	  "audit_grain_register",
+      "seal_grain_warehouse"
+	],
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "grain",
+		"value": -120
+	  }
+	]
+  },
+  {
+	"id": "old_court_ritual_countermove_002",
+	"type": "memorial",
+	"title": "旧臣请重议册礼",
+	"source_character_id": "tang_xuanzong",
+	"trigger_day": 4,
+	"deadline_days": 1,
+	"urgency": 59,
+	"visible_summary": "旧臣借上皇名义重议册礼，试探灵武新朝是否仍需旧命背书。",
+	"available_decisions": [
+	  "honor_xuanzong_edict",
+	  "assert_suzong_authority",
+      "set_legitimacy_priority"
+	],
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "xuanzong_old_court",
+		"field": "pressure",
+		"value": 6
+	  }
+	]
+  },
+  {
+	"id": "palace_household_supply_002",
+	"type": "audience_request",
+	"title": "张良娣请留内廷供给",
+	"source_character_id": "zhang_liangdi",
+	"trigger_day": 4,
+	"deadline_days": 2,
+	"urgency": 52,
+	"visible_summary": "张良娣请留一批供给给内廷随行，若全数发往军前，宫中人心会动。",
+	"available_decisions": [
+	  "public_grain_reassurance",
+	  "fortify_lingwu_camps",
+      "assert_suzong_authority"
+	],
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "palace_household",
+		"field": "pressure",
+		"value": 5
+	  }
+	]
+  },
+  {
+	"id": "shuofang_supply_second_wave_002",
+	"type": "military_report",
+	"title": "朔方二轮军粮再紧",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 4,
+	"deadline_days": 6,
+	"urgency": 76,
+	"visible_summary": "第一批粮草只能暂缓，朔方二轮军粮仍紧。郭子仪请行在决定是继续支援还是转入固守。",
+	"available_decisions": [
+	  "send_grain",
+	  "emergency_requisition_grain",
+      "appoint_guo_shuofang_commander"
+	],
+	"on_expire": [
+	  {
+		"type": "battlefront_delta",
+		"target": "shuofang_front",
+		"field": "supply",
+		"value": -10
+	  }
+	]
+  },
+  {
+	"id": "guanzhong_counterstroke_window_002",
+	"type": "crisis",
+	"title": "关中反击窗口",
+	"source_character_id": "li_bi",
+	"trigger_day": 4,
+	"deadline_days": 2,
+	"urgency": 80,
+	"visible_summary": "李泌称关中有一线反击窗口，但必须在粮道、将帅和回纥条件之间快速取舍。",
+	"available_decisions": [
+	  "set_military_priority",
+	  "reinforce_guanzhong_relay",
+      "negotiate_uighur_vanguard"
+	],
+	"on_expire": [
+	  {
+		"type": "battlefront_delta",
+		"target": "guanzhong_front",
+		"field": "control",
+		"value": -6
+	  }
+	]
+  },
+  {
+	"id": "uighur_cost_public_rumor_002",
+	"type": "public_sentiment",
+	"title": "民间传回纥索城",
+	"source_character_id": "uighur_envoy",
+	"trigger_day": 5,
+	"deadline_days": 1,
+	"urgency": 62,
+	"visible_summary": "民间传言回纥索价过高，甚至会索取城邑。借兵路线开始影响民心。",
+	"available_decisions": [
+	  "delay_uighur_terms",
+	  "public_grain_reassurance",
+      "negotiate_uighur_vanguard"
+	],
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "public_order",
+		"value": -5
+	  }
+	]
+  },
+  {
+	"id": "final_route_assessment_002",
+	"type": "crisis",
+	"title": "灵武路线成形评估",
+	"source_character_id": "li_bi",
+	"trigger_day": 5,
+	"deadline_days": 1,
+	"urgency": 85,
+	"visible_summary": "李泌请陛下回看第一阶段：是固守灵武、支援朔方准备反攻，还是借回纥强攻。诸路代价都已显形。",
+	"available_decisions": [
+	  "set_military_priority",
+	  "set_legitimacy_priority",
+	  "set_grain_priority",
+      "summon_li_bi"
+	],
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -4
+	  }
+	]
+  },
+  {
+	"id": "route_aftershock_petitions_002",
+	"type": "memorial",
+	"title": "诸司追问路线代价",
+	"source_character_id": "li_bi",
+	"trigger_day": 5,
+	"deadline_days": 3,
+	"urgency": 67,
+	"visible_summary": "诸司请行在说明下一阶段钱粮、军功、回纥赏约与上皇礼制如何并行。第一阶段的路线选择开始留下余波。",
+	"available_decisions": [
+	  "honor_military_petition",
+	  "set_legitimacy_priority",
+      "delay_uighur_terms"
+	],
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "suzong_court",
+		"field": "pressure",
+		"value": 4
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_01_step_1",
+	"chain_id": "beta03_chain_01",
+	"chain_step": 1,
+	"type": "audience_request",
+	"title": "朔方连锁1：求见",
+	"source_character_id": "pugu_huaien",
+	"trigger_day": 5,
+	"deadline_days": 3,
+	"urgency": 52,
+	"visible_summary": "仆固怀恩递来支援朔方反攻的第1段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_support_shuofang_decision_07",
+      "beta03_support_shuofang_decision_10"
+	],
+	"route_tag": "support_shuofang",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_01_step_2",
+	"chain_id": "beta03_chain_01",
+	"chain_step": 2,
+	"type": "memorial",
+	"title": "朔方连锁1：奏疏",
+	"source_character_id": "zhang_xun_front_rep",
+	"trigger_day": 5,
+	"deadline_days": 3,
+	"urgency": 53,
+	"visible_summary": "张巡前线使者递来支援朔方反攻的第2段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_support_shuofang_decision_10",
+      "beta03_support_shuofang_decision_13"
+	],
+	"route_tag": "support_shuofang",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_01_step_3",
+	"chain_id": "beta03_chain_01",
+	"chain_step": 3,
+	"type": "military_report",
+	"title": "朔方连锁1：军报",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 5,
+	"deadline_days": 6,
+	"urgency": 54,
+	"visible_summary": "郭子仪递来支援朔方反攻的第3段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_support_shuofang_decision_13",
+      "beta03_support_shuofang_decision_16"
+	],
+	"route_tag": "support_shuofang",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_02_step_1",
+	"chain_id": "beta03_chain_02",
+	"chain_step": 1,
+	"type": "audience_request",
+	"title": "回纥连锁2：求见",
+	"source_character_id": "uighur_prince_envoy",
+	"trigger_day": 6,
+	"deadline_days": 1,
+	"urgency": 53,
+	"visible_summary": "回纥王子使递来借回纥破局的第1段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_uighur_push_decision_11",
+      "beta03_uighur_push_decision_14"
+	],
+	"route_tag": "uighur_push",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_02_step_2",
+	"chain_id": "beta03_chain_02",
+	"chain_step": 2,
+	"type": "memorial",
+	"title": "回纥连锁2：奏疏",
+	"source_character_id": "uighur_envoy",
+	"trigger_day": 6,
+	"deadline_days": 2,
+	"urgency": 54,
+	"visible_summary": "回纥使者递来借回纥破局的第2段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_uighur_push_decision_14",
+      "beta03_uighur_push_decision_17"
+	],
+	"route_tag": "uighur_push",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_02_step_3",
+	"chain_id": "beta03_chain_02",
+	"chain_step": 3,
+	"type": "military_report",
+	"title": "回纥连锁2：军报",
+	"source_character_id": "uighur_prince_envoy",
+	"trigger_day": 6,
+	"deadline_days": 7,
+	"urgency": 55,
+	"visible_summary": "回纥王子使递来借回纥破局的第3段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_uighur_push_decision_17",
+      "beta03_uighur_push_decision_20"
+	],
+	"route_tag": "uighur_push",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_03_step_1",
+	"chain_id": "beta03_chain_03",
+	"chain_step": 1,
+	"type": "audience_request",
+	"title": "灵武连锁3：求见",
+	"source_character_id": "li_bi",
+	"trigger_day": 6,
+	"deadline_days": 3,
+	"urgency": 54,
+	"visible_summary": "李泌递来固守灵武正统的第1段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_defend_lingwu_decision_15",
+      "beta03_defend_lingwu_decision_18"
+	],
+	"route_tag": "defend_lingwu",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_03_step_2",
+	"chain_id": "beta03_chain_03",
+	"chain_step": 2,
+	"type": "memorial",
+	"title": "灵武连锁3：奏疏",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 6,
+	"deadline_days": 2,
+	"urgency": 55,
+	"visible_summary": "旧臣强硬派递来固守灵武正统的第2段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_defend_lingwu_decision_18",
+      "beta03_defend_lingwu_decision_21"
+	],
+	"route_tag": "defend_lingwu",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_03_step_3",
+	"chain_id": "beta03_chain_03",
+	"chain_step": 3,
+	"type": "military_report",
+	"title": "灵武连锁3：军报",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 6,
+	"deadline_days": 2,
+	"urgency": 56,
+	"visible_summary": "李辅国递来固守灵武正统的第3段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_defend_lingwu_decision_21",
+      "beta03_defend_lingwu_decision_24"
+	],
+	"route_tag": "defend_lingwu",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_04_step_1",
+	"chain_id": "beta03_chain_04",
+	"chain_step": 1,
+	"type": "audience_request",
+	"title": "朔方连锁4：求见",
+	"source_character_id": "li_guangbi",
+	"trigger_day": 7,
+	"deadline_days": 1,
+	"urgency": 55,
+	"visible_summary": "李光弼递来支援朔方反攻的第1段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_support_shuofang_decision_16",
+      "beta03_support_shuofang_decision_19"
+	],
+	"route_tag": "support_shuofang",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_04_step_2",
+	"chain_id": "beta03_chain_04",
+	"chain_step": 2,
+	"type": "memorial",
+	"title": "朔方连锁4：奏疏",
+	"source_character_id": "pugu_huaien",
+	"trigger_day": 7,
+	"deadline_days": 1,
+	"urgency": 56,
+	"visible_summary": "仆固怀恩递来支援朔方反攻的第2段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_support_shuofang_decision_19",
+      "beta03_support_shuofang_decision_22"
+	],
+	"route_tag": "support_shuofang",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_04_step_3",
+	"chain_id": "beta03_chain_04",
+	"chain_step": 3,
+	"type": "military_report",
+	"title": "朔方连锁4：军报",
+	"source_character_id": "zhang_xun_front_rep",
+	"trigger_day": 7,
+	"deadline_days": 3,
+	"urgency": 57,
+	"visible_summary": "张巡前线使者递来支援朔方反攻的第3段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_support_shuofang_decision_22",
+      "beta03_support_shuofang_decision_25"
+	],
+	"route_tag": "support_shuofang",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_05_step_1",
+	"chain_id": "beta03_chain_05",
+	"chain_step": 1,
+	"type": "audience_request",
+	"title": "回纥连锁5：求见",
+	"source_character_id": "uighur_envoy",
+	"trigger_day": 7,
+	"deadline_days": 1,
+	"urgency": 56,
+	"visible_summary": "回纥使者递来借回纥破局的第1段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_uighur_push_decision_20",
+      "beta03_uighur_push_decision_23"
+	],
+	"route_tag": "uighur_push",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_05_step_2",
+	"chain_id": "beta03_chain_05",
+	"chain_step": 2,
+	"type": "memorial",
+	"title": "回纥连锁5：奏疏",
+	"source_character_id": "uighur_prince_envoy",
+	"trigger_day": 7,
+	"deadline_days": 1,
+	"urgency": 57,
+	"visible_summary": "回纥王子使递来借回纥破局的第2段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_uighur_push_decision_23",
+      "beta03_uighur_push_decision_26"
+	],
+	"route_tag": "uighur_push",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_05_step_3",
+	"chain_id": "beta03_chain_05",
+	"chain_step": 3,
+	"type": "military_report",
+	"title": "回纥连锁5：军报",
+	"source_character_id": "uighur_envoy",
+	"trigger_day": 7,
+	"deadline_days": 10,
+	"urgency": 58,
+	"visible_summary": "回纥使者递来借回纥破局的第3段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_uighur_push_decision_26",
+      "beta03_uighur_push_decision_29"
+	],
+	"route_tag": "uighur_push",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_06_step_1",
+	"chain_id": "beta03_chain_06",
+	"chain_step": 1,
+	"type": "audience_request",
+	"title": "灵武连锁6：求见",
+	"source_character_id": "lingwu_merchant_refugee",
+	"trigger_day": 8,
+	"deadline_days": 2,
+	"urgency": 57,
+	"visible_summary": "灵武商民代表递来固守灵武正统的第1段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_defend_lingwu_decision_24",
+      "beta03_defend_lingwu_decision_27"
+	],
+	"route_tag": "defend_lingwu",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_06_step_2",
+	"chain_id": "beta03_chain_06",
+	"chain_step": 2,
+	"type": "memorial",
+	"title": "灵武连锁6：奏疏",
+	"source_character_id": "li_bi",
+	"trigger_day": 8,
+	"deadline_days": 3,
+	"urgency": 58,
+	"visible_summary": "李泌递来固守灵武正统的第2段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_defend_lingwu_decision_27",
+      "beta03_defend_lingwu_decision_30"
+	],
+	"route_tag": "defend_lingwu",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_06_step_3",
+	"chain_id": "beta03_chain_06",
+	"chain_step": 3,
+	"type": "military_report",
+	"title": "灵武连锁6：军报",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 8,
+	"deadline_days": 8,
+	"urgency": 59,
+	"visible_summary": "旧臣强硬派递来固守灵武正统的第3段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_defend_lingwu_decision_30",
+      "beta03_defend_lingwu_decision_03"
+	],
+	"route_tag": "defend_lingwu",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_07_step_1",
+	"chain_id": "beta03_chain_07",
+	"chain_step": 1,
+	"type": "audience_request",
+	"title": "朔方连锁7：求见",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 8,
+	"deadline_days": 3,
+	"urgency": 58,
+	"visible_summary": "郭子仪递来支援朔方反攻的第1段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_support_shuofang_decision_25",
+      "beta03_support_shuofang_decision_28"
+	],
+	"route_tag": "support_shuofang",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_07_step_2",
+	"chain_id": "beta03_chain_07",
+	"chain_step": 2,
+	"type": "memorial",
+	"title": "朔方连锁7：奏疏",
+	"source_character_id": "li_guangbi",
+	"trigger_day": 8,
+	"deadline_days": 2,
+	"urgency": 59,
+	"visible_summary": "李光弼递来支援朔方反攻的第2段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_support_shuofang_decision_28",
+      "beta03_support_shuofang_decision_01"
+	],
+	"route_tag": "support_shuofang",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_07_step_3",
+	"chain_id": "beta03_chain_07",
+	"chain_step": 3,
+	"type": "military_report",
+	"title": "朔方连锁7：军报",
+	"source_character_id": "pugu_huaien",
+	"trigger_day": 8,
+	"deadline_days": 2,
+	"urgency": 60,
+	"visible_summary": "仆固怀恩递来支援朔方反攻的第3段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_support_shuofang_decision_01",
+      "beta03_support_shuofang_decision_04"
+	],
+	"route_tag": "support_shuofang",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_08_step_1",
+	"chain_id": "beta03_chain_08",
+	"chain_step": 1,
+	"type": "audience_request",
+	"title": "回纥连锁8：求见",
+	"source_character_id": "uighur_prince_envoy",
+	"trigger_day": 9,
+	"deadline_days": 1,
+	"urgency": 59,
+	"visible_summary": "回纥王子使递来借回纥破局的第1段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_uighur_push_decision_29",
+      "beta03_uighur_push_decision_02"
+	],
+	"route_tag": "uighur_push",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_08_step_2",
+	"chain_id": "beta03_chain_08",
+	"chain_step": 2,
+	"type": "memorial",
+	"title": "回纥连锁8：奏疏",
+	"source_character_id": "uighur_envoy",
+	"trigger_day": 9,
+	"deadline_days": 1,
+	"urgency": 60,
+	"visible_summary": "回纥使者递来借回纥破局的第2段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_uighur_push_decision_02",
+      "beta03_uighur_push_decision_05"
+	],
+	"route_tag": "uighur_push",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_08_step_3",
+	"chain_id": "beta03_chain_08",
+	"chain_step": 3,
+	"type": "military_report",
+	"title": "回纥连锁8：军报",
+	"source_character_id": "uighur_prince_envoy",
+	"trigger_day": 9,
+	"deadline_days": 9,
+	"urgency": 61,
+	"visible_summary": "回纥王子使递来借回纥破局的第3段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_uighur_push_decision_05",
+      "beta03_uighur_push_decision_08"
+	],
+	"route_tag": "uighur_push",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_09_step_1",
+	"chain_id": "beta03_chain_09",
+	"chain_step": 1,
+	"type": "audience_request",
+	"title": "灵武连锁9：求见",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 9,
+	"deadline_days": 1,
+	"urgency": 60,
+	"visible_summary": "李辅国递来固守灵武正统的第1段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_defend_lingwu_decision_03",
+      "beta03_defend_lingwu_decision_06"
+	],
+	"route_tag": "defend_lingwu",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_09_step_2",
+	"chain_id": "beta03_chain_09",
+	"chain_step": 2,
+	"type": "memorial",
+	"title": "灵武连锁9：奏疏",
+	"source_character_id": "lingwu_merchant_refugee",
+	"trigger_day": 9,
+	"deadline_days": 1,
+	"urgency": 61,
+	"visible_summary": "灵武商民代表递来固守灵武正统的第2段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_defend_lingwu_decision_06",
+      "beta03_defend_lingwu_decision_09"
+	],
+	"route_tag": "defend_lingwu",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_09_step_3",
+	"chain_id": "beta03_chain_09",
+	"chain_step": 3,
+	"type": "military_report",
+	"title": "灵武连锁9：军报",
+	"source_character_id": "li_bi",
+	"trigger_day": 9,
+	"deadline_days": 10,
+	"urgency": 62,
+	"visible_summary": "李泌递来固守灵武正统的第3段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_defend_lingwu_decision_09",
+      "beta03_defend_lingwu_decision_12"
+	],
+	"route_tag": "defend_lingwu",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_10_step_1",
+	"chain_id": "beta03_chain_10",
+	"chain_step": 1,
+	"type": "audience_request",
+	"title": "朔方连锁10：求见",
+	"source_character_id": "zhang_xun_front_rep",
+	"trigger_day": 10,
+	"deadline_days": 2,
+	"urgency": 61,
+	"visible_summary": "张巡前线使者递来支援朔方反攻的第1段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_support_shuofang_decision_04",
+      "beta03_support_shuofang_decision_07"
+	],
+	"route_tag": "support_shuofang",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_10_step_2",
+	"chain_id": "beta03_chain_10",
+	"chain_step": 2,
+	"type": "memorial",
+	"title": "朔方连锁10：奏疏",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 10,
+	"deadline_days": 1,
+	"urgency": 62,
+	"visible_summary": "郭子仪递来支援朔方反攻的第2段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_support_shuofang_decision_07",
+      "beta03_support_shuofang_decision_10"
+	],
+	"route_tag": "support_shuofang",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_10_step_3",
+	"chain_id": "beta03_chain_10",
+	"chain_step": 3,
+	"type": "military_report",
+	"title": "朔方连锁10：军报",
+	"source_character_id": "li_guangbi",
+	"trigger_day": 10,
+	"deadline_days": 7,
+	"urgency": 63,
+	"visible_summary": "李光弼递来支援朔方反攻的第3段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_support_shuofang_decision_10",
+      "beta03_support_shuofang_decision_13"
+	],
+	"route_tag": "support_shuofang",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_11_step_1",
+	"chain_id": "beta03_chain_11",
+	"chain_step": 1,
+	"type": "audience_request",
+	"title": "回纥连锁11：求见",
+	"source_character_id": "uighur_envoy",
+	"trigger_day": 10,
+	"deadline_days": 1,
+	"urgency": 62,
+	"visible_summary": "回纥使者递来借回纥破局的第1段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_uighur_push_decision_08",
+      "beta03_uighur_push_decision_11"
+	],
+	"route_tag": "uighur_push",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_11_step_2",
+	"chain_id": "beta03_chain_11",
+	"chain_step": 2,
+	"type": "memorial",
+	"title": "回纥连锁11：奏疏",
+	"source_character_id": "uighur_prince_envoy",
+	"trigger_day": 10,
+	"deadline_days": 2,
+	"urgency": 63,
+	"visible_summary": "回纥王子使递来借回纥破局的第2段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_uighur_push_decision_11",
+      "beta03_uighur_push_decision_14"
+	],
+	"route_tag": "uighur_push",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_11_step_3",
+	"chain_id": "beta03_chain_11",
+	"chain_step": 3,
+	"type": "military_report",
+	"title": "回纥连锁11：军报",
+	"source_character_id": "uighur_envoy",
+	"trigger_day": 10,
+	"deadline_days": 10,
+	"urgency": 64,
+	"visible_summary": "回纥使者递来借回纥破局的第3段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_uighur_push_decision_14",
+      "beta03_uighur_push_decision_17"
+	],
+	"route_tag": "uighur_push",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "treasury",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_12_step_1",
+	"chain_id": "beta03_chain_12",
+	"chain_step": 1,
+	"type": "audience_request",
+	"title": "灵武连锁12：求见",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 11,
+	"deadline_days": 2,
+	"urgency": 63,
+	"visible_summary": "旧臣强硬派递来固守灵武正统的第1段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_defend_lingwu_decision_12",
+      "beta03_defend_lingwu_decision_15"
+	],
+	"route_tag": "defend_lingwu",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_12_step_2",
+	"chain_id": "beta03_chain_12",
+	"chain_step": 2,
+	"type": "memorial",
+	"title": "灵武连锁12：奏疏",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 11,
+	"deadline_days": 2,
+	"urgency": 64,
+	"visible_summary": "李辅国递来固守灵武正统的第2段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_defend_lingwu_decision_15",
+      "beta03_defend_lingwu_decision_18"
+	],
+	"route_tag": "defend_lingwu",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_chain_12_step_3",
+	"chain_id": "beta03_chain_12",
+	"chain_step": 3,
+	"type": "military_report",
+	"title": "灵武连锁12：军报",
+	"source_character_id": "lingwu_merchant_refugee",
+	"trigger_day": 11,
+	"deadline_days": 8,
+	"urgency": 65,
+	"visible_summary": "灵武商民代表递来固守灵武正统的第3段压力：路线已经成形，但每推进一步都会牵动军粮、名分或派系代价。",
+	"available_decisions": [
+	  "beta03_defend_lingwu_decision_18",
+      "beta03_defend_lingwu_decision_21"
+	],
+	"route_tag": "defend_lingwu",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -3
+	  }
+	]
+  },
+  {
+	"id": "beta03_free_pressure_37",
+	"type": "secret_report",
+	"title": "朔方余波奏报37",
+	"source_character_id": "li_guangbi",
+	"trigger_day": 11,
+	"deadline_days": 1,
+	"urgency": 82,
+	"visible_summary": "李光弼提示：支援朔方反攻正在引出新的后续压力，若放任不管，下一章会继承更重的政治或战场成本。",
+	"available_decisions": [
+	  "beta03_support_shuofang_decision_22",
+      "beta03_support_shuofang_decision_25"
+	],
+	"route_tag": "support_shuofang",
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 3
+	  }
+	]
+  },
+  {
+	"id": "beta03_free_pressure_38",
+	"type": "public_sentiment",
+	"title": "回纥余波奏报38",
+	"source_character_id": "uighur_envoy",
+	"trigger_day": 11,
+	"deadline_days": 2,
+	"urgency": 83,
+	"visible_summary": "回纥使者提示：借回纥破局正在引出新的后续压力，若放任不管，下一章会继承更重的政治或战场成本。",
+	"available_decisions": [
+	  "beta03_uighur_push_decision_26",
+      "beta03_uighur_push_decision_29"
+	],
+	"route_tag": "uighur_push",
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 3
+	  }
+	]
+  },
+  {
+	"id": "beta03_free_pressure_39",
+	"type": "secret_report",
+	"title": "灵武余波奏报39",
+	"source_character_id": "lingwu_merchant_refugee",
+	"trigger_day": 11,
+	"deadline_days": 3,
+	"urgency": 84,
+	"visible_summary": "灵武商民代表提示：固守灵武正统正在引出新的后续压力，若放任不管，下一章会继承更重的政治或战场成本。",
+	"available_decisions": [
+	  "beta03_defend_lingwu_decision_30",
+      "beta03_defend_lingwu_decision_03"
+	],
+	"route_tag": "defend_lingwu",
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 3
+	  }
+	]
+  },
+  {
+	"id": "beta03_free_pressure_40",
+	"type": "public_sentiment",
+	"title": "朔方余波奏报40",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 12,
+	"deadline_days": 3,
+	"urgency": 45,
+	"visible_summary": "郭子仪提示：支援朔方反攻正在引出新的后续压力，若放任不管，下一章会继承更重的政治或战场成本。",
+	"available_decisions": [
+	  "beta03_support_shuofang_decision_01",
+      "beta03_support_shuofang_decision_04"
+	],
+	"route_tag": "support_shuofang",
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 3
+	  }
+	]
+  },
+  {
+	"id": "beta03_free_pressure_41",
+	"type": "secret_report",
+	"title": "回纥余波奏报41",
+	"source_character_id": "uighur_prince_envoy",
+	"trigger_day": 12,
+	"deadline_days": 2,
+	"urgency": 46,
+	"visible_summary": "回纥王子使提示：借回纥破局正在引出新的后续压力，若放任不管，下一章会继承更重的政治或战场成本。",
+	"available_decisions": [
+	  "beta03_uighur_push_decision_05",
+      "beta03_uighur_push_decision_08"
+	],
+	"route_tag": "uighur_push",
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 3
+	  }
+	]
+  },
+  {
+	"id": "beta03_free_pressure_42",
+	"type": "public_sentiment",
+	"title": "灵武余波奏报42",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 12,
+	"deadline_days": 3,
+	"urgency": 47,
+	"visible_summary": "李辅国提示：固守灵武正统正在引出新的后续压力，若放任不管，下一章会继承更重的政治或战场成本。",
+	"available_decisions": [
+	  "beta03_defend_lingwu_decision_09",
+      "beta03_defend_lingwu_decision_12"
+	],
+	"route_tag": "defend_lingwu",
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 3
+	  }
+	]
+  },
+  {
+	"id": "beta03_free_pressure_43",
+	"type": "secret_report",
+	"title": "朔方余波奏报43",
+	"source_character_id": "zhang_xun_front_rep",
+	"trigger_day": 12,
+	"deadline_days": 2,
+	"urgency": 48,
+	"visible_summary": "张巡前线使者提示：支援朔方反攻正在引出新的后续压力，若放任不管，下一章会继承更重的政治或战场成本。",
+	"available_decisions": [
+	  "beta03_support_shuofang_decision_10",
+      "beta03_support_shuofang_decision_13"
+	],
+	"route_tag": "support_shuofang",
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 3
+	  }
+	]
+  },
+  {
+	"id": "beta03_free_pressure_44",
+	"type": "public_sentiment",
+	"title": "回纥余波奏报44",
+	"source_character_id": "uighur_envoy",
+	"trigger_day": 12,
+	"deadline_days": 2,
+	"urgency": 49,
+	"visible_summary": "回纥使者提示：借回纥破局正在引出新的后续压力，若放任不管，下一章会继承更重的政治或战场成本。",
+	"available_decisions": [
+	  "beta03_uighur_push_decision_14",
+      "beta03_uighur_push_decision_17"
+	],
+	"route_tag": "uighur_push",
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "uighur_envoys",
+		"field": "pressure",
+		"value": 3
+	  }
+	]
+  },
+  {
+	"id": "beta03_free_pressure_45",
+	"type": "secret_report",
+	"title": "灵武余波奏报45",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 12,
+	"deadline_days": 1,
+	"urgency": 50,
+	"visible_summary": "旧臣强硬派提示：固守灵武正统正在引出新的后续压力，若放任不管，下一章会继承更重的政治或战场成本。",
+	"available_decisions": [
+	  "beta03_defend_lingwu_decision_18",
+      "beta03_defend_lingwu_decision_21"
+	],
+	"route_tag": "defend_lingwu",
+	"on_expire": [
+	  {
+		"type": "faction_delta",
+		"target": "military_commanders",
+		"field": "pressure",
+		"value": 3
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_01",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 1",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 13,
+	"deadline_days": 3,
+	"urgency": 50,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_01",
+      "beta06_office_decree_02"
+	],
+	"beta06_meeting_id": "beta06_council_chain_01",
+	"chain_id": "beta06_event_chain_01",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_02",
+	"type": "memorial",
+	"title": "Beta06 court power event 2",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 13,
+	"deadline_days": 1,
+	"urgency": 51,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_02",
+      "beta06_office_decree_03"
+	],
+	"beta06_meeting_id": "beta06_council_chain_02",
+	"chain_id": "beta06_event_chain_02",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_03",
+	"type": "audience_request",
+	"title": "Beta06 court power event 3",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 13,
+	"deadline_days": 2,
+	"urgency": 52,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_03",
+      "beta06_office_decree_04"
+	],
+	"beta06_meeting_id": "beta06_council_chain_03",
+	"chain_id": "beta06_event_chain_03",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_04",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 4",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 13,
+	"deadline_days": 3,
+	"urgency": 53,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_04",
+      "beta06_office_decree_05"
+	],
+	"beta06_meeting_id": "beta06_council_chain_04",
+	"chain_id": "beta06_event_chain_04",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_05",
+	"type": "memorial",
+	"title": "Beta06 court power event 5",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 13,
+	"deadline_days": 1,
+	"urgency": 54,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_05",
+      "beta06_office_decree_06"
+	],
+	"beta06_meeting_id": "beta06_council_chain_05",
+	"chain_id": "beta06_event_chain_05",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_06",
+	"type": "audience_request",
+	"title": "Beta06 court power event 6",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 13,
+	"deadline_days": 2,
+	"urgency": 55,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_06",
+      "beta06_office_decree_07"
+	],
+	"beta06_meeting_id": "beta06_council_chain_06",
+	"chain_id": "beta06_event_chain_06",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_07",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 7",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 14,
+	"deadline_days": 3,
+	"urgency": 56,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_07",
+      "beta06_office_decree_08"
+	],
+	"beta06_meeting_id": "beta06_council_chain_07",
+	"chain_id": "beta06_event_chain_07",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_08",
+	"type": "memorial",
+	"title": "Beta06 court power event 8",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 14,
+	"deadline_days": 1,
+	"urgency": 57,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_08",
+      "beta06_office_decree_09"
+	],
+	"beta06_meeting_id": "beta06_council_chain_08",
+	"chain_id": "beta06_event_chain_08",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_09",
+	"type": "audience_request",
+	"title": "Beta06 court power event 9",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 14,
+	"deadline_days": 2,
+	"urgency": 58,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_09",
+      "beta06_office_decree_10"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_01",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_10",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 10",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 14,
+	"deadline_days": 2,
+	"urgency": 59,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_10",
+      "beta06_office_decree_11"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_02",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_11",
+	"type": "memorial",
+	"title": "Beta06 court power event 11",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 14,
+	"deadline_days": 1,
+	"urgency": 60,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_11",
+      "beta06_office_decree_12"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_03",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_12",
+	"type": "audience_request",
+	"title": "Beta06 court power event 12",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 14,
+	"deadline_days": 3,
+	"urgency": 61,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_12",
+      "beta06_office_decree_13"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_04",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_13",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 13",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 15,
+	"deadline_days": 2,
+	"urgency": 62,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_13",
+      "beta06_office_decree_14"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_05",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_14",
+	"type": "memorial",
+	"title": "Beta06 court power event 14",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 15,
+	"deadline_days": 3,
+	"urgency": 63,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_14",
+      "beta06_office_decree_15"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_06",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_15",
+	"type": "audience_request",
+	"title": "Beta06 court power event 15",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 15,
+	"deadline_days": 2,
+	"urgency": 64,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_15",
+      "beta06_office_decree_16"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_07",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_16",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 16",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 15,
+	"deadline_days": 1,
+	"urgency": 65,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_16",
+      "beta06_office_decree_17"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_08",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_17",
+	"type": "memorial",
+	"title": "Beta06 court power event 17",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 15,
+	"deadline_days": 3,
+	"urgency": 66,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_17",
+      "beta06_office_decree_18"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_01",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_18",
+	"type": "audience_request",
+	"title": "Beta06 court power event 18",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 15,
+	"deadline_days": 1,
+	"urgency": 67,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_18",
+      "beta06_office_decree_19"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_02",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_19",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 19",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 16,
+	"deadline_days": 3,
+	"urgency": 68,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_19",
+      "beta06_office_decree_20"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_03",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_20",
+	"type": "memorial",
+	"title": "Beta06 court power event 20",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 16,
+	"deadline_days": 2,
+	"urgency": 69,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_20",
+      "beta06_office_decree_21"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_04",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_21",
+	"type": "audience_request",
+	"title": "Beta06 court power event 21",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 16,
+	"deadline_days": 3,
+	"urgency": 70,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_21",
+      "beta06_office_decree_22"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_05",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_22",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 22",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 16,
+	"deadline_days": 3,
+	"urgency": 71,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_22",
+      "beta06_office_decree_23"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_06",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_23",
+	"type": "memorial",
+	"title": "Beta06 court power event 23",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 16,
+	"deadline_days": 1,
+	"urgency": 72,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_23",
+      "beta06_office_decree_24"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_07",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_24",
+	"type": "audience_request",
+	"title": "Beta06 court power event 24",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 16,
+	"deadline_days": 3,
+	"urgency": 73,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_24",
+      "beta06_office_decree_25"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "beta06_event_chain_08",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_25",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 25",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 17,
+	"deadline_days": 1,
+	"urgency": 74,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_25",
+      "beta06_office_decree_26"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_26",
+	"type": "memorial",
+	"title": "Beta06 court power event 26",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 17,
+	"deadline_days": 1,
+	"urgency": 75,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_26",
+      "beta06_office_decree_27"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_27",
+	"type": "audience_request",
+	"title": "Beta06 court power event 27",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 17,
+	"deadline_days": 2,
+	"urgency": 76,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_27",
+      "beta06_office_decree_28"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_28",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 28",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 17,
+	"deadline_days": 3,
+	"urgency": 77,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_28",
+      "beta06_office_decree_29"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_29",
+	"type": "memorial",
+	"title": "Beta06 court power event 29",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 17,
+	"deadline_days": 1,
+	"urgency": 78,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_29",
+      "beta06_office_decree_30"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_30",
+	"type": "audience_request",
+	"title": "Beta06 court power event 30",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 17,
+	"deadline_days": 3,
+	"urgency": 79,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_30",
+      "beta06_office_decree_31"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_31",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 31",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 18,
+	"deadline_days": 2,
+	"urgency": 80,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_31",
+      "beta06_office_decree_32"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_32",
+	"type": "memorial",
+	"title": "Beta06 court power event 32",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 18,
+	"deadline_days": 2,
+	"urgency": 81,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_32",
+      "beta06_office_decree_33"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_33",
+	"type": "audience_request",
+	"title": "Beta06 court power event 33",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 18,
+	"deadline_days": 1,
+	"urgency": 82,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_33",
+      "beta06_office_decree_34"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_34",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 34",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 18,
+	"deadline_days": 2,
+	"urgency": 83,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_34",
+      "beta06_office_decree_35"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_35",
+	"type": "memorial",
+	"title": "Beta06 court power event 35",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 18,
+	"deadline_days": 1,
+	"urgency": 84,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_35",
+      "beta06_office_decree_36"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_36",
+	"type": "audience_request",
+	"title": "Beta06 court power event 36",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 18,
+	"deadline_days": 1,
+	"urgency": 50,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_36",
+      "beta06_office_decree_37"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_37",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 37",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 19,
+	"deadline_days": 3,
+	"urgency": 51,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_37",
+      "beta06_office_decree_38"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_38",
+	"type": "memorial",
+	"title": "Beta06 court power event 38",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 19,
+	"deadline_days": 1,
+	"urgency": 52,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_38",
+      "beta06_office_decree_39"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_39",
+	"type": "audience_request",
+	"title": "Beta06 court power event 39",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 19,
+	"deadline_days": 3,
+	"urgency": 53,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_39",
+      "beta06_office_decree_40"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_40",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 40",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 19,
+	"deadline_days": 2,
+	"urgency": 54,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_40",
+      "beta06_office_decree_01"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_41",
+	"type": "memorial",
+	"title": "Beta06 court power event 41",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 19,
+	"deadline_days": 3,
+	"urgency": 55,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_01",
+      "beta06_office_decree_02"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_42",
+	"type": "audience_request",
+	"title": "Beta06 court power event 42",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 19,
+	"deadline_days": 1,
+	"urgency": 56,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_02",
+      "beta06_office_decree_03"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_43",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 43",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 20,
+	"deadline_days": 2,
+	"urgency": 57,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_03",
+      "beta06_office_decree_04"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_44",
+	"type": "memorial",
+	"title": "Beta06 court power event 44",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 20,
+	"deadline_days": 1,
+	"urgency": 58,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_04",
+      "beta06_office_decree_05"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_45",
+	"type": "audience_request",
+	"title": "Beta06 court power event 45",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 20,
+	"deadline_days": 2,
+	"urgency": 59,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_05",
+      "beta06_office_decree_06"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_46",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 46",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 20,
+	"deadline_days": 3,
+	"urgency": 60,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_06",
+      "beta06_office_decree_07"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_47",
+	"type": "memorial",
+	"title": "Beta06 court power event 47",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 20,
+	"deadline_days": 1,
+	"urgency": 61,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_07",
+      "beta06_office_decree_08"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_48",
+	"type": "audience_request",
+	"title": "Beta06 court power event 48",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 20,
+	"deadline_days": 3,
+	"urgency": 62,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_08",
+      "beta06_office_decree_09"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_49",
+	"type": "court_meeting",
+	"title": "Beta06 court power event 49",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 21,
+	"deadline_days": 1,
+	"urgency": 63,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_09",
+      "beta06_office_decree_10"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta06_court_power_event_50",
+	"type": "memorial",
+	"title": "Beta06 court power event 50",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 21,
+	"deadline_days": 3,
+	"urgency": 64,
+	"visible_summary": "A Beta 0.6 court power pressure tests offices, factions, local nodes, and delayed consequences.",
+	"available_decisions": [
+	  "beta06_office_decree_10",
+      "beta06_office_decree_11"
+	],
+	"beta06_meeting_id": "",
+	"chain_id": "",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -2
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_01",
+	"type": "intelligence_report",
+	"title": "Beta07 war intelligence event 1",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 21,
+	"deadline_days": 10,
+	"urgency": 55,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_01",
+      "beta07_intelligence_action_02"
+	],
+	"beta07_report_id": "guanzhong_false_movement_a",
+	"beta07_route_id": "lingwu_to_guanzhong_relay",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_02",
+	"type": "military_briefing",
+	"title": "Beta07 war intelligence event 2",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 21,
+	"deadline_days": 9,
+	"urgency": 56,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_02",
+      "beta07_intelligence_action_03"
+	],
+	"beta07_report_id": "guanzhong_false_movement_b",
+	"beta07_route_id": "beta07_route_02",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_03",
+	"type": "regional_operation",
+	"title": "Beta07 war intelligence event 3",
+	"source_character_id": "li_bi",
+	"trigger_day": 21,
+	"deadline_days": 8,
+	"urgency": 57,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_03",
+      "beta07_intelligence_action_04"
+	],
+	"beta07_report_id": "beta07_intel_report_01",
+	"beta07_route_id": "beta07_route_03",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_04",
+	"type": "intelligence_report",
+	"title": "Beta07 war intelligence event 4",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 21,
+	"deadline_days": 7,
+	"urgency": 58,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_04",
+      "beta07_intelligence_action_05"
+	],
+	"beta07_report_id": "beta07_intel_report_02",
+	"beta07_route_id": "beta07_route_04",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_05",
+	"type": "military_briefing",
+	"title": "Beta07 war intelligence event 5",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 22,
+	"deadline_days": 6,
+	"urgency": 59,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_05",
+      "beta07_intelligence_action_06"
+	],
+	"beta07_report_id": "beta07_intel_report_03",
+	"beta07_route_id": "beta07_route_05",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_06",
+	"type": "regional_operation",
+	"title": "Beta07 war intelligence event 6",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 22,
+	"deadline_days": 5,
+	"urgency": 60,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_06",
+      "beta07_intelligence_action_07"
+	],
+	"beta07_report_id": "beta07_intel_report_04",
+	"beta07_route_id": "beta07_route_06",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_07",
+	"type": "intelligence_report",
+	"title": "Beta07 war intelligence event 7",
+	"source_character_id": "li_bi",
+	"trigger_day": 22,
+	"deadline_days": 4,
+	"urgency": 61,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_07",
+      "beta07_intelligence_action_08"
+	],
+	"beta07_report_id": "beta07_intel_report_05",
+	"beta07_route_id": "beta07_route_07",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_08",
+	"type": "military_briefing",
+	"title": "Beta07 war intelligence event 8",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 22,
+	"deadline_days": 3,
+	"urgency": 62,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_08",
+      "beta07_intelligence_action_09"
+	],
+	"beta07_report_id": "beta07_intel_report_06",
+	"beta07_route_id": "beta07_route_08",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_09",
+	"type": "regional_operation",
+	"title": "Beta07 war intelligence event 9",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 22,
+	"deadline_days": 2,
+	"urgency": 63,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_09",
+      "beta07_intelligence_action_10"
+	],
+	"beta07_report_id": "beta07_intel_report_07",
+	"beta07_route_id": "beta07_route_09",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_10",
+	"type": "intelligence_report",
+	"title": "Beta07 war intelligence event 10",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 22,
+	"deadline_days": 4,
+	"urgency": 64,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_10",
+      "beta07_intelligence_action_11"
+	],
+	"beta07_report_id": "beta07_intel_report_08",
+	"beta07_route_id": "beta07_route_10",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_11",
+	"type": "military_briefing",
+	"title": "Beta07 war intelligence event 11",
+	"source_character_id": "li_bi",
+	"trigger_day": 23,
+	"deadline_days": 5,
+	"urgency": 65,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_11",
+      "beta07_intelligence_action_12"
+	],
+	"beta07_report_id": "beta07_intel_report_09",
+	"beta07_route_id": "beta07_route_11",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_12",
+	"type": "regional_operation",
+	"title": "Beta07 war intelligence event 12",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 23,
+	"deadline_days": 6,
+	"urgency": 66,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_12",
+      "beta07_intelligence_action_13"
+	],
+	"beta07_report_id": "beta07_intel_report_10",
+	"beta07_route_id": "beta07_route_12",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_13",
+	"type": "intelligence_report",
+	"title": "Beta07 war intelligence event 13",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 23,
+	"deadline_days": 7,
+	"urgency": 67,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_13",
+      "beta07_intelligence_action_14"
+	],
+	"beta07_report_id": "beta07_intel_report_11",
+	"beta07_route_id": "beta07_route_13",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_14",
+	"type": "military_briefing",
+	"title": "Beta07 war intelligence event 14",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 23,
+	"deadline_days": 9,
+	"urgency": 68,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_14",
+      "beta07_intelligence_action_15"
+	],
+	"beta07_report_id": "beta07_intel_report_12",
+	"beta07_route_id": "beta07_route_14",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_15",
+	"type": "regional_operation",
+	"title": "Beta07 war intelligence event 15",
+	"source_character_id": "li_bi",
+	"trigger_day": 23,
+	"deadline_days": 10,
+	"urgency": 69,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_15",
+      "beta07_intelligence_action_16"
+	],
+	"beta07_report_id": "beta07_intel_report_13",
+	"beta07_route_id": "beta07_route_15",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_16",
+	"type": "intelligence_report",
+	"title": "Beta07 war intelligence event 16",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 23,
+	"deadline_days": 2,
+	"urgency": 70,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_16",
+      "beta07_intelligence_action_17"
+	],
+	"beta07_report_id": "beta07_intel_report_14",
+	"beta07_route_id": "beta07_route_16",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_17",
+	"type": "military_briefing",
+	"title": "Beta07 war intelligence event 17",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 24,
+	"deadline_days": 3,
+	"urgency": 71,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_17",
+      "beta07_intelligence_action_18"
+	],
+	"beta07_report_id": "beta07_intel_report_15",
+	"beta07_route_id": "beta07_route_17",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_18",
+	"type": "regional_operation",
+	"title": "Beta07 war intelligence event 18",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 24,
+	"deadline_days": 5,
+	"urgency": 72,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_18",
+      "beta07_intelligence_action_19"
+	],
+	"beta07_report_id": "beta07_intel_report_16",
+	"beta07_route_id": "beta07_route_18",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_19",
+	"type": "intelligence_report",
+	"title": "Beta07 war intelligence event 19",
+	"source_character_id": "li_bi",
+	"trigger_day": 24,
+	"deadline_days": 6,
+	"urgency": 73,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_19",
+      "beta07_intelligence_action_20"
+	],
+	"beta07_report_id": "beta07_intel_report_17",
+	"beta07_route_id": "lingwu_to_guanzhong_relay",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_20",
+	"type": "military_briefing",
+	"title": "Beta07 war intelligence event 20",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 24,
+	"deadline_days": 4,
+	"urgency": 74,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_20",
+      "beta07_intelligence_action_21"
+	],
+	"beta07_report_id": "beta07_intel_report_18",
+	"beta07_route_id": "beta07_route_02",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_21",
+	"type": "regional_operation",
+	"title": "Beta07 war intelligence event 21",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 24,
+	"deadline_days": 3,
+	"urgency": 75,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_21",
+      "beta07_intelligence_action_22"
+	],
+	"beta07_report_id": "beta07_intel_report_19",
+	"beta07_route_id": "beta07_route_03",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_22",
+	"type": "intelligence_report",
+	"title": "Beta07 war intelligence event 22",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 24,
+	"deadline_days": 6,
+	"urgency": 76,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_22",
+      "beta07_intelligence_action_23"
+	],
+	"beta07_report_id": "beta07_intel_report_20",
+	"beta07_route_id": "beta07_route_04",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_23",
+	"type": "military_briefing",
+	"title": "Beta07 war intelligence event 23",
+	"source_character_id": "li_bi",
+	"trigger_day": 25,
+	"deadline_days": 5,
+	"urgency": 77,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_23",
+      "beta07_intelligence_action_24"
+	],
+	"beta07_report_id": "beta07_intel_report_21",
+	"beta07_route_id": "beta07_route_05",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_24",
+	"type": "regional_operation",
+	"title": "Beta07 war intelligence event 24",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 25,
+	"deadline_days": 8,
+	"urgency": 78,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_24",
+      "beta07_intelligence_action_25"
+	],
+	"beta07_report_id": "beta07_intel_report_22",
+	"beta07_route_id": "beta07_route_06",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_25",
+	"type": "intelligence_report",
+	"title": "Beta07 war intelligence event 25",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 25,
+	"deadline_days": 7,
+	"urgency": 79,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_25",
+      "beta07_intelligence_action_26"
+	],
+	"beta07_report_id": "beta07_intel_report_23",
+	"beta07_route_id": "beta07_route_07",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_26",
+	"type": "military_briefing",
+	"title": "Beta07 war intelligence event 26",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 25,
+	"deadline_days": 10,
+	"urgency": 80,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_26",
+      "beta07_intelligence_action_27"
+	],
+	"beta07_report_id": "beta07_intel_report_24",
+	"beta07_route_id": "beta07_route_08",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_27",
+	"type": "regional_operation",
+	"title": "Beta07 war intelligence event 27",
+	"source_character_id": "li_bi",
+	"trigger_day": 25,
+	"deadline_days": 9,
+	"urgency": 81,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_27",
+      "beta07_intelligence_action_28"
+	],
+	"beta07_report_id": "beta07_intel_report_25",
+	"beta07_route_id": "beta07_route_09",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_28",
+	"type": "intelligence_report",
+	"title": "Beta07 war intelligence event 28",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 25,
+	"deadline_days": 5,
+	"urgency": 82,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_28",
+      "beta07_intelligence_action_29"
+	],
+	"beta07_report_id": "beta07_intel_report_26",
+	"beta07_route_id": "beta07_route_10",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_29",
+	"type": "military_briefing",
+	"title": "Beta07 war intelligence event 29",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 26,
+	"deadline_days": 4,
+	"urgency": 83,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_29",
+      "beta07_intelligence_action_30"
+	],
+	"beta07_report_id": "beta07_intel_report_27",
+	"beta07_route_id": "beta07_route_11",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_30",
+	"type": "regional_operation",
+	"title": "Beta07 war intelligence event 30",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 26,
+	"deadline_days": 6,
+	"urgency": 84,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_30",
+      "beta07_intelligence_action_31"
+	],
+	"beta07_report_id": "beta07_intel_report_28",
+	"beta07_route_id": "beta07_route_12",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_31",
+	"type": "intelligence_report",
+	"title": "Beta07 war intelligence event 31",
+	"source_character_id": "li_bi",
+	"trigger_day": 26,
+	"deadline_days": 7,
+	"urgency": 55,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_31",
+      "beta07_intelligence_action_32"
+	],
+	"beta07_report_id": "beta07_intel_report_29",
+	"beta07_route_id": "beta07_route_13",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_32",
+	"type": "military_briefing",
+	"title": "Beta07 war intelligence event 32",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 26,
+	"deadline_days": 4,
+	"urgency": 56,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_32",
+      "beta07_intelligence_action_33"
+	],
+	"beta07_report_id": "beta07_intel_report_30",
+	"beta07_route_id": "beta07_route_14",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_33",
+	"type": "regional_operation",
+	"title": "Beta07 war intelligence event 33",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 26,
+	"deadline_days": 5,
+	"urgency": 57,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_33",
+      "beta07_intelligence_action_34"
+	],
+	"beta07_report_id": "beta07_intel_report_31",
+	"beta07_route_id": "beta07_route_15",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_34",
+	"type": "intelligence_report",
+	"title": "Beta07 war intelligence event 34",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 26,
+	"deadline_days": 2,
+	"urgency": 58,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_34",
+      "beta07_intelligence_action_35"
+	],
+	"beta07_report_id": "beta07_intel_report_32",
+	"beta07_route_id": "beta07_route_16",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_35",
+	"type": "military_briefing",
+	"title": "Beta07 war intelligence event 35",
+	"source_character_id": "li_bi",
+	"trigger_day": 27,
+	"deadline_days": 3,
+	"urgency": 59,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_35",
+      "beta07_intelligence_action_01"
+	],
+	"beta07_report_id": "beta07_intel_report_33",
+	"beta07_route_id": "beta07_route_17",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_36",
+	"type": "regional_operation",
+	"title": "Beta07 war intelligence event 36",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 27,
+	"deadline_days": 9,
+	"urgency": 60,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_01",
+      "beta07_intelligence_action_02"
+	],
+	"beta07_report_id": "beta07_intel_report_34",
+	"beta07_route_id": "beta07_route_18",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_37",
+	"type": "intelligence_report",
+	"title": "Beta07 war intelligence event 37",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 27,
+	"deadline_days": 10,
+	"urgency": 61,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_02",
+      "beta07_intelligence_action_03"
+	],
+	"beta07_report_id": "beta07_intel_report_35",
+	"beta07_route_id": "lingwu_to_guanzhong_relay",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_38",
+	"type": "military_briefing",
+	"title": "Beta07 war intelligence event 38",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 27,
+	"deadline_days": 5,
+	"urgency": 62,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_03",
+      "beta07_intelligence_action_04"
+	],
+	"beta07_report_id": "beta07_intel_report_36",
+	"beta07_route_id": "beta07_route_02",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_39",
+	"type": "regional_operation",
+	"title": "Beta07 war intelligence event 39",
+	"source_character_id": "li_bi",
+	"trigger_day": 27,
+	"deadline_days": 6,
+	"urgency": 63,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_04",
+      "beta07_intelligence_action_05"
+	],
+	"beta07_report_id": "beta07_intel_report_37",
+	"beta07_route_id": "beta07_route_03",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_40",
+	"type": "intelligence_report",
+	"title": "Beta07 war intelligence event 40",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 27,
+	"deadline_days": 8,
+	"urgency": 64,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_05",
+      "beta07_intelligence_action_06"
+	],
+	"beta07_report_id": "beta07_intel_report_38",
+	"beta07_route_id": "beta07_route_04",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_41",
+	"type": "military_briefing",
+	"title": "Beta07 war intelligence event 41",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 28,
+	"deadline_days": 7,
+	"urgency": 65,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_06",
+      "beta07_intelligence_action_07"
+	],
+	"beta07_report_id": "beta07_intel_report_39",
+	"beta07_route_id": "beta07_route_05",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_42",
+	"type": "regional_operation",
+	"title": "Beta07 war intelligence event 42",
+	"source_character_id": "li_fuguo",
+	"trigger_day": 28,
+	"deadline_days": 6,
+	"urgency": 66,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_07",
+      "beta07_intelligence_action_08"
+	],
+	"beta07_report_id": "beta07_intel_report_40",
+	"beta07_route_id": "beta07_route_06",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_43",
+	"type": "intelligence_report",
+	"title": "Beta07 war intelligence event 43",
+	"source_character_id": "li_bi",
+	"trigger_day": 28,
+	"deadline_days": 5,
+	"urgency": 67,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_08",
+      "beta07_intelligence_action_09"
+	],
+	"beta07_report_id": "beta07_intel_report_41",
+	"beta07_route_id": "beta07_route_07",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_44",
+	"type": "military_briefing",
+	"title": "Beta07 war intelligence event 44",
+	"source_character_id": "hardline_old_court_official",
+	"trigger_day": 28,
+	"deadline_days": 3,
+	"urgency": 68,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_09",
+      "beta07_intelligence_action_10"
+	],
+	"beta07_report_id": "beta07_intel_report_42",
+	"beta07_route_id": "beta07_route_08",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  },
+  {
+	"id": "beta07_war_intel_event_45",
+	"type": "regional_operation",
+	"title": "Beta07 war intelligence event 45",
+	"source_character_id": "guo_ziyi",
+	"trigger_day": 28,
+	"deadline_days": 2,
+	"urgency": 69,
+	"visible_summary": "A Beta 0.7 regional intelligence pressure asks the player to interpret route and report uncertainty.",
+	"available_decisions": [
+	  "beta07_intelligence_action_10",
+      "beta07_intelligence_action_11"
+	],
+	"beta07_report_id": "beta07_intel_report_43",
+	"beta07_route_id": "beta07_route_09",
+	"on_expire": [
+	  {
+		"type": "resource_delta",
+		"target": "court_authority",
+		"value": -1
+	  }
+	]
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "build_id": "tongguan_v01_final_20261015_03",
+  "world_id": "tongguan_final_validation_v1",
+  "release_sha256": "68b01e95b4f2744b71491711f358ec9e4e56b9e425b7a85dbd816fd36a1377fc",
+  "source_manifest_sha256": "e63ce2607236351ecea5c994fecac70d92d31e6febcb590850a05d3d1ad57053",
+  "tools_manifest_sha256": "5728229584e8d29a68aa32ff0e209e425578b0b2995ef968d6216d3f841f9037",
+  "report_manifest_sha256": "273e691cfba47992ae346abcb38daf0db65e8f64c5b504572ee56849762873d6",
+  "full_checks_build": "tongguan_v01_final_20261015_03",
+  "recovery_equivalent": {
+    "passed": true,
+    "main_build": "tongguan_v01_final_20261015_03",
+    "recovery_build": "tongguan_v01_final_recovery_20261015_03",
+    "identical_source_files": 576,
+    "metadata_exceptions": [
+      [
+        "runtime",
+        "export_presets.cfg"
+      ],
+      [
+        "runtime",
+        "final/build_manifest.json"
+      ],
+      [
+        "authoring",
+        "export_presets.cfg"
+      ],
+      [
+        "authoring",
+        "final/build_manifest.json"
+      ]
+    ],
+    "scope": "same application code, data and assets; distinct immutable build metadata and export paths. Full performance tests bind main build only."
+  },
+  "user_acceptance": "pending",
+  "historical_precision": "pending",
+  "formal_art": "engineering_prototype_only",
+  "next_stage_started": false,
+  "main_deployment": false
+}

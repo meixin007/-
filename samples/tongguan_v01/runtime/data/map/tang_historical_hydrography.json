@@ -1,0 +1,308 @@
+{
+  "version": "1.0",
+  "historical_era": "tang_tianbao_zhide",
+  "description": "唐代天宝/至德年间水系考据，含对现代数据的历史修正。用于在地形高度场上刻蚀河道（下切），并作为地图河网与漕运走廊的依据。坐标一律为 [lon, lat]（先经后纬，WGS84）。",
+  "conventions": {
+    "coordinate_order": "[lon, lat]",
+    "crs": "WGS84 / EPSG:4326",
+    "bed_elevation_m": "与 path 逐点对应的河床高程（米），用于地形下切时插值",
+    "carve_depth_m": "在河床高程基础上继续下切的深度，用于形成可见河谷",
+    "channel_width_m": "河道在地形上的刻蚀半宽（米）"
+  },
+  "sources": [
+    "谭其骧《中国历史地图集》第五册（隋唐五代十国）—— 河道走向与湖泊范围以此为准",
+    "《元和郡县图志》（李吉甫，813）—— 州府道里与津渡",
+    "《水经注》（郦道元）—— 汉唐故道走向参照",
+    "《旧唐书·地理志》《新唐书·地理志》—— 州县沿革",
+    "《通典·州郡典》《通典·食货典·漕运》—— 大运河四段"
+  ],
+  "critical_corrections": [
+    {
+      "target": "黄河下游",
+      "issue": "现代黄河自 1855 年铜瓦厢决口后改走山东东营入海。唐代走「汉唐故道」：孟津—滑州—魏州—博州—棣州，于沧州/无棣一带入渤海，比现代河道偏北约 200 公里。",
+      "impact": "若照抄现代 DEM，整个河北战区（史思明与李光弼拉锯之地）的黄河天险位置全错，渡口、漕运与行军路线均失去依据。",
+      "action": "本文件提供唐代故道折线与沿程河床高程，由 20_build_terrain.py 在高度场上重新刻蚀河道。"
+    },
+    {
+      "target": "大运河（通济渠）",
+      "issue": "隋唐大运河的通济渠、永济渠在宋元以后逐渐湮废，现代 DEM 与 OpenStreetMap 中均已不存在。",
+      "impact": "通济渠是唐代漕运动脉，江淮财赋经此输往洛阳、长安。缺失则「睢阳保卫战为何关系唐室存亡」在地图上无法体现。",
+      "action": "本文件按考据补全四段运河（通济渠、邗沟、江南河、永济渠）的折线与河床高程。"
+    }
+  ],
+  "rivers": [
+    {
+      "id": "yellow_river",
+      "name": "黄河",
+      "historical_name": "河水·九曲",
+      "is_historical_correction": true,
+      "correction_note": "下游走汉唐故道（滑州—魏州—博州—棣州），唐末景福二年（893）以后才逐渐东移。",
+      "path": [
+        [96.5, 34.9], [100.5, 35.0], [102.0, 35.6], [103.8, 36.06],
+        [105.0, 36.5], [106.3, 37.9], [106.5, 38.5], [107.5, 39.3],
+        [108.5, 40.0], [110.0, 40.6], [111.2, 40.3], [111.0, 39.5],
+        [110.7, 38.5], [110.5, 37.5], [110.4, 36.5], [110.4, 35.6],
+        [110.3, 34.9], [110.25, 34.55], [111.0, 34.83], [111.8, 34.9],
+        [112.55, 34.87], [113.1, 35.0], [113.65, 35.05], [114.3, 35.4],
+        [114.52, 35.57], [115.05, 35.75], [115.14, 36.28], [115.6, 36.4],
+        [115.99, 36.45], [116.36, 37.44], [116.9, 37.7], [117.51, 37.49],
+        [118.1, 38.0], [118.3, 38.2]
+      ],
+      "bed_elevation_m": [
+        4200, 3400, 2900, 1520, 1350, 1150, 1105, 1060, 1020, 1000,
+        990, 900, 780, 620, 450, 385, 350, 330, 320, 200,
+        110, 95, 80, 70, 60, 52, 45, 42, 38, 28,
+        22, 12, 5, 0
+      ],
+      "carve_depth_m": 70,
+      "channel_width_m": 2500,
+      "navigable": "partially",
+      "strategic_note": "潼关以上为天堑，托克托—龙门段为晋陕峡谷。孟津以下进入平原，河宽易徙，是河北与河南之间的军事分界。冬季可结冰，唐军多次利用冰上通道渡河。"
+    },
+    {
+      "id": "yangtze",
+      "name": "长江",
+      "historical_name": "江水·大江",
+      "is_historical_correction": false,
+      "correction_note": "唐代中下游河势与现代接近，但江心洲分布与入海口形态不同（崇明岛尚未形成，江口在今江阴以下）。",
+      "path": [
+        [104.62, 28.77], [105.44, 28.87], [106.55, 29.56], [108.41, 30.81],
+        [110.0, 31.0], [111.3, 30.7], [112.19, 30.34], [113.13, 29.36],
+        [114.31, 30.55], [116.00, 29.71], [117.05, 30.51], [118.80, 32.06],
+        [119.42, 32.19], [120.5, 31.8], [121.5, 31.6]
+      ],
+      "bed_elevation_m": [
+        270, 250, 220, 150, 100, 60, 40, 28, 22, 15, 12, 8, 5, 2, 0
+      ],
+      "carve_depth_m": 60,
+      "channel_width_m": 3000,
+      "navigable": "yes",
+      "strategic_note": "江陵—鄂州—江州段是长江中游的水运主干。安史乱中，永王璘据江陵、玄宗入蜀，皆与此江相关；淮南、江南财赋北运亦须由此转入邗沟。"
+    },
+    {
+      "id": "huai_river",
+      "name": "淮河",
+      "historical_name": "淮水",
+      "is_historical_correction": false,
+      "correction_note": "唐代淮河独流入海，未被黄河夺淮（黄河夺淮始于 1194 年）。",
+      "path": [
+        [113.30, 32.37], [114.09, 32.13], [115.4, 32.5], [116.28, 32.64],
+        [116.79, 32.58], [117.6, 32.9], [118.50, 32.99], [119.03, 33.50],
+        [120.4, 33.9]
+      ],
+      "bed_elevation_m": [200, 100, 60, 40, 30, 20, 15, 10, 0],
+      "carve_depth_m": 40,
+      "channel_width_m": 1500,
+      "navigable": "yes",
+      "strategic_note": "泗州盱眙是通济渠入淮之处，为南北漕运的枢纽。张巡、许远守睢阳，正是为了屏蔽淮泗、保全这条粮道。"
+    },
+    {
+      "id": "wei_river",
+      "name": "渭水",
+      "historical_name": "渭水",
+      "is_historical_correction": false,
+      "correction_note": "唐代渭水水量较今为大，可通漕至长安。",
+      "path": [
+        [104.20, 35.13], [104.63, 35.00], [105.72, 34.58], [106.8, 34.5],
+        [107.24, 34.36], [108.2, 34.35], [108.71, 34.33], [108.94, 34.40],
+        [109.6, 34.5], [110.25, 34.55]
+      ],
+      "bed_elevation_m": [2000, 1700, 1100, 800, 560, 430, 380, 360, 340, 330],
+      "carve_depth_m": 45,
+      "channel_width_m": 1200,
+      "navigable": "partially",
+      "strategic_note": "八百里秦川的命脉，长安漕运所仰。渭水—黄河—通济渠构成唐代的漕运主干。"
+    },
+    {
+      "id": "han_river",
+      "name": "汉水",
+      "historical_name": "汉水·沔水",
+      "is_historical_correction": false,
+      "correction_note": "",
+      "path": [
+        [107.02, 33.07], [108.5, 32.8], [110.0, 32.5], [111.0, 32.3],
+        [112.12, 32.04], [113.0, 31.2], [114.31, 30.55]
+      ],
+      "bed_elevation_m": [500, 400, 250, 150, 80, 45, 22],
+      "carve_depth_m": 40,
+      "channel_width_m": 1200,
+      "navigable": "yes",
+      "strategic_note": "连接汉中与江汉平原。襄阳据其腰膂，是南北要冲。"
+    },
+    {
+      "id": "fen_river",
+      "name": "汾水",
+      "historical_name": "汾水",
+      "is_historical_correction": false,
+      "correction_note": "",
+      "path": [
+        [112.55, 37.87], [112.0, 37.0], [111.52, 36.09], [110.9, 35.6], [110.72, 35.59]
+      ],
+      "bed_elevation_m": [800, 600, 420, 350, 335],
+      "carve_depth_m": 40,
+      "channel_width_m": 1000,
+      "navigable": "partially",
+      "strategic_note": "纵贯河东道，太原、晋州皆在河谷。河东节度使的粮运所赖。"
+    },
+    {
+      "id": "luo_river",
+      "name": "洛水",
+      "historical_name": "洛水",
+      "is_historical_correction": false,
+      "correction_note": "",
+      "path": [[110.5, 34.2], [111.8, 34.2], [112.45, 34.62], [113.05, 34.82]],
+      "bed_elevation_m": [800, 400, 145, 110],
+      "carve_depth_m": 35,
+      "channel_width_m": 800,
+      "navigable": "partially",
+      "strategic_note": "洛阳所在。洛水在巩县洛口入黄河，通济渠即自此引水东去。"
+    },
+    {
+      "id": "tao_river",
+      "name": "洮水",
+      "historical_name": "洮水",
+      "is_historical_correction": false,
+      "correction_note": "",
+      "path": [[102.5, 34.5], [103.5, 34.8], [103.3, 35.8]],
+      "bed_elevation_m": [2800, 2200, 1700],
+      "carve_depth_m": 50,
+      "channel_width_m": 700,
+      "navigable": "no",
+      "strategic_note": "陇右道南部，唐与吐蕃在临洮一带的边界。"
+    },
+    {
+      "id": "huangshui_river",
+      "name": "湟水",
+      "historical_name": "湟水",
+      "is_historical_correction": false,
+      "correction_note": "",
+      "path": [[101.5, 36.6], [102.5, 36.5], [103.0, 36.1]],
+      "bed_elevation_m": [2600, 2200, 1600],
+      "carve_depth_m": 50,
+      "channel_width_m": 700,
+      "navigable": "no",
+      "strategic_note": "陇右道湟水谷地，鄯州所在，是唐控制青海的桥头堡。"
+    }
+  ],
+  "canals": [
+    {
+      "id": "tongji_canal",
+      "name": "通济渠",
+      "historical_name": "通济渠·汴水",
+      "is_historical_correction": true,
+      "correction_note": "隋炀帝大业元年（605）开凿，宋元以后湮废，现代地理数据中已不存在，必须按考据补全。",
+      "path": [
+        [112.45, 34.62], [112.98, 34.75], [113.62, 34.85], [114.31, 34.80],
+        [115.05, 34.70], [115.65, 34.40], [116.3, 33.9], [116.98, 33.65],
+        [117.8, 33.3], [118.50, 32.99]
+      ],
+      "bed_elevation_m": [130, 115, 100, 85, 70, 55, 45, 35, 25, 15],
+      "carve_depth_m": 25,
+      "channel_width_m": 600,
+      "navigable": "yes",
+      "strategic_note": "唐代漕运动脉：洛阳—汴州—宋州（睢阳）—泗州入淮。江淮租米经此输往东都。睢阳（宋州）正当此渠咽喉，故张巡守睢阳实为守唐室的生命线。"
+    },
+    {
+      "id": "handu_canal",
+      "name": "邗沟",
+      "historical_name": "邗沟·山阳渎",
+      "is_historical_correction": true,
+      "correction_note": "今京杭大运河的前身之一，走向与现代运河不完全一致。",
+      "path": [[119.03, 33.50], [119.2, 33.1], [119.44, 32.79], [119.42, 32.39]],
+      "bed_elevation_m": [10, 8, 5, 3],
+      "carve_depth_m": 20,
+      "channel_width_m": 500,
+      "navigable": "yes",
+      "strategic_note": "连接淮河与长江，楚州—扬州段。扬州因此成为唐代最繁盛的漕运与盐铁枢纽。"
+    },
+    {
+      "id": "jiangnan_canal",
+      "name": "江南河",
+      "historical_name": "江南河",
+      "is_historical_correction": true,
+      "correction_note": "",
+      "path": [
+        [119.42, 32.19], [119.95, 31.81], [120.3, 31.5], [120.58, 31.30],
+        [120.5, 30.9], [120.16, 30.27]
+      ],
+      "bed_elevation_m": [3, 2, 2, 1, 1, 1],
+      "carve_depth_m": 18,
+      "channel_width_m": 500,
+      "navigable": "yes",
+      "strategic_note": "润州—常州—苏州—杭州，把江南财赋区接入漕运网。安史乱后，唐室财政几乎全赖淮南、江南经此路北运。"
+    },
+    {
+      "id": "yongji_canal",
+      "name": "永济渠",
+      "historical_name": "永济渠",
+      "is_historical_correction": true,
+      "correction_note": "隋炀帝大业四年（608）开凿，引沁水北通涿郡。宋以后湮废。",
+      "path": [
+        [113.28, 35.10], [114.08, 35.40], [115.14, 36.28], [115.67, 37.07],
+        [116.36, 37.44], [116.86, 38.30], [117.2, 38.9], [116.9, 39.5],
+        [116.15, 39.90]
+      ],
+      "bed_elevation_m": [90, 70, 50, 40, 30, 22, 18, 14, 10],
+      "carve_depth_m": 25,
+      "channel_width_m": 600,
+      "navigable": "yes",
+      "strategic_note": "洛阳北通幽州（涿郡）的运道。隋征高丽时赖此输送甲兵粮秣；安史乱中，这条渠的北段正在叛军控制之下，是范阳集团得以迅速南下的基础之一。"
+    }
+  ],
+  "lakes": [
+    {
+      "id": "dongting",
+      "name": "洞庭湖",
+      "historical_name": "洞庭·青草",
+      "center": [112.9, 29.3],
+      "area_km2": 3000,
+      "surface_elevation_m": 28,
+      "note": "唐代湖面小于现代（「八百里洞庭」是明清以后的范围）。"
+    },
+    {
+      "id": "poyang",
+      "name": "彭蠡泽·鄱阳湖",
+      "historical_name": "彭蠡泽",
+      "center": [116.3, 29.1],
+      "area_km2": 4000,
+      "surface_elevation_m": 15,
+      "note": "唐代彭蠡泽已具大湖规模，江州（九江）在其北口。"
+    },
+    {
+      "id": "taihu",
+      "name": "太湖",
+      "historical_name": "震泽·太湖",
+      "center": [120.2, 31.2],
+      "area_km2": 2400,
+      "surface_elevation_m": 3,
+      "note": "江南河经其东岸，苏州、湖州赖其水利。"
+    },
+    {
+      "id": "juye",
+      "name": "巨野泽",
+      "historical_name": "大野泽",
+      "center": [116.1, 35.4],
+      "area_km2": 800,
+      "surface_elevation_m": 40,
+      "note": "唐代尚存，唐末以后逐渐淤废。在郓州、濮州之间，是黄河与汶水交汇处的薮泽。"
+    },
+    {
+      "id": "qinghai",
+      "name": "青海湖",
+      "historical_name": "西海·青海",
+      "center": [100.2, 36.9],
+      "area_km2": 4500,
+      "surface_elevation_m": 3196,
+      "note": "唐与吐蕃争夺之地，哥舒翰曾于此筑城戍守。"
+    },
+    {
+      "id": "juyan",
+      "name": "居延海",
+      "historical_name": "居延海",
+      "center": [101.0, 42.3],
+      "area_km2": 800,
+      "surface_elevation_m": 900,
+      "note": "漠南绿洲，唐在此设宁寇军，控扼回纥南下之路。"
+    }
+  ]
+}

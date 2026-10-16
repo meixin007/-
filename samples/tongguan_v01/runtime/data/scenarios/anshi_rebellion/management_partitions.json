@@ -1,0 +1,51 @@
+{
+  "source_id": "scenario:qinghe_partition_756",
+  "content_basis": "本作虚构成年家族成员崔宁提出独立立户。现金一百、留存一百及王实愿受聘为剧本配置，不作历史分家制度或价格断言；宗族血缘保留，原产业与义务由原户继续持有。",
+  "rules": [
+    {
+      "partition_id": "qinghe_ning",
+      "name": "清河崔氏·崔宁支户",
+      "clan_id": "clan_cui_qinghe",
+      "source_account_id": "clan_cui_qinghe_cash",
+      "household_id": "household_cui_ning",
+      "account_id": "household_cui_ning_cash",
+      "head_id": "cui_ning",
+      "location_id": "refugee_market_node",
+      "cash_amount": 100,
+      "minimum_retained_cash": 100,
+      "maximum_wage": 45,
+      "members": [
+        {
+          "character_id": "cui_ning",
+          "willing": true,
+          "minimum_relation": 0
+        }
+      ],
+      "employment_consents": [
+        "market_wang_shi"
+      ],
+      "office_templates": [
+        {
+          "template_id": "family_qinghe_steward",
+          "office_id": "household_ning_steward",
+          "wage": 20
+        },
+        {
+          "template_id": "family_qinghe_estate_head",
+          "office_id": "household_ning_estate_head",
+          "wage": 20
+        },
+        {
+          "template_id": "family_qinghe_shopkeeper",
+          "office_id": "household_ning_shopkeeper",
+          "wage": 45
+        },
+        {
+          "template_id": "family_qinghe_guard_captain",
+          "office_id": "household_ning_guard_captain",
+          "wage": 25
+        }
+      ]
+    }
+  ]
+}

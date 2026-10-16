@@ -1,0 +1,4 @@
+[
+  {"id":"beta105_day36_gate_appointment_scene","title":"宫门任命之争","entry_event_id":"beta105_day36_gate_appointment","entry_character_id":"li_chu","intro_text":"李俶、李辅国与李泌围绕宫门任命的先例争执不下。","choices":[{"id":"publish_term","label":"公布期限","result_text":"任命附带复核期限。","effects":[{"type":"resource_delta","target":"legitimacy","value":1}]},{"id":"retain_fast_channel","label":"保留快线","result_text":"军情入口保持迅速。","effects":[{"type":"resource_delta","target":"court_authority","value":1}]}]},
+  {"id":"beta105_day45_guo_command_scene","title":"朔方节制争议","entry_event_id":"beta105_day45_guo_command_scope","entry_character_id":"guo_ziyi","intro_text":"郭子仪、李光弼与仆固怀恩要求厘清朔方节制与联军协作。","choices":[{"id":"define_scope","label":"明确节制","result_text":"军令责任被写明。","effects":[{"type":"resource_delta","target":"military_morale","value":1}]},{"id":"shared_command","label":"共享节制","result_text":"联军协调得到优先。","effects":[{"type":"resource_delta","target":"court_authority","value":-1}]}]}
+]

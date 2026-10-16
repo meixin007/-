@@ -1,0 +1,136 @@
+{
+  "schema_version": 108,
+  "office_priority": ["zhongshu_drafting", "shangshu_execution", "household_supply", "war_mobilization", "inner_court_gatekeeper", "menxia_review", "censorate", "envoy_negotiator"],
+  "initial_office_overlay": [
+    {"office_id": "zhongshu_drafting", "holder_id": "li_bi", "status": "appointed"},
+    {"office_id": "menxia_review", "holder_id": "", "status": "vacant", "vacancy_reason": "initial_overlay"},
+    {"office_id": "shangshu_execution", "holder_id": "li_chu", "status": "appointed"},
+    {"office_id": "household_supply", "holder_id": "grain_official_lingwu", "status": "appointed"},
+    {"office_id": "war_mobilization", "holder_id": "guo_ziyi", "status": "appointed"},
+    {"office_id": "censorate", "holder_id": "", "status": "vacant", "vacancy_reason": "initial_overlay"},
+    {"office_id": "inner_court_gatekeeper", "holder_id": "li_fuguo", "status": "appointed"},
+    {"office_id": "envoy_negotiator", "holder_id": "", "status": "vacant", "vacancy_reason": "initial_overlay"}
+  ],
+  "qualification_matrix": {
+    "guo_ziyi": {
+      "zhongshu_drafting": {"level": "exceptional", "reason": "军令经验足，但制诰训练不足", "exception_cost": {"authority": 4, "political_debt": 1}},
+      "menxia_review": {"level": "exceptional", "reason": "能守军令程序，但缺少审议资历", "exception_cost": {"authority": 3, "political_debt": 1}},
+      "shangshu_execution": {"level": "eligible", "reason": "统筹军政执行经验明确"},
+      "household_supply": {"level": "exceptional", "reason": "可监督军需但并非钱粮专长", "exception_cost": {"authority": 3, "political_debt": 1}},
+      "war_mobilization": {"level": "eligible", "reason": "前线调度与统帅经验匹配"},
+      "censorate": {"level": "prohibited", "reason": "现任军权身份与直接监察冲突"},
+      "inner_court_gatekeeper": {"level": "prohibited", "reason": "军镇身份不能掌内廷传令"},
+      "envoy_negotiator": {"level": "exceptional", "reason": "可代表军方谈判但外交经验有限", "exception_cost": {"authority": 3, "political_debt": 1}}
+    },
+    "li_bi": {
+      "zhongshu_drafting": {"level": "eligible", "reason": "制诰与制度判断是其核心专长"},
+      "menxia_review": {"level": "eligible", "reason": "熟悉程序复核与名分边界"},
+      "shangshu_execution": {"level": "eligible", "reason": "能把议论转成跨部门执行方案"},
+      "household_supply": {"level": "exceptional", "reason": "能审粮政但缺少仓运日常经验", "exception_cost": {"authority": 2, "political_debt": 1}},
+      "war_mobilization": {"level": "prohibited", "reason": "缺乏直接统军资格"},
+      "censorate": {"level": "eligible", "reason": "制度监察与事实核查能力充分"},
+      "inner_court_gatekeeper": {"level": "exceptional", "reason": "可以约束宫门但不具内廷派系基础", "exception_cost": {"authority": 4, "political_debt": 1}},
+      "envoy_negotiator": {"level": "eligible", "reason": "善于谈判并能辨识承诺边界"}
+    },
+    "li_fuguo": {
+      "zhongshu_drafting": {"level": "exceptional", "reason": "熟悉宫门口谕但缺少公开制诰资历", "exception_cost": {"authority": 5, "political_debt": 2}},
+      "menxia_review": {"level": "exceptional", "reason": "可代表皇权复核但程序信誉不足", "exception_cost": {"authority": 5, "political_debt": 2}},
+      "shangshu_execution": {"level": "exceptional", "reason": "渠道协调强但行政公开性不足", "exception_cost": {"authority": 4, "political_debt": 2}},
+      "household_supply": {"level": "prohibited", "reason": "内廷专长与钱粮核验存在硬冲突"},
+      "war_mobilization": {"level": "prohibited", "reason": "不具前线统军资格"},
+      "censorate": {"level": "prohibited", "reason": "内廷渠道与监察职责直接冲突"},
+      "inner_court_gatekeeper": {"level": "eligible", "reason": "宫门传令与内廷渠道经验完全匹配"},
+      "envoy_negotiator": {"level": "exceptional", "reason": "可用宫门渠道促成谈判但信任成本高", "exception_cost": {"authority": 4, "political_debt": 2}}
+    },
+    "li_guangbi": {
+      "zhongshu_drafting": {"level": "prohibited", "reason": "前线身份不适合掌制诰"},
+      "menxia_review": {"level": "exceptional", "reason": "能审军令但程序经验不足", "exception_cost": {"authority": 3, "political_debt": 1}},
+      "shangshu_execution": {"level": "eligible", "reason": "军政协调与执行能力匹配"},
+      "household_supply": {"level": "exceptional", "reason": "熟悉军需但非钱粮主官", "exception_cost": {"authority": 3, "political_debt": 1}},
+      "war_mobilization": {"level": "eligible", "reason": "前线统帅资格明确"},
+      "censorate": {"level": "exceptional", "reason": "可监察军政但军中利益需要申报", "exception_cost": {"authority": 3, "political_debt": 1}},
+      "inner_court_gatekeeper": {"level": "prohibited", "reason": "前线将领不能掌内廷传令"},
+      "envoy_negotiator": {"level": "eligible", "reason": "可代表军方核定盟约代价"}
+    },
+    "pugu_huaien": {
+      "zhongshu_drafting": {"level": "prohibited", "reason": "外援军将身份不适合掌制诰"},
+      "menxia_review": {"level": "prohibited", "reason": "外援军将不能直接掌程序审议"},
+      "shangshu_execution": {"level": "exceptional", "reason": "可协调边军执行但行政基础不足", "exception_cost": {"authority": 4, "political_debt": 2}},
+      "household_supply": {"level": "prohibited", "reason": "盟军身份与钱粮核验冲突"},
+      "war_mobilization": {"level": "eligible", "reason": "联军调度能力与职责匹配"},
+      "censorate": {"level": "prohibited", "reason": "被监察对象不能兼任监察"},
+      "inner_court_gatekeeper": {"level": "prohibited", "reason": "外援军将不能掌宫门"},
+      "envoy_negotiator": {"level": "eligible", "reason": "熟悉盟军条件与军政谈判"}
+    },
+    "li_chu": {
+      "zhongshu_drafting": {"level": "exceptional", "reason": "储君可定名分但制诰经验有限", "exception_cost": {"authority": 3, "political_debt": 1}},
+      "menxia_review": {"level": "eligible", "reason": "储君身份与名分复核职责匹配"},
+      "shangshu_execution": {"level": "eligible", "reason": "可协调各署落实皇命"},
+      "household_supply": {"level": "prohibited", "reason": "储君身份不宜直接掌钱粮"},
+      "war_mobilization": {"level": "exceptional", "reason": "可代表皇权统军但缺少前线经历", "exception_cost": {"authority": 4, "political_debt": 1}},
+      "censorate": {"level": "exceptional", "reason": "可推动监察但存在储君干预疑虑", "exception_cost": {"authority": 3, "political_debt": 1}},
+      "inner_court_gatekeeper": {"level": "prohibited", "reason": "储君不直接掌内廷传令"},
+      "envoy_negotiator": {"level": "eligible", "reason": "皇室身份可承担盟约谈判"}
+    },
+    "uighur_envoy": {
+      "zhongshu_drafting": {"level": "prohibited", "reason": "外使身份不能掌中书制诰"},
+      "menxia_review": {"level": "prohibited", "reason": "外使不能掌朝廷程序复核"},
+      "shangshu_execution": {"level": "prohibited", "reason": "外使不能统筹内廷行政"},
+      "household_supply": {"level": "prohibited", "reason": "外使不能核验本朝钱粮"},
+      "war_mobilization": {"level": "exceptional", "reason": "可协调援军但受外籍身份限制", "exception_cost": {"authority": 5, "political_debt": 2}},
+      "censorate": {"level": "prohibited", "reason": "外使不能担任本朝监察"},
+      "inner_court_gatekeeper": {"level": "prohibited", "reason": "外使不能掌宫门传令"},
+      "envoy_negotiator": {"level": "eligible", "reason": "外援条件与翻译谈判是其职责"}
+    },
+    "hardline_old_court_official": {
+      "zhongshu_drafting": {"level": "eligible", "reason": "旧制与诏令名分经验充分"},
+      "menxia_review": {"level": "eligible", "reason": "程序复核与旧制权威匹配"},
+      "shangshu_execution": {"level": "exceptional", "reason": "能守行政程序但执行弹性不足", "exception_cost": {"authority": 2, "political_debt": 1}},
+      "household_supply": {"level": "prohibited", "reason": "缺少钱粮与军需专长"},
+      "war_mobilization": {"level": "prohibited", "reason": "不具前线统军资格"},
+      "censorate": {"level": "eligible", "reason": "监察与名分审查是其强项"},
+      "inner_court_gatekeeper": {"level": "prohibited", "reason": "旧臣身份不能掌内廷渠道"},
+      "envoy_negotiator": {"level": "exceptional", "reason": "可守盟约名分但谈判弹性有限", "exception_cost": {"authority": 3, "political_debt": 1}}
+    },
+    "grain_official_lingwu": {
+      "zhongshu_drafting": {"level": "prohibited", "reason": "钱粮官不能掌制诰"},
+      "menxia_review": {"level": "prohibited", "reason": "缺少程序审议资格"},
+      "shangshu_execution": {"level": "exceptional", "reason": "掌握仓运执行但行政范围有限", "exception_cost": {"authority": 3, "political_debt": 1}},
+      "household_supply": {"level": "eligible", "reason": "仓粮核验与军需配置是本职"},
+      "war_mobilization": {"level": "prohibited", "reason": "不能直接统军"},
+      "censorate": {"level": "exceptional", "reason": "可监察粮账但存在自查冲突", "exception_cost": {"authority": 4, "political_debt": 2}},
+      "inner_court_gatekeeper": {"level": "prohibited", "reason": "钱粮官不能掌宫门"},
+      "envoy_negotiator": {"level": "prohibited", "reason": "缺少外交与盟约资格"}
+    },
+    "lingwu_merchant_refugee": {
+      "zhongshu_drafting": {"level": "prohibited", "reason": "民间身份不能掌制诰"},
+      "menxia_review": {"level": "exceptional", "reason": "可提供民间程序见闻但身份不足", "exception_cost": {"authority": 5, "political_debt": 2}},
+      "shangshu_execution": {"level": "exceptional", "reason": "商路经验可助执行但官阶不足", "exception_cost": {"authority": 4, "political_debt": 2}},
+      "household_supply": {"level": "exceptional", "reason": "熟悉市场粮价但需防利益冲突", "exception_cost": {"authority": 4, "political_debt": 2}},
+      "war_mobilization": {"level": "prohibited", "reason": "民间身份不能统军"},
+      "censorate": {"level": "prohibited", "reason": "缺少官署监察资格"},
+      "inner_court_gatekeeper": {"level": "prohibited", "reason": "民间身份不能掌宫门"},
+      "envoy_negotiator": {"level": "eligible", "reason": "商路与民情经验适合沟通外援"}
+    },
+    "regional_jiedushi_rep": {
+      "zhongshu_drafting": {"level": "prohibited", "reason": "藩镇代表不掌中书制诰"},
+      "menxia_review": {"level": "prohibited", "reason": "藩镇代表不能掌朝廷程序"},
+      "shangshu_execution": {"level": "eligible", "reason": "地方执行与军政协调经验匹配"},
+      "household_supply": {"level": "prohibited", "reason": "地方代表不能直接核验行在钱粮"},
+      "war_mobilization": {"level": "eligible", "reason": "藩镇军需与调度经验匹配"},
+      "censorate": {"level": "prohibited", "reason": "藩镇代表不能监察自身系统"},
+      "inner_court_gatekeeper": {"level": "prohibited", "reason": "地方代表不能掌内廷"},
+      "envoy_negotiator": {"level": "eligible", "reason": "熟悉地方与盟军协调条件"}
+    },
+    "eunuch_deputy_gate": {
+      "zhongshu_drafting": {"level": "exceptional", "reason": "熟悉传令但缺少公开制诰资历", "exception_cost": {"authority": 5, "political_debt": 2}},
+      "menxia_review": {"level": "prohibited", "reason": "内廷身份不能直接掌门下审议"},
+      "shangshu_execution": {"level": "prohibited", "reason": "内廷副使不掌外朝行政"},
+      "household_supply": {"level": "prohibited", "reason": "内廷身份与钱粮核验冲突"},
+      "war_mobilization": {"level": "prohibited", "reason": "不能直接统军"},
+      "censorate": {"level": "prohibited", "reason": "内廷渠道与监察冲突"},
+      "inner_court_gatekeeper": {"level": "eligible", "reason": "宫门副使经验与传令职责匹配"},
+      "envoy_negotiator": {"level": "exceptional", "reason": "可传达内廷条件但外交信誉有限", "exception_cost": {"authority": 4, "political_debt": 2}}
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "world_id": "tongguan_final_validation_v1",
+  "graph_version": "tongguan_controlled_corridor_r3_v01",
+  "source": "P3 main_corridor_candidate central +/-300m only; synthetic local endpoints, not surveyed army positions",
+  "node_chain": [
+    "tg_fore",
+    "tg_east_hold",
+    "tg_west_hold",
+    "tg_rear"
+  ],
+  "edge_chain": [
+    "tg_east_approach",
+    "tg_main_gate",
+    "tg_west_egress"
+  ],
+  "nodes": [
+    {
+      "node_id": "tg_fore",
+      "name": "关前·东",
+      "position_m": [
+        300,
+        34.2857142857143
+      ]
+    },
+    {
+      "node_id": "tg_east_hold",
+      "name": "东侧候行点",
+      "position_m": [
+        70,
+        8
+      ]
+    },
+    {
+      "node_id": "tg_west_hold",
+      "name": "西侧候行点",
+      "position_m": [
+        -70,
+        -8
+      ]
+    },
+    {
+      "node_id": "tg_rear",
+      "name": "关后·西",
+      "position_m": [
+        -300,
+        -34.2857142857143
+      ]
+    },
+    {
+      "node_id": "river_north",
+      "name": "北侧河面测试点",
+      "position_m": [
+        300,
+        -900
+      ]
+    }
+  ],
+  "corridors": [
+    {
+      "corridor_id": "tg_east_approach",
+      "from_node_id": "tg_fore",
+      "to_node_id": "tg_east_hold",
+      "transit_type": "land",
+      "base_travel_days": 2,
+      "loss_rate_per_day": 0,
+      "is_blocked": false,
+      "required_crossings": [],
+      "points_m": [
+        [
+          300,
+          34.2857142857143
+        ],
+        [
+          70,
+          8
+        ]
+      ]
+    },
+    {
+      "corridor_id": "tg_main_gate",
+      "from_node_id": "tg_east_hold",
+      "to_node_id": "tg_west_hold",
+      "transit_type": "land",
+      "base_travel_days": 2,
+      "loss_rate_per_day": 0,
+      "is_blocked": false,
+      "required_crossings": [],
+      "control_node_id": "tongguan_pass_node",
+      "points_m": [
+        [
+          70,
+          8
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -70,
+          -8
+        ]
+      ]
+    },
+    {
+      "corridor_id": "tg_west_egress",
+      "from_node_id": "tg_west_hold",
+      "to_node_id": "tg_rear",
+      "transit_type": "land",
+      "base_travel_days": 2,
+      "loss_rate_per_day": 0,
+      "is_blocked": false,
+      "required_crossings": [],
+      "points_m": [
+        [
+          -70,
+          -8
+        ],
+        [
+          -300,
+          -34.2857142857143
+        ]
+      ]
+    },
+    {
+      "corridor_id": "tg_synthetic_trail",
+      "from_node_id": "tg_east_hold",
+      "to_node_id": "tg_west_hold",
+      "transit_type": "land",
+      "base_travel_days": 4,
+      "loss_rate_per_day": 0,
+      "is_blocked": false,
+      "required_crossings": [],
+      "points_m": [
+        [
+          70,
+          8
+        ],
+        [
+          50,
+          110
+        ],
+        [
+          -50,
+          110
+        ],
+        [
+          -70,
+          -8
+        ]
+      ],
+      "synthetic_test_only": true,
+      "requires_profile": "light",
+      "requires_known": true
+    }
+  ],
+  "force": {
+    "force_id": "tongguan_validation_force_01",
+    "display_name": "通行验收队",
+    "source_id": "fixture:tongguan_movement_validation_v1",
+    "current_node_id": "tg_fore",
+    "target_node_id": "",
+    "current_corridor_id": "",
+    "corridor_progress_days": 0,
+    "troop_tiers": {
+      "regular_field": 100
+    },
+    "morale": 80,
+    "rations_on_hand_days": 0,
+    "supply_line_active": false,
+    "movement_profile": "ordinary"
+  },
+  "scope": "Explicit R3 local fixture; alternate polyline is synthetic, not an evidenced historical Tongguan path; no whole-campaign settlement"
+}

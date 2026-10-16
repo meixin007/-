@@ -1,0 +1,32 @@
+{
+  "schema_version": 110,
+  "campaign_id": "anshi_beta_1_10",
+  "campaign_days": 90,
+  "base_manifest": "campaign_beta_1_09.json",
+  "base_campaign_id": "anshi_beta_1_09",
+  "scenario": {"start_phase": "opening"},
+  "phases": [
+    {"id": "foundation", "start_day": 1, "end_day": 30},
+    {"id": "supply_accountability", "start_day": 31, "end_day": 45},
+    {"id": "palace_authority", "start_day": 46, "end_day": 65},
+    {"id": "alliance_cost", "start_day": 66, "end_day": 90}
+  ],
+  "content_files": {
+    "political_season": "political_season_beta_1_10.json",
+    "governance_followups": "governance_followups_beta_1_10.json",
+    "political_echoes": "political_echoes_beta_1_10.json",
+    "political_season_review": "political_season_review_beta_1_10.json",
+    "accountability_effects": "accountability_effects_beta_1_10.json",
+    "character_arcs": "beta_1_10_character_arcs.json",
+    "character_initiatives": "beta_1_11_character_initiatives.json",
+    "faction_bargains": "beta_1_11_faction_bargains.json",
+    "offices_catalog": "offices_catalog.json",
+    "recruitment_events": "tang_recruitment_events.json",
+    "audience_dialogues": "audience_dialogues.json",
+    "examination_questions": "examination_questions.json",
+    "clan_petitions": "clan_petitions.json",
+    "tang_clans_definition": "tang_clans_definition.json",
+    "tang_traits_definition": "tang_traits_definition.json",
+    "tang_clan_characters_expansion": "tang_clan_characters_expansion.json"
+  }
+}

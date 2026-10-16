@@ -1,0 +1,119 @@
+[
+  {
+    "contradiction_id": "guanzhong_false_movement_contradiction",
+    "report_ids": [
+      "guanzhong_false_movement_a",
+      "guanzhong_false_movement_b"
+    ],
+    "truth_resolution": "decoy",
+    "verification_operation_id": "verify_guanzhong_movement",
+    "if_acted_unverified": {
+      "causal_tag": "trusted_unverified_guanzhong_alarm",
+      "summary": "The court acted on an unverified Guanzhong alarm before the relay was checked."
+    }
+  },
+  {
+    "contradiction_id": "beta07_contradiction_01",
+    "report_ids": [
+      "beta07_intel_report_01",
+      "beta07_intel_report_02"
+    ],
+    "truth_resolution": "decoy",
+    "verification_operation_id": "verify_guanzhong_movement",
+    "if_acted_unverified": {
+      "causal_tag": "beta07_unverified_action_01",
+      "summary": "The court acted before conflicting intelligence was resolved."
+    }
+  },
+  {
+    "contradiction_id": "beta07_contradiction_02",
+    "report_ids": [
+      "beta07_intel_report_03",
+      "beta07_intel_report_04"
+    ],
+    "truth_resolution": "stale",
+    "verification_operation_id": "beta07_regional_operation_03",
+    "if_acted_unverified": {
+      "causal_tag": "beta07_unverified_action_02",
+      "summary": "The court acted before conflicting intelligence was resolved."
+    }
+  },
+  {
+    "contradiction_id": "beta07_contradiction_03",
+    "report_ids": [
+      "beta07_intel_report_05",
+      "beta07_intel_report_06"
+    ],
+    "truth_resolution": "partial",
+    "verification_operation_id": "beta07_regional_operation_04",
+    "if_acted_unverified": {
+      "causal_tag": "beta07_unverified_action_03",
+      "summary": "The court acted before conflicting intelligence was resolved."
+    }
+  },
+  {
+    "contradiction_id": "beta07_contradiction_04",
+    "report_ids": [
+      "beta07_intel_report_07",
+      "beta07_intel_report_08"
+    ],
+    "truth_resolution": "decoy",
+    "verification_operation_id": "beta07_regional_operation_05",
+    "if_acted_unverified": {
+      "causal_tag": "beta07_unverified_action_04",
+      "summary": "The court acted before conflicting intelligence was resolved."
+    }
+  },
+  {
+    "contradiction_id": "beta07_contradiction_05",
+    "report_ids": [
+      "beta07_intel_report_09",
+      "beta07_intel_report_10"
+    ],
+    "truth_resolution": "stale",
+    "verification_operation_id": "beta07_regional_operation_06",
+    "if_acted_unverified": {
+      "causal_tag": "beta07_unverified_action_05",
+      "summary": "The court acted before conflicting intelligence was resolved."
+    }
+  },
+  {
+    "contradiction_id": "beta07_contradiction_06",
+    "report_ids": [
+      "beta07_intel_report_11",
+      "beta07_intel_report_12"
+    ],
+    "truth_resolution": "partial",
+    "verification_operation_id": "beta07_regional_operation_07",
+    "if_acted_unverified": {
+      "causal_tag": "beta07_unverified_action_06",
+      "summary": "The court acted before conflicting intelligence was resolved."
+    }
+  },
+  {
+    "contradiction_id": "beta07_contradiction_07",
+    "report_ids": [
+      "beta07_intel_report_13",
+      "beta07_intel_report_14"
+    ],
+    "truth_resolution": "decoy",
+    "verification_operation_id": "beta07_regional_operation_08",
+    "if_acted_unverified": {
+      "causal_tag": "beta07_unverified_action_07",
+      "summary": "The court acted before conflicting intelligence was resolved."
+    }
+  },
+  {
+    "contradiction_id": "beta07_contradiction_08",
+    "report_ids": [
+      "beta07_intel_report_15",
+      "beta07_intel_report_16"
+    ],
+    "truth_resolution": "stale",
+    "verification_operation_id": "beta07_regional_operation_09",
+    "if_acted_unverified": {
+      "causal_tag": "beta07_unverified_action_08",
+      "summary": "The court acted before conflicting intelligence was resolved."
+    }
+  }
+]

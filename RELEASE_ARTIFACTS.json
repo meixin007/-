@@ -1,0 +1,35 @@
+{
+  "tag": "tongguan-v0.1-r5-candidate-20261015",
+  "build_id": "tongguan_v01_final_20261015_03",
+  "assets": [
+    {
+      "name": "map-workshop-plugin-20261015.zip",
+      "bytes": 218070,
+      "sha256": "bd5cdf6038134426062ef0915af36985f130bb988458da14db27a339a8ec3d3e"
+    },
+    {
+      "name": "tongguan-v0.1-windows-x64-20261015.zip",
+      "bytes": 83288703,
+      "sha256": "0c653cbb4cc59e88f0e89c1a567be150e77fcd0de353c497068b6f82b91e094d"
+    }
+  ],
+  "native_artifacts": {
+    "TongguanAuthoring.exe": {
+      "sha256": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+      "bytes": 104576512
+    },
+    "TongguanAuthoring.pck": {
+      "sha256": "4b458cf6437e4db7106971d5f4a86ea963eb1be1d2c69849c049842a0fc2b500",
+      "bytes": 4483980
+    },
+    "TongguanFinal.exe": {
+      "sha256": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+      "bytes": 104576512
+    },
+    "TongguanFinal.pck": {
+      "sha256": "16de08788dcb662ce82c4a6abe964b2ed95ec249100cd3ccede7b0a99f4fc072",
+      "bytes": 15366204
+    }
+  },
+  "public_package": "byte-identical EXE/PCK; repacked notices; workstation history excluded; original ZIP untouched"
+}
