@@ -3,7 +3,7 @@ from pathlib import Path
 import hashlib,json,zipfile
 ROOT=Path(__file__).resolve().parents[1];BUILD='tongguan_v01_revfix_20261015_02'
 REL=ROOT/'review-work/releases'/BUILD;REPORT=ROOT/'reports/review_26a45be'
-DEST=ROOT/'review-work/deliveries';NAME='tongguan-v0.1-rev01-03-windows-x64-20261015.zip'
+DEST=ROOT/'review-work/deliveries';NAME='tongguan-v0.1-rev01-03-windows-x64-20261015-02.zip'
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def main():
     DEST.mkdir(parents=True,exist_ok=True);output=DEST/NAME
@@ -15,7 +15,7 @@ def main():
         if p.exists():files[name]=p
     files['ATTRIBUTION.txt']=ROOT/'samples/tongguan_v01/runtime/bundle/ATTRIBUTION.txt'
     for p in REPORT.rglob('*'):
-        if p.is_file() and p.suffix in ['.json','.md'] and 'process_samples' not in p.name:files['reports/'+p.relative_to(REPORT).as_posix()]=p
+        if p.is_file() and p.suffix in ['.json','.md','.txt','.png'] and 'process_samples' not in p.name and p.name!='DELIVERY_ARTIFACTS.json':files['reports/'+p.relative_to(REPORT).as_posix()]=p
     with zipfile.ZipFile(output,'x',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for name,p in sorted(files.items()):z.write(p,name)
         z.writestr('Start-Final.cmd','@echo off\r\ncd /d "%~dp0"\r\nstart "" "%~dp0Windows\\TongguanFinal.exe"\r\n')

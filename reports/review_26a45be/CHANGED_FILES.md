@@ -26,6 +26,9 @@
 
 ## 工具、说明与逐项证据
 
+- `tools/verify_packaged_review.py`
+- `reports/review_26a45be/packaged_smoke.json`
+
 - `.gitignore`
 - `README.md`
 - `reports/review_26a45be/CHANGED_FILES.md`
