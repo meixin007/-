@@ -1,0 +1,48 @@
+{
+  "tests": [
+    {
+      "mode": "authoring",
+      "exit_code": 0,
+      "execution_passed": true,
+      "budget_passed": true
+    },
+    {
+      "mode": "verify",
+      "exit_code": 0,
+      "execution_passed": true,
+      "budget_passed": true
+    },
+    {
+      "mode": "tree_edges",
+      "exit_code": 0,
+      "execution_passed": true,
+      "budget_passed": true
+    },
+    {
+      "mode": "cycles",
+      "exit_code": 0,
+      "execution_passed": true,
+      "budget_passed": true
+    },
+    {
+      "mode": "performance",
+      "exit_code": 0,
+      "execution_passed": true,
+      "budget_passed": true
+    },
+    {
+      "mode": "soak",
+      "exit_code": 0,
+      "execution_passed": true,
+      "budget_passed": true
+    },
+    {
+      "mode": "load",
+      "exit_code": 1,
+      "execution_passed": true,
+      "budget_passed": false
+    }
+  ],
+  "technical_passed": true,
+  "all_budgets_passed": false
+}

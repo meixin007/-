@@ -1,0 +1,121 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "name": "plugin_import",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 4.125,
+      "diagnostics": []
+    },
+    {
+      "name": "runtime_import",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 3.484,
+      "diagnostics": []
+    },
+    {
+      "name": "authoring_import",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 3.297,
+      "diagnostics": []
+    },
+    {
+      "name": "old_document",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 0.859,
+      "diagnostics": []
+    },
+    {
+      "name": "art_import",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 1.032,
+      "diagnostics": []
+    },
+    {
+      "name": "geometry",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 3.078,
+      "diagnostics": []
+    },
+    {
+      "name": "ownership",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 3.437,
+      "diagnostics": []
+    },
+    {
+      "name": "publication",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 3.547,
+      "diagnostics": []
+    },
+    {
+      "name": "view",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 3.438,
+      "diagnostics": []
+    },
+    {
+      "name": "passage",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 5.016,
+      "diagnostics": []
+    },
+    {
+      "name": "construction",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 5.109,
+      "diagnostics": []
+    },
+    {
+      "name": "save_migration",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 4.546,
+      "diagnostics": []
+    },
+    {
+      "name": "original_host",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 28.157,
+      "diagnostics": []
+    },
+    {
+      "name": "manual_layout",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 22.578,
+      "diagnostics": []
+    },
+    {
+      "name": "authoring",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 27.125,
+      "diagnostics": []
+    },
+    {
+      "name": "plugin_static",
+      "passed": true
+    },
+    {
+      "name": "size_guard",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 0.859,
+      "diagnostics": []
+    }
+  ]
+}

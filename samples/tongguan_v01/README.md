@@ -1,6 +1,6 @@
 # 潼关v0.1样板
 
-2026-10-15公开导出。原生Windows构建 tongguan_v01_final_20261015_03，Godot4.6.1，Compatibility，1920×1080。R5最终用户认可、精确历史与正式美术维持原型边界。
+当前审查修复构建 `tongguan_v01_revfix_20261015_02`，只读基线 `26a45be93e62fc56199ed42d98895926380383c5`。Godot4.6.1 Release / Compatibility；项目配置1920×1080，本机普通窗口实际1886×1061。详见[本次逐项复验](../../../reports/review_26a45be/REPORT.md)。旧 _03 来源及验证记录完整保留。最终用户认可、精确历史与正式美术维持独立验收边界。
 
 ## 操作
 
@@ -14,19 +14,21 @@
 
 user://沿用 %APPDATA%/tongguan_slice_v01_final；游戏存档 final/session.json，上代.bak；制作工作区 authoring/workspace.json，发布 authoring/publication.json。已有数据请保留，测试仅写tests子目录。fixtures为旧程序生成的合成测试存档，不是玩家存档。
 
-## 已有技术证据
+制作端新增“报告完整占地冲突（只读）”：列出旧对象ID与原因，保持旧对象；新放置/移动不能穿越完整通道占地。
+
+## 原封存技术证据
 
 原封存Release制作163项、运行55项通过。60.030秒实景p95/p99=8.393/10.189ms；300.033秒耐久=8.452/9.752ms；20次进出连续采样窗口中位差约-3.848MiB。数值与原构建绑定在validation目录，不冒称本次GitHub CI；移除了机器命令行与PID。
 
-来源和产物SHA见original-build；公开源码与来源逐文件关系见PUBLIC_SOURCE_MANIFEST.json。只有两个导出预设适配；原final/build_manifest.json是已测包的历史输入，不是对公开预设重新签名。
+来源和产物SHA见original-build；公开源码与来源逐文件关系见PUBLIC_SOURCE_MANIFEST.json。PUBLIC_SOURCE_MANIFEST.json 和 original-build 是原封存收据；当前源码用 REVIEW_SOURCE_MANIFEST.json 校验。当前 final/build_manifest.json 对应新的审查修复构建。
 
 ## 已知限制
 
 - 756关址阶段与现代DSM/水系分别记录，精确门楼/岸线/城形待核。4处候选现代水线交点未补桥或授权移动。
 - 院落、短墙、损毁和坡岸含工程占位。战略军队旗标在上层，未伪称有门洞内人物遮挡。
 - 仅中央600米主通道和合成轻装险径；验证日步、成本、初始资源不代表历史市场或完整军粮战斗。
-- 本机单节点：Ryzen7 5700X、约16GB内存、RTX4060、Windows10、驱动616.92。60/300秒最大帧时85.313/98.818ms；p95通过仍有峰值。
-- 4/16个纯显示复制p95为18.216/51.786ms，超过16.7ms单节点目标，不宣称全国容量。
+- 本机单节点：Ryzen7 5700X、约16GB内存、RTX4060、Windows10、驱动616.92。本次60/300秒最大帧时89.802/189.667ms；p95通过仍有峰值。
+- 本次4个纯显示副本p95/p99为15.145/17.663ms，达到所列预算；16副本60.792/73.306ms仍超预算。它们不是独立城市，不宣称全国容量。
 - 原工作区A/B更新器依赖原布局，不随精简运行包伪装为完整安装更新器；游戏内上一代存档恢复已包含。
 
 [历史核对](docs/HISTORICAL_CHOICE.md) · [正式资产缺口](docs/ART_GAPS.md)。署名保留于runtime/bundle/ATTRIBUTION.txt。未上传机器Git状态、无关工程产物、缓存、凭据或用户地图草稿。

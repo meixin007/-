@@ -1,0 +1,3 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+P5_INTEGRATION: {"authority":"copied real GameRuntimeContext and GameStateTransaction / SaveManager","checks":29,"construction_economics":"not implemented; validation commands only","failures":[],"original_project_modified":false,"save_version":22}

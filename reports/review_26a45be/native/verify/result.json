@@ -1,0 +1,135 @@
+{
+  "anchor_error_px": 6.103515625e-05,
+  "attach_max_ms": 0.021,
+  "captures": [
+    {
+      "baseline": false,
+      "buildings": true,
+      "camera": {
+        "camera_x": 1000476824.7119,
+        "camera_y": -1999854980.48501,
+        "lod": 3,
+        "zoom": 1.3
+      },
+      "constraints": false,
+      "logic_sha256": "da24164e511644f4f52b663ba8d578f15ce65156150046d61e7638bfdcc174e1",
+      "name": "00_fallback_proxy"
+    },
+    {
+      "baseline": false,
+      "buildings": true,
+      "camera": {
+        "camera_x": 999977044.711903,
+        "camera_y": -1999754880.48501,
+        "lod": 0,
+        "zoom": 0.00014
+      },
+      "constraints": false,
+      "logic_sha256": "da24164e511644f4f52b663ba8d578f15ce65156150046d61e7638bfdcc174e1",
+      "name": "lod_0"
+    },
+    {
+      "baseline": false,
+      "buildings": true,
+      "camera": {
+        "camera_x": 1000477044.7119,
+        "camera_y": -1999854380.48501,
+        "lod": 1,
+        "zoom": 0.065
+      },
+      "constraints": false,
+      "logic_sha256": "da24164e511644f4f52b663ba8d578f15ce65156150046d61e7638bfdcc174e1",
+      "name": "lod_1"
+    },
+    {
+      "baseline": false,
+      "buildings": true,
+      "camera": {
+        "camera_x": 1000476844.7119,
+        "camera_y": -1999854730.48501,
+        "lod": 2,
+        "zoom": 0.3
+      },
+      "constraints": false,
+      "logic_sha256": "da24164e511644f4f52b663ba8d578f15ce65156150046d61e7638bfdcc174e1",
+      "name": "lod_2"
+    },
+    {
+      "baseline": false,
+      "buildings": true,
+      "camera": {
+        "camera_x": 1000476824.7119,
+        "camera_y": -1999854980.48501,
+        "lod": 3,
+        "zoom": 1.3
+      },
+      "constraints": false,
+      "logic_sha256": "da24164e511644f4f52b663ba8d578f15ce65156150046d61e7638bfdcc174e1",
+      "name": "lod_3"
+    },
+    {
+      "baseline": false,
+      "buildings": true,
+      "camera": {
+        "camera_x": 1000476824.7119,
+        "camera_y": -1999854980.48501,
+        "lod": 3,
+        "zoom": 1.3
+      },
+      "constraints": false,
+      "logic_sha256": "1f2a8eb9d695fbacea870b8ecef5ea279146f9e6582f4d75ba7a781ccd4fdf3b",
+      "name": "warehouse_repaired"
+    },
+    {
+      "baseline": false,
+      "buildings": true,
+      "camera": {
+        "camera_x": 1000476844.7119,
+        "camera_y": -1999854730.48501,
+        "lod": 2,
+        "zoom": 0.3
+      },
+      "constraints": false,
+      "logic_sha256": "7990dd4fbde24ae606655b28f9df39528734bf808a2fb60327469cdfcc5860fb",
+      "name": "final_composition"
+    }
+  ],
+  "checks": 58,
+  "failures": [],
+  "first_view_ms": 179.105,
+  "terrain_tile_channel_max": 1,
+  "terrain_tile_rgb_mean_8bit": 0.000625227080053288,
+  "tiles_ready_ms": 2203.269,
+  "build_id": "tongguan_v01_revfix_20261015_02",
+  "artifacts": {
+    "TongguanAuthoring.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanAuthoring.pck": "ffa0c9db9b2533fa049b0dcd29a4e27e2e90ce930472f0c80103ece55d207580",
+    "TongguanFinal.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanFinal.pck": "2a04c8d80eb66e1010169422de59faa056896916af26634ce2a14b374b10495b"
+  },
+  "release_sha256": "c263c220b8cb7ae10a22f72606283437abc62295338495f144b5342f5702727c",
+  "exit_code": 0,
+  "timed_out": false,
+  "diagnostics": [],
+  "windows_process_metrics": {
+    "process_start_to_ready_upper_bound_ms": 34061.99999999808,
+    "sampling_interval_target_ms": 50,
+    "sampled_private_peak_bytes": 447913984,
+    "sampled_gpu_dedicated_peak_bytes": 93384704,
+    "cycle_exit_samples": []
+  },
+  "budgets": {
+    "frame_p95_ms": 16.7,
+    "frame_p99_ms": 25,
+    "private_bytes": 4294967296,
+    "gpu_dedicated_bytes": 1610612736,
+    "cycle_private_growth_bytes": 16777216,
+    "scope": "current PC, final prototype, 1920x1080 GL Compatibility"
+  },
+  "execution_passed": true,
+  "budget_passed": true,
+  "passed": true,
+  "isolation_before_test": {
+    "godot_or_tongguan_process_count": 0
+  }
+}

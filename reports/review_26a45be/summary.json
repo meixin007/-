@@ -1,0 +1,34 @@
+{
+  "build_id": "tongguan_v01_revfix_20261015_02",
+  "baseline_commit": "26a45be93e62fc56199ed42d98895926380383c5",
+  "revision_items_closed": [
+    "REV-01",
+    "REV-02",
+    "REV-03"
+  ],
+  "source_passed": true,
+  "native_technical_passed": true,
+  "all_budgets_passed": false,
+  "identity_preserved": true,
+  "sealed_protection_passed": true,
+  "user_acceptance": "pending",
+  "next_stage_started": false,
+  "artifacts": {
+    "TongguanAuthoring.exe": {
+      "sha256": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+      "bytes": 104576512
+    },
+    "TongguanAuthoring.pck": {
+      "sha256": "ffa0c9db9b2533fa049b0dcd29a4e27e2e90ce930472f0c80103ece55d207580",
+      "bytes": 4462504
+    },
+    "TongguanFinal.exe": {
+      "sha256": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+      "bytes": 104576512
+    },
+    "TongguanFinal.pck": {
+      "sha256": "2a04c8d80eb66e1010169422de59faa056896916af26634ce2a14b374b10495b",
+      "bytes": 15375484
+    }
+  }
+}

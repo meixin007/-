@@ -1,4 +1,6 @@
 extends "res://runtime/geography_canvas.gd"
+const Instances=preload("res://runtime/instance_index.gd")
+var last_tree_draws: Array=[]
 var show_buildings:=true
 var show_trees:=true
 var tree_art: Dictionary={}
@@ -14,8 +16,10 @@ func _tree(tree: Dictionary,tint:=Color.WHITE)->void:
 	if not tree_art.has(asset):return
 	var art: Dictionary=tree_art[asset];var point: Vector2=model.local_to_screen(tree.position_m,size)
 	var width=80.0*model.zoom;var dims=Vector2(width,width*art.ratio)
-	if not Rect2(-100,-100,size.x+200,size.y+200).has_point(point):return
-	draw_texture_rect(art.texture,Rect2(point-dims*Vector2(art.anchor[0],art.anchor[1]),dims),false,tint)
+	var rect=Rect2(point-dims*Vector2(art.anchor[0],art.anchor[1]),dims)
+	if not Rect2(Vector2.ZERO,size).grow(1.0).intersects(rect):return
+	draw_texture_rect(art.texture,rect,false,tint)
+	last_tree_draws.append({"id":tree.id,"owning_chunk":Instances.owner(tree.position_m),"record":tree})
 func _building(center: Vector2,kind: String,damage: int,building: bool)->void:
 	var p: Vector2=model.local_to_screen([center.x,center.y],size);var scale_value: float=model.zoom
 	if not Rect2(-100,-100,size.x+200,size.y+200).has_point(p):return
@@ -31,13 +35,14 @@ func _building(center: Vector2,kind: String,damage: int,building: bool)->void:
 	if damage==1:draw_line(p+Vector2(-6,-6)*scale_value,p+Vector2(4,3)*scale_value,Color("70443d"),maxf(2,scale_value*2),true)
 	if building and model.zoom>1:_label(p+Vector2(-15,16)*scale_value,"在建",Color("544c32"),13)
 func _draw()->void:
+	last_tree_draws.clear()
 	super._draw()
 	if model==null or not model.load_error.is_empty():return
 	if model.lod<2:return
 	var state: Dictionary=model.host.runtime;var authored: Dictionary=model.host.authoring;var layout: Dictionary=model.host.layout
 	if show_trees:
-		var trees: Array=authored.generated.values();trees.sort_custom(func(a: Dictionary,b: Dictionary):return float(a.position_m[1])<float(b.position_m[1]))
-		for tree in trees:_tree(tree)
+		var plan=Instances.plan(authored.generated.values())
+		for entry in plan.entries:_tree(entry.record)
 		if not model.preview.is_empty():
 			for id in model.preview.added+model.preview.updated:_tree(model.preview.candidate_generated[id],Color(0.65,1,0.65,0.7))
 			for id in model.preview.removed:

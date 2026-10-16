@@ -1,0 +1,40 @@
+{
+  "checks": 163,
+  "cycles": 50,
+  "failures": [],
+  "protected_pixel_sha256": "14a223932c9f7130fa3eae48f10cd939cd1f9fc26a9edc0dcfa6bc5489a1b47a",
+  "publication_path": "C:/Users/Administrator/AppData/Roaming/tongguan_slice_v01_final/tests/final_native_publication.json",
+  "publication_sha256": "858d2624188117860ef98e38f217d16be5ea9006eabc7b576f8d0f4a9cd541e9",
+  "build_id": "tongguan_v01_revfix_20261015_02",
+  "artifacts": {
+    "TongguanAuthoring.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanAuthoring.pck": "ffa0c9db9b2533fa049b0dcd29a4e27e2e90ce930472f0c80103ece55d207580",
+    "TongguanFinal.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanFinal.pck": "2a04c8d80eb66e1010169422de59faa056896916af26634ce2a14b374b10495b"
+  },
+  "release_sha256": "c263c220b8cb7ae10a22f72606283437abc62295338495f144b5342f5702727c",
+  "exit_code": 0,
+  "timed_out": false,
+  "diagnostics": [],
+  "windows_process_metrics": {
+    "process_start_to_ready_upper_bound_ms": null,
+    "sampling_interval_target_ms": 50,
+    "sampled_private_peak_bytes": 332070912,
+    "sampled_gpu_dedicated_peak_bytes": 53059584,
+    "cycle_exit_samples": []
+  },
+  "budgets": {
+    "frame_p95_ms": 16.7,
+    "frame_p99_ms": 25,
+    "private_bytes": 4294967296,
+    "gpu_dedicated_bytes": 1610612736,
+    "cycle_private_growth_bytes": 16777216,
+    "scope": "current PC, final prototype, 1920x1080 GL Compatibility"
+  },
+  "execution_passed": true,
+  "budget_passed": true,
+  "passed": true,
+  "isolation_before_test": {
+    "godot_or_tongguan_process_count": 0
+  }
+}

@@ -1,5 +1,6 @@
 extends RefCounted
 ## Narrow read-only publication adapter. Never imports editor route logic.
+const Instances=preload("res://runtime/instance_index.gd")
 const City=preload("res://runtime/settlement_state.gd")
 var layout: Dictionary
 var _cache: Dictionary={}
@@ -17,6 +18,16 @@ func load_publication(path: String)->Dictionary:
 	if value.get("content_sha256")!=City.digest(payload):return fail("制作发布文件校验失败。")
 	if City.digest(value.get("coordinate_contract"))!=City.digest({"source_origin_m":[15000.0,10000.0],"unit":"meter","anchor_feature_id":"tongguan.gate.main","site_id":"tongguan"}):return fail("发布坐标映射或地点身份不符。")
 	if value.get("layout_version")!=layout.layout_version or value.get("fixed_refs_sha256")!=City.digest(layout.fixed_refs) or value.get("layout_slots_sha256")!=City.digest(layout.slots):return fail("发布文件试图替换地块或核心骨架，未读取。")
+	if not value.runtime_authoring.get("generated") is Dictionary:return fail("发布生成实例投影无效。")
+	if value.has("source_v4"):
+		if not value.source_v4 is Dictionary or not value.source_v4.get("presentation") is Dictionary:return fail("发布原始v4结构无效。")
+		var instances=value.source_v4.get("presentation",{}).get("instances")
+		if not instances is Array:return fail("发布原始实例列表缺失。")
+		var raw=Instances.raw_ids(instances)
+		if not raw.ok:return fail(raw.message)
+		if raw.ids.size()!=value.runtime_authoring.generated.size():return fail("发布实例投影数量不符。")
+		for id in raw.ids:
+			if not value.runtime_authoring.generated.has(id):return fail("发布实例投影身份不符。")
 	var meta={"schema_version":1,"publication_sha256":value.content_sha256,"authoring_sha256":City.digest(value.runtime_authoring),"authoring":value.runtime_authoring.duplicate(true)}
 	var issue=validate_meta(meta)
 	return fail(issue) if not issue.is_empty() else {"ok":true,"meta":meta}

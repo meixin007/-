@@ -1,0 +1,531 @@
+{
+  "checks": 86,
+  "failures": [],
+  "measurements": [
+    {
+      "asset": "tree_willow",
+      "edge": "bottom",
+      "samples": [
+        {
+          "matches": true,
+          "penetration_px": -10,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 0,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 2,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 6,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 20,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 40,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 60,
+          "reference_has_pixels": true
+        }
+      ]
+    },
+    {
+      "asset": "tree_willow",
+      "edge": "top",
+      "samples": [
+        {
+          "matches": true,
+          "penetration_px": -10,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 0,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 2,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 6,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 20,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 40,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 60,
+          "reference_has_pixels": true
+        }
+      ]
+    },
+    {
+      "asset": "tree_willow",
+      "edge": "left",
+      "samples": [
+        {
+          "matches": true,
+          "penetration_px": -10,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 0,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 2,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 6,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 20,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 40,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 60,
+          "reference_has_pixels": true
+        }
+      ]
+    },
+    {
+      "asset": "tree_willow",
+      "edge": "right",
+      "samples": [
+        {
+          "matches": true,
+          "penetration_px": -10,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 0,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 2,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 6,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 20,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 40,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 60,
+          "reference_has_pixels": true
+        }
+      ]
+    },
+    {
+      "asset": "tree_grove",
+      "edge": "bottom",
+      "samples": [
+        {
+          "matches": true,
+          "penetration_px": -10,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 0,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 2,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 6,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 20,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 40,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 60,
+          "reference_has_pixels": true
+        }
+      ]
+    },
+    {
+      "asset": "tree_grove",
+      "edge": "top",
+      "samples": [
+        {
+          "matches": true,
+          "penetration_px": -10,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 0,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 2,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 6,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 20,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 40,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 60,
+          "reference_has_pixels": true
+        }
+      ]
+    },
+    {
+      "asset": "tree_grove",
+      "edge": "left",
+      "samples": [
+        {
+          "matches": true,
+          "penetration_px": -10,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 0,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 2,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 6,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 20,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 40,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 60,
+          "reference_has_pixels": true
+        }
+      ]
+    },
+    {
+      "asset": "tree_grove",
+      "edge": "right",
+      "samples": [
+        {
+          "matches": true,
+          "penetration_px": -10,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 0,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 2,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 6,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 20,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 40,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 60,
+          "reference_has_pixels": true
+        }
+      ]
+    },
+    {
+      "asset": "synthetic_tall",
+      "edge": "bottom",
+      "samples": [
+        {
+          "matches": true,
+          "penetration_px": -10,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 0,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 2,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 6,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 20,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 40,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 60,
+          "reference_has_pixels": true
+        }
+      ]
+    },
+    {
+      "asset": "synthetic_tall",
+      "edge": "top",
+      "samples": [
+        {
+          "matches": true,
+          "penetration_px": -10,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 0,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 2,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 6,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 20,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 40,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 60,
+          "reference_has_pixels": true
+        }
+      ]
+    },
+    {
+      "asset": "synthetic_tall",
+      "edge": "left",
+      "samples": [
+        {
+          "matches": true,
+          "penetration_px": -10,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 0,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 2,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 6,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 20,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 40,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 60,
+          "reference_has_pixels": true
+        }
+      ]
+    },
+    {
+      "asset": "synthetic_tall",
+      "edge": "right",
+      "samples": [
+        {
+          "matches": true,
+          "penetration_px": -10,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 0,
+          "reference_has_pixels": false
+        },
+        {
+          "matches": true,
+          "penetration_px": 2,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 6,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 20,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 40,
+          "reference_has_pixels": true
+        },
+        {
+          "matches": true,
+          "penetration_px": 60,
+          "reference_has_pixels": true
+        }
+      ]
+    }
+  ],
+  "visible_beyond_old_anchor_margin": 11,
+  "build_id": "tongguan_v01_revfix_20261015_02",
+  "artifacts": {
+    "TongguanAuthoring.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanAuthoring.pck": "ffa0c9db9b2533fa049b0dcd29a4e27e2e90ce930472f0c80103ece55d207580",
+    "TongguanFinal.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanFinal.pck": "2a04c8d80eb66e1010169422de59faa056896916af26634ce2a14b374b10495b"
+  },
+  "release_sha256": "c263c220b8cb7ae10a22f72606283437abc62295338495f144b5342f5702727c",
+  "exit_code": 0,
+  "timed_out": false,
+  "diagnostics": [],
+  "windows_process_metrics": {
+    "process_start_to_ready_upper_bound_ms": null,
+    "sampling_interval_target_ms": 50,
+    "sampled_private_peak_bytes": 373526528,
+    "sampled_gpu_dedicated_peak_bytes": 92852224,
+    "cycle_exit_samples": []
+  },
+  "budgets": {
+    "frame_p95_ms": 16.7,
+    "frame_p99_ms": 25,
+    "private_bytes": 4294967296,
+    "gpu_dedicated_bytes": 1610612736,
+    "cycle_private_growth_bytes": 16777216,
+    "scope": "current PC, final prototype; configured viewport1920x1080, actual client image dimensions recorded separately; GL Compatibility"
+  },
+  "execution_passed": true,
+  "budget_passed": true,
+  "passed": true,
+  "isolation_before_test": {
+    "godot_or_tongguan_process_count": 0
+  }
+}

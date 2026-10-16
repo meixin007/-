@@ -1,0 +1,25 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060
+
+R5_READY {"first_view_ms":177.531,"pid":19596}
+R5_CYCLE {"cycle":0,"node_count":2,"texture_bytes":34271822.0,"tick_usec":3834127}
+R5_CYCLE {"cycle":1,"node_count":2,"texture_bytes":34271822.0,"tick_usec":4242398}
+R5_CYCLE {"cycle":2,"node_count":2,"texture_bytes":34271822.0,"tick_usec":4648865}
+R5_CYCLE {"cycle":3,"node_count":2,"texture_bytes":34271822.0,"tick_usec":5054538}
+R5_CYCLE {"cycle":4,"node_count":2,"texture_bytes":34271822.0,"tick_usec":5464899}
+R5_CYCLE {"cycle":5,"node_count":2,"texture_bytes":34271822.0,"tick_usec":5871019}
+R5_CYCLE {"cycle":6,"node_count":2,"texture_bytes":34271822.0,"tick_usec":6274928}
+R5_CYCLE {"cycle":7,"node_count":2,"texture_bytes":34271822.0,"tick_usec":6681484}
+R5_CYCLE {"cycle":8,"node_count":2,"texture_bytes":34271822.0,"tick_usec":7084867}
+R5_CYCLE {"cycle":9,"node_count":2,"texture_bytes":34271822.0,"tick_usec":7492513}
+R5_CYCLE {"cycle":10,"node_count":2,"texture_bytes":34271822.0,"tick_usec":7919624}
+R5_CYCLE {"cycle":11,"node_count":2,"texture_bytes":34271822.0,"tick_usec":8316548}
+R5_CYCLE {"cycle":12,"node_count":2,"texture_bytes":34271822.0,"tick_usec":8722527}
+R5_CYCLE {"cycle":13,"node_count":2,"texture_bytes":34271822.0,"tick_usec":9128457}
+R5_CYCLE {"cycle":14,"node_count":2,"texture_bytes":34271822.0,"tick_usec":9535725}
+R5_CYCLE {"cycle":15,"node_count":2,"texture_bytes":34271822.0,"tick_usec":9955478}
+R5_CYCLE {"cycle":16,"node_count":2,"texture_bytes":34271822.0,"tick_usec":10382245}
+R5_CYCLE {"cycle":17,"node_count":2,"texture_bytes":34271822.0,"tick_usec":10788874}
+R5_CYCLE {"cycle":18,"node_count":2,"texture_bytes":34271822.0,"tick_usec":11199811}
+R5_CYCLE {"cycle":19,"node_count":2,"texture_bytes":34271822.0,"tick_usec":11624362}
+R5_NATIVE: {"checks":23,"failures":[]}

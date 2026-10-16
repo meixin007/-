@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "build_id": "tongguan_v01_final_20261015_03",
+  "build_id": "tongguan_v01_revfix_20261015_02",
   "component": "runtime",
   "world_id": "tongguan_final_validation_v1",
   "scenario_year": 756,
@@ -10,7 +10,7 @@
   "generator_version": "tongguan_r3_authoring",
   "style_version": "tongguan_review_r4_engineering_v01",
   "asset_bundle_version": "tongguan_final_assets_v01",
-  "asset_bundle_hash": "87adde2788f56c165a78191f10d82472079e9929f3bf5e45651914e2b0db6df8",
+  "asset_bundle_hash": "30371f665ee330c2b18a17a2e64299d34e8b1a83c31d5d24eb54fe94722c1528",
   "layout_versions": {
     "tongguan": "tongguan_p4_layout_v02"
   },
@@ -838,17 +838,17 @@
     },
     {
       "path": "export_presets.cfg",
-      "sha256": "b3051f36356b3ac53131e65c37eefce55e5b7dac0a506cbe7b44a4baba78989e",
-      "bytes": 872
+      "sha256": "a4e5b8e020528d0ba0ba0c94ae971c9546b3c510ee273c3b91d11d1cea1d940c",
+      "bytes": 728
     },
     {
       "path": "final/acceptance.gd",
-      "sha256": "8d42218eb35b62dc6eed22d91bf1333db1014cdd22bacfa3cde3c5a8b683ad0a",
-      "bytes": 14568
+      "sha256": "bb5884301f66af430263a21373a7b92dfed36405e297c595eefcb58c91dfbcfb",
+      "bytes": 15531
     },
     {
       "path": "final/asset_manifest.json",
-      "sha256": "87adde2788f56c165a78191f10d82472079e9929f3bf5e45651914e2b0db6df8",
+      "sha256": "30371f665ee330c2b18a17a2e64299d34e8b1a83c31d5d24eb54fe94722c1528",
       "bytes": 5138
     },
     {
@@ -903,8 +903,8 @@
     },
     {
       "path": "integrity/publication.gd",
-      "sha256": "d717d396080f00590452b3c68284911357c2d408258b9ba48af557fd0b07009c",
-      "bytes": 5243
+      "sha256": "9faa5eed83c8092783cad57e059714779489f372332efdcb96dca9b6a5f3c1e8",
+      "bytes": 6045
     },
     {
       "path": "integrity/ui.gd",
@@ -938,8 +938,8 @@
     },
     {
       "path": "review/canvas.gd",
-      "sha256": "efea116df10ef7fc1e6dba0e8dd5ab5a60e49df223898efc5aaf6a6b1795a4b2",
-      "bytes": 12497
+      "sha256": "c18fa2ce5d57b517edca11fcd6a8e1c3325656207a63517f1cb0f2bc792218fd",
+      "bytes": 12438
     },
     {
       "path": "review/geometry_audit.json",
@@ -960,6 +960,11 @@
       "path": "review/relief_contours.json",
       "sha256": "65dbe5f8b49c76aa3b2faf46e0af9834b3b325e8deeaf5b466d89b90427b9563",
       "bytes": 619921
+    },
+    {
+      "path": "review/tree_edge_acceptance.gd",
+      "sha256": "ccda49f2d19405bd62c302f9f98357d1e169ab420c6c658fa6f8a06a5af019a9",
+      "bytes": 4413
     },
     {
       "path": "review/ui.gd",
@@ -993,13 +998,18 @@
     },
     {
       "path": "runtime/city_canvas.gd",
-      "sha256": "d1e30348ab8233d25fc98028629095000d8244a1ea299d4a281a2a997a5613b4",
-      "bytes": 6176
+      "sha256": "43f3798111bdd44d76043633d0405e4c265fd0a12bf027d228098e842c73905d",
+      "bytes": 6326
     },
     {
       "path": "runtime/geography_canvas.gd",
       "sha256": "30fe92fd421d1f5dc83adc9440b3f9de8637361d8f45493db71c72b3b79c646e",
       "bytes": 5139
+    },
+    {
+      "path": "runtime/instance_index.gd",
+      "sha256": "a19a2803fed986039b8affc75d79a30a0a2c8aaf2b78183bcd28ba3318c1b759",
+      "bytes": 2064
     },
     {
       "path": "runtime/model.gd",
@@ -2210,6 +2220,17 @@
       "path": "tests/test_r5_saves.gd",
       "sha256": "84cbdd3de5414ca168ebac6d58bc92f2af95e649c42fbf5b106005c56783b4bc",
       "bytes": 6579
+    },
+    {
+      "path": "tests/test_review_edges.gd",
+      "sha256": "b0be7954a04626a7bdbaeb2ca397dd6e8284f622c8df572674ce94589826ecc8",
+      "bytes": 217
+    },
+    {
+      "path": "tests/test_review_ownership.gd",
+      "sha256": "41146aa7b755f7bb25a10727b4d617f1309af6d4fec5948790cba28ff50cf85d",
+      "bytes": 4367
     }
-  ]
+  ],
+  "baseline_commit": "26a45be93e62fc56199ed42d98895926380383c5"
 }
