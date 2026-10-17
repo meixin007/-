@@ -9,7 +9,7 @@ v0.2的S0/V1/E1/E2/E3/V2/C1/Q1已完成。C1由用户通过，Q1包含35项矩�
 - `Tongguan-v0.2-Q1-Windows-x64.zip`：完整解压后运行`Start-Q1.cmd`。EXE与PCK保持同目录；不需要编辑器。
 - `Tongguan-v0.2-Q1-editable-Godot-project.zip`：完整解压，以Godot4.6.1打开`GodotProject/project.godot`，入口`v02/q1/main.tscn`。冻结的表现包、纹理导入参数和脚本UID均包含，`.godot`缓存排除；无需依赖开发机器的`review-work`目录。
 - `Tongguan-v0.2-Q1-complete-evidence.zip`：完整封存Q1报告，包括Git忽略的原始日志与无损压缩的重复大回执。对照其中`DELIVERY_MANIFEST.json`可验证每个成员。
-- `Tongguan-v0.2-Q1-native-fixtures.avi`：未剪辑的工程夹具、故障回退与阈值切换录像。固定30fps，与正式不限帧性能统计分开。
+- `Tongguan-v0.2-Q1-native-fixtures.zip`：LZMA无损归档，使用7-Zip或Python zipfile解压得到未剪辑原始AVI。原AVI字节与SHA256保持；固定30fps，与正式不限帧性能统计分开。
 - `SHA256SUMS.txt`及`RELEASE_MANIFEST.json`：下载产物校验。
 
 ## 操作与报告
@@ -31,4 +31,4 @@ v0.2的S0/V1/E1/E2/E3/V2/C1/Q1已完成。C1由用户通过，Q1包含35项矩�
 | Tongguan-v0.2-Q1-Windows-x64.zip | 210488549 | `1015008595e818d642988e0bbf124afe5eb6d6d1b6e5f77fa82da30ae3fa8ec8` |
 | Tongguan-v0.2-Q1-editable-Godot-project.zip | 103424105 | `af20d6dca0097d7e63d8544e20515ec04741e0715b1d7c46e0a31e131ac15aaa` |
 | Tongguan-v0.2-Q1-complete-evidence.zip | 147957898 | `695874df0690b0a34e6f7eeb93c1daa7c2cec978fa6c8f67d3b8d6611db274a3` |
-| Tongguan-v0.2-Q1-native-fixtures.avi | 463665608 | `47abb19eb40c01921592d7c57ce97dee83a89a45435f90a529a6524d4c5fa77b` |
+| Tongguan-v0.2-Q1-native-fixtures.zip | 10604959 | `c6e3f78a3174bbf0d2bdf0dd34936ed72cd7f7decf8b49f620a44c9281686992` |

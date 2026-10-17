@@ -29,9 +29,9 @@ def github(args,timeout=240):
     if p.returncode:raise RuntimeError('GitHub operation failed: '+str(args[:2])+'\n'+value)
     return value
 
-def zip_files(path,files):
+def zip_files(path,files,compression=zipfile.ZIP_DEFLATED):
     if path.exists():raise RuntimeError('archive already exists '+str(path))
-    with zipfile.ZipFile(path,'x',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+    with zipfile.ZipFile(path,'x',compression,compresslevel=6) as z:
         for source,name in files:z.write(source,name)
     with zipfile.ZipFile(path) as z:
         if z.testzip():raise RuntimeError('archive CRC failed')
@@ -56,7 +56,9 @@ def prepare():
     rows.append(zip_files(assets/'Tongguan-v0.2-Q1-complete-evidence.zip',[(f,BUILD+'/'+f.relative_to(report).as_posix()) for f in sorted(report.rglob('*')) if f.is_file()]))
     movie_source=Path(delivery['external_evidence'][0]['path']);movie=assets/'Tongguan-v0.2-Q1-native-fixtures.avi';shutil.copyfile(movie_source,movie)
     if sha(movie)!=delivery['external_evidence'][0]['sha256']:raise AssertionError('movie changed')
-    rows.append(dict(name=movie.name,path=str(movie),sha256=sha(movie),bytes=movie.stat().st_size,scope='Unedited 30fps MovieWriter supplementary visual evidence, excluded from performance measurements'))
+    movie_archive=zip_files(assets/'Tongguan-v0.2-Q1-native-fixtures.zip',[(movie,movie.name)],compression=zipfile.ZIP_LZMA)
+    movie_archive.update(original_avi_sha256=sha(movie),original_avi_bytes=movie.stat().st_size,scope='Lossless ZIP LZMA of the unedited original AVI; use 7-Zip or Python zipfile to extract. Not a performance recording.')
+    rows.append(movie_archive)
     # Release checksums are portable; local filesystem paths stay out of this index.
     portable=[{k:v for k,v in row.items() if k!='path'} for row in rows]
     checksums=assets/'SHA256SUMS.txt';checksums.write_text(''.join(r['sha256']+'  '+r['name']+'\n' for r in rows),encoding='utf-8')
@@ -75,7 +77,7 @@ v0.2的S0/V1/E1/E2/E3/V2/C1/Q1已完成。C1由用户通过，Q1包含35项矩�
 - `Tongguan-v0.2-Q1-Windows-x64.zip`：完整解压后运行`Start-Q1.cmd`。EXE与PCK保持同目录；不需要编辑器。
 - `Tongguan-v0.2-Q1-editable-Godot-project.zip`：完整解压，以Godot4.6.1打开`GodotProject/project.godot`，入口`v02/q1/main.tscn`。冻结的表现包、纹理导入参数和脚本UID均包含，`.godot`缓存排除；无需依赖开发机器的`review-work`目录。
 - `Tongguan-v0.2-Q1-complete-evidence.zip`：完整封存Q1报告，包括Git忽略的原始日志与无损压缩的重复大回执。对照其中`DELIVERY_MANIFEST.json`可验证每个成员。
-- `Tongguan-v0.2-Q1-native-fixtures.avi`：未剪辑的工程夹具、故障回退与阈值切换录像。固定30fps，与正式不限帧性能统计分开。
+- `Tongguan-v0.2-Q1-native-fixtures.zip`：LZMA无损归档，使用7-Zip或Python zipfile解压得到未剪辑原始AVI。原AVI字节与SHA256保持；固定30fps，与正式不限帧性能统计分开。
 - `SHA256SUMS.txt`及`RELEASE_MANIFEST.json`：下载产物校验。
 
 ## 操作与报告
@@ -143,7 +145,7 @@ def release():
 
 正常负载3×60秒＋300秒：最差p95 2.853ms、p99 3.26467ms，312775个稳态间隔无>33ms帧；进程专用显存峰164.75MiB。20轮真实释放/重载，1939个开工前文件未变。
 
-Windows包与正式测量及最终解压smoke的EXE/PCK字节一致。完整解压后启动Start-Q1.cmd。可编辑项目ZIP含完整Godot4.6.1项目、表现包和纹理导入参数，排除.godot缓存。证据ZIP含完整报告和原始数据；AVI为独立固定30fps的未剪辑补充录像，不用于性能统计。所有下载项以SHA256SUMS.txt验证。
+Windows包与正式测量及最终解压smoke的EXE/PCK字节一致。完整解压后启动Start-Q1.cmd。可编辑项目ZIP含完整Godot4.6.1项目、表现包和纹理导入参数，排除.godot缓存。证据ZIP含完整报告和原始数据；录像ZIP以LZMA无损保存未剪辑原始AVI（使用7-Zip或Python zipfile解压），独立固定30fps，不用于性能统计。所有下载项以SHA256SUMS.txt验证。
 
 来源与范围：现代DSM/岸线、东亚粗示意保留原说明，精确756历史复原和全国容量未签署。旧内容兼容A/B有额外开销，未宣称提速。没有覆盖旧图/素材、没有量产或回写主工程。旧Release保留。
 
