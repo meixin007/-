@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "asset_id": "tree_willow",
+      "style_id": "tang_ink_wash_v02_candidate_a01",
+      "texture_file": "assets/trees.png.bin",
+      "rect_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "anchor_px": [
+        256,
+        399.36
+      ],
+      "width_m": 80,
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "allowed_directions": [
+        "source_fixed"
+      ],
+      "damage_variants": [],
+      "source_sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11"
+    },
+    {
+      "asset_id": "tree_grove",
+      "style_id": "tang_ink_wash_v02_candidate_a01",
+      "texture_file": "assets/trees.png.bin",
+      "rect_px": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "anchor_px": [
+        256,
+        399.36
+      ],
+      "width_m": 80,
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "allowed_directions": [
+        "source_fixed"
+      ],
+      "damage_variants": [],
+      "source_sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11"
+    },
+    {
+      "asset_id": "gate",
+      "style_id": "tang_ink_wash_v02_candidate_a01",
+      "texture_file": "assets/gate_eastwest.png.bin",
+      "rect_px": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "anchor_px": [
+        665,
+        690
+      ],
+      "width_m": 330,
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -165,
+        -30,
+        330,
+        60
+      ],
+      "allowed_directions": [
+        "source_fixed"
+      ],
+      "damage_variants": [],
+      "source_sha256": "971dbffc6bfe5c947e5f9541fb68c12d5712f23c26bfd94566c904880c7fe16d"
+    },
+    {
+      "asset_id": "tree_giant_fixture",
+      "style_id": "tang_ink_wash_v02_candidate_a01",
+      "texture_file": "assets/trees.png.bin",
+      "rect_px": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "anchor_px": [
+        256,
+        399.36
+      ],
+      "width_m": 800,
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "allowed_directions": [
+        "source_fixed"
+      ],
+      "damage_variants": [],
+      "source_sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11"
+    }
+  ]
+}

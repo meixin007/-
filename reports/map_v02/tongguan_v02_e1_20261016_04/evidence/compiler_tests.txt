@@ -1,0 +1,23 @@
+test_duplicate_inventory_paths_are_rejected_before_indexing (__main__.E1Contract) ... H:\tongguan_reviewfix_20261015\tools\map_v02\e1_compile.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime\\bundle\\art\\trees.png'>
+  image=Image.open(source)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+H:\tongguan_reviewfix_20261015\tools\map_v02\e1_compile.py:148: ResourceWarning: unclosed file <_io.BufferedReader name='H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime\\bundle\\art\\gate_eastwest.png'>
+  writer=Writer(target);assets=shared_assets(writer)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_duplicate_raw_objects_are_rejected_before_dictionary_projection (__main__.E1Contract) ... ok
+test_missing_required_dependency_is_rejected (__main__.E1Contract) ... ok
+test_outside_and_executable_paths_are_rejected (__main__.E1Contract) ... ok
+test_raw_source_duplicate_is_not_silently_overwritten (__main__.E1Contract) ... ok
+test_record_id_and_source_key_must_agree (__main__.E1Contract) ... ok
+test_relocation_changes_owner_without_changing_identity (__main__.E1Contract) ... ok
+test_source_key_mismatch_rejected_before_any_package_write (__main__.E1Contract) ... ok
+test_sparse_package_has_16_unique_children_and_parent (__main__.E1Contract) ... ok
+test_unsupported_schema_is_rejected (__main__.E1Contract) ... ok
+test_world_layout_and_graph_are_separate_compatibility_gates (__main__.E1Contract) ... ok
+test_wrong_hash_is_rejected (__main__.E1Contract) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 3.957s
+
+OK

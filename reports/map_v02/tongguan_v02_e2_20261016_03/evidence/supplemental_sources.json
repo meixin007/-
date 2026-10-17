@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "docs/map_v02/E2_IMPLEMENTATION.md",
+      "sha256": "b1144a2bcc92ce8047c5542c8822868bbf70f5fd217f188bff023a237dd93205"
+    },
+    {
+      "path": "schemas/map_v02/presentation_package.schema.json",
+      "sha256": "8cca6977c3cb4828d2ebb9876ef8579c2a43121579e96eb20844633f956c1bfe"
+    },
+    {
+      "path": "tools/map_v02/e2_build.py",
+      "sha256": "b59cbe00adf609153442684414b7014387f610df0a92cced2f7769937c9cf738"
+    },
+    {
+      "path": "tools/map_v02/e2_finalize.py",
+      "sha256": "65d6fbf183f8a9e6da3e3de99e77fc30e9838a4acf4e66bc9b34b0ab83b1e423"
+    },
+    {
+      "path": "tools/map_v02/e2_native.py",
+      "sha256": "4598a1b978707bc949c4dce984991078074ed2ab5d2793989181c24ce6e3e5e1"
+    }
+  ]
+}

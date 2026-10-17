@@ -1,0 +1,10 @@
+{
+  "stage": "V2",
+  "build_id": "tongguan_v02_v2_20261016_02",
+  "technical": "passed",
+  "native_checks": 103,
+  "visual": "pending",
+  "old_files_unchanged": true,
+  "c1": "not_implemented",
+  "q1": "not_claimed"
+}

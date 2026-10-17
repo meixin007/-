@@ -1,0 +1,176 @@
+{
+  "stage": "V2",
+  "status": "candidate_pending_user_review",
+  "based_on_accepted_v1": "tongguan_v02_v1_20261015_04",
+  "assets": {
+    "warehouse": {
+      "path": "res://v02/v1/assets/warehouse_v01.png",
+      "anchor_px": [
+        788,
+        660
+      ],
+      "width_m": 80,
+      "ground_polygon_m": [
+        [
+          -21.77,
+          -7.29
+        ],
+        [
+          -1.98,
+          12.24
+        ],
+        [
+          21.98,
+          -0.52
+        ],
+        [
+          2.19,
+          -12.5
+        ]
+      ],
+      "source": "built-in image_gen, new isolated candidate",
+      "sha256": "0f24ffb5c1305eb34c4433eab7d0180e35880e98c4cf0c90bd4b49d2b1fc6e16"
+    },
+    "wall_ns": {
+      "path": "res://v02/v1/assets/wall_ns_v01.png",
+      "anchor_px": [
+        433,
+        390
+      ],
+      "pixel_scale_m": 0.14,
+      "sockets_px": {
+        "back": [
+          433,
+          390
+        ],
+        "front": [
+          1058,
+          900
+        ]
+      },
+      "source": "built-in image_gen, new isolated candidate",
+      "sha256": "17f0dec19928e4ed4b344d8e786d7d26b3f49da89da60948dd1aa98a19f71478",
+      "south_mating_px": [
+        490.142857,
+        404.285714
+      ],
+      "south_insertion_m": [
+        8,
+        2
+      ],
+      "north_insertion_m": [
+        7,
+        6
+      ]
+    },
+    "warehouse_damaged": {
+      "path": "res://v02/v2/assets/warehouse_damaged_v01.png",
+      "anchor_px": [
+        788,
+        660
+      ],
+      "width_m": 80,
+      "ground_polygon_m": [
+        [
+          -21.77,
+          -7.29
+        ],
+        [
+          -1.98,
+          12.24
+        ],
+        [
+          21.98,
+          -0.52
+        ],
+        [
+          2.19,
+          -12.5
+        ]
+      ],
+      "source": "built-in image_gen; V2 minimal candidate; not yet user accepted",
+      "sha256": "3c0bc4eb8c82a274e85d8ca799d5227c0ec9f3934d6085c2f58804b4b247d62e",
+      "registered_canvas_px": [
+        1536,
+        1024
+      ],
+      "rotation": 0,
+      "flip_h": false
+    },
+    "wall_damaged": {
+      "path": "res://v02/v2/assets/wall_damaged_v01.png",
+      "anchor_px": [
+        433,
+        390
+      ],
+      "pixel_scale_m": 0.14,
+      "sockets_px": {
+        "back": [
+          433,
+          390
+        ],
+        "front": [
+          1058,
+          900
+        ]
+      },
+      "source": "built-in image_gen; V2 minimal candidate; not yet user accepted",
+      "sha256": "93bfcd4b9f2c264cbc53080baf4425e01f05419df25a695aef2d14bd96ee7252",
+      "south_mating_px": [
+        490.142857,
+        404.285714
+      ],
+      "south_insertion_m": [
+        8,
+        2
+      ],
+      "north_insertion_m": [
+        7,
+        6
+      ],
+      "registered_canvas_px": [
+        1536,
+        1024
+      ],
+      "rotation": 0,
+      "flip_h": false
+    },
+    "barracks": {
+      "path": "res://v02/v2/assets/barracks_v01.png",
+      "anchor_px": [
+        788,
+        660
+      ],
+      "width_m": 80,
+      "ground_polygon_m": [
+        [
+          -21.77,
+          -7.29
+        ],
+        [
+          -1.98,
+          12.24
+        ],
+        [
+          21.98,
+          -0.52
+        ],
+        [
+          2.19,
+          -12.5
+        ]
+      ],
+      "source": "built-in image_gen; V2 minimal candidate; not yet user accepted",
+      "sha256": "ad392cccc3cbeef7fc1f2bb2c1a6090a2687ba9160d52540900af6188b230139",
+      "registered_canvas_px": [
+        1536,
+        1024
+      ],
+      "rotation": 0,
+      "flip_h": false
+    }
+  },
+  "new_assets": 3,
+  "damage_levels": "1 and 2 share damaged raster; 0 restores original",
+  "barracks_damage": "not included in this bounded sample"
+}

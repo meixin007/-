@@ -1,0 +1,838 @@
+{
+	"actual_viewport": [
+		1920,
+		1080
+	],
+	"adapter": "NVIDIA GeForce RTX 4060",
+	"adapter_vendor": "NVIDIA",
+	"authority_final": {
+		"city": {
+			"gate_open": true,
+			"growth_stage": 1.0,
+			"layout_version": "tongguan_p4_layout_v02",
+			"module_damage": {
+				"gate": 0.0,
+				"tongguan.slot.civil_01": 0.0,
+				"tongguan.slot.civil_02": 0.0,
+				"tongguan.slot.expansion_01": 0.0,
+				"tongguan.slot.expansion_02": 0.0,
+				"tongguan.slot.rear_military_01": 0.0,
+				"tongguan.slot.rear_storage_01": 0.0,
+				"tongguan.slot.rear_support_01": 0.0,
+				"tongguan.slot.rear_workshop_01": 0.0,
+				"wall_east": 0.0,
+				"wall_west": 0.0
+			},
+			"revision": 0.0,
+			"site_id": "tongguan",
+			"slot_occupancy": {
+				"tongguan.slot.civil_01": {
+					"building_id": "tongguan.slot.civil_01.building",
+					"building_type": "",
+					"status": "empty"
+				},
+				"tongguan.slot.civil_02": {
+					"building_id": "tongguan.slot.civil_02.building",
+					"building_type": "",
+					"status": "empty"
+				},
+				"tongguan.slot.expansion_01": {
+					"building_id": "tongguan.slot.expansion_01.building",
+					"building_type": "",
+					"status": "empty"
+				},
+				"tongguan.slot.expansion_02": {
+					"building_id": "tongguan.slot.expansion_02.building",
+					"building_type": "",
+					"status": "empty"
+				},
+				"tongguan.slot.rear_military_01": {
+					"building_id": "tongguan.slot.rear_military_01.building",
+					"building_type": "barracks",
+					"status": "built"
+				},
+				"tongguan.slot.rear_storage_01": {
+					"building_id": "tongguan.slot.rear_storage_01.building",
+					"building_type": "warehouse",
+					"status": "built"
+				},
+				"tongguan.slot.rear_support_01": {
+					"building_id": "tongguan.slot.rear_support_01.building",
+					"building_type": "",
+					"status": "empty"
+				},
+				"tongguan.slot.rear_workshop_01": {
+					"building_id": "tongguan.slot.rear_workshop_01.building",
+					"building_type": "",
+					"status": "empty"
+				}
+			}
+		},
+		"day": 3,
+		"force": {
+			"corridor_progress_days": 0.0,
+			"current_corridor_id": "",
+			"current_node_id": "tg_fore",
+			"display_name": "通行验收队",
+			"force_id": "tongguan_validation_force_01",
+			"morale": 80.0,
+			"movement_profile": "ordinary",
+			"rations_on_hand_days": 0.0,
+			"source_id": "fixture:tongguan_movement_validation_v1",
+			"supply_line_active": false,
+			"target_node_id": "",
+			"troop_tiers": {
+				"regular_field": 100.0
+			}
+		},
+		"order": {
+			"edge_index": 0,
+			"goal": "",
+			"graph_version": "tongguan_controlled_corridor_r3_v01",
+			"path_edges": [],
+			"path_known": false,
+			"path_nodes": [],
+			"receipts": [
+				{
+					"action": "construction",
+					"day": 0,
+					"gate_open": true,
+					"revision": 1
+				},
+				{
+					"action": "resume",
+					"day": 0,
+					"gate_open": true,
+					"revision": 2
+				},
+				{
+					"action": "shared_day",
+					"day": 1,
+					"gate_open": true,
+					"revision": 3
+				},
+				{
+					"action": "pause",
+					"day": 1,
+					"gate_open": true,
+					"revision": 4
+				},
+				{
+					"action": "resume",
+					"day": 1,
+					"gate_open": true,
+					"revision": 5
+				},
+				{
+					"action": "shared_day",
+					"day": 2,
+					"gate_open": true,
+					"revision": 6
+				},
+				{
+					"action": "pause",
+					"day": 2,
+					"gate_open": true,
+					"revision": 7
+				},
+				{
+					"action": "resume",
+					"day": 2,
+					"gate_open": true,
+					"revision": 8
+				},
+				{
+					"action": "shared_day",
+					"day": 3,
+					"gate_open": true,
+					"revision": 9
+				},
+				{
+					"action": "pause",
+					"day": 3,
+					"gate_open": true,
+					"revision": 10
+				}
+			],
+			"route_mode": "main",
+			"schema_version": 1,
+			"status": "idle"
+		},
+		"paused": true,
+		"revision": 10
+	},
+	"checks": 4,
+	"content_scale": "(1920, 1080)",
+	"display_scale": 1.0,
+	"duration_sec": 60.0,
+	"engine": {
+		"build": "official",
+		"hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+		"hex": 263681,
+		"major": 4,
+		"minor": 6,
+		"patch": 1,
+		"status": "stable",
+		"string": "4.6.1-stable (official)",
+		"timestamp": 0
+	},
+	"engine_started_to_app_ready_usec": 2389367,
+	"failures": [],
+	"first_details_ready_usec": 3032477,
+	"first_low_frame_post_draw_upper_bound_usec": 2994729,
+	"first_low_ready_usec": 2985353,
+	"first_presented_note": "not observable from these APIs; frame_post_draw is an engine-side upper-bound event, not a GPU presentation timestamp",
+	"frames_written": 44717,
+	"gpu_first_presented_usec": null,
+	"no_screenshot_readback_in_sample_loop": true,
+	"raw_frame_policy": "every interval retained; no outlier trimming",
+	"release_after_run": {
+		"consumers": 0,
+		"decoded_reserved": 0,
+		"external_alive_bytes": 0,
+		"inflight": 0,
+		"ready": 0,
+		"reserved": 0,
+		"resident": 0,
+		"resources": 0,
+		"total": 0
+	},
+	"rendering_method": "gl_compatibility",
+	"screen_dpi": 96,
+	"settings": {
+		"low_processor_usage_mode": false,
+		"max_fps": 0,
+		"vsync": 0
+	},
+	"startup": [
+		{
+			"duration_sec": 60.0,
+			"event": "app_ready",
+			"preset": "target",
+			"usec": 2904329,
+			"warmup_sec": 10.0
+		},
+		{
+			"event": "first_low_ready",
+			"usec": 2985353
+		},
+		{
+			"event": "first_low_frame_post_draw_upper_bound",
+			"usec": 2994729
+		},
+		{
+			"event": "first_details_ready",
+			"usec": 3032477
+		},
+		{
+			"actual_size": [
+				1920,
+				1080
+			],
+			"event": "startup_capture_outside_sampling",
+			"usec": 3182475
+		},
+		{
+			"duration_usec": 1717,
+			"event": "recorder_flush",
+			"usec": 3905956
+		},
+		{
+			"duration_usec": 151,
+			"event": "recorder_flush",
+			"usec": 4907544
+		},
+		{
+			"duration_usec": 87,
+			"event": "recorder_flush",
+			"usec": 5909313
+		},
+		{
+			"duration_usec": 146,
+			"event": "recorder_flush",
+			"usec": 6909659
+		},
+		{
+			"duration_usec": 171,
+			"event": "recorder_flush",
+			"usec": 7910260
+		},
+		{
+			"duration_usec": 96,
+			"event": "recorder_flush",
+			"usec": 8910400
+		},
+		{
+			"duration_usec": 116,
+			"event": "recorder_flush",
+			"usec": 9911691
+		},
+		{
+			"duration_usec": 117,
+			"event": "recorder_flush",
+			"usec": 10912648
+		},
+		{
+			"duration_usec": 92,
+			"event": "recorder_flush",
+			"usec": 11914095
+		},
+		{
+			"event": "steady_begin",
+			"usec": 12905430
+		},
+		{
+			"duration_usec": 99,
+			"event": "recorder_flush",
+			"usec": 12916000
+		},
+		{
+			"duration_usec": 78,
+			"event": "recorder_flush",
+			"usec": 13916434
+		},
+		{
+			"duration_usec": 89,
+			"event": "recorder_flush",
+			"usec": 14918114
+		},
+		{
+			"duration_usec": 126,
+			"event": "recorder_flush",
+			"usec": 15918413
+		},
+		{
+			"duration_usec": 86,
+			"event": "recorder_flush",
+			"usec": 16920545
+		},
+		{
+			"duration_usec": 82,
+			"event": "recorder_flush",
+			"usec": 17921594
+		},
+		{
+			"duration_usec": 112,
+			"event": "recorder_flush",
+			"usec": 18923053
+		},
+		{
+			"duration_usec": 93,
+			"event": "recorder_flush",
+			"usec": 19924558
+		},
+		{
+			"duration_usec": 257,
+			"event": "recorder_flush",
+			"usec": 20925575
+		},
+		{
+			"duration_usec": 192,
+			"event": "recorder_flush",
+			"usec": 21925697
+		},
+		{
+			"duration_usec": 266,
+			"event": "recorder_flush",
+			"usec": 22927543
+		},
+		{
+			"duration_usec": 261,
+			"event": "recorder_flush",
+			"usec": 23929696
+		},
+		{
+			"duration_usec": 96,
+			"event": "recorder_flush",
+			"usec": 24930553
+		},
+		{
+			"duration_usec": 95,
+			"event": "recorder_flush",
+			"usec": 25930844
+		},
+		{
+			"duration_usec": 134,
+			"event": "recorder_flush",
+			"usec": 26931448
+		},
+		{
+			"duration_usec": 124,
+			"event": "recorder_flush",
+			"usec": 27931749
+		},
+		{
+			"duration_usec": 165,
+			"event": "recorder_flush",
+			"usec": 28932624
+		},
+		{
+			"duration_usec": 260,
+			"event": "recorder_flush",
+			"usec": 29934601
+		},
+		{
+			"duration_usec": 160,
+			"event": "recorder_flush",
+			"usec": 30936391
+		},
+		{
+			"duration_usec": 89,
+			"event": "recorder_flush",
+			"usec": 31936417
+		},
+		{
+			"duration_usec": 120,
+			"event": "recorder_flush",
+			"usec": 32937787
+		},
+		{
+			"duration_usec": 171,
+			"event": "recorder_flush",
+			"usec": 33940245
+		},
+		{
+			"duration_usec": 101,
+			"event": "recorder_flush",
+			"usec": 34940835
+		},
+		{
+			"duration_usec": 117,
+			"event": "recorder_flush",
+			"usec": 35941529
+		},
+		{
+			"duration_usec": 73,
+			"event": "recorder_flush",
+			"usec": 36941901
+		},
+		{
+			"duration_usec": 82,
+			"event": "recorder_flush",
+			"usec": 37943951
+		},
+		{
+			"duration_usec": 72,
+			"event": "recorder_flush",
+			"usec": 38943882
+		},
+		{
+			"duration_usec": 83,
+			"event": "recorder_flush",
+			"usec": 39943760
+		},
+		{
+			"duration_usec": 407,
+			"event": "recorder_flush",
+			"usec": 40943389
+		},
+		{
+			"duration_usec": 463,
+			"event": "recorder_flush",
+			"usec": 41944813
+		},
+		{
+			"duration_usec": 119,
+			"event": "recorder_flush",
+			"usec": 42946320
+		},
+		{
+			"duration_usec": 108,
+			"event": "recorder_flush",
+			"usec": 43947802
+		},
+		{
+			"duration_usec": 122,
+			"event": "recorder_flush",
+			"usec": 44948535
+		},
+		{
+			"duration_usec": 102,
+			"event": "recorder_flush",
+			"usec": 45949358
+		},
+		{
+			"duration_usec": 384,
+			"event": "recorder_flush",
+			"usec": 46949485
+		},
+		{
+			"duration_usec": 276,
+			"event": "recorder_flush",
+			"usec": 47950519
+		},
+		{
+			"duration_usec": 350,
+			"event": "recorder_flush",
+			"usec": 48951044
+		},
+		{
+			"duration_usec": 180,
+			"event": "recorder_flush",
+			"usec": 49951576
+		},
+		{
+			"duration_usec": 238,
+			"event": "recorder_flush",
+			"usec": 50952529
+		},
+		{
+			"duration_usec": 217,
+			"event": "recorder_flush",
+			"usec": 51952833
+		},
+		{
+			"duration_usec": 178,
+			"event": "recorder_flush",
+			"usec": 52953209
+		},
+		{
+			"duration_usec": 218,
+			"event": "recorder_flush",
+			"usec": 53953796
+		},
+		{
+			"duration_usec": 342,
+			"event": "recorder_flush",
+			"usec": 54954219
+		},
+		{
+			"duration_usec": 280,
+			"event": "recorder_flush",
+			"usec": 55954299
+		},
+		{
+			"duration_usec": 192,
+			"event": "recorder_flush",
+			"usec": 56954675
+		},
+		{
+			"duration_usec": 169,
+			"event": "recorder_flush",
+			"usec": 57955259
+		},
+		{
+			"duration_usec": 324,
+			"event": "recorder_flush",
+			"usec": 58955898
+		},
+		{
+			"duration_usec": 282,
+			"event": "recorder_flush",
+			"usec": 59956704
+		},
+		{
+			"duration_usec": 189,
+			"event": "recorder_flush",
+			"usec": 60957625
+		},
+		{
+			"duration_usec": 233,
+			"event": "recorder_flush",
+			"usec": 61958245
+		},
+		{
+			"duration_usec": 177,
+			"event": "recorder_flush",
+			"usec": 62959232
+		},
+		{
+			"duration_usec": 203,
+			"event": "recorder_flush",
+			"usec": 63959766
+		},
+		{
+			"duration_usec": 211,
+			"event": "recorder_flush",
+			"usec": 64961164
+		},
+		{
+			"duration_usec": 262,
+			"event": "recorder_flush",
+			"usec": 65960963
+		},
+		{
+			"duration_usec": 344,
+			"event": "recorder_flush",
+			"usec": 66961321
+		},
+		{
+			"duration_usec": 343,
+			"event": "recorder_flush",
+			"usec": 67962626
+		},
+		{
+			"duration_usec": 268,
+			"event": "recorder_flush",
+			"usec": 68962670
+		},
+		{
+			"duration_usec": 345,
+			"event": "recorder_flush",
+			"usec": 69964176
+		},
+		{
+			"duration_usec": 171,
+			"event": "recorder_flush",
+			"usec": 70965458
+		},
+		{
+			"duration_usec": 1498,
+			"event": "recorder_flush",
+			"usec": 71967196
+		}
+	],
+	"telemetry": {
+		"coverage": {
+			"bucket_visits": 960738,
+			"catalog_builds": 1,
+			"plans": 35650
+		},
+		"object_count": 25,
+		"query": {
+			"identity": {
+				"asset_bounds_version": 1,
+				"build_id": "tongguan_v02_c1_20261016_04_tongguan",
+				"cell_m": 512,
+				"effective_revision": "[-9223371892755266173, \"world:2332576:1\", -9223371892738488955, 10]",
+				"world_id": "tongguan_final_validation_v1"
+			},
+			"index": {
+				"bucket_lookups": 1813691,
+				"candidate_tests": 850363,
+				"candidate_union_builds": 102,
+				"delta_updates": 11,
+				"full_index_builds": 1,
+				"query_calls": 16438,
+				"records_reindexed": 120,
+				"reference_record_enumerations": 0,
+				"source_records_validated": 120
+			},
+			"objects": 99,
+			"planner": {
+				"plan_reuses": 16241,
+				"reference_full_scans": 0,
+				"snapshot_reads": 1,
+				"sort_calls": 197,
+				"visible_plan_builds": 197
+			}
+		},
+		"residency": {
+			"accounting": {
+				"consumers": 29,
+				"decoded_reserved": 0,
+				"external_alive_bytes": 0,
+				"inflight": 0,
+				"ready": 0,
+				"reserved": 0,
+				"resident": 103636992,
+				"resources": 18,
+				"total": 103636992
+			},
+			"epoch": 1,
+			"failures": [],
+			"profile": {
+				"attach_usec": 2000.0,
+				"concurrency": 2.0,
+				"decoded": 67108864.0,
+				"grace_usec": 2000000.0,
+				"hard": 335544320.0,
+				"id": "normal_256_320",
+				"soft": 268435456.0
+			},
+			"revision": 75,
+			"states": {
+				"context": "RESIDENT",
+				"fine_0_0": "RESIDENT",
+				"fine_0_1": "RESIDENT",
+				"fine_0_2": "RESIDENT",
+				"fine_1_0": "RESIDENT",
+				"fine_1_1": "RESIDENT",
+				"fine_1_2": "RESIDENT",
+				"fine_2_0": "RESIDENT",
+				"fine_2_1": "RESIDENT",
+				"fine_2_2": "RESIDENT",
+				"fine_3_0": "RESIDENT",
+				"fine_3_1": "RESIDENT",
+				"fine_3_2": "RESIDENT",
+				"object:manual.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.0.4": "RESIDENT",
+				"object:tongguan.decor.forest_east.0.6": "RESIDENT",
+				"object:tongguan.decor.forest_east.1.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.1.3": "RESIDENT",
+				"object:tongguan.decor.forest_east.1.4": "RESIDENT",
+				"object:tongguan.decor.forest_east.1.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.1.6": "RESIDENT",
+				"object:tongguan.decor.forest_east.2.0": "RESIDENT",
+				"object:tongguan.decor.forest_east.2.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.2.2": "RESIDENT",
+				"object:tongguan.decor.forest_east.2.4": "RESIDENT",
+				"object:tongguan.decor.forest_east.2.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.3.0": "RESIDENT",
+				"object:tongguan.decor.forest_east.3.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.3.2": "RESIDENT",
+				"object:tongguan.decor.forest_east.3.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.3.6": "RESIDENT",
+				"object:tongguan.decor.forest_east.4.0": "RESIDENT",
+				"object:tongguan.decor.forest_east.4.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.4.2": "RESIDENT",
+				"object:tongguan.decor.forest_east.4.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.5.0": "RESIDENT",
+				"object:tongguan.decor.forest_east.5.2": "RESIDENT",
+				"object:tongguan.decor.forest_east.5.3": "RESIDENT",
+				"object:tongguan.decor.forest_east.5.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.5.6": "RESIDENT",
+				"object:tongguan.decor.forest_east.6.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.6.2": "RESIDENT",
+				"object:tongguan.decor.forest_east.6.4": "RESIDENT",
+				"object:tongguan.decor.forest_east.6.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.7.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.7.2": "RESIDENT",
+				"object:tongguan.decor.forest_east.7.3": "RESIDENT",
+				"object:tongguan.decor.forest_east.7.4": "RESIDENT",
+				"object:tongguan.decor.forest_east.7.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.8.0": "RESIDENT",
+				"object:tongguan.decor.forest_east.8.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.8.3": "RESIDENT",
+				"object:tongguan.decor.forest_east.8.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.8.6": "RESIDENT",
+				"object:tongguan.decor.forest_east.9.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.9.2": "RESIDENT",
+				"object:tongguan.decor.forest_east.9.4": "RESIDENT",
+				"object:tongguan.decor.forest_east.9.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.9.6": "RESIDENT",
+				"object:tongguan.decor.forest_west.0.0": "RESIDENT",
+				"object:tongguan.decor.forest_west.0.1": "RESIDENT",
+				"object:tongguan.decor.forest_west.0.2": "RESIDENT",
+				"object:tongguan.decor.forest_west.0.3": "RESIDENT",
+				"object:tongguan.decor.forest_west.1.0": "RESIDENT",
+				"object:tongguan.decor.forest_west.1.1": "RESIDENT",
+				"object:tongguan.decor.forest_west.2.4": "RESIDENT",
+				"object:tongguan.decor.forest_west.2.6": "RESIDENT",
+				"object:tongguan.decor.forest_west.3.5": "RESIDENT",
+				"object:tongguan.decor.forest_west.3.6": "RESIDENT",
+				"object:tongguan.decor.forest_west.4.6": "RESIDENT",
+				"object:tongguan.decor.forest_west.4.7": "RESIDENT",
+				"object:tongguan.decor.forest_west.5.1": "RESIDENT",
+				"object:tongguan.decor.forest_west.5.5": "RESIDENT",
+				"object:tongguan.decor.forest_west.5.6": "RESIDENT",
+				"object:tongguan.decor.forest_west.6.3": "RESIDENT",
+				"object:tongguan.decor.forest_west.6.5": "RESIDENT",
+				"object:tongguan.decor.forest_west.7.0": "RESIDENT",
+				"object:tongguan.decor.forest_west.7.1": "RESIDENT",
+				"object:tongguan.decor.forest_west.7.4": "RESIDENT",
+				"object:tongguan.decor.forest_west.8.0": "RESIDENT",
+				"object:tongguan.decor.forest_west.8.1": "RESIDENT",
+				"object:tongguan.decor.forest_west.8.2": "RESIDENT",
+				"object:tongguan.decor.forest_west.8.4": "RESIDENT",
+				"object:tongguan.decor.forest_west.8.5": "RESIDENT",
+				"object:tongguan.decor.forest_west.9.3": "RESIDENT",
+				"object:tongguan.gate.main": "RESIDENT",
+				"object:tongguan.slot.rear_military_01": "RESIDENT",
+				"object:tongguan.slot.rear_storage_01": "RESIDENT",
+				"object:tongguan.wall.north": "RESIDENT",
+				"object:v1.preview.Tree_00": "RESIDENT",
+				"object:v1.preview.Tree_01": "RESIDENT",
+				"object:v1.preview.Tree_02": "RESIDENT",
+				"object:v1.preview.Tree_03": "RESIDENT",
+				"object:v1.preview.Tree_04": "RESIDENT",
+				"object:v1.preview.Tree_05": "RESIDENT",
+				"object:v1.preview.Tree_06": "RESIDENT",
+				"object:v1.preview.Tree_07": "RESIDENT",
+				"object:v1.preview.Tree_08": "RESIDENT",
+				"object:v1.preview.Tree_09": "RESIDENT",
+				"object:v1.preview.Tree_10": "RESIDENT",
+				"object:v1.preview.Tree_11": "RESIDENT",
+				"object:v1.preview.Tree_12": "RESIDENT",
+				"object:wall_east": "RESIDENT"
+			},
+			"stats": {
+				"attach_overruns": 0,
+				"attaches": 46,
+				"drops": 28,
+				"hard_denials": 0,
+				"max_attach_usec": 176,
+				"peak_inflight": 2,
+				"prefetch_denials": 0,
+				"queued_cancelled": 0,
+				"reclaimed": 0,
+				"released_observed": 28,
+				"reloads": 28,
+				"requests": 46,
+				"stale_drained": 0
+			}
+		},
+		"visible_pages": [
+			"fine_0_0",
+			"fine_1_0",
+			"fine_2_0",
+			"fine_3_0",
+			"fine_0_1",
+			"fine_1_1",
+			"fine_2_1",
+			"fine_3_1",
+			"fine_0_2",
+			"fine_1_2",
+			"fine_2_2",
+			"fine_3_2"
+		]
+	},
+	"trajectory": [
+		[
+			0,
+			0,
+			-270,
+			0.84
+		],
+		[
+			8,
+			-535,
+			-227.5,
+			2.4
+		],
+		[
+			16,
+			-60,
+			-600,
+			1.4
+		],
+		[
+			24,
+			600,
+			300,
+			0.42
+		],
+		[
+			32,
+			-600,
+			800,
+			0.105
+		],
+		[
+			40,
+			0,
+			0,
+			0.025
+		],
+		[
+			48,
+			-500000,
+			100000,
+			0.00014
+		],
+		[
+			56,
+			-600,
+			800,
+			0.105
+		],
+		[
+			60,
+			0,
+			-270,
+			0.84
+		]
+	],
+	"warmup_sec": 10.0,
+	"window_size": "(1920, 1080)"
+}

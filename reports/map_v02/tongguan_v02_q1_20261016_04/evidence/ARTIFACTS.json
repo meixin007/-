@@ -1,0 +1,14 @@
+{
+  "Start-Q1.cmd": {
+    "sha256": "1f12f3824cab14fa87a12cc59b1511f6a0bd7bed12fe0e545bde178de708b063",
+    "bytes": 53
+  },
+  "TongguanQ1.exe": {
+    "sha256": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "bytes": 104576512
+  },
+  "TongguanQ1.pck": {
+    "sha256": "7c88248c6045208ed605b868ce5d6705bbf1166f9512f76053ed9817c5554508",
+    "bytes": 94910476
+  }
+}

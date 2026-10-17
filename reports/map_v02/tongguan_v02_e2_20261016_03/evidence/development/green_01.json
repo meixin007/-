@@ -1,0 +1,6 @@
+{
+	"checks": 1,
+	"failures": [
+		"E2 query implementation must exist"
+	]
+}

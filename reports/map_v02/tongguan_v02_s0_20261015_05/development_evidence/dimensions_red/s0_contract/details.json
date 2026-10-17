@@ -1,0 +1,6 @@
+{
+	"checks": 23,
+	"failures": [
+		"dimensions compare decoded JSON numerically"
+	]
+}

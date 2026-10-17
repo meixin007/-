@@ -1,0 +1,33 @@
+{
+  "stage": "E1",
+  "build_id": "tongguan_v02_e1_20261016_04",
+  "source": "passed",
+  "native": "passed",
+  "v1_visual": "accepted_by_user",
+  "history": "not_claimed",
+  "capacity": "not_run",
+  "e2_e3": "not_implemented",
+  "q1": "not_complete",
+  "package_hashes": [
+    {
+      "package": "lab",
+      "manifest_sha256": "4e536989c1063833ada156a753a8baa18e9f09a02690b4f87d914696073049c1",
+      "pages": 21,
+      "required_textures": 22,
+      "declared_source_png_bytes": 3742084,
+      "estimated_required_rgba8_bytes": 18158592,
+      "estimate_is_not_measured_vram": true,
+      "schema_passed": true
+    },
+    {
+      "package": "tongguan",
+      "manifest_sha256": "83c0195cb67f08a089f28961d0108bd74166b941e3ccb06df7be944904d94010",
+      "pages": 13,
+      "required_textures": 27,
+      "declared_source_png_bytes": 11385240,
+      "estimated_required_rgba8_bytes": 114885216,
+      "estimate_is_not_measured_vram": true,
+      "schema_passed": true
+    }
+  ]
+}

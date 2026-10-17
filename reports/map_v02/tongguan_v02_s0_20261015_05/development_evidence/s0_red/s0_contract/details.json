@@ -1,0 +1,6 @@
+{
+	"checks": 1,
+	"failures": [
+		"S0 selector exists"
+	]
+}

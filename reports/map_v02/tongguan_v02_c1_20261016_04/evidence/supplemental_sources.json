@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "tools/map_v02/c1_build.py",
+      "sha256": "324c4f651dc983293e18637f51cb3440030c26c160a8778430028f32a42c6b08"
+    },
+    {
+      "path": "tools/map_v02/c1_compile.py",
+      "sha256": "cbaaf7ec9e0765387e388fe5d50e74943fbc9769214319511e70a7081708a4b1"
+    },
+    {
+      "path": "tools/map_v02/c1_finalize.py",
+      "sha256": "851aad3ec4c2a8044f2445887f149803e5465698da92e0290075e3dee61a7b41"
+    },
+    {
+      "path": "tools/map_v02/c1_native.py",
+      "sha256": "0762c14ea6c6c750d6b023c522cdb9c4f21a7a7dd562ace60a45b56193c50892"
+    },
+    {
+      "path": "tools/map_v02/c1_regressions.py",
+      "sha256": "779fbfb1ee1055bf8bc05e9e6c962533479949883a3e582a3010f7ffd1c23a90"
+    },
+    {
+      "path": "docs/map_v02/C1_INTEGRATION.md",
+      "sha256": "604a5f20a03c8ff62a0e14c1bd15027007a191997ac840a72e1e50b24d4d5357"
+    }
+  ]
+}

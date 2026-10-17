@@ -1,0 +1,6 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Cannot infer the type of "path" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://tests/v02/test_e1_package.gd:48)
+ERROR: Failed to load script "res://tests/v02/test_e1_package.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)

@@ -1,0 +1,16 @@
+{
+  "stage": "E2",
+  "build_id": "tongguan_v02_e2_20261016_03",
+  "source": "passed",
+  "native": "passed",
+  "query": "passed",
+  "draw_plan_cache": "passed",
+  "old_files_unchanged": true,
+  "e1_regression": "passed",
+  "visual": "render_equivalence_only_no_new_art",
+  "history": "not_claimed",
+  "capacity": "metadata_correctness_only",
+  "e3": "not_implemented",
+  "c1": "not_implemented",
+  "q1": "not_complete"
+}

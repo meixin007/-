@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "profile_id": "s0_legacy_art_fixed_trace_v1",
+  "target_viewport_px": [1920, 1080],
+  "warmup_seconds": 3.0,
+  "normal_seconds": 60.0,
+  "normal_repetitions_per_mode": 3,
+  "soak_seconds": 300.0,
+  "frame_p95_budget_ms": 16.7,
+  "frame_p99_budget_ms": 25.0,
+  "trace_period_seconds": 30.0,
+  "trace": [
+    {"name":"overview", "local_m":[-500000,100000], "zoom":0.00014},
+    {"name":"region", "local_m":[0,500], "zoom":0.065},
+    {"name":"terrain", "local_m":[-200,150], "zoom":0.30},
+    {"name":"gate", "local_m":[-220,-100], "zoom":1.3},
+    {"name":"forest", "local_m":[-2200,650], "zoom":0.45},
+    {"name":"near_gate", "local_m":[0,0], "zoom":2.4}
+  ],
+  "notes": "Same fixed local-meter trace and legacy assets in both modes. Frame intervals are process-frame CPU observations, not GPU timestamps. No screenshots during timed sampling."
+}

@@ -1,0 +1,20 @@
+{
+  "artifacts": {
+    "Start-Q1.cmd": {
+      "sha256": "1f12f3824cab14fa87a12cc59b1511f6a0bd7bed12fe0e545bde178de708b063",
+      "bytes": 53
+    },
+    "TongguanQ1.exe": {
+      "sha256": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+      "bytes": 104576512
+    },
+    "TongguanQ1.pck": {
+      "sha256": "7c88248c6045208ed605b868ce5d6705bbf1166f9512f76053ed9817c5554508",
+      "bytes": 94910476
+    }
+  },
+  "source_manifest_sha256": "1b351ad450020ce9705f27a604166b961b5a1702629455927be01fd89dffa626",
+  "profile_sha256": "402c11ba0128b7552faac1c86592dbe80fbe99b37a2d9c51dad30ef904b13fe0",
+  "q1_run_sha256": "2039625e42eda81f6af86230bbc3416dd63d852f10768b78647b0839f0b99e71",
+  "cold_disk_cache_claim": false
+}

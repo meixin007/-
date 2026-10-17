@@ -1,0 +1,4 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+E1_PIXELS {"different_bytes":0,"first":[],"name":"trees.png"}
+E1_PIXELS {"different_bytes":0,"first":[],"name":"gate_eastwest.png"}

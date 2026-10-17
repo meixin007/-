@@ -1,0 +1,66 @@
+{
+	"actual_image_size": "(1728, 1080)",
+	"canvas_position": "(24.0, 112.0)",
+	"canvas_size": "(976.0, 752.0)",
+	"logical_content_size": "(1440, 900)",
+	"nearby_objects": [
+		{
+			"asset_version": 2,
+			"grid": [
+				1,
+				6
+			],
+			"id": "tongguan.decor.forest_west.1.6",
+			"kind": "forest",
+			"position_m": [
+				-2757.713,
+				1082.645
+			],
+			"region_id": "forest_west",
+			"source_seed": 93027
+		},
+		{
+			"asset_version": 2,
+			"grid": [
+				2,
+				7
+			],
+			"id": "tongguan.decor.forest_west.2.7",
+			"kind": "forest",
+			"position_m": [
+				-2602.172,
+				1237.764
+			],
+			"region_id": "forest_west",
+			"source_seed": 93027
+		},
+		{
+			"asset_version": 1,
+			"grid": [],
+			"id": "manual.1",
+			"kind": "forest",
+			"position_m": [
+				-2750.0,
+				1250.0
+			],
+			"region_id": "manual",
+			"source_seed": 0
+		}
+	],
+	"old_incorrect_crop": "[P: (127, 685), S: (70, 65)]",
+	"old_incorrect_crop_hash": "e5fb3637f4fdea7dd31755350eb9651d1231204739cecf7cad72bc6f4c8e1a80",
+	"physical_crop": "[P: (152, 822), S: (84, 78)]",
+	"probe": 28,
+	"protected_hash": "76543d99fdd166e15ab00658d96b23041170f4e00a6b3fcd14e57ac506fac870",
+	"stretch": "[X: (1.2, 0.0), Y: (0.0, 1.2), O: (0.0, 0.0)]",
+	"stretch_scale": [
+		1.20000004768372,
+		1.20000004768372
+	],
+	"tree_screen_logical": "(162.0, 733.0)",
+	"tree_screen_physical": "(194.4, 879.6)",
+	"tree_world": [
+		-2750.0,
+		1250.0
+	]
+}

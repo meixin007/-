@@ -1,0 +1,3 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+E1_SOURCE {"checks":2,"failures":["shared E1 package loader exists","read-only effective snapshot adapter exists"]}

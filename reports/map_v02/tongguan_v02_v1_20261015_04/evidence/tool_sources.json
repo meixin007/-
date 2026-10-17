@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "tools/map_v02/v1_build.py",
+      "sha256": "b788a58e4497345b3f614d3aafaa15094db0126449ad3096ef5fcbb04b243667"
+    },
+    {
+      "path": "tools/map_v02/v1_capture.py",
+      "sha256": "a30a1f97a4df5f946651fac5bc12c96ff24b59a69e1527e05701eef83e2705d0"
+    },
+    {
+      "path": "tools/map_v02/v1_finalize.py",
+      "sha256": "c63bd575e506a3ca556c5f8aba1477aed1ee10813c5939331b684eaea05313ed"
+    },
+    {
+      "path": "tools/map_v02/v1_prepare.py",
+      "sha256": "f5557cf7fc752380500c6ca82e72d19dea1ddfa7354a23bb9f408366d5776d16"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "scope": "metadata only; no frame-time/capacity claim",
+  "rows": [
+    {
+      "build_and_check_ms": 31,
+      "candidates": 4,
+      "query_candidate_tests": 4,
+      "query_full_record_enumerations": 0,
+      "reference_full_record_enumerations": 1,
+      "telemetry": {
+        "identity": {
+          "asset_bounds_version": 1,
+          "build_id": "e2_contract",
+          "cell_m": 512,
+          "effective_revision": "1",
+          "world_id": "stream_lab_v02"
+        },
+        "index": {
+          "bucket_lookups": 1,
+          "candidate_tests": 4,
+          "candidate_union_builds": 1,
+          "delta_updates": 0,
+          "full_index_builds": 1,
+          "query_calls": 1,
+          "records_reindexed": 1000,
+          "reference_record_enumerations": 1,
+          "source_records_validated": 1000
+        },
+        "objects": 1000,
+        "planner": {
+          "plan_reuses": 0,
+          "reference_full_scans": 1,
+          "snapshot_reads": 1,
+          "sort_calls": 1,
+          "visible_plan_builds": 1
+        }
+      },
+      "total_objects": 1000,
+      "visible": 4
+    },
+    {
+      "build_and_check_ms": 368,
+      "candidates": 4,
+      "query_candidate_tests": 4,
+      "query_full_record_enumerations": 0,
+      "reference_full_record_enumerations": 1,
+      "telemetry": {
+        "identity": {
+          "asset_bounds_version": 1,
+          "build_id": "e2_contract",
+          "cell_m": 512,
+          "effective_revision": "1",
+          "world_id": "stream_lab_v02"
+        },
+        "index": {
+          "bucket_lookups": 1,
+          "candidate_tests": 4,
+          "candidate_union_builds": 1,
+          "delta_updates": 0,
+          "full_index_builds": 1,
+          "query_calls": 1,
+          "records_reindexed": 10000,
+          "reference_record_enumerations": 1,
+          "source_records_validated": 10000
+        },
+        "objects": 10000,
+        "planner": {
+          "plan_reuses": 0,
+          "reference_full_scans": 1,
+          "snapshot_reads": 1,
+          "sort_calls": 1,
+          "visible_plan_builds": 1
+        }
+      },
+      "total_objects": 10000,
+      "visible": 4
+    },
+    {
+      "build_and_check_ms": 3676,
+      "candidates": 4,
+      "query_candidate_tests": 4,
+      "query_full_record_enumerations": 0,
+      "reference_full_record_enumerations": 1,
+      "telemetry": {
+        "identity": {
+          "asset_bounds_version": 1,
+          "build_id": "e2_contract",
+          "cell_m": 512,
+          "effective_revision": "1",
+          "world_id": "stream_lab_v02"
+        },
+        "index": {
+          "bucket_lookups": 1,
+          "candidate_tests": 4,
+          "candidate_union_builds": 1,
+          "delta_updates": 0,
+          "full_index_builds": 1,
+          "query_calls": 1,
+          "records_reindexed": 100000,
+          "reference_record_enumerations": 1,
+          "source_records_validated": 100000
+        },
+        "objects": 100000,
+        "planner": {
+          "plan_reuses": 0,
+          "reference_full_scans": 1,
+          "snapshot_reads": 1,
+          "sort_calls": 1,
+          "visible_plan_builds": 1
+        }
+      },
+      "total_objects": 100000,
+      "visible": 4
+    }
+  ]
+}

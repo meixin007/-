@@ -1,0 +1,217 @@
+{
+  "design_sha256": "6708feb3ea7fa8dbbc28694c13795e3b46f1a1175f09d5af1ff9600e96135083",
+  "rows": [
+    {
+      "id": "BASE-01",
+      "status": "passed",
+      "result": "19组保护回归，固定合并基线及测量源哈希",
+      "evidence": "evidence/legacy/summary.json"
+    },
+    {
+      "id": "BASE-02",
+      "status": "passed",
+      "result": "1939个开工前文件未变；v4/Save22及旧发行保持",
+      "evidence": "evidence/old_file_protection.json"
+    },
+    {
+      "id": "VIS-01",
+      "status": "accepted_inherited",
+      "result": "用户已通过C1；Q1同机位地图像素零差",
+      "evidence": "evidence/C1_APPROVED_MAP_PIXEL_COMPARISON.json"
+    },
+    {
+      "id": "VIS-02",
+      "status": "accepted_inherited",
+      "result": "沿用已通过C1的R1连续坡岸，无新美术",
+      "evidence": "functional/final_c1/final_composition.png"
+    },
+    {
+      "id": "VIS-03",
+      "status": "accepted_inherited",
+      "result": "C1接点/paint/ground画面与几何回归保持",
+      "evidence": "functional/final_c1/result.json"
+    },
+    {
+      "id": "VIS-04",
+      "status": "passed",
+      "result": "原位损毁修复、成长与ID/锚点回归；修复地图逐像素一致",
+      "evidence": "functional/final_c1/GPU_COMPARISONS.json"
+    },
+    {
+      "id": "VIS-05",
+      "status": "passed",
+      "result": "迁移拒绝不动活动指向；旧包回退；锁区50轮像素完全相同",
+      "evidence": "evidence/publication/result.json"
+    },
+    {
+      "id": "GEO-01",
+      "status": "passed",
+      "result": "完整占地、水/路/owner保护及原通道授权回归",
+      "evidence": "evidence/legacy/regressions_02/geometry_result.json"
+    },
+    {
+      "id": "GEO-02",
+      "status": "documented_scope",
+      "result": "原现代DSM/水域来源及R1配方保存；40m数值地形不同于细页纹理密度",
+      "evidence": "evidence/accepted_c1_packages.json"
+    },
+    {
+      "id": "PKG-01",
+      "status": "passed",
+      "result": "E1正反例与实际导入纹理像素，路径/哈希/世界兼容拒绝",
+      "evidence": "functional/final_fixtures/engine_result.json"
+    },
+    {
+      "id": "PKG-02",
+      "status": "passed",
+      "result": "测量包、安装目录及最终ZIP解压目录均为无工程独立EXE",
+      "evidence": "functional/installed_smoke/result.json"
+    },
+    {
+      "id": "PKG-03",
+      "status": "passed",
+      "result": "局部修改闭合3级页；17纹理直接复用；1可选缺页仍声明；动态对象不烘地形",
+      "evidence": "evidence/publication/incremental.json"
+    },
+    {
+      "id": "PKG-04",
+      "status": "passed",
+      "result": "不完整/损坏/ENOSPC/替换前中断均保留旧指向并真实重启",
+      "evidence": "evidence/publication/result.json"
+    },
+    {
+      "id": "IDX-01",
+      "status": "passed",
+      "result": "参考全集与候选相等；边缘及像素回归保持",
+      "evidence": "evidence/legacy/regressions_02/e2_core_result.json"
+    },
+    {
+      "id": "IDX-02",
+      "status": "passed",
+      "result": "四桶巨树及非可见owner覆盖，去重提交",
+      "evidence": "functional/final_fixtures/engine_result.json"
+    },
+    {
+      "id": "IDX-03",
+      "status": "passed",
+      "result": "跨块移动、素材边界修订、局部delta及无旧残影",
+      "evidence": "evidence/legacy/regressions_02/e2_core_result.json"
+    },
+    {
+      "id": "IDX-04",
+      "status": "passed",
+      "result": "1千/1万/10万离屏目录：每档100查询、404候选测试、0查询全扫、1次排序",
+      "evidence": "functional/final_query/engine_result.json"
+    },
+    {
+      "id": "LOD-01",
+      "status": "passed",
+      "result": "全尺度往返保留地点ID/选中/逻辑；父级代理持续覆盖",
+      "evidence": "functional/final_c1/engine_result.json"
+    },
+    {
+      "id": "LOD-02",
+      "status": "passed",
+      "result": "3语义阈值及纹理阈值各慢速20轮；计数、截图、原生录像",
+      "evidence": "functional/final_fixtures/engine_result.json"
+    },
+    {
+      "id": "LOD-03",
+      "status": "passed",
+      "result": "7正向GPU对照最大通道差1；40m错位负对照检出",
+      "evidence": "functional/final_c1/GPU_COMPARISONS.json"
+    },
+    {
+      "id": "STR-01",
+      "status": "passed",
+      "result": "所需/预取请求集合与逐页事件；启动未急载旧六块缓存",
+      "evidence": "performance/target_60_1/resource_events.jsonl"
+    },
+    {
+      "id": "STR-02",
+      "status": "passed",
+      "result": "逐帧resident+reserved、decoded和并发准入；另留真实WDDM/PrivateUsage",
+      "evidence": "functional/final_fixtures/engine_result.json"
+    },
+    {
+      "id": "STR-03",
+      "status": "passed",
+      "result": "20轮/128唯一细纹理/34.03MiB>软预算3倍，真实drop/reload/弱引用窗口",
+      "evidence": "evidence/STREAM_SUMMARY.json"
+    },
+    {
+      "id": "STR-04",
+      "status": "passed",
+      "result": "A-B-A与切包epoch，延迟旧任务只排空不挂接",
+      "evidence": "functional/final_fixtures/engine_result.json"
+    },
+    {
+      "id": "STR-05",
+      "status": "passed",
+      "result": "真实缺文件、错哈希明确FAILED与父回退/显式重试；延迟与父未就绪可恢复",
+      "evidence": "functional/final_fixtures/engine_result.json"
+    },
+    {
+      "id": "STR-06",
+      "status": "passed",
+      "result": "共享图集2→1→0消费者，最后引用释放；隐藏负对照检出持有",
+      "evidence": "functional/final_fixtures/engine_result.json"
+    },
+    {
+      "id": "STATE-01",
+      "status": "passed",
+      "result": "卸载不改日期；原时钟建设完成，重载读当前损毁与修复权威",
+      "evidence": "functional/final_c1/engine_result.json"
+    },
+    {
+      "id": "STATE-02",
+      "status": "passed",
+      "result": "32项旧存档回归及新表现兼容/不兼容明确拒绝",
+      "evidence": "evidence/legacy/regressions_02/saves_result.json"
+    },
+    {
+      "id": "EDIT-01",
+      "status": "passed",
+      "result": "50轮数据保护+原版发行50轮像素+源码缩放正确ROI50轮像素",
+      "evidence": "evidence/legacy/summary.json"
+    },
+    {
+      "id": "EDIT-02",
+      "status": "passed",
+      "result": "REV-01/02/03、旧冲突收据及新增占地不能复用旧豁免",
+      "evidence": "evidence/legacy/regressions_02/geometry_result.json"
+    },
+    {
+      "id": "FAR-01",
+      "status": "passed",
+      "result": "2000标签选中优先/64屏幕限额；避让与势力变化不重烘地形",
+      "evidence": "functional/final_fixtures/engine_result.json"
+    },
+    {
+      "id": "PERF-01",
+      "status": "passed",
+      "result": "3×60秒真实1080p全部达标；原始数据无裁剪",
+      "evidence": "performance/BENCHMARK_SUMMARY.json"
+    },
+    {
+      "id": "PERF-02",
+      "status": "passed",
+      "result": "300秒达标；0个>33ms帧；同轨迹内存窗口与退出全释放",
+      "evidence": "performance/SOAK_WINDOWS.json"
+    },
+    {
+      "id": "PERF-03",
+      "status": "passed_scoped",
+      "result": "全部必测工程档execution通过；预算仅按各自冻结profile裁定",
+      "evidence": "evidence/ENGINEERING_PROFILES.json"
+    },
+    {
+      "id": "REL-01",
+      "status": "passed",
+      "result": "最终ZIP校验/干净解压启动、实际Windows切换及原旧EXE回退启动",
+      "evidence": "DELIVERY.json"
+    }
+  ],
+  "no_failed_or_unexecuted_required_case": true,
+  "history_scope": "GEO-02 records provenance only; no exact Tang historical claim or national capacity guarantee"
+}

@@ -1,0 +1,20 @@
+{
+  "normal": {
+    "id": "normal_256_320",
+    "soft": 268435456,
+    "hard": 335544320,
+    "decoded": 67108864,
+    "concurrency": 2,
+    "attach_usec": 2000,
+    "grace_usec": 2000000
+  },
+  "stream": {
+    "id": "e3_stream_4_8_grace0",
+    "soft": 4194304,
+    "hard": 8388608,
+    "decoded": 4194304,
+    "concurrency": 2,
+    "attach_usec": 2000,
+    "grace_usec": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "geometry",
+  "command": [
+    "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+    "--headless",
+    "--path",
+    "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\authoring",
+    "--script",
+    "res://tests/test_review_geometry.gd",
+    "--",
+    "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\geometry\\details.json"
+  ],
+  "exit_code": 0,
+  "seconds": 3.063,
+  "diagnostics": [],
+  "passed": true
+}

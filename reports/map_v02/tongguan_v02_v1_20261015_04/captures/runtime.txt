@@ -1,0 +1,4 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060
+
+V1_CAPTURE {"checks":84,"failures":[]}

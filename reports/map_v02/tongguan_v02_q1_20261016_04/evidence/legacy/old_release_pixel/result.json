@@ -1,0 +1,8 @@
+{
+	"checks": 163,
+	"cycles": 50,
+	"failures": [],
+	"protected_pixel_sha256": "14a223932c9f7130fa3eae48f10cd939cd1f9fc26a9edc0dcfa6bc5489a1b47a",
+	"publication_path": "H:/tongguan_reviewfix_20261015/review-work/map_v02/q1_old_release_pixel_control/isolated_user_data/tongguan_slice_v01_final/tests/final_native_publication.json",
+	"publication_sha256": "858d2624188117860ef98e38f217d16be5ea9006eabc7b576f8d0f4a9cd541e9"
+}

@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "docs/map_v02/V2_RELIEF_R01.md",
+      "sha256": "a55746322247f34b738e3f720368a2ecbe11bcbac41dbe2f7927729c9fa95184"
+    },
+    {
+      "path": "tools/map_v02/relief_r01_build.py",
+      "sha256": "eefc100bad645ce99af3f54b6e8af507e26762dbe48a599829fd97f42db609a6"
+    },
+    {
+      "path": "tools/map_v02/relief_r01_finalize.py",
+      "sha256": "3602455ae4672c2bc4d2c2835ebe3226161435c594ec33669d6ad4817c38b2cb"
+    },
+    {
+      "path": "tools/map_v02/relief_r01_native.py",
+      "sha256": "97572d9a3470762d7fb62ef73303b855c7f05cb5ea731d47f0cca790f023f8db"
+    },
+    {
+      "path": "tools/map_v02/relief_r01_prepare.py",
+      "sha256": "27ecad21267806fd1fc120c23689546576cbfc7d5114c20b7e2847fb5ae6e13e"
+    },
+    {
+      "path": "tools/map_v02/test_relief_r01.py",
+      "sha256": "fdee7387f630295c901093126892cfb08a70d8a04c8d9817b4606e93b63ac817"
+    }
+  ]
+}

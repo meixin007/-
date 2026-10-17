@@ -1,0 +1,6 @@
+{
+	"checks": 26,
+	"failures": [
+		"fixed render target independent of client scaling"
+	]
+}

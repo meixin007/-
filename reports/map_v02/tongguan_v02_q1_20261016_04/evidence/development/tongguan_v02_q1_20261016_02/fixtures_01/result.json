@@ -1,0 +1,88 @@
+{
+  "build_id": "tongguan_v02_q1_20261016_02",
+  "run_id": "fixtures_01",
+  "mode": "fixtures",
+  "command": [
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_02\\CLEAN_WINDOWS\\TongguanQ1.exe",
+    "--fullscreen",
+    "--log-file",
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_02\\fixtures_01\\runtime.log",
+    "--",
+    "--q1=fixtures",
+    "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_02\\fixtures_01\\engine_result.json",
+    "--seconds=60",
+    "--warmup=10"
+  ],
+  "pid": 7904,
+  "popen_monotonic_ns": 141551328000000,
+  "exit_code": 0,
+  "timed_out": false,
+  "seconds": 15.530999999988126,
+  "diagnostics": [],
+  "memory": {
+    "private_peak_bytes": 1497030656,
+    "gpu_peak_bytes": 170651648,
+    "gpu_samples": 26,
+    "gpu_budget_verified": true,
+    "private_budget_passed": true,
+    "gpu_budget_passed": true
+  },
+  "first_process_run": false,
+  "os_disk_cache_cold_claim": false,
+  "external_presentation_timestamp": null,
+  "artifacts": {
+    "TongguanQ1.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanQ1.pck": "543dbfb64b67f75ef8eeefe5b3ec4fde8c36e46fab88f73f5c6c0b6d033ef234"
+  },
+  "measurement_source": {
+    "frame": "Godot monotonic main-loop intervals; every interval retained",
+    "gpu": "Windows WDDM GPUProcessMemory DedicatedUsage, summed per process across adapter instances",
+    "private": "GetProcessMemoryInfo PrivateUsage; not working-set substitute"
+  },
+  "execution_passed": true,
+  "budget_passed": null,
+  "gpu_counter_missing_samples": 1,
+  "engine_summary": {
+    "actual_viewport": [
+      1920,
+      1080
+    ],
+    "backend": {
+      "gets": 2953,
+      "premature_gets": 0,
+      "requests": 2953
+    },
+    "checks": 1441,
+    "engine": {
+      "build": "official",
+      "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+      "hex": 263681,
+      "major": 4,
+      "minor": 6,
+      "patch": 1,
+      "status": "stable",
+      "string": "4.6.1-stable (official)",
+      "timestamp": 0
+    },
+    "failures": [],
+    "remaining": {
+      "consumers": 0,
+      "decoded_reserved": 0,
+      "external_alive_bytes": 0,
+      "inflight": 0,
+      "ready": 0,
+      "reserved": 0,
+      "resident": 0,
+      "resources": 0,
+      "total": 0
+    },
+    "same_map_service": "res://v02/c1/map_service.gd"
+  },
+  "raw_complete_result": {
+    "archive": "H:\\tongguan_reviewfix_20261015\\reports\\map_v02\\tongguan_v02_q1_20261016_04\\evidence\\raw_duplicate_results.zip",
+    "member": "evidence/development/tongguan_v02_q1_20261016_02/fixtures_01/result.json",
+    "sha256": "6efdd5a9aaed6edc2dd84f06ddf635175bc779828ba4ea5d92d42294d8f59c7f",
+    "uncompressed_bytes": 119357775,
+    "scope": "The original unmodified JSON, including the embedded complete engine result. Adjacent engine_result.json also remains unmodified."
+  }
+}

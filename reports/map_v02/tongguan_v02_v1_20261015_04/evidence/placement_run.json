@@ -1,0 +1,15 @@
+{
+  "command": [
+    "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+    "--headless",
+    "--path",
+    "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\authoring",
+    "--script",
+    "H:\\tongguan_reviewfix_20261015\\tools\\map_v02\\v1_check_placement.gd",
+    "--",
+    "--report=H:\\tongguan_reviewfix_20261015\\reports\\map_v02\\tongguan_v02_v1_20261015_04\\evidence\\placement_result.json"
+  ],
+  "exit_code": 0,
+  "diagnostics": [],
+  "passed": true
+}

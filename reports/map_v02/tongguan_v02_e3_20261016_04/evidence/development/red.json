@@ -1,0 +1,6 @@
+{
+	"checks": 0,
+	"failures": [
+		"E3 lifecycle implementation missing"
+	]
+}

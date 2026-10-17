@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "stage": "Q1",
+  "frozen_before_formal_measurement": true,
+  "engine": "Godot 4.6.1 Compatibility Windows x86_64 release",
+  "actual_render_buffer": [1920, 1080],
+  "normal": {
+    "runs_seconds": [60, 60, 60, 300],
+    "warmup_seconds_per_run": 10,
+    "p95_ms_max": 16.7,
+    "p99_ms_max": 25,
+    "private_bytes_max": 4294967296,
+    "measured_gpu_dedicated_bytes_max": 1610612736,
+    "texture_soft_bytes": 268435456,
+    "texture_hard_bytes": 335544320,
+    "decoded_bytes": 67108864,
+    "concurrency": 2,
+    "attach_usec": 2000,
+    "grace_usec": 2000000,
+    "outlier_trimming": false,
+    "max_fps": 0,
+    "vsync": "disabled, preserved from C1"
+  },
+  "engineering": {
+    "stream": {"rounds": 20, "fine_pages": 256, "soft_bytes": 4194304, "hard_bytes": 8388608, "decoded_bytes": 4194304, "minimum_unique_visited_bytes": 12582913},
+    "query_records": [1000, 10000, 100000],
+    "sites": {"proxies": 32, "detailed_payloads": 4},
+    "labels": {"world_labels": 2000, "screen_limit": 64},
+    "slow_threshold_rounds_each": 20,
+    "small_jitter_zoom_factors": [0.98, 1.02],
+    "timed_threshold_step_seconds": 0.02,
+    "ab": {"mode": "unchanged original v0.1 painter and art, legacy cache/plan vs E2/E3 compatibility facade", "runs_seconds": [60, 60], "target_C1_timings_separate": true}
+  },
+  "evidence": {
+    "frames": "every monotonic main-loop interval; warmup and steady identified; every long frame retained",
+    "gpu": "actual Windows WDDM GPUProcessMemory DedicatedUsage; per-process sum across adapter instances",
+    "logical_texture_bytes": "separate from WDDM and Godot render-memory counters",
+    "startup": "engine-ready and frame_post_draw stages; unobservable GPU presentation timestamp remains null",
+    "screenshots": "outside steady frame sampling only"
+  }
+}

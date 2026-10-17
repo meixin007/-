@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "baseline_commit": "62546a547895e1a6185904ad60bf15fa58c03244",
+  "protected_baseline_files": 851,
+  "changed_paths": [
+    "docs/map_v02/S0_IMPLEMENTATION.md",
+    "docs/map_v02/S0_METRICS.md",
+    "samples/tongguan_v01/V02_SOURCE_MANIFEST.json",
+    "samples/tongguan_v01/runtime/army/session.gd",
+    "samples/tongguan_v01/runtime/review/canvas.gd",
+    "samples/tongguan_v01/runtime/runtime/asset_cache.gd",
+    "samples/tongguan_v01/runtime/runtime/city_canvas.gd",
+    "samples/tongguan_v01/runtime/tests/v02/test_s0_contract.gd",
+    "samples/tongguan_v01/runtime/v02/boot.gd",
+    "samples/tongguan_v01/runtime/v02/main.tscn",
+    "samples/tongguan_v01/runtime/v02/map_services.gd",
+    "samples/tongguan_v01/runtime/v02/probe.gd",
+    "samples/tongguan_v01/runtime/v02/profiles.json",
+    "samples/tongguan_v01/runtime/v02/service_selection.gd",
+    "schemas/map_v02/s0_scope.json",
+    "tools/map_v02/build_s0.py",
+    "tools/map_v02/check_source.py",
+    "tools/map_v02/common.py",
+    "tools/map_v02/finalize_s0.py",
+    "tools/map_v02/run_native.py",
+    "tools/map_v02/run_profiles.py",
+    "verify_repository.py"
+  ],
+  "errors": []
+}

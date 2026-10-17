@@ -1,0 +1,33 @@
+{
+  "stage": "Q1",
+  "build_id": "tongguan_v02_q1_20261016_04",
+  "sealed_utc": "2026-10-17T08:31:34.463485+00:00",
+  "engineering": "passed",
+  "compatibility_protection": "passed",
+  "performance": "passed_on_recorded_device_1080p",
+  "visual": "accepted_C1_inherited_with_zero_map_pixel_delta",
+  "history": "provenance_recorded_exact_756_not_signed",
+  "national_capacity": "not_claimed",
+  "local_release": "validated",
+  "required_matrix_cases": 35,
+  "legacy_suites": 19,
+  "old_files_unchanged": 1939,
+  "normal_steady_frames": 312775,
+  "art_overwritten": false,
+  "new_ai_art_count": 0,
+  "author_acceptance": "C1 user approval; Q1 contains no new visual art to approve",
+  "artifacts": {
+    "Start-Q1.cmd": {
+      "sha256": "1f12f3824cab14fa87a12cc59b1511f6a0bd7bed12fe0e545bde178de708b063",
+      "bytes": 53
+    },
+    "TongguanQ1.exe": {
+      "sha256": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+      "bytes": 104576512
+    },
+    "TongguanQ1.pck": {
+      "sha256": "7c88248c6045208ed605b868ce5d6705bbf1166f9512f76053ed9817c5554508",
+      "bytes": 94910476
+    }
+  }
+}

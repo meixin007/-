@@ -1,0 +1,243 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "name": "old_document",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\plugin-source",
+        "--script",
+        "res://tests/test_document.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\old_document\\details.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.843,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "art_import",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\plugin-source",
+        "--script",
+        "res://tests/test_art_import_feedback.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\art_import\\details.json"
+      ],
+      "exit_code": 0,
+      "seconds": 1.031,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "geometry",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\authoring",
+        "--script",
+        "res://tests/test_review_geometry.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\geometry\\details.json"
+      ],
+      "exit_code": 0,
+      "seconds": 3.063,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "ownership",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+        "--script",
+        "res://tests/test_review_ownership.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\ownership\\details.json"
+      ],
+      "exit_code": 0,
+      "seconds": 3.531,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "publication",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+        "--script",
+        "res://tests/test_final_publication.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\publication\\details.json"
+      ],
+      "exit_code": 0,
+      "seconds": 3.437,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "view",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+        "--script",
+        "res://tests/test_r4_view.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\view\\details.json"
+      ],
+      "exit_code": 0,
+      "seconds": 3.438,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "passage",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+        "--script",
+        "res://tests/test_r3_passage.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\passage\\details.json"
+      ],
+      "exit_code": 0,
+      "seconds": 5.297,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "construction",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+        "--script",
+        "res://tests/test_construction.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\construction\\details.json"
+      ],
+      "exit_code": 0,
+      "seconds": 5.765,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "save_migration",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+        "--script",
+        "res://tests/test_r5_saves.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\save_migration\\details.json"
+      ],
+      "exit_code": 0,
+      "seconds": 5.86,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "original_host",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+        "--script",
+        "res://tests/test_original_host.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\original_host\\details.json"
+      ],
+      "exit_code": 0,
+      "seconds": 29.578,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "manual_layout",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\authoring",
+        "--script",
+        "res://tests/test_final_layout.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\manual_layout\\details.json"
+      ],
+      "exit_code": 0,
+      "seconds": 22.328,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "authoring",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\authoring",
+        "--script",
+        "res://tests/test_r3_authoring.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\authoring\\details.json"
+      ],
+      "exit_code": 0,
+      "seconds": 27.563,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "size_guard",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\authoring",
+        "--script",
+        "res://tests/test_r3_size_guard.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\size_guard\\details.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.938,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "s0_contract",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+        "--script",
+        "res://tests/v02/test_s0_contract.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\s0_contract\\details.json"
+      ],
+      "exit_code": 0,
+      "seconds": 3.625,
+      "diagnostics": [],
+      "passed": true
+    }
+  ]
+}

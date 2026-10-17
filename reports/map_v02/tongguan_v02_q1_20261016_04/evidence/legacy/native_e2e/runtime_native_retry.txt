@@ -1,0 +1,11 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060
+
+R3_OPTION 命令路线：合成险径 selected=1
+R3_ORDINARY idle 未执行：合成险径仅允许轻装配置，普通军队禁行。
+R3_OPTION 轻装配置（同一验证部队） selected=1
+R3_LIGHT light 未执行：合成险径尚未为该验证部队所知。
+R3_OPTION 普通军队配置 selected=1
+R3_SCENE: {"checks":57,"failures":["actual authoring tool publication is available for end-to-end import","native publication updates only art while preserving clock, army, city and money"]}
+FAIL: actual authoring tool publication is available for end-to-end import
+FAIL: native publication updates only art while preserving clock, army, city and money

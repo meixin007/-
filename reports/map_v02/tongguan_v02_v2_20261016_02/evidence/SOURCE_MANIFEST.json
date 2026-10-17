@@ -1,0 +1,64 @@
+{
+  "stage": "V2",
+  "build_id": "tongguan_v02_v2_20261016_02",
+  "status": "candidate_pending_user_review",
+  "v1_manifest_sha256": "273a6cc7df4ed91d1be3d7e15af26b0e9ab0cb0463a96e2011873e806f6cc773",
+  "files": [
+    {
+      "path": "samples/tongguan_v01/runtime/v02/v2/adapter.gd",
+      "sha256": "a06e44a5d76b024334e7f80ac662dc6279e9e502f59531f838d80a787a0634ac"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/v2/app.gd",
+      "sha256": "c20eea05e946112f080130f31bc7dfe5f650637fdbd13fdccf23db5aa3d21149"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/v2/assets/barracks_v01.png",
+      "sha256": "ad392cccc3cbeef7fc1f2bb2c1a6090a2687ba9160d52540900af6188b230139"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/v2/assets/wall_damaged_v01.png",
+      "sha256": "93bfcd4b9f2c264cbc53080baf4425e01f05419df25a695aef2d14bd96ee7252"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/v2/assets/warehouse_damaged_v01.png",
+      "sha256": "3c0bc4eb8c82a274e85d8ca799d5227c0ec9f3934d6085c2f58804b4b247d62e"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/v2/assets.json",
+      "sha256": "d4616287144fba54183834fe2efde14ea9de0e195c40188c5b77c689e3eb2469"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/v2/boot.gd",
+      "sha256": "6a2f22a8edb67af9a3178440739cea3c81ed02c19079af1089b931d381059eac"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/v2/canvas.gd",
+      "sha256": "9b8852f3d14d0ceaca0f05aa886bbdddced83a4367172511858d64840cb4940f"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/v2/capture.gd",
+      "sha256": "eb43337f1b8926c6b20549362d18756a616c95164a512bd05d6104c2205e418e"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/v2/checks.gd",
+      "sha256": "7bf1ecc58e7f90246858152fe279b31bc5004027d84dae72ae3f81303099a9e9"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/v2/composition.tscn",
+      "sha256": "9d8ad95de03b26ba2406a5fdb931fd2f234f12beb4af2e28f1bd00bd6bac4f26"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/v2/generation_prompts.json",
+      "sha256": "c3a805c9af33730d6445c033d1e138de5bfba7ce9582084de8c3a59820cbe1d2"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/v2/main.tscn",
+      "sha256": "76f34ef96d9646f1055b9d2e1ee7b25a02df61668ae1da3b11ebcf143eaffe35"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/v2/session.gd",
+      "sha256": "5968b3395c64d49901c314425f9ccf67dbe90b7b72946ed3323f51423bd108a7"
+    }
+  ]
+}

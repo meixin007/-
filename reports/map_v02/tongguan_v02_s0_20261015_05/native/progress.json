@@ -1,0 +1,192 @@
+{
+  "build_id": "tongguan_v02_s0_20261015_05",
+  "results": [
+    {
+      "name": "legacy_verify",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "H:\\tongguan_reviewfix_20261015\\tools\\map_v02\\run_native.py",
+        "--build-id",
+        "tongguan_v02_s0_20261015_05",
+        "--output",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_05\\native\\legacy_verify",
+        "--legacy-check",
+        "verify"
+      ],
+      "runner_exit_code": 0,
+      "execution_passed": true,
+      "percentile_budget_passed": null,
+      "performance_acceptance_eligible": false
+    },
+    {
+      "name": "tree_edges",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "H:\\tongguan_reviewfix_20261015\\tools\\map_v02\\run_native.py",
+        "--build-id",
+        "tongguan_v02_s0_20261015_05",
+        "--output",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_05\\native\\tree_edges",
+        "--legacy-check",
+        "tree_edges"
+      ],
+      "runner_exit_code": 0,
+      "execution_passed": true,
+      "percentile_budget_passed": null,
+      "performance_acceptance_eligible": false
+    },
+    {
+      "name": "01_legacy_60s",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "H:\\tongguan_reviewfix_20261015\\tools\\map_v02\\run_native.py",
+        "--build-id",
+        "tongguan_v02_s0_20261015_05",
+        "--output",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_05\\native\\01_legacy_60s",
+        "--mode",
+        "legacy",
+        "--seconds",
+        "60"
+      ],
+      "runner_exit_code": 0,
+      "execution_passed": true,
+      "percentile_budget_passed": true,
+      "performance_acceptance_eligible": true
+    },
+    {
+      "name": "02_v02_60s",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "H:\\tongguan_reviewfix_20261015\\tools\\map_v02\\run_native.py",
+        "--build-id",
+        "tongguan_v02_s0_20261015_05",
+        "--output",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_05\\native\\02_v02_60s",
+        "--mode",
+        "v02",
+        "--seconds",
+        "60"
+      ],
+      "runner_exit_code": 0,
+      "execution_passed": true,
+      "percentile_budget_passed": true,
+      "performance_acceptance_eligible": true
+    },
+    {
+      "name": "03_v02_60s",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "H:\\tongguan_reviewfix_20261015\\tools\\map_v02\\run_native.py",
+        "--build-id",
+        "tongguan_v02_s0_20261015_05",
+        "--output",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_05\\native\\03_v02_60s",
+        "--mode",
+        "v02",
+        "--seconds",
+        "60"
+      ],
+      "runner_exit_code": 0,
+      "execution_passed": true,
+      "percentile_budget_passed": true,
+      "performance_acceptance_eligible": true
+    },
+    {
+      "name": "04_legacy_60s",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "H:\\tongguan_reviewfix_20261015\\tools\\map_v02\\run_native.py",
+        "--build-id",
+        "tongguan_v02_s0_20261015_05",
+        "--output",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_05\\native\\04_legacy_60s",
+        "--mode",
+        "legacy",
+        "--seconds",
+        "60"
+      ],
+      "runner_exit_code": 0,
+      "execution_passed": true,
+      "percentile_budget_passed": true,
+      "performance_acceptance_eligible": true
+    },
+    {
+      "name": "05_legacy_60s",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "H:\\tongguan_reviewfix_20261015\\tools\\map_v02\\run_native.py",
+        "--build-id",
+        "tongguan_v02_s0_20261015_05",
+        "--output",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_05\\native\\05_legacy_60s",
+        "--mode",
+        "legacy",
+        "--seconds",
+        "60"
+      ],
+      "runner_exit_code": 0,
+      "execution_passed": true,
+      "percentile_budget_passed": true,
+      "performance_acceptance_eligible": true
+    },
+    {
+      "name": "06_v02_60s",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "H:\\tongguan_reviewfix_20261015\\tools\\map_v02\\run_native.py",
+        "--build-id",
+        "tongguan_v02_s0_20261015_05",
+        "--output",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_05\\native\\06_v02_60s",
+        "--mode",
+        "v02",
+        "--seconds",
+        "60"
+      ],
+      "runner_exit_code": 0,
+      "execution_passed": true,
+      "percentile_budget_passed": true,
+      "performance_acceptance_eligible": true
+    },
+    {
+      "name": "07_legacy_300s",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "H:\\tongguan_reviewfix_20261015\\tools\\map_v02\\run_native.py",
+        "--build-id",
+        "tongguan_v02_s0_20261015_05",
+        "--output",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_05\\native\\07_legacy_300s",
+        "--mode",
+        "legacy",
+        "--seconds",
+        "300"
+      ],
+      "runner_exit_code": 0,
+      "execution_passed": true,
+      "percentile_budget_passed": true,
+      "performance_acceptance_eligible": true
+    },
+    {
+      "name": "08_v02_300s",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "H:\\tongguan_reviewfix_20261015\\tools\\map_v02\\run_native.py",
+        "--build-id",
+        "tongguan_v02_s0_20261015_05",
+        "--output",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_05\\native\\08_v02_300s",
+        "--mode",
+        "v02",
+        "--seconds",
+        "300"
+      ],
+      "runner_exit_code": 0,
+      "execution_passed": true,
+      "percentile_budget_passed": true,
+      "performance_acceptance_eligible": true
+    }
+  ],
+  "complete": false
+}

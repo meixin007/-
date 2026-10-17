@@ -1,0 +1,275 @@
+{
+  "stage": "V1",
+  "style_id": "tang_ink_wash_v02_candidate_a01",
+  "bounds_local_m": [
+    -1024,
+    -1024,
+    2048,
+    1536
+  ],
+  "core_m": 512,
+  "core_px": 1024,
+  "gutter_px": 4,
+  "tiles": [
+    {
+      "kind": "ground",
+      "path": "res://v02/v1/assets/terrain_v01/ground_0_0.png",
+      "left_m": -1024,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "62a5614614940e09c2ebf52325ed4cdfad0e67bc300da109ef568f89eb11e45c"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/v1/assets/terrain_v01/water_0_0.png",
+      "left_m": -1024,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "8ba9be9ba9a450c9c95955308467f581a4dcde83223375bcecb440e0febe8b21"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/v1/assets/terrain_v01/ground_1_0.png",
+      "left_m": -512,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "53a02d594e7cf622c5a294d71e280971ea716667580c3660fbd9aaa31f37a657"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/v1/assets/terrain_v01/water_1_0.png",
+      "left_m": -512,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "31ee01a51ebcdf06488803bac850dd45d5a2315dc0e16ebbe37f1ba67fef2121"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/v1/assets/terrain_v01/ground_2_0.png",
+      "left_m": 0,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "028473351c94bf8102262c0406e8d53b5712f9682f6ea28caffb0ebc53eb4e46"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/v1/assets/terrain_v01/water_2_0.png",
+      "left_m": 0,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "fb121b637e56ea2611323ff67c8b2a6adaba47f8dbc0cfc1e750ac92693be993"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/v1/assets/terrain_v01/ground_3_0.png",
+      "left_m": 512,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "157eac65f77afb49d8ebf78cdbb1dbe62bce7af67e2e3389cf5df861ca0ec047"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/v1/assets/terrain_v01/water_3_0.png",
+      "left_m": 512,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "b109c75e2dc781f8f8f2b68cb211e864cd9c2a98714ac4b8ca7951313ccf79e6"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/v1/assets/terrain_v01/ground_0_1.png",
+      "left_m": -1024,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "5bdaeffc942c690c145e7152a0259abcfdfd63085297856d272f44308dd8ecd0"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/v1/assets/terrain_v01/water_0_1.png",
+      "left_m": -1024,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "da41fa02af52727ff92d9de4d1dbf4538b3cdb8e0afcc5f93564f6be673f0a1e"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/v1/assets/terrain_v01/ground_1_1.png",
+      "left_m": -512,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "b8faf6caed906d64d67fae9b2e2274c199906eba1ab033ca3d42baa016021ae6"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/v1/assets/terrain_v01/water_1_1.png",
+      "left_m": -512,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "8f3199b24781377f9ea16551ced88beac938b239ad901bf6287a943440015920"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/v1/assets/terrain_v01/ground_2_1.png",
+      "left_m": 0,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "7e2b6f18507e08f99ea720a0599ba9a6e8fedfe63b6577355148f2a5c5105663"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/v1/assets/terrain_v01/water_2_1.png",
+      "left_m": 0,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "281672dcc61bb26a2e02911f63254107190b676e49d3eabfb6c917455710fefb"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/v1/assets/terrain_v01/ground_3_1.png",
+      "left_m": 512,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "3957bc7450116ed05073c5f85e25600cbe7c4fb84350c0fa082c6d3a5457c734"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/v1/assets/terrain_v01/water_3_1.png",
+      "left_m": 512,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "298d05a9f5c77951948d046bca1ff4db139fffa4c4bd66a8421ee54beee94788"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/v1/assets/terrain_v01/ground_0_2.png",
+      "left_m": -1024,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "2a3ccc7a77f56b2565f62876a05c3a7adf2ddd3e2c6c4fba8471ef07b1ce4231"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/v1/assets/terrain_v01/water_0_2.png",
+      "left_m": -1024,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "93a5d3cbc3198bd9a1a08f8420bf37d772c118d210dde849ff18b609bcfd85ea"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/v1/assets/terrain_v01/ground_1_2.png",
+      "left_m": -512,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "f73984b452b7f6ca0d242e6af6aceb04e57d5d7ba7f030566efb6a892279bdb0"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/v1/assets/terrain_v01/water_1_2.png",
+      "left_m": -512,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "f0467b820cac4dc09fda896050c5eb1d37bdbfc02bfd8424bf28e50056c5ee1b"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/v1/assets/terrain_v01/ground_2_2.png",
+      "left_m": 0,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "de19c9b9eefd7ec0dbcf3e5a850934cc2acc0948ecb948f089412d11a269fc59"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/v1/assets/terrain_v01/water_2_2.png",
+      "left_m": 0,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "65cea15dd91bae3bbf375707681d44500dff88f87ef823148287c4c3ca189a80"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/v1/assets/terrain_v01/ground_3_2.png",
+      "left_m": 512,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "e46aa04705ca0a71cb63146459657c55bc891edb254a075366a527bf40a861ba"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/v1/assets/terrain_v01/water_3_2.png",
+      "left_m": 512,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 4,
+      "ppm": 2.0,
+      "sha256": "9d1d6ed2e3c7e7bd75a87103da660aa2ff618e2d40289fd8435f8598768084b5"
+    }
+  ],
+  "numeric_source_sha256": "2384f254107aec65664af1169f005a9297de71a7000732aec87c08d59282a87f",
+  "water_source_sha256": "b5077c55a773faf1e74acaf07b285d892046f642011b8ec99f92a2d4b3924a0d",
+  "palette": {
+    "paper": "e4dcc2",
+    "land": "c5c3a0",
+    "ridge": "999c79",
+    "shadow": "8e9477",
+    "water": "91b7b6",
+    "deep_water": "7a9da1",
+    "shore": "bbb28e",
+    "road": "d2bb8c",
+    "ink": "555346",
+    "wall": "ddcdb0",
+    "roof": "788394",
+    "tree": "899274"
+  },
+  "algorithm": "continuous_DSM_wash_v01_global_mask",
+  "world_sampling_seed": 11,
+  "historical_accuracy": "modern_reference_only",
+  "status": "candidate_pending_user_review"
+}

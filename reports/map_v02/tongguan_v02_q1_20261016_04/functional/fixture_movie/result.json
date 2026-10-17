@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "command": [
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\CLEAN_WINDOWS\\TongguanQ1.exe",
+    "--fullscreen",
+    "--write-movie",
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\fixture_movie\\fixtures.avi",
+    "--fixed-fps",
+    "30",
+    "--log-file",
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\fixture_movie\\runtime.log",
+    "--",
+    "--q1=fixtures",
+    "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\fixture_movie\\engine_result.json"
+  ],
+  "diagnostics": [],
+  "checks": 1458,
+  "failures": [],
+  "movie_sha256": "47abb19eb40c01921592d7c57ce97dee83a89a45435f90a529a6524d4c5fa77b",
+  "movie_bytes": 463665608,
+  "actual_viewport": [
+    1920,
+    1080
+  ],
+  "artifacts": {
+    "TongguanQ1.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanQ1.pck": "7c88248c6045208ed605b868ce5d6705bbf1166f9512f76053ed9817c5554508"
+  },
+  "scope": "Unedited Godot native MovieWriter at fixed 30 fps: supplementary visual trajectory evidence only. Formal real-time frame measurements are separate, uncapped, and contain no capture readback."
+}

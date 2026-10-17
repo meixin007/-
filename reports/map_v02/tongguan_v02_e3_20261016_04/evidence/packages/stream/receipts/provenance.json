@@ -1,0 +1,9 @@
+{
+  "kind": "synthetic_stream_fixture",
+  "generator_version": "e3_continuous_8x32_v1",
+  "historical_content": false,
+  "unique_textures": 261,
+  "unique_rgba8_bytes": 72762624,
+  "core_px": 256,
+  "reason": "lower-resolution engineering pages; no new hand-painted art"
+}

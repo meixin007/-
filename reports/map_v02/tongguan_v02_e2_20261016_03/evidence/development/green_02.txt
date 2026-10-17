@@ -1,0 +1,35 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Cannot infer the type of "replacement" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://v02/e2/spatial_index.gd:93)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_e2_query.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://v02/e2/contract_checks.gd:0)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_e2_query.gd:12)
+ERROR: Failed to load script "res://v02/e2/contract_checks.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_e2_query.gd:12)
+SCRIPT ERROR: Invalid call. Nonexistent function 'new' in base 'GDScript'.
+   at: @implicit_new (res://v02/e2/visibility_planner.gd:3)
+   GDScript backtrace (most recent call first):
+       [0] @implicit_new (res://v02/e2/visibility_planner.gd:3)
+       [1] run (res://v02/e2/contract_checks.gd:28)
+       [2] run (res://tests/v02/test_e2_query.gd:13)
+SCRIPT ERROR: Invalid access to property or key 'snapshot_reads' on a base object of type 'Dictionary'.
+   at: sync_source (res://v02/e2/visibility_planner.gd:15)
+   GDScript backtrace (most recent call first):
+       [0] sync_source (res://v02/e2/visibility_planner.gd:15)
+       [1] run (res://v02/e2/contract_checks.gd:29)
+       [2] run (res://tests/v02/test_e2_query.gd:13)
+SCRIPT ERROR: Invalid access to property or key 'ok' on a base object of type 'Dictionary'.
+   at: run (res://v02/e2/contract_checks.gd:29)
+   GDScript backtrace (most recent call first):
+       [0] run (res://v02/e2/contract_checks.gd:29)
+       [1] run (res://tests/v02/test_e2_query.gd:13)
+SCRIPT ERROR: Invalid access to property or key 'checks' on a base object of type 'Dictionary'.
+   at: run (res://tests/v02/test_e2_query.gd:16)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_e2_query.gd:16)

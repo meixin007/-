@@ -1,0 +1,7 @@
+{
+	"checks": 57,
+	"failures": [
+		"actual authoring tool publication is available for end-to-end import",
+		"native publication updates only art while preserving clock, army, city and money"
+	]
+}

@@ -1,0 +1,81 @@
+{
+  "profiles": [
+    {
+      "profile": "E-query-1000",
+      "execution_passed": true,
+      "budget_passed": null,
+      "scope": "metadata query workload; no frozen absolute time budget",
+      "world_records": 1000,
+      "query_median_usec": 11.0,
+      "query_p95_usec": 12.0,
+      "index_build_usec": 27231,
+      "queries": 100,
+      "candidates_tested": 404,
+      "query_full_scans": 0,
+      "sort_rebuilds": 1
+    },
+    {
+      "profile": "E-query-10000",
+      "execution_passed": true,
+      "budget_passed": null,
+      "scope": "metadata query workload; no frozen absolute time budget",
+      "world_records": 10000,
+      "query_median_usec": 11.0,
+      "query_p95_usec": 12.0,
+      "index_build_usec": 293507,
+      "queries": 100,
+      "candidates_tested": 404,
+      "query_full_scans": 0,
+      "sort_rebuilds": 1
+    },
+    {
+      "profile": "E-query-100000",
+      "execution_passed": true,
+      "budget_passed": null,
+      "scope": "metadata query workload; no frozen absolute time budget",
+      "world_records": 100000,
+      "query_median_usec": 11.0,
+      "query_p95_usec": 13.0,
+      "index_build_usec": 3037204,
+      "queries": 100,
+      "candidates_tested": 404,
+      "query_full_scans": 0,
+      "sort_rebuilds": 1
+    },
+    {
+      "profile": "E-stream 4/8MiB",
+      "execution_passed": true,
+      "budget_passed": true,
+      "scope": "every-frame logical budget/concurrency + actual WDDM observed; separate from normal 256/320MiB"
+    },
+    {
+      "profile": "E-small / E-sites32-detailed4 / E-labels2000",
+      "execution_passed": true,
+      "budget_passed": null,
+      "scope": "correctness profiles; no invented frame-time threshold"
+    }
+  ],
+  "normal_budget": {
+    "runs_seconds": [
+      60,
+      60,
+      60,
+      300
+    ],
+    "warmup_seconds_per_run": 10,
+    "p95_ms_max": 16.7,
+    "p99_ms_max": 25,
+    "private_bytes_max": 4294967296,
+    "measured_gpu_dedicated_bytes_max": 1610612736,
+    "texture_soft_bytes": 268435456,
+    "texture_hard_bytes": 335544320,
+    "decoded_bytes": 67108864,
+    "concurrency": 2,
+    "attach_usec": 2000,
+    "grace_usec": 2000000,
+    "outlier_trimming": false,
+    "max_fps": 0,
+    "vsync": "disabled, preserved from C1"
+  },
+  "additional_exploration_not_run": "No unbounded national capacity or second device claim."
+}

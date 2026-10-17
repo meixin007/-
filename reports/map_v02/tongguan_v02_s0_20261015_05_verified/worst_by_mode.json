@@ -1,0 +1,14 @@
+{
+  "legacy": {
+    "worst_p95_ms": 7.496,
+    "worst_p99_ms": 8.968,
+    "private_peak_bytes": 380616704,
+    "gpu_dedicated_peak_bytes": 87900160
+  },
+  "v02": {
+    "worst_p95_ms": 7.406,
+    "worst_p99_ms": 8.927,
+    "private_peak_bytes": 379056128,
+    "gpu_dedicated_peak_bytes": 87900160
+  }
+}

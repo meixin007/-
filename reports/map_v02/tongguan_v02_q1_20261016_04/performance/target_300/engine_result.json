@@ -1,0 +1,2038 @@
+{
+	"actual_viewport": [
+		1920,
+		1080
+	],
+	"adapter": "NVIDIA GeForce RTX 4060",
+	"adapter_vendor": "NVIDIA",
+	"authority_final": {
+		"city": {
+			"gate_open": true,
+			"growth_stage": 1.0,
+			"layout_version": "tongguan_p4_layout_v02",
+			"module_damage": {
+				"gate": 0.0,
+				"tongguan.slot.civil_01": 0.0,
+				"tongguan.slot.civil_02": 0.0,
+				"tongguan.slot.expansion_01": 0.0,
+				"tongguan.slot.expansion_02": 0.0,
+				"tongguan.slot.rear_military_01": 0.0,
+				"tongguan.slot.rear_storage_01": 0.0,
+				"tongguan.slot.rear_support_01": 0.0,
+				"tongguan.slot.rear_workshop_01": 0.0,
+				"wall_east": 0.0,
+				"wall_west": 0.0
+			},
+			"revision": 0.0,
+			"site_id": "tongguan",
+			"slot_occupancy": {
+				"tongguan.slot.civil_01": {
+					"building_id": "tongguan.slot.civil_01.building",
+					"building_type": "",
+					"status": "empty"
+				},
+				"tongguan.slot.civil_02": {
+					"building_id": "tongguan.slot.civil_02.building",
+					"building_type": "",
+					"status": "empty"
+				},
+				"tongguan.slot.expansion_01": {
+					"building_id": "tongguan.slot.expansion_01.building",
+					"building_type": "",
+					"status": "empty"
+				},
+				"tongguan.slot.expansion_02": {
+					"building_id": "tongguan.slot.expansion_02.building",
+					"building_type": "",
+					"status": "empty"
+				},
+				"tongguan.slot.rear_military_01": {
+					"building_id": "tongguan.slot.rear_military_01.building",
+					"building_type": "barracks",
+					"status": "built"
+				},
+				"tongguan.slot.rear_storage_01": {
+					"building_id": "tongguan.slot.rear_storage_01.building",
+					"building_type": "warehouse",
+					"status": "built"
+				},
+				"tongguan.slot.rear_support_01": {
+					"building_id": "tongguan.slot.rear_support_01.building",
+					"building_type": "",
+					"status": "empty"
+				},
+				"tongguan.slot.rear_workshop_01": {
+					"building_id": "tongguan.slot.rear_workshop_01.building",
+					"building_type": "",
+					"status": "empty"
+				}
+			}
+		},
+		"day": 3,
+		"force": {
+			"corridor_progress_days": 0.0,
+			"current_corridor_id": "",
+			"current_node_id": "tg_fore",
+			"display_name": "通行验收队",
+			"force_id": "tongguan_validation_force_01",
+			"morale": 80.0,
+			"movement_profile": "ordinary",
+			"rations_on_hand_days": 0.0,
+			"source_id": "fixture:tongguan_movement_validation_v1",
+			"supply_line_active": false,
+			"target_node_id": "",
+			"troop_tiers": {
+				"regular_field": 100.0
+			}
+		},
+		"order": {
+			"edge_index": 0,
+			"goal": "",
+			"graph_version": "tongguan_controlled_corridor_r3_v01",
+			"path_edges": [],
+			"path_known": false,
+			"path_nodes": [],
+			"receipts": [
+				{
+					"action": "construction",
+					"day": 0,
+					"gate_open": true,
+					"revision": 1
+				},
+				{
+					"action": "resume",
+					"day": 0,
+					"gate_open": true,
+					"revision": 2
+				},
+				{
+					"action": "shared_day",
+					"day": 1,
+					"gate_open": true,
+					"revision": 3
+				},
+				{
+					"action": "pause",
+					"day": 1,
+					"gate_open": true,
+					"revision": 4
+				},
+				{
+					"action": "resume",
+					"day": 1,
+					"gate_open": true,
+					"revision": 5
+				},
+				{
+					"action": "shared_day",
+					"day": 2,
+					"gate_open": true,
+					"revision": 6
+				},
+				{
+					"action": "pause",
+					"day": 2,
+					"gate_open": true,
+					"revision": 7
+				},
+				{
+					"action": "resume",
+					"day": 2,
+					"gate_open": true,
+					"revision": 8
+				},
+				{
+					"action": "shared_day",
+					"day": 3,
+					"gate_open": true,
+					"revision": 9
+				},
+				{
+					"action": "pause",
+					"day": 3,
+					"gate_open": true,
+					"revision": 10
+				}
+			],
+			"route_mode": "main",
+			"schema_version": 1,
+			"status": "idle"
+		},
+		"paused": true,
+		"revision": 10
+	},
+	"checks": 4,
+	"content_scale": "(1920, 1080)",
+	"display_scale": 1.0,
+	"duration_sec": 300.0,
+	"engine": {
+		"build": "official",
+		"hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+		"hex": 263681,
+		"major": 4,
+		"minor": 6,
+		"patch": 1,
+		"status": "stable",
+		"string": "4.6.1-stable (official)",
+		"timestamp": 0
+	},
+	"engine_started_to_app_ready_usec": 2345233,
+	"failures": [],
+	"first_details_ready_usec": 2969795,
+	"first_low_frame_post_draw_upper_bound_usec": 2934939,
+	"first_low_ready_usec": 2926311,
+	"first_presented_note": "not observable from these APIs; frame_post_draw is an engine-side upper-bound event, not a GPU presentation timestamp",
+	"frames_written": 200888,
+	"gpu_first_presented_usec": null,
+	"no_screenshot_readback_in_sample_loop": true,
+	"raw_frame_policy": "every interval retained; no outlier trimming",
+	"release_after_run": {
+		"consumers": 0,
+		"decoded_reserved": 0,
+		"external_alive_bytes": 0,
+		"inflight": 0,
+		"ready": 0,
+		"reserved": 0,
+		"resident": 0,
+		"resources": 0,
+		"total": 0
+	},
+	"rendering_method": "gl_compatibility",
+	"screen_dpi": 96,
+	"settings": {
+		"low_processor_usage_mode": false,
+		"max_fps": 0,
+		"vsync": 0
+	},
+	"startup": [
+		{
+			"duration_sec": 300.0,
+			"event": "app_ready",
+			"preset": "target",
+			"usec": 2845011,
+			"warmup_sec": 10.0
+		},
+		{
+			"event": "first_low_ready",
+			"usec": 2926311
+		},
+		{
+			"event": "first_low_frame_post_draw_upper_bound",
+			"usec": 2934939
+		},
+		{
+			"event": "first_details_ready",
+			"usec": 2969795
+		},
+		{
+			"actual_size": [
+				1920,
+				1080
+			],
+			"event": "startup_capture_outside_sampling",
+			"usec": 3116125
+		},
+		{
+			"duration_usec": 1496,
+			"event": "recorder_flush",
+			"usec": 3847349
+		},
+		{
+			"duration_usec": 230,
+			"event": "recorder_flush",
+			"usec": 4847784
+		},
+		{
+			"duration_usec": 98,
+			"event": "recorder_flush",
+			"usec": 5848333
+		},
+		{
+			"duration_usec": 289,
+			"event": "recorder_flush",
+			"usec": 6849880
+		},
+		{
+			"duration_usec": 141,
+			"event": "recorder_flush",
+			"usec": 7850322
+		},
+		{
+			"duration_usec": 136,
+			"event": "recorder_flush",
+			"usec": 8851098
+		},
+		{
+			"duration_usec": 101,
+			"event": "recorder_flush",
+			"usec": 9852490
+		},
+		{
+			"duration_usec": 96,
+			"event": "recorder_flush",
+			"usec": 10853705
+		},
+		{
+			"duration_usec": 92,
+			"event": "recorder_flush",
+			"usec": 11853887
+		},
+		{
+			"event": "steady_begin",
+			"usec": 12846463
+		},
+		{
+			"duration_usec": 96,
+			"event": "recorder_flush",
+			"usec": 12856896
+		},
+		{
+			"duration_usec": 87,
+			"event": "recorder_flush",
+			"usec": 13858122
+		},
+		{
+			"duration_usec": 94,
+			"event": "recorder_flush",
+			"usec": 14858590
+		},
+		{
+			"duration_usec": 111,
+			"event": "recorder_flush",
+			"usec": 15860395
+		},
+		{
+			"duration_usec": 102,
+			"event": "recorder_flush",
+			"usec": 16862272
+		},
+		{
+			"duration_usec": 134,
+			"event": "recorder_flush",
+			"usec": 17862528
+		},
+		{
+			"duration_usec": 156,
+			"event": "recorder_flush",
+			"usec": 18864020
+		},
+		{
+			"duration_usec": 94,
+			"event": "recorder_flush",
+			"usec": 19865571
+		},
+		{
+			"duration_usec": 304,
+			"event": "recorder_flush",
+			"usec": 20866963
+		},
+		{
+			"duration_usec": 205,
+			"event": "recorder_flush",
+			"usec": 21867218
+		},
+		{
+			"duration_usec": 246,
+			"event": "recorder_flush",
+			"usec": 22867896
+		},
+		{
+			"duration_usec": 259,
+			"event": "recorder_flush",
+			"usec": 23869817
+		},
+		{
+			"duration_usec": 98,
+			"event": "recorder_flush",
+			"usec": 24870651
+		},
+		{
+			"duration_usec": 95,
+			"event": "recorder_flush",
+			"usec": 25872496
+		},
+		{
+			"duration_usec": 145,
+			"event": "recorder_flush",
+			"usec": 26874349
+		},
+		{
+			"duration_usec": 117,
+			"event": "recorder_flush",
+			"usec": 27874619
+		},
+		{
+			"duration_usec": 142,
+			"event": "recorder_flush",
+			"usec": 28875154
+		},
+		{
+			"duration_usec": 229,
+			"event": "recorder_flush",
+			"usec": 29877935
+		},
+		{
+			"duration_usec": 172,
+			"event": "recorder_flush",
+			"usec": 30880145
+		},
+		{
+			"duration_usec": 85,
+			"event": "recorder_flush",
+			"usec": 31880257
+		},
+		{
+			"duration_usec": 96,
+			"event": "recorder_flush",
+			"usec": 32880489
+		},
+		{
+			"duration_usec": 93,
+			"event": "recorder_flush",
+			"usec": 33882826
+		},
+		{
+			"duration_usec": 91,
+			"event": "recorder_flush",
+			"usec": 34884049
+		},
+		{
+			"duration_usec": 152,
+			"event": "recorder_flush",
+			"usec": 35884754
+		},
+		{
+			"duration_usec": 106,
+			"event": "recorder_flush",
+			"usec": 36886298
+		},
+		{
+			"duration_usec": 77,
+			"event": "recorder_flush",
+			"usec": 37886510
+		},
+		{
+			"duration_usec": 66,
+			"event": "recorder_flush",
+			"usec": 38887910
+		},
+		{
+			"duration_usec": 81,
+			"event": "recorder_flush",
+			"usec": 39888492
+		},
+		{
+			"duration_usec": 442,
+			"event": "recorder_flush",
+			"usec": 40887917
+		},
+		{
+			"duration_usec": 607,
+			"event": "recorder_flush",
+			"usec": 41889317
+		},
+		{
+			"duration_usec": 154,
+			"event": "recorder_flush",
+			"usec": 42891127
+		},
+		{
+			"duration_usec": 157,
+			"event": "recorder_flush",
+			"usec": 43892116
+		},
+		{
+			"duration_usec": 109,
+			"event": "recorder_flush",
+			"usec": 44894004
+		},
+		{
+			"duration_usec": 191,
+			"event": "recorder_flush",
+			"usec": 45894950
+		},
+		{
+			"duration_usec": 146,
+			"event": "recorder_flush",
+			"usec": 46895580
+		},
+		{
+			"duration_usec": 196,
+			"event": "recorder_flush",
+			"usec": 47896132
+		},
+		{
+			"duration_usec": 354,
+			"event": "recorder_flush",
+			"usec": 48896403
+		},
+		{
+			"duration_usec": 166,
+			"event": "recorder_flush",
+			"usec": 49897064
+		},
+		{
+			"duration_usec": 190,
+			"event": "recorder_flush",
+			"usec": 50897248
+		},
+		{
+			"duration_usec": 286,
+			"event": "recorder_flush",
+			"usec": 51897680
+		},
+		{
+			"duration_usec": 285,
+			"event": "recorder_flush",
+			"usec": 52897941
+		},
+		{
+			"duration_usec": 281,
+			"event": "recorder_flush",
+			"usec": 53898717
+		},
+		{
+			"duration_usec": 200,
+			"event": "recorder_flush",
+			"usec": 54899125
+		},
+		{
+			"duration_usec": 235,
+			"event": "recorder_flush",
+			"usec": 55899731
+		},
+		{
+			"duration_usec": 226,
+			"event": "recorder_flush",
+			"usec": 56899872
+		},
+		{
+			"duration_usec": 217,
+			"event": "recorder_flush",
+			"usec": 57900844
+		},
+		{
+			"duration_usec": 168,
+			"event": "recorder_flush",
+			"usec": 58901608
+		},
+		{
+			"duration_usec": 319,
+			"event": "recorder_flush",
+			"usec": 59901853
+		},
+		{
+			"duration_usec": 239,
+			"event": "recorder_flush",
+			"usec": 60902438
+		},
+		{
+			"duration_usec": 165,
+			"event": "recorder_flush",
+			"usec": 61903743
+		},
+		{
+			"duration_usec": 175,
+			"event": "recorder_flush",
+			"usec": 62903843
+		},
+		{
+			"duration_usec": 227,
+			"event": "recorder_flush",
+			"usec": 63904271
+		},
+		{
+			"duration_usec": 203,
+			"event": "recorder_flush",
+			"usec": 64904805
+		},
+		{
+			"duration_usec": 254,
+			"event": "recorder_flush",
+			"usec": 65905170
+		},
+		{
+			"duration_usec": 322,
+			"event": "recorder_flush",
+			"usec": 66905411
+		},
+		{
+			"duration_usec": 278,
+			"event": "recorder_flush",
+			"usec": 67905829
+		},
+		{
+			"duration_usec": 284,
+			"event": "recorder_flush",
+			"usec": 68906228
+		},
+		{
+			"duration_usec": 342,
+			"event": "recorder_flush",
+			"usec": 69907618
+		},
+		{
+			"duration_usec": 141,
+			"event": "recorder_flush",
+			"usec": 70908326
+		},
+		{
+			"duration_usec": 1554,
+			"event": "recorder_flush",
+			"usec": 71911654
+		},
+		{
+			"duration_usec": 121,
+			"event": "recorder_flush",
+			"usec": 72911854
+		},
+		{
+			"duration_usec": 89,
+			"event": "recorder_flush",
+			"usec": 73912669
+		},
+		{
+			"duration_usec": 102,
+			"event": "recorder_flush",
+			"usec": 74914980
+		},
+		{
+			"duration_usec": 91,
+			"event": "recorder_flush",
+			"usec": 75914882
+		},
+		{
+			"duration_usec": 104,
+			"event": "recorder_flush",
+			"usec": 76915260
+		},
+		{
+			"duration_usec": 88,
+			"event": "recorder_flush",
+			"usec": 77915566
+		},
+		{
+			"duration_usec": 143,
+			"event": "recorder_flush",
+			"usec": 78917434
+		},
+		{
+			"duration_usec": 154,
+			"event": "recorder_flush",
+			"usec": 79918737
+		},
+		{
+			"duration_usec": 217,
+			"event": "recorder_flush",
+			"usec": 80920341
+		},
+		{
+			"duration_usec": 179,
+			"event": "recorder_flush",
+			"usec": 81921127
+		},
+		{
+			"duration_usec": 197,
+			"event": "recorder_flush",
+			"usec": 82922345
+		},
+		{
+			"duration_usec": 311,
+			"event": "recorder_flush",
+			"usec": 83924503
+		},
+		{
+			"duration_usec": 124,
+			"event": "recorder_flush",
+			"usec": 84924812
+		},
+		{
+			"duration_usec": 99,
+			"event": "recorder_flush",
+			"usec": 85924765
+		},
+		{
+			"duration_usec": 178,
+			"event": "recorder_flush",
+			"usec": 86926149
+		},
+		{
+			"duration_usec": 102,
+			"event": "recorder_flush",
+			"usec": 87926747
+		},
+		{
+			"duration_usec": 150,
+			"event": "recorder_flush",
+			"usec": 88927501
+		},
+		{
+			"duration_usec": 242,
+			"event": "recorder_flush",
+			"usec": 89929796
+		},
+		{
+			"duration_usec": 149,
+			"event": "recorder_flush",
+			"usec": 90931722
+		},
+		{
+			"duration_usec": 116,
+			"event": "recorder_flush",
+			"usec": 91933115
+		},
+		{
+			"duration_usec": 89,
+			"event": "recorder_flush",
+			"usec": 92933729
+		},
+		{
+			"duration_usec": 117,
+			"event": "recorder_flush",
+			"usec": 93935632
+		},
+		{
+			"duration_usec": 92,
+			"event": "recorder_flush",
+			"usec": 94937165
+		},
+		{
+			"duration_usec": 79,
+			"event": "recorder_flush",
+			"usec": 95939013
+		},
+		{
+			"duration_usec": 128,
+			"event": "recorder_flush",
+			"usec": 96939996
+		},
+		{
+			"duration_usec": 73,
+			"event": "recorder_flush",
+			"usec": 97941559
+		},
+		{
+			"duration_usec": 70,
+			"event": "recorder_flush",
+			"usec": 98942806
+		},
+		{
+			"duration_usec": 84,
+			"event": "recorder_flush",
+			"usec": 99944073
+		},
+		{
+			"duration_usec": 449,
+			"event": "recorder_flush",
+			"usec": 100945193
+		},
+		{
+			"duration_usec": 467,
+			"event": "recorder_flush",
+			"usec": 101945165
+		},
+		{
+			"duration_usec": 150,
+			"event": "recorder_flush",
+			"usec": 102945283
+		},
+		{
+			"duration_usec": 123,
+			"event": "recorder_flush",
+			"usec": 103946859
+		},
+		{
+			"duration_usec": 164,
+			"event": "recorder_flush",
+			"usec": 104947753
+		},
+		{
+			"duration_usec": 182,
+			"event": "recorder_flush",
+			"usec": 105948307
+		},
+		{
+			"duration_usec": 201,
+			"event": "recorder_flush",
+			"usec": 106948803
+		},
+		{
+			"duration_usec": 256,
+			"event": "recorder_flush",
+			"usec": 107948855
+		},
+		{
+			"duration_usec": 354,
+			"event": "recorder_flush",
+			"usec": 108949787
+		},
+		{
+			"duration_usec": 236,
+			"event": "recorder_flush",
+			"usec": 109950944
+		},
+		{
+			"duration_usec": 219,
+			"event": "recorder_flush",
+			"usec": 110950676
+		},
+		{
+			"duration_usec": 183,
+			"event": "recorder_flush",
+			"usec": 111951581
+		},
+		{
+			"duration_usec": 190,
+			"event": "recorder_flush",
+			"usec": 112951731
+		},
+		{
+			"duration_usec": 185,
+			"event": "recorder_flush",
+			"usec": 113952061
+		},
+		{
+			"duration_usec": 210,
+			"event": "recorder_flush",
+			"usec": 114952455
+		},
+		{
+			"duration_usec": 258,
+			"event": "recorder_flush",
+			"usec": 115952916
+		},
+		{
+			"duration_usec": 360,
+			"event": "recorder_flush",
+			"usec": 116953647
+		},
+		{
+			"duration_usec": 173,
+			"event": "recorder_flush",
+			"usec": 117953695
+		},
+		{
+			"duration_usec": 260,
+			"event": "recorder_flush",
+			"usec": 118954146
+		},
+		{
+			"duration_usec": 201,
+			"event": "recorder_flush",
+			"usec": 119954640
+		},
+		{
+			"duration_usec": 189,
+			"event": "recorder_flush",
+			"usec": 120955324
+		},
+		{
+			"duration_usec": 182,
+			"event": "recorder_flush",
+			"usec": 121955650
+		},
+		{
+			"duration_usec": 178,
+			"event": "recorder_flush",
+			"usec": 122955674
+		},
+		{
+			"duration_usec": 248,
+			"event": "recorder_flush",
+			"usec": 123956179
+		},
+		{
+			"duration_usec": 304,
+			"event": "recorder_flush",
+			"usec": 124956518
+		},
+		{
+			"duration_usec": 258,
+			"event": "recorder_flush",
+			"usec": 125956564
+		},
+		{
+			"duration_usec": 412,
+			"event": "recorder_flush",
+			"usec": 126956629
+		},
+		{
+			"duration_usec": 313,
+			"event": "recorder_flush",
+			"usec": 127956992
+		},
+		{
+			"duration_usec": 317,
+			"event": "recorder_flush",
+			"usec": 128958019
+		},
+		{
+			"duration_usec": 358,
+			"event": "recorder_flush",
+			"usec": 129960361
+		},
+		{
+			"duration_usec": 159,
+			"event": "recorder_flush",
+			"usec": 130961555
+		},
+		{
+			"duration_usec": 1481,
+			"event": "recorder_flush",
+			"usec": 131963093
+		},
+		{
+			"duration_usec": 84,
+			"event": "recorder_flush",
+			"usec": 132964109
+		},
+		{
+			"duration_usec": 86,
+			"event": "recorder_flush",
+			"usec": 133965849
+		},
+		{
+			"duration_usec": 102,
+			"event": "recorder_flush",
+			"usec": 134966316
+		},
+		{
+			"duration_usec": 85,
+			"event": "recorder_flush",
+			"usec": 135967558
+		},
+		{
+			"duration_usec": 85,
+			"event": "recorder_flush",
+			"usec": 136969678
+		},
+		{
+			"duration_usec": 89,
+			"event": "recorder_flush",
+			"usec": 137971406
+		},
+		{
+			"duration_usec": 99,
+			"event": "recorder_flush",
+			"usec": 138973963
+		},
+		{
+			"duration_usec": 156,
+			"event": "recorder_flush",
+			"usec": 139974742
+		},
+		{
+			"duration_usec": 276,
+			"event": "recorder_flush",
+			"usec": 140976258
+		},
+		{
+			"duration_usec": 219,
+			"event": "recorder_flush",
+			"usec": 141976615
+		},
+		{
+			"duration_usec": 233,
+			"event": "recorder_flush",
+			"usec": 142977231
+		},
+		{
+			"duration_usec": 250,
+			"event": "recorder_flush",
+			"usec": 143977704
+		},
+		{
+			"duration_usec": 138,
+			"event": "recorder_flush",
+			"usec": 144978157
+		},
+		{
+			"duration_usec": 91,
+			"event": "recorder_flush",
+			"usec": 145978385
+		},
+		{
+			"duration_usec": 196,
+			"event": "recorder_flush",
+			"usec": 146978177
+		},
+		{
+			"duration_usec": 106,
+			"event": "recorder_flush",
+			"usec": 147978501
+		},
+		{
+			"duration_usec": 235,
+			"event": "recorder_flush",
+			"usec": 148979285
+		},
+		{
+			"duration_usec": 169,
+			"event": "recorder_flush",
+			"usec": 149980010
+		},
+		{
+			"duration_usec": 153,
+			"event": "recorder_flush",
+			"usec": 150981038
+		},
+		{
+			"duration_usec": 89,
+			"event": "recorder_flush",
+			"usec": 151981631
+		},
+		{
+			"duration_usec": 133,
+			"event": "recorder_flush",
+			"usec": 152983829
+		},
+		{
+			"duration_usec": 113,
+			"event": "recorder_flush",
+			"usec": 153986953
+		},
+		{
+			"duration_usec": 109,
+			"event": "recorder_flush",
+			"usec": 154989962
+		},
+		{
+			"duration_usec": 133,
+			"event": "recorder_flush",
+			"usec": 155990443
+		},
+		{
+			"duration_usec": 81,
+			"event": "recorder_flush",
+			"usec": 156991660
+		},
+		{
+			"duration_usec": 76,
+			"event": "recorder_flush",
+			"usec": 157993228
+		},
+		{
+			"duration_usec": 69,
+			"event": "recorder_flush",
+			"usec": 158993227
+		},
+		{
+			"duration_usec": 81,
+			"event": "recorder_flush",
+			"usec": 159993408
+		},
+		{
+			"duration_usec": 375,
+			"event": "recorder_flush",
+			"usec": 160992809
+		},
+		{
+			"duration_usec": 451,
+			"event": "recorder_flush",
+			"usec": 161992781
+		},
+		{
+			"duration_usec": 137,
+			"event": "recorder_flush",
+			"usec": 162992881
+		},
+		{
+			"duration_usec": 112,
+			"event": "recorder_flush",
+			"usec": 163993669
+		},
+		{
+			"duration_usec": 128,
+			"event": "recorder_flush",
+			"usec": 164994162
+		},
+		{
+			"duration_usec": 190,
+			"event": "recorder_flush",
+			"usec": 165994847
+		},
+		{
+			"duration_usec": 145,
+			"event": "recorder_flush",
+			"usec": 166994653
+		},
+		{
+			"duration_usec": 167,
+			"event": "recorder_flush",
+			"usec": 167995570
+		},
+		{
+			"duration_usec": 289,
+			"event": "recorder_flush",
+			"usec": 168995418
+		},
+		{
+			"duration_usec": 203,
+			"event": "recorder_flush",
+			"usec": 169995969
+		},
+		{
+			"duration_usec": 178,
+			"event": "recorder_flush",
+			"usec": 170996161
+		},
+		{
+			"duration_usec": 275,
+			"event": "recorder_flush",
+			"usec": 171996567
+		},
+		{
+			"duration_usec": 183,
+			"event": "recorder_flush",
+			"usec": 172997729
+		},
+		{
+			"duration_usec": 159,
+			"event": "recorder_flush",
+			"usec": 173998190
+		},
+		{
+			"duration_usec": 215,
+			"event": "recorder_flush",
+			"usec": 174999101
+		},
+		{
+			"duration_usec": 227,
+			"event": "recorder_flush",
+			"usec": 176000096
+		},
+		{
+			"duration_usec": 374,
+			"event": "recorder_flush",
+			"usec": 177000604
+		},
+		{
+			"duration_usec": 213,
+			"event": "recorder_flush",
+			"usec": 178001106
+		},
+		{
+			"duration_usec": 211,
+			"event": "recorder_flush",
+			"usec": 179001693
+		},
+		{
+			"duration_usec": 161,
+			"event": "recorder_flush",
+			"usec": 180002132
+		},
+		{
+			"duration_usec": 175,
+			"event": "recorder_flush",
+			"usec": 181002115
+		},
+		{
+			"duration_usec": 199,
+			"event": "recorder_flush",
+			"usec": 182002326
+		},
+		{
+			"duration_usec": 193,
+			"event": "recorder_flush",
+			"usec": 183003437
+		},
+		{
+			"duration_usec": 215,
+			"event": "recorder_flush",
+			"usec": 184003867
+		},
+		{
+			"duration_usec": 243,
+			"event": "recorder_flush",
+			"usec": 185004741
+		},
+		{
+			"duration_usec": 214,
+			"event": "recorder_flush",
+			"usec": 186005504
+		},
+		{
+			"duration_usec": 439,
+			"event": "recorder_flush",
+			"usec": 187006146
+		},
+		{
+			"duration_usec": 332,
+			"event": "recorder_flush",
+			"usec": 188007169
+		},
+		{
+			"duration_usec": 243,
+			"event": "recorder_flush",
+			"usec": 189008198
+		},
+		{
+			"duration_usec": 327,
+			"event": "recorder_flush",
+			"usec": 190009886
+		},
+		{
+			"duration_usec": 147,
+			"event": "recorder_flush",
+			"usec": 191010920
+		},
+		{
+			"duration_usec": 1521,
+			"event": "recorder_flush",
+			"usec": 192013370
+		},
+		{
+			"duration_usec": 86,
+			"event": "recorder_flush",
+			"usec": 193013352
+		},
+		{
+			"duration_usec": 94,
+			"event": "recorder_flush",
+			"usec": 194015690
+		},
+		{
+			"duration_usec": 153,
+			"event": "recorder_flush",
+			"usec": 195016003
+		},
+		{
+			"duration_usec": 85,
+			"event": "recorder_flush",
+			"usec": 196016702
+		},
+		{
+			"duration_usec": 124,
+			"event": "recorder_flush",
+			"usec": 197017432
+		},
+		{
+			"duration_usec": 86,
+			"event": "recorder_flush",
+			"usec": 198020377
+		},
+		{
+			"duration_usec": 91,
+			"event": "recorder_flush",
+			"usec": 199021986
+		},
+		{
+			"duration_usec": 169,
+			"event": "recorder_flush",
+			"usec": 200022070
+		},
+		{
+			"duration_usec": 217,
+			"event": "recorder_flush",
+			"usec": 201023326
+		},
+		{
+			"duration_usec": 218,
+			"event": "recorder_flush",
+			"usec": 202023433
+		},
+		{
+			"duration_usec": 170,
+			"event": "recorder_flush",
+			"usec": 203024434
+		},
+		{
+			"duration_usec": 259,
+			"event": "recorder_flush",
+			"usec": 204025840
+		},
+		{
+			"duration_usec": 102,
+			"event": "recorder_flush",
+			"usec": 205027036
+		},
+		{
+			"duration_usec": 170,
+			"event": "recorder_flush",
+			"usec": 206027611
+		},
+		{
+			"duration_usec": 165,
+			"event": "recorder_flush",
+			"usec": 207028744
+		},
+		{
+			"duration_usec": 115,
+			"event": "recorder_flush",
+			"usec": 208029291
+		},
+		{
+			"duration_usec": 221,
+			"event": "recorder_flush",
+			"usec": 209029517
+		},
+		{
+			"duration_usec": 325,
+			"event": "recorder_flush",
+			"usec": 210030654
+		},
+		{
+			"duration_usec": 187,
+			"event": "recorder_flush",
+			"usec": 211033278
+		},
+		{
+			"duration_usec": 96,
+			"event": "recorder_flush",
+			"usec": 212033887
+		},
+		{
+			"duration_usec": 88,
+			"event": "recorder_flush",
+			"usec": 213036175
+		},
+		{
+			"duration_usec": 88,
+			"event": "recorder_flush",
+			"usec": 214038152
+		},
+		{
+			"duration_usec": 85,
+			"event": "recorder_flush",
+			"usec": 215038581
+		},
+		{
+			"duration_usec": 80,
+			"event": "recorder_flush",
+			"usec": 216042124
+		},
+		{
+			"duration_usec": 77,
+			"event": "recorder_flush",
+			"usec": 217044901
+		},
+		{
+			"duration_usec": 78,
+			"event": "recorder_flush",
+			"usec": 218046827
+		},
+		{
+			"duration_usec": 73,
+			"event": "recorder_flush",
+			"usec": 219048184
+		},
+		{
+			"duration_usec": 90,
+			"event": "recorder_flush",
+			"usec": 220048266
+		},
+		{
+			"duration_usec": 427,
+			"event": "recorder_flush",
+			"usec": 221049411
+		},
+		{
+			"duration_usec": 577,
+			"event": "recorder_flush",
+			"usec": 222050253
+		},
+		{
+			"duration_usec": 157,
+			"event": "recorder_flush",
+			"usec": 223050564
+		},
+		{
+			"duration_usec": 120,
+			"event": "recorder_flush",
+			"usec": 224052069
+		},
+		{
+			"duration_usec": 114,
+			"event": "recorder_flush",
+			"usec": 225053535
+		},
+		{
+			"duration_usec": 135,
+			"event": "recorder_flush",
+			"usec": 226053811
+		},
+		{
+			"duration_usec": 184,
+			"event": "recorder_flush",
+			"usec": 227053851
+		},
+		{
+			"duration_usec": 171,
+			"event": "recorder_flush",
+			"usec": 228054163
+		},
+		{
+			"duration_usec": 406,
+			"event": "recorder_flush",
+			"usec": 229054323
+		},
+		{
+			"duration_usec": 171,
+			"event": "recorder_flush",
+			"usec": 230054910
+		},
+		{
+			"duration_usec": 177,
+			"event": "recorder_flush",
+			"usec": 231055116
+		},
+		{
+			"duration_usec": 172,
+			"event": "recorder_flush",
+			"usec": 232055876
+		},
+		{
+			"duration_usec": 190,
+			"event": "recorder_flush",
+			"usec": 233057289
+		},
+		{
+			"duration_usec": 161,
+			"event": "recorder_flush",
+			"usec": 234058119
+		},
+		{
+			"duration_usec": 200,
+			"event": "recorder_flush",
+			"usec": 235059126
+		},
+		{
+			"duration_usec": 309,
+			"event": "recorder_flush",
+			"usec": 236060025
+		},
+		{
+			"duration_usec": 234,
+			"event": "recorder_flush",
+			"usec": 237060552
+		},
+		{
+			"duration_usec": 227,
+			"event": "recorder_flush",
+			"usec": 238061593
+		},
+		{
+			"duration_usec": 235,
+			"event": "recorder_flush",
+			"usec": 239061937
+		},
+		{
+			"duration_usec": 239,
+			"event": "recorder_flush",
+			"usec": 240062791
+		},
+		{
+			"duration_usec": 172,
+			"event": "recorder_flush",
+			"usec": 241063142
+		},
+		{
+			"duration_usec": 191,
+			"event": "recorder_flush",
+			"usec": 242063386
+		},
+		{
+			"duration_usec": 176,
+			"event": "recorder_flush",
+			"usec": 243063557
+		},
+		{
+			"duration_usec": 174,
+			"event": "recorder_flush",
+			"usec": 244064134
+		},
+		{
+			"duration_usec": 355,
+			"event": "recorder_flush",
+			"usec": 245064826
+		},
+		{
+			"duration_usec": 263,
+			"event": "recorder_flush",
+			"usec": 246065686
+		},
+		{
+			"duration_usec": 296,
+			"event": "recorder_flush",
+			"usec": 247065730
+		},
+		{
+			"duration_usec": 306,
+			"event": "recorder_flush",
+			"usec": 248065869
+		},
+		{
+			"duration_usec": 220,
+			"event": "recorder_flush",
+			"usec": 249065898
+		},
+		{
+			"duration_usec": 369,
+			"event": "recorder_flush",
+			"usec": 250067122
+		},
+		{
+			"duration_usec": 144,
+			"event": "recorder_flush",
+			"usec": 251067326
+		},
+		{
+			"duration_usec": 1896,
+			"event": "recorder_flush",
+			"usec": 252069447
+		},
+		{
+			"duration_usec": 91,
+			"event": "recorder_flush",
+			"usec": 253069238
+		},
+		{
+			"duration_usec": 94,
+			"event": "recorder_flush",
+			"usec": 254070826
+		},
+		{
+			"duration_usec": 94,
+			"event": "recorder_flush",
+			"usec": 255071671
+		},
+		{
+			"duration_usec": 88,
+			"event": "recorder_flush",
+			"usec": 256071995
+		},
+		{
+			"duration_usec": 96,
+			"event": "recorder_flush",
+			"usec": 257073296
+		},
+		{
+			"duration_usec": 94,
+			"event": "recorder_flush",
+			"usec": 258075670
+		},
+		{
+			"duration_usec": 96,
+			"event": "recorder_flush",
+			"usec": 259076320
+		},
+		{
+			"duration_usec": 164,
+			"event": "recorder_flush",
+			"usec": 260076348
+		},
+		{
+			"duration_usec": 209,
+			"event": "recorder_flush",
+			"usec": 261076616
+		},
+		{
+			"duration_usec": 368,
+			"event": "recorder_flush",
+			"usec": 262078116
+		},
+		{
+			"duration_usec": 273,
+			"event": "recorder_flush",
+			"usec": 263080517
+		},
+		{
+			"duration_usec": 191,
+			"event": "recorder_flush",
+			"usec": 264081976
+		},
+		{
+			"duration_usec": 103,
+			"event": "recorder_flush",
+			"usec": 265082516
+		},
+		{
+			"duration_usec": 129,
+			"event": "recorder_flush",
+			"usec": 266084785
+		},
+		{
+			"duration_usec": 147,
+			"event": "recorder_flush",
+			"usec": 267085170
+		},
+		{
+			"duration_usec": 141,
+			"event": "recorder_flush",
+			"usec": 268085950
+		},
+		{
+			"duration_usec": 231,
+			"event": "recorder_flush",
+			"usec": 269087081
+		},
+		{
+			"duration_usec": 161,
+			"event": "recorder_flush",
+			"usec": 270088887
+		},
+		{
+			"duration_usec": 184,
+			"event": "recorder_flush",
+			"usec": 271090826
+		},
+		{
+			"duration_usec": 83,
+			"event": "recorder_flush",
+			"usec": 272092724
+		},
+		{
+			"duration_usec": 94,
+			"event": "recorder_flush",
+			"usec": 273095062
+		},
+		{
+			"duration_usec": 107,
+			"event": "recorder_flush",
+			"usec": 274095887
+		},
+		{
+			"duration_usec": 86,
+			"event": "recorder_flush",
+			"usec": 275097301
+		},
+		{
+			"duration_usec": 84,
+			"event": "recorder_flush",
+			"usec": 276099710
+		},
+		{
+			"duration_usec": 81,
+			"event": "recorder_flush",
+			"usec": 277099668
+		},
+		{
+			"duration_usec": 122,
+			"event": "recorder_flush",
+			"usec": 278100260
+		},
+		{
+			"duration_usec": 82,
+			"event": "recorder_flush",
+			"usec": 279100656
+		},
+		{
+			"duration_usec": 88,
+			"event": "recorder_flush",
+			"usec": 280101433
+		},
+		{
+			"duration_usec": 403,
+			"event": "recorder_flush",
+			"usec": 281102178
+		},
+		{
+			"duration_usec": 571,
+			"event": "recorder_flush",
+			"usec": 282102464
+		},
+		{
+			"duration_usec": 121,
+			"event": "recorder_flush",
+			"usec": 283103262
+		},
+		{
+			"duration_usec": 263,
+			"event": "recorder_flush",
+			"usec": 284104098
+		},
+		{
+			"duration_usec": 136,
+			"event": "recorder_flush",
+			"usec": 285105762
+		},
+		{
+			"duration_usec": 148,
+			"event": "recorder_flush",
+			"usec": 286106574
+		},
+		{
+			"duration_usec": 140,
+			"event": "recorder_flush",
+			"usec": 287106162
+		},
+		{
+			"duration_usec": 348,
+			"event": "recorder_flush",
+			"usec": 288106265
+		},
+		{
+			"duration_usec": 433,
+			"event": "recorder_flush",
+			"usec": 289107179
+		},
+		{
+			"duration_usec": 166,
+			"event": "recorder_flush",
+			"usec": 290107458
+		},
+		{
+			"duration_usec": 207,
+			"event": "recorder_flush",
+			"usec": 291107679
+		},
+		{
+			"duration_usec": 188,
+			"event": "recorder_flush",
+			"usec": 292108259
+		},
+		{
+			"duration_usec": 231,
+			"event": "recorder_flush",
+			"usec": 293109059
+		},
+		{
+			"duration_usec": 194,
+			"event": "recorder_flush",
+			"usec": 294109599
+		},
+		{
+			"duration_usec": 295,
+			"event": "recorder_flush",
+			"usec": 295110723
+		},
+		{
+			"duration_usec": 340,
+			"event": "recorder_flush",
+			"usec": 296111432
+		},
+		{
+			"duration_usec": 202,
+			"event": "recorder_flush",
+			"usec": 297111861
+		},
+		{
+			"duration_usec": 222,
+			"event": "recorder_flush",
+			"usec": 298112583
+		},
+		{
+			"duration_usec": 215,
+			"event": "recorder_flush",
+			"usec": 299112592
+		},
+		{
+			"duration_usec": 357,
+			"event": "recorder_flush",
+			"usec": 300112612
+		},
+		{
+			"duration_usec": 184,
+			"event": "recorder_flush",
+			"usec": 301113803
+		},
+		{
+			"duration_usec": 206,
+			"event": "recorder_flush",
+			"usec": 302114264
+		},
+		{
+			"duration_usec": 234,
+			"event": "recorder_flush",
+			"usec": 303114434
+		},
+		{
+			"duration_usec": 254,
+			"event": "recorder_flush",
+			"usec": 304115870
+		},
+		{
+			"duration_usec": 218,
+			"event": "recorder_flush",
+			"usec": 305116651
+		},
+		{
+			"duration_usec": 222,
+			"event": "recorder_flush",
+			"usec": 306116742
+		},
+		{
+			"duration_usec": 277,
+			"event": "recorder_flush",
+			"usec": 307117146
+		},
+		{
+			"duration_usec": 333,
+			"event": "recorder_flush",
+			"usec": 308117625
+		},
+		{
+			"duration_usec": 421,
+			"event": "recorder_flush",
+			"usec": 309117746
+		},
+		{
+			"duration_usec": 406,
+			"event": "recorder_flush",
+			"usec": 310118369
+		},
+		{
+			"duration_usec": 131,
+			"event": "recorder_flush",
+			"usec": 311119645
+		},
+		{
+			"duration_usec": 1428,
+			"event": "recorder_flush",
+			"usec": 312122755
+		}
+	],
+	"telemetry": {
+		"coverage": {
+			"bucket_visits": 4793736,
+			"catalog_builds": 1,
+			"plans": 177989
+		},
+		"object_count": 25,
+		"query": {
+			"identity": {
+				"asset_bounds_version": 1,
+				"build_id": "tongguan_v02_c1_20261016_04_tongguan",
+				"cell_m": 512,
+				"effective_revision": "[-9223371892755266173, \"world:2290686:1\", -9223371892738488955, 10]",
+				"world_id": "tongguan_final_validation_v1"
+			},
+			"index": {
+				"bucket_lookups": 9236130,
+				"candidate_tests": 4279040,
+				"candidate_union_builds": 466,
+				"delta_updates": 11,
+				"full_index_builds": 1,
+				"query_calls": 82201,
+				"records_reindexed": 120,
+				"reference_record_enumerations": 0,
+				"source_records_validated": 120
+			},
+			"objects": 99,
+			"planner": {
+				"plan_reuses": 81258,
+				"reference_full_scans": 0,
+				"snapshot_reads": 1,
+				"sort_calls": 945,
+				"visible_plan_builds": 945
+			}
+		},
+		"residency": {
+			"accounting": {
+				"consumers": 29,
+				"decoded_reserved": 0,
+				"external_alive_bytes": 0,
+				"inflight": 0,
+				"ready": 0,
+				"reserved": 0,
+				"resident": 103636992,
+				"resources": 18,
+				"total": 103636992
+			},
+			"epoch": 1,
+			"failures": [],
+			"profile": {
+				"attach_usec": 2000.0,
+				"concurrency": 2.0,
+				"decoded": 67108864.0,
+				"grace_usec": 2000000.0,
+				"hard": 335544320.0,
+				"id": "normal_256_320",
+				"soft": 268435456.0
+			},
+			"revision": 299,
+			"states": {
+				"context": "RESIDENT",
+				"fine_0_0": "RESIDENT",
+				"fine_0_1": "RESIDENT",
+				"fine_0_2": "RESIDENT",
+				"fine_1_0": "RESIDENT",
+				"fine_1_1": "RESIDENT",
+				"fine_1_2": "RESIDENT",
+				"fine_2_0": "RESIDENT",
+				"fine_2_1": "RESIDENT",
+				"fine_2_2": "RESIDENT",
+				"fine_3_0": "RESIDENT",
+				"fine_3_1": "RESIDENT",
+				"fine_3_2": "RESIDENT",
+				"object:manual.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.0.4": "RESIDENT",
+				"object:tongguan.decor.forest_east.0.6": "RESIDENT",
+				"object:tongguan.decor.forest_east.1.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.1.3": "RESIDENT",
+				"object:tongguan.decor.forest_east.1.4": "RESIDENT",
+				"object:tongguan.decor.forest_east.1.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.1.6": "RESIDENT",
+				"object:tongguan.decor.forest_east.2.0": "RESIDENT",
+				"object:tongguan.decor.forest_east.2.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.2.2": "RESIDENT",
+				"object:tongguan.decor.forest_east.2.4": "RESIDENT",
+				"object:tongguan.decor.forest_east.2.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.3.0": "RESIDENT",
+				"object:tongguan.decor.forest_east.3.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.3.2": "RESIDENT",
+				"object:tongguan.decor.forest_east.3.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.3.6": "RESIDENT",
+				"object:tongguan.decor.forest_east.4.0": "RESIDENT",
+				"object:tongguan.decor.forest_east.4.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.4.2": "RESIDENT",
+				"object:tongguan.decor.forest_east.4.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.5.0": "RESIDENT",
+				"object:tongguan.decor.forest_east.5.2": "RESIDENT",
+				"object:tongguan.decor.forest_east.5.3": "RESIDENT",
+				"object:tongguan.decor.forest_east.5.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.5.6": "RESIDENT",
+				"object:tongguan.decor.forest_east.6.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.6.2": "RESIDENT",
+				"object:tongguan.decor.forest_east.6.4": "RESIDENT",
+				"object:tongguan.decor.forest_east.6.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.7.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.7.2": "RESIDENT",
+				"object:tongguan.decor.forest_east.7.3": "RESIDENT",
+				"object:tongguan.decor.forest_east.7.4": "RESIDENT",
+				"object:tongguan.decor.forest_east.7.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.8.0": "RESIDENT",
+				"object:tongguan.decor.forest_east.8.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.8.3": "RESIDENT",
+				"object:tongguan.decor.forest_east.8.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.8.6": "RESIDENT",
+				"object:tongguan.decor.forest_east.9.1": "RESIDENT",
+				"object:tongguan.decor.forest_east.9.2": "RESIDENT",
+				"object:tongguan.decor.forest_east.9.4": "RESIDENT",
+				"object:tongguan.decor.forest_east.9.5": "RESIDENT",
+				"object:tongguan.decor.forest_east.9.6": "RESIDENT",
+				"object:tongguan.decor.forest_west.0.0": "RESIDENT",
+				"object:tongguan.decor.forest_west.0.1": "RESIDENT",
+				"object:tongguan.decor.forest_west.0.2": "RESIDENT",
+				"object:tongguan.decor.forest_west.0.3": "RESIDENT",
+				"object:tongguan.decor.forest_west.1.0": "RESIDENT",
+				"object:tongguan.decor.forest_west.1.1": "RESIDENT",
+				"object:tongguan.decor.forest_west.2.4": "RESIDENT",
+				"object:tongguan.decor.forest_west.2.6": "RESIDENT",
+				"object:tongguan.decor.forest_west.3.5": "RESIDENT",
+				"object:tongguan.decor.forest_west.3.6": "RESIDENT",
+				"object:tongguan.decor.forest_west.4.6": "RESIDENT",
+				"object:tongguan.decor.forest_west.4.7": "RESIDENT",
+				"object:tongguan.decor.forest_west.5.1": "RESIDENT",
+				"object:tongguan.decor.forest_west.5.5": "RESIDENT",
+				"object:tongguan.decor.forest_west.5.6": "RESIDENT",
+				"object:tongguan.decor.forest_west.6.3": "RESIDENT",
+				"object:tongguan.decor.forest_west.6.5": "RESIDENT",
+				"object:tongguan.decor.forest_west.7.0": "RESIDENT",
+				"object:tongguan.decor.forest_west.7.1": "RESIDENT",
+				"object:tongguan.decor.forest_west.7.4": "RESIDENT",
+				"object:tongguan.decor.forest_west.8.0": "RESIDENT",
+				"object:tongguan.decor.forest_west.8.1": "RESIDENT",
+				"object:tongguan.decor.forest_west.8.2": "RESIDENT",
+				"object:tongguan.decor.forest_west.8.4": "RESIDENT",
+				"object:tongguan.decor.forest_west.8.5": "RESIDENT",
+				"object:tongguan.decor.forest_west.9.3": "RESIDENT",
+				"object:tongguan.gate.main": "RESIDENT",
+				"object:tongguan.slot.rear_military_01": "RESIDENT",
+				"object:tongguan.slot.rear_storage_01": "RESIDENT",
+				"object:tongguan.wall.north": "RESIDENT",
+				"object:v1.preview.Tree_00": "RESIDENT",
+				"object:v1.preview.Tree_01": "RESIDENT",
+				"object:v1.preview.Tree_02": "RESIDENT",
+				"object:v1.preview.Tree_03": "RESIDENT",
+				"object:v1.preview.Tree_04": "RESIDENT",
+				"object:v1.preview.Tree_05": "RESIDENT",
+				"object:v1.preview.Tree_06": "RESIDENT",
+				"object:v1.preview.Tree_07": "RESIDENT",
+				"object:v1.preview.Tree_08": "RESIDENT",
+				"object:v1.preview.Tree_09": "RESIDENT",
+				"object:v1.preview.Tree_10": "RESIDENT",
+				"object:v1.preview.Tree_11": "RESIDENT",
+				"object:v1.preview.Tree_12": "RESIDENT",
+				"object:wall_east": "RESIDENT"
+			},
+			"stats": {
+				"attach_overruns": 0,
+				"attaches": 158,
+				"drops": 140,
+				"hard_denials": 0,
+				"max_attach_usec": 209,
+				"peak_inflight": 2,
+				"prefetch_denials": 0,
+				"queued_cancelled": 0,
+				"reclaimed": 0,
+				"released_observed": 140,
+				"reloads": 140,
+				"requests": 158,
+				"stale_drained": 0
+			}
+		},
+		"visible_pages": [
+			"fine_0_0",
+			"fine_1_0",
+			"fine_2_0",
+			"fine_3_0",
+			"fine_0_1",
+			"fine_1_1",
+			"fine_2_1",
+			"fine_3_1",
+			"fine_0_2",
+			"fine_1_2",
+			"fine_2_2",
+			"fine_3_2"
+		]
+	},
+	"trajectory": [
+		[
+			0,
+			0,
+			-270,
+			0.84
+		],
+		[
+			8,
+			-535,
+			-227.5,
+			2.4
+		],
+		[
+			16,
+			-60,
+			-600,
+			1.4
+		],
+		[
+			24,
+			600,
+			300,
+			0.42
+		],
+		[
+			32,
+			-600,
+			800,
+			0.105
+		],
+		[
+			40,
+			0,
+			0,
+			0.025
+		],
+		[
+			48,
+			-500000,
+			100000,
+			0.00014
+		],
+		[
+			56,
+			-600,
+			800,
+			0.105
+		],
+		[
+			60,
+			0,
+			-270,
+			0.84
+		]
+	],
+	"warmup_sec": 10.0,
+	"window_size": "(1920, 1080)"
+}

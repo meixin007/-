@@ -1,0 +1,14 @@
+{
+  "builds": [
+    "tongguan_v02_v1_20261015_01",
+    "tongguan_v02_v1_20261015_02",
+    "tongguan_v02_v1_20261015_03"
+  ],
+  "location": "review-work/map_v02/",
+  "excluded_from_final": true,
+  "notes": [
+    "first assembly exposed a visible field edge and a hidden north wall",
+    "second assembly required socket overlap adjustment",
+    "pre-final page overlap check found nine differing alpha values on five water edges; fixed by global mask slicing"
+  ]
+}

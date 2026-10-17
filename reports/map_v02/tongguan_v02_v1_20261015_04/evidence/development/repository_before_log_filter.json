@@ -1,0 +1,9 @@
+{
+  "command": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "verify_repository.py"
+  ],
+  "exit_code": 1,
+  "diagnostics": [],
+  "passed": false
+}

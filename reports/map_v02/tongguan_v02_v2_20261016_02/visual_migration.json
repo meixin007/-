@@ -1,0 +1,17 @@
+{
+  "status": "candidate_pending_user_review",
+  "scope": "new isolated V2 work copy only",
+  "old_sources_written": false,
+  "old_protected_pixels_written": false,
+  "base_v1": "tongguan_v02_v1_20261015_04",
+  "terrain_bounds_m": [
+    -1024,
+    -1024,
+    2048,
+    1536
+  ],
+  "preview_trees": 13,
+  "original_source_trees": 72,
+  "reject_action": "close V2 and launch unchanged V1 or legacy package",
+  "new_assets": 3
+}

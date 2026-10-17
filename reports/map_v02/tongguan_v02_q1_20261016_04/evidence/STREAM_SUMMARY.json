@@ -1,0 +1,410 @@
+{
+  "unique_visited_bytes": 35684352,
+  "unique_visited_textures": 128,
+  "stats": {
+    "attach_overruns": 0,
+    "attaches": 2884,
+    "drops": 2880,
+    "hard_denials": 0,
+    "max_attach_usec": 269,
+    "peak_inflight": 2,
+    "prefetch_denials": 0,
+    "queued_cancelled": 3,
+    "reclaimed": 0,
+    "released_observed": 2880,
+    "reloads": 2751,
+    "requests": 2884,
+    "stale_drained": 0
+  },
+  "event_counts": {
+    "package": 2,
+    "budget_changed": 3,
+    "page_state": 11588,
+    "state": 11546,
+    "queued_cancelled": 3,
+    "request": 2884,
+    "attach": 2884,
+    "last_reference_drop": 2880,
+    "released_observed": 2880,
+    "reload": 2751
+  },
+  "windows": [
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 1,
+      "usec": 3345014
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 2,
+      "usec": 3621465
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 3,
+      "usec": 3904717
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 4,
+      "usec": 4181541
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 5,
+      "usec": 4461554
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 6,
+      "usec": 4745976
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 7,
+      "usec": 5026988
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 8,
+      "usec": 5302665
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 9,
+      "usec": 5568687
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 10,
+      "usec": 5836170
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 11,
+      "usec": 6103877
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 12,
+      "usec": 6370423
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 13,
+      "usec": 6637466
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 14,
+      "usec": 6905223
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 15,
+      "usec": 7168808
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 16,
+      "usec": 7437148
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 17,
+      "usec": 7700306
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 18,
+      "usec": 7970189
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 19,
+      "usec": 8233860
+    },
+    {
+      "accounting": {
+        "consumers": 4,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1115136,
+        "resources": 4,
+        "total": 1115136
+      },
+      "engine_objects": 1762.0,
+      "engine_resources": 240.0,
+      "engine_texture_bytes": 18562757.0,
+      "round": 20,
+      "usec": 8501784
+    }
+  ],
+  "remaining": {
+    "consumers": 0,
+    "decoded_reserved": 0,
+    "external_alive_bytes": 0,
+    "inflight": 0,
+    "ready": 0,
+    "reserved": 0,
+    "resident": 0,
+    "resources": 0,
+    "total": 0
+  },
+  "passed": true,
+  "negative_control": {
+    "after_clear_bytes": 0,
+    "case": "reference_negative_control",
+    "retained_bytes": 103636992
+  }
+}

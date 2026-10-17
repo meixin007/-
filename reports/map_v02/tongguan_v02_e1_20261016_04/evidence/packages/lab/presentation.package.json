@@ -1,0 +1,366 @@
+{
+  "schema_id": "tongguan.presentation_package",
+  "schema_version": 1,
+  "build_id": "tongguan_v02_e1_20261016_04_lab",
+  "compiler_version": "e1_compiler_v1",
+  "source_commit": "62546a547895e1a6185904ad60bf15fa58c03244",
+  "compatibility": {
+    "world_id": "stream_lab_v02",
+    "site_id": "lab.site.proxy",
+    "layout_version": "lab_4x4_v1",
+    "layout_slots_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "fixed_refs_sha256": "dc42df5f984dde6bc42acb2a23fc5169e72eba71016d7bcefbc86e88a214064d",
+    "graph_version": "lab_visual_no_corridors",
+    "coordinate_sha256": "8b0f305c0ea00c2bcf339c4d8cd0b288b17fe1c42bc9ac77bde29393e6349c51"
+  },
+  "style_id": "tang_ink_wash_v02_candidate_a01",
+  "visual_review_sha256": "2754632ffd3d556c7efae20553799578839424bae23f87e758d4b895bf4c3b38",
+  "catalog": "world.catalog.json",
+  "files": [
+    {
+      "path": "assets/trees.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+      "resource_path": "assets/trees.png",
+      "pixel_sha256": "72f662e22266cfdff4c911e198a5df22304222d7caa7f6cb88467502a621a8b4",
+      "pixel_size": [
+        1536,
+        1024
+      ],
+      "estimated_rgba8_bytes": 6291456
+    },
+    {
+      "path": "assets/gate_eastwest.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "971dbffc6bfe5c947e5f9541fb68c12d5712f23c26bfd94566c904880c7fe16d",
+      "resource_path": "assets/gate_eastwest.png",
+      "pixel_sha256": "b1d956d370a1a6f7f8a8acfd033af745424ee2149df438acbc2a8f1b95afa8d6",
+      "pixel_size": [
+        1536,
+        1024
+      ],
+      "estimated_rgba8_bytes": 6291456
+    },
+    {
+      "path": "assets/art_bundle.json",
+      "kind": "json",
+      "required": true,
+      "sha256": "3ec9a242d1e72079c5cf5be75ff03d62ea7980b6c3652420d02e2c7288e521c3"
+    },
+    {
+      "path": "terrain/root_0_0.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "62e7de9303218b39de92c53183fd0247a8f0e533e3c86ff4c54f53a9840fad33",
+      "resource_path": "terrain/root_0_0.png",
+      "pixel_sha256": "94610506f3fa7e529f1e041b1972ccaf19d60e6828168108aa48be505284131d",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/parent_0_0.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "303eb71bdee16c6d64181efdc18dfe3f30f4f93893572b17e63674b0694930ef",
+      "resource_path": "terrain/parent_0_0.png",
+      "pixel_sha256": "76a5bd7a3b64278005893b35d662816579672ed937c704422cc1c9a7221066b5",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/parent_1_0.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "d4a5e337bd7587dc38c177547801834709351842faa35111faf5655023db469a",
+      "resource_path": "terrain/parent_1_0.png",
+      "pixel_sha256": "338fbcbd0d26c0b458f3d48d56e3c99f7500e639591c3d3f0e73c885eb9bc9e5",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/parent_0_1.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "fcc0c2b55191ca81fd8d0e09ba6afb746ff5aff6b1bc3c1abae6c560d18b0987",
+      "resource_path": "terrain/parent_0_1.png",
+      "pixel_sha256": "e1ea2879270b0d04416a3f00808ce16c668c5b89d8d0778ab6dd22c2c3b6ef4d",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/parent_1_1.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "e9b173e3b3b1aec245545a180a8e698750fd4f6bf268f2034a368969792d8fd9",
+      "resource_path": "terrain/parent_1_1.png",
+      "pixel_sha256": "2b671b57bc776d1268f0866276809e2c123140d20b853b2eda5ceca06d6da73b",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_0_0.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "168ac3b431bb8371687c8afcc9899623b75faeeb450474a185803b86093824b5",
+      "resource_path": "terrain/fine_0_0.png",
+      "pixel_sha256": "6a5a99f02184fd6353c6c31424f1c5fc86147227a949325cad1cd35f2010daa8",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_1_0.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "30c41ea6a14689bd8dbde2a0f330ee959ce24d994ae374a0444bab9b41bbc5bc",
+      "resource_path": "terrain/fine_1_0.png",
+      "pixel_sha256": "11cd0dac065c750da5f7920c6c65b787fcba1cbcc6840a05983bbd49244cb339",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_2_0.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "adb056e86ccc7d041dbc16158eaa1e386b38f2776772deab2b917449389a16aa",
+      "resource_path": "terrain/fine_2_0.png",
+      "pixel_sha256": "62407cd76140fc1cbef6955cd8042fe9accf719ce6f2bda4c2f7a23b3828f67c",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_3_0.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "df59302fe90fe23777bd2c00ead3b2c5c2aedf1abac76cd1329948721ef4de57",
+      "resource_path": "terrain/fine_3_0.png",
+      "pixel_sha256": "21713ef237ade96598ed34ed2b3201b6d3b327f1d11c8629690f5ac47715c14a",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_0_1.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "38bef6c0345d1acf458851161e8658d536a60a07350f58e6530930befdce965c",
+      "resource_path": "terrain/fine_0_1.png",
+      "pixel_sha256": "34b4ece76c976e5f41e691ee33d5005038d958b4a37334d19aebfdb9bad51793",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_1_1.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "c78544a32a5c39de75bcc9c5c5fb26ce721bb1e90da9283bd69187792c555168",
+      "resource_path": "terrain/fine_1_1.png",
+      "pixel_sha256": "5a1cd2bfeed25851cdadec94527513f9901240f00cb427fc838d1652677984db",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_2_1.png.bin",
+      "kind": "texture",
+      "required": false,
+      "sha256": "338c7469199dd935da481e697da66455d6717f7862c20f0ca6470303d198f132",
+      "resource_path": "terrain/fine_2_1.png",
+      "pixel_sha256": "574c5ed8125e9746ad17284989667418e534c62d535275043cf458587aae37fd",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_3_1.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "73fc4c50f834445fc4c14248fe08d89b59617b2f79a0a983807c8c60b99496e1",
+      "resource_path": "terrain/fine_3_1.png",
+      "pixel_sha256": "3c0fec569ef4f63b29b654176ab56400fd64f5c98554f3583253cc9c27975d22",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_0_2.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "fab449721b786eb3f39100ce2f911f3fa09335cb7b4025f12082f6be7ecf191e",
+      "resource_path": "terrain/fine_0_2.png",
+      "pixel_sha256": "cf47e7efd7ab28e8a0c3971853d109a341210c45c8881f08d5fdfd222d9ad399",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_1_2.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "b3f5426e4936b948fea8a3e257c4ac8376b527faf47d488b2a6a74d10205f355",
+      "resource_path": "terrain/fine_1_2.png",
+      "pixel_sha256": "7b1df824132b6fcbaa8f5d9c749bfd892e45fe8d74d7391c35c4597d7c459d10",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_2_2.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "fb008cba8a13060348849a67e2857cccdebf93d0dc2ba537af9f7094a80d2547",
+      "resource_path": "terrain/fine_2_2.png",
+      "pixel_sha256": "90c033fc69801ef777ddd4c55df4f193ed2ecd1cd30b508f1eb637f0b5ed0470",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_3_2.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "6e4b4b07c1eb28722ab5f10d21df3e47d8b80d3629a6f542362a368ebf992c64",
+      "resource_path": "terrain/fine_3_2.png",
+      "pixel_sha256": "63a243250ee5e9e6064d59fa1a619f84a1b5b2b10bf824ca585538e44672aa5d",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_0_3.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "0a1a1328173ca998b40434e72b868d7d2c0b57473328cb3bfbfce8dbe80ab6e6",
+      "resource_path": "terrain/fine_0_3.png",
+      "pixel_sha256": "e0b7f59ac3607ea21efbae6d9f30290861b8d922b831571738e27e28aeee7e28",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_1_3.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "9113b071f57fc5c963368494f9e0e57ea6e48c7686e7f40d03a78edf12a09a75",
+      "resource_path": "terrain/fine_1_3.png",
+      "pixel_sha256": "400c32afa5b27150987250b6dcd328f7afb2955781b9be2afed82337a28dc26c",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_2_3.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "0f161981203f8633611a460bc393191f4c1ec62c8aac16d397b6963721dc95f5",
+      "resource_path": "terrain/fine_2_3.png",
+      "pixel_sha256": "630ff87cd7424ac080e98852c46db5f1f2a2c72dc4d3d94bbccc149d50a01b11",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "terrain/fine_3_3.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "f46435016fb6317ed9ea08060e0373b56e710720036f0a099d850ac11ab7dc8d",
+      "resource_path": "terrain/fine_3_3.png",
+      "pixel_sha256": "f7bce3d073dbf7b75d2dabc351b600a04a9c6ba528110134c7c96899d99ef263",
+      "pixel_size": [
+        264,
+        264
+      ],
+      "estimated_rgba8_bytes": 278784
+    },
+    {
+      "path": "instances/objects.json",
+      "kind": "json",
+      "required": true,
+      "sha256": "f0a86b5ccc0b0548fe85335d780c30918200848fc1a74f37048a74f7f7cc4d0d"
+    },
+    {
+      "path": "settlements/sites.json",
+      "kind": "json",
+      "required": true,
+      "sha256": "a881ba8dc30199f772a350b38b3fe7fe7099657a8379f241fb331392c56c78a8"
+    },
+    {
+      "path": "receipts/provenance.json",
+      "kind": "json",
+      "required": true,
+      "sha256": "bcd2425fc20c28c3983752bf1909863435247be87f5a5728cb2ea53396981835"
+    },
+    {
+      "path": "world.catalog.json",
+      "kind": "json",
+      "required": true,
+      "sha256": "2288b36f108694e44c42aa586cd9672d99bac03dc5a56aa28c8baab8a4074e15"
+    },
+    {
+      "path": "receipts/visual_review.json",
+      "kind": "json",
+      "required": true,
+      "sha256": "2754632ffd3d556c7efae20553799578839424bae23f87e758d4b895bf4c3b38"
+    }
+  ],
+  "load_policy": "synchronous_e1_no_residency_budget",
+  "import_contract": {
+    "engine_major": 4,
+    "engine_minor": 6,
+    "texture_compression": "lossless",
+    "fix_alpha_border": false,
+    "premult_alpha": false,
+    "mipmaps": false,
+    "pixel_hash": "rgba8_base_only"
+  }
+}

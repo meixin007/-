@@ -1,0 +1,51 @@
+{
+  "failures": [
+    "no fresh native result"
+  ],
+  "command": [
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_02\\release\\Windows\\TongguanV02S0.exe",
+    "--resolution",
+    "1920x1080",
+    "--borderless",
+    "--position",
+    "0,0",
+    "--log-file",
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\smoke_02\\runtime.log",
+    "--",
+    "--expect-release",
+    "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\smoke_02\\result.json",
+    "--s0-probe",
+    "--map-service=v02",
+    "--seconds=3.0",
+    "--evidence-root=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\smoke_02"
+  ],
+  "process_exit_code": 4294967295,
+  "timed_out": false,
+  "diagnostics": [
+    "SCRIPT ERROR: Parse Error: Cannot infer the type of \"phase\" variable because the value doesn't have a set type.",
+    "SCRIPT ERROR: Parse Error: Cannot infer the type of \"blend\" variable because the value doesn't have a set type.",
+    "ERROR: Failed to load script \"res://v02/probe.gd\" with error \"Parse error\"."
+  ],
+  "process_id": 24620,
+  "process_wall_seconds": 46.07800000000134,
+  "isolation": {
+    "start_and_end_inventory_available": true,
+    "other_godot_or_tongguan_observed": true,
+    "note": "Start/end snapshots only; no claim of continuous OS process isolation; no user processes terminated."
+  },
+  "windows_metrics": {
+    "private_peak_bytes": 391897088,
+    "gpu_dedicated_peak_bytes": 83529728,
+    "sampling_target_ms": 100
+  },
+  "execution_passed": false,
+  "percentile_budget_passed": false,
+  "performance_acceptance_eligible": false,
+  "artifact_hashes": {
+    "TongguanLegacyS0.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanLegacyS0.pck": "cc22dc8fd63e368a8c8273d53cee45ee55be2547e7ec36b7b2542a1b074f0942",
+    "TongguanV02S0.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanV02S0.pck": "b562ce2dc9d8ac01181bab45753d67b112ceb3935d2a387b30eac46e0044383c"
+  },
+  "os_disk_cache_cleared": false
+}

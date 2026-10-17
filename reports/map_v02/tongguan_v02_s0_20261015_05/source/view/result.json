@@ -1,0 +1,17 @@
+{
+  "name": "view",
+  "command": [
+    "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+    "--headless",
+    "--path",
+    "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+    "--script",
+    "res://tests/test_r4_view.gd",
+    "--",
+    "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\view\\details.json"
+  ],
+  "exit_code": 0,
+  "seconds": 3.438,
+  "diagnostics": [],
+  "passed": true
+}

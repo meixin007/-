@@ -1,0 +1,12 @@
+{
+  "stage": "C1",
+  "status": "accepted",
+  "author": "user",
+  "statement": "C1 通过，继续按文档执行 Q1",
+  "build_id": "tongguan_v02_c1_20261016_04",
+  "accepted_scope": "integrated terrain/courtyards/damage-repair/LOD and unload-reload review",
+  "source_manifest_sha256": "38602657ea4ec95ae72725ce2b825ae59a06d8ce2699e41229403c1cb8a16a1f",
+  "artifacts_sha256": "ba6b4655dba9d7b530dde88f8ce6d1ffdab0dba225f7c38734c923e2fb9b7db4",
+  "old_receipts_rewritten": false,
+  "q1_acceptance_included": false
+}

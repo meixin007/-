@@ -1,0 +1,232 @@
+{
+  "build_id": "tongguan_v02_q1_20261016_04",
+  "run_id": "final_smoke",
+  "mode": "smoke",
+  "command": [
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\CLEAN_WINDOWS\\TongguanQ1.exe",
+    "--fullscreen",
+    "--log-file",
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\final_smoke\\runtime.log",
+    "--",
+    "--q1=smoke",
+    "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\final_smoke\\engine_result.json",
+    "--seconds=60",
+    "--warmup=10"
+  ],
+  "pid": 21116,
+  "popen_monotonic_ns": 142700171000000,
+  "exit_code": 0,
+  "timed_out": false,
+  "seconds": 3.9839999999967404,
+  "diagnostics": [],
+  "engine": {
+    "actual_viewport": [
+      1920,
+      1080
+    ],
+    "checks": 4,
+    "engine": {
+      "build": "official",
+      "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+      "hex": 263681,
+      "major": 4,
+      "minor": 6,
+      "patch": 1,
+      "status": "stable",
+      "string": "4.6.1-stable (official)",
+      "timestamp": 0
+    },
+    "failures": [],
+    "map_pixel_sha256": "2ce09595aa1715e6093ca0e3a8610f7a448b6484c1f6f2a6aca43829ce2a0ace",
+    "release": {
+      "consumers": 0,
+      "decoded_reserved": 0,
+      "external_alive_bytes": 0,
+      "inflight": 0,
+      "ready": 0,
+      "reserved": 0,
+      "resident": 0,
+      "resources": 0,
+      "total": 0
+    },
+    "state": {
+      "city": {
+        "gate_open": true,
+        "growth_stage": 1.0,
+        "layout_version": "tongguan_p4_layout_v02",
+        "module_damage": {
+          "gate": 0.0,
+          "tongguan.slot.civil_01": 0.0,
+          "tongguan.slot.civil_02": 0.0,
+          "tongguan.slot.expansion_01": 0.0,
+          "tongguan.slot.expansion_02": 0.0,
+          "tongguan.slot.rear_military_01": 0.0,
+          "tongguan.slot.rear_storage_01": 0.0,
+          "tongguan.slot.rear_support_01": 0.0,
+          "tongguan.slot.rear_workshop_01": 0.0,
+          "wall_east": 0.0,
+          "wall_west": 0.0
+        },
+        "revision": 0.0,
+        "site_id": "tongguan",
+        "slot_occupancy": {
+          "tongguan.slot.civil_01": {
+            "building_id": "tongguan.slot.civil_01.building",
+            "building_type": "",
+            "status": "empty"
+          },
+          "tongguan.slot.civil_02": {
+            "building_id": "tongguan.slot.civil_02.building",
+            "building_type": "",
+            "status": "empty"
+          },
+          "tongguan.slot.expansion_01": {
+            "building_id": "tongguan.slot.expansion_01.building",
+            "building_type": "",
+            "status": "empty"
+          },
+          "tongguan.slot.expansion_02": {
+            "building_id": "tongguan.slot.expansion_02.building",
+            "building_type": "",
+            "status": "empty"
+          },
+          "tongguan.slot.rear_military_01": {
+            "building_id": "tongguan.slot.rear_military_01.building",
+            "building_type": "barracks",
+            "status": "built"
+          },
+          "tongguan.slot.rear_storage_01": {
+            "building_id": "tongguan.slot.rear_storage_01.building",
+            "building_type": "warehouse",
+            "status": "built"
+          },
+          "tongguan.slot.rear_support_01": {
+            "building_id": "tongguan.slot.rear_support_01.building",
+            "building_type": "",
+            "status": "empty"
+          },
+          "tongguan.slot.rear_workshop_01": {
+            "building_id": "tongguan.slot.rear_workshop_01.building",
+            "building_type": "",
+            "status": "empty"
+          }
+        }
+      },
+      "day": 3,
+      "force": {
+        "corridor_progress_days": 0.0,
+        "current_corridor_id": "",
+        "current_node_id": "tg_fore",
+        "display_name": "通行验收队",
+        "force_id": "tongguan_validation_force_01",
+        "morale": 80.0,
+        "movement_profile": "ordinary",
+        "rations_on_hand_days": 0.0,
+        "source_id": "fixture:tongguan_movement_validation_v1",
+        "supply_line_active": false,
+        "target_node_id": "",
+        "troop_tiers": {
+          "regular_field": 100.0
+        }
+      },
+      "order": {
+        "edge_index": 0,
+        "goal": "",
+        "graph_version": "tongguan_controlled_corridor_r3_v01",
+        "path_edges": [],
+        "path_known": false,
+        "path_nodes": [],
+        "receipts": [
+          {
+            "action": "construction",
+            "day": 0,
+            "gate_open": true,
+            "revision": 1
+          },
+          {
+            "action": "resume",
+            "day": 0,
+            "gate_open": true,
+            "revision": 2
+          },
+          {
+            "action": "shared_day",
+            "day": 1,
+            "gate_open": true,
+            "revision": 3
+          },
+          {
+            "action": "pause",
+            "day": 1,
+            "gate_open": true,
+            "revision": 4
+          },
+          {
+            "action": "resume",
+            "day": 1,
+            "gate_open": true,
+            "revision": 5
+          },
+          {
+            "action": "shared_day",
+            "day": 2,
+            "gate_open": true,
+            "revision": 6
+          },
+          {
+            "action": "pause",
+            "day": 2,
+            "gate_open": true,
+            "revision": 7
+          },
+          {
+            "action": "resume",
+            "day": 2,
+            "gate_open": true,
+            "revision": 8
+          },
+          {
+            "action": "shared_day",
+            "day": 3,
+            "gate_open": true,
+            "revision": 9
+          },
+          {
+            "action": "pause",
+            "day": 3,
+            "gate_open": true,
+            "revision": 10
+          }
+        ],
+        "route_mode": "main",
+        "schema_version": 1,
+        "status": "idle"
+      },
+      "paused": true,
+      "revision": 10
+    }
+  },
+  "memory": {
+    "private_peak_bytes": 463343616,
+    "gpu_peak_bytes": 172748800,
+    "gpu_samples": 7,
+    "gpu_budget_verified": true,
+    "private_budget_passed": true,
+    "gpu_budget_passed": true
+  },
+  "first_process_run": false,
+  "os_disk_cache_cold_claim": false,
+  "external_presentation_timestamp": null,
+  "artifacts": {
+    "TongguanQ1.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanQ1.pck": "7c88248c6045208ed605b868ce5d6705bbf1166f9512f76053ed9817c5554508"
+  },
+  "measurement_source": {
+    "frame": "Godot monotonic main-loop intervals; every interval retained",
+    "gpu": "Windows WDDM GPUProcessMemory DedicatedUsage, summed per process across adapter instances",
+    "private": "GetProcessMemoryInfo PrivateUsage; not working-set substitute"
+  },
+  "execution_passed": true,
+  "budget_passed": null,
+  "gpu_counter_missing_samples": 1
+}

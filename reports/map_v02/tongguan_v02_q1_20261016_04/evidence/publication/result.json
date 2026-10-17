@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "partial_None",
+      "caught": "incomplete version",
+      "old_pointer_unchanged": true
+    },
+    {
+      "case": "new_disk_full",
+      "caught": "[Errno 28] injected write boundary disk-full failure",
+      "old_pointer_unchanged": true
+    },
+    {
+      "case": "new_before_replace",
+      "caught": "[Errno 4] injected interruption before Windows pointer replacement",
+      "old_pointer_unchanged": true
+    },
+    {
+      "case": "corrupt_new_pack",
+      "error": "bad version file TongguanQ1.pck",
+      "old_pointer_unchanged": true
+    },
+    {
+      "case": "style_migration_rejected",
+      "result": {
+        "ok": false,
+        "code": "style_migration_rejected"
+      },
+      "old_pointer_unchanged": true
+    }
+  ],
+  "old_native_starts": [
+    {
+      "command": [
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\publication\\switch_trial\\versions\\old\\TongguanFinal.exe",
+        "--headless",
+        "--log-file",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\publication\\old_before.log",
+        "--",
+        "--probe-build",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\publication\\old_before.json"
+      ],
+      "exit_code": 0,
+      "result": {
+        "build_id": "tongguan_v01_revfix_20261015_02",
+        "release": true,
+        "world_id": "tongguan_final_validation_v1"
+      }
+    },
+    {
+      "command": [
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\publication\\switch_trial\\versions\\old\\TongguanFinal.exe",
+        "--headless",
+        "--log-file",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\publication\\old_after_rollback.log",
+        "--",
+        "--probe-build",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\publication\\old_after_rollback.json"
+      ],
+      "exit_code": 0,
+      "result": {
+        "build_id": "tongguan_v01_revfix_20261015_02",
+        "release": true,
+        "world_id": "tongguan_final_validation_v1"
+      }
+    }
+  ],
+  "new_installed_smoke": "installed_smoke/result.json",
+  "rollback_exact_pointer": true,
+  "old_releases_sha_unchanged": true,
+  "incremental_passed": true,
+  "disk_full_scope": "injected ENOSPC at write boundary, not physical volume exhaustion",
+  "atomic_replace_api": "os.replace on the actual Windows filesystem; old/new executable and PCK checksums validated before pointer change",
+  "no_existing_active_pointer_modified": true
+}

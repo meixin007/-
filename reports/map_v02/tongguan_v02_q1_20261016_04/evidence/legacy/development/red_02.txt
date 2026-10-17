@@ -1,0 +1,55 @@
+FFFFF
+======================================================================
+FAIL: test_empty_and_invalid_measurements_fail (__main__.Q1Evidence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_q1_evidence.py", line 13, in test_empty_and_invalid_measurements_fail
+    m=self.module()
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_q1_evidence.py", line 7, in module
+    self.assertIsNotNone(importlib.util.find_spec('q1_evidence'),'Q1 evidence recorder not implemented')
+AssertionError: unexpectedly None : Q1 evidence recorder not implemented
+
+======================================================================
+FAIL: test_every_long_frame_retained (__main__.Q1Evidence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_q1_evidence.py", line 10, in test_every_long_frame_retained
+    m=self.module();r=m.frame_summary([8]*96+[34,51,101,900])
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_q1_evidence.py", line 7, in module
+    self.assertIsNotNone(importlib.util.find_spec('q1_evidence'),'Q1 evidence recorder not implemented')
+AssertionError: unexpectedly None : Q1 evidence recorder not implemented
+
+======================================================================
+FAIL: test_gpu_unavailable_is_not_zero (__main__.Q1Evidence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_q1_evidence.py", line 17, in test_gpu_unavailable_is_not_zero
+    m=self.module();r=m.memory_summary([dict(private_bytes=100,gpu_dedicated_bytes=None)])
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_q1_evidence.py", line 7, in module
+    self.assertIsNotNone(importlib.util.find_spec('q1_evidence'),'Q1 evidence recorder not implemented')
+AssertionError: unexpectedly None : Q1 evidence recorder not implemented
+
+======================================================================
+FAIL: test_no_incomplete_build_activation (__main__.Q1Evidence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_q1_evidence.py", line 20, in test_no_incomplete_build_activation
+    m=self.module()
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_q1_evidence.py", line 7, in module
+    self.assertIsNotNone(importlib.util.find_spec('q1_evidence'),'Q1 evidence recorder not implemented')
+AssertionError: unexpectedly None : Q1 evidence recorder not implemented
+
+======================================================================
+FAIL: test_windows_pointer_failure_preserves_old (__main__.Q1Evidence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_q1_evidence.py", line 27, in test_windows_pointer_failure_preserves_old
+    m=self.module()
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_q1_evidence.py", line 7, in module
+    self.assertIsNotNone(importlib.util.find_spec('q1_evidence'),'Q1 evidence recorder not implemented')
+AssertionError: unexpectedly None : Q1 evidence recorder not implemented
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.006s
+
+FAILED (failures=5)

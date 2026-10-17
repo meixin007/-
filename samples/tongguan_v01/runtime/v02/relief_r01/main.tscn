@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://v02/relief_r01/boot.gd" id="1"]
+[node name="ReliefReviewR1" type="Node"]
+script = ExtResource("1")

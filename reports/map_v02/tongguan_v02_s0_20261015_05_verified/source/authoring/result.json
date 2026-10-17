@@ -1,0 +1,17 @@
+{
+  "name": "authoring",
+  "command": [
+    "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+    "--headless",
+    "--path",
+    "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\authoring",
+    "--script",
+    "res://tests/test_r3_authoring.gd",
+    "--",
+    "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\source_final\\authoring\\details.json"
+  ],
+  "exit_code": 0,
+  "seconds": 27.563,
+  "diagnostics": [],
+  "passed": true
+}

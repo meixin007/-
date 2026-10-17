@@ -1,0 +1,9 @@
+{
+  "command": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "tools/map_v02/test_e1_package.py"
+  ],
+  "exit_code": 0,
+  "diagnostics": [],
+  "passed": true
+}

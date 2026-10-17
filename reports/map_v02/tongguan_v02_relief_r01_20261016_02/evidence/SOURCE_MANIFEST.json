@@ -1,0 +1,155 @@
+{
+  "build_id": "tongguan_v02_relief_r01_20261016_02",
+  "visual": "pending",
+  "old_v2_manifest_sha256": "7113aab2232b2c8a85bd47ad9ba904908dd8830a4c9b5c1250b69c3e76ab5753",
+  "files": [
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/context_ground.png",
+      "sha256": "88cab5f21ca32fc9e1f5e499ea586c8e14e2f568251d760d11be5666ac9a0e7e"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/context_water.png",
+      "sha256": "7e02d6e1d304aa5534b834c4f6618edf7239193558dfc5331f936e3612040ec5"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/ground_0_0.png",
+      "sha256": "2704a16acb54b617cf0c1246343c378621107c82f15bb2cf3eae1f8263869ef7"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/ground_0_1.png",
+      "sha256": "083bf175ee5dd989b5bbb565208929dc64794858bc102aad94c9729e2a1cce62"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/ground_0_2.png",
+      "sha256": "e795123abb396c92f76545c43a887fbf8328f21656327f63f33293c34d639667"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/ground_1_0.png",
+      "sha256": "14cd234f654d7e0d303d1768ef70bdade1245304ffbead1c364637644dce10b6"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/ground_1_1.png",
+      "sha256": "9091d2ccc4d9103a99c4da3cfc451eb45ea9343a00ce5ddf22050cc35544804f"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/ground_1_2.png",
+      "sha256": "e43cccd4af08a104b54e18a4a63686107fe9fa21f70a6656f3f185f2cb8cb452"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/ground_2_0.png",
+      "sha256": "1e7980dabd00e671dade26b6fccf960be7e26438e90090cca79ed80ceb1a9713"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/ground_2_1.png",
+      "sha256": "c9146798c81452a239e314647e3e888b4fbe476a03f15b3b24fd7d1a13f3a339"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/ground_2_2.png",
+      "sha256": "096af805fb04b55d06af25c32bf64d7fa93480eee9a1d514a99375bdbd6c35d4"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/ground_3_0.png",
+      "sha256": "df44e0a47499f649b0347af104034a6d103eb9e533c4c7b354ec1eb27082dc9a"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/ground_3_1.png",
+      "sha256": "b65b9be33cecbf370a027495cf9c03d5b9adf87fa05326026eeaf54cd708081e"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/ground_3_2.png",
+      "sha256": "f8e15e89d99c004fb74bb08f1909e7de39a71c70f0de0e31cdc84bcf0e801e8b"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/reference_fine.png",
+      "sha256": "435bd5da7a1e3e47c59c94371ecb54f5e289d2b71be75d2ad15bf5f603bf1c7a"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/water_0_0.png",
+      "sha256": "dbb3433857582ea2b58b28cfc01af9ae81448362fc92ff483e576c1ae8e3817a"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/water_0_1.png",
+      "sha256": "a4ec2a6c6f8f2479b1f164107923db9a001fd7511c17b8535514655a37c4bf34"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/water_0_2.png",
+      "sha256": "0e6ad3ab58360e7769bb40bf6c2e77162b89919ac0e6f7ec57a5bc066b528963"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/water_1_0.png",
+      "sha256": "14bb582ac7d36925e0d174c89db3c233f3ad6f3dfd8f5ce553930ba80f7ea879"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/water_1_1.png",
+      "sha256": "c70e09f89f3285485983785468d7ac633eb59833273574180d3a061c1fed206c"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/water_1_2.png",
+      "sha256": "4ccc93300248a9d80e8f7ca5783e6de9633b11de0caf2b7102f10aada0b5b7d1"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/water_2_0.png",
+      "sha256": "1b4c2aea9cf77c420fced213c4a2561d403742097479cc8ea10250003b623139"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/water_2_1.png",
+      "sha256": "1d0bf70f5da40947e59ee32ad8021230cbae3597ad4c16777c867cf63687b507"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/water_2_2.png",
+      "sha256": "27cbcd6689dcfaf947c9b24a201c604b90488d7e7eea2bd74a109269ed7d8065"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/water_3_0.png",
+      "sha256": "26a074f6e817b1bab73d862bfd590ea7df68ed4d6e9da2b33f95997769adfc16"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/water_3_1.png",
+      "sha256": "fb8d36cd47c5f516687a53f1e81bc2be9a0ae1787e92f68a09173270a6e814b3"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/assets/water_3_2.png",
+      "sha256": "196e078d8a4cab3a32c6f272d67a426279c3019d3be8ffe06f4d1f6760dcfb20"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/boot.gd",
+      "sha256": "b4b1dfdb928855ba0048a9f19896b7e61843ceecccbe065e30b532da8ea0f01f"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/capture.gd",
+      "sha256": "716e6c33735a9c4a4bb595e00f68254df1739e9832c4ab682ed6509717591a29"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/main.tscn",
+      "sha256": "f28f4ade2b7901c000b1b20ce9b094ae4815986a598cb669e33f8828d0d2afe0"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/presenter.gd",
+      "sha256": "b05f6f3aed4896b44eb5383803757f0f505dad74c8e26d6f4ad07698c4f4c912"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/structure_brushes.json",
+      "sha256": "123ceca5bfb7bab5fffb408512f81ba4f9e174e01231821fed4963d78fd7ba01"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/terrain.json",
+      "sha256": "8e66d77d2c653082e209edfbaf7cc5adafc1ebd160cd36e66e8403f2d7378d4f"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/relief_r01/terrain.tscn",
+      "sha256": "7e8bd0e29b4a41321a57bc51ac739814e1ca5d8f76656721e6f257fcce03c933"
+    },
+    {
+      "path": "tools/map_v02/relief_r01_build.py",
+      "sha256": "eefc100bad645ce99af3f54b6e8af507e26762dbe48a599829fd97f42db609a6"
+    },
+    {
+      "path": "tools/map_v02/relief_r01_prepare.py",
+      "sha256": "27ecad21267806fd1fc120c23689546576cbfc7d5114c20b7e2847fb5ae6e13e"
+    },
+    {
+      "path": "tools/map_v02/test_relief_r01.py",
+      "sha256": "fdee7387f630295c901093126892cfb08a70d8a04c8d9817b4606e93b63ac817"
+    }
+  ]
+}

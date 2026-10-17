@@ -1,0 +1,8 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060
+
+E2_QUERY_SCALE 1000 visible=4 candidates=4
+E2_QUERY_SCALE 10000 visible=4 candidates=4
+E2_QUERY_SCALE 100000 visible=4 candidates=4
+C1_CHECK_FAILED repair restores same camera pixels exactly
+C1_NATIVE {"checks":2145,"failures":["repair restores same camera pixels exactly"]}

@@ -1,0 +1,4 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060
+
+R3_AUTHORING_SCENE: {"checks":18,"failures":[],"publication_path":"H:/tongguan_reviewfix_20261015/review-work/map_v02/q1_regression_native_e2e/isolated_exchange/tongguan_slice_v01_integrity/authoring/tests_native_publication.json"}

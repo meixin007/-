@@ -1,0 +1,64 @@
+{
+  "build_id": "tongguan_v02_c1_20261016_04",
+  "profiles": {
+    "normal": {
+      "id": "normal_256_320",
+      "soft": 268435456,
+      "hard": 335544320,
+      "decoded": 67108864,
+      "concurrency": 2,
+      "attach_usec": 2000,
+      "grace_usec": 2000000
+    },
+    "pressure": {
+      "id": "c1_pressure_32_48",
+      "soft": 33554432,
+      "hard": 50331648,
+      "decoded": 25165824,
+      "concurrency": 2,
+      "attach_usec": 2000,
+      "grace_usec": 0
+    }
+  },
+  "packages": {
+    "tongguan": {
+      "path": "res://v02/c1/packages/tongguan",
+      "expected": {
+        "coordinate_sha256": "83da0e5d4de76147f6a3fb2d0d93f283c0b02fda2cfc8d20b7df6c5c9af98113",
+        "fixed_refs_sha256": "9d2227e73f45c7be59ecbbac53f7857481b654111a51de66855685a3915d2b67",
+        "graph_version": "tongguan_controlled_corridor_r3_v01",
+        "layout_slots_sha256": "4afb38378d473beafcdc99704a6fe42510bbf116307b54d1c72984d2871866c1",
+        "layout_version": "tongguan_p4_layout_v02",
+        "site_id": "tongguan",
+        "world_id": "tongguan_final_validation_v1"
+      },
+      "build_id": "tongguan_v02_c1_20261016_04_tongguan"
+    },
+    "multi": {
+      "path": "res://v02/c1/packages/multi",
+      "expected": {
+        "world_id": "stream_lab_v02",
+        "site_id": "lab.stream.proxy",
+        "layout_version": "lab_8x32_e3_v1",
+        "layout_slots_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fixed_refs_sha256": "db31485fa2e6cd6754227af6fe48d1d27f571e2fce6cd43478e45123435f9547",
+        "graph_version": "lab_visual_no_corridors",
+        "coordinate_sha256": "8b0f305c0ea00c2bcf339c4d8cd0b288b17fe1c42bc9ac77bde29393e6349c51"
+      },
+      "build_id": "tongguan_v02_c1_20261016_04_multi"
+    }
+  },
+  "semantic": {
+    "reference_width_m": 1200,
+    "thresholds_px": [
+      32,
+      128,
+      384
+    ],
+    "hysteresis": 0.15,
+    "transition_msec": 180,
+    "label_limit": 64
+  },
+  "visual": "pending",
+  "q1": "not_claimed"
+}

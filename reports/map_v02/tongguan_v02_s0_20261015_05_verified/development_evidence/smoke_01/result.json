@@ -1,0 +1,48 @@
+{
+  "failures": [
+    "no fresh native result"
+  ],
+  "command": [
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_01\\release\\Windows\\TongguanV02S0.exe",
+    "--resolution",
+    "1920x1080",
+    "--borderless",
+    "--position",
+    "0,0",
+    "--log-file",
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\smoke_01\\runtime.log",
+    "res://v02/main.tscn",
+    "--",
+    "--expect-release",
+    "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\smoke_01\\result.json",
+    "--s0-probe",
+    "--map-service=v02",
+    "--seconds=3.0",
+    "--evidence-root=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\smoke_01"
+  ],
+  "process_exit_code": 1,
+  "timed_out": false,
+  "diagnostics": [
+    "ERROR: Scene path was specified on the command line, but this Godot binary was compiled without support for path overrides. Aborting."
+  ],
+  "process_id": 26336,
+  "process_wall_seconds": 1.5,
+  "isolation": {
+    "start_and_end_inventory_available": true,
+    "other_godot_or_tongguan_observed": false,
+    "note": "Start/end snapshots only; no claim of continuous OS process isolation; no user processes terminated."
+  },
+  "windows_metrics": {
+    "private_peak_bytes": 145240064,
+    "gpu_dedicated_peak_bytes": 2252800,
+    "sampling_target_ms": 100
+  },
+  "execution_passed": false,
+  "percentile_budget_passed": false,
+  "performance_acceptance_eligible": false,
+  "artifact_hashes": {
+    "TongguanV02S0.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanV02S0.pck": "b809cdb1a5997b6953708169881d3c4e777abe91eed6c85854c73c2fb186c05c"
+  },
+  "os_disk_cache_cleared": false
+}

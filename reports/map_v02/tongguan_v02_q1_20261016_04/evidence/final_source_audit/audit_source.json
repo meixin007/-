@@ -1,0 +1,7 @@
+{
+  "script": "tools/map_v02/q1_payload_seal.py",
+  "sha256": "1cbc9c99043986c634d3d5efc00171ee008f6f2c184790648e633d7fc8f73b28",
+  "initial_seal_preserved": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\initial_report_seal\\DELIVERY_MANIFEST.json",
+  "old_files_unchanged": 1939,
+  "passed": true
+}

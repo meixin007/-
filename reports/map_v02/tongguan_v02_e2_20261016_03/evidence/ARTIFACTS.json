@@ -1,0 +1,14 @@
+{
+  "Start-E2.cmd": {
+    "sha256": "68170d272e564f57d50d21439b90ac7b8e803361301db38e467ab76e2fc01722",
+    "bytes": 53
+  },
+  "TongguanE2.exe": {
+    "sha256": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "bytes": 104576512
+  },
+  "TongguanE2.pck": {
+    "sha256": "a38055df0c26e310b41c09f226596fce3773ad0a0d09bcc7a983f7eafde5a208",
+    "bytes": 26916228
+  }
+}

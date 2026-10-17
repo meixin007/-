@@ -1,0 +1,14 @@
+{
+  "Start-E3.cmd": {
+    "sha256": "fd7cb4c38beceffd74d5bfc8275d016d4ab7b95b73f214dcecfbaca8dc4aa7b1",
+    "bytes": 53
+  },
+  "TongguanE3.exe": {
+    "sha256": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "bytes": 104576512
+  },
+  "TongguanE3.pck": {
+    "sha256": "2511e4ca31f486779f009fe7003e7f346558fbf7b1267e189e30beee0480aab6",
+    "bytes": 28793216
+  }
+}

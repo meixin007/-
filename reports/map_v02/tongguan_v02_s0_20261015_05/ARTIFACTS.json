@@ -1,0 +1,26 @@
+{
+  "Start-Legacy.cmd": {
+    "bytes": 59,
+    "sha256": "96113674e44c2733fbe714d1ff09a9a959df3752b951632ccba7c9190d5330ae"
+  },
+  "Start-S0.cmd": {
+    "bytes": 56,
+    "sha256": "6cf7703626505ccdee3222bef67483a18c031b5e6a552abcefb0af74931f1eda"
+  },
+  "TongguanLegacyS0.exe": {
+    "bytes": 104576512,
+    "sha256": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20"
+  },
+  "TongguanLegacyS0.pck": {
+    "bytes": 15475152,
+    "sha256": "2881540e51f34ef4d30229a417ff093e33e4d4faa4461672bafa9fcdef77d295"
+  },
+  "TongguanV02S0.exe": {
+    "bytes": 104576512,
+    "sha256": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20"
+  },
+  "TongguanV02S0.pck": {
+    "bytes": 15475168,
+    "sha256": "a8ac3b8c65787e38ccb9eed88abb0b984f558801b86ba94475ee9c40c581ba84"
+  }
+}

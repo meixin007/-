@@ -1,0 +1,7 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+SCRIPT ERROR: Cannot call method 'store_string' on a null value.
+   at: run (res://tests/test_review_geometry.gd:56)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/test_review_geometry.gd:56)
+GEOMETRY_TIMEOUT

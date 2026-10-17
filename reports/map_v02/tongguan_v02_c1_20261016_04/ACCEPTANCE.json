@@ -1,0 +1,19 @@
+{
+  "stage": "C1",
+  "build_id": "tongguan_v02_c1_20261016_04",
+  "technical": "passed",
+  "visual": "pending",
+  "history": "not_signed",
+  "q1": "not_claimed",
+  "native_checks": 2157,
+  "compatibility_suites": 11,
+  "old_files_unchanged": 1775,
+  "old_art_overwritten": false,
+  "new_ai_art_count": 0,
+  "mip_scope": "base only",
+  "gpu_positive_cases": 7,
+  "gpu_negative_control": "detected",
+  "original_authority": "one controller/context; Save22 unchanged",
+  "normal_profile": "256/320 MiB",
+  "pressure_profile": "32/48 MiB engineering test only"
+}

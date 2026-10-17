@@ -1,0 +1,23 @@
+{
+  "selected_source_features": [
+    {
+      "feature_index": 110,
+      "level_m": 350,
+      "segments": 4
+    },
+    {
+      "feature_index": 156,
+      "level_m": 420,
+      "segments": 6
+    },
+    {
+      "feature_index": 215,
+      "level_m": 520,
+      "segments": 1
+    }
+  ],
+  "segments": 11,
+  "slope_hatches": 9,
+  "selection": "levels 350/420/520, slope 14..60deg, abs local TPI>=1.5m",
+  "semantics": "painted slope structure only; not new terrain geometry"
+}

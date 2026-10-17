@@ -1,0 +1,44 @@
+{
+  "cpu": [
+    {
+      "Name": "AMD Ryzen 7 5700X 8-Core Processor             ",
+      "NumberOfCores": 8,
+      "NumberOfLogicalProcessors": 16
+    }
+  ],
+  "system": [
+    {
+      "TotalPhysicalMemory": "17120399360"
+    }
+  ],
+  "gpu": [
+    {
+      "Name": "GameViewer Virtual Display Adapter",
+      "DriverVersion": "15.6.5.199",
+      "AdapterRAM": null
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 4060",
+      "DriverVersion": "32.0.16.1692",
+      "AdapterRAM": -1048576
+    }
+  ],
+  "godot_processes_before_formal_measurement": [],
+  "nvidia": {
+    "command": [
+      "nvidia-smi",
+      "--query-gpu=name,driver_version,memory.total,memory.used,utilization.gpu",
+      "--format=csv,noheader,nounits"
+    ],
+    "output": "NVIDIA GeForce RTX 4060, 616.92, 8188, 1117, 44\r\n",
+    "exit_code": 0
+  },
+  "power_scheme": {
+    "command": [
+      "powercfg",
+      "/getactivescheme"
+    ],
+    "output": "电源方案 GUID: 9897998c-92de-4669-853f-b7cd3ecb2790  (AMD Ryzen™ Balanced)",
+    "exit_code": 0
+  }
+}

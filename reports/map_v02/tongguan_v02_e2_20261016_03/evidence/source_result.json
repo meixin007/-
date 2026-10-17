@@ -1,0 +1,525 @@
+{
+	"checks": 182,
+	"core": {
+		"checks": 97,
+		"failures": [],
+		"observations": [
+			{
+				"build_and_check_ms": 36,
+				"candidates": 4,
+				"query_candidate_tests": 4,
+				"query_full_record_enumerations": 0,
+				"reference_full_record_enumerations": 1,
+				"telemetry": {
+					"identity": {
+						"asset_bounds_version": 1,
+						"build_id": "e2_contract",
+						"cell_m": 512,
+						"effective_revision": "1",
+						"world_id": "stream_lab_v02"
+					},
+					"index": {
+						"bucket_lookups": 1,
+						"candidate_tests": 4,
+						"candidate_union_builds": 1,
+						"delta_updates": 0,
+						"full_index_builds": 1,
+						"query_calls": 1,
+						"records_reindexed": 1000,
+						"reference_record_enumerations": 1,
+						"source_records_validated": 1000
+					},
+					"objects": 1000,
+					"planner": {
+						"plan_reuses": 0,
+						"reference_full_scans": 1,
+						"snapshot_reads": 1,
+						"sort_calls": 1,
+						"visible_plan_builds": 1
+					}
+				},
+				"total_objects": 1000,
+				"visible": 4
+			},
+			{
+				"build_and_check_ms": 437,
+				"candidates": 4,
+				"query_candidate_tests": 4,
+				"query_full_record_enumerations": 0,
+				"reference_full_record_enumerations": 1,
+				"telemetry": {
+					"identity": {
+						"asset_bounds_version": 1,
+						"build_id": "e2_contract",
+						"cell_m": 512,
+						"effective_revision": "1",
+						"world_id": "stream_lab_v02"
+					},
+					"index": {
+						"bucket_lookups": 1,
+						"candidate_tests": 4,
+						"candidate_union_builds": 1,
+						"delta_updates": 0,
+						"full_index_builds": 1,
+						"query_calls": 1,
+						"records_reindexed": 10000,
+						"reference_record_enumerations": 1,
+						"source_records_validated": 10000
+					},
+					"objects": 10000,
+					"planner": {
+						"plan_reuses": 0,
+						"reference_full_scans": 1,
+						"snapshot_reads": 1,
+						"sort_calls": 1,
+						"visible_plan_builds": 1
+					}
+				},
+				"total_objects": 10000,
+				"visible": 4
+			},
+			{
+				"build_and_check_ms": 4485,
+				"candidates": 4,
+				"query_candidate_tests": 4,
+				"query_full_record_enumerations": 0,
+				"reference_full_record_enumerations": 1,
+				"telemetry": {
+					"identity": {
+						"asset_bounds_version": 1,
+						"build_id": "e2_contract",
+						"cell_m": 512,
+						"effective_revision": "1",
+						"world_id": "stream_lab_v02"
+					},
+					"index": {
+						"bucket_lookups": 1,
+						"candidate_tests": 4,
+						"candidate_union_builds": 1,
+						"delta_updates": 0,
+						"full_index_builds": 1,
+						"query_calls": 1,
+						"records_reindexed": 100000,
+						"reference_record_enumerations": 1,
+						"source_records_validated": 100000
+					},
+					"objects": 100000,
+					"planner": {
+						"plan_reuses": 0,
+						"reference_full_scans": 1,
+						"snapshot_reads": 1,
+						"sort_calls": 1,
+						"visible_plan_builds": 1
+					}
+				},
+				"total_objects": 100000,
+				"visible": 4
+			}
+		],
+		"scope": "E2 metadata query/cache correctness; not E3 residency or nationwide frame-time acceptance",
+		"small_fixture_telemetry": {
+			"identity": {
+				"asset_bounds_version": 1,
+				"build_id": "same_local_origin",
+				"cell_m": 512,
+				"effective_revision": "1",
+				"world_id": "another_engineering_world"
+			},
+			"index": {
+				"bucket_lookups": 49,
+				"candidate_tests": 180,
+				"candidate_union_builds": 6,
+				"delta_updates": 4,
+				"full_index_builds": 2,
+				"query_calls": 47,
+				"records_reindexed": 24,
+				"reference_record_enumerations": 0,
+				"source_records_validated": 59
+			},
+			"objects": 4,
+			"planner": {
+				"plan_reuses": 72,
+				"reference_full_scans": 0,
+				"snapshot_reads": 3,
+				"sort_calls": 7,
+				"visible_plan_builds": 7
+			}
+		}
+	},
+	"e1_regression": {
+		"checks": 85,
+		"engine_version": {
+			"build": "official",
+			"hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+			"hex": 263681,
+			"major": 4,
+			"minor": 6,
+			"patch": 1,
+			"status": "stable",
+			"string": "4.6.1-stable (official)",
+			"timestamp": 0
+		},
+		"failures": [],
+		"native_release": false,
+		"observations": [
+			{
+				"build_id": "tongguan_v02_e2_20261016_03_lab",
+				"imported_textures_verified": 22,
+				"objects": 4,
+				"optional_missing": [
+					"terrain/fine_2_1.png.bin"
+				],
+				"package": "lab",
+				"pages": 21,
+				"texture_requests": [
+					{
+						"imported_pixel_sha256": "72f662e22266cfdff4c911e198a5df22304222d7caa7f6cb88467502a621a8b4",
+						"path": "res://v02/e1/packages/lab/assets/trees.png",
+						"source_sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11"
+					},
+					{
+						"imported_pixel_sha256": "b1d956d370a1a6f7f8a8acfd033af745424ee2149df438acbc2a8f1b95afa8d6",
+						"path": "res://v02/e1/packages/lab/assets/gate_eastwest.png",
+						"source_sha256": "971dbffc6bfe5c947e5f9541fb68c12d5712f23c26bfd94566c904880c7fe16d"
+					},
+					{
+						"imported_pixel_sha256": "94610506f3fa7e529f1e041b1972ccaf19d60e6828168108aa48be505284131d",
+						"path": "res://v02/e1/packages/lab/terrain/root_0_0.png",
+						"source_sha256": "62e7de9303218b39de92c53183fd0247a8f0e533e3c86ff4c54f53a9840fad33"
+					},
+					{
+						"imported_pixel_sha256": "76a5bd7a3b64278005893b35d662816579672ed937c704422cc1c9a7221066b5",
+						"path": "res://v02/e1/packages/lab/terrain/parent_0_0.png",
+						"source_sha256": "303eb71bdee16c6d64181efdc18dfe3f30f4f93893572b17e63674b0694930ef"
+					},
+					{
+						"imported_pixel_sha256": "338fbcbd0d26c0b458f3d48d56e3c99f7500e639591c3d3f0e73c885eb9bc9e5",
+						"path": "res://v02/e1/packages/lab/terrain/parent_1_0.png",
+						"source_sha256": "d4a5e337bd7587dc38c177547801834709351842faa35111faf5655023db469a"
+					},
+					{
+						"imported_pixel_sha256": "e1ea2879270b0d04416a3f00808ce16c668c5b89d8d0778ab6dd22c2c3b6ef4d",
+						"path": "res://v02/e1/packages/lab/terrain/parent_0_1.png",
+						"source_sha256": "fcc0c2b55191ca81fd8d0e09ba6afb746ff5aff6b1bc3c1abae6c560d18b0987"
+					},
+					{
+						"imported_pixel_sha256": "2b671b57bc776d1268f0866276809e2c123140d20b853b2eda5ceca06d6da73b",
+						"path": "res://v02/e1/packages/lab/terrain/parent_1_1.png",
+						"source_sha256": "e9b173e3b3b1aec245545a180a8e698750fd4f6bf268f2034a368969792d8fd9"
+					},
+					{
+						"imported_pixel_sha256": "6a5a99f02184fd6353c6c31424f1c5fc86147227a949325cad1cd35f2010daa8",
+						"path": "res://v02/e1/packages/lab/terrain/fine_0_0.png",
+						"source_sha256": "168ac3b431bb8371687c8afcc9899623b75faeeb450474a185803b86093824b5"
+					},
+					{
+						"imported_pixel_sha256": "11cd0dac065c750da5f7920c6c65b787fcba1cbcc6840a05983bbd49244cb339",
+						"path": "res://v02/e1/packages/lab/terrain/fine_1_0.png",
+						"source_sha256": "30c41ea6a14689bd8dbde2a0f330ee959ce24d994ae374a0444bab9b41bbc5bc"
+					},
+					{
+						"imported_pixel_sha256": "62407cd76140fc1cbef6955cd8042fe9accf719ce6f2bda4c2f7a23b3828f67c",
+						"path": "res://v02/e1/packages/lab/terrain/fine_2_0.png",
+						"source_sha256": "adb056e86ccc7d041dbc16158eaa1e386b38f2776772deab2b917449389a16aa"
+					},
+					{
+						"imported_pixel_sha256": "21713ef237ade96598ed34ed2b3201b6d3b327f1d11c8629690f5ac47715c14a",
+						"path": "res://v02/e1/packages/lab/terrain/fine_3_0.png",
+						"source_sha256": "df59302fe90fe23777bd2c00ead3b2c5c2aedf1abac76cd1329948721ef4de57"
+					},
+					{
+						"imported_pixel_sha256": "34b4ece76c976e5f41e691ee33d5005038d958b4a37334d19aebfdb9bad51793",
+						"path": "res://v02/e1/packages/lab/terrain/fine_0_1.png",
+						"source_sha256": "38bef6c0345d1acf458851161e8658d536a60a07350f58e6530930befdce965c"
+					},
+					{
+						"imported_pixel_sha256": "5a1cd2bfeed25851cdadec94527513f9901240f00cb427fc838d1652677984db",
+						"path": "res://v02/e1/packages/lab/terrain/fine_1_1.png",
+						"source_sha256": "c78544a32a5c39de75bcc9c5c5fb26ce721bb1e90da9283bd69187792c555168"
+					},
+					{
+						"imported_pixel_sha256": "3c0fec569ef4f63b29b654176ab56400fd64f5c98554f3583253cc9c27975d22",
+						"path": "res://v02/e1/packages/lab/terrain/fine_3_1.png",
+						"source_sha256": "73fc4c50f834445fc4c14248fe08d89b59617b2f79a0a983807c8c60b99496e1"
+					},
+					{
+						"imported_pixel_sha256": "cf47e7efd7ab28e8a0c3971853d109a341210c45c8881f08d5fdfd222d9ad399",
+						"path": "res://v02/e1/packages/lab/terrain/fine_0_2.png",
+						"source_sha256": "fab449721b786eb3f39100ce2f911f3fa09335cb7b4025f12082f6be7ecf191e"
+					},
+					{
+						"imported_pixel_sha256": "7b1df824132b6fcbaa8f5d9c749bfd892e45fe8d74d7391c35c4597d7c459d10",
+						"path": "res://v02/e1/packages/lab/terrain/fine_1_2.png",
+						"source_sha256": "b3f5426e4936b948fea8a3e257c4ac8376b527faf47d488b2a6a74d10205f355"
+					},
+					{
+						"imported_pixel_sha256": "90c033fc69801ef777ddd4c55df4f193ed2ecd1cd30b508f1eb637f0b5ed0470",
+						"path": "res://v02/e1/packages/lab/terrain/fine_2_2.png",
+						"source_sha256": "fb008cba8a13060348849a67e2857cccdebf93d0dc2ba537af9f7094a80d2547"
+					},
+					{
+						"imported_pixel_sha256": "63a243250ee5e9e6064d59fa1a619f84a1b5b2b10bf824ca585538e44672aa5d",
+						"path": "res://v02/e1/packages/lab/terrain/fine_3_2.png",
+						"source_sha256": "6e4b4b07c1eb28722ab5f10d21df3e47d8b80d3629a6f542362a368ebf992c64"
+					},
+					{
+						"imported_pixel_sha256": "e0b7f59ac3607ea21efbae6d9f30290861b8d922b831571738e27e28aeee7e28",
+						"path": "res://v02/e1/packages/lab/terrain/fine_0_3.png",
+						"source_sha256": "0a1a1328173ca998b40434e72b868d7d2c0b57473328cb3bfbfce8dbe80ab6e6"
+					},
+					{
+						"imported_pixel_sha256": "400c32afa5b27150987250b6dcd328f7afb2955781b9be2afed82337a28dc26c",
+						"path": "res://v02/e1/packages/lab/terrain/fine_1_3.png",
+						"source_sha256": "9113b071f57fc5c963368494f9e0e57ea6e48c7686e7f40d03a78edf12a09a75"
+					},
+					{
+						"imported_pixel_sha256": "630ff87cd7424ac080e98852c46db5f1f2a2c72dc4d3d94bbccc149d50a01b11",
+						"path": "res://v02/e1/packages/lab/terrain/fine_2_3.png",
+						"source_sha256": "0f161981203f8633611a460bc393191f4c1ec62c8aac16d397b6963721dc95f5"
+					},
+					{
+						"imported_pixel_sha256": "f7bce3d073dbf7b75d2dabc351b600a04a9c6ba528110134c7c96899d99ef263",
+						"path": "res://v02/e1/packages/lab/terrain/fine_3_3.png",
+						"source_sha256": "f46435016fb6317ed9ea08060e0373b56e710720036f0a099d850ac11ab7dc8d"
+					}
+				]
+			},
+			{
+				"build_id": "tongguan_v02_e2_20261016_03_tongguan",
+				"imported_textures_verified": 27,
+				"objects": 76,
+				"optional_missing": [],
+				"package": "tongguan",
+				"pages": 13,
+				"texture_requests": [
+					{
+						"imported_pixel_sha256": "72f662e22266cfdff4c911e198a5df22304222d7caa7f6cb88467502a621a8b4",
+						"path": "res://v02/e1/packages/tongguan/assets/trees.png",
+						"source_sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11"
+					},
+					{
+						"imported_pixel_sha256": "b1d956d370a1a6f7f8a8acfd033af745424ee2149df438acbc2a8f1b95afa8d6",
+						"path": "res://v02/e1/packages/tongguan/assets/gate_eastwest.png",
+						"source_sha256": "971dbffc6bfe5c947e5f9541fb68c12d5712f23c26bfd94566c904880c7fe16d"
+					},
+					{
+						"imported_pixel_sha256": "f1154625a6dafca5c42606e8773461b449aa2c3771564a7cab50c5462c653ece",
+						"path": "res://v02/e1/packages/tongguan/terrain/overview.png",
+						"source_sha256": "f67d357996b50fe4f24ef75ffa7afce9b720e9a25f53c589f4016201bc0c3313"
+					},
+					{
+						"imported_pixel_sha256": "94aeaeff022cb430a5204133cfe88f6515f4259a641843af5eaa8cfe281e642b",
+						"path": "res://v02/e1/packages/tongguan/terrain/ground_0_0.png",
+						"source_sha256": "62a5614614940e09c2ebf52325ed4cdfad0e67bc300da109ef568f89eb11e45c"
+					},
+					{
+						"imported_pixel_sha256": "d74311829edf75c3b3ef9aea01b084a4d0c59ff9eb172b7b570fbaf428671dfb",
+						"path": "res://v02/e1/packages/tongguan/terrain/water_0_0.png",
+						"source_sha256": "8ba9be9ba9a450c9c95955308467f581a4dcde83223375bcecb440e0febe8b21"
+					},
+					{
+						"imported_pixel_sha256": "9adfc7d368f974a06af7f09e2f038a58d5e9b08d5a1851096534bed80b0f6a02",
+						"path": "res://v02/e1/packages/tongguan/terrain/ground_1_0.png",
+						"source_sha256": "53a02d594e7cf622c5a294d71e280971ea716667580c3660fbd9aaa31f37a657"
+					},
+					{
+						"imported_pixel_sha256": "81ffe94d62e514aee3d79a376b07115456745271f70f8ca1bab6df629958d1f3",
+						"path": "res://v02/e1/packages/tongguan/terrain/water_1_0.png",
+						"source_sha256": "31ee01a51ebcdf06488803bac850dd45d5a2315dc0e16ebbe37f1ba67fef2121"
+					},
+					{
+						"imported_pixel_sha256": "a0dd7ce94e550f956f942c7ca31f21bbaad5e33427518e74bfa96bb980fbb755",
+						"path": "res://v02/e1/packages/tongguan/terrain/ground_2_0.png",
+						"source_sha256": "028473351c94bf8102262c0406e8d53b5712f9682f6ea28caffb0ebc53eb4e46"
+					},
+					{
+						"imported_pixel_sha256": "393656375459d68f344a2d2420af77ee7229d821f0ff85151ff741bd34746f36",
+						"path": "res://v02/e1/packages/tongguan/terrain/water_2_0.png",
+						"source_sha256": "fb121b637e56ea2611323ff67c8b2a6adaba47f8dbc0cfc1e750ac92693be993"
+					},
+					{
+						"imported_pixel_sha256": "7e8f618ceb16770852b18515870c1605a5d291fb0d4d205d6b28026e366f30d9",
+						"path": "res://v02/e1/packages/tongguan/terrain/ground_3_0.png",
+						"source_sha256": "157eac65f77afb49d8ebf78cdbb1dbe62bce7af67e2e3389cf5df861ca0ec047"
+					},
+					{
+						"imported_pixel_sha256": "864c8aef583d96cf8823d5f65f5614e357b84466ddb520fb9cc21ee75833db34",
+						"path": "res://v02/e1/packages/tongguan/terrain/water_3_0.png",
+						"source_sha256": "b109c75e2dc781f8f8f2b68cb211e864cd9c2a98714ac4b8ca7951313ccf79e6"
+					},
+					{
+						"imported_pixel_sha256": "e4652a1400b587796cd7f7afc3ceb51c4f51a805558f9fcb1d536d340ef5f96c",
+						"path": "res://v02/e1/packages/tongguan/terrain/ground_0_1.png",
+						"source_sha256": "5bdaeffc942c690c145e7152a0259abcfdfd63085297856d272f44308dd8ecd0"
+					},
+					{
+						"imported_pixel_sha256": "778bc5a8efc6074963c883dd99c15b21281d63b538e049d2ddc013ab851822ca",
+						"path": "res://v02/e1/packages/tongguan/terrain/water_0_1.png",
+						"source_sha256": "da41fa02af52727ff92d9de4d1dbf4538b3cdb8e0afcc5f93564f6be673f0a1e"
+					},
+					{
+						"imported_pixel_sha256": "793c7ddef403bc56de3e72621e6fb087665ef4e75283e4c20c0266de422e10c3",
+						"path": "res://v02/e1/packages/tongguan/terrain/ground_1_1.png",
+						"source_sha256": "b8faf6caed906d64d67fae9b2e2274c199906eba1ab033ca3d42baa016021ae6"
+					},
+					{
+						"imported_pixel_sha256": "3ac8e82a9b1080b0fe30b09372f62b5e8c8b8c7fa334946cdfa6edcbdd73a5a1",
+						"path": "res://v02/e1/packages/tongguan/terrain/water_1_1.png",
+						"source_sha256": "8f3199b24781377f9ea16551ced88beac938b239ad901bf6287a943440015920"
+					},
+					{
+						"imported_pixel_sha256": "a3354b55ca43805f4a9b2f7fbe8f8ea7ef4c3ecf6b8daa8a01c99afd94bcb5bb",
+						"path": "res://v02/e1/packages/tongguan/terrain/ground_2_1.png",
+						"source_sha256": "7e2b6f18507e08f99ea720a0599ba9a6e8fedfe63b6577355148f2a5c5105663"
+					},
+					{
+						"imported_pixel_sha256": "26daf605c011270eeef94310f741b7cf8d2ea8a42aef7ea5ab6d3cfebbcd9c15",
+						"path": "res://v02/e1/packages/tongguan/terrain/water_2_1.png",
+						"source_sha256": "281672dcc61bb26a2e02911f63254107190b676e49d3eabfb6c917455710fefb"
+					},
+					{
+						"imported_pixel_sha256": "6fa8a92da6a2fface1d7eb3c50f1433e26aa0f23aed1430aca075962baea96a7",
+						"path": "res://v02/e1/packages/tongguan/terrain/ground_3_1.png",
+						"source_sha256": "3957bc7450116ed05073c5f85e25600cbe7c4fb84350c0fa082c6d3a5457c734"
+					},
+					{
+						"imported_pixel_sha256": "bb88f4121dd3f3c1a1294c560ce06b3d687abbdac7c509e33e4ae416f57ad87b",
+						"path": "res://v02/e1/packages/tongguan/terrain/water_3_1.png",
+						"source_sha256": "298d05a9f5c77951948d046bca1ff4db139fffa4c4bd66a8421ee54beee94788"
+					},
+					{
+						"imported_pixel_sha256": "8d55e91544ef0e747d70373f926f2dedfe0f87e7d6f3e627de6a8bea88acf304",
+						"path": "res://v02/e1/packages/tongguan/terrain/ground_0_2.png",
+						"source_sha256": "2a3ccc7a77f56b2565f62876a05c3a7adf2ddd3e2c6c4fba8471ef07b1ce4231"
+					},
+					{
+						"imported_pixel_sha256": "348c666d5de1a399e802847d4ac93df3d648bd4c06db4da10deac821aabba012",
+						"path": "res://v02/e1/packages/tongguan/terrain/water_0_2.png",
+						"source_sha256": "93a5d3cbc3198bd9a1a08f8420bf37d772c118d210dde849ff18b609bcfd85ea"
+					},
+					{
+						"imported_pixel_sha256": "554acae029d0e78f7e7f49d50c47b182f42473e2df00d7c6fb0a070823dca0a7",
+						"path": "res://v02/e1/packages/tongguan/terrain/ground_1_2.png",
+						"source_sha256": "f73984b452b7f6ca0d242e6af6aceb04e57d5d7ba7f030566efb6a892279bdb0"
+					},
+					{
+						"imported_pixel_sha256": "fb155c80694c8da35e85af24bfa4effbc968a2c725426d2cd859852a8429c793",
+						"path": "res://v02/e1/packages/tongguan/terrain/water_1_2.png",
+						"source_sha256": "f0467b820cac4dc09fda896050c5eb1d37bdbfc02bfd8424bf28e50056c5ee1b"
+					},
+					{
+						"imported_pixel_sha256": "db57e6dffa6d70e83b93a7a3616e33678c61033f0311299c388652324ac03f52",
+						"path": "res://v02/e1/packages/tongguan/terrain/ground_2_2.png",
+						"source_sha256": "de19c9b9eefd7ec0dbcf3e5a850934cc2acc0948ecb948f089412d11a269fc59"
+					},
+					{
+						"imported_pixel_sha256": "69b87bdd5e1a0c808b9f384bcaba30076c19290dab48f26cfbbe097c253c2ad5",
+						"path": "res://v02/e1/packages/tongguan/terrain/water_2_2.png",
+						"source_sha256": "65cea15dd91bae3bbf375707681d44500dff88f87ef823148287c4c3ca189a80"
+					},
+					{
+						"imported_pixel_sha256": "7ec06045aefc00a97cd67ab103f2f7498c793750da07ba93aa4428e40913d02c",
+						"path": "res://v02/e1/packages/tongguan/terrain/ground_3_2.png",
+						"source_sha256": "e46aa04705ca0a71cb63146459657c55bc891edb254a075366a527bf40a861ba"
+					},
+					{
+						"imported_pixel_sha256": "d4b158859ecda15cce9398ce77ab9bea128034943f5bd5f0fdb0e479958c54e9",
+						"path": "res://v02/e1/packages/tongguan/terrain/water_3_2.png",
+						"source_sha256": "9d1d6ed2e3c7e7bd75a87103da660aa2ff618e2d40289fd8435f8598768084b5"
+					}
+				]
+			},
+			{
+				"actual": "unsupported_schema",
+				"expected": "unsupported_schema",
+				"fault": "schema"
+			},
+			{
+				"actual": "missing_file",
+				"expected": "missing_file",
+				"fault": "missing"
+			},
+			{
+				"actual": "hash_mismatch",
+				"expected": "hash_mismatch",
+				"fault": "hash"
+			},
+			{
+				"actual": "unsafe_path",
+				"expected": "unsafe_path",
+				"fault": "escape"
+			},
+			{
+				"actual": "unsafe_path",
+				"expected": "unsafe_path",
+				"fault": "absolute"
+			},
+			{
+				"actual": "unsafe_path",
+				"expected": "unsafe_path",
+				"fault": "script"
+			},
+			{
+				"actual": "duplicate_file_path",
+				"expected": "duplicate_file_path",
+				"fault": "duplicate_file"
+			},
+			{
+				"actual": "duplicate_object_id",
+				"expected": "duplicate_object_id",
+				"fault": "duplicate_object"
+			},
+			{
+				"actual": "source_key_mismatch",
+				"expected": "source_key_mismatch",
+				"fault": "source_key"
+			},
+			{
+				"actual": "owner_mismatch",
+				"expected": "owner_mismatch",
+				"fault": "owner"
+			},
+			{
+				"actual": "paint_dependency_mismatch",
+				"expected": "paint_dependency_mismatch",
+				"fault": "paint_dependency"
+			},
+			{
+				"actual": "invalid_parent",
+				"expected": "invalid_parent",
+				"fault": "parent"
+			},
+			{
+				"actual": "page_build_mismatch",
+				"expected": "page_build_mismatch",
+				"fault": "page_build"
+			},
+			{
+				"actual": "coordinate_payload_mismatch",
+				"expected": "coordinate_payload_mismatch",
+				"fault": "coordinates"
+			},
+			{
+				"actual": "visual_receipt_mismatch",
+				"expected": "visual_receipt_mismatch",
+				"fault": "visual_receipt"
+			}
+		],
+		"scope": "E1 package validation and synchronous requests; not E2/E3 capacity"
+	},
+	"engine_version": {
+		"build": "official",
+		"hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+		"hex": 263681,
+		"major": 4,
+		"minor": 6,
+		"patch": 1,
+		"status": "stable",
+		"string": "4.6.1-stable (official)",
+		"timestamp": 0
+	},
+	"failures": [],
+	"native_release": false,
+	"observations": [],
+	"scope": "E2 visible-object query and draw-plan cache; E3 residency/capacity not implemented"
+}

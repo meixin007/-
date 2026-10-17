@@ -1,0 +1,13 @@
+{
+  "command": [
+    "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+    "--headless",
+    "--path",
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v2_20261016_02\\SOURCE_RUNTIME",
+    "--export-release",
+    "R5 Final",
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v2_20261016_02\\CLEAN_WINDOWS\\TongguanV2.exe"
+  ],
+  "exit_code": 0,
+  "diagnostics": []
+}

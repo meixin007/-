@@ -1,0 +1,32 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060
+
+Movie Maker mode enabled, recording movie in 1920×1080 @ 30 FPS...
+Q1_STREAM_ROUND 1 resident=1115136
+Q1_STREAM_ROUND 2 resident=1115136
+Q1_STREAM_ROUND 3 resident=1115136
+Q1_STREAM_ROUND 4 resident=1115136
+Q1_STREAM_ROUND 5 resident=1115136
+Q1_STREAM_ROUND 6 resident=1115136
+Q1_STREAM_ROUND 7 resident=1115136
+Q1_STREAM_ROUND 8 resident=1115136
+Q1_STREAM_ROUND 9 resident=1115136
+Q1_STREAM_ROUND 10 resident=1115136
+Q1_STREAM_ROUND 11 resident=1115136
+Q1_STREAM_ROUND 12 resident=1115136
+Q1_STREAM_ROUND 13 resident=1115136
+Q1_STREAM_ROUND 14 resident=1115136
+Q1_STREAM_ROUND 15 resident=1115136
+Q1_STREAM_ROUND 16 resident=1115136
+Q1_STREAM_ROUND 17 resident=1115136
+Q1_STREAM_ROUND 18 resident=1115136
+Q1_STREAM_ROUND 19 resident=1115136
+Q1_STREAM_ROUND 20 resident=1115136
+Q1_RESULT {"checks":1458,"failures":[],"kind":"fixtures"}
+--------------------------------------------------------------------------------
+Done recording movie at path: H:\tongguan_reviewfix_20261015\review-work\map_v02\tongguan_v02_q1_20261016_04\fixture_movie\fixtures.avi
+4392 frames at 30 FPS (movie length: 00:02:26:12), recorded in 00:02:32 (96% of real-time speed).
+CPU render time: 1.86 seconds (average: 0.42 ms/frame)
+GPU render time: 8.34 seconds (average: 1.90 ms/frame)
+Encoding time: 63.90 seconds (average: 14.55 ms/frame)
+--------------------------------------------------------------------------------

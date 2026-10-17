@@ -1,0 +1,8 @@
+{
+  "actual_native_publication": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regression_native_e2e\\isolated_exchange\\tongguan_slice_v01_integrity\\authoring\\tests_native_publication.json",
+  "copied_to": "C:\\Users\\Administrator\\AppData\\Roaming\\tongguan_q1_native_e2e_runtime\\authoring\\tests_native_publication.json",
+  "sha256": "1a3c2ab2b52fd658cbcb8ff9c3f232c5a87c67df2782c3c0b6de503ff22500c2",
+  "copied_sha256": "1a3c2ab2b52fd658cbcb8ff9c3f232c5a87c67df2782c3c0b6de503ff22500c2",
+  "prior_test_failure": "runtime user directory had no native authoring publication after isolation",
+  "test_code_changed": false
+}

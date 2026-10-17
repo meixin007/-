@@ -1,0 +1,14 @@
+{
+  "hashes": {
+    "01_legacy_60s": "afcb7801923ebfbc77e3b17156af1f6ac566a15da09a091efe25397139bf7221",
+    "02_v02_60s": "afcb7801923ebfbc77e3b17156af1f6ac566a15da09a091efe25397139bf7221",
+    "03_v02_60s": "afcb7801923ebfbc77e3b17156af1f6ac566a15da09a091efe25397139bf7221",
+    "04_legacy_60s": "afcb7801923ebfbc77e3b17156af1f6ac566a15da09a091efe25397139bf7221",
+    "05_legacy_60s": "afcb7801923ebfbc77e3b17156af1f6ac566a15da09a091efe25397139bf7221",
+    "06_v02_60s": "afcb7801923ebfbc77e3b17156af1f6ac566a15da09a091efe25397139bf7221",
+    "07_legacy_300s": "afcb7801923ebfbc77e3b17156af1f6ac566a15da09a091efe25397139bf7221",
+    "08_v02_300s": "afcb7801923ebfbc77e3b17156af1f6ac566a15da09a091efe25397139bf7221"
+  },
+  "identical": true,
+  "scope": "Same old composition and fixed camera; no new art acceptance."
+}
