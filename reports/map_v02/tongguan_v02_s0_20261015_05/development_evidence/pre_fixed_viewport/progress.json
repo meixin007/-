@@ -1,0 +1,59 @@
+{
+  "build_id": "tongguan_v02_s0_20261015_04",
+  "results": [
+    {
+      "name": "legacy_verify",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "H:\\tongguan_reviewfix_20261015\\tools\\map_v02\\run_native.py",
+        "--build-id",
+        "tongguan_v02_s0_20261015_04",
+        "--output",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_04\\native\\legacy_verify",
+        "--legacy-check",
+        "verify"
+      ],
+      "runner_exit_code": 0,
+      "execution_passed": true,
+      "percentile_budget_passed": null,
+      "performance_acceptance_eligible": false
+    },
+    {
+      "name": "tree_edges",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "H:\\tongguan_reviewfix_20261015\\tools\\map_v02\\run_native.py",
+        "--build-id",
+        "tongguan_v02_s0_20261015_04",
+        "--output",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_04\\native\\tree_edges",
+        "--legacy-check",
+        "tree_edges"
+      ],
+      "runner_exit_code": 0,
+      "execution_passed": true,
+      "percentile_budget_passed": null,
+      "performance_acceptance_eligible": false
+    },
+    {
+      "name": "01_legacy_60s",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "H:\\tongguan_reviewfix_20261015\\tools\\map_v02\\run_native.py",
+        "--build-id",
+        "tongguan_v02_s0_20261015_04",
+        "--output",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_04\\native\\01_legacy_60s",
+        "--mode",
+        "legacy",
+        "--seconds",
+        "60"
+      ],
+      "runner_exit_code": 1,
+      "execution_passed": false,
+      "percentile_budget_passed": true,
+      "performance_acceptance_eligible": false
+    }
+  ],
+  "complete": false
+}

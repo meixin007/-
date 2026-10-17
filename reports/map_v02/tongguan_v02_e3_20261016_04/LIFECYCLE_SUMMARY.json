@@ -1,0 +1,445 @@
+{
+  "build_id": "tongguan_v02_e3_20261016_04",
+  "checks": 457,
+  "rounds": 20,
+  "unique_total_bytes": 72762624,
+  "unique_visited_bytes": 35684352,
+  "visited_textures": 128,
+  "profile": {
+    "attach_usec": 2000.0,
+    "concurrency": 2.0,
+    "decoded": 4194304.0,
+    "grace_usec": 0.0,
+    "hard": 8388608.0,
+    "id": "e3_stream_4_8_grace0",
+    "soft": 4194304.0
+  },
+  "stream_stats": {
+    "attach_overruns": 0,
+    "attaches": 2881,
+    "drops": 2876,
+    "hard_denials": 0,
+    "max_attach_usec": 233,
+    "peak_inflight": 2,
+    "prefetch_denials": 0,
+    "queued_cancelled": 6,
+    "reclaimed": 0,
+    "released_observed": 2876,
+    "reloads": 2748,
+    "requests": 2881,
+    "stale_drained": 0
+  },
+  "first_window": {
+    "accounting": {
+      "consumers": 5,
+      "decoded_reserved": 0,
+      "external_alive_bytes": 0,
+      "inflight": 0,
+      "ready": 0,
+      "reserved": 0,
+      "resident": 1393920,
+      "resources": 5,
+      "total": 1393920
+    },
+    "engine_objects": 1462.0,
+    "engine_resources": 16.0,
+    "engine_texture_memory": 18710403.0,
+    "retired_weak_alive": 0,
+    "round": 1
+  },
+  "last_window": {
+    "accounting": {
+      "consumers": 5,
+      "decoded_reserved": 0,
+      "external_alive_bytes": 0,
+      "inflight": 0,
+      "ready": 0,
+      "reserved": 0,
+      "resident": 1393920,
+      "resources": 5,
+      "total": 1393920
+    },
+    "engine_objects": 1462.0,
+    "engine_resources": 16.0,
+    "engine_texture_memory": 18710403.0,
+    "retired_weak_alive": 0,
+    "round": 20
+  },
+  "all_windows": [
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 1
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 2
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 3
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 4
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 5
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 6
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 7
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 8
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 9
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 10
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 11
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 12
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 13
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 14
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 15
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 16
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 17
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 18
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 19
+    },
+    {
+      "accounting": {
+        "consumers": 5,
+        "decoded_reserved": 0,
+        "external_alive_bytes": 0,
+        "inflight": 0,
+        "ready": 0,
+        "reserved": 0,
+        "resident": 1393920,
+        "resources": 5,
+        "total": 1393920
+      },
+      "engine_objects": 1462.0,
+      "engine_resources": 16.0,
+      "engine_texture_memory": 18710403.0,
+      "retired_weak_alive": 0,
+      "round": 20
+    }
+  ],
+  "reference_control": {
+    "after_clear_alive": 0,
+    "case": "retained_command_positive_control",
+    "retained_alive": 26
+  },
+  "backend": {
+    "gets": 2993,
+    "premature_gets": 0,
+    "requests": 2993
+  },
+  "private_bytes_peak": 1077121024,
+  "verified_import_pixels": 159,
+  "max_adopt_plus_commands_usec": 310,
+  "gpu_actual_bytes": null,
+  "frame_performance_acceptance": "not_run_Q1"
+}

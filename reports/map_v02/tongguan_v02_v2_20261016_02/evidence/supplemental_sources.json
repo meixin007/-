@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "docs/map_v02/V2_REVIEW.md",
+      "sha256": "f0f9f03ac865abbf058d8c48d2f2f2086b37ae6bc220b8696ad79f5ce9f0960b"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/tests/v02/test_v2_presentation.gd",
+      "sha256": "5b9d272dfbfe064e4a14887f9ac937f4aef9c4906fa4012dabcb3267c828e609"
+    },
+    {
+      "path": "tools/map_v02/v2_build.py",
+      "sha256": "67e76b694542367d5baf45c8f6981f1de6769581ca77ebf7d5fe871eec896b7d"
+    },
+    {
+      "path": "tools/map_v02/v2_finalize.py",
+      "sha256": "571cab8a5b53cebe94fb99134c0b3aba892fc2cf5793413aca28c8d28d16c6bf"
+    },
+    {
+      "path": "tools/map_v02/v2_native.py",
+      "sha256": "00692f96603e2d631a4ea8d6d67c2ec90644c24296f58c7d0ff38a582b3e4296"
+    }
+  ]
+}

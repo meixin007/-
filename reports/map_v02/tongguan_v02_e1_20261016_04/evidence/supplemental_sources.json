@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "docs/map_v02/E1_IMPLEMENTATION.md",
+      "sha256": "0e8289b064cdcfae7e6e26f88d7da009c56744d1422d46ee161f9c0d728ec091"
+    },
+    {
+      "path": "schemas/map_v02/presentation_package.schema.json",
+      "sha256": "8cca6977c3cb4828d2ebb9876ef8579c2a43121579e96eb20844633f956c1bfe"
+    },
+    {
+      "path": "tools/map_v02/e1_build.py",
+      "sha256": "e872ca21abc44d50a846d27432f0cd0b8053ec33e7d171e58bcbc6bc2b9b3f7b"
+    },
+    {
+      "path": "tools/map_v02/e1_compile.py",
+      "sha256": "b517f06037d8e3cad7c9e5b62bf662ee084670b9627c40aa33dd1b656d416335"
+    },
+    {
+      "path": "tools/map_v02/e1_export_snapshot.gd",
+      "sha256": "513b6ba4943c185804549617d49d12f2bc5dbf580b0cd6c46fa35905d35abbbc"
+    },
+    {
+      "path": "tools/map_v02/e1_finalize.py",
+      "sha256": "fe893932e68e5ba36ac7a5e69aa17844a064964da0a565dba426c2956a93f4ee"
+    },
+    {
+      "path": "tools/map_v02/e1_native.py",
+      "sha256": "3a5e90bdd3be9cadaad324cbecf67a90f8e92fbbc84a15895d9150e18041ab39"
+    },
+    {
+      "path": "tools/map_v02/e1_probe_pixels.gd",
+      "sha256": "b6bc9496ccab6e41d79bde4804182dca3a14204be42e1d19b54c708f0b29089b"
+    }
+  ]
+}

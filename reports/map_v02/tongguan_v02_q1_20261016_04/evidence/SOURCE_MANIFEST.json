@@ -1,0 +1,104 @@
+{
+  "build_id": "tongguan_v02_q1_20261016_04",
+  "accepted_c1_build": "tongguan_v02_c1_20261016_04",
+  "accepted_c1_receipt_sha256": "f6df43fe5db99451f204c1e50e567a5b07e3e4ea3e3ff0603cbd496f22ebc729",
+  "files": [
+    {
+      "path": "samples/tongguan_v01/runtime/v02/q1/ab_cache.gd",
+      "sha256": "53036ce86205c70927422b9697ca123e2fe396a0550d0079c57925c50a94b61f"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/q1/ab_checks.gd",
+      "sha256": "daec891ee5bb3b28db81b3162cc7f2741d7d8dbf5a887db89ccfc8128cd9325b"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/q1/ab_session.gd",
+      "sha256": "e8536408abd5870358f830c129269f567b5f14c0e4ea26b4c92721a56614efb0"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/q1/app.gd",
+      "sha256": "6d40f986c8d662aacec496187ee29261d57da352b9607e4df3323e40bfac24e0"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/q1/boot.gd",
+      "sha256": "195397ab956e4c11a8f9eb935275aae499383f0c2dee2edd63b944cf4ec785ff"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/q1/fixture_checks.gd",
+      "sha256": "c83c2ba0f8954170aed992e1b4111ebfd467fe70f37fe49bd4f8c3db277e9509"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/q1/main.tscn",
+      "sha256": "620229b51e52d3eb4d864d497212675cc242024bfd8a4016f8db959e6d597c58"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/q1/performance.gd",
+      "sha256": "9a26068a8c2c6cc9a5c5120eceed515208bad1e4ce994e0ed65f46f4feb0fbdc"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/q1/query_checks.gd",
+      "sha256": "a3483bd9f75a91386a4c4452e0e8c2ace465cb75beae841ba085295f418fc385"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/q1/smoke.gd",
+      "sha256": "0e8d96b15c8d190685fcad2ff6678c4ed853af1e83b8b07d6188c2a4f5890c81"
+    }
+  ],
+  "accepted_c1_manifest": {
+    "build_id": "tongguan_v02_c1_20261016_04",
+    "visual": "pending",
+    "files": [
+      {
+        "path": "samples/tongguan_v01/runtime/tests/v02/c1_policy_runner.gd",
+        "sha256": "68e79c452b95d1c951d5362d373d5704286f4423e096f80cff115d722922703d"
+      },
+      {
+        "path": "samples/tongguan_v01/runtime/v02/c1/app.gd",
+        "sha256": "bd64d26342e63f50a8c9ce1625d18dfe94ae1ddc85ef4fdafbe21c99dd5f156a"
+      },
+      {
+        "path": "samples/tongguan_v01/runtime/v02/c1/boot.gd",
+        "sha256": "381f6523056885e2c7134fe33db794d8a8350e29096846ee86622726bfed9dcf"
+      },
+      {
+        "path": "samples/tongguan_v01/runtime/v02/c1/coverage_planner.gd",
+        "sha256": "15be01cf6850630814b6d2e72ea29bec07c0c8c8478b6857ac1a239af2d7916f"
+      },
+      {
+        "path": "samples/tongguan_v01/runtime/v02/c1/display_policy.gd",
+        "sha256": "4064c1c2214851d81a227038987cb6f4657965c27209004e1b6f7a71c2257ce0"
+      },
+      {
+        "path": "samples/tongguan_v01/runtime/v02/c1/main.tscn",
+        "sha256": "8dd0f96c6fea8fbd71c235f58816248f2c76cdd366d0f3beac9ab10c0e4e6fec"
+      },
+      {
+        "path": "samples/tongguan_v01/runtime/v02/c1/map_renderer.gd",
+        "sha256": "debc8c13e09286e44f443cb074e5c9d2aaf4767d94bb05aaa908b8b5029cff20"
+      },
+      {
+        "path": "samples/tongguan_v01/runtime/v02/c1/map_service.gd",
+        "sha256": "f1e7ddba459ee728c8d3a219ef09a9b3e8a80c1602c38919473f42b3316be985"
+      },
+      {
+        "path": "samples/tongguan_v01/runtime/v02/c1/policy_checks.gd",
+        "sha256": "4f4b37fd3727047c314c8c1e5d0e4b90e34f6cd28195548cd9ff4751f2b9d519"
+      },
+      {
+        "path": "samples/tongguan_v01/runtime/v02/c1/runtime_checks.gd",
+        "sha256": "02633d93abcf4664f7e11490d43f46539b7b7cf160cfdd1bf4b657a1503767b6"
+      },
+      {
+        "path": "tools/map_v02/c1_build.py",
+        "sha256": "324c4f651dc983293e18637f51cb3440030c26c160a8778430028f32a42c6b08"
+      },
+      {
+        "path": "tools/map_v02/c1_compile.py",
+        "sha256": "cbaaf7ec9e0765387e388fe5d50e74943fbc9769214319511e70a7081708a4b1"
+      }
+    ],
+    "reused_e1_sha256": "dc5c7dc7479c5b4838cb7d9920886be0fae49a8e158e9e2460ab54081b907568",
+    "reused_e2_sha256": "93b8bbaf6e88a22b7d84cd250a51936d78ade0952573c01d99fc6f82b54df362",
+    "reused_e3_sha256": "a6cda1939d178e40c43d134a2f2a8f1b24fb451a1ec30754c89918ff1f2e95c5"
+  }
+}

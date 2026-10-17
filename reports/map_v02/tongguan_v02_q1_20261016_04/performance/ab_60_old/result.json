@@ -1,0 +1,82 @@
+{
+  "build_id": "tongguan_v02_q1_20261016_04",
+  "run_id": "ab_60_old",
+  "mode": "ab",
+  "command": [
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\CLEAN_WINDOWS\\TongguanQ1.exe",
+    "--fullscreen",
+    "--log-file",
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\ab_60_old\\runtime.log",
+    "--",
+    "--q1=ab",
+    "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\ab_60_old\\engine_result.json",
+    "--seconds=60",
+    "--warmup=3",
+    "--ab-mode=old"
+  ],
+  "pid": 1312,
+  "popen_monotonic_ns": 143281890000000,
+  "exit_code": 0,
+  "timed_out": false,
+  "seconds": 66.125,
+  "diagnostics": [],
+  "engine": {
+    "actual_viewport": [
+      1920,
+      1080
+    ],
+    "captures": {
+      "composition": "ab_composition.png",
+      "courtyard": "ab_courtyard.png",
+      "far": "ab_far.png",
+      "region": "ab_region.png"
+    },
+    "checks": 4,
+    "failures": [],
+    "mode": "old",
+    "scope": "matched original-v01 painter, geometry and raw art; original legacy cache/full tree plan vs E3 resources/E2 query compatibility facade. Target C1 timings are separate.",
+    "seconds": 60.0,
+    "single_original_controller": -9223371893191473831,
+    "unchanged_canvas": "res://review/canvas.gd"
+  },
+  "memory": {
+    "private_peak_bytes": 304553984,
+    "gpu_peak_bytes": 75145216,
+    "gpu_samples": 118,
+    "gpu_budget_verified": true,
+    "private_budget_passed": true,
+    "gpu_budget_passed": true
+  },
+  "first_process_run": false,
+  "prior_run_count": 10,
+  "first_formal_track_run": false,
+  "each_run_starts_new_process": true,
+  "os_disk_cache_cold_claim": false,
+  "external_presentation_timestamp": null,
+  "artifacts": {
+    "TongguanQ1.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanQ1.pck": "7c88248c6045208ed605b868ce5d6705bbf1166f9512f76053ed9817c5554508"
+  },
+  "measurement_source": {
+    "frame": "Godot monotonic main-loop intervals; every interval retained",
+    "gpu": "Windows WDDM GPUProcessMemory DedicatedUsage, summed per process across adapter instances",
+    "private": "GetProcessMemoryInfo PrivateUsage; not working-set substitute"
+  },
+  "frame_stats": {
+    "frames": 212405,
+    "p50_ms": 0.255,
+    "p95_ms": 0.406,
+    "p99_ms": 0.473,
+    "max_ms": 2.828,
+    "over_33ms": 0,
+    "over_50ms": 0,
+    "over_100ms": 0,
+    "budget_passed": true,
+    "outliers_removed": 0
+  },
+  "long_frames": [],
+  "logical_byte_column_scope": "new bridge: actual E3 resident estimate; legacy CSV zeros are uninstrumented placeholders, not measured zero memory. WDDM and private measurements remain available for both.",
+  "execution_passed": true,
+  "budget_passed": null,
+  "gpu_counter_missing_samples": 1
+}

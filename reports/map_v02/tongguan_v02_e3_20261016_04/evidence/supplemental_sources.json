@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "path": "docs/map_v02/E3_IMPLEMENTATION.md",
+      "sha256": "a7b8e94a5018e3ef628a50357b8502e5109230d225fbe7d0c43e012cfe880b8e"
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/tests/v02/test_e3_lifecycle.gd",
+      "sha256": "c76c5ae93cc46a1b79dc76fd930aa7a0a6fd1cd38693fae08737343e33429f16"
+    },
+    {
+      "path": "tools/map_v02/e3_boundary.py",
+      "sha256": "6d1665a55a0d94a046f4df9da1bf200a39e636f2f53f5f24cbf1a274f80b51e4"
+    },
+    {
+      "path": "tools/map_v02/e3_build.py",
+      "sha256": "4c43b84e24f615107ef2af03f5dcc5a9c0f95fc976e61fea7517350381c8b607"
+    },
+    {
+      "path": "tools/map_v02/e3_finalize.py",
+      "sha256": "8f865f33ac39aaf817d6e40963dc41265cd9ee5702cdfbd5cf9017284af5682f"
+    },
+    {
+      "path": "tools/map_v02/e3_native.py",
+      "sha256": "f99eeb6e6015f29d280d412cb84a545f9594ea4ab1ccd02c2730839d5438fee5"
+    },
+    {
+      "path": "tools/map_v02/e3_regressions.py",
+      "sha256": "3bed96052801ebd90b51ef5432c7fb61e00606fb8cae5b9732ecff90b8e32aed"
+    }
+  ]
+}

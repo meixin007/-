@@ -1,0 +1,3 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+R5_PUBLICATION_FOOTPRINT: {"checks":6,"failures":[]}

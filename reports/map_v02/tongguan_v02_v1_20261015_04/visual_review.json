@@ -1,0 +1,44 @@
+{
+  "stage": "V1",
+  "build_id": "tongguan_v02_v1_20261015_04",
+  "style_id": "tang_ink_wash_v02_candidate_a01",
+  "manifest_sha256": "273a6cc7df4ed91d1be3d7e15af26b0e9ab0cb0463a96e2011873e806f6cc773",
+  "style_sha256": "87b8eec44e10acb0aff09855e348581f7b461c8058713619021ffbe2b4689b81",
+  "cameras": [
+    "composition",
+    "gate",
+    "shore",
+    "courtyard"
+  ],
+  "status": "pending",
+  "author": null,
+  "opinion": null,
+  "decisions": [
+    "accepted",
+    "revision_requested",
+    "rejected"
+  ],
+  "camera_reviews": [
+    {
+      "camera": "composition",
+      "status": "pending",
+      "opinion": null
+    },
+    {
+      "camera": "gate",
+      "status": "pending",
+      "opinion": null
+    },
+    {
+      "camera": "shore",
+      "status": "pending",
+      "opinion": null
+    },
+    {
+      "camera": "courtyard",
+      "status": "pending",
+      "opinion": null
+    }
+  ],
+  "automatic_checks_do_not_grant_acceptance": true
+}

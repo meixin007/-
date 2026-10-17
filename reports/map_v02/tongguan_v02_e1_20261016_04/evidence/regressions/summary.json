@@ -1,0 +1,187 @@
+{
+  "passed": false,
+  "tests": [
+    {
+      "name": "e1_snapshot",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+        "--script",
+        "res://tests/v02/test_e1_package.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\e1_regressions\\e1_snapshot_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "geometry",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\authoring",
+        "--script",
+        "res://tests/test_review_geometry.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\e1_regressions\\geometry_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "ownership",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+        "--script",
+        "res://tests/test_review_ownership.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\e1_regressions\\ownership_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "publication",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+        "--script",
+        "res://tests/test_final_publication.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\e1_regressions\\publication_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "passage",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+        "--script",
+        "res://tests/test_r3_passage.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\e1_regressions\\passage_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "construction",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+        "--script",
+        "res://tests/test_construction.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\e1_regressions\\construction_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "saves",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+        "--script",
+        "res://tests/test_r5_saves.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\e1_regressions\\saves_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "v1",
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\samples\\tongguan_v01\\runtime",
+        "--script",
+        "res://tests/v02/test_v1_composition.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\e1_regressions\\v1_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_0_0.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_0_0.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_1_0.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_1_0.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_2_0.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_2_0.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_3_0.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_3_0.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_0_1.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_0_1.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_1_1.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_1_1.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_2_1.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_2_1.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_3_1.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_3_1.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_0_2.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_0_2.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_1_2.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_1_2.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_2_2.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_2_2.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_3_2.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_3_2.png (expected type: Texture2D)\r",
+        "ERROR: res://v02/v1/terrain.tscn:38 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_0_0.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:46 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_0_0.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:54 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_1_0.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:62 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_1_0.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:70 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_2_0.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:78 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_2_0.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:86 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_3_0.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:94 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_3_0.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:102 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_0_1.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:110 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_0_1.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:118 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_1_1.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:126 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_1_1.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:134 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_2_1.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:142 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_2_1.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:150 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_3_1.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:158 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_3_1.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:166 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_0_2.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:174 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_0_2.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:182 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_1_2.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:190 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_1_2.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:198 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_2_2.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:206 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_2_2.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:214 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_3_2.png.\r",
+        "ERROR: res://v02/v1/terrain.tscn:222 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_3_2.png.\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/wall_ns_v01.png (expected type: Texture2D)\r",
+        "ERROR: No loader found for resource: res://v02/v1/assets/warehouse_v01.png (expected type: Texture2D)\r",
+        "ERROR: res://v02/v1/composition.tscn:28 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/wall_ns_v01.png.\r",
+        "ERROR: res://v02/v1/composition.tscn:42 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/wall_ns_v01.png.\r",
+        "ERROR: res://v02/v1/composition.tscn:49 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/warehouse_v01.png.\r"
+      ],
+      "passed": false
+    }
+  ]
+}

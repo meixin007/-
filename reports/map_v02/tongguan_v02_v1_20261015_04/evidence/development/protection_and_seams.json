@@ -1,0 +1,285 @@
+{
+  "before_files": 1303,
+  "changed": [
+    "verify_repository.py"
+  ],
+  "missing": [],
+  "allowed_changes": [
+    "verify_repository.py"
+  ],
+  "passed": true,
+  "edge_checks": [
+    {
+      "kind": "ground",
+      "x": 0,
+      "y": 0,
+      "edge": "east",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 0,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 1,
+      "y": 0,
+      "edge": "east",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 1,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 2,
+      "y": 0,
+      "edge": "east",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 2,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 3,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 0,
+      "y": 1,
+      "edge": "east",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 0,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 1,
+      "y": 1,
+      "edge": "east",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 1,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 2,
+      "y": 1,
+      "edge": "east",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 2,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 3,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 0,
+      "y": 2,
+      "edge": "east",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 1,
+      "y": 2,
+      "edge": "east",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "ground",
+      "x": 2,
+      "y": 2,
+      "edge": "east",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "water",
+      "x": 0,
+      "y": 0,
+      "edge": "east",
+      "max_delta": 255,
+      "different_values": 1
+    },
+    {
+      "kind": "water",
+      "x": 0,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "water",
+      "x": 1,
+      "y": 0,
+      "edge": "east",
+      "max_delta": 255,
+      "different_values": 2
+    },
+    {
+      "kind": "water",
+      "x": 1,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "water",
+      "x": 2,
+      "y": 0,
+      "edge": "east",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "water",
+      "x": 2,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 255,
+      "different_values": 2
+    },
+    {
+      "kind": "water",
+      "x": 3,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "water",
+      "x": 0,
+      "y": 1,
+      "edge": "east",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "water",
+      "x": 0,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "water",
+      "x": 1,
+      "y": 1,
+      "edge": "east",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "water",
+      "x": 1,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "water",
+      "x": 2,
+      "y": 1,
+      "edge": "east",
+      "max_delta": 255,
+      "different_values": 2
+    },
+    {
+      "kind": "water",
+      "x": 2,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "water",
+      "x": 3,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 255,
+      "different_values": 2
+    },
+    {
+      "kind": "water",
+      "x": 0,
+      "y": 2,
+      "edge": "east",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "water",
+      "x": 1,
+      "y": 2,
+      "edge": "east",
+      "max_delta": 0,
+      "different_values": 0
+    },
+    {
+      "kind": "water",
+      "x": 2,
+      "y": 2,
+      "edge": "east",
+      "max_delta": 0,
+      "different_values": 0
+    }
+  ]
+}

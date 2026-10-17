@@ -1,0 +1,23 @@
+{
+	"camera": [
+		-600.0,
+		800.0,
+		0.105
+	],
+	"commands": {
+		"base:contextterrain/context.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/context.png|581298dcc52768e3aeaecae88de2c60d75658ef8c23504612657d18c08317ce0",
+			"[P: (-3808.0, -8000.0), S: (24000.0, 16000.0)]",
+			"[P: (0.0, 0.0), S: (2400.0, 1600.0)]",
+			1.0
+		]
+	},
+	"deferred": false,
+	"detail_alpha": 0.0,
+	"fades": {
+
+	},
+	"finished": {
+
+	}
+}

@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "sites": [
+    {
+      "site_id": "tongguan",
+      "position_m": [
+        0,
+        0
+      ],
+      "label": "潼关",
+      "slots": [
+        {
+          "allowed_buildings": [
+            "warehouse",
+            "granary"
+          ],
+          "authoring_pin": true,
+          "gameplay_buildable": true,
+          "id": "tongguan.slot.rear_storage_01",
+          "initial_building": "empty",
+          "name": "仓储",
+          "parent_plot_id": "plot_northwest",
+          "polygon_local_m": [
+            [
+              -590.0,
+              -240.0
+            ],
+            [
+              -545.0,
+              -240.0
+            ],
+            [
+              -545.0,
+              -215.0
+            ],
+            [
+              -590.0,
+              -215.0
+            ]
+          ],
+          "road_socket_id": "tongguan.socket.rear_storage_01",
+          "road_socket_m": [
+            -567.5,
+            -205.0
+          ],
+          "unlock_stage": 1.0
+        },
+        {
+          "allowed_buildings": [
+            "barracks",
+            "training_ground"
+          ],
+          "authoring_pin": true,
+          "gameplay_buildable": true,
+          "id": "tongguan.slot.rear_military_01",
+          "initial_building": "barracks",
+          "name": "驻军",
+          "parent_plot_id": "plot_northwest",
+          "polygon_local_m": [
+            [
+              -530.0,
+              -240.0
+            ],
+            [
+              -485.0,
+              -240.0
+            ],
+            [
+              -485.0,
+              -215.0
+            ],
+            [
+              -530.0,
+              -215.0
+            ]
+          ],
+          "road_socket_id": "tongguan.socket.rear_military_01",
+          "road_socket_m": [
+            -507.5,
+            -205.0
+          ],
+          "unlock_stage": 1.0
+        },
+        {
+          "allowed_buildings": [
+            "workshop",
+            "repair_yard"
+          ],
+          "authoring_pin": true,
+          "gameplay_buildable": true,
+          "id": "tongguan.slot.rear_workshop_01",
+          "initial_building": "empty",
+          "name": "工坊",
+          "parent_plot_id": "plot_northwest",
+          "polygon_local_m": [
+            [
+              -470.0,
+              -240.0
+            ],
+            [
+              -425.0,
+              -240.0
+            ],
+            [
+              -425.0,
+              -215.0
+            ],
+            [
+              -470.0,
+              -215.0
+            ]
+          ],
+          "road_socket_id": "tongguan.socket.rear_workshop_01",
+          "road_socket_m": [
+            -447.5,
+            -205.0
+          ],
+          "unlock_stage": 1.0
+        },
+        {
+          "allowed_buildings": [
+            "housing",
+            "shop"
+          ],
+          "authoring_pin": true,
+          "gameplay_buildable": true,
+          "id": "tongguan.slot.civil_01",
+          "initial_building": "empty",
+          "name": "民居",
+          "parent_plot_id": "plot_northwest",
+          "polygon_local_m": [
+            [
+              -410.0,
+              -240.0
+            ],
+            [
+              -365.0,
+              -240.0
+            ],
+            [
+              -365.0,
+              -215.0
+            ],
+            [
+              -410.0,
+              -215.0
+            ]
+          ],
+          "road_socket_id": "tongguan.socket.civil_01",
+          "road_socket_m": [
+            -387.5,
+            -205.0
+          ],
+          "unlock_stage": 2.0
+        },
+        {
+          "allowed_buildings": [
+            "market",
+            "inn"
+          ],
+          "authoring_pin": true,
+          "gameplay_buildable": true,
+          "id": "tongguan.slot.civil_02",
+          "initial_building": "empty",
+          "name": "商旅",
+          "parent_plot_id": "plot_northwest",
+          "polygon_local_m": [
+            [
+              -590.0,
+              -200.0
+            ],
+            [
+              -545.0,
+              -200.0
+            ],
+            [
+              -545.0,
+              -175.0
+            ],
+            [
+              -590.0,
+              -175.0
+            ]
+          ],
+          "road_socket_id": "tongguan.socket.civil_02",
+          "road_socket_m": [
+            -567.5,
+            -205.0
+          ],
+          "unlock_stage": 2.0
+        },
+        {
+          "allowed_buildings": [
+            "infirmary",
+            "repair_yard"
+          ],
+          "authoring_pin": true,
+          "gameplay_buildable": true,
+          "id": "tongguan.slot.rear_support_01",
+          "initial_building": "empty",
+          "name": "勤务",
+          "parent_plot_id": "plot_northwest",
+          "polygon_local_m": [
+            [
+              -530.0,
+              -200.0
+            ],
+            [
+              -485.0,
+              -200.0
+            ],
+            [
+              -485.0,
+              -175.0
+            ],
+            [
+              -530.0,
+              -175.0
+            ]
+          ],
+          "road_socket_id": "tongguan.socket.rear_support_01",
+          "road_socket_m": [
+            -507.5,
+            -205.0
+          ],
+          "unlock_stage": 2.0
+        },
+        {
+          "allowed_buildings": [
+            "warehouse",
+            "granary"
+          ],
+          "authoring_pin": true,
+          "gameplay_buildable": true,
+          "id": "tongguan.slot.expansion_01",
+          "initial_building": "empty",
+          "name": "扩建仓储",
+          "parent_plot_id": "plot_northwest",
+          "polygon_local_m": [
+            [
+              -470.0,
+              -200.0
+            ],
+            [
+              -425.0,
+              -200.0
+            ],
+            [
+              -425.0,
+              -175.0
+            ],
+            [
+              -470.0,
+              -175.0
+            ]
+          ],
+          "road_socket_id": "tongguan.socket.expansion_01",
+          "road_socket_m": [
+            -447.5,
+            -205.0
+          ],
+          "unlock_stage": 3.0
+        },
+        {
+          "allowed_buildings": [
+            "camp",
+            "housing"
+          ],
+          "authoring_pin": true,
+          "gameplay_buildable": true,
+          "id": "tongguan.slot.expansion_02",
+          "initial_building": "empty",
+          "name": "附属营地",
+          "parent_plot_id": "plot_northwest",
+          "polygon_local_m": [
+            [
+              -410.0,
+              -200.0
+            ],
+            [
+              -365.0,
+              -200.0
+            ],
+            [
+              -365.0,
+              -175.0
+            ],
+            [
+              -410.0,
+              -175.0
+            ]
+          ],
+          "road_socket_id": "tongguan.socket.expansion_02",
+          "road_socket_m": [
+            -387.5,
+            -205.0
+          ],
+          "unlock_stage": 3.0
+        }
+      ],
+      "logical_authority": false
+    }
+  ],
+  "authority": "presentation_only"
+}

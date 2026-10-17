@@ -1,0 +1,215 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+V1_CONTRACT {"checks":16,"failures":[]}
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_0_0.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_0_0.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_1_0.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_1_0.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_2_0.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_2_0.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_3_0.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_3_0.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_0_1.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_0_1.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_1_1.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_1_1.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_2_1.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_2_1.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_3_1.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_3_1.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_0_2.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_0_2.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_1_2.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_1_2.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_2_2.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_2_2.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/ground_3_2.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/terrain_v01/water_3_2.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:38 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_0_0.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:46 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_0_0.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:54 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_1_0.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:62 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_1_0.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:70 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_2_0.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:78 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_2_0.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:86 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_3_0.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:94 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_3_0.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:102 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_0_1.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:110 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_0_1.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:118 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_1_1.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:126 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_1_1.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:134 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_2_1.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:142 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_2_1.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:150 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_3_1.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:158 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_3_1.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:166 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_0_2.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:174 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_0_2.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:182 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_1_2.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:190 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_1_2.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:198 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_2_2.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:206 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_2_2.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:214 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/ground_3_2.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/terrain.tscn:222 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/terrain_v01/water_3_2.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/wall_ns_v01.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: No loader found for resource: res://v02/v1/assets/warehouse_v01.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/composition.tscn:28 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/wall_ns_v01.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/composition.tscn:42 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/wall_ns_v01.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)
+ERROR: res://v02/v1/composition.tscn:49 - Parse Error: [ext_resource] referenced non-existent resource at: res://v02/v1/assets/warehouse_v01.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/v02/test_v1_composition.gd:19)

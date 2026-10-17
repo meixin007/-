@@ -1,0 +1,1 @@
+{"passed": false, "files": 1472, "images": 171, "source_files": 594, "adapted_export_presets": 2, "baseline_commit": "62546a547895e1a6185904ad60bf15fa58c03244", "credential_scan_hits": [], "errors": ["forbidden publish payload: reports/map_v02/tongguan_v02_v1_20261015_04/captures/runtime.log"]}

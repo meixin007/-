@@ -1,0 +1,36 @@
+{
+  "windows": [
+    {
+      "cycle": 1,
+      "samples": 23,
+      "private_median": 462749696,
+      "gpu_median": 170651648
+    },
+    {
+      "cycle": 2,
+      "samples": 23,
+      "private_median": 461524992,
+      "gpu_median": 170651648
+    },
+    {
+      "cycle": 3,
+      "samples": 23,
+      "private_median": 453382144,
+      "gpu_median": 170651648
+    },
+    {
+      "cycle": 4,
+      "samples": 24,
+      "private_median": 463642624.0,
+      "gpu_median": 170651648.0
+    },
+    {
+      "cycle": 5,
+      "samples": 23,
+      "private_median": 462467072,
+      "gpu_median": 170651648
+    }
+  ],
+  "progress_alignment": "last engine progress observation, approximately 1 second freshness; matching 16..29s phase of each 60s trajectory",
+  "memory_pools": "driver/allocator may retain pools; exact resource-reference gate is the 20-round fixed-view fixture"
+}

@@ -1,0 +1,15 @@
+{
+  "stage": "V2_relief_R1",
+  "build_id": "tongguan_v02_relief_r01_20261016_02",
+  "technical": "passed",
+  "visual": "pending",
+  "script_checks": 125,
+  "analytic_checks": 6,
+  "gpu_positive_cases": 7,
+  "gpu_negative_control": "detected",
+  "old_files_unchanged": true,
+  "mip_scope": "base only",
+  "c1": "not_implemented",
+  "q1": "not_claimed",
+  "history": "modern reference only"
+}

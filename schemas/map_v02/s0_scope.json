@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "stage": "S0",
+  "baseline_commit": "62546a547895e1a6185904ad60bf15fa58c03244",
+  "modified_baseline_paths": [
+    "samples/tongguan_v01/runtime/army/session.gd",
+    "samples/tongguan_v01/runtime/runtime/asset_cache.gd",
+    "samples/tongguan_v01/runtime/runtime/city_canvas.gd",
+    "samples/tongguan_v01/runtime/review/canvas.gd",
+    "verify_repository.py"
+  ],
+  "new_path_prefixes": [
+    "samples/tongguan_v01/runtime/v02/",
+    "samples/tongguan_v01/runtime/tests/v02/",
+    "tools/map_v02/",
+    "schemas/map_v02/",
+    "docs/map_v02/",
+    "reports/map_v02/"
+  ],
+  "new_exact_paths": ["samples/tongguan_v01/V02_SOURCE_MANIFEST.json"],
+  "protected": "All other baseline files including plugin-source, bundle, authoring, final manifests, old receipts and releases. No changes to main workspace or development-history project."
+}

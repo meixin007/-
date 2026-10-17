@@ -1,0 +1,130 @@
+[
+  {
+    "a": "gpu_zoom_0_42_paged.png",
+    "b": "gpu_zoom_0_42_reference.png",
+    "case": "gpu_zoom_0_42",
+    "expect_equal": true,
+    "frozen_max_channel_delta": 1,
+    "roi": [
+      20,
+      96,
+      1600,
+      940
+    ],
+    "max_channel_delta": 1,
+    "differing_pixels": 1702,
+    "passed": true
+  },
+  {
+    "a": "gpu_zoom_0_84_paged.png",
+    "b": "gpu_zoom_0_84_reference.png",
+    "case": "gpu_zoom_0_84",
+    "expect_equal": true,
+    "frozen_max_channel_delta": 1,
+    "roi": [
+      20,
+      96,
+      1600,
+      940
+    ],
+    "max_channel_delta": 1,
+    "differing_pixels": 3028,
+    "passed": true
+  },
+  {
+    "a": "gpu_zoom_1_4_paged.png",
+    "b": "gpu_zoom_1_4_reference.png",
+    "case": "gpu_zoom_1_4",
+    "expect_equal": true,
+    "frozen_max_channel_delta": 1,
+    "roi": [
+      20,
+      96,
+      1600,
+      940
+    ],
+    "max_channel_delta": 1,
+    "differing_pixels": 809,
+    "passed": true
+  },
+  {
+    "a": "gpu_zoom_2_4_paged.png",
+    "b": "gpu_zoom_2_4_reference.png",
+    "case": "gpu_zoom_2_4",
+    "expect_equal": true,
+    "frozen_max_channel_delta": 1,
+    "roi": [
+      20,
+      96,
+      1600,
+      940
+    ],
+    "max_channel_delta": 1,
+    "differing_pixels": 712,
+    "passed": true
+  },
+  {
+    "a": "gpu_joint_-512_0_paged.png",
+    "b": "gpu_joint_-512_0_reference.png",
+    "case": "gpu_joint_-512_0",
+    "expect_equal": true,
+    "frozen_max_channel_delta": 1,
+    "roi": [
+      20,
+      96,
+      1600,
+      940
+    ],
+    "max_channel_delta": 1,
+    "differing_pixels": 905,
+    "passed": true
+  },
+  {
+    "a": "gpu_joint_0_-512_paged.png",
+    "b": "gpu_joint_0_-512_reference.png",
+    "case": "gpu_joint_0_-512",
+    "expect_equal": true,
+    "frozen_max_channel_delta": 1,
+    "roi": [
+      20,
+      96,
+      1600,
+      940
+    ],
+    "max_channel_delta": 1,
+    "differing_pixels": 630,
+    "passed": true
+  },
+  {
+    "a": "gpu_joint_512_0_paged.png",
+    "b": "gpu_joint_512_0_reference.png",
+    "case": "gpu_joint_512_0",
+    "expect_equal": true,
+    "frozen_max_channel_delta": 1,
+    "roi": [
+      20,
+      96,
+      1600,
+      940
+    ],
+    "max_channel_delta": 1,
+    "differing_pixels": 1791,
+    "passed": true
+  },
+  {
+    "a": "gpu_negative_40m_paged.png",
+    "b": "gpu_negative_40m_reference.png",
+    "case": "gpu_negative_40m",
+    "expect_equal": false,
+    "frozen_max_channel_delta": 1,
+    "roi": [
+      20,
+      96,
+      1600,
+      940
+    ],
+    "max_channel_delta": 75,
+    "differing_pixels": 1369151,
+    "passed": true
+  }
+]

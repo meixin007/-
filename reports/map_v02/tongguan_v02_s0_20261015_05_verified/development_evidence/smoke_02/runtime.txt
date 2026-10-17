@@ -1,0 +1,9 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060
+
+SCRIPT ERROR: Parse Error: Cannot infer the type of "phase" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://v02/probe.gd:31)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "blend" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://v02/probe.gd:34)
+ERROR: Failed to load script "res://v02/probe.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)

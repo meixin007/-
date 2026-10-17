@@ -1,0 +1,8 @@
+{
+  "kind": "synthetic_4x4_fixture",
+  "generator_version": "e2_visibility_fixture_v1",
+  "historical_content": false,
+  "postprocessor": "e2_build.giant_fixture",
+  "art_files_unchanged": true,
+  "giant_is_engineering_only": true
+}

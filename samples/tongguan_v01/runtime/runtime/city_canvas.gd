@@ -19,6 +19,7 @@ func _tree(tree: Dictionary,tint:=Color.WHITE)->void:
 	var rect=Rect2(point-dims*Vector2(art.anchor[0],art.anchor[1]),dims)
 	if not Rect2(Vector2.ZERO,size).grow(1.0).intersects(rect):return
 	draw_texture_rect(art.texture,rect,false,tint)
+	get_node("/root/Session").visual_service.tree_submitted()
 	last_tree_draws.append({"id":tree.id,"owning_chunk":Instances.owner(tree.position_m),"record":tree})
 func _building(center: Vector2,kind: String,damage: int,building: bool)->void:
 	var p: Vector2=model.local_to_screen([center.x,center.y],size);var scale_value: float=model.zoom
@@ -36,12 +37,13 @@ func _building(center: Vector2,kind: String,damage: int,building: bool)->void:
 	if building and model.zoom>1:_label(p+Vector2(-15,16)*scale_value,"在建",Color("544c32"),13)
 func _draw()->void:
 	last_tree_draws.clear()
+	get_node("/root/Session").visual_service.begin_draw()
 	super._draw()
 	if model==null or not model.load_error.is_empty():return
 	if model.lod<2:return
 	var state: Dictionary=model.host.runtime;var authored: Dictionary=model.host.authoring;var layout: Dictionary=model.host.layout
 	if show_trees:
-		var plan=Instances.plan(authored.generated.values())
+		var plan=get_node("/root/Session").visual_service.plan_instances(authored.generated.values())
 		for entry in plan.entries:_tree(entry.record)
 		if not model.preview.is_empty():
 			for id in model.preview.added+model.preview.updated:_tree(model.preview.candidate_generated[id],Color(0.65,1,0.65,0.7))

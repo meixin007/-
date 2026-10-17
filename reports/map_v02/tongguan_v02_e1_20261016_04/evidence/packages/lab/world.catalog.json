@@ -1,0 +1,730 @@
+{
+  "schema_version": 1,
+  "build_id": "tongguan_v02_e1_20261016_04_lab",
+  "compatibility": {
+    "world_id": "stream_lab_v02",
+    "site_id": "lab.site.proxy",
+    "layout_version": "lab_4x4_v1",
+    "layout_slots_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "fixed_refs_sha256": "dc42df5f984dde6bc42acb2a23fc5169e72eba71016d7bcefbc86e88a214064d",
+    "graph_version": "lab_visual_no_corridors",
+    "coordinate_sha256": "8b0f305c0ea00c2bcf339c4d8cd0b288b17fe1c42bc9ac77bde29393e6349c51"
+  },
+  "coordinates": {
+    "axis": "east_south",
+    "unit": "meter",
+    "origin_m": [
+      0,
+      0
+    ]
+  },
+  "bounds_m": [
+    -1024,
+    -1024,
+    2048,
+    2048
+  ],
+  "pages": [
+    {
+      "id": "root_0_0",
+      "level": 0,
+      "x": 0,
+      "y": 0,
+      "bounds_m": [
+        -1024,
+        -1024,
+        2048,
+        2048
+      ],
+      "parent_id": "",
+      "texture_files": [
+        "terrain/root_0_0.png.bin"
+      ],
+      "texture_sha256": "62e7de9303218b39de92c53183fd0247a8f0e533e3c86ff4c54f53a9840fad33",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.tree.cross_border",
+        "lab.road.boundary",
+        "lab.water.bank"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "parent_0_0",
+      "level": 1,
+      "x": 0,
+      "y": 0,
+      "bounds_m": [
+        -1024,
+        -1024,
+        1024,
+        1024
+      ],
+      "parent_id": "root_0_0",
+      "texture_files": [
+        "terrain/parent_0_0.png.bin"
+      ],
+      "texture_sha256": "303eb71bdee16c6d64181efdc18dfe3f30f4f93893572b17e63674b0694930ef",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.tree.cross_border",
+        "lab.water.bank"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "parent_1_0",
+      "level": 1,
+      "x": 1,
+      "y": 0,
+      "bounds_m": [
+        0,
+        -1024,
+        1024,
+        1024
+      ],
+      "parent_id": "root_0_0",
+      "texture_files": [
+        "terrain/parent_1_0.png.bin"
+      ],
+      "texture_sha256": "d4a5e337bd7587dc38c177547801834709351842faa35111faf5655023db469a",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.tree.cross_border",
+        "lab.water.bank"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "parent_0_1",
+      "level": 1,
+      "x": 0,
+      "y": 1,
+      "bounds_m": [
+        -1024,
+        0,
+        1024,
+        1024
+      ],
+      "parent_id": "root_0_0",
+      "texture_files": [
+        "terrain/parent_0_1.png.bin"
+      ],
+      "texture_sha256": "fcc0c2b55191ca81fd8d0e09ba6afb746ff5aff6b1bc3c1abae6c560d18b0987",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.tree.cross_border",
+        "lab.road.boundary"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "parent_1_1",
+      "level": 1,
+      "x": 1,
+      "y": 1,
+      "bounds_m": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "parent_id": "root_0_0",
+      "texture_files": [
+        "terrain/parent_1_1.png.bin"
+      ],
+      "texture_sha256": "e9b173e3b3b1aec245545a180a8e698750fd4f6bf268f2034a368969792d8fd9",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.tree.cross_border",
+        "lab.road.boundary"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_0_0",
+      "level": 2,
+      "x": -2,
+      "y": -2,
+      "bounds_m": [
+        -1024,
+        -1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_0_0.png.bin"
+      ],
+      "texture_sha256": "168ac3b431bb8371687c8afcc9899623b75faeeb450474a185803b86093824b5",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.water.bank"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_1_0",
+      "level": 2,
+      "x": -1,
+      "y": -2,
+      "bounds_m": [
+        -512,
+        -1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_1_0.png.bin"
+      ],
+      "texture_sha256": "30c41ea6a14689bd8dbde2a0f330ee959ce24d994ae374a0444bab9b41bbc5bc",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.water.bank"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_2_0",
+      "level": 2,
+      "x": 0,
+      "y": -2,
+      "bounds_m": [
+        0,
+        -1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_2_0.png.bin"
+      ],
+      "texture_sha256": "adb056e86ccc7d041dbc16158eaa1e386b38f2776772deab2b917449389a16aa",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.water.bank"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_3_0",
+      "level": 2,
+      "x": 1,
+      "y": -2,
+      "bounds_m": [
+        512,
+        -1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_3_0.png.bin"
+      ],
+      "texture_sha256": "df59302fe90fe23777bd2c00ead3b2c5c2aedf1abac76cd1329948721ef4de57",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.water.bank"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_0_1",
+      "level": 2,
+      "x": -2,
+      "y": -1,
+      "bounds_m": [
+        -1024,
+        -512,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_0_1.png.bin"
+      ],
+      "texture_sha256": "38bef6c0345d1acf458851161e8658d536a60a07350f58e6530930befdce965c",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.water.bank"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_1_1",
+      "level": 2,
+      "x": -1,
+      "y": -1,
+      "bounds_m": [
+        -512,
+        -512,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_1_1.png.bin"
+      ],
+      "texture_sha256": "c78544a32a5c39de75bcc9c5c5fb26ce721bb1e90da9283bd69187792c555168",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.tree.cross_border",
+        "lab.water.bank"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_2_1",
+      "level": 2,
+      "x": 0,
+      "y": -1,
+      "bounds_m": [
+        0,
+        -512,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_2_1.png.bin"
+      ],
+      "texture_sha256": "338c7469199dd935da481e697da66455d6717f7862c20f0ca6470303d198f132",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": true,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.tree.cross_border",
+        "lab.water.bank"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_3_1",
+      "level": 2,
+      "x": 1,
+      "y": -1,
+      "bounds_m": [
+        512,
+        -512,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_3_1.png.bin"
+      ],
+      "texture_sha256": "73fc4c50f834445fc4c14248fe08d89b59617b2f79a0a983807c8c60b99496e1",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.water.bank"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_0_2",
+      "level": 2,
+      "x": -2,
+      "y": 0,
+      "bounds_m": [
+        -1024,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_1",
+      "texture_files": [
+        "terrain/fine_0_2.png.bin"
+      ],
+      "texture_sha256": "fab449721b786eb3f39100ce2f911f3fa09335cb7b4025f12082f6be7ecf191e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.road.boundary"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_1_2",
+      "level": 2,
+      "x": -1,
+      "y": 0,
+      "bounds_m": [
+        -512,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_1",
+      "texture_files": [
+        "terrain/fine_1_2.png.bin"
+      ],
+      "texture_sha256": "b3f5426e4936b948fea8a3e257c4ac8376b527faf47d488b2a6a74d10205f355",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.tree.cross_border",
+        "lab.road.boundary"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_2_2",
+      "level": 2,
+      "x": 0,
+      "y": 0,
+      "bounds_m": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_1",
+      "texture_files": [
+        "terrain/fine_2_2.png.bin"
+      ],
+      "texture_sha256": "fb008cba8a13060348849a67e2857cccdebf93d0dc2ba537af9f7094a80d2547",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.tree.cross_border",
+        "lab.road.boundary"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_3_2",
+      "level": 2,
+      "x": 1,
+      "y": 0,
+      "bounds_m": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_1",
+      "texture_files": [
+        "terrain/fine_3_2.png.bin"
+      ],
+      "texture_sha256": "6e4b4b07c1eb28722ab5f10d21df3e47d8b80d3629a6f542362a368ebf992c64",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [
+        "lab.road.boundary"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_0_3",
+      "level": 2,
+      "x": -2,
+      "y": 1,
+      "bounds_m": [
+        -1024,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_1",
+      "texture_files": [
+        "terrain/fine_0_3.png.bin"
+      ],
+      "texture_sha256": "0a1a1328173ca998b40434e72b868d7d2c0b57473328cb3bfbfce8dbe80ab6e6",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_1_3",
+      "level": 2,
+      "x": -1,
+      "y": 1,
+      "bounds_m": [
+        -512,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_1",
+      "texture_files": [
+        "terrain/fine_1_3.png.bin"
+      ],
+      "texture_sha256": "9113b071f57fc5c963368494f9e0e57ea6e48c7686e7f40d03a78edf12a09a75",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_2_3",
+      "level": 2,
+      "x": 0,
+      "y": 1,
+      "bounds_m": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_1",
+      "texture_files": [
+        "terrain/fine_2_3.png.bin"
+      ],
+      "texture_sha256": "0f161981203f8633611a460bc393191f4c1ec62c8aac16d397b6963721dc95f5",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_3_3",
+      "level": 2,
+      "x": 1,
+      "y": 1,
+      "bounds_m": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_1",
+      "texture_files": [
+        "terrain/fine_3_3.png.bin"
+      ],
+      "texture_sha256": "f46435016fb6317ed9ea08060e0373b56e710720036f0a099d850ac11ab7dc8d",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e1_20261016_04_lab",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    }
+  ],
+  "art_bundle": "assets/art_bundle.json",
+  "object_shards": [
+    "instances/objects.json"
+  ],
+  "sites": "settlements/sites.json",
+  "provenance": "receipts/provenance.json"
+}

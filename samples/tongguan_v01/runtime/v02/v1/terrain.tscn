@@ -1,0 +1,222 @@
+[gd_scene load_steps=25 format=3]
+
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/ground_0_0.png" id="1"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/water_0_0.png" id="2"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/ground_1_0.png" id="3"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/water_1_0.png" id="4"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/ground_2_0.png" id="5"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/water_2_0.png" id="6"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/ground_3_0.png" id="7"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/water_3_0.png" id="8"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/ground_0_1.png" id="9"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/water_0_1.png" id="10"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/ground_1_1.png" id="11"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/water_1_1.png" id="12"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/ground_2_1.png" id="13"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/water_2_1.png" id="14"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/ground_3_1.png" id="15"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/water_3_1.png" id="16"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/ground_0_2.png" id="17"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/water_0_2.png" id="18"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/ground_1_2.png" id="19"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/water_1_2.png" id="20"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/ground_2_2.png" id="21"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/water_2_2.png" id="22"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/ground_3_2.png" id="23"]
+[ext_resource type="Texture2D" path="res://v02/v1/assets/terrain_v01/water_3_2.png" id="24"]
+
+[node name="Terrain" type="Node2D"]
+[node name="Ground" type="Node2D" parent="."]
+[node name="Water" type="Node2D" parent="."]
+[node name="Tile_00" type="Sprite2D" parent="Ground"]
+position = Vector2(-1024, -1024)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("1")
+[node name="Tile_01" type="Sprite2D" parent="Water"]
+position = Vector2(-1024, -1024)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("2")
+[node name="Tile_02" type="Sprite2D" parent="Ground"]
+position = Vector2(-512, -1024)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("3")
+[node name="Tile_03" type="Sprite2D" parent="Water"]
+position = Vector2(-512, -1024)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("4")
+[node name="Tile_04" type="Sprite2D" parent="Ground"]
+position = Vector2(0, -1024)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("5")
+[node name="Tile_05" type="Sprite2D" parent="Water"]
+position = Vector2(0, -1024)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("6")
+[node name="Tile_06" type="Sprite2D" parent="Ground"]
+position = Vector2(512, -1024)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("7")
+[node name="Tile_07" type="Sprite2D" parent="Water"]
+position = Vector2(512, -1024)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("8")
+[node name="Tile_08" type="Sprite2D" parent="Ground"]
+position = Vector2(-1024, -512)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("9")
+[node name="Tile_09" type="Sprite2D" parent="Water"]
+position = Vector2(-1024, -512)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("10")
+[node name="Tile_10" type="Sprite2D" parent="Ground"]
+position = Vector2(-512, -512)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("11")
+[node name="Tile_11" type="Sprite2D" parent="Water"]
+position = Vector2(-512, -512)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("12")
+[node name="Tile_12" type="Sprite2D" parent="Ground"]
+position = Vector2(0, -512)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("13")
+[node name="Tile_13" type="Sprite2D" parent="Water"]
+position = Vector2(0, -512)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("14")
+[node name="Tile_14" type="Sprite2D" parent="Ground"]
+position = Vector2(512, -512)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("15")
+[node name="Tile_15" type="Sprite2D" parent="Water"]
+position = Vector2(512, -512)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("16")
+[node name="Tile_16" type="Sprite2D" parent="Ground"]
+position = Vector2(-1024, 0)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("17")
+[node name="Tile_17" type="Sprite2D" parent="Water"]
+position = Vector2(-1024, 0)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("18")
+[node name="Tile_18" type="Sprite2D" parent="Ground"]
+position = Vector2(-512, 0)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("19")
+[node name="Tile_19" type="Sprite2D" parent="Water"]
+position = Vector2(-512, 0)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("20")
+[node name="Tile_20" type="Sprite2D" parent="Ground"]
+position = Vector2(0, 0)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("21")
+[node name="Tile_21" type="Sprite2D" parent="Water"]
+position = Vector2(0, 0)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("22")
+[node name="Tile_22" type="Sprite2D" parent="Ground"]
+position = Vector2(512, 0)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("23")
+[node name="Tile_23" type="Sprite2D" parent="Water"]
+position = Vector2(512, 0)
+scale = Vector2(0.5, 0.5)
+centered = false
+region_enabled = true
+region_rect = Rect2(4, 4, 1024, 1024)
+region_filter_clip_enabled = false
+texture = ExtResource("24")

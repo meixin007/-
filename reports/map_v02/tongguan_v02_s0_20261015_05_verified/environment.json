@@ -1,0 +1,36 @@
+{
+  "cpu": [
+    {
+      "Name": "AMD Ryzen 7 5700X 8-Core Processor             ",
+      "NumberOfCores": 8,
+      "NumberOfLogicalProcessors": 16
+    }
+  ],
+  "memory": [
+    {
+      "TotalPhysicalMemory": 17120399360
+    }
+  ],
+  "gpu": [
+    {
+      "Name": "GameViewer Virtual Display Adapter",
+      "DriverVersion": "15.6.5.199",
+      "DriverDate": "2026-02-27T15:00:00-09:00",
+      "AdapterRAM": null
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 4060",
+      "DriverVersion": "32.0.16.1692",
+      "DriverDate": "2026-09-03T16:00:00-08:00",
+      "AdapterRAM": 4293918720
+    }
+  ],
+  "os": [
+    {
+      "Caption": "Microsoft Windows 10 专业版",
+      "Version": "10.0.19045",
+      "BuildNumber": "19045"
+    }
+  ],
+  "nvidia_smi_name_driver_memory_total_mib": "NVIDIA GeForce RTX 4060, 616.92, 8188"
+}

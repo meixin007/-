@@ -1,0 +1,8 @@
+{
+	"checks": 162,
+	"cycles": 50,
+	"failures": [],
+	"protected_pixel_sha256": "bc2829e3e8d82b554aa745992e84d9bff59aec7ebbc5930718f10aaa1e2669e3",
+	"publication_path": "H:/tongguan_reviewfix_20261015/review-work/map_v02/q1_scaled_authoring_control/isolated_user_data/tongguan_q1_native_e2e_authoring/tests/final_native_publication.json",
+	"publication_sha256": "858d2624188117860ef98e38f217d16be5ea9006eabc7b576f8d0f4a9cd541e9"
+}

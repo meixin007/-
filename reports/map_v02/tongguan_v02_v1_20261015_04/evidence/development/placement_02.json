@@ -1,0 +1,113 @@
+{
+	"failures": [
+		"v1.preview.tree.11:water_buffer",
+		"v1.preview.tree.12:water_buffer"
+	],
+	"original_resolver_unchanged": true,
+	"rows": [
+		{
+			"id": "v1.preview.tree.00",
+			"position_m": [
+				-850.0,
+				-450.0
+			],
+			"reason": ""
+		},
+		{
+			"id": "v1.preview.tree.01",
+			"position_m": [
+				-785.0,
+				-470.0
+			],
+			"reason": ""
+		},
+		{
+			"id": "v1.preview.tree.02",
+			"position_m": [
+				-710.0,
+				-455.0
+			],
+			"reason": ""
+		},
+		{
+			"id": "v1.preview.tree.03",
+			"position_m": [
+				-810.0,
+				-385.0
+			],
+			"reason": ""
+		},
+		{
+			"id": "v1.preview.tree.04",
+			"position_m": [
+				-730.0,
+				-380.0
+			],
+			"reason": ""
+		},
+		{
+			"id": "v1.preview.tree.05",
+			"position_m": [
+				-310.0,
+				-430.0
+			],
+			"reason": ""
+		},
+		{
+			"id": "v1.preview.tree.06",
+			"position_m": [
+				-240.0,
+				-455.0
+			],
+			"reason": ""
+		},
+		{
+			"id": "v1.preview.tree.07",
+			"position_m": [
+				-170.0,
+				-410.0
+			],
+			"reason": ""
+		},
+		{
+			"id": "v1.preview.tree.08",
+			"position_m": [
+				120.0,
+				-365.0
+			],
+			"reason": ""
+		},
+		{
+			"id": "v1.preview.tree.09",
+			"position_m": [
+				190.0,
+				-340.0
+			],
+			"reason": ""
+		},
+		{
+			"id": "v1.preview.tree.10",
+			"position_m": [
+				180.0,
+				-265.0
+			],
+			"reason": ""
+		},
+		{
+			"id": "v1.preview.tree.11",
+			"position_m": [
+				-850.0,
+				270.0
+			],
+			"reason": "water_buffer"
+		},
+		{
+			"id": "v1.preview.tree.12",
+			"position_m": [
+				-780.0,
+				290.0
+			],
+			"reason": "water_buffer"
+		}
+	]
+}

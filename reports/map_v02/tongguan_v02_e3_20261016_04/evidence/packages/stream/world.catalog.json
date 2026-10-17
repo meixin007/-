@@ -1,0 +1,8126 @@
+{
+  "schema_version": 1,
+  "build_id": "tongguan_v02_e3_20261016_04_stream",
+  "compatibility": {
+    "world_id": "stream_lab_v02",
+    "site_id": "lab.stream.proxy",
+    "layout_version": "lab_8x32_e3_v1",
+    "layout_slots_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "fixed_refs_sha256": "db31485fa2e6cd6754227af6fe48d1d27f571e2fce6cd43478e45123435f9547",
+    "graph_version": "lab_visual_no_corridors",
+    "coordinate_sha256": "8b0f305c0ea00c2bcf339c4d8cd0b288b17fe1c42bc9ac77bde29393e6349c51"
+  },
+  "coordinates": {
+    "axis": "east_south",
+    "unit": "meter",
+    "origin_m": [
+      0,
+      0
+    ]
+  },
+  "bounds_m": [
+    0,
+    0,
+    16384,
+    4096
+  ],
+  "pages": [
+    {
+      "id": "root_0_0",
+      "level": 0,
+      "x": 0,
+      "y": 0,
+      "bounds_m": [
+        0,
+        0,
+        16384,
+        4096
+      ],
+      "parent_id": "",
+      "texture_files": [
+        "terrain/root_0_0.png.bin"
+      ],
+      "texture_sha256": "93da48061de2c729213cb22ae13396481fa086577543d1a098142d11d637b032",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "parent_0_0",
+      "level": 1,
+      "x": 0,
+      "y": 0,
+      "bounds_m": [
+        0,
+        0,
+        4096,
+        4096
+      ],
+      "parent_id": "root_0_0",
+      "texture_files": [
+        "terrain/parent_0_0.png.bin"
+      ],
+      "texture_sha256": "fd27c087590665a5a9222828c9788f28333f14da95f340362b9ef22f6aa17890",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "parent_1_0",
+      "level": 1,
+      "x": 1,
+      "y": 0,
+      "bounds_m": [
+        4096,
+        0,
+        4096,
+        4096
+      ],
+      "parent_id": "root_0_0",
+      "texture_files": [
+        "terrain/parent_1_0.png.bin"
+      ],
+      "texture_sha256": "47ebaf49e8344256d137097b7af0c8245be0dad6ee013b52ae318caf97a4dbaa",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "parent_2_0",
+      "level": 1,
+      "x": 2,
+      "y": 0,
+      "bounds_m": [
+        8192,
+        0,
+        4096,
+        4096
+      ],
+      "parent_id": "root_0_0",
+      "texture_files": [
+        "terrain/parent_2_0.png.bin"
+      ],
+      "texture_sha256": "f4027f73968aac83edbc9b4d128c68e01e48d1c5bdba65540078ad1f05e463b1",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "parent_3_0",
+      "level": 1,
+      "x": 3,
+      "y": 0,
+      "bounds_m": [
+        12288,
+        0,
+        4096,
+        4096
+      ],
+      "parent_id": "root_0_0",
+      "texture_files": [
+        "terrain/parent_3_0.png.bin"
+      ],
+      "texture_sha256": "b5cd159ba61810f7ee52473026b52a3697a7e73377b26469e42ffebec76a3368",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_0_0",
+      "level": 2,
+      "x": 0,
+      "y": 0,
+      "bounds_m": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_0_0.png.bin"
+      ],
+      "texture_sha256": "da4f6c1f240a79d0f32c3cb7e771c533ea9d2765ecfe9f48e7ced8a8aed76945",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_1_0",
+      "level": 2,
+      "x": 1,
+      "y": 0,
+      "bounds_m": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_1_0.png.bin"
+      ],
+      "texture_sha256": "e3e4da35a802f6b4692b6cc2c753c4efeae8bdcfd4d9b539bf8901b81b76d727",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_2_0",
+      "level": 2,
+      "x": 2,
+      "y": 0,
+      "bounds_m": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_2_0.png.bin"
+      ],
+      "texture_sha256": "4520ded03ea137c15d11f87feb15440f3280c222218d961019e533a1cc4fb895",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_3_0",
+      "level": 2,
+      "x": 3,
+      "y": 0,
+      "bounds_m": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_3_0.png.bin"
+      ],
+      "texture_sha256": "1e01ff70801767db981a5a3b6d446480a493be02136443e310ef1dc811cf1eb2",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_4_0",
+      "level": 2,
+      "x": 4,
+      "y": 0,
+      "bounds_m": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_4_0.png.bin"
+      ],
+      "texture_sha256": "69c02dea2e9ac937f55dcea42cc6edd3130d6740740c83fac856e9d9f1e7b6de",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_5_0",
+      "level": 2,
+      "x": 5,
+      "y": 0,
+      "bounds_m": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_5_0.png.bin"
+      ],
+      "texture_sha256": "3e737f4daa9fa5b581ac4def75fb7e3c051aea65a758663de44305c97d7f79ab",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_6_0",
+      "level": 2,
+      "x": 6,
+      "y": 0,
+      "bounds_m": [
+        3072,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_6_0.png.bin"
+      ],
+      "texture_sha256": "cb1fe48c44362b9f73efb91311dc36fac3c78b6ee0111e214495b0d13522a123",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_7_0",
+      "level": 2,
+      "x": 7,
+      "y": 0,
+      "bounds_m": [
+        3584,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_7_0.png.bin"
+      ],
+      "texture_sha256": "de9a68ad9a527152ad206427395944b4c850e870353e2d21a388f0231e756ac7",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_8_0",
+      "level": 2,
+      "x": 8,
+      "y": 0,
+      "bounds_m": [
+        4096,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_8_0.png.bin"
+      ],
+      "texture_sha256": "45f8eb00c53bbc189e9359813ffc5d248992dbc3104b7c6c2c00d19a258157c7",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_9_0",
+      "level": 2,
+      "x": 9,
+      "y": 0,
+      "bounds_m": [
+        4608,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_9_0.png.bin"
+      ],
+      "texture_sha256": "96dde3e49ddfaa1d978e6cc99cf1633a1334b981b92ecb05a18dddd80d8c7273",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_10_0",
+      "level": 2,
+      "x": 10,
+      "y": 0,
+      "bounds_m": [
+        5120,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_10_0.png.bin"
+      ],
+      "texture_sha256": "4b2106d44b3d38b086e816f082538f4247eb8c02b39e3d3c51865d75660ae5d7",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_11_0",
+      "level": 2,
+      "x": 11,
+      "y": 0,
+      "bounds_m": [
+        5632,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_11_0.png.bin"
+      ],
+      "texture_sha256": "302be60ace01cd37cda54ccb23f2dac155b64606637367253948426edad89c80",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_12_0",
+      "level": 2,
+      "x": 12,
+      "y": 0,
+      "bounds_m": [
+        6144,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_12_0.png.bin"
+      ],
+      "texture_sha256": "50e025a9431282e5d676b17d4a309e791ef3b7a0a0d7776133cde512aec58308",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_13_0",
+      "level": 2,
+      "x": 13,
+      "y": 0,
+      "bounds_m": [
+        6656,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_13_0.png.bin"
+      ],
+      "texture_sha256": "b50b3a95333f32b2cc930228451cf6f65efd79a7c71fad8c180714c143dbf57f",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_14_0",
+      "level": 2,
+      "x": 14,
+      "y": 0,
+      "bounds_m": [
+        7168,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_14_0.png.bin"
+      ],
+      "texture_sha256": "96c19b86ed90ceec77bf8baa98ad31517b7084144d33cdf6ac2489fb711f6fa0",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_15_0",
+      "level": 2,
+      "x": 15,
+      "y": 0,
+      "bounds_m": [
+        7680,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_15_0.png.bin"
+      ],
+      "texture_sha256": "e2d96a04ded43da181d526a17860b29bcdca603ad3ddf1cdd66b1aa76367ab86",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_16_0",
+      "level": 2,
+      "x": 16,
+      "y": 0,
+      "bounds_m": [
+        8192,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_16_0.png.bin"
+      ],
+      "texture_sha256": "73ec754f203ee07438e924f2a898328dfa4b6c9222bcb28a52e4aeaaf54c4e36",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_17_0",
+      "level": 2,
+      "x": 17,
+      "y": 0,
+      "bounds_m": [
+        8704,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_17_0.png.bin"
+      ],
+      "texture_sha256": "519966f4f0a28d74959c10c5b637892ebd487261796ba3aa1af24e3f35fa44c8",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_18_0",
+      "level": 2,
+      "x": 18,
+      "y": 0,
+      "bounds_m": [
+        9216,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_18_0.png.bin"
+      ],
+      "texture_sha256": "dc87b5d72d51125fb924089668fd3d1f9e4a393f0ef5082a2dd238e056ba0432",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_19_0",
+      "level": 2,
+      "x": 19,
+      "y": 0,
+      "bounds_m": [
+        9728,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_19_0.png.bin"
+      ],
+      "texture_sha256": "d19d94b7dc96c591994d54a29336eb7f987b12acf996f7c7423a32ce22f03387",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_20_0",
+      "level": 2,
+      "x": 20,
+      "y": 0,
+      "bounds_m": [
+        10240,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_20_0.png.bin"
+      ],
+      "texture_sha256": "ca987cba3cc27c7b5d114ef4edbe15b47faaf88eafc288de4cd87a1eda7ad6f6",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_21_0",
+      "level": 2,
+      "x": 21,
+      "y": 0,
+      "bounds_m": [
+        10752,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_21_0.png.bin"
+      ],
+      "texture_sha256": "004f04c2161b0f20fb9e5b686173c2cb99e681f032ecfcf8f863d7fb6fe42b99",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_22_0",
+      "level": 2,
+      "x": 22,
+      "y": 0,
+      "bounds_m": [
+        11264,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_22_0.png.bin"
+      ],
+      "texture_sha256": "345526f6d85a2ab88aab67ce5203e6ceb263147c6d8ed564fd341b1bf77f0d5d",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_23_0",
+      "level": 2,
+      "x": 23,
+      "y": 0,
+      "bounds_m": [
+        11776,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_23_0.png.bin"
+      ],
+      "texture_sha256": "e6d26e3a854873a1eef64008f54722234dc630e3ba9369735922990043fea03a",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_24_0",
+      "level": 2,
+      "x": 24,
+      "y": 0,
+      "bounds_m": [
+        12288,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_24_0.png.bin"
+      ],
+      "texture_sha256": "ae2ccb919361a2f4290b22c062d623902ef9846ce4662ac114744e375e617a64",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_25_0",
+      "level": 2,
+      "x": 25,
+      "y": 0,
+      "bounds_m": [
+        12800,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_25_0.png.bin"
+      ],
+      "texture_sha256": "add4be9366648812f696805068ea2be03309d9fd540b43b52acf3d723f14fb59",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_26_0",
+      "level": 2,
+      "x": 26,
+      "y": 0,
+      "bounds_m": [
+        13312,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_26_0.png.bin"
+      ],
+      "texture_sha256": "0fe7e5605cfcc62efe3433ebb7db70d9904557ac38b0bf008a06695d3d5d7ec8",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_27_0",
+      "level": 2,
+      "x": 27,
+      "y": 0,
+      "bounds_m": [
+        13824,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_27_0.png.bin"
+      ],
+      "texture_sha256": "144d62b4c35c28153161901e0e2d1a7793e17563f068496442eee7dd60a67181",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_28_0",
+      "level": 2,
+      "x": 28,
+      "y": 0,
+      "bounds_m": [
+        14336,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_28_0.png.bin"
+      ],
+      "texture_sha256": "3fdea3a2fa09a046ab196a9ae0f5f4779811f40bc1edc9a6c2a6d63c864748c0",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_29_0",
+      "level": 2,
+      "x": 29,
+      "y": 0,
+      "bounds_m": [
+        14848,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_29_0.png.bin"
+      ],
+      "texture_sha256": "095d06a8dfb79aae53a7473b14c27989ecdf347e76acbb3c43ce6c3159ef16f1",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_30_0",
+      "level": 2,
+      "x": 30,
+      "y": 0,
+      "bounds_m": [
+        15360,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_30_0.png.bin"
+      ],
+      "texture_sha256": "af97b854f76f960cd7a5a1a21f338ced1d8121743f2b8823ba589b57f95880a2",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_31_0",
+      "level": 2,
+      "x": 31,
+      "y": 0,
+      "bounds_m": [
+        15872,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_31_0.png.bin"
+      ],
+      "texture_sha256": "a1f89f6915a6f924c15a1c07894604299338106f773921c911b8f3819b71068f",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_0_1",
+      "level": 2,
+      "x": 0,
+      "y": 1,
+      "bounds_m": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_0_1.png.bin"
+      ],
+      "texture_sha256": "c88c1ce91a24b0311ebee8904a79c3068a9bc92a093bd3a0a1ce6380ba46860c",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_1_1",
+      "level": 2,
+      "x": 1,
+      "y": 1,
+      "bounds_m": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_1_1.png.bin"
+      ],
+      "texture_sha256": "1375a440caf6dc2aae3efaa127881d89300d760781e7c1d6eecb6db43195cc56",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_2_1",
+      "level": 2,
+      "x": 2,
+      "y": 1,
+      "bounds_m": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_2_1.png.bin"
+      ],
+      "texture_sha256": "eebc65a206c5cc0b3d93b1fb9038456a757b60817f695633a4cdda2d76c97813",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_3_1",
+      "level": 2,
+      "x": 3,
+      "y": 1,
+      "bounds_m": [
+        1536,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_3_1.png.bin"
+      ],
+      "texture_sha256": "a6902337eac6aed9fdff71da822cd7de6b695f1a36e8ed85204bd051c2445998",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_4_1",
+      "level": 2,
+      "x": 4,
+      "y": 1,
+      "bounds_m": [
+        2048,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_4_1.png.bin"
+      ],
+      "texture_sha256": "484bbc6dcfcf85087cadf118d61e098c3d5ad6b8861061f22f0b6dab2227bfe0",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_5_1",
+      "level": 2,
+      "x": 5,
+      "y": 1,
+      "bounds_m": [
+        2560,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_5_1.png.bin"
+      ],
+      "texture_sha256": "ca7c3863a8cf8a685fbcaabff8501fce3c24592e12812e288eb06cce4a113064",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_6_1",
+      "level": 2,
+      "x": 6,
+      "y": 1,
+      "bounds_m": [
+        3072,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_6_1.png.bin"
+      ],
+      "texture_sha256": "3fbee949e4e1a5124a2f2b280a026d0ecd3854f825857c8d74824f04a31ff56c",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_7_1",
+      "level": 2,
+      "x": 7,
+      "y": 1,
+      "bounds_m": [
+        3584,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_7_1.png.bin"
+      ],
+      "texture_sha256": "34d7f0e1655824e00aac25c97060f365c4f9c6c3f8d5a64e13b5a5fb22ce4925",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_8_1",
+      "level": 2,
+      "x": 8,
+      "y": 1,
+      "bounds_m": [
+        4096,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_8_1.png.bin"
+      ],
+      "texture_sha256": "d59e2f4ea164dcf0e16d8b6d01ac3ea54a84728b308913ff1e5dc4d2a344faa2",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_9_1",
+      "level": 2,
+      "x": 9,
+      "y": 1,
+      "bounds_m": [
+        4608,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_9_1.png.bin"
+      ],
+      "texture_sha256": "a11b1ea419fe2bb9740ec4808c8badd3b901b8aac445f36f939fc4e70f90e787",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_10_1",
+      "level": 2,
+      "x": 10,
+      "y": 1,
+      "bounds_m": [
+        5120,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_10_1.png.bin"
+      ],
+      "texture_sha256": "e8acfa970c549da5af15a6e97185f7154b8699f7e4e01046f70db41e6b8c5c1d",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_11_1",
+      "level": 2,
+      "x": 11,
+      "y": 1,
+      "bounds_m": [
+        5632,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_11_1.png.bin"
+      ],
+      "texture_sha256": "fe50b193059cda06682982d9be256511a66c7edfe6bcfca918bb741dc85c6d79",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_12_1",
+      "level": 2,
+      "x": 12,
+      "y": 1,
+      "bounds_m": [
+        6144,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_12_1.png.bin"
+      ],
+      "texture_sha256": "bc66e7f9617a15b27f9e56d32f955020bb70e19552e27b668326bab911ec64d9",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_13_1",
+      "level": 2,
+      "x": 13,
+      "y": 1,
+      "bounds_m": [
+        6656,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_13_1.png.bin"
+      ],
+      "texture_sha256": "01b386becba7d9aead8cde6a820bf467a071a69b2274e7cd3b74aaadfb935dfa",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_14_1",
+      "level": 2,
+      "x": 14,
+      "y": 1,
+      "bounds_m": [
+        7168,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_14_1.png.bin"
+      ],
+      "texture_sha256": "5f5c038cf0c63efc65f1622356785822054c8bbe1d56b1dc83669a2abebcb230",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_15_1",
+      "level": 2,
+      "x": 15,
+      "y": 1,
+      "bounds_m": [
+        7680,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_15_1.png.bin"
+      ],
+      "texture_sha256": "9a7582c3bf9b6a003a07bae5329c7e62e5494f5a78e982ab63d5bf7013cd8c38",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_16_1",
+      "level": 2,
+      "x": 16,
+      "y": 1,
+      "bounds_m": [
+        8192,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_16_1.png.bin"
+      ],
+      "texture_sha256": "db276b8e1d0b4058119487a75a29b4ee5f0ea456f676df8e9743d96d6fc24467",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_17_1",
+      "level": 2,
+      "x": 17,
+      "y": 1,
+      "bounds_m": [
+        8704,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_17_1.png.bin"
+      ],
+      "texture_sha256": "99042378b63b1f1b088b602cd197109ad8454b3b0c54ab3daf5f40fc337a32bb",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_18_1",
+      "level": 2,
+      "x": 18,
+      "y": 1,
+      "bounds_m": [
+        9216,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_18_1.png.bin"
+      ],
+      "texture_sha256": "0c47381027836f550a0a361f404fc20f6835c4d43acf085a31015278fa760f57",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_19_1",
+      "level": 2,
+      "x": 19,
+      "y": 1,
+      "bounds_m": [
+        9728,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_19_1.png.bin"
+      ],
+      "texture_sha256": "2ca5ac433c6454eee24a3ad3e9d1d83af707647b825d5a8e221c27794adea526",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_20_1",
+      "level": 2,
+      "x": 20,
+      "y": 1,
+      "bounds_m": [
+        10240,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_20_1.png.bin"
+      ],
+      "texture_sha256": "d3381e272b8c4f7fd968c3a362bd4c3cc7a5fefb163ba442e3f965468f50c55a",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_21_1",
+      "level": 2,
+      "x": 21,
+      "y": 1,
+      "bounds_m": [
+        10752,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_21_1.png.bin"
+      ],
+      "texture_sha256": "44679e440146ba67f83823b1054597cb9105441f1614006d0274ee1b02c1c256",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_22_1",
+      "level": 2,
+      "x": 22,
+      "y": 1,
+      "bounds_m": [
+        11264,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_22_1.png.bin"
+      ],
+      "texture_sha256": "b768739891bc6d24a51b4c36519804461e1fe7d0e97392f3f6009282f08a7313",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_23_1",
+      "level": 2,
+      "x": 23,
+      "y": 1,
+      "bounds_m": [
+        11776,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_23_1.png.bin"
+      ],
+      "texture_sha256": "1a44065b29b2830adef12f62166d3a497226ae89ca8e8e8cd484525fe4f0a487",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_24_1",
+      "level": 2,
+      "x": 24,
+      "y": 1,
+      "bounds_m": [
+        12288,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_24_1.png.bin"
+      ],
+      "texture_sha256": "97d2c61077a562d071ce0ad14c3de58db88c9f0e80ecc206a27498f76a248448",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_25_1",
+      "level": 2,
+      "x": 25,
+      "y": 1,
+      "bounds_m": [
+        12800,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_25_1.png.bin"
+      ],
+      "texture_sha256": "f1cf6070507815c055484981919c9fb8421227d884f9a0e393beb54e2bdf250a",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_26_1",
+      "level": 2,
+      "x": 26,
+      "y": 1,
+      "bounds_m": [
+        13312,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_26_1.png.bin"
+      ],
+      "texture_sha256": "97a225aa1c296b35bd52f989aa74331860444e301fee81c26bec87da98af2ce6",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_27_1",
+      "level": 2,
+      "x": 27,
+      "y": 1,
+      "bounds_m": [
+        13824,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_27_1.png.bin"
+      ],
+      "texture_sha256": "b9d002b862605a1b1bb86d3d55ac16811c06ac06264d80df460c76aacf4dc06f",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_28_1",
+      "level": 2,
+      "x": 28,
+      "y": 1,
+      "bounds_m": [
+        14336,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_28_1.png.bin"
+      ],
+      "texture_sha256": "b0e8abb3a43bd84a73574451c1e01042441a8ce0b886cc7273bc53784b048b90",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_29_1",
+      "level": 2,
+      "x": 29,
+      "y": 1,
+      "bounds_m": [
+        14848,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_29_1.png.bin"
+      ],
+      "texture_sha256": "ede04a613bae02715eea21fc1245e65cf109cf5739589fe4433d56b063c8eccb",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_30_1",
+      "level": 2,
+      "x": 30,
+      "y": 1,
+      "bounds_m": [
+        15360,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_30_1.png.bin"
+      ],
+      "texture_sha256": "d6d3f53f59000c2182b494c86b2bce6d64403416e099e5bbce1bdaaf4f647dab",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_31_1",
+      "level": 2,
+      "x": 31,
+      "y": 1,
+      "bounds_m": [
+        15872,
+        512,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_31_1.png.bin"
+      ],
+      "texture_sha256": "57e6b660fbe89ccfa887da19b10f477472f165d6e4a9ae3634a6e7c641045d83",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_0_2",
+      "level": 2,
+      "x": 0,
+      "y": 2,
+      "bounds_m": [
+        0,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_0_2.png.bin"
+      ],
+      "texture_sha256": "cfaa4c20ce5f52f77a187ed9930fda9523e9f3179735ae250aa44e9bfffaded7",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_1_2",
+      "level": 2,
+      "x": 1,
+      "y": 2,
+      "bounds_m": [
+        512,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_1_2.png.bin"
+      ],
+      "texture_sha256": "6b1777a839eb217117afedb8c2aa5e6ce629f8f532248ab24ffabc1cca260384",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_2_2",
+      "level": 2,
+      "x": 2,
+      "y": 2,
+      "bounds_m": [
+        1024,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_2_2.png.bin"
+      ],
+      "texture_sha256": "8799d84a0c62842dfefa17f1393047203e620945f432309bd0dac511286d2d02",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_3_2",
+      "level": 2,
+      "x": 3,
+      "y": 2,
+      "bounds_m": [
+        1536,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_3_2.png.bin"
+      ],
+      "texture_sha256": "32bac14be7499cba6fea70ccd61251ec710908c6ded00b048b2b330c52df4385",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_4_2",
+      "level": 2,
+      "x": 4,
+      "y": 2,
+      "bounds_m": [
+        2048,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_4_2.png.bin"
+      ],
+      "texture_sha256": "ba4eb55979fa8aa787d5c44d2acb2f73377004bb42d5514af2c5564d51a4d234",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_5_2",
+      "level": 2,
+      "x": 5,
+      "y": 2,
+      "bounds_m": [
+        2560,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_5_2.png.bin"
+      ],
+      "texture_sha256": "3ca4fc1064d8714dbe95aa26f1570aef3e51dd9e7565f5e244289e9ec633758e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_6_2",
+      "level": 2,
+      "x": 6,
+      "y": 2,
+      "bounds_m": [
+        3072,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_6_2.png.bin"
+      ],
+      "texture_sha256": "3a57a3408e522a4c948490fdf545f69dbccf27ee4edb56e96d94db60b3f5716c",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_7_2",
+      "level": 2,
+      "x": 7,
+      "y": 2,
+      "bounds_m": [
+        3584,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_7_2.png.bin"
+      ],
+      "texture_sha256": "833195bf98ec66572c3e3c11c93d34df1cb5a1caffd2c05fb1dc512c1bfdb78f",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_8_2",
+      "level": 2,
+      "x": 8,
+      "y": 2,
+      "bounds_m": [
+        4096,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_8_2.png.bin"
+      ],
+      "texture_sha256": "868ec0bbdf77c1dbadf4fa2fe117fefd6813d823806b3c1f3a5357047bc785b4",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_9_2",
+      "level": 2,
+      "x": 9,
+      "y": 2,
+      "bounds_m": [
+        4608,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_9_2.png.bin"
+      ],
+      "texture_sha256": "d3fc878e62eeba213e6113f366bb79e898a69c9db01de54541d4a0bf00d3dcc7",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_10_2",
+      "level": 2,
+      "x": 10,
+      "y": 2,
+      "bounds_m": [
+        5120,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_10_2.png.bin"
+      ],
+      "texture_sha256": "b485c11ed554bfdaef895041cee6be4584888a4ee2744090da77ae52eefe5d76",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_11_2",
+      "level": 2,
+      "x": 11,
+      "y": 2,
+      "bounds_m": [
+        5632,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_11_2.png.bin"
+      ],
+      "texture_sha256": "7b41584b0d3682651db89ebef347d6c821832bfa4ff1dcdc92e1ff044e465279",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_12_2",
+      "level": 2,
+      "x": 12,
+      "y": 2,
+      "bounds_m": [
+        6144,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_12_2.png.bin"
+      ],
+      "texture_sha256": "211aa2f48a6cfe1ec73a7e459717718dc9811187da515890aad4670f36496b54",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_13_2",
+      "level": 2,
+      "x": 13,
+      "y": 2,
+      "bounds_m": [
+        6656,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_13_2.png.bin"
+      ],
+      "texture_sha256": "e037a6b7986c02fc3e53f22592804fa28749c8540cdb380e5c2da758649ddc9e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_14_2",
+      "level": 2,
+      "x": 14,
+      "y": 2,
+      "bounds_m": [
+        7168,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_14_2.png.bin"
+      ],
+      "texture_sha256": "5bc92e7e63daa448e07918fb76d236244948e4fbaf6c26e9196f37a128f6f412",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_15_2",
+      "level": 2,
+      "x": 15,
+      "y": 2,
+      "bounds_m": [
+        7680,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_15_2.png.bin"
+      ],
+      "texture_sha256": "c4293c62027d51257c9a20e9a23979569b289ba1ae5793607eb014f18c41825e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_16_2",
+      "level": 2,
+      "x": 16,
+      "y": 2,
+      "bounds_m": [
+        8192,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_16_2.png.bin"
+      ],
+      "texture_sha256": "08ef42067557590fc300d3cf7dc4740f16ecf343d1caa151ea9aab16f1a554ef",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_17_2",
+      "level": 2,
+      "x": 17,
+      "y": 2,
+      "bounds_m": [
+        8704,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_17_2.png.bin"
+      ],
+      "texture_sha256": "48c36258bd5fd2be9eec40d1948cd55f4947d1e516295c77049ac5eec08a92a1",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_18_2",
+      "level": 2,
+      "x": 18,
+      "y": 2,
+      "bounds_m": [
+        9216,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_18_2.png.bin"
+      ],
+      "texture_sha256": "7b453c48dc770e43eb672f51b1f708640c6859651a624c6f44a3c92b92909784",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_19_2",
+      "level": 2,
+      "x": 19,
+      "y": 2,
+      "bounds_m": [
+        9728,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_19_2.png.bin"
+      ],
+      "texture_sha256": "1f85f8ae446e18785b3c9189d282339eef0ee68f00cb6b920c3408c0383b9907",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_20_2",
+      "level": 2,
+      "x": 20,
+      "y": 2,
+      "bounds_m": [
+        10240,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_20_2.png.bin"
+      ],
+      "texture_sha256": "aff5c13538eae9f6fc008927813d82828ef2606c987be82c1671c7208d9bf34e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_21_2",
+      "level": 2,
+      "x": 21,
+      "y": 2,
+      "bounds_m": [
+        10752,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_21_2.png.bin"
+      ],
+      "texture_sha256": "4f594b856250174c8d06534dee09694b85e8d99c4ac2f1f3a409925cd0bdf891",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_22_2",
+      "level": 2,
+      "x": 22,
+      "y": 2,
+      "bounds_m": [
+        11264,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_22_2.png.bin"
+      ],
+      "texture_sha256": "e5efb90e1b62886a2a1d940a59b492323ecd1ca486b7a1947a88b15c9b2534de",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_23_2",
+      "level": 2,
+      "x": 23,
+      "y": 2,
+      "bounds_m": [
+        11776,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_23_2.png.bin"
+      ],
+      "texture_sha256": "66babec6928f279fbfd8ebdcbab7fc705bff98b5b02dcdfe5b1394904295dfaa",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_24_2",
+      "level": 2,
+      "x": 24,
+      "y": 2,
+      "bounds_m": [
+        12288,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_24_2.png.bin"
+      ],
+      "texture_sha256": "edbbf70fb3fc5876b5d023fdc308a812ddf57101b1a0acd035528268a9d050f9",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_25_2",
+      "level": 2,
+      "x": 25,
+      "y": 2,
+      "bounds_m": [
+        12800,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_25_2.png.bin"
+      ],
+      "texture_sha256": "99e6893a7e08c53983cc599049412af7de3f96efd7ad118fab561340a7e5e004",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_26_2",
+      "level": 2,
+      "x": 26,
+      "y": 2,
+      "bounds_m": [
+        13312,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_26_2.png.bin"
+      ],
+      "texture_sha256": "5b7e2d85ce961b9709f06bfa065ddc0773f393488bf2e9ff6ab8a013341b377e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_27_2",
+      "level": 2,
+      "x": 27,
+      "y": 2,
+      "bounds_m": [
+        13824,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_27_2.png.bin"
+      ],
+      "texture_sha256": "642ad6ca14578a71f1804ae107415d1100a36246319e7aa65ac6113b9a997f8a",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_28_2",
+      "level": 2,
+      "x": 28,
+      "y": 2,
+      "bounds_m": [
+        14336,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_28_2.png.bin"
+      ],
+      "texture_sha256": "79af4d11a1d1c61a9f30ce13ed94f6d3b598e3e053589b2afc591ec60ac2839e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_29_2",
+      "level": 2,
+      "x": 29,
+      "y": 2,
+      "bounds_m": [
+        14848,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_29_2.png.bin"
+      ],
+      "texture_sha256": "21cd445312ddff2dd095f0af9d71204622d0beef51d5bf663544036bbf252c48",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_30_2",
+      "level": 2,
+      "x": 30,
+      "y": 2,
+      "bounds_m": [
+        15360,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_30_2.png.bin"
+      ],
+      "texture_sha256": "e9afb70c6e1bc5580a6e4ca6d99629e1ddd0527e77592639664c54c9fe2d4e98",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_31_2",
+      "level": 2,
+      "x": 31,
+      "y": 2,
+      "bounds_m": [
+        15872,
+        1024,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_31_2.png.bin"
+      ],
+      "texture_sha256": "318563d35a8a1aac4a6ba8c2243d8b0cce3b4dbe45c1d77fe1d113874eb0d3ca",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_0_3",
+      "level": 2,
+      "x": 0,
+      "y": 3,
+      "bounds_m": [
+        0,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_0_3.png.bin"
+      ],
+      "texture_sha256": "e4bfdd5442a1a9011a48faa247521125c7840ba75a9efdcc7cbd82dbccbd40a5",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_1_3",
+      "level": 2,
+      "x": 1,
+      "y": 3,
+      "bounds_m": [
+        512,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_1_3.png.bin"
+      ],
+      "texture_sha256": "5b3ba004dba6e9da4874c95ddda68930a674f98c8389dcb8fed41c193359903e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_2_3",
+      "level": 2,
+      "x": 2,
+      "y": 3,
+      "bounds_m": [
+        1024,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_2_3.png.bin"
+      ],
+      "texture_sha256": "a66ea691df4cdb5186c1f7a76b38039633938caf3c7d2b84437980425e944251",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_3_3",
+      "level": 2,
+      "x": 3,
+      "y": 3,
+      "bounds_m": [
+        1536,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_3_3.png.bin"
+      ],
+      "texture_sha256": "ed4b2d15663a6d6c44eab85671f1d79b613ac7dbd7280f80834a4da29611b591",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_4_3",
+      "level": 2,
+      "x": 4,
+      "y": 3,
+      "bounds_m": [
+        2048,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_4_3.png.bin"
+      ],
+      "texture_sha256": "d9753737ba26b4673cd6b30d6686cbcea308ecbf190ab7ffc99168f19577982d",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_5_3",
+      "level": 2,
+      "x": 5,
+      "y": 3,
+      "bounds_m": [
+        2560,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_5_3.png.bin"
+      ],
+      "texture_sha256": "b7d0db3c2993a5d596537b4689c7088fc7c87e36177bbc1ff8a2a1bde1ba935b",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_6_3",
+      "level": 2,
+      "x": 6,
+      "y": 3,
+      "bounds_m": [
+        3072,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_6_3.png.bin"
+      ],
+      "texture_sha256": "bec115facafaf8fcc409de03dfff5275c77430b852311701d7a80ffd0e853f17",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_7_3",
+      "level": 2,
+      "x": 7,
+      "y": 3,
+      "bounds_m": [
+        3584,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_7_3.png.bin"
+      ],
+      "texture_sha256": "a1e194f4e24eaa95330595d71e5940f132646e3addb39b9b9d1ac57909ba71f1",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_8_3",
+      "level": 2,
+      "x": 8,
+      "y": 3,
+      "bounds_m": [
+        4096,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_8_3.png.bin"
+      ],
+      "texture_sha256": "be34a5780abeda4fea5742eff471bff69c30d4f3b25637260dfa03605cc52a0b",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_9_3",
+      "level": 2,
+      "x": 9,
+      "y": 3,
+      "bounds_m": [
+        4608,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_9_3.png.bin"
+      ],
+      "texture_sha256": "b0da5bd81d5784ff5215d3b5fa724d92d81aed52ca1b2859e05d52ec9c0e7c4a",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_10_3",
+      "level": 2,
+      "x": 10,
+      "y": 3,
+      "bounds_m": [
+        5120,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_10_3.png.bin"
+      ],
+      "texture_sha256": "9e29d9d5bd157e2b09e878c754086bc17db8ef8b9d95dab2e96e792fd309bf6f",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_11_3",
+      "level": 2,
+      "x": 11,
+      "y": 3,
+      "bounds_m": [
+        5632,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_11_3.png.bin"
+      ],
+      "texture_sha256": "f88aeb1132f5de25b91b5bf0917f42a36864b8744168253744eb89bf43d3ee7f",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_12_3",
+      "level": 2,
+      "x": 12,
+      "y": 3,
+      "bounds_m": [
+        6144,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_12_3.png.bin"
+      ],
+      "texture_sha256": "fc2fb1c15d5dfc0762df08b2f8f7ab19715ff23522151fe140656f6b2a3ceb2e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_13_3",
+      "level": 2,
+      "x": 13,
+      "y": 3,
+      "bounds_m": [
+        6656,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_13_3.png.bin"
+      ],
+      "texture_sha256": "0c6a5c150a12ed8c089a4b210ab0e25c87fb30ce28ccae16c0bc4b8150c58834",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_14_3",
+      "level": 2,
+      "x": 14,
+      "y": 3,
+      "bounds_m": [
+        7168,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_14_3.png.bin"
+      ],
+      "texture_sha256": "624d4dfbbb915a8bc3023ebca59e163c39e3e8289900d79f55656a1bfa44aec7",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_15_3",
+      "level": 2,
+      "x": 15,
+      "y": 3,
+      "bounds_m": [
+        7680,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_15_3.png.bin"
+      ],
+      "texture_sha256": "3213c60c38bf978be00f194049183178a9abc83fccdf9a9fb4955262e0c62b4b",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_16_3",
+      "level": 2,
+      "x": 16,
+      "y": 3,
+      "bounds_m": [
+        8192,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_16_3.png.bin"
+      ],
+      "texture_sha256": "a9d59e0fba54543a7f64ac84b523f33f46d4c31dfec7af835015a11ee8ac0047",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_17_3",
+      "level": 2,
+      "x": 17,
+      "y": 3,
+      "bounds_m": [
+        8704,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_17_3.png.bin"
+      ],
+      "texture_sha256": "d90dba1f576aac9f10ddebd46708147700f6d56421eb617aa29c686bd011ad84",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_18_3",
+      "level": 2,
+      "x": 18,
+      "y": 3,
+      "bounds_m": [
+        9216,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_18_3.png.bin"
+      ],
+      "texture_sha256": "f7907fc9b24cc21977a1a1c2156a825a6e77d34b90a27762d40da31d7f3f5aa1",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_19_3",
+      "level": 2,
+      "x": 19,
+      "y": 3,
+      "bounds_m": [
+        9728,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_19_3.png.bin"
+      ],
+      "texture_sha256": "f33af49d63c04b59339e736b94c798732e18c567ff458e8d31021ad352e30cba",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_20_3",
+      "level": 2,
+      "x": 20,
+      "y": 3,
+      "bounds_m": [
+        10240,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_20_3.png.bin"
+      ],
+      "texture_sha256": "4dc5bdf1400a2ede9b05e887bbfb37bf5120cecdf59e385fe3b818684df4a049",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_21_3",
+      "level": 2,
+      "x": 21,
+      "y": 3,
+      "bounds_m": [
+        10752,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_21_3.png.bin"
+      ],
+      "texture_sha256": "4040911075f4a1cf881c84a1ccba9298c99d2f50168b556b9c3924be7d2f4ae5",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_22_3",
+      "level": 2,
+      "x": 22,
+      "y": 3,
+      "bounds_m": [
+        11264,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_22_3.png.bin"
+      ],
+      "texture_sha256": "48678d7293df7332a4c6c6cb19798048ede014edf766cea6d18bd9aa803e70ba",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_23_3",
+      "level": 2,
+      "x": 23,
+      "y": 3,
+      "bounds_m": [
+        11776,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_23_3.png.bin"
+      ],
+      "texture_sha256": "30a57d1017bac805b075fea201bf41056870c338d612bcad86415b5e7c5e6285",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_24_3",
+      "level": 2,
+      "x": 24,
+      "y": 3,
+      "bounds_m": [
+        12288,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_24_3.png.bin"
+      ],
+      "texture_sha256": "d9a52eec6b1b20be3475c05a741fbd8ada43020916d9526460d2fbd7805a8b01",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_25_3",
+      "level": 2,
+      "x": 25,
+      "y": 3,
+      "bounds_m": [
+        12800,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_25_3.png.bin"
+      ],
+      "texture_sha256": "6385907ebf99f737777624c183ce1ca8bbc4d7e8c35a0ed15a91c64e9c4e06fe",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_26_3",
+      "level": 2,
+      "x": 26,
+      "y": 3,
+      "bounds_m": [
+        13312,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_26_3.png.bin"
+      ],
+      "texture_sha256": "6134d3d5545337ee9d6a369c683eb57cfdfe058906f7c225360f0201cf8830b5",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_27_3",
+      "level": 2,
+      "x": 27,
+      "y": 3,
+      "bounds_m": [
+        13824,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_27_3.png.bin"
+      ],
+      "texture_sha256": "09e7a5906c58776892e41da1efbd36d9dd017551a57c9084cede834d8a459906",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_28_3",
+      "level": 2,
+      "x": 28,
+      "y": 3,
+      "bounds_m": [
+        14336,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_28_3.png.bin"
+      ],
+      "texture_sha256": "023e2fe88f1bf91171796a51ddc2245deafe4153ba4d272f5b5f0979805a2e93",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_29_3",
+      "level": 2,
+      "x": 29,
+      "y": 3,
+      "bounds_m": [
+        14848,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_29_3.png.bin"
+      ],
+      "texture_sha256": "a62135d119e00264a33d9d6c7f075108c2f26ffef956017516a18e889de72206",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_30_3",
+      "level": 2,
+      "x": 30,
+      "y": 3,
+      "bounds_m": [
+        15360,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_30_3.png.bin"
+      ],
+      "texture_sha256": "d39e67c82523ce3769007b40892192f09a448ed3a6fefa07c15a829f22f5621e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_31_3",
+      "level": 2,
+      "x": 31,
+      "y": 3,
+      "bounds_m": [
+        15872,
+        1536,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_31_3.png.bin"
+      ],
+      "texture_sha256": "ce1ae0e1b9090e43ab0c9d54eb9a00b5c9635e31f047d79f007f7e68ecc119a1",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_0_4",
+      "level": 2,
+      "x": 0,
+      "y": 4,
+      "bounds_m": [
+        0,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_0_4.png.bin"
+      ],
+      "texture_sha256": "77f7a253ab441a1435bfad83e64529326f746d6c4e50879254f204c91f98d968",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_1_4",
+      "level": 2,
+      "x": 1,
+      "y": 4,
+      "bounds_m": [
+        512,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_1_4.png.bin"
+      ],
+      "texture_sha256": "0ca196c1995ea8bb7d5d1359f9724969f41bbafac1c636459ef0debd1a95dc74",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_2_4",
+      "level": 2,
+      "x": 2,
+      "y": 4,
+      "bounds_m": [
+        1024,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_2_4.png.bin"
+      ],
+      "texture_sha256": "b73b0fd1651198522f81234b01cf30fe25174dba4b3cd4ee03cc8e64ab79d8a0",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_3_4",
+      "level": 2,
+      "x": 3,
+      "y": 4,
+      "bounds_m": [
+        1536,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_3_4.png.bin"
+      ],
+      "texture_sha256": "e81837a12e5df5b606a05983eecfc9942f97326e9f543d51995fdb22161c2428",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_4_4",
+      "level": 2,
+      "x": 4,
+      "y": 4,
+      "bounds_m": [
+        2048,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_4_4.png.bin"
+      ],
+      "texture_sha256": "fb3293b1bd83b6015c5c26b8d15311a50be142af66d4109adede68826608f77c",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_5_4",
+      "level": 2,
+      "x": 5,
+      "y": 4,
+      "bounds_m": [
+        2560,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_5_4.png.bin"
+      ],
+      "texture_sha256": "80630a1fc1967c855324a5f4601d5cfd052d84f0f29728bff896d0ad11ba696e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_6_4",
+      "level": 2,
+      "x": 6,
+      "y": 4,
+      "bounds_m": [
+        3072,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_6_4.png.bin"
+      ],
+      "texture_sha256": "0a707ab157c4c768c648858d2695b6c44f2cbcd05b5f3121d21afb5611bc1ac8",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_7_4",
+      "level": 2,
+      "x": 7,
+      "y": 4,
+      "bounds_m": [
+        3584,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_7_4.png.bin"
+      ],
+      "texture_sha256": "8e49cb5ec578ad8a0a39423410280d8e0f269295933930ada8731f254a98b0d3",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_8_4",
+      "level": 2,
+      "x": 8,
+      "y": 4,
+      "bounds_m": [
+        4096,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_8_4.png.bin"
+      ],
+      "texture_sha256": "c456ad2a4bf3e6a2401b1dba84a35d5f96fff9c1a178525ddf7318e63c85ed32",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_9_4",
+      "level": 2,
+      "x": 9,
+      "y": 4,
+      "bounds_m": [
+        4608,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_9_4.png.bin"
+      ],
+      "texture_sha256": "1b4cf833703d5b77b6b0fe46e953bcd1e52d8ab17b8c3acb8f661ba86d693721",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_10_4",
+      "level": 2,
+      "x": 10,
+      "y": 4,
+      "bounds_m": [
+        5120,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_10_4.png.bin"
+      ],
+      "texture_sha256": "acfe99605d268034bd616dbf27be8899f2a367f2f9be8483fb8650e4d41516f1",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_11_4",
+      "level": 2,
+      "x": 11,
+      "y": 4,
+      "bounds_m": [
+        5632,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_11_4.png.bin"
+      ],
+      "texture_sha256": "2960003febacb59c0b9a1151c3b32c904f0928ea6d95431c4ebd56c5d33ec5cc",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_12_4",
+      "level": 2,
+      "x": 12,
+      "y": 4,
+      "bounds_m": [
+        6144,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_12_4.png.bin"
+      ],
+      "texture_sha256": "28f88c75a92b46fe3439e104551a9148e18c389c797276030e6a6f1d135a6a9c",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_13_4",
+      "level": 2,
+      "x": 13,
+      "y": 4,
+      "bounds_m": [
+        6656,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_13_4.png.bin"
+      ],
+      "texture_sha256": "cb284a4d759d23248d6bbdbbdb9643c01c9d65102c8daf8a381647fad510c0ff",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_14_4",
+      "level": 2,
+      "x": 14,
+      "y": 4,
+      "bounds_m": [
+        7168,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_14_4.png.bin"
+      ],
+      "texture_sha256": "42be37c8180b31ef7cddfe25301986f50ae37f0d209f120a1393144a15cdda7f",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_15_4",
+      "level": 2,
+      "x": 15,
+      "y": 4,
+      "bounds_m": [
+        7680,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_15_4.png.bin"
+      ],
+      "texture_sha256": "ec99537a4d52b9973dd9500e468c837d8a892bd51f6308216743daf6c010eb73",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_16_4",
+      "level": 2,
+      "x": 16,
+      "y": 4,
+      "bounds_m": [
+        8192,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_16_4.png.bin"
+      ],
+      "texture_sha256": "35a784a16d28a2f7818e057b4cf596fc6e251a05db8e482752b5135fea0c487c",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_17_4",
+      "level": 2,
+      "x": 17,
+      "y": 4,
+      "bounds_m": [
+        8704,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_17_4.png.bin"
+      ],
+      "texture_sha256": "bb49939199f5b8eac28ebec641dfbd96cca90c91c21f3d8d0c44f4f995f575d6",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_18_4",
+      "level": 2,
+      "x": 18,
+      "y": 4,
+      "bounds_m": [
+        9216,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_18_4.png.bin"
+      ],
+      "texture_sha256": "256f0080a73bd65f0c1d1dcd7c314f43f3b109f6424aefa6a83a45c013951835",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_19_4",
+      "level": 2,
+      "x": 19,
+      "y": 4,
+      "bounds_m": [
+        9728,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_19_4.png.bin"
+      ],
+      "texture_sha256": "dcebe5fdefb92294ca38d367a3c4ac0921eceeaf7a973e3070566e2a94dcb0a3",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_20_4",
+      "level": 2,
+      "x": 20,
+      "y": 4,
+      "bounds_m": [
+        10240,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_20_4.png.bin"
+      ],
+      "texture_sha256": "7466acadbb26b40bd99a2bd40456ddc86ee5625e0c76c1e1473765d62b82ccd2",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_21_4",
+      "level": 2,
+      "x": 21,
+      "y": 4,
+      "bounds_m": [
+        10752,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_21_4.png.bin"
+      ],
+      "texture_sha256": "5bfc3d98b578b97b12f1c25cb4420b7cfc602e802cb36391d05bf24ad2a94537",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_22_4",
+      "level": 2,
+      "x": 22,
+      "y": 4,
+      "bounds_m": [
+        11264,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_22_4.png.bin"
+      ],
+      "texture_sha256": "2e499cf2762e18beba26f226d382166c01249e717a6f9d90b698e59cb9bc186d",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_23_4",
+      "level": 2,
+      "x": 23,
+      "y": 4,
+      "bounds_m": [
+        11776,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_23_4.png.bin"
+      ],
+      "texture_sha256": "985da8b5a0612fb5c6cbece3f6b6c22b0dd3f39c024069234b7bcaa21f2577e2",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_24_4",
+      "level": 2,
+      "x": 24,
+      "y": 4,
+      "bounds_m": [
+        12288,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_24_4.png.bin"
+      ],
+      "texture_sha256": "8278de95227ff122ab299e2fa0d1118365d6839dca4327ac184ee05e7caf4c6b",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_25_4",
+      "level": 2,
+      "x": 25,
+      "y": 4,
+      "bounds_m": [
+        12800,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_25_4.png.bin"
+      ],
+      "texture_sha256": "eea6fa20e84f97b22a9ebb61d8e565a838d7f5033893b235027dbb41c1ffb56e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_26_4",
+      "level": 2,
+      "x": 26,
+      "y": 4,
+      "bounds_m": [
+        13312,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_26_4.png.bin"
+      ],
+      "texture_sha256": "62865a79b98f4f2c7a74cf79fb3ec5408d55d9b8b2497116ba6163a70b84f235",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_27_4",
+      "level": 2,
+      "x": 27,
+      "y": 4,
+      "bounds_m": [
+        13824,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_27_4.png.bin"
+      ],
+      "texture_sha256": "18865ddf21b0f77f258672327ac2a5ca4278839dd9616097830c97f1ede2d799",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_28_4",
+      "level": 2,
+      "x": 28,
+      "y": 4,
+      "bounds_m": [
+        14336,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_28_4.png.bin"
+      ],
+      "texture_sha256": "7d8c71f15031788c7faecbb63df7e7a10ce8fd14940669263db5d3999815f13c",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_29_4",
+      "level": 2,
+      "x": 29,
+      "y": 4,
+      "bounds_m": [
+        14848,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_29_4.png.bin"
+      ],
+      "texture_sha256": "15cf00801ddaf360d349a37f21aaf5905a3fbe339e7336187d246342042f6fdc",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_30_4",
+      "level": 2,
+      "x": 30,
+      "y": 4,
+      "bounds_m": [
+        15360,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_30_4.png.bin"
+      ],
+      "texture_sha256": "62bb71e793b6348b873aeb652e8326fd6b2a15117bb95eba1f7c8036ee5915a6",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_31_4",
+      "level": 2,
+      "x": 31,
+      "y": 4,
+      "bounds_m": [
+        15872,
+        2048,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_31_4.png.bin"
+      ],
+      "texture_sha256": "84f656b46c4dc7522a928cce3c7660003473419f016441bb75f7f455b48135c2",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_0_5",
+      "level": 2,
+      "x": 0,
+      "y": 5,
+      "bounds_m": [
+        0,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_0_5.png.bin"
+      ],
+      "texture_sha256": "46ed2d86b162b0de2032e0eea272a86484aa32c1588c07038525953e7d63d1c7",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_1_5",
+      "level": 2,
+      "x": 1,
+      "y": 5,
+      "bounds_m": [
+        512,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_1_5.png.bin"
+      ],
+      "texture_sha256": "173d941f253d3e5949a39b4f8d5f3c0fc2ec5d88fc4d777f8db7a9bc1ef40bef",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_2_5",
+      "level": 2,
+      "x": 2,
+      "y": 5,
+      "bounds_m": [
+        1024,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_2_5.png.bin"
+      ],
+      "texture_sha256": "1a0eb3bcebcddb01201cd5f66cea8f1b3ed8091162f523632d87629388e4867e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_3_5",
+      "level": 2,
+      "x": 3,
+      "y": 5,
+      "bounds_m": [
+        1536,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_3_5.png.bin"
+      ],
+      "texture_sha256": "c527282a1f6f951643af965279457aed6afb76a06d120695dce80760b63f659f",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_4_5",
+      "level": 2,
+      "x": 4,
+      "y": 5,
+      "bounds_m": [
+        2048,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_4_5.png.bin"
+      ],
+      "texture_sha256": "7bebb86c2e12d8295ed537632426081b3b3c182bed53b37174fdb640cba8ab9a",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_5_5",
+      "level": 2,
+      "x": 5,
+      "y": 5,
+      "bounds_m": [
+        2560,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_5_5.png.bin"
+      ],
+      "texture_sha256": "c165ae0f9219496200c91769be614cdb190437dafd6d6225c95eb6b991f2d375",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_6_5",
+      "level": 2,
+      "x": 6,
+      "y": 5,
+      "bounds_m": [
+        3072,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_6_5.png.bin"
+      ],
+      "texture_sha256": "cff7e08444b03b58874971ff74bbda6f26304462e0ff87af65c82fb48bdec2bd",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_7_5",
+      "level": 2,
+      "x": 7,
+      "y": 5,
+      "bounds_m": [
+        3584,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_7_5.png.bin"
+      ],
+      "texture_sha256": "2f5dbab376998ca3d6a78f28940d3e8f40428e8a747521c3bc87008b4953b22d",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_8_5",
+      "level": 2,
+      "x": 8,
+      "y": 5,
+      "bounds_m": [
+        4096,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_8_5.png.bin"
+      ],
+      "texture_sha256": "0ebaa6661ed2b7bce9e1fa75b995df8b20eb77c6b69030a277c70749537ddf20",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_9_5",
+      "level": 2,
+      "x": 9,
+      "y": 5,
+      "bounds_m": [
+        4608,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_9_5.png.bin"
+      ],
+      "texture_sha256": "a00145caedc22093d3cd35f0c03a640778141852ba8db288dfa29b821d55eefe",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_10_5",
+      "level": 2,
+      "x": 10,
+      "y": 5,
+      "bounds_m": [
+        5120,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_10_5.png.bin"
+      ],
+      "texture_sha256": "490d05df0794ee63a795cec4685d81fe1fadc1e0e2ebdb1ced88a1356e352d3d",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_11_5",
+      "level": 2,
+      "x": 11,
+      "y": 5,
+      "bounds_m": [
+        5632,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_11_5.png.bin"
+      ],
+      "texture_sha256": "acb085b026160c207b8eadcd3e19cc055c2450aaf7f1346273a6885264c3592f",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_12_5",
+      "level": 2,
+      "x": 12,
+      "y": 5,
+      "bounds_m": [
+        6144,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_12_5.png.bin"
+      ],
+      "texture_sha256": "0fe24cb41bad933ba120feb6805911e934c1f67807a2a9509ecd5b4e157f00b4",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_13_5",
+      "level": 2,
+      "x": 13,
+      "y": 5,
+      "bounds_m": [
+        6656,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_13_5.png.bin"
+      ],
+      "texture_sha256": "7da848a8e4d35cfa675034d9f97a5136cb4b8fa42c800b17612bc119249ebb26",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_14_5",
+      "level": 2,
+      "x": 14,
+      "y": 5,
+      "bounds_m": [
+        7168,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_14_5.png.bin"
+      ],
+      "texture_sha256": "4e7a75dcb08d1f16d82674f2bc9e698008ea32dbb5e583f066f35ec201dba84f",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_15_5",
+      "level": 2,
+      "x": 15,
+      "y": 5,
+      "bounds_m": [
+        7680,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_15_5.png.bin"
+      ],
+      "texture_sha256": "ede76c325e8a930bd1c4ff3789d99527b48f58dc2e78d6e2244a7390bf69a8c3",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_16_5",
+      "level": 2,
+      "x": 16,
+      "y": 5,
+      "bounds_m": [
+        8192,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_16_5.png.bin"
+      ],
+      "texture_sha256": "9bf13cb0794191aad1cc0e158277385f00ca49a771c58bbe8f97bb7cede0929e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_17_5",
+      "level": 2,
+      "x": 17,
+      "y": 5,
+      "bounds_m": [
+        8704,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_17_5.png.bin"
+      ],
+      "texture_sha256": "bd8d515a0dfecebd50c0bc177b385c728c9989337046f31685a42593288d46d5",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_18_5",
+      "level": 2,
+      "x": 18,
+      "y": 5,
+      "bounds_m": [
+        9216,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_18_5.png.bin"
+      ],
+      "texture_sha256": "e32d5fbdb14da4462ce9633c8b639ae4f37c9514880fd124cfcb64d4d3470f90",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_19_5",
+      "level": 2,
+      "x": 19,
+      "y": 5,
+      "bounds_m": [
+        9728,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_19_5.png.bin"
+      ],
+      "texture_sha256": "0f86914dd488a28c4362e688bf053d6ae5b480b82ab502612a9d36a403b5574c",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_20_5",
+      "level": 2,
+      "x": 20,
+      "y": 5,
+      "bounds_m": [
+        10240,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_20_5.png.bin"
+      ],
+      "texture_sha256": "4640a69a81508054b82da8a6b376d9b29a0ae14372db86621b5638d3e6d64488",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_21_5",
+      "level": 2,
+      "x": 21,
+      "y": 5,
+      "bounds_m": [
+        10752,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_21_5.png.bin"
+      ],
+      "texture_sha256": "7d970bc1ea9f1a3d0bc057b40881baaa8c7d828dc8d11f5aedd559783fb47953",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_22_5",
+      "level": 2,
+      "x": 22,
+      "y": 5,
+      "bounds_m": [
+        11264,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_22_5.png.bin"
+      ],
+      "texture_sha256": "8e569f53efbf399b707bc6c8b8be35b584f6554c4e3cc995773c77890484baed",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_23_5",
+      "level": 2,
+      "x": 23,
+      "y": 5,
+      "bounds_m": [
+        11776,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_23_5.png.bin"
+      ],
+      "texture_sha256": "6177ac601b40db4c6952f2f63c36cd1ef0b9d8afa2551af372c8a4fdadeede11",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_24_5",
+      "level": 2,
+      "x": 24,
+      "y": 5,
+      "bounds_m": [
+        12288,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_24_5.png.bin"
+      ],
+      "texture_sha256": "71eb9d647fd361a564edb996aff911f495fe11e035e73a39530b868393bd2a8e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_25_5",
+      "level": 2,
+      "x": 25,
+      "y": 5,
+      "bounds_m": [
+        12800,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_25_5.png.bin"
+      ],
+      "texture_sha256": "fb0dcc527ec296717934831f31ba949f4c5a228e8dd8ccf8966df4ae202f1f79",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_26_5",
+      "level": 2,
+      "x": 26,
+      "y": 5,
+      "bounds_m": [
+        13312,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_26_5.png.bin"
+      ],
+      "texture_sha256": "1d7921e6a3609ce01183ac6ccf2643d646becec256f650694c289e4c542f1186",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_27_5",
+      "level": 2,
+      "x": 27,
+      "y": 5,
+      "bounds_m": [
+        13824,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_27_5.png.bin"
+      ],
+      "texture_sha256": "af237d27722794912380a56f9e97cfa442c3795f307c05bf16236239309805a8",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_28_5",
+      "level": 2,
+      "x": 28,
+      "y": 5,
+      "bounds_m": [
+        14336,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_28_5.png.bin"
+      ],
+      "texture_sha256": "d406c89ca3c1f4e46663da7fe74c8118088a41caed782caae20dca65b8c77731",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_29_5",
+      "level": 2,
+      "x": 29,
+      "y": 5,
+      "bounds_m": [
+        14848,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_29_5.png.bin"
+      ],
+      "texture_sha256": "82893abdbbc89858c8f956f95d025b13e14182a5b0ff74f509a62712a0cad0b7",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_30_5",
+      "level": 2,
+      "x": 30,
+      "y": 5,
+      "bounds_m": [
+        15360,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_30_5.png.bin"
+      ],
+      "texture_sha256": "8dbd04bcc5bafc28071b9653d4c0782251728dddbd981bedbb1a81e1419d95e5",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_31_5",
+      "level": 2,
+      "x": 31,
+      "y": 5,
+      "bounds_m": [
+        15872,
+        2560,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_31_5.png.bin"
+      ],
+      "texture_sha256": "61f66e57618c862995a968d39232e13ba3f0982194b20a21bf9f4cd273b43bd4",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_0_6",
+      "level": 2,
+      "x": 0,
+      "y": 6,
+      "bounds_m": [
+        0,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_0_6.png.bin"
+      ],
+      "texture_sha256": "7a4b2d7fd77a6dfbe41f978d8e5e49b9bcc73660eda9381127f8635d9ef247bf",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_1_6",
+      "level": 2,
+      "x": 1,
+      "y": 6,
+      "bounds_m": [
+        512,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_1_6.png.bin"
+      ],
+      "texture_sha256": "81d7ec8fc692b90031b602d8a0e32dfbecc6097099382968f2cd48756d7d8849",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_2_6",
+      "level": 2,
+      "x": 2,
+      "y": 6,
+      "bounds_m": [
+        1024,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_2_6.png.bin"
+      ],
+      "texture_sha256": "ff66a90ef4d55e31d12dc4fc1a44bc99766ea12c457937b00b42c9c20b71d25a",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_3_6",
+      "level": 2,
+      "x": 3,
+      "y": 6,
+      "bounds_m": [
+        1536,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_3_6.png.bin"
+      ],
+      "texture_sha256": "49067081daf283bf8ac917c21469750b93379cffeb89f50ef5c093d93cce4b94",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_4_6",
+      "level": 2,
+      "x": 4,
+      "y": 6,
+      "bounds_m": [
+        2048,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_4_6.png.bin"
+      ],
+      "texture_sha256": "abed9a384efaaa74d4be72d548c8ff28e10b6e14c6979156f84e738bb928ce57",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_5_6",
+      "level": 2,
+      "x": 5,
+      "y": 6,
+      "bounds_m": [
+        2560,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_5_6.png.bin"
+      ],
+      "texture_sha256": "af487da4c3206121db1c284151c97f1fbfc329d7f45d8655ccd99a518cf18488",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_6_6",
+      "level": 2,
+      "x": 6,
+      "y": 6,
+      "bounds_m": [
+        3072,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_6_6.png.bin"
+      ],
+      "texture_sha256": "085551fa48d27475933a4831c50cd63a9b71806eb2b0e4d7cbc2a19ff097ee1c",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_7_6",
+      "level": 2,
+      "x": 7,
+      "y": 6,
+      "bounds_m": [
+        3584,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_7_6.png.bin"
+      ],
+      "texture_sha256": "d03ee287295c9f8751a8318c294c85c3f160dbcd716a49f588bce0757f7c7539",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_8_6",
+      "level": 2,
+      "x": 8,
+      "y": 6,
+      "bounds_m": [
+        4096,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_8_6.png.bin"
+      ],
+      "texture_sha256": "3901bfce71a76a8f513dcc5133a50382057c83d7cd988c2903b440739e731613",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_9_6",
+      "level": 2,
+      "x": 9,
+      "y": 6,
+      "bounds_m": [
+        4608,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_9_6.png.bin"
+      ],
+      "texture_sha256": "d699011ec314da2be4e919cddc4c7e3918111587f64806f1f73ba4a6e5cb5b00",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_10_6",
+      "level": 2,
+      "x": 10,
+      "y": 6,
+      "bounds_m": [
+        5120,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_10_6.png.bin"
+      ],
+      "texture_sha256": "45c610b8a0673b91139af558131e7b2a292ad970e972405d2323f3de3d522fd4",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_11_6",
+      "level": 2,
+      "x": 11,
+      "y": 6,
+      "bounds_m": [
+        5632,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_11_6.png.bin"
+      ],
+      "texture_sha256": "91f9ba407caf9e747452a64d18806062be4331f7de8565dc79ecdb3a0bbe6a93",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_12_6",
+      "level": 2,
+      "x": 12,
+      "y": 6,
+      "bounds_m": [
+        6144,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_12_6.png.bin"
+      ],
+      "texture_sha256": "eb7163c413d390b53ac60ea66de2ffd584f75982a52fd1a72e0b77125fca465d",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_13_6",
+      "level": 2,
+      "x": 13,
+      "y": 6,
+      "bounds_m": [
+        6656,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_13_6.png.bin"
+      ],
+      "texture_sha256": "bd251d8c90a64ae2e648483a15cba5a824f6d0ae89b25bb741e0d10da469a21b",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_14_6",
+      "level": 2,
+      "x": 14,
+      "y": 6,
+      "bounds_m": [
+        7168,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_14_6.png.bin"
+      ],
+      "texture_sha256": "e9e9b46576bfdf13cd3477b3198df0a470e892de0eafc6559b7e12796d147ede",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_15_6",
+      "level": 2,
+      "x": 15,
+      "y": 6,
+      "bounds_m": [
+        7680,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_15_6.png.bin"
+      ],
+      "texture_sha256": "baa7b0814f4803242101518919070dbb4c455dbb11eaa59dfb5fbf41da768598",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_16_6",
+      "level": 2,
+      "x": 16,
+      "y": 6,
+      "bounds_m": [
+        8192,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_16_6.png.bin"
+      ],
+      "texture_sha256": "68e0b28fc1bd20e6bffb179ead06305318999365b8f002b2c926ce4623c08528",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_17_6",
+      "level": 2,
+      "x": 17,
+      "y": 6,
+      "bounds_m": [
+        8704,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_17_6.png.bin"
+      ],
+      "texture_sha256": "a5703763a64a263f28a2323fee76cdf2f10a20b6cfec0a3590f3c8fefd1d30bb",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_18_6",
+      "level": 2,
+      "x": 18,
+      "y": 6,
+      "bounds_m": [
+        9216,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_18_6.png.bin"
+      ],
+      "texture_sha256": "687c764f3015c47e683f31fea6e0c4fbce6e8027e555b6c11008ebb251b594f2",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_19_6",
+      "level": 2,
+      "x": 19,
+      "y": 6,
+      "bounds_m": [
+        9728,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_19_6.png.bin"
+      ],
+      "texture_sha256": "a50f74d71dd3b851c3a732752b276ce7fcf01a1474f565612f0cff865d0a7e97",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_20_6",
+      "level": 2,
+      "x": 20,
+      "y": 6,
+      "bounds_m": [
+        10240,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_20_6.png.bin"
+      ],
+      "texture_sha256": "99a4658a80190d45fdf425a856eddba8b9df1f005a4f03029e811f01b483321b",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_21_6",
+      "level": 2,
+      "x": 21,
+      "y": 6,
+      "bounds_m": [
+        10752,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_21_6.png.bin"
+      ],
+      "texture_sha256": "e783f828a173f06db916626ca8d7c67f63574ba297e068333b54b0f448e01e55",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_22_6",
+      "level": 2,
+      "x": 22,
+      "y": 6,
+      "bounds_m": [
+        11264,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_22_6.png.bin"
+      ],
+      "texture_sha256": "8b10ad00918af057a2ae5f36bab109448320759817358c350b3c26eb2c985061",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_23_6",
+      "level": 2,
+      "x": 23,
+      "y": 6,
+      "bounds_m": [
+        11776,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_23_6.png.bin"
+      ],
+      "texture_sha256": "705efa4063c4d5e94a7a7e63e897c71e5416e3f022831cb80d7cc6c7714a56eb",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_24_6",
+      "level": 2,
+      "x": 24,
+      "y": 6,
+      "bounds_m": [
+        12288,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_24_6.png.bin"
+      ],
+      "texture_sha256": "f1a2bfb1a4cb4a8ed2b81b5a81eb0a1bddd1c54bc667c5642c7a4a2d99128b5e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_25_6",
+      "level": 2,
+      "x": 25,
+      "y": 6,
+      "bounds_m": [
+        12800,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_25_6.png.bin"
+      ],
+      "texture_sha256": "96e7a4c8cdff0fab02a5a5ef2e92421e5e4121fdaab310cda5ed08bd5b7336d5",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_26_6",
+      "level": 2,
+      "x": 26,
+      "y": 6,
+      "bounds_m": [
+        13312,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_26_6.png.bin"
+      ],
+      "texture_sha256": "2a1eac68ed7c3f8b61714f8756d57693096f252e12489c67e2ee12ac201cf1a6",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_27_6",
+      "level": 2,
+      "x": 27,
+      "y": 6,
+      "bounds_m": [
+        13824,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_27_6.png.bin"
+      ],
+      "texture_sha256": "68dd848dbd78f11a88e6dc9e4180ed834078bcd0dc000dda4ae6789a6a322acc",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_28_6",
+      "level": 2,
+      "x": 28,
+      "y": 6,
+      "bounds_m": [
+        14336,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_28_6.png.bin"
+      ],
+      "texture_sha256": "b7199788236b0f65a4cee043aea061885a53d973a960bc2ba988ee4f0f748d11",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_29_6",
+      "level": 2,
+      "x": 29,
+      "y": 6,
+      "bounds_m": [
+        14848,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_29_6.png.bin"
+      ],
+      "texture_sha256": "bc9fbb19394f53a992f31840a122006295bb97d7eca06c6a2e276593e11c3401",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_30_6",
+      "level": 2,
+      "x": 30,
+      "y": 6,
+      "bounds_m": [
+        15360,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_30_6.png.bin"
+      ],
+      "texture_sha256": "272aaf15a1a04056608c8ff865cc91d398a1b01680ed58728b3bc7fd2908b984",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_31_6",
+      "level": 2,
+      "x": 31,
+      "y": 6,
+      "bounds_m": [
+        15872,
+        3072,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_31_6.png.bin"
+      ],
+      "texture_sha256": "fed2803c4873e06ddda580262212fe06e1139c59a96a0df95273120e76bf48cb",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_0_7",
+      "level": 2,
+      "x": 0,
+      "y": 7,
+      "bounds_m": [
+        0,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_0_7.png.bin"
+      ],
+      "texture_sha256": "8a15a0e8345fa00d61f06b825ab0571445a38b1fc48a3c63b837f6b7fb744bd2",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_1_7",
+      "level": 2,
+      "x": 1,
+      "y": 7,
+      "bounds_m": [
+        512,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_1_7.png.bin"
+      ],
+      "texture_sha256": "69217a0673500c518e7f51b958e8714b283d29eacaebb2df5359ba5f00de330c",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_2_7",
+      "level": 2,
+      "x": 2,
+      "y": 7,
+      "bounds_m": [
+        1024,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_2_7.png.bin"
+      ],
+      "texture_sha256": "dc24ad8fd5dbf498cf9082317455c7daa90dcbf0ba6c81e23f4c493ad320045e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_3_7",
+      "level": 2,
+      "x": 3,
+      "y": 7,
+      "bounds_m": [
+        1536,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_3_7.png.bin"
+      ],
+      "texture_sha256": "3742afa81183397429a4d7180f6365b343a57a42c9680c3e32134fa5e5b908d9",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_4_7",
+      "level": 2,
+      "x": 4,
+      "y": 7,
+      "bounds_m": [
+        2048,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_4_7.png.bin"
+      ],
+      "texture_sha256": "04b1690b6b20173db93545fed14094ca699cd582e9b600c9ae6c70bb496aad10",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_5_7",
+      "level": 2,
+      "x": 5,
+      "y": 7,
+      "bounds_m": [
+        2560,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_5_7.png.bin"
+      ],
+      "texture_sha256": "57c8b554d7db28ac49c5a1cc25a6078b8c7c403f6c475b9524a1485a9b1684c7",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_6_7",
+      "level": 2,
+      "x": 6,
+      "y": 7,
+      "bounds_m": [
+        3072,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_6_7.png.bin"
+      ],
+      "texture_sha256": "c615337e7dc74c38e2e2badab3e1469489f0daecd2824d2d17efcccaa96074d9",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_7_7",
+      "level": 2,
+      "x": 7,
+      "y": 7,
+      "bounds_m": [
+        3584,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_0_0",
+      "texture_files": [
+        "terrain/fine_7_7.png.bin"
+      ],
+      "texture_sha256": "8c4b63dee3cdd1e5e8ef68181e1a7f46f071d776be530caab9e3926705bff78e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_8_7",
+      "level": 2,
+      "x": 8,
+      "y": 7,
+      "bounds_m": [
+        4096,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_8_7.png.bin"
+      ],
+      "texture_sha256": "fecf09ebe86cf4c468701a91ef2d921ee7a4c877dd98f384c627968442844a60",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_9_7",
+      "level": 2,
+      "x": 9,
+      "y": 7,
+      "bounds_m": [
+        4608,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_9_7.png.bin"
+      ],
+      "texture_sha256": "025c8d41c3921bfa2a14e87f93b66e0a55b2e2ccc1930593bf9cb4bca16c9fcf",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_10_7",
+      "level": 2,
+      "x": 10,
+      "y": 7,
+      "bounds_m": [
+        5120,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_10_7.png.bin"
+      ],
+      "texture_sha256": "78bcb1ad0968e53ed62ad9ed8e8374a14247be7b0c5e8334b8ba4cc7b72d687e",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_11_7",
+      "level": 2,
+      "x": 11,
+      "y": 7,
+      "bounds_m": [
+        5632,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_11_7.png.bin"
+      ],
+      "texture_sha256": "76cc80a86fe7dcebe0deff8969034587eba48a762a947f682b500a9c52ba15ad",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_12_7",
+      "level": 2,
+      "x": 12,
+      "y": 7,
+      "bounds_m": [
+        6144,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_12_7.png.bin"
+      ],
+      "texture_sha256": "8c0c8c4ae22dcc5c5765667a6f62b4d061d20492f42a10528268be753d62de21",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_13_7",
+      "level": 2,
+      "x": 13,
+      "y": 7,
+      "bounds_m": [
+        6656,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_13_7.png.bin"
+      ],
+      "texture_sha256": "6cb121a3c842845560ed39436e8a042c2c4d7b42095bd0eacc8712008c887094",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_14_7",
+      "level": 2,
+      "x": 14,
+      "y": 7,
+      "bounds_m": [
+        7168,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_14_7.png.bin"
+      ],
+      "texture_sha256": "b8e7435427dec8367539b3348b882700ac226e32999927eb57e2204064ef95ee",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_15_7",
+      "level": 2,
+      "x": 15,
+      "y": 7,
+      "bounds_m": [
+        7680,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_1_0",
+      "texture_files": [
+        "terrain/fine_15_7.png.bin"
+      ],
+      "texture_sha256": "f95eb49ee6432015261d8b44b45f301e5bd583a5832d940595006ccc510b350c",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_16_7",
+      "level": 2,
+      "x": 16,
+      "y": 7,
+      "bounds_m": [
+        8192,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_16_7.png.bin"
+      ],
+      "texture_sha256": "df3a990650197a1599bba6f5c1301105bfe56b122e9e76945e2be651f3742da1",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_17_7",
+      "level": 2,
+      "x": 17,
+      "y": 7,
+      "bounds_m": [
+        8704,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_17_7.png.bin"
+      ],
+      "texture_sha256": "7d94d3a29b883cb3340c52d3e473ef84f0092f91e1052820a1452e34f057f0b4",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_18_7",
+      "level": 2,
+      "x": 18,
+      "y": 7,
+      "bounds_m": [
+        9216,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_18_7.png.bin"
+      ],
+      "texture_sha256": "db8e3fad3048b89342886e8b0f523ae437e98b678bdaf3778bf799ce5269c08b",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_19_7",
+      "level": 2,
+      "x": 19,
+      "y": 7,
+      "bounds_m": [
+        9728,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_19_7.png.bin"
+      ],
+      "texture_sha256": "36d93964be1861da031fbc5b18237717a31140b49aea2ad44a00b33f9c54bb69",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_20_7",
+      "level": 2,
+      "x": 20,
+      "y": 7,
+      "bounds_m": [
+        10240,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_20_7.png.bin"
+      ],
+      "texture_sha256": "d3600b3a2f0eed0f50a9f088943bc92b48353451eae498b4a196e070ffc06a92",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_21_7",
+      "level": 2,
+      "x": 21,
+      "y": 7,
+      "bounds_m": [
+        10752,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_21_7.png.bin"
+      ],
+      "texture_sha256": "bdb4231c5db46efdf64493a9073f7ee758489423965dce9afe9d5ac7d2bbe83c",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_22_7",
+      "level": 2,
+      "x": 22,
+      "y": 7,
+      "bounds_m": [
+        11264,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_22_7.png.bin"
+      ],
+      "texture_sha256": "58c4133d87eaa0097bb55ce1165f0d95aba2cec335a6759c98f3ecb094c285a7",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_23_7",
+      "level": 2,
+      "x": 23,
+      "y": 7,
+      "bounds_m": [
+        11776,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_2_0",
+      "texture_files": [
+        "terrain/fine_23_7.png.bin"
+      ],
+      "texture_sha256": "31026172f29b6e4b3ad2825e67ad5f47fc44d599879d68b3069423b9c6ee9159",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_24_7",
+      "level": 2,
+      "x": 24,
+      "y": 7,
+      "bounds_m": [
+        12288,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_24_7.png.bin"
+      ],
+      "texture_sha256": "de77a5fa47c8a06cc7633127f570480994feefba7c807eb45c18b98d8093fe80",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_25_7",
+      "level": 2,
+      "x": 25,
+      "y": 7,
+      "bounds_m": [
+        12800,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_25_7.png.bin"
+      ],
+      "texture_sha256": "175fa67c6ce5d66d852d5d43a35a7f3d3c5890f886f6b96399fcbf984b6ed764",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_26_7",
+      "level": 2,
+      "x": 26,
+      "y": 7,
+      "bounds_m": [
+        13312,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_26_7.png.bin"
+      ],
+      "texture_sha256": "8932f23a23236efdf96540567f2168b1cb3a97afef45541799e12aed81698759",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_27_7",
+      "level": 2,
+      "x": 27,
+      "y": 7,
+      "bounds_m": [
+        13824,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_27_7.png.bin"
+      ],
+      "texture_sha256": "b51ca1bd599d3c1804dc02704b86017b0f7e397bcc5f213eed2882cc3f4d4f98",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_28_7",
+      "level": 2,
+      "x": 28,
+      "y": 7,
+      "bounds_m": [
+        14336,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_28_7.png.bin"
+      ],
+      "texture_sha256": "64879963316eb3569c6be65ce36e275d8064fef4fab613a74f3f8e6e4894f0d6",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_29_7",
+      "level": 2,
+      "x": 29,
+      "y": 7,
+      "bounds_m": [
+        14848,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_29_7.png.bin"
+      ],
+      "texture_sha256": "73092e460b4edab59c62f84812a1ffe09c9bb1a6f9d242be7ef1585b6de361f2",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_30_7",
+      "level": 2,
+      "x": 30,
+      "y": 7,
+      "bounds_m": [
+        15360,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_30_7.png.bin"
+      ],
+      "texture_sha256": "59251ed4dc17bfdd5eccc51cf2653c1a1a97fa2616aea51631c6979330c8276d",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "fine_31_7",
+      "level": 2,
+      "x": 31,
+      "y": 7,
+      "bounds_m": [
+        15872,
+        3584,
+        512,
+        512
+      ],
+      "parent_id": "parent_3_0",
+      "texture_files": [
+        "terrain/fine_31_7.png.bin"
+      ],
+      "texture_sha256": "5971d86847522022bf642da9bb3d0ac063df289e376708ebff94f74bd83ab6a9",
+      "core_px": [
+        256,
+        256
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_stream",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    }
+  ],
+  "art_bundle": "assets/art_bundle.json",
+  "object_shards": [
+    "instances/objects.json"
+  ],
+  "sites": "settlements/sites.json",
+  "provenance": "receipts/provenance.json"
+}

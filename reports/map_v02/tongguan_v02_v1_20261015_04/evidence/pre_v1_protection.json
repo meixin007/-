@@ -1,0 +1,12 @@
+{
+  "before_files": 1303,
+  "changed": [
+    "verify_repository.py"
+  ],
+  "missing": [],
+  "allowed_changes": [
+    "verify_repository.py"
+  ],
+  "passed": true,
+  "reason": "only repository verifier gains V1 receipt validation; all pre-V1 art, runtime, S0 receipts and prior reports retain their bytes"
+}

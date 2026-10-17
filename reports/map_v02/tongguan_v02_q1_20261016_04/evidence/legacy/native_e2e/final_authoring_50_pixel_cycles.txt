@@ -1,0 +1,30 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.92 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060
+
+R5_AUTHORING: {"checks":162,"failures":["locked tree pixels fixed cycle 2","locked tree pixels fixed cycle 3","locked tree pixels fixed cycle 5","locked tree pixels fixed cycle 9","locked tree pixels fixed cycle 10","locked tree pixels fixed cycle 11","locked tree pixels fixed cycle 13","locked tree pixels fixed cycle 15","locked tree pixels fixed cycle 19","locked tree pixels fixed cycle 21","locked tree pixels fixed cycle 22","locked tree pixels fixed cycle 25","locked tree pixels fixed cycle 27","locked tree pixels fixed cycle 29","locked tree pixels fixed cycle 30","locked tree pixels fixed cycle 31","locked tree pixels fixed cycle 34","locked tree pixels fixed cycle 35","locked tree pixels fixed cycle 38","locked tree pixels fixed cycle 42","locked tree pixels fixed cycle 43","locked tree pixels fixed cycle 44","locked tree pixels fixed cycle 45","locked tree pixels fixed cycle 46","locked tree pixels fixed cycle 47","locked tree pixels fixed cycle 49"]}
+FAIL: locked tree pixels fixed cycle 2
+FAIL: locked tree pixels fixed cycle 3
+FAIL: locked tree pixels fixed cycle 5
+FAIL: locked tree pixels fixed cycle 9
+FAIL: locked tree pixels fixed cycle 10
+FAIL: locked tree pixels fixed cycle 11
+FAIL: locked tree pixels fixed cycle 13
+FAIL: locked tree pixels fixed cycle 15
+FAIL: locked tree pixels fixed cycle 19
+FAIL: locked tree pixels fixed cycle 21
+FAIL: locked tree pixels fixed cycle 22
+FAIL: locked tree pixels fixed cycle 25
+FAIL: locked tree pixels fixed cycle 27
+FAIL: locked tree pixels fixed cycle 29
+FAIL: locked tree pixels fixed cycle 30
+FAIL: locked tree pixels fixed cycle 31
+FAIL: locked tree pixels fixed cycle 34
+FAIL: locked tree pixels fixed cycle 35
+FAIL: locked tree pixels fixed cycle 38
+FAIL: locked tree pixels fixed cycle 42
+FAIL: locked tree pixels fixed cycle 43
+FAIL: locked tree pixels fixed cycle 44
+FAIL: locked tree pixels fixed cycle 45
+FAIL: locked tree pixels fixed cycle 46
+FAIL: locked tree pixels fixed cycle 47
+FAIL: locked tree pixels fixed cycle 49

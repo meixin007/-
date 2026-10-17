@@ -1,0 +1,14 @@
+{
+  "build_id": "tongguan_v02_v2_20261016_02",
+  "status": "pending",
+  "author": "awaiting_user",
+  "cameras": [
+    "composition",
+    "courtyard",
+    "wall",
+    "shore"
+  ],
+  "asset_manifest_sha256": "d4616287144fba54183834fe2efde14ea9de0e195c40188c5b77c689e3eb2469",
+  "source_manifest_sha256": "7113aab2232b2c8a85bd47ad9ba904908dd8830a4c9b5c1250b69c3e76ab5753",
+  "opinion": null
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "archive": "H:\\tongguan_reviewfix_20261015\\reports\\map_v02\\tongguan_v02_q1_20261016_04\\evidence\\raw_duplicate_results.zip",
+  "sha256": "70446f72a28e2116e80387fceb8a9fc822d02689040b03f6e7402dc71e383ef0",
+  "bytes": 12868308,
+  "crc_passed": true,
+  "members": [
+    {
+      "path": "evidence/development/tongguan_v02_q1_20261016_02/fixtures_01/result.json",
+      "sha256": "6efdd5a9aaed6edc2dd84f06ddf635175bc779828ba4ea5d92d42294d8f59c7f",
+      "bytes": 119357775
+    },
+    {
+      "path": "functional/final_fixtures/result.json",
+      "sha256": "d445ae5cfbc83eff0167408f24d0e5d17c69dd3a1b6b2ae826c4bf262b319026",
+      "bytes": 119579139
+    }
+  ],
+  "reason": "Two duplicate envelopes embed the same large engine event log; compressed losslessly to respect the Git source single-file limit. No event or frame discarded."
+}

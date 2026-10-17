@@ -1,0 +1,87 @@
+{
+  "stage": "E3",
+  "build_id": "tongguan_v02_e3_20261016_04",
+  "e2_manifest_sha256": "4c0fe1a1ea356317a8dac851a0959c372767afbe07b5f03a40db059ed11d4ea8",
+  "files": [
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e1/package_loader.gd",
+      "sha256": "dc5c7dc7479c5b4838cb7d9920886be0fae49a8e158e9e2460ab54081b907568",
+      "bytes": 15264
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e2/source_adapter.gd",
+      "sha256": "4b698fd7a7616040c6cc45bbaa45258fe2e3868451dc63e3f7d41531f8cce70f",
+      "bytes": 1249
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e2/spatial_index.gd",
+      "sha256": "ecc694b86213e2b06f6cda3f26808662c4555aad00d0af56304ed52b8dacca52",
+      "bytes": 11527
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e2/submission_audit.gd",
+      "sha256": "9f3c2eb173f131d647c2ded116aa4c42f29cd5ff01a3e776672d60bac8778c97",
+      "bytes": 1593
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e2/visibility_planner.gd",
+      "sha256": "93b8bbaf6e88a22b7d84cd250a51936d78ade0952573c01d99fc6f82b54df362",
+      "bytes": 2866
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e3/app.gd",
+      "sha256": "7c9c0af58c3adc59a446c67e16d4bcf8b81b4a1b094bb1d355c7a4570111f30b",
+      "bytes": 5348
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e3/boot.gd",
+      "sha256": "7319c7d4ae51998961a556f3bd2357a44755aca556c1521187811dbbe2ca11f8",
+      "bytes": 1151
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e3/contract_checks.gd",
+      "sha256": "748262f85db6ca7a1315b3d33e322a751eef21f01c099ba40df97a3503ea8360",
+      "bytes": 6886
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e3/coverage_planner.gd",
+      "sha256": "94faeda4b944cf00ce3a98ceca2e5f7147428f86c5ed141707ccf2f541602386",
+      "bytes": 3333
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e3/main.tscn",
+      "sha256": "785d03d412137c1ce914f022bba0dd96f26b8fd028c2351360c81a39b595e686",
+      "bytes": 154
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e3/map_renderer.gd",
+      "sha256": "ee9403b8d981c8627abe998d24120bf5f1cc251d59dff5ec91d088e966ec3701",
+      "bytes": 7172
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e3/map_service.gd",
+      "sha256": "bac9fa68a7df65b0052d6739596ff740a3b25d235c177ad2064bad019fc06f4a",
+      "bytes": 2497
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e3/residency_manager.gd",
+      "sha256": "a6cda1939d178e40c43d134a2f2a8f1b24fb451a1ec30754c89918ff1f2e95c5",
+      "bytes": 13383
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e3/runtime_checks.gd",
+      "sha256": "ab8b82f1bde31486a4dfb09c862f4383f2807e6ad9a3c16b0bb16831a4dae96f",
+      "bytes": 16342
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e3/threaded_backend.gd",
+      "sha256": "d1c406ed5f423e5f12f8581ec541756f57f8022d46de39d98d4345f81b1c32a9",
+      "bytes": 1926
+    },
+    {
+      "path": "tools/map_v02/e3_build.py",
+      "sha256": "4c43b84e24f615107ef2af03f5dcc5a9c0f95fc976e61fea7517350381c8b607",
+      "bytes": 7711
+    }
+  ]
+}

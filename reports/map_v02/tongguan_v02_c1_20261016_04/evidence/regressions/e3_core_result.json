@@ -1,0 +1,1402 @@
+{
+	"checks": 30,
+	"failures": [],
+	"observations": [
+		{
+			"accounting": {
+				"consumers": 0,
+				"decoded_reserved": 0,
+				"external_alive_bytes": 0,
+				"inflight": 0,
+				"ready": 0,
+				"reserved": 0,
+				"resident": 0,
+				"resources": 0,
+				"total": 0
+			},
+			"events": [
+				{
+					"epoch": 1,
+					"event": "package",
+					"frame": 0,
+					"key": "A",
+					"usec": 3557648,
+					"world_id": "test"
+				},
+				{
+					"attach_usec": 2000,
+					"concurrency": 2,
+					"decoded": 512,
+					"epoch": 1,
+					"event": "budget_changed",
+					"frame": 0,
+					"grace_usec": 0,
+					"hard": 1024,
+					"id": "normal_256_320",
+					"key": "",
+					"soft": 768,
+					"usec": 3557675
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 0,
+					"key": "0",
+					"state": "QUEUED",
+					"usec": 3557707
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 0,
+					"key": "1",
+					"state": "QUEUED",
+					"usec": 3557710
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 0,
+					"key": "alias",
+					"state": "QUEUED",
+					"usec": 3557722
+				},
+				{
+					"bytes": 256,
+					"consumers": [
+						"0"
+					],
+					"epoch": 1,
+					"event": "request",
+					"frame": 1,
+					"key": "res://fake/t0.png|0",
+					"request_epoch": 1,
+					"usec": 3557765
+				},
+				{
+					"bytes": 256,
+					"consumers": [
+						"1",
+						"alias"
+					],
+					"epoch": 1,
+					"event": "request",
+					"frame": 1,
+					"key": "res://fake/t1.png|1",
+					"request_epoch": 1,
+					"usec": 3557783
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 1,
+					"key": "0",
+					"state": "LOADING",
+					"usec": 3557792
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 1,
+					"key": "1",
+					"state": "LOADING",
+					"usec": 3557794
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 1,
+					"key": "alias",
+					"state": "LOADING",
+					"usec": 3557804
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 2,
+					"key": "res://fake/t0.png|0",
+					"state": "READY_CPU",
+					"usec": 3557838
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 2,
+					"key": "res://fake/t1.png|1",
+					"state": "READY_CPU",
+					"usec": 3557846
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 2,
+					"key": "res://fake/t0.png|0",
+					"state": "ATTACHING",
+					"usec": 3557856
+				},
+				{
+					"bytes": 256,
+					"consumer_epoch": 1,
+					"consumers": [
+						"0"
+					],
+					"epoch": 1,
+					"event": "attach",
+					"frame": 2,
+					"key": "res://fake/t0.png|0",
+					"request_epoch": 1,
+					"usec": 3557863
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 2,
+					"key": "res://fake/t1.png|1",
+					"state": "ATTACHING",
+					"usec": 3557869
+				},
+				{
+					"bytes": 256,
+					"consumer_epoch": 1,
+					"consumers": [
+						"1",
+						"alias"
+					],
+					"epoch": 1,
+					"event": "attach",
+					"frame": 2,
+					"key": "res://fake/t1.png|1",
+					"request_epoch": 1,
+					"usec": 3557873
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 2,
+					"key": "0",
+					"state": "RESIDENT",
+					"usec": 3557895
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 2,
+					"key": "1",
+					"state": "RESIDENT",
+					"usec": 3557898
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 2,
+					"key": "alias",
+					"state": "RESIDENT",
+					"usec": 3557907
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 3,
+					"key": "res://fake/t0.png|0",
+					"state": "EVICT_PENDING",
+					"usec": 3557956
+				},
+				{
+					"bytes": 256,
+					"epoch": 1,
+					"event": "last_reference_drop",
+					"frame": 3,
+					"key": "res://fake/t0.png|0",
+					"reason": "expired",
+					"usec": 3557972
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 3,
+					"key": "res://fake/t0.png|0",
+					"state": "UNLOADED",
+					"usec": 3557974
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 3,
+					"key": "0",
+					"state": "UNLOADED",
+					"usec": 3557992
+				},
+				{
+					"bytes": 256,
+					"drop_frame": 3,
+					"epoch": 1,
+					"event": "released_observed",
+					"frame": 4,
+					"instance_id": -9223371862539499997,
+					"key": "res://fake/t0.png|0",
+					"usec": 3558034
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 4,
+					"key": "res://fake/t1.png|1",
+					"state": "EVICT_PENDING",
+					"usec": 3558043
+				},
+				{
+					"bytes": 256,
+					"epoch": 1,
+					"event": "last_reference_drop",
+					"frame": 4,
+					"key": "res://fake/t1.png|1",
+					"reason": "expired",
+					"usec": 3558047
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 4,
+					"key": "res://fake/t1.png|1",
+					"state": "UNLOADED",
+					"usec": 3558050
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 4,
+					"key": "1",
+					"state": "UNLOADED",
+					"usec": 3558058
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 4,
+					"key": "alias",
+					"state": "UNLOADED",
+					"usec": 3558068
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 4,
+					"key": "1",
+					"state": "QUEUED",
+					"usec": 3558282
+				},
+				{
+					"bytes": 256,
+					"drop_frame": 4,
+					"epoch": 1,
+					"event": "released_observed",
+					"frame": 5,
+					"instance_id": -9223371862489168345,
+					"key": "res://fake/t1.png|1",
+					"usec": 3558299
+				},
+				{
+					"epoch": 1,
+					"event": "reload",
+					"frame": 5,
+					"key": "res://fake/t1.png|1",
+					"usec": 3558322
+				},
+				{
+					"bytes": 256,
+					"consumers": [
+						"1"
+					],
+					"epoch": 1,
+					"event": "request",
+					"frame": 5,
+					"key": "res://fake/t1.png|1",
+					"request_epoch": 1,
+					"usec": 3558325
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 5,
+					"key": "1",
+					"state": "LOADING",
+					"usec": 3558335
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 6,
+					"key": "res://fake/t1.png|1",
+					"state": "READY_CPU",
+					"usec": 3558361
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 6,
+					"key": "res://fake/t1.png|1",
+					"state": "ATTACHING",
+					"usec": 3558369
+				},
+				{
+					"bytes": 256,
+					"consumer_epoch": 1,
+					"consumers": [
+						"1"
+					],
+					"epoch": 1,
+					"event": "attach",
+					"frame": 6,
+					"key": "res://fake/t1.png|1",
+					"request_epoch": 1,
+					"usec": 3558374
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 6,
+					"key": "1",
+					"state": "RESIDENT",
+					"usec": 3558389
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 6,
+					"key": "alias",
+					"state": "RESIDENT",
+					"usec": 3558400
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 6,
+					"key": "res://fake/t1.png|1",
+					"state": "EVICT_PENDING",
+					"usec": 3558413
+				},
+				{
+					"bytes": 256,
+					"epoch": 1,
+					"event": "last_reference_drop",
+					"frame": 6,
+					"key": "res://fake/t1.png|1",
+					"reason": "clear",
+					"usec": 3558418
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 6,
+					"key": "res://fake/t1.png|1",
+					"state": "UNLOADED",
+					"usec": 3558420
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 6,
+					"key": "1",
+					"state": "UNLOADED",
+					"usec": 3558444
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 6,
+					"key": "2",
+					"state": "QUEUED",
+					"usec": 3558447
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 6,
+					"key": "3",
+					"state": "QUEUED",
+					"usec": 3558450
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 6,
+					"key": "4",
+					"state": "QUEUED",
+					"usec": 3558453
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 6,
+					"key": "alias",
+					"state": "UNLOADED",
+					"usec": 3558458
+				},
+				{
+					"bytes": 256,
+					"drop_frame": 6,
+					"epoch": 1,
+					"event": "released_observed",
+					"frame": 7,
+					"instance_id": -9223371862405282263,
+					"key": "res://fake/t1.png|1",
+					"usec": 3558463
+				},
+				{
+					"bytes": 256,
+					"consumers": [
+						"2"
+					],
+					"epoch": 1,
+					"event": "request",
+					"frame": 7,
+					"key": "res://fake/t2.png|2",
+					"request_epoch": 1,
+					"usec": 3558506
+				},
+				{
+					"bytes": 256,
+					"consumers": [
+						"3"
+					],
+					"epoch": 1,
+					"event": "request",
+					"frame": 7,
+					"key": "res://fake/t3.png|3",
+					"request_epoch": 1,
+					"usec": 3558523
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 7,
+					"key": "2",
+					"state": "LOADING",
+					"usec": 3558539
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 7,
+					"key": "3",
+					"state": "LOADING",
+					"usec": 3558542
+				},
+				{
+					"epoch": 1,
+					"event": "queued_cancelled",
+					"frame": 7,
+					"key": "res://fake/t4.png|4",
+					"usec": 3558577
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 7,
+					"key": "2",
+					"state": "UNLOADED",
+					"usec": 3558588
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 7,
+					"key": "3",
+					"state": "UNLOADED",
+					"usec": 3558592
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 7,
+					"key": "4",
+					"state": "UNLOADED",
+					"usec": 3558595
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 7,
+					"key": "5",
+					"state": "QUEUED",
+					"usec": 3558598
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 9,
+					"key": "res://fake/t2.png|2",
+					"state": "READY_CPU",
+					"usec": 3558665
+				},
+				{
+					"epoch": 1,
+					"event": "completion_reference_drop",
+					"frame": 9,
+					"key": "res://fake/t2.png|2",
+					"reason": "stale_completion",
+					"usec": 3558671
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 9,
+					"key": "res://fake/t2.png|2",
+					"state": "UNLOADED",
+					"usec": 3558673
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 9,
+					"key": "res://fake/t3.png|3",
+					"state": "READY_CPU",
+					"usec": 3558679
+				},
+				{
+					"epoch": 1,
+					"event": "completion_reference_drop",
+					"frame": 9,
+					"key": "res://fake/t3.png|3",
+					"reason": "stale_completion",
+					"usec": 3558683
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 9,
+					"key": "res://fake/t3.png|3",
+					"state": "UNLOADED",
+					"usec": 3558684
+				},
+				{
+					"bytes": 256,
+					"consumers": [
+						"5"
+					],
+					"epoch": 1,
+					"event": "request",
+					"frame": 9,
+					"key": "res://fake/t5.png|5",
+					"request_epoch": 1,
+					"usec": 3558703
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 9,
+					"key": "5",
+					"state": "LOADING",
+					"usec": 3558719
+				},
+				{
+					"bytes": 256,
+					"drop_frame": 9,
+					"epoch": 1,
+					"event": "released_observed",
+					"frame": 10,
+					"instance_id": null,
+					"key": "res://fake/t3.png|3",
+					"usec": 3558733
+				},
+				{
+					"bytes": 256,
+					"drop_frame": 9,
+					"epoch": 1,
+					"event": "released_observed",
+					"frame": 10,
+					"instance_id": null,
+					"key": "res://fake/t2.png|2",
+					"usec": 3558737
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 10,
+					"key": "res://fake/t5.png|5",
+					"state": "READY_CPU",
+					"usec": 3558747
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 10,
+					"key": "res://fake/t5.png|5",
+					"state": "ATTACHING",
+					"usec": 3558754
+				},
+				{
+					"bytes": 256,
+					"consumer_epoch": 1,
+					"consumers": [
+						"5"
+					],
+					"epoch": 1,
+					"event": "attach",
+					"frame": 10,
+					"key": "res://fake/t5.png|5",
+					"request_epoch": 1,
+					"usec": 3558759
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 10,
+					"key": "5",
+					"state": "RESIDENT",
+					"usec": 3558778
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 10,
+					"key": "res://fake/t5.png|5",
+					"state": "EVICT_PENDING",
+					"usec": 3558791
+				},
+				{
+					"bytes": 256,
+					"epoch": 1,
+					"event": "last_reference_drop",
+					"frame": 10,
+					"key": "res://fake/t5.png|5",
+					"reason": "clear",
+					"usec": 3558796
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 10,
+					"key": "res://fake/t5.png|5",
+					"state": "UNLOADED",
+					"usec": 3558799
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 10,
+					"key": "1",
+					"state": "QUEUED",
+					"usec": 3558811
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 10,
+					"key": "5",
+					"state": "UNLOADED",
+					"usec": 3558819
+				},
+				{
+					"bytes": 256,
+					"drop_frame": 10,
+					"epoch": 1,
+					"event": "released_observed",
+					"frame": 11,
+					"instance_id": -9223371862203955673,
+					"key": "res://fake/t5.png|5",
+					"usec": 3558825
+				},
+				{
+					"epoch": 1,
+					"event": "reload",
+					"frame": 11,
+					"key": "res://fake/t1.png|1",
+					"usec": 3558841
+				},
+				{
+					"bytes": 256,
+					"consumers": [
+						"1"
+					],
+					"epoch": 1,
+					"event": "request",
+					"frame": 11,
+					"key": "res://fake/t1.png|1",
+					"request_epoch": 1,
+					"usec": 3558842
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 11,
+					"key": "1",
+					"state": "LOADING",
+					"usec": 3558852
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 11,
+					"key": "1",
+					"state": "UNLOADED",
+					"usec": 3558872
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 11,
+					"key": "1",
+					"state": "LOADING",
+					"usec": 3558890
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 12,
+					"key": "res://fake/t1.png|1",
+					"state": "READY_CPU",
+					"usec": 3558907
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 12,
+					"key": "res://fake/t1.png|1",
+					"state": "ATTACHING",
+					"usec": 3558913
+				},
+				{
+					"bytes": 256,
+					"consumer_epoch": 1,
+					"consumers": [
+						"1"
+					],
+					"epoch": 1,
+					"event": "attach",
+					"frame": 12,
+					"key": "res://fake/t1.png|1",
+					"request_epoch": 1,
+					"usec": 3558917
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 12,
+					"key": "1",
+					"state": "RESIDENT",
+					"usec": 3558930
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 12,
+					"key": "alias",
+					"state": "RESIDENT",
+					"usec": 3558941
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 12,
+					"key": "res://fake/t1.png|1",
+					"state": "EVICT_PENDING",
+					"usec": 3558952
+				},
+				{
+					"bytes": 256,
+					"epoch": 1,
+					"event": "last_reference_drop",
+					"frame": 12,
+					"key": "res://fake/t1.png|1",
+					"reason": "clear",
+					"usec": 3558957
+				},
+				{
+					"epoch": 1,
+					"event": "state",
+					"frame": 12,
+					"key": "res://fake/t1.png|1",
+					"state": "UNLOADED",
+					"usec": 3558958
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 12,
+					"key": "1",
+					"state": "UNLOADED",
+					"usec": 3558970
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 12,
+					"key": "2",
+					"state": "QUEUED",
+					"usec": 3558972
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 12,
+					"key": "alias",
+					"state": "UNLOADED",
+					"usec": 3558979
+				},
+				{
+					"bytes": 256,
+					"drop_frame": 12,
+					"epoch": 1,
+					"event": "released_observed",
+					"frame": 13,
+					"instance_id": -9223371862136846809,
+					"key": "res://fake/t1.png|1",
+					"usec": 3558984
+				},
+				{
+					"epoch": 1,
+					"event": "reload",
+					"frame": 13,
+					"key": "res://fake/t2.png|2",
+					"usec": 3559001
+				},
+				{
+					"bytes": 256,
+					"consumers": [
+						"2"
+					],
+					"epoch": 1,
+					"event": "request",
+					"frame": 13,
+					"key": "res://fake/t2.png|2",
+					"request_epoch": 1,
+					"usec": 3559003
+				},
+				{
+					"epoch": 1,
+					"event": "page_state",
+					"frame": 13,
+					"key": "2",
+					"state": "LOADING",
+					"usec": 3559014
+				},
+				{
+					"epoch": 2,
+					"event": "package",
+					"frame": 13,
+					"key": "B",
+					"usec": 3559093,
+					"world_id": "test"
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 13,
+					"key": "0",
+					"state": "QUEUED",
+					"usec": 3559105
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 14,
+					"key": "res://fake/t2.png|2",
+					"state": "READY_CPU",
+					"usec": 3559129
+				},
+				{
+					"epoch": 2,
+					"event": "completion_reference_drop",
+					"frame": 14,
+					"key": "res://fake/t2.png|2",
+					"reason": "stale_completion",
+					"usec": 3559134
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 14,
+					"key": "res://fake/t2.png|2",
+					"state": "UNLOADED",
+					"usec": 3559136
+				},
+				{
+					"bytes": 256,
+					"consumers": [
+						"0"
+					],
+					"epoch": 2,
+					"event": "request",
+					"frame": 14,
+					"key": "res://other/t0.png|0",
+					"request_epoch": 2,
+					"usec": 3559153
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 14,
+					"key": "0",
+					"state": "LOADING",
+					"usec": 3559161
+				},
+				{
+					"bytes": 256,
+					"drop_frame": 14,
+					"epoch": 2,
+					"event": "released_observed",
+					"frame": 15,
+					"instance_id": null,
+					"key": "res://fake/t2.png|2",
+					"usec": 3559182
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 15,
+					"key": "res://other/t0.png|0",
+					"state": "READY_CPU",
+					"usec": 3559191
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 15,
+					"key": "res://other/t0.png|0",
+					"state": "ATTACHING",
+					"usec": 3559198
+				},
+				{
+					"bytes": 256,
+					"consumer_epoch": 2,
+					"consumers": [
+						"0"
+					],
+					"epoch": 2,
+					"event": "attach",
+					"frame": 15,
+					"key": "res://other/t0.png|0",
+					"request_epoch": 2,
+					"usec": 3559202
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 15,
+					"key": "0",
+					"state": "RESIDENT",
+					"usec": 3559215
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 15,
+					"key": "1",
+					"state": "QUEUED",
+					"usec": 3559322
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 15,
+					"key": "2",
+					"state": "QUEUED",
+					"usec": 3559325
+				},
+				{
+					"bytes": 256,
+					"consumers": [
+						"1"
+					],
+					"epoch": 2,
+					"event": "request",
+					"frame": 16,
+					"key": "res://other/t1.png|1",
+					"request_epoch": 2,
+					"usec": 3559389
+				},
+				{
+					"bytes": 256,
+					"consumers": [
+						"2"
+					],
+					"epoch": 2,
+					"event": "request",
+					"frame": 16,
+					"key": "res://other/t2.png|2",
+					"request_epoch": 2,
+					"usec": 3559406
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 16,
+					"key": "1",
+					"state": "LOADING",
+					"usec": 3559415
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 16,
+					"key": "2",
+					"state": "LOADING",
+					"usec": 3559418
+				},
+				{
+					"attach_usec": 2000,
+					"concurrency": 2,
+					"decoded": 512,
+					"epoch": 2,
+					"event": "budget_changed",
+					"frame": 16,
+					"grace_usec": 0,
+					"hard": 256,
+					"id": "normal_256_320",
+					"key": "",
+					"soft": 256,
+					"usec": 3559440
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 18,
+					"key": "res://other/t1.png|1",
+					"state": "READY_CPU",
+					"usec": 3559528
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 18,
+					"key": "res://other/t2.png|2",
+					"state": "READY_CPU",
+					"usec": 3559535
+				},
+				{
+					"epoch": 2,
+					"event": "completion_reference_drop",
+					"frame": 18,
+					"key": "res://other/t1.png|1",
+					"reason": "reduced_hard_budget",
+					"usec": 3559549
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 18,
+					"key": "res://other/t1.png|1",
+					"state": "UNLOADED",
+					"usec": 3559550
+				},
+				{
+					"epoch": 2,
+					"event": "completion_reference_drop",
+					"frame": 18,
+					"key": "res://other/t2.png|2",
+					"reason": "reduced_hard_budget",
+					"usec": 3559558
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 18,
+					"key": "res://other/t2.png|2",
+					"state": "UNLOADED",
+					"usec": 3559559
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 18,
+					"key": "1",
+					"state": "QUEUED",
+					"usec": 3559611
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 18,
+					"key": "2",
+					"state": "QUEUED",
+					"usec": 3559614
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 18,
+					"key": "res://other/t0.png|0",
+					"state": "EVICT_PENDING",
+					"usec": 3559636
+				},
+				{
+					"bytes": 256,
+					"epoch": 2,
+					"event": "last_reference_drop",
+					"frame": 18,
+					"key": "res://other/t0.png|0",
+					"reason": "clear",
+					"usec": 3559641
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 18,
+					"key": "res://other/t0.png|0",
+					"state": "UNLOADED",
+					"usec": 3559643
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 18,
+					"key": "res://other/t1.png|1",
+					"state": "UNLOADED",
+					"usec": 3559646
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 18,
+					"key": "res://other/t2.png|2",
+					"state": "UNLOADED",
+					"usec": 3559648
+				},
+				{
+					"bytes": 256,
+					"drop_frame": 18,
+					"epoch": 2,
+					"event": "released_observed",
+					"frame": 19,
+					"instance_id": -9223371861985851863,
+					"key": "res://other/t0.png|0",
+					"usec": 3559652
+				},
+				{
+					"bytes": 256,
+					"drop_frame": 18,
+					"epoch": 2,
+					"event": "released_observed",
+					"frame": 19,
+					"instance_id": null,
+					"key": "res://other/t2.png|2",
+					"usec": 3559656
+				},
+				{
+					"bytes": 256,
+					"drop_frame": 18,
+					"epoch": 2,
+					"event": "released_observed",
+					"frame": 19,
+					"instance_id": null,
+					"key": "res://other/t1.png|1",
+					"usec": 3559658
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 19,
+					"key": "0",
+					"state": "UNLOADED",
+					"usec": 3559666
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 19,
+					"key": "1",
+					"state": "UNLOADED",
+					"usec": 3559669
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 19,
+					"key": "2",
+					"state": "UNLOADED",
+					"usec": 3559672
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 19,
+					"key": "1",
+					"state": "QUEUED",
+					"usec": 3559694
+				},
+				{
+					"epoch": 2,
+					"event": "reload",
+					"frame": 20,
+					"key": "res://other/t1.png|1",
+					"usec": 3559720
+				},
+				{
+					"bytes": 256,
+					"consumers": [
+						"1"
+					],
+					"epoch": 2,
+					"event": "request",
+					"frame": 20,
+					"key": "res://other/t1.png|1",
+					"request_epoch": 2,
+					"usec": 3559722
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 20,
+					"key": "1",
+					"state": "LOADING",
+					"usec": 3559731
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 21,
+					"key": "res://other/t1.png|1",
+					"state": "READY_CPU",
+					"usec": 3559752
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 21,
+					"key": "res://other/t1.png|1",
+					"state": "ATTACHING",
+					"usec": 3559758
+				},
+				{
+					"code": "injected_bad_pixels",
+					"epoch": 2,
+					"event": "failed",
+					"frame": 21,
+					"key": "res://other/t1.png|1",
+					"ok": false,
+					"usec": 3559763
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 21,
+					"key": "1",
+					"state": "FAILED",
+					"usec": 3559771
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 21,
+					"key": "1",
+					"state": "QUEUED",
+					"usec": 3559798
+				},
+				{
+					"epoch": 2,
+					"event": "reload",
+					"frame": 22,
+					"key": "res://other/t1.png|1",
+					"usec": 3559821
+				},
+				{
+					"bytes": 256,
+					"consumers": [
+						"1"
+					],
+					"epoch": 2,
+					"event": "request",
+					"frame": 22,
+					"key": "res://other/t1.png|1",
+					"request_epoch": 2,
+					"usec": 3559823
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 22,
+					"key": "1",
+					"state": "LOADING",
+					"usec": 3559831
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 23,
+					"key": "res://other/t1.png|1",
+					"state": "READY_CPU",
+					"usec": 3559852
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 23,
+					"key": "res://other/t1.png|1",
+					"state": "ATTACHING",
+					"usec": 3559858
+				},
+				{
+					"bytes": 256,
+					"consumer_epoch": 2,
+					"consumers": [
+						"1"
+					],
+					"epoch": 2,
+					"event": "attach",
+					"frame": 23,
+					"key": "res://other/t1.png|1",
+					"request_epoch": 2,
+					"usec": 3559863
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 23,
+					"key": "1",
+					"state": "RESIDENT",
+					"usec": 3559876
+				},
+				{
+					"epoch": 2,
+					"event": "page_state",
+					"frame": 23,
+					"key": "alias",
+					"state": "RESIDENT",
+					"usec": 3559886
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 23,
+					"key": "res://other/t1.png|1",
+					"state": "EVICT_PENDING",
+					"usec": 3559896
+				},
+				{
+					"bytes": 256,
+					"epoch": 2,
+					"event": "last_reference_drop",
+					"frame": 23,
+					"key": "res://other/t1.png|1",
+					"reason": "clear",
+					"usec": 3559900
+				},
+				{
+					"epoch": 2,
+					"event": "state",
+					"frame": 23,
+					"key": "res://other/t1.png|1",
+					"state": "UNLOADED",
+					"usec": 3559902
+				}
+			],
+			"kind": "fake_control_only",
+			"stats": {
+				"attach_overruns": 0,
+				"attaches": 7,
+				"drops": 7,
+				"hard_denials": 1,
+				"max_attach_usec": 53,
+				"peak_inflight": 2,
+				"prefetch_denials": 1,
+				"queued_cancelled": 1,
+				"reclaimed": 0,
+				"released_observed": 11,
+				"reloads": 5,
+				"requests": 13,
+				"stale_drained": 3
+			}
+		}
+	]
+}

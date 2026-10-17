@@ -1,0 +1,499 @@
+{
+	"checks": 85,
+	"failures": [],
+	"measurements": [
+		{
+			"asset": "tree_willow",
+			"edge": "bottom",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "tree_willow",
+			"edge": "top",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "tree_willow",
+			"edge": "left",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "tree_willow",
+			"edge": "right",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "tree_grove",
+			"edge": "bottom",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "tree_grove",
+			"edge": "top",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "tree_grove",
+			"edge": "left",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "tree_grove",
+			"edge": "right",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "synthetic_tall",
+			"edge": "bottom",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "synthetic_tall",
+			"edge": "top",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "synthetic_tall",
+			"edge": "left",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		},
+		{
+			"asset": "synthetic_tall",
+			"edge": "right",
+			"samples": [
+				{
+					"matches": true,
+					"penetration_px": -10,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 0,
+					"reference_has_pixels": false
+				},
+				{
+					"matches": true,
+					"penetration_px": 2,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 6,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 20,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 40,
+					"reference_has_pixels": true
+				},
+				{
+					"matches": true,
+					"penetration_px": 60,
+					"reference_has_pixels": true
+				}
+			]
+		}
+	],
+	"visible_beyond_old_anchor_margin": 11
+}

@@ -1,0 +1,508 @@
+{
+  "observations": [
+    {
+      "actual_submissions": {
+        "errors": [],
+        "last_submissions": [
+          {
+            "id": "lab.water.bank",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "lab.road.boundary",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "lab.tree.cross_border",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "lab.tree.giant_four_buckets",
+            "representation": "detail",
+            "transition": ""
+          }
+        ],
+        "planner": {
+          "identity": {
+            "asset_bounds_version": 1,
+            "build_id": "tongguan_v02_e2_20261016_03_lab",
+            "cell_m": 512,
+            "effective_revision": "tongguan_v02_e2_20261016_03_lab",
+            "world_id": "stream_lab_v02"
+          },
+          "index": {
+            "bucket_lookups": 48,
+            "candidate_tests": 4,
+            "candidate_union_builds": 1,
+            "delta_updates": 0,
+            "full_index_builds": 1,
+            "query_calls": 1,
+            "records_reindexed": 4,
+            "reference_record_enumerations": 0,
+            "source_records_validated": 4
+          },
+          "objects": 4,
+          "planner": {
+            "plan_reuses": 0,
+            "reference_full_scans": 0,
+            "snapshot_reads": 1,
+            "sort_calls": 1,
+            "visible_plan_builds": 1
+          }
+        },
+        "renderer": {
+          "actual_object_submissions": 8,
+          "camera_transform_updates": 1,
+          "object_draw_callbacks": 2,
+          "ordinary_frame_reuses": 10,
+          "reference_global_sorts": 0,
+          "terrain_draw_callbacks": 2
+        },
+        "submission_errors": []
+      },
+      "case": "lab",
+      "indexed_map_sha256": "c55612640ee04f21db6bbb60eb717c8d8109d0e0763a0409e8b159e1b932bb19",
+      "map_pixel_equal": true,
+      "reference_draw_source_count": 4,
+      "reference_map_sha256": "c55612640ee04f21db6bbb60eb717c8d8109d0e0763a0409e8b159e1b932bb19"
+    },
+    {
+      "actual_submissions": {
+        "errors": [],
+        "last_submissions": [
+          {
+            "id": "tongguan.road.connector",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "tongguan.road.rear",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "presentation.main_corridor",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "tongguan.gate.main",
+            "representation": "detail",
+            "transition": ""
+          }
+        ],
+        "planner": {
+          "identity": {
+            "asset_bounds_version": 1,
+            "build_id": "tongguan_v02_e2_20261016_03_tongguan",
+            "cell_m": 512,
+            "effective_revision": "2a53f8f5f320ddd848034dc566b80245fe888d87e392ae3365634291a6d497dd",
+            "world_id": "tongguan_final_validation_v1"
+          },
+          "index": {
+            "bucket_lookups": 60,
+            "candidate_tests": 8,
+            "candidate_union_builds": 2,
+            "delta_updates": 0,
+            "full_index_builds": 2,
+            "query_calls": 2,
+            "records_reindexed": 80,
+            "reference_record_enumerations": 0,
+            "source_records_validated": 80
+          },
+          "objects": 76,
+          "planner": {
+            "plan_reuses": 2,
+            "reference_full_scans": 0,
+            "snapshot_reads": 2,
+            "sort_calls": 2,
+            "visible_plan_builds": 2
+          }
+        },
+        "renderer": {
+          "actual_object_submissions": 20,
+          "camera_transform_updates": 4,
+          "object_draw_callbacks": 5,
+          "ordinary_frame_reuses": 23,
+          "reference_global_sorts": 1,
+          "terrain_draw_callbacks": 5
+        },
+        "submission_errors": []
+      },
+      "case": "tongguan",
+      "indexed_map_sha256": "a2d376cdfb01658dfb21973b04e384214a45f0fda747134843775b3a26cfa962",
+      "map_pixel_equal": true,
+      "reference_draw_source_count": 76,
+      "reference_map_sha256": "a2d376cdfb01658dfb21973b04e384214a45f0fda747134843775b3a26cfa962"
+    },
+    {
+      "actual_submissions": {
+        "errors": [],
+        "last_submissions": [
+          {
+            "id": "lab.road.boundary",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "lab.tree.giant_four_buckets",
+            "representation": "detail",
+            "transition": ""
+          }
+        ],
+        "planner": {
+          "identity": {
+            "asset_bounds_version": 1,
+            "build_id": "tongguan_v02_e2_20261016_03_lab",
+            "cell_m": 512,
+            "effective_revision": "tongguan_v02_e2_20261016_03_lab",
+            "world_id": "stream_lab_v02"
+          },
+          "index": {
+            "bucket_lookups": 66,
+            "candidate_tests": 12,
+            "candidate_union_builds": 3,
+            "delta_updates": 0,
+            "full_index_builds": 3,
+            "query_calls": 3,
+            "records_reindexed": 84,
+            "reference_record_enumerations": 0,
+            "source_records_validated": 84
+          },
+          "objects": 4,
+          "planner": {
+            "plan_reuses": 4,
+            "reference_full_scans": 0,
+            "snapshot_reads": 3,
+            "sort_calls": 3,
+            "visible_plan_builds": 3
+          }
+        },
+        "renderer": {
+          "actual_object_submissions": 102,
+          "camera_transform_updates": 7,
+          "object_draw_callbacks": 8,
+          "ordinary_frame_reuses": 36,
+          "reference_global_sorts": 2,
+          "terrain_draw_callbacks": 8
+        },
+        "submission_errors": []
+      },
+      "case": "giant",
+      "indexed_map_sha256": "d395ff620db4d9f975dc023fc645a15bbb6d3221562c796af583b9cc351ffb3e",
+      "map_pixel_equal": true,
+      "reference_draw_source_count": 4,
+      "reference_map_sha256": "d395ff620db4d9f975dc023fc645a15bbb6d3221562c796af583b9cc351ffb3e"
+    },
+    {
+      "indexed_map_sha256": "2118e5298955e47e6a1127d788b034a29cf3d893a2a5f2e32eaaf256f27a44e2",
+      "live_revision": "moved",
+      "map_pixel_equal": true,
+      "reference_map_sha256": "2118e5298955e47e6a1127d788b034a29cf3d893a2a5f2e32eaaf256f27a44e2",
+      "telemetry": {
+        "errors": [],
+        "last_submissions": [
+          {
+            "id": "lab.water.bank",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "lab.road.boundary",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "lab.tree.cross_border",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "lab.tree.giant_four_buckets",
+            "representation": "detail",
+            "transition": ""
+          }
+        ],
+        "planner": {
+          "identity": {
+            "asset_bounds_version": 1,
+            "build_id": "tongguan_v02_e2_20261016_03_lab",
+            "cell_m": 512,
+            "effective_revision": "native_move_1",
+            "world_id": "stream_lab_v02"
+          },
+          "index": {
+            "bucket_lookups": 72,
+            "candidate_tests": 15,
+            "candidate_union_builds": 4,
+            "delta_updates": 1,
+            "full_index_builds": 3,
+            "query_calls": 4,
+            "records_reindexed": 85,
+            "reference_record_enumerations": 0,
+            "source_records_validated": 85
+          },
+          "objects": 4,
+          "planner": {
+            "plan_reuses": 7,
+            "reference_full_scans": 0,
+            "snapshot_reads": 3,
+            "sort_calls": 4,
+            "visible_plan_builds": 4
+          }
+        },
+        "renderer": {
+          "actual_object_submissions": 113,
+          "camera_transform_updates": 11,
+          "object_draw_callbacks": 12,
+          "ordinary_frame_reuses": 52,
+          "reference_global_sorts": 4,
+          "terrain_draw_callbacks": 12
+        },
+        "submission_errors": []
+      }
+    },
+    {
+      "indexed_map_sha256": "843ab317548d4ba492372ff63a602f03d7b1a5ad9e249638ee91629b2c0f1dc7",
+      "live_revision": "enlarged",
+      "map_pixel_equal": true,
+      "reference_map_sha256": "843ab317548d4ba492372ff63a602f03d7b1a5ad9e249638ee91629b2c0f1dc7",
+      "telemetry": {
+        "errors": [],
+        "last_submissions": [
+          {
+            "id": "lab.water.bank",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "lab.road.boundary",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "lab.tree.cross_border",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "lab.tree.giant_four_buckets",
+            "representation": "detail",
+            "transition": ""
+          }
+        ],
+        "planner": {
+          "identity": {
+            "asset_bounds_version": 2,
+            "build_id": "tongguan_v02_e2_20261016_03_lab",
+            "cell_m": 512,
+            "effective_revision": "native_move_restore",
+            "world_id": "stream_lab_v02"
+          },
+          "index": {
+            "bucket_lookups": 78,
+            "candidate_tests": 19,
+            "candidate_union_builds": 5,
+            "delta_updates": 2,
+            "full_index_builds": 3,
+            "query_calls": 5,
+            "records_reindexed": 87,
+            "reference_record_enumerations": 0,
+            "source_records_validated": 87
+          },
+          "objects": 4,
+          "planner": {
+            "plan_reuses": 9,
+            "reference_full_scans": 0,
+            "snapshot_reads": 3,
+            "sort_calls": 5,
+            "visible_plan_builds": 5
+          }
+        },
+        "renderer": {
+          "actual_object_submissions": 120,
+          "camera_transform_updates": 14,
+          "object_draw_callbacks": 15,
+          "ordinary_frame_reuses": 64,
+          "reference_global_sorts": 5,
+          "terrain_draw_callbacks": 15
+        },
+        "submission_errors": []
+      }
+    },
+    {
+      "native_camera_after": {
+        "errors": [],
+        "last_submissions": [
+          {
+            "id": "lab.road.boundary",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "lab.tree.giant_four_buckets",
+            "representation": "detail",
+            "transition": ""
+          }
+        ],
+        "planner": {
+          "identity": {
+            "asset_bounds_version": 2,
+            "build_id": "tongguan_v02_e2_20261016_03_lab",
+            "cell_m": 512,
+            "effective_revision": "native_move_restore",
+            "world_id": "stream_lab_v02"
+          },
+          "index": {
+            "bucket_lookups": 318,
+            "candidate_tests": 179,
+            "candidate_union_builds": 5,
+            "delta_updates": 2,
+            "full_index_builds": 3,
+            "query_calls": 45,
+            "records_reindexed": 87,
+            "reference_record_enumerations": 0,
+            "source_records_validated": 87
+          },
+          "objects": 4,
+          "planner": {
+            "plan_reuses": 50,
+            "reference_full_scans": 0,
+            "snapshot_reads": 3,
+            "sort_calls": 5,
+            "visible_plan_builds": 5
+          }
+        },
+        "renderer": {
+          "actual_object_submissions": 122,
+          "camera_transform_updates": 55,
+          "object_draw_callbacks": 16,
+          "ordinary_frame_reuses": 107,
+          "reference_global_sorts": 5,
+          "terrain_draw_callbacks": 16
+        },
+        "submission_errors": []
+      },
+      "native_camera_before": {
+        "errors": [],
+        "last_submissions": [
+          {
+            "id": "lab.road.boundary",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "lab.tree.giant_four_buckets",
+            "representation": "detail",
+            "transition": ""
+          }
+        ],
+        "planner": {
+          "identity": {
+            "asset_bounds_version": 2,
+            "build_id": "tongguan_v02_e2_20261016_03_lab",
+            "cell_m": 512,
+            "effective_revision": "native_move_restore",
+            "world_id": "stream_lab_v02"
+          },
+          "index": {
+            "bucket_lookups": 78,
+            "candidate_tests": 19,
+            "candidate_union_builds": 5,
+            "delta_updates": 2,
+            "full_index_builds": 3,
+            "query_calls": 5,
+            "records_reindexed": 87,
+            "reference_record_enumerations": 0,
+            "source_records_validated": 87
+          },
+          "objects": 4,
+          "planner": {
+            "plan_reuses": 10,
+            "reference_full_scans": 0,
+            "snapshot_reads": 3,
+            "sort_calls": 5,
+            "visible_plan_builds": 5
+          }
+        },
+        "renderer": {
+          "actual_object_submissions": 122,
+          "camera_transform_updates": 15,
+          "object_draw_callbacks": 16,
+          "ordinary_frame_reuses": 67,
+          "reference_global_sorts": 5,
+          "terrain_draw_callbacks": 16
+        },
+        "submission_errors": []
+      }
+    },
+    {
+      "actual_duplicate_fault": {
+        "errors": [
+          {
+            "code": "duplicate_representation",
+            "ok": false
+          }
+        ],
+        "last_submissions": [
+          {
+            "id": "lab.road.boundary",
+            "representation": "detail",
+            "transition": ""
+          },
+          {
+            "id": "lab.tree.giant_four_buckets",
+            "representation": "detail",
+            "transition": ""
+          }
+        ],
+        "planner": {
+          "identity": {
+            "asset_bounds_version": 2,
+            "build_id": "tongguan_v02_e2_20261016_03_lab",
+            "cell_m": 512,
+            "effective_revision": "native_move_restore",
+            "world_id": "stream_lab_v02"
+          },
+          "index": {
+            "bucket_lookups": 318,
+            "candidate_tests": 179,
+            "candidate_union_builds": 5,
+            "delta_updates": 2,
+            "full_index_builds": 3,
+            "query_calls": 45,
+            "records_reindexed": 87,
+            "reference_record_enumerations": 0,
+            "source_records_validated": 87
+          },
+          "objects": 4,
+          "planner": {
+            "plan_reuses": 50,
+            "reference_full_scans": 0,
+            "snapshot_reads": 3,
+            "sort_calls": 5,
+            "visible_plan_builds": 5
+          }
+        },
+        "renderer": {
+          "actual_object_submissions": 124,
+          "camera_transform_updates": 55,
+          "object_draw_callbacks": 17,
+          "ordinary_frame_reuses": 111,
+          "reference_global_sorts": 5,
+          "terrain_draw_callbacks": 16
+        },
+        "submission_errors": [
+          {
+            "code": "duplicate_representation",
+            "id": "lab.road.boundary",
+            "representation": "detail"
+          }
+        ]
+      }
+    }
+  ]
+}

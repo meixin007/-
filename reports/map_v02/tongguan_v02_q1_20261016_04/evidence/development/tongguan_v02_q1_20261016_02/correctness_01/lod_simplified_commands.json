@@ -1,0 +1,62 @@
+{
+	"camera": [
+		-300.0,
+		-100.0,
+		0.18
+	],
+	"commands": {
+		"base:contextterrain/context.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/context.png|581298dcc52768e3aeaecae88de2c60d75658ef8c23504612657d18c08317ce0",
+			"[P: (-3808.0, 192.0), S: (24000.0, 16000.0)]",
+			"[P: (0.0, 0.0), S: (2400.0, 1600.0)]",
+			1.0
+		],
+		"object:presentation.main_corridor": [],
+		"object:presentation.main_corridor.base": [],
+		"object:presentation.main_corridor.light": [],
+		"object:presentation.socket.tongguan.slot.rear_military_01": [],
+		"object:presentation.socket.tongguan.slot.rear_storage_01": [],
+		"object:tongguan.gate.main": [
+			"res://v02/c1/packages/tongguan/assets/gate_eastwest.png|971dbffc6bfe5c947e5f9541fb68c12d5712f23c26bfd94566c904880c7fe16d",
+			"[P: (8049.129, 8043.758), S: (330.0, 220.0)]",
+			"[P: (0.0, 0.0), S: (1536.0, 1024.0)]",
+			1.0
+		],
+		"object:tongguan.road.connector": [],
+		"object:tongguan.road.connector.base": [],
+		"object:tongguan.road.rear": [],
+		"object:tongguan.road.rear.base": [],
+		"object:tongguan.slot.rear_military_01": [
+			"res://v02/c1/packages/tongguan/assets/barracks_v01.png|ad392cccc3cbeef7fc1f2bb2c1a6090a2687ba9160d52540900af6188b230139",
+			"[P: (7643.458, 7930.125), S: (80.0, 53.33333)]",
+			"[P: (0.0, 0.0), S: (1536.0, 1024.0)]",
+			1.0
+		],
+		"object:tongguan.slot.rear_storage_01": [
+			"res://v02/c1/packages/tongguan/assets/warehouse_v01.png|0f24ffb5c1305eb34c4433eab7d0180e35880e98c4cf0c90bd4b49d2b1fc6e16",
+			"[P: (7583.458, 7930.125), S: (80.0, 53.33333)]",
+			"[P: (0.0, 0.0), S: (1536.0, 1024.0)]",
+			1.0
+		],
+		"object:tongguan.wall.north": [
+			"res://v02/c1/packages/tongguan/assets/wall_ns_v01.png|17f0dec19928e4ed4b344d8e786d7d26b3f49da89da60948dd1aa98a19f71478",
+			"[P: (8024.884, 7981.336), S: (215.04, 143.36)]",
+			"[P: (0.0, 0.0), S: (1536.0, 1024.0)]",
+			1.0
+		],
+		"object:wall_east": [
+			"res://v02/c1/packages/tongguan/assets/wall_ns_v01.png|17f0dec19928e4ed4b344d8e786d7d26b3f49da89da60948dd1aa98a19f71478",
+			"[P: (8216.192, 8192.549), S: (215.04, 143.36)]",
+			"[P: (0.0, 0.0), S: (1536.0, 1024.0)]",
+			1.0
+		]
+	},
+	"deferred": false,
+	"detail_alpha": 1.0,
+	"fades": {
+
+	},
+	"finished": {
+
+	}
+}

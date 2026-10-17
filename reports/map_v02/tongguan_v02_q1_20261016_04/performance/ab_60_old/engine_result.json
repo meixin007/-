@@ -1,0 +1,19 @@
+{
+	"actual_viewport": [
+		1920,
+		1080
+	],
+	"captures": {
+		"composition": "ab_composition.png",
+		"courtyard": "ab_courtyard.png",
+		"far": "ab_far.png",
+		"region": "ab_region.png"
+	},
+	"checks": 4,
+	"failures": [],
+	"mode": "old",
+	"scope": "matched original-v01 painter, geometry and raw art; original legacy cache/full tree plan vs E3 resources/E2 query compatibility facade. Target C1 timings are separate.",
+	"seconds": 60.0,
+	"single_original_controller": -9223371893191473831,
+	"unchanged_canvas": "res://review/canvas.gd"
+}

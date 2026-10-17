@@ -1,0 +1,356 @@
+{
+  "status": "candidate_pending_user_review",
+  "algorithm": "height_normals_multiscale_TPI_cross_curvature_r01",
+  "source_height_sha256": "2384f254107aec65664af1169f005a9297de71a7000732aec87c08d59282a87f",
+  "source_contours_sha256": "65dbe5f8b49c76aa3b2faf46e0af9834b3b325e8deeaf5b466d89b90427b9563",
+  "source_water_sha256": "b5077c55a773faf1e74acaf07b285d892046f642011b8ec99f92a2d4b3924a0d",
+  "cell_m": 40,
+  "analysis_sigma_cells": [
+    1,
+    3.5
+  ],
+  "light": [
+    -0.6,
+    -0.8,
+    1.05
+  ],
+  "bounds_m": [
+    -1024,
+    -1024,
+    2048,
+    1536
+  ],
+  "core_px": 1024,
+  "gutter_px": 32,
+  "allowed_mips": [
+    0
+  ],
+  "reference_path": "res://v02/relief_r01/assets/reference_fine.png",
+  "reference_rect": [
+    32,
+    32,
+    4096,
+    3072
+  ],
+  "records": [
+    {
+      "kind": "ground",
+      "path": "res://v02/relief_r01/assets/ground_0_0.png",
+      "left_m": -1024,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "2704a16acb54b617cf0c1246343c378621107c82f15bb2cf3eae1f8263869ef7"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/relief_r01/assets/water_0_0.png",
+      "left_m": -1024,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "dbb3433857582ea2b58b28cfc01af9ae81448362fc92ff483e576c1ae8e3817a"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/relief_r01/assets/ground_1_0.png",
+      "left_m": -512,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "14cd234f654d7e0d303d1768ef70bdade1245304ffbead1c364637644dce10b6"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/relief_r01/assets/water_1_0.png",
+      "left_m": -512,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "14bb582ac7d36925e0d174c89db3c233f3ad6f3dfd8f5ce553930ba80f7ea879"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/relief_r01/assets/ground_2_0.png",
+      "left_m": 0,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "1e7980dabd00e671dade26b6fccf960be7e26438e90090cca79ed80ceb1a9713"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/relief_r01/assets/water_2_0.png",
+      "left_m": 0,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "1b4c2aea9cf77c420fced213c4a2561d403742097479cc8ea10250003b623139"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/relief_r01/assets/ground_3_0.png",
+      "left_m": 512,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "df44e0a47499f649b0347af104034a6d103eb9e533c4c7b354ec1eb27082dc9a"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/relief_r01/assets/water_3_0.png",
+      "left_m": 512,
+      "top_m": -1024,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "26a074f6e817b1bab73d862bfd590ea7df68ed4d6e9da2b33f95997769adfc16"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/relief_r01/assets/ground_0_1.png",
+      "left_m": -1024,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "083bf175ee5dd989b5bbb565208929dc64794858bc102aad94c9729e2a1cce62"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/relief_r01/assets/water_0_1.png",
+      "left_m": -1024,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "a4ec2a6c6f8f2479b1f164107923db9a001fd7511c17b8535514655a37c4bf34"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/relief_r01/assets/ground_1_1.png",
+      "left_m": -512,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "9091d2ccc4d9103a99c4da3cfc451eb45ea9343a00ce5ddf22050cc35544804f"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/relief_r01/assets/water_1_1.png",
+      "left_m": -512,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "c70e09f89f3285485983785468d7ac633eb59833273574180d3a061c1fed206c"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/relief_r01/assets/ground_2_1.png",
+      "left_m": 0,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "c9146798c81452a239e314647e3e888b4fbe476a03f15b3b24fd7d1a13f3a339"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/relief_r01/assets/water_2_1.png",
+      "left_m": 0,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "1d0bf70f5da40947e59ee32ad8021230cbae3597ad4c16777c867cf63687b507"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/relief_r01/assets/ground_3_1.png",
+      "left_m": 512,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "b65b9be33cecbf370a027495cf9c03d5b9adf87fa05326026eeaf54cd708081e"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/relief_r01/assets/water_3_1.png",
+      "left_m": 512,
+      "top_m": -512,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "fb8d36cd47c5f516687a53f1e81bc2be9a0ae1787e92f68a09173270a6e814b3"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/relief_r01/assets/ground_0_2.png",
+      "left_m": -1024,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "e795123abb396c92f76545c43a887fbf8328f21656327f63f33293c34d639667"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/relief_r01/assets/water_0_2.png",
+      "left_m": -1024,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "0e6ad3ab58360e7769bb40bf6c2e77162b89919ac0e6f7ec57a5bc066b528963"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/relief_r01/assets/ground_1_2.png",
+      "left_m": -512,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "e43cccd4af08a104b54e18a4a63686107fe9fa21f70a6656f3f185f2cb8cb452"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/relief_r01/assets/water_1_2.png",
+      "left_m": -512,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "4ccc93300248a9d80e8f7ca5783e6de9633b11de0caf2b7102f10aada0b5b7d1"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/relief_r01/assets/ground_2_2.png",
+      "left_m": 0,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "096af805fb04b55d06af25c32bf64d7fa93480eee9a1d514a99375bdbd6c35d4"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/relief_r01/assets/water_2_2.png",
+      "left_m": 0,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "27cbcd6689dcfaf947c9b24a201c604b90488d7e7eea2bd74a109269ed7d8065"
+    },
+    {
+      "kind": "ground",
+      "path": "res://v02/relief_r01/assets/ground_3_2.png",
+      "left_m": 512,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "f8e15e89d99c004fb74bb08f1909e7de39a71c70f0de0e31cdc84bcf0e801e8b"
+    },
+    {
+      "kind": "water",
+      "path": "res://v02/relief_r01/assets/water_3_2.png",
+      "left_m": 512,
+      "top_m": 0,
+      "core_px": 1024,
+      "gutter_px": 32,
+      "ppm": 2,
+      "sha256": "196e078d8a4cab3a32c6f272d67a426279c3019d3be8ffe06f4d1f6760dcfb20"
+    }
+  ],
+  "tests": [
+    {
+      "id": "0_0",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "1_0",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "2_0",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "3_0",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "0_1",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "1_1",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "2_1",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "3_1",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "0_2",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "1_2",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "2_2",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "3_2",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    }
+  ],
+  "context": {
+    "bounds_m": [
+      -12000,
+      -8000,
+      24000,
+      16000
+    ],
+    "pixel_size": [
+      2400,
+      1600
+    ]
+  },
+  "notes": [
+    "TPI/curvature identify candidate landform structure, not historical or hydrological authority",
+    "No ground displacement, height-based land-cover classification or tile contrast normalisation",
+    "Base-level linear sampling only; no unsupported deep mip claim"
+  ]
+}

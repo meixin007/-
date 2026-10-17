@@ -1,0 +1,3 @@
+{
+  "reason": "Repository uses * -text and baseline CRLF files. Default git diff --check treats new CR as trailing whitespace. Recheck enables cr-at-eol while retaining trailing blank and indentation checks; no source bytes changed."
+}

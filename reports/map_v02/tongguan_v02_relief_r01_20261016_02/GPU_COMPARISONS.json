@@ -1,0 +1,141 @@
+{
+  "rows": [
+    {
+      "a": "zoom_0_42_paged.png",
+      "b": "zoom_0_42_reference.png",
+      "case": "zoom_0_42",
+      "expect_equal": true,
+      "frozen_max_channel_delta": 1,
+      "roi": [
+        20,
+        96,
+        1600,
+        940
+      ],
+      "passed": true,
+      "max_channel_delta": 1,
+      "differing_pixels": 1480,
+      "pixels": 1504000
+    },
+    {
+      "a": "zoom_0_84_paged.png",
+      "b": "zoom_0_84_reference.png",
+      "case": "zoom_0_84",
+      "expect_equal": true,
+      "frozen_max_channel_delta": 1,
+      "roi": [
+        20,
+        96,
+        1600,
+        940
+      ],
+      "passed": true,
+      "max_channel_delta": 1,
+      "differing_pixels": 1990,
+      "pixels": 1504000
+    },
+    {
+      "a": "zoom_1_4_paged.png",
+      "b": "zoom_1_4_reference.png",
+      "case": "zoom_1_4",
+      "expect_equal": true,
+      "frozen_max_channel_delta": 1,
+      "roi": [
+        20,
+        96,
+        1600,
+        940
+      ],
+      "passed": true,
+      "max_channel_delta": 1,
+      "differing_pixels": 1300,
+      "pixels": 1504000
+    },
+    {
+      "a": "zoom_2_4_paged.png",
+      "b": "zoom_2_4_reference.png",
+      "case": "zoom_2_4",
+      "expect_equal": true,
+      "frozen_max_channel_delta": 1,
+      "roi": [
+        20,
+        96,
+        1600,
+        940
+      ],
+      "passed": true,
+      "max_channel_delta": 1,
+      "differing_pixels": 835,
+      "pixels": 1504000
+    },
+    {
+      "a": "junction_-512_0_paged.png",
+      "b": "junction_-512_0_reference.png",
+      "case": "junction_-512_0",
+      "expect_equal": true,
+      "frozen_max_channel_delta": 1,
+      "roi": [
+        20,
+        96,
+        1600,
+        940
+      ],
+      "passed": true,
+      "max_channel_delta": 1,
+      "differing_pixels": 835,
+      "pixels": 1504000
+    },
+    {
+      "a": "junction_0_-512_paged.png",
+      "b": "junction_0_-512_reference.png",
+      "case": "junction_0_-512",
+      "expect_equal": true,
+      "frozen_max_channel_delta": 1,
+      "roi": [
+        20,
+        96,
+        1600,
+        940
+      ],
+      "passed": true,
+      "max_channel_delta": 1,
+      "differing_pixels": 461,
+      "pixels": 1504000
+    },
+    {
+      "a": "junction_512_0_paged.png",
+      "b": "junction_512_0_reference.png",
+      "case": "junction_512_0",
+      "expect_equal": true,
+      "frozen_max_channel_delta": 1,
+      "roi": [
+        20,
+        96,
+        1600,
+        940
+      ],
+      "passed": true,
+      "max_channel_delta": 1,
+      "differing_pixels": 1510,
+      "pixels": 1504000
+    },
+    {
+      "a": "injected_page_displacement_paged.png",
+      "b": "injected_page_displacement_reference.png",
+      "case": "injected_page_displacement",
+      "expect_equal": false,
+      "frozen_max_channel_delta": 1,
+      "roi": [
+        20,
+        96,
+        1600,
+        940
+      ],
+      "passed": true,
+      "max_channel_delta": 50,
+      "differing_pixels": 507485,
+      "pixels": 1504000
+    }
+  ],
+  "scope": "actual1600x940 map crop in actual1920x1080 native buffer; max delta frozen at1 before run; negative control requires mismatch"
+}

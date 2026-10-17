@@ -1,0 +1,1 @@
+{"passed": true, "files": 1475, "images": 171, "source_files": 594, "adapted_export_presets": 2, "baseline_commit": "62546a547895e1a6185904ad60bf15fa58c03244", "credential_scan_hits": [], "errors": []}

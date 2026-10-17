@@ -1,0 +1,6 @@
+{
+	"checks": 3,
+	"failures": [
+		"actual older-host fixture directory supplied"
+	]
+}

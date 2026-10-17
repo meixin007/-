@@ -1,0 +1,1784 @@
+{
+  "build_id": "tongguan_v02_s0_20261015_05",
+  "stage": "S0",
+  "status": "technical_candidate_pending_user_review",
+  "source_passed": true,
+  "native_compatibility_passed": true,
+  "correctness_passed": true,
+  "all_percentile_budgets_passed": true,
+  "all_performance_runs_eligible": true,
+  "phase_coverage_passed": true,
+  "runtime_source_hash_mismatches": [],
+  "performance": [
+    {
+      "name": "01_legacy_60s",
+      "mode": "legacy",
+      "seconds": 60.003428,
+      "p95_ms": 7.374,
+      "p99_ms": 8.799,
+      "max_ms": 14.28,
+      "long_frame_counts": {
+        "over_100ms": 0,
+        "over_33ms": 0,
+        "over_50ms": 0
+      },
+      "samples": 14364,
+      "execution_passed": true,
+      "eligible": true,
+      "percentile_budget_passed": true,
+      "dimensions": {
+        "content_scale_factor": 1.0,
+        "content_scale_mode": 2,
+        "content_scale_size": [
+          1920,
+          1080
+        ],
+        "display_server": "Windows",
+        "engine": {
+          "build": "official",
+          "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+          "hex": 263681,
+          "major": 4,
+          "minor": 6,
+          "patch": 1,
+          "status": "stable",
+          "string": "4.6.1-stable (official)",
+          "timestamp": 0
+        },
+        "rendering_method": "gl_compatibility",
+        "screen_dpi": 96,
+        "video_adapter": "NVIDIA GeForce RTX 4060",
+        "video_api_version": "3.3.0 NVIDIA 616.92",
+        "video_vendor": "NVIDIA",
+        "viewport_texture_px": [
+          1920,
+          1080
+        ],
+        "window_client_px": [
+          1920,
+          1080
+        ],
+        "window_size_px": [
+          1920,
+          1080
+        ]
+      },
+      "camera_phases": [
+        "forest",
+        "gate",
+        "near_gate",
+        "overview",
+        "region",
+        "terrain"
+      ],
+      "windows_metrics": {
+        "private_peak_bytes": 379363328,
+        "gpu_dedicated_peak_bytes": 87900160,
+        "sampling_target_ms": 100
+      },
+      "resources": {
+        "async_attach_count": 6,
+        "estimate_model": "RGBA8 plus complete mip chain; cache-owned textures only; not measured VRAM",
+        "release_count": null,
+        "release_status": "not_instrumented",
+        "request_count": 10,
+        "request_failures": [],
+        "requests": [
+          {
+            "kind": "sync",
+            "path": "res://bundle/terrain_fallback.png",
+            "result": 0,
+            "since_engine_start_usec": 722793
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/slope.png",
+            "result": 0,
+            "since_engine_start_usec": 734326
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/gate_eastwest.png",
+            "result": 0,
+            "since_engine_start_usec": 778658
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/trees.png",
+            "result": 0,
+            "since_engine_start_usec": 832429
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_0.png",
+            "result": 0,
+            "since_engine_start_usec": 832773
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_0.png",
+            "result": 0,
+            "since_engine_start_usec": 832782
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_0.png",
+            "result": 0,
+            "since_engine_start_usec": 832790
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_256.png",
+            "result": 0,
+            "since_engine_start_usec": 832796
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_256.png",
+            "result": 0,
+            "since_engine_start_usec": 832800
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_256.png",
+            "result": 0,
+            "since_engine_start_usec": 832804
+          }
+        ],
+        "resident_terrain_pages": 6,
+        "resident_textures": [
+          {
+            "estimated_bytes": 79840,
+            "height": 100,
+            "path": "res://bundle/terrain_fallback.png",
+            "resource_id": -9223372010229332642,
+            "width": 150
+          },
+          {
+            "estimated_bytes": 1279840,
+            "height": 400,
+            "path": "res://bundle/slope.png",
+            "resource_id": -9223372009927342742,
+            "width": 600
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/gate_eastwest.png",
+            "resource_id": -9223372009424026259,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/trees.png",
+            "resource_id": -9223372009021373073,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 371624,
+            "height": 264,
+            "path": "res://bundle/terrain/0_0.png",
+            "resource_id": -9223372008216066702,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 382908,
+            "height": 264,
+            "path": "res://bundle/terrain/256_0.png",
+            "resource_id": -9223372007947631260,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 135148,
+            "height": 264,
+            "path": "res://bundle/terrain/512_0.png",
+            "resource_id": -9223372008014740123,
+            "width": 96
+          },
+          {
+            "estimated_bytes": 213928,
+            "height": 152,
+            "path": "res://bundle/terrain/0_256.png",
+            "resource_id": -9223372008081848989,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 220424,
+            "height": 152,
+            "path": "res://bundle/terrain/256_256.png",
+            "resource_id": -9223372007175879308,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 77796,
+            "height": 152,
+            "path": "res://bundle/terrain/512_256.png",
+            "resource_id": -9223372006890666650,
+            "width": 96
+          }
+        ],
+        "resident_unique_textures": 10,
+        "unique_estimated_bytes": 19538716
+      },
+      "tree_plan_rebuilds": 8261,
+      "tree_candidates": 594792,
+      "tree_submissions": 163614
+    },
+    {
+      "name": "02_v02_60s",
+      "mode": "v02",
+      "seconds": 60.003212,
+      "p95_ms": 7.362,
+      "p99_ms": 8.7,
+      "max_ms": 13.371,
+      "long_frame_counts": {
+        "over_100ms": 0,
+        "over_33ms": 0,
+        "over_50ms": 0
+      },
+      "samples": 14434,
+      "execution_passed": true,
+      "eligible": true,
+      "percentile_budget_passed": true,
+      "dimensions": {
+        "content_scale_factor": 1.0,
+        "content_scale_mode": 2,
+        "content_scale_size": [
+          1920,
+          1080
+        ],
+        "display_server": "Windows",
+        "engine": {
+          "build": "official",
+          "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+          "hex": 263681,
+          "major": 4,
+          "minor": 6,
+          "patch": 1,
+          "status": "stable",
+          "string": "4.6.1-stable (official)",
+          "timestamp": 0
+        },
+        "rendering_method": "gl_compatibility",
+        "screen_dpi": 96,
+        "video_adapter": "NVIDIA GeForce RTX 4060",
+        "video_api_version": "3.3.0 NVIDIA 616.92",
+        "video_vendor": "NVIDIA",
+        "viewport_texture_px": [
+          1920,
+          1080
+        ],
+        "window_client_px": [
+          1920,
+          1080
+        ],
+        "window_size_px": [
+          1920,
+          1080
+        ]
+      },
+      "camera_phases": [
+        "forest",
+        "gate",
+        "near_gate",
+        "overview",
+        "region",
+        "terrain"
+      ],
+      "windows_metrics": {
+        "private_peak_bytes": 376733696,
+        "gpu_dedicated_peak_bytes": 87900160,
+        "sampling_target_ms": 100
+      },
+      "resources": {
+        "async_attach_count": 6,
+        "estimate_model": "RGBA8 plus complete mip chain; cache-owned textures only; not measured VRAM",
+        "release_count": null,
+        "release_status": "not_instrumented",
+        "request_count": 10,
+        "request_failures": [],
+        "requests": [
+          {
+            "kind": "sync",
+            "path": "res://bundle/terrain_fallback.png",
+            "result": 0,
+            "since_engine_start_usec": 697599
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/slope.png",
+            "result": 0,
+            "since_engine_start_usec": 708773
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/gate_eastwest.png",
+            "result": 0,
+            "since_engine_start_usec": 767030
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/trees.png",
+            "result": 0,
+            "since_engine_start_usec": 823603
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_0.png",
+            "result": 0,
+            "since_engine_start_usec": 823939
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_0.png",
+            "result": 0,
+            "since_engine_start_usec": 823947
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_0.png",
+            "result": 0,
+            "since_engine_start_usec": 823954
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_256.png",
+            "result": 0,
+            "since_engine_start_usec": 823960
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_256.png",
+            "result": 0,
+            "since_engine_start_usec": 823966
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_256.png",
+            "result": 0,
+            "since_engine_start_usec": 823970
+          }
+        ],
+        "resident_terrain_pages": 6,
+        "resident_textures": [
+          {
+            "estimated_bytes": 79840,
+            "height": 100,
+            "path": "res://bundle/terrain_fallback.png",
+            "resource_id": -9223372010229332642,
+            "width": 150
+          },
+          {
+            "estimated_bytes": 1279840,
+            "height": 400,
+            "path": "res://bundle/slope.png",
+            "resource_id": -9223372009927342742,
+            "width": 600
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/gate_eastwest.png",
+            "resource_id": -9223372009424026259,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/trees.png",
+            "resource_id": -9223372009021373073,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 371624,
+            "height": 264,
+            "path": "res://bundle/terrain/0_0.png",
+            "resource_id": -9223372008216066703,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 382908,
+            "height": 264,
+            "path": "res://bundle/terrain/256_0.png",
+            "resource_id": -9223372008132180626,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 135148,
+            "height": 264,
+            "path": "res://bundle/terrain/512_0.png",
+            "resource_id": -9223372008065071771,
+            "width": 96
+          },
+          {
+            "estimated_bytes": 213928,
+            "height": 152,
+            "path": "res://bundle/terrain/0_256.png",
+            "resource_id": -9223372007997962894,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 220424,
+            "height": 152,
+            "path": "res://bundle/terrain/256_256.png",
+            "resource_id": -9223372007343651453,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 77796,
+            "height": 152,
+            "path": "res://bundle/terrain/512_256.png",
+            "resource_id": -9223372006890666631,
+            "width": 96
+          }
+        ],
+        "resident_unique_textures": 10,
+        "unique_estimated_bytes": 19538716
+      },
+      "tree_plan_rebuilds": 8279,
+      "tree_candidates": 596088,
+      "tree_submissions": 165381
+    },
+    {
+      "name": "03_v02_60s",
+      "mode": "v02",
+      "seconds": 60.002871,
+      "p95_ms": 7.332,
+      "p99_ms": 8.927,
+      "max_ms": 12.53,
+      "long_frame_counts": {
+        "over_100ms": 0,
+        "over_33ms": 0,
+        "over_50ms": 0
+      },
+      "samples": 14363,
+      "execution_passed": true,
+      "eligible": true,
+      "percentile_budget_passed": true,
+      "dimensions": {
+        "content_scale_factor": 1.0,
+        "content_scale_mode": 2,
+        "content_scale_size": [
+          1920,
+          1080
+        ],
+        "display_server": "Windows",
+        "engine": {
+          "build": "official",
+          "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+          "hex": 263681,
+          "major": 4,
+          "minor": 6,
+          "patch": 1,
+          "status": "stable",
+          "string": "4.6.1-stable (official)",
+          "timestamp": 0
+        },
+        "rendering_method": "gl_compatibility",
+        "screen_dpi": 96,
+        "video_adapter": "NVIDIA GeForce RTX 4060",
+        "video_api_version": "3.3.0 NVIDIA 616.92",
+        "video_vendor": "NVIDIA",
+        "viewport_texture_px": [
+          1920,
+          1080
+        ],
+        "window_client_px": [
+          1920,
+          1080
+        ],
+        "window_size_px": [
+          1920,
+          1080
+        ]
+      },
+      "camera_phases": [
+        "forest",
+        "gate",
+        "near_gate",
+        "overview",
+        "region",
+        "terrain"
+      ],
+      "windows_metrics": {
+        "private_peak_bytes": 376377344,
+        "gpu_dedicated_peak_bytes": 87900160,
+        "sampling_target_ms": 100
+      },
+      "resources": {
+        "async_attach_count": 6,
+        "estimate_model": "RGBA8 plus complete mip chain; cache-owned textures only; not measured VRAM",
+        "release_count": null,
+        "release_status": "not_instrumented",
+        "request_count": 10,
+        "request_failures": [],
+        "requests": [
+          {
+            "kind": "sync",
+            "path": "res://bundle/terrain_fallback.png",
+            "result": 0,
+            "since_engine_start_usec": 726340
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/slope.png",
+            "result": 0,
+            "since_engine_start_usec": 737666
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/gate_eastwest.png",
+            "result": 0,
+            "since_engine_start_usec": 795958
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/trees.png",
+            "result": 0,
+            "since_engine_start_usec": 853082
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_0.png",
+            "result": 0,
+            "since_engine_start_usec": 853424
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_0.png",
+            "result": 0,
+            "since_engine_start_usec": 853433
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_0.png",
+            "result": 0,
+            "since_engine_start_usec": 853438
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_256.png",
+            "result": 0,
+            "since_engine_start_usec": 853443
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_256.png",
+            "result": 0,
+            "since_engine_start_usec": 853452
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_256.png",
+            "result": 0,
+            "since_engine_start_usec": 853457
+          }
+        ],
+        "resident_terrain_pages": 6,
+        "resident_textures": [
+          {
+            "estimated_bytes": 79840,
+            "height": 100,
+            "path": "res://bundle/terrain_fallback.png",
+            "resource_id": -9223372010229332642,
+            "width": 150
+          },
+          {
+            "estimated_bytes": 1279840,
+            "height": 400,
+            "path": "res://bundle/slope.png",
+            "resource_id": -9223372009927342742,
+            "width": 600
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/gate_eastwest.png",
+            "resource_id": -9223372009424026259,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/trees.png",
+            "resource_id": -9223372009021373073,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 371624,
+            "height": 264,
+            "path": "res://bundle/terrain/0_0.png",
+            "resource_id": -9223372008081848983,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 382908,
+            "height": 264,
+            "path": "res://bundle/terrain/256_0.png",
+            "resource_id": -9223372007947631256,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 135148,
+            "height": 264,
+            "path": "res://bundle/terrain/512_0.png",
+            "resource_id": -9223372008014740106,
+            "width": 96
+          },
+          {
+            "estimated_bytes": 213928,
+            "height": 152,
+            "path": "res://bundle/terrain/0_256.png",
+            "resource_id": -9223372008165735053,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 220424,
+            "height": 152,
+            "path": "res://bundle/terrain/256_256.png",
+            "resource_id": -9223372007326874248,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 77796,
+            "height": 152,
+            "path": "res://bundle/terrain/512_256.png",
+            "resource_id": -9223372006890666627,
+            "width": 96
+          }
+        ],
+        "resident_unique_textures": 10,
+        "unique_estimated_bytes": 19538716
+      },
+      "tree_plan_rebuilds": 8311,
+      "tree_candidates": 598392,
+      "tree_submissions": 165318
+    },
+    {
+      "name": "04_legacy_60s",
+      "mode": "legacy",
+      "seconds": 60.002782,
+      "p95_ms": 7.474,
+      "p99_ms": 8.59,
+      "max_ms": 13.048,
+      "long_frame_counts": {
+        "over_100ms": 0,
+        "over_33ms": 0,
+        "over_50ms": 0
+      },
+      "samples": 14137,
+      "execution_passed": true,
+      "eligible": true,
+      "percentile_budget_passed": true,
+      "dimensions": {
+        "content_scale_factor": 1.0,
+        "content_scale_mode": 2,
+        "content_scale_size": [
+          1920,
+          1080
+        ],
+        "display_server": "Windows",
+        "engine": {
+          "build": "official",
+          "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+          "hex": 263681,
+          "major": 4,
+          "minor": 6,
+          "patch": 1,
+          "status": "stable",
+          "string": "4.6.1-stable (official)",
+          "timestamp": 0
+        },
+        "rendering_method": "gl_compatibility",
+        "screen_dpi": 96,
+        "video_adapter": "NVIDIA GeForce RTX 4060",
+        "video_api_version": "3.3.0 NVIDIA 616.92",
+        "video_vendor": "NVIDIA",
+        "viewport_texture_px": [
+          1920,
+          1080
+        ],
+        "window_client_px": [
+          1920,
+          1080
+        ],
+        "window_size_px": [
+          1920,
+          1080
+        ]
+      },
+      "camera_phases": [
+        "forest",
+        "gate",
+        "near_gate",
+        "overview",
+        "region",
+        "terrain"
+      ],
+      "windows_metrics": {
+        "private_peak_bytes": 379863040,
+        "gpu_dedicated_peak_bytes": 87900160,
+        "sampling_target_ms": 100
+      },
+      "resources": {
+        "async_attach_count": 6,
+        "estimate_model": "RGBA8 plus complete mip chain; cache-owned textures only; not measured VRAM",
+        "release_count": null,
+        "release_status": "not_instrumented",
+        "request_count": 10,
+        "request_failures": [],
+        "requests": [
+          {
+            "kind": "sync",
+            "path": "res://bundle/terrain_fallback.png",
+            "result": 0,
+            "since_engine_start_usec": 734283
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/slope.png",
+            "result": 0,
+            "since_engine_start_usec": 741849
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/gate_eastwest.png",
+            "result": 0,
+            "since_engine_start_usec": 792732
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/trees.png",
+            "result": 0,
+            "since_engine_start_usec": 840501
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_0.png",
+            "result": 0,
+            "since_engine_start_usec": 840794
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_0.png",
+            "result": 0,
+            "since_engine_start_usec": 840803
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_0.png",
+            "result": 0,
+            "since_engine_start_usec": 840810
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_256.png",
+            "result": 0,
+            "since_engine_start_usec": 840823
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_256.png",
+            "result": 0,
+            "since_engine_start_usec": 840829
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_256.png",
+            "result": 0,
+            "since_engine_start_usec": 840836
+          }
+        ],
+        "resident_terrain_pages": 6,
+        "resident_textures": [
+          {
+            "estimated_bytes": 79840,
+            "height": 100,
+            "path": "res://bundle/terrain_fallback.png",
+            "resource_id": -9223372010229332642,
+            "width": 150
+          },
+          {
+            "estimated_bytes": 1279840,
+            "height": 400,
+            "path": "res://bundle/slope.png",
+            "resource_id": -9223372009927342742,
+            "width": 600
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/gate_eastwest.png",
+            "resource_id": -9223372009424026259,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/trees.png",
+            "resource_id": -9223372009021373073,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 371624,
+            "height": 264,
+            "path": "res://bundle/terrain/0_0.png",
+            "resource_id": -9223372008249621147,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 382908,
+            "height": 264,
+            "path": "res://bundle/terrain/256_0.png",
+            "resource_id": -9223372008081848986,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 135148,
+            "height": 264,
+            "path": "res://bundle/terrain/512_0.png",
+            "resource_id": -9223372008014740110,
+            "width": 96
+          },
+          {
+            "estimated_bytes": 213928,
+            "height": 152,
+            "path": "res://bundle/terrain/0_256.png",
+            "resource_id": -9223372007947631239,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 220424,
+            "height": 152,
+            "path": "res://bundle/terrain/256_256.png",
+            "resource_id": -9223372007259765378,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 77796,
+            "height": 152,
+            "path": "res://bundle/terrain/512_256.png",
+            "resource_id": -9223372006890666622,
+            "width": 96
+          }
+        ],
+        "resident_unique_textures": 10,
+        "unique_estimated_bytes": 19538716
+      },
+      "tree_plan_rebuilds": 8277,
+      "tree_candidates": 595944,
+      "tree_submissions": 162571
+    },
+    {
+      "name": "05_legacy_60s",
+      "mode": "legacy",
+      "seconds": 60.004388,
+      "p95_ms": 7.404,
+      "p99_ms": 8.54,
+      "max_ms": 12.582,
+      "long_frame_counts": {
+        "over_100ms": 0,
+        "over_33ms": 0,
+        "over_50ms": 0
+      },
+      "samples": 14514,
+      "execution_passed": true,
+      "eligible": true,
+      "percentile_budget_passed": true,
+      "dimensions": {
+        "content_scale_factor": 1.0,
+        "content_scale_mode": 2,
+        "content_scale_size": [
+          1920,
+          1080
+        ],
+        "display_server": "Windows",
+        "engine": {
+          "build": "official",
+          "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+          "hex": 263681,
+          "major": 4,
+          "minor": 6,
+          "patch": 1,
+          "status": "stable",
+          "string": "4.6.1-stable (official)",
+          "timestamp": 0
+        },
+        "rendering_method": "gl_compatibility",
+        "screen_dpi": 96,
+        "video_adapter": "NVIDIA GeForce RTX 4060",
+        "video_api_version": "3.3.0 NVIDIA 616.92",
+        "video_vendor": "NVIDIA",
+        "viewport_texture_px": [
+          1920,
+          1080
+        ],
+        "window_client_px": [
+          1920,
+          1080
+        ],
+        "window_size_px": [
+          1920,
+          1080
+        ]
+      },
+      "camera_phases": [
+        "forest",
+        "gate",
+        "near_gate",
+        "overview",
+        "region",
+        "terrain"
+      ],
+      "windows_metrics": {
+        "private_peak_bytes": 373604352,
+        "gpu_dedicated_peak_bytes": 87900160,
+        "sampling_target_ms": 100
+      },
+      "resources": {
+        "async_attach_count": 6,
+        "estimate_model": "RGBA8 plus complete mip chain; cache-owned textures only; not measured VRAM",
+        "release_count": null,
+        "release_status": "not_instrumented",
+        "request_count": 10,
+        "request_failures": [],
+        "requests": [
+          {
+            "kind": "sync",
+            "path": "res://bundle/terrain_fallback.png",
+            "result": 0,
+            "since_engine_start_usec": 706127
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/slope.png",
+            "result": 0,
+            "since_engine_start_usec": 717463
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/gate_eastwest.png",
+            "result": 0,
+            "since_engine_start_usec": 762884
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/trees.png",
+            "result": 0,
+            "since_engine_start_usec": 804709
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_0.png",
+            "result": 0,
+            "since_engine_start_usec": 805055
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_0.png",
+            "result": 0,
+            "since_engine_start_usec": 805064
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_0.png",
+            "result": 0,
+            "since_engine_start_usec": 805071
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_256.png",
+            "result": 0,
+            "since_engine_start_usec": 805078
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_256.png",
+            "result": 0,
+            "since_engine_start_usec": 805087
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_256.png",
+            "result": 0,
+            "since_engine_start_usec": 805092
+          }
+        ],
+        "resident_terrain_pages": 6,
+        "resident_textures": [
+          {
+            "estimated_bytes": 79840,
+            "height": 100,
+            "path": "res://bundle/terrain_fallback.png",
+            "resource_id": -9223372010229332642,
+            "width": 150
+          },
+          {
+            "estimated_bytes": 1279840,
+            "height": 400,
+            "path": "res://bundle/slope.png",
+            "resource_id": -9223372009927342742,
+            "width": 600
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/gate_eastwest.png",
+            "resource_id": -9223372009424026259,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/trees.png",
+            "resource_id": -9223372009021373073,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 371624,
+            "height": 264,
+            "path": "res://bundle/terrain/0_0.png",
+            "resource_id": -9223372007947631247,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 382908,
+            "height": 264,
+            "path": "res://bundle/terrain/256_0.png",
+            "resource_id": -9223372008165735058,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 135148,
+            "height": 264,
+            "path": "res://bundle/terrain/512_0.png",
+            "resource_id": -9223372008232843933,
+            "width": 96
+          },
+          {
+            "estimated_bytes": 213928,
+            "height": 152,
+            "path": "res://bundle/terrain/0_256.png",
+            "resource_id": -9223372008014740110,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 220424,
+            "height": 152,
+            "path": "res://bundle/terrain/256_256.png",
+            "resource_id": -9223372007444314779,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 77796,
+            "height": 152,
+            "path": "res://bundle/terrain/512_256.png",
+            "resource_id": -9223372006840334969,
+            "width": 96
+          }
+        ],
+        "resident_unique_textures": 10,
+        "unique_estimated_bytes": 19538716
+      },
+      "tree_plan_rebuilds": 8308,
+      "tree_candidates": 598176,
+      "tree_submissions": 165677
+    },
+    {
+      "name": "06_v02_60s",
+      "mode": "v02",
+      "seconds": 60.001771,
+      "p95_ms": 7.406,
+      "p99_ms": 8.823,
+      "max_ms": 10.813,
+      "long_frame_counts": {
+        "over_100ms": 0,
+        "over_33ms": 0,
+        "over_50ms": 0
+      },
+      "samples": 14329,
+      "execution_passed": true,
+      "eligible": true,
+      "percentile_budget_passed": true,
+      "dimensions": {
+        "content_scale_factor": 1.0,
+        "content_scale_mode": 2,
+        "content_scale_size": [
+          1920,
+          1080
+        ],
+        "display_server": "Windows",
+        "engine": {
+          "build": "official",
+          "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+          "hex": 263681,
+          "major": 4,
+          "minor": 6,
+          "patch": 1,
+          "status": "stable",
+          "string": "4.6.1-stable (official)",
+          "timestamp": 0
+        },
+        "rendering_method": "gl_compatibility",
+        "screen_dpi": 96,
+        "video_adapter": "NVIDIA GeForce RTX 4060",
+        "video_api_version": "3.3.0 NVIDIA 616.92",
+        "video_vendor": "NVIDIA",
+        "viewport_texture_px": [
+          1920,
+          1080
+        ],
+        "window_client_px": [
+          1920,
+          1080
+        ],
+        "window_size_px": [
+          1920,
+          1080
+        ]
+      },
+      "camera_phases": [
+        "forest",
+        "gate",
+        "near_gate",
+        "overview",
+        "region",
+        "terrain"
+      ],
+      "windows_metrics": {
+        "private_peak_bytes": 379056128,
+        "gpu_dedicated_peak_bytes": 87900160,
+        "sampling_target_ms": 100
+      },
+      "resources": {
+        "async_attach_count": 6,
+        "estimate_model": "RGBA8 plus complete mip chain; cache-owned textures only; not measured VRAM",
+        "release_count": null,
+        "release_status": "not_instrumented",
+        "request_count": 10,
+        "request_failures": [],
+        "requests": [
+          {
+            "kind": "sync",
+            "path": "res://bundle/terrain_fallback.png",
+            "result": 0,
+            "since_engine_start_usec": 727965
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/slope.png",
+            "result": 0,
+            "since_engine_start_usec": 739342
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/gate_eastwest.png",
+            "result": 0,
+            "since_engine_start_usec": 785336
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/trees.png",
+            "result": 0,
+            "since_engine_start_usec": 843171
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_0.png",
+            "result": 0,
+            "since_engine_start_usec": 843558
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_0.png",
+            "result": 0,
+            "since_engine_start_usec": 843566
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_0.png",
+            "result": 0,
+            "since_engine_start_usec": 843574
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_256.png",
+            "result": 0,
+            "since_engine_start_usec": 843581
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_256.png",
+            "result": 0,
+            "since_engine_start_usec": 843585
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_256.png",
+            "result": 0,
+            "since_engine_start_usec": 843591
+          }
+        ],
+        "resident_terrain_pages": 6,
+        "resident_textures": [
+          {
+            "estimated_bytes": 79840,
+            "height": 100,
+            "path": "res://bundle/terrain_fallback.png",
+            "resource_id": -9223372010229332642,
+            "width": 150
+          },
+          {
+            "estimated_bytes": 1279840,
+            "height": 400,
+            "path": "res://bundle/slope.png",
+            "resource_id": -9223372009927342742,
+            "width": 600
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/gate_eastwest.png",
+            "resource_id": -9223372009424026259,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/trees.png",
+            "resource_id": -9223372009021373073,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 371624,
+            "height": 264,
+            "path": "res://bundle/terrain/0_0.png",
+            "resource_id": -9223372008232843919,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 382908,
+            "height": 264,
+            "path": "res://bundle/terrain/256_0.png",
+            "resource_id": -9223372007947631240,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 135148,
+            "height": 264,
+            "path": "res://bundle/terrain/512_0.png",
+            "resource_id": -9223372008081848978,
+            "width": 96
+          },
+          {
+            "estimated_bytes": 213928,
+            "height": 152,
+            "path": "res://bundle/terrain/0_256.png",
+            "resource_id": -9223372008148957847,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 220424,
+            "height": 152,
+            "path": "res://bundle/terrain/256_256.png",
+            "resource_id": -9223372007427537563,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 77796,
+            "height": 152,
+            "path": "res://bundle/terrain/512_256.png",
+            "resource_id": -9223372006974552695,
+            "width": 96
+          }
+        ],
+        "resident_unique_textures": 10,
+        "unique_estimated_bytes": 19538716
+      },
+      "tree_plan_rebuilds": 8133,
+      "tree_candidates": 585576,
+      "tree_submissions": 163237
+    },
+    {
+      "name": "07_legacy_300s",
+      "mode": "legacy",
+      "seconds": 300.003795,
+      "p95_ms": 7.496,
+      "p99_ms": 8.968,
+      "max_ms": 23.415,
+      "long_frame_counts": {
+        "over_100ms": 0,
+        "over_33ms": 0,
+        "over_50ms": 0
+      },
+      "samples": 71505,
+      "execution_passed": true,
+      "eligible": true,
+      "percentile_budget_passed": true,
+      "dimensions": {
+        "content_scale_factor": 1.0,
+        "content_scale_mode": 2,
+        "content_scale_size": [
+          1920,
+          1080
+        ],
+        "display_server": "Windows",
+        "engine": {
+          "build": "official",
+          "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+          "hex": 263681,
+          "major": 4,
+          "minor": 6,
+          "patch": 1,
+          "status": "stable",
+          "string": "4.6.1-stable (official)",
+          "timestamp": 0
+        },
+        "rendering_method": "gl_compatibility",
+        "screen_dpi": 96,
+        "video_adapter": "NVIDIA GeForce RTX 4060",
+        "video_api_version": "3.3.0 NVIDIA 616.92",
+        "video_vendor": "NVIDIA",
+        "viewport_texture_px": [
+          1920,
+          1080
+        ],
+        "window_client_px": [
+          1920,
+          1080
+        ],
+        "window_size_px": [
+          1920,
+          1080
+        ]
+      },
+      "camera_phases": [
+        "forest",
+        "gate",
+        "near_gate",
+        "overview",
+        "region",
+        "terrain"
+      ],
+      "windows_metrics": {
+        "private_peak_bytes": 380616704,
+        "gpu_dedicated_peak_bytes": 87900160,
+        "sampling_target_ms": 100
+      },
+      "resources": {
+        "async_attach_count": 6,
+        "estimate_model": "RGBA8 plus complete mip chain; cache-owned textures only; not measured VRAM",
+        "release_count": null,
+        "release_status": "not_instrumented",
+        "request_count": 10,
+        "request_failures": [],
+        "requests": [
+          {
+            "kind": "sync",
+            "path": "res://bundle/terrain_fallback.png",
+            "result": 0,
+            "since_engine_start_usec": 729468
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/slope.png",
+            "result": 0,
+            "since_engine_start_usec": 741634
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/gate_eastwest.png",
+            "result": 0,
+            "since_engine_start_usec": 789972
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/trees.png",
+            "result": 0,
+            "since_engine_start_usec": 848403
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_0.png",
+            "result": 0,
+            "since_engine_start_usec": 848783
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_0.png",
+            "result": 0,
+            "since_engine_start_usec": 848791
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_0.png",
+            "result": 0,
+            "since_engine_start_usec": 848797
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_256.png",
+            "result": 0,
+            "since_engine_start_usec": 848805
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_256.png",
+            "result": 0,
+            "since_engine_start_usec": 848810
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_256.png",
+            "result": 0,
+            "since_engine_start_usec": 848814
+          }
+        ],
+        "resident_terrain_pages": 6,
+        "resident_textures": [
+          {
+            "estimated_bytes": 79840,
+            "height": 100,
+            "path": "res://bundle/terrain_fallback.png",
+            "resource_id": -9223372010229332642,
+            "width": 150
+          },
+          {
+            "estimated_bytes": 1279840,
+            "height": 400,
+            "path": "res://bundle/slope.png",
+            "resource_id": -9223372009927342742,
+            "width": 600
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/gate_eastwest.png",
+            "resource_id": -9223372009424026259,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/trees.png",
+            "resource_id": -9223372009021373073,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 371624,
+            "height": 264,
+            "path": "res://bundle/terrain/0_0.png",
+            "resource_id": -9223372008232843929,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 382908,
+            "height": 264,
+            "path": "res://bundle/terrain/256_0.png",
+            "resource_id": -9223372008065071759,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 135148,
+            "height": 264,
+            "path": "res://bundle/terrain/512_0.png",
+            "resource_id": -9223372008132180626,
+            "width": 96
+          },
+          {
+            "estimated_bytes": 213928,
+            "height": 152,
+            "path": "res://bundle/terrain/0_256.png",
+            "resource_id": -9223372007997962888,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 220424,
+            "height": 152,
+            "path": "res://bundle/terrain/256_256.png",
+            "resource_id": -9223372007343651467,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 77796,
+            "height": 152,
+            "path": "res://bundle/terrain/512_256.png",
+            "resource_id": -9223372006907443846,
+            "width": 96
+          }
+        ],
+        "resident_unique_textures": 10,
+        "unique_estimated_bytes": 19538716
+      },
+      "tree_plan_rebuilds": 40938,
+      "tree_candidates": 2947536,
+      "tree_submissions": 811113
+    },
+    {
+      "name": "08_v02_300s",
+      "mode": "v02",
+      "seconds": 300.001287,
+      "p95_ms": 7.315,
+      "p99_ms": 8.563,
+      "max_ms": 12.473,
+      "long_frame_counts": {
+        "over_100ms": 0,
+        "over_33ms": 0,
+        "over_50ms": 0
+      },
+      "samples": 72345,
+      "execution_passed": true,
+      "eligible": true,
+      "percentile_budget_passed": true,
+      "dimensions": {
+        "content_scale_factor": 1.0,
+        "content_scale_mode": 2,
+        "content_scale_size": [
+          1920,
+          1080
+        ],
+        "display_server": "Windows",
+        "engine": {
+          "build": "official",
+          "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+          "hex": 263681,
+          "major": 4,
+          "minor": 6,
+          "patch": 1,
+          "status": "stable",
+          "string": "4.6.1-stable (official)",
+          "timestamp": 0
+        },
+        "rendering_method": "gl_compatibility",
+        "screen_dpi": 96,
+        "video_adapter": "NVIDIA GeForce RTX 4060",
+        "video_api_version": "3.3.0 NVIDIA 616.92",
+        "video_vendor": "NVIDIA",
+        "viewport_texture_px": [
+          1920,
+          1080
+        ],
+        "window_client_px": [
+          1920,
+          1080
+        ],
+        "window_size_px": [
+          1920,
+          1080
+        ]
+      },
+      "camera_phases": [
+        "forest",
+        "gate",
+        "near_gate",
+        "overview",
+        "region",
+        "terrain"
+      ],
+      "windows_metrics": {
+        "private_peak_bytes": 378232832,
+        "gpu_dedicated_peak_bytes": 87900160,
+        "sampling_target_ms": 100
+      },
+      "resources": {
+        "async_attach_count": 6,
+        "estimate_model": "RGBA8 plus complete mip chain; cache-owned textures only; not measured VRAM",
+        "release_count": null,
+        "release_status": "not_instrumented",
+        "request_count": 10,
+        "request_failures": [],
+        "requests": [
+          {
+            "kind": "sync",
+            "path": "res://bundle/terrain_fallback.png",
+            "result": 0,
+            "since_engine_start_usec": 866171
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/slope.png",
+            "result": 0,
+            "since_engine_start_usec": 878136
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/gate_eastwest.png",
+            "result": 0,
+            "since_engine_start_usec": 927578
+          },
+          {
+            "kind": "sync",
+            "path": "res://bundle/art/trees.png",
+            "result": 0,
+            "since_engine_start_usec": 994332
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_0.png",
+            "result": 0,
+            "since_engine_start_usec": 994690
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_0.png",
+            "result": 0,
+            "since_engine_start_usec": 994705
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_0.png",
+            "result": 0,
+            "since_engine_start_usec": 994728
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/0_256.png",
+            "result": 0,
+            "since_engine_start_usec": 994739
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/256_256.png",
+            "result": 0,
+            "since_engine_start_usec": 994744
+          },
+          {
+            "kind": "threaded",
+            "path": "res://bundle/terrain/512_256.png",
+            "result": 0,
+            "since_engine_start_usec": 994793
+          }
+        ],
+        "resident_terrain_pages": 6,
+        "resident_textures": [
+          {
+            "estimated_bytes": 79840,
+            "height": 100,
+            "path": "res://bundle/terrain_fallback.png",
+            "resource_id": -9223372010229332642,
+            "width": 150
+          },
+          {
+            "estimated_bytes": 1279840,
+            "height": 400,
+            "path": "res://bundle/slope.png",
+            "resource_id": -9223372009927342742,
+            "width": 600
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/gate_eastwest.png",
+            "resource_id": -9223372009424026259,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 8388604,
+            "height": 1024,
+            "path": "res://bundle/art/trees.png",
+            "resource_id": -9223372009021373073,
+            "width": 1536
+          },
+          {
+            "estimated_bytes": 371624,
+            "height": 264,
+            "path": "res://bundle/terrain/0_0.png",
+            "resource_id": -9223372008132180637,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 382908,
+            "height": 264,
+            "path": "res://bundle/terrain/256_0.png",
+            "resource_id": -9223372008065071768,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 135148,
+            "height": 264,
+            "path": "res://bundle/terrain/512_0.png",
+            "resource_id": -9223372008216066702,
+            "width": 96
+          },
+          {
+            "estimated_bytes": 213928,
+            "height": 152,
+            "path": "res://bundle/terrain/0_256.png",
+            "resource_id": -9223372007997962898,
+            "width": 264
+          },
+          {
+            "estimated_bytes": 220424,
+            "height": 152,
+            "path": "res://bundle/terrain/256_256.png",
+            "resource_id": -9223372007477869199,
+            "width": 272
+          },
+          {
+            "estimated_bytes": 77796,
+            "height": 152,
+            "path": "res://bundle/terrain/512_256.png",
+            "resource_id": -9223372007058438778,
+            "width": 96
+          }
+        ],
+        "resident_unique_textures": 10,
+        "unique_estimated_bytes": 19538716
+      },
+      "tree_plan_rebuilds": 41709,
+      "tree_candidates": 3003048,
+      "tree_submissions": 824196
+    }
+  ],
+  "validation": [
+    {
+      "name": "plugin_source",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "plugin-source/verify_source.py"
+      ],
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "name": "repository",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "verify_repository.py"
+      ],
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "name": "sealed_protection",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "tools/verify_review_protection.py"
+      ],
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "name": "git_whitespace",
+      "command": [
+        "git",
+        "-c",
+        "core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "passed": true
+    }
+  ],
+  "streaming_implemented": false,
+  "visual_acceptance": "not_run_S0_legacy_art",
+  "history_acceptance": "not_run",
+  "nationwide_capacity": "not_tested",
+  "long_frame_attribution": "no_frames_over_33ms_in_valid_profiles; invalid_04_not_attributed",
+  "next_stage_started": false,
+  "user_acceptance": "pending",
+  "branch": "codex/tongguan-v02-s0",
+  "source_parent": "62546a547895e1a6185904ad60bf15fa58c03244"
+}

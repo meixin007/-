@@ -1,0 +1,14 @@
+{
+  "Start-V1.cmd": {
+    "sha256": "d9d8d7acb7cb8244f3282c8ab4a3dd4c6b6774d961cf6a489d908c69dd694261",
+    "bytes": 53
+  },
+  "TongguanV1.exe": {
+    "sha256": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "bytes": 104576512
+  },
+  "TongguanV1.pck": {
+    "sha256": "b496eb831a5e29e851030872688bc6d9ff310ea2573b95c48f9af4bba91e995c",
+    "bytes": 25642524
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "command": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "tools/verify_review_protection.py"
+  ],
+  "exit_code": 0,
+  "diagnostics": [],
+  "passed": true
+}

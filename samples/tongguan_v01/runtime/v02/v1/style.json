@@ -1,0 +1,245 @@
+{
+  "style_id": "tang_ink_wash_v02_candidate_a01",
+  "candidate_number": 1,
+  "visual_review": "pending",
+  "reference_images": {
+    "selected_gate": "res://bundle/art/gate_eastwest.png",
+    "tree_atlas": "res://bundle/art/trees.png",
+    "original_city_and_empty_terrain_images": "not_located; no exact-match claim"
+  },
+  "cameras": {
+    "composition": {
+      "name": "关河组合",
+      "center_m": [
+        0,
+        -270
+      ],
+      "zoom": 0.84
+    },
+    "gate": {
+      "name": "关楼与接点",
+      "center_m": [
+        20,
+        -20
+      ],
+      "zoom": 2.1
+    },
+    "shore": {
+      "name": "连续坡岸",
+      "center_m": [
+        -60,
+        -600
+      ],
+      "zoom": 1.4
+    },
+    "courtyard": {
+      "name": "院落与接路",
+      "center_m": [
+        -490,
+        -220
+      ],
+      "zoom": 2.4
+    }
+  },
+  "assets": {
+    "gate": {
+      "path": "res://bundle/art/gate_eastwest.png",
+      "anchor_px": [
+        665,
+        690
+      ],
+      "width_m": 330,
+      "source": "existing selected gate, unchanged",
+      "sockets_px": {
+        "north": [
+          544,
+          268
+        ],
+        "south": [
+          1097,
+          956
+        ]
+      },
+      "sha256": "971dbffc6bfe5c947e5f9541fb68c12d5712f23c26bfd94566c904880c7fe16d"
+    },
+    "wall_ns": {
+      "path": "res://v02/v1/assets/wall_ns_v01.png",
+      "anchor_px": [
+        433,
+        390
+      ],
+      "pixel_scale_m": 0.14,
+      "sockets_px": {
+        "back": [
+          433,
+          390
+        ],
+        "front": [
+          1058,
+          900
+        ]
+      },
+      "source": "built-in image_gen, new isolated candidate",
+      "sha256": "17f0dec19928e4ed4b344d8e786d7d26b3f49da89da60948dd1aa98a19f71478",
+      "south_mating_px": [
+        490.142857,
+        404.285714
+      ],
+      "south_insertion_m": [
+        8,
+        2
+      ],
+      "north_insertion_m": [
+        7,
+        6
+      ]
+    },
+    "warehouse": {
+      "path": "res://v02/v1/assets/warehouse_v01.png",
+      "anchor_px": [
+        788,
+        660
+      ],
+      "width_m": 80,
+      "ground_polygon_m": [
+        [
+          -21.77,
+          -7.29
+        ],
+        [
+          -1.98,
+          12.24
+        ],
+        [
+          21.98,
+          -0.52
+        ],
+        [
+          2.19,
+          -12.5
+        ]
+      ],
+      "source": "built-in image_gen, new isolated candidate",
+      "sha256": "0f24ffb5c1305eb34c4433eab7d0180e35880e98c4cf0c90bd4b49d2b1fc6e16"
+    },
+    "tree_willow": {
+      "path": "res://bundle/art/trees.png",
+      "rect_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "anchor_px": [
+        256,
+        399.36
+      ],
+      "width_m": 80,
+      "source": "existing atlas region, unchanged",
+      "sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11"
+    },
+    "tree_grove": {
+      "path": "res://bundle/art/trees.png",
+      "rect_px": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "anchor_px": [
+        256,
+        399.36
+      ],
+      "width_m": 80,
+      "source": "existing atlas region, unchanged",
+      "sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11"
+    }
+  },
+  "sample_trees_m": [
+    [
+      -850,
+      -450
+    ],
+    [
+      -785,
+      -470
+    ],
+    [
+      -710,
+      -455
+    ],
+    [
+      -810,
+      -385
+    ],
+    [
+      -730,
+      -380
+    ],
+    [
+      -310,
+      -430
+    ],
+    [
+      -240,
+      -455
+    ],
+    [
+      -170,
+      -410
+    ],
+    [
+      120,
+      -365
+    ],
+    [
+      190,
+      -340
+    ],
+    [
+      180,
+      -265
+    ],
+    [
+      -850,
+      450
+    ],
+    [
+      -780,
+      440
+    ]
+  ],
+  "palette": {
+    "paper": "e4dcc2",
+    "land": "c5c3a0",
+    "ridge": "999c79",
+    "shadow": "8e9477",
+    "water": "91b7b6",
+    "deep_water": "7a9da1",
+    "shore": "bbb28e",
+    "road": "d2bb8c",
+    "ink": "555346",
+    "wall": "ddcdb0",
+    "roof": "788394",
+    "tree": "899274"
+  },
+  "sun_direction_screen": [
+    -0.6,
+    -0.8
+  ],
+  "ground_axes": {
+    "map_east": [
+      1,
+      0
+    ],
+    "map_south": [
+      0,
+      1
+    ],
+    "sprite_foreshortening": "fixed in original raster assets; no camera rotation"
+  },
+  "line_weight_at_1x": "approximately 0.7-1.2 px at gate review camera",
+  "component_count": 12,
+  "new_painted_assets": 2,
+  "scope": "isolated presentation candidate; no saved-map, ID, layout, movement or registry changes"
+}

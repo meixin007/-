@@ -1,0 +1,35 @@
+{
+  "stage": "V1",
+  "build_id": "tongguan_v02_v1_20261015_04",
+  "style_id": "tang_ink_wash_v02_candidate_a01",
+  "manifest_sha256": "273a6cc7df4ed91d1be3d7e15af26b0e9ab0cb0463a96e2011873e806f6cc773",
+  "style_sha256": "87b8eec44e10acb0aff09855e348581f7b461c8058713619021ffbe2b4689b81",
+  "status": "accepted",
+  "author": "user",
+  "opinion": "通过，继续",
+  "decision_date": "2026-10-16",
+  "timezone": "America/Anchorage",
+  "scope": "overall submitted V1 composition and style direction",
+  "cameras": [
+    "composition",
+    "gate",
+    "shore",
+    "courtyard"
+  ],
+  "per_camera_individual_opinions": null,
+  "approved_assets": {
+    "gate": "971dbffc6bfe5c947e5f9541fb68c12d5712f23c26bfd94566c904880c7fe16d",
+    "wall_ns": "17f0dec19928e4ed4b344d8e786d7d26b3f49da89da60948dd1aa98a19f71478",
+    "warehouse": "0f24ffb5c1305eb34c4433eab7d0180e35880e98c4cf0c90bd4b49d2b1fc6e16",
+    "tree_willow": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+    "tree_grove": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11"
+  },
+  "supersedes_pending_record": "reports/map_v02/tongguan_v02_v1_20261015_04/visual_review.json",
+  "frozen_delivery_unchanged": true,
+  "does_not_approve": [
+    "historical accuracy",
+    "nationwide capacity",
+    "Q1",
+    "unshown art variants"
+  ]
+}

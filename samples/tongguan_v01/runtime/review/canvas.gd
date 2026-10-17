@@ -139,6 +139,7 @@ func _draw()->void:
 	if baseline_view:
 		super._draw()
 		return
+	get_node("/root/Session").visual_service.begin_draw()
 	draw_rect(Rect2(Vector2.ZERO,size),Color("8db3ba"))
 	if model==null or font==null or policy.is_empty() or not model.load_error.is_empty():return
 	# Static local-meter geometry is packed/triangulated once. Subtract the
@@ -170,7 +171,7 @@ func _draw()->void:
 		# Extend the visible design line to the real rear-road socket. It remains dashed.
 		_path(model.host.layout.fixed_refs.main_corridor,Color("b5996c",0.8),maxf(1.2,model.zoom*3),true)
 	if show_trees and model.lod>=2:
-		var plan=Instances.plan(model.host.authoring.generated.values())
+		var plan=get_node("/root/Session").visual_service.plan_instances(model.host.authoring.generated.values())
 		for entry in plan.entries:_tree(entry.record)
 	if model.lod>=2:_courtyards()
 	_registered_routes()

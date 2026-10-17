@@ -1,0 +1,6 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+E2_QUERY_SCALE 1000 visible=4 candidates=4
+E2_QUERY_SCALE 10000 visible=4 candidates=4
+E2_QUERY_SCALE 100000 visible=4 candidates=4
+E2_SOURCE {"checks":98,"failures":[]}

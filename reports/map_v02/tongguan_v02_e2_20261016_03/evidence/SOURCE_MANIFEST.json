@@ -1,0 +1,77 @@
+{
+  "stage": "E2",
+  "build_id": "tongguan_v02_e2_20261016_03",
+  "e1_manifest_sha256": "2b6b21027431695589083ba2e4548703a4127e835c2c1ffc6ba02c807c452d46",
+  "files": [
+    {
+      "path": "samples/tongguan_v01/runtime/tests/v02/test_e2_query.gd",
+      "sha256": "727061c0570b885c81a4ee8b28fe8086920ec95ddf75198f9880bd74f5c01a6a",
+      "bytes": 1339
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e1/checks.gd",
+      "sha256": "1e67f94a68731c68da0ac6b928618ae6829e1f167561805670655ff9f52b210e",
+      "bytes": 8740
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e1/package_loader.gd",
+      "sha256": "dc5c7dc7479c5b4838cb7d9920886be0fae49a8e158e9e2460ab54081b907568",
+      "bytes": 15264
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e2/app.gd",
+      "sha256": "f981c51687427ab6b91eab14827b73ec1f405b5ea8962c285a57e0fe062b78e9",
+      "bytes": 6121
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e2/boot.gd",
+      "sha256": "32f9a65a71c69a18ed5de0050c38c2cf43dccf10bb37eec6110d7bd7b90daac9",
+      "bytes": 1249
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e2/contract_checks.gd",
+      "sha256": "2c47912f47be528396cb482b94aee92a7231dc7ac81b5731ce98d667c71f622c",
+      "bytes": 13190
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e2/main.tscn",
+      "sha256": "d744f7624f803354f3966e1972017fc327cdf634d2659b486d16cc0cd2c2be0b",
+      "bytes": 152
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e2/map_renderer.gd",
+      "sha256": "3eb24df620dc53cac451303d2de13dfa854fe3296e2b58387c00b4ef89168456",
+      "bytes": 6042
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e2/runtime_checks.gd",
+      "sha256": "1cac50885bed7fb852b98c9c62486e4d9a3557fa53c637b2ea8f12731b655e27",
+      "bytes": 8664
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e2/source_adapter.gd",
+      "sha256": "4b698fd7a7616040c6cc45bbaa45258fe2e3868451dc63e3f7d41531f8cce70f",
+      "bytes": 1249
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e2/spatial_index.gd",
+      "sha256": "ecc694b86213e2b06f6cda3f26808662c4555aad00d0af56304ed52b8dacca52",
+      "bytes": 11527
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e2/submission_audit.gd",
+      "sha256": "9f3c2eb173f131d647c2ded116aa4c42f29cd5ff01a3e776672d60bac8778c97",
+      "bytes": 1593
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e2/visibility_planner.gd",
+      "sha256": "93b8bbaf6e88a22b7d84cd250a51936d78ade0952573c01d99fc6f82b54df362",
+      "bytes": 2866
+    },
+    {
+      "path": "tools/map_v02/e2_build.py",
+      "sha256": "b59cbe00adf609153442684414b7014387f610df0a92cced2f7769937c9cf738",
+      "bytes": 5918
+    }
+  ]
+}

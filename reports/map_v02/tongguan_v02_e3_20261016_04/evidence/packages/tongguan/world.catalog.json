@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "build_id": "tongguan_v02_e3_20261016_04_tongguan",
+  "compatibility": {
+    "coordinate_sha256": "83da0e5d4de76147f6a3fb2d0d93f283c0b02fda2cfc8d20b7df6c5c9af98113",
+    "fixed_refs_sha256": "9d2227e73f45c7be59ecbbac53f7857481b654111a51de66855685a3915d2b67",
+    "graph_version": "tongguan_controlled_corridor_r3_v01",
+    "layout_slots_sha256": "4afb38378d473beafcdc99704a6fe42510bbf116307b54d1c72984d2871866c1",
+    "layout_version": "tongguan_p4_layout_v02",
+    "site_id": "tongguan",
+    "world_id": "tongguan_final_validation_v1"
+  },
+  "coordinates": {
+    "origin_albers_m": [
+      477044.711902475,
+      -145119.51498939
+    ],
+    "projection_wkt": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"Unknown based on WGS 84 ellipsoid\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",7030]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8901]]],CONVERSION[\"unknown\",METHOD[\"Albers Equal Area\",ID[\"EPSG\",9822]],PARAMETER[\"Latitude of false origin\",36,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8821]],PARAMETER[\"Longitude of false origin\",105,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8822]],PARAMETER[\"Latitude of 1st standard parallel\",25,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8823]],PARAMETER[\"Latitude of 2nd standard parallel\",47,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8824]],PARAMETER[\"Easting at false origin\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8826]],PARAMETER[\"Northing at false origin\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8827]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]",
+    "publication": {
+      "anchor_feature_id": "tongguan.gate.main",
+      "site_id": "tongguan",
+      "source_origin_m": [
+        15000.0,
+        10000.0
+      ],
+      "unit": "meter"
+    },
+    "screen_axis": "local x east in Albers, local y south; no claim that Albers grid north equals true north"
+  },
+  "bounds_m": [
+    -12000,
+    -8000,
+    24000,
+    16000
+  ],
+  "pages": [
+    {
+      "id": "overview",
+      "level": 0,
+      "x": 0,
+      "y": 0,
+      "bounds_m": [
+        -12000,
+        -8000,
+        24000,
+        16000
+      ],
+      "parent_id": "",
+      "texture_files": [
+        "terrain/overview.png.bin"
+      ],
+      "texture_sha256": "f67d357996b50fe4f24ef75ffa7afce9b720e9a25f53c589f4016201bc0c3313",
+      "core_px": [
+        150,
+        100
+      ],
+      "gutter_px": 0,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_tongguan",
+      "object_ids": [
+        "manual.1",
+        "tongguan.decor.forest_east.0.4",
+        "tongguan.decor.forest_east.0.6",
+        "tongguan.decor.forest_east.1.1",
+        "tongguan.decor.forest_east.1.3",
+        "tongguan.decor.forest_east.1.4",
+        "tongguan.decor.forest_east.1.5",
+        "tongguan.decor.forest_east.1.6",
+        "tongguan.decor.forest_east.2.0",
+        "tongguan.decor.forest_east.2.1",
+        "tongguan.decor.forest_east.2.2",
+        "tongguan.decor.forest_east.2.4",
+        "tongguan.decor.forest_east.2.5",
+        "tongguan.decor.forest_east.3.0",
+        "tongguan.decor.forest_east.3.1",
+        "tongguan.decor.forest_east.3.2",
+        "tongguan.decor.forest_east.3.5",
+        "tongguan.decor.forest_east.3.6",
+        "tongguan.decor.forest_east.4.0",
+        "tongguan.decor.forest_east.4.1",
+        "tongguan.decor.forest_east.4.2",
+        "tongguan.decor.forest_east.4.5",
+        "tongguan.decor.forest_east.5.0",
+        "tongguan.decor.forest_east.5.2",
+        "tongguan.decor.forest_east.5.3",
+        "tongguan.decor.forest_east.5.5",
+        "tongguan.decor.forest_east.5.6",
+        "tongguan.decor.forest_east.6.1",
+        "tongguan.decor.forest_east.6.2",
+        "tongguan.decor.forest_east.6.4",
+        "tongguan.decor.forest_east.6.5",
+        "tongguan.decor.forest_east.7.1",
+        "tongguan.decor.forest_east.7.2",
+        "tongguan.decor.forest_east.7.3",
+        "tongguan.decor.forest_east.7.4",
+        "tongguan.decor.forest_east.7.5",
+        "tongguan.decor.forest_east.8.0",
+        "tongguan.decor.forest_east.8.1",
+        "tongguan.decor.forest_east.8.3",
+        "tongguan.decor.forest_east.8.5",
+        "tongguan.decor.forest_east.8.6",
+        "tongguan.decor.forest_east.9.1",
+        "tongguan.decor.forest_east.9.2",
+        "tongguan.decor.forest_east.9.4",
+        "tongguan.decor.forest_east.9.5",
+        "tongguan.decor.forest_east.9.6",
+        "tongguan.decor.forest_west.0.0",
+        "tongguan.decor.forest_west.0.1",
+        "tongguan.decor.forest_west.0.2",
+        "tongguan.decor.forest_west.0.3",
+        "tongguan.decor.forest_west.1.0",
+        "tongguan.decor.forest_west.1.1",
+        "tongguan.decor.forest_west.2.4",
+        "tongguan.decor.forest_west.2.6",
+        "tongguan.decor.forest_west.3.5",
+        "tongguan.decor.forest_west.3.6",
+        "tongguan.decor.forest_west.4.6",
+        "tongguan.decor.forest_west.4.7",
+        "tongguan.decor.forest_west.5.1",
+        "tongguan.decor.forest_west.5.5",
+        "tongguan.decor.forest_west.5.6",
+        "tongguan.decor.forest_west.6.3",
+        "tongguan.decor.forest_west.6.5",
+        "tongguan.decor.forest_west.7.0",
+        "tongguan.decor.forest_west.7.1",
+        "tongguan.decor.forest_west.7.4",
+        "tongguan.decor.forest_west.8.0",
+        "tongguan.decor.forest_west.8.1",
+        "tongguan.decor.forest_west.8.2",
+        "tongguan.decor.forest_west.8.4",
+        "tongguan.decor.forest_west.8.5",
+        "tongguan.decor.forest_west.9.3",
+        "tongguan.gate.main",
+        "presentation.main_corridor",
+        "tongguan.road.rear",
+        "tongguan.road.connector"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "detail_0_0",
+      "level": 1,
+      "x": -2,
+      "y": -2,
+      "bounds_m": [
+        -1024,
+        -1024,
+        512,
+        512
+      ],
+      "parent_id": "overview",
+      "texture_files": [
+        "terrain/ground_0_0.png.bin",
+        "terrain/water_0_0.png.bin"
+      ],
+      "texture_sha256": "62a5614614940e09c2ebf52325ed4cdfad0e67bc300da109ef568f89eb11e45c",
+      "core_px": [
+        1024,
+        1024
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_tongguan",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "detail_0_1",
+      "level": 1,
+      "x": -2,
+      "y": -1,
+      "bounds_m": [
+        -1024,
+        -512,
+        512,
+        512
+      ],
+      "parent_id": "overview",
+      "texture_files": [
+        "terrain/ground_0_1.png.bin",
+        "terrain/water_0_1.png.bin"
+      ],
+      "texture_sha256": "5bdaeffc942c690c145e7152a0259abcfdfd63085297856d272f44308dd8ecd0",
+      "core_px": [
+        1024,
+        1024
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_tongguan",
+      "object_ids": [
+        "presentation.main_corridor",
+        "tongguan.road.rear",
+        "tongguan.road.connector"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "detail_0_2",
+      "level": 1,
+      "x": -2,
+      "y": 0,
+      "bounds_m": [
+        -1024,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "overview",
+      "texture_files": [
+        "terrain/ground_0_2.png.bin",
+        "terrain/water_0_2.png.bin"
+      ],
+      "texture_sha256": "2a3ccc7a77f56b2565f62876a05c3a7adf2ddd3e2c6c4fba8471ef07b1ce4231",
+      "core_px": [
+        1024,
+        1024
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_tongguan",
+      "object_ids": [
+        "presentation.main_corridor"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "detail_1_0",
+      "level": 1,
+      "x": -1,
+      "y": -2,
+      "bounds_m": [
+        -512,
+        -1024,
+        512,
+        512
+      ],
+      "parent_id": "overview",
+      "texture_files": [
+        "terrain/ground_1_0.png.bin",
+        "terrain/water_1_0.png.bin"
+      ],
+      "texture_sha256": "53a02d594e7cf622c5a294d71e280971ea716667580c3660fbd9aaa31f37a657",
+      "core_px": [
+        1024,
+        1024
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_tongguan",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "detail_1_1",
+      "level": 1,
+      "x": -1,
+      "y": -1,
+      "bounds_m": [
+        -512,
+        -512,
+        512,
+        512
+      ],
+      "parent_id": "overview",
+      "texture_files": [
+        "terrain/ground_1_1.png.bin",
+        "terrain/water_1_1.png.bin"
+      ],
+      "texture_sha256": "b8faf6caed906d64d67fae9b2e2274c199906eba1ab033ca3d42baa016021ae6",
+      "core_px": [
+        1024,
+        1024
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_tongguan",
+      "object_ids": [
+        "tongguan.gate.main",
+        "presentation.main_corridor",
+        "tongguan.road.rear"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "detail_1_2",
+      "level": 1,
+      "x": -1,
+      "y": 0,
+      "bounds_m": [
+        -512,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "overview",
+      "texture_files": [
+        "terrain/ground_1_2.png.bin",
+        "terrain/water_1_2.png.bin"
+      ],
+      "texture_sha256": "f73984b452b7f6ca0d242e6af6aceb04e57d5d7ba7f030566efb6a892279bdb0",
+      "core_px": [
+        1024,
+        1024
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_tongguan",
+      "object_ids": [
+        "tongguan.gate.main",
+        "presentation.main_corridor"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "detail_2_0",
+      "level": 1,
+      "x": 0,
+      "y": -2,
+      "bounds_m": [
+        0,
+        -1024,
+        512,
+        512
+      ],
+      "parent_id": "overview",
+      "texture_files": [
+        "terrain/ground_2_0.png.bin",
+        "terrain/water_2_0.png.bin"
+      ],
+      "texture_sha256": "028473351c94bf8102262c0406e8d53b5712f9682f6ea28caffb0ebc53eb4e46",
+      "core_px": [
+        1024,
+        1024
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_tongguan",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "detail_2_1",
+      "level": 1,
+      "x": 0,
+      "y": -1,
+      "bounds_m": [
+        0,
+        -512,
+        512,
+        512
+      ],
+      "parent_id": "overview",
+      "texture_files": [
+        "terrain/ground_2_1.png.bin",
+        "terrain/water_2_1.png.bin"
+      ],
+      "texture_sha256": "7e2b6f18507e08f99ea720a0599ba9a6e8fedfe63b6577355148f2a5c5105663",
+      "core_px": [
+        1024,
+        1024
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_tongguan",
+      "object_ids": [
+        "tongguan.gate.main",
+        "presentation.main_corridor"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "detail_2_2",
+      "level": 1,
+      "x": 0,
+      "y": 0,
+      "bounds_m": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "overview",
+      "texture_files": [
+        "terrain/ground_2_2.png.bin",
+        "terrain/water_2_2.png.bin"
+      ],
+      "texture_sha256": "de19c9b9eefd7ec0dbcf3e5a850934cc2acc0948ecb948f089412d11a269fc59",
+      "core_px": [
+        1024,
+        1024
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_tongguan",
+      "object_ids": [
+        "tongguan.gate.main",
+        "presentation.main_corridor"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "detail_3_0",
+      "level": 1,
+      "x": 1,
+      "y": -2,
+      "bounds_m": [
+        512,
+        -1024,
+        512,
+        512
+      ],
+      "parent_id": "overview",
+      "texture_files": [
+        "terrain/ground_3_0.png.bin",
+        "terrain/water_3_0.png.bin"
+      ],
+      "texture_sha256": "157eac65f77afb49d8ebf78cdbb1dbe62bce7af67e2e3389cf5df861ca0ec047",
+      "core_px": [
+        1024,
+        1024
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_tongguan",
+      "object_ids": [],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "detail_3_1",
+      "level": 1,
+      "x": 1,
+      "y": -1,
+      "bounds_m": [
+        512,
+        -512,
+        512,
+        512
+      ],
+      "parent_id": "overview",
+      "texture_files": [
+        "terrain/ground_3_1.png.bin",
+        "terrain/water_3_1.png.bin"
+      ],
+      "texture_sha256": "3957bc7450116ed05073c5f85e25600cbe7c4fb84350c0fa082c6d3a5457c734",
+      "core_px": [
+        1024,
+        1024
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_tongguan",
+      "object_ids": [
+        "presentation.main_corridor"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    },
+    {
+      "id": "detail_3_2",
+      "level": 1,
+      "x": 1,
+      "y": 0,
+      "bounds_m": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "parent_id": "overview",
+      "texture_files": [
+        "terrain/ground_3_2.png.bin",
+        "terrain/water_3_2.png.bin"
+      ],
+      "texture_sha256": "e46aa04705ca0a71cb63146459657c55bc891edb254a075366a527bf40a861ba",
+      "core_px": [
+        1024,
+        1024
+      ],
+      "gutter_px": 4,
+      "allowed_mip_levels": [
+        0
+      ],
+      "optional": false,
+      "build_id": "tongguan_v02_e3_20261016_04_tongguan",
+      "object_ids": [
+        "presentation.main_corridor"
+      ],
+      "object_shards": [
+        "instances/objects.json"
+      ]
+    }
+  ],
+  "art_bundle": "assets/art_bundle.json",
+  "object_shards": [
+    "instances/objects.json"
+  ],
+  "sites": "settlements/sites.json",
+  "provenance": "receipts/provenance.json"
+}

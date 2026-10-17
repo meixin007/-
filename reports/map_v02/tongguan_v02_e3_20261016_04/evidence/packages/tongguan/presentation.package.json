@@ -1,0 +1,424 @@
+{
+  "schema_id": "tongguan.presentation_package",
+  "schema_version": 1,
+  "build_id": "tongguan_v02_e3_20261016_04_tongguan",
+  "compiler_version": "e1_compiler_v1",
+  "source_commit": "62546a547895e1a6185904ad60bf15fa58c03244",
+  "compatibility": {
+    "coordinate_sha256": "83da0e5d4de76147f6a3fb2d0d93f283c0b02fda2cfc8d20b7df6c5c9af98113",
+    "fixed_refs_sha256": "9d2227e73f45c7be59ecbbac53f7857481b654111a51de66855685a3915d2b67",
+    "graph_version": "tongguan_controlled_corridor_r3_v01",
+    "layout_slots_sha256": "4afb38378d473beafcdc99704a6fe42510bbf116307b54d1c72984d2871866c1",
+    "layout_version": "tongguan_p4_layout_v02",
+    "site_id": "tongguan",
+    "world_id": "tongguan_final_validation_v1"
+  },
+  "style_id": "tang_ink_wash_v02_candidate_a01",
+  "visual_review_sha256": "2754632ffd3d556c7efae20553799578839424bae23f87e758d4b895bf4c3b38",
+  "catalog": "world.catalog.json",
+  "files": [
+    {
+      "path": "assets/trees.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+      "resource_path": "assets/trees.png",
+      "pixel_sha256": "72f662e22266cfdff4c911e198a5df22304222d7caa7f6cb88467502a621a8b4",
+      "pixel_size": [
+        1536,
+        1024
+      ],
+      "estimated_rgba8_bytes": 6291456
+    },
+    {
+      "path": "assets/gate_eastwest.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "971dbffc6bfe5c947e5f9541fb68c12d5712f23c26bfd94566c904880c7fe16d",
+      "resource_path": "assets/gate_eastwest.png",
+      "pixel_sha256": "b1d956d370a1a6f7f8a8acfd033af745424ee2149df438acbc2a8f1b95afa8d6",
+      "pixel_size": [
+        1536,
+        1024
+      ],
+      "estimated_rgba8_bytes": 6291456
+    },
+    {
+      "path": "assets/art_bundle.json",
+      "kind": "json",
+      "required": true,
+      "sha256": "3ec9a242d1e72079c5cf5be75ff03d62ea7980b6c3652420d02e2c7288e521c3"
+    },
+    {
+      "path": "terrain/overview.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "f67d357996b50fe4f24ef75ffa7afce9b720e9a25f53c589f4016201bc0c3313",
+      "resource_path": "terrain/overview.png",
+      "pixel_sha256": "f1154625a6dafca5c42606e8773461b449aa2c3771564a7cab50c5462c653ece",
+      "pixel_size": [
+        150,
+        100
+      ],
+      "estimated_rgba8_bytes": 60000
+    },
+    {
+      "path": "terrain/ground_0_0.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "62a5614614940e09c2ebf52325ed4cdfad0e67bc300da109ef568f89eb11e45c",
+      "resource_path": "terrain/ground_0_0.png",
+      "pixel_sha256": "94aeaeff022cb430a5204133cfe88f6515f4259a641843af5eaa8cfe281e642b",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/water_0_0.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "8ba9be9ba9a450c9c95955308467f581a4dcde83223375bcecb440e0febe8b21",
+      "resource_path": "terrain/water_0_0.png",
+      "pixel_sha256": "d74311829edf75c3b3ef9aea01b084a4d0c59ff9eb172b7b570fbaf428671dfb",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/ground_1_0.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "53a02d594e7cf622c5a294d71e280971ea716667580c3660fbd9aaa31f37a657",
+      "resource_path": "terrain/ground_1_0.png",
+      "pixel_sha256": "9adfc7d368f974a06af7f09e2f038a58d5e9b08d5a1851096534bed80b0f6a02",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/water_1_0.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "31ee01a51ebcdf06488803bac850dd45d5a2315dc0e16ebbe37f1ba67fef2121",
+      "resource_path": "terrain/water_1_0.png",
+      "pixel_sha256": "81ffe94d62e514aee3d79a376b07115456745271f70f8ca1bab6df629958d1f3",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/ground_2_0.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "028473351c94bf8102262c0406e8d53b5712f9682f6ea28caffb0ebc53eb4e46",
+      "resource_path": "terrain/ground_2_0.png",
+      "pixel_sha256": "a0dd7ce94e550f956f942c7ca31f21bbaad5e33427518e74bfa96bb980fbb755",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/water_2_0.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "fb121b637e56ea2611323ff67c8b2a6adaba47f8dbc0cfc1e750ac92693be993",
+      "resource_path": "terrain/water_2_0.png",
+      "pixel_sha256": "393656375459d68f344a2d2420af77ee7229d821f0ff85151ff741bd34746f36",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/ground_3_0.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "157eac65f77afb49d8ebf78cdbb1dbe62bce7af67e2e3389cf5df861ca0ec047",
+      "resource_path": "terrain/ground_3_0.png",
+      "pixel_sha256": "7e8f618ceb16770852b18515870c1605a5d291fb0d4d205d6b28026e366f30d9",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/water_3_0.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "b109c75e2dc781f8f8f2b68cb211e864cd9c2a98714ac4b8ca7951313ccf79e6",
+      "resource_path": "terrain/water_3_0.png",
+      "pixel_sha256": "864c8aef583d96cf8823d5f65f5614e357b84466ddb520fb9cc21ee75833db34",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/ground_0_1.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "5bdaeffc942c690c145e7152a0259abcfdfd63085297856d272f44308dd8ecd0",
+      "resource_path": "terrain/ground_0_1.png",
+      "pixel_sha256": "e4652a1400b587796cd7f7afc3ceb51c4f51a805558f9fcb1d536d340ef5f96c",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/water_0_1.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "da41fa02af52727ff92d9de4d1dbf4538b3cdb8e0afcc5f93564f6be673f0a1e",
+      "resource_path": "terrain/water_0_1.png",
+      "pixel_sha256": "778bc5a8efc6074963c883dd99c15b21281d63b538e049d2ddc013ab851822ca",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/ground_1_1.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "b8faf6caed906d64d67fae9b2e2274c199906eba1ab033ca3d42baa016021ae6",
+      "resource_path": "terrain/ground_1_1.png",
+      "pixel_sha256": "793c7ddef403bc56de3e72621e6fb087665ef4e75283e4c20c0266de422e10c3",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/water_1_1.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "8f3199b24781377f9ea16551ced88beac938b239ad901bf6287a943440015920",
+      "resource_path": "terrain/water_1_1.png",
+      "pixel_sha256": "3ac8e82a9b1080b0fe30b09372f62b5e8c8b8c7fa334946cdfa6edcbdd73a5a1",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/ground_2_1.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "7e2b6f18507e08f99ea720a0599ba9a6e8fedfe63b6577355148f2a5c5105663",
+      "resource_path": "terrain/ground_2_1.png",
+      "pixel_sha256": "a3354b55ca43805f4a9b2f7fbe8f8ea7ef4c3ecf6b8daa8a01c99afd94bcb5bb",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/water_2_1.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "281672dcc61bb26a2e02911f63254107190b676e49d3eabfb6c917455710fefb",
+      "resource_path": "terrain/water_2_1.png",
+      "pixel_sha256": "26daf605c011270eeef94310f741b7cf8d2ea8a42aef7ea5ab6d3cfebbcd9c15",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/ground_3_1.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "3957bc7450116ed05073c5f85e25600cbe7c4fb84350c0fa082c6d3a5457c734",
+      "resource_path": "terrain/ground_3_1.png",
+      "pixel_sha256": "6fa8a92da6a2fface1d7eb3c50f1433e26aa0f23aed1430aca075962baea96a7",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/water_3_1.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "298d05a9f5c77951948d046bca1ff4db139fffa4c4bd66a8421ee54beee94788",
+      "resource_path": "terrain/water_3_1.png",
+      "pixel_sha256": "bb88f4121dd3f3c1a1294c560ce06b3d687abbdac7c509e33e4ae416f57ad87b",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/ground_0_2.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "2a3ccc7a77f56b2565f62876a05c3a7adf2ddd3e2c6c4fba8471ef07b1ce4231",
+      "resource_path": "terrain/ground_0_2.png",
+      "pixel_sha256": "8d55e91544ef0e747d70373f926f2dedfe0f87e7d6f3e627de6a8bea88acf304",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/water_0_2.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "93a5d3cbc3198bd9a1a08f8420bf37d772c118d210dde849ff18b609bcfd85ea",
+      "resource_path": "terrain/water_0_2.png",
+      "pixel_sha256": "348c666d5de1a399e802847d4ac93df3d648bd4c06db4da10deac821aabba012",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/ground_1_2.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "f73984b452b7f6ca0d242e6af6aceb04e57d5d7ba7f030566efb6a892279bdb0",
+      "resource_path": "terrain/ground_1_2.png",
+      "pixel_sha256": "554acae029d0e78f7e7f49d50c47b182f42473e2df00d7c6fb0a070823dca0a7",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/water_1_2.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "f0467b820cac4dc09fda896050c5eb1d37bdbfc02bfd8424bf28e50056c5ee1b",
+      "resource_path": "terrain/water_1_2.png",
+      "pixel_sha256": "fb155c80694c8da35e85af24bfa4effbc968a2c725426d2cd859852a8429c793",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/ground_2_2.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "de19c9b9eefd7ec0dbcf3e5a850934cc2acc0948ecb948f089412d11a269fc59",
+      "resource_path": "terrain/ground_2_2.png",
+      "pixel_sha256": "db57e6dffa6d70e83b93a7a3616e33678c61033f0311299c388652324ac03f52",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/water_2_2.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "65cea15dd91bae3bbf375707681d44500dff88f87ef823148287c4c3ca189a80",
+      "resource_path": "terrain/water_2_2.png",
+      "pixel_sha256": "69b87bdd5e1a0c808b9f384bcaba30076c19290dab48f26cfbbe097c253c2ad5",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/ground_3_2.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "e46aa04705ca0a71cb63146459657c55bc891edb254a075366a527bf40a861ba",
+      "resource_path": "terrain/ground_3_2.png",
+      "pixel_sha256": "7ec06045aefc00a97cd67ab103f2f7498c793750da07ba93aa4428e40913d02c",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "terrain/water_3_2.png.bin",
+      "kind": "texture",
+      "required": true,
+      "sha256": "9d1d6ed2e3c7e7bd75a87103da660aa2ff618e2d40289fd8435f8598768084b5",
+      "resource_path": "terrain/water_3_2.png",
+      "pixel_sha256": "d4b158859ecda15cce9398ce77ab9bea128034943f5bd5f0fdb0e479958c54e9",
+      "pixel_size": [
+        1032,
+        1032
+      ],
+      "estimated_rgba8_bytes": 4260096
+    },
+    {
+      "path": "receipts/effective_snapshot.json",
+      "kind": "json",
+      "required": true,
+      "sha256": "6c67e9f2959eb38b7ae9dd5054931731b018d7dcf93d9f6952f5387da9df350e"
+    },
+    {
+      "path": "instances/objects.json",
+      "kind": "json",
+      "required": true,
+      "sha256": "9b33fbc7b7c447794812832143776f20c0defadc9e3dbbdbdb13a986ca69e27b"
+    },
+    {
+      "path": "settlements/sites.json",
+      "kind": "json",
+      "required": true,
+      "sha256": "d0d384940d793099efdaa1f11bc3693f4425d456eb0b3533e10e91fe6d61907e"
+    },
+    {
+      "path": "receipts/provenance.json",
+      "kind": "json",
+      "required": true,
+      "sha256": "5a6d30facf5464748bfa051c1becd9e6c7ec5749486d6b98809e87f8e9f339fb"
+    },
+    {
+      "path": "world.catalog.json",
+      "kind": "json",
+      "required": true,
+      "sha256": "fbb0eb724a07361ed80999d4ed73313d55966a1498fa0edd3424f74606fa2cf7"
+    },
+    {
+      "path": "receipts/visual_review.json",
+      "kind": "json",
+      "required": true,
+      "sha256": "2754632ffd3d556c7efae20553799578839424bae23f87e758d4b895bf4c3b38"
+    }
+  ],
+  "load_policy": "synchronous_e1_no_residency_budget",
+  "import_contract": {
+    "engine_major": 4,
+    "engine_minor": 6,
+    "texture_compression": "lossless",
+    "fix_alpha_border": false,
+    "premult_alpha": false,
+    "mipmaps": false,
+    "pixel_hash": "rgba8_base_only"
+  }
+}

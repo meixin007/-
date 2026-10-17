@@ -1,0 +1,15 @@
+{
+  "command": [
+    "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+    "--headless",
+    "--path",
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\SOURCE_RUNTIME",
+    "--script",
+    "res://tests/v02/test_v1_composition.gd",
+    "--",
+    "--report=H:\\tongguan_reviewfix_20261015\\reports\\map_v02\\tongguan_v02_v1_20261015_04\\evidence\\contract_result.json"
+  ],
+  "exit_code": 0,
+  "diagnostics": [],
+  "passed": true
+}

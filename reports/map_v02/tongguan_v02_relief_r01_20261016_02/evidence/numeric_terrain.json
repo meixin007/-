@@ -1,0 +1,331 @@
+{
+  "analytic_checks": 6,
+  "independent_pages": [
+    {
+      "id": "0_0",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "1_0",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "2_0",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "3_0",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "0_1",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "1_1",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "2_1",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "3_1",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "0_2",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "1_2",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "2_2",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    },
+    {
+      "id": "3_2",
+      "independent_global_equal": true,
+      "old_water_core_equal": true
+    }
+  ],
+  "adjacent_overlap_checks": [
+    {
+      "kind": "ground",
+      "x": 0,
+      "y": 0,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 0,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 1,
+      "y": 0,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 1,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 2,
+      "y": 0,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 2,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 3,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 0,
+      "y": 1,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 0,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 1,
+      "y": 1,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 1,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 2,
+      "y": 1,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 2,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 3,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 0,
+      "y": 2,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 1,
+      "y": 2,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "ground",
+      "x": 2,
+      "y": 2,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 0,
+      "y": 0,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 0,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 1,
+      "y": 0,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 1,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 2,
+      "y": 0,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 2,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 3,
+      "y": 0,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 0,
+      "y": 1,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 0,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 1,
+      "y": 1,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 1,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 2,
+      "y": 1,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 2,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 3,
+      "y": 1,
+      "edge": "south",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 0,
+      "y": 2,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 1,
+      "y": 2,
+      "edge": "east",
+      "max_delta": 0
+    },
+    {
+      "kind": "water",
+      "x": 2,
+      "y": 2,
+      "edge": "east",
+      "max_delta": 0
+    }
+  ],
+  "source_height_sha256": "2384f254107aec65664af1169f005a9297de71a7000732aec87c08d59282a87f",
+  "source_contours_sha256": "65dbe5f8b49c76aa3b2faf46e0af9834b3b325e8deeaf5b466d89b90427b9563",
+  "brushes": {
+    "selected_source_features": [
+      {
+        "feature_index": 110,
+        "level_m": 350,
+        "segments": 4
+      },
+      {
+        "feature_index": 156,
+        "level_m": 420,
+        "segments": 6
+      },
+      {
+        "feature_index": 215,
+        "level_m": 520,
+        "segments": 1
+      }
+    ],
+    "segments": 11,
+    "slope_hatches": 9,
+    "selection": "levels 350/420/520, slope 14..60deg, abs local TPI>=1.5m",
+    "semantics": "painted slope structure only; not new terrain geometry"
+  },
+  "mip_scope": "base only"
+}

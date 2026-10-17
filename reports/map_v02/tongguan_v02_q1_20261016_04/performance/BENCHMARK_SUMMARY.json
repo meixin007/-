@@ -1,0 +1,159 @@
+{
+  "runs": [
+    {
+      "run_id": "target_60_1",
+      "execution_passed": true,
+      "budget_passed": true,
+      "frame_stats": {
+        "frames": 39173,
+        "p50_ms": 1.134,
+        "p95_ms": 2.808,
+        "p99_ms": 3.262,
+        "max_ms": 13.367,
+        "over_33ms": 0,
+        "over_50ms": 0,
+        "over_100ms": 0,
+        "budget_passed": true,
+        "outliers_removed": 0
+      },
+      "memory": {
+        "private_peak_bytes": 484012032,
+        "gpu_peak_bytes": 172744704,
+        "gpu_samples": 131,
+        "gpu_budget_verified": true,
+        "private_budget_passed": true,
+        "gpu_budget_passed": true
+      }
+    },
+    {
+      "run_id": "target_60_2",
+      "execution_passed": true,
+      "budget_passed": true,
+      "frame_stats": {
+        "frames": 39388,
+        "p50_ms": 1.123,
+        "p95_ms": 2.815,
+        "p99_ms": 3.205,
+        "max_ms": 13.037,
+        "over_33ms": 0,
+        "over_50ms": 0,
+        "over_100ms": 0,
+        "budget_passed": true,
+        "outliers_removed": 0
+      },
+      "memory": {
+        "private_peak_bytes": 493666304,
+        "gpu_peak_bytes": 172748800,
+        "gpu_samples": 131,
+        "gpu_budget_verified": true,
+        "private_budget_passed": true,
+        "gpu_budget_passed": true
+      }
+    },
+    {
+      "run_id": "target_60_3",
+      "execution_passed": true,
+      "budget_passed": true,
+      "frame_stats": {
+        "frames": 39034,
+        "p50_ms": 1.135,
+        "p95_ms": 2.8193499999999982,
+        "p99_ms": 3.2646699999999984,
+        "max_ms": 13.658,
+        "over_33ms": 0,
+        "over_50ms": 0,
+        "over_100ms": 0,
+        "budget_passed": true,
+        "outliers_removed": 0
+      },
+      "memory": {
+        "private_peak_bytes": 477208576,
+        "gpu_peak_bytes": 172748800,
+        "gpu_samples": 131,
+        "gpu_budget_verified": true,
+        "private_budget_passed": true,
+        "gpu_budget_passed": true
+      }
+    },
+    {
+      "run_id": "target_300",
+      "execution_passed": true,
+      "budget_passed": true,
+      "frame_stats": {
+        "frames": 195180,
+        "p50_ms": 1.148,
+        "p95_ms": 2.853,
+        "p99_ms": 3.263,
+        "max_ms": 14.608,
+        "over_33ms": 0,
+        "over_50ms": 0,
+        "over_100ms": 0,
+        "budget_passed": true,
+        "outliers_removed": 0
+      },
+      "memory": {
+        "private_peak_bytes": 488615936,
+        "gpu_peak_bytes": 172748800,
+        "gpu_samples": 560,
+        "gpu_budget_verified": true,
+        "private_budget_passed": true,
+        "gpu_budget_passed": true
+      }
+    },
+    {
+      "run_id": "ab_60_old",
+      "execution_passed": true,
+      "budget_passed": null,
+      "frame_stats": {
+        "frames": 212405,
+        "p50_ms": 0.255,
+        "p95_ms": 0.406,
+        "p99_ms": 0.473,
+        "max_ms": 2.828,
+        "over_33ms": 0,
+        "over_50ms": 0,
+        "over_100ms": 0,
+        "budget_passed": true,
+        "outliers_removed": 0
+      },
+      "memory": {
+        "private_peak_bytes": 304553984,
+        "gpu_peak_bytes": 75145216,
+        "gpu_samples": 118,
+        "gpu_budget_verified": true,
+        "private_budget_passed": true,
+        "gpu_budget_passed": true
+      }
+    },
+    {
+      "run_id": "ab_60_new",
+      "execution_passed": true,
+      "budget_passed": null,
+      "frame_stats": {
+        "frames": 52434,
+        "p50_ms": 1.044,
+        "p95_ms": 1.7,
+        "p99_ms": 2.1053399999999964,
+        "max_ms": 2.64,
+        "over_33ms": 0,
+        "over_50ms": 0,
+        "over_100ms": 0,
+        "budget_passed": true,
+        "outliers_removed": 0
+      },
+      "memory": {
+        "private_peak_bytes": 317562880,
+        "gpu_peak_bytes": 75141120,
+        "gpu_samples": 119,
+        "gpu_budget_verified": true,
+        "private_budget_passed": true,
+        "gpu_budget_passed": true
+      }
+    }
+  ],
+  "normal_execution_passed": true,
+  "normal_budgets_passed": true,
+  "ab_execution_passed": true,
+  "worst_normal_p95_ms": 2.853,
+  "worst_normal_p99_ms": 3.2646699999999984
+}

@@ -1,0 +1,19 @@
+{
+  "build_id": "tongguan_v02_relief_r01_20261016_02",
+  "status": "pending",
+  "author": "awaiting_user",
+  "source_manifest_sha256": "03400fb9009f2226cff512eaa23dcbcebec11f4a0905e7f814cb870047df601c",
+  "terrain_manifest_sha256": "8e66d77d2c653082e209edfbaf7cc5adafc1ebd160cd36e66e8403f2d7378d4f",
+  "modes": [
+    "full_composition",
+    "terrain_only",
+    "original_contour_check"
+  ],
+  "cameras": [
+    "composition",
+    "shore",
+    "courtyard",
+    "region"
+  ],
+  "opinion": null
+}

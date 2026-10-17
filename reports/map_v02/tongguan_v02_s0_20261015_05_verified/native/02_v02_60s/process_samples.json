@@ -1,0 +1,3079 @@
+[
+  {
+    "working_set_bytes": 90243072,
+    "private_bytes": 88723456,
+    "elapsed_s": 0.3280000000013388,
+    "gpu_dedicated_bytes": 2252800
+  },
+  {
+    "working_set_bytes": 67989504,
+    "private_bytes": 66269184,
+    "elapsed_s": 0.4219999999986612
+  },
+  {
+    "working_set_bytes": 70029312,
+    "private_bytes": 79138816,
+    "elapsed_s": 0.5319999999992433
+  },
+  {
+    "working_set_bytes": 82722816,
+    "private_bytes": 101871616,
+    "elapsed_s": 0.6409999999959837
+  },
+  {
+    "working_set_bytes": 116563968,
+    "private_bytes": 164790272,
+    "elapsed_s": 0.75
+  },
+  {
+    "working_set_bytes": 150806528,
+    "private_bytes": 193241088,
+    "elapsed_s": 0.8600000000005821
+  },
+  {
+    "working_set_bytes": 192700416,
+    "private_bytes": 244101120,
+    "elapsed_s": 0.9689999999973224
+  },
+  {
+    "working_set_bytes": 221437952,
+    "private_bytes": 273207296,
+    "elapsed_s": 1.0780000000013388
+  },
+  {
+    "working_set_bytes": 254300160,
+    "private_bytes": 306860032,
+    "elapsed_s": 1.1880000000019209
+  },
+  {
+    "working_set_bytes": 267927552,
+    "private_bytes": 320634880,
+    "elapsed_s": 1.2969999999986612
+  },
+  {
+    "working_set_bytes": 247656448,
+    "private_bytes": 300552192,
+    "elapsed_s": 1.4069999999992433,
+    "gpu_dedicated_bytes": 79335424
+  },
+  {
+    "working_set_bytes": 253890560,
+    "private_bytes": 307269632,
+    "elapsed_s": 1.5159999999959837
+  },
+  {
+    "working_set_bytes": 245989376,
+    "private_bytes": 298778624,
+    "elapsed_s": 1.625
+  },
+  {
+    "working_set_bytes": 246525952,
+    "private_bytes": 299294720,
+    "elapsed_s": 1.735000000000582
+  },
+  {
+    "working_set_bytes": 274010112,
+    "private_bytes": 328310784,
+    "elapsed_s": 1.8439999999973224
+  },
+  {
+    "working_set_bytes": 278364160,
+    "private_bytes": 332226560,
+    "elapsed_s": 1.9530000000013388
+  },
+  {
+    "working_set_bytes": 303517696,
+    "private_bytes": 357171200,
+    "elapsed_s": 2.063000000001921
+  },
+  {
+    "working_set_bytes": 289665024,
+    "private_bytes": 342896640,
+    "elapsed_s": 2.1719999999986612
+  },
+  {
+    "working_set_bytes": 297009152,
+    "private_bytes": 351944704,
+    "elapsed_s": 2.2819999999992433
+  },
+  {
+    "working_set_bytes": 297955328,
+    "private_bytes": 352301056,
+    "elapsed_s": 2.3909999999959837
+  },
+  {
+    "working_set_bytes": 274817024,
+    "private_bytes": 327864320,
+    "elapsed_s": 2.5,
+    "gpu_dedicated_bytes": 79335424
+  },
+  {
+    "working_set_bytes": 236679168,
+    "private_bytes": 290013184,
+    "elapsed_s": 2.610000000000582
+  },
+  {
+    "working_set_bytes": 273031168,
+    "private_bytes": 322777088,
+    "elapsed_s": 2.7189999999973224
+  },
+  {
+    "working_set_bytes": 293765120,
+    "private_bytes": 341872640,
+    "elapsed_s": 2.8280000000013388
+  },
+  {
+    "working_set_bytes": 310857728,
+    "private_bytes": 376733696,
+    "elapsed_s": 2.938000000001921
+  },
+  {
+    "working_set_bytes": 304525312,
+    "private_bytes": 352706560,
+    "elapsed_s": 3.0469999999986612
+  },
+  {
+    "working_set_bytes": 304533504,
+    "private_bytes": 352706560,
+    "elapsed_s": 3.1569999999992433
+  },
+  {
+    "working_set_bytes": 304537600,
+    "private_bytes": 352706560,
+    "elapsed_s": 3.2659999999959837
+  },
+  {
+    "working_set_bytes": 304541696,
+    "private_bytes": 352706560,
+    "elapsed_s": 3.375
+  },
+  {
+    "working_set_bytes": 304541696,
+    "private_bytes": 352706560,
+    "elapsed_s": 3.485000000000582
+  },
+  {
+    "working_set_bytes": 304545792,
+    "private_bytes": 352706560,
+    "elapsed_s": 3.5939999999973224,
+    "gpu_dedicated_bytes": 85798912
+  },
+  {
+    "working_set_bytes": 304553984,
+    "private_bytes": 352706560,
+    "elapsed_s": 3.7030000000013388
+  },
+  {
+    "working_set_bytes": 304558080,
+    "private_bytes": 352247808,
+    "elapsed_s": 3.813000000001921
+  },
+  {
+    "working_set_bytes": 304562176,
+    "private_bytes": 352247808,
+    "elapsed_s": 3.9219999999986612
+  },
+  {
+    "working_set_bytes": 304562176,
+    "private_bytes": 352247808,
+    "elapsed_s": 4.031999999999243
+  },
+  {
+    "working_set_bytes": 304566272,
+    "private_bytes": 352247808,
+    "elapsed_s": 4.140999999995984
+  },
+  {
+    "working_set_bytes": 304570368,
+    "private_bytes": 352247808,
+    "elapsed_s": 4.25
+  },
+  {
+    "working_set_bytes": 304574464,
+    "private_bytes": 352247808,
+    "elapsed_s": 4.360000000000582
+  },
+  {
+    "working_set_bytes": 304644096,
+    "private_bytes": 352247808,
+    "elapsed_s": 4.4689999999973224
+  },
+  {
+    "working_set_bytes": 304644096,
+    "private_bytes": 352247808,
+    "elapsed_s": 4.578000000001339
+  },
+  {
+    "working_set_bytes": 304652288,
+    "private_bytes": 352247808,
+    "elapsed_s": 4.671999999998661,
+    "gpu_dedicated_bytes": 85798912
+  },
+  {
+    "working_set_bytes": 304656384,
+    "private_bytes": 352247808,
+    "elapsed_s": 4.781999999999243
+  },
+  {
+    "working_set_bytes": 304660480,
+    "private_bytes": 352247808,
+    "elapsed_s": 4.906999999999243
+  },
+  {
+    "working_set_bytes": 304664576,
+    "private_bytes": 352247808,
+    "elapsed_s": 5.0
+  },
+  {
+    "working_set_bytes": 304721920,
+    "private_bytes": 352247808,
+    "elapsed_s": 5.110000000000582
+  },
+  {
+    "working_set_bytes": 304766976,
+    "private_bytes": 352247808,
+    "elapsed_s": 5.2189999999973224
+  },
+  {
+    "working_set_bytes": 304771072,
+    "private_bytes": 352247808,
+    "elapsed_s": 5.3439999999973224
+  },
+  {
+    "working_set_bytes": 304775168,
+    "private_bytes": 352247808,
+    "elapsed_s": 5.438000000001921
+  },
+  {
+    "working_set_bytes": 304779264,
+    "private_bytes": 352247808,
+    "elapsed_s": 5.546999999998661
+  },
+  {
+    "working_set_bytes": 304783360,
+    "private_bytes": 352247808,
+    "elapsed_s": 5.656999999999243
+  },
+  {
+    "working_set_bytes": 304783360,
+    "private_bytes": 351461376,
+    "elapsed_s": 5.765999999995984,
+    "gpu_dedicated_bytes": 85798912
+  },
+  {
+    "working_set_bytes": 304787456,
+    "private_bytes": 351461376,
+    "elapsed_s": 5.875
+  },
+  {
+    "working_set_bytes": 304791552,
+    "private_bytes": 351461376,
+    "elapsed_s": 5.985000000000582
+  },
+  {
+    "working_set_bytes": 304795648,
+    "private_bytes": 351461376,
+    "elapsed_s": 6.0939999999973224
+  },
+  {
+    "working_set_bytes": 304799744,
+    "private_bytes": 351461376,
+    "elapsed_s": 6.203000000001339
+  },
+  {
+    "working_set_bytes": 304803840,
+    "private_bytes": 351461376,
+    "elapsed_s": 6.313000000001921
+  },
+  {
+    "working_set_bytes": 304803840,
+    "private_bytes": 351461376,
+    "elapsed_s": 6.421999999998661
+  },
+  {
+    "working_set_bytes": 304807936,
+    "private_bytes": 351461376,
+    "elapsed_s": 6.531999999999243
+  },
+  {
+    "working_set_bytes": 304812032,
+    "private_bytes": 351461376,
+    "elapsed_s": 6.640999999995984
+  },
+  {
+    "working_set_bytes": 304816128,
+    "private_bytes": 351461376,
+    "elapsed_s": 6.75
+  },
+  {
+    "working_set_bytes": 304820224,
+    "private_bytes": 351461376,
+    "elapsed_s": 6.860000000000582,
+    "gpu_dedicated_bytes": 85798912
+  },
+  {
+    "working_set_bytes": 304820224,
+    "private_bytes": 351461376,
+    "elapsed_s": 6.9689999999973224
+  },
+  {
+    "working_set_bytes": 304852992,
+    "private_bytes": 351723520,
+    "elapsed_s": 7.078000000001339
+  },
+  {
+    "working_set_bytes": 304857088,
+    "private_bytes": 351723520,
+    "elapsed_s": 7.188000000001921
+  },
+  {
+    "working_set_bytes": 304922624,
+    "private_bytes": 351723520,
+    "elapsed_s": 7.296999999998661
+  },
+  {
+    "working_set_bytes": 304926720,
+    "private_bytes": 351723520,
+    "elapsed_s": 7.406999999999243
+  },
+  {
+    "working_set_bytes": 304930816,
+    "private_bytes": 351723520,
+    "elapsed_s": 7.515999999995984
+  },
+  {
+    "working_set_bytes": 304930816,
+    "private_bytes": 351723520,
+    "elapsed_s": 7.625
+  },
+  {
+    "working_set_bytes": 304934912,
+    "private_bytes": 351723520,
+    "elapsed_s": 7.735000000000582
+  },
+  {
+    "working_set_bytes": 304939008,
+    "private_bytes": 351723520,
+    "elapsed_s": 7.8439999999973224
+  },
+  {
+    "working_set_bytes": 304943104,
+    "private_bytes": 351723520,
+    "elapsed_s": 7.953000000001339,
+    "gpu_dedicated_bytes": 85798912
+  },
+  {
+    "working_set_bytes": 304947200,
+    "private_bytes": 351723520,
+    "elapsed_s": 8.06300000000192
+  },
+  {
+    "working_set_bytes": 304947200,
+    "private_bytes": 351723520,
+    "elapsed_s": 8.171999999998661
+  },
+  {
+    "working_set_bytes": 304967680,
+    "private_bytes": 351723520,
+    "elapsed_s": 8.281999999999243
+  },
+  {
+    "working_set_bytes": 304971776,
+    "private_bytes": 351723520,
+    "elapsed_s": 8.390999999995984
+  },
+  {
+    "working_set_bytes": 304975872,
+    "private_bytes": 351723520,
+    "elapsed_s": 8.5
+  },
+  {
+    "working_set_bytes": 303669248,
+    "private_bytes": 350412800,
+    "elapsed_s": 8.610000000000582
+  },
+  {
+    "working_set_bytes": 303673344,
+    "private_bytes": 350412800,
+    "elapsed_s": 8.718999999997322
+  },
+  {
+    "working_set_bytes": 302731264,
+    "private_bytes": 349466624,
+    "elapsed_s": 8.828000000001339
+  },
+  {
+    "working_set_bytes": 302731264,
+    "private_bytes": 349466624,
+    "elapsed_s": 8.93800000000192
+  },
+  {
+    "working_set_bytes": 302735360,
+    "private_bytes": 349466624,
+    "elapsed_s": 9.046999999998661,
+    "gpu_dedicated_bytes": 85798912
+  },
+  {
+    "working_set_bytes": 302739456,
+    "private_bytes": 349466624,
+    "elapsed_s": 9.156999999999243
+  },
+  {
+    "working_set_bytes": 302743552,
+    "private_bytes": 349466624,
+    "elapsed_s": 9.265999999995984
+  },
+  {
+    "working_set_bytes": 302768128,
+    "private_bytes": 349466624,
+    "elapsed_s": 9.375
+  },
+  {
+    "working_set_bytes": 302772224,
+    "private_bytes": 349466624,
+    "elapsed_s": 9.485000000000582
+  },
+  {
+    "working_set_bytes": 302772224,
+    "private_bytes": 349466624,
+    "elapsed_s": 9.593999999997322
+  },
+  {
+    "working_set_bytes": 302776320,
+    "private_bytes": 349466624,
+    "elapsed_s": 9.703000000001339
+  },
+  {
+    "working_set_bytes": 302780416,
+    "private_bytes": 349466624,
+    "elapsed_s": 9.81300000000192
+  },
+  {
+    "working_set_bytes": 302784512,
+    "private_bytes": 349466624,
+    "elapsed_s": 9.921999999998661
+  },
+  {
+    "working_set_bytes": 302833664,
+    "private_bytes": 349466624,
+    "elapsed_s": 10.031999999999243
+  },
+  {
+    "working_set_bytes": 302833664,
+    "private_bytes": 349466624,
+    "elapsed_s": 10.140999999995984,
+    "gpu_dedicated_bytes": 85798912
+  },
+  {
+    "working_set_bytes": 302837760,
+    "private_bytes": 349466624,
+    "elapsed_s": 10.25
+  },
+  {
+    "working_set_bytes": 302841856,
+    "private_bytes": 349466624,
+    "elapsed_s": 10.360000000000582
+  },
+  {
+    "working_set_bytes": 302845952,
+    "private_bytes": 349466624,
+    "elapsed_s": 10.468999999997322
+  },
+  {
+    "working_set_bytes": 302850048,
+    "private_bytes": 349466624,
+    "elapsed_s": 10.578000000001339
+  },
+  {
+    "working_set_bytes": 302854144,
+    "private_bytes": 349466624,
+    "elapsed_s": 10.68800000000192
+  },
+  {
+    "working_set_bytes": 302854144,
+    "private_bytes": 349466624,
+    "elapsed_s": 10.796999999998661
+  },
+  {
+    "working_set_bytes": 302858240,
+    "private_bytes": 349466624,
+    "elapsed_s": 10.906999999999243
+  },
+  {
+    "working_set_bytes": 306003968,
+    "private_bytes": 352489472,
+    "elapsed_s": 11.015999999995984
+  },
+  {
+    "working_set_bytes": 307949568,
+    "private_bytes": 357806080,
+    "elapsed_s": 11.125
+  },
+  {
+    "working_set_bytes": 308060160,
+    "private_bytes": 357806080,
+    "elapsed_s": 11.235000000000582,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 308064256,
+    "private_bytes": 357806080,
+    "elapsed_s": 11.343999999997322
+  },
+  {
+    "working_set_bytes": 308125696,
+    "private_bytes": 357806080,
+    "elapsed_s": 11.453000000001339
+  },
+  {
+    "working_set_bytes": 308125696,
+    "private_bytes": 357806080,
+    "elapsed_s": 11.56300000000192
+  },
+  {
+    "working_set_bytes": 308133888,
+    "private_bytes": 357806080,
+    "elapsed_s": 11.671999999998661
+  },
+  {
+    "working_set_bytes": 308137984,
+    "private_bytes": 357806080,
+    "elapsed_s": 11.781999999999243
+  },
+  {
+    "working_set_bytes": 308137984,
+    "private_bytes": 357806080,
+    "elapsed_s": 11.890999999995984
+  },
+  {
+    "working_set_bytes": 308142080,
+    "private_bytes": 357806080,
+    "elapsed_s": 12.0
+  },
+  {
+    "working_set_bytes": 308142080,
+    "private_bytes": 357806080,
+    "elapsed_s": 12.110000000000582
+  },
+  {
+    "working_set_bytes": 308146176,
+    "private_bytes": 357806080,
+    "elapsed_s": 12.218999999997322
+  },
+  {
+    "working_set_bytes": 308146176,
+    "private_bytes": 357806080,
+    "elapsed_s": 12.328000000001339,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 308146176,
+    "private_bytes": 357806080,
+    "elapsed_s": 12.43800000000192
+  },
+  {
+    "working_set_bytes": 308146176,
+    "private_bytes": 357806080,
+    "elapsed_s": 12.546999999998661
+  },
+  {
+    "working_set_bytes": 308150272,
+    "private_bytes": 357806080,
+    "elapsed_s": 12.656999999999243
+  },
+  {
+    "working_set_bytes": 308150272,
+    "private_bytes": 357806080,
+    "elapsed_s": 12.765999999995984
+  },
+  {
+    "working_set_bytes": 308150272,
+    "private_bytes": 357806080,
+    "elapsed_s": 12.875
+  },
+  {
+    "working_set_bytes": 308150272,
+    "private_bytes": 357806080,
+    "elapsed_s": 12.985000000000582
+  },
+  {
+    "working_set_bytes": 308158464,
+    "private_bytes": 357806080,
+    "elapsed_s": 13.093999999997322
+  },
+  {
+    "working_set_bytes": 308158464,
+    "private_bytes": 357806080,
+    "elapsed_s": 13.203000000001339
+  },
+  {
+    "working_set_bytes": 308158464,
+    "private_bytes": 357806080,
+    "elapsed_s": 13.328000000001339,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 308162560,
+    "private_bytes": 357806080,
+    "elapsed_s": 13.43800000000192
+  },
+  {
+    "working_set_bytes": 308269056,
+    "private_bytes": 357871616,
+    "elapsed_s": 13.546999999998661
+  },
+  {
+    "working_set_bytes": 308408320,
+    "private_bytes": 357937152,
+    "elapsed_s": 13.656999999999243
+  },
+  {
+    "working_set_bytes": 308449280,
+    "private_bytes": 358002688,
+    "elapsed_s": 13.765999999995984
+  },
+  {
+    "working_set_bytes": 308596736,
+    "private_bytes": 358137856,
+    "elapsed_s": 13.875
+  },
+  {
+    "working_set_bytes": 308797440,
+    "private_bytes": 358465536,
+    "elapsed_s": 13.985000000000582
+  },
+  {
+    "working_set_bytes": 308858880,
+    "private_bytes": 358596608,
+    "elapsed_s": 14.093999999997322
+  },
+  {
+    "working_set_bytes": 311078912,
+    "private_bytes": 360697856,
+    "elapsed_s": 14.203000000001339
+  },
+  {
+    "working_set_bytes": 311230464,
+    "private_bytes": 360763392,
+    "elapsed_s": 14.31300000000192
+  },
+  {
+    "working_set_bytes": 311242752,
+    "private_bytes": 360763392,
+    "elapsed_s": 14.421999999998661,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 311255040,
+    "private_bytes": 360828928,
+    "elapsed_s": 14.531999999999243
+  },
+  {
+    "working_set_bytes": 311279616,
+    "private_bytes": 360828928,
+    "elapsed_s": 14.640999999995984
+  },
+  {
+    "working_set_bytes": 311279616,
+    "private_bytes": 360828928,
+    "elapsed_s": 14.75
+  },
+  {
+    "working_set_bytes": 311390208,
+    "private_bytes": 360960000,
+    "elapsed_s": 14.860000000000582
+  },
+  {
+    "working_set_bytes": 311390208,
+    "private_bytes": 360960000,
+    "elapsed_s": 14.968999999997322
+  },
+  {
+    "working_set_bytes": 311390208,
+    "private_bytes": 360960000,
+    "elapsed_s": 15.078000000001339
+  },
+  {
+    "working_set_bytes": 311394304,
+    "private_bytes": 360960000,
+    "elapsed_s": 15.18800000000192
+  },
+  {
+    "working_set_bytes": 311394304,
+    "private_bytes": 360960000,
+    "elapsed_s": 15.296999999998661
+  },
+  {
+    "working_set_bytes": 311394304,
+    "private_bytes": 360960000,
+    "elapsed_s": 15.406999999999243
+  },
+  {
+    "working_set_bytes": 311394304,
+    "private_bytes": 360960000,
+    "elapsed_s": 15.515999999995984,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 311394304,
+    "private_bytes": 360960000,
+    "elapsed_s": 15.625
+  },
+  {
+    "working_set_bytes": 311398400,
+    "private_bytes": 360960000,
+    "elapsed_s": 15.735000000000582
+  },
+  {
+    "working_set_bytes": 311398400,
+    "private_bytes": 360960000,
+    "elapsed_s": 15.843999999997322
+  },
+  {
+    "working_set_bytes": 311447552,
+    "private_bytes": 360960000,
+    "elapsed_s": 15.953000000001339
+  },
+  {
+    "working_set_bytes": 311750656,
+    "private_bytes": 361222144,
+    "elapsed_s": 16.06300000000192
+  },
+  {
+    "working_set_bytes": 311934976,
+    "private_bytes": 361222144,
+    "elapsed_s": 16.17199999999866
+  },
+  {
+    "working_set_bytes": 311934976,
+    "private_bytes": 361222144,
+    "elapsed_s": 16.281999999999243
+  },
+  {
+    "working_set_bytes": 311934976,
+    "private_bytes": 361222144,
+    "elapsed_s": 16.390999999995984
+  },
+  {
+    "working_set_bytes": 311939072,
+    "private_bytes": 361222144,
+    "elapsed_s": 16.5
+  },
+  {
+    "working_set_bytes": 311939072,
+    "private_bytes": 361222144,
+    "elapsed_s": 16.610000000000582,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 311939072,
+    "private_bytes": 361222144,
+    "elapsed_s": 16.718999999997322
+  },
+  {
+    "working_set_bytes": 311947264,
+    "private_bytes": 361222144,
+    "elapsed_s": 16.82800000000134
+  },
+  {
+    "working_set_bytes": 311947264,
+    "private_bytes": 361222144,
+    "elapsed_s": 16.93800000000192
+  },
+  {
+    "working_set_bytes": 311947264,
+    "private_bytes": 361222144,
+    "elapsed_s": 17.04699999999866
+  },
+  {
+    "working_set_bytes": 311951360,
+    "private_bytes": 361222144,
+    "elapsed_s": 17.156999999999243
+  },
+  {
+    "working_set_bytes": 311951360,
+    "private_bytes": 361222144,
+    "elapsed_s": 17.265999999995984
+  },
+  {
+    "working_set_bytes": 311951360,
+    "private_bytes": 361222144,
+    "elapsed_s": 17.375
+  },
+  {
+    "working_set_bytes": 311955456,
+    "private_bytes": 361222144,
+    "elapsed_s": 17.485000000000582
+  },
+  {
+    "working_set_bytes": 311955456,
+    "private_bytes": 361222144,
+    "elapsed_s": 17.593999999997322
+  },
+  {
+    "working_set_bytes": 312102912,
+    "private_bytes": 361484288,
+    "elapsed_s": 17.70300000000134,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 312184832,
+    "private_bytes": 361484288,
+    "elapsed_s": 17.81300000000192
+  },
+  {
+    "working_set_bytes": 312303616,
+    "private_bytes": 361484288,
+    "elapsed_s": 17.92199999999866
+  },
+  {
+    "working_set_bytes": 312307712,
+    "private_bytes": 361484288,
+    "elapsed_s": 18.031999999999243
+  },
+  {
+    "working_set_bytes": 312315904,
+    "private_bytes": 361484288,
+    "elapsed_s": 18.140999999995984
+  },
+  {
+    "working_set_bytes": 312332288,
+    "private_bytes": 361484288,
+    "elapsed_s": 18.25
+  },
+  {
+    "working_set_bytes": 312336384,
+    "private_bytes": 361484288,
+    "elapsed_s": 18.360000000000582
+  },
+  {
+    "working_set_bytes": 312340480,
+    "private_bytes": 361484288,
+    "elapsed_s": 18.468999999997322
+  },
+  {
+    "working_set_bytes": 312340480,
+    "private_bytes": 361484288,
+    "elapsed_s": 18.57800000000134
+  },
+  {
+    "working_set_bytes": 312340480,
+    "private_bytes": 361484288,
+    "elapsed_s": 18.68800000000192
+  },
+  {
+    "working_set_bytes": 312414208,
+    "private_bytes": 361746432,
+    "elapsed_s": 18.79699999999866,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 312414208,
+    "private_bytes": 361746432,
+    "elapsed_s": 18.906999999999243
+  },
+  {
+    "working_set_bytes": 312418304,
+    "private_bytes": 361746432,
+    "elapsed_s": 19.015999999995984
+  },
+  {
+    "working_set_bytes": 312422400,
+    "private_bytes": 361746432,
+    "elapsed_s": 19.125
+  },
+  {
+    "working_set_bytes": 312426496,
+    "private_bytes": 361746432,
+    "elapsed_s": 19.218999999997322
+  },
+  {
+    "working_set_bytes": 312426496,
+    "private_bytes": 361746432,
+    "elapsed_s": 19.343999999997322
+  },
+  {
+    "working_set_bytes": 312430592,
+    "private_bytes": 361746432,
+    "elapsed_s": 19.45300000000134
+  },
+  {
+    "working_set_bytes": 312430592,
+    "private_bytes": 361746432,
+    "elapsed_s": 19.56300000000192
+  },
+  {
+    "working_set_bytes": 312430592,
+    "private_bytes": 361746432,
+    "elapsed_s": 19.67199999999866
+  },
+  {
+    "working_set_bytes": 312434688,
+    "private_bytes": 361746432,
+    "elapsed_s": 19.781999999999243
+  },
+  {
+    "working_set_bytes": 312434688,
+    "private_bytes": 361746432,
+    "elapsed_s": 19.890999999995984,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 312434688,
+    "private_bytes": 361746432,
+    "elapsed_s": 20.0
+  },
+  {
+    "working_set_bytes": 312442880,
+    "private_bytes": 361746432,
+    "elapsed_s": 20.110000000000582
+  },
+  {
+    "working_set_bytes": 312442880,
+    "private_bytes": 361746432,
+    "elapsed_s": 20.20300000000134
+  },
+  {
+    "working_set_bytes": 312442880,
+    "private_bytes": 361746432,
+    "elapsed_s": 20.31300000000192
+  },
+  {
+    "working_set_bytes": 312442880,
+    "private_bytes": 361746432,
+    "elapsed_s": 20.42199999999866
+  },
+  {
+    "working_set_bytes": 312446976,
+    "private_bytes": 361746432,
+    "elapsed_s": 20.531999999999243
+  },
+  {
+    "working_set_bytes": 312446976,
+    "private_bytes": 361746432,
+    "elapsed_s": 20.640999999995984
+  },
+  {
+    "working_set_bytes": 312446976,
+    "private_bytes": 361746432,
+    "elapsed_s": 20.75
+  },
+  {
+    "working_set_bytes": 312451072,
+    "private_bytes": 361746432,
+    "elapsed_s": 20.860000000000582
+  },
+  {
+    "working_set_bytes": 312451072,
+    "private_bytes": 361746432,
+    "elapsed_s": 20.968999999997322,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 312451072,
+    "private_bytes": 361746432,
+    "elapsed_s": 21.07800000000134
+  },
+  {
+    "working_set_bytes": 312455168,
+    "private_bytes": 361746432,
+    "elapsed_s": 21.18800000000192
+  },
+  {
+    "working_set_bytes": 312455168,
+    "private_bytes": 361746432,
+    "elapsed_s": 21.29699999999866
+  },
+  {
+    "working_set_bytes": 312455168,
+    "private_bytes": 361746432,
+    "elapsed_s": 21.406999999999243
+  },
+  {
+    "working_set_bytes": 312459264,
+    "private_bytes": 361746432,
+    "elapsed_s": 21.515999999995984
+  },
+  {
+    "working_set_bytes": 312459264,
+    "private_bytes": 361746432,
+    "elapsed_s": 21.625
+  },
+  {
+    "working_set_bytes": 312463360,
+    "private_bytes": 361746432,
+    "elapsed_s": 21.735000000000582
+  },
+  {
+    "working_set_bytes": 312463360,
+    "private_bytes": 361746432,
+    "elapsed_s": 21.843999999997322
+  },
+  {
+    "working_set_bytes": 312463360,
+    "private_bytes": 361746432,
+    "elapsed_s": 21.95300000000134
+  },
+  {
+    "working_set_bytes": 312467456,
+    "private_bytes": 361746432,
+    "elapsed_s": 22.06300000000192,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 312532992,
+    "private_bytes": 361746432,
+    "elapsed_s": 22.17199999999866
+  },
+  {
+    "working_set_bytes": 312537088,
+    "private_bytes": 361746432,
+    "elapsed_s": 22.281999999999243
+  },
+  {
+    "working_set_bytes": 312541184,
+    "private_bytes": 361746432,
+    "elapsed_s": 22.390999999995984
+  },
+  {
+    "working_set_bytes": 312541184,
+    "private_bytes": 361746432,
+    "elapsed_s": 22.5
+  },
+  {
+    "working_set_bytes": 312541184,
+    "private_bytes": 361746432,
+    "elapsed_s": 22.610000000000582
+  },
+  {
+    "working_set_bytes": 312545280,
+    "private_bytes": 361746432,
+    "elapsed_s": 22.718999999997322
+  },
+  {
+    "working_set_bytes": 312545280,
+    "private_bytes": 361746432,
+    "elapsed_s": 22.82800000000134
+  },
+  {
+    "working_set_bytes": 312549376,
+    "private_bytes": 361746432,
+    "elapsed_s": 22.93800000000192
+  },
+  {
+    "working_set_bytes": 312549376,
+    "private_bytes": 361746432,
+    "elapsed_s": 23.04699999999866
+  },
+  {
+    "working_set_bytes": 312549376,
+    "private_bytes": 361746432,
+    "elapsed_s": 23.156999999999243,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 312553472,
+    "private_bytes": 361746432,
+    "elapsed_s": 23.265999999995984
+  },
+  {
+    "working_set_bytes": 312553472,
+    "private_bytes": 361746432,
+    "elapsed_s": 23.360000000000582
+  },
+  {
+    "working_set_bytes": 312553472,
+    "private_bytes": 361746432,
+    "elapsed_s": 23.468999999997322
+  },
+  {
+    "working_set_bytes": 312557568,
+    "private_bytes": 361746432,
+    "elapsed_s": 23.593999999997322
+  },
+  {
+    "working_set_bytes": 312557568,
+    "private_bytes": 361746432,
+    "elapsed_s": 23.68800000000192
+  },
+  {
+    "working_set_bytes": 312557568,
+    "private_bytes": 361746432,
+    "elapsed_s": 23.79699999999866
+  },
+  {
+    "working_set_bytes": 312561664,
+    "private_bytes": 361746432,
+    "elapsed_s": 23.906999999999243
+  },
+  {
+    "working_set_bytes": 312561664,
+    "private_bytes": 361746432,
+    "elapsed_s": 24.015999999995984
+  },
+  {
+    "working_set_bytes": 312561664,
+    "private_bytes": 361746432,
+    "elapsed_s": 24.125
+  },
+  {
+    "working_set_bytes": 312565760,
+    "private_bytes": 361746432,
+    "elapsed_s": 24.235000000000582,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 312565760,
+    "private_bytes": 361746432,
+    "elapsed_s": 24.343999999997322
+  },
+  {
+    "working_set_bytes": 312565760,
+    "private_bytes": 361746432,
+    "elapsed_s": 24.45300000000134
+  },
+  {
+    "working_set_bytes": 312569856,
+    "private_bytes": 361746432,
+    "elapsed_s": 24.56300000000192
+  },
+  {
+    "working_set_bytes": 312569856,
+    "private_bytes": 361746432,
+    "elapsed_s": 24.67199999999866
+  },
+  {
+    "working_set_bytes": 312569856,
+    "private_bytes": 361746432,
+    "elapsed_s": 24.781999999999243
+  },
+  {
+    "working_set_bytes": 312573952,
+    "private_bytes": 361746432,
+    "elapsed_s": 24.890999999995984
+  },
+  {
+    "working_set_bytes": 312573952,
+    "private_bytes": 361746432,
+    "elapsed_s": 25.0
+  },
+  {
+    "working_set_bytes": 312594432,
+    "private_bytes": 361746432,
+    "elapsed_s": 25.110000000000582
+  },
+  {
+    "working_set_bytes": 312598528,
+    "private_bytes": 361746432,
+    "elapsed_s": 25.218999999997322
+  },
+  {
+    "working_set_bytes": 312598528,
+    "private_bytes": 361746432,
+    "elapsed_s": 25.32800000000134,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 312598528,
+    "private_bytes": 361746432,
+    "elapsed_s": 25.43800000000192
+  },
+  {
+    "working_set_bytes": 312602624,
+    "private_bytes": 361746432,
+    "elapsed_s": 25.54699999999866
+  },
+  {
+    "working_set_bytes": 312602624,
+    "private_bytes": 361746432,
+    "elapsed_s": 25.656999999999243
+  },
+  {
+    "working_set_bytes": 312606720,
+    "private_bytes": 361746432,
+    "elapsed_s": 25.765999999995984
+  },
+  {
+    "working_set_bytes": 312606720,
+    "private_bytes": 361746432,
+    "elapsed_s": 25.875
+  },
+  {
+    "working_set_bytes": 312606720,
+    "private_bytes": 361746432,
+    "elapsed_s": 25.985000000000582
+  },
+  {
+    "working_set_bytes": 312635392,
+    "private_bytes": 361746432,
+    "elapsed_s": 26.093999999997322
+  },
+  {
+    "working_set_bytes": 312639488,
+    "private_bytes": 361746432,
+    "elapsed_s": 26.20300000000134
+  },
+  {
+    "working_set_bytes": 312643584,
+    "private_bytes": 361746432,
+    "elapsed_s": 26.32800000000134,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 312647680,
+    "private_bytes": 361746432,
+    "elapsed_s": 26.43800000000192
+  },
+  {
+    "working_set_bytes": 312647680,
+    "private_bytes": 361746432,
+    "elapsed_s": 26.54699999999866
+  },
+  {
+    "working_set_bytes": 312651776,
+    "private_bytes": 361746432,
+    "elapsed_s": 26.640999999995984
+  },
+  {
+    "working_set_bytes": 312651776,
+    "private_bytes": 361746432,
+    "elapsed_s": 26.765999999995984
+  },
+  {
+    "working_set_bytes": 312651776,
+    "private_bytes": 361746432,
+    "elapsed_s": 26.860000000000582
+  },
+  {
+    "working_set_bytes": 312655872,
+    "private_bytes": 361746432,
+    "elapsed_s": 26.985000000000582
+  },
+  {
+    "working_set_bytes": 312655872,
+    "private_bytes": 361746432,
+    "elapsed_s": 27.093999999997322
+  },
+  {
+    "working_set_bytes": 312655872,
+    "private_bytes": 361746432,
+    "elapsed_s": 27.18800000000192
+  },
+  {
+    "working_set_bytes": 312659968,
+    "private_bytes": 361746432,
+    "elapsed_s": 27.31300000000192
+  },
+  {
+    "working_set_bytes": 312659968,
+    "private_bytes": 361746432,
+    "elapsed_s": 27.406999999999243,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 312770560,
+    "private_bytes": 361746432,
+    "elapsed_s": 27.515999999995984
+  },
+  {
+    "working_set_bytes": 312770560,
+    "private_bytes": 361746432,
+    "elapsed_s": 27.625
+  },
+  {
+    "working_set_bytes": 312770560,
+    "private_bytes": 361746432,
+    "elapsed_s": 27.735000000000582
+  },
+  {
+    "working_set_bytes": 312778752,
+    "private_bytes": 361746432,
+    "elapsed_s": 27.843999999997322
+  },
+  {
+    "working_set_bytes": 312778752,
+    "private_bytes": 361746432,
+    "elapsed_s": 27.95300000000134
+  },
+  {
+    "working_set_bytes": 312778752,
+    "private_bytes": 361746432,
+    "elapsed_s": 28.06300000000192
+  },
+  {
+    "working_set_bytes": 312782848,
+    "private_bytes": 361746432,
+    "elapsed_s": 28.18800000000192
+  },
+  {
+    "working_set_bytes": 312782848,
+    "private_bytes": 361746432,
+    "elapsed_s": 28.281999999999243
+  },
+  {
+    "working_set_bytes": 312782848,
+    "private_bytes": 361746432,
+    "elapsed_s": 28.406999999999243,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 312786944,
+    "private_bytes": 361746432,
+    "elapsed_s": 28.515999999995984
+  },
+  {
+    "working_set_bytes": 312791040,
+    "private_bytes": 361746432,
+    "elapsed_s": 28.625
+  },
+  {
+    "working_set_bytes": 312795136,
+    "private_bytes": 361746432,
+    "elapsed_s": 28.735000000000582
+  },
+  {
+    "working_set_bytes": 312795136,
+    "private_bytes": 361746432,
+    "elapsed_s": 28.843999999997322
+  },
+  {
+    "working_set_bytes": 312795136,
+    "private_bytes": 361746432,
+    "elapsed_s": 28.95300000000134
+  },
+  {
+    "working_set_bytes": 312799232,
+    "private_bytes": 361746432,
+    "elapsed_s": 29.06300000000192
+  },
+  {
+    "working_set_bytes": 312799232,
+    "private_bytes": 361746432,
+    "elapsed_s": 29.17199999999866
+  },
+  {
+    "working_set_bytes": 312799232,
+    "private_bytes": 361746432,
+    "elapsed_s": 29.281999999999243
+  },
+  {
+    "working_set_bytes": 312803328,
+    "private_bytes": 361746432,
+    "elapsed_s": 29.390999999995984
+  },
+  {
+    "working_set_bytes": 312807424,
+    "private_bytes": 361746432,
+    "elapsed_s": 29.5,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 312807424,
+    "private_bytes": 361746432,
+    "elapsed_s": 29.610000000000582
+  },
+  {
+    "working_set_bytes": 312811520,
+    "private_bytes": 361746432,
+    "elapsed_s": 29.718999999997322
+  },
+  {
+    "working_set_bytes": 312811520,
+    "private_bytes": 361746432,
+    "elapsed_s": 29.82800000000134
+  },
+  {
+    "working_set_bytes": 312815616,
+    "private_bytes": 361746432,
+    "elapsed_s": 29.93800000000192
+  },
+  {
+    "working_set_bytes": 312815616,
+    "private_bytes": 361746432,
+    "elapsed_s": 30.04699999999866
+  },
+  {
+    "working_set_bytes": 312807424,
+    "private_bytes": 361701376,
+    "elapsed_s": 30.156999999999243
+  },
+  {
+    "working_set_bytes": 312815616,
+    "private_bytes": 361701376,
+    "elapsed_s": 30.265999999995984
+  },
+  {
+    "working_set_bytes": 312815616,
+    "private_bytes": 361701376,
+    "elapsed_s": 30.375
+  },
+  {
+    "working_set_bytes": 312815616,
+    "private_bytes": 361701376,
+    "elapsed_s": 30.485000000000582
+  },
+  {
+    "working_set_bytes": 312754176,
+    "private_bytes": 361701376,
+    "elapsed_s": 30.593999999997322,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 312754176,
+    "private_bytes": 361701376,
+    "elapsed_s": 30.70300000000134
+  },
+  {
+    "working_set_bytes": 312758272,
+    "private_bytes": 361701376,
+    "elapsed_s": 30.81300000000192
+  },
+  {
+    "working_set_bytes": 312758272,
+    "private_bytes": 361701376,
+    "elapsed_s": 30.92199999999866
+  },
+  {
+    "working_set_bytes": 313417728,
+    "private_bytes": 361963520,
+    "elapsed_s": 31.031999999999243
+  },
+  {
+    "working_set_bytes": 313438208,
+    "private_bytes": 361963520,
+    "elapsed_s": 31.140999999995984
+  },
+  {
+    "working_set_bytes": 313442304,
+    "private_bytes": 361963520,
+    "elapsed_s": 31.25
+  },
+  {
+    "working_set_bytes": 313442304,
+    "private_bytes": 361963520,
+    "elapsed_s": 31.360000000000582
+  },
+  {
+    "working_set_bytes": 313446400,
+    "private_bytes": 361963520,
+    "elapsed_s": 31.468999999997322
+  },
+  {
+    "working_set_bytes": 313446400,
+    "private_bytes": 361963520,
+    "elapsed_s": 31.57800000000134
+  },
+  {
+    "working_set_bytes": 313446400,
+    "private_bytes": 361963520,
+    "elapsed_s": 31.68800000000192,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 313450496,
+    "private_bytes": 361963520,
+    "elapsed_s": 31.79699999999866
+  },
+  {
+    "working_set_bytes": 313454592,
+    "private_bytes": 361963520,
+    "elapsed_s": 31.906999999999243
+  },
+  {
+    "working_set_bytes": 313454592,
+    "private_bytes": 361963520,
+    "elapsed_s": 32.015999999995984
+  },
+  {
+    "working_set_bytes": 313458688,
+    "private_bytes": 361963520,
+    "elapsed_s": 32.125
+  },
+  {
+    "working_set_bytes": 313458688,
+    "private_bytes": 361963520,
+    "elapsed_s": 32.23500000000058
+  },
+  {
+    "working_set_bytes": 313462784,
+    "private_bytes": 361963520,
+    "elapsed_s": 32.34399999999732
+  },
+  {
+    "working_set_bytes": 313462784,
+    "private_bytes": 361963520,
+    "elapsed_s": 32.45300000000134
+  },
+  {
+    "working_set_bytes": 313462784,
+    "private_bytes": 361963520,
+    "elapsed_s": 32.57800000000134
+  },
+  {
+    "working_set_bytes": 313470976,
+    "private_bytes": 361963520,
+    "elapsed_s": 32.68800000000192,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 313470976,
+    "private_bytes": 361963520,
+    "elapsed_s": 32.79699999999866
+  },
+  {
+    "working_set_bytes": 313470976,
+    "private_bytes": 361963520,
+    "elapsed_s": 32.90699999999924
+  },
+  {
+    "working_set_bytes": 313470976,
+    "private_bytes": 361963520,
+    "elapsed_s": 33.015999999995984
+  },
+  {
+    "working_set_bytes": 313470976,
+    "private_bytes": 361963520,
+    "elapsed_s": 33.125
+  },
+  {
+    "working_set_bytes": 313470976,
+    "private_bytes": 361963520,
+    "elapsed_s": 33.23500000000058
+  },
+  {
+    "working_set_bytes": 313470976,
+    "private_bytes": 361963520,
+    "elapsed_s": 33.34399999999732
+  },
+  {
+    "working_set_bytes": 313475072,
+    "private_bytes": 361963520,
+    "elapsed_s": 33.45300000000134
+  },
+  {
+    "working_set_bytes": 313475072,
+    "private_bytes": 361963520,
+    "elapsed_s": 33.56300000000192
+  },
+  {
+    "working_set_bytes": 313475072,
+    "private_bytes": 361963520,
+    "elapsed_s": 33.67199999999866
+  },
+  {
+    "working_set_bytes": 313479168,
+    "private_bytes": 361963520,
+    "elapsed_s": 33.78199999999924,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 313479168,
+    "private_bytes": 361963520,
+    "elapsed_s": 33.890999999995984
+  },
+  {
+    "working_set_bytes": 313479168,
+    "private_bytes": 361963520,
+    "elapsed_s": 34.0
+  },
+  {
+    "working_set_bytes": 313479168,
+    "private_bytes": 361963520,
+    "elapsed_s": 34.11000000000058
+  },
+  {
+    "working_set_bytes": 313483264,
+    "private_bytes": 361963520,
+    "elapsed_s": 34.21899999999732
+  },
+  {
+    "working_set_bytes": 313483264,
+    "private_bytes": 361963520,
+    "elapsed_s": 34.32800000000134
+  },
+  {
+    "working_set_bytes": 313483264,
+    "private_bytes": 361963520,
+    "elapsed_s": 34.43800000000192
+  },
+  {
+    "working_set_bytes": 313483264,
+    "private_bytes": 361963520,
+    "elapsed_s": 34.54699999999866
+  },
+  {
+    "working_set_bytes": 313483264,
+    "private_bytes": 361963520,
+    "elapsed_s": 34.65699999999924
+  },
+  {
+    "working_set_bytes": 313569280,
+    "private_bytes": 362225664,
+    "elapsed_s": 34.765999999995984
+  },
+  {
+    "working_set_bytes": 313585664,
+    "private_bytes": 362225664,
+    "elapsed_s": 34.875,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 313585664,
+    "private_bytes": 362225664,
+    "elapsed_s": 35.0
+  },
+  {
+    "working_set_bytes": 313589760,
+    "private_bytes": 362225664,
+    "elapsed_s": 35.11000000000058
+  },
+  {
+    "working_set_bytes": 313589760,
+    "private_bytes": 362225664,
+    "elapsed_s": 35.21899999999732
+  },
+  {
+    "working_set_bytes": 313589760,
+    "private_bytes": 362225664,
+    "elapsed_s": 35.32800000000134
+  },
+  {
+    "working_set_bytes": 313589760,
+    "private_bytes": 362225664,
+    "elapsed_s": 35.43800000000192
+  },
+  {
+    "working_set_bytes": 313589760,
+    "private_bytes": 362225664,
+    "elapsed_s": 35.54699999999866
+  },
+  {
+    "working_set_bytes": 313589760,
+    "private_bytes": 362225664,
+    "elapsed_s": 35.65699999999924
+  },
+  {
+    "working_set_bytes": 313589760,
+    "private_bytes": 362225664,
+    "elapsed_s": 35.765999999995984
+  },
+  {
+    "working_set_bytes": 313593856,
+    "private_bytes": 362225664,
+    "elapsed_s": 35.875,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 313593856,
+    "private_bytes": 362225664,
+    "elapsed_s": 35.98500000000058
+  },
+  {
+    "working_set_bytes": 313720832,
+    "private_bytes": 362225664,
+    "elapsed_s": 36.09399999999732
+  },
+  {
+    "working_set_bytes": 313720832,
+    "private_bytes": 362225664,
+    "elapsed_s": 36.20300000000134
+  },
+  {
+    "working_set_bytes": 313724928,
+    "private_bytes": 362225664,
+    "elapsed_s": 36.31300000000192
+  },
+  {
+    "working_set_bytes": 313724928,
+    "private_bytes": 362225664,
+    "elapsed_s": 36.42199999999866
+  },
+  {
+    "working_set_bytes": 313724928,
+    "private_bytes": 362225664,
+    "elapsed_s": 36.53199999999924
+  },
+  {
+    "working_set_bytes": 313729024,
+    "private_bytes": 362225664,
+    "elapsed_s": 36.640999999995984
+  },
+  {
+    "working_set_bytes": 313729024,
+    "private_bytes": 362225664,
+    "elapsed_s": 36.75
+  },
+  {
+    "working_set_bytes": 313729024,
+    "private_bytes": 362225664,
+    "elapsed_s": 36.875,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 313733120,
+    "private_bytes": 362225664,
+    "elapsed_s": 36.98500000000058
+  },
+  {
+    "working_set_bytes": 313733120,
+    "private_bytes": 362225664,
+    "elapsed_s": 37.09399999999732
+  },
+  {
+    "working_set_bytes": 313733120,
+    "private_bytes": 362225664,
+    "elapsed_s": 37.18800000000192
+  },
+  {
+    "working_set_bytes": 313733120,
+    "private_bytes": 362225664,
+    "elapsed_s": 37.29699999999866
+  },
+  {
+    "working_set_bytes": 313737216,
+    "private_bytes": 362225664,
+    "elapsed_s": 37.40699999999924
+  },
+  {
+    "working_set_bytes": 313737216,
+    "private_bytes": 362225664,
+    "elapsed_s": 37.515999999995984
+  },
+  {
+    "working_set_bytes": 313737216,
+    "private_bytes": 362225664,
+    "elapsed_s": 37.625
+  },
+  {
+    "working_set_bytes": 313737216,
+    "private_bytes": 362225664,
+    "elapsed_s": 37.73500000000058
+  },
+  {
+    "working_set_bytes": 313896960,
+    "private_bytes": 362225664,
+    "elapsed_s": 37.84399999999732
+  },
+  {
+    "working_set_bytes": 313896960,
+    "private_bytes": 362225664,
+    "elapsed_s": 37.96899999999732,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 313901056,
+    "private_bytes": 362225664,
+    "elapsed_s": 38.07800000000134
+  },
+  {
+    "working_set_bytes": 313901056,
+    "private_bytes": 362225664,
+    "elapsed_s": 38.18800000000192
+  },
+  {
+    "working_set_bytes": 313901056,
+    "private_bytes": 362225664,
+    "elapsed_s": 38.29699999999866
+  },
+  {
+    "working_set_bytes": 313905152,
+    "private_bytes": 362225664,
+    "elapsed_s": 38.40699999999924
+  },
+  {
+    "working_set_bytes": 313905152,
+    "private_bytes": 362225664,
+    "elapsed_s": 38.515999999995984
+  },
+  {
+    "working_set_bytes": 313905152,
+    "private_bytes": 362225664,
+    "elapsed_s": 38.625
+  },
+  {
+    "working_set_bytes": 313905152,
+    "private_bytes": 362225664,
+    "elapsed_s": 38.73500000000058
+  },
+  {
+    "working_set_bytes": 313909248,
+    "private_bytes": 362225664,
+    "elapsed_s": 38.84399999999732
+  },
+  {
+    "working_set_bytes": 313909248,
+    "private_bytes": 362225664,
+    "elapsed_s": 38.95300000000134
+  },
+  {
+    "working_set_bytes": 313921536,
+    "private_bytes": 362225664,
+    "elapsed_s": 39.06300000000192,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 313925632,
+    "private_bytes": 362225664,
+    "elapsed_s": 39.17199999999866
+  },
+  {
+    "working_set_bytes": 313925632,
+    "private_bytes": 362225664,
+    "elapsed_s": 39.28199999999924
+  },
+  {
+    "working_set_bytes": 313925632,
+    "private_bytes": 362225664,
+    "elapsed_s": 39.390999999995984
+  },
+  {
+    "working_set_bytes": 313929728,
+    "private_bytes": 362225664,
+    "elapsed_s": 39.5
+  },
+  {
+    "working_set_bytes": 313929728,
+    "private_bytes": 362225664,
+    "elapsed_s": 39.59399999999732
+  },
+  {
+    "working_set_bytes": 313929728,
+    "private_bytes": 362225664,
+    "elapsed_s": 39.70300000000134
+  },
+  {
+    "working_set_bytes": 313933824,
+    "private_bytes": 362225664,
+    "elapsed_s": 39.81300000000192
+  },
+  {
+    "working_set_bytes": 313933824,
+    "private_bytes": 362225664,
+    "elapsed_s": 39.92199999999866
+  },
+  {
+    "working_set_bytes": 313933824,
+    "private_bytes": 362225664,
+    "elapsed_s": 40.03199999999924
+  },
+  {
+    "working_set_bytes": 313933824,
+    "private_bytes": 362225664,
+    "elapsed_s": 40.140999999995984,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 313937920,
+    "private_bytes": 362225664,
+    "elapsed_s": 40.25
+  },
+  {
+    "working_set_bytes": 313937920,
+    "private_bytes": 362225664,
+    "elapsed_s": 40.36000000000058
+  },
+  {
+    "working_set_bytes": 313937920,
+    "private_bytes": 362225664,
+    "elapsed_s": 40.46899999999732
+  },
+  {
+    "working_set_bytes": 313942016,
+    "private_bytes": 362225664,
+    "elapsed_s": 40.57800000000134
+  },
+  {
+    "working_set_bytes": 313942016,
+    "private_bytes": 362225664,
+    "elapsed_s": 40.68800000000192
+  },
+  {
+    "working_set_bytes": 313942016,
+    "private_bytes": 362225664,
+    "elapsed_s": 40.79699999999866
+  },
+  {
+    "working_set_bytes": 313946112,
+    "private_bytes": 362225664,
+    "elapsed_s": 40.90699999999924
+  },
+  {
+    "working_set_bytes": 313974784,
+    "private_bytes": 362225664,
+    "elapsed_s": 41.015999999995984
+  },
+  {
+    "working_set_bytes": 313991168,
+    "private_bytes": 362225664,
+    "elapsed_s": 41.125
+  },
+  {
+    "working_set_bytes": 313995264,
+    "private_bytes": 362225664,
+    "elapsed_s": 41.23500000000058,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 313999360,
+    "private_bytes": 362225664,
+    "elapsed_s": 41.34399999999732
+  },
+  {
+    "working_set_bytes": 313999360,
+    "private_bytes": 362225664,
+    "elapsed_s": 41.45300000000134
+  },
+  {
+    "working_set_bytes": 313999360,
+    "private_bytes": 362225664,
+    "elapsed_s": 41.56300000000192
+  },
+  {
+    "working_set_bytes": 313999360,
+    "private_bytes": 362225664,
+    "elapsed_s": 41.67199999999866
+  },
+  {
+    "working_set_bytes": 314003456,
+    "private_bytes": 362225664,
+    "elapsed_s": 41.78199999999924
+  },
+  {
+    "working_set_bytes": 314003456,
+    "private_bytes": 362225664,
+    "elapsed_s": 41.890999999995984
+  },
+  {
+    "working_set_bytes": 314003456,
+    "private_bytes": 362225664,
+    "elapsed_s": 42.0
+  },
+  {
+    "working_set_bytes": 314003456,
+    "private_bytes": 362225664,
+    "elapsed_s": 42.11000000000058
+  },
+  {
+    "working_set_bytes": 314003456,
+    "private_bytes": 362225664,
+    "elapsed_s": 42.21899999999732
+  },
+  {
+    "working_set_bytes": 314003456,
+    "private_bytes": 362225664,
+    "elapsed_s": 42.32800000000134,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 314003456,
+    "private_bytes": 362225664,
+    "elapsed_s": 42.43800000000192
+  },
+  {
+    "working_set_bytes": 314003456,
+    "private_bytes": 362225664,
+    "elapsed_s": 42.54699999999866
+  },
+  {
+    "working_set_bytes": 314003456,
+    "private_bytes": 362225664,
+    "elapsed_s": 42.65699999999924
+  },
+  {
+    "working_set_bytes": 314003456,
+    "private_bytes": 362225664,
+    "elapsed_s": 42.765999999995984
+  },
+  {
+    "working_set_bytes": 314007552,
+    "private_bytes": 362225664,
+    "elapsed_s": 42.875
+  },
+  {
+    "working_set_bytes": 314007552,
+    "private_bytes": 362225664,
+    "elapsed_s": 42.98500000000058
+  },
+  {
+    "working_set_bytes": 314015744,
+    "private_bytes": 362225664,
+    "elapsed_s": 43.09399999999732
+  },
+  {
+    "working_set_bytes": 314015744,
+    "private_bytes": 362225664,
+    "elapsed_s": 43.20300000000134
+  },
+  {
+    "working_set_bytes": 314015744,
+    "private_bytes": 362225664,
+    "elapsed_s": 43.31300000000192
+  },
+  {
+    "working_set_bytes": 314036224,
+    "private_bytes": 362229760,
+    "elapsed_s": 43.42199999999866,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 314036224,
+    "private_bytes": 362229760,
+    "elapsed_s": 43.53199999999924
+  },
+  {
+    "working_set_bytes": 314036224,
+    "private_bytes": 362229760,
+    "elapsed_s": 43.640999999995984
+  },
+  {
+    "working_set_bytes": 314036224,
+    "private_bytes": 362229760,
+    "elapsed_s": 43.75
+  },
+  {
+    "working_set_bytes": 314040320,
+    "private_bytes": 362229760,
+    "elapsed_s": 43.86000000000058
+  },
+  {
+    "working_set_bytes": 314040320,
+    "private_bytes": 362229760,
+    "elapsed_s": 43.96899999999732
+  },
+  {
+    "working_set_bytes": 314040320,
+    "private_bytes": 362229760,
+    "elapsed_s": 44.07800000000134
+  },
+  {
+    "working_set_bytes": 314372096,
+    "private_bytes": 362688512,
+    "elapsed_s": 44.18800000000192
+  },
+  {
+    "working_set_bytes": 314372096,
+    "private_bytes": 362688512,
+    "elapsed_s": 44.29699999999866
+  },
+  {
+    "working_set_bytes": 314372096,
+    "private_bytes": 362688512,
+    "elapsed_s": 44.40699999999924
+  },
+  {
+    "working_set_bytes": 314372096,
+    "private_bytes": 362688512,
+    "elapsed_s": 44.515999999995984,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 314372096,
+    "private_bytes": 362688512,
+    "elapsed_s": 44.625
+  },
+  {
+    "working_set_bytes": 314372096,
+    "private_bytes": 362688512,
+    "elapsed_s": 44.73500000000058
+  },
+  {
+    "working_set_bytes": 314372096,
+    "private_bytes": 362688512,
+    "elapsed_s": 44.84399999999732
+  },
+  {
+    "working_set_bytes": 314372096,
+    "private_bytes": 362688512,
+    "elapsed_s": 44.95300000000134
+  },
+  {
+    "working_set_bytes": 314372096,
+    "private_bytes": 362688512,
+    "elapsed_s": 45.06300000000192
+  },
+  {
+    "working_set_bytes": 314372096,
+    "private_bytes": 362688512,
+    "elapsed_s": 45.17199999999866
+  },
+  {
+    "working_set_bytes": 314372096,
+    "private_bytes": 362688512,
+    "elapsed_s": 45.28199999999924
+  },
+  {
+    "working_set_bytes": 314372096,
+    "private_bytes": 362688512,
+    "elapsed_s": 45.390999999995984
+  },
+  {
+    "working_set_bytes": 314372096,
+    "private_bytes": 362688512,
+    "elapsed_s": 45.5
+  },
+  {
+    "working_set_bytes": 314372096,
+    "private_bytes": 362688512,
+    "elapsed_s": 45.61000000000058,
+    "gpu_dedicated_bytes": 87900160
+  },
+  {
+    "working_set_bytes": 314376192,
+    "private_bytes": 362688512,
+    "elapsed_s": 45.71899999999732
+  },
+  {
+    "working_set_bytes": 314376192,
+    "private_bytes": 362688512,
+    "elapsed_s": 45.82800000000134
+  },
+  {
+    "working_set_bytes": 314380288,
+    "private_bytes": 362688512,
+    "elapsed_s": 45.93800000000192
+  },
+  {
+    "working_set_bytes": 314376192,
+    "private_bytes": 362688512,
+    "elapsed_s": 46.04699999999866
+  },
+  {
+    "working_set_bytes": 314376192,
+    "private_bytes": 362688512,
+    "elapsed_s": 46.15699999999924
+  },
+  {
+    "working_set_bytes": 314376192,
+    "private_bytes": 362688512,
+    "elapsed_s": 46.265999999995984
+  },
+  {
+    "working_set_bytes": 314380288,
+    "private_bytes": 362688512,
+    "elapsed_s": 46.375
+  },
+  {
+    "working_set_bytes": 314376192,
+    "private_bytes": 362688512,
+    "elapsed_s": 46.48500000000058
+  },
+  {
+    "working_set_bytes": 314376192,
+    "private_bytes": 362688512,
+    "elapsed_s": 46.59399999999732
+  },
+  {
+    "working_set_bytes": 314380288,
+    "private_bytes": 362688512,
+    "elapsed_s": 46.70300000000134,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 314380288,
+    "private_bytes": 362688512,
+    "elapsed_s": 46.81300000000192
+  },
+  {
+    "working_set_bytes": 314380288,
+    "private_bytes": 362688512,
+    "elapsed_s": 46.92199999999866
+  },
+  {
+    "working_set_bytes": 314380288,
+    "private_bytes": 362688512,
+    "elapsed_s": 47.03199999999924
+  },
+  {
+    "working_set_bytes": 314380288,
+    "private_bytes": 362688512,
+    "elapsed_s": 47.140999999995984
+  },
+  {
+    "working_set_bytes": 314380288,
+    "private_bytes": 362688512,
+    "elapsed_s": 47.25
+  },
+  {
+    "working_set_bytes": 314380288,
+    "private_bytes": 362688512,
+    "elapsed_s": 47.36000000000058
+  },
+  {
+    "working_set_bytes": 314380288,
+    "private_bytes": 362688512,
+    "elapsed_s": 47.46899999999732
+  },
+  {
+    "working_set_bytes": 314384384,
+    "private_bytes": 362688512,
+    "elapsed_s": 47.57800000000134
+  },
+  {
+    "working_set_bytes": 314384384,
+    "private_bytes": 362688512,
+    "elapsed_s": 47.68800000000192
+  },
+  {
+    "working_set_bytes": 314384384,
+    "private_bytes": 362688512,
+    "elapsed_s": 47.79699999999866,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 314384384,
+    "private_bytes": 362688512,
+    "elapsed_s": 47.90699999999924
+  },
+  {
+    "working_set_bytes": 314384384,
+    "private_bytes": 362688512,
+    "elapsed_s": 48.015999999995984
+  },
+  {
+    "working_set_bytes": 314384384,
+    "private_bytes": 362688512,
+    "elapsed_s": 48.125
+  },
+  {
+    "working_set_bytes": 314384384,
+    "private_bytes": 362688512,
+    "elapsed_s": 48.23500000000058
+  },
+  {
+    "working_set_bytes": 314384384,
+    "private_bytes": 362688512,
+    "elapsed_s": 48.34399999999732
+  },
+  {
+    "working_set_bytes": 314515456,
+    "private_bytes": 362950656,
+    "elapsed_s": 48.45300000000134
+  },
+  {
+    "working_set_bytes": 314515456,
+    "private_bytes": 362950656,
+    "elapsed_s": 48.56300000000192
+  },
+  {
+    "working_set_bytes": 314515456,
+    "private_bytes": 362950656,
+    "elapsed_s": 48.67199999999866
+  },
+  {
+    "working_set_bytes": 314515456,
+    "private_bytes": 362950656,
+    "elapsed_s": 48.78199999999924
+  },
+  {
+    "working_set_bytes": 314515456,
+    "private_bytes": 362950656,
+    "elapsed_s": 48.890999999995984,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 314515456,
+    "private_bytes": 362950656,
+    "elapsed_s": 49.0
+  },
+  {
+    "working_set_bytes": 314515456,
+    "private_bytes": 362950656,
+    "elapsed_s": 49.11000000000058
+  },
+  {
+    "working_set_bytes": 314642432,
+    "private_bytes": 362950656,
+    "elapsed_s": 49.21899999999732
+  },
+  {
+    "working_set_bytes": 314650624,
+    "private_bytes": 362950656,
+    "elapsed_s": 49.32800000000134
+  },
+  {
+    "working_set_bytes": 314650624,
+    "private_bytes": 362950656,
+    "elapsed_s": 49.43800000000192
+  },
+  {
+    "working_set_bytes": 314650624,
+    "private_bytes": 362950656,
+    "elapsed_s": 49.54699999999866
+  },
+  {
+    "working_set_bytes": 314650624,
+    "private_bytes": 362950656,
+    "elapsed_s": 49.65699999999924
+  },
+  {
+    "working_set_bytes": 314650624,
+    "private_bytes": 362950656,
+    "elapsed_s": 49.765999999995984
+  },
+  {
+    "working_set_bytes": 314650624,
+    "private_bytes": 362950656,
+    "elapsed_s": 49.875
+  },
+  {
+    "working_set_bytes": 314650624,
+    "private_bytes": 362950656,
+    "elapsed_s": 49.98500000000058,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 314650624,
+    "private_bytes": 362950656,
+    "elapsed_s": 50.09399999999732
+  },
+  {
+    "working_set_bytes": 314650624,
+    "private_bytes": 362950656,
+    "elapsed_s": 50.20300000000134
+  },
+  {
+    "working_set_bytes": 314654720,
+    "private_bytes": 362950656,
+    "elapsed_s": 50.31300000000192
+  },
+  {
+    "working_set_bytes": 314658816,
+    "private_bytes": 362950656,
+    "elapsed_s": 50.42199999999866
+  },
+  {
+    "working_set_bytes": 314658816,
+    "private_bytes": 362950656,
+    "elapsed_s": 50.53199999999924
+  },
+  {
+    "working_set_bytes": 314658816,
+    "private_bytes": 362950656,
+    "elapsed_s": 50.640999999995984
+  },
+  {
+    "working_set_bytes": 314658816,
+    "private_bytes": 362950656,
+    "elapsed_s": 50.75
+  },
+  {
+    "working_set_bytes": 314658816,
+    "private_bytes": 362950656,
+    "elapsed_s": 50.86000000000058
+  },
+  {
+    "working_set_bytes": 314658816,
+    "private_bytes": 362950656,
+    "elapsed_s": 50.96899999999732
+  },
+  {
+    "working_set_bytes": 314658816,
+    "private_bytes": 362950656,
+    "elapsed_s": 51.07800000000134,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 314662912,
+    "private_bytes": 362950656,
+    "elapsed_s": 51.18800000000192
+  },
+  {
+    "working_set_bytes": 314662912,
+    "private_bytes": 362950656,
+    "elapsed_s": 51.29699999999866
+  },
+  {
+    "working_set_bytes": 314662912,
+    "private_bytes": 362950656,
+    "elapsed_s": 51.40699999999924
+  },
+  {
+    "working_set_bytes": 314662912,
+    "private_bytes": 362950656,
+    "elapsed_s": 51.515999999995984
+  },
+  {
+    "working_set_bytes": 314662912,
+    "private_bytes": 362950656,
+    "elapsed_s": 51.625
+  },
+  {
+    "working_set_bytes": 314662912,
+    "private_bytes": 362950656,
+    "elapsed_s": 51.73500000000058
+  },
+  {
+    "working_set_bytes": 314662912,
+    "private_bytes": 362950656,
+    "elapsed_s": 51.84399999999732
+  },
+  {
+    "working_set_bytes": 314667008,
+    "private_bytes": 362950656,
+    "elapsed_s": 51.95300000000134
+  },
+  {
+    "working_set_bytes": 314667008,
+    "private_bytes": 362950656,
+    "elapsed_s": 52.06300000000192
+  },
+  {
+    "working_set_bytes": 314667008,
+    "private_bytes": 362950656,
+    "elapsed_s": 52.15699999999924,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 314667008,
+    "private_bytes": 362950656,
+    "elapsed_s": 52.265999999995984
+  },
+  {
+    "working_set_bytes": 314667008,
+    "private_bytes": 362950656,
+    "elapsed_s": 52.375
+  },
+  {
+    "working_set_bytes": 312569856,
+    "private_bytes": 360853504,
+    "elapsed_s": 52.48500000000058
+  },
+  {
+    "working_set_bytes": 312569856,
+    "private_bytes": 360853504,
+    "elapsed_s": 52.59399999999732
+  },
+  {
+    "working_set_bytes": 312569856,
+    "private_bytes": 360853504,
+    "elapsed_s": 52.70300000000134
+  },
+  {
+    "working_set_bytes": 312573952,
+    "private_bytes": 360853504,
+    "elapsed_s": 52.81300000000192
+  },
+  {
+    "working_set_bytes": 312573952,
+    "private_bytes": 360853504,
+    "elapsed_s": 52.92199999999866
+  },
+  {
+    "working_set_bytes": 312573952,
+    "private_bytes": 360853504,
+    "elapsed_s": 53.03199999999924
+  },
+  {
+    "working_set_bytes": 312573952,
+    "private_bytes": 360853504,
+    "elapsed_s": 53.140999999995984
+  },
+  {
+    "working_set_bytes": 312573952,
+    "private_bytes": 360853504,
+    "elapsed_s": 53.25,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 312573952,
+    "private_bytes": 360853504,
+    "elapsed_s": 53.36000000000058
+  },
+  {
+    "working_set_bytes": 312573952,
+    "private_bytes": 360853504,
+    "elapsed_s": 53.46899999999732
+  },
+  {
+    "working_set_bytes": 312578048,
+    "private_bytes": 360853504,
+    "elapsed_s": 53.57800000000134
+  },
+  {
+    "working_set_bytes": 312578048,
+    "private_bytes": 360853504,
+    "elapsed_s": 53.68800000000192
+  },
+  {
+    "working_set_bytes": 312578048,
+    "private_bytes": 360853504,
+    "elapsed_s": 53.79699999999866
+  },
+  {
+    "working_set_bytes": 312578048,
+    "private_bytes": 360853504,
+    "elapsed_s": 53.890999999995984
+  },
+  {
+    "working_set_bytes": 312578048,
+    "private_bytes": 360853504,
+    "elapsed_s": 54.0
+  },
+  {
+    "working_set_bytes": 312578048,
+    "private_bytes": 360853504,
+    "elapsed_s": 54.11000000000058
+  },
+  {
+    "working_set_bytes": 312578048,
+    "private_bytes": 360853504,
+    "elapsed_s": 54.23500000000058
+  },
+  {
+    "working_set_bytes": 312582144,
+    "private_bytes": 360853504,
+    "elapsed_s": 54.32800000000134,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 312582144,
+    "private_bytes": 360853504,
+    "elapsed_s": 54.45300000000134
+  },
+  {
+    "working_set_bytes": 312582144,
+    "private_bytes": 360853504,
+    "elapsed_s": 54.56300000000192
+  },
+  {
+    "working_set_bytes": 312582144,
+    "private_bytes": 360853504,
+    "elapsed_s": 54.67199999999866
+  },
+  {
+    "working_set_bytes": 312582144,
+    "private_bytes": 360853504,
+    "elapsed_s": 54.78199999999924
+  },
+  {
+    "working_set_bytes": 312582144,
+    "private_bytes": 360853504,
+    "elapsed_s": 54.890999999995984
+  },
+  {
+    "working_set_bytes": 312582144,
+    "private_bytes": 360853504,
+    "elapsed_s": 55.0
+  },
+  {
+    "working_set_bytes": 312582144,
+    "private_bytes": 360853504,
+    "elapsed_s": 55.11000000000058
+  },
+  {
+    "working_set_bytes": 312881152,
+    "private_bytes": 361385984,
+    "elapsed_s": 55.21899999999732
+  },
+  {
+    "working_set_bytes": 312881152,
+    "private_bytes": 361385984,
+    "elapsed_s": 55.32800000000134,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 312881152,
+    "private_bytes": 361385984,
+    "elapsed_s": 55.43800000000192
+  },
+  {
+    "working_set_bytes": 312881152,
+    "private_bytes": 361385984,
+    "elapsed_s": 55.54699999999866
+  },
+  {
+    "working_set_bytes": 312881152,
+    "private_bytes": 361385984,
+    "elapsed_s": 55.65699999999924
+  },
+  {
+    "working_set_bytes": 312881152,
+    "private_bytes": 361385984,
+    "elapsed_s": 55.765999999995984
+  },
+  {
+    "working_set_bytes": 312881152,
+    "private_bytes": 361385984,
+    "elapsed_s": 55.875
+  },
+  {
+    "working_set_bytes": 312885248,
+    "private_bytes": 361385984,
+    "elapsed_s": 55.98500000000058
+  },
+  {
+    "working_set_bytes": 312885248,
+    "private_bytes": 361385984,
+    "elapsed_s": 56.09399999999732
+  },
+  {
+    "working_set_bytes": 312885248,
+    "private_bytes": 361385984,
+    "elapsed_s": 56.18800000000192
+  },
+  {
+    "working_set_bytes": 312885248,
+    "private_bytes": 361385984,
+    "elapsed_s": 56.29699999999866
+  },
+  {
+    "working_set_bytes": 312885248,
+    "private_bytes": 361385984,
+    "elapsed_s": 56.40699999999924,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 312885248,
+    "private_bytes": 361385984,
+    "elapsed_s": 56.515999999995984
+  },
+  {
+    "working_set_bytes": 312885248,
+    "private_bytes": 361385984,
+    "elapsed_s": 56.625
+  },
+  {
+    "working_set_bytes": 312889344,
+    "private_bytes": 361385984,
+    "elapsed_s": 56.73500000000058
+  },
+  {
+    "working_set_bytes": 312889344,
+    "private_bytes": 361385984,
+    "elapsed_s": 56.84399999999732
+  },
+  {
+    "working_set_bytes": 312889344,
+    "private_bytes": 361385984,
+    "elapsed_s": 56.95300000000134
+  },
+  {
+    "working_set_bytes": 312889344,
+    "private_bytes": 361385984,
+    "elapsed_s": 57.06300000000192
+  },
+  {
+    "working_set_bytes": 312889344,
+    "private_bytes": 361385984,
+    "elapsed_s": 57.17199999999866
+  },
+  {
+    "working_set_bytes": 312889344,
+    "private_bytes": 361385984,
+    "elapsed_s": 57.28199999999924
+  },
+  {
+    "working_set_bytes": 312889344,
+    "private_bytes": 361385984,
+    "elapsed_s": 57.390999999995984
+  },
+  {
+    "working_set_bytes": 312889344,
+    "private_bytes": 361385984,
+    "elapsed_s": 57.5,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 312893440,
+    "private_bytes": 361385984,
+    "elapsed_s": 57.61000000000058
+  },
+  {
+    "working_set_bytes": 312893440,
+    "private_bytes": 361385984,
+    "elapsed_s": 57.71899999999732
+  },
+  {
+    "working_set_bytes": 312893440,
+    "private_bytes": 361385984,
+    "elapsed_s": 57.82800000000134
+  },
+  {
+    "working_set_bytes": 312893440,
+    "private_bytes": 361385984,
+    "elapsed_s": 57.93800000000192
+  },
+  {
+    "working_set_bytes": 312893440,
+    "private_bytes": 361385984,
+    "elapsed_s": 58.04699999999866
+  },
+  {
+    "working_set_bytes": 312897536,
+    "private_bytes": 361385984,
+    "elapsed_s": 58.15699999999924
+  },
+  {
+    "working_set_bytes": 312954880,
+    "private_bytes": 361385984,
+    "elapsed_s": 58.265999999995984
+  },
+  {
+    "working_set_bytes": 312958976,
+    "private_bytes": 361385984,
+    "elapsed_s": 58.375
+  },
+  {
+    "working_set_bytes": 312958976,
+    "private_bytes": 361385984,
+    "elapsed_s": 58.48500000000058
+  },
+  {
+    "working_set_bytes": 312958976,
+    "private_bytes": 361385984,
+    "elapsed_s": 58.59399999999732,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 312958976,
+    "private_bytes": 361385984,
+    "elapsed_s": 58.70300000000134
+  },
+  {
+    "working_set_bytes": 312958976,
+    "private_bytes": 361385984,
+    "elapsed_s": 58.81300000000192
+  },
+  {
+    "working_set_bytes": 312958976,
+    "private_bytes": 361385984,
+    "elapsed_s": 58.92199999999866
+  },
+  {
+    "working_set_bytes": 312958976,
+    "private_bytes": 361385984,
+    "elapsed_s": 59.03199999999924
+  },
+  {
+    "working_set_bytes": 312963072,
+    "private_bytes": 361385984,
+    "elapsed_s": 59.140999999995984
+  },
+  {
+    "working_set_bytes": 312963072,
+    "private_bytes": 361385984,
+    "elapsed_s": 59.25
+  },
+  {
+    "working_set_bytes": 312963072,
+    "private_bytes": 361385984,
+    "elapsed_s": 59.36000000000058
+  },
+  {
+    "working_set_bytes": 312963072,
+    "private_bytes": 361385984,
+    "elapsed_s": 59.46899999999732
+  },
+  {
+    "working_set_bytes": 312963072,
+    "private_bytes": 361385984,
+    "elapsed_s": 59.57800000000134
+  },
+  {
+    "working_set_bytes": 312963072,
+    "private_bytes": 361385984,
+    "elapsed_s": 59.68800000000192,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 312979456,
+    "private_bytes": 361340928,
+    "elapsed_s": 59.79699999999866
+  },
+  {
+    "working_set_bytes": 312983552,
+    "private_bytes": 361340928,
+    "elapsed_s": 59.90699999999924
+  },
+  {
+    "working_set_bytes": 312983552,
+    "private_bytes": 361340928,
+    "elapsed_s": 60.015999999995984
+  },
+  {
+    "working_set_bytes": 312938496,
+    "private_bytes": 361242624,
+    "elapsed_s": 60.125
+  },
+  {
+    "working_set_bytes": 312938496,
+    "private_bytes": 361242624,
+    "elapsed_s": 60.23500000000058
+  },
+  {
+    "working_set_bytes": 312938496,
+    "private_bytes": 361242624,
+    "elapsed_s": 60.34399999999732
+  },
+  {
+    "working_set_bytes": 312938496,
+    "private_bytes": 361242624,
+    "elapsed_s": 60.45300000000134
+  },
+  {
+    "working_set_bytes": 312938496,
+    "private_bytes": 361242624,
+    "elapsed_s": 60.56300000000192
+  },
+  {
+    "working_set_bytes": 312942592,
+    "private_bytes": 361242624,
+    "elapsed_s": 60.67199999999866
+  },
+  {
+    "working_set_bytes": 312946688,
+    "private_bytes": 361242624,
+    "elapsed_s": 60.78199999999924,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 312942592,
+    "private_bytes": 361242624,
+    "elapsed_s": 60.890999999995984
+  },
+  {
+    "working_set_bytes": 312942592,
+    "private_bytes": 361242624,
+    "elapsed_s": 61.0
+  },
+  {
+    "working_set_bytes": 312942592,
+    "private_bytes": 361242624,
+    "elapsed_s": 61.11000000000058
+  },
+  {
+    "working_set_bytes": 312942592,
+    "private_bytes": 361242624,
+    "elapsed_s": 61.21899999999732
+  },
+  {
+    "working_set_bytes": 312942592,
+    "private_bytes": 361242624,
+    "elapsed_s": 61.32800000000134
+  },
+  {
+    "working_set_bytes": 312942592,
+    "private_bytes": 361242624,
+    "elapsed_s": 61.43800000000192
+  },
+  {
+    "working_set_bytes": 312946688,
+    "private_bytes": 361242624,
+    "elapsed_s": 61.54699999999866
+  },
+  {
+    "working_set_bytes": 312946688,
+    "private_bytes": 361242624,
+    "elapsed_s": 61.65699999999924
+  },
+  {
+    "working_set_bytes": 312946688,
+    "private_bytes": 361242624,
+    "elapsed_s": 61.765999999995984
+  },
+  {
+    "working_set_bytes": 312946688,
+    "private_bytes": 361242624,
+    "elapsed_s": 61.875,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 312946688,
+    "private_bytes": 361242624,
+    "elapsed_s": 61.98500000000058
+  },
+  {
+    "working_set_bytes": 313139200,
+    "private_bytes": 361504768,
+    "elapsed_s": 62.09399999999732
+  },
+  {
+    "working_set_bytes": 313139200,
+    "private_bytes": 361504768,
+    "elapsed_s": 62.20300000000134
+  },
+  {
+    "working_set_bytes": 313139200,
+    "private_bytes": 361504768,
+    "elapsed_s": 62.31300000000192
+  },
+  {
+    "working_set_bytes": 313143296,
+    "private_bytes": 361504768,
+    "elapsed_s": 62.42199999999866
+  },
+  {
+    "working_set_bytes": 313143296,
+    "private_bytes": 361504768,
+    "elapsed_s": 62.53199999999924
+  },
+  {
+    "working_set_bytes": 313143296,
+    "private_bytes": 361504768,
+    "elapsed_s": 62.65699999999924
+  },
+  {
+    "working_set_bytes": 313143296,
+    "private_bytes": 361504768,
+    "elapsed_s": 62.765999999995984
+  },
+  {
+    "working_set_bytes": 313143296,
+    "private_bytes": 361504768,
+    "elapsed_s": 62.875,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 313143296,
+    "private_bytes": 361504768,
+    "elapsed_s": 62.98500000000058
+  },
+  {
+    "working_set_bytes": 313143296,
+    "private_bytes": 361504768,
+    "elapsed_s": 63.09399999999732
+  },
+  {
+    "working_set_bytes": 313147392,
+    "private_bytes": 361504768,
+    "elapsed_s": 63.20300000000134
+  },
+  {
+    "working_set_bytes": 313147392,
+    "private_bytes": 361504768,
+    "elapsed_s": 63.31300000000192
+  },
+  {
+    "working_set_bytes": 313147392,
+    "private_bytes": 361504768,
+    "elapsed_s": 63.42199999999866
+  },
+  {
+    "working_set_bytes": 313147392,
+    "private_bytes": 361504768,
+    "elapsed_s": 63.53199999999924
+  },
+  {
+    "working_set_bytes": 313147392,
+    "private_bytes": 361504768,
+    "elapsed_s": 63.640999999995984
+  },
+  {
+    "working_set_bytes": 313147392,
+    "private_bytes": 361504768,
+    "elapsed_s": 63.75
+  },
+  {
+    "working_set_bytes": 313278464,
+    "private_bytes": 361766912,
+    "elapsed_s": 63.86000000000058
+  },
+  {
+    "working_set_bytes": 313548800,
+    "private_bytes": 362291200,
+    "elapsed_s": 63.96899999999732,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 313552896,
+    "private_bytes": 362291200,
+    "elapsed_s": 64.07800000000134
+  },
+  {
+    "working_set_bytes": 313552896,
+    "private_bytes": 362291200,
+    "elapsed_s": 64.18800000000192
+  },
+  {
+    "working_set_bytes": 313610240,
+    "private_bytes": 362291200,
+    "elapsed_s": 64.29699999999866
+  },
+  {
+    "working_set_bytes": 313610240,
+    "private_bytes": 362291200,
+    "elapsed_s": 64.40699999999924
+  },
+  {
+    "working_set_bytes": 313610240,
+    "private_bytes": 362291200,
+    "elapsed_s": 64.51599999999598
+  },
+  {
+    "working_set_bytes": 313610240,
+    "private_bytes": 362291200,
+    "elapsed_s": 64.625
+  },
+  {
+    "working_set_bytes": 313610240,
+    "private_bytes": 362291200,
+    "elapsed_s": 64.73500000000058
+  },
+  {
+    "working_set_bytes": 313614336,
+    "private_bytes": 362291200,
+    "elapsed_s": 64.84399999999732
+  },
+  {
+    "working_set_bytes": 313614336,
+    "private_bytes": 362291200,
+    "elapsed_s": 64.95300000000134
+  },
+  {
+    "working_set_bytes": 313614336,
+    "private_bytes": 362291200,
+    "elapsed_s": 65.06300000000192,
+    "gpu_dedicated_bytes": 87896064
+  },
+  {
+    "working_set_bytes": 313614336,
+    "private_bytes": 362291200,
+    "elapsed_s": 65.17199999999866
+  },
+  {
+    "working_set_bytes": 313614336,
+    "private_bytes": 362291200,
+    "elapsed_s": 65.28199999999924
+  },
+  {
+    "working_set_bytes": 313614336,
+    "private_bytes": 362291200,
+    "elapsed_s": 65.39099999999598
+  },
+  {
+    "working_set_bytes": 313614336,
+    "private_bytes": 362291200,
+    "elapsed_s": 65.5
+  },
+  {
+    "working_set_bytes": 313618432,
+    "private_bytes": 362291200,
+    "elapsed_s": 65.61000000000058
+  },
+  {
+    "working_set_bytes": 313618432,
+    "private_bytes": 362291200,
+    "elapsed_s": 65.71899999999732
+  },
+  {
+    "working_set_bytes": 313618432,
+    "private_bytes": 362291200,
+    "elapsed_s": 65.82800000000134
+  },
+  {
+    "working_set_bytes": 313618432,
+    "private_bytes": 362291200,
+    "elapsed_s": 65.93800000000192
+  },
+  {
+    "working_set_bytes": 263335936,
+    "private_bytes": 311848960,
+    "elapsed_s": 66.04699999999866
+  },
+  {
+    "working_set_bytes": 134889472,
+    "private_bytes": 167866368,
+    "elapsed_s": 66.15699999999924,
+    "gpu_dedicated_bytes": 34074624
+  }
+]

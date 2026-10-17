@@ -1,0 +1,347 @@
+{
+  "passed": false,
+  "protected_source_bindings_passed": true,
+  "tests": [
+    {
+      "case": "c1_policy",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\runtime",
+        "--script",
+        "res://tests/v02/c1_policy_runner.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\c1_policy_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": null,
+      "checks": null
+    },
+    {
+      "case": "v2_core",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\runtime",
+        "--script",
+        "res://tests/v02/test_v2_presentation.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\v2_core_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\v2_core_result.json",
+      "checks": 23
+    },
+    {
+      "case": "e3_core",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\runtime",
+        "--script",
+        "res://tests/v02/test_e3_lifecycle.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\e3_core_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\e3_core_result.json",
+      "checks": 30
+    },
+    {
+      "case": "e2_core",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\runtime",
+        "--script",
+        "res://tests/v02/test_e2_query.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\e2_core_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\e2_core_result.json",
+      "checks": 98
+    },
+    {
+      "case": "e1_adapter",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\runtime",
+        "--script",
+        "res://tests/v02/test_e1_package.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\e1_adapter_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\e1_adapter_result.json",
+      "checks": 15
+    },
+    {
+      "case": "geometry",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\authoring",
+        "--script",
+        "res://tests/test_review_geometry.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\geometry_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\geometry_result.json",
+      "checks": 24
+    },
+    {
+      "case": "tree_edges",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--fullscreen",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\runtime",
+        "--script",
+        "res://tests/test_review_edges.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\tree_edges_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\tree_edges_result.json",
+      "checks": 85
+    },
+    {
+      "case": "ownership",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\runtime",
+        "--script",
+        "res://tests/test_review_ownership.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\ownership_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\ownership_result.json",
+      "checks": 14
+    },
+    {
+      "case": "publication",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\runtime",
+        "--script",
+        "res://tests/test_final_publication.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\publication_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\publication_result.json",
+      "checks": 6
+    },
+    {
+      "case": "passage",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\runtime",
+        "--script",
+        "res://tests/test_r3_passage.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\passage_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\passage_result.json",
+      "checks": 34
+    },
+    {
+      "case": "construction",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\runtime",
+        "--script",
+        "res://tests/test_construction.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\construction_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\construction_result.json",
+      "checks": 52
+    },
+    {
+      "case": "saves",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\runtime",
+        "--script",
+        "res://tests/test_r5_saves.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\saves_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\saves_result.json",
+      "checks": 32
+    },
+    {
+      "case": "authoring_50_rounds",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\authoring",
+        "--script",
+        "res://tests/test_r3_authoring.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\authoring_50_rounds_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\authoring_50_rounds_result.json",
+      "checks": 208
+    },
+    {
+      "case": "layout_pins",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\authoring",
+        "--script",
+        "res://tests/test_final_layout.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\layout_pins_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\layout_pins_result.json",
+      "checks": 62
+    },
+    {
+      "case": "size_guard",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\authoring",
+        "--script",
+        "res://tests/test_r3_size_guard.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\size_guard_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\size_guard_result.json",
+      "checks": null
+    },
+    {
+      "case": "authoring_native",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--fullscreen",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\authoring",
+        "--script",
+        "res://tests/test_r3_authoring_scene.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\authoring_native_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "report": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regressions_02\\authoring_native_result.json",
+      "checks": 18
+    },
+    {
+      "case": "authoring_native_exchange",
+      "passed": true,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--fullscreen",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regression_native_e2e\\authoring",
+        "--script",
+        "res://tests/test_r3_authoring_scene.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regression_native_e2e\\authoring_native_exchange_result.json"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "checks": 18
+    },
+    {
+      "case": "runtime_native_retry",
+      "passed": false,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--fullscreen",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regression_native_e2e\\runtime",
+        "--script",
+        "res://tests/test_r3_scene.gd",
+        "--",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regression_native_e2e\\runtime_native_retry_result.json"
+      ],
+      "exit_code": 1,
+      "diagnostics": [],
+      "checks": 57
+    },
+    {
+      "case": "final_authoring_50_pixel_cycles",
+      "passed": false,
+      "command": [
+        "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+        "--fullscreen",
+        "--path",
+        "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regression_native_e2e\\authoring",
+        "--",
+        "--acceptance",
+        "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regression_native_e2e\\final_authoring_50_pixel_cycles_result.json"
+      ],
+      "exit_code": 1,
+      "diagnostics": [],
+      "checks": 162
+    }
+  ],
+  "superseded_failed_case": "q1_regressions_02/runtime_native",
+  "source_and_fixture_failures_retained": true,
+  "isolated_native_exchange": true
+}

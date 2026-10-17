@@ -1,0 +1,55 @@
+{
+  "build_id": "tongguan_v02_q1_20261016_04",
+  "path": "H:\\tongguan_reviewfix_20261015\\Release\\tongguan_v02_q1_20261016_04_windows.zip",
+  "sha256": "1015008595e818d642988e0bbf124afe5eb6d6d1b6e5f77fa82da30ae3fa8ec8",
+  "bytes": 210488549,
+  "crc_passed": true,
+  "extracted_member_hashes_passed": true,
+  "exact_measured_artifacts": true,
+  "clean_extracted_native_smoke_passed": true,
+  "artifacts": {
+    "Start-Q1.cmd": {
+      "sha256": "1f12f3824cab14fa87a12cc59b1511f6a0bd7bed12fe0e545bde178de708b063",
+      "bytes": 53
+    },
+    "TongguanQ1.exe": {
+      "sha256": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+      "bytes": 104576512
+    },
+    "TongguanQ1.pck": {
+      "sha256": "7c88248c6045208ed605b868ce5d6705bbf1166f9512f76053ed9817c5554508",
+      "bytes": 94910476
+    }
+  },
+  "external_evidence": [
+    {
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\fixture_movie\\fixtures.avi",
+      "sha256": "47abb19eb40c01921592d7c57ce97dee83a89a45435f90a529a6524d4c5fa77b",
+      "bytes": 463665608
+    }
+  ],
+  "publication": "local_versioned_windows_release; no remote publication",
+  "old_release_rollback": true,
+  "raw_duplicate_result_archive": {
+    "passed": true,
+    "archive": "H:\\tongguan_reviewfix_20261015\\reports\\map_v02\\tongguan_v02_q1_20261016_04\\evidence\\raw_duplicate_results.zip",
+    "sha256": "70446f72a28e2116e80387fceb8a9fc822d02689040b03f6e7402dc71e383ef0",
+    "bytes": 12868308,
+    "crc_passed": true,
+    "members": [
+      {
+        "path": "evidence/development/tongguan_v02_q1_20261016_02/fixtures_01/result.json",
+        "sha256": "6efdd5a9aaed6edc2dd84f06ddf635175bc779828ba4ea5d92d42294d8f59c7f",
+        "bytes": 119357775
+      },
+      {
+        "path": "functional/final_fixtures/result.json",
+        "sha256": "d445ae5cfbc83eff0167408f24d0e5d17c69dd3a1b6b2ae826c4bf262b319026",
+        "bytes": 119579139
+      }
+    ],
+    "reason": "Two duplicate envelopes embed the same large engine event log; compressed losslessly to respect the Git source single-file limit. No event or frame discarded."
+  },
+  "final_source_payload_passed": true,
+  "final_audit_utc": "2026-10-17T08:33:40.642340+00:00"
+}

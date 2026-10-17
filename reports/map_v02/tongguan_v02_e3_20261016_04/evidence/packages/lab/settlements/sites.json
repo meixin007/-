@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "sites": [
+    {
+      "site_id": "lab.site.proxy",
+      "position_m": [
+        260,
+        300
+      ],
+      "label": "工程地点 A",
+      "slots": [],
+      "logical_authority": false
+    }
+  ],
+  "authority": "presentation_only"
+}

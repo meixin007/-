@@ -1,0 +1,64 @@
+{
+  "stage": "E1",
+  "build_id": "tongguan_v02_e1_20261016_04",
+  "s0_manifest_sha256": "e1e03ad69b604447e2a3b3f42ed9f7180a9b694b66546f337053b08b98f83654",
+  "v1_manifest_sha256": "273a6cc7df4ed91d1be3d7e15af26b0e9ab0cb0463a96e2011873e806f6cc773",
+  "visual_acceptance_sha256": "2754632ffd3d556c7efae20553799578839424bae23f87e758d4b895bf4c3b38",
+  "files": [
+    {
+      "path": "samples/tongguan_v01/runtime/tests/v02/test_e1_package.gd",
+      "sha256": "a3b0bae797518b792be9c0b314bfb1143271a5bec0748c83ac6218e9698f44d2",
+      "bytes": 3515
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e1/app.gd",
+      "sha256": "5a07ccddb7608f1bb7db2c7137001da7169488b1c445b8f1ab9a04044ff29b13",
+      "bytes": 7043
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e1/boot.gd",
+      "sha256": "3fd63725e904e56cfd78ced1c5e480ea5324accacc1a182cd9a0f3b858160ab7",
+      "bytes": 2139
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e1/checks.gd",
+      "sha256": "1e67f94a68731c68da0ac6b928618ae6829e1f167561805670655ff9f52b210e",
+      "bytes": 8740
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e1/effective_map_adapter.gd",
+      "sha256": "30dd1786ac45ac18cbeee03e763dcaf481b7b44b5763d7673638cf0256d0f123",
+      "bytes": 2459
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e1/main.tscn",
+      "sha256": "bb004c68889528ed63421c9f1f63bfc5e7c64823cc6d3d450614e9e2d893630c",
+      "bytes": 152
+    },
+    {
+      "path": "samples/tongguan_v01/runtime/v02/e1/package_loader.gd",
+      "sha256": "dc5c7dc7479c5b4838cb7d9920886be0fae49a8e158e9e2460ab54081b907568",
+      "bytes": 15264
+    },
+    {
+      "path": "tools/map_v02/e1_build.py",
+      "sha256": "e872ca21abc44d50a846d27432f0cd0b8053ec33e7d171e58bcbc6bc2b9b3f7b",
+      "bytes": 4837
+    },
+    {
+      "path": "tools/map_v02/e1_compile.py",
+      "sha256": "b517f06037d8e3cad7c9e5b62bf662ee084670b9627c40aa33dd1b656d416335",
+      "bytes": 15804
+    },
+    {
+      "path": "tools/map_v02/e1_export_snapshot.gd",
+      "sha256": "513b6ba4943c185804549617d49d12f2bc5dbf580b0cd6c46fa35905d35abbbc",
+      "bytes": 880
+    },
+    {
+      "path": "tools/map_v02/test_e1_package.py",
+      "sha256": "9d7f023b8c44146611f7942ff9932e28dbae02809a256d60a6947b97bad7b23f",
+      "bytes": 6150
+    }
+  ]
+}

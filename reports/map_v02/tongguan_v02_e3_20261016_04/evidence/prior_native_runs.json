@@ -1,0 +1,28 @@
+{
+  "runs": [
+    {
+      "build_id": "tongguan_v02_e3_20261016_01",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_e3_20261016_01\\native_01\\result.json",
+      "sha256": "eb54fb5cd487e33fbcc66d28c0e117e35018ec8d7ab003f402d947554384ea7f",
+      "checks": 286,
+      "technical_passed": false,
+      "failures": [
+        "first view pixels identical after evict/reload",
+        "negative control detects draw commands retaining textures after own cache cleared",
+        "mid-fade reduction preserves affordable low-resolution root",
+        "mid-fade detail falls back to root"
+      ],
+      "diagnostics": []
+    },
+    {
+      "build_id": "tongguan_v02_e3_20261016_03",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_e3_20261016_03\\native_01\\result.json",
+      "sha256": "a2f3ef8688524284829f40707a4b2a3dc6e377d51bd24b7fb9fc8551648089c1",
+      "checks": 451,
+      "technical_passed": true,
+      "failures": [],
+      "diagnostics": []
+    }
+  ],
+  "untested_build": "tongguan_v02_e3_20261016_02 staging only; superseded before native run"
+}

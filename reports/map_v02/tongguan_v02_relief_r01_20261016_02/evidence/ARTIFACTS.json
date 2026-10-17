@@ -1,0 +1,14 @@
+{
+  "Start-Relief-R1.cmd": {
+    "sha256": "e9eebd431d439945ba85c1f4c59ca62884037994403c224780d23260be97eb0a",
+    "bytes": 59
+  },
+  "TongguanReliefR1.exe": {
+    "sha256": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "bytes": 104576512
+  },
+  "TongguanReliefR1.pck": {
+    "sha256": "7f9f12b47c8274875e621c832a69c39ebf6a2be406b02c6f392f9839c4c1a30a",
+    "bytes": 41969920
+  }
+}

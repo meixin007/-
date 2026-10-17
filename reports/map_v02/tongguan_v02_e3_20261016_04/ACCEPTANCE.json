@@ -1,0 +1,17 @@
+{
+  "stage": "E3",
+  "build_id": "tongguan_v02_e3_20261016_04",
+  "source": "passed",
+  "native": "passed",
+  "lifecycle": "passed",
+  "budget": "fixed_profile_admission_and_scheduling_passed",
+  "references": "actual_release_reload_passed",
+  "old_files_unchanged": true,
+  "visual": "reload_pixel_equivalence_only",
+  "gpu_dedicated_budget": "not_measured",
+  "q1_frame_time": "not_run",
+  "c1": "not_implemented",
+  "v2": "not_claimed",
+  "history": "not_claimed",
+  "capacity": "engineering_fixture_only"
+}

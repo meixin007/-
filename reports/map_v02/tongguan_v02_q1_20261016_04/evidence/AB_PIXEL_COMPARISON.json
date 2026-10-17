@@ -1,0 +1,38 @@
+[
+  {
+    "camera": "composition",
+    "a": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\ab_60_old\\ab_composition.png",
+    "b": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\ab_60_new\\ab_composition.png",
+    "roi": null,
+    "max_channel_delta": 0,
+    "differing_pixels": 0,
+    "passed": true
+  },
+  {
+    "camera": "courtyard",
+    "a": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\ab_60_old\\ab_courtyard.png",
+    "b": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\ab_60_new\\ab_courtyard.png",
+    "roi": null,
+    "max_channel_delta": 0,
+    "differing_pixels": 0,
+    "passed": true
+  },
+  {
+    "camera": "region",
+    "a": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\ab_60_old\\ab_region.png",
+    "b": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\ab_60_new\\ab_region.png",
+    "roi": null,
+    "max_channel_delta": 0,
+    "differing_pixels": 0,
+    "passed": true
+  },
+  {
+    "camera": "far",
+    "a": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\ab_60_old\\ab_far.png",
+    "b": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_q1_20261016_04\\ab_60_new\\ab_far.png",
+    "roi": null,
+    "max_channel_delta": 0,
+    "differing_pixels": 0,
+    "passed": true
+  }
+]

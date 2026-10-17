@@ -1,0 +1,7 @@
+{
+  "trigger": "native repair full-map equality failure",
+  "direct_cause": "unrelated E3 evictions cleared all visible terrain fade completion records; initial capture could also occur before a newly-started or deferred fade had settled",
+  "fix": "C1 invalidates transition records only for affected resource pages; native wait rechecks command completion and all fades after the settle interval",
+  "evidence": "01/02 preserve failures; 03/04 keep exact repair equality and pass; no thresholds loosened",
+  "old_e3_rewritten": false
+}

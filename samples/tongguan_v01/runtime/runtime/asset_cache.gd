@@ -15,8 +15,15 @@ var suspended:=false
 var draw_reference:=false
 var reference: Texture2D
 var fallback_draw_count:=0
-func png(path: String)->Texture2D:return load(path) as Texture2D
-func _init()->void:
+var _observer: WeakRef
+func png(path: String)->Texture2D:
+	var texture = load(path) as Texture2D
+	if _observer != null and _observer.get_ref() != null:
+		_observer.get_ref().resource_requested(path,"sync",OK if texture != null else ERR_CANT_OPEN)
+	return texture
+func _init(observer: RefCounted=null)->void:
+	# Weak ownership avoids a service -> cache -> service reference cycle.
+	if observer != null: _observer = weakref(observer)
 	started_usec=Time.get_ticks_usec();fallback=png("res://bundle/terrain_fallback.png");slope=png("res://bundle/slope.png");gate=png("res://bundle/art/gate_eastwest.png")
 	var descriptors: Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://bundle/art_descriptors.json"));var textures={}
 	for id in descriptors:
@@ -25,7 +32,9 @@ func _init()->void:
 		var atlas=AtlasTexture.new();atlas.atlas=textures[d.path];atlas.region=Rect2(d.rect[0],d.rect[1],d.rect[2],d.rect[3]);atlas.filter_clip=true
 		tree_art[id]={"texture":atlas,"anchor":d.anchor,"ratio":float(d.rect[3])/float(d.rect[2])}
 	tiles=JSON.parse_string(FileAccess.get_file_as_string("res://bundle/terrain_tiles.json")).tiles
-	for tile in tiles:ResourceLoader.load_threaded_request(tile.path,"Texture2D",false,ResourceLoader.CACHE_MODE_REUSE)
+	for tile in tiles:
+		var requested = ResourceLoader.load_threaded_request(tile.path,"Texture2D",false,ResourceLoader.CACHE_MODE_REUSE)
+		if _observer != null and _observer.get_ref() != null: _observer.get_ref().resource_requested(tile.path,"threaded",requested)
 func tick()->void:
 	if suspended:return
 	if ready:

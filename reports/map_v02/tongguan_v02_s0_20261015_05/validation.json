@@ -1,0 +1,39 @@
+[
+  {
+    "name": "plugin_source",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+      "plugin-source/verify_source.py"
+    ],
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "name": "repository",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+      "verify_repository.py"
+    ],
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "name": "sealed_protection",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+      "tools/verify_review_protection.py"
+    ],
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "name": "git_whitespace",
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 2,
+    "passed": false
+  }
+]

@@ -1,0 +1,3410 @@
+{
+  "attach_max_ms": 0.009,
+  "build": {
+    "actual_parent_commit": "62546a547895e1a6185904ad60bf15fa58c03244",
+    "branch": "codex/tongguan-v02-s0",
+    "build_id": "tongguan_v02_s0_20261015_05",
+    "delegation": "legacy",
+    "design_baseline_commit": "62546a547895e1a6185904ad60bf15fa58c03244",
+    "release": true,
+    "source_files": [
+      {
+        "bytes": 0.0,
+        "path": ".gdignore",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 8388.0,
+        "path": "army/acceptance.gd",
+        "sha256": "b7a1281620ea91f20cb51beb91c1f7b653b396e0c19a66f1e20754d928c596dd"
+      },
+      {
+        "bytes": 331.0,
+        "path": "army/boot.gd",
+        "sha256": "1033369b5031fd81911f9e75a7b7f19b43d968faa9950fcc7003ec9a71732359"
+      },
+      {
+        "bytes": 3725.0,
+        "path": "army/canvas.gd",
+        "sha256": "d62b0a769c9ae39782a01236fe6fd8baa47dbfc04ebf7517364b2add3d0fa4bb"
+      },
+      {
+        "bytes": 20030.0,
+        "path": "army/controller.gd",
+        "sha256": "1d17cb36b2e88da4268d3e1a969d92d8a65d6bd246a137220257eae4e4cde8a7"
+      },
+      {
+        "bytes": 3836.0,
+        "path": "army/fixture.json",
+        "sha256": "c771cc57f83c993332d1763404616536706d8411ee6efa5e44e9da3745eae364"
+      },
+      {
+        "bytes": 866.0,
+        "path": "army/session.gd",
+        "sha256": "f9773e35326b92207a5e7cee8e8c9e1b1588c7f7858878ec74611166e7ab4082"
+      },
+      {
+        "bytes": 9826.0,
+        "path": "army/ui.gd",
+        "sha256": "4bea6866441e2895d4f52d197e543810a122e661e9ab19bbae9158b98aacdb25"
+      },
+      {
+        "bytes": 1469918.0,
+        "path": "bundle/art/gate_eastwest.png",
+        "sha256": "971dbffc6bfe5c947e5f9541fb68c12d5712f23c26bfd94566c904880c7fe16d"
+      },
+      {
+        "bytes": 2199035.0,
+        "path": "bundle/art/trees.png",
+        "sha256": "9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11"
+      },
+      {
+        "bytes": 595.0,
+        "path": "bundle/art_descriptors.json",
+        "sha256": "019658b6e3cc4224bdcfd3d59bfe434e5de71a67699ebe1192dd43248a52068e"
+      },
+      {
+        "bytes": 721.0,
+        "path": "bundle/ATTRIBUTION.txt",
+        "sha256": "34a78eeb38ebe76cd967f04b2e25046855ad1bafd1cd5189eee666463fc03dc2"
+      },
+      {
+        "bytes": 21657.0,
+        "path": "bundle/authoring.json",
+        "sha256": "d3b377d092e2b9949f883f604c176b9362e0d474eacc2382c25e6da2645258e2"
+      },
+      {
+        "bytes": 68177.0,
+        "path": "bundle/authoring_alternate_fixture.json",
+        "sha256": "20a5eefbef4b151127c9186013bf47713ed715b9cb697277ea9ec68b813ff215"
+      },
+      {
+        "bytes": 67257.0,
+        "path": "bundle/authoring_publication.json",
+        "sha256": "5ab27208b28ba3068345421d75f8fe19700405bc03291fcfa88a2ee9791da88a"
+      },
+      {
+        "bytes": 2786.0,
+        "path": "bundle/coarse_overview.json",
+        "sha256": "88af1bf38580e040645b8c1085af4f09ba8346370a855e491ef66df627cfdc21"
+      },
+      {
+        "bytes": 960000.0,
+        "path": "bundle/elevation_f32.bin",
+        "sha256": "2384f254107aec65664af1169f005a9297de71a7000732aec87c08d59282a87f"
+      },
+      {
+        "bytes": 2360.0,
+        "path": "bundle/geography_metadata.json",
+        "sha256": "0694cd125f6fe5c8a6b516af7963a00a9164d8c3199b87da452bb3006df9fea1"
+      },
+      {
+        "bytes": 9754.0,
+        "path": "bundle/geography_recipe.json",
+        "sha256": "5f36d70eb1ac1918f99698810b4adc4a4f303122468842954e16393432c76759"
+      },
+      {
+        "bytes": 1855.0,
+        "path": "bundle/initial_runtime.json",
+        "sha256": "aff8e2c9046b672a33892893e515d510abc73e0a33e497d65859aae178086266"
+      },
+      {
+        "bytes": 8493.0,
+        "path": "bundle/layout.json",
+        "sha256": "0aa0aa417038dbe2d89150914a83f9e34e0f42099534ed86bac5b54dc5f78f81"
+      },
+      {
+        "bytes": 168989.0,
+        "path": "bundle/modern_water.json",
+        "sha256": "b5077c55a773faf1e74acaf07b285d892046f642011b8ec99f92a2d4b3924a0d"
+      },
+      {
+        "bytes": 166443.0,
+        "path": "bundle/slope.png",
+        "sha256": "bbfe8d03184c584f31132ef6702edbcebf70f575a4f2904bcda5b69deb1f3e38"
+      },
+      {
+        "bytes": 960000.0,
+        "path": "bundle/slope_degrees_f32.bin",
+        "sha256": "3a73132af3242f98f16917d9e68c89572f70bead009679a6aae7e1066d2a0cf4"
+      },
+      {
+        "bytes": 694.0,
+        "path": "bundle/template_checks.json",
+        "sha256": "c6f999ee1439f1b9444f2c6bad4cb3332b945b88d6da35111dc15d68bd007f06"
+      },
+      {
+        "bytes": 49775.0,
+        "path": "bundle/terrain/0_0.png",
+        "sha256": "645d179939f7680ef43713d737b5fa3a363155853fd923032b2d01d71e470337"
+      },
+      {
+        "bytes": 43827.0,
+        "path": "bundle/terrain/0_256.png",
+        "sha256": "e744eb4b1e4e5e433a6176a539d39638eeb703068ca5fe7997bf7f0bb9663926"
+      },
+      {
+        "bytes": 69291.0,
+        "path": "bundle/terrain/256_0.png",
+        "sha256": "30d4a52c65ecda79d4b82c14d053716a06ea03af4785dde7a79926bbb07f6531"
+      },
+      {
+        "bytes": 44253.0,
+        "path": "bundle/terrain/256_256.png",
+        "sha256": "1ad051d79ef96d3b25f3ff8f66876f249690326c05dc1b43fb5ff1a1cd270e70"
+      },
+      {
+        "bytes": 24199.0,
+        "path": "bundle/terrain/512_0.png",
+        "sha256": "a29a9a20c394a3136e2ddf8b7a46a774d590901e12ece8aa2e5fcebfc2cbb530"
+      },
+      {
+        "bytes": 15683.0,
+        "path": "bundle/terrain/512_256.png",
+        "sha256": "84d7790d230840a92b624525421df9ff04f5bfe6da866ada79487349a23a81d6"
+      },
+      {
+        "bytes": 15636.0,
+        "path": "bundle/terrain_fallback.png",
+        "sha256": "f67d357996b50fe4f24ef75ffa7afce9b720e9a25f53c589f4016201bc0c3313"
+      },
+      {
+        "bytes": 221087.0,
+        "path": "bundle/terrain_reference.png",
+        "sha256": "333f8a97e2154ab610596ce5b19ff1bb92310f2cea2ff85739a013e3474c27f8"
+      },
+      {
+        "bytes": 1549.0,
+        "path": "bundle/terrain_tiles.json",
+        "sha256": "6d6e15c2a1ff498b6fe73e221f480075e97a700c024680ca8b74b65cf0162c4e"
+      },
+      {
+        "bytes": 8280.0,
+        "path": "construction/acceptance.gd",
+        "sha256": "3b698e8f815d77f56b600f66c3b7a7d6812ffb0318574ef0761ed69909e0f47d"
+      },
+      {
+        "bytes": 363.0,
+        "path": "construction/boot.gd",
+        "sha256": "779779511552e8870b989d741a1878f5bf7b80f5d3f1535472ed95614850245d"
+      },
+      {
+        "bytes": 904.0,
+        "path": "construction/catalog.json",
+        "sha256": "965d01098e0be830dc7eb6a8751e30592e866206e2d986713ed94f1e07535938"
+      },
+      {
+        "bytes": 9654.0,
+        "path": "construction/economy.gd",
+        "sha256": "59f9228ebe63e3dd9937f89d748e984a3e9e51f7d41acb95d3c2dc4316c44083"
+      },
+      {
+        "bytes": 14123.0,
+        "path": "construction/ui.gd",
+        "sha256": "ddcd95ab7686959be1aab986869485ba8bc64d861c56e2011d428371c0f7e04a"
+      },
+      {
+        "bytes": 4947.0,
+        "path": "data/map/georef.json",
+        "sha256": "ba5f6ecae8535d8aea89296fde4c68cd693dd329c5e41011650a6ebdd393207d"
+      },
+      {
+        "bytes": 13170.0,
+        "path": "data/map/tang_geo_corridors.json",
+        "sha256": "0f5345dc254acea0349064907f09965aaa1dd897c3c9bb99a6b2aceb788bca89"
+      },
+      {
+        "bytes": 8470.0,
+        "path": "data/map/tang_geo_nodes.json",
+        "sha256": "836d0b39f9b36ac2fe61c15a2d9d7783b1410b0a512d2f02737dc875d26bdfaf"
+      },
+      {
+        "bytes": 13692.0,
+        "path": "data/map/tang_historical_hydrography.json",
+        "sha256": "29661d34ba0602f06c24bf176d1376514ddb78ff4d113fa8a4caa2ed13edc814"
+      },
+      {
+        "bytes": 2662.0,
+        "path": "data/map/tang_macro_regions.json",
+        "sha256": "751c113361d41e1ca64d3629b8d87711b8303aff5e5d41decc8d689f65c44fed"
+      },
+      {
+        "bytes": 9717.0,
+        "path": "data/map/tang_mountain_ranges.json",
+        "sha256": "d2992294c474405164fa938f143aa5d38e490c8325b61e08576274a82a6df97b"
+      },
+      {
+        "bytes": 2672.0,
+        "path": "data/map/vic3_east_asia_relief_edit.json",
+        "sha256": "b466c64bfd9564eab8ede1d17365141434171777529f6e1b7def2a0ec0465ca3"
+      },
+      {
+        "bytes": 873.0,
+        "path": "data/scenarios/anshi_rebellion/accountability/edict_legitimacy.json",
+        "sha256": "54136e0b723ebca54b83e42f84808d99ac3a7be34547c549dee6a00a79d490bc"
+      },
+      {
+        "bytes": 888.0,
+        "path": "data/scenarios/anshi_rebellion/accountability/final_assessment.json",
+        "sha256": "3e74468f60bd439798fd7ec3505484912f4ec5c195eafdc08e441364d52b1ff4"
+      },
+      {
+        "bytes": 931.0,
+        "path": "data/scenarios/anshi_rebellion/accountability/grain_ledger_deficit.json",
+        "sha256": "59214807259324589e3a9e6110c1c4ec43e5fb0addb837e0628c339d79bbaa94"
+      },
+      {
+        "bytes": 880.0,
+        "path": "data/scenarios/anshi_rebellion/accountability/military_supply_delay.json",
+        "sha256": "02d3e169af60037eccb6cc6755e4395a6bdb5c9a92de74671025dac99f7c04d0"
+      },
+      {
+        "bytes": 895.0,
+        "path": "data/scenarios/anshi_rebellion/accountability/palace_leak.json",
+        "sha256": "4e9dd13fc58e944964dacda768531d1123f6c5b668c77b4c89415ab404327fc3"
+      },
+      {
+        "bytes": 866.0,
+        "path": "data/scenarios/anshi_rebellion/accountability/uighur_aid_cost.json",
+        "sha256": "22a36e4f30a6b0457439cfce24dac0047a62aebbf5ac9edd16e22e7325ea22ff"
+      },
+      {
+        "bytes": 3200.0,
+        "path": "data/scenarios/anshi_rebellion/accountability_beta_1_08.json",
+        "sha256": "e04d989fae4747206b362adb7f2812da736e80fc38cf257c84ed1ab125d330d7"
+      },
+      {
+        "bytes": 7703.0,
+        "path": "data/scenarios/anshi_rebellion/accountability_effects_beta_1_10.json",
+        "sha256": "d7c2035b1b8e4bb14af1aee53173aa637519cf2392382a3954bf6aa309d28841"
+      },
+      {
+        "bytes": 1986.0,
+        "path": "data/scenarios/anshi_rebellion/administrative_geography.json",
+        "sha256": "620a4ae73fccc143f76aaecbbc147fa140f0d7c2e53a6e66e754e096c756abdb"
+      },
+      {
+        "bytes": 12443.0,
+        "path": "data/scenarios/anshi_rebellion/appointments_beta_1_08.json",
+        "sha256": "4742fcb26baf6310366d44db994fb6c5ef58ee5383b2dc0b9dff1c751723e848"
+      },
+      {
+        "bytes": 7654.0,
+        "path": "data/scenarios/anshi_rebellion/audience_dialogues.json",
+        "sha256": "2ee367d017ce2f7902e482e584d1dccc549cfcf2e35073682d09be1b6a6fdd62"
+      },
+      {
+        "bytes": 4971.0,
+        "path": "data/scenarios/anshi_rebellion/battlefronts.json",
+        "sha256": "f7b6472128810121182de4ab909074324d3b8a9ba7a5e954e95b67a5e0811cf9"
+      },
+      {
+        "bytes": 31240.0,
+        "path": "data/scenarios/anshi_rebellion/beta_0_95_character_models.json",
+        "sha256": "ba3b34e2002ca1e42901d911471a38cc2d8829807471b633f6a7ca0ba5bd79eb"
+      },
+      {
+        "bytes": 3794.0,
+        "path": "data/scenarios/anshi_rebellion/beta_0_95_information_rules.json",
+        "sha256": "3e9b1a85443eb1667d4da725b26fb9bc19356b0865a06a4c3bb33b4bc6c41778"
+      },
+      {
+        "bytes": 13107.0,
+        "path": "data/scenarios/anshi_rebellion/beta_0_95_political_chains.json",
+        "sha256": "d57aaa4f2d3c3e545139ca38313bc33694557edcd0c60f08590ff5afc164ac41"
+      },
+      {
+        "bytes": 2635.0,
+        "path": "data/scenarios/anshi_rebellion/beta_1_05_character_matters.json",
+        "sha256": "3cbc03c12806e826526dd8ba87d7ebf373d569b3a159a1ae511faec8cd1ba27b"
+      },
+      {
+        "bytes": 419.0,
+        "path": "data/scenarios/anshi_rebellion/beta_1_05_endings.json",
+        "sha256": "dc645c13bca7acab8f891522f63ccdb7b5443e2d422eadf2bb8e22d1b722a451"
+      },
+      {
+        "bytes": 853.0,
+        "path": "data/scenarios/anshi_rebellion/beta_1_05_fallback_dialogue.json",
+        "sha256": "89871cc79279966182ec685399cd45a1e0ab18574a0b5298a000cfb7a1dc9241"
+      },
+      {
+        "bytes": 5523.0,
+        "path": "data/scenarios/anshi_rebellion/beta_1_05_important_events_phase_1.json",
+        "sha256": "31689e8da5da0bca8e9f8a8bf882e680e8561a208d1babed963a4a2f498da974"
+      },
+      {
+        "bytes": 6576.0,
+        "path": "data/scenarios/anshi_rebellion/beta_1_05_important_events_phase_2.json",
+        "sha256": "6a6f44fda3d65ac4e232ffb6de8418c8f13b7e8736faad4f959f6d478575cf24"
+      },
+      {
+        "bytes": 5347.0,
+        "path": "data/scenarios/anshi_rebellion/beta_1_05_important_events_phase_3.json",
+        "sha256": "b7ca76871b41d2f1e8714634282423c409068b1ec8fe6d45ca4c75add7c5fec1"
+      },
+      {
+        "bytes": 1761.0,
+        "path": "data/scenarios/anshi_rebellion/beta_1_05_key_scenes_phase_1.json",
+        "sha256": "2496dc32ece2b56bd0836934b993e96f53531cc6ffce755b9761fd7c15cc7df5"
+      },
+      {
+        "bytes": 1178.0,
+        "path": "data/scenarios/anshi_rebellion/beta_1_05_key_scenes_phase_2.json",
+        "sha256": "f9392cce63cee95ad0307dbd2e03a1f1546374567a0ebb4a8510ab76f743cbc4"
+      },
+      {
+        "bytes": 5866.0,
+        "path": "data/scenarios/anshi_rebellion/beta_1_05_key_scenes_phase_3.json",
+        "sha256": "015cd4617a91fbdaef908819cf1db204acac04933d40ec3b262b23150135318c"
+      },
+      {
+        "bytes": 6900.0,
+        "path": "data/scenarios/anshi_rebellion/beta_1_08_character_arcs.json",
+        "sha256": "10124e9e07d1c8153fa1c5180b6df14d90e19512c3f816c26444f3f6ec26fd35"
+      },
+      {
+        "bytes": 13272.0,
+        "path": "data/scenarios/anshi_rebellion/beta_1_0_character_arcs.json",
+        "sha256": "354392698496d417beb9e1978b195fe5f47ebc2d4da8b4b80cf8af5a830b8924"
+      },
+      {
+        "bytes": 29298.0,
+        "path": "data/scenarios/anshi_rebellion/beta_1_0_important_events.json",
+        "sha256": "dc6248a61823cc475fe23b0f7418001851cd677bcfe53c8641e5aa4c855f6e79"
+      },
+      {
+        "bytes": 32457.0,
+        "path": "data/scenarios/anshi_rebellion/beta_1_10_character_arcs.json",
+        "sha256": "175fd6ea583837ac28491a7854f192b99cc4f043ba9c08994615388f83a1c339"
+      },
+      {
+        "bytes": 9246.0,
+        "path": "data/scenarios/anshi_rebellion/beta_1_11_character_initiatives.json",
+        "sha256": "34dc6b024b9670db4f2314d7dd66d444390a8a3879423af412b685354d0228d7"
+      },
+      {
+        "bytes": 16967.0,
+        "path": "data/scenarios/anshi_rebellion/beta_1_11_faction_bargains.json",
+        "sha256": "d523bf3c7210b2dbd9e32916b616c4f05f61c9e777dc7e09f611643f10a1800c"
+      },
+      {
+        "bytes": 11139.0,
+        "path": "data/scenarios/anshi_rebellion/branch_evaluations_beta_0_6.json",
+        "sha256": "5cbaa460907d843d2c6a3ca735eae63215ed8af13af51a33567ce982231a39eb"
+      },
+      {
+        "bytes": 83740.0,
+        "path": "data/scenarios/anshi_rebellion/bureaucracy.json",
+        "sha256": "c8ea2fab6b9541bb9f3a937e12c5340e3f41f0c9e34b0af839f27ee04f510d2c"
+      },
+      {
+        "bytes": 2336.0,
+        "path": "data/scenarios/anshi_rebellion/campaign_beta_1_05.json",
+        "sha256": "89747b62480f3360101340f2b12dad6c686932761d8cf3873c4a10bc4b243647"
+      },
+      {
+        "bytes": 1133.0,
+        "path": "data/scenarios/anshi_rebellion/campaign_beta_1_07.json",
+        "sha256": "7d2ffa36dc9d23a57756f95efe4bcc4148495d6c2295a4d778651dbb10c2f84d"
+      },
+      {
+        "bytes": 1795.0,
+        "path": "data/scenarios/anshi_rebellion/campaign_beta_1_08.json",
+        "sha256": "d04cddaf6545c25cb04be8cd0a6be86abc7f8b114a47421bdb8839095b598de4"
+      },
+      {
+        "bytes": 2053.0,
+        "path": "data/scenarios/anshi_rebellion/campaign_beta_1_09.json",
+        "sha256": "2618c08a366f13acef1e19d397a7924bdfdc090deed2d833d981926e3ade23a6"
+      },
+      {
+        "bytes": 1481.0,
+        "path": "data/scenarios/anshi_rebellion/campaign_beta_1_10.json",
+        "sha256": "49645953aa5387a263c2207e96f451b4298e0b7482e9db1508eaacafc2a09394"
+      },
+      {
+        "bytes": 1971.0,
+        "path": "data/scenarios/anshi_rebellion/campaign_beta_1_13.json",
+        "sha256": "7143cb55361949e0db7537b5c1278e89419312cee0da2980b5aa345b444159e8"
+      },
+      {
+        "bytes": 522550.0,
+        "path": "data/scenarios/anshi_rebellion/campaign_beta_1_14.json",
+        "sha256": "a45c2f1bd133a063d1a9098af1f4c80601b461b1561a4c04bb3934fcda5d91bb"
+      },
+      {
+        "bytes": 106382.0,
+        "path": "data/scenarios/anshi_rebellion/chapter_1_events.json",
+        "sha256": "09d271c455f4fad3ac844104b8be492c9188743101ea14475f92e261f1a2a172"
+      },
+      {
+        "bytes": 5420.0,
+        "path": "data/scenarios/anshi_rebellion/character_appearance_profiles.json",
+        "sha256": "8563a87813acab6b6eaa81eaa54fb8f3c2bb9613affa6c8df6266e708594470d"
+      },
+      {
+        "bytes": 13276.0,
+        "path": "data/scenarios/anshi_rebellion/characters.json",
+        "sha256": "82bb523ec79728a447d61c8d7cd3fc8539d0e584f973c4aadfacc6c68d18ac99"
+      },
+      {
+        "bytes": 4096.0,
+        "path": "data/scenarios/anshi_rebellion/clan_petitions.json",
+        "sha256": "0a2c20b53a0a5dfa4f85807b235b12778c6ff38934fa1bb2f0ce1a753dd1a991"
+      },
+      {
+        "bytes": 9411.0,
+        "path": "data/scenarios/anshi_rebellion/consequence_chains_beta_0_6.json",
+        "sha256": "2cf2c601369c073569d497db6d684b902548271b868f3725cf74ffd1199cdc80"
+      },
+      {
+        "bytes": 15711.0,
+        "path": "data/scenarios/anshi_rebellion/conversation_consequences_beta_0_9.json",
+        "sha256": "9bb1686b1b5e39d221fb661c4b4a49bc0d44a5ba8d5f5376147cd5af2fc64913"
+      },
+      {
+        "bytes": 11442.0,
+        "path": "data/scenarios/anshi_rebellion/court_meetings_beta_0_6.json",
+        "sha256": "382071489766e022d592fc1b556bbb910c2c2829634ec6780755611792d7eda9"
+      },
+      {
+        "bytes": 105232.0,
+        "path": "data/scenarios/anshi_rebellion/decisions.json",
+        "sha256": "c45d0b37894c0a24083c0e1e4160fb4fa7e991a043a53bd05510cac9a4de5571"
+      },
+      {
+        "bytes": 5797.0,
+        "path": "data/scenarios/anshi_rebellion/dialogue_intents_beta_0_9.json",
+        "sha256": "67c35c5b927a1979307a513529d5919c6997f62205bc5c5633c942fded7d52b6"
+      },
+      {
+        "bytes": 270002.0,
+        "path": "data/scenarios/anshi_rebellion/dialogues.json",
+        "sha256": "4bd9a1f21f70a4d7e98b1ba13f3930cf4f0d1fa4a9b09db5a3c04adc6ee0ccdb"
+      },
+      {
+        "bytes": 83740.0,
+        "path": "data/scenarios/anshi_rebellion/domain/bureaucracy.json",
+        "sha256": "c8ea2fab6b9541bb9f3a937e12c5340e3f41f0c9e34b0af839f27ee04f510d2c"
+      },
+      {
+        "bytes": 268088.0,
+        "path": "data/scenarios/anshi_rebellion/domain/characters.json",
+        "sha256": "12f6d276a85d00d11666dd28f2de5b8ed48672674617fdd73cc42f62ccac0dd8"
+      },
+      {
+        "bytes": 270002.0,
+        "path": "data/scenarios/anshi_rebellion/domain/dialogues.json",
+        "sha256": "4bd9a1f21f70a4d7e98b1ba13f3930cf4f0d1fa4a9b09db5a3c04adc6ee0ccdb"
+      },
+      {
+        "bytes": 238665.0,
+        "path": "data/scenarios/anshi_rebellion/domain/events.json",
+        "sha256": "35041eaf2b3d69901f8a30f95516899e9e34c1a765dd9f13b87e985709af05f3"
+      },
+      {
+        "bytes": 161250.0,
+        "path": "data/scenarios/anshi_rebellion/domain/governance.json",
+        "sha256": "c8ac85a58f2f2b5c9d7c91cb2e8433484f4882c7c1654d611a26425cd913b031"
+      },
+      {
+        "bytes": 7651.0,
+        "path": "data/scenarios/anshi_rebellion/domain/lingwu_military_pack.json",
+        "sha256": "9dcc3df4f1652d45546d14414a906bb5a74ef781c5f6bfb4191e46977ae015f3"
+      },
+      {
+        "bytes": 95219.0,
+        "path": "data/scenarios/anshi_rebellion/domain/military.json",
+        "sha256": "10a4b47b8782265fac4e39f1f2d71911837ef178946c5e3b909821b11347e28b"
+      },
+      {
+        "bytes": 413224.0,
+        "path": "data/scenarios/anshi_rebellion/events.json",
+        "sha256": "0fddf76dfb8f22a78fccb51fdd109ca07172efeb7ccc7a1b3247bcef9d2b134e"
+      },
+      {
+        "bytes": 3497.0,
+        "path": "data/scenarios/anshi_rebellion/examination_questions.json",
+        "sha256": "7763535a998bc51f44e0882b027b6c27239558014b9c348d1339cdd46dcacac0"
+      },
+      {
+        "bytes": 3797.0,
+        "path": "data/scenarios/anshi_rebellion/faction_agendas_beta_0_6.json",
+        "sha256": "f6cdde190bbd6552f8c9d1b766ab9bb28e44fe9fd79b01985c6fb187ef5b972f"
+      },
+      {
+        "bytes": 1135.0,
+        "path": "data/scenarios/anshi_rebellion/factions.json",
+        "sha256": "619117316559481e5b5b19624a510f5c93f37841d9d0c7bbdfdd0bf0697e4649"
+      },
+      {
+        "bytes": 1454.0,
+        "path": "data/scenarios/anshi_rebellion/first_political_loop_beta_1_08.json",
+        "sha256": "4976cc1b1d198122c45f3aa5c52a24c2a8abbcdf05ddd1bc74a9c8d2c99025cd"
+      },
+      {
+        "bytes": 161250.0,
+        "path": "data/scenarios/anshi_rebellion/governance.json",
+        "sha256": "c8ac85a58f2f2b5c9d7c91cb2e8433484f4882c7c1654d611a26425cd913b031"
+      },
+      {
+        "bytes": 6736.0,
+        "path": "data/scenarios/anshi_rebellion/governance_beta_1_06.json",
+        "sha256": "324609e64d481fe688b0c56aa412dd9cab93ef121fe13fd8c0e66d86f1122892"
+      },
+      {
+        "bytes": 315.0,
+        "path": "data/scenarios/anshi_rebellion/governance_beta_1_07.json",
+        "sha256": "0e394fa38dce45137aa1df0ae30cf02051791ebf5cf0fcb9043058a8f53ffa28"
+      },
+      {
+        "bytes": 1815.0,
+        "path": "data/scenarios/anshi_rebellion/governance_beta_1_07_grain_authority.json",
+        "sha256": "885c2148526e9ee5d262b2672299a2a039dc8922bb2e8b4d45ff1f91173c60b7"
+      },
+      {
+        "bytes": 1825.0,
+        "path": "data/scenarios/anshi_rebellion/governance_beta_1_07_palace_channel.json",
+        "sha256": "6a2768c784e95611be6f35897fc16b1557b60896967b50dc3f6aafdf6930ede7"
+      },
+      {
+        "bytes": 1073.0,
+        "path": "data/scenarios/anshi_rebellion/governance_beta_1_07_reports.json",
+        "sha256": "4e49c749a7a15c0e3c99228df72854c7b7b7b7d79ee5da9241be8116afb7608b"
+      },
+      {
+        "bytes": 1816.0,
+        "path": "data/scenarios/anshi_rebellion/governance_beta_1_07_uighur_cost.json",
+        "sha256": "1de4de88f12aa5bec83c5a739ee9161efb00008792c275ebfd173afce8f23b32"
+      },
+      {
+        "bytes": 4658.0,
+        "path": "data/scenarios/anshi_rebellion/governance_followups_beta_1_09.json",
+        "sha256": "d285fb543de3edb412f79e71960633b628cd25c43b5f416cc9d48c7691c10992"
+      },
+      {
+        "bytes": 11660.0,
+        "path": "data/scenarios/anshi_rebellion/governance_followups_beta_1_10.json",
+        "sha256": "65687a1d0841c24efc382d82131cb1427c774b1ec3ab8af02e5c61f70d9661c6"
+      },
+      {
+        "bytes": 92169.0,
+        "path": "data/scenarios/anshi_rebellion/industry_catalog.json",
+        "sha256": "ede868012e8fa88177b10471913c8cf1545363aebb821f95a5f9619f43f05649"
+      },
+      {
+        "bytes": 3783.0,
+        "path": "data/scenarios/anshi_rebellion/intelligence_contradictions_beta_0_7.json",
+        "sha256": "e784693dee8ea0de5db95960fd73eb2e736eca9ed6d7074d876187add7c9877c"
+      },
+      {
+        "bytes": 35771.0,
+        "path": "data/scenarios/anshi_rebellion/intelligence_reports_beta_0_7.json",
+        "sha256": "bc734b9cbef83383c3a000f4d35fe19f252393b3e94367775e943c4abe882afa"
+      },
+      {
+        "bytes": 48910.0,
+        "path": "data/scenarios/anshi_rebellion/key_scenes.json",
+        "sha256": "4a727f837f9809e3881d8045789f6981341162ab02e51996b0262e91d525e525"
+      },
+      {
+        "bytes": 6016.0,
+        "path": "data/scenarios/anshi_rebellion/local_nodes_beta_0_6.json",
+        "sha256": "f8ce031d9edb9238e70e69bc076bf3e067eb3f1b1e90f6a311dc824e6aad9b03"
+      },
+      {
+        "bytes": 40949.0,
+        "path": "data/scenarios/anshi_rebellion/management_central_offices.json",
+        "sha256": "1da72d85e3f929f6247d7b5acb2b9f117f03339a2dc5882af5aab4beac175ae6"
+      },
+      {
+        "bytes": 2197.0,
+        "path": "data/scenarios/anshi_rebellion/management_criminal_cases.json",
+        "sha256": "07934427424b911ff6b84bf06c4b147fa8cae3494b624a5fa8d06107e2505b10"
+      },
+      {
+        "bytes": 3866.0,
+        "path": "data/scenarios/anshi_rebellion/management_estates.json",
+        "sha256": "0378665de456b247bd0bd35d18b0b51f7beebd4002ee3f95a34ea6f81cf7dcd3"
+      },
+      {
+        "bytes": 3811.0,
+        "path": "data/scenarios/anshi_rebellion/management_marriage.json",
+        "sha256": "59a94a233999fb94f63fa7e65d01bd8ae46735006badd3b8c10e8c0f7eaf425e"
+      },
+      {
+        "bytes": 1636.0,
+        "path": "data/scenarios/anshi_rebellion/management_partitions.json",
+        "sha256": "8a9a05fca29a34ed1ee2bfd5632c1389dcbb2ec865f7c8e4cc53b285c783395b"
+      },
+      {
+        "bytes": 1013.0,
+        "path": "data/scenarios/anshi_rebellion/management_player_succession.json",
+        "sha256": "76c666ba026aecea8ef90f2bf9b3cec2dce1131b6f3fc5bd6cbaf89b7c0a907c"
+      },
+      {
+        "bytes": 44709.0,
+        "path": "data/scenarios/anshi_rebellion/management_regional_pingyuan.json",
+        "sha256": "a45ce351fea2da12ed6c68cb51060451acae6486d7a2b0a5fa677fb31b6d7d38"
+      },
+      {
+        "bytes": 774.0,
+        "path": "data/scenarios/anshi_rebellion/management_succession.json",
+        "sha256": "69b7bb5c4abef0f44a53aebd00a032cde80df8b9de10bead330a2320f5d825de"
+      },
+      {
+        "bytes": 2626.0,
+        "path": "data/scenarios/anshi_rebellion/map_conversation_routes_beta_0_9.json",
+        "sha256": "26091eabe69dd6b9809fffd3f9ddba9b7f028c54cfcf3c7aeacdbfe6489c151a"
+      },
+      {
+        "bytes": 59874.0,
+        "path": "data/scenarios/anshi_rebellion/map_strategy_nodes.json",
+        "sha256": "5b50db726e8b125c7e5513d47b4b64bd25a92b6c0fd16a112172569aa2052acd"
+      },
+      {
+        "bytes": 95219.0,
+        "path": "data/scenarios/anshi_rebellion/military.json",
+        "sha256": "10a4b47b8782265fac4e39f1f2d71911837ef178946c5e3b909821b11347e28b"
+      },
+      {
+        "bytes": 78640.0,
+        "path": "data/scenarios/anshi_rebellion/npc_dialogue_topics_beta_0_5.json",
+        "sha256": "b247834136019b4a03c5d1eb615b8e44d522276d9ae72ca626dd803f082821b6"
+      },
+      {
+        "bytes": 27396.0,
+        "path": "data/scenarios/anshi_rebellion/npc_interactions_beta_0_4.json",
+        "sha256": "b4fc4e376c7023d32ad9a08d00609fa1fa7822428591168a772f1c23aa1d9003"
+      },
+      {
+        "bytes": 18317.0,
+        "path": "data/scenarios/anshi_rebellion/npc_political_profiles_beta_0_9.json",
+        "sha256": "7badb9106eb76ea173c62f141b136d793373668e4014a8ce221c476d78c2cc6a"
+      },
+      {
+        "bytes": 25923.0,
+        "path": "data/scenarios/anshi_rebellion/npc_relationship_edges_beta_0_5.json",
+        "sha256": "e6a970e566f78d72375052fa91da95c1991a7979fa4fcfc4d8a215572649f7cf"
+      },
+      {
+        "bytes": 3607.0,
+        "path": "data/scenarios/anshi_rebellion/npc_stances_beta_0_5.json",
+        "sha256": "b9a35623ed39469ea994b93a01a94edca226620e55fe57b9b34df73d675c7ef3"
+      },
+      {
+        "bytes": 43112.0,
+        "path": "data/scenarios/anshi_rebellion/obligation_ledger_beta_0_5.json",
+        "sha256": "c02323651173ef7d12e2a8b667f9a1a527fca46e4b767495d97a0a4cf0da78a2"
+      },
+      {
+        "bytes": 12848.0,
+        "path": "data/scenarios/anshi_rebellion/offices_beta_0_6.json",
+        "sha256": "67e529b4a62f8a0fdc455dd061e1118d3b739726ff680b7e1ed3a431a6722195"
+      },
+      {
+        "bytes": 19031.0,
+        "path": "data/scenarios/anshi_rebellion/offices_catalog.json",
+        "sha256": "d234771024ab9c8a3df41fd9163ed89b291851eb4fa22b2d81d0a99530ff2cc0"
+      },
+      {
+        "bytes": 8273.0,
+        "path": "data/scenarios/anshi_rebellion/political_echoes_beta_1_09.json",
+        "sha256": "487ee95850b0a8674ba0f26e407e6f4387b6edb3a5dc4c21af6dadb3b91c8e1d"
+      },
+      {
+        "bytes": 11680.0,
+        "path": "data/scenarios/anshi_rebellion/political_echoes_beta_1_10.json",
+        "sha256": "d7581001b9bea8f604ae8806855122354c7b62e4d284c9729143b6a8987801ed"
+      },
+      {
+        "bytes": 11212.0,
+        "path": "data/scenarios/anshi_rebellion/political_season_beta_1_09.json",
+        "sha256": "cd4736f4350b08ff298bf2de83b5794d63cb7e01d682a094f8e742ca1a9b8e8e"
+      },
+      {
+        "bytes": 7804.0,
+        "path": "data/scenarios/anshi_rebellion/political_season_beta_1_10.json",
+        "sha256": "6a573d5a70760c23cafab20e170ef99390da93b2c59fa33afad8d97c245865da"
+      },
+      {
+        "bytes": 3497.0,
+        "path": "data/scenarios/anshi_rebellion/political_season_review_beta_1_09.json",
+        "sha256": "35746eeacbf08b13cf6af2149abb80bd7da6aaf212515c86dcba23b8fc8d499b"
+      },
+      {
+        "bytes": 5247.0,
+        "path": "data/scenarios/anshi_rebellion/political_season_review_beta_1_10.json",
+        "sha256": "3cce9cd3d3b38f9de51af3a385332b2835122a117b9cd6398d8b5301a0fd2549"
+      },
+      {
+        "bytes": 103689.0,
+        "path": "data/scenarios/anshi_rebellion/regional_demography.json",
+        "sha256": "dd91bffadd9542ebc10574e7fc158df4e0e4b2cfab89a4edf21f5de7f4b6c828"
+      },
+      {
+        "bytes": 79581.0,
+        "path": "data/scenarios/anshi_rebellion/regional_economic_baselines.json",
+        "sha256": "ae78318f4b6f507e10a2580ddfcab7a1aaf6750ba29cc7fcc747aeec6700e221"
+      },
+      {
+        "bytes": 1269776.0,
+        "path": "data/scenarios/anshi_rebellion/regional_estates.json",
+        "sha256": "f4c7a876b150ee13e605a5668820015573cd2933842d53dae9cc1ab30c608c0e"
+      },
+      {
+        "bytes": 22534.0,
+        "path": "data/scenarios/anshi_rebellion/regional_operations_beta_0_7.json",
+        "sha256": "241f1c7a4d1e6d67869bffff98941177899b0570305d1f43042684021a432c91"
+      },
+      {
+        "bytes": 153.0,
+        "path": "data/scenarios/anshi_rebellion/resources.json",
+        "sha256": "f8e39e64b6c820049e7e1354ede9eba59d5758c5ce26cb2b33f21b3ce10b0c4a"
+      },
+      {
+        "bytes": 439.0,
+        "path": "data/scenarios/anshi_rebellion/river_weather_events.json",
+        "sha256": "ae141d80f243c39993c467b2b9e8e4bd436474a883ab470b70551cf2f99cda4e"
+      },
+      {
+        "bytes": 448.0,
+        "path": "data/scenarios/anshi_rebellion/road_surface_events.json",
+        "sha256": "ad0d2ea469fccc2bfa6d314671f0b8607adf6af225f7ffe67c234ad4d46476bc"
+      },
+      {
+        "bytes": 14311.0,
+        "path": "data/scenarios/anshi_rebellion/route_network_beta_0_7.json",
+        "sha256": "c2df5af12b08f273309dc090d717e2b430b8754410a748f3270d7235862a3746"
+      },
+      {
+        "bytes": 843.0,
+        "path": "data/scenarios/anshi_rebellion/scenario.json",
+        "sha256": "b49f679cf0c4440104d654aa9de88c4f49a310d28b38d8f46e672bd755f0c917"
+      },
+      {
+        "bytes": 14758.0,
+        "path": "data/scenarios/anshi_rebellion/tang_clan_characters_expansion.json",
+        "sha256": "dab6158cac7287c4020f519524180335a0988f6cda8e116e05bb151f2186d617"
+      },
+      {
+        "bytes": 12669.0,
+        "path": "data/scenarios/anshi_rebellion/tang_clans_definition.json",
+        "sha256": "241c6c2c8fb7392d4378530cf4c3929d7274968edfd00725b784962107ccca43"
+      },
+      {
+        "bytes": 10511.0,
+        "path": "data/scenarios/anshi_rebellion/tang_recruitment_events.json",
+        "sha256": "024d52f6de2ba61817aba2b6df079e79f1deb7a28453838eff609e736d4755aa"
+      },
+      {
+        "bytes": 6864.0,
+        "path": "data/scenarios/anshi_rebellion/tang_stress_events.json",
+        "sha256": "88511283ed5232c1082258468e708854d33a19142f8e643386fc8c4a84f26eb4"
+      },
+      {
+        "bytes": 33998.0,
+        "path": "data/scenarios/anshi_rebellion/tang_traits_definition.json",
+        "sha256": "eb3f39d7e5d6ed057e6600ecf228274fb7a195aaae7b02b44097668062b0e88c"
+      },
+      {
+        "bytes": 772.0,
+        "path": "data/scenarios/anshi_rebellion/vertical_slice_definition.json",
+        "sha256": "1dfe3e87027d9b26d914ff3bf688af99e7a28d7bea452b17ee3156b5404c71f5"
+      },
+      {
+        "bytes": 728.0,
+        "path": "export_presets.cfg",
+        "sha256": "a4e5b8e020528d0ba0ba0c94ae971c9546b3c510ee273c3b91d11d1cea1d940c"
+      },
+      {
+        "bytes": 15531.0,
+        "path": "final/acceptance.gd",
+        "sha256": "bb5884301f66af430263a21373a7b92dfed36405e297c595eefcb58c91dfbcfb"
+      },
+      {
+        "bytes": 5138.0,
+        "path": "final/asset_manifest.json",
+        "sha256": "30371f665ee330c2b18a17a2e64299d34e8b1a83c31d5d24eb54fe94722c1528"
+      },
+      {
+        "bytes": 815.0,
+        "path": "final/boot.gd",
+        "sha256": "182d44aa9b5b745de4f3a5da218ac98af10d07c934d73ca258b179cb7f34d78d"
+      },
+      {
+        "bytes": 81774.0,
+        "path": "final/build_manifest.json",
+        "sha256": "1013301cecbc43af15186148a0c7ad212b07640309bf0d84214ae0fe981f9c58"
+      },
+      {
+        "bytes": 1149.0,
+        "path": "final/controller.gd",
+        "sha256": "97983bb5132c2da7ae044fe8668b0604b41973d354cb592398d9f2a336adb83f"
+      },
+      {
+        "bytes": 76389.0,
+        "path": "final/fixtures/r4_save.json",
+        "sha256": "9c5d472dd88cdc53fd12ccb97b698d8e71ffcbd9a85cb3e930db278014799ea9"
+      },
+      {
+        "bytes": 5775.0,
+        "path": "final/migration.gd",
+        "sha256": "f9f91aa9460288b2d14d2693a87f411ac59a2358dd1e473d000154b4bbe3248a"
+      },
+      {
+        "bytes": 997.0,
+        "path": "final/migration_policy.json",
+        "sha256": "d391dfbb3eabc7be6973336a27e963053ae30022805a440be9275f0a28ff0087"
+      },
+      {
+        "bytes": 3601.0,
+        "path": "final/ui.gd",
+        "sha256": "06bb9d3827bb57057e09c1b5cd8c3e4167e86404a0b4483e8c0a7984bf37ee23"
+      },
+      {
+        "bytes": 5525.0,
+        "path": "integration/campaign_adapter.gd",
+        "sha256": "e01e2662a693a9d7901254afd5c7822baa9d87e957e1869778ed6818d95c9020"
+      },
+      {
+        "bytes": 9327.0,
+        "path": "integrity/acceptance.gd",
+        "sha256": "9499e1d135bf06bb3c9940683ea04612d79efe8a51bcc7bf01db8eed9fb7a419"
+      },
+      {
+        "bytes": 341.0,
+        "path": "integrity/boot.gd",
+        "sha256": "3df376e6a1609e2f8c0ce421f9fe56d1156dbad974d96623448779a91c329a0a"
+      },
+      {
+        "bytes": 1226.0,
+        "path": "integrity/polyline.gd",
+        "sha256": "625c2696439709347e971d56e8b5cdd31872392133be6dcc6c9f5f17abdc9a47"
+      },
+      {
+        "bytes": 6045.0,
+        "path": "integrity/publication.gd",
+        "sha256": "9faa5eed83c8092783cad57e059714779489f372332efdcb96dca9b6a5f3c1e8"
+      },
+      {
+        "bytes": 4284.0,
+        "path": "integrity/ui.gd",
+        "sha256": "5ea8ae1980b56d83857d997f8527d42bd9cfef6fdea8da79fda905989b0b5cf0"
+      },
+      {
+        "bytes": 165.0,
+        "path": "main.tscn",
+        "sha256": "ceb3a653b6c510610ae639a46804d35a7a4b8e180f460d16a78c40f8d2a3e57c"
+      },
+      {
+        "bytes": 675.0,
+        "path": "probe_fixture.gd",
+        "sha256": "39c071139a10dfe970d1a5bf5eb4a0cc94eb6af3eb944cdd019ddff45e2e7a75"
+      },
+      {
+        "bytes": 442.0,
+        "path": "project.godot",
+        "sha256": "6c9febed948e8e70b0e01e2d51998dc8325fde87efd1887bf102fcea06645367"
+      },
+      {
+        "bytes": 9283.0,
+        "path": "review/acceptance.gd",
+        "sha256": "3ad9ec2858d0dda1a277421b3a72f0a242f44ce29b53b4ec53842b13fb9ea2ba"
+      },
+      {
+        "bytes": 335.0,
+        "path": "review/boot.gd",
+        "sha256": "fe27a47ef90cd9cd13ba8144812b984682e6943bd24b7834890feafd4adcea64"
+      },
+      {
+        "bytes": 12534.0,
+        "path": "review/canvas.gd",
+        "sha256": "45df2603fbdec68eb2e91a524d343b3bd2367a1e3d1a423233dbc3e6db11d4c4"
+      },
+      {
+        "bytes": 13944.0,
+        "path": "review/geometry_audit.json",
+        "sha256": "c6bf865cdb62e2203a9c6cda013be978d5d988d62621b45e26d6cd5aa66da975"
+      },
+      {
+        "bytes": 3495.0,
+        "path": "review/history.json",
+        "sha256": "1a360a9659396c040955101f31431e44092544d66ead6b8a0a14a362199445cd"
+      },
+      {
+        "bytes": 1947.0,
+        "path": "review/policy.json",
+        "sha256": "f16e6919d13c7d9704a11dee519a54ce794f3f70927c7b6f6f4d709433500487"
+      },
+      {
+        "bytes": 619921.0,
+        "path": "review/relief_contours.json",
+        "sha256": "65dbe5f8b49c76aa3b2faf46e0af9834b3b325e8deeaf5b466d89b90427b9563"
+      },
+      {
+        "bytes": 4413.0,
+        "path": "review/tree_edge_acceptance.gd",
+        "sha256": "ccda49f2d19405bd62c302f9f98357d1e169ab420c6c658fa6f8a06a5af019a9"
+      },
+      {
+        "bytes": 4806.0,
+        "path": "review/ui.gd",
+        "sha256": "182b9f8ca2e739293f8dcecb620d56e531464f3f201732b9f488b5a1133c8d03"
+      },
+      {
+        "bytes": 1365.0,
+        "path": "review/view_rules.gd",
+        "sha256": "03825a5053366d0e5d42b629cef33472aa42a4886a89d0994740f48bde22f621"
+      },
+      {
+        "bytes": 8982.0,
+        "path": "runtime/acceptance.gd",
+        "sha256": "c14696df80e5b0e988d700cc526ec57882f62f4e655914cf72efefa8e8e6ded4"
+      },
+      {
+        "bytes": 3426.0,
+        "path": "runtime/asset_cache.gd",
+        "sha256": "1e76b47c07c16fbfb63bc02b0c2bbcf4c21bf7a5ba3726a1f9703b81d4adbd14"
+      },
+      {
+        "bytes": 342.0,
+        "path": "runtime/boot.gd",
+        "sha256": "be012794d593e4eb2bf554de14739eddef3a5d19707c28fbc94c38e98f8f0d00"
+      },
+      {
+        "bytes": 2209.0,
+        "path": "runtime/canvas_input.gd",
+        "sha256": "45d980eebb556fed1e4f12cea3e7aff18e91a3e4f96296c19f4b2bca8af40d19"
+      },
+      {
+        "bytes": 6483.0,
+        "path": "runtime/city_canvas.gd",
+        "sha256": "14050991f8c98e6f6a6f1eb5790c7d8c22258e4d684ea602b8f38455981c77b0"
+      },
+      {
+        "bytes": 5139.0,
+        "path": "runtime/geography_canvas.gd",
+        "sha256": "30fe92fd421d1f5dc83adc9440b3f9de8637361d8f45493db71c72b3b79c646e"
+      },
+      {
+        "bytes": 2064.0,
+        "path": "runtime/instance_index.gd",
+        "sha256": "a19a2803fed986039b8affc75d79a30a0a2c8aaf2b78183bcd28ba3318c1b759"
+      },
+      {
+        "bytes": 6712.0,
+        "path": "runtime/model.gd",
+        "sha256": "aef3e0ee05e27cc5f963b73dc9c33fbeed4b1f1a990f07711cf0000e1b7a2a83"
+      },
+      {
+        "bytes": 408.0,
+        "path": "runtime/session.gd",
+        "sha256": "ee68c5fdf7b5c8a8bb597c3eab8a539194c55b2e7964bb5ae57b0c05dac657d5"
+      },
+      {
+        "bytes": 8344.0,
+        "path": "runtime/settlement_state.gd",
+        "sha256": "f4038f6ee0c089ef0e84d61a48dc8e97a13cdeb03e477e1b37f6c194ecc4d74d"
+      },
+      {
+        "bytes": 9754.0,
+        "path": "runtime/ui.gd",
+        "sha256": "da32e4d16726da923aa55cc6eb9df0615f845927bbf071757488dc1b442276f8"
+      },
+      {
+        "bytes": 33340.0,
+        "path": "scripts/ai/assistant_plan_parser.gd",
+        "sha256": "dbad6809ad4a6ff75c4764a59bcfabfee13143384d32b87604c2da6042bf33ed"
+      },
+      {
+        "bytes": 41786.0,
+        "path": "scripts/ai/dialogue_intent_parser.gd",
+        "sha256": "834e244a260474ec3ca93ea6fed0cc26e26d45f47fc44c1951a2c29c912aa80b"
+      },
+      {
+        "bytes": 49311.0,
+        "path": "scripts/ai/generic_entrustment_slot_extractor.gd",
+        "sha256": "f06cae9ef21d762e02e7bb599756b4f49f32a0dd70607b7fd2debff1a6889573"
+      },
+      {
+        "bytes": 4096.0,
+        "path": "scripts/ai/npc_decision_parser.gd",
+        "sha256": "ae93b0e1ffcb97c63d516f10bcc7964de2815a45eef935545242d1687991751f"
+      },
+      {
+        "bytes": 29235.0,
+        "path": "scripts/core/accountability_case_service.gd",
+        "sha256": "c72f3ae0e3939a9a5bf5f15946a910188b16cc137bf1ca4485f92a7468b9bbcf"
+      },
+      {
+        "bytes": 7662.0,
+        "path": "scripts/core/accountability_verdict_effect_service.gd",
+        "sha256": "764fa8c42e89c002b30bfdf9a0c92a9356b92bf1d40ff2458cc1b9b672a743eb"
+      },
+      {
+        "bytes": 24145.0,
+        "path": "scripts/core/accountability_workflow_coordinator.gd",
+        "sha256": "62a493c390021a7a2ad27f512dc8e130c2fb3c0dd9cba5514d70b74b844c4351"
+      },
+      {
+        "bytes": 41848.0,
+        "path": "scripts/core/action_authorization_service.gd",
+        "sha256": "079436f1eff0ea251e592cd361670014a03196f23b8bfd5bae78bbd4dd20a335"
+      },
+      {
+        "bytes": 2056.0,
+        "path": "scripts/core/agricultural_season.gd",
+        "sha256": "5fba06e24c412c08cc5dc513430fa943bb8827064862657ae2aebcfef784c576"
+      },
+      {
+        "bytes": 21956.0,
+        "path": "scripts/core/assistant_action_instruction_scope.gd",
+        "sha256": "cfb0748413f8fc782f7888d24117bfcb307b18176fc78e1f5f2dd5f648923872"
+      },
+      {
+        "bytes": 13477.0,
+        "path": "scripts/core/assistant_advice_service.gd",
+        "sha256": "5dc88469418bc810e216e0442848c01d4f326cb8346362527b7db42cdf484ee8"
+      },
+      {
+        "bytes": 4572.0,
+        "path": "scripts/core/assistant_context_pages.gd",
+        "sha256": "015017b96f81cfd08f0e25a982db27976add589ac853d2f27be08f676252e447"
+      },
+      {
+        "bytes": 10259.0,
+        "path": "scripts/core/assistant_context_projection.gd",
+        "sha256": "845ea02e6a883eb2e3f01839325aa8c970118fa27006d92719ca821305c649ee"
+      },
+      {
+        "bytes": 18758.0,
+        "path": "scripts/core/assistant_instruction_authority.gd",
+        "sha256": "c35fcea11bf8b457b82e45d00390b29d35f412792216a61c5e1dbda444eaf9f5"
+      },
+      {
+        "bytes": 4418.0,
+        "path": "scripts/core/assistant_plan_assembly.gd",
+        "sha256": "8d2020f57f0414fc1774843dec42974eb643ca3f56c90de31e985a736864a1c7"
+      },
+      {
+        "bytes": 3770.0,
+        "path": "scripts/core/auto_pause_policy.gd",
+        "sha256": "3f3f00277fc308fcf1fcfd826505a8b57c5decf9ae1555a7fb13f9095388bc0f"
+      },
+      {
+        "bytes": 5099.0,
+        "path": "scripts/core/beta_1_09_test_scope.gd",
+        "sha256": "cb23934ea70016057a9bce7126f33d7b33fa205e125a5d05d06b8c9fa5d97ffa"
+      },
+      {
+        "bytes": 3077.0,
+        "path": "scripts/core/bounded_value_validator.gd",
+        "sha256": "6f25146436db5dde90bad1a34cce6363d5a46ce0580687534b0495adadcc5aa9"
+      },
+      {
+        "bytes": 6634.0,
+        "path": "scripts/core/business_credit_assessment.gd",
+        "sha256": "a33c87b2f07370bcac37c367535795a8429219e310c623053bc4bd820dc8fd12"
+      },
+      {
+        "bytes": 4408.0,
+        "path": "scripts/core/business_distribution_service.gd",
+        "sha256": "fe68bb5123ccf11eb5e26f5146ab3c080f5146fa55c4832295b125abe2717cbb"
+      },
+      {
+        "bytes": 17040.0,
+        "path": "scripts/core/business_financial_projection.gd",
+        "sha256": "1892d7328b7c2b53a85ee1a374999a53f0353d357e2390e62f35afe14bd346a9"
+      },
+      {
+        "bytes": 4569.0,
+        "path": "scripts/core/business_labor_conditions.gd",
+        "sha256": "cec6da4546cce1f55f172fab9fb56300286db85a429c9361833130dab1b4b689"
+      },
+      {
+        "bytes": 3277.0,
+        "path": "scripts/core/business_maintenance_condition.gd",
+        "sha256": "b9a7c9400a7e5a4654b44bef9bb38a16cf3f4d53ad5835eb9a58ce57de79969c"
+      },
+      {
+        "bytes": 47026.0,
+        "path": "scripts/core/business_management_service.gd",
+        "sha256": "933d94f08aff9b0a48bbb5ed4f4eaa828674694333606c161887fbf17e65c9d9"
+      },
+      {
+        "bytes": 6278.0,
+        "path": "scripts/core/business_manager_office.gd",
+        "sha256": "b3a93b65c31a858af51ea3aaec236a3e7595d4b5939e1034470d1942fbd3bfca"
+      },
+      {
+        "bytes": 3873.0,
+        "path": "scripts/core/business_payroll_service.gd",
+        "sha256": "9db69efc17f7054b1189209837da61d05a825d60d4eede9a752d305e7bbcedad"
+      },
+      {
+        "bytes": 4361.0,
+        "path": "scripts/core/business_personnel_conditions.gd",
+        "sha256": "af4d31f9e9a0b42c5db5d749840b1dc5fe1600e8c1d391f2b406713b0b5290a8"
+      },
+      {
+        "bytes": 13113.0,
+        "path": "scripts/core/business_profit_sharing_service.gd",
+        "sha256": "5ec94686d76b57c96dd18b9ed7d53e2b49eaf897e15e4e5c3c89216632472c7a"
+      },
+      {
+        "bytes": 12106.0,
+        "path": "scripts/core/business_report_delivery.gd",
+        "sha256": "28e363f1813fc052452d4f2c33b605a32159ac7fe85805650b20b46b2f35dea5"
+      },
+      {
+        "bytes": 9454.0,
+        "path": "scripts/core/business_review_service.gd",
+        "sha256": "6bc03cfe6d5b4a65df4e78a7867c5fb5d7557365ff3647ce5d808998396dc0ba"
+      },
+      {
+        "bytes": 6429.0,
+        "path": "scripts/core/business_staff_service.gd",
+        "sha256": "090a2e239fc4df5e9677fca3bd60ceb2b0d4103755161f09319aad37601abc38"
+      },
+      {
+        "bytes": 1008.0,
+        "path": "scripts/core/business_strategy_rules.gd",
+        "sha256": "dfc14c466e5edcf130a16d831141f214c9fdfa15b28aec3b1a522dfc1b73ffe3"
+      },
+      {
+        "bytes": 2680.0,
+        "path": "scripts/core/business_transport_conditions.gd",
+        "sha256": "824abe1fade7f6f1cb7636c52411c5bdcb848912764150a1e98873dea9d8d1f5"
+      },
+      {
+        "bytes": 6381.0,
+        "path": "scripts/core/business_wage_service.gd",
+        "sha256": "e35d7fda6e4bc0f4f1265226f230d6eebf3b24d17f77b4f577b6e7a2eebc2840"
+      },
+      {
+        "bytes": 2759.0,
+        "path": "scripts/core/campaign_pacing_service.gd",
+        "sha256": "a8c347c78ec87c9f5f6764d465cdb9fdcfb60d207d254d9e08aa66ca02aa14e4"
+      },
+      {
+        "bytes": 5597.0,
+        "path": "scripts/core/canonical_json.gd",
+        "sha256": "439b12c1f65a283cbbb62cc155a8bdba9cb58b4c47c0e29e0b5d16a7f500c9c1"
+      },
+      {
+        "bytes": 5078.0,
+        "path": "scripts/core/central_appointment_rules.gd",
+        "sha256": "5c0ff02b3e5ed25111f1481fd2bcbfc717d9d4a07cdecf1201c1a389740086ca"
+      },
+      {
+        "bytes": 4186.0,
+        "path": "scripts/core/central_examination_service.gd",
+        "sha256": "55682c32dd4a04f7e5414c4c600243f3c04fc53a77025db2840bfb9e5e8ea220"
+      },
+      {
+        "bytes": 8069.0,
+        "path": "scripts/core/central_office_rules.gd",
+        "sha256": "60b962f9671a563b7ecbe75513becd1e4897882257a7f64be15db02ee81484a4"
+      },
+      {
+        "bytes": 36030.0,
+        "path": "scripts/core/character_agenda_service.gd",
+        "sha256": "64aad573b1049e2b55502a5eca0bda101679ff5aa07e28ac7d44538783f3d4ed"
+      },
+      {
+        "bytes": 9003.0,
+        "path": "scripts/core/character_appearance_contract.gd",
+        "sha256": "464ec6f97d25d5fb2f4aa889829ddf8472f5d7e3422c4b3885ab291540e84675"
+      },
+      {
+        "bytes": 35197.0,
+        "path": "scripts/core/character_arc_service.gd",
+        "sha256": "effbf2f7d38a3a06f7ca7e54141e193e47e0eebea5008bd20112f53537f01738"
+      },
+      {
+        "bytes": 1315.0,
+        "path": "scripts/core/character_birth_contract.gd",
+        "sha256": "0683f6a262fea04324185c8f287d9574d860c22662f24d24ddd0a0fb9cf075f7"
+      },
+      {
+        "bytes": 4412.0,
+        "path": "scripts/core/character_birth_service.gd",
+        "sha256": "e36c7c75bf1ff48bac92e5f9fed3fc933731ea84136bbaf1f552238ee8c7569d"
+      },
+      {
+        "bytes": 15948.0,
+        "path": "scripts/core/character_dossier_service.gd",
+        "sha256": "907f59723d01638725507a9450ae678eb753f6e8880a07504af48e8f1b64b866"
+      },
+      {
+        "bytes": 9523.0,
+        "path": "scripts/core/character_generation_service.gd",
+        "sha256": "1b255ffebbe2686e7ccc9adfeb7a547a9430efbf584946b3f77a228b504867a6"
+      },
+      {
+        "bytes": 39455.0,
+        "path": "scripts/core/character_knowledge_service.gd",
+        "sha256": "07372ef52129dba3d3c3c824710c4d3cac7dc55fdce51868d8c5b5ad7d14c298"
+      },
+      {
+        "bytes": 1425.0,
+        "path": "scripts/core/character_portrait_service.gd",
+        "sha256": "e0b0cf249d20f59034c171285f297cd6ff083c2528b2eb311aba75a3b3db5b8a"
+      },
+      {
+        "bytes": 4391.0,
+        "path": "scripts/core/character_query_service.gd",
+        "sha256": "443d0cadd8b5d1dd9c1b2997fe2f92904bf2f85f84dce30ed0b0c2036c8f160f"
+      },
+      {
+        "bytes": 2436.0,
+        "path": "scripts/core/character_scheme_state.gd",
+        "sha256": "a2b32b7375321af023b75b6748b31a9a66dc608b871c837807dd7e389a81afbd"
+      },
+      {
+        "bytes": 9490.0,
+        "path": "scripts/core/character_search_service.gd",
+        "sha256": "7ac199f0701825b6c6c322524850ab0569a711e4d88c63400b1699a819b2e4e2"
+      },
+      {
+        "bytes": 10763.0,
+        "path": "scripts/core/character_state_service.gd",
+        "sha256": "0b8f1f1c20d9030bdeb25e21e92bb6329d7c110d4c516a363d43700b2ce7ba3d"
+      },
+      {
+        "bytes": 2810.0,
+        "path": "scripts/core/character_style_service.gd",
+        "sha256": "614575f0acd6f895e6411da9e23179d20fd59a950bf5ddddcb5c22013e22388c"
+      },
+      {
+        "bytes": 7739.0,
+        "path": "scripts/core/character_workload_service.gd",
+        "sha256": "44c65415c56423eba616ca90e2ed058e156ea1029c621f5d8711dfd0060969bf"
+      },
+      {
+        "bytes": 13369.0,
+        "path": "scripts/core/clan_succession_service.gd",
+        "sha256": "510f71e035448fa73fdf9b904ac3b63845b05adfbbf86af242765f181e1abaea"
+      },
+      {
+        "bytes": 3211.0,
+        "path": "scripts/core/commodity_stock_service.gd",
+        "sha256": "a0795fdf285932d75146462729885bb9561e08ce3d14c013d1099c510974d9f2"
+      },
+      {
+        "bytes": 3226.0,
+        "path": "scripts/core/control_dispatch_actions.gd",
+        "sha256": "07029a59d2033d9d2dadfeaee31b06e5455f30a9c95ea7440d91876503f4677f"
+      },
+      {
+        "bytes": 1265.0,
+        "path": "scripts/core/control_relation_state.gd",
+        "sha256": "027fe2f2af30af5ab0196892194e1cb43c0ab51a22aa7bb885a1ca3dbd799adc"
+      },
+      {
+        "bytes": 6664.0,
+        "path": "scripts/core/court_workbench_router.gd",
+        "sha256": "548aa6f8597d3d34573bc10715ec9889d87c86451f953ddb73a4332be4b5498c"
+      },
+      {
+        "bytes": 18243.0,
+        "path": "scripts/core/criminal_case_service.gd",
+        "sha256": "7a8f4fa4e2d025f57f4f132a2b823604a1cf0a6a6e618636fd1a4578acf545fb"
+      },
+      {
+        "bytes": 3237.0,
+        "path": "scripts/core/crossing_observation_projection.gd",
+        "sha256": "da90f985986bd466bccc751b144c999d9921ce5ee3d5a000ed724a286115b8c4"
+      },
+      {
+        "bytes": 17646.0,
+        "path": "scripts/core/daily_settlement_coordinator.gd",
+        "sha256": "68a913317a7f998521d288f60e38675403f1b6e11ee11c37bcd9a938dd48f10b"
+      },
+      {
+        "bytes": 907.0,
+        "path": "scripts/core/day_value_validator.gd",
+        "sha256": "5e77049b6aad86680768da2d331ad56fe17bd549d83e7270c7ceaff2a6288824"
+      },
+      {
+        "bytes": 1623.0,
+        "path": "scripts/core/depot_state.gd",
+        "sha256": "fca7c2dc9057d08052a12a248d4c55954678b6c48940dc94b789c03faea5997c"
+      },
+      {
+        "bytes": 17643.0,
+        "path": "scripts/core/dialogue_production_adapter.gd",
+        "sha256": "ad4a26ca7655f96491df2c5b4c9f7e6d3cb7ba36d070f274b472da12cdfddf60"
+      },
+      {
+        "bytes": 6949.0,
+        "path": "scripts/core/dispatch_transport.gd",
+        "sha256": "693c73d37660fb8aabc77a917b97796c3163261bd993c974878bc26ff12bf675"
+      },
+      {
+        "bytes": 27331.0,
+        "path": "scripts/core/education_service.gd",
+        "sha256": "4db8bea86650d4c5261bf054d7e3ecbb038f0646a5d2bb86948283b579feb123"
+      },
+      {
+        "bytes": 16743.0,
+        "path": "scripts/core/emperor_stress_service.gd",
+        "sha256": "ec5fbef32bbc3ba7a8d6404d5191c0b778f1aeaf592f6985341a22e0dbfbc9a2"
+      },
+      {
+        "bytes": 8243.0,
+        "path": "scripts/core/entrustment_capability_registry.gd",
+        "sha256": "f8491875ab1ad05ac1b0b40bc1c6c4c0701c19aaa1a9a20870e63b8a6bf7600e"
+      },
+      {
+        "bytes": 24246.0,
+        "path": "scripts/core/entrustment_request_compiler.gd",
+        "sha256": "4cc52f5887e1fca7c74dff847719552645f40d4477d7af41921574b22933e3bd"
+      },
+      {
+        "bytes": 16702.0,
+        "path": "scripts/core/estate_construction_service.gd",
+        "sha256": "249aeb7e3f802c8b16b734b0ca4816b2a7066a3484a9dcadd8872336658b52de"
+      },
+      {
+        "bytes": 17501.0,
+        "path": "scripts/core/estate_lifecycle_service.gd",
+        "sha256": "1c3c0e6f677484cd380503b1c6077207e94f82c7bbac8ae15fa0c2cc1c5424f4"
+      },
+      {
+        "bytes": 5797.0,
+        "path": "scripts/core/estate_paid_production_service.gd",
+        "sha256": "292ef01245395b1390b506416cfe0da888f38861e884b743b0f590ddbe9d97f0"
+      },
+      {
+        "bytes": 9187.0,
+        "path": "scripts/core/estate_production_continuation.gd",
+        "sha256": "bd72d670c2cb691a3b6d0331bc12047bcf22a36ec958879d9df7ead1d4fcc9d9"
+      },
+      {
+        "bytes": 22975.0,
+        "path": "scripts/core/estate_property_transaction_service.gd",
+        "sha256": "01be9df7ffd2a588fbc83ab2f03730b954a4ca59d43b119429442fdcd6cff5e2"
+      },
+      {
+        "bytes": 6159.0,
+        "path": "scripts/core/estate_resource_distribution.gd",
+        "sha256": "b5d9d1d26c3da2cd97aeb06a7337dbafd52792b326fa1c3a7d891f9be890c379"
+      },
+      {
+        "bytes": 6526.0,
+        "path": "scripts/core/event_queue.gd",
+        "sha256": "b97f1ef717cf1cb623c3aeef297403501146af1661d36f433116084bd1ea34c6"
+      },
+      {
+        "bytes": 8838.0,
+        "path": "scripts/core/event_resolution_service.gd",
+        "sha256": "efc8c2ec1c646f4227bd8d6e4507f9bfa6e79b0adc6c4f7e8f75ff24adede63e"
+      },
+      {
+        "bytes": 23601.0,
+        "path": "scripts/core/exam_journey_service.gd",
+        "sha256": "44bc7bb47ef0ed7c1019f5b1049154c33ba34fa26fc112220934f3c93810bd30"
+      },
+      {
+        "bytes": 3218.0,
+        "path": "scripts/core/faction_agenda_service.gd",
+        "sha256": "61941329e517dcf4cbbbd00bfda3536a216e88152087d562248e153f73aa50fb"
+      },
+      {
+        "bytes": 18591.0,
+        "path": "scripts/core/family_office_rules.gd",
+        "sha256": "9d13addf83894be031eeabd2cd31f4c538174d2b3164050e9806ded59db0be98"
+      },
+      {
+        "bytes": 18347.0,
+        "path": "scripts/core/family_partition_service.gd",
+        "sha256": "87b32de790daafca9d3a0a2c6e7c80d2c034129b9e08e7e85b51ef8dc9615315"
+      },
+      {
+        "bytes": 19748.0,
+        "path": "scripts/core/farmland_service.gd",
+        "sha256": "dc1ee5d114270a0086c9fd2378979cbb91e6f9efce839d3ee8b3961161ca08d9"
+      },
+      {
+        "bytes": 21924.0,
+        "path": "scripts/core/game_action_catalog.gd",
+        "sha256": "0e4d0bbb53aa52d03b2dfa22f076ca72f5e478eac156c4e73191fc8e9b67cf64"
+      },
+      {
+        "bytes": 42422.0,
+        "path": "scripts/core/game_action_dispatcher.gd",
+        "sha256": "222142d8ded9aa65377730974a8fa4b71460ed4d71d9c9fbf84112a31c68cea8"
+      },
+      {
+        "bytes": 15373.0,
+        "path": "scripts/core/game_runtime_context.gd",
+        "sha256": "649871179792f1826360a13c98be6a49c5175efcaed8edc22e5456a9206a94f5"
+      },
+      {
+        "bytes": 131254.0,
+        "path": "scripts/core/game_state.gd",
+        "sha256": "c49b79d357db1555a5ab0cbf259119b83ee9902d62dbc0a3240a6cf621443071"
+      },
+      {
+        "bytes": 14212.0,
+        "path": "scripts/core/game_state_transaction.gd",
+        "sha256": "a9bffe3c8281a6707f9ec5651bfb8b0419195745fe897370267d706c717c78cd"
+      },
+      {
+        "bytes": 5330.0,
+        "path": "scripts/core/geo_map_data_contract.gd",
+        "sha256": "b6217251cbf55bf5191a7a13eb06c8768df2182f567372af52bbd7fae11ff94d"
+      },
+      {
+        "bytes": 15972.0,
+        "path": "scripts/core/gift_delivery_service.gd",
+        "sha256": "5274a1dfa64a6f3baa31243b739291ceacc8140f3aaff126424bb4c2996cedef"
+      },
+      {
+        "bytes": 24869.0,
+        "path": "scripts/core/governance_advice_presenter.gd",
+        "sha256": "05bc85da9c848cd6eaf600b8e10927ebac06b95244b498ee6ba1e1f97afb4081"
+      },
+      {
+        "bytes": 22571.0,
+        "path": "scripts/core/governance_council_service.gd",
+        "sha256": "b62f5c5f3354de942cad529b28e06f197d5f78f8264df5a6ff40be7bb4d040d4"
+      },
+      {
+        "bytes": 50279.0,
+        "path": "scripts/core/governance_memorial_service.gd",
+        "sha256": "f85e404a99017ac77436f595931d2d10801169d7e5376e992d5a4d390178ea9d"
+      },
+      {
+        "bytes": 15149.0,
+        "path": "scripts/core/governance_order_resolver.gd",
+        "sha256": "598266089e07dbdc52b30e7ff03f222ef8010d6e7326a6c09b19ce7b1baa8749"
+      },
+      {
+        "bytes": 34923.0,
+        "path": "scripts/core/governance_order_service.gd",
+        "sha256": "fc19456d47abfcd16c8e00d0d48da907b8f1bf34d1a4694356ab150a8c67ecb0"
+      },
+      {
+        "bytes": 23525.0,
+        "path": "scripts/core/governance_report_service.gd",
+        "sha256": "a659b6d442805432c0d557f9ac4e1ded4c0c683a5b397671a9733c522616dacd"
+      },
+      {
+        "bytes": 40042.0,
+        "path": "scripts/core/governance_workflow_coordinator.gd",
+        "sha256": "d94ddf1738dfb7b0d7f99891e09a70aca280e522ea0bfbc1dd065a84a9bdfc82"
+      },
+      {
+        "bytes": 6774.0,
+        "path": "scripts/core/grain_transport_reports.gd",
+        "sha256": "3cb85f337a36ea3a4cd062d890a1eca74921b1d0e89c753c14b417fc3ebfb747"
+      },
+      {
+        "bytes": 1714.0,
+        "path": "scripts/core/household_membership_service.gd",
+        "sha256": "557ebe4144c51a6c735a32dc0fa4aba629dcd2dbfd54b560c6d5ee12745d9111"
+      },
+      {
+        "bytes": 20164.0,
+        "path": "scripts/core/household_subsistence_service.gd",
+        "sha256": "3dbfa043bb96ae9eeea75039d6211969a2642d5641da5f0a60e728c6c620473d"
+      },
+      {
+        "bytes": 12576.0,
+        "path": "scripts/core/important_event_projection.gd",
+        "sha256": "e585214b45461f0f9aa557dd697fc45f4d2fe1b45dd1fe32f7e5723dd672fd52"
+      },
+      {
+        "bytes": 8501.0,
+        "path": "scripts/core/industry_catalog.gd",
+        "sha256": "81e7c0360d7d50cd96f65676cbd643328c1a9f7710bd5d5126cd928527820855"
+      },
+      {
+        "bytes": 11513.0,
+        "path": "scripts/core/information_propagation_service.gd",
+        "sha256": "f51e179248c92726afc66882b179a3282e456d9c918d9507a116e1bd07596c7b"
+      },
+      {
+        "bytes": 13988.0,
+        "path": "scripts/core/land_coownership_service.gd",
+        "sha256": "d4962a233015e0211f0ba238c014affd4b7dfa5e592a440d72e146bacbb4a449"
+      },
+      {
+        "bytes": 12767.0,
+        "path": "scripts/core/land_lease_service.gd",
+        "sha256": "1702e6d36e19173522f900719d88177c64e528374014af0890f91d77b8a83eac"
+      },
+      {
+        "bytes": 9200.0,
+        "path": "scripts/core/land_property_service.gd",
+        "sha256": "20f36e7edb6ca5f2ba43bf09f425bfac4e5089e1064602159eec4ba8f2450790"
+      },
+      {
+        "bytes": 3678.0,
+        "path": "scripts/core/liang_map_definition_bootstrap.gd",
+        "sha256": "d64083a4882dc760ed53aabf2f92f5709064cab5aff35f6852847559c095da4d"
+      },
+      {
+        "bytes": 16224.0,
+        "path": "scripts/core/local_fiscal_policy_service.gd",
+        "sha256": "9d08c1f97db597362c7a3597a275f399bbd815e67c4876bb2677dc9b47cfbde1"
+      },
+      {
+        "bytes": 1661.0,
+        "path": "scripts/core/local_node_service.gd",
+        "sha256": "21c09c6cc098070370c3836e2302651b7bfb512fc506a6af1c6f7b4a495f3034"
+      },
+      {
+        "bytes": 31448.0,
+        "path": "scripts/core/logistics_service.gd",
+        "sha256": "09d79709e9428180c6980315c0851f606aaec1fa07aa0a4dbc042c14e1847da7"
+      },
+      {
+        "bytes": 42261.0,
+        "path": "scripts/core/managed_farming_service.gd",
+        "sha256": "ba79c7097ffe98d168544a1373d33ce768e91091e9f3f3e3023438ad5d157ce1"
+      },
+      {
+        "bytes": 7695.0,
+        "path": "scripts/core/managed_item_service.gd",
+        "sha256": "c68c577f500e0ab9dacec7ab9fdece5b35d5645130e40cbb58cf7ed631505eb2"
+      },
+      {
+        "bytes": 6530.0,
+        "path": "scripts/core/management_plan_builder.gd",
+        "sha256": "2fa8bdb2f2f486998b801285f3ee61edfe90c000d999a13a251a9124375ca23a"
+      },
+      {
+        "bytes": 2647.0,
+        "path": "scripts/core/management_plan_segments.gd",
+        "sha256": "dfe3ef807655a7394df09d54b46e2512def17adb4af8bf20d4b7e894fa345cf5"
+      },
+      {
+        "bytes": 99818.0,
+        "path": "scripts/core/management_state_contract.gd",
+        "sha256": "8d1d2492c4f4cf4e671a95915c054a91e68044577e1821c3412487a1c82ca69a"
+      },
+      {
+        "bytes": 21908.0,
+        "path": "scripts/core/manufacturing_business_service.gd",
+        "sha256": "ddd003b3abe92c2a721ea163ce2283dac9656336f8495974921ea985782432fc"
+      },
+      {
+        "bytes": 3444.0,
+        "path": "scripts/core/map_conversation_router.gd",
+        "sha256": "28ded6f25f0b9faeb6974af79fb751c728916d1728e5fa364db16d493632b848"
+      },
+      {
+        "bytes": 14974.0,
+        "path": "scripts/core/map_status_projection.gd",
+        "sha256": "fb6af4f39767b8c725bcbb193754fb3fb6b4f3cc2f7b2a056eb13732add346bb"
+      },
+      {
+        "bytes": 23427.0,
+        "path": "scripts/core/marriage_service.gd",
+        "sha256": "0ce687fc66a8448e4e65bc551fcfe484bfa5c521b73022e24359322207a2ba6e"
+      },
+      {
+        "bytes": 14415.0,
+        "path": "scripts/core/military_campaign_service.gd",
+        "sha256": "a9b5fe2ec2765d205a14a5819cc3a47d47228412d1202a482c44dcd069a77248"
+      },
+      {
+        "bytes": 6980.0,
+        "path": "scripts/core/military_grain_service.gd",
+        "sha256": "c4f3127c0aee3e0f6c5d801b2e67f9c4f09cdb94023fa219f63f18b2e5fa2ab8"
+      },
+      {
+        "bytes": 23482.0,
+        "path": "scripts/core/modeled_business_service.gd",
+        "sha256": "5612593be56e541f8407ea2537077d6d5d8e07eedf24dacf0200e9d2f37d2415"
+      },
+      {
+        "bytes": 11557.0,
+        "path": "scripts/core/native_state_snapshot.gd",
+        "sha256": "28f024cacc7c9ef0cc8e4781f381739fc3e5a22c28ca55c94bd99d14c2326111"
+      },
+      {
+        "bytes": 7773.0,
+        "path": "scripts/core/node_control_observation.gd",
+        "sha256": "a3a2ccedc198725c8c204711acc024abe0b19081537e1c8def30104084521c72"
+      },
+      {
+        "bytes": 43720.0,
+        "path": "scripts/core/npc_active_action_system.gd",
+        "sha256": "2745ef4d6766877a6ecb5038e2d83fd193649fd8e324f820ec04d18ba5485ec2"
+      },
+      {
+        "bytes": 15556.0,
+        "path": "scripts/core/npc_ai_state_contract.gd",
+        "sha256": "c016584732adf421a8570fc29500b3f05c53578c0c9324c38eec778fb7a178d8"
+      },
+      {
+        "bytes": 10317.0,
+        "path": "scripts/core/npc_autonomy_coordinator.gd",
+        "sha256": "5f7d08d3ccb9d478ba4d3ccf144da8321cf67636697bba5ef20793aa20be5d9a"
+      },
+      {
+        "bytes": 2928.0,
+        "path": "scripts/core/npc_behavior_profile_service.gd",
+        "sha256": "66a7a03ed3c8a8d421d37d00771d491572ae2086ed66863cfac47721b1f0f909"
+      },
+      {
+        "bytes": 13838.0,
+        "path": "scripts/core/npc_context_pages.gd",
+        "sha256": "7e729ea6d79d4d50827bb52050690639ffa756e58e4cfe560872e6a4f4f4d6f7"
+      },
+      {
+        "bytes": 15309.0,
+        "path": "scripts/core/npc_decision_context_projection.gd",
+        "sha256": "bb10a5e614683d3d23a66f09a5f6e298c193970df1f4818e0468b51f07d2df80"
+      },
+      {
+        "bytes": 3316.0,
+        "path": "scripts/core/npc_decision_opportunity.gd",
+        "sha256": "720c0194b7e5e7aa7de9726a6c293affaecd0f552059525458ff47e1ac278d82"
+      },
+      {
+        "bytes": 5938.0,
+        "path": "scripts/core/npc_decision_read_set.gd",
+        "sha256": "27fa30b7ea26b8ff744ce8034ad7a9457db357fe6e376438e3134cc099386f8c"
+      },
+      {
+        "bytes": 26356.0,
+        "path": "scripts/core/npc_decision_service.gd",
+        "sha256": "1b85541a0d696cdc1e9d8646405b97816393cb2efa8a6e4b60cf3f5e353afca7"
+      },
+      {
+        "bytes": 11428.0,
+        "path": "scripts/core/npc_local_decision_policy.gd",
+        "sha256": "a5a5157f704934fe088f47ec9ed63281767a41d18ef845afcb75ef30d1a67d1d"
+      },
+      {
+        "bytes": 4071.0,
+        "path": "scripts/core/npc_mandate_service.gd",
+        "sha256": "553b81512763cc38f067bbdcfd09b3b69b9c3e647f02762f0bad6393f58ad8f4"
+      },
+      {
+        "bytes": 13584.0,
+        "path": "scripts/core/npc_opportunity_projection.gd",
+        "sha256": "ebc42ed1f10d8fbda36aa4f99c878b3d3b75ec3efac4abb9e457957d9f27bbee"
+      },
+      {
+        "bytes": 4203.0,
+        "path": "scripts/core/npc_recent_result_projection.gd",
+        "sha256": "c4780a0e1fc05923f2db8296db9ce98b8dd33270a4e004b056ad995976c6a879"
+      },
+      {
+        "bytes": 6549.0,
+        "path": "scripts/core/npc_relevance_index.gd",
+        "sha256": "1fdcd6608667a2cd780ba78a19d735dd0e9118c639a9a6a06af917f48daddad8"
+      },
+      {
+        "bytes": 5243.0,
+        "path": "scripts/core/npc_relevance_service.gd",
+        "sha256": "59ad3913aa73e5aae5d5e69cd1b28756f4f758cda93103b5d937def13585cc0a"
+      },
+      {
+        "bytes": 7362.0,
+        "path": "scripts/core/npc_social_reaction_service.gd",
+        "sha256": "dd22f66f83dfc91938daa14840d0686c43af4facd74d0cbb2db73352a37fd8ee"
+      },
+      {
+        "bytes": 1293.0,
+        "path": "scripts/core/obedience_relation_state.gd",
+        "sha256": "d43d1d16900eb39d09ac2c2c0bdd4880df6145bf49f78dbcecf45d6d809e3e24"
+      },
+      {
+        "bytes": 3799.0,
+        "path": "scripts/core/office_appointment_authority.gd",
+        "sha256": "37ffbdd1cf7d73c70397ed50bf067161daaddab857e4b214ef3f7c53eff42851"
+      },
+      {
+        "bytes": 87293.0,
+        "path": "scripts/core/office_service.gd",
+        "sha256": "8f5a6dab3d03f93e2e532d4609a01a6054e75ac81dd1b8c44e4dfed87bbb8d52"
+      },
+      {
+        "bytes": 16165.0,
+        "path": "scripts/core/official_initiative_service.gd",
+        "sha256": "673532e02a7b9aeb33a64cfdf9c3b5079f80720e2f84e3d478f2f53574550d1f"
+      },
+      {
+        "bytes": 21321.0,
+        "path": "scripts/core/official_journey_service.gd",
+        "sha256": "3adc53feb36a26266f0703b1dc71f4d7c1da7972c168434ee0fdc3c5ee3af4b7"
+      },
+      {
+        "bytes": 10923.0,
+        "path": "scripts/core/official_office_actions.gd",
+        "sha256": "935f60553d3544437d01d4d9748c4ed09743bdaec3258da205f2c7b9b251d741"
+      },
+      {
+        "bytes": 35167.0,
+        "path": "scripts/core/pawnshop_service.gd",
+        "sha256": "bc605547d538f439193afe7ec10f7f7334a49cc4a7f374db940652f7765a6023"
+      },
+      {
+        "bytes": 7181.0,
+        "path": "scripts/core/person_arrangement_service.gd",
+        "sha256": "005a5375e38a2f5184c8be81d1952a5bc90734cd41592b60d5764ae47227168e"
+      },
+      {
+        "bytes": 33647.0,
+        "path": "scripts/core/personal_estate_service.gd",
+        "sha256": "e52c4ebc124c479e6ee16bd2f05e72388f824487503a1b9fb9310c01629da820"
+      },
+      {
+        "bytes": 44717.0,
+        "path": "scripts/core/phase_ending_evaluator.gd",
+        "sha256": "724eb418b648154768c3e3ddd4affe31f32985cc3345397d6997e95eef9e0f9b"
+      },
+      {
+        "bytes": 10764.0,
+        "path": "scripts/core/player_assistant_service.gd",
+        "sha256": "97b468a9413218a784132d369e15ef639385fd385bf6662a18d5a3496a2c33b6"
+      },
+      {
+        "bytes": 13546.0,
+        "path": "scripts/core/player_succession_service.gd",
+        "sha256": "d137090c69bd354df898921af3707759eb3dfcd3fbeef9b26c4321edcdfa517c"
+      },
+      {
+        "bytes": 3330.0,
+        "path": "scripts/core/political_season_progression_guard.gd",
+        "sha256": "10ac9346b402a84196c47fe53a28ccce734b64be7b6ee7a80cd3ad87efef339a"
+      },
+      {
+        "bytes": 14390.0,
+        "path": "scripts/core/political_season_review_service.gd",
+        "sha256": "5e01bdd1c8731e4b4815dfdd320c447f987fdb55df04f50bd15de68f85f1dcc2"
+      },
+      {
+        "bytes": 18303.0,
+        "path": "scripts/core/political_season_route_service.gd",
+        "sha256": "9615140bd3edf754c0b33eef544b1784170c6392b875c99dccac258621312a46"
+      },
+      {
+        "bytes": 22448.0,
+        "path": "scripts/core/political_season_settlement_service.gd",
+        "sha256": "519b839a883f545fa9ac45fb05023044ea528f3cb8218f005897ab237390d7b0"
+      },
+      {
+        "bytes": 9146.0,
+        "path": "scripts/core/portfolio_business_budget_plan.gd",
+        "sha256": "1cad4fdf6a9ffb94885570629375bdfaae1b5809612c91155309aed00c6c2ffe"
+      },
+      {
+        "bytes": 1562.0,
+        "path": "scripts/core/position_claim_state.gd",
+        "sha256": "6b2de91f97ec2cc111bda25c69dd012246e8c85e1fc03caa554265ed930c65ca"
+      },
+      {
+        "bytes": 46573.0,
+        "path": "scripts/core/private_entrustment_service.gd",
+        "sha256": "dffe312beb938acf056f9cf6ebf00c0f5307e3b816cb667a1d9cebfa4984e794"
+      },
+      {
+        "bytes": 10234.0,
+        "path": "scripts/core/production_service.gd",
+        "sha256": "cbed59ad5987c307c6ea5fdb36a0fd6127574885439f6438f6d28ddd83faba52"
+      },
+      {
+        "bytes": 18592.0,
+        "path": "scripts/core/public_works_service.gd",
+        "sha256": "20cf9643ae6eb62a8b6da2f0c38b325b6883793446a84a78b1611ea1f3d3697e"
+      },
+      {
+        "bytes": 6900.0,
+        "path": "scripts/core/regional_business_budget_service.gd",
+        "sha256": "a193fcc3318dce611c93885bf3bbdc076b70597d5ac0f1f7df0416fc2451f670"
+      },
+      {
+        "bytes": 6602.0,
+        "path": "scripts/core/regional_business_policy_service.gd",
+        "sha256": "b5cc5bab89d04a8a899272f661141e72a6e25a687fa2681bc93eb3fd23ec8e45"
+      },
+      {
+        "bytes": 10357.0,
+        "path": "scripts/core/regional_demography.gd",
+        "sha256": "b260a960594a684373f0033944914d4c05d361ed26f3c8954dead35b708ad82c"
+      },
+      {
+        "bytes": 4115.0,
+        "path": "scripts/core/regional_economic_baselines.gd",
+        "sha256": "477538d5cce53cef9436d76dadbe184f004641e331580ece3b707b37dac6f9c0"
+      },
+      {
+        "bytes": 14479.0,
+        "path": "scripts/core/regional_fiscal_service.gd",
+        "sha256": "9fbca8351ed1a5ae512bd02c8979143af97f7993b0aea1f7b9095c3c7fac44f8"
+      },
+      {
+        "bytes": 26421.0,
+        "path": "scripts/core/regional_grain_service.gd",
+        "sha256": "e4e3977df8e848a5d2def667ec219bb7b2fdfa68dccfc0411c402553fb34d435"
+      },
+      {
+        "bytes": 6903.0,
+        "path": "scripts/core/regional_office_knowledge.gd",
+        "sha256": "1584dd8aab8b42fceaedd978b2302f06bc4d79ae069a696ac3c67d544b651458"
+      },
+      {
+        "bytes": 10982.0,
+        "path": "scripts/core/regional_office_rules.gd",
+        "sha256": "5054e5630a280b47d07e9d5cedc1a4d6f36e7452a3a132fa58c25700940e36b7"
+      },
+      {
+        "bytes": 5329.0,
+        "path": "scripts/core/regional_population_service.gd",
+        "sha256": "b8f3b133496b0c22548c610030bbe0d45f7c60c31b9b2e25cc773eb1fab4c5e9"
+      },
+      {
+        "bytes": 8563.0,
+        "path": "scripts/core/regional_visit_service.gd",
+        "sha256": "8808bcbd83a949d9b3aaca22cf1af850b721d6b5ad9c6e3e183727649785a6df"
+      },
+      {
+        "bytes": 10644.0,
+        "path": "scripts/core/resource_account_service.gd",
+        "sha256": "742ba3ff5078fd2582ba1232092e984daeb5f076be3a1698ddc1380c5c9420fa"
+      },
+      {
+        "bytes": 936.0,
+        "path": "scripts/core/resource_commodity_definitions.gd",
+        "sha256": "b7578e535acb8dfa6d383aa98a2d762e82059dcbe7c36e40a6d396851592e0df"
+      },
+      {
+        "bytes": 3510.0,
+        "path": "scripts/core/resource_rule_settlement.gd",
+        "sha256": "5e0e30f7465d43092721edc3ff4f7a1d7935bc70309a2d2af07ec208abda82a4"
+      },
+      {
+        "bytes": 1585.0,
+        "path": "scripts/core/resource_storage_adapter.gd",
+        "sha256": "cc8dd0c1a8f3a6c7ef822b1d2b4cdde5c2aaa9b98e5b2d11082d0896848642fe"
+      },
+      {
+        "bytes": 23082.0,
+        "path": "scripts/core/retail_trading_service.gd",
+        "sha256": "bb980be62575a345e2920bcedf1a53c890b95123d1edc6d408b8d19ee8d73c1d"
+      },
+      {
+        "bytes": 7654.0,
+        "path": "scripts/core/route_network_service.gd",
+        "sha256": "9a01170ea9f2aac976ce5566ddba58e85bba31dff5af700777ac36f2bbbb1af5"
+      },
+      {
+        "bytes": 39903.0,
+        "path": "scripts/core/routine_request_service.gd",
+        "sha256": "ba9aef7974d3c18bb8eaeb63c51759c133d42b1badd502ace9f95c1708d31ba9"
+      },
+      {
+        "bytes": 9920.0,
+        "path": "scripts/core/rule_engine.gd",
+        "sha256": "16e9e5d8f4fa9b07a57d6a1305d0811e7444d8237566a823ac40d77e221ab368"
+      },
+      {
+        "bytes": 4503.0,
+        "path": "scripts/core/runtime_corridor_reader.gd",
+        "sha256": "35d9337ea722e8cead86f6870a50e80123b904002adb8e83e472d1c1dca4aaaa"
+      },
+      {
+        "bytes": 3434.0,
+        "path": "scripts/core/save_file_store.gd",
+        "sha256": "0ba3ba701f9be11868e129854126aba9c939bae61bd384a6aef7d3444b3f1fd1"
+      },
+      {
+        "bytes": 2458.0,
+        "path": "scripts/core/save_manager.gd",
+        "sha256": "369d768f937028b4e73cfd8b6becc2f60131f1ca4062eb2e77babf013510737c"
+      },
+      {
+        "bytes": 10826.0,
+        "path": "scripts/core/save_repository.gd",
+        "sha256": "271ffcebc416bf4363073b839df6b4554c29682cc84e9e648ff171e6fc6f797f"
+      },
+      {
+        "bytes": 3508.0,
+        "path": "scripts/core/school_appointment_rules.gd",
+        "sha256": "19fa671bdff88ec6a00fdcf01613f07116bcfd3050e4d6fc8d6f987b237a2d48"
+      },
+      {
+        "bytes": 24585.0,
+        "path": "scripts/core/school_assessment_service.gd",
+        "sha256": "e7c9a70556823683e9840b2a59d2dbfe4f13b2c755e7a17651a2a23d34e75684"
+      },
+      {
+        "bytes": 14908.0,
+        "path": "scripts/core/school_living_aid_service.gd",
+        "sha256": "d43dd0ef59474dd5adf2aa10a259faafa486ac6582acb875f9c438bf5523ab98"
+      },
+      {
+        "bytes": 15787.0,
+        "path": "scripts/core/school_supply_service.gd",
+        "sha256": "54462bac1926c6a0a1dd82e1468311cf99b36fe02ac889d11701cf4fa4b45ebe"
+      },
+      {
+        "bytes": 27558.0,
+        "path": "scripts/core/social_agreement_service.gd",
+        "sha256": "188dfab5deeb28dea0a4430ad6a0d2d96a81d0440e621cb6736b85de6805d8f6"
+      },
+      {
+        "bytes": 17143.0,
+        "path": "scripts/core/start_profile_service.gd",
+        "sha256": "d3452b2a780b4fa0cf6aff56e7f5b16259fe27cf24650534d567f9112de70271"
+      },
+      {
+        "bytes": 9648.0,
+        "path": "scripts/core/strategic_time_service.gd",
+        "sha256": "f8a23aa35c31082906e9eaeb8b1f43690b5243a9cf03cbf6f3982d0573d78120"
+      },
+      {
+        "bytes": 14067.0,
+        "path": "scripts/core/structured_memory_service.gd",
+        "sha256": "2a2e8a24a4155fb9a2831a426c512d11289e68994526e183828b7e021f835d62"
+      },
+      {
+        "bytes": 4585.0,
+        "path": "scripts/core/talk_resolution_service.gd",
+        "sha256": "66278a3f7a78254d7ed799def782d469908e9d81dc398d15862f4181a245679b"
+      },
+      {
+        "bytes": 17412.0,
+        "path": "scripts/core/tang_character_trait_service.gd",
+        "sha256": "ed453c9a1717d042dca701fe4a2c59cd336c93cbdf803183cadccb57cb76a16a"
+      },
+      {
+        "bytes": 12811.0,
+        "path": "scripts/core/tang_clan_service.gd",
+        "sha256": "f3c3880536e6c397952ca091c7ac461cedbeb3ca425f3ebb9439070da1859d46"
+      },
+      {
+        "bytes": 17047.0,
+        "path": "scripts/core/task_queue.gd",
+        "sha256": "c57625bf040eaf9d6bf51fd8815354965048c114d57adfeeb123108c16b87040"
+      },
+      {
+        "bytes": 13192.0,
+        "path": "scripts/core/time_controller.gd",
+        "sha256": "de3afe6846438fc9034575205562eca33823a8328ff9ddad937720445d552682"
+      },
+      {
+        "bytes": 2614.0,
+        "path": "scripts/core/transit_corridor_state.gd",
+        "sha256": "82e8dc068d53ad898560a2a5aff29c3d2b5635638f7a0f9484028e6d4d9bfca0"
+      },
+      {
+        "bytes": 5696.0,
+        "path": "scripts/domain/beta_1_08_campaign_loader.gd",
+        "sha256": "f436add635ba481003f3e3086aa7eeb857b0f885cde8efb1e3c6ca34f855bf14"
+      },
+      {
+        "bytes": 2293.0,
+        "path": "scripts/domain/beta_1_08_case_catalog.gd",
+        "sha256": "eee05438327d6a5583b1e45bd0e180844a84d6267e6da49737b6a198c7cd5769"
+      },
+      {
+        "bytes": 12029.0,
+        "path": "scripts/domain/beta_1_08_content_validator.gd",
+        "sha256": "c420f523f698dc72d58f69da512415b2c43b8a6c292b5fdef6517926b1a51ce3"
+      },
+      {
+        "bytes": 1702.0,
+        "path": "scripts/domain/beta_1_08_office_catalog.gd",
+        "sha256": "4a360fd53975168cbcd29954fc84f58056a9ad7861ad666cd1687b6197145f74"
+      },
+      {
+        "bytes": 9840.0,
+        "path": "scripts/domain/beta_1_09_campaign_loader.gd",
+        "sha256": "6a7a829938d118d6cf04af3a96511310b1f67e4eb0d38c9329795c33c4b3a968"
+      },
+      {
+        "bytes": 24620.0,
+        "path": "scripts/domain/beta_1_09_content_validator.gd",
+        "sha256": "8ecd460b1a8a2f7e97b6d81381ce5c3f5ef980d25ec89954024e79eeb858fd70"
+      },
+      {
+        "bytes": 12340.0,
+        "path": "scripts/domain/beta_1_0_content_validator.gd",
+        "sha256": "fa7f2c4f110fc06a3063f36c5353ad985b00848a0767535cc7cf826f4af99688"
+      },
+      {
+        "bytes": 15475.0,
+        "path": "scripts/domain/beta_1_10_campaign_loader.gd",
+        "sha256": "099fbd595170198504ae4291aec996a596f59724a39534b4d6fa4b4d4aac3302"
+      },
+      {
+        "bytes": 37860.0,
+        "path": "scripts/domain/beta_1_10_content_validator.gd",
+        "sha256": "0ce343f9de1a6ec1d55cfe0a68255d7b370530541f4bf22f3cafc5a76f9a3f74"
+      },
+      {
+        "bytes": 4036.0,
+        "path": "scripts/domain/campaign_manifest.gd",
+        "sha256": "a245b40bc21c9b726e2f27d72075d05845e59ddef21093563d6ef24fa76bf6b9"
+      },
+      {
+        "bytes": 684.0,
+        "path": "scripts/domain/current_campaign.gd",
+        "sha256": "da1d7606c32f5802df45f39f20146244c3024389418529d9a83cec89429b12bb"
+      },
+      {
+        "bytes": 1935.0,
+        "path": "scripts/domain/opening_control_knowledge.gd",
+        "sha256": "5d8ebf4c8b7bd56de76885ae071a126a96c3a459bd6a25e2d118256a9a4db585"
+      },
+      {
+        "bytes": 3957.0,
+        "path": "scripts/domain/river_crossing_conditions.gd",
+        "sha256": "ae810f99873ed17a4fa499cd018a747adfc3144300809f36713a7ebe590256a4"
+      },
+      {
+        "bytes": 2662.0,
+        "path": "scripts/domain/river_weather_events.gd",
+        "sha256": "8ad845c3869d0a2ec75a63c12b208b96c24014fc1793fade30760cbcd8015d77"
+      },
+      {
+        "bytes": 3093.0,
+        "path": "scripts/domain/road_surface_conditions.gd",
+        "sha256": "0505cfa6336d3eea529e43b664385c0161ce8eae13e32bf0249279d3b77bbc9a"
+      },
+      {
+        "bytes": 31582.0,
+        "path": "scripts/domain/scenario_data.gd",
+        "sha256": "fa412ff03f8bc9e247866521a5fa553fc2182c3b2fdab0d85478146a5cac18fc"
+      },
+      {
+        "bytes": 7889.0,
+        "path": "scripts/domain/tang_office_catalog.gd",
+        "sha256": "30442f6515c24ce47f456ef5a3e6d90ece5618901fa6aeb7f149f3f95ca1bb1c"
+      },
+      {
+        "bytes": 8453.0,
+        "path": "scripts/domain/terrain_rule_service.gd",
+        "sha256": "8a2d593dcddf13b23d02b324377ff3ceed0c80a02629dda286f39aafcc78786c"
+      },
+      {
+        "bytes": 27082.0,
+        "path": "scripts/domain/unified_campaign_loader.gd",
+        "sha256": "7bbf2dabc8abddabbb89d039db9a2ebceddce6b15114574981443384ee7ded88"
+      },
+      {
+        "bytes": 12097.0,
+        "path": "tang_dna_v3_2/scripts/appearance_recipe.gd",
+        "sha256": "dc1be97232d8ee8e54e034ee224a8f2f5ad3cf55c6f9f21c90ba9eea7c992bb9"
+      },
+      {
+        "bytes": 2016.0,
+        "path": "tang_dna_v3_2/scripts/appearance_scorer.gd",
+        "sha256": "a0cc0bd7563f64b1a2112238d530ed1c0c15426cff839912f0d65f9658cf8c4f"
+      },
+      {
+        "bytes": 3153.0,
+        "path": "tang_dna_v3_2/scripts/character_contract.gd",
+        "sha256": "a88dc17e4e03b5c52813590a8141e4612d80b43db760c1fdee49707ced768ff4"
+      },
+      {
+        "bytes": 1297.0,
+        "path": "tang_dna_v3_2/scripts/data_io.gd",
+        "sha256": "0b6791e34bfe833033093822e03ae6b8f3916add212145433f6222cbf27580f3"
+      },
+      {
+        "bytes": 5486.0,
+        "path": "tang_dna_v3_2/scripts/dna_core.gd",
+        "sha256": "eeee864c40dee5240b67200d507cd547e9d85108f2cbb2dd450c4498627017f4"
+      },
+      {
+        "bytes": 3741.0,
+        "path": "tang_dna_v3_2/scripts/dna_exact_record.gd",
+        "sha256": "d697b38ff838c85772433c2210eee1cff4eacf5a2116b5277f9e0b30100432bc"
+      },
+      {
+        "bytes": 7533.0,
+        "path": "tang_dna_v3_2/scripts/outfit_resolver.gd",
+        "sha256": "404483d1ece4c912fe90384bc57223c5e326bb2ba6cb18ae036699fb93d66680"
+      },
+      {
+        "bytes": 7888.0,
+        "path": "tang_dna_v3_2/scripts/phenotype_mapper.gd",
+        "sha256": "ef81adc1a9301c81b727b463d67ea4793534df7726ca412d05b7b895dc7c67c1"
+      },
+      {
+        "bytes": 2505.0,
+        "path": "tang_dna_v3_2/scripts/portrait_style_catalog.gd",
+        "sha256": "759c25b52460ca206ec9376bc190f3bf0116414eebaa98febeab691c343fd64f"
+      },
+      {
+        "bytes": 1119.0,
+        "path": "tang_dna_v3_2/scripts/stable_rng.gd",
+        "sha256": "d93645a1d05184818b18739e4a84a9a10103a4f7f9cac5ab0e81a8196218e977"
+      },
+      {
+        "bytes": 466.0,
+        "path": "tests/probe_publication.gd",
+        "sha256": "34fcbec04d5ceda81c2f9072b8c48ddc6577dbf80bf5882877a57f94194a6fd5"
+      },
+      {
+        "bytes": 220.0,
+        "path": "tests/test_army_scene.gd",
+        "sha256": "14446aecf16bce865ea72b3647642e6897cd33e34cfa0c9194a8c2b575a5323d"
+      },
+      {
+        "bytes": 7587.0,
+        "path": "tests/test_army_state.gd",
+        "sha256": "3729995914c85aaed4b293881d9863eef53c6045459bee6b0517fba09d8f759c"
+      },
+      {
+        "bytes": 10588.0,
+        "path": "tests/test_construction.gd",
+        "sha256": "1293bef91ce2131c8091a3e0c1ebb18b7282ab96950b1a71cfacef5c34796af5"
+      },
+      {
+        "bytes": 263.0,
+        "path": "tests/test_construction_scene.gd",
+        "sha256": "7acbeb07477b018db1aba03cc68f6c7901a2dd5f42ffa50fa2adf9daed231694"
+      },
+      {
+        "bytes": 1312.0,
+        "path": "tests/test_final_publication.gd",
+        "sha256": "6aecdaf9e4ef7374bf633a7b8c84769c865390e69e3114bb97a729f2712b0635"
+      },
+      {
+        "bytes": 6939.0,
+        "path": "tests/test_native_construction_lifecycle.gd",
+        "sha256": "c8027e595cf592ab5de3e2db14e77e610dff6f21bd59096a55a780dad4cd1e3e"
+      },
+      {
+        "bytes": 6488.0,
+        "path": "tests/test_original_host.gd",
+        "sha256": "fcdf089510116c967c7cef137370fd5d25007d70369800f896c44a4f6bde1bcb"
+      },
+      {
+        "bytes": 5969.0,
+        "path": "tests/test_r3_passage.gd",
+        "sha256": "4de3dc17ca2e94898a7fb74814838b712b5575ee4274c198fba5a8daf5419577"
+      },
+      {
+        "bytes": 248.0,
+        "path": "tests/test_r3_scene.gd",
+        "sha256": "064f46777a6ca927dfb735302d373f7c8b905bc6ca541036f6b4ae19f648002a"
+      },
+      {
+        "bytes": 2758.0,
+        "path": "tests/test_r4_view.gd",
+        "sha256": "acf0088c87e2c86bf26a5ec54800e902ffc1fc8eaa45f0b20c9e891a7d025edb"
+      },
+      {
+        "bytes": 6579.0,
+        "path": "tests/test_r5_saves.gd",
+        "sha256": "84cbdd3de5414ca168ebac6d58bc92f2af95e649c42fbf5b106005c56783b4bc"
+      },
+      {
+        "bytes": 217.0,
+        "path": "tests/test_review_edges.gd",
+        "sha256": "b0be7954a04626a7bdbaeb2ca397dd6e8284f622c8df572674ce94589826ecc8"
+      },
+      {
+        "bytes": 4367.0,
+        "path": "tests/test_review_ownership.gd",
+        "sha256": "41146aa7b755f7bb25a10727b4d617f1309af6d4fec5948790cba28ff50cf85d"
+      },
+      {
+        "bytes": 4069.0,
+        "path": "tests/v02/test_s0_contract.gd",
+        "sha256": "ca06ab040673d4d60a97444547e2dad288693c64209939479180dbd09bae5d76"
+      },
+      {
+        "bytes": 787.0,
+        "path": "v02/boot.gd",
+        "sha256": "8ac186d0ddbd2e85731b2ebe942b294ea74f1e4c56435334d4c4199bfb62423b"
+      },
+      {
+        "bytes": 157.0,
+        "path": "v02/main.tscn",
+        "sha256": "bf7f2bb280bd9b57c9a8b3a98fd335918cd58bb1102ec48769b35eadbf80f6ec"
+      },
+      {
+        "bytes": 3584.0,
+        "path": "v02/map_services.gd",
+        "sha256": "c1d206e95c806c40277a0c11f158028bf74394c5b8ecbefe17b528a7e73ad530"
+      },
+      {
+        "bytes": 10734.0,
+        "path": "v02/probe.gd",
+        "sha256": "743a97c9a48f0884b54fb7cbbecd8594e8a9e35032ccc08ac20640bb03b9b863"
+      },
+      {
+        "bytes": 875.0,
+        "path": "v02/profiles.json",
+        "sha256": "a550665973c1a4abc560d3356fc9bd82525ac31e4d1762299316b831a5e5d7fb"
+      },
+      {
+        "bytes": 677.0,
+        "path": "v02/service_selection.gd",
+        "sha256": "0d462dd1b342a2da2fc98d1b0f9a08deecde522a286dfcdb14667732520fdee3"
+      }
+    ],
+    "source_manifest_sha256": "e1e03ad69b604447e2a3b3f42ed9f7180a9b694b66546f337053b08b98f83654",
+    "stage": "S0",
+    "streaming_implemented": false,
+    "visual_acceptance": "pending_user_review"
+  },
+  "checks": 14,
+  "dimensions": {
+    "content_scale_factor": 1.0,
+    "content_scale_mode": 2,
+    "content_scale_size": [
+      1920,
+      1080
+    ],
+    "display_server": "Windows",
+    "engine": {
+      "build": "official",
+      "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+      "hex": 263681,
+      "major": 4,
+      "minor": 6,
+      "patch": 1,
+      "status": "stable",
+      "string": "4.6.1-stable (official)",
+      "timestamp": 0
+    },
+    "rendering_method": "gl_compatibility",
+    "screen_dpi": 96,
+    "video_adapter": "NVIDIA GeForce RTX 4060",
+    "video_api_version": "3.3.0 NVIDIA 616.92",
+    "video_vendor": "NVIDIA",
+    "viewport_texture_px": [
+      1920,
+      1080
+    ],
+    "window_client_px": [
+      1920,
+      1080
+    ],
+    "window_size_px": [
+      1920,
+      1080
+    ]
+  },
+  "dimensions_end": {
+    "content_scale_factor": 1.0,
+    "content_scale_mode": 2,
+    "content_scale_size": [
+      1920,
+      1080
+    ],
+    "display_server": "Windows",
+    "engine": {
+      "build": "official",
+      "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+      "hex": 263681,
+      "major": 4,
+      "minor": 6,
+      "patch": 1,
+      "status": "stable",
+      "string": "4.6.1-stable (official)",
+      "timestamp": 0
+    },
+    "rendering_method": "gl_compatibility",
+    "screen_dpi": 96,
+    "video_adapter": "NVIDIA GeForce RTX 4060",
+    "video_api_version": "3.3.0 NVIDIA 616.92",
+    "video_vendor": "NVIDIA",
+    "viewport_texture_px": [
+      1920,
+      1080
+    ],
+    "window_client_px": [
+      1920,
+      1080
+    ],
+    "window_size_px": [
+      1920,
+      1080
+    ]
+  },
+  "duration_seconds": 3.001712,
+  "engine_start_to_cache_ready_ms": 2614.056,
+  "entry_to_interactive_upper_bound_ms": 163.786,
+  "failures": [],
+  "frame_max_ms": 8.672,
+  "frame_p95_ms": 7.017,
+  "frame_p99_ms": 8.092,
+  "gpu_first_frame_timestamp": null,
+  "long_frame_counts": {
+    "over_100ms": 0,
+    "over_33ms": 0,
+    "over_50ms": 0
+  },
+  "long_frames": [],
+  "mode": "v02",
+  "observations_end": {
+    "cache_instance_id": -9223372010346773162,
+    "delegate": "legacy",
+    "draw_calls": 1480,
+    "last_draw": {
+      "candidates_tested": 72,
+      "plan_rebuilds": 1,
+      "plan_usec": 371,
+      "submitted_objects": 0
+    },
+    "lifecycle": [
+      "selected:v02",
+      "cache_created"
+    ],
+    "resources": {
+      "async_attach_count": 6,
+      "estimate_model": "RGBA8 plus complete mip chain; cache-owned textures only; not measured VRAM",
+      "release_count": null,
+      "release_status": "not_instrumented",
+      "request_count": 10,
+      "request_failures": [],
+      "requests": [
+        {
+          "kind": "sync",
+          "path": "res://bundle/terrain_fallback.png",
+          "result": 0,
+          "since_engine_start_usec": 749455
+        },
+        {
+          "kind": "sync",
+          "path": "res://bundle/slope.png",
+          "result": 0,
+          "since_engine_start_usec": 760727
+        },
+        {
+          "kind": "sync",
+          "path": "res://bundle/art/gate_eastwest.png",
+          "result": 0,
+          "since_engine_start_usec": 804996
+        },
+        {
+          "kind": "sync",
+          "path": "res://bundle/art/trees.png",
+          "result": 0,
+          "since_engine_start_usec": 873452
+        },
+        {
+          "kind": "threaded",
+          "path": "res://bundle/terrain/0_0.png",
+          "result": 0,
+          "since_engine_start_usec": 873827
+        },
+        {
+          "kind": "threaded",
+          "path": "res://bundle/terrain/256_0.png",
+          "result": 0,
+          "since_engine_start_usec": 873835
+        },
+        {
+          "kind": "threaded",
+          "path": "res://bundle/terrain/512_0.png",
+          "result": 0,
+          "since_engine_start_usec": 873842
+        },
+        {
+          "kind": "threaded",
+          "path": "res://bundle/terrain/0_256.png",
+          "result": 0,
+          "since_engine_start_usec": 873848
+        },
+        {
+          "kind": "threaded",
+          "path": "res://bundle/terrain/256_256.png",
+          "result": 0,
+          "since_engine_start_usec": 873853
+        },
+        {
+          "kind": "threaded",
+          "path": "res://bundle/terrain/512_256.png",
+          "result": 0,
+          "since_engine_start_usec": 873858
+        }
+      ],
+      "resident_terrain_pages": 6,
+      "resident_textures": [
+        {
+          "estimated_bytes": 79840,
+          "height": 100,
+          "path": "res://bundle/terrain_fallback.png",
+          "resource_id": -9223372010229332642,
+          "width": 150
+        },
+        {
+          "estimated_bytes": 1279840,
+          "height": 400,
+          "path": "res://bundle/slope.png",
+          "resource_id": -9223372009927342742,
+          "width": 600
+        },
+        {
+          "estimated_bytes": 8388604,
+          "height": 1024,
+          "path": "res://bundle/art/gate_eastwest.png",
+          "resource_id": -9223372009424026259,
+          "width": 1536
+        },
+        {
+          "estimated_bytes": 8388604,
+          "height": 1024,
+          "path": "res://bundle/art/trees.png",
+          "resource_id": -9223372009021373073,
+          "width": 1536
+        },
+        {
+          "estimated_bytes": 371624,
+          "height": 264,
+          "path": "res://bundle/terrain/0_0.png",
+          "resource_id": -9223372008249621145,
+          "width": 264
+        },
+        {
+          "estimated_bytes": 382908,
+          "height": 264,
+          "path": "res://bundle/terrain/256_0.png",
+          "resource_id": -9223372008014740124,
+          "width": 272
+        },
+        {
+          "estimated_bytes": 135148,
+          "height": 264,
+          "path": "res://bundle/terrain/512_0.png",
+          "resource_id": -9223372007947631239,
+          "width": 96
+        },
+        {
+          "estimated_bytes": 213928,
+          "height": 152,
+          "path": "res://bundle/terrain/0_256.png",
+          "resource_id": -9223372008148957850,
+          "width": 264
+        },
+        {
+          "estimated_bytes": 220424,
+          "height": 152,
+          "path": "res://bundle/terrain/256_256.png",
+          "resource_id": -9223372007175879301,
+          "width": 272
+        },
+        {
+          "estimated_bytes": 77796,
+          "height": 152,
+          "path": "res://bundle/terrain/512_256.png",
+          "resource_id": -9223372006890666623,
+          "width": 96
+        }
+      ],
+      "resident_unique_textures": 10,
+      "unique_estimated_bytes": 19538716
+    },
+    "streaming_implemented": false,
+    "tree_candidates_tested": 61488,
+    "tree_plan_rebuilds": 854,
+    "tree_submitted_objects": 16662,
+    "visual_mode": "v02"
+  },
+  "observations_start": {
+    "cache_instance_id": -9223372010346773162,
+    "delegate": "legacy",
+    "draw_calls": 746,
+    "last_draw": {
+      "candidates_tested": 72,
+      "plan_rebuilds": 1,
+      "plan_usec": 362,
+      "submitted_objects": 0
+    },
+    "lifecycle": [
+      "selected:v02",
+      "cache_created"
+    ],
+    "resources": {
+      "async_attach_count": 6,
+      "estimate_model": "RGBA8 plus complete mip chain; cache-owned textures only; not measured VRAM",
+      "release_count": null,
+      "release_status": "not_instrumented",
+      "request_count": 10,
+      "request_failures": [],
+      "requests": [
+        {
+          "kind": "sync",
+          "path": "res://bundle/terrain_fallback.png",
+          "result": 0,
+          "since_engine_start_usec": 749455
+        },
+        {
+          "kind": "sync",
+          "path": "res://bundle/slope.png",
+          "result": 0,
+          "since_engine_start_usec": 760727
+        },
+        {
+          "kind": "sync",
+          "path": "res://bundle/art/gate_eastwest.png",
+          "result": 0,
+          "since_engine_start_usec": 804996
+        },
+        {
+          "kind": "sync",
+          "path": "res://bundle/art/trees.png",
+          "result": 0,
+          "since_engine_start_usec": 873452
+        },
+        {
+          "kind": "threaded",
+          "path": "res://bundle/terrain/0_0.png",
+          "result": 0,
+          "since_engine_start_usec": 873827
+        },
+        {
+          "kind": "threaded",
+          "path": "res://bundle/terrain/256_0.png",
+          "result": 0,
+          "since_engine_start_usec": 873835
+        },
+        {
+          "kind": "threaded",
+          "path": "res://bundle/terrain/512_0.png",
+          "result": 0,
+          "since_engine_start_usec": 873842
+        },
+        {
+          "kind": "threaded",
+          "path": "res://bundle/terrain/0_256.png",
+          "result": 0,
+          "since_engine_start_usec": 873848
+        },
+        {
+          "kind": "threaded",
+          "path": "res://bundle/terrain/256_256.png",
+          "result": 0,
+          "since_engine_start_usec": 873853
+        },
+        {
+          "kind": "threaded",
+          "path": "res://bundle/terrain/512_256.png",
+          "result": 0,
+          "since_engine_start_usec": 873858
+        }
+      ],
+      "resident_terrain_pages": 6,
+      "resident_textures": [
+        {
+          "estimated_bytes": 79840,
+          "height": 100,
+          "path": "res://bundle/terrain_fallback.png",
+          "resource_id": -9223372010229332642,
+          "width": 150
+        },
+        {
+          "estimated_bytes": 1279840,
+          "height": 400,
+          "path": "res://bundle/slope.png",
+          "resource_id": -9223372009927342742,
+          "width": 600
+        },
+        {
+          "estimated_bytes": 8388604,
+          "height": 1024,
+          "path": "res://bundle/art/gate_eastwest.png",
+          "resource_id": -9223372009424026259,
+          "width": 1536
+        },
+        {
+          "estimated_bytes": 8388604,
+          "height": 1024,
+          "path": "res://bundle/art/trees.png",
+          "resource_id": -9223372009021373073,
+          "width": 1536
+        },
+        {
+          "estimated_bytes": 371624,
+          "height": 264,
+          "path": "res://bundle/terrain/0_0.png",
+          "resource_id": -9223372008249621145,
+          "width": 264
+        },
+        {
+          "estimated_bytes": 382908,
+          "height": 264,
+          "path": "res://bundle/terrain/256_0.png",
+          "resource_id": -9223372008014740124,
+          "width": 272
+        },
+        {
+          "estimated_bytes": 135148,
+          "height": 264,
+          "path": "res://bundle/terrain/512_0.png",
+          "resource_id": -9223372007947631239,
+          "width": 96
+        },
+        {
+          "estimated_bytes": 213928,
+          "height": 152,
+          "path": "res://bundle/terrain/0_256.png",
+          "resource_id": -9223372008148957850,
+          "width": 264
+        },
+        {
+          "estimated_bytes": 220424,
+          "height": 152,
+          "path": "res://bundle/terrain/256_256.png",
+          "resource_id": -9223372007175879301,
+          "width": 272
+        },
+        {
+          "estimated_bytes": 77796,
+          "height": 152,
+          "path": "res://bundle/terrain/512_256.png",
+          "resource_id": -9223372006890666623,
+          "width": 96
+        }
+      ],
+      "resident_unique_textures": 10,
+      "unique_estimated_bytes": 19538716
+    },
+    "streaming_implemented": false,
+    "tree_candidates_tested": 31392,
+    "tree_plan_rebuilds": 436,
+    "tree_submitted_objects": 8217,
+    "visual_mode": "v02"
+  },
+  "periodic_observations": [
+    {
+      "dimensions": {
+        "content_scale_factor": 1.0,
+        "content_scale_mode": 2,
+        "content_scale_size": [
+          1920,
+          1080
+        ],
+        "display_server": "Windows",
+        "engine": {
+          "build": "official",
+          "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+          "hex": 263681,
+          "major": 4,
+          "minor": 6,
+          "patch": 1,
+          "status": "stable",
+          "string": "4.6.1-stable (official)",
+          "timestamp": 0
+        },
+        "rendering_method": "gl_compatibility",
+        "screen_dpi": 96,
+        "video_adapter": "NVIDIA GeForce RTX 4060",
+        "video_api_version": "3.3.0 NVIDIA 616.92",
+        "video_vendor": "NVIDIA",
+        "viewport_texture_px": [
+          1920,
+          1080
+        ],
+        "window_client_px": [
+          1920,
+          1080
+        ],
+        "window_size_px": [
+          1920,
+          1080
+        ]
+      },
+      "elapsed_s": 1.005413,
+      "observations": {
+        "cache_instance_id": -9223372010346773162,
+        "delegate": "legacy",
+        "draw_calls": 1062,
+        "last_draw": {
+          "candidates_tested": 0,
+          "plan_rebuilds": 0,
+          "plan_usec": 0,
+          "submitted_objects": 0
+        },
+        "lifecycle": [
+          "selected:v02",
+          "cache_created"
+        ],
+        "resources": {
+          "async_attach_count": 6,
+          "estimate_model": "RGBA8 plus complete mip chain; cache-owned textures only; not measured VRAM",
+          "release_count": null,
+          "release_status": "not_instrumented",
+          "request_count": 10,
+          "request_failures": [],
+          "requests": [
+            {
+              "kind": "sync",
+              "path": "res://bundle/terrain_fallback.png",
+              "result": 0,
+              "since_engine_start_usec": 749455
+            },
+            {
+              "kind": "sync",
+              "path": "res://bundle/slope.png",
+              "result": 0,
+              "since_engine_start_usec": 760727
+            },
+            {
+              "kind": "sync",
+              "path": "res://bundle/art/gate_eastwest.png",
+              "result": 0,
+              "since_engine_start_usec": 804996
+            },
+            {
+              "kind": "sync",
+              "path": "res://bundle/art/trees.png",
+              "result": 0,
+              "since_engine_start_usec": 873452
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/0_0.png",
+              "result": 0,
+              "since_engine_start_usec": 873827
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/256_0.png",
+              "result": 0,
+              "since_engine_start_usec": 873835
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/512_0.png",
+              "result": 0,
+              "since_engine_start_usec": 873842
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/0_256.png",
+              "result": 0,
+              "since_engine_start_usec": 873848
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/256_256.png",
+              "result": 0,
+              "since_engine_start_usec": 873853
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/512_256.png",
+              "result": 0,
+              "since_engine_start_usec": 873858
+            }
+          ],
+          "resident_terrain_pages": 6,
+          "resident_textures": [
+            {
+              "estimated_bytes": 79840,
+              "height": 100,
+              "path": "res://bundle/terrain_fallback.png",
+              "resource_id": -9223372010229332642,
+              "width": 150
+            },
+            {
+              "estimated_bytes": 1279840,
+              "height": 400,
+              "path": "res://bundle/slope.png",
+              "resource_id": -9223372009927342742,
+              "width": 600
+            },
+            {
+              "estimated_bytes": 8388604,
+              "height": 1024,
+              "path": "res://bundle/art/gate_eastwest.png",
+              "resource_id": -9223372009424026259,
+              "width": 1536
+            },
+            {
+              "estimated_bytes": 8388604,
+              "height": 1024,
+              "path": "res://bundle/art/trees.png",
+              "resource_id": -9223372009021373073,
+              "width": 1536
+            },
+            {
+              "estimated_bytes": 371624,
+              "height": 264,
+              "path": "res://bundle/terrain/0_0.png",
+              "resource_id": -9223372008249621145,
+              "width": 264
+            },
+            {
+              "estimated_bytes": 382908,
+              "height": 264,
+              "path": "res://bundle/terrain/256_0.png",
+              "resource_id": -9223372008014740124,
+              "width": 272
+            },
+            {
+              "estimated_bytes": 135148,
+              "height": 264,
+              "path": "res://bundle/terrain/512_0.png",
+              "resource_id": -9223372007947631239,
+              "width": 96
+            },
+            {
+              "estimated_bytes": 213928,
+              "height": 152,
+              "path": "res://bundle/terrain/0_256.png",
+              "resource_id": -9223372008148957850,
+              "width": 264
+            },
+            {
+              "estimated_bytes": 220424,
+              "height": 152,
+              "path": "res://bundle/terrain/256_256.png",
+              "resource_id": -9223372007175879301,
+              "width": 272
+            },
+            {
+              "estimated_bytes": 77796,
+              "height": 152,
+              "path": "res://bundle/terrain/512_256.png",
+              "resource_id": -9223372006890666623,
+              "width": 96
+            }
+          ],
+          "resident_unique_textures": 10,
+          "unique_estimated_bytes": 19538716
+        },
+        "streaming_implemented": false,
+        "tree_candidates_tested": 31392,
+        "tree_plan_rebuilds": 436,
+        "tree_submitted_objects": 8217,
+        "visual_mode": "v02"
+      }
+    },
+    {
+      "dimensions": {
+        "content_scale_factor": 1.0,
+        "content_scale_mode": 2,
+        "content_scale_size": [
+          1920,
+          1080
+        ],
+        "display_server": "Windows",
+        "engine": {
+          "build": "official",
+          "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+          "hex": 263681,
+          "major": 4,
+          "minor": 6,
+          "patch": 1,
+          "status": "stable",
+          "string": "4.6.1-stable (official)",
+          "timestamp": 0
+        },
+        "rendering_method": "gl_compatibility",
+        "screen_dpi": 96,
+        "video_adapter": "NVIDIA GeForce RTX 4060",
+        "video_api_version": "3.3.0 NVIDIA 616.92",
+        "video_vendor": "NVIDIA",
+        "viewport_texture_px": [
+          1920,
+          1080
+        ],
+        "window_client_px": [
+          1920,
+          1080
+        ],
+        "window_size_px": [
+          1920,
+          1080
+        ]
+      },
+      "elapsed_s": 2.004142,
+      "observations": {
+        "cache_instance_id": -9223372010346773162,
+        "delegate": "legacy",
+        "draw_calls": 1266,
+        "last_draw": {
+          "candidates_tested": 72,
+          "plan_rebuilds": 1,
+          "plan_usec": 365,
+          "submitted_objects": 0
+        },
+        "lifecycle": [
+          "selected:v02",
+          "cache_created"
+        ],
+        "resources": {
+          "async_attach_count": 6,
+          "estimate_model": "RGBA8 plus complete mip chain; cache-owned textures only; not measured VRAM",
+          "release_count": null,
+          "release_status": "not_instrumented",
+          "request_count": 10,
+          "request_failures": [],
+          "requests": [
+            {
+              "kind": "sync",
+              "path": "res://bundle/terrain_fallback.png",
+              "result": 0,
+              "since_engine_start_usec": 749455
+            },
+            {
+              "kind": "sync",
+              "path": "res://bundle/slope.png",
+              "result": 0,
+              "since_engine_start_usec": 760727
+            },
+            {
+              "kind": "sync",
+              "path": "res://bundle/art/gate_eastwest.png",
+              "result": 0,
+              "since_engine_start_usec": 804996
+            },
+            {
+              "kind": "sync",
+              "path": "res://bundle/art/trees.png",
+              "result": 0,
+              "since_engine_start_usec": 873452
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/0_0.png",
+              "result": 0,
+              "since_engine_start_usec": 873827
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/256_0.png",
+              "result": 0,
+              "since_engine_start_usec": 873835
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/512_0.png",
+              "result": 0,
+              "since_engine_start_usec": 873842
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/0_256.png",
+              "result": 0,
+              "since_engine_start_usec": 873848
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/256_256.png",
+              "result": 0,
+              "since_engine_start_usec": 873853
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/512_256.png",
+              "result": 0,
+              "since_engine_start_usec": 873858
+            }
+          ],
+          "resident_terrain_pages": 6,
+          "resident_textures": [
+            {
+              "estimated_bytes": 79840,
+              "height": 100,
+              "path": "res://bundle/terrain_fallback.png",
+              "resource_id": -9223372010229332642,
+              "width": 150
+            },
+            {
+              "estimated_bytes": 1279840,
+              "height": 400,
+              "path": "res://bundle/slope.png",
+              "resource_id": -9223372009927342742,
+              "width": 600
+            },
+            {
+              "estimated_bytes": 8388604,
+              "height": 1024,
+              "path": "res://bundle/art/gate_eastwest.png",
+              "resource_id": -9223372009424026259,
+              "width": 1536
+            },
+            {
+              "estimated_bytes": 8388604,
+              "height": 1024,
+              "path": "res://bundle/art/trees.png",
+              "resource_id": -9223372009021373073,
+              "width": 1536
+            },
+            {
+              "estimated_bytes": 371624,
+              "height": 264,
+              "path": "res://bundle/terrain/0_0.png",
+              "resource_id": -9223372008249621145,
+              "width": 264
+            },
+            {
+              "estimated_bytes": 382908,
+              "height": 264,
+              "path": "res://bundle/terrain/256_0.png",
+              "resource_id": -9223372008014740124,
+              "width": 272
+            },
+            {
+              "estimated_bytes": 135148,
+              "height": 264,
+              "path": "res://bundle/terrain/512_0.png",
+              "resource_id": -9223372007947631239,
+              "width": 96
+            },
+            {
+              "estimated_bytes": 213928,
+              "height": 152,
+              "path": "res://bundle/terrain/0_256.png",
+              "resource_id": -9223372008148957850,
+              "width": 264
+            },
+            {
+              "estimated_bytes": 220424,
+              "height": 152,
+              "path": "res://bundle/terrain/256_256.png",
+              "resource_id": -9223372007175879301,
+              "width": 272
+            },
+            {
+              "estimated_bytes": 77796,
+              "height": 152,
+              "path": "res://bundle/terrain/512_256.png",
+              "resource_id": -9223372006890666623,
+              "width": 96
+            }
+          ],
+          "resident_unique_textures": 10,
+          "unique_estimated_bytes": 19538716
+        },
+        "streaming_implemented": false,
+        "tree_candidates_tested": 46080,
+        "tree_plan_rebuilds": 640,
+        "tree_submitted_objects": 13719,
+        "visual_mode": "v02"
+      }
+    },
+    {
+      "dimensions": {
+        "content_scale_factor": 1.0,
+        "content_scale_mode": 2,
+        "content_scale_size": [
+          1920,
+          1080
+        ],
+        "display_server": "Windows",
+        "engine": {
+          "build": "official",
+          "hash": "14d19694e0c88a3f9e82d899a0400f27a24c176e",
+          "hex": 263681,
+          "major": 4,
+          "minor": 6,
+          "patch": 1,
+          "status": "stable",
+          "string": "4.6.1-stable (official)",
+          "timestamp": 0
+        },
+        "rendering_method": "gl_compatibility",
+        "screen_dpi": 96,
+        "video_adapter": "NVIDIA GeForce RTX 4060",
+        "video_api_version": "3.3.0 NVIDIA 616.92",
+        "video_vendor": "NVIDIA",
+        "viewport_texture_px": [
+          1920,
+          1080
+        ],
+        "window_client_px": [
+          1920,
+          1080
+        ],
+        "window_size_px": [
+          1920,
+          1080
+        ]
+      },
+      "elapsed_s": 3.001404,
+      "observations": {
+        "cache_instance_id": -9223372010346773162,
+        "delegate": "legacy",
+        "draw_calls": 1480,
+        "last_draw": {
+          "candidates_tested": 72,
+          "plan_rebuilds": 1,
+          "plan_usec": 371,
+          "submitted_objects": 0
+        },
+        "lifecycle": [
+          "selected:v02",
+          "cache_created"
+        ],
+        "resources": {
+          "async_attach_count": 6,
+          "estimate_model": "RGBA8 plus complete mip chain; cache-owned textures only; not measured VRAM",
+          "release_count": null,
+          "release_status": "not_instrumented",
+          "request_count": 10,
+          "request_failures": [],
+          "requests": [
+            {
+              "kind": "sync",
+              "path": "res://bundle/terrain_fallback.png",
+              "result": 0,
+              "since_engine_start_usec": 749455
+            },
+            {
+              "kind": "sync",
+              "path": "res://bundle/slope.png",
+              "result": 0,
+              "since_engine_start_usec": 760727
+            },
+            {
+              "kind": "sync",
+              "path": "res://bundle/art/gate_eastwest.png",
+              "result": 0,
+              "since_engine_start_usec": 804996
+            },
+            {
+              "kind": "sync",
+              "path": "res://bundle/art/trees.png",
+              "result": 0,
+              "since_engine_start_usec": 873452
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/0_0.png",
+              "result": 0,
+              "since_engine_start_usec": 873827
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/256_0.png",
+              "result": 0,
+              "since_engine_start_usec": 873835
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/512_0.png",
+              "result": 0,
+              "since_engine_start_usec": 873842
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/0_256.png",
+              "result": 0,
+              "since_engine_start_usec": 873848
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/256_256.png",
+              "result": 0,
+              "since_engine_start_usec": 873853
+            },
+            {
+              "kind": "threaded",
+              "path": "res://bundle/terrain/512_256.png",
+              "result": 0,
+              "since_engine_start_usec": 873858
+            }
+          ],
+          "resident_terrain_pages": 6,
+          "resident_textures": [
+            {
+              "estimated_bytes": 79840,
+              "height": 100,
+              "path": "res://bundle/terrain_fallback.png",
+              "resource_id": -9223372010229332642,
+              "width": 150
+            },
+            {
+              "estimated_bytes": 1279840,
+              "height": 400,
+              "path": "res://bundle/slope.png",
+              "resource_id": -9223372009927342742,
+              "width": 600
+            },
+            {
+              "estimated_bytes": 8388604,
+              "height": 1024,
+              "path": "res://bundle/art/gate_eastwest.png",
+              "resource_id": -9223372009424026259,
+              "width": 1536
+            },
+            {
+              "estimated_bytes": 8388604,
+              "height": 1024,
+              "path": "res://bundle/art/trees.png",
+              "resource_id": -9223372009021373073,
+              "width": 1536
+            },
+            {
+              "estimated_bytes": 371624,
+              "height": 264,
+              "path": "res://bundle/terrain/0_0.png",
+              "resource_id": -9223372008249621145,
+              "width": 264
+            },
+            {
+              "estimated_bytes": 382908,
+              "height": 264,
+              "path": "res://bundle/terrain/256_0.png",
+              "resource_id": -9223372008014740124,
+              "width": 272
+            },
+            {
+              "estimated_bytes": 135148,
+              "height": 264,
+              "path": "res://bundle/terrain/512_0.png",
+              "resource_id": -9223372007947631239,
+              "width": 96
+            },
+            {
+              "estimated_bytes": 213928,
+              "height": 152,
+              "path": "res://bundle/terrain/0_256.png",
+              "resource_id": -9223372008148957850,
+              "width": 264
+            },
+            {
+              "estimated_bytes": 220424,
+              "height": 152,
+              "path": "res://bundle/terrain/256_256.png",
+              "resource_id": -9223372007175879301,
+              "width": 272
+            },
+            {
+              "estimated_bytes": 77796,
+              "height": 152,
+              "path": "res://bundle/terrain/512_256.png",
+              "resource_id": -9223372006890666623,
+              "width": 96
+            }
+          ],
+          "resident_unique_textures": 10,
+          "unique_estimated_bytes": 19538716
+        },
+        "streaming_implemented": false,
+        "tree_candidates_tested": 61488,
+        "tree_plan_rebuilds": 854,
+        "tree_submitted_objects": 16662,
+        "visual_mode": "v02"
+      }
+    }
+  ],
+  "player_default_save_accessed": false,
+  "profile": {
+    "diagnostic_compressed_trace": true,
+    "frame_p95_budget_ms": 16.7,
+    "frame_p99_budget_ms": 25.0,
+    "normal_repetitions_per_mode": 3.0,
+    "normal_seconds": 60.0,
+    "notes": "Same fixed local-meter trace and legacy assets in both modes. Frame intervals are process-frame CPU observations, not GPU timestamps. No screenshots during timed sampling.",
+    "profile_id": "s0_legacy_art_fixed_trace_v1",
+    "schema_version": 1.0,
+    "soak_seconds": 300.0,
+    "target_viewport_px": [
+      1920.0,
+      1080.0
+    ],
+    "trace": [
+      {
+        "local_m": [
+          -500000.0,
+          100000.0
+        ],
+        "name": "overview",
+        "zoom": 0.00014
+      },
+      {
+        "local_m": [
+          0.0,
+          500.0
+        ],
+        "name": "region",
+        "zoom": 0.065
+      },
+      {
+        "local_m": [
+          -200.0,
+          150.0
+        ],
+        "name": "terrain",
+        "zoom": 0.3
+      },
+      {
+        "local_m": [
+          -220.0,
+          -100.0
+        ],
+        "name": "gate",
+        "zoom": 1.3
+      },
+      {
+        "local_m": [
+          -2200.0,
+          650.0
+        ],
+        "name": "forest",
+        "zoom": 0.45
+      },
+      {
+        "local_m": [
+          0.0,
+          0.0
+        ],
+        "name": "near_gate",
+        "zoom": 2.4
+      }
+    ],
+    "trace_period_seconds": 3.0,
+    "warmup_seconds": 3.0
+  },
+  "release": true,
+  "requested_seconds": 3.0,
+  "sample_count": 734,
+  "streaming_acceptance": "not_implemented_S0",
+  "timing_source": "monotonic process-frame intervals; CPU observation includes rendering and scheduling; no GPU timestamp or cleared OS disk cache claim",
+  "visual_acceptance": "pending_user_review",
+  "all_periodic_dimensions_stable": true,
+  "command": [
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_s0_20261015_05\\release\\Windows\\TongguanV02S0.exe",
+    "--resolution",
+    "1920x1080",
+    "--fullscreen",
+    "--log-file",
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\smoke_06\\runtime.log",
+    "--",
+    "--expect-release",
+    "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\smoke_06\\result.json",
+    "--s0-probe",
+    "--seconds=3.0",
+    "--evidence-root=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\smoke_06"
+  ],
+  "process_exit_code": 0,
+  "timed_out": false,
+  "diagnostics": [],
+  "process_id": 19968,
+  "process_wall_seconds": 9.56300000000192,
+  "isolation": {
+    "start_and_end_inventory_available": true,
+    "other_godot_or_tongguan_observed": false,
+    "note": "Start/end snapshots only; no claim of continuous OS process isolation; no user processes terminated."
+  },
+  "windows_metrics": {
+    "private_peak_bytes": 373198848,
+    "gpu_dedicated_peak_bytes": 87900160,
+    "sampling_target_ms": 100
+  },
+  "execution_passed": true,
+  "percentile_budget_passed": true,
+  "expected_mode": "v02",
+  "default_selection_tested": true,
+  "performance_acceptance_eligible": false,
+  "artifact_hashes": {
+    "TongguanLegacyS0.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanLegacyS0.pck": "2881540e51f34ef4d30229a417ff093e33e4d4faa4461672bafa9fcdef77d295",
+    "TongguanV02S0.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanV02S0.pck": "a8ac3b8c65787e38ccb9eed88abb0b984f558801b86ba94475ee9c40c581ba84"
+  },
+  "os_disk_cache_cleared": false
+}

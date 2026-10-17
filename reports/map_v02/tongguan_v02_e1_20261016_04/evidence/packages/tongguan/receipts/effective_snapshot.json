@@ -1,0 +1,3999 @@
+{
+  "authoring": {
+    "deleted_ids": {
+      "tongguan.decor.forest_east.0.1": true
+    },
+    "fixed_refs": {
+      "defense_line": [
+        [
+          70.0,
+          -500.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -80.0,
+          550.0
+        ],
+        [
+          -230.0,
+          1300.0
+        ]
+      ],
+      "gate": [
+        0.0,
+        0.0
+      ],
+      "main_corridor": [
+        [
+          -12000.0,
+          700.0
+        ],
+        [
+          -7000.0,
+          180.0
+        ],
+        [
+          -4000.0,
+          -100.0
+        ],
+        [
+          -2000.0,
+          -140.0
+        ],
+        [
+          -700.0,
+          -80.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          700.0,
+          80.0
+        ],
+        [
+          1800.0,
+          180.0
+        ],
+        [
+          3500.0,
+          400.0
+        ],
+        [
+          6000.0,
+          850.0
+        ],
+        [
+          9000.0,
+          1300.0
+        ],
+        [
+          12000.0,
+          1700.0
+        ]
+      ]
+    },
+    "generated": {
+      "manual.1": {
+        "asset_version": 2.0,
+        "grid": [],
+        "id": "manual.1",
+        "kind": "forest",
+        "position_m": [
+          -2700.0,
+          1250.0
+        ],
+        "region_id": "manual",
+        "source_seed": 0.0
+      },
+      "tongguan.decor.forest_east.0.4": {
+        "asset_version": 1.0,
+        "grid": [
+          0.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.0.4",
+        "kind": "forest",
+        "position_m": [
+          1109.24,
+          1145.137
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.0.6": {
+        "asset_version": 1.0,
+        "grid": [
+          0.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.0.6",
+        "kind": "forest",
+        "position_m": [
+          1064.02,
+          1404.941
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.1.1": {
+        "asset_version": 1.0,
+        "grid": [
+          1.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.1.1",
+        "kind": "forest",
+        "position_m": [
+          1201.439,
+          694.401
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.1.3": {
+        "asset_version": 1.0,
+        "grid": [
+          1.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_east.1.3",
+        "kind": "forest",
+        "position_m": [
+          1212.396,
+          984.824
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.1.4": {
+        "asset_version": 1.0,
+        "grid": [
+          1.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.1.4",
+        "kind": "forest",
+        "position_m": [
+          1231.202,
+          1132.186
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.1.5": {
+        "asset_version": 1.0,
+        "grid": [
+          1.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.1.5",
+        "kind": "forest",
+        "position_m": [
+          1229.874,
+          1278.341
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.1.6": {
+        "asset_version": 1.0,
+        "grid": [
+          1.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.1.6",
+        "kind": "forest",
+        "position_m": [
+          1236.069,
+          1415.883
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.2.0": {
+        "asset_version": 1.0,
+        "grid": [
+          2.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_east.2.0",
+        "kind": "forest",
+        "position_m": [
+          1350.072,
+          507.462
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.2.1": {
+        "asset_version": 1.0,
+        "grid": [
+          2.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.2.1",
+        "kind": "forest",
+        "position_m": [
+          1351.071,
+          646.996
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.2.2": {
+        "asset_version": 1.0,
+        "grid": [
+          2.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.2.2",
+        "kind": "forest",
+        "position_m": [
+          1409.142,
+          860.623
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.2.4": {
+        "asset_version": 1.0,
+        "grid": [
+          2.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.2.4",
+        "kind": "forest",
+        "position_m": [
+          1347.695,
+          1161.025
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.2.5": {
+        "asset_version": 1.0,
+        "grid": [
+          2.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.2.5",
+        "kind": "forest",
+        "position_m": [
+          1380.413,
+          1288.624
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.3.0": {
+        "asset_version": 1.0,
+        "grid": [
+          3.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_east.3.0",
+        "kind": "forest",
+        "position_m": [
+          1535.756,
+          526.373
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.3.1": {
+        "asset_version": 1.0,
+        "grid": [
+          3.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.3.1",
+        "kind": "forest",
+        "position_m": [
+          1545.976,
+          710.121
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.3.2": {
+        "asset_version": 1.0,
+        "grid": [
+          3.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.3.2",
+        "kind": "forest",
+        "position_m": [
+          1523.559,
+          819.312
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.3.5": {
+        "asset_version": 1.0,
+        "grid": [
+          3.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.3.5",
+        "kind": "forest",
+        "position_m": [
+          1541.88,
+          1241.194
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.3.6": {
+        "asset_version": 1.0,
+        "grid": [
+          3.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.3.6",
+        "kind": "forest",
+        "position_m": [
+          1547.981,
+          1402.289
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.4.0": {
+        "asset_version": 1.0,
+        "grid": [
+          4.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_east.4.0",
+        "kind": "forest",
+        "position_m": [
+          1690.837,
+          521.359
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.4.1": {
+        "asset_version": 1.0,
+        "grid": [
+          4.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.4.1",
+        "kind": "forest",
+        "position_m": [
+          1665.342,
+          666.084
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.4.2": {
+        "asset_version": 1.0,
+        "grid": [
+          4.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.4.2",
+        "kind": "forest",
+        "position_m": [
+          1675.939,
+          833.98
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.4.5": {
+        "asset_version": 1.0,
+        "grid": [
+          4.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.4.5",
+        "kind": "forest",
+        "position_m": [
+          1663.318,
+          1307.767
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.5.0": {
+        "asset_version": 1.0,
+        "grid": [
+          5.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_east.5.0",
+        "kind": "forest",
+        "position_m": [
+          1835.142,
+          526.596
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.5.2": {
+        "asset_version": 1.0,
+        "grid": [
+          5.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.5.2",
+        "kind": "forest",
+        "position_m": [
+          1826.362,
+          862.5
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.5.3": {
+        "asset_version": 1.0,
+        "grid": [
+          5.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_east.5.3",
+        "kind": "forest",
+        "position_m": [
+          1803.213,
+          975.673
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.5.5": {
+        "asset_version": 1.0,
+        "grid": [
+          5.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.5.5",
+        "kind": "forest",
+        "position_m": [
+          1813.333,
+          1296.108
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.5.6": {
+        "asset_version": 1.0,
+        "grid": [
+          5.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.5.6",
+        "kind": "forest",
+        "position_m": [
+          1844.189,
+          1416.671
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.6.1": {
+        "asset_version": 1.0,
+        "grid": [
+          6.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.6.1",
+        "kind": "forest",
+        "position_m": [
+          1942.574,
+          649.178
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.6.2": {
+        "asset_version": 1.0,
+        "grid": [
+          6.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.6.2",
+        "kind": "forest",
+        "position_m": [
+          1943.01,
+          812.708
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.6.4": {
+        "asset_version": 1.0,
+        "grid": [
+          6.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.6.4",
+        "kind": "forest",
+        "position_m": [
+          1942.8,
+          1161.245
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.6.5": {
+        "asset_version": 1.0,
+        "grid": [
+          6.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.6.5",
+        "kind": "forest",
+        "position_m": [
+          1983.633,
+          1270.517
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.7.1": {
+        "asset_version": 1.0,
+        "grid": [
+          7.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.7.1",
+        "kind": "forest",
+        "position_m": [
+          2136.943,
+          694.135
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.7.2": {
+        "asset_version": 1.0,
+        "grid": [
+          7.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.7.2",
+        "kind": "forest",
+        "position_m": [
+          2119.316,
+          858.695
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.7.3": {
+        "asset_version": 1.0,
+        "grid": [
+          7.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_east.7.3",
+        "kind": "forest",
+        "position_m": [
+          2102.395,
+          976.435
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.7.4": {
+        "asset_version": 1.0,
+        "grid": [
+          7.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.7.4",
+        "kind": "forest",
+        "position_m": [
+          2125.669,
+          1108.093
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.7.5": {
+        "asset_version": 1.0,
+        "grid": [
+          7.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.7.5",
+        "kind": "forest",
+        "position_m": [
+          2114.444,
+          1276.332
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.8.0": {
+        "asset_version": 1.0,
+        "grid": [
+          8.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_east.8.0",
+        "kind": "forest",
+        "position_m": [
+          2299.345,
+          535.077
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.8.1": {
+        "asset_version": 1.0,
+        "grid": [
+          8.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.8.1",
+        "kind": "forest",
+        "position_m": [
+          2239.298,
+          688.778
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.8.3": {
+        "asset_version": 1.0,
+        "grid": [
+          8.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_east.8.3",
+        "kind": "forest",
+        "position_m": [
+          2277.111,
+          945.062
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.8.5": {
+        "asset_version": 1.0,
+        "grid": [
+          8.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.8.5",
+        "kind": "forest",
+        "position_m": [
+          2241.08,
+          1272.854
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.8.6": {
+        "asset_version": 1.0,
+        "grid": [
+          8.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.8.6",
+        "kind": "forest",
+        "position_m": [
+          2290.179,
+          1403.554
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.9.1": {
+        "asset_version": 1.0,
+        "grid": [
+          9.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.9.1",
+        "kind": "forest",
+        "position_m": [
+          2411.533,
+          702.272
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.9.2": {
+        "asset_version": 1.0,
+        "grid": [
+          9.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.9.2",
+        "kind": "forest",
+        "position_m": [
+          2394.88,
+          861.115
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.9.4": {
+        "asset_version": 1.0,
+        "grid": [
+          9.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.9.4",
+        "kind": "forest",
+        "position_m": [
+          2412.463,
+          1154.812
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.9.5": {
+        "asset_version": 1.0,
+        "grid": [
+          9.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.9.5",
+        "kind": "forest",
+        "position_m": [
+          2461.756,
+          1303.006
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.9.6": {
+        "asset_version": 1.0,
+        "grid": [
+          9.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.9.6",
+        "kind": "forest",
+        "position_m": [
+          2446.927,
+          1394.767
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_west.0.0": {
+        "asset_version": 2.0,
+        "grid": [
+          0.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_west.0.0",
+        "kind": "forest",
+        "position_m": [
+          -2941.126,
+          175.029
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.0.1": {
+        "asset_version": 2.0,
+        "grid": [
+          0.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_west.0.1",
+        "kind": "forest",
+        "position_m": [
+          -2902.922,
+          350.708
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.0.2": {
+        "asset_version": 2.0,
+        "grid": [
+          0.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_west.0.2",
+        "kind": "forest",
+        "position_m": [
+          -2888.153,
+          496.703
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.0.3": {
+        "asset_version": 2.0,
+        "grid": [
+          0.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_west.0.3",
+        "kind": "forest",
+        "position_m": [
+          -2933.956,
+          635.219
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.1.0": {
+        "asset_version": 2.0,
+        "grid": [
+          1.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_west.1.0",
+        "kind": "forest",
+        "position_m": [
+          -2811.8,
+          171.634
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.1.1": {
+        "asset_version": 2.0,
+        "grid": [
+          1.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_west.1.1",
+        "kind": "forest",
+        "position_m": [
+          -2773.348,
+          294.455
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.2.4": {
+        "asset_version": 2.0,
+        "grid": [
+          2.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_west.2.4",
+        "kind": "forest",
+        "position_m": [
+          -2657.395,
+          746.714
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.2.6": {
+        "asset_version": 2.0,
+        "grid": [
+          2.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_west.2.6",
+        "kind": "forest",
+        "position_m": [
+          -2629.462,
+          1047.871
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.3.5": {
+        "asset_version": 2.0,
+        "grid": [
+          3.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_west.3.5",
+        "kind": "forest",
+        "position_m": [
+          -2487.014,
+          961.589
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.3.6": {
+        "asset_version": 2.0,
+        "grid": [
+          3.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_west.3.6",
+        "kind": "forest",
+        "position_m": [
+          -2477.506,
+          1099.26
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.4.6": {
+        "asset_version": 2.0,
+        "grid": [
+          4.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_west.4.6",
+        "kind": "forest",
+        "position_m": [
+          -2351.85,
+          1078.013
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.4.7": {
+        "asset_version": 2.0,
+        "grid": [
+          4.0,
+          7.0
+        ],
+        "id": "tongguan.decor.forest_west.4.7",
+        "kind": "forest",
+        "position_m": [
+          -2292.674,
+          1253.984
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.5.1": {
+        "asset_version": 2.0,
+        "grid": [
+          5.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_west.5.1",
+        "kind": "forest",
+        "position_m": [
+          -2155.408,
+          331.406
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.5.5": {
+        "asset_version": 2.0,
+        "grid": [
+          5.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_west.5.5",
+        "kind": "forest",
+        "position_m": [
+          -2158.791,
+          927.576
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.5.6": {
+        "asset_version": 2.0,
+        "grid": [
+          5.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_west.5.6",
+        "kind": "forest",
+        "position_m": [
+          -2137.624,
+          1065.188
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.6.3": {
+        "asset_version": 2.0,
+        "grid": [
+          6.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_west.6.3",
+        "kind": "forest",
+        "position_m": [
+          -2050.046,
+          602.246
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.6.5": {
+        "asset_version": 2.0,
+        "grid": [
+          6.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_west.6.5",
+        "kind": "forest",
+        "position_m": [
+          -2045.021,
+          901.012
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.7.0": {
+        "asset_version": 2.0,
+        "grid": [
+          7.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_west.7.0",
+        "kind": "forest",
+        "position_m": [
+          -1862.95,
+          182.336
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.7.1": {
+        "asset_version": 2.0,
+        "grid": [
+          7.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_west.7.1",
+        "kind": "forest",
+        "position_m": [
+          -1859.434,
+          289.664
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.7.4": {
+        "asset_version": 2.0,
+        "grid": [
+          7.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_west.7.4",
+        "kind": "forest",
+        "position_m": [
+          -1897.811,
+          746.286
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.8.0": {
+        "asset_version": 2.0,
+        "grid": [
+          8.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_west.8.0",
+        "kind": "forest",
+        "position_m": [
+          -1740.621,
+          190.021
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.8.1": {
+        "asset_version": 2.0,
+        "grid": [
+          8.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_west.8.1",
+        "kind": "forest",
+        "position_m": [
+          -1746.444,
+          304.742
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.8.2": {
+        "asset_version": 2.0,
+        "grid": [
+          8.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_west.8.2",
+        "kind": "forest",
+        "position_m": [
+          -1757.997,
+          501.263
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.8.4": {
+        "asset_version": 2.0,
+        "grid": [
+          8.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_west.8.4",
+        "kind": "forest",
+        "position_m": [
+          -1735.803,
+          761.709
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.8.5": {
+        "asset_version": 2.0,
+        "grid": [
+          8.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_west.8.5",
+        "kind": "forest",
+        "position_m": [
+          -1695.467,
+          950.837
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.9.3": {
+        "asset_version": 2.0,
+        "grid": [
+          9.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_west.9.3",
+        "kind": "forest",
+        "position_m": [
+          -1541.631,
+          631.977
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      }
+    },
+    "generator_version": "forest_grid_sha256_v2",
+    "layout_version": "tongguan_p4_layout_v02",
+    "manual_overrides": {},
+    "pinned_tree_ids": {
+      "manual.1": true
+    },
+    "r3_provenance": {
+      "footprint_version": "square80_anchor078_edge10_v1",
+      "patch_sha256": "bcbf701a08f3c770867a3e7025d8e2c629963e7d0e8f757dee0b0d1284fd14ed",
+      "source_v4_sha256": "c41fea216b67f4f5622593dcf2300548d34c4c7c02a6aff827b3b7f8359efa33",
+      "zones_sha256": "f13f06249805fa5d98939410a9a297e311b130699df27dbe0419b63ba3bc0b5f"
+    },
+    "region_settings": {
+      "forest_east": {
+        "asset_version": 1.0,
+        "density": 0.65,
+        "seed": 10321.0
+      },
+      "forest_west": {
+        "asset_version": 2.0,
+        "density": 0.5,
+        "seed": 17001.0
+      }
+    },
+    "revision": 0.0,
+    "roads": [
+      {
+        "id": "tongguan.road.rear",
+        "parent_id": "tongguan.road.connector",
+        "points_m": [
+          [
+            -620.0,
+            -205.0
+          ],
+          [
+            -340.0,
+            -205.0
+          ]
+        ]
+      },
+      {
+        "id": "tongguan.road.connector",
+        "parent_id": "main_corridor_candidate",
+        "points_m": [
+          [
+            -620.0,
+            -205.0
+          ],
+          [
+            -610.0,
+            -140.0
+          ],
+          [
+            -620.0,
+            -70.857142857
+          ]
+        ]
+      }
+    ],
+    "slot_pins": {
+      "tongguan.slot.civil_01": true,
+      "tongguan.slot.civil_02": true,
+      "tongguan.slot.expansion_01": true,
+      "tongguan.slot.expansion_02": true,
+      "tongguan.slot.rear_military_01": true,
+      "tongguan.slot.rear_storage_01": true,
+      "tongguan.slot.rear_support_01": true,
+      "tongguan.slot.rear_workshop_01": true
+    }
+  },
+  "compatibility": {
+    "coordinate_sha256": "83da0e5d4de76147f6a3fb2d0d93f283c0b02fda2cfc8d20b7df6c5c9af98113",
+    "fixed_refs_sha256": "9d2227e73f45c7be59ecbbac53f7857481b654111a51de66855685a3915d2b67",
+    "graph_version": "tongguan_controlled_corridor_r3_v01",
+    "layout_slots_sha256": "4afb38378d473beafcdc99704a6fe42510bbf116307b54d1c72984d2871866c1",
+    "layout_version": "tongguan_p4_layout_v02",
+    "site_id": "tongguan",
+    "world_id": "tongguan_final_validation_v1"
+  },
+  "coordinates": {
+    "origin_albers_m": [
+      477044.711902475,
+      -145119.51498939
+    ],
+    "projection_wkt": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"Unknown based on WGS 84 ellipsoid\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",7030]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8901]]],CONVERSION[\"unknown\",METHOD[\"Albers Equal Area\",ID[\"EPSG\",9822]],PARAMETER[\"Latitude of false origin\",36,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8821]],PARAMETER[\"Longitude of false origin\",105,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8822]],PARAMETER[\"Latitude of 1st standard parallel\",25,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8823]],PARAMETER[\"Latitude of 2nd standard parallel\",47,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8824]],PARAMETER[\"Easting at false origin\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8826]],PARAMETER[\"Northing at false origin\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8827]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]",
+    "publication": {
+      "anchor_feature_id": "tongguan.gate.main",
+      "site_id": "tongguan",
+      "source_origin_m": [
+        15000.0,
+        10000.0
+      ],
+      "unit": "meter"
+    },
+    "screen_axis": "local x east in Albers, local y south; no claim that Albers grid north equals true north"
+  },
+  "effective_patch_sha256": "e90cc46b1b1a3256ff5dafe03614fec2b2b57571d8051e0f535a3dcc40b1f43f",
+  "generator_version": "forest_grid_sha256_v2",
+  "objects": [
+    {
+      "asset_version": 2.0,
+      "grid": [],
+      "id": "manual.1",
+      "kind": "forest",
+      "position_m": [
+        -2700.0,
+        1250.0
+      ],
+      "region_id": "manual",
+      "source_key": "manual.1",
+      "source_seed": 0.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        0.0,
+        4.0
+      ],
+      "id": "tongguan.decor.forest_east.0.4",
+      "kind": "forest",
+      "position_m": [
+        1109.24,
+        1145.137
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.0.4",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        0.0,
+        6.0
+      ],
+      "id": "tongguan.decor.forest_east.0.6",
+      "kind": "forest",
+      "position_m": [
+        1064.02,
+        1404.941
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.0.6",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        1.0,
+        1.0
+      ],
+      "id": "tongguan.decor.forest_east.1.1",
+      "kind": "forest",
+      "position_m": [
+        1201.439,
+        694.401
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.1.1",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        1.0,
+        3.0
+      ],
+      "id": "tongguan.decor.forest_east.1.3",
+      "kind": "forest",
+      "position_m": [
+        1212.396,
+        984.824
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.1.3",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        1.0,
+        4.0
+      ],
+      "id": "tongguan.decor.forest_east.1.4",
+      "kind": "forest",
+      "position_m": [
+        1231.202,
+        1132.186
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.1.4",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        1.0,
+        5.0
+      ],
+      "id": "tongguan.decor.forest_east.1.5",
+      "kind": "forest",
+      "position_m": [
+        1229.874,
+        1278.341
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.1.5",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        1.0,
+        6.0
+      ],
+      "id": "tongguan.decor.forest_east.1.6",
+      "kind": "forest",
+      "position_m": [
+        1236.069,
+        1415.883
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.1.6",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        2.0,
+        0.0
+      ],
+      "id": "tongguan.decor.forest_east.2.0",
+      "kind": "forest",
+      "position_m": [
+        1350.072,
+        507.462
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.2.0",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        2.0,
+        1.0
+      ],
+      "id": "tongguan.decor.forest_east.2.1",
+      "kind": "forest",
+      "position_m": [
+        1351.071,
+        646.996
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.2.1",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        2.0,
+        2.0
+      ],
+      "id": "tongguan.decor.forest_east.2.2",
+      "kind": "forest",
+      "position_m": [
+        1409.142,
+        860.623
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.2.2",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        2.0,
+        4.0
+      ],
+      "id": "tongguan.decor.forest_east.2.4",
+      "kind": "forest",
+      "position_m": [
+        1347.695,
+        1161.025
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.2.4",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        2.0,
+        5.0
+      ],
+      "id": "tongguan.decor.forest_east.2.5",
+      "kind": "forest",
+      "position_m": [
+        1380.413,
+        1288.624
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.2.5",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        3.0,
+        0.0
+      ],
+      "id": "tongguan.decor.forest_east.3.0",
+      "kind": "forest",
+      "position_m": [
+        1535.756,
+        526.373
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.3.0",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        3.0,
+        1.0
+      ],
+      "id": "tongguan.decor.forest_east.3.1",
+      "kind": "forest",
+      "position_m": [
+        1545.976,
+        710.121
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.3.1",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        3.0,
+        2.0
+      ],
+      "id": "tongguan.decor.forest_east.3.2",
+      "kind": "forest",
+      "position_m": [
+        1523.559,
+        819.312
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.3.2",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        3.0,
+        5.0
+      ],
+      "id": "tongguan.decor.forest_east.3.5",
+      "kind": "forest",
+      "position_m": [
+        1541.88,
+        1241.194
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.3.5",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        3.0,
+        6.0
+      ],
+      "id": "tongguan.decor.forest_east.3.6",
+      "kind": "forest",
+      "position_m": [
+        1547.981,
+        1402.289
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.3.6",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        4.0,
+        0.0
+      ],
+      "id": "tongguan.decor.forest_east.4.0",
+      "kind": "forest",
+      "position_m": [
+        1690.837,
+        521.359
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.4.0",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        4.0,
+        1.0
+      ],
+      "id": "tongguan.decor.forest_east.4.1",
+      "kind": "forest",
+      "position_m": [
+        1665.342,
+        666.084
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.4.1",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        4.0,
+        2.0
+      ],
+      "id": "tongguan.decor.forest_east.4.2",
+      "kind": "forest",
+      "position_m": [
+        1675.939,
+        833.98
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.4.2",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        4.0,
+        5.0
+      ],
+      "id": "tongguan.decor.forest_east.4.5",
+      "kind": "forest",
+      "position_m": [
+        1663.318,
+        1307.767
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.4.5",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        5.0,
+        0.0
+      ],
+      "id": "tongguan.decor.forest_east.5.0",
+      "kind": "forest",
+      "position_m": [
+        1835.142,
+        526.596
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.5.0",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        5.0,
+        2.0
+      ],
+      "id": "tongguan.decor.forest_east.5.2",
+      "kind": "forest",
+      "position_m": [
+        1826.362,
+        862.5
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.5.2",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        5.0,
+        3.0
+      ],
+      "id": "tongguan.decor.forest_east.5.3",
+      "kind": "forest",
+      "position_m": [
+        1803.213,
+        975.673
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.5.3",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        5.0,
+        5.0
+      ],
+      "id": "tongguan.decor.forest_east.5.5",
+      "kind": "forest",
+      "position_m": [
+        1813.333,
+        1296.108
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.5.5",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        5.0,
+        6.0
+      ],
+      "id": "tongguan.decor.forest_east.5.6",
+      "kind": "forest",
+      "position_m": [
+        1844.189,
+        1416.671
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.5.6",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        6.0,
+        1.0
+      ],
+      "id": "tongguan.decor.forest_east.6.1",
+      "kind": "forest",
+      "position_m": [
+        1942.574,
+        649.178
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.6.1",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        6.0,
+        2.0
+      ],
+      "id": "tongguan.decor.forest_east.6.2",
+      "kind": "forest",
+      "position_m": [
+        1943.01,
+        812.708
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.6.2",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        6.0,
+        4.0
+      ],
+      "id": "tongguan.decor.forest_east.6.4",
+      "kind": "forest",
+      "position_m": [
+        1942.8,
+        1161.245
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.6.4",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        6.0,
+        5.0
+      ],
+      "id": "tongguan.decor.forest_east.6.5",
+      "kind": "forest",
+      "position_m": [
+        1983.633,
+        1270.517
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.6.5",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        7.0,
+        1.0
+      ],
+      "id": "tongguan.decor.forest_east.7.1",
+      "kind": "forest",
+      "position_m": [
+        2136.943,
+        694.135
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.7.1",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        7.0,
+        2.0
+      ],
+      "id": "tongguan.decor.forest_east.7.2",
+      "kind": "forest",
+      "position_m": [
+        2119.316,
+        858.695
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.7.2",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        7.0,
+        3.0
+      ],
+      "id": "tongguan.decor.forest_east.7.3",
+      "kind": "forest",
+      "position_m": [
+        2102.395,
+        976.435
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.7.3",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        7.0,
+        4.0
+      ],
+      "id": "tongguan.decor.forest_east.7.4",
+      "kind": "forest",
+      "position_m": [
+        2125.669,
+        1108.093
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.7.4",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        7.0,
+        5.0
+      ],
+      "id": "tongguan.decor.forest_east.7.5",
+      "kind": "forest",
+      "position_m": [
+        2114.444,
+        1276.332
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.7.5",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        8.0,
+        0.0
+      ],
+      "id": "tongguan.decor.forest_east.8.0",
+      "kind": "forest",
+      "position_m": [
+        2299.345,
+        535.077
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.8.0",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        8.0,
+        1.0
+      ],
+      "id": "tongguan.decor.forest_east.8.1",
+      "kind": "forest",
+      "position_m": [
+        2239.298,
+        688.778
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.8.1",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        8.0,
+        3.0
+      ],
+      "id": "tongguan.decor.forest_east.8.3",
+      "kind": "forest",
+      "position_m": [
+        2277.111,
+        945.062
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.8.3",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        8.0,
+        5.0
+      ],
+      "id": "tongguan.decor.forest_east.8.5",
+      "kind": "forest",
+      "position_m": [
+        2241.08,
+        1272.854
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.8.5",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        8.0,
+        6.0
+      ],
+      "id": "tongguan.decor.forest_east.8.6",
+      "kind": "forest",
+      "position_m": [
+        2290.179,
+        1403.554
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.8.6",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        9.0,
+        1.0
+      ],
+      "id": "tongguan.decor.forest_east.9.1",
+      "kind": "forest",
+      "position_m": [
+        2411.533,
+        702.272
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.9.1",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        9.0,
+        2.0
+      ],
+      "id": "tongguan.decor.forest_east.9.2",
+      "kind": "forest",
+      "position_m": [
+        2394.88,
+        861.115
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.9.2",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        9.0,
+        4.0
+      ],
+      "id": "tongguan.decor.forest_east.9.4",
+      "kind": "forest",
+      "position_m": [
+        2412.463,
+        1154.812
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.9.4",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        9.0,
+        5.0
+      ],
+      "id": "tongguan.decor.forest_east.9.5",
+      "kind": "forest",
+      "position_m": [
+        2461.756,
+        1303.006
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.9.5",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 1.0,
+      "grid": [
+        9.0,
+        6.0
+      ],
+      "id": "tongguan.decor.forest_east.9.6",
+      "kind": "forest",
+      "position_m": [
+        2446.927,
+        1394.767
+      ],
+      "region_id": "forest_east",
+      "source_key": "tongguan.decor.forest_east.9.6",
+      "source_seed": 10321.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        0.0,
+        0.0
+      ],
+      "id": "tongguan.decor.forest_west.0.0",
+      "kind": "forest",
+      "position_m": [
+        -2941.126,
+        175.029
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.0.0",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        0.0,
+        1.0
+      ],
+      "id": "tongguan.decor.forest_west.0.1",
+      "kind": "forest",
+      "position_m": [
+        -2902.922,
+        350.708
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.0.1",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        0.0,
+        2.0
+      ],
+      "id": "tongguan.decor.forest_west.0.2",
+      "kind": "forest",
+      "position_m": [
+        -2888.153,
+        496.703
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.0.2",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        0.0,
+        3.0
+      ],
+      "id": "tongguan.decor.forest_west.0.3",
+      "kind": "forest",
+      "position_m": [
+        -2933.956,
+        635.219
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.0.3",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        1.0,
+        0.0
+      ],
+      "id": "tongguan.decor.forest_west.1.0",
+      "kind": "forest",
+      "position_m": [
+        -2811.8,
+        171.634
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.1.0",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        1.0,
+        1.0
+      ],
+      "id": "tongguan.decor.forest_west.1.1",
+      "kind": "forest",
+      "position_m": [
+        -2773.348,
+        294.455
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.1.1",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        2.0,
+        4.0
+      ],
+      "id": "tongguan.decor.forest_west.2.4",
+      "kind": "forest",
+      "position_m": [
+        -2657.395,
+        746.714
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.2.4",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        2.0,
+        6.0
+      ],
+      "id": "tongguan.decor.forest_west.2.6",
+      "kind": "forest",
+      "position_m": [
+        -2629.462,
+        1047.871
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.2.6",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        3.0,
+        5.0
+      ],
+      "id": "tongguan.decor.forest_west.3.5",
+      "kind": "forest",
+      "position_m": [
+        -2487.014,
+        961.589
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.3.5",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        3.0,
+        6.0
+      ],
+      "id": "tongguan.decor.forest_west.3.6",
+      "kind": "forest",
+      "position_m": [
+        -2477.506,
+        1099.26
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.3.6",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        4.0,
+        6.0
+      ],
+      "id": "tongguan.decor.forest_west.4.6",
+      "kind": "forest",
+      "position_m": [
+        -2351.85,
+        1078.013
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.4.6",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        4.0,
+        7.0
+      ],
+      "id": "tongguan.decor.forest_west.4.7",
+      "kind": "forest",
+      "position_m": [
+        -2292.674,
+        1253.984
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.4.7",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        5.0,
+        1.0
+      ],
+      "id": "tongguan.decor.forest_west.5.1",
+      "kind": "forest",
+      "position_m": [
+        -2155.408,
+        331.406
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.5.1",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        5.0,
+        5.0
+      ],
+      "id": "tongguan.decor.forest_west.5.5",
+      "kind": "forest",
+      "position_m": [
+        -2158.791,
+        927.576
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.5.5",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        5.0,
+        6.0
+      ],
+      "id": "tongguan.decor.forest_west.5.6",
+      "kind": "forest",
+      "position_m": [
+        -2137.624,
+        1065.188
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.5.6",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        6.0,
+        3.0
+      ],
+      "id": "tongguan.decor.forest_west.6.3",
+      "kind": "forest",
+      "position_m": [
+        -2050.046,
+        602.246
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.6.3",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        6.0,
+        5.0
+      ],
+      "id": "tongguan.decor.forest_west.6.5",
+      "kind": "forest",
+      "position_m": [
+        -2045.021,
+        901.012
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.6.5",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        7.0,
+        0.0
+      ],
+      "id": "tongguan.decor.forest_west.7.0",
+      "kind": "forest",
+      "position_m": [
+        -1862.95,
+        182.336
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.7.0",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        7.0,
+        1.0
+      ],
+      "id": "tongguan.decor.forest_west.7.1",
+      "kind": "forest",
+      "position_m": [
+        -1859.434,
+        289.664
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.7.1",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        7.0,
+        4.0
+      ],
+      "id": "tongguan.decor.forest_west.7.4",
+      "kind": "forest",
+      "position_m": [
+        -1897.811,
+        746.286
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.7.4",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        8.0,
+        0.0
+      ],
+      "id": "tongguan.decor.forest_west.8.0",
+      "kind": "forest",
+      "position_m": [
+        -1740.621,
+        190.021
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.8.0",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        8.0,
+        1.0
+      ],
+      "id": "tongguan.decor.forest_west.8.1",
+      "kind": "forest",
+      "position_m": [
+        -1746.444,
+        304.742
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.8.1",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        8.0,
+        2.0
+      ],
+      "id": "tongguan.decor.forest_west.8.2",
+      "kind": "forest",
+      "position_m": [
+        -1757.997,
+        501.263
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.8.2",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        8.0,
+        4.0
+      ],
+      "id": "tongguan.decor.forest_west.8.4",
+      "kind": "forest",
+      "position_m": [
+        -1735.803,
+        761.709
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.8.4",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        8.0,
+        5.0
+      ],
+      "id": "tongguan.decor.forest_west.8.5",
+      "kind": "forest",
+      "position_m": [
+        -1695.467,
+        950.837
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.8.5",
+      "source_seed": 17001.0
+    },
+    {
+      "asset_version": 2.0,
+      "grid": [
+        9.0,
+        3.0
+      ],
+      "id": "tongguan.decor.forest_west.9.3",
+      "kind": "forest",
+      "position_m": [
+        -1541.631,
+        631.977
+      ],
+      "region_id": "forest_west",
+      "source_key": "tongguan.decor.forest_west.9.3",
+      "source_seed": 17001.0
+    }
+  ],
+  "patch_sidecar": {
+    "feature_patches": {
+      "tongguan.road.connector": {
+        "points_m": [
+          [
+            -620.0,
+            -205.0
+          ],
+          [
+            -610.0,
+            -140.0
+          ],
+          [
+            -620.0,
+            -70.857142857
+          ]
+        ]
+      }
+    },
+    "generator_version": "forest_grid_sha256_v2",
+    "objects": {
+      "manual.1": {
+        "asset_version": 2.0,
+        "grid": [],
+        "id": "manual.1",
+        "kind": "forest",
+        "position_m": [
+          -2700.0,
+          1250.0
+        ],
+        "region_id": "manual",
+        "source_seed": 0.0
+      },
+      "tongguan.decor.forest_east.0.4": {
+        "asset_version": 1.0,
+        "grid": [
+          0.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.0.4",
+        "kind": "forest",
+        "position_m": [
+          1109.24,
+          1145.137
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.0.6": {
+        "asset_version": 1.0,
+        "grid": [
+          0.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.0.6",
+        "kind": "forest",
+        "position_m": [
+          1064.02,
+          1404.941
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.1.1": {
+        "asset_version": 1.0,
+        "grid": [
+          1.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.1.1",
+        "kind": "forest",
+        "position_m": [
+          1201.439,
+          694.401
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.1.3": {
+        "asset_version": 1.0,
+        "grid": [
+          1.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_east.1.3",
+        "kind": "forest",
+        "position_m": [
+          1212.396,
+          984.824
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.1.4": {
+        "asset_version": 1.0,
+        "grid": [
+          1.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.1.4",
+        "kind": "forest",
+        "position_m": [
+          1231.202,
+          1132.186
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.1.5": {
+        "asset_version": 1.0,
+        "grid": [
+          1.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.1.5",
+        "kind": "forest",
+        "position_m": [
+          1229.874,
+          1278.341
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.1.6": {
+        "asset_version": 1.0,
+        "grid": [
+          1.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.1.6",
+        "kind": "forest",
+        "position_m": [
+          1236.069,
+          1415.883
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.2.0": {
+        "asset_version": 1.0,
+        "grid": [
+          2.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_east.2.0",
+        "kind": "forest",
+        "position_m": [
+          1350.072,
+          507.462
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.2.1": {
+        "asset_version": 1.0,
+        "grid": [
+          2.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.2.1",
+        "kind": "forest",
+        "position_m": [
+          1351.071,
+          646.996
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.2.2": {
+        "asset_version": 1.0,
+        "grid": [
+          2.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.2.2",
+        "kind": "forest",
+        "position_m": [
+          1409.142,
+          860.623
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.2.4": {
+        "asset_version": 1.0,
+        "grid": [
+          2.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.2.4",
+        "kind": "forest",
+        "position_m": [
+          1347.695,
+          1161.025
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.2.5": {
+        "asset_version": 1.0,
+        "grid": [
+          2.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.2.5",
+        "kind": "forest",
+        "position_m": [
+          1380.413,
+          1288.624
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.3.0": {
+        "asset_version": 1.0,
+        "grid": [
+          3.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_east.3.0",
+        "kind": "forest",
+        "position_m": [
+          1535.756,
+          526.373
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.3.1": {
+        "asset_version": 1.0,
+        "grid": [
+          3.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.3.1",
+        "kind": "forest",
+        "position_m": [
+          1545.976,
+          710.121
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.3.2": {
+        "asset_version": 1.0,
+        "grid": [
+          3.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.3.2",
+        "kind": "forest",
+        "position_m": [
+          1523.559,
+          819.312
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.3.5": {
+        "asset_version": 1.0,
+        "grid": [
+          3.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.3.5",
+        "kind": "forest",
+        "position_m": [
+          1541.88,
+          1241.194
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.3.6": {
+        "asset_version": 1.0,
+        "grid": [
+          3.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.3.6",
+        "kind": "forest",
+        "position_m": [
+          1547.981,
+          1402.289
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.4.0": {
+        "asset_version": 1.0,
+        "grid": [
+          4.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_east.4.0",
+        "kind": "forest",
+        "position_m": [
+          1690.837,
+          521.359
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.4.1": {
+        "asset_version": 1.0,
+        "grid": [
+          4.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.4.1",
+        "kind": "forest",
+        "position_m": [
+          1665.342,
+          666.084
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.4.2": {
+        "asset_version": 1.0,
+        "grid": [
+          4.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.4.2",
+        "kind": "forest",
+        "position_m": [
+          1675.939,
+          833.98
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.4.5": {
+        "asset_version": 1.0,
+        "grid": [
+          4.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.4.5",
+        "kind": "forest",
+        "position_m": [
+          1663.318,
+          1307.767
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.5.0": {
+        "asset_version": 1.0,
+        "grid": [
+          5.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_east.5.0",
+        "kind": "forest",
+        "position_m": [
+          1835.142,
+          526.596
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.5.2": {
+        "asset_version": 1.0,
+        "grid": [
+          5.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.5.2",
+        "kind": "forest",
+        "position_m": [
+          1826.362,
+          862.5
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.5.3": {
+        "asset_version": 1.0,
+        "grid": [
+          5.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_east.5.3",
+        "kind": "forest",
+        "position_m": [
+          1803.213,
+          975.673
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.5.5": {
+        "asset_version": 1.0,
+        "grid": [
+          5.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.5.5",
+        "kind": "forest",
+        "position_m": [
+          1813.333,
+          1296.108
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.5.6": {
+        "asset_version": 1.0,
+        "grid": [
+          5.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.5.6",
+        "kind": "forest",
+        "position_m": [
+          1844.189,
+          1416.671
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.6.1": {
+        "asset_version": 1.0,
+        "grid": [
+          6.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.6.1",
+        "kind": "forest",
+        "position_m": [
+          1942.574,
+          649.178
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.6.2": {
+        "asset_version": 1.0,
+        "grid": [
+          6.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.6.2",
+        "kind": "forest",
+        "position_m": [
+          1943.01,
+          812.708
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.6.4": {
+        "asset_version": 1.0,
+        "grid": [
+          6.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.6.4",
+        "kind": "forest",
+        "position_m": [
+          1942.8,
+          1161.245
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.6.5": {
+        "asset_version": 1.0,
+        "grid": [
+          6.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.6.5",
+        "kind": "forest",
+        "position_m": [
+          1983.633,
+          1270.517
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.7.1": {
+        "asset_version": 1.0,
+        "grid": [
+          7.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.7.1",
+        "kind": "forest",
+        "position_m": [
+          2136.943,
+          694.135
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.7.2": {
+        "asset_version": 1.0,
+        "grid": [
+          7.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.7.2",
+        "kind": "forest",
+        "position_m": [
+          2119.316,
+          858.695
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.7.3": {
+        "asset_version": 1.0,
+        "grid": [
+          7.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_east.7.3",
+        "kind": "forest",
+        "position_m": [
+          2102.395,
+          976.435
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.7.4": {
+        "asset_version": 1.0,
+        "grid": [
+          7.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.7.4",
+        "kind": "forest",
+        "position_m": [
+          2125.669,
+          1108.093
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.7.5": {
+        "asset_version": 1.0,
+        "grid": [
+          7.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.7.5",
+        "kind": "forest",
+        "position_m": [
+          2114.444,
+          1276.332
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.8.0": {
+        "asset_version": 1.0,
+        "grid": [
+          8.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_east.8.0",
+        "kind": "forest",
+        "position_m": [
+          2299.345,
+          535.077
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.8.1": {
+        "asset_version": 1.0,
+        "grid": [
+          8.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.8.1",
+        "kind": "forest",
+        "position_m": [
+          2239.298,
+          688.778
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.8.3": {
+        "asset_version": 1.0,
+        "grid": [
+          8.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_east.8.3",
+        "kind": "forest",
+        "position_m": [
+          2277.111,
+          945.062
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.8.5": {
+        "asset_version": 1.0,
+        "grid": [
+          8.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.8.5",
+        "kind": "forest",
+        "position_m": [
+          2241.08,
+          1272.854
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.8.6": {
+        "asset_version": 1.0,
+        "grid": [
+          8.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.8.6",
+        "kind": "forest",
+        "position_m": [
+          2290.179,
+          1403.554
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.9.1": {
+        "asset_version": 1.0,
+        "grid": [
+          9.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.9.1",
+        "kind": "forest",
+        "position_m": [
+          2411.533,
+          702.272
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.9.2": {
+        "asset_version": 1.0,
+        "grid": [
+          9.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.9.2",
+        "kind": "forest",
+        "position_m": [
+          2394.88,
+          861.115
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.9.4": {
+        "asset_version": 1.0,
+        "grid": [
+          9.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.9.4",
+        "kind": "forest",
+        "position_m": [
+          2412.463,
+          1154.812
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.9.5": {
+        "asset_version": 1.0,
+        "grid": [
+          9.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.9.5",
+        "kind": "forest",
+        "position_m": [
+          2461.756,
+          1303.006
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_east.9.6": {
+        "asset_version": 1.0,
+        "grid": [
+          9.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.9.6",
+        "kind": "forest",
+        "position_m": [
+          2446.927,
+          1394.767
+        ],
+        "region_id": "forest_east",
+        "source_seed": 10321.0
+      },
+      "tongguan.decor.forest_west.0.0": {
+        "asset_version": 2.0,
+        "grid": [
+          0.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_west.0.0",
+        "kind": "forest",
+        "position_m": [
+          -2941.126,
+          175.029
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.0.1": {
+        "asset_version": 2.0,
+        "grid": [
+          0.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_west.0.1",
+        "kind": "forest",
+        "position_m": [
+          -2902.922,
+          350.708
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.0.2": {
+        "asset_version": 2.0,
+        "grid": [
+          0.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_west.0.2",
+        "kind": "forest",
+        "position_m": [
+          -2888.153,
+          496.703
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.0.3": {
+        "asset_version": 2.0,
+        "grid": [
+          0.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_west.0.3",
+        "kind": "forest",
+        "position_m": [
+          -2933.956,
+          635.219
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.1.0": {
+        "asset_version": 2.0,
+        "grid": [
+          1.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_west.1.0",
+        "kind": "forest",
+        "position_m": [
+          -2811.8,
+          171.634
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.1.1": {
+        "asset_version": 2.0,
+        "grid": [
+          1.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_west.1.1",
+        "kind": "forest",
+        "position_m": [
+          -2773.348,
+          294.455
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.2.4": {
+        "asset_version": 2.0,
+        "grid": [
+          2.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_west.2.4",
+        "kind": "forest",
+        "position_m": [
+          -2657.395,
+          746.714
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.2.6": {
+        "asset_version": 2.0,
+        "grid": [
+          2.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_west.2.6",
+        "kind": "forest",
+        "position_m": [
+          -2629.462,
+          1047.871
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.3.5": {
+        "asset_version": 2.0,
+        "grid": [
+          3.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_west.3.5",
+        "kind": "forest",
+        "position_m": [
+          -2487.014,
+          961.589
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.3.6": {
+        "asset_version": 2.0,
+        "grid": [
+          3.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_west.3.6",
+        "kind": "forest",
+        "position_m": [
+          -2477.506,
+          1099.26
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.4.6": {
+        "asset_version": 2.0,
+        "grid": [
+          4.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_west.4.6",
+        "kind": "forest",
+        "position_m": [
+          -2351.85,
+          1078.013
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.4.7": {
+        "asset_version": 2.0,
+        "grid": [
+          4.0,
+          7.0
+        ],
+        "id": "tongguan.decor.forest_west.4.7",
+        "kind": "forest",
+        "position_m": [
+          -2292.674,
+          1253.984
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.5.1": {
+        "asset_version": 2.0,
+        "grid": [
+          5.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_west.5.1",
+        "kind": "forest",
+        "position_m": [
+          -2155.408,
+          331.406
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.5.5": {
+        "asset_version": 2.0,
+        "grid": [
+          5.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_west.5.5",
+        "kind": "forest",
+        "position_m": [
+          -2158.791,
+          927.576
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.5.6": {
+        "asset_version": 2.0,
+        "grid": [
+          5.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_west.5.6",
+        "kind": "forest",
+        "position_m": [
+          -2137.624,
+          1065.188
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.6.3": {
+        "asset_version": 2.0,
+        "grid": [
+          6.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_west.6.3",
+        "kind": "forest",
+        "position_m": [
+          -2050.046,
+          602.246
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.6.5": {
+        "asset_version": 2.0,
+        "grid": [
+          6.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_west.6.5",
+        "kind": "forest",
+        "position_m": [
+          -2045.021,
+          901.012
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.7.0": {
+        "asset_version": 2.0,
+        "grid": [
+          7.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_west.7.0",
+        "kind": "forest",
+        "position_m": [
+          -1862.95,
+          182.336
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.7.1": {
+        "asset_version": 2.0,
+        "grid": [
+          7.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_west.7.1",
+        "kind": "forest",
+        "position_m": [
+          -1859.434,
+          289.664
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.7.4": {
+        "asset_version": 2.0,
+        "grid": [
+          7.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_west.7.4",
+        "kind": "forest",
+        "position_m": [
+          -1897.811,
+          746.286
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.8.0": {
+        "asset_version": 2.0,
+        "grid": [
+          8.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_west.8.0",
+        "kind": "forest",
+        "position_m": [
+          -1740.621,
+          190.021
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.8.1": {
+        "asset_version": 2.0,
+        "grid": [
+          8.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_west.8.1",
+        "kind": "forest",
+        "position_m": [
+          -1746.444,
+          304.742
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.8.2": {
+        "asset_version": 2.0,
+        "grid": [
+          8.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_west.8.2",
+        "kind": "forest",
+        "position_m": [
+          -1757.997,
+          501.263
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.8.4": {
+        "asset_version": 2.0,
+        "grid": [
+          8.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_west.8.4",
+        "kind": "forest",
+        "position_m": [
+          -1735.803,
+          761.709
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.8.5": {
+        "asset_version": 2.0,
+        "grid": [
+          8.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_west.8.5",
+        "kind": "forest",
+        "position_m": [
+          -1695.467,
+          950.837
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      },
+      "tongguan.decor.forest_west.9.3": {
+        "asset_version": 2.0,
+        "grid": [
+          9.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_west.9.3",
+        "kind": "forest",
+        "position_m": [
+          -1541.631,
+          631.977
+        ],
+        "region_id": "forest_west",
+        "source_seed": 17001.0
+      }
+    },
+    "patches": {
+      "manual.1": {
+        "generator_version": "forest_grid_sha256_v2",
+        "op": "add",
+        "record": {
+          "asset_version": 2.0,
+          "grid": [],
+          "id": "manual.1",
+          "kind": "forest",
+          "position_m": [
+            -2700.0,
+            1250.0
+          ],
+          "region_id": "manual",
+          "source_seed": 0.0
+        }
+      },
+      "tongguan.decor.forest_east.0.1": {
+        "generator_version": "forest_grid_sha256_v2",
+        "op": "delete"
+      }
+    },
+    "pins": {
+      "manual.1": {
+        "asset_version": 2.0,
+        "grid": [],
+        "id": "manual.1",
+        "kind": "forest",
+        "position_m": [
+          -2700.0,
+          1250.0
+        ],
+        "region_id": "manual",
+        "source_seed": 0.0
+      }
+    },
+    "region_settings": {
+      "forest_east": {
+        "asset_version": 1.0,
+        "density": 0.65,
+        "seed": 10321.0
+      },
+      "forest_west": {
+        "asset_version": 2.0,
+        "density": 0.5,
+        "seed": 17001.0
+      }
+    },
+    "revision": 7.0,
+    "schema_version": 1.0,
+    "tombstones": {
+      "tongguan.decor.forest_east.0.1": true
+    },
+    "zone_pins": {},
+    "zones": {
+      "zone.2": {
+        "id": "zone.2",
+        "kind": "lock",
+        "polygon_m": [
+          [
+            -2550.0,
+            700.0
+          ],
+          [
+            -2330.0,
+            700.0
+          ],
+          [
+            -2330.0,
+            880.0
+          ],
+          [
+            -2550.0,
+            880.0
+          ]
+        ]
+      },
+      "zone.3": {
+        "id": "zone.3",
+        "kind": "exclude_generation",
+        "polygon_m": [
+          [
+            -2000.0,
+            1200.0
+          ],
+          [
+            -1740.0,
+            1200.0
+          ],
+          [
+            -1740.0,
+            1360.0
+          ],
+          [
+            -2000.0,
+            1360.0
+          ]
+        ]
+      }
+    }
+  },
+  "publication_content_sha256": "a2668ee071fbe6d422ae5fa8fe9a07473b1582ccb0a57660e4ce529447191adb",
+  "raw_instance_ids": [
+    "tongguan.decor.forest_west.0.0",
+    "tongguan.decor.forest_west.1.0",
+    "tongguan.decor.forest_west.7.0",
+    "tongguan.decor.forest_west.8.0",
+    "tongguan.decor.forest_west.0.1",
+    "tongguan.decor.forest_west.1.1",
+    "tongguan.decor.forest_west.5.1",
+    "tongguan.decor.forest_west.7.1",
+    "tongguan.decor.forest_west.8.1",
+    "tongguan.decor.forest_west.0.2",
+    "tongguan.decor.forest_west.8.2",
+    "tongguan.decor.forest_west.0.3",
+    "tongguan.decor.forest_west.6.3",
+    "tongguan.decor.forest_west.9.3",
+    "tongguan.decor.forest_west.2.4",
+    "tongguan.decor.forest_west.7.4",
+    "tongguan.decor.forest_west.8.4",
+    "tongguan.decor.forest_west.3.5",
+    "tongguan.decor.forest_west.5.5",
+    "tongguan.decor.forest_west.6.5",
+    "tongguan.decor.forest_west.8.5",
+    "tongguan.decor.forest_west.2.6",
+    "tongguan.decor.forest_west.3.6",
+    "tongguan.decor.forest_west.4.6",
+    "tongguan.decor.forest_west.5.6",
+    "tongguan.decor.forest_west.4.7",
+    "tongguan.decor.forest_east.2.0",
+    "tongguan.decor.forest_east.3.0",
+    "tongguan.decor.forest_east.4.0",
+    "tongguan.decor.forest_east.5.0",
+    "tongguan.decor.forest_east.8.0",
+    "tongguan.decor.forest_east.1.1",
+    "tongguan.decor.forest_east.2.1",
+    "tongguan.decor.forest_east.3.1",
+    "tongguan.decor.forest_east.4.1",
+    "tongguan.decor.forest_east.6.1",
+    "tongguan.decor.forest_east.7.1",
+    "tongguan.decor.forest_east.8.1",
+    "tongguan.decor.forest_east.9.1",
+    "tongguan.decor.forest_east.2.2",
+    "tongguan.decor.forest_east.3.2",
+    "tongguan.decor.forest_east.4.2",
+    "tongguan.decor.forest_east.5.2",
+    "tongguan.decor.forest_east.6.2",
+    "tongguan.decor.forest_east.7.2",
+    "tongguan.decor.forest_east.9.2",
+    "tongguan.decor.forest_east.1.3",
+    "tongguan.decor.forest_east.5.3",
+    "tongguan.decor.forest_east.7.3",
+    "tongguan.decor.forest_east.8.3",
+    "tongguan.decor.forest_east.0.4",
+    "tongguan.decor.forest_east.1.4",
+    "tongguan.decor.forest_east.2.4",
+    "tongguan.decor.forest_east.6.4",
+    "tongguan.decor.forest_east.7.4",
+    "tongguan.decor.forest_east.9.4",
+    "tongguan.decor.forest_east.1.5",
+    "tongguan.decor.forest_east.2.5",
+    "tongguan.decor.forest_east.3.5",
+    "tongguan.decor.forest_east.4.5",
+    "tongguan.decor.forest_east.5.5",
+    "tongguan.decor.forest_east.6.5",
+    "tongguan.decor.forest_east.7.5",
+    "tongguan.decor.forest_east.8.5",
+    "tongguan.decor.forest_east.9.5",
+    "tongguan.decor.forest_east.0.6",
+    "tongguan.decor.forest_east.1.6",
+    "tongguan.decor.forest_east.3.6",
+    "tongguan.decor.forest_east.5.6",
+    "tongguan.decor.forest_east.8.6",
+    "tongguan.decor.forest_east.9.6",
+    "manual.1"
+  ],
+  "revision": 0.0,
+  "schema_id": "tongguan.effective_map",
+  "schema_version": 1,
+  "slots": [
+    {
+      "allowed_buildings": [
+        "warehouse",
+        "granary"
+      ],
+      "authoring_pin": true,
+      "gameplay_buildable": true,
+      "id": "tongguan.slot.rear_storage_01",
+      "initial_building": "empty",
+      "name": "仓储",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -590.0,
+          -240.0
+        ],
+        [
+          -545.0,
+          -240.0
+        ],
+        [
+          -545.0,
+          -215.0
+        ],
+        [
+          -590.0,
+          -215.0
+        ]
+      ],
+      "road_socket_id": "tongguan.socket.rear_storage_01",
+      "road_socket_m": [
+        -567.5,
+        -205.0
+      ],
+      "unlock_stage": 1.0
+    },
+    {
+      "allowed_buildings": [
+        "barracks",
+        "training_ground"
+      ],
+      "authoring_pin": true,
+      "gameplay_buildable": true,
+      "id": "tongguan.slot.rear_military_01",
+      "initial_building": "barracks",
+      "name": "驻军",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -530.0,
+          -240.0
+        ],
+        [
+          -485.0,
+          -240.0
+        ],
+        [
+          -485.0,
+          -215.0
+        ],
+        [
+          -530.0,
+          -215.0
+        ]
+      ],
+      "road_socket_id": "tongguan.socket.rear_military_01",
+      "road_socket_m": [
+        -507.5,
+        -205.0
+      ],
+      "unlock_stage": 1.0
+    },
+    {
+      "allowed_buildings": [
+        "workshop",
+        "repair_yard"
+      ],
+      "authoring_pin": true,
+      "gameplay_buildable": true,
+      "id": "tongguan.slot.rear_workshop_01",
+      "initial_building": "empty",
+      "name": "工坊",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -470.0,
+          -240.0
+        ],
+        [
+          -425.0,
+          -240.0
+        ],
+        [
+          -425.0,
+          -215.0
+        ],
+        [
+          -470.0,
+          -215.0
+        ]
+      ],
+      "road_socket_id": "tongguan.socket.rear_workshop_01",
+      "road_socket_m": [
+        -447.5,
+        -205.0
+      ],
+      "unlock_stage": 1.0
+    },
+    {
+      "allowed_buildings": [
+        "housing",
+        "shop"
+      ],
+      "authoring_pin": true,
+      "gameplay_buildable": true,
+      "id": "tongguan.slot.civil_01",
+      "initial_building": "empty",
+      "name": "民居",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -410.0,
+          -240.0
+        ],
+        [
+          -365.0,
+          -240.0
+        ],
+        [
+          -365.0,
+          -215.0
+        ],
+        [
+          -410.0,
+          -215.0
+        ]
+      ],
+      "road_socket_id": "tongguan.socket.civil_01",
+      "road_socket_m": [
+        -387.5,
+        -205.0
+      ],
+      "unlock_stage": 2.0
+    },
+    {
+      "allowed_buildings": [
+        "market",
+        "inn"
+      ],
+      "authoring_pin": true,
+      "gameplay_buildable": true,
+      "id": "tongguan.slot.civil_02",
+      "initial_building": "empty",
+      "name": "商旅",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -590.0,
+          -200.0
+        ],
+        [
+          -545.0,
+          -200.0
+        ],
+        [
+          -545.0,
+          -175.0
+        ],
+        [
+          -590.0,
+          -175.0
+        ]
+      ],
+      "road_socket_id": "tongguan.socket.civil_02",
+      "road_socket_m": [
+        -567.5,
+        -205.0
+      ],
+      "unlock_stage": 2.0
+    },
+    {
+      "allowed_buildings": [
+        "infirmary",
+        "repair_yard"
+      ],
+      "authoring_pin": true,
+      "gameplay_buildable": true,
+      "id": "tongguan.slot.rear_support_01",
+      "initial_building": "empty",
+      "name": "勤务",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -530.0,
+          -200.0
+        ],
+        [
+          -485.0,
+          -200.0
+        ],
+        [
+          -485.0,
+          -175.0
+        ],
+        [
+          -530.0,
+          -175.0
+        ]
+      ],
+      "road_socket_id": "tongguan.socket.rear_support_01",
+      "road_socket_m": [
+        -507.5,
+        -205.0
+      ],
+      "unlock_stage": 2.0
+    },
+    {
+      "allowed_buildings": [
+        "warehouse",
+        "granary"
+      ],
+      "authoring_pin": true,
+      "gameplay_buildable": true,
+      "id": "tongguan.slot.expansion_01",
+      "initial_building": "empty",
+      "name": "扩建仓储",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -470.0,
+          -200.0
+        ],
+        [
+          -425.0,
+          -200.0
+        ],
+        [
+          -425.0,
+          -175.0
+        ],
+        [
+          -470.0,
+          -175.0
+        ]
+      ],
+      "road_socket_id": "tongguan.socket.expansion_01",
+      "road_socket_m": [
+        -447.5,
+        -205.0
+      ],
+      "unlock_stage": 3.0
+    },
+    {
+      "allowed_buildings": [
+        "camp",
+        "housing"
+      ],
+      "authoring_pin": true,
+      "gameplay_buildable": true,
+      "id": "tongguan.slot.expansion_02",
+      "initial_building": "empty",
+      "name": "附属营地",
+      "parent_plot_id": "plot_northwest",
+      "polygon_local_m": [
+        [
+          -410.0,
+          -200.0
+        ],
+        [
+          -365.0,
+          -200.0
+        ],
+        [
+          -365.0,
+          -175.0
+        ],
+        [
+          -410.0,
+          -175.0
+        ]
+      ],
+      "road_socket_id": "tongguan.socket.expansion_02",
+      "road_socket_m": [
+        -387.5,
+        -205.0
+      ],
+      "unlock_stage": 3.0
+    }
+  ],
+  "source_format_versions": {
+    "save": 22,
+    "v4": 4.0
+  },
+  "source_inputs": [
+    {
+      "path": "res://bundle/authoring_publication.json",
+      "sha256": "5ab27208b28ba3068345421d75f8fe19700405bc03291fcfa88a2ee9791da88a"
+    },
+    {
+      "path": "res://bundle/layout.json",
+      "sha256": "0aa0aa417038dbe2d89150914a83f9e34e0f42099534ed86bac5b54dc5f78f81"
+    },
+    {
+      "path": "res://bundle/geography_metadata.json",
+      "sha256": "0694cd125f6fe5c8a6b516af7963a00a9164d8c3199b87da452bb3006df9fea1"
+    },
+    {
+      "path": "res://army/fixture.json",
+      "sha256": "c771cc57f83c993332d1763404616536706d8411ee6efa5e44e9da3745eae364"
+    }
+  ],
+  "source_v4_sha256": "c41fea216b67f4f5622593dcf2300548d34c4c7c02a6aff827b3b7f8359efa33"
+}

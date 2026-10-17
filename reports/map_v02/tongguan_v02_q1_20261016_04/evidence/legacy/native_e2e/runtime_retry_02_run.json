@@ -1,0 +1,16 @@
+{
+  "command": [
+    "H:\\godot4.61\\Godot_v4.6.1-stable_win64_console.exe",
+    "--fullscreen",
+    "--path",
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regression_native_e2e\\runtime",
+    "--script",
+    "res://tests/test_r3_scene.gd",
+    "--",
+    "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regression_native_e2e\\runtime_retry_02_result.json"
+  ],
+  "exit_code": 0,
+  "publication_sha256": "1a3c2ab2b52fd658cbcb8ff9c3f232c5a87c67df2782c3c0b6de503ff22500c2",
+  "actual_user_dir": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\q1_regression_native_e2e\\isolated_exchange\\tongguan_q1_native_e2e_runtime",
+  "test_code_changed": false
+}

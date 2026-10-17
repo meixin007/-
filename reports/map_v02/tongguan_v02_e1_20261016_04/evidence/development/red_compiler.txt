@@ -1,0 +1,95 @@
+test_duplicate_inventory_paths_are_rejected_before_indexing (__main__.E1Contract) ... FAIL
+test_duplicate_raw_objects_are_rejected_before_dictionary_projection (__main__.E1Contract) ... FAIL
+test_missing_required_dependency_is_rejected (__main__.E1Contract) ... FAIL
+test_outside_and_executable_paths_are_rejected (__main__.E1Contract) ... FAIL
+test_record_id_and_source_key_must_agree (__main__.E1Contract) ... FAIL
+test_relocation_changes_owner_without_changing_identity (__main__.E1Contract) ... FAIL
+test_sparse_package_has_16_unique_children_and_parent (__main__.E1Contract) ... FAIL
+test_unsupported_schema_is_rejected (__main__.E1Contract) ... FAIL
+test_world_layout_and_graph_are_separate_compatibility_gates (__main__.E1Contract) ... FAIL
+test_wrong_hash_is_rejected (__main__.E1Contract) ... FAIL
+
+======================================================================
+FAIL: test_duplicate_inventory_paths_are_rejected_before_indexing (__main__.E1Contract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_e1_package.py", line 18, in setUp
+    self.assertIsNotNone(compiler, 'E1 compiler must exist before package publication')
+AssertionError: unexpectedly None : E1 compiler must exist before package publication
+
+======================================================================
+FAIL: test_duplicate_raw_objects_are_rejected_before_dictionary_projection (__main__.E1Contract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_e1_package.py", line 18, in setUp
+    self.assertIsNotNone(compiler, 'E1 compiler must exist before package publication')
+AssertionError: unexpectedly None : E1 compiler must exist before package publication
+
+======================================================================
+FAIL: test_missing_required_dependency_is_rejected (__main__.E1Contract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_e1_package.py", line 18, in setUp
+    self.assertIsNotNone(compiler, 'E1 compiler must exist before package publication')
+AssertionError: unexpectedly None : E1 compiler must exist before package publication
+
+======================================================================
+FAIL: test_outside_and_executable_paths_are_rejected (__main__.E1Contract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_e1_package.py", line 18, in setUp
+    self.assertIsNotNone(compiler, 'E1 compiler must exist before package publication')
+AssertionError: unexpectedly None : E1 compiler must exist before package publication
+
+======================================================================
+FAIL: test_record_id_and_source_key_must_agree (__main__.E1Contract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_e1_package.py", line 18, in setUp
+    self.assertIsNotNone(compiler, 'E1 compiler must exist before package publication')
+AssertionError: unexpectedly None : E1 compiler must exist before package publication
+
+======================================================================
+FAIL: test_relocation_changes_owner_without_changing_identity (__main__.E1Contract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_e1_package.py", line 18, in setUp
+    self.assertIsNotNone(compiler, 'E1 compiler must exist before package publication')
+AssertionError: unexpectedly None : E1 compiler must exist before package publication
+
+======================================================================
+FAIL: test_sparse_package_has_16_unique_children_and_parent (__main__.E1Contract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_e1_package.py", line 18, in setUp
+    self.assertIsNotNone(compiler, 'E1 compiler must exist before package publication')
+AssertionError: unexpectedly None : E1 compiler must exist before package publication
+
+======================================================================
+FAIL: test_unsupported_schema_is_rejected (__main__.E1Contract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_e1_package.py", line 18, in setUp
+    self.assertIsNotNone(compiler, 'E1 compiler must exist before package publication')
+AssertionError: unexpectedly None : E1 compiler must exist before package publication
+
+======================================================================
+FAIL: test_world_layout_and_graph_are_separate_compatibility_gates (__main__.E1Contract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_e1_package.py", line 18, in setUp
+    self.assertIsNotNone(compiler, 'E1 compiler must exist before package publication')
+AssertionError: unexpectedly None : E1 compiler must exist before package publication
+
+======================================================================
+FAIL: test_wrong_hash_is_rejected (__main__.E1Contract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_e1_package.py", line 18, in setUp
+    self.assertIsNotNone(compiler, 'E1 compiler must exist before package publication')
+AssertionError: unexpectedly None : E1 compiler must exist before package publication
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+FAILED (failures=10)

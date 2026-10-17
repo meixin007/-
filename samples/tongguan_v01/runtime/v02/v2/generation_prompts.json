@@ -1,0 +1,21 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "precise-object-edit",
+  "assets": [
+    {
+      "id": "warehouse_damaged",
+      "reference": "res://v02/v1/assets/warehouse_v01.png",
+      "prompt": "Preserve original 1536x1024 canvas, camera, scale, ground footprint, original courtyard walls and foreground entrance. Change only warehouse roof centre into collapsed tiles, exposed rafters and broken plaster; rubble inside existing courtyard. Same cream plaster/blue-grey roof/ink watercolor, alpha transparent, no smoke, people or text. Keep ground anchors and framing."
+    },
+    {
+      "id": "wall_damaged",
+      "reference": "res://v02/v1/assets/wall_ns_v01.png",
+      "prompt": "Preserve 1536x1024 canvas, wall scale/orientation, exact both ends and endpoint anchors near (433,390),(1058,900). Break central third into irregular masonry breach; rubble within footprint. Same cream stone, delicate ink watercolor, transparent alpha. No rotate/crop/reframe/extra background."
+    },
+    {
+      "id": "barracks",
+      "reference": "res://v02/v1/assets/warehouse_v01.png",
+      "prompt": "Use existing warehouse courtyard exact footprint, 1536x1024 canvas, orthographic oblique camera, dimensions, outer walls and foreground entrance. Main building becomes modest soldiers lodging with two timber doors, small veranda, internal spear rack and bench. Same cream plaster, blue-grey tiles, fine ink watercolor. No people, flags, text, new ground or larger footprint; alpha transparent."
+    }
+  ]
+}

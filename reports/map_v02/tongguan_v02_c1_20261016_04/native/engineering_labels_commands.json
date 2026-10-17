@@ -1,0 +1,43 @@
+{
+	"camera": [
+		4096.0,
+		2048.0,
+		0.15
+	],
+	"commands": {
+		"base:root_0_0terrain/root_0_0.png.bin": [
+			"res://v02/c1/packages/multi/terrain/root_0_0.png|93da48061de2c729213cb22ae13396481fa086577543d1a098142d11d637b032",
+			"[P: (0.0, 0.0), S: (16384.0, 4096.0)]",
+			"[P: (4.0, 4.0), S: (256.0, 256.0)]",
+			1.0
+		],
+		"page:parent_0_0terrain/parent_0_0.png.bin": [
+			"res://v02/c1/packages/multi/terrain/parent_0_0.png|fd27c087590665a5a9222828c9788f28333f14da95f340362b9ef22f6aa17890",
+			"[P: (0.0, 0.0), S: (4096.0, 4096.0)]",
+			"[P: (4.0, 4.0), S: (256.0, 256.0)]",
+			1.0
+		],
+		"page:parent_1_0terrain/parent_1_0.png.bin": [
+			"res://v02/c1/packages/multi/terrain/parent_1_0.png|47ebaf49e8344256d137097b7af0c8245be0dad6ee013b52ae318caf97a4dbaa",
+			"[P: (4096.0, 0.0), S: (4096.0, 4096.0)]",
+			"[P: (4.0, 4.0), S: (256.0, 256.0)]",
+			1.0
+		],
+		"page:parent_2_0terrain/parent_2_0.png.bin": [
+			"res://v02/c1/packages/multi/terrain/parent_2_0.png|f4027f73968aac83edbc9b4d128c68e01e48d1c5bdba65540078ad1f05e463b1",
+			"[P: (8192.0, 0.0), S: (4096.0, 4096.0)]",
+			"[P: (4.0, 4.0), S: (256.0, 256.0)]",
+			1.0
+		]
+	},
+	"deferred": false,
+	"detail_alpha": 1.0,
+	"fades": {
+
+	},
+	"finished": {
+		"parent_0_0": true,
+		"parent_1_0": true,
+		"parent_2_0": true
+	}
+}

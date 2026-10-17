@@ -1,0 +1,30 @@
+samples/tongguan_v01/runtime/runtime/asset_cache.gd:18: trailing whitespace.
++var _observer: WeakRef
+samples/tongguan_v01/runtime/runtime/asset_cache.gd:19: trailing whitespace.
++func png(path: String)->Texture2D:
+samples/tongguan_v01/runtime/runtime/asset_cache.gd:20: trailing whitespace.
++	var texture = load(path) as Texture2D
+samples/tongguan_v01/runtime/runtime/asset_cache.gd:21: trailing whitespace.
++	if _observer != null and _observer.get_ref() != null:
+samples/tongguan_v01/runtime/runtime/asset_cache.gd:22: trailing whitespace.
++		_observer.get_ref().resource_requested(path,"sync",OK if texture != null else ERR_CANT_OPEN)
+samples/tongguan_v01/runtime/runtime/asset_cache.gd:23: trailing whitespace.
++	return texture
+samples/tongguan_v01/runtime/runtime/asset_cache.gd:24: trailing whitespace.
++func _init(observer: RefCounted=null)->void:
+samples/tongguan_v01/runtime/runtime/asset_cache.gd:25: trailing whitespace.
++	# Weak ownership avoids a service -> cache -> service reference cycle.
+samples/tongguan_v01/runtime/runtime/asset_cache.gd:26: trailing whitespace.
++	if observer != null: _observer = weakref(observer)
+samples/tongguan_v01/runtime/runtime/asset_cache.gd:35: trailing whitespace.
++	for tile in tiles:
+samples/tongguan_v01/runtime/runtime/asset_cache.gd:36: trailing whitespace.
++		var requested = ResourceLoader.load_threaded_request(tile.path,"Texture2D",false,ResourceLoader.CACHE_MODE_REUSE)
+samples/tongguan_v01/runtime/runtime/asset_cache.gd:37: trailing whitespace.
++		if _observer != null and _observer.get_ref() != null: _observer.get_ref().resource_requested(tile.path,"threaded",requested)
+samples/tongguan_v01/runtime/runtime/city_canvas.gd:22: trailing whitespace.
++	get_node("/root/Session").visual_service.tree_submitted()
+samples/tongguan_v01/runtime/runtime/city_canvas.gd:40: trailing whitespace.
++	get_node("/root/Session").visual_service.begin_draw()
+samples/tongguan_v01/runtime/runtime/city_canvas.gd:46: trailing whitespace.
++		var plan=get_node("/root/Session").visual_service.plan_instances(authored.generated.values())

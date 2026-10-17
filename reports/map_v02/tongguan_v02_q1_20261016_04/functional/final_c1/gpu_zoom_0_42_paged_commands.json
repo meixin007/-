@@ -1,0 +1,355 @@
+{
+	"camera": [
+		0.0,
+		-270.0,
+		0.42
+	],
+	"commands": {
+		"base:contextterrain/context.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/context.png|581298dcc52768e3aeaecae88de2c60d75658ef8c23504612657d18c08317ce0",
+			"[P: (-12000.0, 192.0), S: (24000.0, 16000.0)]",
+			"[P: (0.0, 0.0), S: (2400.0, 1600.0)]",
+			1.0
+		],
+		"object:presentation.main_corridor": [],
+		"object:presentation.main_corridor.base": [],
+		"object:presentation.main_corridor.light": [],
+		"object:presentation.socket.tongguan.slot.rear_military_01": [],
+		"object:presentation.socket.tongguan.slot.rear_storage_01": [],
+		"object:tongguan.decor.forest_east.1.1": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (1161.439, 8824.001), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_east.2.0": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (1310.072, 8637.062), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_east.2.1": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (1311.071, 8776.596), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_east.2.2": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (1369.142, 8990.223), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_east.3.0": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (1495.756, 8655.973), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_east.3.1": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (1505.976, 8839.721), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_east.3.2": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (1483.559, 8948.912), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_east.4.0": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (1650.837, 8650.959), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_east.4.1": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (1625.342, 8795.684), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_east.4.2": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (1635.939, 8963.58), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_east.5.0": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (1795.142, 8656.196), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_east.5.2": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (1786.362, 8992.1), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_east.6.1": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (1902.574, 8778.778), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_east.6.2": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (1903.01, 8942.308), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_west.7.0": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-1902.95, 8311.936), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_west.7.1": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-1899.434, 8419.264), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_west.7.4": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-1937.811, 8875.886), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_west.8.0": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-1780.621, 8319.621), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_west.8.1": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-1786.444, 8434.342), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_west.8.2": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-1797.997, 8630.863), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_west.8.4": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-1775.803, 8891.309), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.decor.forest_west.9.3": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-1581.631, 8761.577), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:tongguan.gate.main": [
+			"res://v02/c1/packages/tongguan/assets/gate_eastwest.png|971dbffc6bfe5c947e5f9541fb68c12d5712f23c26bfd94566c904880c7fe16d",
+			"[P: (-142.8711, 8043.758), S: (330.0, 220.0)]",
+			"[P: (0.0, 0.0), S: (1536.0, 1024.0)]",
+			1.0
+		],
+		"object:tongguan.road.connector": [],
+		"object:tongguan.road.connector.base": [],
+		"object:tongguan.road.rear": [],
+		"object:tongguan.road.rear.base": [],
+		"object:tongguan.slot.rear_military_01": [
+			"res://v02/c1/packages/tongguan/assets/barracks_v01.png|ad392cccc3cbeef7fc1f2bb2c1a6090a2687ba9160d52540900af6188b230139",
+			"[P: (-548.5417, 7930.125), S: (80.0, 53.33333)]",
+			"[P: (0.0, 0.0), S: (1536.0, 1024.0)]",
+			1.0
+		],
+		"object:tongguan.slot.rear_storage_01": [
+			"res://v02/c1/packages/tongguan/assets/warehouse_v01.png|0f24ffb5c1305eb34c4433eab7d0180e35880e98c4cf0c90bd4b49d2b1fc6e16",
+			"[P: (-608.5417, 7930.125), S: (80.0, 53.33333)]",
+			"[P: (0.0, 0.0), S: (1536.0, 1024.0)]",
+			1.0
+		],
+		"object:tongguan.wall.north": [
+			"res://v02/c1/packages/tongguan/assets/wall_ns_v01.png|17f0dec19928e4ed4b344d8e786d7d26b3f49da89da60948dd1aa98a19f71478",
+			"[P: (-167.1161, 7981.336), S: (215.04, 143.36)]",
+			"[P: (0.0, 0.0), S: (1536.0, 1024.0)]",
+			1.0
+		],
+		"object:v1.preview.Tree_00": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-890.0, 7679.6), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:v1.preview.Tree_01": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-825.0, 7659.6), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:v1.preview.Tree_02": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-750.0, 7674.6), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:v1.preview.Tree_03": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-850.0, 7744.6), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:v1.preview.Tree_04": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-770.0, 7749.6), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:v1.preview.Tree_05": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-350.0, 7699.6), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:v1.preview.Tree_06": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-280.0, 7674.6), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:v1.preview.Tree_07": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-210.0, 7719.6), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:v1.preview.Tree_08": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (80.0, 7764.6), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:v1.preview.Tree_09": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (150.0, 7789.6), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:v1.preview.Tree_10": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (140.0, 7864.6), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:v1.preview.Tree_11": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-890.0, 8579.6), S: (80.0, 80.0)]",
+			"[P: (512.0, 512.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:v1.preview.Tree_12": [
+			"res://v02/c1/packages/tongguan/assets/trees.png|9983e70ccd03a1e3ddbffa3e5770d2425bbd0412d8712016c87f8d81ad5a8d11",
+			"[P: (-820.0, 8569.6), S: (80.0, 80.0)]",
+			"[P: (1024.0, 0.0), S: (512.0, 512.0)]",
+			1.0
+		],
+		"object:wall_east": [
+			"res://v02/c1/packages/tongguan/assets/wall_ns_v01.png|17f0dec19928e4ed4b344d8e786d7d26b3f49da89da60948dd1aa98a19f71478",
+			"[P: (24.1925, 8192.549), S: (215.04, 143.36)]",
+			"[P: (0.0, 0.0), S: (1536.0, 1024.0)]",
+			1.0
+		],
+		"page:fine_0_0terrain/fine_0_0.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/fine_0_0.png|ffa187c25ce890c617c490cb2cffc93b3a108a8762478290823a009d26de5108",
+			"[P: (-1024.0, 7168.0), S: (512.0, 512.0)]",
+			"[P: (32.0, 32.0), S: (1024.0, 1024.0)]",
+			1.0
+		],
+		"page:fine_0_1terrain/fine_0_1.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/fine_0_1.png|f0eda707d711ae750b2dd28952efd5055413733ba62003735c62ab720fcb545d",
+			"[P: (-1024.0, 7680.0), S: (512.0, 512.0)]",
+			"[P: (32.0, 32.0), S: (1024.0, 1024.0)]",
+			1.0
+		],
+		"page:fine_0_2terrain/fine_0_2.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/fine_0_2.png|eb70b21151a8e60e6c387272fd8fdaf7c348e6a043d4fd935806e6036a28a03c",
+			"[P: (-1024.0, 8192.0), S: (512.0, 512.0)]",
+			"[P: (32.0, 32.0), S: (1024.0, 1024.0)]",
+			1.0
+		],
+		"page:fine_1_0terrain/fine_1_0.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/fine_1_0.png|13232c6ff02c15415f888d4e100687084f82ca5ce21e334cbf33109d41b8d307",
+			"[P: (-512.0, 7168.0), S: (512.0, 512.0)]",
+			"[P: (32.0, 32.0), S: (1024.0, 1024.0)]",
+			1.0
+		],
+		"page:fine_1_1terrain/fine_1_1.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/fine_1_1.png|75a64e23f4aee7add0416fbf2c2e5923e055acff8fa7e7161fe6206e9e76363d",
+			"[P: (-512.0, 7680.0), S: (512.0, 512.0)]",
+			"[P: (32.0, 32.0), S: (1024.0, 1024.0)]",
+			1.0
+		],
+		"page:fine_1_2terrain/fine_1_2.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/fine_1_2.png|fc640ad00c2d3d3c136e34ca415b5450b4b4e61b1b9cddcf5332a44ece5b50c8",
+			"[P: (-512.0, 8192.0), S: (512.0, 512.0)]",
+			"[P: (32.0, 32.0), S: (1024.0, 1024.0)]",
+			1.0
+		],
+		"page:fine_2_0terrain/fine_2_0.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/fine_2_0.png|84772d5958ad1fe9b539a64ea1e7d80efa7da1876e5324fd18315e463762fb6a",
+			"[P: (0.0, 7168.0), S: (512.0, 512.0)]",
+			"[P: (32.0, 32.0), S: (1024.0, 1024.0)]",
+			1.0
+		],
+		"page:fine_2_1terrain/fine_2_1.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/fine_2_1.png|24d795f92c4a2509963a1136143bd61152216449e697a7a3837bc0e3c61659a6",
+			"[P: (0.0, 7680.0), S: (512.0, 512.0)]",
+			"[P: (32.0, 32.0), S: (1024.0, 1024.0)]",
+			1.0
+		],
+		"page:fine_2_2terrain/fine_2_2.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/fine_2_2.png|5482b65fcd577c63d1e8f6ee75e3763d88a0771d53fc128501fcc9c621d2b954",
+			"[P: (0.0, 8192.0), S: (512.0, 512.0)]",
+			"[P: (32.0, 32.0), S: (1024.0, 1024.0)]",
+			1.0
+		],
+		"page:fine_3_0terrain/fine_3_0.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/fine_3_0.png|f912d509aaaf2e7c66a8a52ff33230326873af67aa8d13a0a378e05ba0408f2f",
+			"[P: (512.0, 7168.0), S: (512.0, 512.0)]",
+			"[P: (32.0, 32.0), S: (1024.0, 1024.0)]",
+			1.0
+		],
+		"page:fine_3_1terrain/fine_3_1.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/fine_3_1.png|ef31730865f579864dfc30c1173a442450b34c5f5baeb236ce272a36958b6015",
+			"[P: (512.0, 7680.0), S: (512.0, 512.0)]",
+			"[P: (32.0, 32.0), S: (1024.0, 1024.0)]",
+			1.0
+		],
+		"page:fine_3_2terrain/fine_3_2.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/fine_3_2.png|2b47ad9ab09ef7fe1e592e0de07638ac9b3e01651dc35ae4614eda71bdc3aab7",
+			"[P: (512.0, 8192.0), S: (512.0, 512.0)]",
+			"[P: (32.0, 32.0), S: (1024.0, 1024.0)]",
+			1.0
+		]
+	},
+	"deferred": false,
+	"detail_alpha": 1.0,
+	"fades": {
+
+	},
+	"finished": {
+		"fine_0_0": true,
+		"fine_0_1": true,
+		"fine_0_2": true,
+		"fine_1_0": true,
+		"fine_1_1": true,
+		"fine_1_2": true,
+		"fine_2_0": true,
+		"fine_2_1": true,
+		"fine_2_2": true,
+		"fine_3_0": true,
+		"fine_3_1": true,
+		"fine_3_2": true
+	}
+}

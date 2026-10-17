@@ -1,0 +1,183 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tongguan.presentation_package.v1",
+  "title": "E1 presentation package, independent of Save22 and v4",
+  "type": "object",
+  "required": [
+    "schema_id",
+    "schema_version",
+    "build_id",
+    "compiler_version",
+    "source_commit",
+    "compatibility",
+    "style_id",
+    "visual_review_sha256",
+    "catalog",
+    "files",
+    "load_policy",
+    "import_contract"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_id": {
+      "const": "tongguan.presentation_package"
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "build_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "compiler_version": {
+      "const": "e1_compiler_v1"
+    },
+    "source_commit": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{40}$"
+    },
+    "compatibility": {
+      "type": "object",
+      "required": [
+        "world_id",
+        "site_id",
+        "layout_version",
+        "layout_slots_sha256",
+        "fixed_refs_sha256",
+        "graph_version",
+        "coordinate_sha256"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "world_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "site_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "layout_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "layout_slots_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "fixed_refs_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "graph_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "coordinate_sha256": {
+          "$ref": "#/$defs/hash"
+        }
+      }
+    },
+    "style_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "visual_review_sha256": {
+      "$ref": "#/$defs/hash"
+    },
+    "catalog": {
+      "const": "world.catalog.json"
+    },
+    "load_policy": {
+      "const": "synchronous_e1_no_residency_budget"
+    },
+    "files": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 2048,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "kind",
+          "required",
+          "sha256"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "pattern": "^(?!/)(?!.*//)(?!.*(?:^|/)[.]{1,2}(?:/|$))[A-Za-z0-9_./-]+[.](json|png[.]bin)$"
+          },
+          "kind": {
+            "enum": [
+              "json",
+              "texture"
+            ]
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "sha256": {
+            "$ref": "#/$defs/hash"
+          },
+          "resource_path": {
+            "type": "string",
+            "pattern": "^(?!/)(?!.*//)(?!.*(?:^|/)[.]{1,2}(?:/|$))[A-Za-z0-9_./-]+[.]png$"
+          },
+          "pixel_sha256": {
+            "$ref": "#/$defs/hash"
+          },
+          "pixel_size": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 8192
+            }
+          },
+          "estimated_rgba8_bytes": {
+            "type": "integer",
+            "minimum": 4
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "texture"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "resource_path",
+                "pixel_sha256",
+                "pixel_size",
+                "estimated_rgba8_bytes"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "import_contract": {
+      "const": {
+        "engine_major": 4,
+        "engine_minor": 6,
+        "texture_compression": "lossless",
+        "fix_alpha_border": false,
+        "premult_alpha": false,
+        "mipmaps": false,
+        "pixel_hash": "rgba8_base_only"
+      }
+    }
+  },
+  "$defs": {
+    "hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  }
+}

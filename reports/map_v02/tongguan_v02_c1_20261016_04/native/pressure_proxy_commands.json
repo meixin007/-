@@ -1,0 +1,32 @@
+{
+	"camera": [
+		0.0,
+		-270.0,
+		0.84
+	],
+	"commands": {
+		"base:contextterrain/context.png.bin": [
+			"res://v02/c1/packages/tongguan/terrain/context.png|581298dcc52768e3aeaecae88de2c60d75658ef8c23504612657d18c08317ce0",
+			"[P: (-12000.0, 192.0), S: (24000.0, 16000.0)]",
+			"[P: (0.0, 0.0), S: (2400.0, 1600.0)]",
+			1.0
+		],
+		"object:presentation.main_corridor": [],
+		"object:presentation.main_corridor.base": [],
+		"object:presentation.main_corridor.light": [],
+		"object:presentation.socket.tongguan.slot.rear_military_01": [],
+		"object:presentation.socket.tongguan.slot.rear_storage_01": [],
+		"object:tongguan.road.connector": [],
+		"object:tongguan.road.connector.base": [],
+		"object:tongguan.road.rear": [],
+		"object:tongguan.road.rear.base": []
+	},
+	"deferred": false,
+	"detail_alpha": 0.0,
+	"fades": {
+
+	},
+	"finished": {
+
+	}
+}

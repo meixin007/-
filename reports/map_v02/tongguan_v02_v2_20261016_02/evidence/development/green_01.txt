@@ -1,0 +1,3 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+V2_CORE {"authority":"original final/controller + bound settlement facade","building_id":"tongguan.slot.rear_storage_01.building","checks":23,"economy":{"artisan_cash":120,"cash":120,"timber":60},"failures":[]}

@@ -1,0 +1,3 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+E3_CORE {"checks":0,"failures":["E3 lifecycle implementation missing"]}

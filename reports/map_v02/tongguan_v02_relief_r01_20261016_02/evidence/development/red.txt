@@ -1,0 +1,37 @@
+FFFF
+======================================================================
+FAIL: test_flat_has_no_fabricated_landforms (__main__.TerrainContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_relief_r01.py", line 10, in setUp
+    def setUp(self):self.assertIsNotNone(analyze,'height-driven relief implementation required')
+AssertionError: unexpectedly None : height-driven relief implementation required
+
+======================================================================
+FAIL: test_ridge_valley_sign (__main__.TerrainContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_relief_r01.py", line 10, in setUp
+    def setUp(self):self.assertIsNotNone(analyze,'height-driven relief implementation required')
+AssertionError: unexpectedly None : height-driven relief implementation required
+
+======================================================================
+FAIL: test_slope_aspect_controls_lighting (__main__.TerrainContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_relief_r01.py", line 10, in setUp
+    def setUp(self):self.assertIsNotNone(analyze,'height-driven relief implementation required')
+AssertionError: unexpectedly None : height-driven relief implementation required
+
+======================================================================
+FAIL: test_world_sample_is_independent_of_tile (__main__.TerrainContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\tongguan_reviewfix_20261015\tools\map_v02\test_relief_r01.py", line 10, in setUp
+    def setUp(self):self.assertIsNotNone(analyze,'height-driven relief implementation required')
+AssertionError: unexpectedly None : height-driven relief implementation required
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=4)

@@ -1,0 +1,146 @@
+{
+	"checks": 98,
+	"failures": [],
+	"observations": [
+		{
+			"build_and_check_ms": 38,
+			"candidates": 4,
+			"query_candidate_tests": 4,
+			"query_full_record_enumerations": 0,
+			"reference_full_record_enumerations": 1,
+			"telemetry": {
+				"identity": {
+					"asset_bounds_version": 1,
+					"build_id": "e2_contract",
+					"cell_m": 512,
+					"effective_revision": "1",
+					"world_id": "stream_lab_v02"
+				},
+				"index": {
+					"bucket_lookups": 1,
+					"candidate_tests": 4,
+					"candidate_union_builds": 1,
+					"delta_updates": 0,
+					"full_index_builds": 1,
+					"query_calls": 1,
+					"records_reindexed": 1000,
+					"reference_record_enumerations": 1,
+					"source_records_validated": 1000
+				},
+				"objects": 1000,
+				"planner": {
+					"plan_reuses": 0,
+					"reference_full_scans": 1,
+					"snapshot_reads": 1,
+					"sort_calls": 1,
+					"visible_plan_builds": 1
+				}
+			},
+			"total_objects": 1000,
+			"visible": 4
+		},
+		{
+			"build_and_check_ms": 444,
+			"candidates": 4,
+			"query_candidate_tests": 4,
+			"query_full_record_enumerations": 0,
+			"reference_full_record_enumerations": 1,
+			"telemetry": {
+				"identity": {
+					"asset_bounds_version": 1,
+					"build_id": "e2_contract",
+					"cell_m": 512,
+					"effective_revision": "1",
+					"world_id": "stream_lab_v02"
+				},
+				"index": {
+					"bucket_lookups": 1,
+					"candidate_tests": 4,
+					"candidate_union_builds": 1,
+					"delta_updates": 0,
+					"full_index_builds": 1,
+					"query_calls": 1,
+					"records_reindexed": 10000,
+					"reference_record_enumerations": 1,
+					"source_records_validated": 10000
+				},
+				"objects": 10000,
+				"planner": {
+					"plan_reuses": 0,
+					"reference_full_scans": 1,
+					"snapshot_reads": 1,
+					"sort_calls": 1,
+					"visible_plan_builds": 1
+				}
+			},
+			"total_objects": 10000,
+			"visible": 4
+		},
+		{
+			"build_and_check_ms": 4481,
+			"candidates": 4,
+			"query_candidate_tests": 4,
+			"query_full_record_enumerations": 0,
+			"reference_full_record_enumerations": 1,
+			"telemetry": {
+				"identity": {
+					"asset_bounds_version": 1,
+					"build_id": "e2_contract",
+					"cell_m": 512,
+					"effective_revision": "1",
+					"world_id": "stream_lab_v02"
+				},
+				"index": {
+					"bucket_lookups": 1,
+					"candidate_tests": 4,
+					"candidate_union_builds": 1,
+					"delta_updates": 0,
+					"full_index_builds": 1,
+					"query_calls": 1,
+					"records_reindexed": 100000,
+					"reference_record_enumerations": 1,
+					"source_records_validated": 100000
+				},
+				"objects": 100000,
+				"planner": {
+					"plan_reuses": 0,
+					"reference_full_scans": 1,
+					"snapshot_reads": 1,
+					"sort_calls": 1,
+					"visible_plan_builds": 1
+				}
+			},
+			"total_objects": 100000,
+			"visible": 4
+		}
+	],
+	"scope": "E2 metadata query/cache correctness; not E3 residency or nationwide frame-time acceptance",
+	"small_fixture_telemetry": {
+		"identity": {
+			"asset_bounds_version": 1,
+			"build_id": "same_local_origin",
+			"cell_m": 512,
+			"effective_revision": "1",
+			"world_id": "another_engineering_world"
+		},
+		"index": {
+			"bucket_lookups": 49,
+			"candidate_tests": 180,
+			"candidate_union_builds": 6,
+			"delta_updates": 4,
+			"full_index_builds": 2,
+			"query_calls": 47,
+			"records_reindexed": 24,
+			"reference_record_enumerations": 0,
+			"source_records_validated": 59
+		},
+		"objects": 4,
+		"planner": {
+			"plan_reuses": 72,
+			"reference_full_scans": 0,
+			"snapshot_reads": 3,
+			"sort_calls": 7,
+			"visible_plan_builds": 7
+		}
+	}
+}

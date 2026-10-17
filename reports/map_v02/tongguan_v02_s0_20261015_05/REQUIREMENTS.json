@@ -1,0 +1,12 @@
+{
+  "files": [
+    {
+      "path": "docs/map_v02/01_系统设计文档_v0.2.md",
+      "sha256": "6708feb3ea7fa8dbbc28694c13795e3b46f1a1175f09d5af1ff9600e96135083"
+    },
+    {
+      "path": "docs/map_v02/02_实施批次与首条开发任务_v0.2.md",
+      "sha256": "b315e0e9ce56204dd37bec8e694cd59c414d5b21a8e48a5052a9d56682d5d2f7"
+    }
+  ]
+}

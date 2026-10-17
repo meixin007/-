@@ -1,0 +1,522 @@
+{
+  "camera_count": 4,
+  "captures": [
+    {
+      "camera": {
+        "camera_x": 1000477044.7119,
+        "camera_y": -1999855150.48501,
+        "lod": 3,
+        "zoom": 0.84
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "composition_new",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/composition_new.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477044.7119,
+        "camera_y": -1999855150.48501,
+        "lod": 3,
+        "zoom": 0.84
+      },
+      "guides": false,
+      "legacy": true,
+      "name": "composition_legacy",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/composition_legacy.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477064.7119,
+        "camera_y": -1999854900.48501,
+        "lod": 3,
+        "zoom": 2.1
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "gate_new",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/gate_new.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477064.7119,
+        "camera_y": -1999854900.48501,
+        "lod": 3,
+        "zoom": 2.1
+      },
+      "guides": false,
+      "legacy": true,
+      "name": "gate_legacy",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/gate_legacy.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000476984.7119,
+        "camera_y": -1999855480.48501,
+        "lod": 3,
+        "zoom": 1.4
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "shore_new",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/shore_new.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000476984.7119,
+        "camera_y": -1999855480.48501,
+        "lod": 3,
+        "zoom": 1.4
+      },
+      "guides": false,
+      "legacy": true,
+      "name": "shore_legacy",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/shore_legacy.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000476554.7119,
+        "camera_y": -1999855100.48501,
+        "lod": 3,
+        "zoom": 2.4
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "courtyard_new",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/courtyard_new.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000476554.7119,
+        "camera_y": -1999855100.48501,
+        "lod": 3,
+        "zoom": 2.4
+      },
+      "guides": false,
+      "legacy": true,
+      "name": "courtyard_legacy",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/courtyard_legacy.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477064.7119,
+        "camera_y": -1999854900.48501,
+        "lod": 3,
+        "zoom": 2.1
+      },
+      "guides": true,
+      "legacy": false,
+      "name": "gate_guides",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/gate_guides.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477044.7119,
+        "camera_y": -1999855150.48501,
+        "lod": 3,
+        "zoom": 0.84
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "terrain_only",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/terrain_only.png",
+      "terrain_only": true
+    },
+    {
+      "camera": {
+        "camera_x": 1000476554.7119,
+        "camera_y": -1999855100.48501,
+        "lod": 3,
+        "zoom": 2.4
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "construction_before",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/construction_before.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000476554.7119,
+        "camera_y": -1999855100.48501,
+        "lod": 3,
+        "zoom": 2.4
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "construction_after",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/construction_after.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000476554.7119,
+        "camera_y": -1999855100.48501,
+        "lod": 3,
+        "zoom": 2.4
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "damage_placeholder",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/damage_placeholder.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000476554.7119,
+        "camera_y": -1999855100.48501,
+        "lod": 3,
+        "zoom": 2.4
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "restored",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/restored.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477046.7119,
+        "camera_y": -1999855151.48501,
+        "lod": 3,
+        "zoom": 0.84
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_00",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_00.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477048.7119,
+        "camera_y": -1999855152.48501,
+        "lod": 3,
+        "zoom": 0.886296660692724
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_01",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_01.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477050.7119,
+        "camera_y": -1999855153.48501,
+        "lod": 3,
+        "zoom": 0.931730902193388
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_02",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_02.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477052.7119,
+        "camera_y": -1999855154.48501,
+        "lod": 3,
+        "zoom": 0.975456370547722
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_03",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_03.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477054.7119,
+        "camera_y": -1999855155.48501,
+        "lod": 3,
+        "zoom": 1.01665854301205
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_04",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_04.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477056.7119,
+        "camera_y": -1999855156.48501,
+        "lod": 3,
+        "zoom": 1.05456990107086
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_05",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_05.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477058.7119,
+        "camera_y": -1999855157.48501,
+        "lod": 3,
+        "zoom": 1.08848422785456
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_06",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_06.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477060.7119,
+        "camera_y": -1999855158.48501,
+        "lod": 3,
+        "zoom": 1.11776976362355
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_07",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_07.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477062.7119,
+        "camera_y": -1999855159.48501,
+        "lod": 3,
+        "zoom": 1.14188097425681
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_08",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_08.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477064.7119,
+        "camera_y": -1999855160.48501,
+        "lod": 3,
+        "zoom": 1.1603687135204
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_09",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_09.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477066.7119,
+        "camera_y": -1999855161.48501,
+        "lod": 3,
+        "zoom": 1.17288858981199
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_10",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_10.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477068.7119,
+        "camera_y": -1999855162.48501,
+        "lod": 3,
+        "zoom": 1.17920738152478
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_11",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_11.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477070.7119,
+        "camera_y": -1999855163.48501,
+        "lod": 3,
+        "zoom": 1.17920738152478
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_12",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_12.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477072.7119,
+        "camera_y": -1999855164.48501,
+        "lod": 3,
+        "zoom": 1.17288858981199
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_13",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_13.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477074.7119,
+        "camera_y": -1999855165.48501,
+        "lod": 3,
+        "zoom": 1.1603687135204
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_14",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_14.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477076.7119,
+        "camera_y": -1999855166.48501,
+        "lod": 3,
+        "zoom": 1.14188097425681
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_15",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_15.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477078.7119,
+        "camera_y": -1999855167.48501,
+        "lod": 3,
+        "zoom": 1.11776976362355
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_16",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_16.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477080.7119,
+        "camera_y": -1999855168.48501,
+        "lod": 3,
+        "zoom": 1.08848422785456
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_17",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_17.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477082.7119,
+        "camera_y": -1999855169.48501,
+        "lod": 3,
+        "zoom": 1.05456990107086
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_18",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_18.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477084.7119,
+        "camera_y": -1999855170.48501,
+        "lod": 3,
+        "zoom": 1.01665854301205
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_19",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_19.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477086.7119,
+        "camera_y": -1999855171.48501,
+        "lod": 3,
+        "zoom": 0.975456370547722
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_20",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_20.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477088.7119,
+        "camera_y": -1999855172.48501,
+        "lod": 3,
+        "zoom": 0.931730902193388
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_21",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_21.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477090.7119,
+        "camera_y": -1999855173.48501,
+        "lod": 3,
+        "zoom": 0.886296660692724
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_22",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_22.png",
+      "terrain_only": false
+    },
+    {
+      "camera": {
+        "camera_x": 1000477092.7119,
+        "camera_y": -1999855174.48501,
+        "lod": 3,
+        "zoom": 0.84
+      },
+      "guides": false,
+      "legacy": false,
+      "name": "sequence_23",
+      "path": "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01/sequence_23.png",
+      "terrain_only": false
+    }
+  ],
+  "checks": 84,
+  "damage_art": "placeholder_only",
+  "failures": [],
+  "scope": "V1 composition review; no streaming or capacity claim",
+  "style_id": "tang_ink_wash_v02_candidate_a01",
+  "visual_review": "pending",
+  "command": [
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\Windows\\TongguanV1.exe",
+    "--fullscreen",
+    "--log-file",
+    "H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01\\runtime.log",
+    "--",
+    "--v1-capture",
+    "--report=H:\\tongguan_reviewfix_20261015\\review-work\\map_v02\\tongguan_v02_v1_20261015_04\\capture_01\\result.json"
+  ],
+  "exit_code": 0,
+  "diagnostics": [],
+  "seconds": 17.234000000004016,
+  "technical_passed": true,
+  "artifacts": {
+    "TongguanV1.exe": "6a0266cb7571aa4d437a32094acd353f020c77dcf7ff5a3305ae45d0609e5c20",
+    "TongguanV1.pck": "b496eb831a5e29e851030872688bc6d9ff310ea2573b95c48f9af4bba91e995c"
+  }
+}

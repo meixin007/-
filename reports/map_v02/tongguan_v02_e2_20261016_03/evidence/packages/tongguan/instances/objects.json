@@ -1,0 +1,4656 @@
+{
+  "schema_version": 1,
+  "objects": [
+    {
+      "id": "manual.1",
+      "source_key": "manual.1",
+      "record_type": "sprite",
+      "position_m": [
+        -2700.0,
+        1250.0
+      ],
+      "owner": [
+        -6,
+        2
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2740.0,
+        1187.6,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1250.0,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [],
+        "id": "manual.1",
+        "kind": "forest",
+        "position_m": [
+          -2700.0,
+          1250.0
+        ],
+        "region_id": "manual",
+        "source_key": "manual.1",
+        "source_seed": 0.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.0.4",
+      "source_key": "tongguan.decor.forest_east.0.4",
+      "record_type": "sprite",
+      "position_m": [
+        1109.24,
+        1145.137
+      ],
+      "owner": [
+        2,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1069.24,
+        1082.7369999999999,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1145.137,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          0.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.0.4",
+        "kind": "forest",
+        "position_m": [
+          1109.24,
+          1145.137
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.0.4",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.0.6",
+      "source_key": "tongguan.decor.forest_east.0.6",
+      "record_type": "sprite",
+      "position_m": [
+        1064.02,
+        1404.941
+      ],
+      "owner": [
+        2,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1024.02,
+        1342.541,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1404.941,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          0.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.0.6",
+        "kind": "forest",
+        "position_m": [
+          1064.02,
+          1404.941
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.0.6",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.1.1",
+      "source_key": "tongguan.decor.forest_east.1.1",
+      "record_type": "sprite",
+      "position_m": [
+        1201.439,
+        694.401
+      ],
+      "owner": [
+        2,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1161.439,
+        632.001,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 694.401,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          1.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.1.1",
+        "kind": "forest",
+        "position_m": [
+          1201.439,
+          694.401
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.1.1",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.1.3",
+      "source_key": "tongguan.decor.forest_east.1.3",
+      "record_type": "sprite",
+      "position_m": [
+        1212.396,
+        984.824
+      ],
+      "owner": [
+        2,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1172.396,
+        922.424,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 984.824,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          1.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_east.1.3",
+        "kind": "forest",
+        "position_m": [
+          1212.396,
+          984.824
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.1.3",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.1.4",
+      "source_key": "tongguan.decor.forest_east.1.4",
+      "record_type": "sprite",
+      "position_m": [
+        1231.202,
+        1132.186
+      ],
+      "owner": [
+        2,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1191.202,
+        1069.7859999999998,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1132.186,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          1.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.1.4",
+        "kind": "forest",
+        "position_m": [
+          1231.202,
+          1132.186
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.1.4",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.1.5",
+      "source_key": "tongguan.decor.forest_east.1.5",
+      "record_type": "sprite",
+      "position_m": [
+        1229.874,
+        1278.341
+      ],
+      "owner": [
+        2,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1189.874,
+        1215.9409999999998,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1278.341,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          1.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.1.5",
+        "kind": "forest",
+        "position_m": [
+          1229.874,
+          1278.341
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.1.5",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.1.6",
+      "source_key": "tongguan.decor.forest_east.1.6",
+      "record_type": "sprite",
+      "position_m": [
+        1236.069,
+        1415.883
+      ],
+      "owner": [
+        2,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1196.069,
+        1353.483,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1415.883,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          1.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.1.6",
+        "kind": "forest",
+        "position_m": [
+          1236.069,
+          1415.883
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.1.6",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.2.0",
+      "source_key": "tongguan.decor.forest_east.2.0",
+      "record_type": "sprite",
+      "position_m": [
+        1350.072,
+        507.462
+      ],
+      "owner": [
+        2,
+        0
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1310.072,
+        445.062,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 507.462,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          2.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_east.2.0",
+        "kind": "forest",
+        "position_m": [
+          1350.072,
+          507.462
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.2.0",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.2.1",
+      "source_key": "tongguan.decor.forest_east.2.1",
+      "record_type": "sprite",
+      "position_m": [
+        1351.071,
+        646.996
+      ],
+      "owner": [
+        2,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1311.071,
+        584.596,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 646.996,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          2.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.2.1",
+        "kind": "forest",
+        "position_m": [
+          1351.071,
+          646.996
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.2.1",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.2.2",
+      "source_key": "tongguan.decor.forest_east.2.2",
+      "record_type": "sprite",
+      "position_m": [
+        1409.142,
+        860.623
+      ],
+      "owner": [
+        2,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1369.142,
+        798.2230000000001,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 860.623,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          2.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.2.2",
+        "kind": "forest",
+        "position_m": [
+          1409.142,
+          860.623
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.2.2",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.2.4",
+      "source_key": "tongguan.decor.forest_east.2.4",
+      "record_type": "sprite",
+      "position_m": [
+        1347.695,
+        1161.025
+      ],
+      "owner": [
+        2,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1307.695,
+        1098.625,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1161.025,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          2.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.2.4",
+        "kind": "forest",
+        "position_m": [
+          1347.695,
+          1161.025
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.2.4",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.2.5",
+      "source_key": "tongguan.decor.forest_east.2.5",
+      "record_type": "sprite",
+      "position_m": [
+        1380.413,
+        1288.624
+      ],
+      "owner": [
+        2,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1340.413,
+        1226.224,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1288.624,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          2.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.2.5",
+        "kind": "forest",
+        "position_m": [
+          1380.413,
+          1288.624
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.2.5",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.3.0",
+      "source_key": "tongguan.decor.forest_east.3.0",
+      "record_type": "sprite",
+      "position_m": [
+        1535.756,
+        526.373
+      ],
+      "owner": [
+        2,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1495.756,
+        463.97300000000007,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 526.373,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          3.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_east.3.0",
+        "kind": "forest",
+        "position_m": [
+          1535.756,
+          526.373
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.3.0",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.3.1",
+      "source_key": "tongguan.decor.forest_east.3.1",
+      "record_type": "sprite",
+      "position_m": [
+        1545.976,
+        710.121
+      ],
+      "owner": [
+        3,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1505.976,
+        647.721,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 710.121,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          3.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.3.1",
+        "kind": "forest",
+        "position_m": [
+          1545.976,
+          710.121
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.3.1",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.3.2",
+      "source_key": "tongguan.decor.forest_east.3.2",
+      "record_type": "sprite",
+      "position_m": [
+        1523.559,
+        819.312
+      ],
+      "owner": [
+        2,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1483.559,
+        756.912,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 819.312,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          3.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.3.2",
+        "kind": "forest",
+        "position_m": [
+          1523.559,
+          819.312
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.3.2",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.3.5",
+      "source_key": "tongguan.decor.forest_east.3.5",
+      "record_type": "sprite",
+      "position_m": [
+        1541.88,
+        1241.194
+      ],
+      "owner": [
+        3,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1501.88,
+        1178.7939999999999,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1241.194,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          3.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.3.5",
+        "kind": "forest",
+        "position_m": [
+          1541.88,
+          1241.194
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.3.5",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.3.6",
+      "source_key": "tongguan.decor.forest_east.3.6",
+      "record_type": "sprite",
+      "position_m": [
+        1547.981,
+        1402.289
+      ],
+      "owner": [
+        3,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1507.981,
+        1339.889,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1402.289,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          3.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.3.6",
+        "kind": "forest",
+        "position_m": [
+          1547.981,
+          1402.289
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.3.6",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.4.0",
+      "source_key": "tongguan.decor.forest_east.4.0",
+      "record_type": "sprite",
+      "position_m": [
+        1690.837,
+        521.359
+      ],
+      "owner": [
+        3,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1650.837,
+        458.95900000000006,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 521.359,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          4.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_east.4.0",
+        "kind": "forest",
+        "position_m": [
+          1690.837,
+          521.359
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.4.0",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.4.1",
+      "source_key": "tongguan.decor.forest_east.4.1",
+      "record_type": "sprite",
+      "position_m": [
+        1665.342,
+        666.084
+      ],
+      "owner": [
+        3,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1625.342,
+        603.684,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 666.084,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          4.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.4.1",
+        "kind": "forest",
+        "position_m": [
+          1665.342,
+          666.084
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.4.1",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.4.2",
+      "source_key": "tongguan.decor.forest_east.4.2",
+      "record_type": "sprite",
+      "position_m": [
+        1675.939,
+        833.98
+      ],
+      "owner": [
+        3,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1635.939,
+        771.58,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 833.98,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          4.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.4.2",
+        "kind": "forest",
+        "position_m": [
+          1675.939,
+          833.98
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.4.2",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.4.5",
+      "source_key": "tongguan.decor.forest_east.4.5",
+      "record_type": "sprite",
+      "position_m": [
+        1663.318,
+        1307.767
+      ],
+      "owner": [
+        3,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1623.318,
+        1245.367,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1307.767,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          4.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.4.5",
+        "kind": "forest",
+        "position_m": [
+          1663.318,
+          1307.767
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.4.5",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.5.0",
+      "source_key": "tongguan.decor.forest_east.5.0",
+      "record_type": "sprite",
+      "position_m": [
+        1835.142,
+        526.596
+      ],
+      "owner": [
+        3,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1795.142,
+        464.196,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 526.596,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          5.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_east.5.0",
+        "kind": "forest",
+        "position_m": [
+          1835.142,
+          526.596
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.5.0",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.5.2",
+      "source_key": "tongguan.decor.forest_east.5.2",
+      "record_type": "sprite",
+      "position_m": [
+        1826.362,
+        862.5
+      ],
+      "owner": [
+        3,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1786.362,
+        800.1,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 862.5,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          5.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.5.2",
+        "kind": "forest",
+        "position_m": [
+          1826.362,
+          862.5
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.5.2",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.5.3",
+      "source_key": "tongguan.decor.forest_east.5.3",
+      "record_type": "sprite",
+      "position_m": [
+        1803.213,
+        975.673
+      ],
+      "owner": [
+        3,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1763.213,
+        913.273,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 975.673,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          5.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_east.5.3",
+        "kind": "forest",
+        "position_m": [
+          1803.213,
+          975.673
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.5.3",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.5.5",
+      "source_key": "tongguan.decor.forest_east.5.5",
+      "record_type": "sprite",
+      "position_m": [
+        1813.333,
+        1296.108
+      ],
+      "owner": [
+        3,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1773.333,
+        1233.7079999999999,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1296.108,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          5.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.5.5",
+        "kind": "forest",
+        "position_m": [
+          1813.333,
+          1296.108
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.5.5",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.5.6",
+      "source_key": "tongguan.decor.forest_east.5.6",
+      "record_type": "sprite",
+      "position_m": [
+        1844.189,
+        1416.671
+      ],
+      "owner": [
+        3,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1804.189,
+        1354.271,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1416.671,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          5.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.5.6",
+        "kind": "forest",
+        "position_m": [
+          1844.189,
+          1416.671
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.5.6",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.6.1",
+      "source_key": "tongguan.decor.forest_east.6.1",
+      "record_type": "sprite",
+      "position_m": [
+        1942.574,
+        649.178
+      ],
+      "owner": [
+        3,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1902.574,
+        586.778,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 649.178,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          6.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.6.1",
+        "kind": "forest",
+        "position_m": [
+          1942.574,
+          649.178
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.6.1",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.6.2",
+      "source_key": "tongguan.decor.forest_east.6.2",
+      "record_type": "sprite",
+      "position_m": [
+        1943.01,
+        812.708
+      ],
+      "owner": [
+        3,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1903.01,
+        750.308,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 812.708,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          6.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.6.2",
+        "kind": "forest",
+        "position_m": [
+          1943.01,
+          812.708
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.6.2",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.6.4",
+      "source_key": "tongguan.decor.forest_east.6.4",
+      "record_type": "sprite",
+      "position_m": [
+        1942.8,
+        1161.245
+      ],
+      "owner": [
+        3,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1902.8,
+        1098.8449999999998,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1161.245,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          6.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.6.4",
+        "kind": "forest",
+        "position_m": [
+          1942.8,
+          1161.245
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.6.4",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.6.5",
+      "source_key": "tongguan.decor.forest_east.6.5",
+      "record_type": "sprite",
+      "position_m": [
+        1983.633,
+        1270.517
+      ],
+      "owner": [
+        3,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        1943.633,
+        1208.117,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1270.517,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          6.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.6.5",
+        "kind": "forest",
+        "position_m": [
+          1983.633,
+          1270.517
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.6.5",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.7.1",
+      "source_key": "tongguan.decor.forest_east.7.1",
+      "record_type": "sprite",
+      "position_m": [
+        2136.943,
+        694.135
+      ],
+      "owner": [
+        4,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        2096.943,
+        631.735,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 694.135,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          7.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.7.1",
+        "kind": "forest",
+        "position_m": [
+          2136.943,
+          694.135
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.7.1",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.7.2",
+      "source_key": "tongguan.decor.forest_east.7.2",
+      "record_type": "sprite",
+      "position_m": [
+        2119.316,
+        858.695
+      ],
+      "owner": [
+        4,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        2079.316,
+        796.2950000000001,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 858.695,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          7.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.7.2",
+        "kind": "forest",
+        "position_m": [
+          2119.316,
+          858.695
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.7.2",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.7.3",
+      "source_key": "tongguan.decor.forest_east.7.3",
+      "record_type": "sprite",
+      "position_m": [
+        2102.395,
+        976.435
+      ],
+      "owner": [
+        4,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        2062.395,
+        914.035,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 976.435,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          7.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_east.7.3",
+        "kind": "forest",
+        "position_m": [
+          2102.395,
+          976.435
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.7.3",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.7.4",
+      "source_key": "tongguan.decor.forest_east.7.4",
+      "record_type": "sprite",
+      "position_m": [
+        2125.669,
+        1108.093
+      ],
+      "owner": [
+        4,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        2085.669,
+        1045.693,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1108.093,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          7.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.7.4",
+        "kind": "forest",
+        "position_m": [
+          2125.669,
+          1108.093
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.7.4",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.7.5",
+      "source_key": "tongguan.decor.forest_east.7.5",
+      "record_type": "sprite",
+      "position_m": [
+        2114.444,
+        1276.332
+      ],
+      "owner": [
+        4,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        2074.444,
+        1213.932,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1276.332,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          7.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.7.5",
+        "kind": "forest",
+        "position_m": [
+          2114.444,
+          1276.332
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.7.5",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.8.0",
+      "source_key": "tongguan.decor.forest_east.8.0",
+      "record_type": "sprite",
+      "position_m": [
+        2299.345,
+        535.077
+      ],
+      "owner": [
+        4,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        2259.345,
+        472.677,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 535.077,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          8.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_east.8.0",
+        "kind": "forest",
+        "position_m": [
+          2299.345,
+          535.077
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.8.0",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.8.1",
+      "source_key": "tongguan.decor.forest_east.8.1",
+      "record_type": "sprite",
+      "position_m": [
+        2239.298,
+        688.778
+      ],
+      "owner": [
+        4,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        2199.298,
+        626.378,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 688.778,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          8.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.8.1",
+        "kind": "forest",
+        "position_m": [
+          2239.298,
+          688.778
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.8.1",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.8.3",
+      "source_key": "tongguan.decor.forest_east.8.3",
+      "record_type": "sprite",
+      "position_m": [
+        2277.111,
+        945.062
+      ],
+      "owner": [
+        4,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        2237.111,
+        882.662,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 945.062,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          8.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_east.8.3",
+        "kind": "forest",
+        "position_m": [
+          2277.111,
+          945.062
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.8.3",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.8.5",
+      "source_key": "tongguan.decor.forest_east.8.5",
+      "record_type": "sprite",
+      "position_m": [
+        2241.08,
+        1272.854
+      ],
+      "owner": [
+        4,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        2201.08,
+        1210.454,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1272.854,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          8.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.8.5",
+        "kind": "forest",
+        "position_m": [
+          2241.08,
+          1272.854
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.8.5",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.8.6",
+      "source_key": "tongguan.decor.forest_east.8.6",
+      "record_type": "sprite",
+      "position_m": [
+        2290.179,
+        1403.554
+      ],
+      "owner": [
+        4,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        2250.179,
+        1341.154,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1403.554,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          8.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.8.6",
+        "kind": "forest",
+        "position_m": [
+          2290.179,
+          1403.554
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.8.6",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.9.1",
+      "source_key": "tongguan.decor.forest_east.9.1",
+      "record_type": "sprite",
+      "position_m": [
+        2411.533,
+        702.272
+      ],
+      "owner": [
+        4,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        2371.533,
+        639.8720000000001,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 702.272,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          9.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_east.9.1",
+        "kind": "forest",
+        "position_m": [
+          2411.533,
+          702.272
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.9.1",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.9.2",
+      "source_key": "tongguan.decor.forest_east.9.2",
+      "record_type": "sprite",
+      "position_m": [
+        2394.88,
+        861.115
+      ],
+      "owner": [
+        4,
+        1
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        2354.88,
+        798.715,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 861.115,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          9.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_east.9.2",
+        "kind": "forest",
+        "position_m": [
+          2394.88,
+          861.115
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.9.2",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.9.4",
+      "source_key": "tongguan.decor.forest_east.9.4",
+      "record_type": "sprite",
+      "position_m": [
+        2412.463,
+        1154.812
+      ],
+      "owner": [
+        4,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        2372.463,
+        1092.4119999999998,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1154.812,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          9.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_east.9.4",
+        "kind": "forest",
+        "position_m": [
+          2412.463,
+          1154.812
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.9.4",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.9.5",
+      "source_key": "tongguan.decor.forest_east.9.5",
+      "record_type": "sprite",
+      "position_m": [
+        2461.756,
+        1303.006
+      ],
+      "owner": [
+        4,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        2421.756,
+        1240.606,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1303.006,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          9.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_east.9.5",
+        "kind": "forest",
+        "position_m": [
+          2461.756,
+          1303.006
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.9.5",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_east.9.6",
+      "source_key": "tongguan.decor.forest_east.9.6",
+      "record_type": "sprite",
+      "position_m": [
+        2446.927,
+        1394.767
+      ],
+      "owner": [
+        4,
+        2
+      ],
+      "asset_id": "tree_willow",
+      "paint_bounds_m": [
+        2406.927,
+        1332.367,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1394.767,
+      "source_record": {
+        "asset_version": 1.0,
+        "grid": [
+          9.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_east.9.6",
+        "kind": "forest",
+        "position_m": [
+          2446.927,
+          1394.767
+        ],
+        "region_id": "forest_east",
+        "source_key": "tongguan.decor.forest_east.9.6",
+        "source_seed": 10321.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.0.0",
+      "source_key": "tongguan.decor.forest_west.0.0",
+      "record_type": "sprite",
+      "position_m": [
+        -2941.126,
+        175.029
+      ],
+      "owner": [
+        -6,
+        0
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2981.126,
+        112.62899999999999,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 175.029,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          0.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_west.0.0",
+        "kind": "forest",
+        "position_m": [
+          -2941.126,
+          175.029
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.0.0",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.0.1",
+      "source_key": "tongguan.decor.forest_west.0.1",
+      "record_type": "sprite",
+      "position_m": [
+        -2902.922,
+        350.708
+      ],
+      "owner": [
+        -6,
+        0
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2942.922,
+        288.308,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 350.708,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          0.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_west.0.1",
+        "kind": "forest",
+        "position_m": [
+          -2902.922,
+          350.708
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.0.1",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.0.2",
+      "source_key": "tongguan.decor.forest_west.0.2",
+      "record_type": "sprite",
+      "position_m": [
+        -2888.153,
+        496.703
+      ],
+      "owner": [
+        -6,
+        0
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2928.153,
+        434.303,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 496.703,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          0.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_west.0.2",
+        "kind": "forest",
+        "position_m": [
+          -2888.153,
+          496.703
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.0.2",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.0.3",
+      "source_key": "tongguan.decor.forest_west.0.3",
+      "record_type": "sprite",
+      "position_m": [
+        -2933.956,
+        635.219
+      ],
+      "owner": [
+        -6,
+        1
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2973.956,
+        572.8190000000001,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 635.219,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          0.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_west.0.3",
+        "kind": "forest",
+        "position_m": [
+          -2933.956,
+          635.219
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.0.3",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.1.0",
+      "source_key": "tongguan.decor.forest_west.1.0",
+      "record_type": "sprite",
+      "position_m": [
+        -2811.8,
+        171.634
+      ],
+      "owner": [
+        -6,
+        0
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2851.8,
+        109.23399999999998,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 171.634,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          1.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_west.1.0",
+        "kind": "forest",
+        "position_m": [
+          -2811.8,
+          171.634
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.1.0",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.1.1",
+      "source_key": "tongguan.decor.forest_west.1.1",
+      "record_type": "sprite",
+      "position_m": [
+        -2773.348,
+        294.455
+      ],
+      "owner": [
+        -6,
+        0
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2813.348,
+        232.05499999999998,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 294.455,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          1.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_west.1.1",
+        "kind": "forest",
+        "position_m": [
+          -2773.348,
+          294.455
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.1.1",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.2.4",
+      "source_key": "tongguan.decor.forest_west.2.4",
+      "record_type": "sprite",
+      "position_m": [
+        -2657.395,
+        746.714
+      ],
+      "owner": [
+        -6,
+        1
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2697.395,
+        684.3140000000001,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 746.714,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          2.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_west.2.4",
+        "kind": "forest",
+        "position_m": [
+          -2657.395,
+          746.714
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.2.4",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.2.6",
+      "source_key": "tongguan.decor.forest_west.2.6",
+      "record_type": "sprite",
+      "position_m": [
+        -2629.462,
+        1047.871
+      ],
+      "owner": [
+        -6,
+        2
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2669.462,
+        985.4710000000001,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1047.871,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          2.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_west.2.6",
+        "kind": "forest",
+        "position_m": [
+          -2629.462,
+          1047.871
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.2.6",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.3.5",
+      "source_key": "tongguan.decor.forest_west.3.5",
+      "record_type": "sprite",
+      "position_m": [
+        -2487.014,
+        961.589
+      ],
+      "owner": [
+        -5,
+        1
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2527.014,
+        899.1890000000001,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 961.589,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          3.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_west.3.5",
+        "kind": "forest",
+        "position_m": [
+          -2487.014,
+          961.589
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.3.5",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.3.6",
+      "source_key": "tongguan.decor.forest_west.3.6",
+      "record_type": "sprite",
+      "position_m": [
+        -2477.506,
+        1099.26
+      ],
+      "owner": [
+        -5,
+        2
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2517.506,
+        1036.86,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1099.26,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          3.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_west.3.6",
+        "kind": "forest",
+        "position_m": [
+          -2477.506,
+          1099.26
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.3.6",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.4.6",
+      "source_key": "tongguan.decor.forest_west.4.6",
+      "record_type": "sprite",
+      "position_m": [
+        -2351.85,
+        1078.013
+      ],
+      "owner": [
+        -5,
+        2
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2391.85,
+        1015.6129999999999,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1078.013,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          4.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_west.4.6",
+        "kind": "forest",
+        "position_m": [
+          -2351.85,
+          1078.013
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.4.6",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.4.7",
+      "source_key": "tongguan.decor.forest_west.4.7",
+      "record_type": "sprite",
+      "position_m": [
+        -2292.674,
+        1253.984
+      ],
+      "owner": [
+        -5,
+        2
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2332.674,
+        1191.5839999999998,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1253.984,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          4.0,
+          7.0
+        ],
+        "id": "tongguan.decor.forest_west.4.7",
+        "kind": "forest",
+        "position_m": [
+          -2292.674,
+          1253.984
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.4.7",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.5.1",
+      "source_key": "tongguan.decor.forest_west.5.1",
+      "record_type": "sprite",
+      "position_m": [
+        -2155.408,
+        331.406
+      ],
+      "owner": [
+        -5,
+        0
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2195.408,
+        269.006,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 331.406,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          5.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_west.5.1",
+        "kind": "forest",
+        "position_m": [
+          -2155.408,
+          331.406
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.5.1",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.5.5",
+      "source_key": "tongguan.decor.forest_west.5.5",
+      "record_type": "sprite",
+      "position_m": [
+        -2158.791,
+        927.576
+      ],
+      "owner": [
+        -5,
+        1
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2198.791,
+        865.176,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 927.576,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          5.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_west.5.5",
+        "kind": "forest",
+        "position_m": [
+          -2158.791,
+          927.576
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.5.5",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.5.6",
+      "source_key": "tongguan.decor.forest_west.5.6",
+      "record_type": "sprite",
+      "position_m": [
+        -2137.624,
+        1065.188
+      ],
+      "owner": [
+        -5,
+        2
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2177.624,
+        1002.7880000000001,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 1065.188,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          5.0,
+          6.0
+        ],
+        "id": "tongguan.decor.forest_west.5.6",
+        "kind": "forest",
+        "position_m": [
+          -2137.624,
+          1065.188
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.5.6",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.6.3",
+      "source_key": "tongguan.decor.forest_west.6.3",
+      "record_type": "sprite",
+      "position_m": [
+        -2050.046,
+        602.246
+      ],
+      "owner": [
+        -5,
+        1
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2090.046,
+        539.846,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 602.246,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          6.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_west.6.3",
+        "kind": "forest",
+        "position_m": [
+          -2050.046,
+          602.246
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.6.3",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.6.5",
+      "source_key": "tongguan.decor.forest_west.6.5",
+      "record_type": "sprite",
+      "position_m": [
+        -2045.021,
+        901.012
+      ],
+      "owner": [
+        -4,
+        1
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -2085.0209999999997,
+        838.612,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 901.012,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          6.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_west.6.5",
+        "kind": "forest",
+        "position_m": [
+          -2045.021,
+          901.012
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.6.5",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.7.0",
+      "source_key": "tongguan.decor.forest_west.7.0",
+      "record_type": "sprite",
+      "position_m": [
+        -1862.95,
+        182.336
+      ],
+      "owner": [
+        -4,
+        0
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -1902.95,
+        119.936,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 182.336,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          7.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_west.7.0",
+        "kind": "forest",
+        "position_m": [
+          -1862.95,
+          182.336
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.7.0",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.7.1",
+      "source_key": "tongguan.decor.forest_west.7.1",
+      "record_type": "sprite",
+      "position_m": [
+        -1859.434,
+        289.664
+      ],
+      "owner": [
+        -4,
+        0
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -1899.434,
+        227.26399999999998,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 289.664,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          7.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_west.7.1",
+        "kind": "forest",
+        "position_m": [
+          -1859.434,
+          289.664
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.7.1",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.7.4",
+      "source_key": "tongguan.decor.forest_west.7.4",
+      "record_type": "sprite",
+      "position_m": [
+        -1897.811,
+        746.286
+      ],
+      "owner": [
+        -4,
+        1
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -1937.811,
+        683.886,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 746.286,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          7.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_west.7.4",
+        "kind": "forest",
+        "position_m": [
+          -1897.811,
+          746.286
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.7.4",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.8.0",
+      "source_key": "tongguan.decor.forest_west.8.0",
+      "record_type": "sprite",
+      "position_m": [
+        -1740.621,
+        190.021
+      ],
+      "owner": [
+        -4,
+        0
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -1780.621,
+        127.62099999999998,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 190.021,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          8.0,
+          0.0
+        ],
+        "id": "tongguan.decor.forest_west.8.0",
+        "kind": "forest",
+        "position_m": [
+          -1740.621,
+          190.021
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.8.0",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.8.1",
+      "source_key": "tongguan.decor.forest_west.8.1",
+      "record_type": "sprite",
+      "position_m": [
+        -1746.444,
+        304.742
+      ],
+      "owner": [
+        -4,
+        0
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -1786.444,
+        242.342,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 304.742,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          8.0,
+          1.0
+        ],
+        "id": "tongguan.decor.forest_west.8.1",
+        "kind": "forest",
+        "position_m": [
+          -1746.444,
+          304.742
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.8.1",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.8.2",
+      "source_key": "tongguan.decor.forest_west.8.2",
+      "record_type": "sprite",
+      "position_m": [
+        -1757.997,
+        501.263
+      ],
+      "owner": [
+        -4,
+        0
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -1797.997,
+        438.86299999999994,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 501.263,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          8.0,
+          2.0
+        ],
+        "id": "tongguan.decor.forest_west.8.2",
+        "kind": "forest",
+        "position_m": [
+          -1757.997,
+          501.263
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.8.2",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.8.4",
+      "source_key": "tongguan.decor.forest_west.8.4",
+      "record_type": "sprite",
+      "position_m": [
+        -1735.803,
+        761.709
+      ],
+      "owner": [
+        -4,
+        1
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -1775.803,
+        699.309,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 761.709,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          8.0,
+          4.0
+        ],
+        "id": "tongguan.decor.forest_west.8.4",
+        "kind": "forest",
+        "position_m": [
+          -1735.803,
+          761.709
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.8.4",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.8.5",
+      "source_key": "tongguan.decor.forest_west.8.5",
+      "record_type": "sprite",
+      "position_m": [
+        -1695.467,
+        950.837
+      ],
+      "owner": [
+        -4,
+        1
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -1735.467,
+        888.437,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 950.837,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          8.0,
+          5.0
+        ],
+        "id": "tongguan.decor.forest_west.8.5",
+        "kind": "forest",
+        "position_m": [
+          -1695.467,
+          950.837
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.8.5",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.decor.forest_west.9.3",
+      "source_key": "tongguan.decor.forest_west.9.3",
+      "record_type": "sprite",
+      "position_m": [
+        -1541.631,
+        631.977
+      ],
+      "owner": [
+        -4,
+        1
+      ],
+      "asset_id": "tree_grove",
+      "paint_bounds_m": [
+        -1581.631,
+        569.577,
+        80.0,
+        80.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -50,
+        -50,
+        100,
+        100
+      ],
+      "render_plane": 2,
+      "ground_depth": 631.977,
+      "source_record": {
+        "asset_version": 2.0,
+        "grid": [
+          9.0,
+          3.0
+        ],
+        "id": "tongguan.decor.forest_west.9.3",
+        "kind": "forest",
+        "position_m": [
+          -1541.631,
+          631.977
+        ],
+        "region_id": "forest_west",
+        "source_key": "tongguan.decor.forest_west.9.3",
+        "source_seed": 17001.0
+      }
+    },
+    {
+      "id": "tongguan.gate.main",
+      "source_key": "tongguan.gate.main",
+      "record_type": "sprite",
+      "position_m": [
+        0,
+        0
+      ],
+      "owner": [
+        0,
+        0
+      ],
+      "asset_id": "gate",
+      "paint_bounds_m": [
+        -142.87109375,
+        -148.2421875,
+        330.0,
+        220.0
+      ],
+      "ground_footprint_m": [
+        [
+          -10,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          -10,
+          5
+        ]
+      ],
+      "protection_envelope_m": [
+        -165,
+        -30,
+        330,
+        60
+      ],
+      "render_plane": 2,
+      "ground_depth": 0,
+      "source_record": {}
+    },
+    {
+      "id": "presentation.main_corridor",
+      "source_key": "presentation.main_corridor",
+      "record_type": "polyline",
+      "position_m": [
+        -12000.0,
+        700.0
+      ],
+      "owner": [
+        -24,
+        1
+      ],
+      "points_m": [
+        [
+          -12000.0,
+          700.0
+        ],
+        [
+          -7000.0,
+          180.0
+        ],
+        [
+          -4000.0,
+          -100.0
+        ],
+        [
+          -2000.0,
+          -140.0
+        ],
+        [
+          -700.0,
+          -80.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          700.0,
+          80.0
+        ],
+        [
+          1800.0,
+          180.0
+        ],
+        [
+          3500.0,
+          400.0
+        ],
+        [
+          6000.0,
+          850.0
+        ],
+        [
+          9000.0,
+          1300.0
+        ],
+        [
+          12000.0,
+          1700.0
+        ]
+      ],
+      "color": "d2bb8c",
+      "width_m": 9,
+      "paint_bounds_m": [
+        -12009.0,
+        -149.0,
+        24018.0,
+        1858.0
+      ],
+      "render_plane": 1,
+      "ground_depth": 700.0
+    },
+    {
+      "id": "tongguan.road.rear",
+      "source_key": "tongguan.road.rear",
+      "record_type": "polyline",
+      "position_m": [
+        -620.0,
+        -205.0
+      ],
+      "owner": [
+        -2,
+        -1
+      ],
+      "points_m": [
+        [
+          -620.0,
+          -205.0
+        ],
+        [
+          -340.0,
+          -205.0
+        ]
+      ],
+      "color": "d2bb8c",
+      "width_m": 6,
+      "paint_bounds_m": [
+        -626.0,
+        -211.0,
+        292.0,
+        12.0
+      ],
+      "render_plane": 1,
+      "ground_depth": -205.0
+    },
+    {
+      "id": "tongguan.road.connector",
+      "source_key": "tongguan.road.connector",
+      "record_type": "polyline",
+      "position_m": [
+        -620.0,
+        -205.0
+      ],
+      "owner": [
+        -2,
+        -1
+      ],
+      "points_m": [
+        [
+          -620.0,
+          -205.0
+        ],
+        [
+          -610.0,
+          -140.0
+        ],
+        [
+          -620.0,
+          -70.857142857
+        ]
+      ],
+      "color": "d2bb8c",
+      "width_m": 6,
+      "paint_bounds_m": [
+        -626.0,
+        -211.0,
+        22.0,
+        146.14285714300001
+      ],
+      "render_plane": 1,
+      "ground_depth": -205.0
+    }
+  ]
+}
